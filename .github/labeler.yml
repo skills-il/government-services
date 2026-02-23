@@ -1,0 +1,7 @@
+israel-gov-api:
+  - changed-files:
+    - any-glob-to-any-file: 'israel-gov-api/**'
+
+israeli-address-autocomplete:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-address-autocomplete/**'
