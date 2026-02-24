@@ -5,15 +5,35 @@ description: >-
   regulatory compliance. Use when user asks about Israeli property, "nadlan",
   "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental
   agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers
-  buying, selling, and renting in Israel. Do NOT use for non-Israeli real
-  estate markets.
+  buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate
+  markets.
 license: MIT
-compatibility: "Network access helpful for data lookups. Enhanced by remy-mcp for land tenders."
+compatibility: >-
+  Network access helpful for data lookups. Enhanced by remy-mcp for land
+  tenders.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [real-estate, property, nadlan, tabu, mas-rechisha, israel]
+  tags:
+    - real-estate
+    - property
+    - nadlan
+    - tabu
+    - mas-rechisha
+    - israel
+  display_name:
+    he: נדל"ן בישראל
+    en: Israeli Real Estate
+  display_description:
+    he: 'נתוני נדל"ן, הערכות שווי נכסים ומידע על עסקאות'
+    en: >-
+      Israeli real estate data, property valuation, transaction guidance, and
+      regulatory compliance. Use when user asks about Israeli property,
+      "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu
+      extract, rental agreements, mortgage (mashkanta), or Israel Land Authority
+      tenders. Covers buying, selling, and renting in Israel. Do NOT use for
+      non-Israeli real estate markets.
 ---
 
 # Israeli Real Estate
