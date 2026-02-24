@@ -1,20 +1,37 @@
 ---
 name: israeli-company-lookup
 description: >-
-  Look up Israeli company information and understand business entity types.
-  Use when user asks about Israeli companies, "chevra", business registration,
-  "Rasham HaChevarot", company numbers, entity types, or needs to register
-  a business in Israel. Covers Ltd companies, partnerships, non-profits (amuta),
+  Look up Israeli company information and understand business entity types. Use
+  when user asks about Israeli companies, "chevra", business registration,
+  "Rasham HaChevarot", company numbers, entity types, or needs to register a
+  business in Israel. Covers Ltd companies, partnerships, non-profits (amuta),
   cooperatives, and sole proprietors. Do NOT use for non-Israeli corporate
   registries or stock market analysis.
 license: MIT
-allowed-tools: "WebFetch"
-compatibility: "Network access helpful for registrar lookups."
+allowed-tools: WebFetch
+compatibility: Network access helpful for registrar lookups.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [company, business, registration, corporate, israel]
+  tags:
+    - company
+    - business
+    - registration
+    - corporate
+    - israel
+  display_name:
+    he: חיפוש חברות ישראליות
+    en: Israeli Company Lookup
+  display_description:
+    he: חיפוש מידע על חברות ברשם החברות ובדיקת עוסקים מורשים
+    en: >-
+      Look up Israeli company information and understand business entity types.
+      Use when user asks about Israeli companies, "chevra", business
+      registration, "Rasham HaChevarot", company numbers, entity types, or needs
+      to register a business in Israel. Covers Ltd companies, partnerships,
+      non-profits (amuta), cooperatives, and sole proprietors. Do NOT use for
+      non-Israeli corporate registries or stock market analysis.
 ---
 
 # Israeli Company Lookup
