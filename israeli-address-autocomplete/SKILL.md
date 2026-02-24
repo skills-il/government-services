@@ -7,13 +7,30 @@ description: >-
   addresses for Israeli forms and systems. Supports Hebrew address formatting
   and Hebrew-English transliteration. Do NOT use for non-Israeli addresses.
 license: MIT
-allowed-tools: "Bash(python:*) WebFetch"
-compatibility: "Network access helpful for postal code and geocoding lookups."
+allowed-tools: 'Bash(python:*) WebFetch'
+compatibility: Network access helpful for postal code and geocoding lookups.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [address, geocoding, postal-code, mikud, israel]
+  tags:
+    - address
+    - geocoding
+    - postal-code
+    - mikud
+    - israel
+  display_name:
+    he: השלמת כתובות ישראליות
+    en: Israeli Address Autocomplete
+  display_description:
+    he: 'עיצוב, אימות וגיאוקידוד כתובות ישראליות'
+    en: >-
+      Format, validate, and geocode Israeli addresses including postal code
+      (mikud) lookup and CBS city code resolution. Use when user asks about
+      Israeli addresses, "ktovet", postal codes, "mikud", city codes, or needs
+      to format addresses for Israeli forms and systems. Supports Hebrew address
+      formatting and Hebrew-English transliteration. Do NOT use for non-Israeli
+      addresses.
 ---
 
 # Israeli Address Autocomplete
