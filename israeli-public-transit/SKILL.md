@@ -5,18 +5,42 @@ description: >-
   train, and light rail. Use when user asks about Israeli buses, trains,
   "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables,
   "kavim", Egged, Dan, Metropoline, or any Israeli public transportation query.
-  Supports multi-modal journey planning, real-time arrivals, and fare estimation.
-  Enhances routes-mcp-israel MCP server with operator knowledge and Hebrew
-  localization. Do NOT use for taxi/ride-sharing or non-Israeli transit systems.
+  Supports multi-modal journey planning, real-time arrivals, and fare
+  estimation. Enhances routes-mcp-israel MCP server with operator knowledge and
+  Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli transit
+  systems.
 license: MIT
-allowed-tools: "Bash(curl:*) WebFetch"
-compatibility: "Requires network access for real-time data. Enhanced by routes-mcp-israel MCP server."
+allowed-tools: 'Bash(curl:*) WebFetch'
+compatibility: >-
+  Requires network access for real-time data. Enhanced by routes-mcp-israel MCP
+  server.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [transit, bus, train, light-rail, rav-kav, gtfs, israel]
+  tags:
+    - transit
+    - bus
+    - train
+    - light-rail
+    - rav-kav
+    - gtfs
+    - israel
   mcp-server: routes-mcp-israel
+  display_name:
+    he: תחבורה ציבורית בישראל
+    en: Israeli Public Transit
+  display_description:
+    he: 'אוטובוסים, רכבת, רכבת קלה — מסלולים וזמני הגעה בזמן אמת'
+    en: >-
+      Israeli public transit routing, schedules, and real-time arrivals for bus,
+      train, and light rail. Use when user asks about Israeli buses, trains,
+      "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables,
+      "kavim", Egged, Dan, Metropoline, or any Israeli public transportation
+      query. Supports multi-modal journey planning, real-time arrivals, and fare
+      estimation. Enhances routes-mcp-israel MCP server with operator knowledge
+      and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli
+      transit systems.
 ---
 
 # Israeli Public Transit
