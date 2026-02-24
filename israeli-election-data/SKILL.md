@@ -156,6 +156,14 @@ Actions:
 4. Compare to national results
 Result: Haifa-specific election breakdown with party results.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/query_knesset.py` — Query the Knesset OData API to list MKs by Knesset session, search MKs by name, retrieve plenum voting records with for/against/abstain breakdowns, search legislative bills by keyword, and list political factions. Supports subcommands: `mks`, `search-mk`, `votes`, `vote-detail`, `bills`, `factions`. Run: `python scripts/query_knesset.py --help`
+
+### References
+- `references/knesset-api-entities.md` — Complete entity reference for the Knesset OData API including field names for KNS_Person, KNS_Bill, KNS_VoteMain, KNS_VoteDetail, KNS_Faction, and other entities, plus OData v3 filter syntax and position ID codes (54=MK, 39=PM, 12=Minister). Consult when constructing OData queries or mapping vote value codes.
+
 ## Troubleshooting
 
 ### Error: "OData query syntax error"

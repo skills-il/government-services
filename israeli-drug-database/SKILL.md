@@ -145,6 +145,14 @@ Result: Lipitor contains atorvastatin. Multiple generic atorvastatin products ar
 User says: "Is Keytruda covered by kupat cholim?"
 Result: Keytruda (pembrolizumab) is partially in the health basket for specific approved indications (e.g., certain cancers). Coverage depends on diagnosis and indication. For indications not yet in basket, may be available through supplementary insurance (shaban) or compassionate use. Contact kupat cholim oncology coordinator for specific eligibility.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/lookup_drug.py` — Look up common Israeli medications with health basket coverage status, find generic alternatives for brand-name drugs, and display pregnancy risk categories and Israeli prescription classification types. Supports subcommands: `common-drugs`, `generics`, `pregnancy-categories`, `prescription-types`. Run: `python scripts/lookup_drug.py --help`
+
+### References
+- `references/drug-registry-guide.md` — MoH drug registry field definitions (trade name, ATC code, registration status, etc.), Israeli prescription category breakdown (OTC, mircham, mircham meyuchad, sam mefakach), health basket copay tiers, and generic drug switching guidance. Consult when interpreting registry data fields or explaining coverage tiers to users.
+
 ## Troubleshooting
 
 ### Error: "Drug not found in registry"

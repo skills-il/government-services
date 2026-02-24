@@ -199,6 +199,14 @@ Actions:
 4. Note any RAMA assessment data if available
 Result: Structured school list for the requested city and level.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/calculate_sekhem.py` — Calculate weighted Bagrut averages with 5-unit bonus points, estimate university admission composite scores (sekhem) for specific universities, interpret psychometric exam scores with percentile rankings, and display admission thresholds for popular programs. Supports subcommands: `bagrut`, `sekhem`, `psychometric`, `thresholds`. Run: `python scripts/calculate_sekhem.py --help`
+
+### References
+- `references/education-glossary.md` — Hebrew-English glossary of Israeli education terms covering system levels (gan through tichon), exam terminology (bagrut, yechidot limud, sekhem), education streams (mamlachti, charedi, aravi), mandatory Bagrut subject requirements, and all major universities with locations. Consult when translating education terms or explaining system structure.
+
 ## Troubleshooting
 
 ### Issue: "School data not found"

@@ -183,6 +183,14 @@ Result: Explain the Mechir Lamishtaken lottery program -- eligibility criteria (
 User says: "There's a tender in Netanya, minimum price 15 million, how much should I bid?"
 Result: Explain that bid strategy depends on: recent comparable tender results in Netanya, number of expected bidders, building rights and development costs, current market conditions. Provide framework for analysis but recommend consulting a real estate appraiser (shamai mikrkain) and attorney for specific bid amount. Note that winning bids in Netanya coastal areas are typically 20-40% above minimum.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/search_tenders.py` — Display RMI tender type descriptions (michraz, hagralah, mechir larocheish, haktzaah), step-by-step bid submission guide for public tenders, Hebrew-English terminology glossary for tender documents, and land use category definitions. Supports subcommands: `tender-types`, `bid-guide`, `terminology`, `land-use`. Run: `python scripts/search_tenders.py --help`
+
+### References
+- `references/rmi-system-guide.md` — Overview of Israel's state land system (93% government-owned, leasehold model), tender type comparison table, land use categories with Hebrew terms, building rights terminology (zchuyot bniyah, achuz bniyah, kav binyan), and RMI website URLs. Consult when explaining Israel's land ownership model or decoding tender document terms.
+
 ## Troubleshooting
 
 ### Error: "Tender not found"

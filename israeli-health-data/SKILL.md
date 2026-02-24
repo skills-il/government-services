@@ -134,6 +134,14 @@ Result: Compare all four funds. For new immigrants: Clalit has widest coverage a
 User says: "My kupat cholim is making me wait 3 months for a specialist"
 Result: Explain maximum wait time guidelines, right to complain to fund's ombudsman, option to request referral to external specialist, and how to escalate to MoH if wait exceeds published limits.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/compare_health_funds.py` — Compare all four Israeli kupot cholim (Clalit, Maccabi, Meuhedet, Leumit) across membership, clinics, specialist wait times, and digital services, list major hospitals with bed counts, display patient rights under the National Health Insurance Law, and compare supplementary insurance (shaban) tiers. Supports subcommands: `compare`, `hospitals`, `rights`, `shaban`. Run: `python scripts/compare_health_funds.py --help`
+
+### References
+- `references/health-system-overview.md` — Overview of Israel's universal healthcare system including the National Health Insurance Law (1995), the four health funds with member counts and market share, MoH hospital quality indicators, patient rights summary, and direct URLs for each kupat cholim. Consult when advising new immigrants on fund selection or explaining the health basket system.
+
 ## Troubleshooting
 
 ### Error: "Quality data outdated"

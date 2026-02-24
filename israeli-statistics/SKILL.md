@@ -170,6 +170,14 @@ Result: Query the Housing Price Index for Tel Aviv district. Present quarterly a
 User says: "How is the Israeli economy doing?"
 Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/fetch_cbs_data.py` — Search CBS datasets on data.gov.il, fetch CPI (hamadad) component weights and available datasets, calculate madad-linked rent adjustments from old/new CPI values, and display a key economic indicators dashboard with CBS table references. Supports subcommands: `cpi`, `rent-calc`, `search`, `indicators`. Run: `python scripts/fetch_cbs_data.py --help`
+
+### References
+- `references/cbs-data-guide.md` — CBS publication schedule for all major indicators (CPI, housing prices, GDP, unemployment, building starts), CPI component weights, the rent adjustment formula for madad-linked contracts, and CBS table number reference by subject area (population 2.x, prices 12.x, construction 19.x, etc.). Consult when determining data availability timing or locating the correct CBS table number.
+
 ## Troubleshooting
 
 ### Error: "Data not yet published"

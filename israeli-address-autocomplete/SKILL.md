@@ -67,6 +67,14 @@ Result: Hebrew: rechov Rothschild 42, Tel Aviv-Yafo | Mikud: 6688312 | CBS Code:
 User says: "What's the mikud for Herzl 10, Haifa?"
 Result: 7-digit postal code with area identification
 
+## Bundled Resources
+
+### Scripts
+- `scripts/lookup_address.py` — Look up CBS city codes, parse and format Israeli addresses into structured components, and list all known cities with their codes and area codes. Supports subcommands: `city`, `format`, `cities`. Run: `python scripts/lookup_address.py --help`
+
+### References
+- `references/city-codes.md` — CBS settlement codes for the top 30 Israeli cities by population, including district, Hebrew transliteration, and telephone area codes. Also covers the 7-digit postal code (mikud) format and standard address structure. Consult when resolving city names to CBS codes or validating address components.
+
 ## Troubleshooting
 
 ### Error: "Street not found"

@@ -65,6 +65,14 @@ Result: Monday.com Ltd, Company No. 51-530820-1, Status: Active, Type: Public Co
 User says: "I'm a freelance developer, what business structure should I use?"
 Result: Compare Osek Morsheh (simplest) vs. Chevra Baam (limited liability). Recommend Osek Morsheh for starting, switch to Chevra Baam when annual revenue exceeds ~400K NIS or liability protection needed.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/search_company.py` — Display Israeli business entity types (Chevra Baam, Osek Morsheh, Amuta, etc.) with side-by-side comparison of liability, tax rates, and registration requirements, plus step-by-step Chevra Baam incorporation instructions. Supports subcommands: `entity-types`, `compare`, `registration-steps`. Run: `python scripts/search_company.py --help`
+
+### References
+- `references/entity-types.md` — Comprehensive table of all 8 Israeli business entity types with their registries, liability structures, tax rates, and company number format prefixes (51- for companies, 58- for non-profits, 55- for partnerships). Consult when advising users on entity type selection or interpreting company registration numbers.
+
 ## Troubleshooting
 
 ### Error: "Company not found"

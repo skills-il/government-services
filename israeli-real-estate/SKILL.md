@@ -96,6 +96,14 @@ Result: Mas rechisha breakdown: 0% on first 1,978,745 + 3.5% on remainder = ~18,
 User says: "I want to buy an apartment in Tel Aviv, what do I need to know?"
 Result: Full checklist with Tel Aviv specific notes (high prices, urban renewal projects, tama 38)
 
+## Bundled Resources
+
+### Scripts
+- `scripts/calculate_mas_rechisha.py` — Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for both first apartment (dira yechida) and non-first apartment buyers, including effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
+
+### References
+- `references/transaction-guide.md` — Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
+
 ## Troubleshooting
 
 ### Error: "Cannot access Tabu online"

@@ -124,6 +124,14 @@ Actions:
 4. Present trend with percentage change
 Result: Monthly price trend for Haifa with analysis
 
+## Bundled Resources
+
+### Scripts
+- `scripts/query_datagov.py` — Search datasets, inspect resources, and run SQL/datastore queries against the data.gov.il CKAN API directly from the command line. Supports subcommands: `search`, `dataset`, `query`, `sql`, `orgs`. Run: `python scripts/query_datagov.py --help`
+
+### References
+- `references/ckan-api-reference.md` — Complete endpoint catalog for the data.gov.il CKAN API including search parameters, datastore query syntax, SQL capabilities, and common organization IDs. Consult when constructing API calls or debugging query syntax.
+
 ## Troubleshooting
 
 ### Error: "Dataset not found"

@@ -84,6 +84,14 @@ Result: Explain eligibility based on employment duration, 15-week leave, salary 
 User says: "When can I start getting pension from Bituach Leumi?"
 Result: Explain eligibility age, qualifying period, basic amount, supplements, deferral bonus.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/calculate_benefits.py` — Estimate Bituach Leumi benefit amounts for old age pension (kiztavat zikna), unemployment (dmei avtala), maternity leave (dmei leida), and child allowance (kiztavat yeladim) based on user-provided parameters like age, salary, and employment history. Supports subcommands: `pension`, `unemployment`, `maternity`, `child-allowance`. Run: `python scripts/calculate_benefits.py --help`
+
+### References
+- `references/benefit-programs.md` — Quick-reference table of all 13+ Bituach Leumi programs with Hebrew names, eligibility summaries, contact information (*6050, btl.gov.il), and key dates for rate updates and payment schedules. Consult when identifying which benefit program applies to a user's situation.
+
 ## Troubleshooting
 
 ### Error: "Not enough qualifying months"

@@ -136,6 +136,14 @@ Result: Query curlbus for stop 21345, return next 3-5 arrivals with line numbers
 User says: "Can I take a bus from Haifa to Tel Aviv on Saturday?"
 Result: Regular bus service does not operate on Shabbat. Alternatives: shared taxi (sherut) from Haifa to Tel Aviv runs on Shabbat, departing from central area. Service resumes Saturday evening after Shabbat ends.
 
+## Bundled Resources
+
+### Scripts
+- `scripts/check_transit.py` — List all Israeli transit operators with regions and websites, check real-time bus arrivals at a stop via curlbus, display Rav-Kav fare structure and discount profiles, and provide Shabbat/holiday service schedules. Supports subcommands: `operators`, `stop`, `fares`, `shabbat`. Run: `python scripts/check_transit.py --help`
+
+### References
+- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Metropoline, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds.
+
 ## Troubleshooting
 
 ### Error: "Stop code not found"
