@@ -10,13 +10,36 @@ description: >-
   and higher education admissions. Do NOT use for non-Israeli education systems
   or post-graduate academic research.
 license: MIT
-allowed-tools: "Bash(python:*) WebFetch"
-compatibility: "Requires network access for school data queries. No API keys needed for public education data."
+allowed-tools: 'Bash(python:*) WebFetch'
+compatibility: >-
+  Requires network access for school data queries. No API keys needed for public
+  education data.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [education, bagrut, psychometric, university, schools, hebrew, israel]
+  tags:
+    - education
+    - bagrut
+    - psychometric
+    - university
+    - schools
+    - hebrew
+    - israel
+  display_name:
+    he: מערכת חינוך ישראלית
+    en: Israeli Education System
+  display_description:
+    he: 'בגרויות, פסיכומטרי, קבלה לאוניברסיטאות ומידע על מוסדות לימוד'
+    en: >-
+      Navigate the Israeli education system including Bagrut (matriculation)
+      exams, psychometric entrance test (PET), university admissions, and
+      Ministry of Education school data. Use when user asks about Israeli
+      schools, Bagrut requirements, psychometric exam, "psichometri", Israeli
+      university admissions, sekhem calculation, Israeli education levels,
+      Hebrew education terms, or school data from Ministry of Education. Covers
+      K-12 system, exam structure, and higher education admissions. Do NOT use
+      for non-Israeli education systems or post-graduate academic research.
 ---
 
 # Israeli Education System
