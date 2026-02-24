@@ -1,0 +1,203 @@
+# Israel Government API Skill — Implementation Plan
+
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+
+**Goal:** Build a skill that teaches Claude to discover, query, and analyze Israeli government datasets from data.gov.il and related government data portals.
+
+**Architecture:** MCP Enhancement skill. Enhances the existing `datagov-mcp` and `data-gov-il-mcp` community MCP servers with workflow guidance for data discovery, analysis, and visualization.
+
+**Tech Stack:** SKILL.md, Python data analysis scripts, data.gov.il CKAN API reference.
+
+---
+
+## Research
+
+### data.gov.il CKAN API
+- **Base URL:** `https://data.gov.il/api/3/`
+- **Auth:** None (public API)
+- **Key Endpoints:**
+  - `GET /action/package_search?q=QUERY` — Search datasets
+  - `GET /action/package_show?id=ID` — Get dataset details
+  - `GET /action/resource_show?id=ID` — Get resource (file) details
+  - `GET /action/datastore_search?resource_id=ID` — Query tabular data
+  - `GET /action/datastore_search_sql?sql=QUERY` — SQL-like queries
+  - `GET /action/group_list` — List dataset categories
+  - `GET /action/organization_list` — List publishing organizations (ministries)
+- **Rate limits:** Undocumented, but generous for public use
+- **Data formats:** CSV, JSON, XML, Excel, GeoJSON, API
+- **Dataset count:** 1,500+ datasets from 70+ government organizations
+
+### Existing MCP Servers
+1. **datagov-mcp** (Aviv Eldan) — Basic CKAN API wrapper
+2. **data-gov-il-mcp** (David Osher) — More advanced, better parsing
+3. **israel-statistics-mcp** (Reuven Aor) — CBS-specific data (8 tools)
+
+### Popular Dataset Categories
+- Transportation (schedules, routes, traffic)
+- Education (schools, test scores)
+- Health (hospitals, clinics, COVID data)
+- Geography (administrative boundaries, addresses)
+- Economy (businesses, employment statistics)
+- Environment (air quality, water, weather)
+- Public safety (police stations, fire departments)
+
+### Use Cases
+1. **Dataset discovery** — Find relevant government datasets by topic
+2. **Data analysis** — Query and analyze tabular government data
+3. **Cross-dataset joins** — Combine data from multiple government sources
+4. **Visualization guidance** — Help create charts/maps from government data
+5. **Data freshness check** — Verify when datasets were last updated
+
+---
+
+## Build Steps
+
+### Task 1: Create SKILL.md
+
+**Files:**
+- Create: `repos/government-services/israel-gov-api/SKILL.md`
+
+```markdown
+---
+name: israel-gov-api
+description: >-
+  Discover, query, and analyze Israeli government open data from data.gov.il
+  (CKAN API). Use when user asks about Israeli government data, "data.gov.il",
+  government datasets, CBS statistics, or needs data about Israeli
+  transportation, education, health, geography, economy, or environment.
+  Supports dataset search, tabular data queries, and analysis guidance.
+  Enhances existing datagov-mcp and data-gov-il-mcp servers with workflow
+  best practices. Do NOT use for classified government data or data requiring
+  security clearance.
+license: MIT
+allowed-tools: "Bash(python:*) WebFetch"
+compatibility: "Requires network access for data.gov.il API. Enhanced by datagov-mcp or data-gov-il-mcp servers."
+metadata:
+  author: skills-il
+  version: 1.0.0
+  category: government-services
+  tags: [government, data, ckan, statistics, open-data, israel]
+  mcp-server: datagov-mcp
+---
+
+# Israel Government API
+
+## Instructions
+
+### Step 1: Understand the Data Need
+Ask the user:
+- **What topic?** (transportation, health, education, economy, etc.)
+- **What geography?** (national, specific city/region, specific address)
+- **What time period?** (current, historical, time series)
+- **What format?** (raw data, summary statistics, visualization)
+
+### Step 2: Search for Datasets
+Use the data.gov.il CKAN API to find relevant datasets:
+
+**Search by keyword:**
+```
+GET https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10
+```
+
+**Search by organization (ministry):**
+```
+GET https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID
+```
+
+**Common organization IDs:**
+| Ministry | ID | Hebrew |
+|----------|-----|--------|
+| Central Bureau of Statistics | cbs | halishka hamerkazit listatistika |
+| Ministry of Transportation | mot | misrad hatahaburah |
+| Ministry of Health | moh | misrad habriut |
+| Ministry of Education | moe | misrad hachinuch |
+| Israel Tax Authority | ita | rashut hamisim |
+| Israel Land Authority | ila | rashut mekarkei yisrael |
+| Ministry of Interior | moi | misrad hapnim |
+
+### Step 3: Retrieve and Query Data
+Once a dataset is found:
+
+**Get dataset details:**
+```
+GET https://data.gov.il/api/3/action/package_show?id=DATASET_ID
+```
+
+**Query tabular data (datastore):**
+```
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100
+```
+
+**SQL-like queries (powerful):**
+```
+GET https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT * FROM "RESOURCE_ID" WHERE field = 'value' LIMIT 100
+```
+
+**Tips:**
+- Field names are often in Hebrew — use `datastore_search` with `limit=1` first to see field names
+- Large datasets: use `limit` and `offset` for pagination
+- Date fields may be in various formats — check dataset documentation
+
+### Step 4: Analyze and Present
+For the retrieved data:
+1. Summarize key findings in plain language
+2. Calculate basic statistics if requested (mean, median, trends)
+3. Suggest visualizations (bar chart, line graph, map) appropriate to the data
+4. Note data freshness (last update date) and any caveats
+5. Provide the direct link to the dataset on data.gov.il for reference
+
+### Step 5: Cross-Reference (Advanced)
+When combining multiple datasets:
+1. Identify common keys (city code, date, category code)
+2. Use Israeli administrative codes (CBS city codes) for geographic joins
+3. Note that field names across datasets may differ — match by content not name
+4. Document data lineage: which datasets contributed to the analysis
+
+## Commonly Requested Datasets
+
+| Dataset | Resource ID | Updated | Description |
+|---------|------------|---------|-------------|
+| GTFS transit data | various | Daily | Bus/train schedules and routes |
+| School list | various | Annual | All schools with details |
+| Hospital quality | various | Quarterly | Ministry of Health quality indicators |
+| Real estate prices | various | Monthly | Tax Authority transaction prices |
+| Business registry | various | Daily | Active businesses |
+| Air quality | various | Hourly | Environmental monitoring stations |
+
+## Examples
+
+### Example 1: Find School Data
+User says: "I need data about schools in Tel Aviv"
+Actions:
+1. Search: `package_search?q=schools+tel+aviv`
+2. Find education dataset, get resource ID
+3. Query: Filter by city code for Tel Aviv (5000)
+4. Present: School count, types, sizes
+Result: Structured school data for Tel Aviv
+
+### Example 2: Analyze Housing Prices
+User says: "Show me housing price trends in Haifa"
+Actions:
+1. Find Tax Authority real estate transactions dataset
+2. Filter by Haifa city code, last 12 months
+3. Calculate median price per square meter by month
+4. Present trend with percentage change
+Result: Monthly price trend for Haifa with analysis
+
+## Troubleshooting
+
+### Error: "Dataset not found"
+Cause: Search terms too specific or in wrong language
+Solution: Try broader Hebrew keywords. Government data is primarily in Hebrew.
+
+### Error: "Datastore not available"
+Cause: Not all resources have the datastore (queryable) API enabled
+Solution: Download the CSV/Excel resource directly and process locally.
+
+### Error: "Hebrew field names"
+Cause: Most government datasets have Hebrew column names
+Solution: First query with limit=1 to see all field names, then construct targeted queries.
+```
+
+**Step 2: Create references and scripts**
+**Step 3: Validate and commit**
