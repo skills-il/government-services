@@ -9,14 +9,34 @@ description: >-
   ILHealth-mcp server with health fund comparison and patient rights guidance.
   Do NOT use for non-Israeli healthcare systems or private medical advice.
 license: MIT
-allowed-tools: "WebFetch"
-compatibility: "Network access helpful for MoH data lookups. Enhanced by ILHealth-mcp server."
+allowed-tools: WebFetch
+compatibility: Network access helpful for MoH data lookups. Enhanced by ILHealth-mcp server.
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [health, hospital, kupat-cholim, health-fund, patient-rights, israel]
+  tags:
+    - health
+    - hospital
+    - kupat-cholim
+    - health-fund
+    - patient-rights
+    - israel
   mcp-server: ILHealth-mcp
+  display_name:
+    he: מידע בריאותי ישראלי
+    en: Israeli Health Data
+  display_description:
+    he: 'נתוני משרד הבריאות, ניווט במערכת הבריאות וקופות החולים'
+    en: >-
+      Israeli Ministry of Health data, healthcare system navigation, and patient
+      rights. Use when user asks about Israeli hospitals, "kupat cholim", health
+      funds (Clalit, Maccabi, Meuhedet, Leumit), "sal briut" (health basket),
+      hospital quality, patient rights, National Health Insurance Law,
+      supplementary insurance ("shaban"), or any Israeli healthcare system
+      question. Enhances ILHealth-mcp server with health fund comparison and
+      patient rights guidance. Do NOT use for non-Israeli healthcare systems or
+      private medical advice.
 ---
 
 # Israeli Health Data
