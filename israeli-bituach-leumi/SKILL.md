@@ -1,20 +1,38 @@
 ---
 name: israeli-bituach-leumi
 description: >-
-  Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility,
-  and contributions. Use when user asks about "bituach leumi", national
-  insurance, retirement pension (kiztavat zikna), unemployment (dmei avtala),
-  maternity leave (dmei leida), child allowance (kiztavat yeladim), disability
-  benefits, work injury, reserve duty compensation, or NI contributions. Covers
-  all 15+ Bituach Leumi programs. Do NOT use for private insurance or health
-  fund (kupat cholim) questions.
+  Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, and
+  contributions. Use when user asks about "bituach leumi", national insurance,
+  retirement pension (kiztavat zikna), unemployment (dmei avtala), maternity
+  leave (dmei leida), child allowance (kiztavat yeladim), disability benefits,
+  work injury, reserve duty compensation, or NI contributions. Covers all 15+
+  Bituach Leumi programs. Do NOT use for private insurance or health fund (kupat
+  cholim) questions.
 license: MIT
-compatibility: "No network required. Works with Claude Code, Claude.ai, Cursor."
+compatibility: 'No network required. Works with Claude Code, Claude.ai, Cursor.'
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
-  tags: [bituach-leumi, national-insurance, benefits, pension, israel]
+  tags:
+    - bituach-leumi
+    - national-insurance
+    - benefits
+    - pension
+    - israel
+  display_name:
+    he: ביטוח לאומי
+    en: Israeli Bituach Leumi
+  display_description:
+    he: 'בדיקת זכאויות, מעקב תביעות וחישוב קצבאות ביטוח לאומי'
+    en: >-
+      Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility,
+      and contributions. Use when user asks about "bituach leumi", national
+      insurance, retirement pension (kiztavat zikna), unemployment (dmei
+      avtala), maternity leave (dmei leida), child allowance (kiztavat yeladim),
+      disability benefits, work injury, reserve duty compensation, or NI
+      contributions. Covers all 15+ Bituach Leumi programs. Do NOT use for
+      private insurance or health fund (kupat cholim) questions.
 ---
 
 # Israeli Bituach Leumi (National Insurance)
