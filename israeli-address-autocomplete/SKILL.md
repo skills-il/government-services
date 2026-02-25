@@ -84,6 +84,15 @@ Result: Hebrew: rechov Rothschild 42, Tel Aviv-Yafo | Mikud: 6688312 | CBS Code:
 User says: "What's the mikud for Herzl 10, Haifa?"
 Result: 7-digit postal code with area identification
 
+### Example 3: Batch Address Validation
+User says: "I have a CSV with 500 Israeli addresses, validate and add postal codes"
+Actions:
+1. Parse each address into components
+2. Look up CBS settlement codes
+3. Resolve postal codes (mikud)
+4. Flag invalid or ambiguous addresses
+Result: Validated CSV with postal codes, CBS city codes, and flags for addresses needing manual review.
+
 ## Bundled Resources
 
 ### Scripts
@@ -97,3 +106,11 @@ Result: 7-digit postal code with area identification
 ### Error: "Street not found"
 Cause: Spelling variation or renamed street
 Solution: Try common transliteration variants. Many streets have Hebrew-only official names.
+
+### Error: "Postal code not matching address area"
+Cause: Israel Post periodically updates mikud codes, especially in new developments
+Solution: Use the current Israel Post API or CBS settlement file for up-to-date postal codes. New neighborhoods may have different mikud codes than their parent city.
+
+### Error: "City name ambiguity"
+Cause: Multiple Israeli settlements share similar names (e.g., Kfar Saba vs Kfar Sava, Ramat Gan vs Ramat HaSharon)
+Solution: Use CBS settlement code for unambiguous identification. Present the user with a list of matching settlements with their codes and district for disambiguation.

@@ -82,6 +82,12 @@ Result: Monday.com Ltd, Company No. 51-530820-1, Status: Active, Type: Public Co
 User says: "I'm a freelance developer, what business structure should I use?"
 Result: Compare Osek Morsheh (simplest) vs. Chevra Baam (limited liability). Recommend Osek Morsheh for starting, switch to Chevra Baam when annual revenue exceeds ~400K NIS or liability protection needed.
 
+### Example 3: Compare Entity Types
+User says: "I'm starting a business in Israel, should I register as an Osek Murshe or a Chevra?"
+Actions:
+1. Compare entity types (Osek Patur, Osek Murshe, Ltd company) by criteria -- tax rates, liability, NI contributions, compliance burden, VAT obligations
+Result: Side-by-side comparison table with recommendation based on expected annual turnover.
+
 ## Bundled Resources
 
 ### Scripts
@@ -95,3 +101,11 @@ Result: Compare Osek Morsheh (simplest) vs. Chevra Baam (limited liability). Rec
 ### Error: "Company not found"
 Cause: Name spelling mismatch or company registered under different name
 Solution: Try Hebrew name, or search by company number if available. Some companies register with English names different from their trading name.
+
+### Error: "Company number format invalid"
+Cause: Israeli company numbers (Chevra) are 9 digits; sole proprietor numbers match their TZ (ID); partnership and amuta numbers differ
+Solution: Verify the entity type first. Companies: 51-XXXXXXX (9 digits), Amutot: 58-XXXXXXX, Partnerships: 55-XXXXXXX. Use the Rasham HaChevarot search to validate.
+
+### Error: "Entity type confusion (Osek Patur vs Osek Morsheh)"
+Cause: Users confuse tax registration types with company registration types
+Solution: Osek Patur/Morsheh are VAT registration types at the Tax Authority (SHAAM), not company types at the Registrar of Companies. A person can be an Osek Morsheh without registering a company. Clarify the user's actual need: business entity lookup vs. tax registration status.

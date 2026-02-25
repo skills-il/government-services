@@ -146,6 +146,15 @@ Actions:
 4. Present trend with percentage change
 Result: Monthly price trend for Haifa with analysis
 
+### Example 3: Municipal Data Comparison
+User says: "Compare education spending across Israeli cities"
+Actions:
+1. Search for municipal budget datasets
+2. Filter by education category
+3. Normalize per capita
+4. Present comparison table
+Result: Ranked comparison of education spending per student across major Israeli municipalities with data source and year.
+
 ## Bundled Resources
 
 ### Scripts

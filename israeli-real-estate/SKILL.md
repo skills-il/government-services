@@ -8,9 +8,8 @@ description: >-
   buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate
   markets.
 license: MIT
-compatibility: >-
-  Network access helpful for data lookups. Enhanced by remy-mcp for land
-  tenders.
+allowed-tools: "Bash(python:*) WebFetch"
+compatibility: "Network access helpful for data lookups. Enhanced by remy-mcp for land tenders."
 metadata:
   author: skills-il
   version: 1.0.0
@@ -115,6 +114,16 @@ Result: Mas rechisha breakdown: 0% on first 1,978,745 + 3.5% on remainder = ~18,
 ### Example 2: Buying Process
 User says: "I want to buy an apartment in Tel Aviv, what do I need to know?"
 Result: Full checklist with Tel Aviv specific notes (high prices, urban renewal projects, tama 38)
+
+### Example 3: Rental Agreement Review
+User says: "Review my Israeli rental contract for common issues"
+Actions:
+1. Check for required clauses under the 2022 Fair Rent Law
+2. Verify arnona responsibility
+3. Vaad bayit obligations
+4. Deposit terms
+5. Early termination conditions
+Result: Checklist of compliant vs. missing clauses with recommendations.
 
 ## Bundled Resources
 

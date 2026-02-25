@@ -9,7 +9,8 @@ description: >-
   Bituach Leumi programs. Do NOT use for private insurance or health fund (kupat
   cholim) questions.
 license: MIT
-compatibility: 'No network required. Works with Claude Code, Claude.ai, Cursor.'
+allowed-tools: "Bash(python:*)"
+compatibility: "No network required. Works with Claude Code, Claude.ai, Cursor."
 metadata:
   author: skills-il
   version: 1.0.0
@@ -102,6 +103,14 @@ Result: Explain eligibility based on employment duration, 15-week leave, salary 
 User says: "When can I start getting pension from Bituach Leumi?"
 Result: Explain eligibility age, qualifying period, basic amount, supplements, deferral bonus.
 
+### Example 3: Reserve Duty Compensation
+User says: "I did 30 days of miluim, how much will Bituach Leumi pay me?"
+Actions:
+1. Determine eligibility for reserve duty compensation (tashlumeimimluim)
+2. Calculate based on salary history and qualifying days
+3. Explain employer vs. Bituach Leumi payment split
+Result: Estimated compensation amount with explanation of the payment process and timeline.
+
 ## Bundled Resources
 
 ### Scripts
@@ -115,3 +124,11 @@ Result: Explain eligibility age, qualifying period, basic amount, supplements, d
 ### Error: "Not enough qualifying months"
 Cause: Insufficient contribution history
 Solution: Check if any periods (military service, maternity leave) count as qualifying months. New immigrants have special rules.
+
+### Error: "Benefit amounts don't match expected values"
+Cause: Bituach Leumi updates benefit amounts periodically, often tied to the national average wage
+Solution: Verify current amounts at btl.gov.il or call *6050. Amounts in this skill reflect published rates as of 2025 -- check for annual updates each January.
+
+### Error: "Eligibility period not met"
+Cause: Most benefits require a qualifying period of NI contributions (e.g., 10 months for maternity, 12 months for unemployment)
+Solution: Check the specific qualifying period for each benefit. Partial periods may qualify for reduced benefits. New immigrants (olim) may have special eligibility rules.
