@@ -41,6 +41,14 @@ metadata:
       estimation. Enhances routes-mcp-israel MCP server with operator knowledge
       and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli
       transit systems.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Public Transit
