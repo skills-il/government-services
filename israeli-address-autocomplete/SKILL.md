@@ -31,6 +31,14 @@ metadata:
       to format addresses for Israeli forms and systems. Supports Hebrew address
       formatting and Hebrew-English transliteration. Do NOT use for non-Israeli
       addresses.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Address Autocomplete
