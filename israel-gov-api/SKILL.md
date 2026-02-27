@@ -19,12 +19,20 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - government
-    - data
-    - ckan
-    - statistics
-    - open-data
-    - israel
+    he:
+      - ממשל
+      - נתונים
+      - CKAN
+      - סטטיסטיקה
+      - מידע-פתוח
+      - ישראל
+    en:
+      - government
+      - data
+      - ckan
+      - statistics
+      - open-data
+      - israel
   mcp-server: datagov-mcp
   display_name:
     he: ממשקי API ממשלתיים
