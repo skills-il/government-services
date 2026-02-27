@@ -44,7 +44,6 @@ metadata:
     - windsurf
     - opencode
     - codex
-    - openclaw
 ---
 
 # Israeli Health Data
