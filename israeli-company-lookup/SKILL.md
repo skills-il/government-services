@@ -32,6 +32,14 @@ metadata:
       to register a business in Israel. Covers Ltd companies, partnerships,
       non-profits (amuta), cooperatives, and sole proprietors. Do NOT use for
       non-Israeli corporate registries or stock market analysis.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Company Lookup
