@@ -16,11 +16,18 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - bituach-leumi
-    - national-insurance
-    - benefits
-    - pension
-    - israel
+    he:
+      - ביטוח-לאומי
+      - ביטוח-לאומי
+      - קצבאות
+      - פנסיה
+      - ישראל
+    en:
+      - bituach-leumi
+      - national-insurance
+      - benefits
+      - pension
+      - israel
   display_name:
     he: ביטוח לאומי
     en: Israeli Bituach Leumi
