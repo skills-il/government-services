@@ -14,11 +14,18 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - address
-    - geocoding
-    - postal-code
-    - mikud
-    - israel
+    he:
+      - כתובת
+      - גאוקודינג
+      - מיקוד
+      - מיקוד
+      - ישראל
+    en:
+      - address
+      - geocoding
+      - postal-code
+      - mikud
+      - israel
   display_name:
     he: השלמת כתובות ישראליות
     en: Israeli Address Autocomplete
