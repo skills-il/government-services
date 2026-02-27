@@ -34,6 +34,14 @@ metadata:
       disability benefits, work injury, reserve duty compensation, or NI
       contributions. Covers all 15+ Bituach Leumi programs. Do NOT use for
       private insurance or health fund (kupat cholim) questions.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Bituach Leumi (National Insurance)
