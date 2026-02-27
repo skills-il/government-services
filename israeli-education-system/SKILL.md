@@ -40,6 +40,14 @@ metadata:
       Hebrew education terms, or school data from Ministry of Education. Covers
       K-12 system, exam structure, and higher education admissions. Do NOT use
       for non-Israeli education systems or post-graduate academic research.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Education System
