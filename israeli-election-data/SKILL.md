@@ -39,6 +39,14 @@ metadata:
       OData API, election commission data, and Israeli political system
       structure. Do NOT use for non-Israeli elections or political
       opinion/prediction.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Election Data
