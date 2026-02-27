@@ -19,13 +19,22 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - statistics
-    - cpi
-    - housing-prices
-    - economics
-    - demographics
-    - cbs
-    - israel
+    he:
+      - סטטיסטיקה
+      - מדד-המחירים
+      - מחירי-דיור
+      - כלכלה
+      - דמוגרפיה
+      - הלמ״ס
+      - ישראל
+    en:
+      - statistics
+      - cpi
+      - housing-prices
+      - economics
+      - demographics
+      - cbs
+      - israel
   mcp-server: israel-statistics-mcp
   display_name:
     he: סטטיסטיקה ישראלית
