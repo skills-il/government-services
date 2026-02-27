@@ -18,13 +18,22 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - knesset
-    - elections
-    - politics
-    - legislation
-    - voting
-    - government
-    - israel
+    he:
+      - כנסת
+      - בחירות
+      - פוליטיקה
+      - חקיקה
+      - הצבעה
+      - ממשל
+      - ישראל
+    en:
+      - knesset
+      - elections
+      - politics
+      - legislation
+      - voting
+      - government
+      - israel
   display_name:
     he: נתוני בחירות בישראל
     en: Israeli Election Data
