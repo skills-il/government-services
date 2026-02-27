@@ -16,12 +16,20 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - health
-    - hospital
-    - kupat-cholim
-    - health-fund
-    - patient-rights
-    - israel
+    he:
+      - בריאות
+      - בית-חולים
+      - קופת-חולים
+      - קופת-חולים
+      - זכויות-מטופל
+      - ישראל
+    en:
+      - health
+      - hospital
+      - kupat-cholim
+      - health-fund
+      - patient-rights
+      - israel
   mcp-server: ILHealth-mcp
   display_name:
     he: מידע בריאותי ישראלי
