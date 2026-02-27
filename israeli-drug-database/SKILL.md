@@ -39,6 +39,14 @@ metadata:
       basket context and patient-facing guidance. Do NOT use for medical advice,
       dosage recommendations, or diagnosis. Do NOT use for non-Israeli drug
       registries.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Drug Database
