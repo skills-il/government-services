@@ -41,6 +41,14 @@ metadata:
       starts, or any Israeli economic/demographic statistics. Enhances
       israel-statistics-mcp server with index interpretation and economic
       context. Do NOT use for non-Israeli statistics or financial forecasting.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Statistics (CBS)
