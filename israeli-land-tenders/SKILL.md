@@ -16,13 +16,22 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - land
-    - tenders
-    - rmi
-    - michraz
-    - real-estate
-    - government-land
-    - israel
+    he:
+      - קרקע
+      - מכרזים
+      - רמ״י
+      - מכרז
+      - נדל״ן
+      - מקרקעי-ישראל
+      - ישראל
+    en:
+      - land
+      - tenders
+      - rmi
+      - michraz
+      - real-estate
+      - government-land
+      - israel
   mcp-server: remy-mcp
   display_name:
     he: מכרזי מקרקעין בישראל
