@@ -19,13 +19,22 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - education
-    - bagrut
-    - psychometric
-    - university
-    - schools
-    - hebrew
-    - israel
+    he:
+      - חינוך
+      - בגרות
+      - פסיכומטרי
+      - אוניברסיטה
+      - בתי-ספר
+      - עברית
+      - ישראל
+    en:
+      - education
+      - bagrut
+      - psychometric
+      - university
+      - schools
+      - hebrew
+      - israel
   display_name:
     he: מערכת חינוך ישראלית
     en: Israeli Education System
