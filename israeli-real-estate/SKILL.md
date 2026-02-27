@@ -15,12 +15,20 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - real-estate
-    - property
-    - nadlan
-    - tabu
-    - mas-rechisha
-    - israel
+    he:
+      - נדל״ן
+      - נכס
+      - נדל״ן
+      - טאבו
+      - מס-רכישה
+      - ישראל
+    en:
+      - real-estate
+      - property
+      - nadlan
+      - tabu
+      - mas-rechisha
+      - israel
   display_name:
     he: נדל"ן בישראל
     en: Israeli Real Estate
