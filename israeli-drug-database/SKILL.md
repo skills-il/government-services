@@ -18,12 +18,20 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - drugs
-    - pharmaceutical
-    - health-basket
-    - medication
-    - pharmacy
-    - israel
+    he:
+      - תרופות
+      - פרמצבטיקה
+      - סל-בריאות
+      - תרופות
+      - בית-מרקחת
+      - ישראל
+    en:
+      - drugs
+      - pharmaceutical
+      - health-basket
+      - medication
+      - pharmacy
+      - israel
   mcp-server: israel-drugs-mcp
   display_name:
     he: מאגר תרופות ישראלי
