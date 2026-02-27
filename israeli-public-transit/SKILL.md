@@ -19,13 +19,22 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - transit
-    - bus
-    - train
-    - light-rail
-    - rav-kav
-    - gtfs
-    - israel
+    he:
+      - תחבורה
+      - אוטובוס
+      - רכבת
+      - רכבת-קלה
+      - רב-קו
+      - GTFS
+      - ישראל
+    en:
+      - transit
+      - bus
+      - train
+      - light-rail
+      - rav-kav
+      - gtfs
+      - israel
   mcp-server: routes-mcp-israel
   display_name:
     he: תחבורה ציבורית בישראל
