@@ -40,6 +40,14 @@ metadata:
       guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with
       workflow best practices. Do NOT use for classified government data or data
       requiring security clearance.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israel Government API
