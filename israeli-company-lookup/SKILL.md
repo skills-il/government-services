@@ -15,11 +15,18 @@ metadata:
   version: 1.0.0
   category: government-services
   tags:
-    - company
-    - business
-    - registration
-    - corporate
-    - israel
+    he:
+      - חברה
+      - עסק
+      - רישום
+      - תאגידי
+      - ישראל
+    en:
+      - company
+      - business
+      - registration
+      - corporate
+      - israel
   display_name:
     he: חיפוש חברות ישראליות
     en: Israeli Company Lookup
