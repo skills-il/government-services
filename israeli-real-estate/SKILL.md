@@ -33,6 +33,14 @@ metadata:
       extract, rental agreements, mortgage (mashkanta), or Israel Land Authority
       tenders. Covers buying, selling, and renting in Israel. Do NOT use for
       non-Israeli real estate markets.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Real Estate
