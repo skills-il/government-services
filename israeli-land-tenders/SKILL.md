@@ -38,6 +38,14 @@ metadata:
       process guidance and Hebrew terminology. Do NOT use for private real
       estate transactions (use israeli-real-estate skill instead) or non-Israeli
       land systems.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Land Tenders (RMI)
