@@ -37,6 +37,14 @@ metadata:
       question. Enhances ILHealth-mcp server with health fund comparison and
       patient rights guidance. Do NOT use for non-Israeli healthcare systems or
       private medical advice.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
 ---
 
 # Israeli Health Data
