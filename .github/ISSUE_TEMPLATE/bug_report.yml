@@ -10,6 +10,18 @@ body:
       options:
         - israel-gov-api
         - israeli-address-autocomplete
+        - israeli-bituach-leumi
+        - israeli-company-lookup
+        - israeli-drug-database
+        - israeli-education-system
+        - israeli-election-data
+        - israeli-gov-form-automator
+        - israeli-health-data
+        - israeli-land-tenders
+        - israeli-public-transit
+        - israeli-real-estate
+        - israeli-statistics
+        - knesset-legislative-tracker
         - Other
     validations:
       required: true

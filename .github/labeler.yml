@@ -5,3 +5,51 @@ israel-gov-api:
 israeli-address-autocomplete:
   - changed-files:
     - any-glob-to-any-file: 'israeli-address-autocomplete/**'
+
+israeli-bituach-leumi:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-bituach-leumi/**'
+
+israeli-company-lookup:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-company-lookup/**'
+
+israeli-drug-database:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-drug-database/**'
+
+israeli-education-system:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-education-system/**'
+
+israeli-election-data:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-election-data/**'
+
+israeli-gov-form-automator:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-gov-form-automator/**'
+
+israeli-health-data:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-health-data/**'
+
+israeli-land-tenders:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-land-tenders/**'
+
+israeli-public-transit:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-public-transit/**'
+
+israeli-real-estate:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-real-estate/**'
+
+israeli-statistics:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-statistics/**'
+
+knesset-legislative-tracker:
+  - changed-files:
+    - any-glob-to-any-file: 'knesset-legislative-tracker/**'
