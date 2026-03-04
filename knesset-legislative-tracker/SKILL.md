@@ -12,8 +12,8 @@ description: >-
 license: MIT
 allowed-tools: 'Bash(python:*) Bash(pip:*) WebFetch'
 compatibility: >-
-  Requires network access to the Knesset Open Data API
-  (main.knesset.gov.il). Python 3.9+ for helper scripts.
+  Requires network access to the Knesset OData API
+  (knesset.gov.il). Python 3.9+ for helper scripts.
 metadata:
   author: skills-il
   version: 1.0.0
@@ -63,14 +63,14 @@ metadata:
 
 Ask the user what they want to track:
 
-| Query Type | API Endpoint | Hebrew Term |
+| Query Type | OData Entity | Hebrew Term |
 |-----------|-------------|-------------|
-| Bill search | /api/v2/bills | Hatza'at Chok / הצעת חוק |
-| Bill status | /api/v2/bills/{id} | Matsav Hatza'a / מצב הצעה |
-| Committee sessions | /api/v2/committees | Vaada / ועדה |
-| MK information | /api/v2/members | Chaver Knesset / חבר כנסת |
-| Votes | /api/v2/votes | Hatzbaa / הצבעה |
-| Knesset sessions | /api/v2/plenum | Moshav Meli'a / מושב מליאה |
+| Bill search | KNS_Bill | Hatza'at Chok / הצעת חוק |
+| Bill status | KNS_Bill (by BillID) | Matsav Hatza'a / מצב הצעה |
+| Committee sessions | KNS_Committee | Vaada / ועדה |
+| MK information | KNS_Person | Chaver Knesset / חבר כנסת |
+| Votes | N/A (not available via public OData API) | Hatzbaa / הצבעה |
+| Knesset sessions | KNS_PlenumSession | Moshav Meli'a / מושב מליאה |
 
 Clarify:
 - **What topic?** (specific bill, policy area, MK activity)
@@ -79,69 +79,75 @@ Clarify:
 
 ### Step 2: Query the Knesset Open Data API
 
-Base URL: `https://main.knesset.gov.il/Activity/Info/`
+Base URL: `https://knesset.gov.il/Odata/ParliamentInfo.svc/`
 
-The Knesset provides an OData-compatible REST API:
+The Knesset provides an OData v3 API:
 
 **Search bills by keyword:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills?$filter=contains(Name,'KEYWORD')&$top=20
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$filter=substringof('KEYWORD',Name)&$top=20&$format=json
 ```
 
 **Get bill details:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills(BILL_ID)
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(BILL_ID)?$format=json
 ```
 
-**List committee sessions:**
+**List committees:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/committees?$filter=TypeDesc eq 'COMMITTEE_NAME'
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Committee?$filter=KnessetNum eq 25&$format=json
 ```
 
-**Get MK voting record:**
+**Get MK information:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members(MEMBER_ID)/votes
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Person(PERSON_ID)?$format=json
 ```
 
 **Filter by date range:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills?$filter=LastUpdatedDate ge 2024-01-01T00:00:00Z
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$filter=LastUpdatedDate ge datetime'2024-01-01T00:00:00'&$format=json
 ```
+
+**Note:** The OData API returns XML by default. Always append `$format=json` to get JSON responses.
+
+**Note:** Vote data (per-MK voting records) is not available through the public OData API.
 
 **Tips:**
 - Use OData `$filter`, `$select`, `$top`, `$skip`, `$orderby` for queries
 - Bill names are in Hebrew -- search with Hebrew keywords
-- API returns JSON by default
+- Use `substringof('text', Field)` for text search (OData v3 syntax)
 - Pagination: use `$top` and `$skip` for large result sets
 
 ### Step 3: Track Bill Progress Through Readings
 
 Israeli legislation follows a defined process:
 
-| Stage | Hebrew | API Status | Description |
-|-------|--------|-----------|-------------|
-| Proposal | הצעה | Proposed | Initial bill text submitted |
-| Pre-vote | הצבעה מוקדמת | PreVote | Preliminary Knesset vote |
-| Committee | ועדה | InCommittee | Committee review and amendments |
-| First reading | קריאה ראשונה | FirstReading | Full Knesset vote on principles |
-| Committee prep | הכנה לקריאה שנייה | PrepSecondReading | Final committee amendments |
-| Second and third reading | קריאה שנייה ושלישית | SecondThirdReading | Final vote, becomes law |
-| Passed | אושר | Approved | Enacted as law |
-| Rejected | נדחה | Rejected | Bill defeated |
+**Note:** The API uses numeric StatusID values rather than named statuses. Key StatusID values include codes for preparation, committee, readings, approval, and rejection. Check the KNS_BillStatus entity or the StatusID field on bills for the actual numeric codes.
+
+| Stage | Hebrew | Description |
+|-------|--------|-------------|
+| Proposal | הצעה | Initial bill text submitted |
+| Pre-vote | הצבעה מוקדמת | Preliminary Knesset vote |
+| Committee | ועדה | Committee review and amendments |
+| First reading | קריאה ראשונה | Full Knesset vote on principles |
+| Committee prep | הכנה לקריאה שנייה | Final committee amendments |
+| Second and third reading | קריאה שנייה ושלישית | Final vote, becomes law |
+| Passed | אושר | Enacted as law |
+| Rejected | נדחה | Bill defeated |
 
 **Track a specific bill through stages:**
 ```python
 import requests
 
 bill_id = 12345
-url = f"https://main.knesset.gov.il/Activity/Info/api/v2/bills({bill_id})"
+url = f"https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill({bill_id})?$format=json"
 response = requests.get(url)
-bill = response.json()
+bill = response.json().get("d", {})
 
 print(f"Bill: {bill.get('Name')}")
-print(f"Status: {bill.get('StatusTypeDesc')}")
+print(f"StatusID: {bill.get('StatusID')}")
 print(f"Last updated: {bill.get('LastUpdatedDate')}")
-print(f"Proposers: {bill.get('InitiatorFirstName')} {bill.get('InitiatorLastName')}")
+print(f"SubTypeDesc: {bill.get('SubTypeDesc')}")
 ```
 
 ### Step 4: Monitor Committee Activity
@@ -158,23 +164,23 @@ Knesset committees (vaadot) handle detailed legislative review:
 | Education | ועדת החינוך | Schools, higher education |
 | Internal Affairs | ועדת הפנים | Local government, planning |
 
-**Query committee sessions:**
+**Query committees:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/committees?$filter=KnessetNum eq 25&$orderby=StartDate desc&$top=10
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Committee?$filter=KnessetNum eq 25&$orderby=Name&$top=10&$format=json
 ```
 
 ### Step 5: Analyze MK Voting Records
 
 Look up MK activity and voting patterns:
 
-**Get MK list for current Knesset:**
+**Get MK list for current Knesset (25th):**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members?$filter=IsCurrent eq true
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_PersonToPosition?$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120&$format=json
 ```
 
 **Get specific MK details:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members(MEMBER_ID)
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Person(PERSON_ID)?$format=json
 ```
 
 **Analyze voting patterns:**
@@ -213,12 +219,12 @@ import requests
 
 keywords = ["סייבר", "פרטיות", "בינה מלאכותית", "טכנולוגיה"]
 for kw in keywords:
-    url = f"https://main.knesset.gov.il/Activity/Info/api/v2/bills"
-    params = {"$filter": f"contains(Name,'{kw}')", "$top": 5, "$orderby": "LastUpdatedDate desc"}
+    url = "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill"
+    params = {"$filter": f"substringof('{kw}',Name)", "$top": 5, "$orderby": "LastUpdatedDate desc", "$format": "json"}
     resp = requests.get(url, params=params)
-    bills = resp.json().get("value", [])
+    bills = resp.json().get("d", {}).get("results", [])
     for bill in bills:
-        print(f"[{bill['StatusTypeDesc']}] {bill['Name']}")
+        print(f"[StatusID: {bill['StatusID']}] {bill['Name']}")
 ```
 
 ### Step 7: Present Findings

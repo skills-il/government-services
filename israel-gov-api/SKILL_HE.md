@@ -25,13 +25,13 @@ GET https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID
 **מזהי ארגונים נפוצים:**
 | משרד | מזהה | שם באנגלית |
 |------|------|------------|
-| הלשכה המרכזית לסטטיסטיקה | cbs | Central Bureau of Statistics |
-| משרד התחבורה | mot | Ministry of Transportation |
-| משרד הבריאות | moh | Ministry of Health |
-| משרד החינוך | moe | Ministry of Education |
-| רשות המסים | ita | Israel Tax Authority |
-| רשות מקרקעי ישראל | ila | Israel Land Authority |
-| משרד הפנים | moi | Ministry of Interior |
+| הלשכה המרכזית לסטטיסטיקה | lamas | Central Bureau of Statistics |
+| משרד התחבורה | ministry_of_transport | Ministry of Transportation |
+| משרד הבריאות | ministry-health | Ministry of Health |
+| משרד החינוך | ministry_of_education | Ministry of Education |
+| רשות המסים | taxes-authority | Israel Tax Authority |
+| רשות מקרקעי ישראל | the_israel_lands_administration | Israel Land Authority |
+| משרד הפנים | interior_affairs | Ministry of Interior |
 
 ### שלב 3: שליפה ושאילתת נתונים
 לאחר איתור מערך הנתונים:

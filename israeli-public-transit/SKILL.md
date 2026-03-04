@@ -126,7 +126,7 @@ Check live arrival times at a stop:
 
 **Tel Aviv Light Rail (Red Line)**
 - Route: Petah Tikva to Bat Yam through central Tel Aviv
-- Operator: NTA Metropolitan Mass Transit System
+- Operator: Dan (under contract with NTA)
 - Integration: Connects with Dan bus network and Israel Railways
 
 ### Step 5: Rav-Kav Fare System
@@ -138,7 +138,7 @@ Check live arrival times at a stop:
   |---------|--------|----------|
   | Student | talmid/student | ~33% |
   | Soldier | chayal | Free on most routes |
-  | Senior (67+) | ezrach vatik | ~50% |
+  | Senior (men 67+, women at retirement age 62-65) | ezrach vatik | ~50% |
   | Disabled | nacheh | ~33-50% |
   | Youth (5-18) | naar | ~33% |
 
@@ -183,7 +183,7 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 - `scripts/check_transit.py` — List all Israeli transit operators with regions and websites, check real-time bus arrivals at a stop via curlbus, display Rav-Kav fare structure and discount profiles, and provide Shabbat/holiday service schedules. Supports subcommands: `operators`, `stop`, `fares`, `shabbat`. Run: `python scripts/check_transit.py --help`
 
 ### References
-- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Metropoline, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds.
+- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline has merged with Kavim as part of Israel's bus reform.
 
 ## Troubleshooting
 

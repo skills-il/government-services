@@ -72,7 +72,7 @@ Search the Israel Corporations Authority:
 |--------|-------------------|-------------|-------|
 | Liability | Limited to investment | Personal, unlimited | Limited |
 | Tax | Corporate rate ~23% | Personal brackets | Exempt (conditions) |
-| Registration | Rasham, ~1,700 NIS | Tax Authority, free | Rasham HaAmutot |
+| Registration | Rasham, ~2,600 NIS (verify at ica.justice.gov.il) | Tax Authority, free | Rasham HaAmutot |
 | Annual filing | Yes (financial statements) | Tax returns only | Yes (report to Rasham) |
 | Minimum directors | 1 | N/A | 2 board members |
 | Best for | Companies, startups | Freelancers, small biz | Non-profits, social |
@@ -81,7 +81,7 @@ Search the Israel Corporations Authority:
 1. Choose unique company name (check availability at Rasham)
 2. Draft Articles of Association (takanon)
 3. File incorporation documents at Rasham HaChevarot
-4. Pay registration fee (~1,700 NIS)
+4. Pay registration fee (~2,600 NIS (verify at ica.justice.gov.il))
 5. Receive Certificate of Incorporation (teuda le-hitaagdut)
 6. Register with Tax Authority for income tax and VAT
 7. Open business bank account with incorporation certificate

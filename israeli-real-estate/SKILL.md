@@ -90,7 +90,7 @@ For apartment purchases (2025 rates, verify annually):
 4. **Tabu check:** Attorney obtains Tabu extract to verify ownership, liens
 5. **Negotiation:** Agree on price, payment schedule
 6. **Contract:** Sign purchase agreement (chozeh mcher)
-7. **Purchase tax:** Pay mas rechisha within 50 days of signing
+7. **Purchase tax:** File declaration within 30 days of signing, pay within 60 days
 8. **Mortgage:** Finalize with bank, appraiser visit
 9. **Registration:** Attorney registers transfer in Tabu
 10. **Possession:** Key handover per contract schedule
@@ -103,7 +103,7 @@ A Tabu extract shows:
 - **Section 4:** Liens, warnings (hearot azhara), court orders
 
 **How to obtain:**
-- Online: `https://ecom.gov.il/voucherspa/tabu/` (limited info, ~15 NIS)
+- Online: `https://ecom.gov.il/voucherspa/tabu/` (limited info, ~70 NIS)
 - Full extract: Through attorney or in-person at Tabu office
 - Required info: Gush (block) and Chelka (parcel) numbers
 

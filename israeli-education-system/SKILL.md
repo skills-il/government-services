@@ -128,6 +128,8 @@ Age 21+:    Higher Education (Haskalah Gvoha)
 - English 5 units: +35 bonus points
 - Science/Language 5 units: +25 bonus points each
 
+Note: Bonus points vary by university. The values shown are approximate; always check specific university admission formulas.
+
 ### Step 4: Psychometric Exam (PET) Information
 
 **Exam structure:**
@@ -149,7 +151,7 @@ Age 21+:    Higher Education (Haskalah Gvoha)
 | Below 480 | Below 20th | Consider mechina or retake |
 
 **Key facts:**
-- Maximum 3 attempts total
+- No limit on number of attempts (limit removed circa 2019)
 - Available in Hebrew, Arabic, Russian, French, Spanish
 - Cost: ~500 NIS per sitting
 - Popular prep courses: Kidum, Yoel Geva, Atid, Psagot

@@ -6,14 +6,14 @@
 
 שאלו את המשתמש מה הוא רוצה לעקוב אחריו:
 
-| סוג שאילתה | נקודת קצה ב-API | מונח בעברית |
-|-----------|----------------|-------------|
-| חיפוש הצעות חוק | /api/v2/bills | הצעת חוק |
-| מצב הצעת חוק | /api/v2/bills/{id} | מצב הצעה |
-| ישיבות ועדות | /api/v2/committees | ועדה |
-| מידע על חברי כנסת | /api/v2/members | חבר כנסת |
-| הצבעות | /api/v2/votes | הצבעה |
-| ישיבות מליאה | /api/v2/plenum | מושב מליאה |
+| סוג שאילתה | ישות OData | מונח בעברית |
+|-----------|-------------|-------------|
+| חיפוש הצעות חוק | KNS_Bill | הצעת חוק |
+| מצב הצעת חוק | KNS_Bill (לפי BillID) | מצב הצעה |
+| ישיבות ועדות | KNS_Committee | ועדה |
+| מידע על חברי כנסת | KNS_Person | חבר כנסת |
+| הצבעות | לא זמין (לא זמין דרך ה-API הציבורי של OData) | הצבעה |
+| ישיבות מליאה | KNS_PlenumSession | מושב מליאה |
 
 הבהירו:
 - **באיזה נושא?** (הצעת חוק ספציפית, תחום מדיניות, פעילות חבר כנסת)
@@ -22,69 +22,75 @@
 
 ### שלב 2: שאילתה ב-API הפתוח של הכנסת
 
-כתובת בסיס: `https://main.knesset.gov.il/Activity/Info/`
+כתובת בסיס: `https://knesset.gov.il/Odata/ParliamentInfo.svc/`
 
-הכנסת מספקת API מסוג REST תואם OData:
+הכנסת מספקת API מסוג OData v3:
 
 **חיפוש הצעות חוק לפי מילת מפתח:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills?$filter=contains(Name,'מילת_מפתח')&$top=20
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$filter=substringof('מילת_מפתח',Name)&$top=20&$format=json
 ```
 
 **קבלת פרטי הצעת חוק:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills(BILL_ID)
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(BILL_ID)?$format=json
 ```
 
-**רשימת ישיבות ועדה:**
+**רשימת ועדות:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/committees?$filter=TypeDesc eq 'שם_ועדה'
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Committee?$filter=KnessetNum eq 25&$format=json
 ```
 
-**קבלת רשומת הצבעות של חבר כנסת:**
+**קבלת מידע על חבר כנסת:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members(MEMBER_ID)/votes
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Person(PERSON_ID)?$format=json
 ```
 
 **סינון לפי טווח תאריכים:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/bills?$filter=LastUpdatedDate ge 2024-01-01T00:00:00Z
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$filter=LastUpdatedDate ge datetime'2024-01-01T00:00:00'&$format=json
 ```
+
+**הערה:** ה-API של OData מחזיר XML כברירת מחדל. תמיד הוסיפו `$format=json` לקבלת תגובות JSON.
+
+**הערה:** נתוני הצבעות (רשומות הצבעה לפי חבר כנסת) אינם זמינים דרך ה-API הציבורי של OData.
 
 **טיפים:**
 - השתמשו ב-`$filter`, `$select`, `$top`, `$skip`, `$orderby` של OData לשאילתות
 - שמות הצעות חוק הם בעברית -- חפשו עם מילות מפתח בעברית
-- ה-API מחזיר JSON כברירת מחדל
+- השתמשו ב-`substringof('text', Field)` לחיפוש טקסט (תחביר OData v3)
 - דפדוף: השתמשו ב-`$top` ו-`$skip` עבור קבוצות תוצאות גדולות
 
 ### שלב 3: מעקב אחר התקדמות הצעת חוק דרך הקריאות
 
 החקיקה הישראלית עוקבת אחר תהליך מוגדר:
 
-| שלב | עברית | סטטוס API | תיאור |
-|-----|-------|----------|-------|
-| הצעה | הצעה | Proposed | טקסט ראשוני של הצעת חוק הוגש |
-| הצבעה מוקדמת | הצבעה מוקדמת | PreVote | הצבעה מוקדמת בכנסת |
-| ועדה | ועדה | InCommittee | דיון ותיקונים בוועדה |
-| קריאה ראשונה | קריאה ראשונה | FirstReading | הצבעת מליאה על עקרונות |
-| הכנה לקריאה שנייה | הכנה לקריאה שנייה | PrepSecondReading | תיקוני ועדה סופיים |
-| קריאה שנייה ושלישית | קריאה שנייה ושלישית | SecondThirdReading | הצבעה סופית, הופך לחוק |
-| אושר | אושר | Approved | נחקק כחוק |
-| נדחה | נדחה | Rejected | ההצעה נדחתה |
+**הערה:** ה-API משתמש בערכי StatusID מספריים ולא בשמות סטטוסים. ערכי StatusID מרכזיים כוללים קודים להכנה, ועדה, קריאות, אישור ודחייה. בדקו את ישות KNS_BillStatus או את שדה StatusID בהצעות החוק לקודים המספריים בפועל.
+
+| שלב | עברית | תיאור |
+|-----|-------|-------|
+| הצעה | הצעה | טקסט ראשוני של הצעת חוק הוגש |
+| הצבעה מוקדמת | הצבעה מוקדמת | הצבעה מוקדמת בכנסת |
+| ועדה | ועדה | דיון ותיקונים בוועדה |
+| קריאה ראשונה | קריאה ראשונה | הצבעת מליאה על עקרונות |
+| הכנה לקריאה שנייה | הכנה לקריאה שנייה | תיקוני ועדה סופיים |
+| קריאה שנייה ושלישית | קריאה שנייה ושלישית | הצבעה סופית, הופך לחוק |
+| אושר | אושר | נחקק כחוק |
+| נדחה | נדחה | ההצעה נדחתה |
 
 **מעקב אחר הצעת חוק ספציפית דרך השלבים:**
 ```python
 import requests
 
 bill_id = 12345
-url = f"https://main.knesset.gov.il/Activity/Info/api/v2/bills({bill_id})"
+url = f"https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill({bill_id})?$format=json"
 response = requests.get(url)
-bill = response.json()
+bill = response.json().get("d", {})
 
 print(f"הצעת חוק: {bill.get('Name')}")
-print(f"סטטוס: {bill.get('StatusTypeDesc')}")
+print(f"StatusID: {bill.get('StatusID')}")
 print(f"עדכון אחרון: {bill.get('LastUpdatedDate')}")
-print(f"מציעים: {bill.get('InitiatorFirstName')} {bill.get('InitiatorLastName')}")
+print(f"SubTypeDesc: {bill.get('SubTypeDesc')}")
 ```
 
 ### שלב 4: מעקב אחר פעילות ועדות
@@ -101,23 +107,23 @@ print(f"מציעים: {bill.get('InitiatorFirstName')} {bill.get('InitiatorLastN
 | חינוך | ועדת החינוך | בתי ספר, השכלה גבוהה |
 | פנים | ועדת הפנים | שלטון מקומי, תכנון |
 
-**שאילתת ישיבות ועדה:**
+**שאילתת ועדות:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/committees?$filter=KnessetNum eq 25&$orderby=StartDate desc&$top=10
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Committee?$filter=KnessetNum eq 25&$orderby=Name&$top=10&$format=json
 ```
 
 ### שלב 5: ניתוח רשומות הצבעה של חברי כנסת
 
 בדיקת פעילות ודפוסי הצבעה של חברי כנסת:
 
-**קבלת רשימת חברי כנסת נוכחיים:**
+**קבלת רשימת חברי כנסת נוכחיים (כנסת ה-25):**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members?$filter=IsCurrent eq true
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_PersonToPosition?$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120&$format=json
 ```
 
 **קבלת פרטי חבר כנסת ספציפי:**
 ```
-GET https://main.knesset.gov.il/Activity/Info/api/v2/members(MEMBER_ID)
+GET https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Person(PERSON_ID)?$format=json
 ```
 
 **ניתוח דפוסי הצבעה:**
@@ -156,12 +162,12 @@ import requests
 
 keywords = ["סייבר", "פרטיות", "בינה מלאכותית", "טכנולוגיה"]
 for kw in keywords:
-    url = f"https://main.knesset.gov.il/Activity/Info/api/v2/bills"
-    params = {"$filter": f"contains(Name,'{kw}')", "$top": 5, "$orderby": "LastUpdatedDate desc"}
+    url = "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill"
+    params = {"$filter": f"substringof('{kw}',Name)", "$top": 5, "$orderby": "LastUpdatedDate desc", "$format": "json"}
     resp = requests.get(url, params=params)
-    bills = resp.json().get("value", [])
+    bills = resp.json().get("d", {}).get("results", [])
     for bill in bills:
-        print(f"[{bill['StatusTypeDesc']}] {bill['Name']}")
+        print(f"[StatusID: {bill['StatusID']}] {bill['Name']}")
 ```
 
 ### שלב 7: הצגת ממצאים

@@ -66,7 +66,7 @@ metadata:
 | Data Type | Source | API |
 |-----------|--------|-----|
 | MK information | Knesset API | KNS_Person, KNS_MkSiteCode |
-| Voting records | Knesset API | KNS_VoteMain, KNS_VoteDetail |
+| Voting records | Knesset API | Note: Vote data is not available through the public OData API |
 | Bills / legislation | Knesset API | KNS_Bill, KNS_BillInitiator |
 | Committee sessions | Knesset API | KNS_CmtSessionItem |
 | Election results | Elections Committee | votes.gov.il |
@@ -83,7 +83,7 @@ GET {BASE_URL}/{ENTITY}?$format=json&$filter={FILTER}&$top={LIMIT}&$select={FIEL
 
 **Get all MKs for current Knesset (25th):**
 ```
-GET .../KNS_PersonToPosition?$format=json&$filter=KnessetNum eq 25 and PositionID eq 54&$top=120
+GET .../KNS_PersonToPosition?$format=json&$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120
 ```
 
 **Search MK by name:**
@@ -93,21 +93,7 @@ GET .../KNS_Person?$format=json&$filter=substringof('name', LastName)&$top=10
 
 ### Step 3: Access Voting Data
 
-**Get votes for a Knesset session:**
-```
-GET .../KNS_VoteMain?$format=json&$filter=KnessetNum eq 25&$top=50
-```
-
-**Get individual MK votes on a specific vote:**
-```
-GET .../KNS_VoteDetail?$format=json&$filter=VoteID eq {VOTE_ID}&$top=120
-```
-
-**Vote value mapping:**
-- 1 = For
-- 2 = Against
-- 3 = Abstain
-- 4 = Absent
+**Note:** Vote data is not available through the public OData API. The entities KNS_VoteMain and KNS_VoteDetail do NOT exist in the public Knesset OData service. For voting data, consult the Knesset website directly or check if alternative data sources are available.
 
 ### Step 4: Track Legislation
 
@@ -117,10 +103,9 @@ GET .../KNS_Bill?$format=json&$filter=KnessetNum eq 25 and substringof('keyword'
 ```
 
 **Bill status codes:**
-- 108 = In preparation
-- 118 = First reading approved
-- 120 = Approved (became law)
-- 125 = Rejected
+- 108 = Preparation for first reading
+- 118 = Approved in third reading (became law)
+- 120 = For plenum discussion on continuity law application
 
 **Legislative process stages:**
 1. Bill Draft -- Private member or Government bill
@@ -169,13 +154,13 @@ GET .../KNS_Faction?$format=json&$filter=KnessetNum eq 25
 ## Examples
 
 ### Example 1: MK Lookup
-User says: "Tell me about MK voting record for [name]"
+User says: "Tell me about MK [name]"
 Actions:
 1. Search KNS_Person for MK by name
-2. Get PersonID, then query KNS_VoteDetail
-3. Calculate voting participation and pattern
-4. Present summary with for/against/abstain breakdown
-Result: MK profile with voting statistics.
+2. Get PersonID, then query KNS_PersonToPosition for roles
+3. Look up faction via KNS_Faction
+4. Present MK profile with party affiliation and positions held
+Result: MK profile with political background. Note: per-MK voting data is not available via the public OData API.
 
 ### Example 2: Bill Tracking
 User says: "What happened to the bill about [topic]?"
@@ -201,7 +186,7 @@ Result: Haifa-specific election breakdown with party results.
 - `scripts/query_knesset.py` — Query the Knesset OData API to list MKs by Knesset session, search MKs by name, retrieve plenum voting records with for/against/abstain breakdowns, search legislative bills by keyword, and list political factions. Supports subcommands: `mks`, `search-mk`, `votes`, `vote-detail`, `bills`, `factions`. Run: `python scripts/query_knesset.py --help`
 
 ### References
-- `references/knesset-api-entities.md` — Complete entity reference for the Knesset OData API including field names for KNS_Person, KNS_Bill, KNS_VoteMain, KNS_VoteDetail, KNS_Faction, and other entities, plus OData v3 filter syntax and position ID codes (54=MK, 39=PM, 12=Minister). Consult when constructing OData queries or mapping vote value codes.
+- `references/knesset-api-entities.md` — Complete entity reference for the Knesset OData API including field names for KNS_Person, KNS_Bill, KNS_Faction, and other entities, plus OData v3 filter syntax and position ID codes (43=MK male, 61=MK female, 45=Prime Minister, 39=Minister male, 57=Minister female). Note: vote data is not available via the public OData API. Consult when constructing OData queries.
 
 ## Troubleshooting
 

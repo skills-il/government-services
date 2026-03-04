@@ -85,7 +85,7 @@ For each benefit:
 ## Key Programs Detail
 
 ### Old Age Pension (Kiztavat Zikna)
-- **Eligibility age:** Men 67, Women 62-65 (rising to 65 by 2027)
+- **Eligibility age:** Men 67, Women 62-65 (rising to 65 by approximately 2032)
 - **Qualifying period:** 60-144 months of contributions (varies by age at immigration)
 - **Basic amount (2025):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple)
 - **Income supplement:** Additional if below income threshold

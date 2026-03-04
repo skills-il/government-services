@@ -84,13 +84,13 @@ GET https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID
 **Common organization IDs:**
 | Ministry | ID | Hebrew |
 |----------|-----|--------|
-| Central Bureau of Statistics | cbs | halishka hamerkazit listatistika |
-| Ministry of Transportation | mot | misrad hatahaburah |
-| Ministry of Health | moh | misrad habriut |
-| Ministry of Education | moe | misrad hachinuch |
-| Israel Tax Authority | ita | rashut hamisim |
-| Israel Land Authority | ila | rashut mekarkei yisrael |
-| Ministry of Interior | moi | misrad hapnim |
+| Central Bureau of Statistics | lamas | halishka hamerkazit listatistika |
+| Ministry of Transportation | ministry_of_transport | misrad hatahaburah |
+| Ministry of Health | ministry-health | misrad habriut |
+| Ministry of Education | ministry_of_education | misrad hachinuch |
+| Israel Tax Authority | taxes-authority | rashut hamisim |
+| Israel Land Authority | the_israel_lands_administration | rashut mekarkei yisrael |
+| Ministry of Interior | interior_affairs | misrad hapnim |
 
 ### Step 3: Retrieve and Query Data
 Once a dataset is found:

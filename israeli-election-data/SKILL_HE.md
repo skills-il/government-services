@@ -7,7 +7,7 @@
 | סוג מידע | מקור | API |
 |-----------|------|-----|
 | מידע על חברי כנסת | API הכנסת | KNS_Person, KNS_MkSiteCode |
-| רשומות הצבעה | API הכנסת | KNS_VoteMain, KNS_VoteDetail |
+| רשומות הצבעה | API הכנסת | הערה: נתוני הצבעות אינם זמינים דרך ה-API הציבורי של OData |
 | הצעות חוק / חקיקה | API הכנסת | KNS_Bill, KNS_BillInitiator |
 | ישיבות ועדות | API הכנסת | KNS_CmtSessionItem |
 | תוצאות בחירות | ועדת הבחירות המרכזית | votes.gov.il |
@@ -24,7 +24,7 @@ GET {BASE_URL}/{ENTITY}?$format=json&$filter={FILTER}&$top={LIMIT}&$select={FIEL
 
 **קבלת כל חברי הכנסת בכנסת הנוכחית (ה-25):**
 ```
-GET .../KNS_PersonToPosition?$format=json&$filter=KnessetNum eq 25 and PositionID eq 54&$top=120
+GET .../KNS_PersonToPosition?$format=json&$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120
 ```
 
 **חיפוש חבר כנסת לפי שם:**
@@ -34,21 +34,7 @@ GET .../KNS_Person?$format=json&$filter=substringof('name', LastName)&$top=10
 
 ### שלב 3: גישה לנתוני הצבעות
 
-**קבלת הצבעות לכנסת מסוימת:**
-```
-GET .../KNS_VoteMain?$format=json&$filter=KnessetNum eq 25&$top=50
-```
-
-**קבלת הצבעות של חבר כנסת בהצבעה ספציפית:**
-```
-GET .../KNS_VoteDetail?$format=json&$filter=VoteID eq {VOTE_ID}&$top=120
-```
-
-**מיפוי ערכי הצבעה:**
-- 1 = בעד
-- 2 = נגד
-- 3 = נמנע
-- 4 = נעדר
+**הערה:** נתוני הצבעות אינם זמינים דרך ה-API הציבורי של OData. הישויות KNS_VoteMain ו-KNS_VoteDetail אינן קיימות בשירות ה-OData הציבורי של הכנסת. לנתוני הצבעות, יש לפנות ישירות לאתר הכנסת או לבדוק אם קיימים מקורות מידע חלופיים.
 
 ### שלב 4: מעקב אחר חקיקה
 
@@ -58,10 +44,9 @@ GET .../KNS_Bill?$format=json&$filter=KnessetNum eq 25 and substringof('keyword'
 ```
 
 **קודי סטטוס של הצעת חוק:**
-- 108 = בהכנה
-- 118 = אושרה בקריאה ראשונה
-- 120 = אושרה (הפכה לחוק)
-- 125 = נדחתה
+- 108 = הכנה לקריאה ראשונה
+- 118 = אושרה בקריאה שלישית (הפכה לחוק)
+- 120 = לדיון במליאה בנושא יישום חוק רציפות
 
 **שלבי הליך החקיקה:**
 1. טיוטת הצעת חוק -- הצעת חוק פרטית או ממשלתית
@@ -110,13 +95,13 @@ GET .../KNS_Faction?$format=json&$filter=KnessetNum eq 25
 ## דוגמאות
 
 ### דוגמה 1: חיפוש חבר כנסת
-המשתמש אומר: "ספר לי על הצבעות של חבר הכנסת [שם]"
+המשתמש אומר: "ספר לי על חבר הכנסת [שם]"
 פעולות:
 1. חיפוש ב-KNS_Person לפי שם
-2. קבלת PersonID ושאילתה ל-KNS_VoteDetail
-3. חישוב שיעור השתתפות בהצבעות ודפוסי הצבעה
-4. הצגת סיכום עם פירוט בעד/נגד/נמנע
-תוצאה: פרופיל חבר הכנסת עם סטטיסטיקת הצבעות.
+2. קבלת PersonID ושאילתה ל-KNS_PersonToPosition לתפקידים
+3. חיפוש סיעה דרך KNS_Faction
+4. הצגת פרופיל חבר הכנסת עם שיוך מפלגתי ותפקידים
+תוצאה: פרופיל חבר הכנסת עם רקע פוליטי. הערה: נתוני הצבעה לפי חבר כנסת אינם זמינים דרך ה-API הציבורי של OData.
 
 ### דוגמה 2: מעקב אחר הצעת חוק
 המשתמש אומר: "מה קרה עם הצעת החוק בנושא [נושא]?"
@@ -142,7 +127,7 @@ GET .../KNS_Faction?$format=json&$filter=KnessetNum eq 25
 - `scripts/query_knesset.py` — שאילתות ל-API של הכנסת (OData) לרשימת חברי כנסת לפי כהונה, חיפוש חברי כנסת לפי שם, שליפת הצבעות מליאה עם פירוט בעד/נגד/נמנע, חיפוש הצעות חוק לפי מילת מפתח, והצגת סיעות. תומך בפקודות: `mks`, `search-mk`, `votes`, `vote-detail`, `bills`, `factions`. הרצה: `python scripts/query_knesset.py --help`
 
 ### חומרי עזר
-- `references/knesset-api-entities.md` — מדריך ישויות מלא ל-API של הכנסת (OData) כולל שמות שדות עבור KNS_Person, KNS_Bill, KNS_VoteMain, KNS_VoteDetail, KNS_Faction וישויות נוספות, תחביר סינון OData v3 וקודי תפקידים (54=ח"כ, 39=ראש ממשלה, 12=שר). יש לעיין במסמך בעת בניית שאילתות OData או מיפוי קודי הצבעה.
+- `references/knesset-api-entities.md` — מדריך ישויות מלא ל-API של הכנסת (OData) כולל שמות שדות עבור KNS_Person, KNS_Bill, KNS_Faction וישויות נוספות, תחביר סינון OData v3 וקודי תפקידים (43=ח"כ זכר, 61=ח"כ נקבה, 45=ראש ממשלה, 39=שר זכר, 57=שרה נקבה). הערה: נתוני הצבעות אינם זמינים דרך ה-API הציבורי של OData. יש לעיין במסמך בעת בניית שאילתות OData.
 
 ## פתרון בעיות
 
