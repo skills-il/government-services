@@ -43,6 +43,7 @@ metadata:
     - opencode
     - codex
     - antigravity
+    - openclaw
 ---
 
 # Israeli Miluim Manager
