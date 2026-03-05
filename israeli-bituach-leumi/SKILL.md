@@ -49,6 +49,7 @@ metadata:
     - opencode
     - codex
     - openclaw
+    - antigravity
 ---
 
 # Israeli Bituach Leumi (National Insurance)

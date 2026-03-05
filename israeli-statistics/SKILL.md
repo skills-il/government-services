@@ -58,6 +58,7 @@ metadata:
     - opencode
     - codex
     - openclaw
+    - antigravity
 ---
 
 # Israeli Statistics (CBS)
