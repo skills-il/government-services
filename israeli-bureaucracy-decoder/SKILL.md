@@ -173,7 +173,7 @@ Actions:
 5. Check for any payment schedule or deadline information
 6. Present a clear explanation of the arnona system and what this specific notice means
 
-Result: The user's municipality approved a 25% arnona discount based on income level ("הנחה לפי מבחן הכנסות"). The discount applies from January to December of the current year. The remaining balance is 8,400 NIS, payable in 10 bi-monthly installments. No action needed unless the user's income has changed significantly, in which case they can request a reassessment. The decoder also notes that the discount does not renew automatically and the user will need to reapply next year with updated income documentation.
+Result: The user's municipality approved a 25% arnona discount based on income level ("הנחה לפי מבחן הכנסות"). The discount applies from January to December of the current year. The remaining balance is 8,400 NIS, payable in 6 bi-monthly installments. No action needed unless the user's income has changed significantly, in which case they can request a reassessment. The decoder also notes that the discount does not renew automatically and the user will need to reapply next year with updated income documentation.
 
 ### Example 4: Court Summons or Legal Notice
 
