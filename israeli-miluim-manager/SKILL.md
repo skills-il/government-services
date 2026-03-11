@@ -1,50 +1,58 @@
 ---
 name: israeli-miluim-manager
 description: >-
-  Comprehensive guide to Israeli reserve duty (miluim) rights, compensation,
-  tax benefits, and employer obligations. Use when a reservist, employer, or
-  family member needs help understanding miluim entitlements, filing for
-  Bituach Leumi compensation, calculating 2026 tax credits, or navigating
-  post-service employment protections. Covers IDF reserve call-up procedures,
-  30-day dismissal ban, freelancer rights, and family support services.
-  Do NOT use for active-duty (seder) conscription or career military matters.
+  Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits,
+  and employer obligations. Use when a reservist, employer, or family member needs
+  help understanding miluim entitlements, filing for Bituach Leumi compensation, calculating
+  2026 tax credits, or navigating post-service employment protections. Covers IDF
+  reserve call-up procedures, 30-day dismissal ban, freelancer rights, and family
+  support services. Do NOT use for active-duty (seder) conscription or career military
+  matters.
 license: MIT
-compatibility: "Requires Claude Code or compatible AI coding agent"
+compatibility: Requires Claude Code or compatible AI coding agent
 metadata:
   author: skills-il
   version: 1.0.0
   category: government-services
   tags:
     he:
-      - מילואים
-      - שירות-מילואים
-      - צהל
-      - זכויות-עובדים
-      - פיצויים
-      - ישראל
+    - מילואים
+    - שירות-מילואים
+    - צהל
+    - זכויות-עובדים
+    - פיצויים
+    - ישראל
     en:
-      - miluim
-      - reserve-duty
-      - idf
-      - employment-rights
-      - compensation
-      - israel
+    - miluim
+    - reserve-duty
+    - idf
+    - employment-rights
+    - compensation
+    - israel
   display_name:
-    he: "מנהל מילואים ישראלי"
-    en: "Israeli Miluim Manager"
+    he: מנהל מילואים ישראלי
+    en: Israeli Miluim Manager
   display_description:
-    he: "מדריך לזכויות, פיצויים והטבות מס למשרתי מילואים בישראל"
-    en: "Guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, and employer obligations with 2026 law updates."
+    he: מדריך לזכויות, פיצויים והטבות מס למשרתי מילואים בישראל
+    en: >-
+      Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax
+      benefits, and employer obligations. Use when a reservist, employer, or family
+      member needs help understanding miluim entitlements, filing for Bituach Leumi
+      compensation, calculating 2026 tax credits, or navigating post-service employment
+      protections. Covers IDF reserve call-up procedures, 30-day dismissal ban, freelancer
+      rights, and family support services. Do NOT use for active-duty (seder) conscription
+      or career military matters.
   supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
-    - openclaw
+  - claude-code
+  - cursor
+  - github-copilot
+  - windsurf
+  - opencode
+  - codex
+  - antigravity
+  - openclaw
 ---
+
 
 # Israeli Miluim Manager
 
