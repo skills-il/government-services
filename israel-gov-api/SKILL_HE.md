@@ -46,15 +46,29 @@ GET https://data.gov.il/api/3/action/package_show?id=DATASET_ID
 GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100
 ```
 
-**שאילתות דמויות SQL (חזקות):**
+**סינון לפי ערכי שדות:**
 ```
-GET https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT * FROM "RESOURCE_ID" WHERE field = 'value' LIMIT 100
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={"field_name":"value"}&limit=100
 ```
 
+**בחירת שדות ספציפיים ומיון:**
+```
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 desc&limit=100
+```
+
+**חיפוש טקסט חופשי במשאב:**
+```
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100
+```
+
+**חשוב:** נקודת הקצה `datastore_search_sql` אינה זמינה יותר (מחזירה 403 Forbidden). השתמשו ב-`datastore_search` עם הפרמטרים `filters`, `fields`, `sort`, `q`, `limit` ו-`offset` במקום.
+
 **טיפים:**
-- שמות השדות לרוב בעברית — השתמשו ב-`datastore_search` עם `limit=1` תחילה כדי לראות את שמות השדות
+- שמות השדות לרוב בעברית -- השתמשו ב-`datastore_search` עם `limit=1` תחילה כדי לראות את שמות השדות
+- השתמשו בפרמטר `filters` עם אובייקט JSON להתאמה מדויקת של שדות (למשל `filters={"city_code":"5000"}`)
+- השתמשו בפרמטר `q` לחיפוש טקסט חופשי בכל השדות
 - מערכי נתונים גדולים: השתמשו ב-`limit` ו-`offset` לדפדוף
-- שדות תאריך עשויים להיות בפורמטים שונים — בדקו את תיעוד מערך הנתונים
+- שדות תאריך עשויים להיות בפורמטים שונים -- בדקו את תיעוד מערך הנתונים
 
 ### שלב 4: ניתוח והצגה
 עבור הנתונים שנשלפו:
@@ -105,10 +119,10 @@ GET https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT * FROM "RES
 ## משאבים מצורפים
 
 ### סקריפטים
-- `scripts/query_datagov.py` — חיפוש מערכי נתונים, בדיקת משאבים והרצת שאילתות SQL/datastore ישירות מול ה-API של data.gov.il (CKAN) משורת הפקודה. תומך בפקודות משנה: `search`, `dataset`, `query`, `sql`, `orgs`. הרצה: `python scripts/query_datagov.py --help`
+- `scripts/query_datagov.py` — חיפוש מערכי נתונים, בדיקת משאבים והרצת שאילתות datastore ישירות מול ה-API של data.gov.il (CKAN) משורת הפקודה. תומך בפקודות משנה: `search`, `dataset`, `query`, `orgs`. הרצה: `python scripts/query_datagov.py --help`
 
 ### חומרי עזר
-- `references/ckan-api-reference.md` — קטלוג מלא של נקודות קצה עבור ה-API של data.gov.il (CKAN) כולל פרמטרי חיפוש, תחביר שאילתות datastore, יכולות SQL ומזהי ארגונים נפוצים. היעזרו בו בעת בניית קריאות API או איתור באגים בתחביר שאילתות.
+- `references/ckan-api-reference.md` — קטלוג מלא של נקודות קצה עבור ה-API של data.gov.il (CKAN) כולל פרמטרי חיפוש, תחביר שאילתות datastore ומזהי ארגונים נפוצים. היעזרו בו בעת בניית קריאות API או איתור באגים בתחביר שאילתות.
 
 ## פתרון בעיות
 
@@ -119,6 +133,10 @@ GET https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT * FROM "RES
 ### שגיאה: "Datastore not available"
 סיבה: לא לכל המשאבים יש API של datastore (לשאילתות) מופעל
 פתרון: הורידו את קובץ ה-CSV/Excel ישירות ועבדו עליו מקומית.
+
+### שגיאה: "403 Forbidden" בשאילתות SQL
+סיבה: נקודת הקצה `datastore_search_sql` הושבתה על ידי data.gov.il
+פתרון: השתמשו ב-`datastore_search` עם הפרמטרים `filters`, `fields`, `sort` ו-`q` במקום. לדוגמה: `datastore_search?resource_id=ID&filters={"city":"Haifa"}&fields=field1,field2&sort=field1 desc&limit=100`
 
 ### שגיאה: "Hebrew field names"
 סיבה: רוב מערכי הנתונים הממשלתיים משתמשים בשמות עמודות בעברית

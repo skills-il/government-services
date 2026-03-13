@@ -16,7 +16,7 @@ compatibility: >-
   data-gov-il-mcp servers.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.1.0
   category: government-services
   tags:
     he:
@@ -106,13 +106,27 @@ GET https://data.gov.il/api/3/action/package_show?id=DATASET_ID
 GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100
 ```
 
-**SQL-like queries (powerful):**
+**Filter by field values:**
 ```
-GET https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT * FROM "RESOURCE_ID" WHERE field = 'value' LIMIT 100
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={"field_name":"value"}&limit=100
 ```
+
+**Select specific fields and sort:**
+```
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 desc&limit=100
+```
+
+**Full-text search within a resource:**
+```
+GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100
+```
+
+**Important:** The `datastore_search_sql` endpoint is no longer available (returns 403 Forbidden). Use `datastore_search` with `filters`, `fields`, `sort`, `q`, `limit`, and `offset` parameters instead.
 
 **Tips:**
 - Field names are often in Hebrew -- use `datastore_search` with `limit=1` first to see field names
+- Use `filters` parameter with a JSON object for exact field matching (e.g., `filters={"city_code":"5000"}`)
+- Use `q` parameter for full-text search across all fields
 - Large datasets: use `limit` and `offset` for pagination
 - Date fields may be in various formats -- check dataset documentation
 
@@ -174,10 +188,10 @@ Result: Ranked comparison of education spending per student across major Israeli
 ## Bundled Resources
 
 ### Scripts
-- `scripts/query_datagov.py` — Search datasets, inspect resources, and run SQL/datastore queries against the data.gov.il CKAN API directly from the command line. Supports subcommands: `search`, `dataset`, `query`, `sql`, `orgs`. Run: `python scripts/query_datagov.py --help`
+- `scripts/query_datagov.py` — Search datasets, inspect resources, and run datastore queries against the data.gov.il CKAN API directly from the command line. Supports subcommands: `search`, `dataset`, `query`, `orgs`. Run: `python scripts/query_datagov.py --help`
 
 ### References
-- `references/ckan-api-reference.md` — Complete endpoint catalog for the data.gov.il CKAN API including search parameters, datastore query syntax, SQL capabilities, and common organization IDs. Consult when constructing API calls or debugging query syntax.
+- `references/ckan-api-reference.md` — Complete endpoint catalog for the data.gov.il CKAN API including search parameters, datastore query syntax, and common organization IDs. Consult when constructing API calls or debugging query syntax.
 
 ## Troubleshooting
 
@@ -188,6 +202,10 @@ Solution: Try broader Hebrew keywords. Government data is primarily in Hebrew.
 ### Error: "Datastore not available"
 Cause: Not all resources have the datastore (queryable) API enabled
 Solution: Download the CSV/Excel resource directly and process locally.
+
+### Error: "403 Forbidden" on SQL queries
+Cause: The `datastore_search_sql` endpoint has been disabled by data.gov.il
+Solution: Use `datastore_search` with `filters`, `fields`, `sort`, and `q` parameters instead. For example: `datastore_search?resource_id=ID&filters={"city":"Haifa"}&fields=field1,field2&sort=field1 desc&limit=100`
 
 ### Error: "Hebrew field names"
 Cause: Most government datasets have Hebrew column names

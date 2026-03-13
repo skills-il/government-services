@@ -8,8 +8,8 @@ the Israeli government CKAN-based data portal.
 Usage:
     python query_datagov.py search "schools tel aviv"
     python query_datagov.py dataset "dataset-id"
-    python query_datagov.py query "resource-id" --limit 50
-    python query_datagov.py sql "SELECT * FROM \"resource-id\" LIMIT 10"
+    python query_datagov.py query "resource-id" --limit 50 --filters '{"city":"Haifa"}'
+    python query_datagov.py query "resource-id" --fields "field1,field2" --sort "field1 desc"
     python query_datagov.py orgs
 """
 
@@ -101,7 +101,8 @@ def show_dataset(dataset_id: str) -> None:
 
 
 def query_datastore(resource_id: str, limit: int = 50, offset: int = 0,
-                    filters: str = None) -> None:
+                    filters: str = None, fields: str = None,
+                    sort: str = None, q: str = None) -> None:
     """Query a datastore resource."""
     params = {
         "resource_id": resource_id,
@@ -110,39 +111,26 @@ def query_datastore(resource_id: str, limit: int = 50, offset: int = 0,
     }
     if filters:
         params["filters"] = filters
+    if fields:
+        params["fields"] = fields
+    if sort:
+        params["sort"] = sort
+    if q:
+        params["q"] = q
 
     result = api_get("action/datastore_search", params)
 
     total = result.get("total", 0)
     records = result.get("records", [])
-    fields = result.get("fields", [])
+    result_fields = result.get("fields", [])
 
     print(f"Total records: {total}")
     print(f"Showing: {len(records)} (offset {offset})")
-    print(f"Fields: {', '.join(f.get('id', '') for f in fields)}")
+    print(f"Fields: {', '.join(f.get('id', '') for f in result_fields)}")
     print()
 
     for i, record in enumerate(records):
         print(f"--- Record {offset + i + 1} ---")
-        for key, value in record.items():
-            if key != "_id":
-                print(f"  {key}: {value}")
-        print()
-
-
-def query_sql(sql: str) -> None:
-    """Execute a SQL query against the datastore."""
-    result = api_get("action/datastore_search_sql", {"sql": sql})
-
-    records = result.get("records", [])
-    fields = result.get("fields", [])
-
-    print(f"Results: {len(records)} records")
-    print(f"Fields: {', '.join(f.get('id', '') for f in fields)}")
-    print()
-
-    for i, record in enumerate(records):
-        print(f"--- Record {i + 1} ---")
         for key, value in record.items():
             if key != "_id":
                 print(f"  {key}: {value}")
@@ -185,10 +173,9 @@ def main():
     q_parser.add_argument("--limit", type=int, default=50, help="Result limit")
     q_parser.add_argument("--offset", type=int, default=0, help="Result offset")
     q_parser.add_argument("--filters", help='JSON filters (e.g., \'{"field":"value"}\')')
-
-    # SQL query
-    sql_parser = subparsers.add_parser("sql", help="Execute SQL query")
-    sql_parser.add_argument("sql", help="SQL query string")
+    q_parser.add_argument("--fields", help="Comma-separated field names to return")
+    q_parser.add_argument("--sort", help='Sort order (e.g., "field1 desc")')
+    q_parser.add_argument("-q", "--search", dest="q", help="Full-text search within resource")
 
     # Organizations
     subparsers.add_parser("orgs", help="List organizations")
@@ -200,9 +187,8 @@ def main():
     elif args.command == "dataset":
         show_dataset(args.id)
     elif args.command == "query":
-        query_datastore(args.resource_id, args.limit, args.offset, args.filters)
-    elif args.command == "sql":
-        query_sql(args.sql)
+        query_datastore(args.resource_id, args.limit, args.offset,
+                        args.filters, args.fields, args.sort, args.q)
     elif args.command == "orgs":
         list_organizations()
     else:

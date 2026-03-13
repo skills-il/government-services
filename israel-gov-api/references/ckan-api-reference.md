@@ -23,7 +23,6 @@ None required (public API).
 |----------|--------|-------------|
 | `/action/resource_show` | GET | Get resource metadata |
 | `/action/datastore_search` | GET | Query tabular data |
-| `/action/datastore_search_sql` | GET | SQL queries on tabular data |
 
 ### Search Parameters
 - `q` -- Search query string
@@ -41,11 +40,10 @@ None required (public API).
 - `q` -- Full-text search within resource
 - `sort` -- Sort field and order
 
-### SQL Query Syntax
-```
-SELECT field1, field2 FROM "resource_id" WHERE field1 = 'value' ORDER BY field2 LIMIT 100
-```
-Supports: SELECT, WHERE, ORDER BY, LIMIT, GROUP BY, COUNT, SUM, AVG
+### Deprecated Endpoints
+| Endpoint | Status | Notes |
+|----------|--------|-------|
+| `/action/datastore_search_sql` | 403 Forbidden | SQL queries disabled by data.gov.il. Use `datastore_search` with `filters`, `fields`, `sort`, and `q` parameters instead. |
 
 ## Common Organization IDs
 - `cbs` -- Central Bureau of Statistics
