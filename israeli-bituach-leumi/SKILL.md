@@ -13,7 +13,7 @@ allowed-tools: "Bash(python:*)"
 compatibility: "No network required. Works with Claude Code, Claude.ai, Cursor."
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -134,6 +134,12 @@ Result: Estimated compensation amount with explanation of the payment process an
 
 ### References
 - `references/benefit-programs.md` — Quick-reference table of all 13+ Bituach Leumi programs with Hebrew names, eligibility summaries, contact information (*6050, btl.gov.il), and key dates for rate updates and payment schedules. Consult when identifying which benefit program applies to a user's situation.
+
+## Gotchas
+- Bituach Leumi (National Insurance) contribution rates have two tiers: a reduced rate on income up to 60% of the average wage, and a normal rate above it. Agents almost always apply a single flat rate.
+- Self-employed individuals pay both the employee and a portion of the employer Bituach Leumi contributions. Agents may calculate only the employee share, underestimating the total obligation.
+- Bituach Leumi benefits (disability, old-age, maternity) have waiting periods and eligibility requirements. Agents may tell users they are immediately eligible when there are qualification periods.
+- The average wage (sachir memutza) used for Bituach Leumi calculations is updated twice a year by the CBS. Agents may use an outdated figure. Check the current value at btl.gov.il.
 
 ## Troubleshooting
 

@@ -16,7 +16,7 @@ compatibility: >-
   server (8 tools).
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -218,6 +218,12 @@ Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CP
 
 ### References
 - `references/cbs-data-guide.md` — CBS publication schedule for all major indicators (CPI, housing prices, GDP, unemployment, building starts), CPI component weights, the rent adjustment formula for madad-linked contracts, and CBS table number reference by subject area (population 2.x, prices 12.x, construction 19.x, etc.). Consult when determining data availability timing or locating the correct CBS table number.
+
+## Gotchas
+- The Central Bureau of Statistics (CBS/Lama"s) publishes data primarily in Hebrew. API responses and dataset metadata use Hebrew field names. Agents may fail to parse non-ASCII column names.
+- Israeli statistical surveys use a different geographic classification system (nafa, machoz) than US states/counties. Agents may try to map Israeli regions to US geographic concepts.
+- CBS data release schedules are fixed but the publications often include preliminary data that is revised in subsequent releases. Agents may present preliminary figures as final without noting the revision status.
+- Population statistics in Israel include or exclude different territories depending on the dataset. Agents should verify whether a given statistic covers Israel proper, the West Bank settlements, or East Jerusalem.
 
 ## Troubleshooting
 

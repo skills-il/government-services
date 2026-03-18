@@ -13,7 +13,7 @@ allowed-tools: WebFetch
 compatibility: Network access helpful for tender data lookups. Enhanced by remy-mcp server.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -228,6 +228,12 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 
 ### References
 - `references/rmi-system-guide.md` — Overview of Israel's state land system (93% government-owned, leasehold model), tender type comparison table, land use categories with Hebrew terms, building rights terminology (zchuyot bniyah, achuz bniyah, kav binyan), and RMI website URLs. Consult when explaining Israel's land ownership model or decoding tender document terms.
+
+## Gotchas
+- Israeli land tenders (michrazei karka'ot) from the Israel Land Authority (RMI/Rami) are published in Hebrew only. Agents may search for tenders using English location names, which will return no results.
+- Land measurements in Israeli tenders use dunam (1 dunam = 1,000 square meters), not acres or hectares. Agents may convert to international units without noting the original dunam figure.
+- Tender participation requires a bank guarantee (areva bankit) of 10-15% of the tender price. Agents may suggest bidding without mentioning this upfront financial requirement.
+- Israeli land in urban areas is often leased from the state (chakira) for 49-98 years, not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
 
 ## Troubleshooting
 

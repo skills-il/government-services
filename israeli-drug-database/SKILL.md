@@ -15,7 +15,7 @@ compatibility: >-
   server.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -191,6 +191,12 @@ Result: Keytruda (pembrolizumab) is partially in the health basket for specific 
 
 ### References
 - `references/drug-registry-guide.md` — MoH drug registry field definitions (trade name, ATC code, registration status, etc.), Israeli prescription category breakdown (OTC, mircham, mircham meyuchad, sam mefakach), health basket copay tiers, and generic drug switching guidance. Consult when interpreting registry data fields or explaining coverage tiers to users.
+
+## Gotchas
+- Israeli drug registration uses local brand names that differ from international names. The same active ingredient may have different trade names in Israel vs. the US or Europe. Agents may use international brand names that Israeli pharmacies will not recognize.
+- The Israeli drug formulary (sal habri'ut) determines which medications are subsidized. Agents may recommend a medication without checking if it is in the sal, leading to unexpected out-of-pocket costs.
+- Drug prices in Israel are regulated by the Ministry of Health. The maximum retail price (mechir mufchach) is fixed and different from US or European prices. Agents should not use international drug pricing.
+- Israeli prescriptions use the metric system exclusively. Agents may convert dosages from imperial measurements or use non-standard abbreviations.
 
 ## Troubleshooting
 

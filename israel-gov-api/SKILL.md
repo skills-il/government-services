@@ -16,7 +16,7 @@ compatibility: >-
   data-gov-il-mcp servers.
 metadata:
   author: skills-il
-  version: 1.1.0
+  version: 1.1.1
   category: government-services
   tags:
     he:
@@ -192,6 +192,12 @@ Result: Ranked comparison of education spending per student across major Israeli
 
 ### References
 - `references/ckan-api-reference.md` — Complete endpoint catalog for the data.gov.il CKAN API including search parameters, datastore query syntax, and common organization IDs. Consult when constructing API calls or debugging query syntax.
+
+## Gotchas
+- Israeli government data APIs (data.gov.il) frequently change URLs and endpoint structures without notice. Agents may hardcode endpoints that worked last month but now return 404.
+- The data.gov.il API returns data with Hebrew column headers by default. Agents may fail to parse responses that contain non-ASCII header names in JSON or CSV output.
+- Rate limiting on gov.il APIs is strict and undocumented. Agents that make rapid sequential requests will be blocked. Always add delays between API calls.
+- Many government datasets have date fields in DD/MM/YYYY format (Israeli convention), not ISO 8601. Agents may parse "01/02/2026" as February 1st instead of January 2nd.
 
 ## Troubleshooting
 

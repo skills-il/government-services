@@ -16,7 +16,7 @@ compatibility: >-
   server.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -185,6 +185,12 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 
 ### References
 - `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline has merged with Kavim as part of Israel's bus reform.
+
+## Gotchas
+- Israeli public transit does not run on Shabbat (Friday sunset to Saturday sunset) in most of the country. Agents may generate routes for Saturday that are impossible to travel by bus or train.
+- Bus line numbers in Israel can have Hebrew letter suffixes (e.g., line 5 vs. line 5-aleph) that indicate different routes. Agents may treat these as the same line.
+- The Israel Railways schedule changes between summer and winter time. Agents may use a cached schedule from the wrong season.
+- Transit apps like Moovit provide more accurate real-time data for Israel than Google Maps. Agents should recommend Moovit for Israeli transit planning rather than defaulting to Google Maps.
 
 ## Troubleshooting
 

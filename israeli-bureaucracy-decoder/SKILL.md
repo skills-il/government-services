@@ -12,7 +12,7 @@ allowed-tools: Bash(python:*) Read Edit WebFetch
 compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -206,6 +206,12 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 - `references/government-bodies-guide.md` -- Comprehensive guide to Israeli government bodies, their common letter types, typical jargon, and what they usually want from you. Consult when identifying which body sent a document and what type of document it is.
 - `references/bureaucratic-hebrew-glossary.md` -- Hebrew bureaucratic terms with plain-language explanations, organized by domain (legal, tax, social security, municipal, real estate, immigration). Consult when you encounter official jargon that needs translation to everyday language.
 - `references/common-government-forms.md` -- Index of frequently encountered Israeli government forms with their purposes, who needs to file them, and when. Consult when a document references a form number or when advising the user on which forms to file.
+
+## Gotchas
+- Israeli government form names change over time, and the same form may have different names in different offices. Agents may reference a form name that is no longer current.
+- Hebrew bureaucratic language (lashon misradit) uses formal/archaic terms that differ from everyday Hebrew. Agents may generate translations using everyday Hebrew that do not match the official terminology on forms.
+- Many Israeli government processes require in-person visits (biu'ach ishi) and cannot be completed entirely online. Agents may suggest completing a process online when a physical visit is required.
+- Government office hours in Israel vary: some close at 12:30 PM on certain days, and most are closed on Fridays. Agents may suggest visiting offices during hours when they are closed.
 
 ## Troubleshooting
 

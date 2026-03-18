@@ -12,7 +12,7 @@ allowed-tools: WebFetch
 compatibility: Network access helpful for registrar lookups.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -111,6 +111,12 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 
 ### References
 - `references/entity-types.md` — Comprehensive table of all 8 Israeli business entity types with their registries, liability structures, tax rates, and company number format prefixes (51- for companies, 58- for non-profits, 55- for partnerships). Consult when advising users on entity type selection or interpreting company registration numbers.
+
+## Gotchas
+- Israeli company registration numbers (mispar chevra) are 9 digits, not the same as the tax ID (mispar osek). Agents may confuse these two identifiers or use one when the other is required.
+- The Companies Registrar (Rasham HaChavarot) database contains Hebrew-only company names. Agents may search using English company names, which will return no results.
+- Company status in the registrar can be "active" (pe'ila), "in dissolution" (be-piruq), or "stricken off" (nimekhqa). Agents may not check the status and return information about inactive companies as if they are operational.
+- Israeli business types include Chevra Baam (Ltd.), Shutafut (Partnership), Amuta (NPO), and Aguda Shitufit (Cooperative). Each has different registration systems. Agents may search for a partnership in the company registrar, which only lists Ltd. companies.
 
 ## Troubleshooting
 

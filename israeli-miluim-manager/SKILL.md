@@ -12,7 +12,7 @@ license: MIT
 compatibility: Requires Claude Code or compatible AI coding agent
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -267,6 +267,12 @@ Result: Reservist claims maximum tax credits and applicable supplements.
 
 ### Scripts
 - `scripts/miluim-tax-credit-calculator.py` -- Estimates tax credits based on number of reserve duty days served and monthly income. Calculates credit tier, annual credit value, and monthly supplement eligibility. Run: `python scripts/miluim-tax-credit-calculator.py --help`
+
+## Gotchas
+- Israeli reserve duty (miluim) compensation is paid by Bituach Leumi, not by the employer or the IDF directly. Agents may direct users to the wrong organization for payment claims.
+- The number of reserve duty days per year is capped based on age and unit type. Agents may not know the current limits or may apply outdated limits from previous security situations.
+- Reserve duty documentation (tzav 8) must be retained for Bituach Leumi claims. Agents may not mention the importance of keeping the original order documents.
+- Self-employed reservists receive compensation based on their reported income to Bituach Leumi, which may differ from actual income. Agents may calculate compensation based on current month revenue instead of the Bituach Leumi-reported income.
 
 ## Troubleshooting
 

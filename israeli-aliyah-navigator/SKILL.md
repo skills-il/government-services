@@ -15,7 +15,7 @@ allowed-tools: 'Bash(python:*)'
 compatibility: 'No special requirements. Works with Claude Code, Cursor, Windsurf.'
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -487,6 +487,12 @@ Result: Clear answer that UK rental income is exempt from Israeli tax for 10 yea
 ### References
 - `references/aliyah-timeline-guide.md` -- Month-by-month guide for the first year in Israel. Covers each phase from arrival through settlement with key milestones and deadlines. Consult when building a long-term plan for a new oleh.
 - `references/tax-benefits-olim.md` -- Detailed guide to oleh tax exemptions and benefits including the 10-year foreign income exemption, tax credit points, customs benefits, and reporting requirements. Consult when advising on tax-related questions.
+
+## Gotchas
+- Aliyah benefits (sal klita) amounts change annually and differ by family size, age, and country of origin. Agents may quote outdated figures from previous years.
+- The Ministry of Aliyah and Integration (Misrad HaKlita) and the Jewish Agency (Sochnut) handle different parts of the aliyah process. Agents may direct users to the wrong organization.
+- Olim (new immigrants) receive extra tax credit points (neku'dot zikui) for 3.5 years, not permanently. Agents may fail to mention the expiration of these benefits.
+- Professional license recognition in Israel can take months to years depending on the profession (doctors, lawyers, engineers each have different processes). Agents may underestimate the timeline for practicing a licensed profession after aliyah.
 
 ## Troubleshooting
 

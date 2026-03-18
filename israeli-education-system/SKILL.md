@@ -16,7 +16,7 @@ compatibility: >-
   education data.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -248,6 +248,12 @@ Result: Structured school list for the requested city and level.
 
 ### References
 - `references/education-glossary.md` — Hebrew-English glossary of Israeli education terms covering system levels (gan through tichon), exam terminology (bagrut, yechidot limud, sekhem), education streams (mamlachti, charedi, aravi), mandatory Bagrut subject requirements, and all major universities with locations. Consult when translating education terms or explaining system structure.
+
+## Gotchas
+- The Israeli school year runs from September 1 to June 30, not the US August-May schedule. Agents may apply US academic calendar conventions.
+- Israeli high school matriculation exams (bagruyot) use a points system (yechidot limud, typically 3-5 units per subject). Agents may equate these to US AP exams or IB scores, which use different scales.
+- The Israeli education system has multiple parallel tracks: State (mamlachti), State-Religious (mamlachti dati), Ultra-Orthodox (charedi), and Arab. Each has different curricula. Agents may assume a single national curriculum.
+- Israeli universities have a separate admissions process from the US: SAT equivalent is the psychometric exam (psychometri), GPA is calculated differently (sechum bagrut), and army service (sherut tzva'i) is factored into admissions.
 
 ## Troubleshooting
 

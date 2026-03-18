@@ -12,7 +12,7 @@ allowed-tools: "Bash(python:*) WebFetch"
 compatibility: "Network access helpful for data lookups. Enhanced by remy-mcp for land tenders."
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -148,6 +148,12 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 
 ### References
 - `references/transaction-guide.md` — Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
+
+## Gotchas
+- Israeli real estate transactions involve a purchase tax (mas rechisha) that varies by buyer category: first-time buyers get reduced rates, investors pay higher rates starting from the first shekel. Agents may apply a single flat rate.
+- The Tabu (Land Registry) and the Israel Land Authority (Rami) are two separate systems. Not all properties are registered in the Tabu; some are in the Rami system only. Agents may search only one system.
+- Real estate prices in Israel are commonly quoted in USD for large transactions and NIS for rent. Agents may confuse the currency or forget to specify which is being used.
+- Israeli property improvements (hashbacha) can trigger betterment tax (hetel hashbacha) of up to 50% of the value increase. Agents may overlook this additional cost when calculating renovation ROI.
 
 ## Troubleshooting
 

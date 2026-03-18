@@ -16,7 +16,7 @@ compatibility: >-
   gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -264,6 +264,12 @@ Result: Address change request submitted with confirmation number
 
 ### References
 - `references/gov-portals.md` -- Comprehensive list of Israeli government portal URLs, form types, and field naming conventions. Consult when identifying the correct portal or form for a given task.
+
+## Gotchas
+- Israeli government forms require Hebrew text input in specific fields. Agents may generate English-only form data, which will be rejected by government systems.
+- Teudat Zehut (Israeli ID) numbers have 9 digits with a Luhn-variant check digit. Agents may generate random 9-digit numbers that fail the check-digit validation.
+- Many government forms require a date of birth in both Hebrew calendar (luach ivri) and Gregorian formats. Agents typically only provide the Gregorian date.
+- Digital signatures on Israeli government forms use the gov.il identity verification system. Agents cannot programmatically sign forms without going through the user's gov.il authentication.
 
 ## Troubleshooting
 

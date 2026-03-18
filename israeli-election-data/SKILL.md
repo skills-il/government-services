@@ -15,7 +15,7 @@ compatibility: >-
   Data primarily in Hebrew.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: government-services
   tags:
     he:
@@ -188,6 +188,12 @@ Result: Haifa-specific election breakdown with party results.
 
 ### References
 - `references/knesset-api-entities.md` — Complete entity reference for the Knesset OData API including field names for KNS_Person, KNS_Bill, KNS_Faction, and other entities, plus OData v3 filter syntax and position ID codes (43=MK male, 61=MK female, 45=Prime Minister, 39=Minister male, 57=Minister female). Note: vote data is not available via the public OData API. Consult when constructing OData queries.
+
+## Gotchas
+- Israeli elections use a proportional representation system with a 3.25% electoral threshold, not a district-based system. Agents may describe Israeli elections using US congressional district terminology.
+- Israel has no fixed election schedule. Elections can be called at any time when the Knesset dissolves. Agents should not assume a 4-year cycle.
+- Israeli political party names change frequently due to mergers, splits, and rebranding. Agents may reference party names that no longer exist or conflate different parties.
+- Election results data from the Central Elections Committee (vaádat habechirot hamerkazit) is published in Hebrew. Party letter symbols (otiyot) are used alongside names and differ each election.
 
 ## Troubleshooting
 
