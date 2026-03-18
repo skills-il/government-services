@@ -1,0 +1,39 @@
+{
+  "name": "israel-pikud-haoref",
+  "version": "1.0.0",
+  "description": "Integrate with Israel's Pikud HaOref real-time alert system — rocket alerts, earthquake warnings, and civil defense notifications from oref.org.il.",
+  "category": "government-services",
+  "tags": [
+    "alerts",
+    "red-alert",
+    "israel",
+    "pikud-haoref",
+    "tzeva-adom",
+    "oref",
+    "civil-defence"
+  ],
+  "author": "skills-il",
+  "license": "MIT",
+  "platforms": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity"
+  ],
+  "triggers": [
+    "oref.org.il",
+    "pikud haoref",
+    "red alert israel",
+    "tzeva adom",
+    "צבע אדום",
+    "פיקוד העורף",
+    "rocket alert israel",
+    "home front command api",
+    "oref alerts"
+  ],
+  "sourceUrl": "https://github.com/skills-il/government-services/tree/main/israel-pikud-haoref",
+  "upstream": "https://github.com/yaniv-golan/pikud-haoref-alerts"
+}
