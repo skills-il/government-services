@@ -88,7 +88,7 @@ For each benefit:
 ### Old Age Pension (Kiztavat Zikna)
 - **Eligibility age:** Men 67, Women 62-65 (rising to 65 by approximately 2032)
 - **Qualifying period:** 60-144 months of contributions (varies by age at immigration)
-- **Basic amount (2025):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple)
+- **Basic amount (2025):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple). These are approximate figures; check btl.gov.il for current rates.
 - **Income supplement:** Additional if below income threshold
 - **Deferral bonus:** +5% per year of deferred claiming after eligibility age
 

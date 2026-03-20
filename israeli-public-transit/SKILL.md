@@ -123,11 +123,11 @@ Check live arrival times at a stop:
 - Red Line: Operational, crosses the city north-south
 - Blue Line: Under construction
 - Frequency: Every 5-10 minutes during peak
-- Operator: CityPass
+- Operator: Cfir (CAF + Shapir Engineering consortium, took over April 2021)
 
 **Tel Aviv Light Rail (Red Line)**
 - Route: Petah Tikva to Bat Yam through central Tel Aviv
-- Operator: Dan (under contract with NTA)
+- Operator: Tevel Metro (Egged-led consortium, operator since August 2023)
 - Integration: Connects with Dan bus network and Israel Railways
 
 ### Step 5: Rav-Kav Fare System
@@ -184,7 +184,7 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 - `scripts/check_transit.py` — List all Israeli transit operators with regions and websites, check real-time bus arrivals at a stop via curlbus, display Rav-Kav fare structure and discount profiles, and provide Shabbat/holiday service schedules. Supports subcommands: `operators`, `stop`, `fares`, `shabbat`. Run: `python scripts/check_transit.py --help`
 
 ### References
-- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline has merged with Kavim as part of Israel's bus reform.
+- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline and Kavim continue to operate as separate entities despite ongoing bus reform consolidation plans.
 
 ## Gotchas
 - Israeli public transit does not run on Shabbat (Friday sunset to Saturday sunset) in most of the country. Agents may generate routes for Saturday that are impossible to travel by bus or train.
