@@ -16,7 +16,7 @@ compatibility: >-
   gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling.
 metadata:
   author: skills-il
-  version: 1.0.1
+  version: 1.0.2
   category: government-services
   tags:
     he:
@@ -129,7 +129,8 @@ with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     context = browser.new_context(locale="he-IL")
     page = context.new_page()
-    page.goto("https://www.gov.il/he/service/...")
+    # Note: Replace with specific service URL as needed
+    page.goto("https://www.gov.il/he/")
 
     # Gov.il uses React-based forms; wait for dynamic load
     page.wait_for_selector('[data-testid="form-container"]', timeout=15000)
