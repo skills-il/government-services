@@ -13,7 +13,7 @@ allowed-tools: "Bash(python:*)"
 compatibility: "No network required. Works with Claude Code, Claude.ai, Cursor."
 metadata:
   author: skills-il
-  version: 1.0.1
+  version: 1.1.0
   category: government-services
   tags:
     he:
@@ -86,7 +86,7 @@ For each benefit:
 ## Key Programs Detail
 
 ### Old Age Pension (Kiztavat Zikna)
-- **Eligibility age:** Men 67, Women 62-65 (rising to 65 by approximately 2032)
+- **Eligibility age:** Men 67, Women 65 (the gradual increase from 62 to 65 was completed in 2017)
 - **Qualifying period:** 60-144 months of contributions (varies by age at immigration)
 - **Basic amount (2025):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple). These are approximate figures; check btl.gov.il for current rates.
 - **Income supplement:** Additional if below income threshold
@@ -149,7 +149,7 @@ Solution: Check if any periods (military service, maternity leave) count as qual
 
 ### Error: "Benefit amounts don't match expected values"
 Cause: Bituach Leumi updates benefit amounts periodically, often tied to the national average wage
-Solution: Verify current amounts at btl.gov.il or call *6050. Amounts in this skill reflect published rates as of 2025 -- check for annual updates each January.
+Solution: Verify current amounts at btl.gov.il or call *6050. Amounts in this skill reflect published rates as of 2026 -- check for annual updates each January.
 
 ### Error: "Eligibility period not met"
 Cause: Most benefits require a qualifying period of NI contributions (e.g., 10 months for maternity, 12 months for unemployment)

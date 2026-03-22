@@ -1,3 +1,57 @@
+---
+name: israeli-bituach-leumi
+description: >-
+  Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, and
+  contributions. Use when user asks about "bituach leumi", national insurance,
+  retirement pension (kiztavat zikna), unemployment (dmei avtala), maternity
+  leave (dmei leida), child allowance (kiztavat yeladim), disability benefits,
+  work injury, reserve duty compensation, or NI contributions. Covers all 15+
+  Bituach Leumi programs. Do NOT use for private insurance or health fund (kupat
+  cholim) questions.
+license: MIT
+allowed-tools: "Bash(python:*)"
+compatibility: "No network required. Works with Claude Code, Claude.ai, Cursor."
+metadata:
+  author: skills-il
+  version: 1.1.0
+  category: government-services
+  tags:
+    he:
+      - ביטוח-לאומי
+      - ביטוח-לאומי
+      - קצבאות
+      - פנסיה
+      - ישראל
+    en:
+      - bituach-leumi
+      - national-insurance
+      - benefits
+      - pension
+      - israel
+  display_name:
+    he: ביטוח לאומי
+    en: Israeli Bituach Leumi
+  display_description:
+    he: 'בדיקת זכאויות, מעקב תביעות וחישוב קצבאות ביטוח לאומי'
+    en: >-
+      Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility,
+      and contributions. Use when user asks about "bituach leumi", national
+      insurance, retirement pension (kiztavat zikna), unemployment (dmei
+      avtala), maternity leave (dmei leida), child allowance (kiztavat yeladim),
+      disability benefits, work injury, reserve duty compensation, or NI
+      contributions. Covers all 15+ Bituach Leumi programs. Do NOT use for
+      private insurance or health fund (kupat cholim) questions.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
+    - antigravity
+---
+
 # ביטוח לאומי ישראלי
 
 ## הערה חשובה
@@ -32,7 +86,7 @@
 ## פירוט תוכניות עיקריות
 
 ### קצבת זיקנה
-- **גיל זכאות:** גברים 67, נשים 62-65 (עולה ל-65 עד בערך 2032)
+- **גיל זכאות:** גברים 67, נשים 65 (העלייה הדרגתית מ-62 ל-65 הושלמה ב-2017)
 - **תקופת אכשרה:** 60-144 חודשי דמי ביטוח (משתנה לפי גיל העלייה ארצה)
 - **סכום בסיסי (2025):** ~1,810 ש"ח/חודש (יחיד), ~2,730 ש"ח/חודש (זוג). אלו נתונים משוערים; יש לבדוק סכומים עדכניים באתר btl.gov.il.
 - **השלמת הכנסה:** תוספת אם ההכנסה מתחת לסף
@@ -84,3 +138,11 @@
 ### שגיאה: "Not enough qualifying months"
 סיבה: היסטוריית תשלומי ביטוח לא מספקת
 פתרון: בדקו אם תקופות מסוימות (שירות צבאי, חופשת לידה) נספרות כחודשי אכשרה. לעולים חדשים יש כללים מיוחדים.
+
+### שגיאה: "Benefit amounts don't match expected values"
+סיבה: ביטוח לאומי מעדכן סכומי גמלאות מעת לעת, לרוב בקשר לשכר הממוצע הארצי
+פתרון: אמתו סכומים נוכחיים ב-btl.gov.il או התקשרו ל-*6050. סכומים במיומנות זו משקפים תעריפים מפורסמים נכון ל-2026 -- בדקו עדכונים שנתיים בכל ינואר.
+
+### שגיאה: "Eligibility period not met"
+סיבה: רוב הגמלאות דורשות תקופת אכשרה של תשלומי ביטוח לאומי (למשל, 10 חודשים לדמי לידה, 12 חודשים לדמי אבטלה)
+פתרון: בדקו את תקופת האכשרה הספציפית לכל גמלה. תקופות חלקיות עשויות לזכות בגמלאות מופחתות. לעולים חדשים יכולים להיות כללי זכאות מיוחדים.
