@@ -11,7 +11,7 @@ allowed-tools: 'Bash(python:*) WebFetch'
 compatibility: Network access helpful for postal code and geocoding lookups.
 metadata:
   author: skills-il
-  version: 1.0.1
+  version: 1.1.0
   category: government-services
   tags:
     he:
@@ -119,7 +119,6 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 
 ## Gotchas
 - Israeli street names exist in both Hebrew and Arabic, with different official spellings. Agents may use only the Hebrew name, missing valid Arabic variants that appear on government documents.
-- The Israel Post postal code system changed from 5-digit to 7-digit codes in 2013. Agents may validate against the old 5-digit format or use outdated postal code databases.
 - Israeli city names have multiple valid transliterations (e.g., "Tel Aviv" vs "Tel-Aviv" vs "Tel Aviw"). Agents should normalize inputs before matching.
 - Settlement and neighborhood boundaries in Israel are politically sensitive. Agents should avoid making assumptions about municipal boundaries, especially for areas in the West Bank or Golan Heights.
 
