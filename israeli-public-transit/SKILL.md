@@ -16,7 +16,7 @@ compatibility: >-
   server.
 metadata:
   author: skills-il
-  version: 1.0.1
+  version: 1.0.2
   category: government-services
   tags:
     he:
@@ -94,7 +94,7 @@ For route planning between two points:
 
 ### Step 3: Real-Time Arrivals
 Check live arrival times at a stop:
-- **curlbus:** `curl https://curlbus.app/STOP_CODE`
+- **curlbus:** Query by stop code for real-time arrivals
 - **Stop codes:** 5-digit numbers, displayed at physical stops
 - **SIRI feed:** Ministry of Transportation real-time data
 - Returns: Line number, destination, estimated minutes to arrival
@@ -105,7 +105,7 @@ Check live arrival times at a stop:
 - Largest operator, serves intercity and urban routes
 - Route numbers: Urban (1-99 per city), intercity (100+)
 - App: Egged app for schedules and Rav-Kav loading
-- Website: `https://www.egged.co.il`
+- Website: Official Egged website for schedules and route information
 
 **Dan (Gush Dan / Tel Aviv Metro)**
 - Primary urban operator for greater Tel Aviv
@@ -115,7 +115,7 @@ Check live arrival times at a stop:
 **Israel Railways (Rakevet Yisrael)**
 - National rail network, ~70 stations
 - Key corridors: Tel Aviv-Haifa, Tel Aviv-Jerusalem, Tel Aviv-Beer Sheva
-- Schedule: `https://www.rail.co.il`
+- Schedule: Official Israel Railways website for timetables
 - Frequency: 10-30 min on main lines during peak hours
 - No service: Friday afternoon through Saturday evening (Shabbat)
 

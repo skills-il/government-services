@@ -1,3 +1,66 @@
+---
+name: israeli-public-transit
+description: >-
+  Israeli public transit routing, schedules, and real-time arrivals for bus,
+  train, and light rail. Use when user asks about Israeli buses, trains,
+  "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables,
+  "kavim", Egged, Dan, Metropoline, or any Israeli public transportation query.
+  Supports multi-modal journey planning, real-time arrivals, and fare
+  estimation. Enhances routes-mcp-israel MCP server with operator knowledge and
+  Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli transit
+  systems.
+license: MIT
+allowed-tools: 'Bash(curl:*) WebFetch'
+compatibility: >-
+  Requires network access for real-time data. Enhanced by routes-mcp-israel MCP
+  server.
+metadata:
+  author: skills-il
+  version: 1.0.2
+  category: government-services
+  tags:
+    he:
+      - תחבורה
+      - אוטובוס
+      - רכבת
+      - רכבת-קלה
+      - רב-קו
+      - GTFS
+      - ישראל
+    en:
+      - transit
+      - bus
+      - train
+      - light-rail
+      - rav-kav
+      - gtfs
+      - israel
+  mcp-server: routes-mcp-israel
+  display_name:
+    he: תחבורה ציבורית בישראל
+    en: Israeli Public Transit
+  display_description:
+    he: 'אוטובוסים, רכבת, רכבת קלה — מסלולים וזמני הגעה בזמן אמת'
+    en: >-
+      Israeli public transit routing, schedules, and real-time arrivals for bus,
+      train, and light rail. Use when user asks about Israeli buses, trains,
+      "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables,
+      "kavim", Egged, Dan, Metropoline, or any Israeli public transportation
+      query. Supports multi-modal journey planning, real-time arrivals, and fare
+      estimation. Enhances routes-mcp-israel MCP server with operator knowledge
+      and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli
+      transit systems.
+  supported_agents:
+    - claude-code
+    - cursor
+    - github-copilot
+    - windsurf
+    - opencode
+    - codex
+    - openclaw
+    - antigravity
+---
+
 # תחבורה ציבורית בישראל
 
 ## הערה חשובה
@@ -31,7 +94,7 @@
 
 ### שלב 3: הגעות בזמן אמת
 בדיקת זמני הגעה חיים לתחנה:
-- **curlbus:** `curl https://curlbus.app/STOP_CODE`
+- **curlbus:** שאילתה לפי קוד תחנה להגעות בזמן אמת
 - **קודי תחנה:** מספרים בני 5 ספרות, מוצגים בתחנות הפיזיות
 - **SIRI:** נתוני זמן אמת ממשרד התחבורה
 - מחזיר: מספר קו, יעד, דקות משוערות להגעה
@@ -42,7 +105,7 @@
 - המפעיל הגדול ביותר, משרת קווים עירוניים ובינעירוניים
 - מספרי קווים: עירוניים (1-99 לכל עיר), בינעירוניים (100+)
 - אפליקציה: אפליקציית אגד ללוחות זמנים וטעינת רב-קו
-- אתר: `https://www.egged.co.il`
+- אתר: אתר אגד הרשמי למידע על לוחות זמנים וקווים
 
 **דן (גוש דן / מטרופולין תל אביב)**
 - מפעיל עירוני ראשי לגוש דן
@@ -52,7 +115,7 @@
 **רכבת ישראל**
 - רשת מסילות ארצית, ~70 תחנות
 - מסדרונות מרכזיים: תל אביב-חיפה, תל אביב-ירושלים, תל אביב-באר שבע
-- לוח זמנים: `https://www.rail.co.il`
+- לוח זמנים: האתר הרשמי של רכבת ישראל ללוחות זמנים
 - תדירות: 10-30 דקות בקווים ראשיים בשעות שיא
 - ללא שירות: יום שישי אחר הצהריים עד מוצאי שבת
 
