@@ -15,7 +15,7 @@ compatibility: >-
   Data primarily in Hebrew.
 metadata:
   author: skills-il
-  version: 1.0.1
+  version: 1.0.2
   category: government-services
   tags:
     he:
@@ -75,7 +75,7 @@ metadata:
 
 ### Step 2: Query Knesset API
 
-**Base URL:** `https://knesset.gov.il/Odata/ParliamentInfo.svc/`
+**Base URL:** `https://www.knesset.gov.il/Odata/ParliamentInfo.svc/`
 
 **Query pattern:**
 ```
@@ -109,14 +109,14 @@ GET .../KNS_Bill?$format=json&$filter=KnessetNum eq 25 and substringof('keyword'
 - 120 = For plenum discussion on continuity law application
 
 **Legislative process stages:**
-1. Bill Draft -- Private member or Government bill
-2. Preliminary Reading -- Private bills only, plenum vote
-3. Committee Review -- Assigned to relevant committee
-4. First Reading -- Plenum vote on bill principles
-5. Committee Preparation -- Detailed clause-by-clause review
-6. Second Reading -- Clause-by-clause plenum vote
-7. Third Reading -- Final vote on entire bill
-8. Publication -- Published in official gazette (Reshumot), becomes law
+1. Bill Draft, Private member or Government bill
+2. Preliminary Reading, Private bills only, plenum vote
+3. Committee Review, Assigned to relevant committee
+4. First Reading, Plenum vote on bill principles
+5. Committee Preparation, Detailed clause-by-clause review
+6. Second Reading, Clause-by-clause plenum vote
+7. Third Reading, Final vote on entire bill
+8. Publication, Published in official gazette (Reshumot), becomes law
 
 ### Step 5: Election Results
 Access election data from Central Elections Committee (votes.gov.il):
