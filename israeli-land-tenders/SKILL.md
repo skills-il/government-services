@@ -1,60 +1,9 @@
 ---
 name: israeli-land-tenders
-description: >-
-  Israeli Land Authority (RMI) tender data, land allocation guidance, and bid
-  process navigation. Use when user asks about Israeli land tenders, "michraz",
-  "rashut mekarkei yisrael", RMI, Israel Land Authority, government land
-  auctions, "haktzaah", land lottery ("hagralah"), building rights, or state
-  land allocation. Enhances remy-mcp server with tender process guidance and
-  Hebrew terminology. Do NOT use for private real estate transactions (use
-  israeli-real-estate skill instead) or non-Israeli land systems.
+description: Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority, government land auctions, "haktzaah", land lottery ("hagralah"), building rights, or state land allocation. Enhances remy-mcp server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems.
 license: MIT
 allowed-tools: WebFetch
 compatibility: Network access helpful for tender data lookups. Enhanced by remy-mcp server.
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: government-services
-  tags:
-    he:
-      - קרקע
-      - מכרזים
-      - רמ״י
-      - מכרז
-      - נדל״ן
-      - מקרקעי-ישראל
-      - ישראל
-    en:
-      - land
-      - tenders
-      - rmi
-      - michraz
-      - real-estate
-      - government-land
-      - israel
-  mcp-server: remy-mcp
-  display_name:
-    he: מכרזי מקרקעין בישראל
-    en: Israeli Land Tenders
-  display_description:
-    he: 'מעקב אחר מכרזי רמ"י, נתוני הגרלות והנחיות להגשה'
-    en: >-
-      Israeli Land Authority (RMI) tender data, land allocation guidance, and
-      bid process navigation. Use when user asks about Israeli land tenders,
-      "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority,
-      government land auctions, "haktzaah", land lottery ("hagralah"), building
-      rights, or state land allocation. Enhances remy-mcp server with tender
-      process guidance and Hebrew terminology. Do NOT use for private real
-      estate transactions (use israeli-real-estate skill instead) or non-Israeli
-      land systems.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
 ---
 
 # Israeli Land Tenders (RMI)

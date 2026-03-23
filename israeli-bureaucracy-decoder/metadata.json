@@ -1,0 +1,37 @@
+{
+  "author": "skills-il",
+  "version": "1.0.1",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "בירוקרטיה",
+      "טפסים-ממשלתיים",
+      "פענוח-מסמכים",
+      "שפה-פשוטה",
+      "ציות"
+    ],
+    "en": [
+      "bureaucracy",
+      "government-forms",
+      "document-decoder",
+      "plain-language",
+      "compliance"
+    ]
+  },
+  "display_name": {
+    "he": "מפענח בירוקרטיה ישראלית",
+    "en": "Israeli Bureaucracy Decoder"
+  },
+  "display_description": {
+    "he": "מפענח מכתבים ומסמכים רשמיים מגופים ממשלתיים לשפה פשוטה וברורה, כולל זיהוי פעולות נדרשות ומועדים אחרונים",
+    "en": "Decode confusing Israeli government letters, forms, and official documents into plain language. Use when you receive mail from the Tax Authority, Bituach Leumi, municipalities, Interior Ministry, Land Registry, courts, or any government body and need to understand what it says, what action is required, and by when. Covers assessment notices, benefit decisions, municipal levies, zoning notices, and court summons. Do NOT use for drafting legal appeals or providing binding legal advice."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex"
+  ]
+}

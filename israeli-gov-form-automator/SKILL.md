@@ -1,60 +1,9 @@
 ---
 name: israeli-gov-form-automator
-description: >-
-  Automate Israeli government form filling via Playwright browser automation and
-  PDF population. Use when user asks about filling government forms, "tofes"
-  (form), "gov.il" portal submissions, Rashut HaMisim (Tax Authority) filings,
-  Bituach Leumi (National Insurance) claims, or Rasham HaChevarot (Companies
-  Registrar) documents. Validates Teudat Zehut (ID numbers) with check digit,
-  Israeli phone numbers (+972), and Hebrew address fields. Supports Doch Shnati
-  (annual tax report), maternity grant claims, and company registration forms.
-  Do NOT use for classified or security-clearance government systems.
+description: Automate Israeli government form filling via Playwright browser automation and PDF population. Use when user asks about filling government forms, "tofes" (form), "gov.il" portal submissions, Rashut HaMisim (Tax Authority) filings, Bituach Leumi (National Insurance) claims, or Rasham HaChevarot (Companies Registrar) documents. Validates Teudat Zehut (ID numbers) with check digit, Israeli phone numbers (+972), and Hebrew address fields. Supports Doch Shnati (annual tax report), maternity grant claims, and company registration forms. Do NOT use for classified or security-clearance government systems.
 license: MIT
-allowed-tools: 'Bash(python:*) Bash(pip:*) WebFetch'
-compatibility: >-
-  Requires Python 3.9+, Playwright for browser automation, and network access to
-  gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling.
-metadata:
-  author: skills-il
-  version: 1.0.2
-  category: government-services
-  tags:
-    he:
-      - ממשלה
-      - טפסים
-      - אוטומציה
-      - gov.il
-      - מס-הכנסה
-      - ישראל
-    en:
-      - government
-      - forms
-      - automation
-      - gov-il
-      - tax-authority
-      - israel
-  display_name:
-    he: אוטומציית טפסים ממשלתיים
-    en: Israeli Gov Form Automator
-  display_description:
-    he: >-
-      מילוי אוטומטי של טפסים ממשלתיים ישראליים באמצעות Playwright ו-PDF.
-      תומך בפורטלים של gov.il, רשות המסים וביטוח לאומי.
-    en: >-
-      Automate Israeli government form filling via Playwright browser automation
-      and PDF population. Use when user asks about filling government forms,
-      "tofes" (form), "gov.il" portal submissions, Rashut HaMisim filings,
-      Bituach Leumi claims, or Rasham HaChevarot documents. Validates Teudat
-      Zehut IDs, Israeli phones, and Hebrew addresses. Do NOT use for classified
-      or security-clearance government systems.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+allowed-tools: Bash(python:*) Bash(pip:*) WebFetch
+compatibility: Requires Python 3.9+, Playwright for browser automation, and network access to gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling.
 ---
 
 # Israeli Government Form Automator

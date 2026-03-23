@@ -1,64 +1,9 @@
 ---
 name: israeli-statistics
-description: >-
-  Access Israeli Central Bureau of Statistics (CBS) data including CPI, housing
-  price indices, economic indicators, and demographic data. Use when user asks
-  about Israeli statistics, "hamadad", CPI, consumer price index, housing
-  prices, "madad mchirei dirot", GDP, unemployment, population data, CBS data,
-  "halishka hamerkazit listatistika", producer prices, building starts, or any
-  Israeli economic/demographic statistics. Enhances israel-statistics-mcp server
-  with index interpretation and economic context. Do NOT use for non-Israeli
-  statistics or financial forecasting.
+description: Access Israeli Central Bureau of Statistics (CBS) data including CPI, housing price indices, economic indicators, and demographic data. Use when user asks about Israeli statistics, "hamadad", CPI, consumer price index, housing prices, "madad mchirei dirot", GDP, unemployment, population data, CBS data, "halishka hamerkazit listatistika", producer prices, building starts, or any Israeli economic/demographic statistics. Enhances israel-statistics-mcp server with index interpretation and economic context. Do NOT use for non-Israeli statistics or financial forecasting.
 license: MIT
-allowed-tools: 'Bash(python:*) WebFetch'
-compatibility: >-
-  Network access helpful for CBS data lookups. Enhanced by israel-statistics-mcp
-  server (8 tools).
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: government-services
-  tags:
-    he:
-      - סטטיסטיקה
-      - מדד-המחירים
-      - מחירי-דיור
-      - כלכלה
-      - דמוגרפיה
-      - הלמ״ס
-      - ישראל
-    en:
-      - statistics
-      - cpi
-      - housing-prices
-      - economics
-      - demographics
-      - cbs
-      - israel
-  mcp-server: israel-statistics-mcp
-  display_name:
-    he: סטטיסטיקה ישראלית
-    en: Israeli Statistics
-  display_description:
-    he: 'נתוני הלמ"ס — מדד המחירים, דיור, תעסוקה ונתונים כלכליים'
-    en: >-
-      Access Israeli Central Bureau of Statistics (CBS) data including CPI,
-      housing price indices, economic indicators, and demographic data. Use when
-      user asks about Israeli statistics, "hamadad", CPI, consumer price index,
-      housing prices, "madad mchirei dirot", GDP, unemployment, population data,
-      CBS data, "halishka hamerkazit listatistika", producer prices, building
-      starts, or any Israeli economic/demographic statistics. Enhances
-      israel-statistics-mcp server with index interpretation and economic
-      context. Do NOT use for non-Israeli statistics or financial forecasting.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - openclaw
-    - antigravity
+allowed-tools: Bash(python:*) WebFetch
+compatibility: Network access helpful for CBS data lookups. Enhanced by israel-statistics-mcp server (8 tools).
 ---
 
 # Israeli Statistics (CBS)

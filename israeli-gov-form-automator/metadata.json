@@ -1,0 +1,40 @@
+{
+  "author": "skills-il",
+  "version": "1.0.2",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "ממשלה",
+      "טפסים",
+      "אוטומציה",
+      "gov.il",
+      "מס-הכנסה",
+      "ישראל"
+    ],
+    "en": [
+      "government",
+      "forms",
+      "automation",
+      "gov-il",
+      "tax-authority",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "אוטומציית טפסים ממשלתיים",
+    "en": "Israeli Gov Form Automator"
+  },
+  "display_description": {
+    "he": "מילוי אוטומטי של טפסים ממשלתיים ישראליים באמצעות Playwright ו-PDF. תומך בפורטלים של gov.il, רשות המסים וביטוח לאומי.",
+    "en": "Automate Israeli government form filling via Playwright browser automation and PDF population. Use when user asks about filling government forms, \"tofes\" (form), \"gov.il\" portal submissions, Rashut HaMisim filings, Bituach Leumi claims, or Rasham HaChevarot documents. Validates Teudat Zehut IDs, Israeli phones, and Hebrew addresses. Do NOT use for classified or security-clearance government systems."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity"
+  ]
+}

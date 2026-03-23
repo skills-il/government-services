@@ -1,61 +1,9 @@
 ---
 name: israeli-election-data
-description: >-
-  Access Israeli election and political data from the Knesset API and Central
-  Elections Committee. Use when user asks about Knesset, Israeli elections, MK
-  (Member of Knesset) information, Israeli voting records, legislative bills in
-  Israel, Knesset committees, Israeli political parties, coalition data, or
-  election results by locality. Covers Knesset OData API, election commission
-  data, and Israeli political system structure. Do NOT use for non-Israeli
-  elections or political opinion/prediction.
+description: Access Israeli election and political data from the Knesset API and Central Elections Committee. Use when user asks about Knesset, Israeli elections, MK (Member of Knesset) information, Israeli voting records, legislative bills in Israel, Knesset committees, Israeli political parties, coalition data, or election results by locality. Covers Knesset OData API, election commission data, and Israeli political system structure. Do NOT use for non-Israeli elections or political opinion/prediction.
 license: MIT
-allowed-tools: 'Bash(python:*) WebFetch'
-compatibility: >-
-  Requires network access for Knesset API. No API keys needed (public data).
-  Data primarily in Hebrew.
-metadata:
-  author: skills-il
-  version: 1.0.2
-  category: government-services
-  tags:
-    he:
-      - כנסת
-      - בחירות
-      - פוליטיקה
-      - חקיקה
-      - הצבעה
-      - ממשל
-      - ישראל
-    en:
-      - knesset
-      - elections
-      - politics
-      - legislation
-      - voting
-      - government
-      - israel
-  display_name:
-    he: נתוני בחירות בישראל
-    en: Israeli Election Data
-  display_description:
-    he: 'ממשק לכנסת, תוצאות בחירות, הצבעות ופעילות פרלמנטרית'
-    en: >-
-      Access Israeli election and political data from the Knesset API and
-      Central Elections Committee. Use when user asks about Knesset, Israeli
-      elections, MK (Member of Knesset) information, Israeli voting records,
-      legislative bills in Israel, Knesset committees, Israeli political
-      parties, coalition data, or election results by locality. Covers Knesset
-      OData API, election commission data, and Israeli political system
-      structure. Do NOT use for non-Israeli elections or political
-      opinion/prediction.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+allowed-tools: Bash(python:*) WebFetch
+compatibility: Requires network access for Knesset API. No API keys needed (public data). Data primarily in Hebrew.
 ---
 
 # Israeli Election Data

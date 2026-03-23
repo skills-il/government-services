@@ -1,61 +1,9 @@
 ---
 name: israel-gov-api
-description: >-
-  Discover, query, and analyze Israeli government open data from data.gov.il
-  (CKAN API). Use when user asks about Israeli government data, "data.gov.il",
-  government datasets, CBS statistics, or needs data about Israeli
-  transportation, education, health, geography, economy, or environment.
-  Supports dataset search, tabular data queries, and analysis guidance. Enhances
-  existing datagov-mcp and data-gov-il-mcp servers with workflow best practices.
-  Do NOT use for classified government data or data requiring security
-  clearance.
+description: Discover, query, and analyze Israeli government open data from data.gov.il (CKAN API). Use when user asks about Israeli government data, "data.gov.il", government datasets, CBS statistics, or needs data about Israeli transportation, education, health, geography, economy, or environment. Supports dataset search, tabular data queries, and analysis guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with workflow best practices. Do NOT use for classified government data or data requiring security clearance.
 license: MIT
-allowed-tools: 'Bash(python:*) WebFetch'
-compatibility: >-
-  Requires network access for data.gov.il API. Enhanced by datagov-mcp or
-  data-gov-il-mcp servers.
-metadata:
-  author: skills-il
-  version: 1.2.0
-  category: government-services
-  tags:
-    he:
-      - ממשל
-      - נתונים
-      - CKAN
-      - סטטיסטיקה
-      - מידע-פתוח
-      - ישראל
-    en:
-      - government
-      - data
-      - ckan
-      - statistics
-      - open-data
-      - israel
-  mcp-server: datagov-mcp
-  display_name:
-    he: ממשקי API ממשלתיים
-    en: Israel Gov Api
-  display_description:
-    he: גישה למידע ממשלתי פתוח מתוך data.gov.il
-    en: >-
-      Discover, query, and analyze Israeli government open data from data.gov.il
-      (CKAN API). Use when user asks about Israeli government data,
-      "data.gov.il", government datasets, CBS statistics, or needs data about
-      Israeli transportation, education, health, geography, economy, or
-      environment. Supports dataset search, tabular data queries, and analysis
-      guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with
-      workflow best practices. Do NOT use for classified government data or data
-      requiring security clearance.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+allowed-tools: Bash(python:*) WebFetch
+compatibility: Requires network access for data.gov.il API. Enhanced by datagov-mcp or data-gov-il-mcp servers.
 ---
 
 # Israel Government API

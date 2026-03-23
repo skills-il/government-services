@@ -1,53 +1,9 @@
 ---
 name: israeli-company-lookup
-description: >-
-  Look up Israeli company information and understand business entity types. Use
-  when user asks about Israeli companies, "chevra", business registration,
-  "Rasham HaChevarot", company numbers, entity types, or needs to register a
-  business in Israel. Covers Ltd companies, partnerships, non-profits (amuta),
-  cooperatives, and sole proprietors. Do NOT use for non-Israeli corporate
-  registries or stock market analysis.
+description: Look up Israeli company information and understand business entity types. Use when user asks about Israeli companies, "chevra", business registration, "Rasham HaChevarot", company numbers, entity types, or needs to register a business in Israel. Covers Ltd companies, partnerships, non-profits (amuta), cooperatives, and sole proprietors. Do NOT use for non-Israeli corporate registries or stock market analysis.
 license: MIT
 allowed-tools: WebFetch
 compatibility: Network access helpful for registrar lookups.
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: government-services
-  tags:
-    he:
-      - חברה
-      - עסק
-      - רישום
-      - תאגידי
-      - ישראל
-    en:
-      - company
-      - business
-      - registration
-      - corporate
-      - israel
-  display_name:
-    he: חיפוש חברות ישראליות
-    en: Israeli Company Lookup
-  display_description:
-    he: חיפוש מידע על חברות ברשם החברות ובדיקת עוסקים מורשים
-    en: >-
-      Look up Israeli company information and understand business entity types.
-      Use when user asks about Israeli companies, "chevra", business
-      registration, "Rasham HaChevarot", company numbers, entity types, or needs
-      to register a business in Israel. Covers Ltd companies, partnerships,
-      non-profits (amuta), cooperatives, and sole proprietors. Do NOT use for
-      non-Israeli corporate registries or stock market analysis.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - openclaw
-    - antigravity
 ---
 
 # Israeli Company Lookup

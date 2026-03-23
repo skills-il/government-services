@@ -1,54 +1,9 @@
 ---
 name: israeli-real-estate
-description: >-
-  Israeli real estate data, property valuation, transaction guidance, and
-  regulatory compliance. Use when user asks about Israeli property, "nadlan",
-  "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental
-  agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers
-  buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate
-  markets.
+description: Israeli real estate data, property valuation, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets.
 license: MIT
-allowed-tools: "Bash(python:*) WebFetch"
-compatibility: "Network access helpful for data lookups. Enhanced by remy-mcp for land tenders."
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: government-services
-  tags:
-    he:
-      - נדל״ן
-      - נכס
-      - נדל״ן
-      - טאבו
-      - מס-רכישה
-      - ישראל
-    en:
-      - real-estate
-      - property
-      - nadlan
-      - tabu
-      - mas-rechisha
-      - israel
-  display_name:
-    he: נדל"ן בישראל
-    en: Israeli Real Estate
-  display_description:
-    he: 'נתוני נדל"ן, הערכות שווי נכסים ומידע על עסקאות'
-    en: >-
-      Israeli real estate data, property valuation, transaction guidance, and
-      regulatory compliance. Use when user asks about Israeli property,
-      "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu
-      extract, rental agreements, mortgage (mashkanta), or Israel Land Authority
-      tenders. Covers buying, selling, and renting in Israel. Do NOT use for
-      non-Israeli real estate markets.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+allowed-tools: Bash(python:*) WebFetch
+compatibility: Network access helpful for data lookups. Enhanced by remy-mcp for land tenders.
 ---
 
 # Israeli Real Estate
