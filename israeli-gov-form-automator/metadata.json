@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "category": "government-services",
   "tags": {
     "he": [
@@ -9,7 +9,11 @@
       "אוטומציה",
       "gov.il",
       "מס-הכנסה",
-      "ישראל"
+      "ישראל",
+      "מילוי-טפסים",
+      "ביטוח-לאומי",
+      "בירוקרטיה",
+      "טפסי-pdf"
     ],
     "en": [
       "government",
@@ -17,7 +21,11 @@
       "automation",
       "gov-il",
       "tax-authority",
-      "israel"
+      "israel",
+      "form-filling",
+      "bituach-leumi",
+      "bureaucracy",
+      "pdf-forms"
     ]
   },
   "display_name": {
@@ -25,8 +33,8 @@
     "en": "Israeli Gov Form Automator"
   },
   "display_description": {
-    "he": "מילוי אוטומטי של טפסים ממשלתיים ישראליים באמצעות Playwright ו-PDF. תומך בפורטלים של gov.il, רשות המסים וביטוח לאומי.",
-    "en": "Automate Israeli government form filling via Playwright browser automation and PDF population. Use when user asks about filling government forms, \"tofes\" (form), \"gov.il\" portal submissions, Rashut HaMisim filings, Bituach Leumi claims, or Rasham HaChevarot documents. Validates Teudat Zehut IDs, Israeli phones, and Hebrew addresses. Do NOT use for classified or security-clearance government systems."
+    "he": "אוטומציה למילוי טפסים ממשלתיים ישראליים באמצעות Playwright ו-PDF. חוסך שעות של מילוי ידני ומונע שגיאות בהגשת טפסים. תומך בפורטלים של gov.il, רשות המסים, ביטוח לאומי ורשם החברות. מתאים למילוי טפסים מקוונים, הגשת טפסים אונליין, הורדה ומילוי טפסי PDF ממשלתיים, ואימות שדות ישראליים (תעודת זהות, טלפון, כתובת). לא מיועד למערכות ממשלתיות מסווגות.",
+    "en": "Automate Israeli government form filling via Playwright browser automation and PDF population. Prevents hours of manual form filling and data entry errors on government portals. Use when user asks about filling government forms, \"tofes\" (form), \"gov.il\" portal submissions, Rashut HaMisim (Tax Authority) filings, Bituach Leumi (National Insurance) claims, Rasham HaChevarot (Companies Registrar) documents, online form submission, or PDF form population. Validates Teudat Zehut IDs, Israeli phones, and Hebrew addresses. Do NOT use for classified or security-clearance government systems."
   },
   "supported_agents": [
     "claude-code",

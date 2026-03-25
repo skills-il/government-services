@@ -1,6 +1,6 @@
 ---
 name: israeli-gov-form-automator
-description: Automate Israeli government form filling via Playwright browser automation and PDF population. Use when user asks about filling government forms, "tofes" (form), "gov.il" portal submissions, Rashut HaMisim (Tax Authority) filings, Bituach Leumi (National Insurance) claims, or Rasham HaChevarot (Companies Registrar) documents. Validates Teudat Zehut (ID numbers) with check digit, Israeli phone numbers (+972), and Hebrew address fields. Supports Doch Shnati (annual tax report), maternity grant claims, and company registration forms. Do NOT use for classified or security-clearance government systems.
+description: Automate Israeli government form filling via Playwright browser automation and PDF population. Prevents hours of manual form filling and data entry errors on government portals. Use when user asks about filling government forms, "tofes" (form), "milui tfasim" (form filling), "gov.il" portal submissions, online form submission, Rashut HaMisim (Tax Authority) filings, Bituach Leumi (National Insurance) claims, or Rasham HaChevarot (Companies Registrar) documents. Validates Teudat Zehut (ID numbers) with check digit, Israeli phone numbers (+972), and Hebrew address fields. Supports Doch Shnati (annual tax report), maternity grant claims, and company registration forms. Do NOT use for classified or security-clearance government systems.
 license: MIT
 allowed-tools: Bash(python:*) Bash(pip:*) WebFetch
 compatibility: Requires Python 3.9+, Playwright for browser automation, and network access to gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling.
@@ -51,7 +51,7 @@ def validate_tz(id_number: str) -> bool:
 **Israeli Phone Number Formats:**
 | Format | Example | Notes |
 |--------|---------|-------|
-| Mobile | 05X-XXXXXXX | Prefixes: 050, 052, 053, 054, 055, 058 |
+| Mobile | 05X-XXXXXXX | Prefixes: 050, 051, 052, 053, 054, 055, 058 |
 | Landline | 0X-XXXXXXX | Area codes: 02 (Jerusalem), 03 (Tel Aviv), 04 (Haifa), 08 (South), 09 (Sharon) |
 | International | +972-5X-XXXXXXX | Drop leading 0, add +972 |
 
