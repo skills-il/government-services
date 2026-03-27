@@ -6,6 +6,10 @@ license: MIT
 
 # Israeli War Damage Claims
 
+## Problem
+
+Thousands of Israelis face property damage from rocket and missile attacks. Filing compensation claims through the Tax Authority's Compensation Fund is bureaucratic and complex, with different tracks, critical deadlines, and compensation ceilings that vary by household composition. A single documentation mistake or missed deadline can result in complete forfeiture of compensation rights.
+
 ## Instructions
 
 ### Step 1: Identify the Damage Type and Correct Track
