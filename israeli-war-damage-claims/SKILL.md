@@ -2,6 +2,7 @@
 name: israeli-war-damage-claims
 description: "Guide users through filing property damage claims from rocket attacks and hostilities in Israel: documenting damage, filing with the Tax Authority Compensation Fund (Keren Pitzuim), home contents insurance claims, assessor visits, and appeals. Use when user asks about property damage from war, rockets, missiles, 'nezek yashir', 'mas rechush', 'keren pitzuim', compensation fund, war damage claim, damaged apartment, broken windows from blast, or how to get compensation for hostility damage. Covers both the fast track (up to NIS 30,000) and regular track, optional contents insurance via the Tax Authority, and the appeal process (va'adot erar). Do NOT use for indirect/economic damage to businesses (nezek akifi), personal injury claims (use israeli-bituach-leumi), car damage from war (handled separately by insurance companies), or general home insurance comparisons (use israeli-insurance-comparator)."
 license: MIT
+version: 1.0.1
 ---
 
 # Israeli War Damage Claims
@@ -93,27 +94,28 @@ First, determine what kind of damage the user has and which compensation track a
 
 The Compensation Fund covers structural damage in full (no ceiling), but home contents compensation is capped based on household composition.
 
-**Approximate compensation ceilings (updated periodically by CPI):**
+These compensation ceilings are updated periodically by the Consumer Price Index. For current accurate figures, users should verify the amounts directly on the Tax Authority website, as the specific NIS amounts change over time.
 
-| Household | Total Contents Ceiling (approx.) |
+**Approximate structure of compensation ceilings:**
+
+| Household | Relative Contents Ceiling |
 |---|---|
-| Single person | ~NIS 52,750 |
-| Married couple / single parent | ~NIS 85,000 |
-| Per additional child (under 18) | ~NIS 8,500 supplement |
-| Family of 4 | ~NIS 100,000 |
-| Family of 5 | ~NIS 110,000 |
+| Single person | Lowest baseline amount |
+| Married couple / single parent | Higher baseline amount |
+| Per additional child (under 18) | Supplement added to baseline |
+| Larger families | Progressively higher totals |
 
 **Categories within the ceiling:**
 
-| Category | Hebrew | Couple Ceiling (approx.) |
-|---|---|---|
-| Furniture | רהיטים | ~NIS 25,000 |
-| Electrical appliances & electronics | מכשירי חשמל ואלקטרוניקה | ~NIS 30,000 |
-| Clothing | ביגוד | Per person |
+| Category | Hebrew |
+|---|---|
+| Furniture | רהיטים |
+| Electrical appliances & electronics | מכשירי חשמל ואלקטרוניקה |
+| Clothing | ביגוד |
 
 **Not covered:** Jewelry (תכשיטים), artwork (יצירות אמנות), and cash are excluded from compensation.
 
-**Important:** These ceilings are updated periodically. Always check the current figures on the Tax Authority website. The amounts above are approximate as of early 2026.
+**Important:** These ceilings are updated periodically. Always check the current figures on the Tax Authority website for the most accurate compensation amounts.
 
 ### Step 6: Optional War Damage Contents Insurance
 
@@ -121,14 +123,12 @@ If the user's contents are worth more than the standard ceiling, the Tax Authori
 
 **Key details:**
 - Premium: 0.3% of the additional insured value per year
-- Maximum insurable value: NIS 979,624
-- Maximum annual premium: NIS 2,939
 - Available since 2007, but subscriber numbers surged after October 2023
 - Coverage starts immediately upon payment and runs through year-end
 - No cancellation option after purchase
 - This is the ONLY product in Israel that covers war damage to contents above the standard ceiling (regular home insurance excludes war damage)
 
-**Example:** A couple with electronics worth NIS 130,000. Standard ceiling for electronics is ~NIS 30,000. To insure the additional NIS 100,000, annual premium = NIS 300 (0.3% x 100,000).
+**Important:** Maximum insurable values and premium amounts should be verified on the Tax Authority website, as these figures may change over time.
 
 **How to purchase:** Online form on the Tax Authority website (search for "ביטוח תכולה רשות המסים" or "ביטוח רכוש מלחמה").
 
@@ -196,8 +196,8 @@ Actions:
 2. Document everything immediately (photos, keep damaged items in place)
 3. File online within 14 days
 4. Assessor will be scheduled to visit
-5. Structure: full compensation (no ceiling). Contents: ceiling ~NIS 100,000 for family of 4
-6. If contents worth more, suggest purchasing optional insurance for future incidents (NIS 300/year per NIS 100,000 additional coverage)
+5. Structure: full compensation (no ceiling). Contents: check current ceiling for family of 4 on Tax Authority website
+6. If contents worth more, suggest purchasing optional insurance for future incidents
 
 ### Example 3: Appeal a denied claim
 User says: "My compensation claim was approved but they gave me only NIS 15,000 when the damage was at least NIS 40,000. How do I appeal?"
@@ -222,7 +222,7 @@ Actions:
 
 2. **14-day notification vs 3-month filing:** These are two separate deadlines. The initial damage notification must happen within 14 days. The full compensation claim must be filed within 3 months. Missing the 14-day notification can forfeit all rights, even if the 3-month window hasn't passed.
 
-3. **Contents ceiling confusion:** The compensation ceiling for contents varies by household size AND by category (furniture, electronics, clothing). Do not assume one flat number. A single person gets ~NIS 52,750 total, while a family of 4 gets ~NIS 100,000. These are maximums across all categories combined.
+3. **Contents ceiling confusion:** The compensation ceiling for contents varies by household size AND by category (furniture, electronics, clothing). Do not assume one flat number. Always direct users to check the current figures on the Tax Authority website for accurate amounts.
 
 4. **Regular home insurance does NOT cover war damage:** Commercial home insurance policies in Israel explicitly exclude war and hostility damage. Only the Tax Authority Compensation Fund (and its optional extended insurance) covers war-related property damage. Do not direct users to their regular insurance company for war damage claims.
 
