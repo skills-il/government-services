@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -25,8 +25,8 @@
     "en": "Israeli Miluim Manager"
   },
   "display_description": {
-    "he": "מדריך לזכויות, פיצויים והטבות מס למשרתי מילואים בישראל",
-    "en": "Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, and employer obligations. Use when a reservist, employer, or family member needs help understanding miluim entitlements, filing for Bituach Leumi compensation, calculating 2026 tax credits, or navigating post-service employment protections. Covers IDF reserve call-up procedures, 30-day dismissal ban, freelancer rights, and family support services. Do NOT use for active-duty (seder) conscription or career military matters."
+    "he": "מדריך מקיף לזכויות שירות מילואים בישראל, פיצויים, הטבות מס וחובות מעסיקים. כולל חישוב זיכויי מס ללוחמים לפי תיקון 283 (17 דרגות), פיצוי קבוע של 20% למעסיקים, איסור פיטורים מדורג (30 או 60 יום), הגנות לבני זוג, וזכויות עצמאים. מיועד למשרתי מילואים, מעסיקים ובני משפחה. לא מיועד לשירות סדיר או צבא קבע.",
+    "en": "Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, and employer obligations. Use when a reservist, employer, or family member needs help understanding miluim entitlements, filing for Bituach Leumi compensation, calculating 2026-2027 combat tax credits under Amendment 283 (17 tiers, up to 4.0 credit points), or navigating post-service employment protections. Covers tiered dismissal ban (30/60 days), permanent 20% employer compensation, freelancer rights, spouse protections, and family support services. Do NOT use for active-duty (seder) conscription or career military matters."
   },
   "supported_agents": [
     "claude-code",

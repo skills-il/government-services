@@ -12,7 +12,7 @@ A step-by-step guide for filing reserve duty compensation (tagmulei miluim, תג
 | Phone | *6050 |
 | Compensation basis | Average of 3 months' income before service |
 | Maximum daily rate | Updated annually (check Bituach Leumi website for current rate) |
-| Minimum payment | At least minimum wage equivalent for service days |
+| Minimum daily compensation | NIS 328.76/day (NIS 9,863/month equivalent, 2026 rate) |
 
 ## For Employees (Schirim, שכירים)
 
@@ -68,7 +68,8 @@ If your employer fails to advance your salary during miluim:
 1. **Remind the employer** of the legal obligation under the Reserve Duty Compensation Law
 2. **Point out** that Bituach Leumi reimburses the employer for the full salary cost
 3. **If the employer still refuses**, file a complaint with the Labor Court (Beit Din LaAvoda)
-4. **Alternative**: You can file directly with Bituach Leumi as if you were self-employed (form 510) and receive compensation directly
+4. **Alternative**: You can file directly with Bituach Leumi as if you were self-employed (Form 510) and receive compensation directly
+5. **Remind employer**: The state now reimburses 20% of salary for social contributions (permanent since 2026), reducing the employer's financial burden
 
 ## For Self-Employed (Atzma'im, עצמאיים)
 
@@ -105,7 +106,7 @@ Self-employed workers file directly with Bituach Leumi and receive compensation 
 | Divide by 90 | To get daily rate |
 | Multiply by service days | Number of days on Form 3010 |
 | Check against maximum | Bituach Leumi has a maximum daily rate (check current year's rate) |
-| Check against minimum | Must be at least minimum wage equivalent |
+| Check against minimum | Must be at least NIS 328.76/day (NIS 9,863/month, 2026) |
 
 **Example calculation:**
 
