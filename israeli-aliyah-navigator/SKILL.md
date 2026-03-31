@@ -427,6 +427,38 @@ Result: Clear answer that UK rental income is exempt from Israeli tax for 10 yea
 - `references/aliyah-timeline-guide.md` -- Month-by-month guide for the first year in Israel. Covers each phase from arrival through settlement with key milestones and deadlines. Consult when building a long-term plan for a new oleh.
 - `references/tax-benefits-olim.md` -- Detailed guide to oleh tax exemptions and benefits including the 10-year foreign income exemption, tax credit points, customs benefits, and reporting requirements. Consult when advising on tax-related questions.
 
+## MCP Integration (Optional)
+
+If the `kolzchut-mcp` server is available, use it to fetch **real-time, up-to-date** rights information from Kolzchut (All-Rights / כל-זכות), Israel's authoritative rights knowledge base. This supplements the static guidance in this skill with current data.
+
+### Available Kolzchut MCP Tools
+
+| Tool | When to Use |
+|------|-------------|
+| `kolzchut_search_rights` | Search for specific rights articles (e.g., "הטבות מס לעולים", "סל קליטה") |
+| `kolzchut_get_article` | Read the full content of a rights article by exact title |
+| `kolzchut_get_article_sections` | Get section headings before reading a long article |
+| `kolzchut_get_article_section` | Read a specific section of an article |
+| `kolzchut_list_category_members` | Browse all articles in "עולים ותושבים חוזרים" category |
+
+### When to Use the MCP
+
+- **Sal klita amounts**: Search "סל קליטה" for current-year payment schedules
+- **Tax benefits**: Get the article "הטבות מס לעולים" for up-to-date tax information
+- **Bituach Leumi**: Search "ביטוח לאומי עולים" for current eligibility rules
+- **Housing rights**: Search "דיור עולים" for current rental assistance programs
+- **Professional recognition**: Search the specific profession for current licensing requirements
+
+### Example Workflow
+
+1. User asks about sal klita for a family of 4
+2. Use this skill's Step 4 for general guidance and structure
+3. Call `kolzchut_search_rights` with query "סל קליטה" for current amounts
+4. Call `kolzchut_get_article` on the relevant result for detailed breakdown
+5. Combine static guidance with real-time data for the most accurate answer
+
+**Note:** If kolzchut-mcp is not installed, all guidance in this skill remains fully functional without it.
+
 ## Gotchas
 - Aliyah benefits (sal klita) amounts change annually and differ by family size, age, and country of origin. Agents may quote outdated figures from previous years.
 - The Ministry of Aliyah and Integration (Misrad HaKlita) and the Jewish Agency (Sochnut) handle different parts of the aliyah process. Agents may direct users to the wrong organization.
