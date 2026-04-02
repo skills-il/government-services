@@ -215,3 +215,10 @@ Solution: This skill provides estimates. For exact sekhem, use the specific univ
 ### Issue: "Bagrut requirements changed"
 Cause: Ministry of Education periodically updates requirements
 Solution: Check edu.gov.il for the most current Bagrut requirements. The core mandatory subjects are stable, but unit requirements and elective options may change.
+
+## Recommended MCP Servers
+
+For live school data lookups and education datasets from data.gov.il, pair this skill with one of these MCP servers:
+
+- **data-gov-il** -- Query Israel's open data portal (data.gov.il) for school listings, enrollment statistics, and RAMA assessment data. Ideal for structured API queries when you need specific datasets by city, sector, or school type.
+- **datagov-israel** -- Alternative data.gov.il MCP with built-in data visualization support. Use when you need to present school data as charts or compare statistics across districts.
