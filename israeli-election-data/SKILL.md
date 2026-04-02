@@ -137,6 +137,16 @@ Result: Haifa-specific election breakdown with party results.
 ### References
 - `references/knesset-api-entities.md` — Complete entity reference for the Knesset OData API including field names for KNS_Person, KNS_Bill, KNS_Faction, and other entities, plus OData v3 filter syntax and position ID codes (43=MK male, 61=MK female, 45=Prime Minister, 39=Minister male, 57=Minister female). Note: vote data is not available via the public OData API. Consult when constructing OData queries.
 
+## Recommended MCP Servers
+
+For live Knesset and parliamentary data, pair this skill with:
+
+| MCP Server | What it provides | Install |
+|------------|-----------------|---------|
+| **knesset** | MCP interface to the Israeli Knesset OData API: committee data, committee sessions, bills (private/government/committee), MK information, bill search, and current Knesset number. Includes prompt templates for analyzing legislation and voting records. | [Install knesset](https://agentskills.co.il/en/mcps/knesset) |
+
+When the `knesset` MCP is available, use its tools for real-time legislative data instead of manually constructing OData queries. The MCP handles API pagination, filtering, and data formatting automatically.
+
 ## Gotchas
 - Israeli elections use a proportional representation system with a 3.25% electoral threshold, not a district-based system. Agents may describe Israeli elections using US congressional district terminology.
 - Israel has no fixed election schedule. Elections can be called at any time when the Knesset dissolves. Agents should not assume a 4-year cycle.
