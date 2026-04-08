@@ -162,11 +162,30 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 - `references/bureaucratic-hebrew-glossary.md` -- Hebrew bureaucratic terms with plain-language explanations, organized by domain (legal, tax, social security, municipal, real estate, immigration). Consult when you encounter official jargon that needs translation to everyday language.
 - `references/common-government-forms.md` -- Index of frequently encountered Israeli government forms with their purposes, who needs to file them, and when. Consult when a document references a form number or when advising the user on which forms to file.
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | Look up actual rights and entitlements referenced in government letters. When a document mentions a benefit, discount, or eligibility, Kolzchut provides the authoritative details. |
+| [Israel Law](https://agentskills.co.il/he/mcps/government-services/israel-law) | Query specific law sections cited in documents. When a letter references "Section 150 of the Income Tax Ordinance," this MCP can retrieve the actual text. |
+| [Knesset](https://agentskills.co.il/he/mcps/government-services/knesset) | Access legislative data for bills and committee information. Useful when documents reference pending legislation or regulatory changes. |
+
 ## Gotchas
 - Israeli government form names change over time, and the same form may have different names in different offices. Agents may reference a form name that is no longer current.
 - Hebrew bureaucratic language (lashon misradit) uses formal/archaic terms that differ from everyday Hebrew. Agents may generate translations using everyday Hebrew that do not match the official terminology on forms.
 - Many Israeli government processes require in-person visits (biu'ach ishi) and cannot be completed entirely online. Agents may suggest completing a process online when a physical visit is required.
 - Government office hours in Israel vary: some close at 12:30 PM on certain days, and most are closed on Fridays. Agents may suggest visiting offices during hours when they are closed.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Israel Tax Authority | https://www.gov.il/en/departments/israel_tax_authority | Tax assessment types, objection procedures, current deadlines |
+| Bituach Leumi (NII) | https://www.btl.gov.il | Benefit amounts, claim forms, eligibility criteria |
+| Knesset Legislation Database | https://main.knesset.gov.il/Activity/Legislation | Full text of laws cited in government documents |
+| Kolzchut (All-Rights) | https://www.kolzchut.org.il | Plain-language explanations of rights and entitlements |
+| Israeli Courts | https://www.gov.il/en/departments/the_judicial_authority | Court procedures, filing deadlines, small claims limits |
+| Enforcement Authority | https://www.gov.il/en/departments/enforcement_and_collection_authority | Execution file procedures, objection deadlines |
 
 ## Troubleshooting
 

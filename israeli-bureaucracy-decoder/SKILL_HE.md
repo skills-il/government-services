@@ -11,36 +11,6 @@ description: >-
 license: MIT
 allowed-tools: "Bash(python:*) Read Edit WebFetch"
 compatibility: "Works with all major AI coding agents"
-metadata:
-  author: skills-il
-  version: 1.0.0
-  category: government-services
-  tags:
-    he:
-      - בירוקרטיה
-      - טפסים-ממשלתיים
-      - פענוח-מסמכים
-      - שפה-פשוטה
-      - ציות
-    en:
-      - bureaucracy
-      - government-forms
-      - document-decoder
-      - plain-language
-      - compliance
-  display_name:
-    he: "מפענח בירוקרטיה ישראלית"
-    en: "Israeli Bureaucracy Decoder"
-  display_description:
-    he: "מפענח מכתבים ומסמכים רשמיים מגופים ממשלתיים לשפה פשוטה וברורה, כולל זיהוי פעולות נדרשות ומועדים אחרונים"
-    en: "Decode official government letters and documents into plain language, identify required actions, deadlines, and next steps"
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
 ---
 
 # מפענח בירוקרטיה ישראלית
@@ -198,11 +168,30 @@ python scripts/document-analyzer.py --file path/to/document.txt
 - `references/bureaucratic-hebrew-glossary.md` -- מונחים בירוקרטיים בעברית עם הסברים בשפה פשוטה, מאורגנים לפי תחום (משפטי, מס, ביטוח לאומי, עירוני, נדל"ן, הגירה). היעזרו בו כשנתקלים בז'רגון רשמי שצריך תרגום לשפת יומיום.
 - `references/common-government-forms.md` -- אינדקס של טפסים ממשלתיים ישראליים נפוצים עם מטרותיהם, מי צריך להגיש אותם, ומתי. היעזרו בו כשמסמך מפנה למספר טופס או כשמייעצים למשתמש אילו טפסים למלא.
 
+## שרתי MCP מומלצים
+
+| שרת MCP | מה הוא מוסיף |
+|---------|-------------|
+| [כל-זכות (Kolzchut)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | חיפוש זכויות והטבות שמוזכרות במכתבים ממשלתיים. כשמסמך מציין גמלה, הנחה, או זכאות, כל-זכות מספק את הפרטים המוסמכים. |
+| [חוקי ישראל (Israel Law)](https://agentskills.co.il/he/mcps/government-services/israel-law) | שליפת סעיפי חוק שמצוטטים במסמכים. כשמכתב מפנה ל"סעיף 150 לפקודת מס הכנסה", שרת ה-MCP יכול לאחזר את הנוסח המלא. |
+| [כנסת (Knesset)](https://agentskills.co.il/he/mcps/government-services/knesset) | גישה לנתוני חקיקה, הצעות חוק, וועדות. שימושי כשמסמכים מפנים לחקיקה חדשה או שינויים רגולטוריים. |
+
 ## מלכודות נפוצות
 - שמות טפסים ממשלתיים בישראל משתנים לאורך זמן, ואותו טופס עשוי להיקרא בשמות שונים במשרדים שונים. סוכנים עלולים להפנות לשם טופס שכבר לא עדכני.
 - שפה בירוקרטית עברית (לשון משרדית) משתמשת במונחים רשמיים וארכאיים שנבדלים מעברית יומיומית. סוכנים עלולים לייצר תרגומים בעברית יומיומית שלא תואמים את המינוח הרשמי בטפסים.
 - תהליכים ממשלתיים רבים בישראל דורשים ביקור אישי (ביאוח אישי) ולא ניתנים להשלמה לגמרי אונליין. סוכנים עלולים להציע להשלים תהליך מקוון כשנדרש ביקור פיזי.
 - שעות פתיחה של משרדי ממשלה בישראל משתנות: חלקם סוגרים ב-12:30 בימים מסוימים, ורובם סגורים בימי שישי. סוכנים עלולים להציע לבקר במשרדים בשעות שבהן הם סגורים.
+
+## קישורי עזר
+
+| מקור | כתובת | מה לבדוק |
+|------|--------|-----------|
+| רשות המסים | https://www.gov.il/he/departments/israel_tax_authority | סוגי שומות, הליכי השגה, מועדים אחרונים עדכניים |
+| ביטוח לאומי | https://www.btl.gov.il | סכומי גמלאות, טפסי תביעה, תנאי זכאות |
+| מאגר החקיקה של הכנסת | https://main.knesset.gov.il/Activity/Legislation | נוסח מלא של חוקים שמצוטטים במסמכים ממשלתיים |
+| כל-זכות | https://www.kolzchut.org.il | הסברים בשפה פשוטה על זכויות והטבות |
+| בתי המשפט | https://www.gov.il/he/departments/the_judicial_authority | הליכים משפטיים, מועדי הגשה, תקרת תביעות קטנות |
+| רשות האכיפה והגבייה | https://www.gov.il/he/departments/enforcement_and_collection_authority | הליכי תיק הוצל"פ, מועדי התנגדות |
 
 ## פתרון בעיות
 

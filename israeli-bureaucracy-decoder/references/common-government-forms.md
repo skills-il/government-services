@@ -87,7 +87,7 @@ An index of frequently encountered government forms, what they are for, who need
 |------|---------|-----------|------|
 | **Statement of claim** (כתב תביעה) | Initiate a lawsuit | The plaintiff (person suing) | When filing a case |
 | **Statement of defense** (כתב הגנה) | Respond to a lawsuit | The defendant (person being sued) | Within 30 days of receiving the claim (60 days for the State) |
-| **Small claims form** (טופס תביעה קטנה) | File a small claims case (up to 38,800 NIS) | Anyone suing for a small amount | When filing at Small Claims Court |
+| **Small claims form** (טופס תביעה קטנה) | File a small claims case (up to 38,900 NIS as of January 2025) | Anyone suing for a small amount | When filing at Small Claims Court |
 | **Fee exemption request** (בקשה לפטור מאגרה) | Request waiver of court filing fees due to financial hardship | Low-income plaintiffs | When filing the case |
 | **Opposition to execution** (התנגדות לביצוע) | Challenge an enforcement/execution proceeding | Defendants in Hotzaa LaPoal proceedings | Within 20 days of receiving the warning (azhara) |
 

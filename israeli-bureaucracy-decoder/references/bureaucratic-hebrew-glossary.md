@@ -18,7 +18,7 @@ A plain-language guide to Hebrew bureaucratic terms. When government documents u
 | פקודת מס הכנסה | Pkudat mas hachnasa | Income Tax Ordinance: the main law governing income tax in Israel | החוק הראשי שמסדיר מס הכנסה בישראל |
 | סעיף 150 | Saif 150 | Section 150 of the Income Tax Ordinance: deals with re-assessment of past tax years | עוסק בפתיחת שומות של שנים קודמות |
 | הפרשי הצמדה וריבית | Hefreshei hatzmada veribbit | Linkage differentials and interest: extra charges added to debts to account for inflation and time | תוספות על חובות בגלל אינפלציה וריבית |
-| מס ערך מוסף (מע"מ) | Ma'am (MAM) | Value Added Tax (VAT): 17% tax on goods and services | מס של 17% על מוצרים ושירותים |
+| מס ערך מוסף (מע"מ) | Ma'am (MAM) | Value Added Tax (VAT): 18% tax on goods and services (raised from 17% on January 1, 2025) | מס של 18% על מוצרים ושירותים (עלה מ-17% ב-1 בינואר 2025) |
 | עוסק מורשה | Osek murshe | Licensed/authorized dealer: a business registered for VAT above the small business threshold | עסק רשום למע"מ מעל תקרת העוסק הפטור |
 | עוסק פטור | Osek patur | Exempt dealer: a small business below the VAT threshold | עסק קטן שלא חייב במע"מ |
 | תיאום מס | Tium mas | Tax coordination: adjustment of tax withholding when you have multiple income sources | התאמת ניכוי מס כשיש כמה מקורות הכנסה |
