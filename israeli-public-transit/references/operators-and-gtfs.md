@@ -12,7 +12,7 @@
 | Afikim | afikim | Bus | Jordan Valley/South | afikim.co.il |
 | Nateev Express | nativ express | Bus | Negev | nateevexpress.com |
 | Israel Railways | rakevet yisrael | Train | National | rail.co.il |
-| Jerusalem LR | harakevet hakala | Light Rail | Jerusalem | citypass.co.il |
+| Jerusalem LR | harakevet hakala | Light Rail | Jerusalem | cfir.co.il |
 | Tel Aviv LR | harakevet hakala | Light Rail | Tel Aviv | nta.co.il |
 
 ## GTFS Data

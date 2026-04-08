@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -28,7 +28,7 @@
     "en": "Israeli Public Transit"
   },
   "display_description": {
-    "he": "אוטובוסים, רכבת, רכבת קלה — מסלולים וזמני הגעה בזמן אמת",
+    "he": "ניתוב תחבורה ציבורית בישראל, לוחות זמנים והגעות בזמן אמת לאוטובוסים, רכבת ורכבת קלה. משמש כשהמשתמש שואל על אוטובוסים, רכבות, רכבת קלה, רב-קו, מסלולי נסיעה, אגד, דן, מטרופולין או כל שאלת תחבורה ציבורית ישראלית. תומך בתכנון נסיעות רב-אמצעי, הגעות בזמן אמת והערכת תעריפים. משלים את שרת routes-mcp-israel עם ידע על מפעילים ולוקליזציה בעברית. אין להשתמש למוניות/שיתוף נסיעות או מערכות תחבורה מחוץ לישראל.",
     "en": "Israeli public transit routing, schedules, and real-time arrivals for bus, train, and light rail. Use when user asks about Israeli buses, trains, \"autobus\", \"rakevet\", light rail, \"rav-kav\", transit routes, timetables, \"kavim\", Egged, Dan, Metropoline, or any Israeli public transportation query. Supports multi-modal journey planning, real-time arrivals, and fare estimation. Enhances routes-mcp-israel MCP server with operator knowledge and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli transit systems."
   },
   "supported_agents": [

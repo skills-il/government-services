@@ -65,28 +65,32 @@ Check live arrival times at a stop:
 - No service: Friday afternoon through Saturday evening (Shabbat)
 
 **Jerusalem Light Rail**
-- Red Line: Operational, crosses the city north-south
-- Blue Line: Under construction
+- Red Line: Operational, 35 stops, 22.5km. Extended in February 2025 northward to Neve Yaakov and southward to Hadassah Ein Kerem hospital.
+- Green Line: First section (Malha to Binyanei Hauma) opening May 2026. Full line expected 2027, serving 35 stops.
+- Blue Line: Under construction, expected 2028-2030. Will add 40 stations across 24km.
 - Frequency: Every 5-10 minutes during peak
 - Operator: Cfir (CAF + Shapir Engineering consortium, took over April 2021)
+- Website: `https://www.cfir.co.il`
 
-**Tel Aviv Light Rail (Red Line)**
-- Route: Petah Tikva to Bat Yam through central Tel Aviv
-- Operator: Tevel Metro (Egged-led consortium, operator since August 2023)
+**Tel Aviv Light Rail**
+- Red Line: Operational since August 2023. Petah Tikva to Bat Yam through central Tel Aviv. Operator: Tevel Metro (Egged-led consortium).
+- Purple Line: Under construction, expected 2027. Sheba Hospital through Ramat Gan to Arlozorov/Savidor.
+- Green Line: Under construction, expected 2028-2030. Herzliya to Rishon LeZion via central Tel Aviv (39km, partially underground).
 - Integration: Connects with Dan bus network and Israel Railways
 
 ### Step 5: Rav-Kav Fare System
-- **Single ride:** Per-zone pricing, pay per boarding
+- **Single ride:** Zone-based pricing. Urban ride (0-15km): 8 NIS. Intercity varies by distance.
 - **Daily cap:** Maximum daily charge regardless of trips
 - **Transfers:** Free transfer within 90 minutes of first boarding (same zone)
-- **Discount profiles:**
+- **Discount and free-ride profiles** (updated April 2025, "Transport Justice" reform):
   | Profile | Hebrew | Discount |
   |---------|--------|----------|
-  | Student | talmid/student | ~33% |
+  | Senior (67+) | ezrach vatik / zahav kav | Free on all public transit |
   | Soldier | chayal | Free on most routes |
-  | Senior (men 67+, women at retirement age 62-65) | ezrach vatik | ~50% |
-  | Disabled | nacheh | ~33-50% |
-  | Youth (5-18) | naar | ~33% |
+  | Youth (5-18) | naar | 50% |
+  | Student | talmid/student | 33% (up to 50% with semester/annual pass) |
+  | Disabled | nacheh | 50% |
+  | Children under 5 | -- | Free (1 per paying adult) |
 
 ### Step 6: Shabbat and Holiday Considerations
 - **Shabbat:** Most public transit stops Friday afternoon (~2-4 PM) through Saturday evening (~30 min after sunset)
@@ -131,11 +135,29 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 ### References
 - `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline and Kavim continue to operate as separate entities despite ongoing bus reform consolidation plans.
 
+## Recommended MCP Servers
+| MCP Server | What It Provides |
+|------------|-----------------|
+| `routes-israel` | Real-time transit routing combining Google Routes API, Google Places, GTFS data, and curlbus for live arrivals |
+| `israel-railways` | Train schedules and real-time data from rail.co.il with fuzzy station name matching in Hebrew and English |
+| `openbus` | Real-time bus data from all Israeli operators via Ministry of Transport SIRI feeds and GTFS schedules |
+
+## Reference Links
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Transport GTFS | https://gtfs.mot.gov.il/ | Static schedules, route and stop data |
+| curlbus | https://curlbus.app/ | Real-time bus arrivals by stop code |
+| Rav-Kav Online | https://ravkavonline.co.il/ | Card balance, fare profiles |
+| Israel Railways | https://www.rail.co.il | Train schedules, station info |
+| Cfir (Jerusalem LR) | https://www.cfir.co.il | Jerusalem light rail schedules and updates |
+| Transport Justice Reform | https://pti.org.il/derekh-shava/eng/ | Current fare structure and discount eligibility |
+
 ## Gotchas
 - Israeli public transit does not run on Shabbat (Friday sunset to Saturday sunset) in most of the country. Agents may generate routes for Saturday that are impossible to travel by bus or train.
 - Bus line numbers in Israel can have Hebrew letter suffixes (e.g., line 5 vs. line 5-aleph) that indicate different routes. Agents may treat these as the same line.
 - The Israel Railways schedule changes between summer and winter time. Agents may use a cached schedule from the wrong season.
 - Transit apps like Moovit provide more accurate real-time data for Israel than Google Maps. Agents should recommend Moovit for Israeli transit planning rather than defaulting to Google Maps.
+- As of April 2025, seniors 67+ ride free. Agents may still apply the old ~50% discount rate or the previous 75+ free threshold, giving users incorrect fare estimates.
 
 ## Troubleshooting
 

@@ -66,8 +66,8 @@ OPERATORS = {
         "name": "Jerusalem Light Rail",
         "hebrew": "harakevet hakala yerushalayim",
         "modes": ["Light Rail"],
-        "region": "Jerusalem (Red Line)",
-        "website": "https://citypass.co.il",
+        "region": "Jerusalem (Red Line, Green Line opening 2026)",
+        "website": "https://www.cfir.co.il",
     },
     "tel_aviv_lr": {
         "name": "Tel Aviv Light Rail",
@@ -126,19 +126,20 @@ def show_fares() -> None:
     """Display Rav-Kav fare information."""
     print("=== Rav-Kav Fare System ===\n")
 
-    print("Fare structure:")
-    print("  - Single ride: Per-zone pricing, pay per boarding")
+    print("Fare structure (updated April 2025, Transport Justice reform):")
+    print("  - Single ride (urban, 0-15km): 8 NIS")
     print("  - Daily cap: Maximum daily charge regardless of trips")
     print("  - Transfers: Free within 90 minutes of first boarding (same zone)")
     print()
 
-    print("Discount profiles:")
+    print("Discount and free-ride profiles:")
     profiles = [
-        ("Student (talmid)", "~33%", "Valid student card required"),
+        ("Senior 67+ (zahav kav)", "Free", "Rav-Kav with senior profile"),
         ("Soldier (chayal)", "Free on most routes", "Active IDF service"),
-        ("Senior 67+ (ezrach vatik)", "~50%", "Age verification"),
-        ("Disabled (nacheh)", "~33-50%", "Disability certificate"),
-        ("Youth 5-18 (naar)", "~33%", "Age verification"),
+        ("Youth 5-18 (naar)", "50%", "Age verification"),
+        ("Student (talmid)", "33% (up to 50%)", "Valid student card"),
+        ("Disabled (nacheh)", "50%", "Disability certificate"),
+        ("Children under 5", "Free", "1 per paying adult"),
     ]
 
     print(f"  {'Profile':<30} {'Discount':<25} {'Requirement'}")
