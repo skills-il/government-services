@@ -8,8 +8,28 @@
     "en": "Complete guide to filing property damage compensation claims from rocket attacks and hostilities in Israel. Covers the full pipeline: documenting damage, filing with the Tax Authority Compensation Fund (fast track up to NIS 30,000 or regular track), optional extended contents insurance, and the appeals process. Use when filing claims for direct damage to apartments, houses, or home contents from missiles and rockets. Do NOT use for indirect business damage, personal injury claims, or vehicle damage."
   },
   "tags": {
-    "he": ["פיצויים", "נזק-מלחמה", "קרן-פיצויים", "מס-רכוש", "רשות-המסים", "תכולת-דירה", "ביטוח-מלחמה", "ערר", "ישראל"],
-    "en": ["compensation", "war-damage", "compensation-fund", "property-tax", "tax-authority", "home-contents", "war-insurance", "appeal", "israel"]
+    "he": [
+      "פיצויים",
+      "נזק-מלחמה",
+      "קרן-פיצויים",
+      "מס-רכוש",
+      "רשות-המסים",
+      "תכולת-דירה",
+      "ביטוח-מלחמה",
+      "ערר",
+      "ישראל"
+    ],
+    "en": [
+      "compensation",
+      "war-damage",
+      "compensation-fund",
+      "property-tax",
+      "tax-authority",
+      "home-contents",
+      "war-insurance",
+      "appeal",
+      "israel"
+    ]
   },
   "author": "skills-il",
   "version": "1.0.0",
@@ -20,7 +40,8 @@
     "github-copilot",
     "windsurf",
     "opencode",
-    "codex"
+    "codex",
+    "gemini-cli"
   ],
   "openclaw": true
 }
