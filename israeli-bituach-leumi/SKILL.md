@@ -42,7 +42,7 @@ For each benefit:
 ### Old Age Pension (Kiztavat Zikna)
 - **Eligibility age:** Men 67, Women 65 (the gradual increase from 62 to 65 was completed in 2017)
 - **Qualifying period:** 60-144 months of contributions (varies by age at immigration)
-- **Basic amount (2025):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple). These are approximate figures; check btl.gov.il for current rates.
+- **Basic amount (as of 2026):** ~1,810 NIS/month (single), ~2,730 NIS/month (couple). These are approximate figures; check btl.gov.il for current rates.
 - **Income supplement:** Additional if below income threshold
 - **Deferral bonus:** +5% per year of deferred claiming after eligibility age
 
@@ -60,7 +60,7 @@ For each benefit:
 
 ### Child Allowance (Kiztavat Yeladim)
 - **Eligibility:** All Israeli residents with children under 18
-- **Amounts (2025):** ~170 NIS/child/month (varies by number of children, child's birth year)
+- **Amounts (as of 2026):** ~170 NIS/child/month (varies by number of children, child's birth year)
 - **Payment:** Monthly, automatic to registered parent
 
 ## Examples
