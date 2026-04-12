@@ -1,0 +1,40 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "דמי-אבטלה",
+      "ביטוח-לאומי",
+      "שירות-התעסוקה",
+      "תקופת-אכשרה",
+      "פיטורין",
+      "ישראל"
+    ],
+    "en": [
+      "unemployment",
+      "dmei-avtala",
+      "bituach-leumi",
+      "benefits",
+      "job-loss",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מלווה דמי אבטלה",
+    "en": "Israeli Unemployment Benefits Navigator"
+  },
+  "display_description": {
+    "he": "מלווה בתהליך תביעת דמי אבטלה מביטוח לאומי מקצה לקצה: בודק זכאות (12 חודשי אכשרה מתוך 18), מחשב את סכום הקצבה לפי מדרגות 2026, מיפוי מקסימום ימי הזכאות (50 עד 300 יום), מזהיר על 90 ימי המתנה במקרה של התפטרות, ומייצר רשימת צעדים לרישום בשירות התעסוקה והגשה בביטוח לאומי. משתמשים בזה כשמישהו פוטר, יצא לחל\"ת או שוקל התפטרות ורוצה לדעת כמה אבטלה מגיע לו ואיך לגשת. לא מתאים לתוכניות ביטוח לאומי אחרות, חישובי שכר נטו, תגמולי מילואים, או בדיקת חוזה העסקה.",
+    "en": "Walk a user through Israeli dmei avtala (unemployment benefits) from eligibility to application: verifies the 12-of-18 months qualifying period (tkufat akhshara), calculates benefit amount with the 2026 progressive tier formula, maps max days by age and dependents (50 to 300 days), warns about the 90-day resignation waiting period, and generates a personalized checklist for Sherut HaTaasuka registration and Bituach Leumi filing. Use when a user is fired, laid off, placed on unpaid leave, or considering resignation and needs to know how much avtala they are entitled to and how to claim it. Prevents thousands of shekels left on the table from late registration or miscounted qualifying months. Do NOT use for other Bituach Leumi programs, net salary calculations, reservist compensation, or employment contract review."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}
