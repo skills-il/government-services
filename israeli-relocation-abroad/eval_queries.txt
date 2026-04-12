@@ -1,0 +1,18 @@
+# Eval queries for israeli-relocation-abroad
+# Format: category | query
+# Categories: positive (should trigger), negative (should NOT), edge (ambiguous)
+
+positive | אני עובר לרילוקיישן בארה"ב לארבע שנים מה עליי להכין
+positive | I'm relocating from Israel to London for work, what do I need to do with Bituach Leumi
+positive | יום ניתוק תושבות איך עובד ומה המשמעות למיסוי
+positive | Do I need to keep paying kupat cholim while I'm on relocation abroad
+positive | How does toshav chozer vatik status work after 10 years abroad
+positive | Israeli returning resident vehicle import rules
+positive | צריך אפוסטיל על תעודת נישואין ישראלית לחו"ל
+positive | Form 1348 residency declaration when to file
+positive | Israeli landlord tax 10% track for an apartment I'm renting out while I'm abroad
+negative | How do I make aliyah to Israel from Canada
+negative | What is sal klita and how much do olim receive
+negative | I need a US H-1B visa for my American employer
+edge | I'm an Israeli living in Berlin for 8 years, am I eligible for any tax benefits on return
+edge | How do I switch my kupat cholim before moving to the US

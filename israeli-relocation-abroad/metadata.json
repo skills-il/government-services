@@ -1,0 +1,50 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "רילוקיישן",
+      "ניתוק-תושבות",
+      "ביטוח-לאומי",
+      "דמי-ויתור",
+      "תושב-חוזר",
+      "תושב-חוזר-ותיק",
+      "קופת-חולים",
+      "פנסיה",
+      "אפוסטיל",
+      "טופס-1348",
+      "ישראל"
+    ],
+    "en": [
+      "relocation",
+      "relocation-abroad",
+      "tax-residency",
+      "bituach-leumi",
+      "toshav-chozer",
+      "returning-resident",
+      "kupat-cholim",
+      "pension",
+      "apostille",
+      "form-1348",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "נווט רילוקיישן לישראלים",
+    "en": "Israeli Relocation Abroad Navigator"
+  },
+  "display_description": {
+    "he": "מדריך מקיף לישראלים ברילוקיישן לפני, תוך כדי ובחזרה. מכסה את כל הצד הישראלי של המעבר: מבחן תושבות לצורכי מס (טופס 1348), ביטוח לאומי וקופת חולים בזמן שהות בחו\"ל, הקפאת פנסיה וקרן השתלמות, מסלול 10% להשכרת דירה, אפוסטיל במשרד החוץ, והטבות תושב חוזר ותושב חוזר ותיק לפי סעיף 14. השתמשו כשמשתמש שואל על רילוקיישן, יציאה מישראל לעבודה, דמי ויתור, פדיון קופת חולים, טופס 161 ביציאה, ייבוא רכב בחזרה או חידוש תושבות. מונע טעויות יקרות כמו כפל תשלום, אובדן רצף קופת חולים בחזרה או החמצת הטבות מס. לא מתאים לעלייה לישראל (השתמשו ב-israeli-aliyah-navigator), לוויזות תיירות, לייעוץ מיסויי מחייב או להגירה למדינת היעד.",
+    "en": "Comprehensive guide for Israelis in relocation abroad covering before, during, and after the move. Handles the Israeli side of the move: tax residency tests (Form 1348), Bituach Leumi and kupat cholim while living abroad, pension fund and keren hishtalmut handling, 10% landlord tax track for apartment rental, apostille at the Foreign Ministry, and toshav chozer / toshav chozer vatik benefits under Section 14. Use when the user asks about Israeli relocation (רילוקיישן), leaving Israel for work, dmei vitoor, kupat cholim redemption, Tofes 161 on exit, vehicle import on return, or re-establishing residency. Prevents expensive mistakes like double payment, losing kupat cholim continuity on return, or missing tax benefits. Do NOT use for aliyah to Israel (use israeli-aliyah-navigator), tourist visas, binding tax advice, or destination-country immigration questions."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}
