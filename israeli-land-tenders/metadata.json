@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -10,6 +10,7 @@
       "מכרז",
       "נדל״ן",
       "מקרקעי-ישראל",
+      "דירה-בהנחה",
       "ישראל"
     ],
     "en": [
@@ -19,17 +20,18 @@
       "michraz",
       "real-estate",
       "government-land",
+      "dira-behanacha",
       "israel"
     ]
   },
-  "mcp-server": "remy-mcp",
+  "mcp-server": "remy-land-authority",
   "display_name": {
     "he": "מכרזי מקרקעין בישראל",
     "en": "Israeli Land Tenders"
   },
   "display_description": {
-    "he": "מעקב אחר מכרזי רמ\"י, נתוני הגרלות והנחיות להגשה",
-    "en": "Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, \"michraz\", \"rashut mekarkei yisrael\", RMI, Israel Land Authority, government land auctions, \"haktzaah\", land lottery (\"hagralah\"), building rights, or state land allocation. Enhances remy-mcp server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems."
+    "he": "מידע על מכרזי רשות מקרקעי ישראל (רמ\"י), סוגי הקצאה (מכרז פומבי, הגרלה, מחיר לרוכש, הקצאה ישירה), הדרכה להגשת הצעות, והבנת זכויות בנייה. מיועד כשמשתמשים שואלים על מכרזי קרקע, רמ\"י, הגרלות \"דירה בהנחה\" (בעבר מחיר למשתכן), תנאי פיתוח או מינוח מכרזים בעברית. אל תשתמש עבור עסקאות נדל\"ן פרטיות (יש מיומנות נפרדת).",
+    "en": "Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, \"michraz\", \"rashut mekarkei yisrael\", RMI, Israel Land Authority, government land auctions, \"haktzaah\", land lottery (\"hagralah\"), \"Dira BeHanacha\" / \"Mechir Lamishtaken\", building rights, or state land allocation. Enhances remy-land-authority MCP server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems."
   },
   "supported_agents": [
     "claude-code",

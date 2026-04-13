@@ -30,8 +30,8 @@ TENDER_TYPES = {
         "hebrew": "hagrala",
         "description": "Random selection among eligible applicants, fixed price",
         "deposit": "Small registration fee",
-        "best_for": "Affordable housing (mechir lamishtaken)",
-        "process": "Register, verify eligibility, random drawing",
+        "best_for": "Affordable housing (Dira BeHanacha, formerly Mechir Lamishtaken; administered by the Ministry of Construction and Housing at dira.moch.gov.il)",
+        "process": "Register at dira.moch.gov.il, verify eligibility (teudat zakaut), random drawing",
     },
     "mechir_larocheish": {
         "name": "Price Buyer (Mechir Larocheish)",
