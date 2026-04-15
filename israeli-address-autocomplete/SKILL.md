@@ -79,6 +79,15 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 - Israeli city names have multiple valid transliterations (e.g., "Tel Aviv" vs "Tel-Aviv" vs "Tel Aviw"). Agents should normalize inputs before matching.
 - Settlement and neighborhood boundaries in Israel are politically sensitive. Agents should avoid making assumptions about municipal boundaries, especially for areas in the West Bank or Golan Heights.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| CBS settlements directory | https://www.cbs.gov.il | Official Israeli settlement and locality codes |
+| Israel Post | https://www.israelpost.co.il | Postal code (mikud) lookup for addresses |
+| GovMap (national map) | https://www.govmap.gov.il | Address search, parcel info, aerial imagery |
+| data.gov.il – addresses | https://data.gov.il/dataset | Street and locality datasets published as open data |
+
 ## Troubleshooting
 
 ### Error: "Street not found"

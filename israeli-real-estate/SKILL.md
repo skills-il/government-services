@@ -110,6 +110,16 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 - Real estate prices in Israel are commonly quoted in USD for large transactions and NIS for rent. Agents may confuse the currency or forget to specify which is being used.
 - Israeli property improvements (hashbacha) can trigger betterment tax (hetel hashbacha) of up to 50% of the value increase. Agents may overlook this additional cost when calculating renovation ROI.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Land Registry (Tabu) | https://www.gov.il/he/departments/land_registration_and_settlement_of_rights | Tabu extracts, gush/chelka lookup, liens and mortgages |
+| Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
+| Israel Tax Authority – purchase tax | https://www.gov.il/he/departments/guides/purchase-tax-guide | Current mas rechisha brackets per buyer category |
+| Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |
+| Mechir LaMishtaken | https://www.gov.il/he/departments/topics/mehirlmishtaken | Reduced-price apartment program eligibility and listings |
+
 ## Troubleshooting
 
 ### Error: "Cannot access Tabu online"

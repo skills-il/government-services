@@ -74,6 +74,15 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 - Company status in the registrar can be "active" (pe'ila), "in dissolution" (be-piruq), or "stricken off" (nimekhqa). Agents may not check the status and return information about inactive companies as if they are operational.
 - Israeli business types include Chevra Baam (Ltd.), Shutafut (Partnership), Amuta (NPO), and Aguda Shitufit (Cooperative). Each has different registration systems. Agents may search for a partnership in the company registrar, which only lists Ltd. companies.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Companies Registrar (ICA) | https://ica.justice.gov.il | Company search, status, filings, ownership |
+| NPO (Amutot) Registrar | https://www.gov.il/he/departments/the_registrar_of_non_profits | Search amutot, status, annual filings |
+| data.gov.il – companies | https://data.gov.il/dataset?q=חברות | Open data dumps of the companies registrar |
+| Israel Tax Authority | https://www.gov.il/he/departments/israel_tax_authority | Verify business TIN (mispar osek) separately |
+
 ## Troubleshooting
 
 ### Error: "Company not found"

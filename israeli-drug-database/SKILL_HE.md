@@ -138,6 +138,16 @@
 - מחירי תרופות בישראל מפוקחים על ידי משרד הבריאות. המחיר המופחת הוא קבוע ושונה ממחירים בארה"ב או באירופה. סוכנים לא צריכים להשתמש בתמחור תרופות בינלאומי.
 - מרשמים ישראליים משתמשים במערכת המטרית באופן בלעדי. סוכנים עלולים להמיר מינונים ממידות אימפריאליות או להשתמש בקיצורים לא סטנדרטיים.
 
+## קישורי עזר
+
+| מקור | כתובת | מה לבדוק |
+|------|-------|----------|
+| משרד הבריאות – תרופות | https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page | דף נחיתה של אגף הרוקחות ונקודות כניסה למאגר |
+| אגף הרוקחות (legacy) | https://www.health.gov.il/UnitsOffice/HD/PH/Drugs/Pages/default.aspx | ממשק חיפוש תרופות ישראלי |
+| סל הבריאות | https://www.gov.il/he/departments/topics/health_basket_drugs | רשימת תרופות מסובסדות ועדכונים |
+| data.gov.il – בריאות | https://data.gov.il/organization/ministry-health | מערכי נתונים של מאגר התרופות ומחירים |
+| סיווג ATC של WHO | https://www.whocc.no/atc_ddd_index/ | קודי ATC בינלאומיים לצורכי הצלבה לפי חומר פעיל |
+
 ## פתרון בעיות
 
 ### שגיאה: "Drug not found in registry"

@@ -221,6 +221,16 @@ Result: Address change request submitted with confirmation number
 - Many government forms require a date of birth in both Hebrew calendar (luach ivri) and Gregorian formats. Agents typically only provide the Gregorian date.
 - Digital signatures on Israeli government forms use the gov.il identity verification system. Agents cannot programmatically sign forms without going through the user's gov.il authentication.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Gov.il main portal | https://www.gov.il | Form listings, service index, authentication entry |
+| Israel Tax Authority services | https://www.gov.il/he/departments/israel_tax_authority | Tax forms, online submission portals |
+| Bituach Leumi (NII) | https://www.btl.gov.il | NII forms, claim submission, personal account |
+| Companies Registrar (ICA) | https://ica.justice.gov.il | Company filings and updates |
+| Playwright docs | https://playwright.dev | RTL context, form automation, waits |
+
 ## Troubleshooting
 
 ### Error: "Session expired" on gov.il

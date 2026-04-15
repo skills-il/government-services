@@ -147,6 +147,16 @@ Result: Ranked comparison of education spending per student across major Israeli
 - Rate limiting on gov.il APIs is strict and undocumented. Agents that make rapid sequential requests will be blocked. Always add delays between API calls.
 - Many government datasets have date fields in DD/MM/YYYY format (Israeli convention), not ISO 8601. Agents may parse "01/02/2026" as February 1st instead of January 2nd.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| data.gov.il portal | https://data.gov.il | Browse Israeli open data catalog, organizations, datasets |
+| CKAN API reference | https://docs.ckan.org/en/latest/api/ | `package_search`, `package_show`, `datastore_search` signatures |
+| data.gov.il dataset list | https://data.gov.il/dataset | Discover available datasets by organization and tag |
+| Central Bureau of Statistics | https://www.cbs.gov.il | Upstream source for many data.gov.il statistics |
+| Bank of Israel data | https://www.boi.org.il | Financial and monetary datasets not on data.gov.il |
+
 ## Troubleshooting
 
 ### Error: "Dataset not found"

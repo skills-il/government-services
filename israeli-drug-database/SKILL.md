@@ -146,6 +146,16 @@ Result: Keytruda (pembrolizumab) is partially in the health basket for specific 
 - Drug prices in Israel are regulated by the Ministry of Health. The maximum retail price (mechir mufchach) is fixed and different from US or European prices. Agents should not use international drug pricing.
 - Israeli prescriptions use the metric system exclusively. Agents may convert dosages from imperial measurements or use non-standard abbreviations.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Health – Pharma | https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page | Pharmaceuticals Division landing page, registry entry points |
+| Pharmaceutical Division (legacy) | https://www.health.gov.il/UnitsOffice/HD/PH/Drugs/Pages/default.aspx | Public Israeli drug registry search UI |
+| Health basket (Sal Briut) | https://www.gov.il/he/departments/topics/health_basket_drugs | Coverage list and updates for subsidized drugs |
+| data.gov.il – health datasets | https://data.gov.il/organization/ministry-health | Machine-readable drug registry and price lists |
+| ATC / WHO drug classification | https://www.whocc.no/atc_ddd_index/ | International ATC codes for cross-referencing active ingredients |
+
 ## Troubleshooting
 
 ### Error: "Drug not found in registry"

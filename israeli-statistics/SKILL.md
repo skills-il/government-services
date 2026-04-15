@@ -170,6 +170,16 @@ Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CP
 - CBS data release schedules are fixed but the publications often include preliminary data that is revised in subsequent releases. Agents may present preliminary figures as final without noting the revision status.
 - Population statistics in Israel include or exclude different territories depending on the dataset. Agents should verify whether a given statistic covers Israel proper, the West Bank settlements, or East Jerusalem.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Central Bureau of Statistics | https://www.cbs.gov.il | CPI, housing prices, employment, population tables |
+| CBS publication schedule | https://www.cbs.gov.il/he/pages/calendar.aspx | Release calendar for CPI, GDP, housing, demographics |
+| data.gov.il – statistics | https://data.gov.il/organization/lamas | Machine-readable CBS datasets (CSV, API) |
+| Bank of Israel data | https://www.boi.org.il | Monetary, financial, and exchange-rate data |
+| CBS English portal | https://www.cbs.gov.il/en/Pages/default.aspx | English-language statistical tables and publications |
+
 ## Troubleshooting
 
 ### Error: "Data not yet published"

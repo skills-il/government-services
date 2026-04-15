@@ -190,6 +190,16 @@ GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=
 - הגבלת קצב ב-APIs ממשלתיים מחמירה ולא מתועדת. סוכנים ששולחים בקשות רצופות מהירות ייחסמו. תמיד יש להוסיף השהיות בין קריאות API.
 - מערכי נתונים ממשלתיים רבים כוללים שדות תאריך בפורמט DD/MM/YYYY (מוסכמה ישראלית), לא ISO 8601. סוכנים עלולים לנתח "01/02/2026" כ-1 בפברואר במקום 2 בינואר.
 
+## קישורי עזר
+
+| מקור | כתובת | מה לבדוק |
+|------|-------|----------|
+| פורטל data.gov.il | https://data.gov.il | קטלוג מידע פתוח ישראלי, ארגונים, מערכי נתונים |
+| תיעוד CKAN API | https://docs.ckan.org/en/latest/api/ | חתימות `package_search`, `package_show`, `datastore_search` |
+| רשימת מערכי נתונים | https://data.gov.il/dataset | חיפוש לפי ארגון ותגיות |
+| הלשכה המרכזית לסטטיסטיקה | https://www.cbs.gov.il | מקור-על לסטטיסטיקות רבות שב-data.gov.il |
+| נתוני בנק ישראל | https://www.boi.org.il | נתונים כלכליים ומוניטריים שאינם ב-data.gov.il |
+
 ## פתרון בעיות
 
 ### שגיאה: "Dataset not found"
