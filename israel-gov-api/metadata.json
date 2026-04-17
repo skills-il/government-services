@@ -26,7 +26,7 @@
     "en": "Israel Gov Api"
   },
   "display_description": {
-    "he": "גישה למידע ממשלתי פתוח מתוך data.gov.il",
+    "he": "גישה לנתונים פתוחים של ממשלת ישראל דרך data.gov.il. חיפוש datasets, שליפת נתונים והרצת ניתוחים על מידע ממשלתי.",
     "en": "Discover, query, and analyze Israeli government open data from data.gov.il (CKAN API). Use when user asks about Israeli government data, \"data.gov.il\", government datasets, CBS statistics, or needs data about Israeli transportation, education, health, geography, economy, or environment. Supports dataset search, tabular data queries, and analysis guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with workflow best practices. Do NOT use for classified government data or data requiring security clearance."
   },
   "supported_agents": [

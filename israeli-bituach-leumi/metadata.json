@@ -23,7 +23,7 @@
     "en": "Israeli Bituach Leumi"
   },
   "display_description": {
-    "he": "בדיקת זכאויות, מעקב תביעות וחישוב קצבאות ביטוח לאומי",
+    "he": "בדיקת זכאות, מעקב אחרי תביעות וחישוב קצבאות ביטוח לאומי",
     "en": "Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, and contributions. Use when user asks about \"bituach leumi\", national insurance, retirement pension (kiztavat zikna), unemployment (dmei avtala), maternity leave (dmei leida), child allowance (kiztavat yeladim), disability benefits, work injury, reserve duty compensation, or NI contributions. Covers all 15+ Bituach Leumi programs. Do NOT use for private insurance or health fund (kupat cholim) questions."
   },
   "supported_agents": [

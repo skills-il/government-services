@@ -23,7 +23,7 @@
     "en": "Israeli Address Autocomplete"
   },
   "display_description": {
-    "he": "עיצוב, אימות וגיאוקידוד כתובות ישראליות",
+    "he": "עיצוב, אימות וגיאוקודינג של כתובות ישראליות, כולל מיקוד וקוד יישוב של הלמ\"ס.",
     "en": "Format, validate, and geocode Israeli addresses including postal code (mikud) lookup and CBS city code resolution. Use when user asks about Israeli addresses, \"ktovet\", postal codes, \"mikud\", city codes, or needs to format addresses for Israeli forms and systems. Supports Hebrew address formatting and Hebrew-English transliteration. Do NOT use for non-Israeli addresses."
   },
   "supported_agents": [
