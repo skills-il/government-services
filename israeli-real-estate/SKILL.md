@@ -21,7 +21,7 @@ compatibility: Network access helpful for data lookups. Enhanced by remy-mcp for
 | Land tender | Query RMI tender data |
 
 ### Step 2: Purchase Tax (Mas Rechisha) Calculator
-For apartment purchases (2025 rates, verify annually):
+For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brackets are frozen until Jan 15, 2028; verify annually at the Israel Tax Authority):
 
 **First apartment buyer (dira yechida):**
 | Price Range (NIS) | Tax Rate |
@@ -36,8 +36,9 @@ For apartment purchases (2025 rates, verify annually):
 | Price Range (NIS) | Tax Rate |
 |-------------------|----------|
 | 0 - 6,055,070 | 8% |
-| 6,055,071 - 20,183,565 | 10% |
-| 20,183,566+ | 12% |
+| 6,055,071+ | 10% |
+
+Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
 
 ### Step 3: Buying Process Checklist
 1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank
@@ -80,7 +81,7 @@ IMPORTANT: Since 2022, the Rental Law (Fair Rent) applies to some properties. Ch
 
 ### Example 1: Purchase Tax Calculation
 User says: "I'm buying my first apartment for 2.5 million shekels"
-Result: Mas rechisha breakdown: 0% on first 1,978,745 + 3.5% on remainder = ~18,245 NIS
+Result: Mas rechisha breakdown: 0% on the first 1,978,745 + 3.5% on 368,295 (up to 2,347,040) + 5% on the remaining 152,960 = 20,538 NIS (effective rate ~0.82%)
 
 ### Example 2: Buying Process
 User says: "I want to buy an apartment in Tel Aviv, what do I need to know?"
@@ -104,6 +105,13 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 ### References
 - `references/transaction-guide.md` — Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [Nadlan MCP](https://agentskills.co.il/he/mcp/nadlan) | Live lookup of historical residential sale prices by gush/chelka or address from the Israel Tax Authority Nadlan database. Replaces manual searches on nadlan.gov.il. |
+| [Remy Land Authority](https://agentskills.co.il/he/mcp/remy-land-authority) | Query Israel Land Authority (רמ״י) tenders, geographic data, and settlement records programmatically. Covers the Rami system this skill references in Step 1. |
+
 ## Gotchas
 - Israeli real estate transactions involve a purchase tax (mas rechisha) that varies by buyer category: first-time buyers get reduced rates, investors pay higher rates starting from the first shekel. Agents may apply a single flat rate.
 - The Tabu (Land Registry) and the Israel Land Authority (Rami) are two separate systems. Not all properties are registered in the Tabu; some are in the Rami system only. Agents may search only one system.
@@ -116,7 +124,7 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 |--------|-----|---------------|
 | Land Registry (Tabu) | https://www.gov.il/he/departments/land_registration_and_settlement_of_rights | Tabu extracts, gush/chelka lookup, liens and mortgages |
 | Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
-| Israel Tax Authority – purchase tax | https://www.gov.il/he/departments/guides/purchase-tax-guide | Current mas rechisha brackets per buyer category |
+| Israel Tax Authority – purchase tax | https://www.gov.il/he/departments/topics/purchase_tax | Current mas rechisha brackets per buyer category |
 | Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |
 | Mechir LaMishtaken | https://www.gov.il/he/departments/topics/mehirlmishtaken | Reduced-price apartment program eligibility and listings |
 

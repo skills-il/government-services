@@ -1,12 +1,12 @@
 {
   "author": "skills-il",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
       "נדל״ן",
       "נכס",
-      "נדל״ן",
+      "שכירות",
       "טאבו",
       "מס-רכישה",
       "ישראל"
@@ -25,7 +25,7 @@
     "en": "Israeli Real Estate"
   },
   "display_description": {
-    "he": "נתוני נדל\"ן, הערכות שווי נכסים ומידע על עסקאות",
+    "he": "נתוני נדל\"ן ישראלי, הערכת שווי נכסים, הדרכה לעסקאות ותאימות רגולטורית. משתמשים כשהמשתמש שואל על נכס בישראל, \"נדל\"ן\", \"דירה\", מחירי דירות, מס רכישה, נסח טאבו, חוזי שכירות, משכנתא או מכרזי רשות מקרקעי ישראל. מכסה קנייה, מכירה והשכרה בישראל. אל תשתמשו לנדל\"ן מחוץ לישראל.",
     "en": "Israeli real estate data, property valuation, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, \"nadlan\", \"dira\", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets."
   },
   "supported_agents": [

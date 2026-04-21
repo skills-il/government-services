@@ -8,14 +8,14 @@
 4. Attorney obtains Tabu extract
 5. Price negotiation and payment schedule
 6. Sign purchase agreement (chozeh mcher)
-7. Pay purchase tax (mas rechisha) within 50 days
+7. File mas rechisha declaration within 30 days of signing; pay purchase tax within 60 days
 8. Finalize mortgage (mashkanta) with bank
 9. Attorney registers transfer in Tabu
 10. Key handover per contract
 
-## Purchase Tax Brackets (2025)
+## Purchase Tax Brackets (2026, frozen at 2025 levels)
 
-### First Apartment
+### First Apartment (brackets frozen until Jan 15, 2028)
 | Range (NIS) | Rate |
 |-------------|------|
 | 0 - 1,978,745 | 0% |
@@ -28,8 +28,7 @@
 | Range (NIS) | Rate |
 |-------------|------|
 | 0 - 6,055,070 | 8% |
-| 6,055,071 - 20,183,565 | 10% |
-| 20,183,566+ | 12% |
+| 6,055,071+ | 10% |
 
 ## Tabu Extract Sections
 1. Property description (gush, chelka)

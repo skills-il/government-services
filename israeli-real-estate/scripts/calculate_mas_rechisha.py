@@ -3,7 +3,7 @@
 Israeli Purchase Tax (Mas Rechisha) Calculator
 
 Calculate purchase tax for Israeli real estate transactions
-based on 2025 tax brackets for first and non-first apartment buyers.
+based on 2026 tax brackets for first and non-first apartment buyers.
 
 Usage:
     python calculate_mas_rechisha.py --price 2500000 --first
@@ -15,7 +15,9 @@ import argparse
 import json
 import sys
 
-# 2025 Tax brackets (verify annually at Israel Tax Authority)
+# 2026 Tax brackets (frozen at 2025 levels; first-apartment brackets frozen
+# until Jan 15, 2028). Always verify at the Israel Tax Authority:
+# https://www.gov.il/he/departments/topics/purchase_tax
 FIRST_APARTMENT_BRACKETS = [
     (1_978_745, 0.00),
     (2_347_040, 0.035),
@@ -24,10 +26,11 @@ FIRST_APARTMENT_BRACKETS = [
     (float("inf"), 0.10),
 ]
 
+# Non-first apartment has only 2 brackets in 2026
+# (the older 12% ultra-high-value bracket was dropped).
 NON_FIRST_APARTMENT_BRACKETS = [
     (6_055_070, 0.08),
-    (20_183_565, 0.10),
-    (float("inf"), 0.12),
+    (float("inf"), 0.10),
 ]
 
 
@@ -68,7 +71,7 @@ def calculate_tax(price: float, is_first: bool) -> dict:
         "total_tax": total_tax,
         "effective_rate": effective_rate,
         "breakdown": breakdown,
-        "note": "2025 brackets. Verify current rates at Israel Tax Authority.",
+        "note": "2026 brackets (frozen at 2025 levels). Verify current rates at Israel Tax Authority.",
     }
 
 
@@ -97,7 +100,7 @@ def print_result(result: dict, as_json: bool = False) -> None:
     print(f"  {'TOTAL TAX':>34}  {'':>12}  {result['total_tax']:>10,.0f} NIS")
     print(f"  Effective rate: {result['effective_rate']:.2f}%")
     print()
-    print(f"  Due within 50 days of signing the purchase agreement.")
+    print(f"  File declaration within 30 days of signing; pay within 60 days.")
     print(f"  {result['note']}")
 
 
