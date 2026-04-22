@@ -1,0 +1,43 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "עולים-חדשים",
+      "זכויות-עולים",
+      "מכס",
+      "משלוחים",
+      "עלייה",
+      "תעודת-עולה",
+      "ישראל"
+    ],
+    "en": [
+      "olim",
+      "aliyah",
+      "customs",
+      "shipments",
+      "oleh-benefits",
+      "zchuyot-olim",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מתכנן משלוחי מכס לעולים חדשים",
+    "en": "Israeli Aliyah Customs Shipment Planner"
+  },
+  "display_description": {
+    "he": "תכנון שלושת המשלוחים הפטורים ממכס לעולים חדשים בישראל: סיווג חפצים לפי המכסות המשפחתיות (3 טלוויזיות, 3 מחשבים, 5 טלפונים, 25% שטיחים, אחד מכל מכשיר), חלוקה על פני 3 משלוחים בתוך חלון 3 השנים מתעודת העולה, וניסוח הצהרת מכס לכל משלוח. השתמשו כשמשתמש שואל על זכויות שילוח לעולים, ליפט, כמה טלוויזיות אפשר להביא, או תכנון מטען לעלייה. אל תשתמשו בשאלות קליטה כלליות (סל קליטה, אולפן, משרד הקליטה) – השתמשו ב-israeli-aliyah-navigator.",
+    "en": "Plan the 3-shipment customs exemption for new olim to Israel: classify belongings against per-family caps (3 TVs, 3 computers, 5 phones, 25% carpet area, one of each appliance), split inventory across 3 shipments within the 3-year window from teudat oleh, and draft per-shipment customs declarations. Use when a user asks about olim shipping rights, lift planning, how many TVs can I bring, meches olim, or teudat oleh customs benefits. Do NOT use for general aliyah absorption questions (sal klita, ulpan, Misrad HaKlita) - use israeli-aliyah-navigator instead."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}
