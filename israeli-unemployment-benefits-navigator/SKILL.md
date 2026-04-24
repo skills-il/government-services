@@ -115,7 +115,7 @@ Sum each bracket contribution to get the gross daily benefit.
 
 The gross benefit is taxed like income:
 - Income tax at the user's marginal rate (often reduced because avtala is below the first tax bracket for low-wage earners)
-- Bituach Leumi: fixed ₪32 per month as of 2026
+- Bituach Leumi: fixed ₪48 per month as of 2026 (updated 01.01.2026)
 - Mas briut (health tax)
 
 The net amount the user actually receives is the gross benefit minus these deductions. Do not promise the user the gross number as take-home.
@@ -134,7 +134,7 @@ daily_gross: 166.00 + 51.75 + 46.80 + 55.50 = 320.05
 
 Ceiling check: 320.05 < 550.76 (ok for first 125 days)
 Monthly gross (approx 25 working days): 320.05 * 25 = 8,001.25
-Minus deductions (income tax, BL 32, health): net receives less
+Minus deductions (income tax, BL 48, health): net receives less
 ```
 
 ### Step 6: Generate the Application Checklist

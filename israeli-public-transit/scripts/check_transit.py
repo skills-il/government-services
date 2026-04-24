@@ -126,8 +126,8 @@ def show_fares() -> None:
     """Display Rav-Kav fare information."""
     print("=== Rav-Kav Fare System ===\n")
 
-    print("Fare structure (updated April 2025, Transport Justice reform):")
-    print("  - Single ride (urban, 0-15km): 8 NIS")
+    print("Fare structure (updated January 2026; base reform = 'Transport Justice' April 2025):")
+    print("  - Single ride (urban, 0-15km): 9 NIS (raised from 8 NIS on Jan 1, 2026)")
     print("  - Daily cap: Maximum daily charge regardless of trips")
     print("  - Transfers: Free within 90 minutes of first boarding (same zone)")
     print()

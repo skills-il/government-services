@@ -61,9 +61,11 @@ Two to three months before the flight is the right window for most of this.
 An Israeli who stays a tax resident must keep paying Bituach Leumi and health insurance (dmei briut) while abroad, even with zero income. This is how you keep continuous kupat cholim coverage and avoid a waiting period on return.
 
 - Contribution rates on reported income abroad: 7% National Insurance + 5% health insurance (on amounts above the reduced-rate ceiling, lower rates below)
-- **Minimum monthly health insurance for 2026: 123 NIS** for a resident abroad with no reported income
+- **2026 minimums (Bituach Leumi, effective 01.01.2026):**
+  - Non-treaty country, no income: ₪266/month combined (NI + health)
+  - Treaty country (USA, UK, most of EU, Canada), paying social security locally: ₪123/month (health only)
 - Open a standing order (horaat keva) before leaving so payments don't lapse
-- In countries with a bilateral social security agreement (USA, UK, most of EU, Canada), if you pay social security there on employment income, you are exempt from Israeli NI on that income and pay only Israeli health insurance
+- In countries with a bilateral social security agreement (USA, UK, most of EU, Canada), if you pay social security there on employment income, you are exempt from Israeli NI on that income and pay only the ₪123/month Israeli health insurance
 
 If you formally cut residency (nituk toshavut), you stop paying Bituach Leumi but you also lose kupat cholim and restart a waiting period when you return (see Step 6).
 
@@ -97,7 +99,7 @@ For any Israeli public document you may need abroad (marriage certificate, birth
 | Notarized translations | Court secretariat | Any court in Israel |
 | University diplomas | First notarize and translate, then court secretariat for the notarization | Any court |
 
-Court-issued apostille stamps cost **35 NIS per stamp**. Budget for one per language per document (translations often need their own apostille).
+Court-issued apostille stamps cost **41 NIS per stamp** (updated 01.01.2026, was ₪35 through 2025). Budget for one per language per document (translations often need their own apostille).
 
 **Driver's license:** Apply for an International Driving Permit (IDP, rishayon binleumi) at a MEMSI office before leaving. It is valid for 1 year and is required on top of your Israeli license in most countries.
 
@@ -160,7 +162,7 @@ Actions:
 3. Generate pre-move checklist: Bituach Leumi continuation via standing order if staying resident, or formal exit if cutting; apartment rental with 10% landlord tax track; apostille on marriage and children's birth certificates
 4. Pension fund: freeze the comprehensive fund and keren hishtalmut, do not withdraw (withdrawal triggers ~47% tax)
 5. School records: apostille teudat gmar for kids in case of re-enrollment abroad
-6. Budget for relocation: apostille stamps ~140 NIS (marriage + 2 birth + 1 diploma), IDP 80 NIS, property management 5-8% of monthly rent
+6. Budget for relocation: apostille stamps ~164 NIS (marriage + 2 birth + 1 diploma at ₪41 each, 2026 rate), IDP 80 NIS, property management 5-8% of monthly rent
 
 Result: 12-week phased checklist with financial estimates and a flagged decision point for tax residency to review with an accountant.
 
@@ -244,7 +246,7 @@ Solution: Log in at btl.gov.il, check the personal area (ezor ishi) for outstand
 
 ### Error: "Need to apostille an Israeli birth certificate from abroad"
 Cause: The user is no longer in Israel but needs an apostilled document.
-Solution: Two paths -- (1) authorize a family member in Israel with power of attorney to get the document from Misrad HaPnim and the apostille from Misrad HaChutz, or (2) use a paid apostille service in Israel that handles end-to-end. Budget 35 NIS per court apostille plus the service fee.
+Solution: Two paths -- (1) authorize a family member in Israel with power of attorney to get the document from Misrad HaPnim and the apostille from Misrad HaChutz, or (2) use a paid apostille service in Israel that handles end-to-end. Budget 41 NIS per court apostille (2026 rate) plus the service fee.
 
 ### Error: "Severance / pitzuim treatment at exit from Israeli employer is unclear"
 Cause: User signed a Tofes 161 incorrectly or did not understand the ritza (tax deferral) option.

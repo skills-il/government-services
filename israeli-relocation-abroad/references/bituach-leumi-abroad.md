@@ -17,12 +17,14 @@ Two separate components are both collected by Bituach Leumi:
 | National Insurance (dmei bituach leumi) | Unemployment, maternity, disability, old-age pension, child allowance, work injury | 7% above the reduced-rate ceiling, lower rate below |
 | Health Insurance (dmei bituach briut) | Funds the universal health basket delivered via the four kupot cholim | 5% above the reduced-rate ceiling, lower rate below |
 
-## 2026 Minimums
+## 2026 Minimums (effective 01.01.2026)
 
-For an Israeli resident abroad with no reported income, there is a minimum monthly payment:
+For an Israeli resident abroad with no reported income, the minimum monthly payment depends on whether they live in a treaty country:
 
-- **Minimum health insurance (2026): 123 NIS per month**
-- National Insurance minimum applies separately and is set annually; check the Bituach Leumi publication "שינוי בתשלום דמי ביטוח לאומי ודמי ביטוח בריאות" for the current year
+- **Treaty country (USA, UK, most of EU, Canada), paying social security there: 123 NIS per month (health insurance only)**
+- **Non-treaty country, no reported income: 266 NIS per month combined (National Insurance + health insurance)**
+
+Source: Bituach Leumi publication "שינוי בתשלום דמי ביטוח לאומי ודמי ביטוח בריאות לשנת 2026". Amounts are indexed annually; verify each year at btl.gov.il.
 
 If you report income from abroad (e.g., salary from a foreign employer), contributions are calculated on that reported income at the rates above, subject to the annual ceiling (the same ceiling that applies domestically -- set by the Ministry of Finance based on average wage).
 

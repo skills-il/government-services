@@ -71,12 +71,14 @@ def build_plan(args: argparse.Namespace) -> Plan:
     if not is_treaty:
         plan.notes.append(
             f"{destination} is not a treaty country (or not in this tool's list). "
-            "Israeli National Insurance is owed in full on reported income. Verify with an accountant."
+            "Israeli National Insurance is owed in full on reported income. "
+            "If no income is reported, the minimum combined BL+health payment is 266 NIS/month (effective 01.01.2026). "
+            "Verify with an accountant."
         )
     else:
         plan.notes.append(
             f"{destination} is a treaty country. If you pay social security there on employment income, "
-            "you are exempt from Israeli National Insurance on that income and owe only health insurance (123 NIS/month minimum in 2026)."
+            "you are exempt from Israeli National Insurance on that income and owe only health insurance (123 NIS/month minimum, effective 01.01.2026)."
         )
 
     plan.ongoing.extend([

@@ -25,7 +25,7 @@ from dataclasses import dataclass
 DAILY_CEILING_FIRST_125 = 550.76
 DAILY_CEILING_AFTER_125 = 367.17
 WAGE_DIVISOR = 150
-BL_MONTHLY_DEDUCTION = 32
+BL_MONTHLY_DEDUCTION = 48
 
 # Progressive brackets: (upper_bound, rate_under_28, rate_28_plus)
 BRACKETS = [

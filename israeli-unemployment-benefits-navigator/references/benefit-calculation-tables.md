@@ -9,7 +9,7 @@ All figures current for 2026. Source: Bituach Leumi, Kolzchut.
 | Daily base amount | ₪415 |
 | Daily ceiling, days 1-125 | ₪550.76 |
 | Daily ceiling, days 126+ | ₪367.17 |
-| Bituach Leumi monthly deduction from benefit | ₪32 |
+| Bituach Leumi monthly deduction from benefit | ₪48 (effective 01.01.2026) |
 | Divisor for average daily wage | 150 (= 25 days * 6 months) |
 
 ## Progressive Rate Tables
@@ -78,7 +78,7 @@ Monthly gross (25 days): 320.05 * 25 = 8,001.25
 Before the claimant receives money in their bank account:
 
 1. **Income tax** at the claimant's marginal rate. Often 0% because dmei avtala is typically below the first tax bracket annual ceiling after credits (nekudot zikui). High earners still hit mass.
-2. **Bituach Leumi contribution**: fixed ₪32 per month (2026)
+2. **Bituach Leumi contribution**: fixed ₪48 per month (effective 01.01.2026)
 3. **Mas briut (health tax)**: percentage of the benefit
 
 **Rule of thumb:** Low-income claimants net close to 100% of gross. Mid-income net approximately 85-90% of gross. High-income (hitting ceilings) net approximately 80-85%.
