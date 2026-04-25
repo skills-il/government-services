@@ -213,8 +213,19 @@ Actions:
 ## Bundled Resources
 
 ### References
-- `references/compensation-ceilings.md` -- Detailed breakdown of compensation ceilings by household size and category, with current NIS amounts. Consult when calculating expected compensation.
+- `references/compensation-ceilings.md` -- Detailed breakdown of compensation ceilings by household size and category, with current NIS amounts (2026). Consult when calculating expected compensation.
 - `references/claims-process-flowchart.md` -- Step-by-step flowchart of the claims process for both fast and regular tracks. Consult when guiding users through filing.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|---|---|---|
+| Tax Authority direct-damage online claim | https://www.gov.il/he/service/online-direct-damage-claim | Active claim windows and filing form |
+| Tax Authority site (Mas Rechush) | https://www.gov.il/he/departments/israel_tax_authority | Current compensation ceilings, deadline notices, forms |
+| Property Tax and Compensation Fund Law (1961) | https://www.nevo.co.il/law_html/law01/273_001.htm | Statute (Tekana) numbering: regulations 8/9/10/11/12 distinctions |
+| Property Tax Regulations (1973) | https://www.nevo.co.il/law_html/law01/273_020.htm | Reg 8 (manager's decision), Reg 9 (corrections, 4-year window), Reg 10 (committee composition) |
+| State Comptroller report on Tax Authority emergency preparedness (Jan 2026) | https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf | Process gaps and known delays |
+| Kol Zchut: small-business compensation track | https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D | Eligibility for the &lt;300K turnover track |
 
 ## Gotchas
 
