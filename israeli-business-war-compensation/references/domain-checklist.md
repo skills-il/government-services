@@ -1,0 +1,51 @@
+# Domain Coverage Checklist — israeli-business-war-compensation
+
+Generated: 2026-04-27 via research on: mas.gov.il, gov.il, kolzchut.org.il, btl.gov.il, knesset.gov.il, nevo.co.il
+
+## Must cover (core)
+
+- [x] Statutory basis (Property Tax & Compensation Fund Law, תשכ"א-1961, §§35–36) — anchor every grant calculation to a section of the underlying law. §35 defines indirect damage in border-area settlements (red track, no cap); §36 enables government regulations for nationwide indirect damage. — source: https://www.nevo.co.il/law_html/law01/273_001.htm — why core: Without this anchor, calculations are folkloric.
+- [x] Iron Swords indirect-damage regulations (תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף) (חרבות ברזל) (הוראת שעה), תשפ"ד-2023) — operative regulation for damage from October 7, 2023 onward. Defines turnover-decline thresholds, wage track, fixed-cost track, 12,000–400M NIS turnover band. Filing deadlines defined per qualifying period in the regulation. — why core: nearly all live business claims in 2026 still cite it.
+- [x] Shaagat HaAri (March 2026) framework — distinct hora'at sha'a, parallel to Iron Swords (different reference period, identical mechanic). — source: https://www.gov.il/he/pages/press_11032026 — why core: confusing the two frameworks causes filing under wrong regulation and rejection.
+- [x] Eligibility thresholds — monthly VAT filers ≥25% decline (March 2026 vs. March 2025); bi-monthly ≥12.5% (March–April 2026 vs. same period 2025). — why core: gating eligibility check.
+- [x] Eligibility — turnover band 12,000 NIS ≤ annual turnover ≤ 400M NIS, registered and active by 31.12.2024. — why core: floor and ceiling are hard exclusions.
+- [x] Wage participation grant formula — 75% × (turnover decline rate) × (March 2026 actual wages), capped at average wage 13,773 NIS × employees × decline rate, aggregate ceiling 600,000 NIS for businesses above 300,000 NIS turnover. — why core: central deliverable.
+- [x] Fixed-cost (inputs) track — tiered multiplier on monthly fixed expenses: 25–40% decline → 7%; 40–60% → 11%; 60–80% → 15%; 80–100% → 22%. System pays whichever of (wage track, fixed-cost track) yields higher amount. — why core: ignoring fixed-cost track leaves money on the table.
+- [x] Small business fast track (turnover ≤ 300,000 NIS) — fixed-amount table lookup ("מענק המשכיות עסקית"), no formula, different filing form, exclusive of wage/fixed-cost track. — source: https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים — why core: 300k NIS is the bright-line routing threshold.
+- [x] חל"ת wage compensation — minimum 14 consecutive days under Shaagat HaAri. Five-day waiting period waived; accrued vacation NOT deducted. Employee receives up to 70% salary as dmei avtala from Bituach Leumi. — why core: gating rule for the employee branch; frequently confused with 30-day default.
+- [x] Filing process — Tax Authority online portal, "תביעת פיצויים נזק עקיף" form. 60% advance after 21 days, final determination within 150 days, automatic approval after 8 months. — source: https://www.gov.il/he/service/compensation-indirect-damage — why core: business owner needs cash-flow schedule.
+- [x] Northern businesses special baseline — evacuated/border northern settlements compare against 2023 (not 2025). No minimum decline % required for the dedicated northern track; covers profit losses too. — why core: skill must detect "is the business in evacuated yishuv?" and switch baseline.
+- [x] Track exclusivity — eligible business may file under only ONE of: (a) red track §35, (b) special-area track, (c) nationwide turnover/wage/fixed-cost, (d) small-business continuity grant. — why core: choosing wrong track is irreversible per damage period.
+- [x] Documentation requirements — VAT reports (1301/דוחות עוסק) for reference + claim periods, P&L for reference year, ניהול ספרים, bank statements, payroll records (טופס 102) for wage track, fixed-cost invoices, employee CSV with ID + הסכם חל"ת dates. — why core: this IS the filing checklist.
+- [x] Tax treatment — wage/fixed-cost/turnover grant is "פיצוי פירותי" (revenue substitute), taxable as ordinary business income at marginal rate, reported on annual return. פריסה (income spreading) available in some cases. — why core: business owners frequently fail to provision for tax on the grant.
+- [x] Reservist business-owner grant — separate from indirect damage; for עצמאים / בעלי שליטה called up under צו 8 reserve duty. Multiple sub-tracks exist with their own day-count thresholds and per-day multipliers; rules change with each hora'at sha'a. Refer the user to the live Kol-Zchut entry and to israeli-miluim-manager for the active calculation. — source: https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D — why core: stacks WITH (not instead of) indirect-damage grant.
+
+## Should cover (advanced / edge cases)
+
+- [x] Self-employed (osek murshe / osek patur) — both eligible; osek patur typically funnels into small-business continuity track. — why advanced: edge case for solo practitioners.
+- [x] Appeal process — two-tier: השגה to assessing officer first, then ערר to ועדת ערר. Day-count windows defined in the operative hora'at sha'a regulation rather than fixed code. — why advanced: short deadlines, easily missed; user must read the rejection letter for explicit day-counts.
+- [x] Time limits — defined in the operative hora'at sha'a regulation rather than fixed code. Read the rejection letter or framework press release for specific deadlines per qualifying period. — why advanced: deadlines often missed.
+- [x] Interaction with private business interruption insurance — government compensation reduced by amounts received from private war/BI policies (anti-double-recovery rule). Specific policy language varies between Israeli BI products; verify with the user's broker. — why advanced: where policy paid, government grant is offset 1:1.
+- [x] Eligible business types — self-employed, exempt dealers, salaried-controlling-shareholders, corporations, nonprofits, kibbutzim. Excluded: government bodies. Newer businesses (registered after 31.12.2024) are eligible under alternate baseline formulas. — why advanced: rare exclusion cases need explicit handling.
+- [x] Reference-period substitution — businesses with no comparable prior-year period use the alternate baseline rules defined in the framework press release (different rules for Jan-Feb 2025 vs. March 2025+ openings). — why advanced: edge case for new/seasonal businesses.
+- [x] Red track §35 advance — border-area businesses can receive advance up to 100,000 NIS before filing formal claims. — source: https://www.gov.il/he/pages/press_11032026 — why advanced: immediate cash-flow relief.
+- [x] Employer reservist compensation — 20% of employee's average daily wage × reserve duty days, in addition to indirect-damage grants. — source: https://www.gov.il/he/pages/press_11032026 — why advanced: stacks with main grants.
+- [x] Tax filing extensions — reporting deadlines extended (non-online: 31.05.2026; online: 30.06.2026; micro: 31.05.2026). — source: https://www.gov.il/he/pages/press_11032026 — why advanced: cash-flow planning.
+
+## Out of scope (explicit, with rationale)
+
+- Direct property damage (broken windows, structure damage, vehicle damage from rocket/drone hits) — covered by Tax Authority direct-damage track. — related skill: `israeli-war-damage-claims` handles it.
+- Personal/family grants for evacuated residents — accommodation grant, evacuee per-diem. Different agency (Ministry of Interior + Tefen). — related skill: `israeli-bituach-leumi` and future evacuee-specific skill handles it.
+- Bituach Leumi dmei avtala employee-side claim — the employee's filing on Bituach Leumi portal. — related skill: `israeli-unemployment-benefits-navigator` handles it; this skill covers the EMPLOYER side only.
+- VAT exemption / postponement during war — cash-flow relief, not a compensation grant. — related skill: `israeli-vat-reporting` (or general accounting skills) handles VAT postponement.
+- Mental-health / trauma compensation for business owners — handled separately by Bituach Leumi nifgaei eivah. — related skill: `israeli-mental-health-navigator` handles trauma services.
+
+## Authoritative sources
+
+- https://www.nevo.co.il/law_html/law01/273_001.htm — Full text of חוק מס רכוש וקרן פיצויים תשכ"א-1961. Verify §§35, 36 (definitions, indirect damage, ועדת ערר).
+- https://www.gov.il/he/pages/press_11032026 — Tax Authority press release on Shaagat HaAri framework (11.03.2026). Verify red-track advance ≤100,000 NIS, 20% employer reservist comp, filing extensions.
+- https://www.gov.il/he/service/compensation-indirect-damage — Official filing portal for nationwide indirect-damage. Verify form name, registration prerequisite, contact channels.
+- https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks — Tax Authority master index of indirect-damage tracks. Verify track exclusivity.
+- https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C — Plain-language entitlement entry for general business compensation.
+- https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F — Reservist business-owner grant.
+- https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx — Bituach Leumi Shaagat HaAri updates. Verify 70% replacement rate, 14-day Shaagat threshold, employee-side filing flow.

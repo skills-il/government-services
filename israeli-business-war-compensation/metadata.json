@@ -1,0 +1,58 @@
+{
+  "display_name": {
+    "he": "פיצוי לעסקים על נזקי מלחמה",
+    "en": "Israeli Business War Compensation"
+  },
+  "display_description": {
+    "he": "מחשבון ומדריך הגשה למענקי נזק עקיף של רשות המסים לעסקים שנפגעו מהמלחמה - מתווה שאגת הארי 2026 ומתווה חרבות ברזל המתמשך. מחשב זכאות לפי ירידה במחזור (25% למדווחי חודשי, 12.5% לדו-חודשי), מענק השתתפות בשכר (75% × שיעור ירידה × שכר, מוגבל ב-13,773 ש\"ח שכר ממוצע × עובד), מענק המשכיות עסקית (מחזור עד 300,000 ש\"ח), ומקדמת מסלול אדום ליישובי גבול (עד 100,000 ש\"ח). מנתב לכל ארבעת המסלולים, בונה צ'ק ליסט הגשה, ומתריע על חבות המס שעל המענק עצמו. השתמשו כשבעל עסק שואל על פיצוי מלחמה, נזק עקיף, חל\"ת לעובדים, או הגשה לרשות המסים. אל תשתמשו לנזק רכוש ישיר (israeli-war-damage-claims), הגשת דמי אבטלה אישית של עובד (israeli-unemployment-benefits-navigator), או פיצוי אישי למילואים (israeli-miluim-manager).",
+    "en": "Calculator and filing guide for the Israeli Tax Authority's indirect-damage business compensation under both the Shaagat HaAri (March 2026) and Iron Swords (October 2023 onward) frameworks. Computes eligibility by turnover decline (25% threshold for monthly VAT filers, 12.5% bi-monthly), wage participation grant (75% × decline rate × wages, capped at average wage 13,773 NIS × employees), small business continuity grant (turnover up to 300,000 NIS), and red-track advance for border-area businesses (up to 100,000 NIS). Routes across all four mutually exclusive tracks, builds the document checklist, and surfaces the tax bill on the grant itself. Use when a business owner asks about war compensation, indirect damage, employee חל\"ת, or how to file with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), the employee-side dmei avtala filing (israeli-unemployment-benefits-navigator), or personal reservist compensation (israeli-miluim-manager)."
+  },
+  "tags": {
+    "he": [
+      "פיצוי-עסקים",
+      "נזק-עקיף",
+      "שאגת-הארי",
+      "חרבות-ברזל",
+      "מס-רכוש",
+      "קרן-פיצויים",
+      "חלת",
+      "השתתפות-בשכר",
+      "מענק-המשכיות-עסקית",
+      "ישראל"
+    ],
+    "en": [
+      "business-compensation",
+      "indirect-damage",
+      "shaagat-haari",
+      "iron-swords",
+      "tax-authority",
+      "compensation-fund",
+      "halat",
+      "wage-participation-grant",
+      "business-continuity-grant",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    { "url": "https://www.gov.il/he/pages/press_11032026", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/he/service/compensation-indirect-damage", "type": "regulator", "language": "he" },
+    { "url": "https://www.nevo.co.il/law_html/law01/273_001.htm", "type": "statute", "language": "he" },
+    { "url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx", "type": "regulator", "language": "he" },
+    { "url": "https://www.kolzchut.org.il", "type": "knowledge-base", "language": "he" }
+  ],
+  "domain_checklist_version": 1
+}
