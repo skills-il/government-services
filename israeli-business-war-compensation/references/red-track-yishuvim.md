@@ -13,13 +13,13 @@ The canonical, dynamically updated list of red-track yishuvim is maintained by t
 
 https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks
 
-The list shifts based on operational status — yishuvim are added when conflict reaches them and removed when the area is reclassified. Always verify against the live gov.il page before advising a user that their settlement is on the red list. The list as of mid-2026 covers most of the northern Galilee border strip and parts of the Gaza envelope (Otef Aza).
+The list shifts based on operational status - yishuvim are added when conflict reaches them and removed when the area is reclassified. Always verify against the live gov.il page before advising a user that their settlement is on the red list. The list as of mid-2026 covers most of the northern Galilee border strip and parts of the Gaza envelope (Otef Aza).
 
 ## How to check programmatically
 
-The skill should NOT hard-code the yishuv list — it changes too often. Instead, surface the `compensation-tracks` URL to the user and have them confirm. If a more reliable check is needed, query Kol-Zchut at:
+The skill should NOT hard-code the yishuv list - it changes too often. Instead, surface the `compensation-tracks` URL to the user and have them confirm. If a more reliable check is needed, query Kol-Zchut at:
 
-https://www.kolzchut.org.il — search for `יישוב ספר` or the specific yishuv name.
+https://www.kolzchut.org.il - search for `יישוב ספר` or the specific yishuv name.
 
 ## Common northern red-track yishuvim (illustrative, not authoritative)
 
@@ -40,7 +40,7 @@ These are typically on the list during active northern conflict periods. Always 
 
 Within 7 km of the Gaza border, traditionally on the red list:
 
-- Sderot (שדרות) — typically on the special-area or red track depending on regulation in force
+- Sderot (שדרות) - typically on the special-area or red track depending on regulation in force
 - Netivot (נתיבות)
 - Sha'ar HaNegev regional council yishuvim
 - Eshkol regional council yishuvim

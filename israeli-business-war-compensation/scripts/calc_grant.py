@@ -78,7 +78,7 @@ def calc_grant(
 
     Returns the higher of the two as the recommended grant for the nationwide track.
     Does NOT compute the small-business continuity track (turnover <= 300,000 NIS)
-    or the red-track §35 advance — those are separate forms with separate flows.
+    or the red-track §35 advance - those are separate forms with separate flows.
     """
     if ref_turnover <= 0:
         return GrantResult(0, False, "Reference turnover must be positive", 0, 0, 0, 0, None, False, "none", 0)
@@ -157,8 +157,8 @@ def calc_grant(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--ref", type=float, required=True, help="Reference turnover (NIS) — typically March 2025 or March 2023 (north)")
-    parser.add_argument("--claim", type=float, required=True, help="Claim turnover (NIS) — typically March 2026")
+    parser.add_argument("--ref", type=float, required=True, help="Reference turnover (NIS) - typically March 2025 or March 2023 (north)")
+    parser.add_argument("--claim", type=float, required=True, help="Claim turnover (NIS) - typically March 2026")
     parser.add_argument("--wages", type=float, default=0, help="Wages paid in claim period (NIS)")
     parser.add_argument("--employees", type=int, default=0, help="Number of employees")
     parser.add_argument("--fixed", type=float, default=0, help="Monthly fixed expenses (NIS)")
@@ -168,7 +168,7 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.example:
-        print("Worked example: Tel Aviv café — see references/calculator-walkthrough.md Example 1\n")
+        print("Worked example: Tel Aviv café - see references/calculator-walkthrough.md Example 1\n")
         result = calc_grant(280_000, 168_000, 70_000, 5, 28_000)
         _print_result(result)
         return 0
