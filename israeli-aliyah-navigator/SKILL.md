@@ -232,6 +232,24 @@ Israel offers significant tax benefits for new immigrants under Section 14 of th
 - Tax-free container shipment of household goods
 - Potential VAT exemption on certain purchases (first car, appliances) within eligibility windows
 
+**2026 New-Oleh Israeli-Source Income Exemption (special incentive window):**
+
+A new tax incentive enacted late 2025 grants olim and toshavim chozrim vatikim who establish Israeli residency between **November 5, 2025 and December 31, 2026** a tiered exemption on **Israeli-source earned income**, on top of the standard 10-year foreign-income exemption.
+
+- The exemption applies to active (earned) Israeli-source income up to an annual NIS ceiling that ramps up over the first years of residency, then steps down.
+- Public sources (Gornitzky, BSH CPA, Knesset MMM memo) cite slightly different schedules; verify against the final Knesset-passed text and ITA circulars before quoting specific NIS ceilings to a user.
+- The 2028-2029 portion of the benefit may carry a minimum-days-in-Israel residency condition (~75 days/year per published memos). Verify before quoting.
+- A separate per-family-member NIS cap (~140K) applies in addition to the primary ceiling.
+- Olim arriving outside the November 5, 2025 - December 31, 2026 window do NOT receive this incentive — only the standard Section 14 benefits.
+
+**Capital declaration / asset cap on sal klita (2025/2026):**
+
+Sal klita applicants must now submit a capital declaration (הצהרת הון). Reported assets above NIS 500,000 reduce or deny eligibility. Applicants below the threshold receive a +10% top-up. Confirm the current threshold + top-up at klita.gov.il before applying — these figures are subject to budget-cycle adjustment.
+
+**Bituach Leumi US-Social-Security exemption (Feb 2026 amendment):**
+
+New olim from the United States who continue paying US Social Security contributions can be exempt from corresponding Bituach Leumi contributions for up to 5 years. Verify eligibility, the totalization-agreement scope, and any required proof-of-payment documentation with Bituach Leumi (*6050) before relying on this.
+
 **Reporting Requirements:**
 - Israeli-source income must be reported normally from day one
 - File annual tax return (doch shnati) if total income exceeds the filing threshold
@@ -291,7 +309,7 @@ The process for converting a foreign driver's license is primarily based on driv
    - Medical certificate
    - Passport photos
 3. Receive Israeli license (usually within 2-4 weeks)
-4. Foreign license remains valid for up to 1 year from aliyah date
+4. Foreign license remains valid for up to 1 year from last entry to Israel (resets after 6+ months abroad). The conversion window itself is 5 years from aliyah date.
 
 **Conversion Process (2-5 Years Experience):**
 1. Same documents as above
@@ -306,9 +324,10 @@ The process for converting a foreign driver's license is primarily based on driv
 4. Theory test covers Israeli-specific road rules and signage
 
 **Temporary Driving:**
-- Foreign license valid for up to 1 year from date of aliyah
-- Must carry both foreign license and Teudat Oleh/Zehut while driving
-- Start conversion process early to avoid gaps in driving eligibility
+- Foreign license valid for up to 1 year from your **last entry to Israel** (clock resets if you spend 6+ months abroad).
+- The full conversion window is **5 years from aliyah date** (not 1 year). After 5 years without conversion you must complete a full Israeli licensing process (theory + practical).
+- Must carry both foreign license and Teudat Oleh/Zehut while driving.
+- Start conversion early to avoid gaps in driving eligibility.
 
 ### Step 11: Professional License Recognition
 
@@ -477,7 +496,7 @@ Solution: Ensure all academic documents have an apostille from the country of or
 
 ### Error: "Foreign driver's license expired before conversion completed"
 Cause: Conversion process not started within the 1-year validity window.
-Solution: If within 1 year of aliyah, expedite the conversion application. If past 1 year, the oleh may need to complete the full licensing process (theory + practical tests). Contact the local licensing office (misrad harishui) for options.
+Solution: The conversion window is **5 years from aliyah date**. The 1-year clock applies separately to the foreign license itself (counting from your last entry to Israel; resets after 6+ months abroad). Within 5 years of aliyah, you can still convert per the experience-based tiers. Past 5 years, you must complete the full Israeli licensing process (theory + practical). Contact the local licensing office (misrad harishui) for options.
 
 ### Error: "Kupat cholim registration issues"
 Cause: Bituach Leumi registration incomplete or not processed.
