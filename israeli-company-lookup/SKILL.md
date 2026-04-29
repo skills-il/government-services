@@ -29,7 +29,7 @@ Search the Israel Corporations Authority:
 |--------|-------------------|-------------|-------|
 | Liability | Limited to investment | Personal, unlimited | Limited |
 | Tax | Corporate rate ~23% | Personal brackets | Exempt (conditions) |
-| Registration | Rasham, ~2,600 NIS (verify at ica.justice.gov.il) | Tax Authority, free | Rasham HaAmutot |
+| Registration | Rasham, approximately 2,559 NIS online or 3,123 NIS paper (2026; verify at ica.justice.gov.il) | Tax Authority, free | Rasham HaAmutot |
 | Annual filing | Yes (financial statements) | Tax returns only | Yes (report to Rasham) |
 | Minimum directors | 1 | N/A | 2 board members |
 | Best for | Companies, startups | Freelancers, small biz | Non-profits, social |
@@ -38,7 +38,7 @@ Search the Israel Corporations Authority:
 1. Choose unique company name (check availability at Rasham)
 2. Draft Articles of Association (takanon)
 3. File incorporation documents at Rasham HaChevarot
-4. Pay registration fee (~2,600 NIS (verify at ica.justice.gov.il))
+4. Pay registration fee (approximately 2,559 NIS online or 3,123 NIS paper (2026; verify at ica.justice.gov.il))
 5. Receive Certificate of Incorporation (teuda le-hitaagdut)
 6. Register with Tax Authority for income tax and VAT
 7. Open business bank account with incorporation certificate
@@ -63,10 +63,10 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 ## Bundled Resources
 
 ### Scripts
-- `scripts/search_company.py` — Display Israeli business entity types (Chevra Baam, Osek Morsheh, Amuta, etc.) with side-by-side comparison of liability, tax rates, and registration requirements, plus step-by-step Chevra Baam incorporation instructions. Supports subcommands: `entity-types`, `compare`, `registration-steps`. Run: `python scripts/search_company.py --help`
+- `scripts/search_company.py` - Display Israeli business entity types (Chevra Baam, Osek Morsheh, Amuta, etc.) with side-by-side comparison of liability, tax rates, and registration requirements, plus step-by-step Chevra Baam incorporation instructions. Supports subcommands: `entity-types`, `compare`, `registration-steps`. Run: `python scripts/search_company.py --help`
 
 ### References
-- `references/entity-types.md` — Comprehensive table of all 8 Israeli business entity types with their registries, liability structures, tax rates, and company number format prefixes (51- for companies, 58- for non-profits, 55- for partnerships). Consult when advising users on entity type selection or interpreting company registration numbers.
+- `references/entity-types.md` - Comprehensive table of all 8 Israeli business entity types with their registries, liability structures, tax rates, and company number format prefixes (51- for companies, 58- for non-profits, 55- for partnerships). Consult when advising users on entity type selection or interpreting company registration numbers.
 
 ## Gotchas
 - Israeli company registration numbers (mispar chevra) are 9 digits, not the same as the tax ID (mispar osek). Agents may confuse these two identifiers or use one when the other is required.
@@ -80,8 +80,12 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 |--------|-----|---------------|
 | Companies Registrar (ICA) | https://ica.justice.gov.il | Company search, status, filings, ownership |
 | NPO (Amutot) Registrar | https://www.gov.il/he/departments/the_registrar_of_non_profits | Search amutot, status, annual filings |
-| data.gov.il – companies | https://data.gov.il/dataset?q=חברות | Open data dumps of the companies registrar |
+| data.gov.il - companies | https://data.gov.il/dataset?q=חברות | Open data dumps of the companies registrar |
 | Israel Tax Authority | https://www.gov.il/he/departments/israel_tax_authority | Verify business TIN (mispar osek) separately |
+| NBCTF sanctions designations | https://nbctf.mod.gov.il/en/Minister%20Sanctions/Designation/Pages/downloads.aspx | Counter-Terrorism Law 2016 designations of sanctioned individuals and entities. Critical for due-diligence on Israeli counterparties post-Iron-Swords. |
+| Apotropos Klali (Official Receiver) | https://www.gov.il/he/departments/the_official_receiver | Insolvency, bankruptcy (psikat regel), receivership (kintus nechasim) under Insolvency and Economic Rehabilitation Law 2018 |
+| Israel Securities Authority (ISA) licensed entities | https://www.isa.gov.il | Portfolio managers, investment advisors, marketers - public licensed list |
+| Capital Market Authority (CMA) registries | https://www.gov.il/he/departments/capital_markets_insurance_savings_authority | Licensed insurers, pension funds, kupot gemel, investment houses |
 
 ## Troubleshooting
 

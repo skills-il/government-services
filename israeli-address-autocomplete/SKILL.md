@@ -47,6 +47,22 @@ Provide address in:
 | Holon | holon | 6600 | 03 |
 | Bnei Brak | bnei brak | 6100 | 03 |
 
+## Granular Components Israeli forms typically expect
+
+Israeli address forms (Bit, Pelephone, Bituach Leumi, banks) often split a single address into separate fields beyond street + number + city:
+
+| Field | Hebrew | Example | When required |
+|-------|--------|---------|---------------|
+| Apartment number | מספר דירה | 5 | Multi-unit buildings, virtually always |
+| Floor | קומה | 3 | Common, especially Bituach Leumi and gov forms |
+| Entrance | כניסה | א | Tel Aviv / Bnei Brak / dense neighborhoods |
+| PO Box | ת.ד. | 1234 | Moshavim, government correspondence |
+| Block / parcel (gush/helka) | גוש / חלקה | 6213 / 250 | Tabu / land registry / mas shevach. Look up on `mapi.gov.il/Pages/LotAddressLocator.aspx` or GovMap |
+| Sub-parcel | תת-חלקה | 5 | Apartment-level land registry |
+| Settlement code (CBS) | קוד יישוב | 5000 (Tel Aviv) | Government forms requiring canonical settlement |
+
+Kibbutz / moshav addresses typically have no street name, just `משק [number], מושב X` or `קיבוץ X`. Form designers should handle this case explicitly.
+
 ## Examples
 
 ### Example 1: Format Address
@@ -69,10 +85,10 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 ## Bundled Resources
 
 ### Scripts
-- `scripts/lookup_address.py` — Look up CBS city codes, parse and format Israeli addresses into structured components, and list all known cities with their codes and area codes. Supports subcommands: `city`, `format`, `cities`. Run: `python scripts/lookup_address.py --help`
+- `scripts/lookup_address.py` - Look up CBS city codes, parse and format Israeli addresses into structured components, and list all known cities with their codes and area codes. Supports subcommands: `city`, `format`, `cities`. Run: `python scripts/lookup_address.py --help`
 
 ### References
-- `references/city-codes.md` — CBS settlement codes for the top 30 Israeli cities by population, including district, Hebrew transliteration, and telephone area codes. Also covers the 7-digit postal code (mikud) format and standard address structure. Consult when resolving city names to CBS codes or validating address components.
+- `references/city-codes.md` - CBS settlement codes for the top 30 Israeli cities by population, including district, Hebrew transliteration, and telephone area codes. Also covers the 7-digit postal code (mikud) format and standard address structure. Consult when resolving city names to CBS codes or validating address components.
 
 ## Gotchas
 - Israeli street names exist in both Hebrew and Arabic, with different official spellings. Agents may use only the Hebrew name, missing valid Arabic variants that appear on government documents.
@@ -84,9 +100,10 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | CBS settlements directory | https://www.cbs.gov.il | Official Israeli settlement and locality codes |
-| Israel Post | https://www.israelpost.co.il | Postal code (mikud) lookup for addresses |
-| GovMap (national map) | https://www.govmap.gov.il | Address search, parcel info, aerial imagery |
-| data.gov.il – addresses | https://data.gov.il/dataset | Street and locality datasets published as open data |
+| Israel Post mikud lookup | https://doar.israelpost.co.il/locatezip | Postal code (mikud) lookup web form (no documented public API; community lib `bennymeg/IsraelPostalServiceAPI`) |
+| GovMap (national map) | https://www.govmap.gov.il | Address search, gush/helka (block/parcel) info, aerial imagery |
+| Mapi.gov.il LotAddressLocator | https://www.mapi.gov.il/Pages/LotAddressLocator.aspx | Official block/parcel by address tool |
+| data.gov.il (open datasets) | https://data.gov.il/dataset | Street and locality datasets, daily-refreshed. Search "רחובות" for street data, "ישובים" for settlements |
 
 ## Troubleshooting
 

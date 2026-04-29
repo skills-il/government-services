@@ -154,13 +154,21 @@ Before buying a used car in Israel, verify these items:
 
 1. **New car exemption is 3 years, not 2.** Private passenger vehicles are exempt from the annual test for the first 3 years from initial registration. Rental and leased vehicles are exempt for only 2 years. Agents often confuse these.
 
-2. **Registration fees vary dramatically.** The annual license fee ranges from approximately 1,200 NIS to over 5,000 NIS depending on vehicle group. Do not state a fixed fee without knowing the vehicle's price group. Electric vehicle fees have increased significantly.
+2. **Registration fees vary dramatically.** The annual license fee ranges from approximately 1,200 NIS to over 5,000 NIS depending on vehicle group. Do not state a fixed fee without knowing the vehicle's price group. **EV purchase tax (mas knisa) rose to 48% from January 1, 2026** (compromise after the Treasury proposed 52%; was 45% prior). The EV tax-benefit ceiling dropped from approximately NIS 35,000 to approximately NIS 22,000. Verify current figures at gov.il.
 
 3. **Liens are the buyer's problem, not the seller's.** The Ministry of Transport system does NOT show all liens on a vehicle. Always direct used car buyers to check with the Registrar of Pledges (רשם המשכונות) at the Ministry of Justice before completing a purchase.
 
 4. **The 15-day transfer deadline is strict.** Ownership transfer must happen within 15 days of sale. After this, both buyer and seller may face administrative issues. The seller remains legally responsible for the vehicle until transfer is complete.
 
 5. **Cars 15+ years old have extra requirements.** Before the annual test, these vehicles must have their braking system checked at a licensed garage and present confirmation at the inspection station.
+
+6. **Light-electric-vehicle (kalanoit / e-scooter / e-bike) registration is mandatory since August 1, 2024.** E-bikes and e-scooters require registration with the Ministry of Transport plus a personal license plate (~70 NIS). The plate is tied to the rider, not the vehicle. Minimum age is 16. Helmets are mandatory. Riding an unregistered light-electric vehicle on public roads is now a finable offense.
+
+7. **Driver-license medical-exam threshold (Tofes 16) raised to age 75.** Since the April 2024 reform, private drivers must obtain a medical exam (אישור רפואי / טופס ירוק) starting at **age 75** (raised from age 70). After 75, license is valid up to age 80, then renewed every 2 years. Professional drivers (taxi, truck, bus) require a medical exam from age 60.
+
+8. **Taxi-app market 2026.** As of early 2026, Minister of Transport Regev approved Uber's re-entry to the Israeli market (Uber exited in 2023). Current incumbents: Gett and Yango. Confirm current ride-hailing options before recommending one.
+
+9. **Iron Swords reservist (miluim) protections** apply to vehicle license / test deadlines. A reservist serving 5+ consecutive days under Order 8 may receive automatic deferrals on test and registration deadlines without late fees. Direct users to check with the Ministry of Transport service line if they are mid-reserve duty when a deadline falls.
 
 ## Bundled Resources
 
