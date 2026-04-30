@@ -163,7 +163,7 @@ Asset test and employment test (under 55) apply.
 | Unemployment (dmei avtala) | 12 of last 18 months as employee |
 | Maternity full 15 weeks | 10 of last 14 OR 15 of last 22 months |
 | Maternity reduced 8 weeks | 6 of last 14 OR 10 of last 22 months |
-| Work injury (dmei pgi'a) | None — covered from day 1 of employment |
+| Work injury (dmei pgi'a) | None (covered from day 1 of employment) |
 | General disability | 12 months of NI residency |
 | Old-age pension | 60-144 months by age-at-immigration table |
 | Survivors | 12 of 18 OR 24 of 60 OR 60 total months |

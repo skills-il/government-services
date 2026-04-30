@@ -112,7 +112,7 @@ def calculate_unemployment(salary: float, age: int, months_employed: int,
 
     daily_wage = salary / 25  # working days per month
 
-    # Sliding scale by salary (simplified — real BTL uses bracketed tiers).
+    # Sliding scale by salary (simplified; real BTL uses bracketed tiers).
     # Average-wage anchor for benefit calcs:
     avg_wage = AVERAGE_WAGE_BENEFITS
 
@@ -141,7 +141,7 @@ def calculate_unemployment(salary: float, age: int, months_employed: int,
     print(f"Has dependents: {'Yes' if has_dependents else 'No'}")
     print(f"Months employed: {months_employed}")
     print()
-    print(f"Waiting period: {waiting_days} working days (terminations only — "
+    print(f"Waiting period: {waiting_days} working days (terminations only; "
           "resignation triggers 90-day disqualification unless justified cause)")
     print(f"Benefit duration: {duration_days} days")
     print(f"First period ({first_period_days} days): ~{first_rate:,.0f} NIS/day "

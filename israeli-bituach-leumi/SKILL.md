@@ -71,7 +71,7 @@ All amounts are **2026 official rates**. Rates update January 1 and July 1.
 - **Daily cap (2026):** 1,752.33 NIS/day. Calculation base: last 3 months ÷ 90 OR last 6 months ÷ 180, whichever is higher.
 - **Father / partner (gimlat horim le'av):** 1 week dedicated; the remaining weeks can be split between parents.
 - **Pregnancy preservation (shmirat herayon):** Separate benefit if a doctor certifies the work environment is hazardous. Form 330 + medical certificate 331.
-- **Claim forms:** Mother — **355** (תביעה לדמי לידה); father — **354** (תביעה לתשלום גמלת הורים לאב), **360** (partner-week split). Birth grant + maternity together — **356**.
+- **Claim forms:** Mother, **355** (תביעה לדמי לידה); father, **354** (תביעה לתשלום גמלת הורים לאב), **360** (partner-week split). Birth grant + maternity together, **356**.
 
 ### Child Allowance (Kitzbat Yeladim)
 - **Eligibility:** All Israeli residents with children under 18; usually automatic from hospital report.
