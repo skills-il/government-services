@@ -143,7 +143,7 @@ For live Knesset and parliamentary data, pair this skill with:
 
 | MCP Server | What it provides | Install |
 |------------|-----------------|---------|
-| **knesset** | MCP interface to the Israeli Knesset OData API: committee data, committee sessions, bills (private/government/committee), MK information, bill search, and current Knesset number. Includes prompt templates for analyzing legislation and voting records. | [Install knesset](https://agentskills.co.il/en/mcps/knesset) |
+| **knesset** | MCP interface to the Israeli Knesset OData API: committee data, committee sessions, bills (private/government/committee), MK information, bill search, and current Knesset number. Includes prompt templates for analyzing legislation and voting records. | [Install knesset](https://agentskills.co.il/en/mcp/knesset) |
 
 When the `knesset` MCP is available, use its tools for real-time legislative data instead of manually constructing OData queries. The MCP handles API pagination, filtering, and data formatting automatically.
 

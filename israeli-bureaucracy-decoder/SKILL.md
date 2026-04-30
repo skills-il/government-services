@@ -166,9 +166,9 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 
 | MCP | What It Adds |
 |-----|-------------|
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | Look up actual rights and entitlements referenced in government letters. When a document mentions a benefit, discount, or eligibility, Kolzchut provides the authoritative details. |
-| [Israel Law](https://agentskills.co.il/he/mcps/government-services/israel-law) | Query specific law sections cited in documents. When a letter references "Section 150 of the Income Tax Ordinance," this MCP can retrieve the actual text. |
-| [Knesset](https://agentskills.co.il/he/mcps/government-services/knesset) | Access legislative data for bills and committee information. Useful when documents reference pending legislation or regulatory changes. |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Look up actual rights and entitlements referenced in government letters. When a document mentions a benefit, discount, or eligibility, Kolzchut provides the authoritative details. |
+| [Israel Law](https://agentskills.co.il/he/mcp/israel-law) | Query specific law sections cited in documents. When a letter references "Section 150 of the Income Tax Ordinance," this MCP can retrieve the actual text. |
+| [Knesset](https://agentskills.co.il/he/mcp/knesset) | Access legislative data for bills and committee information. Useful when documents reference pending legislation or regulatory changes. |
 
 ## Gotchas
 - Israeli government form names change over time, and the same form may have different names in different offices. Agents may reference a form name that is no longer current.
