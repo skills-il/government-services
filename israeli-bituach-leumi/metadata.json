@@ -1,11 +1,11 @@
 {
   "author": "skills-il",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "category": "government-services",
   "tags": {
     "he": [
       "ביטוח-לאומי",
-      "ביטוח-לאומי",
+      "טפסים",
       "קצבאות",
       "פנסיה",
       "ישראל"
@@ -13,9 +13,9 @@
     "en": [
       "bituach-leumi",
       "national-insurance",
+      "forms",
       "benefits",
-      "pension",
-      "israel"
+      "pension"
     ]
   },
   "display_name": {
@@ -23,8 +23,8 @@
     "en": "Israeli Bituach Leumi"
   },
   "display_description": {
-    "he": "בדיקת זכאות, מעקב אחרי תביעות וחישוב קצבאות ביטוח לאומי",
-    "en": "Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, and contributions. Use when user asks about \"bituach leumi\", national insurance, retirement pension (kiztavat zikna), unemployment (dmei avtala), maternity leave (dmei leida), child allowance (kiztavat yeladim), disability benefits, work injury, reserve duty compensation, or NI contributions. Covers all 15+ Bituach Leumi programs. Do NOT use for private insurance or health fund (kupat cholim) questions."
+    "he": "ניווט בביטוח לאומי: זכאות לקצבאות (זיקנה, אבטלה, לידה, ילדים, נכות, מילואים, סיעוד), שיעורי דמי ביטוח, וטפסי תביעה (טופס 900, 355, 480, 1500, 211, 7801 ועוד) להגשה דיגיטלית באזור האישי. סכומים לפי הודעת ביטוח לאומי 2026.",
+    "en": "Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, contributions, and claim forms (טפסים). Use when user asks about bituach leumi, national insurance, retirement pension (kitzbat zikna), unemployment (dmei avtala), maternity leave (dmei leida), child allowance (kitzbat yeladim), disability (nechut), work injury, reserve duty (miluim), survivors pension, long-term care (siyud), income support (havtachat hachnasa), birth grant (ma'anak leida), savings-for-every-child, or NI contribution rates. Includes form numbers (Form 900, 355, 480, 1500, 211, 7801, etc.) for filing each claim. Do NOT use for private insurance or health fund (kupat cholim) questions."
   },
   "supported_agents": [
     "claude-code",
