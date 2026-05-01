@@ -1,0 +1,90 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "נווד-דיגיטלי",
+      "נוודות-דיגיטלית",
+      "ויזה-נווד",
+      "DTV-תאילנד",
+      "ספרד-DNV",
+      "פורטוגל-D8",
+      "ביטוח-לאומי",
+      "טופס-A1",
+      "אמנת-ביטחון-סוציאלי",
+      "טופס-1348",
+      "מבחן-תושבות",
+      "מע-מ-אפס",
+      "סעיף-30",
+      "W-8BEN",
+      "קופת-חולים-בחו-ל",
+      "דמי-ויתור",
+      "Wise",
+      "Payoneer",
+      "טופס-5329",
+      "FATCA",
+      "תושב-חוזר",
+      "מס-יציאה",
+      "סעיף-100א",
+      "ETIAS",
+      "ישראל"
+    ],
+    "en": [
+      "digital-nomad",
+      "nomad-visa",
+      "thailand-dtv",
+      "spain-dnv",
+      "portugal-d8",
+      "estonia-dnv",
+      "remote-work-abroad",
+      "bituach-leumi",
+      "form-a1",
+      "totalization",
+      "form-1348",
+      "tax-residency",
+      "vat-section-30",
+      "zero-rate-vat",
+      "w-8ben",
+      "kupat-cholim-abroad",
+      "dmei-vitoor",
+      "wise",
+      "payoneer",
+      "form-5329",
+      "fatca",
+      "toshav-chozer",
+      "exit-tax",
+      "section-100a",
+      "etias",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "נווט נווד דיגיטלי לישראלים",
+    "en": "Israeli Digital Nomad Navigator"
+  },
+  "display_description": {
+    "he": "מדריך מלא לישראלי שמתלבט אם להפוך לנווד דיגיטלי או שכבר חי כך בחו״ל, ורוצה לשמור על הצד הישראלי. מכסה בחירת ויזה לפי דרכון ישראלי (DTV תאילנד דרך השגרירות בתל אביב, DNV ספרד 200% מ-SMI, פורטוגל D8 €3,680, אסטוניה Type D, קרואטיה, צ׳כיה Zivno, מקסיקו, קוסטה ריקה, גאורגיה, איחוד האמירויות) עם דגל שאינדונזיה חוסמת ישראלים מ-2026; מבחן תושבות מס (טופס 1348, מבחן ימים, מרכז חיים); רצף קופת חולים ובחירת ביטוח שמכסה עבודה מרחוק; הסכם עבודה מחו״ל לשכיר על תלוש מול חשבונית 0% לפי סעיף 30 לעצמאי עם לקוחות זרים; טופס A1 אמנת ביטחון סוציאלי לפי 20 מדינות האמנה (ארה״ב לא ברשימה); סטאק בנקאי מולטי-מטבעי (Wise, Payoneer, חשבון מט״ח ישראלי); מחזור דיווח שנתי (טופס 1322/1325 עם הכנסה זרה, טופס 5329 גילוי נכסים, זיכוי מס זר) כולל ביטול פטור 10 השנים מ-1.1.2026 ומס יציאה לפי סעיף 100א; חזרה דרך חלון תושב חוזר 2026 או הפניה ל-israeli-relocation-abroad למעבר קבוע. השתמשו בו כשמשתמש שואל על נוודות דיגיטלית, ויזת נווד עם דרכון ישראלי, עבודה מחו״ל על תלוש או כעצמאי, חשבונית למע״מ אפס, רצף קופת חולים בחו״ל, או דיווח על הכנסות מחו״ל. לא מתאים להגירה קבועה ללא תוכנית חזרה (השתמשו ב-israeli-relocation-abroad), עלייה לישראל (השתמשו ב-israeli-aliyah-navigator), נוודים זרים שמגיעים לישראל, נוודות פנים-ישראלית, או ייעוץ מס מחייב.",
+    "en": "End-to-end guide for Israelis choosing or living the digital nomad lifestyle abroad while keeping a foothold in Israel. Picks the right destination visa for an Israeli passport (Thailand DTV via Tel Aviv embassy, Spain DNV at 200% SMI, Portugal D8 at €3,680, Estonia Type D, Croatia, Czech Zivno, Mexico Temporal, Costa Rica Rentista, Georgia, UAE) and flags the 2026 Indonesian ban on Israeli applicants for Bali visas. Walks the Israeli tax-residency tests (Form 1348, days test, center-of-life), kupat cholim continuity rules and which travel-vs-nomad insurance actually covers remote work, plus the employment-shape branch — Israeli-payroll employee with a working-from-abroad addendum + Form A1 totalization (only 20 partner countries; the US is NOT one) versus an osek murshe freelancer with foreign clients invoicing under VAT Section 30(a)(5) zero-rate plus W-8BEN with US clients. Covers the annual cycle (Form 1322/1325 with foreign income, Form 5329 foreign-asset disclosure for Wise/Revolut/Payoneer, foreign tax credit) plus the 1 January 2026 abolition of the 10-year reporting exemption, Section 100A exit tax for residency cuts, and the 2026 returnee tax window before the handoff to israeli-relocation-abroad. Use when user asks about digital-nomad visa for Israelis, working from abroad on tlush, foreign client invoicing under Section 30, kupat cholim while abroad, or foreign income reporting. Do NOT use for full permanent relocation (use israeli-relocation-abroad), aliyah to Israel (use israeli-aliyah-navigator), foreign nomads coming to Israel, domestic Israeli nomading, or binding tax/legal advice."
+  },
+  "supported_agents": [
+    "claude-code",
+    "claude-desktop",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    { "url": "https://www.btl.gov.il/English%20Homepage/Benefits/International%20Conventions%20on%20Social%20Security/Pages/Existingconventions.aspx", "type": "regulator", "language": "en" },
+    { "url": "https://www.gov.il/he/departments/israel_tax_authority", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/en/service/itc5329b", "type": "regulator", "language": "en" },
+    { "url": "https://dtv.in.th/country/israel", "type": "official-portal", "language": "en" },
+    { "url": "https://www.boi.org.il/en/", "type": "regulator", "language": "en" },
+    { "url": "https://www.gov.il/en/pages/apostille", "type": "regulator", "language": "en" }
+  ],
+  "domain_checklist_version": 1
+}
