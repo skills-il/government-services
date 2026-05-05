@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -27,7 +27,7 @@
     "en": "Israeli Education System"
   },
   "display_description": {
-    "he": "בגרויות, פסיכומטרי, קבלה לאוניברסיטאות ומידע על מוסדות לימוד",
+    "he": "ניווט במערכת החינוך הישראלית: בגרויות, מבחן פסיכומטרי, קבלה לאוניברסיטאות ונתוני בתי ספר ממשרד החינוך. השתמש כשהמשתמש שואל על בתי ספר בישראל, דרישות בגרות, מבחן פסיכומטרי, קבלה לאוניברסיטאות, חישוב סכם, רמות חינוך, מונחי חינוך בעברית, או נתוני בתי ספר ממשרד החינוך. מכסה גן עד יב, מבנה הבחינות וקבלה להשכלה גבוהה. אל תשתמש למערכות חינוך מחוץ לישראל או למחקר אקדמי אחרי תואר ראשון.",
     "en": "Navigate the Israeli education system including Bagrut (matriculation) exams, psychometric entrance test (PET), university admissions, and Ministry of Education school data. Use when user asks about Israeli schools, Bagrut requirements, psychometric exam, \"psichometri\", Israeli university admissions, sekhem calculation, Israeli education levels, Hebrew education terms, or school data from Ministry of Education. Covers K-12 system, exam structure, and higher education admissions. Do NOT use for non-Israeli education systems or post-graduate academic research."
   },
   "supported_agents": [

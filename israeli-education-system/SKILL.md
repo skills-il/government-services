@@ -225,3 +225,12 @@ For live school data lookups and education datasets from data.gov.il, pair this 
 
 - **data-gov-il** -- Query Israel's open data portal (data.gov.il) for school listings, enrollment statistics, and RAMA assessment data. Ideal for structured API queries when you need specific datasets by city, sector, or school type.
 - **datagov-israel** -- Alternative data.gov.il MCP with built-in data visualization support. Use when you need to present school data as charts or compare statistics across districts.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| NITE (psychometric exam) | https://www.nite.org.il/ | Current sitting fee, registration windows, exam languages, score interpretation |
+| Ministry of Education | https://edu.gov.il/ | Current Bagrut requirements, unit thresholds, school year calendar |
+| Council for Higher Education (CHE) | https://che.org.il/en/ | Authoritative list of recognized universities and accredited colleges |
+| data.gov.il | https://www.data.gov.il/ | Live school data, enrollment statistics, RAMA assessments |
