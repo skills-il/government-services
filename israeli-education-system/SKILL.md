@@ -99,20 +99,21 @@ Note: Bonus points vary by university. The values shown are approximate; always 
 | Below 480 | Below 20th | Consider mechina or retake |
 
 **Key facts:**
-- No limit on number of attempts (limit removed circa 2019)
+- No cap on retake attempts (NITE removed the prior 8-attempt limit years ago)
 - Available in Hebrew, Arabic, Russian, French, Spanish
-- Cost: ~500 NIS per sitting
-- Popular prep courses: Kidum, Yoel Geva, Atid, Psagot
+- Cost (2025/26): ~599 NIS standard registration, ~808 NIS late registration; verify on nite.org.il for the current cycle
+- Popular prep courses: Kidum, High-Q, Yoel Geva, Psagot
 
 ### Step 5: University Admissions
 
 **Sekhem (composite admission score) calculation:**
-Each university weights Bagrut and Psychometric differently:
+Each university (and each faculty within a university) weights Bagrut and Psychometric differently, and weights shift between admission cycles. The illustrative ranges below are starting points only — always verify on the program's official admissions calculator before quoting a number to a user:
 - Typical: 40% Bagrut + 60% Psychometric (varies by program)
-- Technion: 35% Bagrut + 65% Psychometric
-- Tel Aviv University: 45% Bagrut + 55% Psychometric
+- Technion: roughly 35% Bagrut + 65% Psychometric, with program-specific 5-unit-Math / 5-unit-English thresholds for CS and engineering
+- Tel Aviv University: roughly 45% Bagrut + 55% Psychometric, with Medicine using a higher psychometric weight plus an in-person evaluation (miyun)
+- Hebrew University, Ben-Gurion, Bar-Ilan, Haifa: each publishes its own per-faculty formula on its admissions site
 
-**Major universities:**
+**Major universities (10 CHE-recognized as of 2026):**
 | University | Hebrew | City | Strengths |
 |-----------|--------|------|-----------|
 | Hebrew University | ha-universita ha-ivrit | Jerusalem | Research, humanities, sciences |
@@ -123,6 +124,8 @@ Each university weights Bagrut and Psychometric differently:
 | Bar-Ilan University | universitat bar ilan | Ramat Gan | Law, social sciences |
 | Weizmann Institute | machon weizmann | Rehovot | Graduate science only |
 | Open University | ha-universita ha-ptuchah | Distance | Open admissions |
+| Reichman University | universitat raichman | Herzliya | Business, law, government (granted university status by CHE in 2021; formerly IDC) |
+| Ariel University | universitat ariel | Ariel | Engineering, sciences (granted university status in 2012) |
 
 **Approximate admission thresholds (sekhem):**
 | Program | Top Universities | Mid-tier |
