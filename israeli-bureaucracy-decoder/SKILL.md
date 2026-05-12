@@ -19,6 +19,17 @@ Ask the user to paste the full text of the government document, or provide a fil
 
 If the user provides a file path, read the file content. If it is a text file, read it directly. If the user describes the document rather than pasting it, ask clarifying questions to identify the sending body and document type.
 
+### Step 1.5: Check the user's personal area (ezor ishi / MyGov) first
+
+Before escalating to phone calls or office visits, ask the user whether they have already signed into the relevant personal area. Many "missing" letters are actually sitting in the user's digital inbox. The common personal-area accounts are:
+
+- Tax Authority: `misim.gov.il`
+- Bituach Leumi: `btl.gov.il` ("אזור אישי")
+- Population and Immigration Authority (PIBA): `piba.gov.il`
+- Unified gov.il sign-in: `gov.il/he/service/digital-identification`
+
+If a digital copy of the letter is available there, work from that copy. It is usually clearer, dated more reliably, and links to the underlying file. This is especially relevant if the paper letter is illegible, cut off, or arrived late.
+
 ### Step 2: Identify the sending body and document type
 
 Consult `references/government-bodies-guide.md` to identify which government body sent the document. Look for:
@@ -59,6 +70,8 @@ The script extracts: sender, document type, subject, required actions, deadlines
 
 ### Step 5: Present the decoded summary
 
+**Before you write the summary, check kol-zchut.** Before calling the office or quoting a benefit amount, look up the relevant entry on `kol-zchut.org.il` for the canonical Hebrew explanation of the right, benefit, deadline, or appeal venue mentioned in the letter. Kol-zchut is the most reliable plain-language source for current Israeli civic rights. Prefer its numbers and deadlines over older information when they conflict, and quote it when you cite a ceiling, rate, or window.
+
 Present the decoded document in this clear format:
 
 **Who sent this:** [Government body name in plain language]
@@ -94,6 +107,38 @@ After presenting the summary, offer to:
 3. Identify related forms that might need to be filed
 4. Explain what happens if the user takes no action
 5. Translate the summary into the other language (Hebrew to English or vice versa)
+
+## Decision Table: Sender + Key Term → Urgency, Window, Appeal Venue
+
+Use this as a fast lookup when classifying urgency and pointing the user to the right escalation channel. These are typical patterns, **always verify the specific deadline written on the letter itself and on the current kol-zchut entry**, since regulations and ceilings shift.
+
+| Sender | Key term in the letter | Urgency tier | Standard response window | Where to appeal / escalate |
+|--------|------------------------|--------------|---------------------------|----------------------------|
+| Tax Authority | שומה לפי מיטב השפיטה | URGENT | 30 days to file השגה (Form 150) | Internal השגה, then appeal to District Court (Tax Affairs) |
+| Tax Authority | החלטה בהשגה | URGENT | 30 days | District Court (Tax Affairs) |
+| Tax Authority | הודעת קנס | URGENT | 30 days to pay or appeal | Internal review, then court |
+| Bituach Leumi | דחיית תביעה | IMPORTANT | 12 months to appeal | Beit Din L'Avoda (Labor Court) |
+| Bituach Leumi | קביעת אחוזי נכות | IMPORTANT | 60 days to appeal | Medical Appeals Committee, then Beit Din L'Avoda |
+| Municipality | שינוי סיווג ארנונה | IMPORTANT | 90 days to file השגה | מנהל הארנונה, then Arnona Appeals Committee, then court |
+| Municipality | התראה לפני נקיטת הליכים | URGENT | Act immediately | Pay, arrange installments, or contest at Magistrate Court |
+| Planning Committee | סירוב היתר | IMPORTANT | 30-45 days per the letter | District Planning Committee, then administrative petition |
+| Planning Committee | צו הריסה | URGENT | Per the order | Magistrate Court (planning division), and counsel immediately |
+| Hotzaa LaPoal | אזהרה | URGENT | 20 days | התנגדות לביצוע at the Execution Office |
+| Hotzaa LaPoal | עיקול | URGENT | Immediate | Motion to release / arrangement |
+| Court | הזמנה לדין | URGENT | Per the summons | The court itself; consult a lawyer |
+| Court (Magistrate) | כתב תביעה | URGENT | 60 days to file כתב הגנה (תקנות סדר הדין האזרחי תשע"ט-2018) | The same court |
+| Court (Small Claims) | כתב תביעה | URGENT | 15 days to file כתב הגנה | The same court |
+| PIBA | החלטה בעניין מעמד | URGENT | Per the letter (often 21-45 days) | Internal appeal in PIBA, then Administrative Affairs Court |
+| Interior Ministry (Misrad HaPnim) | הודעה בעניין תעודת זהות | INFORMATIONAL or MEDIUM | Per the letter | Misrad HaPnim regional registration office |
+| Mevaker HaMedina | פנייה / החלטה | INFORMATIONAL | Per the letter | Cooperate; this is itself an escalation venue |
+
+### Escalation ladder when standard channels fail
+
+When the agency's internal objection / appeal has been used (or is plainly futile):
+
+1. **Freedom of Information request** (`gov.il/he/service/info_request_under_freedom_of_information_act`) if the letter cites information the user cannot otherwise access. Each public body has a designated information officer; statutory response window 30 days, extendable. Fees and exemptions apply per the 1998 law. TODO: verify URL and current fee schedule.
+2. **State Comptroller and Ombudsman** (`mevaker.gov.il`) for complaints about maladministration, delay, or abuse of authority by a public body. TODO: verify ombudsman intake URL.
+3. **Administrative petition** (עתירה מנהלית) to the District Court sitting as an Administrative Affairs Court, with strict time limits (typically 45 days from the decision). For nationwide-impact or constitutional issues, the High Court of Justice (בג"ץ). Always recommend consulting a lawyer first.
 
 ## Examples
 
@@ -175,6 +220,9 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 - Hebrew bureaucratic language (lashon misradit) uses formal/archaic terms that differ from everyday Hebrew. Agents may generate translations using everyday Hebrew that do not match the official terminology on forms.
 - Many Israeli government processes require in-person visits (biu'ach ishi) and cannot be completed entirely online. Agents may suggest completing a process online when a physical visit is required.
 - Government office hours in Israel vary: some close at 12:30 PM on certain days, and most are closed on Fridays. Agents may suggest visiting offices during hours when they are closed.
+- `gov.il` URLs are frequently restructured and individual department slugs redirect or 404. Treat direct deep links as best-effort, not authoritative. If a slug does not resolve, send the user to the `gov.il` homepage and have them search by the service name (the search bar is more stable than department paths).
+- In-person visits almost always require a pre-booked appointment now. The unified gov.il booking portal is `govisit.gov.il` (users may know it by the `myVisit` mobile-app brand from the same vendor). Agency-specific portals: PIBA (`piba.gov.il`), Bituach Leumi (`btl.gov.il`).
+- Many digital forms now require a personal **digital signature** certificate (comsign / PersonalID). Suggesting "just sign it digitally" without checking is wrong if the user does not have a certificate set up; see `gov.il/he/departments/policies/digital_signature` (TODO: verify URL).
 
 ## Reference Links
 

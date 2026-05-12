@@ -104,30 +104,61 @@ A comprehensive reference for identifying government bodies by their letterhead,
 
 ## Interior Ministry (משרד הפנים)
 
-**Also known as:** Misrad HaPnim, Population and Immigration Authority (רשות האוכלוסין וההגירה)
+**Also known as:** Misrad HaPnim
+
+> The Interior Ministry and the Population and Immigration Authority (PIBA / רשות האוכלוסין וההגירה) are **distinct units**. Misrad HaPnim handles local government oversight, ID cards / passports for Israeli citizens, and civil-status registration. PIBA is a separate unit (administratively under Misrad HaPnim but operationally independent) that handles immigration, citizenship, residency status, visas, and work permits. If the letterhead says "רשות האוכלוסין וההגירה" see the PIBA section below.
 
 **Letterhead identifiers:**
-- "משרד הפנים" or "רשות האוכלוסין וההגירה"
-- May show specific bureau: "לשכת רישום" (registration office)
+- "משרד הפנים" with the ministry emblem
+- May show specific bureau: "לשכת רישום" (registration office), local government oversight unit, "מינהל אוכלוסין" for citizen identity functions
 
 **Reference number patterns:**
 - Application number ("בקשה מס'")
-- Visa/permit number
 - ID number (teudat zehut)
 
 **Common document types:**
 
 | Document | Hebrew Name | What It Means | Urgency |
 |----------|-------------|---------------|---------|
-| Status decision | החלטה בעניין מעמד | Decision on residency/citizenship status | HIGH - appeal windows apply |
-| Visa extension | הארכת אשרה | Visa extension approval or denial | HIGH - affects legal stay |
-| ID card notice | הודעה בעניין תעודת זהות | ID card related (renewal, pickup) | MEDIUM |
-| Passport notice | הודעה בעניין דרכון | Passport related | MEDIUM |
+| ID card notice | הודעה בעניין תעודת זהות | ID card related (renewal, pickup, biometric update) for Israeli citizens | MEDIUM |
+| Passport notice | הודעה בעניין דרכון | Israeli passport related | MEDIUM |
 | Name change confirmation | אישור שינוי שם | Legal name change processed | LOW |
 | Birth registration | רישום לידה | Birth registered | LOW |
 | Marriage registration | רישום נישואין | Marriage registered | LOW |
+| Local-government notice | הודעת אגף השלטון המקומי | Ministry oversight of municipal matters | MEDIUM |
 
-**What they usually want:** Additional documents to process your application, notification of a decision, or for you to pick something up from their office.
+**What they usually want:** Additional civil-status documents, notification of a decision, or for you to pick something up from the registration office.
+
+**Online:** `gov.il/he/departments/ministry_of_interior`. Personal area at `gov.il` after sign-in.
+
+---
+
+## Population and Immigration Authority (רשות האוכלוסין וההגירה / PIBA)
+
+**Also known as:** Rashut Ha'ochlosin VeHahagira, PIBA
+
+**Letterhead identifiers:**
+- "רשות האוכלוסין וההגירה"
+- Specific bureau or regional office name (Jerusalem, Tel Aviv, Beer Sheva, etc.)
+
+**Reference number patterns:**
+- Application number ("בקשה מס'")
+- Visa / permit number
+- For visa holders: passport-linked file number rather than teudat zehut
+
+**Common document types:**
+
+| Document | Hebrew Name | What It Means | Urgency |
+|----------|-------------|---------------|---------|
+| Status decision | החלטה בעניין מעמד | Decision on residency/citizenship status | HIGH - appeal windows apply |
+| Visa extension | הארכת אשרה | Visa extension approval or denial (B/1 work, B/2 tourist, A/5 temp resident, etc.) | HIGH - affects legal stay |
+| Family reunification decision | החלטה בעניין איחוד משפחות | Decision on a spouse/family residency application | HIGH - appeal windows apply |
+| Biometric appointment | זימון לטביעות אצבע | Appointment for biometrics | MEDIUM - must attend on date |
+| Work-permit notice | אישור / סירוב היתר עבודה | Decision on a work permit for a foreign worker | HIGH |
+
+**What they usually want:** Additional documents to process your application, notification of a decision, or for you to attend a biometric / interview appointment.
+
+**Online:** `piba.gov.il`. Personal area for permit holders + appointment booking at the same domain.
 
 ---
 
@@ -254,6 +285,47 @@ A comprehensive reference for identifying government bodies by their letterhead,
 **Letterhead identifiers:** IDF emblem, "צבא הגנה לישראל", specific unit or base name
 
 **Common documents:** Reserve duty orders ("צו 8"), military records requests, benefits notices. Reserve duty orders are legally binding and have specific reporting dates.
+
+---
+
+## State Comptroller and Ombudsman (מבקר המדינה ונציב תלונות הציבור)
+
+**Also known as:** Mevaker HaMedina, Netziv Tlunot HaTzibur
+
+**Role:** Independent constitutional body that audits public bodies and handles complaints from the public against government offices, municipalities, and state-owned entities. Generally the **next escalation step after standard objection / appeal channels with the agency itself have failed** (or are clearly futile) and before considering an administrative petition to the courts.
+
+**Letterhead identifiers:**
+- "משרד מבקר המדינה ונציב תלונות הציבור"
+
+**When to direct a user here:**
+- Standard objection (השגה) was rejected and internal appeal exhausted
+- The user believes the agency acted improperly, not just incorrectly
+- The complaint is about service quality, delay, abuse of authority, or maladministration
+
+**Online:** `mevaker.gov.il`. TODO: verify the exact ombudsman intake URL and current SLA for response.
+
+---
+
+## Freedom of Information Requests (חוק חופש המידע, התשנ"ח-1998)
+
+When a government letter cites information (a report, a calculation, an internal memo) that the user cannot otherwise access, the user has a statutory right to request it under the **Freedom of Information Law, 5758-1998** (חוק חופש המידע).
+
+- Each public body has a designated "Information Officer" (ממונה על חוק חופש המידע)
+- Standard fees apply (a base filing fee plus per-page handling), with exemptions for certain categories
+- The body must respond within a statutory window (default 30 days, extendable)
+- Refusal can be appealed administratively and then to court
+
+**Service page:** `gov.il/he/service/info_request_under_freedom_of_information_act`. TODO: verify exact URL and current fee schedule before quoting numbers to a user.
+
+---
+
+## Administrative Petition / Bagatz (עתירה מנהלית / בג"ץ)
+
+**Last-resort judicial review** of decisions by a minister, ministry, or other state authority:
+- **Administrative petition** (עתירה מנהלית) is filed at the District Court sitting as an Administrative Affairs Court (בית משפט לעניינים מנהליים) for most ministry decisions. Strict time limits apply (typically 45 days from the decision, sometimes shorter).
+- **Bagatz** (the High Court of Justice / בית המשפט הגבוה לצדק, a hat of the Supreme Court) hears petitions that fall outside the administrative-courts jurisdiction or that raise constitutional / nationwide-impact issues.
+
+This is a step for situations where every administrative remedy inside the agency and its parent ministry has been exhausted (or is plainly futile) and the user is willing to incur legal-representation cost. Always recommend consulting a lawyer before drafting such a petition. TODO: verify current jurisdictional thresholds between Administrative Affairs Court and Bagatz before advising a specific venue.
 
 ---
 

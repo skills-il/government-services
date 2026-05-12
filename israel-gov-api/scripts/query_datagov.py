@@ -30,7 +30,7 @@ def api_get(endpoint: str, params: dict = None) -> dict:
         url += "?" + urllib.parse.urlencode(params)
 
     req = urllib.request.Request(url)
-    req.add_header("User-Agent", "israel-gov-api-skill/1.0")
+    req.add_header("User-Agent", "israel-gov-api-skill/1.3.0")
 
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:

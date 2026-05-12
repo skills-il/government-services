@@ -5,8 +5,8 @@ description: >-
   (CKAN API). Use when user asks about Israeli government data, "data.gov.il",
   government datasets, CBS statistics, or needs data about Israeli
   transportation, education, health, geography, economy, or environment.
-  Supports dataset search, tabular data queries, and analysis guidance. Enhances
-  existing datagov-mcp and data-gov-il-mcp servers with workflow best practices.
+  Supports dataset search, tabular data queries, and analysis guidance. Pair
+  with the MCP servers listed below for direct tool access from your agent.
   Do NOT use for classified government data or data requiring security
   clearance.
 license: MIT
@@ -16,7 +16,7 @@ compatibility: >-
   data-gov-il-mcp servers.
 metadata:
   author: skills-il
-  version: 1.2.0
+  version: 1.3.0
   category: government-services
   tags:
     he:
@@ -38,15 +38,26 @@ metadata:
     he: ממשקי API ממשלתיים
     en: Israel Gov Api
   display_description:
-    he: גישה למידע ממשלתי פתוח מתוך data.gov.il
+    he: >-
+      Wrapper על CKAN API של data.gov.il לגילוי, חיפוש ושאילתות על datasets
+      ממשלתיים ישראליים פתוחים (תחבורה, חינוך, בריאות, סטטיסטיקה, נדל"ן,
+      רכבים, עמותות ועוד). השתמשו כשמשתמש מבקש מידע פתוח מ-data.gov.il או
+      שואל על datasets ממשלתיים, נתוני למ"ס, מרשם רכב, רשימת מוסדות חינוך
+      או נתוני בריאות. הסקיל מסביר את שרשרת הקריאות הנכונה (package_search
+      ואז package_show ואז datastore_search), מטפל בקידוד עברי ב-URL (חובה
+      percent-encoding), בעקיפת ה-WAF ("Security Violation" כשמקבלים 403),
+      ודפדוף מעבר לתקרת ה-32K רשומות של offset paging דרך cursor על _id.
+      התאימו ל-MCP servers המתועדים למטה לגישה ישירה ככלים. אל תשתמשו
+      ב-data.gov.il עבור APIs ממשלתיים סגורים או דורשי הזדהות, לאלה יש
+      סקילים נפרדים.
     en: >-
       Discover, query, and analyze Israeli government open data from data.gov.il
       (CKAN API). Use when user asks about Israeli government data,
       "data.gov.il", government datasets, CBS statistics, or needs data about
       Israeli transportation, education, health, geography, economy, or
       environment. Supports dataset search, tabular data queries, and analysis
-      guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with
-      workflow best practices. Do NOT use for classified government data or data
+      guidance. Pair with the MCP servers listed below for direct tool access
+      from your agent. Do NOT use for classified government data or data
       requiring security clearance.
   supported_agents:
     - claude-code
@@ -130,6 +141,12 @@ GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=
 - ל-datasets גדולים, תשתמשו ב-`limit` ו-`offset` לדפדוף
 - שדות תאריך מגיעים בפורמטים שונים, תבדקו את תיעוד ה-dataset
 
+**דפדוף (pagination):**
+- דפדוף ב-offset נחסם בערך סביב 32,000 רשומות. מעבר לזה, בקשות עם offset גבוה יחזירו שגיאות או דפים ריקים.
+- ל-datasets מעל ~32k שורות, עברו לדפדוף עם cursor על השדה `_id`: מיון לפי `_id` עולה ושמירה של `filters={"_id":">LAST_ID"}` בין הקריאות. CKAN חושף `_id` שלם על כל רשומה.
+- השדה `total` בתגובה הוא ספירה של כל הרשומות במשאב (לא רק בדף), השתמשו בו לתכנון מספר הדפים.
+- הפרמטר `records_format` מקבל את הערכים `objects` (ברירת מחדל), `lists` (מערכים לפי מיקום), `csv` ו-`tsv`. `lists` ו-`csv` מהירים וזולים בהרבה לשליפות גדולות, כדאי בסטרימינג או חילוץ בכמויות.
+
 ### שלב 4: ניתוח והצגה
 אחרי שיש לכם את הנתונים:
 1. תסכמו את הממצאים העיקריים בשפה פשוטה
@@ -147,48 +164,96 @@ GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=
 
 ## datasets נפוצים
 
-| dataset | מזהה משאב | תדירות עדכון | תיאור |
-|-------------|-----------|--------------|-------|
-| נתוני תחבורה ציבורית GTFS | שונים | יומי | לוחות זמנים ומסלולי אוטובוסים ורכבות |
-| רשימת בתי ספר | שונים | שנתי | כל בתי הספר עם פרטים מלאים |
-| איכות בתי חולים | שונים | רבעוני | מדדי איכות של משרד הבריאות |
-| מחירי נדל"ן | שונים | חודשי | מחירי עסקאות מרשות המסים |
-| מרשם עסקים | שונים | יומי | עסקים פעילים |
-| איכות אוויר | שונים | שעתי | תחנות ניטור סביבתי |
+מזהי המשאבים שלמטה אומתו ב-13/5/2026 מול ה-API החי דרך `datastore_search?resource_id=<id>&limit=1`. מזהי משאבים ב-data.gov.il כן משתנים בלי התראה, תאמתו אותם מחדש לפני שאתם מצטטים למשתמש.
+
+| dataset | מזהה משאב | תיאור |
+|---------|-----------|-------|
+| כלי רכב פרטיים ומסחריים (רישוי) | `053cea08-09bc-40ec-8f7a-156f0677aff3` | מרשם מלא של לוחיות רישוי של כלי רכב פרטיים ומסחריים, כולל יצרן, דגם ושנה. כ-4.1 מיליון שורות. |
+| כלי רכב ציבוריים | `cf29862d-ca25-4691-84f6-1be60dcb4a1e` | לוחיות רישוי של כלי רכב בתחבורה ציבורית פעילים (אוטובוסים, מוניות). כ-65 אלף שורות. |
+| מוסדות חינוך (`mosdot`) | `5548fd63-5868-4053-ad81-98caddc5e232` | מאפייני מוסדות חינוך בפיקוח משרד החינוך. כ-120 אלף שורות. |
+| עמותות רשומות | `be5b7935-3922-45d4-9638-08871b17ec95` | מרשם משרד המשפטים של עמותות וחברות לתועלת הציבור. כ-75 אלף שורות. |
+
+לתחומים אחרים (GTFS תחבורה ציבורית, עסקאות נדל"ן, מדדי איכות בתי חולים, איכות אוויר), השתמשו ב-`package_search` כדי לגלות את ה-dataset הנוכחי, ואז ב-`package_show` כדי לקבל את `resources[].id` הפעיל. המזהים האלה מתחלפים כשה-dataset מתעדכן משנה לשנה.
 
 ## דוגמאות
 
-### דוגמה 1: חיפוש נתוני בתי ספר
+### דוגמה 1: חיפוש נתוני בתי ספר (workflow מלא עם שרשור קריאות)
 המשתמש אומר: "אני צריך נתונים על בתי ספר בתל אביב"
-פעולות:
-1. חיפוש: `package_search?q=schools+tel+aviv`
-2. איתור dataset חינוך וקבלת מזהה המשאב
-3. שאילתה: סינון לפי קוד יישוב של תל אביב (5000)
-4. הצגה: מספר בתי ספר, סוגים, גדלים
-תוצאה: נתוני בתי ספר מובנים עבור תל אביב
+
+פעולות (אל תדלגו על שלבי האיתור, מזהי משאבים מתחלפים):
+
+1. חיפוש datasets רלוונטיים:
+   ```
+   curl -s "https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5"
+   ```
+2. בדיקת ה-dataset שנבחר ושליפת `resources[].id` הפעיל:
+   ```
+   curl -s "https://data.gov.il/api/3/action/package_show?id=mosdot" \
+     | python3 -c "import sys,json; r=json.load(sys.stdin)['result']['resources']; [print(x['id'], x['format'], x.get('name','')) for x in r]"
+   ```
+3. הצצה לשמות שדות עם `limit=1`:
+   ```
+   curl -s "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1"
+   ```
+4. סינון לפי קוד יישוב של תל אביב (5000) אחרי שזיהיתם את שם השדה העברי הנכון (לרוב `סמל_ישוב`). ערכים בעברית חייבים להיות מקודדים ב-percent-encoding:
+   ```
+   curl -s "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&filters=%7B%22%D7%A1%D7%9E%D7%9C_%D7%99%D7%A9%D7%95%D7%91%22%3A%225000%22%7D&limit=100"
+   ```
+
+תוצאה: רשימת בתי ספר מובנית עבור תל אביב (מספר, סוגים, גדלים).
 
 ### דוגמה 2: ניתוח מחירי דיור
 המשתמש אומר: "הראה לי מגמות מחירי דיור בחיפה"
+
 פעולות:
-1. איתור dataset עסקאות נדל"ן של רשות המסים
-2. סינון לפי קוד יישוב חיפה, 12 חודשים אחרונים
-3. חישוב מחיר חציוני למטר רבוע לפי חודש
-4. הצגת מגמה עם אחוזי שינוי
-תוצאה: מגמת מחירים חודשית לחיפה עם ניתוח
+1. `package_search?q=nadlan` או `q=%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA` כדי לאתר את ה-dataset של עסקאות נדל"ן ברשות המסים.
+2. `package_show?id=<slug>` ושליפת מזהה המשאב של השנה העדכנית מתוך `resources[]`.
+3. `datastore_search` עם סינון לקוד יישוב חיפה, מסודר לפי תאריך עסקה יורד.
+4. קיבוץ לפי חודש, חישוב מחיר חציוני למטר רבוע, חישוב אחוז שינוי חודש מול חודש קודם.
+
+תוצאה: מגמת מחירים חודשית לחיפה עם ניתוח.
+
+### דוגמה 3: השוואת נתונים מוניציפליים
+המשתמש אומר: "תשווי לי הוצאות חינוך בין ערים בישראל"
+
+פעולות:
+1. `package_search?q=%D7%AA%D7%A7%D7%A6%D7%99%D7%91%20%D7%97%D7%99%D7%A0%D7%95%D7%9A` (תקציב + חינוך בעברית, מקודד).
+2. בחירת dataset של תקציבים מוניציפליים, `package_show` כדי לקבל את מזהה המשאב הפעיל.
+3. `datastore_search` עם סינון לשורות בקטגוריית חינוך; דפדוף עם cursor על `_id` אם המשאב חוצה את 32k השורות.
+4. נרמול לנפש בעזרת נתוני אוכלוסיה של `lamas` (למ"ס).
+
+תוצאה: השוואה מדורגת של הוצאות חינוך לתלמיד בין רשויות מקומיות גדולות, כולל מקור הנתונים והשנה.
 
 ## משאבים מצורפים
 
 ### סקריפטים
-- `scripts/query_datagov.py` — חיפוש datasets, בדיקת משאבים והרצת שאילתות datastore ישירות מול ה-API של data.gov.il (CKAN) משורת הפקודה. תומך בפקודות משנה: `search`, `dataset`, `query`, `orgs`. להרצה: `python scripts/query_datagov.py --help`
+- `scripts/query_datagov.py` -- חיפוש datasets, בדיקת משאבים והרצת שאילתות datastore ישירות מול ה-API של data.gov.il (CKAN) משורת הפקודה. תומך בפקודות משנה: `search`, `dataset`, `query`, `orgs`. להרצה: `python scripts/query_datagov.py --help`
 
 ### חומרי עזר
-- `references/ckan-api-reference.md` — קטלוג מלא של endpoints ל-API של data.gov.il (CKAN) כולל פרמטרי חיפוש, תחביר שאילתות datastore ומזהי ארגונים נפוצים. תסתכלו עליו כשאתם בונים קריאות API או מנסים לדבג תחביר של שאילתה.
+- `references/ckan-api-reference.md` -- קטלוג מלא של endpoints ל-API של data.gov.il (CKAN) כולל פרמטרי חיפוש, תחביר שאילתות datastore ומזהי ארגונים נפוצים. תסתכלו עליו כשאתם בונים קריאות API או מנסים לדבג תחביר של שאילתה.
+
+## MCP servers מומלצים
+
+תצמידו את הסקיל ל-MCP server כדי שהסוכן יוכל לקרוא ל-data.gov.il (או ל-dataset נגזר) ישירות ככלים, בלי לבנות קריאות HTTP ידנית.
+
+| MCP | קישור | מה מקבלים |
+|-----|-------|-----------|
+| `datagov-israel` | https://agentskills.co.il/he/mcps/government-services/datagov-israel | גישה ישירה ככלי MCP ל-CKAN API של data.gov.il (search, package_show, datastore_search). |
+| `data-gov-il` | https://agentskills.co.il/he/mcps/government-services/data-gov-il | MCP חלופי שעוטף את אותו CKAN API של data.gov.il. |
+| `israel-vehicles` | https://agentskills.co.il/he/mcps/government-services/israel-vehicles | MCP ממוקד ל-dataset של רישוי כלי רכב (חיפוש לפי לוחית, יצרן, דגם, שנה). |
+| `israel-amutot` | https://agentskills.co.il/he/mcps/government-services/israel-amutot | MCP ממוקד למרשם העמותות של משרד המשפטים. |
+| `israel-elections` | https://agentskills.co.il/he/mcps/government-services/israel-elections | MCP ממוקד לנתוני תוצאות הבחירות בישראל. |
+
+כשהסקיל מנחה את המשתמש דרך שאילתה, תעדיפו את ה-MCP הייעודי אם הוא מותקן; אחרת ליפלו ל-CKAN API הגולמי.
 
 ## מלכודות נפוצות
-- ממשקי API ממשלתיים (data.gov.il) משנים תדיר כתובות URL ומבני endpoints בלי התראה. סוכנים לפעמים מקודדים endpoints שעבדו בחודש שעבר אבל עכשיו מחזירים 404.
+- ממשקי API ממשלתיים (data.gov.il) משנים תדיר כתובות URL ומבני endpoints בלי התראה. סוכנים לפעמים מקודדים endpoints שעבדו בחודש שעבר אבל עכשיו מחזירים 404. תאמתו מזהי משאבים מחדש עם `package_show` לפני שאתם מצטטים אותם.
 - ה-API של data.gov.il מחזיר נתונים עם כותרות עמודות בעברית כברירת מחדל. סוכנים עלולים להיכשל בפענוח תגובות עם שמות לא-ASCII ב-JSON או CSV.
+- ערכי סינון ופרמטרי `q` בעברית חייבים להיות מקודדים ב-UTF-8 percent-encoding. עברית גולמית ב-URL שוברת כמה לקוחות HTTP (חלק מהגרסאות של `curl`, גרסאות ישנות של `requests`, חלק מה-proxies). דוגמה: חיפוש "רכב" כ-`q=%D7%A8%D7%9B%D7%91`; סינון "חיפה" כ-`filters=%7B%22city%22%3A%22%D7%97%D7%99%D7%A4%D7%94%22%7D`.
 - הגבלת הקצב ב-APIs ממשלתיים מחמירה ולא מתועדת. סוכנים ששולחים בקשות רצופות מהר ייחסמו. תוסיפו השהיות בין קריאות.
+- תשובה 403 עם גוף `Security Violation` היא ה-WAF של data.gov.il שמסיים את ה-session, זה שונה מ-403 של הרשאה. שחזור: backoff אקספוננציאלי (10ש', 30ש', 60ש'), זריקת cookies של session ושליחה מחדש עם `User-Agent` חדש. אל תנסו שוב בלולאה צמודה, ה-WAF יאריך את החסימה.
 - הרבה datasets ממשלתיים שומרים תאריכים בפורמט DD/MM/YYYY (הפורמט הישראלי), לא ISO 8601. סוכנים עלולים לפענח "01/02/2026" כ-1 בפברואר במקום 2 בינואר.
+- דפדוף ב-offset נחסם בערך סביב 32,000 רשומות. לשליפות גדולות יותר, השתמשו בדפדוף cursor על `_id` (מיון `_id` עולה, סינון `_id` גדול מהאחרון שראיתם).
 
 ## קישורי עזר
 

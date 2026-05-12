@@ -13,6 +13,7 @@ Usage:
     python fill_form.py validate-tz 123456782
     python fill_form.py validate-phone 0521234567
     python fill_form.py validate-address --city "תל אביב" --street "רוטשילד" --number 1 --mikud 6688101
+    python fill_form.py validate-iban IL620108000000099999999
     python fill_form.py form-fields --form tofes-101
 """
 
@@ -28,6 +29,14 @@ def validate_teudat_zehut(id_number: str) -> dict:
 
     if len(id_str) != 9 or not id_str.isdigit():
         return {"valid": False, "error": "Must be 9 digits", "input": id_number}
+
+    # Reject placeholder/test ID: 000000000 passes Luhn but is not a real ID
+    if id_str == "000000000":
+        return {
+            "valid": False,
+            "error": "Placeholder ID (all zeros) is not a real Teudat Zehut",
+            "input": id_number,
+        }
 
     total = 0
     for i, digit in enumerate(id_str):
@@ -120,6 +129,52 @@ def validate_israeli_address(city: str, street: str, number: str, mikud: str = "
     }
 
 
+def validate_israeli_iban(iban: str) -> dict:
+    """Validate Israeli IBAN.
+
+    Israeli IBAN format: IL + 2 check digits + 3 bank + 3 branch + 13 account = 23 chars total.
+    Used in Bituach Leumi grant claims, tax refund requests, salary forms.
+    """
+    cleaned = re.sub(r"\s+", "", iban.strip()).upper()
+
+    if len(cleaned) != 23:
+        return {
+            "valid": False,
+            "error": f"Israeli IBAN must be 23 characters, got {len(cleaned)}",
+            "input": iban,
+        }
+
+    if not cleaned.startswith("IL"):
+        return {"valid": False, "error": "Israeli IBAN must start with 'IL'", "input": iban}
+
+    if not cleaned[2:].isdigit():
+        return {
+            "valid": False,
+            "error": "Characters after 'IL' must all be digits",
+            "input": iban,
+        }
+
+    # ISO 13616 mod-97 check: move 4 leading chars to end, replace letters with digits
+    rearranged = cleaned[4:] + cleaned[:4]
+    numeric = ""
+    for ch in rearranged:
+        if ch.isalpha():
+            numeric += str(ord(ch) - ord("A") + 10)
+        else:
+            numeric += ch
+    is_valid = int(numeric) % 97 == 1
+
+    return {
+        "valid": is_valid,
+        "formatted": cleaned,
+        "bank": cleaned[4:7],
+        "branch": cleaned[7:10],
+        "account": cleaned[10:],
+        "input": iban,
+        "error": None if is_valid else "IBAN mod-97 check failed",
+    }
+
+
 # Common government form field mappings
 FORM_FIELDS = {
     "tofes-101": {
@@ -204,6 +259,10 @@ def main():
     addr_parser.add_argument("--mikud", default="", help="Postal code (7 digits)")
     addr_parser.add_argument("--apartment", default="", help="Apartment number")
 
+    # validate-iban
+    iban_parser = subparsers.add_parser("validate-iban", help="Validate Israeli IBAN")
+    iban_parser.add_argument("iban", help="Israeli IBAN (23 chars, starts with IL)")
+
     # form-fields
     form_parser = subparsers.add_parser("form-fields", help="Get form field definitions")
     form_parser.add_argument("--form", required=True, help="Form name (e.g., tofes-101)")
@@ -221,6 +280,8 @@ def main():
         result = validate_israeli_phone(args.phone)
     elif args.command == "validate-address":
         result = validate_israeli_address(args.city, args.street, args.number, args.mikud, args.apartment)
+    elif args.command == "validate-iban":
+        result = validate_israeli_iban(args.iban)
     elif args.command == "form-fields":
         if args.list:
             result = {"available_forms": list(FORM_FIELDS.keys())}

@@ -22,7 +22,7 @@ import sys
 
 # 2026 macroeconomic anchors (verify at btl.gov.il before relying on outputs).
 AVERAGE_WAGE_BENEFITS = 13769  # section-2 average wage, NIS/month
-DAILY_AVG_WAGE = AVERAGE_WAGE_BENEFITS * 12 / 365  # ~ 1,101.50 NIS/day
+DAILY_AVG_WAGE = AVERAGE_WAGE_BENEFITS / 25  # 550.76 NIS/day (working-days basis for unemployment cap)
 MAX_INSURABLE = 51910  # NIS/month
 
 
@@ -107,7 +107,7 @@ def calculate_unemployment(salary: float, age: int, months_employed: int,
         duration_days = 138 if not has_dependents else 175
 
     # 2026 caps
-    cap_first_period = 1101.50  # full daily avg wage
+    cap_first_period = 550.76  # average wage 13,769 ÷ 25 working days
     cap_second_period = 367.17  # 2/3 daily avg wage
 
     daily_wage = salary / 25  # working days per month
@@ -241,8 +241,8 @@ def calculate_miluim(salary: float, days: int, is_self_employed: bool = False) -
     """Estimate reserve-duty compensation (tashlumei miluim)."""
     print("=== Reserve Duty (Miluim) Compensation Estimate, 2026 rates ===\n")
 
-    # 2026 caps and floors
-    daily_cap = 1752.33
+    # 2026 caps and floors (miluim cap = max insurable 51,910 ÷ 30)
+    daily_cap = 1730.33
     daily_min = 328.76
 
     # Daily wage = last 3 months gross / 90 (or for self-employed, prior-year /90)

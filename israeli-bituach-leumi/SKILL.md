@@ -56,7 +56,7 @@ All amounts are **2026 official rates**. Rates update January 1 and July 1.
 - **Resignation penalty:** 90-day disqualification for voluntary resignation, unless quitting for justified cause (הרעת תנאים, relocation following spouse, family-care). The standard "5-day waiting period" only applies to terminations.
 - **Duration:** 50 to 175 days, depending on age and dependents.
 - **Amount:** Sliding scale tied to the average wage, capped at:
-  - Days 1 to 125: full daily average wage = ~1,101.50 NIS/day in 2026.
+  - Days 1 to 125: capped at 550.76 NIS/day in 2026 (average wage 13,769 ÷ 25 working days).
   - Days 126 onward: 2/3 of daily average wage = 367.17 NIS/day in 2026.
 - **Combined registration:** The single shared workflow at https://www.taasuka.gov.il/applicants/sharedform/ registers with שירות התעסוקה and files the BL claim in one step.
 - **Claim form:** **1500** (תביעה לדמי אבטלה) plus employer attachment **1514** (אישור המעסיק על תקופת ההעסקה והשכר).
@@ -68,6 +68,7 @@ All amounts are **2026 official rates**. Rates update January 1 and July 1.
   - Full 15 weeks: 10 of last 14 OR 15 of last 22 months as employee or self-employed.
   - Reduced 8 weeks: 6 of last 14 OR 10 of last 22 months.
 - **Maternity duration extras:** +3 weeks for multiple births. Hospitalization extension if newborn is hospitalized 15+ days. Adoptive mothers receive an equivalent (גמלה לאם מאמצת).
+- **15 paid + up to 11 unpaid = 26 weeks total:** Under the Women's Employment Law (חוק עבודת נשים), employees may extend up to 11 additional unpaid weeks for a total of 26 weeks; only the first 15 are BTL-paid.
 - **Daily cap (2026):** 1,752.33 NIS/day. Calculation base: last 3 months ÷ 90 OR last 6 months ÷ 180, whichever is higher.
 - **Father / partner (gimlat horim le'av):** 1 week dedicated; the remaining weeks can be split between parents.
 - **Pregnancy preservation (shmirat herayon):** Separate benefit if a doctor certifies the work environment is hazardous. Form 330 + medical certificate 331.
@@ -107,7 +108,7 @@ All amounts are **2026 official rates**. Rates update January 1 and July 1.
 ### Reserve Duty (Miluim)
 - **Eligibility:** Any IDF reservist; covered from day 1 (no qualifying period). Claim window: 7 years from end of service.
 - **Daily amount:** 100% of last 3 months' average daily wage (gross ÷ 90), or for self-employed, prior-year tax assessment ÷ 90.
-- **Daily cap (2026):** 1,752.33 NIS/day. Daily minimum: 328.76 NIS/day.
+- **Daily cap (2026):** 1,730.33 NIS/day (max insurable income 51,910 ÷ 30). Daily minimum: 328.76 NIS/day.
 - **Annual bonus tiers (Iron Swords-era):** Enhanced rates for cumulative miluim days/year, ~2,000 to ~10,000+ NIS depending on tier.
 - **Salaried employees:** Employer pays salary as usual; BTL refunds the employer via form 501. The employee receives the full salary.
 - **Self-employed and sub-cap salaried:** File personal claim form **502**. Form **509** for advance payment.
@@ -187,9 +188,11 @@ NI is collected on income up to a monthly cap, with two brackets:
 
 | Payer | Bracket 1 (up to 7,703) | Bracket 2 (7,703 to 51,910) |
 |---|---|---|
-| Employee (deducted from salary) | 0.4% NI + 3.1% health = **3.5%** | 7.0% NI + 5.0% health = **12.0%** |
-| Employer (in addition to wage) | 3.55% | 7.60% |
-| Self-employed | 2.87% NI + 5.17% health = **8.04%** | 12.83% NI + 5.0% health = **17.83%** |
+| Employee (deducted from salary) | 1.04% NI + 3.23% health = **4.27%** | 7.0% NI + 5.17% health = **12.17%** |
+| Employer (in addition to wage) | 4.51% | 7.60% |
+| Self-employed | 4.47% NI + 3.23% health = **7.7%** | 12.83% NI + 5.17% health = **18.0%** |
+
+> **Amendment 252 (תיקון 252):** the 2026 rate increases above are set by Amendment 252 to the National Insurance Law, enacted 2025-01-14. Rates are CPI-indexed for 2026 through 2028 and switch to wage indexation from 2029.
 
 Self-employed pay both shares (employee + employer-equivalent) and cannot claim unemployment. They can claim every other benefit. Verify rates against the live BTL pages (`btl.gov.il/Insurance/.../rates.aspx`) at filing time, rates can shift mid-year on amendment.
 
@@ -233,7 +236,7 @@ User says: "When can I start getting pension from Bituach Leumi?"
 User says: "I did 30 days of miluim, how much will Bituach Leumi pay me?"
 1. If the user is a salaried employee, the employer pays the salary as usual; BTL refunds the employer via form 501. The user receives full salary, no separate BTL payment.
 2. If the user is self-employed or paid below the cap, file a personal claim using form 502.
-3. Calculation: last 3 months average daily wage (gross divided by 90), capped at 1,752.33 NIS/day, minimum 328.76 NIS/day.
+3. Calculation: last 3 months average daily wage (gross divided by 90), capped at 1,730.33 NIS/day, minimum 328.76 NIS/day.
 4. Add the Iron Swords annual bonus tier if cumulative days for the year exceed 10.
 5. Mention the 7-year claim window from end of service.
 
@@ -273,7 +276,7 @@ User says: "I have a chronic illness, how do I file a disability claim?"
 
 ## Gotchas
 - BTL contribution rates have two brackets: a reduced rate up to 60% of the average wage (7,703 NIS in 2026), and the normal rate above it. Agents almost always apply a single flat rate.
-- Self-employed pay both the employee and employer shares of NI (8.04% and 17.83% in 2026). Agents may calculate only the employee share, underestimating the obligation by ~2x.
+- Self-employed pay both the employee and employer shares of NI (7.7% reduced bracket and 18.0% full bracket in 2026, per Amendment 252). Agents may calculate only the employee share, underestimating the obligation by ~2x.
 - Self-employed are NOT eligible for unemployment (dmei avtala), only שכירים are. This is a common user expectation that fails.
 - Form 900 is the personal-details update form, NOT a benefit claim. Users frequently search "form 900" expecting it to be a maternity or other benefit form.
 - "Form 100" in BTL context is the opt-out from employer outreach, NOT an employer report. The actual employer attachment to a 1500 unemployment claim is form 1514. The "100" non-BTL form most accountants reference is a Tax Authority payslip-summary form.

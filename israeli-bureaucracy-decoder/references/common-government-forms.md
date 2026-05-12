@@ -12,14 +12,16 @@ An index of frequently encountered government forms, what they are for, who need
 |------|-------------|---------|-----------|------|
 | **101** | טופס 101 | Employee tax declaration: personal details, tax credits, and deductions for your employer | Every employee | When starting a new job, at the beginning of each tax year, or when personal circumstances change (marriage, child, new address) |
 | **106** | טופס 106 | Annual employer tax certificate: summary of your salary and tax withheld during the year | Employer gives to employee | By March 31 of the following year |
-| **135** | טופס 135 | Annual income tax return for individuals | Self-employed individuals and those required to file | By April 30 (paper) or May 31 (online) of the following year |
-| **1301** | טופס 1301 | Annual income tax return (detailed, for those with business/self-employment income) | Self-employed, business owners, those with capital gains | By April 30 (paper) or May 31 (online) of the following year |
+| **135** | טופס 135 | Annual income tax return for individuals | Self-employed individuals and those required to file | See deadline note below (tax year 2025 reporting in 2026: May 29, 2026 paper / June 30, 2026 online per gov.il) |
+| **1301** | טופס 1301 | Annual income tax return (detailed, for those with business/self-employment income). Companion forms 199-210 (financial statements / accompanying schedules) and form 836 (self-employed declaration / opening file) are commonly filed alongside | Self-employed, business owners, those with capital gains | See deadline note below (tax year 2025 reporting in 2026: May 29, 2026 paper / June 30, 2026 online per gov.il) |
 | **1214** | טופס 1214 | Tax refund request for salaried employees | Employees who overpaid tax | Within 6 years of the relevant tax year |
 | **1227** | טופס 1227 | Capital gains tax report for real estate transactions | Anyone selling property | Within 30 days of the transaction |
 | **119** | טופס 119 | Request for advance tax ruling | Anyone needing clarity on tax treatment before a transaction | Before the transaction takes place |
 | **134** | טופס 134 | Self-assessment for individuals with income from capital, overseas, or other non-salary sources | Individuals with passive income | Annual, with the tax return |
 | **1325** | טופס 1325 | Request for tax coordination (tium mas) when you have two or more employers | Employees with multiple jobs | When starting an additional job |
 | **150** | טופס 150 | Objection to a tax assessment (hashagah) | Anyone who disagrees with their assessment | Within 30 days of receiving the assessment |
+
+> **Annual return deadline note (forms 135, 1301):** The Tax Authority extends these annual filing deadlines almost every year. For tax year 2025 (reported in 2026), gov.il published deadlines are **May 29, 2026 (paper)** and **June 30, 2026 (online)** per the gov.il service page `gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals`. Earlier guidance of "April 30 (paper) / May 31 (online)" is the historical default. Always verify the exact current dates on gov.il before advising a user, since the Tax Authority can issue additional extensions during the filing season.
 
 ### VAT Forms
 
@@ -86,8 +88,8 @@ An index of frequently encountered government forms, what they are for, who need
 | Form | Purpose | Who Files | When |
 |------|---------|-----------|------|
 | **Statement of claim** (כתב תביעה) | Initiate a lawsuit | The plaintiff (person suing) | When filing a case |
-| **Statement of defense** (כתב הגנה) | Respond to a lawsuit | The defendant (person being sued) | Within 30 days of receiving the claim (60 days for the State) |
-| **Small claims form** (טופס תביעה קטנה) | File a small claims case (up to 38,900 NIS as of January 2025) | Anyone suing for a small amount | When filing at Small Claims Court |
+| **Statement of defense** (כתב הגנה) | Respond to a lawsuit | The defendant (person being sued) | **Magistrate Court (שלום): 60 days** from service of the claim under תקנות סדר הדין האזרחי, תשע"ט-2018 (Civil Procedure Regulations 2018). **Small Claims (תביעות קטנות): 15 days** from service. Some specialized proceedings (e.g. the State as a party) may set their own period in the summons, so always verify on the court summons itself |
+| **Small claims form** (טופס תביעה קטנה) | File a small claims case (up to **39,900 NIS as of January 2026** per kolzchut "הגשת תביעה קטנה"; the ceiling is updated periodically by regulation) | Anyone suing for a small amount | When filing at Small Claims Court |
 | **Fee exemption request** (בקשה לפטור מאגרה) | Request waiver of court filing fees due to financial hardship | Low-income plaintiffs | When filing the case |
 | **Opposition to execution** (התנגדות לביצוע) | Challenge an enforcement/execution proceeding | Defendants in Hotzaa LaPoal proceedings | Within 20 days of receiving the warning (azhara) |
 
@@ -96,8 +98,37 @@ An index of frequently encountered government forms, what they are for, who need
 ## Tips for Form Filing
 
 1. **Always keep copies** of every form you submit, with the date stamp or receipt confirmation.
-2. **Online filing** is available for many forms at gov.il, the Tax Authority portal (mof.gov.il), and Bituach Leumi portal (btl.gov.il). Online filing is generally faster and provides automatic confirmation.
+2. **Online filing** is available for many forms at gov.il, the Tax Authority portal (misim.gov.il), and Bituach Leumi portal (btl.gov.il). Online filing is generally faster and provides automatic confirmation. Many digital forms now require a **digital signature** (comsign / PersonalID), see the digital identification section below.
 3. **Deadlines matter.** Most government forms have strict deadlines. Late submissions may be accepted with penalties, or may not be accepted at all.
 4. **Hebrew is required** for most government forms. Some forms are available in Arabic and English, but the Hebrew version is always the authoritative one.
 5. **Notarization (notaryon)** is required for some forms, especially those involving property or powers of attorney. A notary in Israel is a licensed attorney ("notaryon").
 6. **Apostille** is required for foreign documents being submitted to Israeli government bodies. Available at the Justice Ministry.
+
+---
+
+## Digital Identification and Personal Area (אזור אישי / MyGov)
+
+Most Israeli government portals now require a verified digital identity before you can view letters, submit forms, or pay. The unified discovery page is `gov.il/he/service/digital-identification`. The most common personal-area ("אזור אישי") accounts are:
+
+| Body | Personal Area URL | What you can see/do |
+|------|-------------------|---------------------|
+| Tax Authority | `misim.gov.il` | Returns, assessments, refunds, withholding certificates, debt status |
+| Bituach Leumi | `btl.gov.il` (personal area / "אזור אישי") | Claim status, payment history, dmei miluim / dmei leida / unemployment, child allowance |
+| Population and Immigration Authority (PIBA) | `piba.gov.il` (personal area for visa/permit holders) | Visa status, biometric appointments, residency files |
+| Unified gov.il | `gov.il` after sign-in | Cross-ministry forms, appointment booking |
+
+**Digital signature:** Some forms (especially in tax, courts, and property contexts) require a personal digital signature certificate from a recognized provider (comsign, PersonalID). Background and the legal framework live at `gov.il/he/departments/policies/digital_signature`. TODO: verify exact URL and current list of accredited certificate providers.
+
+> Before escalating to a phone call or office visit, **check the relevant personal area first**. Many letters that look "missing" are actually sitting in the user's digital inbox.
+
+---
+
+## Appointment Booking (זימון תור / iruim makdimim)
+
+Most government offices now require a pre-booked appointment for in-person service. The unified gov.il portal is **`govisit.gov.il`** (the same vendor also distributes a consumer mobile app branded **myVisit** on the App Store / Google Play). Some agencies keep their own booking systems alongside it:
+
+- **Population and Immigration Authority (PIBA):** dedicated booking flow inside `piba.gov.il` for visa, ID-card, and biometric appointments.
+- **Bituach Leumi:** branch-level appointment booking inside the personal area on `btl.gov.il`.
+- **Tax Authority:** appointment booking at the regional פקיד שומה inside `misim.gov.il` or via `govisit.gov.il`.
+
+Walking in without an appointment is usually refused. Confirm available time slots before recommending a physical visit, and remember that many offices close by 12:30 on certain weekdays and are closed on Fridays.

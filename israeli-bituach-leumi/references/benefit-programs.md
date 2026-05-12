@@ -77,7 +77,7 @@ Both average-wage figures update twice yearly (January and July). Verify before 
 
 | Period | Daily cap |
 |---|---|
-| Days 1-125 | ~1,101.50 NIS (full daily average wage) |
+| Days 1-125 | 550.76 NIS (average wage 13,769 ÷ 25 working days) |
 | Days 126+ | 367.17 NIS (2/3 of daily average wage) |
 
 - **Waiting period:** 5 working days for terminations.
@@ -120,7 +120,7 @@ After 91 days, permanent disability determined by medical committee.
 
 | Item | Amount |
 |---|---|
-| Daily cap | 1,752.33 NIS/day |
+| Daily cap | 1,730.33 NIS/day (max insurable income 51,910 ÷ 30) |
 | Daily minimum | 328.76 NIS/day |
 | Calculation | 100% of last 3 months avg daily wage (gross ÷ 90) |
 | Claim window | 7 years from end of service |
@@ -176,13 +176,14 @@ Asset test and employment test (under 55) apply.
 
 | Payer | Bracket 1 (up to 7,703) | Bracket 2 (7,703 to 51,910) |
 |---|---|---|
-| Employee (deducted) | 0.4% NI + 3.1% health = 3.5% | 7.0% NI + 5.0% health = 12.0% |
-| Employer (additional) | 3.55% | 7.60% |
-| Self-employed | 2.87% NI + 5.17% health = 8.04% | 12.83% NI + 5.0% health = 17.83% |
+| Employee (deducted) | 1.04% NI + 3.23% health = 4.27% | 7.0% NI + 5.17% health = 12.17% |
+| Employer (additional) | 4.51% | 7.60% |
+| Self-employed | 4.47% NI + 3.23% health = 7.7% | 12.83% NI + 5.17% health = 18.0% |
 
 - **Self-employed pay both shares.**
 - **Self-employed cannot claim unemployment.**
 - **Maximum insurable income:** 51,910 NIS/month.
+- **Amendment 252 (תיקון 252):** the 2026 rate increases above were enacted on 2025-01-14 by Amendment 252 to the National Insurance Law. Rates are CPI-indexed through 2028 and switch to wage indexation from 2029.
 
 ## Appeal Deadlines
 

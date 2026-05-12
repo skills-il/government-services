@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -26,8 +26,8 @@
     "en": "Israel Gov Api"
   },
   "display_description": {
-    "he": "גישה לנתונים פתוחים של ממשלת ישראל דרך data.gov.il. חיפוש datasets, שליפת נתונים והרצת ניתוחים על מידע ממשלתי.",
-    "en": "Discover, query, and analyze Israeli government open data from data.gov.il (CKAN API). Use when user asks about Israeli government data, \"data.gov.il\", government datasets, CBS statistics, or needs data about Israeli transportation, education, health, geography, economy, or environment. Supports dataset search, tabular data queries, and analysis guidance. Enhances existing datagov-mcp and data-gov-il-mcp servers with workflow best practices. Do NOT use for classified government data or data requiring security clearance."
+    "he": "Wrapper על CKAN API של data.gov.il לגילוי, חיפוש ושאילתות על datasets ממשלתיים ישראליים פתוחים (תחבורה, חינוך, בריאות, סטטיסטיקה, נדל\"ן, רכבים, עמותות ועוד). השתמשו כשמשתמש מבקש מידע פתוח מ-data.gov.il או שואל על datasets ממשלתיים, נתוני למ\"ס, מרשם רכב, רשימת מוסדות חינוך או נתוני בריאות. הסקיל מסביר את שרשרת הקריאות הנכונה (package_search ואז package_show ואז datastore_search), מטפל בקידוד עברי ב-URL (חובה percent-encoding), בעקיפת ה-WAF (\"Security Violation\" כשמקבלים 403), ודפדוף מעבר לתקרת ה-32K רשומות של offset paging דרך cursor על _id. התאימו ל-MCP servers המתועדים למטה לגישה ישירה ככלים. אל תשתמשו ב-data.gov.il עבור APIs ממשלתיים סגורים או דורשי הזדהות, לאלה יש סקילים נפרדים.",
+    "en": "Discover, query, and analyze Israeli government open data from data.gov.il (CKAN API). Use when user asks about Israeli government data, \"data.gov.il\", government datasets, CBS statistics, or needs data about Israeli transportation, education, health, geography, economy, or environment. Supports dataset search, tabular data queries, and analysis guidance. Pair with the MCP servers listed below for direct tool access from your agent. Do NOT use for classified government data or data requiring security clearance."
   },
   "supported_agents": [
     "claude-code",
