@@ -3,7 +3,7 @@ name: israeli-real-estate
 description: Israeli real estate data, property valuation, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets.
 license: MIT
 allowed-tools: Bash(python:*) WebFetch
-compatibility: Network access helpful for data lookups. Enhanced by remy-mcp for land tenders.
+compatibility: Network access helpful for data lookups. Enhanced by remy-land-authority MCP for land tenders.
 ---
 
 # Israeli Real Estate
@@ -41,7 +41,7 @@ For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brac
 Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
 
 ### Step 3: Buying Process Checklist
-1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank
+1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank. Bank of Israel caps the loan-to-value (LTV): up to 75% for a first/sole home, 70% for a replacement home (selling your existing one), and 50% for an investment/additional property. Plan the down payment accordingly.
 2. **Property search:** View properties, check neighborhood
 3. **Attorney:** Hire real estate attorney (orech din mikrkain) BEFORE signing
 4. **Tabu check:** Attorney obtains Tabu extract to verify ownership, liens
@@ -60,11 +60,18 @@ A Tabu extract shows:
 - **Section 4:** Liens, warnings (hearot azhara), court orders
 
 **How to obtain:**
-- Online: `https://ecom.gov.il/voucherspa/tabu/` (limited info, ~70 NIS)
-- Full extract: Through attorney or in-person at Tabu office
+- Online: the Land Registry online extract service at `https://www.gov.il/he/service/land_registration_extract` (portal: `https://mekarkein-online.justice.gov.il/voucher/main`). A regular online extract costs ~18 NIS; a historical extract ~74 NIS; a consolidated extract ~131 NIS. No account needed, extract arrives by email with an electronic signature.
+- Full extract: Through attorney or in-person at the Land Registry office
 - Required info: Gush (block) and Chelka (parcel) numbers
 
-### Step 5: Rental Agreement Key Terms
+### Step 5: Betterment Tax (Heitel Hashbacha)
+Betterment tax is a municipal levy of 50% of the rise in property value caused by a planning action (new or amended zoning plan, a granted variance, or a use permit).
+- **When it crystallizes:** the levy is assessed when the betterment plan is approved, but is actually paid at the point of realization (sale of the property or the issuance of a building permit that uses the added rights).
+- **Who pays:** the owner at the time of realization, typically the seller.
+- **Reductions and exemptions:** the local authority may reduce the levy to 25% or grant a full exemption in defined cases (urban renewal, certain Tama 38 projects, rehabilitation neighborhoods). Always check the specific plan and the municipality's policy.
+- Factor this into renovation ROI and sale-price math, it can be a large unplanned cost.
+
+### Step 6: Rental Agreement Key Terms
 Israeli rental contracts (chozeh schirut) must include:
 - Duration and renewal terms
 - Monthly rent amount and payment method
@@ -100,10 +107,10 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 ## Bundled Resources
 
 ### Scripts
-- `scripts/calculate_mas_rechisha.py` — Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for both first apartment (dira yechida) and non-first apartment buyers, including effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
+- `scripts/calculate_mas_rechisha.py` - Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for both first apartment (dira yechida) and non-first apartment buyers, including effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
 
 ### References
-- `references/transaction-guide.md` — Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
+- `references/transaction-guide.md` - Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
 
 ## Recommended MCP Servers
 
@@ -122,7 +129,7 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Land Registry (Tabu) | https://www.gov.il/he/departments/land_registration_and_settlement_of_rights | Tabu extracts, gush/chelka lookup, liens and mortgages |
+| Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order a Tabu extract online (regular ~18 NIS, historical ~74 NIS, consolidated ~131 NIS), gush/chelka lookup, liens and mortgages |
 | Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
 | Israel Tax Authority – purchase tax | https://www.gov.il/he/departments/topics/purchase_tax | Current mas rechisha brackets per buyer category |
 | Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |

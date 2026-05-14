@@ -9,7 +9,16 @@ Usage:
     python plan_shipments.py --inventory inventory.json \
         --aliyah-date 2026-06-01 \
         --family-size 4 \
-        --home-area-sqm 80
+        --home-area-sqm 80 \
+        --home-tenure rent
+
+Note on caps: sources disagree on the exact numeric duty-free caps for
+computers and cell phones. Nefesh B'Nefesh reports 3 computers and 5 phones
+per family; several customs brokers report only the first 2 computers clear
+duty-free and the 3rd is taxed, and "5 phones" tracks a Ministry of
+Communications import-approval threshold rather than a customs duty cap. This
+script flags items at or above the conservative count as "verify" so the user
+confirms with a licensed customs broker before packing.
 
 Inventory JSON shape:
     {
@@ -40,18 +49,23 @@ from datetime import date, timedelta
 from pathlib import Path
 
 
+# Per-family caps. "cap" = count at/below which the item is treated as within
+# the family allowance; above it the item is over-limit. "verify_at" = count
+# at/above which the item is flagged "verify with a customs broker" because
+# sources disagree on whether it is genuinely duty-free (e.g. the 3rd computer).
+# Set verify_at == cap + 1 (i.e. above the cap) to disable the soft-verify flag.
 PER_FAMILY_CAPS = {
-    "television": 3,
-    "computer": 3,
-    "cell_phone": 5,
-    "refrigerator": 1,
-    "oven": 1,
-    "washing_machine": 1,
-    "clothes_dryer": 1,
-    "microwave": 1,
-    "dishwasher": 1,
-    "air_conditioner": 1,
-    "other_appliance": 1,  # one of each type - user must split into distinct types
+    "television": {"cap": 3, "verify_at": 4},
+    "computer": {"cap": 3, "verify_at": 3},
+    "cell_phone": {"cap": 5, "verify_at": 5},
+    "refrigerator": {"cap": 1, "verify_at": 2},
+    "oven": {"cap": 1, "verify_at": 2},
+    "washing_machine": {"cap": 1, "verify_at": 2},
+    "clothes_dryer": {"cap": 1, "verify_at": 2},
+    "microwave": {"cap": 1, "verify_at": 2},
+    "dishwasher": {"cap": 1, "verify_at": 2},
+    "air_conditioner": {"cap": 1, "verify_at": 2},
+    "other_appliance": {"cap": 1, "verify_at": 2},  # one of each type - user must split into distinct types
 }
 
 UNLIMITED_EXEMPT = {
@@ -63,9 +77,27 @@ SEPARATE_TRACK = {"vehicle"}
 RESTRICTED = {"restricted"}
 
 
-def classify(items, home_area_sqm):
+def carpet_allowance(home_area_sqm, home_tenure):
+    """Return (allowed_sqm, description) for carpeting based on home tenure.
+
+    Owners: up to ~70% of floor area as wall-to-wall, OR 25% as area rugs.
+    The script uses the more generous 70% figure as the ceiling but says so.
+    Renters: a flat ~30 sqm allowance regardless of home size.
+    """
+    if home_tenure == "own":
+        allowed = home_area_sqm * 0.70
+        return allowed, (
+            f"owner: up to ~70% of {home_area_sqm} sqm as wall-to-wall "
+            f"({allowed:.1f} sqm), or up to 25% ({home_area_sqm * 0.25:.1f} sqm) as area rugs"
+        )
+    # default and "rent"
+    return 30.0, "renter: flat ~30 sqm carpet allowance regardless of home size"
+
+
+def classify(items, home_area_sqm, home_tenure):
     """Classify items against per-family caps. Returns a list of tagged items."""
     tagged = []
+    allowed_carpet_sqm, carpet_desc = carpet_allowance(home_area_sqm, home_tenure)
     for item in items:
         name = item.get("name", "unnamed")
         category = item.get("category", "personal_effects")
@@ -82,22 +114,28 @@ def classify(items, home_area_sqm):
         }
 
         if category == "carpet_sqm":
-            allowed_sqm = home_area_sqm * 0.25
-            if count <= allowed_sqm:
+            if count <= allowed_carpet_sqm:
                 entry["flag"] = "exempt"
-                entry["note"] = f"within 25% of {home_area_sqm} sqm home ({allowed_sqm:.1f} sqm allowed)"
+                entry["note"] = f"within carpet allowance ({carpet_desc})"
             else:
-                over = count - allowed_sqm
+                over = count - allowed_carpet_sqm
                 entry["flag"] = "over-limit"
-                entry["note"] = f"{over:.1f} sqm over the 25% carpet cap"
+                entry["note"] = f"{over:.1f} sqm over the carpet allowance ({carpet_desc})"
         elif category in PER_FAMILY_CAPS:
-            cap = PER_FAMILY_CAPS[category]
-            if count <= cap:
-                entry["flag"] = "exempt"
-                entry["note"] = f"{count} of {cap} family cap"
-            else:
+            cap = PER_FAMILY_CAPS[category]["cap"]
+            verify_at = PER_FAMILY_CAPS[category]["verify_at"]
+            if count > cap:
                 entry["flag"] = "over-limit"
                 entry["note"] = f"{count - cap} over the {cap} family cap"
+            elif count >= verify_at:
+                entry["flag"] = "verify"
+                entry["note"] = (
+                    f"{count} of reported {cap} family cap; sources disagree - "
+                    f"confirm duty-free status with a licensed customs broker"
+                )
+            else:
+                entry["flag"] = "exempt"
+                entry["note"] = f"{count} of {cap} family cap"
         elif category in UNLIMITED_EXEMPT:
             entry["flag"] = "exempt"
             entry["note"] = "personal/household use, no numerical cap"
@@ -127,7 +165,7 @@ def propose_split(tagged, aliyah_date):
         if item["flag"] in ("non-household", "vehicle", "restricted"):
             continue
         cat = item["category"]
-        if cat in {"clothing", "linens", "personal_effects"} or cat == "computer" and item["count"] >= 1:
+        if cat in {"clothing", "linens", "personal_effects"} or (cat == "computer" and item["count"] >= 1):
             # Essentials go in shipment 1 (by partial count)
             shipment_1.append(item)
         elif cat in {"furniture", "books", "kitchen_utensils"} or cat in PER_FAMILY_CAPS:
@@ -167,22 +205,27 @@ def draft_declarations(split):
             continue
         exempt = [i for i in items if i["flag"] == "exempt"]
         over_limit = [i for i in items if i["flag"] == "over-limit"]
+        verify = [i for i in items if i["flag"] == "verify"]
         total_value = sum(
             i["declared_value"] * i["count"] if i["category"] != "carpet_sqm" else i["declared_value"]
             for i in items
         )
+        if over_limit:
+            note = "Contains over-limit items; get a pre-clearance quote from a licensed customs broker (amil meches)."
+        elif verify:
+            note = "Contains items at a disputed cap; confirm duty-free status with a licensed customs broker (amil meches) before shipping."
+        else:
+            note = "All items within caps; self-clearance possible with teudat oleh and inventory list."
         declarations.append({
             "shipment": key,
             "status": "planned",
             "item_count": len(items),
             "exempt_count": len(exempt),
             "over_limit_count": len(over_limit),
+            "verify_count": len(verify),
             "total_declared_value": total_value,
             "items": items,
-            "note": (
-                "Contains over-limit items; get a pre-clearance quote from a licensed customs broker (amil meches)."
-                if over_limit else "All items within caps; self-clearance possible with teudat oleh and inventory list."
-            ),
+            "note": note,
         })
     return declarations
 
@@ -193,6 +236,8 @@ def main():
     parser.add_argument("--aliyah-date", type=str, required=True, help="Aliyah date YYYY-MM-DD (teudat oleh issue date)")
     parser.add_argument("--family-size", type=int, default=1, help="Household size")
     parser.add_argument("--home-area-sqm", type=float, default=0.0, help="Planned home area in Israel (square meters)")
+    parser.add_argument("--home-tenure", type=str, default="rent", choices=["own", "rent"],
+                        help="Whether the oleh owns or rents the Israeli home (affects the carpet allowance)")
     parser.add_argument("--status", type=str, default="oleh_chadash", choices=["oleh_chadash", "toshav_chozer"])
     args = parser.parse_args()
 
@@ -223,22 +268,26 @@ def main():
         print(f"ERROR: Invalid aliyah date: {args.aliyah_date} (expected YYYY-MM-DD)", file=sys.stderr)
         return 1
 
-    tagged = classify(items, args.home_area_sqm)
+    tagged = classify(items, args.home_area_sqm, args.home_tenure)
     split = propose_split(tagged, aliyah_date)
     declarations = draft_declarations(split)
 
     over_limit = [i for i in tagged if i["flag"] == "over-limit"]
+    verify = [i for i in tagged if i["flag"] == "verify"]
     result = {
         "input": {
             "family_size": args.family_size,
             "home_area_sqm": args.home_area_sqm,
+            "home_tenure": args.home_tenure,
             "aliyah_date": args.aliyah_date,
             "status": args.status,
         },
         "deadline_iso": split["deadline_iso"],
         "classified_items": tagged,
         "over_limit_summary": over_limit,
+        "verify_summary": verify,
         "declarations": declarations,
+        "caps_note": "Numeric caps (computers, cell phones) are reported differently by different sources. Items flagged 'verify' sit at a disputed cap - confirm duty-free status with a licensed customs broker before shipping.",
         "retention_note": "All exempt items must remain in the oleh's household for 6 years from import (5 years for vehicles) or depreciated tax is owed to Meches.",
     }
 

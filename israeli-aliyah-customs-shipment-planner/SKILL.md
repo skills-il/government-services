@@ -22,12 +22,13 @@ Ask the user for the following before planning anything:
 | Aliyah date (teudat oleh issue date) | Starts the 3-year exemption window |
 | Immigrant status | Oleh Chadash vs Toshav Chozer - returning residents have limited benefits only |
 | Household size | Caps are per family, not per person |
-| Planned home area in Israel (sqm) | Carpet exemption is up to 25% of home area |
-| Origin country | Affects freight mode (air/sea) and container sizing |
+| Planned home area in Israel (sqm) | Carpet exemption depends on it AND on whether the oleh owns or rents the home |
+| Does the oleh own or rent the Israeli home? | Owners and renters get different carpet allowances (see Step 2) |
+| Country where the aliyah visa was issued | Customs assigns the "rights package" based on this country, not just freight mode. Different countries map to different entitlement packages |
 | Is the spouse a non-oleh? | Mixed households reduce the per-family allowance |
 | Full-time military service or study abroad? | May extend the 3-year window |
 
-If the user is a Toshav Chozer, route them to Misrad HaKlita Returning Resident desk and note that entitlement is reduced - do not plan their shipment as if they are an Oleh Chadash.
+If the user is a Toshav Chozer, route them to Misrad HaKlita Returning Resident desk and note that entitlement is reduced - do not plan their shipment as if they are an Oleh Chadash. One nuance: a Toshav Chozer Vatik (a returning resident who was abroad 6 or more years) may qualify for oleh-like privileges on items such as TVs and computers. Confirm the exact tier at Misrad HaKlita before planning.
 
 ### Step 2: Classify Every Item
 
@@ -41,17 +42,19 @@ For each item on the user's packing list, tag it as one of:
 | restricted | Firearms, plants, certain medications, drones, food | Separate permit path - outside this skill |
 | vehicle | Car, motorcycle, ATV | Separate vehicle benefit (3-year window, Passport-to-Passport or new car) - outside this shipment plan |
 
-Per-family caps to enforce during classification:
+Per-family caps to enforce during classification. Sources disagree on the exact numeric caps, so treat the numbers below as planning ranges and tell the user to confirm the current cap with a licensed customs broker (amil meches) before packing:
 
-| Category | Cap per family |
+| Category | Cap per family (verify with a broker) |
 |----------|----------------|
-| Televisions | 3 |
-| Computers | 3 |
-| Cell phones | 5 |
-| Carpeting | Up to 25% of the oleh's home area in Israel |
-| Appliances / electronic equipment (fridge, oven, washing machine, dryer, microwave, etc.) | One of each type |
-| Personal effects (books, clothing, linens, kitchen utensils, decorations) | No fixed cap - must be personal use |
-| Furniture | Household use |
+| Televisions | Up to 3. This 3-per-family figure is consistently reported by Nefesh B'Nefesh. |
+| Computers | Up to 3 reported by Nefesh B'Nefesh, but several customs brokers say only the first 2 clear duty-free and a 3rd is taxed. Treat 2 as the safe duty-free count and flag the 3rd as "verify". |
+| Cell phones | Nefesh B'Nefesh lists up to 5 per family. Note that "5 phones" is also a Ministry of Communications import-approval threshold, which is a separate thing from a customs duty-free cap. Verify before relying on it. |
+| Carpeting | Depends on tenure. If the oleh OWNS the Israeli home: up to ~70% of the floor area as wall-to-wall carpeting, OR up to 25% of the floor area as area rugs. If the oleh RENTS: a flat allowance of about 30 square meters. |
+| Appliances / electronic equipment (fridge, oven, washing machine, dryer, microwave, etc.) | One of each type, for household use only. Air conditioners, fans, and heaters are allowed relative to the number of rooms in the new home. |
+| Personal effects (books, clothing, linens, kitchen utensils, decorations) | No fixed cap, but must be genuinely personal-use household items. The boundary against "appliance" matters: anything with a motor or heating element that a customs official would read as an appliance falls under the one-of-each rule, not the unlimited personal-effects rule. When in doubt, classify as an appliance. |
+| Furniture | Household use, no fixed numeric cap |
+
+The oleh must physically present the teudat oleh (plus teudat zehut with the sefach addendum) with the exemption request form at customs clearance. Customs verifies that oleh benefits are still active before releasing the shipment.
 
 Run `scripts/plan_shipments.py` to do this classification automatically from a JSON inventory.
 
@@ -98,30 +101,30 @@ Output a clean 3-column table: shipment number, items, flags. Include a short li
 User: "I'm making aliyah in June, solo, from Boston. One bedroom I'll rent. I have 2 laptops, 1 desktop, 1 TV, no furniture, lots of books, espresso machine. Plan my shipments."
 
 Actions:
-1. Profile: Oleh Chadash, household size 1, home area small (~40 sqm), sea LCL.
-2. Classify: 3 computers total (2 laptops + 1 desktop) = at the per-family cap of 3. 1 TV under cap. Espresso machine is one appliance (OK). Books and clothes personal effects (OK).
+1. Profile: Oleh Chadash, household size 1, renting a small home (~40 sqm), aliyah visa issued in the US, sea LCL.
+2. Classify: 3 computers total (2 laptops + 1 desktop). Nefesh B'Nefesh reports up to 3 per family, but several brokers say only the first 2 clear duty-free, so flag the desktop (the 3rd unit) as "verify with a broker - may be taxed". 1 TV is within the reported cap. Espresso machine is one appliance (OK). Books and clothes are personal effects (OK).
 3. Split:
    - Shipment 1 (air, before arrival): 1 laptop, clothes, essentials. (~100 kg)
    - Shipment 2 (sea LCL, 2 months after arrival): other laptop, desktop, TV, espresso machine, books.
    - Shipment 3: reserve.
-4. Declaration: 2 shipments used, 1 in reserve. No over-limit items. Zero estimated duty.
-5. Timing note: 6-year hold means do not sell the desktop before 2032.
+4. Declaration: 2 shipments used, 1 in reserve. One item (the 3rd computer) flagged "verify" rather than confirmed exempt. Get a broker to confirm the desktop before shipping.
+5. Timing note: 6-year hold means do not sell the desktop before 2032. Bring the teudat oleh to clearance.
 
-Result: Clean plan, well under caps, one shipment kept in reserve for future Israel purchases.
+Result: Mostly clean plan, one shipment kept in reserve, with the 3rd computer flagged for broker confirmation instead of assumed duty-free.
 
 ### Example 2: Family of 4 from France
 
-User: "Family of 4 from Paris. 3 TVs, 4 computers (2 parents + 2 kids), fridge, 2 washing machines (one for dairy one for meat), full furniture set, 80 sqm apartment in Netanya."
+User: "Family of 4 from Paris. 3 TVs, 4 computers (2 parents + 2 kids), fridge, 2 washing machines (one for dairy one for meat), full furniture set, renting an 80 sqm apartment in Netanya."
 
 Actions:
-1. Profile: Oleh Chadash, household size 4, 80 sqm home. Allowed carpet: 20 sqm.
+1. Profile: Oleh Chadash, household size 4, renting an 80 sqm home, aliyah visa issued in France. Carpet allowance: because they rent, a flat ~30 sqm of carpeting (the 70%-wall-to-wall / 25%-area-rugs split is for owners only).
 2. Classify:
-   - 3 TVs = at cap of 3. OK.
-   - 4 computers = over the cap of 3 by one. Flag one computer as over-limit.
+   - 3 TVs = within the reported cap of 3. OK.
+   - 4 computers = over even the most generous reported cap of 3. Flag the 4th computer as over-limit. Also flag the 3rd as "verify" since brokers say only the first 2 clear duty-free.
    - Fridge OK (one of type).
    - 2 washing machines = over the "one of each appliance" cap. Flag the second washer as over-limit.
    - Furniture personal use, OK.
-3. Recommend: leave the 4th computer with family in France, buy new in Israel (may be cheaper than paying duty + VAT + purchase tax). For the second washing machine, user may still want to pay duty for halachic reasons - escalate to customs broker for a cost quote.
+3. Recommend: leave the 4th computer with family in France, buy new in Israel (may be cheaper than paying duty + VAT + purchase tax). Get a broker to confirm whether the 3rd computer is duty-free. For the second washing machine, user may still want to pay duty for halachic reasons - escalate to customs broker for a cost quote.
 4. Split:
    - Shipment 1 (air, 200 kg): clothes, bedding, kids' essentials.
    - Shipment 2 (sea FCL 40-foot): all furniture, appliances, kitchen, books, TVs, 3 of 4 computers, first washer. Note: must fit in one container or it becomes 2 shipments.
@@ -157,7 +160,8 @@ Result: User is redirected to the correct authority instead of being handed an i
 
 | MCP Server | Purpose | Status |
 |------------|---------|--------|
-| None currently available | Customs tariff lookup, live duty calculation | No MCP server currently wraps Israeli customs tariff (Taarif HaMeches) or Misrad HaKlita rights APIs. Consult the official sources in Reference Links and a licensed customs broker for duty quotes. |
+| [Kol-Zchut MCP](https://agentskills.co.il/he/mcp/kolzchut) | Look up Israeli rights pages, including the authoritative olim and returning-resident customs rights pages this skill cites | Available. Use it to pull the current Kol-Zchut customs-exemption pages so caps and eligibility tiers stay current. |
+| Customs tariff / duty calculation | Customs tariff lookup, live duty calculation | No MCP server currently wraps the Israeli customs tariff (Taarif HaMeches) or Misrad HaKlita rights APIs. Consult the official sources in Reference Links and a licensed customs broker for duty quotes. |
 
 ## Gotchas
 
@@ -188,7 +192,7 @@ Solution: Use the planned aliyah date as a proxy. Note that the 3-year clock onl
 
 ### Error: "Item count is exactly at the cap - is that allowed?"
 Cause: Family has 3 TVs, 3 computers, or exactly the cap number.
-Solution: At the cap is allowed (the cap is 3, not "less than 3"). One unit above the cap is over-limit. Confirm by reading the cap table in Step 2.
+Solution: The numeric caps are reported differently by different sources, so do not treat "exactly at the cap" as automatically safe. Nefesh B'Nefesh reports 3 TVs and 3 computers per family, but customs brokers report the 3rd computer is often taxed. For TVs the 3-per-family figure is consistent. For anything sitting at or near a numeric cap, flag it "verify with a licensed customs broker" rather than confirming it duty-free. See the cap table in Step 2.
 
 ### Error: "User wants to gift an exempt appliance to a relative"
 Cause: Retention rule confusion.
