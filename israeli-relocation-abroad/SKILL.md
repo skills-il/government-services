@@ -52,6 +52,20 @@ This is the most consequential decision. Israeli tax residency is tested by **da
 
 Run `scripts/residency-check.py` to walk through the decision with the user's specifics. The script is a guidance tool, not a legal opinion -- always recommend a tax advisor (yo'etz mas) for the final call.
 
+**Exit tax (mas yetzia, Section 100A of the Income Tax Ordinance):** Cutting Israeli tax residency is not free. Section 100A treats all of a person's worldwide assets as if they were sold one day before the day residency was severed. The unrealized capital gain (based on the asset's fair market value on that day) is subject to capital gains tax, generally at 25-33%. This applies to securities, shares in private companies, real estate abroad, and similar assets, not to assets that remain Israeli-situated.
+
+The default option is to defer payment: you do not pay on the day of severance, but when you actually sell the asset, the Israeli portion of the gain (the part that accrued during the Israeli residency period, calculated pro-rata by ownership days) is taxed in Israel. You can instead choose to pay the exit tax at the time of severance on the deemed-sale value. Either way, this is the tax that nituk toshavut triggers, so anyone holding appreciated assets must price it in before cutting residency. Always send the user to a tax advisor to model the exit tax against their specific asset mix before they sever residency.
+
+### Step 2a: Military Reserve Duty (Miluim) Before Leaving
+
+A relocator of reserve age (anyone with a reserve obligation) must settle their status with the IDF before flying out. Leaving the country with an open reserve obligation and without arranging it first risks being recorded as a deserter (arik), with criminal exposure on return. This is especially salient since October 2023, when large-scale Tzav 8 emergency call-ups became routine.
+
+- Contact your reserve unit in advance to find out whether reserve service is expected during your planned time abroad
+- For a personal-reasons relocation, file Form 58 (request to defer, shorten, or be released from active reserve service). The form can be submitted up to 8 days before the start of a reserve stint, but for a relocation it should be filed as early as possible
+- For a work-related move, the request goes through the reserve coordination committee (Valtam) rather than Form 58
+- Keep proof of flight tickets and the relocation. A soldier who can show tickets were bought before a call-up order was issued, and whose deferral was rejected, can appeal to a commander at the rank of lieutenant colonel or above
+- Do this before leaving, not retroactively from abroad
+
 ### Step 3: Pre-Move Financial Checklist
 
 Two to three months before the flight is the right window for most of this.
@@ -68,6 +82,8 @@ An Israeli who stays a tax resident must keep paying Bituach Leumi and health in
 - In countries with a bilateral social security agreement (USA, UK, most of EU, Canada), if you pay social security there on employment income, you are exempt from Israeli NI on that income and pay only the ₪123/month Israeli health insurance
 
 If you formally cut residency (nituk toshavut), you stop paying Bituach Leumi but you also lose kupat cholim and restart a waiting period when you return (see Step 6).
+
+**What stops and what continues while abroad:** Child allowance (kitzvat yeladim) stops once the family is no longer considered resident in Israel, since eligibility for most Bituach Leumi allowances depends on residency. If you stay a tax resident and keep paying contributions, you remain insured for the long-term branches (old-age pension, survivors, disability accrual) and keep kupat cholim active. Work-injury and unemployment branches generally do not cover work performed abroad. Confirm the specific branches with Bituach Leumi before leaving.
 
 **Kupat cholim continuity:** The practical rule: keep paying Bituach Leumi = your kupat cholim membership stays active and you can resume care on any visit or return. Do not "cancel" your kupat cholim. Notify them of the foreign address so correspondence still reaches you.
 
@@ -141,7 +157,7 @@ If you stayed out long enough and did not maintain Israeli tax residency, Israel
 | Toshav Chozer (regular) | Foreign resident 6+ consecutive years | 5-year exemption from tax on foreign-source passive income (interest, dividends, royalties, pensions) and 10 years on specific foreign financial assets |
 | Toshav Chozer Vatik (veteran) | Foreign resident 10+ consecutive years | 10-year exemption from Israeli tax on all foreign-source income and gains from foreign assets -- under Section 14 of the Income Tax Ordinance. Same treatment as a new immigrant |
 
-**2026 change to reporting:** For anyone becoming an Israeli resident from January 1, 2026 onward, the 10-year exemption from reporting foreign income and assets was repealed. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing it. People who became residents before January 1, 2026 keep both exemptions.
+**2026 change to reporting:** The reporting exemption was repealed by Amendment 272 to the Income Tax Ordinance (published April 2025, applies to anyone becoming an Israeli resident from January 1, 2026 onward). The 10-year exemption from reporting foreign income and assets is gone. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing the worldwide income as exempt income. People who became residents before January 1, 2026 keep both exemptions.
 
 **Customs and belongings:**
 - Household goods and personal effects can be imported duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
@@ -209,10 +225,11 @@ Pair this skill with `data-gov-il` or `datagov-israel` MCP servers to pull live 
 
 | MCP | When to use |
 |-----|-------------|
+| `kolzchut` | Pull the current text of Kol-Zchut articles this skill cites (National Insurance abroad, returning resident benefits, reserve duty deferral, vehicle import) so guidance stays in sync with the live rights pages |
 | `data-gov-il` | Look up the current URL for Rashut HaMisim forms (1301, 1348) or Bituach Leumi forms when the user needs a direct link |
 | `datagov-israel` | When charting Israeli cost-of-living or emigration statistics as context for a relocation decision |
 
-Both MCPs are optional -- this skill works without them, but pairing gives live data.
+All three MCPs are optional -- this skill works without them, but pairing gives live data.
 
 ## Gotchas
 
@@ -232,6 +249,8 @@ Both MCPs are optional -- this skill works without them, but pairing gives live 
 | Kol-Zchut -- Returning resident benefits | https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Toshav chozer and toshav chozer vatik eligibility and rights |
 | PwC Tax Summaries -- Israel tax administration | https://taxsummaries.pwc.com/israel/individual/tax-administration | Annual filing process and Form 1301 details |
 | PwC Tax Summaries -- Israel individual residence | https://taxsummaries.pwc.com/israel/individual/residence | Days test and center-of-life test details |
+| hltaxes -- Israeli exit tax overview | https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat | Section 100A deemed-sale mechanics, rates, deferral option |
+| Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C | Form 58 vs Valtam, timing, appeal route |
 | Kol-Zchut -- Vehicle import for returning residents | https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Vehicle age limits and 9-month import window |
 
 ## Troubleshooting

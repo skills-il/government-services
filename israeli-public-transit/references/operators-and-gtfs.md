@@ -9,7 +9,7 @@
 | Metropoline | metropolin | Bus | Central | metropoline.com |
 | Kavim | kavim | Bus | Central/Jerusalem | kavim-t.co.il |
 | Superbus | superbus | Bus | Central/South | superbus.co.il |
-| Afikim | afikim | Bus | Jordan Valley/South | afikim.co.il |
+| Electra Afikim | elektra afikim | Bus | Center/South/Judea-Samaria/Dan | electra-afikim.co.il |
 | Nateev Express | nativ express | Bus | Negev | nateevexpress.com |
 | Israel Railways | rakevet yisrael | Train | National | rail.co.il |
 | Jerusalem LR | harakevet hakala | Light Rail | Jerusalem | cfir.co.il |

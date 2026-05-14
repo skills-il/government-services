@@ -1,9 +1,9 @@
 ---
 name: israeli-public-transit
-description: Israeli public transit routing, schedules, and real-time arrivals for bus, train, and light rail. Use when user asks about Israeli buses, trains, "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables, "kavim", Egged, Dan, Metropoline, or any Israeli public transportation query. Supports multi-modal journey planning, real-time arrivals, and fare estimation. Enhances routes-mcp-israel MCP server with operator knowledge and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli transit systems.
+description: Israeli public transit routing, schedules, and real-time arrivals for bus, train, and light rail. Use when user asks about Israeli buses, trains, "autobus", "rakevet", light rail, "rav-kav", transit routes, timetables, "kavim", Egged, Dan, Metropoline, or any Israeli public transportation query. Supports multi-modal journey planning, real-time arrivals, and fare estimation. Enhances routes-israel MCP server with operator knowledge and Hebrew localization. Do NOT use for taxi/ride-sharing or non-Israeli transit systems.
 license: MIT
 allowed-tools: Bash(curl:*) WebFetch
-compatibility: Requires network access for real-time data. Enhanced by routes-mcp-israel MCP server.
+compatibility: Requires network access for real-time data. Enhanced by routes-israel MCP server.
 ---
 
 # Israeli Public Transit
@@ -29,7 +29,7 @@ for time-sensitive travel. Holiday and Shabbat schedules differ significantly fr
 For route planning between two points:
 1. **Identify origin and destination** -- Get Hebrew stop names or addresses
 2. **Check available modes** -- Bus, train, light rail, or combination
-3. **Query routes** -- Use routes-mcp-israel or GTFS data
+3. **Query routes** -- Use routes-israel or GTFS data
 4. **Present options** -- Show 2-3 route alternatives with:
    - Total duration (including walking and wait time)
    - Number of transfers
@@ -92,11 +92,20 @@ Check live arrival times at a stop:
   | Disabled | nacheh | 50% |
   | Children under 5 | -- | Free (1 per paying adult) |
 
+**Paying without a physical Rav-Kav card:** As of 2026 the physical Rav-Kav card is being supplemented by phone-based payment. Riders can pay fares directly through several apps without buying or topping up a card in advance: Rav-Pass (HopOn), in-app payment inside Moovit, ANY-WAY (Isracard), and "The Station" (HaTachana, the Ministry of Transport's own app). Typical flow: scan a QR sticker by the bus doors, pick a destination or distance, confirm. App payment now also works on Israel Railways and the Haifa Carmelit. NFC-equipped phones can also top up a physical card via these apps. Contactless EMV bank-card tap-to-pay is being piloted but is not yet universal. A physical Rav-Kav is still the most reliable option for tourists and for discount profiles that must be loaded onto a card.
+
 ### Step 6: Shabbat and Holiday Considerations
 - **Shabbat:** Most public transit stops Friday afternoon (~2-4 PM) through Saturday evening (~30 min after sunset)
 - **Exceptions:** Some shared taxi routes (sherut/monit sherut) operate on Shabbat on popular routes
 - **Holidays:** Reduced or no service on Jewish holidays (Rosh Hashana, Yom Kippur, etc.)
 - **Yom Kippur:** No public transit nationwide (roads closed in most areas)
+
+### Step 7: Accessibility
+- Most Israeli buses and all light rail vehicles are low-floor and wheelchair-accessible; intercity coaches and older vehicles may not be
+- Train stations and the light rail systems are step-free, with lifts or ramps and tactile guidance paths
+- The Ministry of Transport GTFS feed flags stop and route accessibility, and operator apps plus Moovit let users filter for accessible routes and stops
+- For a specific station or stop, check the operator website or app, or the Ministry of Transport accessibility info, before travel
+- Israel Railways offers an assistance service for passengers with disabilities that should be booked in advance
 
 ## Hebrew Stop Name Reference
 Common transit terms for Hebrew localization:
@@ -130,10 +139,10 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 ## Bundled Resources
 
 ### Scripts
-- `scripts/check_transit.py` — List all Israeli transit operators with regions and websites, check real-time bus arrivals at a stop via curlbus, display Rav-Kav fare structure and discount profiles, and provide Shabbat/holiday service schedules. Supports subcommands: `operators`, `stop`, `fares`, `shabbat`. Run: `python scripts/check_transit.py --help`
+- `scripts/check_transit.py` -- List all Israeli transit operators with regions and websites, check real-time bus arrivals at a stop via curlbus, display Rav-Kav fare structure and discount profiles, and provide Shabbat/holiday service schedules. Supports subcommands: `operators`, `stop`, `fares`, `shabbat`. Run: `python scripts/check_transit.py --help`
 
 ### References
-- `references/operators-and-gtfs.md` — Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline and Kavim continue to operate as separate entities despite ongoing bus reform consolidation plans.
+- `references/operators-and-gtfs.md` -- Complete table of Israeli transit operators (Egged, Dan, Kavim, Superbus, Afikim, Nateev Express, Israel Railways, light rail) with regions and websites, GTFS data source URL (gtfs.mot.gov.il), real-time data endpoints (curlbus, SIRI), Rav-Kav balance check URL, and Shabbat service timing. Consult when identifying which operator runs a route or accessing GTFS data feeds. Note: Metropoline and Kavim continue to operate as separate entities despite ongoing bus reform consolidation plans.
 
 ## Recommended MCP Servers
 | MCP Server | What It Provides |
