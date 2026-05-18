@@ -34,7 +34,7 @@ Israeli vehicle management falls into these categories:
 
 **Where to go:**
 - Authorized Vehicle Inspection Stations (מכוני רישוי) across Israel
-- Technotest is the largest operator (40+ branches nationwide)
+- Technotest is one of the largest national operators with branches across Israel
 - Station locator: gov.il vehicle inspection service page
 - TesTime appointment system sends SMS with scheduling link near the test due date
 
@@ -52,21 +52,21 @@ Israeli vehicle management falls into these categories:
 | Windshield | Wipers condition, cracks |
 | Undercarriage | Oil and water leaks |
 
-**Common failure reasons (approximately one-third of vehicles fail):**
-- ~50% of failures: minor defects (burned-out lights, missing safety equipment)
-- ~33%: tire issues (wrong size, age, insufficient tread)
-- ~10%: emissions problems or serious safety defects
+**Common failure reasons (approximately one-third of vehicles fail; specific breakdown varies year to year, see gov.il statistics):**
+- Minor defects: burned-out lights, missing safety equipment, worn wipers
+- Tire issues: wrong size, age, insufficient tread depth
+- Emissions failures or serious safety defects (brakes, steering, undercarriage)
 
 **Costs:**
 - Private car: approximately 119 NIS
 - Electric vehicle: approximately 100 NIS
 - Motorcycle: approximately 75 NIS
-- Optional pre-test at private garage: 200-300 NIS (recommended for older vehicles)
+- Optional pre-test at private garage (varies by garage; widely advertised in the low-hundreds-of-NIS range; recommended for older vehicles)
 
 ### Step 3: Registration Renewal (חידוש רישיון רכב)
 
 **Process:**
-1. Renewal notice arrives by mail approximately 6 weeks before expiration
+1. Renewal notice arrives by mail several weeks before expiration (typical lead time, but exact timing varies)
 2. Pay the annual license fee (can pay up to 60 days before expiry)
 3. Take vehicle to authorized inspection station (unless exempt)
 4. New license issued upon passing
@@ -83,6 +83,12 @@ Israeli vehicle management falls into these categories:
 **Annual license fees:**
 Fees are determined by vehicle type, age, engine volume, and weight. There are 7 price groups based on new purchase price. Fees are updated every April per CPI.
 
+**April 2026 update:** The CPI-linked annual hike added between 22 NIS and 132 NIS per vehicle (depending on price group and model year) effective April 1, 2026. Users renewing after that date should expect higher invoices than 2025.
+
+**Rashut HaShidur (Broadcasting Authority) fee:** Approximately 135 NIS is bundled automatically into the annual registration invoice. It is collected with the agra and shows up as a single line item, which often surprises first-time renewers.
+
+**EV note (2026):** From January 2026 the EV-specific discount on the annual registration fee was equalized with benzin vehicles. EVs still pay a lower annual test (mivchan rishyon) fee of approximately 100 NIS, but the registration agra is now the standard rate.
+
 Note: Fee amounts change annually. Always check the official fee table on gov.il for current amounts. Do NOT rely on fixed numbers here.
 
 **Insurance requirement:** Must have valid mandatory insurance (bituach chova) certificate to renew.
@@ -94,7 +100,7 @@ Note: Fee amounts change annually. Always check the official fee table on gov.il
 | Driving without valid test | 250 NIS fine (first 6 months) |
 | After 6 months | Must appear in court |
 | After 3 months | Vehicle blocked in system, cannot transfer ownership |
-| After approximately 4 months | Renewal only at Penalties Collection Center |
+| Significant delay | Renewal may require visiting the Penalties Collection Center in person rather than online |
 
 ### Step 4: Used Car Purchase Checks
 
@@ -126,6 +132,8 @@ Before buying a used car in Israel, verify these items:
 
 **Deadline:** Transfer must be completed within **15 days** of the sale date.
 
+**Online-transfer footgun:** The Mygov online flow requires both parties to confirm AND payment to complete within roughly 10 minutes from the start of the form. If you exceed this window the entire transfer resets and you have to begin again. Have credit-card details ready before opening the form.
+
 **Required documents:** Current vehicle license, IDs of buyer and seller, signed sale agreement.
 
 ### Step 5: Israeli Car Insurance
@@ -154,7 +162,7 @@ Before buying a used car in Israel, verify these items:
 
 1. **New car exemption is 3 years, not 2.** Private passenger vehicles are exempt from the annual test for the first 3 years from initial registration. Rental and leased vehicles are exempt for only 2 years. Agents often confuse these.
 
-2. **Registration fees vary dramatically.** The annual license fee ranges from approximately 1,200 NIS to over 5,000 NIS depending on vehicle group. Do not state a fixed fee without knowing the vehicle's price group. **EV purchase tax (mas knisa) rose to 48% from January 1, 2026** (compromise after the Treasury proposed 52%; was 45% prior). The EV tax-benefit ceiling dropped from approximately NIS 35,000 to approximately NIS 22,000. Verify current figures at gov.il.
+2. **Registration fees vary dramatically.** The annual license fee ranges from approximately 1,200 NIS to over 5,000 NIS depending on vehicle group. Do not state a fixed fee without knowing the vehicle's price group. **EV purchase tax (mas knisa) rose to 48% from January 1, 2026** (compromise after the Treasury proposed 52%; was 45% prior). The EV tax-benefit ceiling was lowered to approximately NIS 22,000 (down from the higher 2025 ceiling). Verify current figures at gov.il/taxes.gov.il since the ceiling and rate are politically sensitive and can shift mid-year.
 
 3. **Liens are the buyer's problem, not the seller's.** The Ministry of Transport system does NOT show all liens on a vehicle. Always direct used car buyers to check with the Registrar of Pledges (רשם המשכונות) at the Ministry of Justice before completing a purchase.
 
@@ -168,7 +176,7 @@ Before buying a used car in Israel, verify these items:
 
 8. **Taxi-app market 2026.** As of early 2026, Minister of Transport Regev approved Uber's re-entry to the Israeli market (Uber exited in 2023). Current incumbents: Gett and Yango. Confirm current ride-hailing options before recommending one.
 
-9. **Iron Swords reservist (miluim) protections** apply to vehicle license / test deadlines. A reservist serving 5+ consecutive days under Order 8 may receive automatic deferrals on test and registration deadlines without late fees. Direct users to check with the Ministry of Transport service line if they are mid-reserve duty when a deadline falls.
+9. **Iron Swords reservist (miluim) protections.** During the active war-period (late 2023 through early 2024) the Ministry of Transport granted blanket deferrals on vehicle test and registration deadlines for reservists serving under Order 8. Outside that one-time window there is no standing automatic deferral by length of service — reservists who hit a deadline mid-call-up should still contact the Ministry of Transport service line because case-by-case extensions are sometimes granted, but should not assume automatic relief.
 
 ## Bundled Resources
 

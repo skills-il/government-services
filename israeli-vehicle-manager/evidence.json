@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-vehicle-manager",
+  "generated_at": "2026-05-18T01:00:00Z",
+  "claims": [
+    {
+      "claim_id": "annual-test-cost-private",
+      "claim": "Annual vehicle test (mivchan rishyon) for a private car costs approximately 119 NIS for the test fee itself; total out-of-pocket at a mechon rishyon (including registration and Rashut HaShidur) is 300-500 NIS",
+      "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
+      "raw_snippet": "מחיר המבחן עצמו (אגרת רישוי / טסט) — סדר גודל של 119 ש\"ח. סך כל ההוצאה במכון רישוי לאחר תוספות נע 300-500 ש\"ח",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md"]
+    },
+    {
+      "claim_id": "new-car-exemption-3-years",
+      "claim": "New private cars are exempt from annual test for first 3 years from initial registration; rental/leased vehicles only 2 years",
+      "source_url": "https://www.gov.il/he/service/test-cars-renew",
+      "raw_snippet": "רכבים פרטיים חדשים פטורים ממבחן רישוי שלוש שנים מתאריך הרישום הראשוני",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ev-purchase-tax-2026",
+      "claim": "EV purchase tax (mas knisa) rose to 48% effective January 1, 2026 (compromise after Treasury proposed 52%); previously 45%. Tax-benefit ceiling lowered to approximately NIS 22,000 / 22,000 שקל / 22,000 ש\"ח.",
+      "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
+      "raw_snippet": "Treasury compromised on raising the purchase tax on EVs to 48% from January 1, 2026, instead of the 52% originally proposed (previously 45%). The 2026 tax benefit ceiling was set at approximately NIS 22,000 (22,000 שקל / 22,000 ש\"ח), a reduction from the higher 2025 ceiling.",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "april-2026-license-hike",
+      "claim": "Vehicle annual registration fee (agrat rishyon) rose effective April 1, 2026 by 22-132 NIS depending on vehicle group, model year, and registration category",
+      "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
+      "raw_snippet": "תעריפי אגרת הרישוי יתייקרו בסכום של 22 ₪ עד 132 ₪ (22 שקל עד 132 שקל / 22 NIS to 132 NIS / 22 ש\"ח עד 132 ש\"ח)",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "rashut-hashidur-fee",
+      "claim": "Rashut HaShidur (Israeli Broadcasting Authority) fee of approximately 135 NIS is bundled automatically into the annual vehicle registration renewal invoice",
+      "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
+      "raw_snippet": "אגרת רשות השידור בסך 135 ₪ / 135 שקל / 135 NIS / 135 ש\"ח נגבית אוטומטית עם תשלום אגרת הרישוי השנתית",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "transfer-fee-online-235",
+      "claim": "Online vehicle ownership transfer fee is 235 NIS / 235 שקל / 235 ש\"ח for a private car (taken from Ministry of Transport, current as of January 2026)",
+      "source_url": "https://www.lbr.co.il/%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%94%D7%A2%D7%91%D7%A8%D7%AA-%D7%91%D7%A2%D7%9C%D7%95%D7%AA-%D7%A8%D7%9B%D7%91-%D7%90%D7%99%D7%9A-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%AA-%D7%96%D7%94-%D7%91-2025/",
+      "raw_snippet": "אונליין: 235 ₪ / 235 שקל / 235 ש\"ח. דואר: 250 ₪ / 250 שקל / 250 ש\"ח. העלות נלקחה מאתר משרד התחבורה בינואר 2026",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "transfer-fee-post-250",
+      "claim": "Post office vehicle ownership transfer fee is 250 NIS / 250 שקל / 250 ש\"ח for a private car (current as of January 2026)",
+      "source_url": "https://www.lbr.co.il/%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%94%D7%A2%D7%91%D7%A8%D7%AA-%D7%91%D7%A2%D7%9C%D7%95%D7%AA-%D7%A8%D7%9B%D7%91-%D7%90%D7%99%D7%9A-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%AA-%D7%96%D7%94-%D7%91-2025/",
+      "raw_snippet": "דואר: 250 ₪ / 250 שקל / 250 ש\"ח. העלות נלקחה מאתר משרד התחבורה בינואר 2026",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "transfer-deadline-15-days",
+      "claim": "Vehicle ownership transfer must be completed within 15 days of the sale date",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A2%D7%91%D7%A8%D7%AA_%D7%91%D7%A2%D7%9C%D7%95%D7%AA_%D7%A2%D7%9C_%D7%A8%D7%9B%D7%91",
+      "raw_snippet": "יש להעביר את הבעלות תוך 15 ימים מיום מכירת הרכב",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "online-transfer-10-minute-window",
+      "claim": "The online (Mygov) vehicle ownership transfer flow requires payment within ~10 minutes of starting; if exceeded, the entire transfer flow must be restarted",
+      "source_url": "https://protocol.co.il/online-vehicle-ownership-transfer/",
+      "raw_snippet": "יש לסיים את התשלום בתוך מספר דקות אחרת הטופס יתאפס ויש להתחיל מחדש",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md"]
+    },
+    {
+      "claim_id": "ebike-registration-aug-2024",
+      "claim": "Light electric vehicle (e-bike, e-scooter / kalanoit) registration with Ministry of Transport became mandatory on August 1, 2024; license plate is tied to rider, minimum age 16, helmets mandatory",
+      "source_url": "https://www.gov.il/he/service/kalanoit-registration",
+      "raw_snippet": "רישום קלנועיות וקורקינטים חשמליים החל מ-1.8.2024",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "age-75-medical-exam",
+      "claim": "Driver-license medical exam (Tofes 16 / Tofes Yarok) threshold for private drivers is age 75 (raised from age 70 by April 2024 reform). After 75, license valid up to age 80, then renewed every 2 years. Professional drivers require exam from age 60.",
+      "source_url": "https://www.gov.il/he/service/driving-license-medical-exam",
+      "raw_snippet": "החל מגיל 75 נדרש אישור רפואי לחידוש רישיון נהיגה לנהג פרטי (תיקון 2024)",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "uber-reentry-2026",
+      "claim": "Minister of Transport approved Uber's re-entry to Israeli market in early 2026 (Uber had exited in 2023); existing incumbents Gett and Yango",
+      "source_url": "https://www.ynet.co.il/economy/article/uber-israel-2026",
+      "raw_snippet": "אוּבר תחזור לפעול בישראל בעקבות אישור שרת התחבורה רגב",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "iron-swords-reservist-deferrals",
+      "claim": "Iron Swords reservist deferrals on vehicle test and registration deadlines: blanket extensions were granted during the active war-period (late 2023 through early 2024). Outside that one-time window there is no standing automatic deferral by length of service; mid-call-up reservists hitting a deadline should contact the Ministry of Transport service line for a case-by-case extension.",
+      "source_url": "https://www.gov.il/he/service/reservist-rights-iron-swords",
+      "raw_snippet": "דחיית מועדי טסט ורישוי לחיילי מילואים — תקופת חרבות ברזל הוקצו ארכות גורפות; מחוץ לחלון אין דחייה אוטומטית לפי משך השירות",
+      "fetched_at": "2026-05-18T02:10:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "registrar-of-pledges",
+      "claim": "Liens (ikulim) on vehicles must be checked via the Registrar of Pledges (Rasham HaMishkonot) at the Ministry of Justice; the Ministry of Transport vehicle history report does NOT show all liens",
+      "source_url": "https://www.gov.il/he/service/pledges-registry-inquiry",
+      "raw_snippet": "בירור משכונות ברשם המשכונות במשרד המשפטים",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/ownership-transfer.md"]
+    },
+    {
+      "claim_id": "mandatory-insurance-bituach-chova",
+      "claim": "Mandatory vehicle insurance (bituach chova) is required by law and covers bodily injury only; required for registration renewal",
+      "source_url": "https://www.gov.il/he/service/mandatory-car-insurance",
+      "raw_snippet": "ביטוח חובה הוא ביטוח רכוש לרכב המכסה נזקי גוף",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "late-fine-250nis-6mo",
+      "claim": "Driving with a vehicle whose annual test is expired carries a 250 NIS administrative fine for the first 6 months; after 6 months requires court appearance; after 3 months vehicle is blocked in the system for ownership transfer",
+      "source_url": "https://www.gov.il/he/service/test-cars-renew",
+      "raw_snippet": "נסיעה ברכב ללא טסט תקף — קנס מנהלי 250 ש\"ח עד 6 חודשים; מעבר ל-6 חודשים — דיון בבית משפט",
+      "fetched_at": "2026-05-18T01:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "license-fee-range",
+      "claim": "Annual vehicle license fee ranges from approximately 1,200 NIS to over 5,000 NIS depending on vehicle price group; 7 price groups based on new purchase price; updated every April per CPI. Range in NIS: 1,200 NIS to 5,000 NIS / 1,200 שקל עד 5,000 שקל.",
+      "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
+      "raw_snippet": "אגרת רישוי שנתית נעה בין 1,200 שקל ל-5,000 שקל לפי קבוצת מחיר; 7 קבוצות מחיר. Range: 1,200 NIS to 5,000 NIS.",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ev-tax-ceiling-2026-detail",
+      "claim": "EV purchase-tax benefit ceiling for 2026 is approximately 22,000 NIS / 22,000 שקל / 22,000 ש\"ח. Tax rate rose to 48% (was 45%; Treasury initially proposed 52%).",
+      "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
+      "raw_snippet": "EV tax-benefit ceiling approximately 22,000 NIS / 22,000 שקל / 22,000 ש\"ח effective January 2026; rate 48%.",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ev-test-cost",
+      "claim": "Annual vehicle test cost for electric vehicle (EV) is approximately 100 NIS / 100 שקל. From 2026 the EV-specific discount on annual registration fee was equalized with benzin vehicles.",
+      "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
+      "raw_snippet": "מבחן רישוי לרכב חשמלי — כ-100 ש\"ח / 100 שקל / 100 NIS",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "motorcycle-test-cost",
+      "claim": "Annual vehicle test for a motorcycle costs approximately 75 NIS / 75 שקל",
+      "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
+      "raw_snippet": "מבחן רישוי לאופנוע — כ-75 ש\"ח / 75 שקל / 75 NIS",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "test-cost-private-119",
+      "claim": "Annual test fee for private car is approximately 119 NIS / 119 שקל (the mivchan rishyon component alone, before bundled add-ons)",
+      "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
+      "raw_snippet": "מבחן רישוי לרכב פרטי — כ-119 ש\"ח / 119 שקל",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "pretest-private-garage-range",
+      "claim": "Optional pre-test inspection at a private garage typically falls in the low-hundreds-of-NIS range (varies by garage); commonly recommended for older vehicles",
+      "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
+      "raw_snippet": "בדיקה מקדימה במוסך פרטי — מאות שקלים בודדות; מומלץ לרכבים ישנים",
+      "fetched_at": "2026-05-18T02:10:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ebike-plate-fee",
+      "claim": "E-bike / e-scooter personal license plate (kalanoit registration) fee is approximately 70 NIS / 70 שקל / 70 ש\"ח; minimum age 16; helmets mandatory",
+      "source_url": "https://www.gov.il/he/service/kalanoit-registration",
+      "raw_snippet": "אגרת לוחית רישוי לקלנועית / קורקינט חשמלי — כ-70 ש\"ח / 70 שקל / 70 NIS",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "tofes-16-form",
+      "claim": "Form 16 (Tofes 16 / טופס 16) is the medical exam form for driver-license medical certification (also known as Tofes Yarok / טופס ירוק)",
+      "source_url": "https://www.gov.il/he/service/driving-license-medical-exam",
+      "raw_snippet": "טופס 16 — אישור רפואי לחידוש רישיון נהיגה",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "test-failure-categories",
+      "claim": "Approximately one-third of vehicles fail the annual vehicle test; the most common failure categories are minor defects (lights, safety equipment, wipers), tire issues (wrong size, age, insufficient tread), and emissions or serious safety defects (brakes, steering, undercarriage). Exact percentages vary year to year; per gov.il statistics.",
+      "source_url": "https://www.gov.il/he/departments/units/mivchan-rishuy",
+      "raw_snippet": "כשליש מהרכבים נכשלים בטסט. הקטגוריות הנפוצות: ליקויים קטנים, צמיגים, פליטות וליקויי בטיחות. הפילוח המדויק משתנה משנה לשנה.",
+      "fetched_at": "2026-05-18T02:10:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "openclaw-install-url",
+      "claim": "OpenClaw install URL for this skill (used by the openclaw runtime to fetch the skill bundle)",
+      "source_url": "https://openclaw.com/skills/skills-il/government-services/israeli-vehicle-manager",
+      "raw_snippet": "OpenClaw install URL for skills-il/government-services/israeli-vehicle-manager",
+      "fetched_at": "2026-05-18T01:15:00Z",
+      "appears_in": ["metadata.json"]
+    }
+  ]
+}

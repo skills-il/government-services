@@ -20,7 +20,7 @@
 
 ### Pre-Test for Older Vehicles
 - For vehicles **15+ years old**: get braking system checked at a licensed garage BEFORE the test. Bring the confirmation certificate
-- Consider a pre-test inspection at a private garage (200-300 NIS) to catch issues early
+- Consider a pre-test inspection at a private garage (varies by garage, typically in the low-hundreds-of-NIS range) to catch issues early
 
 ## At the Test Station
 
