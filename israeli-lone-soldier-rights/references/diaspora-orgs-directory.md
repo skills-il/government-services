@@ -32,7 +32,7 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
 - URL: https://garintzabar.org/
 - Operating model: aliyah-and-IDF preparation program by Tzofim (Israeli Scouts)
 - What they offer (verify current numbers on garintzabar.org):
-  - Pre-aliyah seminars across multiple regions (North America, Latin America, Western Europe, South Africa, Australia, Russian-speaking countries — current region list on the Garin Tzabar site)
+  - Pre-aliyah seminars across multiple regions (North America, Latin America, Western Europe, South Africa, Australia, Russian-speaking countries, current region list on the Garin Tzabar site)
   - Full-board kibbutz accommodation + ulpan during pre-army adaptation
   - Assigned mentor + host family
   - "Family for Life" alumni network (operating since 1991, multiple thousands of alumni)
@@ -43,7 +43,7 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
 
 - URL: https://www.lonesoldiercenter.com/
 - Operating model: Israel-side independent NGO
-- (Note: tzevetmikey.com is a SEPARATE organization — Tzevet Mikey / The Lone Soldier Empowerment Foundation, a pre-army training program — do not confuse the two)
+- (Note: tzevetmikey.com is a SEPARATE organization, Tzevet Mikey / The Lone Soldier Empowerment Foundation, a pre-army training program, do not confuse the two)
 - What they offer:
   - Apartments (subsidized for lone soldiers in major cities)
   - Communal meals

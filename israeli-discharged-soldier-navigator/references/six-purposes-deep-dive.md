@@ -6,7 +6,7 @@ Statutory source (verbatim from hachvana.mod.gov.il/GrantAndDeposit):
 
 Translation: "academic studies, vocational training, marriage, starting a business, driving lessons, and purchasing an apartment, house, or land for building a house"
 
-**Closed list.** Any purpose not in this list is rejected automatically by the hachvana system pre-5y. The most common rejection is rental — only purchase qualifies.
+**Closed list.** Any purpose not in this list is rejected automatically by the hachvana system pre-5y. The most common rejection is rental, only purchase qualifies.
 
 ---
 
@@ -22,9 +22,9 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **Pikadon stacking with Mimadim LiLimudim scholarship.** If the user is also eligible for Mimadim (under Tikkun 25 December 2023, 100% tuition for lochem and special populations), the Pikadon can be used for living, dorm, and book expenses NOT covered by the scholarship.
 
 **Common rejection causes (verify with hachvana before assuming):**
-- Pre-academic preparation (mechina) — kolzchut lists mechina kdam-akademit as eligible under purpose #1 when recognized; do not blanket-reject. Verify recognition for the specific mechina.
-- Yeshiva / kollel — typically not eligible as academic studies; verify with hachvana.
-- "Bonus" non-degree single-course audits at universities — verify case-by-case.
+- Pre-academic preparation (mechina), kolzchut lists mechina kdam-akademit as eligible under purpose #1 when recognized; do not blanket-reject. Verify recognition for the specific mechina.
+- Yeshiva / kollel, typically not eligible as academic studies; verify with hachvana.
+- "Bonus" non-degree single-course audits at universities, verify case-by-case.
 
 ---
 
@@ -39,8 +39,8 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **MoD subsidy stacking.** Many vocational courses are partially subsidized by hachvana directly (a substantial portion of course cost depending on track). Pikadon can cover the remaining user contribution. Verify the exact subsidy band on hachvana.mod.gov.il for each course before assuming a specific coverage level.
 
 **Common rejection causes:**
-- Hobby courses (cooking, photography for personal use) — not recognized as professional training
-- Online courses from unrecognized providers (random Udemy courses) — must be MoD-recognized provider
+- Hobby courses (cooking, photography for personal use), not recognized as professional training
+- Online courses from unrecognized providers (random Udemy courses), must be MoD-recognized provider
 
 ---
 
@@ -54,7 +54,7 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **Practical notes:**
 - No documented public minimum number of lessons threshold
 - Includes both manual and automatic license tracks
-- Test fees may or may not be eligible — verify with hachvana before submitting
+- Test fees may or may not be eligible, verify with hachvana before submitting
 
 ---
 
@@ -70,9 +70,9 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **Reference:** For Osek registration and freelancer setup, route the user to `israeli-freelancer-ops`.
 
 **Common rejection causes:**
-- "Pay myself a salary" — Pikadon cannot be withdrawn as personal income to the business owner
-- Stock investments / crypto / passive investment — not "starting a business"
-- Buying inventory for resale without a registered business — register Osek first
+- "Pay myself a salary", Pikadon cannot be withdrawn as personal income to the business owner
+- Stock investments / crypto / passive investment, not "starting a business"
+- Buying inventory for resale without a registered business, register Osek first
 
 ---
 
@@ -81,13 +81,13 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **Definition.** Wedding expenses for the discharged soldier's own marriage.
 
 **Evidence required:** EITHER:
-- Teudat Nisuin (marriage certificate) — if already married
-- Wedding hall contract + vendor receipts (catering, photographer, band, dress, etc.) — if pre-wedding
+- Teudat Nisuin (marriage certificate), if already married
+- Wedding hall contract + vendor receipts (catering, photographer, band, dress, etc.), if pre-wedding
 
 **Practical notes:**
 - Works pre- or post-wedding within the 5-year window
 - Both partners can each withdraw from their own Pikadon (each has their own deposit)
-- For co-purchased first apartments specifically, each partner can withdraw their Pikadon against their share of the purchase — combining Pikadonim for a down payment is a common newlywed pattern
+- For co-purchased first apartments specifically, each partner can withdraw their Pikadon against their share of the purchase, combining Pikadonim for a down payment is a common newlywed pattern
 - Common-law partnership (yeduim be'tzibur): verify documentation requirements with hachvana
 
 ---
@@ -97,17 +97,17 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 **Definition.** Purchase of residential real estate OR land for building a residence. **Rental is explicitly NOT included.**
 
 **Evidence required:**
-- Signed purchase agreement (חוזה רכישה חתום) — not a draft or "expression of interest"
+- Signed purchase agreement (חוזה רכישה חתום), not a draft or "expression of interest"
 - For land purchase: deed/registration showing intent for residential construction
 
 **Common rejection causes (most user mistakes):**
-- Rental contract (chozeh schirut) — REJECTED. Rental is not a permitted purpose
-- Commercial property purchase — only residential qualifies
-- Co-buying with a non-relative — verify ownership structure with hachvana
+- Rental contract (chozeh schirut), REJECTED. Rental is not a permitted purpose
+- Commercial property purchase, only residential qualifies
+- Co-buying with a non-relative, verify ownership structure with hachvana
 
 **Mortgage interaction:**
 - Pikadon can be used as part of the down payment (mashkanta first-payment)
-- Note: Mishrad HaShikun also offers veteran mortgage discount points based on weighted scoring including service — route to `israeli-mortgage-comparator` + future `israeli-real-estate` for the mortgage side
+- Note: Mishrad HaShikun also offers veteran mortgage discount points based on weighted scoring including service, route to `israeli-mortgage-comparator` + future `israeli-real-estate` for the mortgage side
 - This skill does NOT model mortgage math
 
 ---

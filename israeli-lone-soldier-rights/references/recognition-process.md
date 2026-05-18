@@ -4,15 +4,15 @@ Source: kolzchut "חייל בודד" + mitgaisim.idf.il. Statutory base: Pkudat 
 
 ## Forms
 
-### Form 62 — the soldier-facing questionnaire (used in BOTH phases)
+### Form 62, the soldier-facing questionnaire (used in BOTH phases)
 - Full name: **שאלון הכרה לחייל בודד**
 - Submitted in **duplicate** by the soldier
 - Same form used pre-enlistment AND during service
 - This is the form to ask for at the counter
 
-### Form 7304 — internal Tash desk intake (not soldier-facing)
+### Form 7304, internal Tash desk intake (not soldier-facing)
 - The Rakezet Tash (Tash desk coordinator) fills this internally AFTER the candidate raises lone-soldier status at the Lishkat HaGiyus interview
-- Soldiers should NOT ask for "Form 7304" at the recruitment office — ask for the **שאלון הכרה (Form 62)**
+- Soldiers should NOT ask for "Form 7304" at the recruitment office, ask for the **שאלון הכרה (Form 62)**
 
 ### Process
 
@@ -41,7 +41,7 @@ Source: kolzchut "חייל בודד" + mitgaisim.idf.il. Statutory base: Pkudat 
 
 ## Status changes during service
 
-Notify Mashak Tash **immediately / without delay** if any of the following occurs (Pkudat 35.0808 + Aka practice — there is no statutory 30-day grace period; continuing to receive boded benefits after a disqualifying event creates retroactive liability from the date of the event, not from a 30-day mark):
+Notify Mashak Tash **immediately / without delay** if any of the following occurs (Pkudat 35.0808 + Aka practice, there is no statutory 30-day grace period; continuing to receive boded benefits after a disqualifying event creates retroactive liability from the date of the event, not from a 30-day mark):
 - Marriage during mandatory service (status changes to married-soldier track)
 - Parent makes aliyah to Israel (recognition may be revoked)
 - Soldier moves in with newly-arrived family in Israel
@@ -60,5 +60,5 @@ Notify Mashak Tash **immediately / without delay** if any of the following occur
 
 - **File pre-enlistment when possible.** Form 7304 at the Lishkat HaGiyus is faster and recognition is in place from enlistment day.
 - **For estrangement cases, line up the social worker assessment BEFORE filing Form 62.** The assessment is the longest part of the process.
-- **NBN's pre-aliyah counseling helps olim assemble the documentation pack** before they arrive in Israel — using it cuts weeks off the recognition timeline.
+- **NBN's pre-aliyah counseling helps olim assemble the documentation pack** before they arrive in Israel, using it cuts weeks off the recognition timeline.
 - **Keep multiple copies of the recognition certificate.** Every downstream benefit (rent, flights, post-discharge rent) requires the certificate.

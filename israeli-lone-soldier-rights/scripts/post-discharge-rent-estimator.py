@@ -34,7 +34,7 @@ def estimate(discharge_date: date, rent_start: date, monthly_rent: int) -> dict:
     if rent_start > window_end:
         return {
             "eligible": False,
-            "reason": "Rent start is after the 12-month post-discharge window — not eligible",
+            "reason": "Rent start is after the 12-month post-discharge window, not eligible",
             "discharge_date": discharge_date.isoformat(),
             "window_end": window_end.isoformat(),
         }

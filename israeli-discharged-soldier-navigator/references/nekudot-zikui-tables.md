@@ -12,7 +12,7 @@ NOT Section 11 (which covers basic resident credit points for all Israeli reside
 | Female IDF / MAGAV / Police / SHABAS | 12 months | 22 months | Kolzchut + Section 39a |
 | Sherut Leumi-Ezrachi (any gender) | 12 months | 24 months | Kolzchut |
 
-If service < 12 months and discharge was for medical / training-injury reasons: still eligible at the level corresponding to length served (rare edge case — verify with hachvana).
+If service < 12 months and discharge was for medical / training-injury reasons: still eligible at the level corresponding to length served (rare edge case, verify with hachvana).
 
 ## Duration
 
@@ -32,25 +32,25 @@ If service < 12 months and discharge was for medical / training-injury reasons: 
 
 **Important:** Credit points reduce tax owed but cannot exceed tax liability. They are NOT a refundable cash payment beyond reducing tax to zero. A student with low earnings may "lose" months of the benefit because they have no tax owed against which to apply it.
 
-## How to claim — salaried employees
+## How to claim, salaried employees
 
-1. At the start of each calendar year, fill **Tofes 101** (Employee Tax Declaration — טופס בקשת זיכוי ממס) and submit to your employer
+1. At the start of each calendar year, fill **Tofes 101** (Employee Tax Declaration, טופס בקשת זיכוי ממס) and submit to your employer
 2. Attach a copy of your **Teudat Shichrur** (discharge certificate)
 3. Check "discharged soldier" (חייל משוחרר) section, indicate months of service and discharge date
 4. The credit points then appear on your monthly payslip under "נקודות זיכוי"
 5. Re-submit Tofes 101 each January OR whenever you change jobs
 
-## How to claim — self-employed (Osek Patur / Murshe)
+## How to claim, self-employed (Osek Patur / Murshe)
 
 1. Include the credit-point claim in your annual return (the self-employed annual filing form)
 2. Attach a copy of **Teudat Shichrur**
 3. The credit reduces the tax owed on annual filing
 
-## Retroactive claim — Tofes 135
+## Retroactive claim, Tofes 135
 
-If your employer did NOT apply the credit points for any of the 36 months (very common — many employers don't ask, and many discharged soldiers don't know to mention it):
+If your employer did NOT apply the credit points for any of the 36 months (very common, many employers don't ask, and many discharged soldiers don't know to mention it):
 
-1. File **Tofes 135** (Application for Tax Refund — בקשה להחזר מס) via the Tax Authority online portal
+1. File **Tofes 135** (Application for Tax Refund, בקשה להחזר מס) via the Tax Authority online portal
 2. Up to six years retroactive per the Income Tax Ordinance refund window
 3. Required documents:
    - Annual employer salary summary for each missed year (the standard year-end form)
@@ -67,12 +67,12 @@ If your employer did NOT apply the credit points for any of the 36 months (very 
 | "Female soldiers need 23 months too" | Wrong. Female threshold for 2 points is **22 months**. |
 | "Combat soldiers get extra points" | Wrong. The post-discharge credit is the SAME for combat and non-combat. (Combat-only bonus = Amendment 283 miluim credit, a DIFFERENT track for reservists, NOT this one.) |
 | "It's a cash payment" | Wrong. It reduces tax owed. Cash refund only via retroactive Tofes 135 if employer over-withheld. |
-| "I have 5 years to claim" | Mostly wrong. The 36-month window starts the month after discharge — you have 36 months to use the benefit. Retroactive refunds via Tofes 135 are separately allowed up to 6 years back. |
+| "I have 5 years to claim" | Mostly wrong. The 36-month window starts the month after discharge, you have 36 months to use the benefit. Retroactive refunds via Tofes 135 are separately allowed up to 6 years back. |
 
 ## Interaction with other credit points
 
-The post-discharge 1 or 2 points stack ON TOP of other credit points an Israeli resident may be entitled to (basic resident credit, gender-specific credit, children credit, single-parent credit, married-spouse credit, etc.). The stacking is mechanical — each entitlement adds to the monthly point count, and the total reduces tax owed at the per-point value.
+The post-discharge 1 or 2 points stack ON TOP of other credit points an Israeli resident may be entitled to (basic resident credit, gender-specific credit, children credit, single-parent credit, married-spouse credit, etc.). The stacking is mechanical, each entitlement adds to the monthly point count, and the total reduces tax owed at the per-point value.
 
-The miluim combat credit (a separate track for reservists) is governed by a different statute and handled by `israeli-miluim-manager` — do not confuse it with the post-discharge (sherut chova) credit covered here.
+The miluim combat credit (a separate track for reservists) is governed by a different statute and handled by `israeli-miluim-manager`, do not confuse it with the post-discharge (sherut chova) credit covered here.
 
 For the specific values of other credit-point categories, consult the current Tax Authority annual guide or the kolzchut nekudot zikui hub page.
