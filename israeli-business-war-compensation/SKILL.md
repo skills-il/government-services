@@ -21,6 +21,10 @@ Two parallel frameworks operate today. Both rely on the same Property Tax & Comp
 | Iron Swords (תשפ"ד-2023) | From October 7, 2023 onward | Per qualifying period (regulation defines it; check the active regulation text) | Standard same-period prior-year |
 | Shaagat HaAri (March 2026) | March-April 2026 (תקופת הפגיעה 03-04/26) | Online: 30.06.2026; non-online: 31.05.2026 | Same period 2025 (or 2023 for evacuated north) |
 
+**Statutory anchors.** The Shaagat HaAri framework was passed in second and third readings on **4.5.2026** and published in **ספר החוקים 3525** as two parallel laws: חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026 (business-side, governs everything in this skill) and חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026 (employee-side, governs the chal"t dmei avtala flow, that's `israeli-unemployment-benefits-navigator`). Cite the published act, not the March 2026 draft framework, when communicating with the Tax Authority or in appeals.
+
+**Dedicated portal for Shaagat HaAri eligible-expenses claims.** Use https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar for the March-April 2026 indirect-damage track ("מסלול הוצאות מזכות"). This is distinct from the general Iron Swords portal (https://www.gov.il/he/service/compensation-indirect-damage) and the special-area portal (https://www.gov.il/he/service/claim-compensation-indirect-damage). Filing under the wrong portal routes to the wrong adjudication track.
+
 Ask the user when their revenue loss occurred and route accordingly. Most live claims in 2026 still fall under Iron Swords for older damage periods.
 
 ### Step 2: Check the four-gate eligibility test
@@ -73,29 +77,29 @@ Pay whichever is higher. Most labor-heavy businesses (cafés, salons, agencies) 
 
 ### Step 4b: Small business continuity grant table (turnover ≤ 300,000 NIS only)
 
-Single monthly payment, no formula. Look up the (annual turnover band, decline tier) cell. Source: CPA Institute Shaagat HaAri framework brief, 11.03.2026.
+Single monthly payment, no formula. Look up the (annual turnover band, decline tier) cell. **Post-passage authoritative values** per Kol-Zchut (updated after the law passed Knesset 4.5.2026). Pre-passage Mako/CPA-Institute figures (11-12.03.2026) were ~1.7-1.9% lower; do not quote those.
 
 | Annual turnover (₪) | 25-40% decline | 40-60% | 60-80% | 80-100% |
 |---|---|---|---|---|
-| 12,000 - 50,000 | not eligible | 1,833 | 1,833 | 1,833 |
-| 50,000 - 90,000 | not eligible | 3,300 | 3,300 | 3,300 |
-| 90,000 - 120,000 | not eligible | 4,400 | 4,400 | 4,400 |
-| 120,000 - 150,000 | 2,776 | 4,164 | 6,662 | 8,328 |
-| 150,000 - 200,000 | 3,273 | 4,910 | 7,855 | 9,819 |
-| 200,000 - 250,000 | 4,190 | 6,285 | 10,056 | 12,570 |
-| 250,000 - 300,000 | 4,897 | 7,346 | 11,752 | 14,691 |
+| 12,000 - 50,000 | 1,864 | 1,864 | 1,864 | 1,864 |
+| 50,000 - 90,000 | 3,356 | 3,356 | 3,356 | 3,356 |
+| 90,000 - 120,000 | 4,475 | 4,475 | 4,475 | 4,475 |
+| 120,000 - 150,000 | 2,823 | 4,234.50 | 6,775.20 | 8,469 |
+| 150,000 - 200,000 | 3,329 | 4,993.50 | 7,989.60 | 9,987 |
+| 200,000 - 250,000 | 4,261 | 6,391.50 | 10,226.40 | 12,783 |
+| 250,000 - 300,000 | 4,980 | 7,470 | 11,952 | 14,940 |
 
 Notes:
 - All amounts are NIS, single grant for the March-April 2026 damage period.
-- The 25-40% column is empty for sub-120K turnover bands (no entitlement under that decline tier).
-- Early filing window for businesses in the 25-40% decline tier closed 31.03.2026; check whether your client's filing path is still open before promising the lower tier.
-- The skill's `scripts/calc_grant.py` does NOT compute this table; it covers only the wage / fixed-cost track for businesses above 300K. For small businesses, route to the gov.il small-business form and reference this table.
+- The bottom three turnover bands (up to 120K) pay a flat amount regardless of decline tier (post-passage rule); the four bands above 120K scale by decline tier.
+- Online filing window for this track: **17.05.2026 - 17.08.2026** per the kolzchut authoritative page; verify the active dates on https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar before promising deadlines (windows have been extended multiple times since the law passed).
+- The skill's `scripts/calc_grant.py` does NOT compute this table; it covers only the wage / fixed-cost track for businesses above 300K. For small businesses, route to the gov.il portal and reference this table.
 
 ### Step 5: Stack with reservist & employee-side benefits (additive, not exclusive)
 
 Three additional grants stack ON TOP of the indirect-damage track:
 
-1. **Employee חל"ת dmei avtala** (per Treasury press release, 30.03.2026): employees on continuous unpaid leave for ≥ 10 days get unemployment payment for ALL days from day one. The employee files separately at btl.gov.il; the employer doesn't claim this directly but must hand the employee an `הסכם חל"ת` agreement signed by both parties. Registration with שירות התעסוקה is also required (open retroactively until 14 May 2026). Bituach Leumi processed first dmei avtala payments in April 2026 once the law passed Knesset. The exact dmei avtala mechanics under the operative hora'at sha'a (waiting-period waiver, vacation-day deduction rules) live on the Bituach Leumi Shaagat HaAri page; direct the employee there for the active rules.
+1. **Employee חל"ת dmei avtala** (per Treasury press release 30.03.2026, finalized by Knesset 4.5.2026): employees on continuous unpaid leave get unemployment payment for ALL days from day one once they clear the bifurcated minimum, **5 consecutive days ONLY if the chal"t started 28.2.2026 or 1.3.2026**, **10 consecutive days** for any later onset (effective 5.5.2026 amendment per btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx). The employee files separately at btl.gov.il; the employer doesn't claim this directly but must hand the employee an `הסכם חל"ת` agreement signed by both parties and file Form 100 with the exact halat start and end dates. Registration with שירות התעסוקה is also required (open retroactively until 14 May 2026). First payments for the 5-day early-onset cohort landed June 2026 because the bifurcation amendment was late; for the 10-day cohort, payments began processing through April-May 2026 as employees cleared the threshold. The exact mechanics (waiting-period waiver, vacation-day deduction rules) live on the Bituach Leumi Shaagat HaAri page; direct the employee there and to `israeli-unemployment-benefits-navigator` for the active rules.
 2. **Employer reservist compensation** - for each employee called up on צו 8 reserve duty, the employer receives 20% of the employee's average daily wage × reserve duty days served, paid by Bituach Leumi to the employer.
 3. **Self-employed reservist grant** (for owner who served themselves, separate from this skill's main scope) - covered in `israeli-miluim-manager`.
 
@@ -119,7 +123,10 @@ Output a documentation pack the user must assemble before opening the gov.il fil
 - Invoices or contracts for: rent, electricity, leasing, recurring SaaS, communications
 
 **Submission:**
-- Tax Authority online portal: gov.il/he/service/compensation-indirect-damage
+- Tax Authority online portal for Shaagat HaAri eligible-expenses track (March-April 2026): gov.il/he/service/claim-compensation-indirect-damage-rions-roar
+- Tax Authority online portal for Iron Swords general nationwide track: gov.il/he/service/compensation-indirect-damage
+- Tax Authority special-area portal (north / specific yishuvim): gov.il/he/service/claim-compensation-indirect-damage
+- Red-track advance request (Shaagat HaAri): gov.il/he/service/request-for-dvance-dealers-shaagat-haari
 - Hotline: *4954 (Tax Authority)
 - Email: nezekakif@taxes.gov.il
 
@@ -139,12 +146,12 @@ Surface this proactively. Suggest the owner top up מקדמות (advance tax pay
 
 ### Step 9: Appeals if rejected or under-paid
 
-The Property Tax & Compensation Fund Law, 1961 establishes a two-stage appeals path:
+The Property Tax & Compensation Fund Law, 1961 establishes a two-stage appeals path. For INDIRECT damage compensation (the subject of this skill), the appeals committee is established under **§38ל** (Chapter 8B, the indirect-damage compensation chapter), NOT under §29 (which covers general property-tax appeals).
 
 | Stage | Filed with |
 |---|---|
 | השגה (objection) | The same assessing officer (פקיד שומה) who issued the decision |
-| ערר (appeal) | ועדת ערר - independent appeals committee under the law's appeals chapter |
+| ערר (appeal) | ועדת ערר under §38ל - independent appeals committee dedicated to indirect-damage compensation under the Property Tax Law |
 
 Day-count windows for each stage are defined in the operative hora'at sha'a regulation rather than a fixed code rule, and they're tight (typically 30–60 days). Read the rejection letter carefully for the explicit deadline rather than relying on memory. Miss the השגה window and the ערר window slams shut too. Flag this immediately to any user with a denial or partial approval.
 
@@ -159,9 +166,13 @@ Day-count windows for each stage are defined in the operative hora'at sha'a regu
 | Source | URL | What to Check |
 |---|---|---|
 | Tax Authority press release | https://www.gov.il/he/pages/press_11032026 | Shaagat HaAri framework details, red-track 100,000 NIS advance, 20% employer reservist comp, filing extensions |
-| Tax Authority filing portal | https://www.gov.il/he/service/compensation-indirect-damage | Filing form name, registration prerequisite, contact channels |
+| Tax Authority filing portal (Iron Swords nationwide) | https://www.gov.il/he/service/compensation-indirect-damage | Filing form name, registration prerequisite, contact channels |
+| Tax Authority filing portal (Shaagat HaAri eligible-expenses, March-April 2026) | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar | Dedicated portal for the "מסלול הוצאות מזכות" Shaagat HaAri 2026 track, eligibility band 12,000-400M NIS, ≥25% decline test |
+| Tax Authority red-track advance request (Shaagat HaAri) | https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari | 100,000 NIS advance request flow for border-area businesses |
+| Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of both Shaagat HaAri assistance laws (ספר החוקים 3525) |
+| Kol-Zchut: Shaagat HaAri business owner Q&A | https://www.kolzchut.org.il/he/שאלות_ותשובות_לעצמאים_ובעלי_עסקים_במהלך_המלחמה_מול_איראן_(מבצע_שאגת_הארי) | Plain-language coverage of eligibility, halat 5/10-day bifurcation, cross-references to specific regulations |
 | Tax Authority track index | https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks | Track exclusivity rules, list of red-track yishuvim |
-| Property Tax & Compensation Fund Law | https://www.nevo.co.il/law_html/law01/273_001.htm | Statutory definitions, §§35–36 indirect damage, §15 ועדת ערר |
+| Property Tax & Compensation Fund Law | https://www.nevo.co.il/law_html/law01/273_001.htm | Statutory definitions, §§35–36 indirect damage, §38ל ועדת ערר for indirect damage (§29 is the general property-tax appeals committee, not the indirect-damage one) |
 | Bituach Leumi (Shaagat HaAri page) | https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx | חל"ת 10-day rule (per Treasury 30.03.2026 framework brief), dmei avtala mechanics, employer reservist comp filing |
 | Treasury Ministry (אגף דוברות) framework briefs | https://www.gov.il/he/departments/ministry_of_finance | 30.03.2026 "מתווה פיצויים למשק" brief: 10-day חל"ת rule, retroactive employment-service registration to 14.05.2026, NPO/daycare eligibility, northern 100% tracks |
 | Kol-Zchut general business compensation | https://www.kolzchut.org.il | Plain-language entitlement entries, document checklists |
@@ -184,7 +195,7 @@ The 25% / 12.5% gate is statutory. Below it, the wage/fixed-cost track is unavai
 
 ### Issue: Employee was on חל"ת for 8 days
 
-Per the Treasury Ministry brief (30.03.2026), the Shaagat HaAri minimum is **10 consecutive days**, not 14, and once the threshold is crossed dmei avtala covers ALL days from day one (no waiting period). Eight days fails the gate; recommend the employer extend the leave to 10 consecutive days, or fall back to standard dmei avtala rules (30-day default with five-day waiting period) if eligible. Splitting the leave (e.g., 5 days off, 2 days back, 5 days off) does NOT aggregate; each block is evaluated separately and must independently clear 10 consecutive days.
+The Shaagat HaAri minimum is **bifurcated** (effective 5.5.2026 amendment): **5 consecutive days** if the chal"t started on 28.2.2026 or 1.3.2026 (the first two war days only); **10 consecutive days** for chal"t starting any later date. Once the applicable threshold is crossed, dmei avtala covers ALL days from day one (no waiting period). Eight days fails BOTH gates if the chal"t started after 1.3.2026 (needs 10) and would also fail the 5-day gate if not in the early-onset window. Recommend the employer extend the leave to 10 consecutive days for the general case, or fall back to standard dmei avtala rules (30-day default with five-day waiting period) if eligible. Splitting the leave (e.g., 5 days off, 2 days back, 5 days off) does NOT aggregate; each block is evaluated separately and must independently clear its applicable threshold. The 5-day early-onset cohort's first BL payments only landed June 2026 due to the late amendment, so flag the payment-timing delay to those users.
 
 ### Issue: Business registered 15.01.2025 - newer than the standard pre-31.12.2024 cohort
 

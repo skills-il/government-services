@@ -226,6 +226,8 @@ Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim
 5. Claim Amendment 283 tax credits (with both ishur sherut and ishur lochem) through annual filing with Rashut HaMisim
 6. Self-deposit keren hishtalmut to maintain the tax-free withdrawal clock
 
+**Business-owner reservists with halat'd employees** cross three skills: this one (personal entitlements: Nezek Akif, Tagmul Nosaf/Meyuchad, Amendment 283), `israeli-business-war-compensation` (business-side Shaagat HaAri / Iron Swords filings + 20% employer refund on צו 8 reservists), and `israeli-unemployment-benefits-navigator` (employee chal"t bifurcated 5/10-day rule).
+
 ### Step 8: Vacation Days, Spouse Protections, and Family Benefits
 
 Several temporary provisions enacted during wartime operations have been resolved for 2026, some made permanent and some expired.

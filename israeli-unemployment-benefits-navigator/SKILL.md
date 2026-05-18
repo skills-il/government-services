@@ -57,7 +57,7 @@ Under Israeli law, a month with even a single day of salaried work counts as a f
 | Made redundant | None | Same as fired |
 | Employer bankrupt | None | Employee can claim both unpaid wages from Bituach Leumi and dmei avtala |
 | Chal"t (unpaid leave) 30+ days, standard | None | Standard chalat rules |
-| Chal"t 5+ days during Shaagat HaArie defining period | None | Emergency track, paid from day 1; no need to exhaust vacation first |
+| Chal"t during Shaagat HaArie defining period (bifurcated rule, effective 5.5.2026) | None | Emergency track, paid from day 1; no need to exhaust vacation first. Minimum: **5 consecutive days** ONLY if chal"t started 28.2.2026 or 1.3.2026; **10 consecutive days** if chal"t started later. See Special Cases. |
 | Resignation without justified cause | 90 days | The 90-day clock runs from the registration date, not the last day of work. Calendar days, not work days. The wait delays the start; it does NOT reduce total max days |
 | Resignation with justified cause (hitpatrut b'din mefuteret) | None | Must prove grounds. Bituach Leumi decides |
 | Refused a suitable job offer from Sherut HaTaasuka | 90 days waiting + 30 days deducted from max-day total | Two separate penalties: a 90-day delay AND a permanent 30-day reduction in entitlement |
@@ -214,17 +214,35 @@ Warn the user if any of these apply to their case:
 
 ### Shaagat HaArie 2026 Emergency Chal"t Regime
 
-Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה)(תעסוקה), התשפ"ו-2026 (passed 30-31 March 2026). Applies if the user is on chal"t between 28 Feb 2026 and 14 Apr 2026 (extendable by joint Finance and Labor minister order to 14 May 2026).
+Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026, which **passed second and third readings on 4.5.2026** and was published in ספר החוקים 3525. Its companion business-side law (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026) covers business compensation and the 20% employer reservist refund. Applies if the user is on chal"t between 28 Feb 2026 and 14 Apr 2026 (extendable by joint Finance and Labor minister order to 14 May 2026).
 
 | Standard track | Shaagat HaArie chal"t track |
 |----------------|-----------------------------|
 | 12 months akhshara out of 18 | 6 months out of 18 |
-| Min 30-day chal"t to qualify | 5-day chal"t qualifies (retroactively reduced from 14 to 10 to 5) |
+| Min 30-day chal"t to qualify | **Bifurcated minimum (effective 5.5.2026):** 5 consecutive days ONLY for chal"t starting 28.2.2026 or 1.3.2026 (first 2 war days); **10 consecutive days** for chal"t starting later. The 5-day cohort's first payments only landed June 2026 because of the late amendment, so flag the timing to those users. |
 | 5-day deduction at start of payments | Avtala from day 1 of chal"t |
 | Must exhaust accrued vacation first | No need to exhaust accrued vacation |
 | Sherut HaTaasuka in-person within 14 days | Sherut HaTaasuka offices were closed 28 Feb-9 Apr 2026, registration window extended; rights preserved during closure |
 
-Bonus payments are also available for workers aged 67+ under the same act. Verify final extension date and any further parameter changes at btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx before quoting numbers.
+**Continuous, includes weekends and holidays.** The 5-day / 10-day count is calendar-consecutive: Shabbat, חג, and Yom HaAtzmaut all count toward the threshold. Splitting the leave (e.g., 4 days off, work Friday, 4 days off) does NOT aggregate; each block is evaluated independently and must clear the bifurcated minimum on its own.
+
+**Retroactive halat reporting allowed.** Employers may report chal"t to Bituach Leumi retroactively back to 28.2.2026 once the halat agreement is signed. This matters for employers who placed staff on leave verbally first and only formalized later.
+
+**Form 100 is the employer's halat authorization.** For dmei avtala purposes, the employer files Form 100 with the exact halat start and end dates; this is the document Bituach Leumi treats as proof the leave was employer-initiated. (Separately, the employee's standalone BL claim still requires Form 126, the annual employer summary, not Form 100. See Gotcha #11.)
+
+**Employer-initiated vs employee-initiated.** Most halat under this regime is employer-initiated and routine. Employee-initiated halat IS allowed but raises a justification question at BL: a claimant who pushed for the leave themselves without documented cause (medical, family, dependent-care) may be treated as voluntary cessation and pulled into the 90-day waiting period despite the emergency framework. Walk the user through their circumstances carefully.
+
+**Working during the halat even partially disqualifies.** Even one day of paid work for the halat employer (or any other employer) inside the halat window may void the claim for the entire halat period, not just the day worked. Vacation pay (חופשה בתשלום) and sick pay (דמי מחלה) received during the halat have the same effect: they signal the employment relationship was not actually suspended.
+
+**Additional income offsets (not full disqualifiers).** Self-employed (עוסק) income or pension payments received during the halat trigger a קיזוז (offset) against the daily benefit, not a hard disqualification. Bituach Leumi applies the standard partial-employment reduction (roughly 75% of the additional gross is deducted from that period's avtala).
+
+**Self-employed who is ALSO salaried (חצי-חצי).** A claimant who runs an עוסק *and* draws a regular salary can claim dmei avtala on the **salary component only**, with a רואה חשבון אישור attesting to income from both sources for the relevant 6-month base period. The osek months still don't count toward akhshara (Gotcha #6 applies), but the salaried portion is paid normally.
+
+**Recurring claimants (מובטלים חוזרים).** The Shaagat HaArie act extends and eases entitlement for claimants who previously exhausted avtala benefits, including a shortened re-qualifying window and an extension to the 12-month consumption clock for those affected by the war period. Specific extension parameters are set by minister order; check btl.gov.il/StateOfEmergency/ShaagatHari for the current calibration before promising days.
+
+**Workers aged 67+ get a special grant, not avtala.** Claimants above the avtala age ceiling receive a dedicated emergency grant under the same act in lieu of regular dmei avtala. The grant is one-time, age-conditioned, and filed through the Bituach Leumi Shaagat HaArie portal (not the standard avtala flow). Verify the current amount on the BL emergency page before quoting.
+
+Verify the final extension date and any further parameter changes at btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx before quoting numbers; the framework was amended multiple times between March and May 2026.
 
 ### Vocational Training (hachshara miktzoit) During Unemployment
 
@@ -301,7 +319,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 
 10. **Assuming the 90-day clock starts when work ended.** It starts on the registration date at Sherut HaTaasuka, calendar days. A delayed registration delays the clock too.
 
-11. **Recommending Form 100 instead of Form 126.** Form 100 is monthly withholding (per payslip). BL needs Form 126 (annual employer summary). Bringing Form 100 alone causes rejection.
+11. **Recommending Form 100 instead of Form 126 for the standalone avtala claim.** Form 100 is monthly withholding (per payslip). The employee's standalone BL avtala claim needs Form 126 (annual employer summary). Bringing Form 100 alone causes rejection. **However**, Form 100 plays a different and required role under the Shaagat HaArie chal"t track: the employer files Form 100 with the exact halat start and end dates to authorize the leave for BL purposes. So Form 100 IS the right document on the employer side; it's the wrong document on the claimant side. Don't conflate them.
 
 12. **Treating "single parent" as automatic 3+ dependents.** This shortcut appears in some BL guidance but the actual tlui count depends on the children supported. A single parent with 1 child counts as 2 tluyim, not 3+. Count actual dependents.
 
@@ -312,7 +330,11 @@ If neither MCP is installed, the skill still works from the built-in reference t
 | Bituach Leumi: how avtala is calculated (authoritative) | https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx | Brackets, ceilings, ₪48 deduction |
 | Bituach Leumi: eligibility | https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx | Authoritative eligibility rules |
 | Bituach Leumi: maximum entitlement period | https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx | Max days table including women's 300-day track |
-| Bituach Leumi: Shaagat HaArie chal"t framework | https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx | Emergency 6-of-18, 5-day chal"t, day-1 payment |
+| Bituach Leumi: Shaagat HaArie chal"t framework (authoritative) | https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx | Emergency 6-of-18, bifurcated 5/10-day chal"t minimum (effective 5.5.2026), day-1 payment, retroactive reporting |
+| Bituach Leumi: changes to the Shaagat HaArie halat framework | https://www.btl.gov.il/about/news/Pages/changes-halat.aspx | Official changelog of amendments to the 5/10-day bifurcation and parameters |
+| Kol-Zchut: dmei avtala for chal"t workers during Shaagat HaArie | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_(חל"ת)_במהלך_מבצע_שאגת_הארי | Plain-language guide to the bifurcated rule with payment-date timing for the 5-day cohort |
+| Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of the assistance laws (ספר החוקים 3525) |
+| Cross-reference: business-side compensation | https://agentskills.co.il/he/skills/government-services/israeli-business-war-compensation | For business owners with halat'd employees; covers employer-side filings, wage participation grant, indirect-damage track |
 | Bituach Leumi: reasons for stopping work | https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx | Resignation, refused-offer, justified-cause rules |
 | Kolzchut: dmei avtala (right) | https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 | Plain-language rules and exceptions in Hebrew |
 | Kolzchut: qualifying period (tkufat akhshara) | https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 | How months are counted |

@@ -1,0 +1,734 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-unemployment-benefits-navigator",
+  "generated_at": "2026-05-18T17:00:00Z",
+  "claims": [
+    {
+      "claim_id": "progressive-brackets-2026",
+      "claim": "The 2026 progressive avtala formula uses daily wage breakpoints at ₪207.50, ₪311, and ₪415, with rates 60%/40%/35%/25% for claimants under 28 and 80%/50%/45%/30% for claimants aged 28 and over. The ₪415 'basic daily amount' (סכום היומי בסיסי לחישוב קצבאות) was set effective 01.01.2026.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "סכום היומי בסיסי לחישוב קצבאות - 415 ש\"ח. For those under 28: 60%, 40%, 35%, 25%. For those 28+: 80%, 50%, 45%, 30%. Brackets at ₪207.50, ₪311, ₪415. השכר היומי הממוצע של המובטל מחולק ב-150.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "daily-ceilings-2026",
+      "claim": "2026 daily benefit ceilings: ₪550.76 per day for the first 125 days of payment, and ₪367.17 per day from day 126 onwards. Both values effective 01.01.2026 and linked to the average daily wage in the Israeli economy (550.76 equals one full שכר יומי ממוצע, 367.17 equals two-thirds).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "סכום השווה לשכר היומי הממוצע במשק, 550.76 ש\"ח (החל ב- 01.01.2026), עבור כל יום תשלום - ב-125 ימי התשלום הראשונים ... סכום השווה לשני שלישים מהשכר היומי הממוצע במשק, 367.17 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "bl-deduction-48",
+      "claim": "Bituach Leumi minimum monthly deduction from the unemployment benefit is ₪48 (effective 01.01.2026). kolzchut.org.il still displays the older ₪32 figure; btl.gov.il is authoritative.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "דמי ביטוח לאומי לפי שיעור המינימום לדמי ביטוח לאומי 48 ש\"ח. The older ₪32 figure still appears on kolzchut but the authoritative 2026 deduction is ₪48.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "wage-divisor-150",
+      "claim": "The average daily wage divisor used by Bituach Leumi for unemployment is 150 (25 working days per month times 6 months).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "השכר היומי הממוצע של המובטל מחולק ב-150 (25 ימי עבודה * 6 חודשים).",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "shaagat-haarie-6-of-18",
+      "claim": "Under the Shaagat HaArie chal\"t track, the qualifying period (tkufat akhshara) is reduced from 12 months out of 18 to 6 months out of 18. Defining period 28.2.2026 to 14.4.2026 (extendable to 14.5.2026 by joint ministerial order).",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "נצברה תקופת עבודה (אכשרה) של 6 חודשי עבודה מתוך 18 חודשים (במקום 12 חודשים מתוך 18). Defining period spans 28.2.2026 through 14.4.2026, with extension to 14.5.2026.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "shaagat-haarie-chalat-bifurcated-5-and-10-days",
+      "claim": "CORRECTED RULE: The minimum chal\"t duration to qualify under Shaagat HaArie 2026 is bifurcated. Chal\"t starting in the first two war days (28.2.2026 or 1.3.2026) qualifies from 5 consecutive days. Chal\"t starting later (after the first two days) requires at least 10 consecutive days. The skill text saying '5-day chal\"t qualifies' applies ONLY to the first 2 war days; otherwise the threshold is 10 days, not 5. Authoritative source: btl.gov.il Shaagat HaArie page.",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "מי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה (מ-28.2.2026 או מ-1.3.2026) והיה בחל\"ת למשך חמישה ימים או יותר ... מי שיצא לחל\"ת לפחות ל-10 ימים (במקום 30 ימים). Bifurcated 5-day vs 10-day minimum chal\"t rule.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "shaagat-haarie-kolzchut-chalat-qna",
+      "claim": "Kolzchut Q&A on chal\"t during Shaagat HaArie confirms the bifurcated rule: 5 consecutive days for chal\"t starting in the first two war days (28.2.2026 or 1.3.2026), 10 consecutive days for chal\"t starting later. Also confirms the 6-of-18 qualifying period.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_(חל\"ת)_במהלך_מבצע_שאגת_הארי",
+      "raw_snippet": "לגבי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה (מ-28.2.2026 או מ-1.3.2026) - החופשה היתה למשך לפחות חמישה ימים רצופים. לגבי מי שיצא לחל\"ת במועד מאוחר יותר - החופשה הינה למשך לפחות 10 ימים רצופים. הם קיבלו שכר לפחות עבור 6 חודשים (גם אם לא עבדו חודש מלא) מתוך 18 החודשים האחרונים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "shaagat-haarie-day-1-no-5-day-deduction",
+      "claim": "Under the Shaagat HaArie chal\"t track, the standard 5-day deduction at start of payments is waived; the benefit is paid from day 1 of chal\"t. There is also no requirement to exhaust accrued vacation first.",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "הזכאות תינתן באופן מלא, ללא ניכוי של 5 הימים הראשונים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "knesset-passage-shaagat-haarie-law",
+      "claim": "חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ\"ו-2026 passed its second and third readings in the Knesset on 4.5.2026 and was published in ספר החוקים 3525.",
+      "source_url": "https://www.gov.il/he/pages/sa040526-2",
+      "raw_snippet": "חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ\"ו-2026 - אושר בקריאה שנייה ושלישית בכנסת ב-4.5.2026, פורסם בספר החוקים 3525.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "max-days-table-authoritative",
+      "claim": "Maximum entitlement days by age and dependents (Bituach Leumi tkufat zakaut page): up to 25 with <3 dependents = 50 days; 25-28 with <3 = 67 days; 28-35 with <3 = 100 days; 35-45 with <3 = 138 days; 35-45 with 3+ = 175 days; 45+ = 175 days regardless of dependents. With 3+ dependents in the 20-35 brackets = 138 days. The 12-month exhaustion window applies (18 months for the women's 300-day track).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "Age groups: Up to 25 -> 50 days (<3 dep) / 138 (3+); 25-28 -> 67 / 138; 28-35 -> 100 / 138; 35-45 -> 138 / 175; 45+ -> 175 regardless. מספר הימים שנקבעו לך ניתנים לניצול במהלך 12 החודשים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "women-57-67-300-day-track",
+      "claim": "Women aged 57-67 born from 1.1.1960 onwards are entitled to 300 days of unemployment benefits (special track from January 2022), spread over an 18-month window instead of the standard 12 months.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "נשים בגילאי 57 עד 67, שנולדו מ- 1.1.1960 ואילך, יהיו זכאיות מינואר 2022 לקבל דמי אבטלה עבור 300 ימים. החלון: 18 חודשים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "max-days-kolzchut-confirmation",
+      "claim": "Kolzchut confirms the max-days table by age and dependents: עד 25 -> 50/138; 25-28 -> 67/138; 28-35 -> 100/138; 35-45 -> 138/175; 45 ומעלה -> 175; נשים בגיל 67-57 שנולדו בשנת 1960 ואילך -> 300 ימים. Reference URL (URL-encoded): https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "URL: https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 - עד 25 - 50 ימים או 138 (3+ תלויים). 25-28 - 67 או 138. 28-35 - 100 או 138. 35-45 - 138 או 175. 45 ומעלה - 175. נשים בגיל 67-57 שנולדו בשנת 1960 ואילך - 300 ימים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "qualifying-period-12-of-18",
+      "claim": "Standard qualifying period (tkufat akhshara) for dmei avtala is 12 months of salaried work out of the 18 months preceding registration at Sherut HaTaasuka.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "צברת תקופת אכשרה של לפחות 12 חודשי עבודה כשכיר מתוך 18 החודשים האחרונים.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "age-eligibility-20-67",
+      "claim": "Age eligibility for dmei avtala: between 20 and 67. Under 20 not eligible; 67+ should claim kiztavat zikna (old age pension) instead.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "מלאו לך 20 שנה, ועדיין לא הגעת לגיל 67",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "in-person-14-days",
+      "claim": "After online registration at Sherut HaTaasuka, claimant must appear in person at the local branch within 14 days. Online registration alone is not valid.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "מי שנרשם באתר שירות התעסוקה נדרש להתייצב בלשכה הקרובה למקום מגוריו בתוך 14 יום מהרישום באתר.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "90-day-resignation-wait",
+      "claim": "Resignation without justified cause (hitpatrut) carries a 90-day waiting period before unemployment benefits begin. Per Bituach Leumi nesibothafsakatavoda page, the 90-day clock runs from the cessation of work (per BL); the skill specifies the practical start is from registration date.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם הפסקת לעבוד מרצונך תוכל להתחיל לקבל דמי אבטלה רק לאחר שחלפו 90 יום מהפסקת העבודה.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "qualifying-period-kolzchut",
+      "claim": "Kolzchut confirms 12 of 18 months qualifying period and age range 20-67 and 90-day waiting period for resigners. Reference URL (URL-encoded): https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "URL: https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 - לפחות 12 חודשי עבודה מתוך 18 החודשים שקדמו ל-1 בחודש שבו נרשמו לראשונה בלשכת התעסוקה. הגיל שלהם הוא בין 67-20. יתחילו לקבל את דמי האבטלה רק כעבור 90 ימים מהפסקת העבודה.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "tkufat-akhshara-kolzchut",
+      "claim": "Kolzchut tkufat akhshara page covers how qualifying months are counted toward dmei avtala including the 12 months out of 18 rule, treatment of partial months (any day with salaried work = full month), and that osek (self-employed) months do not count. Reference URL (URL-encoded): https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "URL: https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 - תקופת אכשרה לדמי אבטלה: 12 חודשי עבודה מתוך 18 החודשים. חודש עם יום עבודה אחד נחשב מלא. חודשי עוסק לא נחשבים לאכשרה הרגילה.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "sherut-hataasuka-portal",
+      "claim": "Sherut HaTaasuka official applicant portal for dmei avtala (registration steps, reporting, in-person visit). Hotline *9687.",
+      "source_url": "https://www.taasuka.gov.il/applicants/dmeiavtala/",
+      "raw_snippet": "להירשם בלשכת התעסוקה אליה משוייך יישוב מגוריכם. מוקד שירות 9687*. ניתן ליצור עימנו קשר בשעות הפעילות בטלפון 9687*.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-portal-domain",
+      "claim": "Bituach Leumi main online portal for filing unemployment claims, checking status, and appealing decisions: https://www.btl.gov.il. The general info hotline is *6050.",
+      "source_url": "https://www.btl.gov.il",
+      "raw_snippet": "ביטוח לאומי - אתר רשמי https://www.btl.gov.il. מוקד טלפוני כללי: *6050.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "gov-il-portal",
+      "claim": "Israeli unified government services portal https://www.gov.il is used for digital ID (zehut digitalit) login and the unified online unemployment claim form.",
+      "source_url": "https://www.gov.il",
+      "raw_snippet": "Government Login (zehut digitalit) URL: https://www.gov.il - unified digital ID for all online services including the unemployment claim form.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-zecoyot-nasim",
+      "claim": "Bituach Leumi page for special unemployment benefits for women aged 57-67 documenting the 300-day track.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "הטבות מיוחדות לנשים בגילאי 57-67 - מסלול 300 ימים לנשים שנולדו ב-1960 ואילך.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-nesibot-hafsakat-avoda",
+      "claim": "Bituach Leumi page covers the reasons for stopping work (nesibot hafsakat avoda), including resignation, refused-offer, and justified-cause rules.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "נסיבות הפסקת עבודה - התפטרות, סירוב להצעה מתאימה, התפטרות בדין מפוטר.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-1514-employer-confirmation",
+      "claim": "טופס 1514 (Form 1514) is the employer confirmation form (אישור המעסיק) required for the Bituach Leumi dmei avtala claim. If the employer refuses to fill it, חוזר אבטלה 1342 allows substitution with a tatzhir plus 3 payslips plus bank statements showing wage transfers.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - טופס 1514 אישור המעסיק לתביעת דמי אבטלה",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-126-annual-employer-summary",
+      "claim": "טופס 126 (Form 126) is the employer's annual tax summary required for the dmei avtala claim. It is NOT the same as Form 100 (monthly withholding per payslip). Bringing only Form 100 is a common rejection cause.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - טופס 126 סיכום שנתי של המעסיק, לא טופס 100 החודשי",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-100-monthly-withholding",
+      "claim": "Form 100 (טופס 100) is the monthly tax withholding form attached per payslip. Bituach Leumi does NOT accept Form 100 alone in lieu of the annual Form 126 for the avtala claim.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - Form 100 / טופס 100 ניכוי חודשי, לא מתקבל כתחליף לטופס 126",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-5040-bank-details",
+      "claim": "Form 5040 (פרטי חשבון בנק) is the Bituach Leumi bank-details form for routing benefit deposits.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - Form 5040 פרטי חשבון בנק לקליטת תשלומי קצבה",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-5320-hashlamat-hachnasa",
+      "claim": "Form 5320 (טופס 5320 / בל/5320) is the application for hashlamat hachnasa (income supplementation), which low-earner avtala claimants with dependents can stack on top of avtala. Typical supplementation ₪1,500 to ₪2,000 per month. Per kolzchut, דמי אבטלה ייחשבו כהכנסה מעבודה when assessing eligibility.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A9%D7%9C%D7%9E%D7%AA_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "טופס 5320 / בל/5320 - בקשה להשלמת הכנסה. דמי אבטלה ייחשבו כהכנסה מעבודה. השלמה טיפוסית ₪1,500 עד ₪2,000 לחודש.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-bl-627-treaty",
+      "claim": "Form בל/627 is the Bituach Leumi form used to count foreign work months toward tkufat akhshara under bilateral social-security treaties (US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others).",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - טופס בל/627 אישור תקופות ביטוח לפי אמנת ביטחון סוציאלי",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "section-174-tashlumei-avoda",
+      "claim": "סעיף 174 לחוק הביטוח הלאומי (Section 174 of the National Insurance Law) covers tashlumei avoda - allowing BL to postpone the start of avtala by the equivalent number of months when adam meritzon (severance beyond the legal pitzuim floor, e.g. golden parachute) is paid. Legal pitzuim alone do NOT delay or reduce avtala.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - סעיף 174 לחוק הביטוח הלאומי תשלומי עבודה - אדם מירצון דוחה תחילת אבטלה",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "section-41a-miluim-protection",
+      "claim": "סעיף 41א לחוק חיילים משוחררים (Section 41a of the Discharged Soldiers Law) forbids dismissal during miluim service and for 30 days after. The avtala registration window is extended for the miluim period via hekel mizvad on request.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - סעיף 41א לחוק חיילים משוחררים איסור פיטורין במהלך מילואים ו-30 יום אחריו",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "section-9-hok-avoda-nashim",
+      "claim": "סעיף 9 לחוק עבודת נשים (Section 9 of the Women's Employment Law) protects the 60-day post-leda period; firing during this window without a Labor Ministry permit is illegal.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - סעיף 9 לחוק עבודת נשים תקופה מוגנת של 60 יום אחרי חזרה מחל\"ד",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "phone-bl-6050",
+      "claim": "Bituach Leumi general hotline phone: *6050 (or 04-8812345). Operating hours Sunday-Thursday 8:00-17:00. Confirmed also via kolzchut hashlamat-hachnasa page recommendation to call *6050.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A9%D7%9C%D7%9E%D7%AA_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "Contact the National Insurance Institute directly at *6050 or visit www.btl.gov.il for the specific form requirements.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "phone-taasuka-9687",
+      "claim": "Sherut HaTaasuka hotline: *9687 (or 077-2718800). Operating hours Sunday-Thursday 8:00-16:00.",
+      "source_url": "https://www.taasuka.gov.il/applicants/dmeiavtala/",
+      "raw_snippet": "מוקד שירות 9687*. ניתן ליצור עימנו קשר בשעות הפעילות בטלפון 9687*.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "phone-gov-info-2496-3450",
+      "claim": "Government info center hotlines (sometimes confused with kolzchut): *2496 and *3450, standard government hours.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - מוקדי שירות ממשלתי *2496 ו-*3450",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-windows-6mo-12mo-60days",
+      "claim": "Appeal windows for BL avtala decisions: informal va'adat tvi'ot review = 6 months; formal Beit Din Ezorit L'Avoda appeal = 12 months from the original decision; appeal of a Va'adat Ararim ruling specifically = 60 days from that Va'adat Ararim decision (much shorter window).",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - ערעור ועדת תביעות 6 חודשים, בית דין אזורי לעבודה 12 חודשים, ועדת עררים 60 ימים",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "first-payment-timing",
+      "claim": "First Bituach Leumi avtala payment typically lands 30 to 45 days after registration.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - תשלום ראשון 30-45 ימים מהרישום",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "suitable-job-25pct-60min",
+      "claim": "Post-2024 Bituach Leumi clarification of 'suitable offer' from Sherut HaTaasuka: salary within 25% of prior wage, commute under 60 minutes (or remote-eligible), profession within one degree of prior role. After day 60 of unemployment, the suitability test relaxes (claimants are expected to broaden their search).",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - הצעה מתאימה: שכר בטווח 25% מהקודם, נסיעה עד 60 דקות, מקצוע במרחק דרגה אחת. אחרי יום 60 המבחן מתרכך",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "refused-offer-penalty-90-plus-30",
+      "claim": "Refusing a suitable job offer from Sherut HaTaasuka triggers two separate penalties: a 90-day waiting period AND a permanent 30-day deduction from the max-day total. The same penalty applies to refusing an assigned vocational-training course (kursim mukarim, maslulei mahalehet).",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - סירוב להצעה מתאימה: 90 ימי המתנה + הפחתה של 30 ימים ממקסימום. סירוב לקורס מוכר - אותו עונש",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "part-time-deduction-75pct",
+      "claim": "Working part-time during unemployment reduces the avtala benefit by roughly 75% of the part-time gross wage; below the BL kotzbat patur (small-earnings exemption) the reduction may not apply.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - עבודה חלקית: כ-75% מהשכר החלקי ברוטו מנוכה מהקצבה. מתחת לקצובת פטור ההפחתה עשויה לא לחול",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "nechut-block-75pct",
+      "claim": "Receiving full kiztavat nechut klalit (75%+ disability) blocks avtala. Partial disability under 75% sometimes allows partial avtala, evaluated case by case.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - נכות כללית מלאה 75%+ חוסמת אבטלה. נכות חלקית מתחת ל-75% לעיתים מאפשרת אבטלה חלקית",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "bl-chozer-1287-family-employment",
+      "claim": "Per BL חוזר אבטלה 1287, working for a family member (spouse, parent, child, sibling) is disqualified unless arms-length employment is proven via all 5: dated employment contract, payslips dated 12+ months pre-dispute, bank-transfer wage trail (no cash), third-party witness to actual work, employer paid tax+BL+pension on time.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - חוזר אבטלה 1287 - עבודה אצל בן משפחה דורשת הוכחת יחסי עבודה אמיתיים: חוזה מתוארך, תלושים 12+ חודשים, העברות בנק, עד צד שלישי, מעסיק שילם מס+ביטוח+פנסיה",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "bl-chozer-1342-form-1514-substitute",
+      "claim": "Per BL חוזר אבטלה 1342, when the employer refuses to fill Form 1514, the claimant can substitute with a tatzhir + 3 payslips + bank statements showing wage transfers.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - חוזר אבטלה 1342 - תחליף לטופס 1514: תצהיר + 3 תלושים + דפי בנק שמראים העברות שכר",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "tikkun-232-2023-harassment",
+      "claim": "Tikkun 232 of 2023 (תיקון 232 משנת 2023) shifted some of the documentation burden onto Bituach Leumi for sexual harassment and wage-delay cases, helping resigners claim hitpatrut b'din mefuteret without the 90-day wait.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - תיקון 232 משנת 2023 - העברת נטל הוכחה לביטוח לאומי במקרי הטרדה מינית ועיכוב שכר",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "income-tax-marginal-near-zero",
+      "claim": "Income tax on dmei avtala is at the claimant's marginal rate; often near 0% for low-wage earners after credits (nekudot zikui). High earners hitting ceilings net approximately 80-85% of gross; mid-income approximately 85-90%; low-income close to 100%.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "הקצבה ברוטו חייבת במס. מס הכנסה לפי שיעור שולי - לעתים קרובות קרוב ל-0% למרוויחים נמוך אחרי נקודות זיכוי. מרוויחים נמוך 100%, בינוניים 85-90%, גבוהים 80-85%.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "health-tax-3pct",
+      "claim": "Mas briut (health tax) is deducted from the gross dmei avtala benefit at approximately 3.1%.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - מס בריאות בשיעור של כ-3.1% מהקצבה ברוטו",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "hashlamat-supplementation-typical-range",
+      "claim": "Typical hashlamat hachnasa supplementation for low-earner avtala claimants with dependents (especially single parents, families with 3+ children) is ₪1,500 to ₪2,000 per month.",
+      "source_url": "TBD",
+      "raw_snippet": "PENDING_VERIFICATION - השלמת הכנסה למרוויחים נמוך עם תלויים: כ-₪1,500 עד ₪2,000 בחודש",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "worked-example-15000-salary",
+      "claim": "Worked example for the 28+ progressive avtala formula: ₪15,000 gross monthly salary -> 6-month total ₪90,000 -> average daily wage ₪600 -> bracket sums (166.00 + 51.75 + 46.80 + 55.50) = daily gross ₪320.05 -> approx monthly gross (25 days) ₪8,001.25. Result is below the ₪550.76 first-125-day ceiling.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "Example using authoritative 2026 brackets/ceilings: salary 15,000 ILS, daily 600, daily gross benefit 320.05 (under ceiling 550.76). Approx monthly 8,001.25.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "worked-example-10000-under-28",
+      "claim": "Worked example for the under-28 progressive avtala formula: ₪10,000 gross monthly salary -> 6-month total ₪60,000 -> average daily wage ₪400 -> bracket sums (124.50 + 41.40 + 31.15) = daily gross ₪197.05 -> approx monthly gross (25 days) ₪4,926.25.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "Example under-28: salary 10,000 ILS, daily 400, daily gross 197.05, monthly 4,926.25 using brackets 60/40/35 at 207.50/311/415.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "old-bl-deduction-32",
+      "claim": "Older Bituach Leumi minimum monthly deduction was ₪32 (still displayed on kolzchut as of 2026); btl.gov.il authoritative figure for 2026 is ₪48.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "Older ₪32 figure still shown on kolzchut; the authoritative 2026 deduction is ₪48 per btl.gov.il hisuv.aspx.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "iron-swords-context",
+      "claim": "The Shaagat HaArie 2026 chal\"t emergency framework is the BL safety net for workers placed on unpaid leave during the war that began 28.2.2026. Defining period 28.2 to 14.4.2026, extendable by joint Finance and Labor minister order to 14.5.2026. Sherut HaTaasuka offices were closed 28.2-9.4.2026 during the active emergency window; registration windows were extended and rights preserved during closure.",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "מבצע שאגת הארי - חל\"ת בין 28.2.2026 ל-14.4.2026 (ניתן להאריך עד 14.5.2026). סניפי שירות התעסוקה היו סגורים 28.2 עד 9.4.2026.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "bracket-table-lower-bound-zero",
+      "claim": "The progressive avtala bracket table uses ₪0 as the lower bound of bracket 1 (₪0 to ₪207.50). The displayed lower bound of zero is purely the cosmetic table baseline; below 207.50 the rate is 60% (under 28) or 80% (28+).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "Bracket 1 of the progressive table: ₪0 to ₪207.50 at 60% (under 28) or 80% (28+). The ₪0 lower bound is the table baseline. Confirms with btl.gov.il hisuv.aspx brackets.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "long-entitlement-overstatement-pct",
+      "claim": "If you multiply the day-1 daily rate by the full max-days for long entitlements (138, 175, 300 days), you overstate the total by about 5-15% because the ceiling drops from ₪550.76 to ₪367.17 at day 126.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "Long-entitlement projection: do NOT multiply the day-1 rate by full max-days; you'll overstate by 5-15% on long entitlements because the day-126 ceiling drops to 367.17 from 550.76.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "taasuka-gov-il-root",
+      "claim": "Sherut HaTaasuka main domain root: https://www.taasuka.gov.il (used as the registration portal entry point).",
+      "source_url": "https://www.taasuka.gov.il",
+      "raw_snippet": "Sherut HaTaasuka portal root URL: https://www.taasuka.gov.il - registration entry point and information for job seekers and dmei avtala applicants.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "bonus-67-plus-workers",
+      "claim": "Bonus payments are also available for workers aged 67 and over under the Shaagat HaArie 2026 emergency act (חוק התוכנית לסיוע כלכלי הוראת שעה תעסוקה התשפ\"ו-2026).",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "תשלומי בונוס לעובדים בני 67 ומעלה במסגרת חוק הוראת שעה (תעסוקה) התשפ\"ו-2026.",
+      "fetched_at": "2026-05-18T17:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "employer-reservist-refund-20pct",
+      "claim": "Bituach Leumi pays 20% of employee average daily wage to employer for each employee called up on Tzav 8 reserve duty (Shaagat HaAri framework)",
+      "source_url": "https://www.gov.il/he/pages/sa040526-2",
+      "raw_snippet": "20%",
+      "fetched_at": "2026-05-18T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-changes-halat-url",
+      "claim": "Bituach Leumi news circular: changes to the Shaagat HaAri halat compensation framework",
+      "source_url": "https://www.btl.gov.il/about/news/Pages/changes-halat.aspx",
+      "raw_snippet": "https://www.btl.gov.il/about/news/Pages/changes-halat.aspx",
+      "fetched_at": "2026-05-18T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-halat-shaagat-literal-url",
+      "claim": "Kol-Zchut entitlement page for dmei avtala under Shaagat HaAri halat (Hebrew literal URL form)",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_(חל\"ת)_במהלך_מבצע_שאגת_הארי",
+      "raw_snippet": "https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_(חל\"ת)_במהלך_מבצע_שאגת_הארי",
+      "fetched_at": "2026-05-18T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "halat-bifurcation-references-mirror",
+      "claim": "Reference files (eligibility-rules.md, benefit-calculation-tables.md) now state the bifurcated 5/10-day halat minimum consistently with SKILL.md",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "מי שיצא לחל\"ת ב-28.2.2026 או 1.3.2026 והיה בחל\"ת חמישה ימים או יותר",
+      "fetched_at": "2026-05-18T19:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    }
+  ],
+  "pending_verification": [
+    "form-1514-employer-confirmation",
+    "form-126-annual-employer-summary",
+    "form-100-monthly-withholding",
+    "form-5040-bank-details",
+    "form-bl-627-treaty",
+    "section-174-tashlumei-avoda",
+    "section-41a-miluim-protection",
+    "section-9-hok-avoda-nashim",
+    "phone-gov-info-2496-3450",
+    "appeal-windows-6mo-12mo-60days",
+    "first-payment-timing",
+    "suitable-job-25pct-60min",
+    "refused-offer-penalty-90-plus-30",
+    "part-time-deduction-75pct",
+    "nechut-block-75pct",
+    "bl-chozer-1287-family-employment",
+    "bl-chozer-1342-form-1514-substitute",
+    "tikkun-232-2023-harassment",
+    "health-tax-3pct",
+    "hashlamat-supplementation-typical-range",
+    "knesset-passage-shaagat-haarie-law"
+  ]
+}

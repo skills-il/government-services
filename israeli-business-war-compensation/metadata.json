@@ -38,7 +38,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",
@@ -53,8 +53,12 @@
   "volatility": "legislative",
   "authoritative_sources": [
     { "url": "https://www.gov.il/he/pages/press_11032026", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/he/pages/sa040526-2", "type": "regulator", "language": "he" },
     { "url": "https://www.gov.il/he/service/compensation-indirect-damage", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari", "type": "regulator", "language": "he" },
     { "url": "https://www.nevo.co.il/law_html/law01/273_001.htm", "type": "statute", "language": "he" },
+    { "url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx", "type": "regulator", "language": "he" },
     { "url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx", "type": "regulator", "language": "he" },
     { "url": "https://www.gov.il/he/departments/ministry_of_finance", "type": "regulator", "language": "he" },
     { "url": "https://www.kolzchut.org.il", "type": "knowledge-base", "language": "he" }

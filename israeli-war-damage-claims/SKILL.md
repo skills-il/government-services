@@ -1,8 +1,7 @@
 ---
 name: israeli-war-damage-claims
-description: "Guide users through filing property damage claims from rocket attacks and hostilities in Israel: documenting damage, filing with the Tax Authority Compensation Fund (Keren Pitzuim), home contents insurance claims, assessor visits, and appeals. Use when user asks about property damage from war, rockets, missiles, 'nezek yashir', 'mas rechush', 'keren pitzuim', compensation fund, war damage claim, damaged apartment, broken windows from blast, or how to get compensation for hostility damage. Covers both the fast track (up to NIS 30,000) and regular track, optional contents insurance via the Tax Authority, and the appeal process (va'adot erar). Do NOT use for indirect/economic damage to businesses (nezek akifi), personal injury claims (use israeli-bituach-leumi), car damage from war (handled separately by insurance companies), or general home insurance comparisons (use israeli-insurance-comparator)."
+description: "Guide users through filing DIRECT property damage claims from rocket attacks and hostilities in Israel (Iron Swords and Shaagat HaAri 2026): documenting damage, filing with the Tax Authority Compensation Fund, home contents insurance, assessor visits, appeals. Use when user asks about physical property damage from war, rockets, missiles, 'nezek yashir', 'mas rechush', 'keren pitzuim', war damage claim, damaged apartment, broken windows from blast, or compensation for hostility damage. Covers fast track (up to NIS 30,000), regular track, optional contents insurance, and appeals (va'adot erar). Do NOT use for indirect/economic business damage like turnover decline or wage grants (use israeli-business-war-compensation), employee unpaid-leave dmei avtala (use israeli-unemployment-benefits-navigator), personal injury (israeli-bituach-leumi), car damage (private insurance), or general home insurance (israeli-insurance-comparator)."
 license: MIT
-version: 1.0.1
 ---
 
 # Israeli War Damage Claims
@@ -24,9 +23,9 @@ First, determine what kind of damage the user has and which compensation track a
 | Contents above ceiling | תכולה מעל התקרה | Optional war damage insurance (ביטוח מלחמה רשות המסים) | Insurance claim |
 | Business property/equipment | נזק לעסק | Tax Authority Compensation Fund | Regular or Fast |
 | Vehicle damage | נזק לרכב | Private car insurance company | Insurance claim |
-| Economic loss (lost revenue, wages) | נזק עקיף | Tax Authority (separate indirect damage track) | Indirect damage claim |
+| Economic loss (lost revenue, wages) | נזק עקיף | Tax Authority (separate indirect damage track) | **Use `israeli-business-war-compensation`**, covers both Iron Swords and the Shaagat HaAri (March-April 2026) eligible-expenses track, with the wage participation grant, business continuity grant, and the 5/10-day חל"ת bifurcation |
 
-**Key distinction:** The Compensation Fund (under the Property Tax and Compensation Fund Law, 1961) handles direct physical damage. Indirect economic damage has a completely separate process and different deadlines.
+**Key distinction:** The Compensation Fund (under the Property Tax and Compensation Fund Law, 1961) handles direct physical damage. **Indirect economic damage has a completely separate process and different deadlines**, different statute (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026 for Shaagat HaAri; Iron Swords hora'at sha'a for that war), different portals, different forms, different appeals tracks. If the user's loss is from business turnover decline, employee wages, or fixed business costs (not physical damage to the building or contents), route to `israeli-business-war-compensation` immediately rather than continuing here.
 
 ### Step 2: Document the Damage Immediately
 

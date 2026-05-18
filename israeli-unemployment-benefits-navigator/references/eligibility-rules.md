@@ -46,7 +46,7 @@ The 90-day waiting period for resignation runs from the **registration date** at
 | End of fixed-term contract | 0 days | Full benefits |
 | Employer bankruptcy / dissolution | 0 days | Additionally can claim unpaid wages separately |
 | Unpaid leave (chalat) 30+ days, standard | 0 days | Under standard chalat rules |
-| Chal"t 5+ days inside Shaagat HaArie defining period | 0 days | Emergency track; no 5-day deduction; no need to exhaust accrued vacation |
+| Chal"t inside Shaagat HaArie defining period (bifurcated rule, effective 5.5.2026) | 0 days | Emergency track; no 5-day deduction; no need to exhaust accrued vacation. Minimum chal"t length: **5 consecutive days ONLY if the chal"t started 28.2.2026 or 1.3.2026** (first two war days); **10 consecutive days** for any chal"t starting later |
 | Unpaid leave under 30 days (standard) | Not eligible | Too short to qualify outside the emergency track |
 | Resignation (hitpatrut) without justified cause | 90 days | Calendar days, from registration date |
 | Resignation with justified cause (hitpatrut b'din mefuteret) | 0 days | See justified causes below |
