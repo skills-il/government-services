@@ -369,8 +369,8 @@ Result: User accesses immediate care, understands long-term recognition path.
 
 | MCP | What It Adds |
 |-----|--------------|
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government/kolzchut) | Direct access to Israel's authoritative rights and entitlements knowledge base; covers tagmul nosaf, tagmul meyuchad, miluim taxation, and all benefits referenced here |
-| [Data.gov.il Advanced](https://agentskills.co.il/he/mcps/government/data-gov-il) | Access to Israeli government datasets including Bituach Leumi reference data; useful for cross-checking benefit amounts and eligibility tables |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Direct access to Israel's authoritative rights and entitlements knowledge base; covers tagmul nosaf, tagmul meyuchad, miluim taxation, and all benefits referenced here |
+| [Data.gov.il Advanced](https://agentskills.co.il/he/mcp/data-gov-il) | Access to Israeli government datasets including Bituach Leumi reference data; useful for cross-checking benefit amounts and eligibility tables |
 
 ## Reference Links
 
@@ -381,7 +381,7 @@ Result: User accesses immediate care, understands long-term recognition path.
 | Keren HaSiyua LeMishartei HaMiluim | https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/ | Manak Mishpacha Mugdal, Manak Hashlama LeNofesh, all Aka grants |
 | Misrad HaBitachon Rehabilitation | https://www.hachvana.mod.gov.il | Disability claims, PTSD recognition, lone soldier benefits |
 | Manak Nezek Akif grant (gov.il) | https://www.gov.il/he/service/grant-for-reservists | Self-employed indirect-damage grant filing |
-| Kolzchut combat tax credits | https://www.kolzchut.org.il/he/נקודות_זיכוי_מס_הכנסה_ללוחמי_מילואים | Amendment 283 17-tier table, qualifying conditions |
+| Kolzchut combat tax credits | https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים | Amendment 283 17-tier table, qualifying conditions |
 | Knesset Amendment 283 announcement | https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx | Original legislation |
 
 ## Gotchas

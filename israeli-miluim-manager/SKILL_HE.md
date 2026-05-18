@@ -386,8 +386,8 @@ compatibility: "Requires Claude Code or compatible AI coding agent"
 
 | MCP | מה זה מוסיף |
 |-----|------------|
-| [כל-זכות (Kolzchut)](https://agentskills.co.il/he/mcps/government/kolzchut) | גישה ישירה לבסיס הידע של זכויות בישראל. מכסה תגמול נוסף, תגמול מיוחד, מיסוי מילואים וכל ההטבות שמופיעות במדריך |
-| [Data.gov.il Advanced](https://agentskills.co.il/he/mcps/government/data-gov-il) | גישה למאגרי נתוני ממשלה כולל נתוני ביטוח לאומי. שימושי לאימות צולב של סכומי הטבה וטבלאות זכאות |
+| [כל-זכות (Kolzchut)](https://agentskills.co.il/he/mcp/kolzchut) | גישה ישירה לבסיס הידע של זכויות בישראל. מכסה תגמול נוסף, תגמול מיוחד, מיסוי מילואים וכל ההטבות שמופיעות במדריך |
+| [Data.gov.il Advanced](https://agentskills.co.il/he/mcp/data-gov-il) | גישה למאגרי נתוני ממשלה כולל נתוני ביטוח לאומי. שימושי לאימות צולב של סכומי הטבה וטבלאות זכאות |
 
 ## קישורי עזר
 
@@ -398,7 +398,7 @@ compatibility: "Requires Claude Code or compatible AI coding agent"
 | קרן הסיוע למשרתי המילואים | https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/ | מענק משפחה מוגדל, מענק השלמה לנופש וכל מענקי אכ"א |
 | אגף השיקום במשרד הביטחון | https://www.hachvana.mod.gov.il | תביעות נכות, הכרה בפוסט-טראומה, הטבות לחיילים בודדים |
 | מענק נזק עקיף (gov.il) | https://www.gov.il/he/service/grant-for-reservists | הגשת מענק נזק עקיף לעצמאים |
-| כל-זכות נקודות זיכוי ללוחמים | https://www.kolzchut.org.il/he/נקודות_זיכוי_מס_הכנסה_ללוחמי_מילואים | טבלת תיקון 283 וכל תנאי הזכאות |
+| כל-זכות נקודות זיכוי ללוחמים | https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים | טבלת תיקון 283 וכל תנאי הזכאות |
 | הודעת הכנסת על תיקון 283 | https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx | הודעת חקיקה מקורית |
 
 ## מלכודות נפוצות
