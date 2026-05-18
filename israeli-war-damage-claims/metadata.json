@@ -32,7 +32,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "category": "government-services",
   "supported_agents": [
     "claude-code",
