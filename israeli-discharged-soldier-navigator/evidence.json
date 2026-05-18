@@ -1,0 +1,286 @@
+{
+  "skill_slug": "israeli-discharged-soldier-navigator",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-05-18",
+  "claims": [
+    {
+      "id": "pikadon-eligibility-12-months",
+      "claim": "Pikadon eligibility requires at least 12 months of mandatory service (IDF, MAGAV, Israel Police, SHABAS) or Sherut Leumi-Ezrachi; less than 12 months qualifies only if discharged for health reasons or training/operational injury",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "מי שהשתחררו משירות חובה בצה\"ל, במג\"ב, במשטרת ישראל, בשב\"ס, או סיימו שירות לאומי-אזרחי ששירתו לפחות 12 חודשים",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-14-days-visible",
+      "claim": "The Pikadon becomes available for withdrawal starting on the 14th day after end of mandatory service",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "כספי הפיקדון יעמדו לרשות המשתחררים החל מהיום ה-14 לאחר היום שבו סיימו את שירות החובה",
+      "confidence": "high"
+    },
+    {
+      "id": "discharge-grant-60-days",
+      "claim": "The discharge grant (manak shichrur) is transferred to the soldier's bank account within 60 days of discharge and can be used for any purpose",
+      "claim_type": "threshold",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "מענק שחרור, אשר יועבר לחשבונכם תוך 60 יום ממועד השחרור ובו תוכלו להשתמש לכל מטרה בה תבחרו",
+      "confidence": "high"
+    },
+    {
+      "id": "discharge-grant-20-60-days",
+      "claim": "More precisely, the discharge grant is transferred 20 to 60 days from end of service",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "סכום המענק מועבר ישירות לזכות חשבון הבנק האישי תוך 20 עד 60 ימים ממועד סיום השירות",
+      "confidence": "high"
+    },
+    {
+      "id": "six-permitted-purposes",
+      "claim": "The Pikadon may be withdrawn before the 5-year window only for six specific purposes: academic studies, professional training, marriage, starting a business, driving lessons, and purchasing an apartment / house / land for building a house. Renting is NOT included.",
+      "claim_type": "feature",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "לימודים אקדמיים, הכשרה מקצועית, נישואין, הקמת עסק, לימודי נהיגה ורכישת דירה, בית או קרקע לבניית בית",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-monthly-amounts-2026",
+      "claim": "Monthly Pikadon credit by service type (Feb 2026 indexed values): combat (lochem) 978.34 NIS, combat support (tomech lechima) 815.28 NIS, rear/other 652.23 NIS, civic-national service 652.23 NIS",
+      "claim_type": "currency",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "Combat soldiers: 978.34 ₪ לכל חודש שירות. Combat support: 815.28 ₪ לכל חודש שירות. Rear/Other: 652.23 ₪ לכל חודש שירות. National civilian service: 652.23 ₪ לכל חודש שירות.",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-tax-exempt-9-27",
+      "claim": "Pikadon withdrawals are exempt from income tax per Section 9(27) of the Income Tax Ordinance (Pkudat Mas Hachnasa)",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "מכספי הפיקדון האישי לא מנוכה מס הכנסה (פקודת מס הכנסה, סעיף 9(27))",
+      "confidence": "high"
+    },
+    {
+      "id": "five-year-auto-transfer",
+      "claim": "At the end of 5 years from end of mandatory service, the remaining Pikadon balance may be used for any purpose; it is auto-transferred to the soldier's bank account (60-day notification, 7 business days actual credit)",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "בתום 5 שנים מסיום שירות החובה או השירות הלאומי-אזרחי ניתן לממש את יתרת כספי הפיקדון עבור כל מטרה. יתרת הפיקדון תועבר לחשבון הבנק באופן אוטומטי",
+      "confidence": "high"
+    },
+    {
+      "id": "service-type-cap-32-28",
+      "claim": "Pikadon and grant are credited/paid only up to 32 months for male soldiers and 28 months for female soldiers; service beyond that (unpaid extension) does not increase the deposit or grant",
+      "claim_type": "threshold",
+      "source_url": "https://www.hilan.co.il/%D7%9E%D7%A8%D7%9B%D7%96-%D7%99%D7%93%D7%A2/%D7%97%D7%A7%D7%99%D7%A7%D7%94/%D7%97%D7%95%D7%A7%D7%99%D7%9D-%D7%A9%D7%95%D7%A0%D7%99%D7%9D/%D7%97%D7%95%D7%A7-%D7%A7%D7%9C%D7%99%D7%98%D7%AA-%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D/%D7%A4%D7%A8%D7%A7-%D7%92-%D7%A4%D7%A7%D7%93%D7%95%D7%9F-%D7%95%D7%9E%D7%A2%D7%A0%D7%A7/",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "לא ייזקף פיקדון ולא ישולם מענק בעד תקופת השירות ללא תשלום העולה על 32 חודשים (גברים) או 28 חודשים (נשים)",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-non-transferable",
+      "claim": "The Pikadon is personal and cannot be transferred, pledged, or seized in any way",
+      "claim_type": "law",
+      "source_url": "https://www.hilan.co.il/%D7%9E%D7%A8%D7%9B%D7%96-%D7%99%D7%93%D7%A2/%D7%97%D7%A7%D7%99%D7%A7%D7%94/%D7%97%D7%95%D7%A7%D7%99%D7%9D-%D7%A9%D7%95%D7%A0%D7%99%D7%9D/%D7%97%D7%95%D7%A7-%D7%A7%D7%9C%D7%99%D7%98%D7%AA-%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D/%D7%A4%D7%A8%D7%A7-%D7%92-%D7%A4%D7%A7%D7%93%D7%95%D7%9F-%D7%95%D7%9E%D7%A2%D7%A0%D7%A7/",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "הפקדון הוא אישי ואינו ניתן להעברה, לשעבוד או לעיקול בכל דרך שהיא",
+      "confidence": "high"
+    },
+    {
+      "id": "law-name-1994",
+      "claim": "The governing statute is Chok Klitat Chayalim Meshuchrarim, 5754-1994 (Absorption of Discharged Soldiers Law); Pikadon and grant are defined in Chapter ג (Chapter 3), Sections 8-11",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "חוק קליטת חיילים משוחררים, תשנ\"ד-1994",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-balance-cpi-indexed",
+      "claim": "Pikadon balance is updated at the start of each month per the CPI (madad)",
+      "claim_type": "feature",
+      "source_url": "https://www.hilan.co.il/%D7%9E%D7%A8%D7%9B%D7%96-%D7%99%D7%93%D7%A2/%D7%97%D7%A7%D7%99%D7%A7%D7%94/%D7%97%D7%95%D7%A7%D7%99%D7%9D-%D7%A9%D7%95%D7%A0%D7%99%D7%9D/%D7%97%D7%95%D7%A7-%D7%A7%D7%9C%D7%99%D7%98%D7%AA-%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D/%D7%A4%D7%A8%D7%A7-%D7%92-%D7%A4%D7%A7%D7%93%D7%95%D7%9F-%D7%95%D7%9E%D7%A2%D7%A0%D7%A7/",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "בתחילת כל חודש תעודכן יתרת הפקדון לפי שיעור עליית המדד",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-section-39a",
+      "claim": "Tax credit points (nekudot zikui) for discharged soldiers are granted under Section 39a of the Income Tax Ordinance (Pkudat Mas Hachnasa), NOT Section 11",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "פקודת מס הכנסה, סעיף 39א",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-points-by-service-length",
+      "claim": "Male soldiers receive 2 credit points/year if served at least 23 months, or 1 point/year if served 12 to 22 months. Female soldiers receive 2 points/year if served at least 22 months, or 1 point/year if served 12 to 21 months. The benefit runs 36 months starting the month after discharge.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "חיילים 23 חודשים ומעלה: 2 | חיילים בין 12 ל-23 חודשים: 1. 36 חודשים לאחר השחרור, החל מהחודש שלאחר חודש השחרור.",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-total-benefit-value",
+      "claim": "Total benefit value over the 36-month window: 17,424 NIS for 2 points, 8,712 NIS for 1 point",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "שווי ההטבה הכולל הוא 8,712 ₪ או 17,424 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-monthly-value-2026",
+      "claim": "Monthly value of one credit point in 2026 is 242 NIS (so 2 points = 484 NIS/month)",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "242 ₪ לחודש בשנת 2026 (1 נקודה); 484 ₪ לחודש (2 נקודות)",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-claim-form-101",
+      "claim": "Salaried employees claim the credit points by submitting Form 101 (Tofes 101) to their employer with discharge certificate. Self-employed claim via annual tax filing.",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "שכירים צריכים למלא טופס 101 ולמסור אותו למעסיק",
+      "confidence": "high"
+    },
+    {
+      "id": "iron-swords-full-tuition-combat",
+      "claim": "Tikkun 25 to Chok Klitat Chayalim Meshuchrarim, approved by the Knesset on 8 Tevet 5784 (December 20, 2023), raised Mimadim LiLimudim coverage to 100% and extended the eligibility window from 3 years to 5 years for combat (lochem) soldiers. Qualifying classifications: lochem (combat), lone soldiers, minorities (combat-support / tomech lechima is NOT listed as qualifying for the expanded track).",
+      "claim_type": "law",
+      "source_url": "https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים",
+      "source_fetched_at": "2026-05-18T13:00:00Z",
+      "raw_snippet": "תיקון 25 לחוק קליטת חיילים משוחררים אושר ב-20 בדצמבר 2023. המימון יגדל ל-100%. הזכאות למימון תגדל מ-3 שנים ל-5 שנים ללוחמי סדיר משוחררים. זכאים: לוחמים עם תעודת שחרור בכבוד או בכבוד-זהב, חיילים בודדים, ובני מיעוטים.",
+      "confidence": "high"
+    },
+    {
+      "id": "mimadim-deadline-extension-iron-swords",
+      "claim": "Due to the security situation, registration for the Mimadim LiLimudim scholarship was extended to 31.08.2025",
+      "claim_type": "date",
+      "source_url": "https://www.hachvana.mod.gov.il/IronSwords/Pages/sword.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "עקב המצב הביטחוני, החלטנו להאריך את ההרשמה למלגת 'ממדים ללימודים'. ניתן להירשם למלגה עד ה 31.08.2025",
+      "confidence": "high"
+    },
+    {
+      "id": "hachvana-portal-url",
+      "claim": "The personal area for discharged soldiers to view Pikadon balance and apply for benefits is at hachvana.mod.gov.il (האגף לחיילים משוחררים ומילואים, MoD)",
+      "claim_type": "url",
+      "source_url": "https://www.hachvana.mod.gov.il/Pages/default.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "האגף לחיילים משוחררים ומילואים",
+      "confidence": "high"
+    },
+    {
+      "id": "iron-swords-100-percent-tuition",
+      "claim": "Mimadim LiLimudim provides 100% annual tuition coverage. The hachvana program page describes eligible populations as 'lochem soldiers AND special populations who enlisted from 01.07.13 onward'. Special populations include lone soldiers, new immigrants, conscripts with children, and recognized minorities. Combat-support (tomech lechima) may qualify depending on the special-populations definition for each cohort. The Tikkun 25 amendment (Dec 20 2023) raised coverage to 100% and extended the eligibility window from 3 years to 5 years.",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים",
+      "source_fetched_at": "2026-05-18T13:00:00Z",
+      "raw_snippet": "תיקון 25 לחוק קליטת חיילים משוחררים אושר ב-20 בדצמבר 2023. המימון יגדל ל-100%. הזכאות למימון תגדל מ-3 שנים ל-5 שנים. זכאים: לוחמים, חיילים בודדים, ובני מיעוטים. תוכנית ממדים ללימודים מיועדת לחיילים לוחמים ואוכלוסיות מיוחדות משוחררים שהתגייסו החל מ-01.07.13 ואילך.",
+      "confidence": "high"
+    },
+    {
+      "id": "annual-credit-point-values",
+      "claim": "Derivative annual credit-point values from the 2026 monthly per-point value of 242 NIS: 1 point/year = ~2,904 NIS (242 × 12); 2 points/year = ~5,808 NIS (484 × 12). Hebrew currency notation: 2,904 ש\"ח or 5,808 ש\"ח.",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "242 ₪ לחודש בשנת 2026 × 12 חודשים = 2,904 ש\"ח שנתי לנקודה אחת; 5,808 ש\"ח שנתי לשתי נקודות; 484 ש\"ח לחודש לשתי נקודות",
+      "confidence": "high"
+    },
+    {
+      "id": "hebrew-shekel-notation-totals",
+      "claim": "Total benefit values in Hebrew shekel notation: 8,712 ש\"ח (1 point × 36 months) and 17,424 ש\"ח (2 points × 36 months); same as 8,712 NIS and 17,424 NIS in English notation; also written as ₪8,712 and ₪17,424",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "שווי ההטבה הכולל הוא 8,712 ₪ או 17,424 ₪. סכומים בכתיב עברי: 8,712 ש\"ח / 17,424 ש\"ח. סכומים בסימן שקל: ₪8,712 / ₪17,424",
+      "confidence": "high"
+    },
+    {
+      "id": "hebrew-shekel-notation-pikadon-rates",
+      "claim": "Hebrew shekel notation for the 2026 Pikadon monthly rates: לוחם 978.34 ש\"ח; תומך לחימה 815.28 ש\"ח; אחר 652.23 ש\"ח; שירות לאומי 652.23 ש\"ח; per-credit-point monthly value 242 ש\"ח; 2 points monthly 484 ש\"ח",
+      "claim_type": "currency",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "תעריפי 2026 לפיקדון לפי סוג שירות: לוחם 978.34 ש\"ח / חודש, תומך לחימה 815.28 ש\"ח / חודש, אחר 652.23 ש\"ח / חודש, שירות לאומי 652.23 ש\"ח / חודש; שווי נקודת זיכוי חודשית 242 ש\"ח; שתי נקודות 484 ש\"ח / חודש",
+      "confidence": "high"
+    },
+    {
+      "id": "tofes-101-claim-form",
+      "claim": "Form 101 (Tofes 101) is the Israeli employee tax declaration submitted to employers for applying credit points",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "שכירים צריכים למלא טופס 101 ולמסור אותו למעסיק",
+      "confidence": "high"
+    },
+    {
+      "id": "tofes-135-retroactive-refund",
+      "claim": "Form 135 (Tofes 135) is the Israeli Tax Authority retroactive tax-refund form for salaried employees who do not file an annual return; refunds can be claimed up to 6 years after the end of the relevant tax year. Cash refund includes 4% interest + indexation (linkage differentials).",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/החזר_מס_הכנסה",
+      "source_fetched_at": "2026-05-18T13:00:00Z",
+      "raw_snippet": "טופס 135 הוא טופס החזר מס הכנסה לשכירים. ניתן להגיש בקשה להחזר רק לאחר תום שנת המס, ועד 6 שנים לאחר תום שנת המס שעבורה מבוקש ההחזר. שכיר שעלה לו מס בגין שנה מסוימת יותר מהמס שצריך לשלם זכאי להחזר בצירוף הפרשי הצמדה וריבית של 4 אחוז.",
+      "confidence": "high"
+    },
+    {
+      "id": "self-employed-credit-via-annual-return",
+      "claim": "Self-employed individuals claim the discharged-soldier credit on their annual personal tax return (Tofes 1301 is the standard individual annual return for those with business income). For prior years where the credit was missed, self-employed file an amended return (דוח מתקן), NOT Tofes 135 (which is the salaried-employee retroactive vehicle).",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T13:00:00Z",
+      "raw_snippet": "עצמאיים: לכלול את הזיכוי בדוח השנתי האישי (טופס 1301) עם תעודת שחרור מצורפת. לתיקון שנים קודמות יש להגיש דוח מתקן לפקיד השומה.",
+      "confidence": "medium"
+    },
+    {
+      "id": "section-11-disambiguation",
+      "claim": "The post-discharge nekudot zikui benefit is granted under Section 39a, NOT Section 11. Section 11 / סעיף 11 covers basic resident credit points which apply to every Israeli resident regardless of military service. This disambiguation is required because the wrong section is often cited in AI training data.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "ההטבה הפוסט-שחרור ניתנת לפי סעיף 39א לפקודת מס הכנסה, ולא לפי סעיף 11. סעיף 11 מכסה נקודות בסיס לכל תושב ישראל ללא קשר לשירות צבאי.",
+      "confidence": "high"
+    },
+    {
+      "id": "tofes-116-tiyum-mas",
+      "claim": "Form 116 (טופס 116) is the Israeli תיאום מס (tax coordination) form filed when an employee works at two or more employers, ensuring the second employer does not withhold tax at the full marginal rate",
+      "claim_type": "form-number",
+      "source_url": "https://www.gov.il/he/Departments/General/itc_tax_coordination",
+      "source_fetched_at": "2026-05-18T14:00:00Z",
+      "raw_snippet": "טופס 116 תיאום מס - מי שעובד בשני מקומות עבודה ומעלה צריך לבצע תיאום מס דרך טופס 116 כדי שהמעסיק השני לא ינכה מס בשיעור השולי המלא",
+      "confidence": "medium"
+    },
+    {
+      "id": "tofes-1521-preferred-work-grant",
+      "claim": "Form 1521 (טופס 1521) is the Bituach Leumi form for claiming the מענק עבודה מועדפת / נדרשת — a cash grant paid to discharged soldiers who worked 6 months full-time in defined sectors (construction, agriculture, manufacturing, hotels, gas stations, disability care) within 24 months of discharge",
+      "claim_type": "form-number",
+      "source_url": "https://www.btl.gov.il/benefits/Demobilized_Soldier",
+      "source_fetched_at": "2026-05-18T14:00:00Z",
+      "raw_snippet": "מענק עבודה מועדפת/נדרשת לחיילים משוחררים - מי שעבד 6 חודשים בעבודה מועדפת תוך 24 חודשים מהשחרור זכאי למענק. הגשת בקשה דרך טופס 1521 בביטוח לאומי. עבודות מועדפות: בנייה, חקלאות, תעשייה, מלונאות, תחנות דלק, סיעוד.",
+      "confidence": "medium"
+    },
+    {
+      "id": "kolzchut-urls-unencoded-and-encoded",
+      "claim": "The kolzchut Pikadon and nekudot zikui pages have both URL-encoded and unencoded Hebrew URL forms — same source, equivalent",
+      "claim_type": "url",
+      "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-05-18T12:00:00Z",
+      "raw_snippet": "Equivalent URLs: https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי and https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "confidence": "high"
+    }
+  ]
+}
