@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-public-transit",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "fare-urban-single-2025",
+      "claim": "Urban single-ride fare is 8 NIS, raised from 6 NIS on April 25, 2025.",
+      "source_url": "https://en.globes.co.il/en/article-public-transport-fare-reform-wont-improve-public-transport-1001508298",
+      "raw_snippet": "as of the reform implementation date (Friday, April 25, 2025), the fare for a single bus trip will also increase by NIS 2",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+    },
+    {
+      "claim_id": "fare-june-2026-hike-contested",
+      "claim": "A ~12% hike to ~9 NIS was announced for June 2026 but is contested and may be deferred.",
+      "source_url": "https://www.jpost.com/israel-news/article-876493",
+      "raw_snippet": "'It will not happen': Regev opposes potential public transport price hikes; fares expected to rise by up to 12% in June, with single bus fare from 8 NIS to approximately 9 NIS",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+    },
+    {
+      "claim_id": "monthly-pass-nationwide-315",
+      "claim": "Nationwide monthly pass (excluding Israel Railways, up to 225km) is approximately 315 NIS.",
+      "source_url": "https://chaimvchessed.com/information/transportation-automotive/rav-kav/",
+      "raw_snippet": "nationwide pass costs 315 NIS for unlimited rides on all types of public transport except Israel Railways, up to a distance of 225 km, for a full month",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+    },
+    {
+      "claim_id": "official-payment-apps",
+      "claim": "Ministry of Transport (PTI) approves 5 payment apps: Rav-Pass (HopOn), Moovit, Pango, Cellopark, egg.",
+      "source_url": "https://pti.org.il/ChargeApp/Apps",
+      "raw_snippet": "Moovit, רב-פס (Rav-Pass), פנגו (Pango), סלופארק (Cello Park), egg",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+    },
+    {
+      "claim_id": "jerusalem-lr-green-line",
+      "claim": "Jerusalem Light Rail Green Line first segment (Malha to Binyanei Hauma) opens May 2026; full line scheduled 2027.",
+      "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
+      "raw_snippet": "Green Line is scheduled to open in 2027; first phase Malha to HaTurim opening May 2026",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Jerusalem LR"]
+    },
+    {
+      "claim_id": "jerusalem-lr-blue-line",
+      "claim": "Jerusalem Light Rail Blue Line construction began September 2025, gradual opening 2029-2031.",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_Line_(Jerusalem_Light_Rail)",
+      "raw_snippet": "Construction on the Blue Line began in September 2025; expected to gradually open between 2029 and 2031",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Jerusalem LR"]
+    },
+    {
+      "claim_id": "ta-red-line-34-stations",
+      "claim": "Tel Aviv Light Rail Red Line operational since August 2023, 34 stations.",
+      "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
+      "raw_snippet": "Red Line operational since August 18, 2023; 34 stations across Tel Aviv, Petah Tikva, Bnei Brak, Ramat Gan, and Bat Yam",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "ta-red-line-ridership",
+      "claim": "Tel Aviv Red Line daily ridership is around 110-120k in 2026, below the original 238k forecast.",
+      "source_url": "https://en.globes.co.il/en/article-tel-aviv-light-rail-still-underused-1001521323",
+      "raw_snippet": "daily average is still fluctuating around 110-120,000 passengers per day, far from the original forecasts of 238,000",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "ta-purple-line-status",
+      "claim": "Tel Aviv Light Rail Purple Line expected to open end of 2027 to 2028; 27km, 43 stations.",
+      "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
+      "raw_snippet": "Purple Line: Under construction. Expected to open around 2027. 27-kilometer line with 43 stations",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "ta-green-line-status",
+      "claim": "Tel Aviv Light Rail Green Line southern segment 2028, northern terminus Herzliya 2030; 39km / 62 stops. Egged won operator tender.",
+      "source_url": "https://en.globes.co.il/en/article-egged-wins-tender-to-operate-ta-light-rail-purple-green-lines-1001504636",
+      "raw_snippet": "Egged wins tender to operate TA light rail Purple, Green Lines; Green Line southern segment Holon-Rishon LeZion now scheduled to open in 2028, full opening Herzliya planned for 2030; 39 kilometers, 62 stops",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "israel-railways-jan-2026-schedule",
+      "claim": "Israel Railways launched a new schedule on January 17, 2026 adding 40k+ daily seats and bi-level trains on Emek and Carmel lines.",
+      "source_url": "https://cars.walla.co.il/item/3807198",
+      "raw_snippet": "במוצאי שבת, 17 בינואר 2026, הושק לוח זמנים חדש; תוספת של מעל 40 אלף מקומות ישיבה ביום, רכבות דו-קומתיות בקו העמק ובקו הכרמל",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "eastern-railway-2026",
+      "claim": "Eastern Railway (Hadera-Lod, 65km, 4 new stations) partial opening 2026, full 2026-2027.",
+      "source_url": "https://grokipedia.com/page/eastern_railway_israel",
+      "raw_snippet": "65 kilometers from Lod to Hadera, doubling tracks over 50 kilometers, four passenger stations; partial operations expected by 2025 and full opening in 2026",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "tlv-jerusalem-fast-line",
+      "claim": "Tel Aviv-Jerusalem fast line takes ~32 min via Yitzhak Navon station, every 30 min.",
+      "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv%E2%80%93Jerusalem_railway",
+      "raw_snippet": "Opened in 2018, the Jerusalem-Tel Aviv high-speed line reducing journey time between Israel's two largest cities to just 32 minutes; trains every half hour",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+    },
+    {
+      "claim_id": "gtfs-portal-outages",
+      "claim": "Ministry of Transport GTFS portal at gtfs.mot.gov.il has shown intermittent outages in 2026.",
+      "source_url": "https://gtfs.mot.gov.il/",
+      "raw_snippet": "The requested content is not available, please contact the system administrator (Hebrew error)",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Gotchas", "SKILL_HE.md#מלכודות נפוצות"]
+    },
+    {
+      "claim_id": "iron-swords-emergency-ops",
+      "claim": "Iron Swords war has caused emergency operations including pauses on specific rail corridors.",
+      "source_url": "https://semerenkogroup.com/israel-shifts-transit-to-emergency-operations/",
+      "raw_snippet": "Israel has shifted its public transit networks to emergency operations; pauses in rail services such as the Coastal Line pause on February 13, 2026",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Gotchas", "SKILL_HE.md#מלכודות נפוצות"]
+    },
+    {
+      "claim_id": "jerusalem-lr-red-line-stops",
+      "claim": "Jerusalem Light Rail Red Line: 35 stops, 22.5 km.",
+      "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
+      "raw_snippet": "Red Line length 22.5 kilometers, 35 stops",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md#Step 4 Jerusalem LR", "SKILL_HE.md#שלב 4"]
+    }
+  ]
+}
