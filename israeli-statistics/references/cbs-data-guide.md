@@ -15,7 +15,7 @@
 | Indicator | Frequency | Typical Release |
 |-----------|-----------|-----------------|
 | CPI | Monthly | ~15th of following month |
-| Housing Price Index | Quarterly | ~6 weeks after quarter |
+| Housing Price Index | Monthly | ~6 weeks after month (plus a richer quarterly transactions report) |
 | GDP | Quarterly | ~6 weeks after quarter |
 | Unemployment | Monthly | ~4 weeks after month |
 | Population | Annual | Mid-year |

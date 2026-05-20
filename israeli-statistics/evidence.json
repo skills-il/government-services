@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-statistics",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "cpi_annual_april_2026",
+      "claim": "Israel CPI annual inflation rate was 1.9% in April 2026",
+      "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N3QL0AI:0-israel-inflation-rate-holds-at-1-9-in-april-iran-war-boosts-cpi-m-m/",
+      "raw_snippet": "Israel's annual inflation rate stood at 1.9% in April 2026, unchanged from March and staying within the Bank of Israel's 1%-3% target band for nine consecutive months.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב", "SKILL.md Example 3", "SKILL_HE.md דוגמה 3"]
+    },
+    {
+      "claim_id": "cpi_monthly_april_2026",
+      "claim": "Israel CPI rose 1.2% in April 2026 vs March 2026",
+      "source_url": "https://en.globes.co.il/en/article-israels-cpi-jumped-in-april-1001543120",
+      "raw_snippet": "Israel's Consumer Price Index (CPI) rose 1.2% in April 2026 from the previous month, according to Central Bureau of Statistics figures released today.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "cpi_release_schedule",
+      "claim": "CPI is published on the 15th of the following month at 18:30 Israel time",
+      "source_url": "https://www.cbs.gov.il/en/Pages/Main%20Price%20Indices.aspx",
+      "raw_snippet": "indices are published on the 15th of the month at 6:30 PM",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Critical Note", "SKILL_HE.md שימו לב"]
+    },
+    {
+      "claim_id": "boi_rate_4pct",
+      "claim": "Bank of Israel policy rate is 4.00% as of March 2026, unchanged since January 2026 cut",
+      "source_url": "https://www.boi.org.il/en/communication-and-publications/press-releases/5-1-25-en/",
+      "raw_snippet": "The Monetary Committee decides on January 5, 2026 to lower the interest to 4 percent ... The Monetary Committee decided on March 30, 2026 to leave the interest rate unchanged at 4.00 percent.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב", "SKILL.md Example 3", "SKILL_HE.md דוגמה 3"]
+    },
+    {
+      "claim_id": "unemployment_feb_2026",
+      "claim": "Seasonally adjusted unemployment rate was 2.7% in February 2026",
+      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
+      "raw_snippet": "Israel's seasonally adjusted unemployment rate declined to 2.7% in February 2026 from 3.1% in the previous month.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב", "SKILL.md Example 3", "SKILL_HE.md דוגמה 3"]
+    },
+    {
+      "claim_id": "lfpr_feb_2026",
+      "claim": "Labor force participation rate was 62.5% in February 2026",
+      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
+      "raw_snippet": "The labor force participation rate edged slightly lower to 62.5% from 62.7%, while the employment rate remained unchanged at 60.8%.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "avg_wage_oct_2025",
+      "claim": "Average gross monthly wage was approximately NIS 13,623 in October 2025 (latest CBS data)",
+      "source_url": "https://tradingeconomics.com/israel/wages",
+      "raw_snippet": "In October 2025, according to original data, the average salary for a salaried position in Israel at current prices was 13,623 Shekels per month",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "minimum_wage_april_2026",
+      "claim": "Minimum monthly wage rose to NIS 6,443.85 effective April 1, 2026",
+      "source_url": "https://www.cwsisrael.com/israel-minimum-wage-2026/",
+      "raw_snippet": "Israel's minimum wage increased by 3.3% on 1 April 2026, rising from ₪6,248 to ₪6,443.85 per month.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "gdp_growth_2025",
+      "claim": "Israel GDP grew 3.0% in 2025",
+      "source_url": "https://www.focus-economics.com/countries/israel/news/gdp/israel-national-accounts-16-02-2026-economic-growth-eases-in-the-fourth-quarter-of-2025/",
+      "raw_snippet": "Israel's economy grew 3.0% in 2025 as a whole, the best reading since 2022, before the war with Hamas broke out.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב", "SKILL.md Example 3", "SKILL_HE.md דוגמה 3"]
+    },
+    {
+      "claim_id": "population_jan_2026",
+      "claim": "Israel population estimate was 10.178 million on January 1, 2026",
+      "source_url": "https://www.cbs.gov.il/en/mediarelease/Pages/2025/Population-of-Israel-on-the-Eve-of-2026.aspx",
+      "raw_snippet": "As of the start of 2026, Israel's population is estimated at 10.178 million residents, marking a significant milestone as the country exceeded 10 million for the first time.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "population_breakdown_jan_2026",
+      "claim": "Israel population on Jan 1 2026: 76.3% Jews and others (7.771M), 21.1% Arabs (2.147M), 2.6% foreign nationals (0.26M)",
+      "source_url": "https://www.cbs.gov.il/en/mediarelease/Pages/2025/Population-of-Israel-on-the-Eve-of-2026.aspx",
+      "raw_snippet": "Of these 7.771 million are Jews and others (76.3% of the total population), 2.147 million are Arabs (21.1%) and 0.26 million are foreign nationals (2.6%).",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "apt_price_q1_2026",
+      "claim": "National average apartment price in Q1 2026 was approximately NIS 2.33 million (down 1.6% from Q4 2025 average of NIS 2.37M)",
+      "source_url": "https://www.buyitinisrael.com/news/israel-home-prices-rise-again-in-2026",
+      "raw_snippet": "The national average apartment price in Q1 2026 stood at approximately NIS 2.33 million per apartment, a decline of 1.6% compared to the fourth quarter of 2025, when the average was NIS 2.37 million.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "housing_yoy_change",
+      "claim": "Israeli home prices fell approximately 1.7% over the trailing 12 months as of early 2026",
+      "source_url": "https://www.timesofisrael.com/housing-snapshot-april-2026-home-prices-continue-slide-bringing-yearly-drop-to-1-7/",
+      "raw_snippet": "The average price of homes has fallen 10 out of the last 12 months, leading to a 1.7% decline over the last year.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Current Snapshot", "SKILL_HE.md תמונת מצב"]
+    },
+    {
+      "claim_id": "cbs_api_cpi_code",
+      "claim": "CBS Price Indices API code for the general CPI is 120010",
+      "source_url": "https://api.cbs.gov.il/index/data/price?download=false&format=xml&id=120010&lang=en",
+      "raw_snippet": "https://api.cbs.gov.il/index/data/price?download=false&format=xml&id=120010&lang=en",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Step 6", "SKILL_HE.md שלב 6", "scripts/fetch_cbs_data.py", "references/cbs-data-guide.md"]
+    },
+    {
+      "claim_id": "cbs_api_base",
+      "claim": "CBS Price Indices API base URL is api.cbs.gov.il/index with /catalog/catalog and /data/price endpoints",
+      "source_url": "https://www.cbs.gov.il/en/Pages/Api-interface.aspx",
+      "raw_snippet": "The API is an application that the public uses to retrieve data from the CBS databases automatically ... endpoints include api.cbs.gov.il/Index/Catalog/Catalog and api.cbs.gov.il/index/data/price",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md Step 6", "SKILL_HE.md שלב 6", "references/cbs-data-guide.md", "scripts/fetch_cbs_data.py"]
+    },
+    {
+      "claim_id": "iron_swords_displaced",
+      "claim": "About 144,000 workers were evacuated or absent from work during peak Iron Swords displacement; by early 2026 active reserve duty dropped to ~0.4% of the workforce",
+      "source_url": "https://www.boi.org.il/en/communication-and-publications/press-releases/a09-11-23/",
+      "raw_snippet": "About 144,000 workers were evacuated or left their homes and were therefore absent from their work ... by early 2026 the number of people on active duty had dropped to about 0.4% of the workforce.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["evidence-only (context, not asserted as a specific number in SKILL.md body)"]
+    }
+  ]
+}

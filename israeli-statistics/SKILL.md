@@ -10,10 +10,34 @@ compatibility: Network access helpful for CBS data lookups. Enhanced by the isra
 
 ## Critical Note
 Statistical data is published on a fixed schedule with inherent delays. CPI is released
-~15 days after month-end. Housing prices are quarterly with ~3-month lag. Always note
-the reference period when presenting data. Index values and rates change -- verify
-current figures at cbs.gov.il for time-sensitive decisions such as rent adjustments or
-contract indexation.
+on the 15th of the following month at 18:30 Israel time. Housing prices are monthly
+with a ~6-week lag (and a richer quarterly transactions report). Always note the
+reference period when presenting data. Index values and rates change, verify current
+figures at cbs.gov.il for time-sensitive decisions such as rent adjustments or contract
+indexation.
+
+## Current Snapshot (as of May 2026)
+Use these as recent reference values only. For any contract, court filing, or
+calculation, re-verify the latest CPI at `api.cbs.gov.il/index/data/price?id=120010`
+before computing.
+
+| Indicator | Value | Reference period | Source |
+|-----------|-------|------------------|--------|
+| CPI annual inflation | 1.9% | April 2026 | CBS, released 2026-05-15 |
+| CPI monthly change | +1.2% | April 2026 vs March 2026 | CBS |
+| Bank of Israel policy rate | 4.00% | Set 2026-03-30, unchanged from January | bankisrael.gov.il |
+| Unemployment rate (15+, SA) | 2.7% | February 2026 | CBS Labour Force Survey |
+| Labor force participation | 62.5% | February 2026 | CBS Labour Force Survey |
+| Average gross monthly wage | ~NIS 13,623 | October 2025 (latest published) | CBS |
+| Minimum wage | NIS 6,443.85/month | From 2026-04-01 | Israeli labor law |
+| GDP growth (annual) | 3.0% | Full year 2025 | CBS National Accounts |
+| Population | 10.178 million | 2026-01-01 estimate | CBS |
+| Population breakdown | 76.3% Jews and others, 21.1% Arabs, 2.6% foreign nationals | 2026-01-01 | CBS |
+| Average apartment price (national) | ~NIS 2.33 million | Q1 2026 | CBS Housing Price Index |
+| Housing prices year-on-year | -1.7% | 12 months to early 2026 | CBS |
+
+Always pair a figure with its reference period when answering, and tell the user to
+re-fetch from CBS for any decision that depends on a current value.
 
 ## Instructions
 
@@ -159,7 +183,7 @@ Result: Query the Housing Price Index for Tel Aviv district. Present quarterly a
 
 ### Example 3: Economic Overview
 User says: "How is the Israeli economy doing?"
-Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure.
+Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. As of May 2026 the reference baseline is: GDP +3.0% for 2025, CPI annual inflation 1.9% in April 2026, unemployment 2.7% in February 2026, Bank of Israel rate 4.00% set 2026-03-30. Always re-fetch before answering for a fresh date.
 
 ## Bundled Resources
 
