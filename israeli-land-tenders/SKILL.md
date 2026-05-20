@@ -1,6 +1,6 @@
 ---
 name: israeli-land-tenders
-description: Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority, government land auctions, "haktzaah", land lottery ("hagralah"), "Dira BeHanacha" / "Mechir Lamishtaken", building rights, or state land allocation. Enhances remy-land-authority MCP server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems.
+description: Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority, government land auctions, "haktzaah", land lottery ("hagralah"), "Dira BeHanacha" sub-tracks (Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir), resale lockup, building rights, or state land allocation. Enhances remy-land-authority MCP server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems.
 license: MIT
 allowed-tools: WebFetch
 compatibility: Network access helpful for tender data lookups. Enhanced by remy-land-authority MCP server.
@@ -64,10 +64,12 @@ Use the remy-land-authority MCP server, or query the official RMI tender portal 
 
 **Lottery (Hagralah)**
 - Fixed price set by RMI, applicants drawn randomly
-- Powers the affordable housing program formerly known as "Mechir Lamishtaken" (מחיר למשתכן), rebranded in recent years as **"Dira BeHanacha" (דירה בהנחה)** and operated by the Ministry of Construction and Housing at `dira.moch.gov.il`. RMI supplies the land via the tender, and the Housing Ministry runs eligibility, registration, and the drawing.
-- Eligibility criteria: first-time buyers (no property ownership), a valid eligibility certificate (teudat zakaut) from the Housing Ministry, age and household thresholds defined per round
-- Apartments sold below market price with a resale lock-up period defined in each round's terms
-- Registration fee: relatively small compared to tender deposits
+- Powers the affordable housing program formerly known as "Mechir Lamishtaken" (מחיר למשתכן), now operating as an umbrella program called **"Dira BeHanacha" (דירה בהנחה)** with multiple sub-tracks (mechir lamishtaken klali, mechir matara, mechir muphchat, dira lehaskir). Operated by the Ministry of Construction and Housing at `dira.moch.gov.il`. RMI supplies the land via the tender, the Housing Ministry runs eligibility, registration, and the drawing.
+- Sub-tracks differ in discount cap, grant, eligible audience: **Mechir Matara** caps the discount at 20% off market price or 500,000 NIS (whichever is lower) and is the only track currently open to dwelling upgraders (mishaprey diur), not only first-time buyers. Mechir Lamishtaken klali has no discount cap. Mechir Matara and Mechir Muphchat include a uniform 40,000 NIS buyer grant via the mortgage bank.
+- Eligibility criteria: typically first-time buyers (chasrey dira) with no property ownership in the prior 3 years, a valid eligibility certificate (teudat zakaut) from the Housing Ministry, age and household thresholds defined per round. Eligibility certificate fee is around 200 NIS.
+- **Lottery 11 (April 2026)**: registration opens 15 April 2026, ~7,000 units across roughly 16 cities including Ashdod, Rehovot, Hadera, Ma'ale Adumim, Kiryat Gat, Nahariya, Eilat, Yehud, Rishon LeZion, Kfar Saba. Up to 50% of units reserved for active reservists (miluimnikim), about 25% of those for reserve combat soldiers.
+- **Resale lockup**: cannot sell or rent for **5 years from Form 4 (Tofes 4 / occupancy approval) OR 7 years from the lottery win date, whichever comes first**. Selling earlier triggers clawback of the discount.
+- Registration fee: relatively small compared to tender deposits. Each round lets eligible registrants choose up to 3 cities and apply to all lotteries in those cities.
 
 **Price Buyer (Mechir Larocheish)**
 - Fixed price, allocated based on eligibility order
@@ -166,7 +168,7 @@ Result: Query the remy-land-authority MCP (or `apps.land.gov.il/MichrazimSite/`)
 
 ### Example 2: Lottery Guidance
 User says: "How do I apply for mechir lamishtaken?"
-Result: Clarify that the program is now called **"Dira BeHanacha" (דירה בהנחה)** and is operated by the Ministry of Construction and Housing (not RMI directly). Explain: eligibility criteria (first-time buyers without property, valid eligibility certificate from the Housing Ministry, age/household thresholds), the two-step flow (RMI tenders the land -> Housing Ministry runs the lottery), registration at `dira.moch.gov.il`, apartments below market price with a multi-year resale lock-up, and direct the user to the current round's registration window on the Housing Ministry site.
+Result: Clarify that "Mechir Lamishtaken" is now one sub-track inside the umbrella program **"Dira BeHanacha" (דירה בהנחה)** operated by the Ministry of Construction and Housing (not RMI directly). Walk through: (1) the current sub-tracks (Mechir Lamishtaken klali, Mechir Matara, Mechir Muphchat, Dira Lehaskir) and how Mechir Matara caps the discount at 20% off market or 500,000 NIS and is the only track open to dwelling upgraders, (2) eligibility (chasrey dira, valid teudat zakaut from the Housing Ministry, age and household thresholds), (3) the two-step flow (RMI tenders the land, Housing Ministry runs eligibility and the lottery), (4) registration at `dira.moch.gov.il`, (5) resale lockup of 5 years from Tofes 4 or 7 years from lottery win (earlier of the two), and (6) the current open round on the Housing Ministry site (Lottery 11 registration opened 15 April 2026, ~7,000 units in ~16 cities, up to 50% reserved for active reservists).
 
 ### Example 3: Bid Strategy
 User says: "There's a tender in Netanya, minimum price 15 million, how much should I bid?"
@@ -190,8 +192,10 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 - Israeli land tenders (michrazei karka'ot) from the Israel Land Authority (RMI/Rami) are published in Hebrew only. Agents may search for tenders using English location names, which will return no results.
 - Land measurements in Israeli tenders use dunam (1 dunam = 1,000 square meters), not acres or hectares. Agents may convert to international units without noting the original dunam figure.
 - Tender participation requires a bank guarantee (areva bankit) of 10-15% of the tender price. Agents may suggest bidding without mentioning this upfront financial requirement.
-- Israeli land in urban areas is often leased from the state (chakira) for 49-98 years, not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
+- Israeli land in urban areas is often leased from the state (chakira) for 49 or 98 years (not a free range, those are the canonical lease lengths), not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
 - The affordable-housing lottery program is administered by the Ministry of Construction and Housing at `dira.moch.gov.il`, not by RMI directly. Agents that point users to the RMI site for lottery registration will send them to the wrong place. RMI tenders the land; the Housing Ministry runs eligibility, registration, and the drawing.
+- "Mechir Lamishtaken" is the legacy name; today it is one sub-track inside Dira BeHanacha. **Mechir Matara** is a distinct sub-track with different rules (20% / 500K NIS discount cap, 40,000 NIS buyer grant, open to dwelling upgraders). Treating them as the same program causes wrong eligibility advice.
+- Dira BeHanacha resale lockup is **5 years from Form 4 OR 7 years from the lottery win, whichever comes first**, not a flat number of years. Agents that quote "5 years" or "7 years" alone will mislead users on when they can sell.
 
 ## Reference Links
 

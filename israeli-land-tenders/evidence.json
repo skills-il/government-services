@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-land-tenders",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "dira-behanacha-umbrella",
+      "claim": "Dira BeHanacha is an umbrella program with multiple sub-tracks: Mechir Lamishtaken klali, Mechir Matara, Mechir Muphchat, Dira Lehaskir.",
+      "source_url": "https://klikatnadlan.co.il/dirabehanachaalltracks/",
+      "raw_snippet": "דירה בהנחה מציעה לזכאים מספר מסלולי דיור במחיר מופחת (מחיר למשתכן, מחיר מטרה, מחיר מופחת ודירה להשכיר).",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md", "metadata.json"]
+    },
+    {
+      "claim_id": "mehir-matara-cap",
+      "claim": "Mechir Matara caps the discount at 20% off market or 500,000 NIS (lower of two).",
+      "source_url": "https://www.maariv.co.il/economy/israel/article-928738",
+      "raw_snippet": "במסלול מחיר מטרה ההנחה מוגבלת ל-20% ממחיר הדירה או ל-500,000 ₪, הנמוך מבין השניים.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "mehir-matara-upgraders",
+      "claim": "Mechir Matara is open to dwelling upgraders (mishaprey diur), not only first-time buyers.",
+      "source_url": "https://www.evensapir.co.il/mechir-matara/",
+      "raw_snippet": "Target Price is a new program... that enables first-time homebuyers and housing improvers to purchase apartments at prices lower than market prices.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "mehir-matara-grant-40k",
+      "claim": "Mechir Matara and Mechir Muphchat include a uniform 40,000 NIS buyer grant via the mortgage bank.",
+      "source_url": "https://www.maariv.co.il/economy/israel/article-928738",
+      "raw_snippet": "במסלול מחיר מטרה ומחיר מופחת ניתן מענק אחיד בגובה 40,000 ₪.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "lockup-5-from-form4-or-7-from-lottery",
+      "claim": "Resale lockup: cannot sell for 5 years from Form 4 (Tofes 4) OR 7 years from the lottery win, whichever comes first.",
+      "source_url": "https://www.bizportal.co.il/realestates/news/article/831453",
+      "raw_snippet": "purchasers of apartments in the program are prohibited from selling the apartment for 5 years from the day of receiving Form 4, or for 7 years from the date of the lottery in which they won (whichever comes first).",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "lottery-11-april-2026",
+      "claim": "Lottery 11 of Dira BeHanacha registration opened 15 April 2026 with about 7,000 units across roughly 16 cities.",
+      "source_url": "https://www.mako.co.il/finances-real-estate/Article-7ff6f8021952d91026.htm",
+      "raw_snippet": "ב-15 באפריל 2026 תיפתח הרשמה להגרלה ה-11 של תוכנית דירה בהנחה, במסגרתה יוצעו יותר מ-7,000 יחידות דיור.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "lottery-11-cities",
+      "claim": "Lottery 11 cities include Ashdod, Rehovot, Hadera, Ma'ale Adumim, Kiryat Gat, Nahariya, Eilat, Yehud, Rishon LeZion, Kfar Saba, and others.",
+      "source_url": "https://klikatnadlan.co.il/housinglottery15april26/",
+      "raw_snippet": "בין הערים שבהן ישווקו דירות: אשדוד, רחובות, חדרה, מעלה אדומים, קדימה-צורן, רכסים, בית דגן, בני עי\"ש, כפר מנדא, קריית גת, נהריה, אילת, יהוד, ראשון לציון, בת חפר וכפר סבא.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "reservist-50-percent",
+      "claim": "Up to 50% of Dira BeHanacha lottery 11 units reserved for active reservists; about 25% of those for reserve combat soldiers.",
+      "source_url": "https://www.inn.co.il/news/694458",
+      "raw_snippet": "עד 50% מהדירות יופנו למשרתי מילואים פעילים, ומתוכן כ-25% ללוחמי מילואים.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "eligibility-certificate-200-nis",
+      "claim": "Eligibility certificate (teudat zakaut) costs around 200 NIS for the online application.",
+      "source_url": "https://www.immoisrael.com/blog/israel-housing-lottery-2026",
+      "raw_snippet": "עלות הוצאת אישור זכאות מקוונת הינו 200 ₪.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "three-city-cap",
+      "claim": "Each registrant can choose up to 3 cities and enter all lotteries in those cities.",
+      "source_url": "https://klikatnadlan.co.il/housinglottery15april26/",
+      "raw_snippet": "ניתן יהיה להירשם לשלוש ערים שונות ולכלל ההגרלות בערים אלו.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "leasehold-49-or-98",
+      "claim": "Israeli state land leases are typically 49 or 98 years (canonical lease lengths, not a free range).",
+      "source_url": "https://semerenkogroup.com/how-does-land-ownership-work-in-israel/",
+      "raw_snippet": "This land is leased long-term, usually 49 or 98 years, rather than sold outright.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "state-land-93-percent",
+      "claim": "Approximately 93% of Israel's land is state-owned and administered by the Israel Land Authority.",
+      "source_url": "https://jewishvirtuallibrary.org/israel-lands-privatization-or-national-ownership",
+      "raw_snippet": "Approximately 93 percent of Israel's land is classified as Israel lands, owned collectively by the State, the Development Authority, and the JNF, and administered by the Israel Land Authority.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["references/rmi-system-guide.md"]
+    },
+    {
+      "claim_id": "rmi-portal-online-bids",
+      "claim": "RMI tender portal at apps.land.gov.il/MichrazimSite supports online bid submission requiring digital ID certificate or smart card.",
+      "source_url": "https://apps.land.gov.il/MichrazimSite/",
+      "raw_snippet": "RMI operates the MichrazimSite tender portal as the official channel for active tenders, booklets, and online bid submission.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "housing-ministry-runs-lottery",
+      "claim": "Dira BeHanacha is administered by the Ministry of Construction and Housing at dira.moch.gov.il, not by RMI directly; RMI tenders the land and the Housing Ministry runs eligibility, registration and the drawing.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "תוכנית דירה בהנחה (לשעבר מחיר למשתכן) מופעלת על ידי משרד הבינוי והשיכון. הזכאות, הרישום וההגרלה מתבצעים באתר dira.moch.gov.il.",
+      "fetched_at": "2026-05-20",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/rmi-system-guide.md"]
+    }
+  ]
+}
