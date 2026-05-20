@@ -19,10 +19,14 @@ compatibility: Network access helpful for registrar lookups.
 | Due diligence check | Verify status, directors, filings |
 
 ### Step 2: Company Search
-Search the Israel Corporations Authority:
-- URL: `https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation`
+Search the Israel Corporations Authority (rashut hatagidim):
+- URL: `https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8`
 - Search by: Company name (Hebrew or English) or company number
-- Results: Name, number, type, status (active/dissolved/in liquidation), registration date
+- Free basic info: company number, name, type, limited/unlimited, legal status, registered address, purpose, annual-fee debts, and whether the company has been declared "in breach of law" (mufrat hok)
+- Paid full extract (nesach chevra): submit at `https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract`. Approximately 15 EUR / 53 NIS per extract (2026; verify on the request form)
+- For amutot (NPOs) and CHL"Tz, use GuideStar instead: `https://www.guidestar.org.il` (free; consolidated Ministry of Justice portal)
+- For partnerships (shutfut), use `https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract`
+- Status values (2026): pe'ila (active), be-piruq (in liquidation), nimekhqa (struck off), mufrat hok (in breach of law -- e.g. unpaid annual fees, missing reports)
 
 ### Step 3: Entity Type Comparison
 | Factor | Chevra Baam (Ltd) | Osek Morsheh | Amuta |
@@ -71,20 +75,27 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 ## Gotchas
 - Israeli company registration numbers (mispar chevra) are 9 digits, not the same as the tax ID (mispar osek). Agents may confuse these two identifiers or use one when the other is required.
 - The Companies Registrar (Rasham HaChavarot) database contains Hebrew-only company names. Agents may search using English company names, which will return no results.
-- Company status in the registrar can be "active" (pe'ila), "in dissolution" (be-piruq), or "stricken off" (nimekhqa). Agents may not check the status and return information about inactive companies as if they are operational.
+- Company status in the registrar has four values: "active" (pe'ila), "in liquidation" (be-piruq), "struck off" (nimekhqa), and "in breach of law" (mufrat hok). Agents that only check for "active" miss the "in breach" case, which is common (unpaid annual fees, late reports) and is a significant due-diligence red flag.
 - Israeli business types include Chevra Baam (Ltd.), Shutafut (Partnership), Amuta (NPO), and Aguda Shitufit (Cooperative). Each has different registration systems. Agents may search for a partnership in the company registrar, which only lists Ltd. companies.
+- Amutot and CHL"Tz (Public-Benefit Companies) live on GuideStar (`guidestar.org.il`), the Ministry of Justice's consolidated NPO portal -- not on the main `ica.justice.gov.il` search. Both extracts are free.
+- Israel's UBO (Ultimate Beneficial Owner) registry is NOT yet operational. A Ministry of Justice memorandum was published for public consultation on 2025-06-26 (consultation closed 2025-07-17); the law is still pre-enactment as of May 2026, and when enacted the registry will NOT be publicly accessible (regulated entities and authorities only). Do not promise public UBO lookup until enactment + a public-access tier exists.
+- "Apotropos Klali" (Official Receiver) was renamed to "ha-memuneh al chadlut pira'on ve-shikum kalkali" (Insolvency and Economic Rehabilitation Commissioner) when the Insolvency and Economic Rehabilitation Law 2018 took effect on 2019-09-15. For cases opened on or after that date, the searchable docket lives at `insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx`. Older "psikat regel" files predating 2019 are still under the legacy Apotropos Klali system.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Companies Registrar (ICA) | https://ica.justice.gov.il | Company search, status, filings, ownership |
-| NPO (Amutot) Registrar | https://www.gov.il/he/departments/the_registrar_of_non_profits | Search amutot, status, annual filings |
-| data.gov.il - companies | https://data.gov.il/dataset?q=חברות | Open data dumps of the companies registrar |
+| Companies Registrar (ICA / rashut hatagidim) | https://ica.justice.gov.il | Company search, status, filings, ownership |
+| Free company snapshot | https://www.gov.il/en/service/company_extract | Basic info free; full extract paid (approximately 53 NIS / 15 EUR, 2026) |
+| GuideStar (Amutot + CHL"Tz) | https://www.guidestar.org.il | Consolidated MoJ portal for NPOs and public-benefit companies. Free extracts |
+| Partnership extract | https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract | Nesach shutfut from Rasham HaShutfuyot |
+| data.gov.il - ica_companies | https://data.gov.il/dataset/ica_companies | Bulk dump of companies registrar (CKAN API available) |
+| Reshumot - Yalkut HaPirsumim | https://www.gov.il/he/Departments/DynamicCollectors/gazette-official | Official gazette: liquidation notices, dissolution petitions, creditor calls |
+| Insolvency Commissioner (post-2019 cases) | https://insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx | Searchable case list under Insolvency and Economic Rehabilitation Law 2018 |
+| Apotropos Klali (legacy pre-2019 files + general guardianship) | https://www.gov.il/he/departments/the_official_receiver | Older psikat regel files, kintus nechasim |
 | Israel Tax Authority | https://www.gov.il/he/departments/israel_tax_authority | Verify business TIN (mispar osek) separately |
 | NBCTF sanctions designations | https://nbctf.mod.gov.il/en/Minister%20Sanctions/Designation/Pages/downloads.aspx | Counter-Terrorism Law 2016 designations of sanctioned individuals and entities. Critical for due-diligence on Israeli counterparties post-Iron-Swords. |
-| Apotropos Klali (Official Receiver) | https://www.gov.il/he/departments/the_official_receiver | Insolvency, bankruptcy (psikat regel), receivership (kintus nechasim) under Insolvency and Economic Rehabilitation Law 2018 |
-| Israel Securities Authority (ISA) licensed entities | https://www.isa.gov.il | Portfolio managers, investment advisors, marketers - public licensed list |
+| Israel Securities Authority (ISA) licensed entities | https://www.isa.gov.il | Portfolio managers, investment advisors, marketers (public licensed list) |
 | Capital Market Authority (CMA) registries | https://www.gov.il/he/departments/capital_markets_insurance_savings_authority | Licensed insurers, pension funds, kupot gemel, investment houses |
 
 ## Troubleshooting
@@ -100,3 +111,11 @@ Solution: Verify the entity type first. Companies: 51-XXXXXXX (9 digits), Amutot
 ### Error: "Entity type confusion (Osek Patur vs Osek Morsheh)"
 Cause: Users confuse tax registration types with company registration types
 Solution: Osek Patur/Morsheh are VAT registration types at the Tax Authority (SHAAM), not company types at the Registrar of Companies. A person can be an Osek Morsheh without registering a company. Clarify the user's actual need: business entity lookup vs. tax registration status.
+
+### Error: "Cannot find the amuta on ica.justice.gov.il"
+Cause: Amutot and CHL"Tz are not in the main companies database
+Solution: Search on GuideStar (`https://www.guidestar.org.il`) instead. It is the Ministry of Justice's consolidated portal for amutot and public-benefit companies. Basic extract is free.
+
+### Error: "User asks for beneficial owner / UBO lookup"
+Cause: User assumes Israel has a public UBO registry (similar to UK Companies House PSC register)
+Solution: As of May 2026, Israel has NO operational UBO registry. The MoJ memorandum was published 2025-06-26 for public comment (closed 2025-07-17); the law is still pre-enactment and, when enacted, the registry will NOT be publicly accessible. For now, the closest signals are: directors and shareholders listed on a paid full company extract, the company's filed annual report (dorech shanati), and (for public companies only) ISA disclosures on Maya at `maya.tase.co.il`.

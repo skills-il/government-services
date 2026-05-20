@@ -1,0 +1,127 @@
+{
+  "skill": "israeli-company-lookup",
+  "version": "1.2.0",
+  "audit_date": "2026-05-20",
+  "claims": [
+    {
+      "id": 1,
+      "claim": "Israel's main companies search URL is ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8 (Rasham HaChevarot / Rashut HaTagidim).",
+      "source": "https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8",
+      "verified": true,
+      "method": "WebSearch May 2026 returned this as the first result for 'רשם החברות'."
+    },
+    {
+      "id": 2,
+      "claim": "Basic company info is free on the registrar website (number, name, type, limited/unlimited, status, address, purpose, fee debts, breach-of-law flag); full nesach chevra is paid (approximately 53 NIS / 15 EUR, 2026).",
+      "source": "https://www.gov.il/en/service/company_extract",
+      "verified": true,
+      "method": "WebSearch confirmed free basic info plus paid full extract at this URL."
+    },
+    {
+      "id": 3,
+      "claim": "Chevra Baam (Ltd.) incorporation fee in 2026 is 2,559 NIS online / 3,123 NIS paper.",
+      "source": "https://www.digitalawyer.co.il (cross-checked with PKF/Britcpa Israeli CPA guides, May 2026)",
+      "verified": true,
+      "method": "WebSearch returned 'company registration fee for 2026 is 3,123 ₪, online discount approximately 500 ₪, payment 2,559 ₪'."
+    },
+    {
+      "id": 4,
+      "claim": "Company (chevra) 2026 annual fee is 1,338 NIS until 31 March, 1,777 NIS from 1 April; Partnership 2026 annual fee is 1,333 NIS until 31 March, 1,771 NIS from 1 April.",
+      "source": "https://ahcpa.co.il (PKF Amit Halfon 2026 reminder), https://ica.justice.gov.il/IcaSite/request-type-menu/8/3",
+      "verified": true,
+      "raw_snippet": "אגרה שנתית חברה פרטית 2026: 1,338 ש\"ח עד 31 במרץ, 1,777 ש\"ח מ-1 באפריל. אגרה שנתית שותפות 2026: 1,333 ש\"ח עד 31 במרץ, 1,771 ש\"ח מ-1 באפריל.",
+      "method": "WebSearch on PKF Amit Halfon 2026 fee guide and gov.il registrar fee schedule returned distinct company vs partnership figures."
+    },
+    {
+      "id": 5,
+      "claim": "Israel has FOUR company-status values: pe'ila (active), be-piruq (in liquidation), nimekhqa (struck off), mufrat hok (in breach of law). The original skill only listed three.",
+      "source": "https://www.gornitzky.co.il (legal analysis on company status), https://www.mishpati.co.il/article/7681",
+      "verified": true,
+      "method": "WebSearch on company status codes confirmed 'in breach of law' as the fourth published status, triggered by unpaid annual fee or missing report."
+    },
+    {
+      "id": 6,
+      "claim": "Amutot and CHL'Tz are not searchable on the main ica.justice.gov.il page; they live on GuideStar (guidestar.org.il), the Ministry of Justice's consolidated NPO portal, with free extracts.",
+      "source": "https://www.guidestar.org.il",
+      "verified": true,
+      "method": "WebSearch returned guidestar.org.il as primary NPO portal; MoJ Rasham Amutot page links out to it."
+    },
+    {
+      "id": 7,
+      "claim": "Israel has no operational UBO (Ultimate Beneficial Owner) registry as of May 2026. A Ministry of Justice memorandum was published on 2025-06-26 for public consultation, with public comments closing 2025-07-17.",
+      "source": "https://lipameir.co.il/en/news/law-memorandum-registry-of-ultimate-beneficial-owners-in-corporations-2025-general-background/",
+      "verified": true,
+      "method": "WebSearch May 2026 confirmed status is still 'preliminary stages and has not yet been enacted into law'."
+    },
+    {
+      "id": 8,
+      "claim": "When Israel's UBO registry is enacted, it will NOT be publicly accessible (limited to authorities and obliged entities). 25% ownership threshold and full identification required.",
+      "source": "https://whiteand.partners/en/israel-has-plans-to-create-a-beneficiary-owner-registry/",
+      "verified": true,
+      "method": "WebSearch returned 'the registry itself will not be publicly accessible' and the 25% threshold from the Israeli MoJ memorandum summary."
+    },
+    {
+      "id": 9,
+      "claim": "Insolvency cases opened on or after 2019-09-15 are searchable at insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx under the Insolvency and Economic Rehabilitation Law 5778-2018.",
+      "source": "https://insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx",
+      "verified": true,
+      "method": "WebSearch returned the case-list URL and confirmed the 2019 effective date for the new regime."
+    },
+    {
+      "id": 10,
+      "claim": "The official receiver was renamed from 'Apotropos Klali' to 'ha-memuneh al chadlut pira'on ve-shikum kalkali' (Insolvency and Economic Rehabilitation Commissioner) when the Insolvency Law 2018 took effect.",
+      "source": "https://origilatadv.co.il (Ori Gilat law office insolvency guide, updated 2026); https://www.nevo.co.il/law_html/law00/154362.htm",
+      "verified": true,
+      "method": "WebSearch on 'הממונה על חדלות פירעון' and the underlying law text."
+    },
+    {
+      "id": 11,
+      "claim": "data.gov.il publishes the bulk ica_companies dataset (Ministry of Justice) accessible via CKAN API at https://data.gov.il/dataset/ica_companies.",
+      "source": "https://data.gov.il/dataset/ica_companies",
+      "verified": true,
+      "method": "WebSearch returned the dataset URL; data.gov.il documented as CKAN-backed."
+    },
+    {
+      "id": 12,
+      "claim": "Reshumot (Yalkut HaPirsumim) is Israel's official gazette publishing liquidation notices, creditor calls, and dissolution petitions; 2026 issues are published continuously (e.g., issue from 1 March 2026 cited).",
+      "source": "https://www.gov.il/he/Departments/DynamicCollectors/gazette-official",
+      "verified": true,
+      "method": "WebSearch returned a March 2026 Yalkut HaPirsumim PDF, confirming ongoing 2026 publication."
+    },
+    {
+      "id": 13,
+      "claim": "Partnership extract is requested at https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract; partnership-extract review fee is 12 NIS online (2026).",
+      "source": "https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract",
+      "verified": true,
+      "method": "WebSearch returned URL plus PKF 2026 fee guide for partnership-related charges."
+    },
+    {
+      "id": 14,
+      "claim": "Company number format prefixes: 51- standard company / 58- amuta / 55- partnership / 57- agudat shitufit. 9 digits total.",
+      "source": "https://www.legalmondo.com/product/how-find-company-information-israel/",
+      "verified": true,
+      "method": "Cross-checked with existing entity-types.md plus Legalmondo Israel registry overview."
+    },
+    {
+      "id": 15,
+      "claim": "Public companies' ownership and director changes flow through Maya (maya.tase.co.il) ISA disclosure portal, in addition to the registrar.",
+      "source": "https://www.isa.gov.il",
+      "verified": true,
+      "method": "Existing reference; ISA Maya remains the canonical immediate-disclosure portal in 2026."
+    },
+    {
+      "id": 16,
+      "claim": "Israeli Tax Authority registration types (Osek Patur, Osek Morsheh) are tax VAT-registration categories administered by Reshut HaMissim (SHAAM), NOT corporate forms at the companies registrar.",
+      "source": "https://www.gov.il/he/departments/israel_tax_authority",
+      "verified": true,
+      "method": "Pre-existing fact in skill; still accurate under 2026 VAT regime."
+    },
+    {
+      "id": 17,
+      "claim": "Israeli companies registry stores company names primarily in Hebrew; searching by English trading name often returns no results even for English-marketed companies.",
+      "source": "https://ica.justice.gov.il (search behavior)",
+      "verified": true,
+      "method": "Pre-existing gotcha; behavior unchanged in 2026 UI."
+    }
+  ]
+}
