@@ -1,0 +1,147 @@
+{
+  "skill": "israeli-election-data",
+  "version": "1.1.0",
+  "verified_at": "2026-05-20",
+  "claims": [
+    {
+      "claim": "The Knesset has 120 seats.",
+      "source": "Basic Law: The Knesset (1958), Section 3; Knesset official lexicon.",
+      "verification": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
+      "verified": true
+    },
+    {
+      "claim": "The electoral threshold is 3.25% of valid votes since the 2014 amendment to Basic Law: The Knesset.",
+      "source": "Knesset Law amendment, 11 March 2014. Confirmed via Knesset lexicon and Israel Democracy Institute.",
+      "verification": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx ; https://en.idi.org.il/articles/64020",
+      "verified": true
+    },
+    {
+      "claim": "Seat allocation uses the Bader-Ofer method (modified D'Hondt, equivalent to Hagenbach-Bischoff).",
+      "source": "Knesset Lexicon: Distribution of Knesset Seats (Bader-Ofer Method).",
+      "verification": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
+      "verified": true
+    },
+    {
+      "claim": "Knesset OData service base URL is https://knesset.gov.il/Odata/ParliamentInfo.svc/ and exposes 38 entities as of 2026-05-20.",
+      "source": "Direct probe of service root.",
+      "verification": "curl https://knesset.gov.il/Odata/ParliamentInfo.svc/?$format=json -- returns 38-entity list (KNS_Agenda through KNS_Status).",
+      "verified": true
+    },
+    {
+      "claim": "KNS_VoteMain and KNS_VoteDetail are NOT exposed in the public OData service.",
+      "source": "Direct probe.",
+      "verification": "curl 'https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_VoteMain?$format=json&$top=1' returns {\"odata.error\":{\"code\":\"\",\"message\":{\"lang\":\"he-IL\",\"value\":\"Resource not found for the segment 'KNS_VoteMain'.\"}}}.",
+      "verified": true
+    },
+    {
+      "claim": "PositionID 43 = male MK (חבר הכנסת), 61 = female MK (חברת הכנסת), 45 = Prime Minister, 39 = male Minister, 57 = female Minister, 41 = Committee Chair, 122/123 = Knesset Speaker (m/f).",
+      "source": "Live KNS_Position endpoint.",
+      "verification": "curl 'https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Position?$format=json&$top=80' returns canonical position lexicon used in references file.",
+      "verified": true
+    },
+    {
+      "claim": "PositionID 54 records faction membership (חבר/ת סיעה), NOT MK status. Filtering by 54 to enumerate MKs is incorrect.",
+      "source": "Live KNS_Position endpoint.",
+      "verification": "Same KNS_Position dump as above shows 54 = 'חבר/ת סיעה' (gender-neutral faction-member designation), separate from 43/61 (MK male/female).",
+      "verified": true
+    },
+    {
+      "claim": "votes.gov.il no longer resolves; the live Central Elections Committee site is bechirot.gov.il.",
+      "source": "Direct probe.",
+      "verification": "curl -I https://votes.gov.il returns 'Could not resolve host'. curl -I https://www.bechirot.gov.il/ returns 301/302 to live site (currently in maintenance redirect to /home/, but DNS resolves).",
+      "verified": true
+    },
+    {
+      "claim": "Central Elections Committee election results are published on data.gov.il under dataset 'votes-knesset', with per-locality and per-ballot CSVs for Knessets 16-25.",
+      "source": "data.gov.il CKAN API.",
+      "verification": "curl 'https://data.gov.il/api/3/action/package_show?id=votes-knesset' returns 17 resources covering Knessets 16-25; org='central-election-committee'; metadata_modified 2024-11-27.",
+      "verified": true
+    },
+    {
+      "claim": "The 2022 Knesset election (1 November 2022) seat counts: Likud 32, Yesh Atid 24, Religious Zionism-Otzma Yehudit 14, National Unity 12, Shas 11, UTJ 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5, Labor 4.",
+      "source": "Wikipedia 2022 Israeli legislative election; cross-confirmed with Haaretz and IDI.",
+      "verification": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election ; https://en.idi.org.il/articles/46247",
+      "verified": true
+    },
+    {
+      "claim": "Coalition / opposition split after the 2022 election: 64 vs 56.",
+      "source": "Same as above.",
+      "verification": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election (final results section)",
+      "verified": true
+    },
+    {
+      "claim": "Meretz received 3.16% of valid votes in 2022 (below threshold, 0 seats). Balad received 2.91% (below threshold, 0 seats).",
+      "source": "Wikipedia 2022 Israeli legislative election results table.",
+      "verification": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election ; Haaretz 'Meretz Under Threshold' coverage.",
+      "verified": true
+    },
+    {
+      "claim": "The 25th Knesset was sworn in on 15 November 2022.",
+      "source": "Wikipedia 2022 Israeli legislative election.",
+      "verification": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election (swearing-in date confirmed).",
+      "verified": true
+    },
+    {
+      "claim": "The next Knesset election (26th Knesset) must be held no later than 27 October 2026.",
+      "source": "Times of Israel; Wikipedia 2026 Israeli legislative election article.",
+      "verification": "https://www.timesofisrael.com/judge-sets-date-for-next-scheduled-elections-for-october-2026/ ; https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "verified": true
+    },
+    {
+      "claim": "2024 Israeli municipal elections were held on 27 February 2024 with a runoff round on 10 March 2024 in 35 localities. Turnout was approximately 49.5%.",
+      "source": "Wikipedia 2024 Israeli municipal elections; Israel Democracy Institute analysis; Knesset Research and Information Center fact sheet.",
+      "verification": "https://en.wikipedia.org/wiki/2024_Israeli_municipal_elections ; https://en.idi.org.il/articles/53620 ; https://m.knesset.gov.il/EN/Documents/FactsheetMunicipalelections2024updated.pdf",
+      "verified": true
+    },
+    {
+      "claim": "11 localities in northern and southern Israel had their municipal elections postponed to November 2024 due to wartime evacuation.",
+      "source": "Israel Democracy Institute analysis of 2024 local elections.",
+      "verification": "https://en.idi.org.il/articles/53620",
+      "verified": true
+    },
+    {
+      "claim": "The Knesset OData service is OData v3, not v4. Filter syntax is substringof('text', Field), not contains(Field, 'text').",
+      "source": "Direct API behavior + OData v3 spec.",
+      "verification": "Service root response includes 'dataserviceversion: 1.0;' header (OData v3 metadata-version semantics). substringof works in live queries; contains returns 400.",
+      "verified": true
+    },
+    {
+      "claim": "Hasadna's knesset-data project at github.com/hasadna/knesset-data mirrors Knesset internal databases (including vote tables not exposed via OData).",
+      "source": "Hasadna GitHub repository.",
+      "verification": "https://github.com/hasadna/knesset-data (active repo, regularly updated by Hasadna, the Israeli non-profit running open-government data pipelines).",
+      "verified": true
+    },
+    {
+      "claim": "data.gov.il/dataset/votes-knesset is maintained by 'central-election-committee' organization (org id 798010b4-a7b7-4981-afe6-85eda525a671) with mail_box bard@knesset.gov.il.",
+      "source": "data.gov.il CKAN API package_show response.",
+      "verification": "GET https://data.gov.il/api/3/action/package_show?id=votes-knesset",
+      "verified": true
+    },
+    {
+      "claim": "Pre-2014, the Israeli electoral threshold was 2% (raised from 1.5% in 2003, originally 1% from 1949).",
+      "source": "Washington Institute; Israel Policy Forum.",
+      "verification": "https://www.washingtoninstitute.org/policy-analysis/israels-governance-law-raising-electoral-threshold ; https://israelpolicyforum.org/2019/02/19/crossing-the-threshold-israels-electoral-threshold-explained/",
+      "verified": true
+    },
+    {
+      "claim": "Surplus-vote agreements (heskemei odafim) allow two parties to be treated as one bloc for the leftover-seat allocation round only.",
+      "source": "Times of Israel: 'How the Bader-Ofer Law Really Works'; Knesset Lexicon.",
+      "verification": "https://blogs.timesofisrael.com/how-the-bader-ofer-law-really-works/ ; https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
+      "verified": true
+    },
+    {
+      "claim": "Older data.gov.il votes-knesset CSVs (Knesset 16-20) use Windows-1255 encoding; newer files (21+) use UTF-8 with BOM.",
+      "source": "Empirical observation across the 17 resources in the dataset.",
+      "verification": "Sampling resource files via Python chardet: -16-.xls, -17-.xls are legacy Excel; -18- through -25-.csv span both encodings. Confirmed in past skills-il community work.",
+      "verified": "partial",
+      "notes": "Encoding heuristic is broadly accurate but not guaranteed for every cycle's file; users should detect with chardet rather than hard-coding."
+    },
+    {
+      "claim": "Bill status code 118 = approved in third reading (became law); 108 = preparation for first reading; 125 = rejected.",
+      "source": "Standard Knesset bill status codes used by hasadna/knesset-data and Open Knesset.",
+      "verification": "Cross-referenced with Open Knesset legacy code at https://github.com/hasadna/Open-Knesset (status_id mapping in bills models).",
+      "verified": true,
+      "notes": "Full list is queryable live via KNS_Status?$filter=TypeID eq 5."
+    }
+  ]
+}
