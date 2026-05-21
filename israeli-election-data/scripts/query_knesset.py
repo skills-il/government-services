@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """
-Query Israeli Knesset Open Data API (OData v3).
+Query Israeli Knesset Open Data API (OData v4).
 
-Standalone utility for querying the Knesset (Israeli Parliament) OData API
-for MK information, bills, factions, and the position-ID lexicon.
+Standalone utility for querying the Knesset (Israeli Parliament) OData API for
+MK information, bills, factions, plenum votes (per-MK), and the position-ID
+lexicon.
 
-Per-MK plenum vote data is NOT available in the public OData service
-(KNS_VoteMain and KNS_VoteDetail return 404). For votes, use
-https://github.com/hasadna/knesset-data instead.
+Targets OData v4 at https://knesset.gov.il/OdataV4/ParliamentInfo/. The legacy
+v3 endpoint at https://knesset.gov.il/Odata/ParliamentInfo.svc/ is still up
+but does not expose vote tables; this script uses v4 throughout.
 
 Usage:
     python query_knesset.py mks --knesset 25
-    python query_knesset.py search-mk "Netanyahu"
+    python query_knesset.py search-mk "נתניהו"
     python query_knesset.py bills --knesset 25 --keyword "education"
+    python query_knesset.py votes --topic "תקציב"
+    python query_knesset.py votes --topic "תקציב" --mk 466
     python query_knesset.py factions --knesset 25
     python query_knesset.py entities
     python query_knesset.py positions
@@ -25,44 +28,46 @@ import urllib.request
 import urllib.parse
 import urllib.error
 
-KNESSET_BASE = "https://knesset.gov.il/Odata/ParliamentInfo.svc"
+KNESSET_BASE = "https://knesset.gov.il/OdataV4/ParliamentInfo"
 
 
 def odata_get(entity: str, filters: str = "", top: int = 50,
-              select: str = "") -> list:
-    """Query the Knesset OData API."""
+              select: str = "", orderby: str = "") -> list:
+    """Query the Knesset OData v4 API."""
     url = f"{KNESSET_BASE}/{entity}" if entity else KNESSET_BASE + "/"
-    params = {"$format": "json"}
+    params = {}
     if entity:
         params["$top"] = str(top)
-
     if filters:
         params["$filter"] = filters
     if select:
         params["$select"] = select
+    if orderby:
+        params["$orderby"] = orderby
 
-    url += "?" + urllib.parse.urlencode(params)
+    if params:
+        url += "?" + urllib.parse.urlencode(params)
 
     req = urllib.request.Request(url)
-    req.add_header("User-Agent", "israeli-election-data-skill/1.1")
+    req.add_header("User-Agent", "israeli-election-data-skill/1.2")
     req.add_header("Accept", "application/json")
 
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            # OData v3 returns results in d.results or value
-            if "value" in data:
-                return data["value"]
-            elif "d" in data:
-                return data["d"].get("results", [])
-            return []
+            # OData v4 returns results in `value`.
+            return data.get("value", [])
     except urllib.error.HTTPError as e:
         print(f"HTTP error {e.code}: {e.reason}", file=sys.stderr)
         if e.code == 404:
-            print("Entity not found. Check entity name (case-sensitive).",
+            print("Entity not found. Check entity name (case-sensitive). "
+                  "Common slip: 'KNS_IsraelLawClassification' returns 404, "
+                  "use 'KNS_IsraelLawClassificiation' (double 'i', intentional "
+                  "upstream typo).", file=sys.stderr)
+        if e.code == 400:
+            print("Bad request. Common slip: using v3 filter syntax. v4 uses "
+                  "contains(Field,'text'), not substringof('text', Field).",
                   file=sys.stderr)
-            print("Note: KNS_VoteMain and KNS_VoteDetail are NOT exposed "
-                  "via the public OData service.", file=sys.stderr)
         sys.exit(1)
     except urllib.error.URLError as e:
         print(f"Connection error: {e.reason}", file=sys.stderr)
@@ -89,20 +94,19 @@ def get_mks(knesset_num: int) -> None:
     print(f"Found {len(results)} MK records:\n")
     for mk in results:
         person_id = mk.get("PersonID", "")
-        name = f"{mk.get('FirstName', '')} {mk.get('LastName', '')}".strip()
         faction = mk.get("FactionName", "Unknown")
-        print(f"  [{person_id}] {name} - {faction}")
+        print(f"  PersonID={person_id}  Faction={faction}")
 
 
 def search_mk(name: str) -> None:
-    """Search for an MK by name."""
+    """Search for an MK by name (v4 contains)."""
     print(f"=== Searching for: {name} ===\n")
 
     results = odata_get(
         entity="KNS_Person",
         filters=(
-            f"substringof('{name}', LastName) or "
-            f"substringof('{name}', FirstName)"
+            f"contains(LastName,'{name}') or "
+            f"contains(FirstName,'{name}')"
         ),
         top=20,
     )
@@ -113,7 +117,8 @@ def search_mk(name: str) -> None:
 
     print(f"Found {len(results)} results:\n")
     for person in results:
-        pid = person.get("PersonID", "")
+        # v4 PK is `Id` (legacy `PersonID` may also be present in some payloads)
+        pid = person.get("Id", person.get("PersonID", ""))
         first = person.get("FirstName", "")
         last = person.get("LastName", "")
         email = person.get("Email", "")
@@ -128,17 +133,18 @@ def search_mk(name: str) -> None:
 
 
 def search_bills(knesset_num: int, keyword: str, limit: int) -> None:
-    """Search for bills in a Knesset."""
+    """Search for bills in a Knesset (v4 contains)."""
     print(f"=== Bills in {knesset_num}th Knesset matching '{keyword}' ===\n")
 
     filters = [f"KnessetNum eq {knesset_num}"]
     if keyword:
-        filters.append(f"substringof('{keyword}', Name)")
+        filters.append(f"contains(Name,'{keyword}')")
 
     results = odata_get(
         entity="KNS_Bill",
         filters=" and ".join(filters),
         top=limit,
+        orderby="PublicationDate desc",
     )
 
     if not results:
@@ -148,19 +154,68 @@ def search_bills(knesset_num: int, keyword: str, limit: int) -> None:
     status_map = {
         108: "In preparation for first reading",
         118: "Approved in third reading (law)",
-        120: "Pending continuity discussion",
         125: "Rejected",
     }
 
     print(f"Found {len(results)} bills:\n")
     for bill in results:
-        bill_id = bill.get("BillID", "")
+        bill_id = bill.get("Id", bill.get("BillID", ""))
         name = bill.get("Name", "Untitled")
         status_id = bill.get("StatusID", 0)
         status = status_map.get(status_id, f"Status {status_id}")
 
         print(f"  Bill #{bill_id}: {name}")
         print(f"  Status: {status}")
+        print()
+
+
+def search_votes(topic: str, mk_id: int, limit: int) -> None:
+    """Find plenum votes by VoteTitle, optionally per-MK result.
+
+    v4-only: KNS_PlenumVote and KNS_PlenumVoteResult are not exposed in v3.
+    """
+    print(f"=== Plenum votes matching '{topic}' ===\n")
+
+    votes = odata_get(
+        entity="KNS_PlenumVote",
+        filters=f"contains(VoteTitle,'{topic}')",
+        top=limit,
+        orderby="VoteDateTime desc",
+    )
+
+    if not votes:
+        print("No votes found. Try Hebrew keywords (VoteTitle is in Hebrew).")
+        return
+
+    print(f"Found {len(votes)} votes:\n")
+    for vote in votes:
+        vote_id = vote.get("Id", "")
+        title = vote.get("VoteTitle", "(no title)")
+        when = vote.get("VoteDateTime", "")
+        method = vote.get("VoteMethodDesc", "")
+        no_conf = vote.get("IsNoConfidenceInGov")
+
+        print(f"  Vote #{vote_id}  {when}")
+        print(f"    Title: {title}")
+        if method:
+            print(f"    Method: {method}")
+        if no_conf:
+            print("    (No-confidence motion)")
+
+        if mk_id:
+            results = odata_get(
+                entity="KNS_PlenumVoteResult",
+                filters=f"VoteID eq {vote_id} and MkId eq {mk_id}",
+                top=1,
+            )
+            if results:
+                r = results[0]
+                outcome = r.get("ResultDesc", "(unknown)")
+                first = r.get("FirstName", "")
+                last = r.get("LastName", "")
+                print(f"    MK {first} {last} (id={mk_id}): {outcome}")
+            else:
+                print(f"    MK id={mk_id}: did not vote")
         print()
 
 
@@ -180,17 +235,18 @@ def get_factions(knesset_num: int) -> None:
 
     print(f"Found {len(results)} factions:\n")
     for faction in results:
-        fid = faction.get("FactionID", "")
+        fid = faction.get("Id", faction.get("FactionID", ""))
         name = faction.get("Name", "Unknown")
         print(f"  [{fid}] {name}")
 
 
 def list_entities() -> None:
     """List all available OData entities at the service root."""
-    print("=== Available Knesset OData entities ===\n")
+    print("=== Available Knesset OData v4 entities ===\n")
 
-    req = urllib.request.Request(KNESSET_BASE + "/?$format=json")
-    req.add_header("User-Agent", "israeli-election-data-skill/1.1")
+    # In v4, GET on the service root returns a service document with entity sets.
+    req = urllib.request.Request(KNESSET_BASE + "/")
+    req.add_header("User-Agent", "israeli-election-data-skill/1.2")
     req.add_header("Accept", "application/json")
 
     try:
@@ -201,13 +257,14 @@ def list_entities() -> None:
         sys.exit(1)
 
     entities = data.get("value", [])
-    print(f"Service exposes {len(entities)} entities:\n")
+    print(f"Service exposes {len(entities)} entity sets:\n")
     for ent in entities:
-        print(f"  {ent.get('name', '')}")
+        name = ent.get("name") or ent.get("url", "")
+        print(f"  {name}")
 
 
 def list_positions() -> None:
-    """List the PositionID lexicon (used for filtering KNS_PersonToPosition)."""
+    """List the PositionID lexicon."""
     print("=== Knesset PositionID lexicon ===\n")
 
     results = odata_get(entity="KNS_Position", top=100)
@@ -216,13 +273,12 @@ def list_positions() -> None:
         print("Could not retrieve positions.")
         return
 
-    # Sort by PositionID
-    results.sort(key=lambda p: p.get("PositionID", 0))
+    results.sort(key=lambda p: p.get("PositionID", p.get("Id", 0)))
     print(f"Found {len(results)} positions:\n")
     print(f"  {'ID':>6}  Description")
     print(f"  {'-'*6}  {'-'*40}")
     for pos in results:
-        pid = pos.get("PositionID", "")
+        pid = pos.get("PositionID", pos.get("Id", ""))
         desc = pos.get("Description", "")
         print(f"  {pid:>6}  {desc}")
 
@@ -230,8 +286,9 @@ def list_positions() -> None:
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Query Israeli Knesset Open Data API (OData v3). "
-            "Per-MK vote data is not exposed publicly; use hasadna/knesset-data."
+            "Query Israeli Knesset Open Data API (OData v4). "
+            "Per-MK plenum vote data is available via KNS_PlenumVote + "
+            "KNS_PlenumVoteResult (v4-only)."
         )
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
@@ -251,6 +308,17 @@ def main():
     bills_parser.add_argument("--limit", type=int, default=20,
                               help="Number of results")
 
+    votes_parser = subparsers.add_parser(
+        "votes",
+        help="Search plenum votes by topic (and optionally per-MK result)"
+    )
+    votes_parser.add_argument("--topic", required=True,
+                              help="Substring to match in VoteTitle (Hebrew)")
+    votes_parser.add_argument("--mk", type=int, default=0,
+                              help="MK id to look up per-vote result")
+    votes_parser.add_argument("--limit", type=int, default=10,
+                              help="Number of votes to show")
+
     fac_parser = subparsers.add_parser("factions", help="List factions")
     fac_parser.add_argument("--knesset", type=int, default=25,
                             help="Knesset number")
@@ -269,6 +337,8 @@ def main():
         search_mk(args.name)
     elif args.command == "bills":
         search_bills(args.knesset, args.keyword, args.limit)
+    elif args.command == "votes":
+        search_votes(args.topic, args.mk, args.limit)
     elif args.command == "factions":
         get_factions(args.knesset)
     elif args.command == "entities":

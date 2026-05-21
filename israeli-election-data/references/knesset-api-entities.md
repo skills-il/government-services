@@ -1,109 +1,120 @@
 # Knesset OData API Entity Reference
 
-## Base URL
+## Base URL (current)
+`https://knesset.gov.il/OdataV4/ParliamentInfo/`
+
+OData v4 service. Root URL returns the live entity list.
+
+### Legacy v3 endpoint (still up)
 `https://knesset.gov.il/Odata/ParliamentInfo.svc/`
 
-OData v3 service. Root URL returns the live entity list.
+Same parliamentary data, older protocol version. Use only if maintaining existing code; v4 is the current API and is the only one that exposes per-MK vote tables.
 
-## Query Format
+## v4 Query Format
 ```
-GET {BASE}/{ENTITY}?$format=json&$filter={FILTER}&$top={LIMIT}&$select={FIELDS}
+GET {BASE}/{ENTITY}?$filter={FILTER}&$top={LIMIT}&$select={FIELDS}&$orderby={FIELD}&$expand={REL}&$count=true
 ```
 
-## Available Entities (38, as of 2026-05)
+v4 returns JSON by default. `$format=json` is not required.
+
+## Available Entities
 
 People and positions:
-- `KNS_Person` -- MKs, ministers, other parliamentary figures.
-- `KNS_PersonToPosition` -- Position history (MK terms, ministerial roles).
-- `KNS_Position` -- Position-ID lexicon (see below).
-- `KNS_MkSiteCode` -- MK website / personal page identifiers.
+- `KNS_Person`, MKs, ministers, other parliamentary figures.
+- `KNS_PersonToPosition`, position history (MK terms, ministerial roles).
+- `KNS_Position`, position-ID lexicon (see below).
+- `KNS_MkSiteCode`, MK website / personal page identifiers.
 
 Factions:
-- `KNS_Faction` -- Political factions per Knesset.
+- `KNS_Faction`, political factions per Knesset.
 
 Bills and legislation:
-- `KNS_Bill` -- Legislative bills.
-- `KNS_BillName` -- Bill titles (multiple versions / readings).
-- `KNS_BillInitiator` -- Current bill sponsors.
-- `KNS_BillHistoryInitiator` -- Historical sponsor records.
-- `KNS_BillSplit` -- Records of bills split during legislative process.
-- `KNS_BillUnion` -- Records of bills merged during legislative process.
+- `KNS_Bill`, legislative bills.
+- `KNS_BillName`, bill titles (multiple versions / readings).
+- `KNS_BillInitiator`, current bill sponsors.
+- `KNS_BillHistoryInitiator`, historical sponsor records.
+- `KNS_BillSplit`, records of bills split during legislative process.
+- `KNS_BillUnion`, records of bills merged during legislative process.
+
+Israeli law corpus:
+- `KNS_IsraelLaw`, enacted Israeli law records.
+- `KNS_IsraelLawName`, Israeli law titles (multiple versions over time).
+- `KNS_IsraelLawBinding`, law-to-Knesset binding records.
+- `KNS_IsraelLawClassificiation`, law classification. **Note the upstream typo** (double 'i'). The correctly-spelled `KNS_IsraelLawClassification` returns 404.
+- `KNS_IsraelLawMinistry`, law-to-ministry mapping.
+- `KNS_SecondaryLaw`, secondary legislation (regulations, orders, decrees).
 
 Committees:
-- `KNS_Committee` -- Knesset committees.
-- `KNS_CommitteeSession` -- Committee sessions.
-- `KNS_CmtSessionItem` -- Items discussed in committee sessions.
-- `KNS_CmtSiteCode` -- Committee website identifiers.
-- `KNS_JointCommittee` -- Joint committees.
+- `KNS_Committee`, Knesset committees.
+- `KNS_CommitteeSession`, committee sessions.
+- `KNS_CmtSessionItem`, items discussed in committee sessions.
+- `KNS_CmtSiteCode`, committee website identifiers.
+- `KNS_JointCommittee`, joint committees.
 
-Plenum:
-- `KNS_PlenumSession` -- Plenum sessions.
-- `KNS_PlmSessionItem` -- Items on plenum agendas.
+Plenum + votes:
+- `KNS_PlenumSession`, plenum sessions.
+- `KNS_PlmSessionItem`, items on plenum agendas. `Ordinal` sorting is broken (known API bug).
+- `KNS_PlenumVote`, **plenum votes (v4-only, exposed publicly)**. One row per vote: `Id`, `VoteDateTime`, `SessionID`, `ItemID`, `Ordinal`, `VoteMethodID`, `VoteMethodDesc`, `VoteStatusCode`, `VoteStatusDesc`, `VoteTitle`, `VoteSubject`, `IsNoConfidenceInGov`, `LastUpdatedDate`, `ForOptionID`, `ForOptionDesc`, `AgainstOptionID`, `AgainstOptionDesc`. **Field is `VoteTitle`, not `ItemTitle`**.
+- `KNS_PlenumVoteResult`, **per-MK vote results (v4-only)**. One row per MK per vote: `Id`, `MkId`, `VoteID`, `VoteDate`, `ResultCode`, `ResultDesc` ("בעד" / "נגד" / "נמנע"), `LastUpdatedDate`, `LastName`, `FirstName`, `SessionID`, `ItemID`. **Field is `MkId`, not `PersonID`. Use `ResultDesc` for the outcome; `ResultCode` integers do not follow a simple 1/2/3 mapping.**
 
-Laws:
-- `KNS_Law` -- Knesset law records.
-- `KNS_LawBinding` -- Law-to-Knesset binding records.
-- `KNS_IsraelLaw` -- Israeli law records.
-- `KNS_IsraelLawName` -- Israeli law titles.
-- `KNS_IsraelLawBinding` -- Israeli law-to-Knesset binding.
-- `KNS_IsraelLawClassificiation` -- Law classification (note: typo in upstream API).
-- `KNS_IsraelLawMinistry` -- Law-to-ministry mapping.
+Questions + agenda:
+- `KNS_Query`, parliamentary questions (שאילתות). Stores `GovMinistryID` (integer), NOT `GovMinistryName`. Resolve names first via `KNS_GovMinistry?$filter=contains(Name,'...')`.
+- `KNS_Agenda`, agenda proposals (הצעות לסדר-היום).
 
 Documents:
-- `KNS_DocumentAgenda` -- Agenda documents.
-- `KNS_DocumentBill` -- Bill documents.
-- `KNS_DocumentCommitteeSession` -- Committee session documents.
-- `KNS_DocumentIsraelLaw` -- Israeli law documents.
-- `KNS_DocumentLaw` -- Knesset law documents.
-- `KNS_DocumentPlenumSession` -- Plenum session documents.
-- `KNS_DocumentQuery` -- Parliamentary query documents.
+- `KNS_DocumentAgenda`, agenda documents.
+- `KNS_DocumentBill`, bill documents.
+- `KNS_DocumentCommitteeSession`, committee session documents.
+- `KNS_DocumentIsraelLaw`, Israeli law documents.
+- `KNS_DocumentLaw`, Knesset law documents.
+- `KNS_DocumentPlenumSession`, plenum session documents.
+- `KNS_DocumentQuery`, parliamentary query documents.
 
-Other:
-- `KNS_KnessetDates` -- Start and end dates of each Knesset.
-- `KNS_GovMinistry` -- Government ministries.
-- `KNS_Status` -- Status code lookup (bill statuses, etc.).
-- `KNS_Agenda` -- Agenda items.
-- `KNS_Query` -- Parliamentary queries.
-- `KNS_ItemType` -- Item type lookup.
+Lookups and metadata:
+- `KNS_KnessetDates`, start and end dates of each Knesset. **Knesset 0 = Provisional State Council** (מועצת המדינה הזמנית, 1948-49).
+- `KNS_GovMinistry`, government ministries (used to resolve `GovMinistryID` -> name).
+- `KNS_Status`, status code lookup (bill statuses, session statuses, etc.).
+- `KNS_ItemType`, item type lookup.
 
 ## Entities NOT in the public OData service
 
-The following entities exist in the Knesset's internal database but are **not exposed publicly** via `ParliamentInfo.svc`. Requests return `Resource not found for the segment`:
-
-- `KNS_VoteMain` -- main plenum vote records.
-- `KNS_VoteDetail` -- individual MK votes.
-
-For per-MK vote data, use `hasadna/knesset-data` (GitHub) or scrape `https://main.knesset.gov.il/Activity/plenum/Pages/SessionVotes.aspx`.
+`KNS_VoteMain` and `KNS_VoteDetail`, names from old internal databases. They never existed on the public API. Use `KNS_PlenumVote` + `KNS_PlenumVoteResult` (v4) instead.
 
 ## Common Field Names
 
 ### KNS_Person
-- `PersonID`, `FirstName`, `LastName`, `GenderID`, `GenderDesc`, `Email`, `LastUpdatedDate`
+- `Id`, `FirstName`, `LastName`, `GenderID`, `GenderDesc`, `Email`, `LastUpdatedDate`
 
 ### KNS_PersonToPosition
-- `PersonToPositionID`, `PersonID`, `PositionID`, `KnessetNum`, `FactionID`, `FactionName`, `GovernmentNum`, `StartDate`, `FinishDate`
+- `Id`, `PersonID`, `PositionID`, `KnessetNum`, `FactionID`, `FactionName`, `GovernmentNum`, `StartDate`, `FinishDate`
 
 ### KNS_Faction
-- `FactionID`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`
+- `Id`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`
 
 ### KNS_Bill
-- `BillID`, `Name`, `KnessetNum`, `StatusID`, `SubTypeID`, `LastUpdatedDate`
+- `Id`, `Name`, `KnessetNum`, `StatusID`, `SubTypeID`, `PublicationDate`, `LastUpdatedDate`
 
 ### KNS_BillInitiator
-- `BillInitiatorID`, `BillID`, `PersonID`
+- `Id`, `BillID`, `PersonID`, `IsInitiator`, `Ordinal`
 
 ### KNS_Committee
-- `CommitteeID`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`
+- `Id`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`
 
 ### KNS_CommitteeSession
-- `CommitteeSessionID`, `Number`, `KnessetNum`, `TypeID`, `TypeDesc`, `CommitteeID`, `StartDate`, `FinishDate`
+- `Id`, `Number`, `KnessetNum`, `TypeID`, `TypeDesc`, `CommitteeID`, `StatusID`, `StartDate`, `FinishDate`. Filter `StatusID ne 193` to exclude cancelled sessions.
+
+### KNS_PlenumVote
+- `Id`, `VoteDateTime`, `SessionID`, `ItemID`, `Ordinal`, `VoteMethodID`, `VoteMethodDesc`, `VoteStatusCode`, `VoteStatusDesc`, `VoteTitle`, `VoteSubject`, `IsNoConfidenceInGov`, `LastUpdatedDate`, `ForOptionID`, `ForOptionDesc`, `AgainstOptionID`, `AgainstOptionDesc`
+
+### KNS_PlenumVoteResult
+- `Id`, `MkId`, `VoteID`, `VoteDate`, `ResultCode`, `ResultDesc`, `LastUpdatedDate`, `LastName`, `FirstName`, `SessionID`, `ItemID`
 
 ### KNS_KnessetDates
-- `KnessetDateID`, `KnessetNum`, `Name`, `StartDate`, `FinishDate`, `IsCurrent`
+- `Id`, `KnessetNum`, `Name`, `StartDate`, `FinishDate`, `IsCurrent`. Prefer filtering by `KnessetNum eq <n>` over `IsCurrent eq true` for reliability (the boolean is computed from FinishDate).
 
 ## Position IDs (PositionID values)
 
-Verified against live `KNS_Position` endpoint, 2026-05-20:
+Verified against live `KNS_Position` endpoint, 2026-05-21:
 
 | ID | Hebrew | English |
 |----|--------|---------|
@@ -135,24 +146,50 @@ Verified against live `KNS_Position` endpoint, 2026-05-20:
 | 131 | ראש האופוזיציה | Opposition Leader (male) |
 | 663 | משקיף ועדה | Committee Observer |
 
-**Important:** To get all MKs in a Knesset, filter `PositionID eq 43 or PositionID eq 61`. PositionID 54 is faction membership, NOT MK status (faction membership applies to many roles, including senate-style affiliations).
+**Important:** To list all MKs in a Knesset, filter `PositionID eq 43 or PositionID eq 61`. PositionID 54 is faction membership and is recorded separately from the MK role itself, filtering by 54 alone returns the wrong set.
 
-## OData v3 Filter Syntax
+## OData v4 Filter Syntax
 
 - Equals: `field eq value`
 - Not equals: `field ne value`
 - Greater / less: `field gt value`, `field lt value`, `field ge value`, `field le value`
-- Contains: `substringof('text', Field)` -- **NOT** `contains(Field, 'text')` (that's v4 and will fail)
+- Substring: `contains(Field, 'text')` (v4). In v3 this was `substringof('text', Field)`.
 - And/Or: `condition1 and condition2`, `condition1 or condition2`
 - Negation: `not (condition)`
-- Date: `Date gt datetime'2022-11-15'`
+- Set membership: `Field in (v1,v2,v3)`
+- Null check: `Field eq null`
+- Date: `Field gt 2024-01-01` (no `datetime'...'` wrapper, that was v3)
+- Datetime: `Field gt 2024-01-01T00:00:00Z`
+- `now()`: `Field gt now()` for "from this moment"
 - String values in single quotes
 - Numeric values without quotes
 - URL-encode the entire `$filter` value when curling from a shell
 
+## $expand syntax (v4)
+
+```
+# Simple expand
+$expand=KNS_BillInitiator
+
+# Expand with nested ordering
+$expand=KNS_BillInitiator($orderby=IsInitiator desc,Ordinal)
+
+# Expand with nested filter
+$expand=KNS_DocumentBill($filter=GroupTypeID eq 5)
+
+# Multiple expands
+$expand=KNS_BillInitiator,KNS_DocumentBill,KNS_BillName
+
+# Order by expanded field
+$expand=KNS_Person&$orderby=KNS_Person/LastName
+```
+
 ## Pagination
 
-Default response size is 100. Use `$top=N` to request up to ~250 per page. For more, page with `$skip=N` (OData v3 server-driven paging may also return a `next` link).
+- Default page size varies by entity; explicitly set `$top` for predictable behavior.
+- `$skip=N` for offset paging.
+- Set `$count=true` to receive the total count alongside the page; pair with `$top=0` for count-only.
+- v4 server-driven paging returns `@odata.nextLink` when more pages exist; follow until absent.
 
 ## Useful Constants
 
@@ -160,3 +197,4 @@ Default response size is 100. Use `$top=N` to request up to ~250 per page. For m
 - Knesset size: 120.
 - Electoral threshold: 3.25% (since 2014).
 - Allocation formula: Bader-Ofer (modified D'Hondt / Hagenbach-Bischoff equivalent).
+- KNS_CommitteeSession StatusID 193 = cancelled.

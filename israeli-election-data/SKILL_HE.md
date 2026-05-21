@@ -6,71 +6,109 @@
 
 | סוג מידע | מקור | נקודת קצה / מאגר |
 |----------|------|--------------------|
-| מידע על חברי כנסת | API הכנסת (OData) | `KNS_Person`, `KNS_PersonToPosition`, `KNS_MkSiteCode` |
-| הצבעות מליאה לפי ח"כ | לא קיים ב-API הציבורי | אתר הכנסת SessionVotes או `hasadna/knesset-data` |
-| הצעות חוק / חקיקה | API הכנסת | `KNS_Bill`, `KNS_BillInitiator`, `KNS_BillName` |
-| ועדות וישיבות | API הכנסת | `KNS_Committee`, `KNS_CommitteeSession`, `KNS_CmtSessionItem` |
-| תאריכי כנסות | API הכנסת | `KNS_KnessetDates` |
+| מידע על חברי כנסת | Knesset OData v4 | `KNS_Person`, `KNS_PersonToPosition`, `KNS_MkSiteCode` |
+| הצבעות מליאה לפי ח"כ | Knesset OData v4 | `KNS_PlenumVote`, `KNS_PlenumVoteResult` |
+| הצעות חוק / חקיקה | Knesset OData v4 | `KNS_Bill`, `KNS_BillInitiator`, `KNS_BillName` |
+| ספר החוקים (חוקים שנחקקו) | Knesset OData v4 | `KNS_IsraelLaw`, `KNS_IsraelLawName`, `KNS_SecondaryLaw` |
+| ועדות וישיבות ועדה | Knesset OData v4 | `KNS_Committee`, `KNS_CommitteeSession`, `KNS_CmtSessionItem` |
+| ישיבות מליאה | Knesset OData v4 | `KNS_PlenumSession`, `KNS_PlmSessionItem` |
+| שאילתות פרלמנטריות | Knesset OData v4 | `KNS_Query` |
+| הצעות לסדר-היום | Knesset OData v4 | `KNS_Agenda` |
+| תאריכי כנסות | Knesset OData v4 | `KNS_KnessetDates` |
+| סיעות | Knesset OData v4 | `KNS_Faction` |
 | תוצאות בחירות (לפי יישוב / קלפי) | data.gov.il (ועדת הבחירות המרכזית) | מאגר `votes-knesset` (קבצי CSV לכנסות 16-25) |
 | מצעי מפלגות ורשימות מועמדים | ועדת הבחירות המרכזית | `bechirot.gov.il` |
-| סיעות | API הכנסת | `KNS_Faction` |
-| חוקים שבתוקף | API הכנסת | `KNS_Law`, `KNS_IsraelLaw` |
 
-### שלב 2: שאילתות ל-API של הכנסת
+### שלב 2: שאילתות ל-API של הכנסת (OData v4)
 
-**כתובת בסיס:** `https://knesset.gov.il/Odata/ParliamentInfo.svc/`
+**כתובת בסיס:** `https://knesset.gov.il/OdataV4/ParliamentInfo/`
 
-השירות הוא OData v3. כתובת הבסיס מחזירה רשימת ישויות. נכון למאי 2026 מוצגות 38 ישויות, כולן בקידומת `KNS_` (פירוט מלא ב-`references/knesset-api-entities.md`).
+זה OData v4. כתובת הבסיס מחזירה את רשימת הישויות. נכון למאי 2026 השירות חושף את כל הישויות בקידומת `KNS_` שמופיעות בשלב 1, בנוסף לטבלאות מסמכים וטבלאות עזר שמתועדות ב-`references/knesset-api-entities.md`.
 
-**תבנית שאילתה:**
+**גרסה ישנה (v3) עדיין חיה:** הנקודה הישנה ב-`https://knesset.gov.il/Odata/ParliamentInfo.svc/` עדיין עובדת. קוד קיים שנכתב מולה ממשיך לעבוד, אבל v4 היא הגרסה הנוכחית, ורק היא חושפת את טבלאות ההצבעות (`KNS_PlenumVote`, `KNS_PlenumVoteResult`). פיתוח חדש צריך לעבוד מול v4.
+
+**תבנית שאילתה (v4):**
 ```
-GET {BASE_URL}/{ENTITY}?$format=json&$filter={FILTER}&$top={LIMIT}&$select={FIELDS}
+GET {BASE_URL}/{ENTITY}?$filter={FILTER}&$top={LIMIT}&$select={FIELDS}&$orderby={FIELD}
 ```
 
-**רשימת חברי הכנסת ה-25 (הכנסת הנוכחית, הושבעה ב-15 בנובמבר 2022):**
-```
-GET .../KNS_PersonToPosition?$format=json&$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120
-```
-מזהה תפקיד (PositionID) 43 = חבר הכנסת, 61 = חברת הכנסת. טבלת התפקידים המלאה ב-`references/knesset-api-entities.md`.
+v4 מחזיר JSON כברירת מחדל, אין צורך ב-`$format=json`. אפשר להוסיף `$count=true` כדי לקבל את ספירת הרשומות הכוללת לצד הדף הנוכחי; אם משלבים `$top=0` מקבלים רק את הספירה בלי תוצאות. לקבצי תוצאה גדולים (כל שאילתת הצבעות פר-ח"כ, שליפות היסטוריות חוצות כנסות) השרת מחזיר `@odata.nextLink` כשיש עוד דפים, יש לעקוב אחרי `nextLink` עד שהוא נעלם. גודל דף ברירת המחדל משתנה בין ישויות, אסור להסתמך על `$top=N` יחיד כדי לקבל הכל.
 
-**חיפוש ח"כ לפי שם (עברית או אנגלית):**
+**רשימת חברי הכנסת ה-25 (הושבעה ב-15 בנובמבר 2022):**
 ```
-GET .../KNS_Person?$format=json&$filter=substringof('שם', LastName) or substringof('שם', FirstName)&$top=10
+GET .../KNS_PersonToPosition?$filter=KnessetNum eq 25 and (PositionID eq 43 or PositionID eq 61)&$top=120
+```
+מזהה תפקיד (PositionID) 43 = חבר הכנסת, 61 = חברת הכנסת. PositionID 54 הוא "חבר/ת סיעה", זה לא אותו דבר (ראו מלכודות). טבלת התפקידים המלאה ב-`references/knesset-api-entities.md`.
+
+**חיפוש ח"כ לפי שם (עברית או אנגלית), v4 משתמש ב-`contains` ולא ב-`substringof` של v3:**
+```
+GET .../KNS_Person?$filter=contains(LastName,'נתניהו') or contains(FirstName,'נתניהו')&$top=10
 ```
 
 **סיעות בכנסת מסוימת:**
 ```
-GET .../KNS_Faction?$format=json&$filter=KnessetNum eq 25
+GET .../KNS_Faction?$filter=KnessetNum eq 25
 ```
 
-### שלב 3: הצבעות לפי חבר כנסת (מגבלה חשובה)
+### שלב 3: הצבעות מליאה לפי חבר כנסת (v4)
 
-ה-API הציבורי **אינו חושף** את הישויות `KNS_VoteMain` ו-`KNS_VoteDetail`. בקשה ישירה מחזירה `Resource not found for the segment 'KNS_VoteMain'`.
+שתי הישויות לעבודה עם הצבעות:
 
-כדי לקבל הצבעות מליאה לפי חבר כנסת, תשתמשו באחד מאלה:
+| ישות | תפקיד |
+|------|------|
+| `KNS_PlenumVote` | שורה אחת לכל הצבעה: כותרת, זמן, ישיבה, שיטת הצבעה, סטטוס, תיאור "בעד"/"נגד", דגל אי-אמון |
+| `KNS_PlenumVoteResult` | שורה אחת לכל ח"כ לכל הצבעה: `MkId`, `VoteID`, `ResultDesc` ("בעד" / "נגד" / "נמנע"), `LastName`, `FirstName` |
 
-אפשרות 1: דף SessionVotes באתר הכנסת ב-`https://main.knesset.gov.il/Activity/plenum/Pages/SessionVotes.aspx`. מציג פילוח הצבעות לפי ישיבה, ניתן לסקרייפ בזהירות.
+**איתור הצבעה והוצאת תוצאות פר-ח"כ:**
 
-אפשרות 2: פרויקט hasadna/knesset-data ב-`https://github.com/hasadna/knesset-data`. צינור ETL קהילתי שמשקף את מסדי הנתונים הפנימיים של הכנסת (כולל טבלאות הצבעות) ל-CSV/parquet פתוחים. זה המסלול הסטנדרטי לניתוח אקדמי ועיתונאי.
+1. חיפוש הצבעה לפי נושא:
+```
+GET .../KNS_PlenumVote?$filter=contains(VoteTitle,'תקציב')&$orderby=VoteDateTime desc&$top=5
+```
+שם השדה הוא `VoteTitle`, ולא `ItemTitle` (השדה הזה לא קיים, ראו מלכודות).
 
-אפשרות 3: ארכיון Open Knesset ב-`https://oknesset.org/` (ארכיון הצבעות מהכנסות שלפני ה-25, כבר לא מתעדכן באופן פעיל).
+2. שליפת תוצאות פר-ח"כ להצבעה (חשוב לדפדף, לא להניח 120 שורות):
+```
+GET .../KNS_PlenumVoteResult?$filter=VoteID eq {id}&$top=200&$count=true
+```
+**ח"כים שלא הצביעו לא יופיעו בתוצאה.** `KNS_PlenumVoteResult` כולל רק ח"כים שרשמו הצבעה (בעד / נגד / נמנע). חסרון של שורת ח"כ לא אומר "הצביע נגד", זה אומר "לא נכח / לא הצביע". לניתוח נוכחות, השוו את ה-`MkId`-ים שחזרו מול רשימת הח"כים הפעילים שמופקת מ-`KNS_PersonToPosition` עבור אותה כנסת.
 
-לסטטוס מצטבר של "האם החוק עבר", תשתמשו ב-`KNS_Bill.StatusID` (שלב 4).
+3. סינון לח"כ ספציפי לפי שם (המסלול הבטוח, השמות כבר נמצאים בכל שורת תוצאה):
+```
+GET .../KNS_PlenumVoteResult?$filter=VoteID eq {id} and contains(LastName,'גפני')
+```
+או לפי `MkId` אם כבר יש לכם אותו משורת `KNS_PlenumVoteResult` קודמת:
+```
+GET .../KNS_PlenumVoteResult?$filter=VoteID eq {id} and MkId eq {mkId}
+```
+**`MkId` הוא מרחב מזהים נפרד מ-`KNS_Person.Id`.** התייחסו ל-`MkId` כאל מזהה אטום, הוציאו אותו משורות `KNS_PlenumVoteResult` עצמן (כל שורה כוללת גם `FirstName` / `LastName`), במקום להניח ש-`KNS_Person.Id` שווה ל-`MkId`. אם יש לכם אדם רק מ-`KNS_Person`, מצאו את ה-`MkId` שלו לפי התאמת שם בשאילתה אחרונה של `KNS_PlenumVoteResult` ושמרו אותו במטמון של הסשן.
+
+שם השדה הוא `MkId`, ולא `PersonID`. את התוצאה ("בעד" / "נגד" / "נמנע") קוראים מהשדה `ResultDesc`; הערכים של `ResultCode` הם לא מיפוי פשוט של 1/2/3 (הערך החי של "בעד" בשורה הראשונה הוא 7), לכן תמיד תשתמשו ב-`ResultDesc`.
+
+לסטטוס מצטבר של "האם החוק עבר" בלי פירוט פר-ח"כ, תשתמשו ב-`KNS_Bill.StatusID` (שלב 4).
+
+**נתוני הצבעות היסטוריים** מלפני שטבלאות ההצבעות נחשפו ב-v4: פרויקט `hasadna/knesset-data` ב-`https://github.com/hasadna/knesset-data` ממשיך לשקף את מסדי הנתונים הפנימיים של הכנסת ל-CSV/parquet, שימושי לניתוח אקדמי ולמילוי לאחור של נתונים.
 
 ### שלב 4: מעקב אחר חקיקה
 
-**חיפוש הצעות חוק לפי מילת מפתח:**
+**חיפוש הצעות חוק לפי מילת מפתח (תחביר v4 עם `contains`):**
 ```
-GET .../KNS_Bill?$format=json&$filter=KnessetNum eq 25 and substringof('keyword', Name)&$top=50
+GET .../KNS_Bill?$filter=KnessetNum eq 25 and contains(Name,'דיור')&$orderby=PublicationDate desc&$top=50
 ```
 
 **קודי סטטוס מרכזיים:**
 - 108 = הכנה לקריאה ראשונה
 - 118 = אושרה בקריאה שלישית (הפכה לחוק)
-- 120 = לדיון במליאה בנושא יישום חוק רציפות
 - 125 = נדחתה
 
-לרשימה המלאה: `KNS_Status?$format=json&$filter=TypeID eq 5`.
+לרשימה המלאה: `KNS_Status?$filter=TypeID eq 5`.
+
+**יוזמי הצעת חוק, מסמכים, פריטי ועדה קשורים:**
+```
+GET .../KNS_BillInitiator?$filter=BillID eq {id}&$expand=KNS_Person($orderby=LastName)
+GET .../KNS_DocumentBill?$filter=BillID eq {id}
+```
+הטור `BillID` בטבלאות הקשורות מצביע חזרה אל `KNS_Bill.Id`. ב-v4 המפתח הראשי בכל ישות `KNS_*` נקרא תמיד `Id`; השמות הישנים ("BillID / PersonID / CommitteeID") נשארו רק בתור עמודות מפתח-זר בטבלאות קשורות.
 
 **שלבי הליך החקיקה:**
 1. טיוטת הצעת חוק (פרטית או ממשלתית)
@@ -90,8 +128,8 @@ GET .../KNS_Bill?$format=json&$filter=KnessetNum eq 25 and substringof('keyword'
 - CKAN API: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 
 לכל כנסת (16 עד 25) יש שני קבצי CSV:
-- **לפי יישובים** -- אחוזי הצבעה וספירת קולות מצטברת לכל עיר/יישוב.
-- **לפי קלפיות** -- תוצאות גולמיות לכל קלפי, סדר גודל של 12,000 קלפיות לכל מערכת בחירות.
+- **לפי יישובים**, אחוזי הצבעה וספירת קולות מצטברת לכל עיר/יישוב.
+- **לפי קלפיות**, תוצאות גולמיות לכל קלפי, ברמת פירוט שמאפשרת ניתוח לפי תחנת הצבעה.
 
 לדוגמה, הקובץ של הכנסת ה-25 לפי יישובים:
 ```
@@ -106,10 +144,10 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 
 - **גודל הכנסת:** 120 מושבים (ללא שינוי מאז 1949).
 - **שיטה:** ייצוג יחסי ארצי ברשימה אחת, ללא מחוזות.
-- **אחוז חסימה:** **3.25%** מהקולות הכשרים, מאז תיקון 2014 לחוק יסוד: הכנסת (סעיף 81). לפני מרץ 2014 עמד על 2%.
+- **אחוז חסימה:** **3.25%** מהקולות הכשרים, מאז תיקון מרץ 2014 לחוק הבחירות לכנסת. קודם לכן עמד על 2%.
 - **הקצאת מושבים:** שיטת ד'הונדט מעודכנת, ידועה בישראל בשם **בדר-עופר** (על שם חברי הכנסת יוחנן בדר ואברהם עופר). מקבילה בינלאומית לשיטת הגנבך-בישוף. הקצאה דו-שלבית: (1) חלק שלם של מושבים לכל סיעה שעברה את אחוז החסימה לפי חלקה בקולות, (2) "מושבי עודפים" לפי D'Hondt highest-averages.
-- **הסכמי עודפים:** שתי סיעות יכולות לחתום לפני הבחירות על הסכם לפיו ייחשבו כגוש אחד לצורך חלוקת מושבי העודפים בלבד. ברוב מערכות הבחירות כל הסיעות מזדווגות.
-- **לוח זמנים:** אין מחזור קבוע. כהונת הכנסת היא עד 4 שנים אבל ניתן לפזר אותה מוקדם. הבחירות הבאות (לכנסת ה-26) חייבות להתקיים לכל המאוחר ב-**27 באוקטובר 2026** לפי החקיקה הנוכחית, אבל פרשנים מצפים לפיזור מוקדם יותר.
+- **הסכמי עודפים:** שתי סיעות יכולות לחתום לפני הבחירות על הסכם לפיו ייחשבו כגוש אחד לצורך חלוקת מושבי העודפים בלבד.
+- **לוח זמנים:** אין מחזור קבוע. כהונת הכנסת היא עד 4 שנים אבל אפשר לפזר אותה מוקדם יותר. הבחירות הבאות (לכנסת ה-26) חייבות להתקיים לכל המאוחר ב-**27 באוקטובר 2026** לפי החקיקה הנוכחית.
 
 ### שלב 7: תוצאות הבחירות 2022 (הכנסת ה-25)
 
@@ -128,14 +166,14 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 | חד"ש-תע"ל | 5 | אופוזיציה |
 | העבודה | 4 | אופוזיציה |
 
-**סה"כ קואליציה: 64, אופוזיציה: 56.** סיעות שלא עברו את אחוז החסימה: מרצ (3.16%) ובל"ד (2.91%) -- שתיהן עם 0 מושבים. הכנסת ה-25 הושבעה ב-15 בנובמבר 2022.
+**סה"כ קואליציה: 64, אופוזיציה: 56.** סיעות שלא עברו את אחוז החסימה: מרצ (3.16%) ובל"ד (2.91%), שתיהן עם 0 מושבים. הכנסת ה-25 הושבעה ב-15 בנובמבר 2022.
 
 ### שלב 8: בחירות מקומיות
 
 הבחירות לרשויות המקומיות (`בחירות לרשויות מקומיות`) נערכות בדרך כלל אחת לחמש שנים. המחזור האחרון:
 
-- **27 בפברואר 2024** -- 242 רשויות. סבב שני 10 במרץ 2024 ב-35 רשויות שבהן אף מועמד לא עבר 40%.
-- **נובמבר 2024** -- סבב נפרד עבור 11 רשויות בצפון ובדרום שתושביהן פונו עקב מלחמת חרבות ברזל ולא יכלו להצביע בפברואר.
+- **27 בפברואר 2024**, 242 רשויות. סבב שני 10 במרץ 2024 ב-35 רשויות שבהן אף מועמד לא עבר 40%.
+- **נובמבר 2024**, סבב נפרד עבור 11 רשויות בצפון ובדרום שתושביהן פונו עקב מלחמת חרבות ברזל ולא יכלו להצביע בפברואר.
 - אחוז הצבעה היה שפל היסטורי של כ-49.5%.
 
 תוצאות הבחירות המקומיות מתפרסמות ב-`https://www.bechirot.gov.il/local2024/Pages/default.aspx` ובהמשך מועברות ל-data.gov.il. כל עיר מפרסמת גם פילוח עצמאי דרך משרד הפנים (`https://www.gov.il/he/departments/ministry_of_interior`).
@@ -147,6 +185,7 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 | הסכמים קואליציוניים (נוסח מלא, עברית) | `https://www.gov.il/he/Departments/policies` ופרסומי משרד ראש הממשלה |
 | הרכב הממשלה (שרים מכהנים) | `KNS_PersonToPosition` עם `PositionID eq 39` (שר) / `57` (שרה) / `45` (ראש ממשלה) |
 | הרכב ועדות כנסת | `KNS_PersonToPosition` עם `PositionID eq 41` (יו"ר) / `42` (חבר) |
+| חברות סיעה (נפרד מתפקיד ח"כ) | `KNS_PersonToPosition` עם `PositionID eq 54` (ראו מלכודות) |
 | יו"ר הכנסת | `PositionID eq 122` (זכר) / `123` (נקבה) |
 | דוחות מימון מפלגות | מבקר המדינה: `https://www.mevaker.gov.il/` |
 | בדיקת זכאות / רישום בוחר | משרד הפנים: `https://www.gov.il/he/service/check_voter_registration` |
@@ -179,19 +218,19 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 ### דוגמה 1: חיפוש חבר כנסת
 המשתמש אומר: "ספרו לי על ח"כ קארין אלהרר."
 פעולות:
-1. חיפוש `KNS_Person?$filter=substringof('אלהרר', LastName)` כדי למצוא PersonID.
+1. חיפוש `KNS_Person?$filter=contains(LastName,'אלהרר')` כדי למצוא את ה-`Id`.
 2. שאילתה `KNS_PersonToPosition?$filter=PersonID eq {id}` לרשימת התפקידים הנוכחיים וההיסטוריים (כהונות, תפקידי שר).
 3. דרך `KNS_Faction` ניתן לתרגם `FactionID` לשם סיעה לפי כנסת.
-4. הצגת פרופיל ח"כ עם שיוך מפלגתי והיסטוריה ממשלתית. לניתוח הצבעות לפי ח"כ, הפנו ל-`hasadna/knesset-data` (הצבעות לפי ח"כ לא קיימות ב-API הציבורי).
+4. הצגת פרופיל ח"כ עם שיוך מפלגתי והיסטוריה ממשלתית. להצבעות פר-ח"כ במליאה, השתמשו ב-`KNS_PlenumVoteResult?$filter=MkId eq {id}` (ראו דוגמה 5).
 
 ### דוגמה 2: מעקב אחר הצעת חוק
 המשתמש אומר: "מה קרה עם הצעת החוק על גיוס חרדים?"
 פעולות:
-1. חיפוש `KNS_Bill?$filter=KnessetNum eq 25 and substringof('גיוס', Name)`.
-2. קבלת `BillID`, `StatusID`, `SubTypeID`.
-3. איתור יוזמים דרך `KNS_BillInitiator?$filter=BillID eq {id}`.
+1. חיפוש `KNS_Bill?$filter=KnessetNum eq 25 and contains(Name,'גיוס')`.
+2. קריאת `Id`, `StatusID`, `SubTypeID` של כל הצעה.
+3. איתור יוזמים: `KNS_BillInitiator?$filter=BillID eq {id}&$expand=KNS_Person`.
 4. תרגום סטטוס דרך `KNS_Status`.
-5. שליפת ישיבות ועדה רלוונטיות דרך `KNS_CmtSessionItem?$filter=ItemID eq {billID}`.
+5. שליפת ישיבות ועדה רלוונטיות דרך `KNS_CmtSessionItem?$filter=ItemID eq {bill.Id}`.
 6. הצגת סטטוס ההצעה, רשימת יוזמים, שיבוץ לוועדה וקריאה נוכחית.
 
 ### דוגמה 3: ניתוח תוצאות לפי יישוב
@@ -207,16 +246,25 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 המשתמש אומר: "אילו סיעות נמצאות בקואליציה הנוכחית?"
 פעולות:
 1. שאילתה `KNS_Faction?$filter=KnessetNum eq 25` לרשימת הסיעות.
-2. הצלבה מול הטבלה הקנונית בשלב 7 (הליכוד, הציונות הדתית, ש"ס, יהדות התורה -- קואליציה).
-3. שימו לב שהרכב הקואליציה יכול להשתנות במהלך הקדנציה -- כדאי להצליב מול חדשות הכנסת/הממשלה.
+2. הצלבה מול הטבלה הקנונית בשלב 7 (הליכוד, הציונות הדתית, ש"ס, יהדות התורה, קואליציה).
+3. שימו לב שהרכב הקואליציה יכול להשתנות במהלך הקדנציה, כדאי להצליב מול חדשות הכנסת/הממשלה.
+
+### דוגמה 5: הצבעה של ח"כ ספציפי (v4 בלבד)
+המשתמש אומר: "האם ח"כ גפני הצביע בעד התקציב?"
+פעולות:
+1. איתור הצבעת התקציב: `KNS_PlenumVote?$filter=contains(VoteTitle,'תקציב')&$orderby=VoteDateTime desc&$top=10`, בחירת ה-`Id` הרלוונטי.
+2. סינון `KNS_PlenumVoteResult` לפי `VoteID` + שם משפחה (השורה כבר מכילה `FirstName` / `LastName`, אין צורך להגיע ל-`KNS_Person`): `KNS_PlenumVoteResult?$filter=VoteID eq {voteId} and contains(LastName,'גפני')`.
+3. אם התוצאה ריקה, זה אומר שח"כ גפני לא רשם הצבעה (לא נכח / נמנע באי-נוכחות), זה לא אומר "הצביע נגד". דווחו על האי-הצבעה ביושר.
+4. אם יש תוצאה, קראו את `ResultDesc` ("בעד" / "נגד" / "נמנע") והציגו לצד `VoteTitle` ו-`VoteDateTime`. שימו לב: אסור לגזור את `MkId` מ-`KNS_Person.Id`, אלה מרחבי מזהים שונים; התאמת שם משורת התוצאה היא המסלול האמין.
 
 ## משאבים מצורפים
 
 ### סקריפטים
-- `scripts/query_knesset.py` -- שאילתות ל-API של הכנסת (OData). פקודות משנה: `mks` (רשימת ח"כים לפי כנסת), `search-mk` (לפי שם), `bills` (חיפוש לפי מילת מפתח), `factions` (רשימת סיעות), `entities` (רשימת ישויות OData זמינות), `positions` (מילון מזהי תפקידים). להרצה: `python scripts/query_knesset.py --help`.
+- `scripts/query_knesset.py`, שאילתות ל-API של הכנסת (OData v4). פקודות משנה: `mks` (רשימת ח"כים לפי כנסת), `search-mk` (חיפוש לפי שם), `bills` (חיפוש הצעות חוק לפי מילת מפתח), `votes` (חיפוש הצבעות לפי נושא, אופציונלית עם תוצאות פר-ח"כ), `factions` (רשימת סיעות), `entities` (רשימת ישויות OData זמינות), `positions` (מילון מזהי תפקידים). להרצה: `python scripts/query_knesset.py --help`.
 
 ### חומרי עזר
-- `references/knesset-api-entities.md` -- מדריך ישויות ל-API של הכנסת (OData v3): שמות שדות, תחביר סינון, מילון תפקידים מלא (43=ח"כ זכר, 61=ח"כ נקבה, 45=ראש ממשלה, 39=שר זכר, 57=שרה נקבה, 41=יו"ר ועדה, 42=חבר ועדה, 122/123=יו"ר הכנסת ועוד), ופירוט אילו ישויות לא חשופות ציבורית (KNS_VoteMain, KNS_VoteDetail).
+- `references/knesset-api-entities.md`, מדריך ישויות ל-API של הכנסת (OData v4): שמות שדות, תחביר סינון v4 (`contains`, `in`, `$expand`), מילון תפקידים מלא (43=ח"כ זכר, 61=ח"כ נקבה, 45=ראש ממשלה, 39=שר זכר, 57=שרה נקבה, 41=יו"ר ועדה, 42=חבר ועדה, 54=חבר/ת סיעה, 122/123=יו"ר הכנסת ועוד), הישויות להצבעות פר-ח"כ (`KNS_PlenumVote`, `KNS_PlenumVoteResult`), והערות על v3 כגיבוי.
+- `references/domain-checklist.md`, רשימת כיסוי לסקיל של כנסת ובחירות (חובה, רצוי, מחוץ לסקופ) שמשמשת את שלב הביקורת על ידי המומחה.
 
 ## שרתי MCP מומלצים
 
@@ -233,27 +281,69 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 - בישראל אין לוח זמנים קבוע. אפשר לפזר את הכנסת בכל עת. אסור להניח מחזור של 4 שנים.
 - שמות סיעות בישראל משתנים תדיר בגלל מיזוגים, פיצולים ומיתוג מחדש (הליכוד-ביתנו, כחול לבן, ימינה, המחנה הממלכתי וכו'). סוכנים עלולים להזכיר שמות סיעות שכבר לא קיימות או לבלבל בין סיעות בין מערכות בחירות שונות.
 - נתוני ועדת הבחירות מתפרסמים בעברית. אותיות סימון של סיעות (`אותיות`) משמשות לצד השמות ומשתנות בכל בחירות (מוגרלות לפני כל מערכת).
-- ה-API של הכנסת הוא OData **v3**, לא v4. תחביר הסינון הוא `substringof('text', Field)`, ולא `contains(Field, 'text')` של v4. תחביר v4 יחזיר 400.
+- **v4 היא ה-API הנוכחי; v3 היא גרסה ישנה.** v4 משתמש ב-`contains(Field,'text')` לחיפוש מחרוזות; v3 השתמש ב-`substringof('text', Field)`. הנקודה הישנה ב-`https://knesset.gov.il/Odata/ParliamentInfo.svc/` עדיין חיה אבל לא חושפת את טבלאות ההצבעות, פיתוח חדש צריך להיות מול v4.
+- **מפתח ראשי הוא תמיד `Id` ב-v4.** השמות הישנים "BillID / PersonID / CommitteeID / FactionID" נשארו רק כעמודות מפתח-זר בטבלאות קשורות, אבל המפתח של הישות עצמה הוא תמיד `Id`.
+- **הצבעות מליאה פר-ח"כ קיימות ב-v4** דרך `KNS_PlenumVote` (שורה אחת לכל הצבעה) + `KNS_PlenumVoteResult` (שורה אחת לכל ח"כ לכל הצבעה). העצה הישנה "השתמשו ב-hasadna scraper" הייתה רלוונטית רק ל-v3.
+- **`KNS_PlenumVote.VoteTitle`, לא `ItemTitle`.** `ItemTitle` לא קיים בישות הזו ויחזיר 400.
+- **`KNS_PlenumVoteResult.MkId`, לא `PersonID`.** את התוצאה תקראו מ-`ResultDesc` ("בעד" / "נגד" / "נמנע"); הערכים של `ResultCode` הם לא מיפוי פשוט של 1/2/3 (הערך החי של "בעד" בשורה הראשונה הוא 7, לא 1).
+- **`KNS_Query` שומר `GovMinistryID` (מספר שלם), לא `GovMinistryName`.** קודם מתרגמים שם למזהה דרך `KNS_GovMinistry?$filter=contains(Name,'משפטים')&$select=Id,Name`, ואז מסננים את `KNS_Query` לפי `GovMinistryID in (<ids>)`.
+- **PositionID 54 מתעד חברות בסיעה** (תפקיד נפרד של "חבר/ת סיעה"), זה לא תפקיד ח"כ. כדי להוציא רשימה של ח"כים לפי סיעה, סננו את `KNS_PersonToPosition` עם `PositionID eq 43 or PositionID eq 61` (תפקידי ח"כ) AND `FactionID eq {id}`, ולא `PositionID eq 54`.
+- **`KNS_IsraelLawClassificiation` כתוב עם שגיאת כתיב בכוונה ב-API** (יוד כפול). אסור "לתקן" את זה, השם הנכון באנגלית יחזיר 404.
+- **מיון לפי `Ordinal` ב-`KNS_PlmSessionItem` שבור** ב-API הציבורי (באג ידוע). אל תסמכו על `$orderby=Ordinal` למיון פריטי ישיבות מליאה.
+- **`KNS_CommitteeSession` StatusID 193 = ישיבה שבוטלה.** תמיד תוסיפו `StatusID ne 193` לסינון של ישיבות ועדה אלא אם רוצים במפורש לראות גם ישיבות שבוטלו.
+- **כנסת 0 = מועצת המדינה הזמנית** (1948-49). איכות הנתונים משתפרת משמעותית מכנסת 17 ואילך; ברשומות ישנות יותר יכולים להיות חורים.
+- **פורמט זמן** ב-v4: ISO 8601 בלי גרשיים. `VoteDateTime gt 2024-01-01T00:00:00Z`, ולא `datetime'2024-01-01'` (פורמט v3).
 - `votes.gov.il` לא מתפענח יותר. תשתמשו ב-`bechirot.gov.il` לאתר החי וב-`data.gov.il/dataset/votes-knesset` לקבצי ה-CSV.
-- הצבעות מליאה לפי ח"כ לא קיימות ב-API הציבורי. `KNS_VoteMain` ו-`KNS_VoteDetail` מחזירות 404. תשתמשו ב-`hasadna/knesset-data` או תסקרייפו את דף SessionVotes באתר הכנסת.
+
+## קישורי עזר
+
+| מקור | URL | מה לבדוק |
+|------|-----|----------|
+| Knesset OData v4 root | https://knesset.gov.il/OdataV4/ParliamentInfo/ | רשימת ישויות חיה |
+| Knesset OData v4 metadata | https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata | סכמה מלאה: שמות שדות, סוגים, יחסים |
+| פורטל מאגרי המידע של הכנסת | https://main.knesset.gov.il/activity/info/pages/databases.aspx | הודעות על מאגרים, סטטוס API |
+| חיפוש הצעות חוק (ממשק) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx | הצלבה של נתוני הצעות חוק |
+| הצבעות מליאה (ממשק) | https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx | הצלבה של נתוני הצבעות |
+| data.gov.il votes-knesset | https://data.gov.il/dataset/votes-knesset | תוצאות לפי יישוב ולפי קלפי בקבצי CSV |
+| מפרט OData v4 | https://www.odata.org | תחביר filter / expand / paging |
 
 ## פתרון בעיות
 
-### שגיאה: "Resource not found for the segment 'KNS_VoteMain'"
-סיבה: ה-API הציבורי לא חושף טבלאות הצבעות.
-פתרון: תשתמשו ב-`hasadna/knesset-data` (GitHub) לקבצי הצבעות לפי ח"כ, או ב-`KNS_Bill.StatusID` לסטטוס מצטבר של "עברה / לא עברה".
+### שגיאה: "OData query syntax error" / 400 Bad Request
+סיבה: ערבוב תחביר v3 ו-v4. השגיאה הנפוצה היא להשתמש ב-`substringof('text', Field)` מול v4, או ב-`contains(Field,'text')` מול v3.
+פתרון: מול v4 (`/OdataV4/ParliamentInfo/`), השתמשו ב-`contains(Field,'text')`, `in (v1,v2)`, פורמט ISO 8601 בלי `datetime'...'`, ותאריכים כמו `2024-01-01`. מול v3 (`/Odata/ParliamentInfo.svc/`), השתמשו ב-`substringof('text', Field)` וב-`datetime'2024-01-01'`. אסור לערבב.
 
-### שגיאה: "OData query syntax error"
-סיבה: תחביר שגוי בשאילתת OData v3 (לרוב מניסיון להשתמש בתחביר v4).
-פתרון: תשתמשו ב-`eq` להשוואה, `and`/`or` ללוגיקה, `substringof('text', Field)` לחיפוש טקסט. ערכי מחרוזת בגרשיים בודדים. ערכים מספריים בלי גרשיים. אסור להשתמש ב-`contains(Field, 'text')` -- זה תחביר v4 וייכשל.
+### שגיאה: 404 על `KNS_VoteMain` או `KNS_VoteDetail`
+סיבה: השמות האלה אף פעם לא היו קיימים ב-API הציבורי. הם נראים סבירים אבל היו רק במערכות הפנימיות הישנות של הכנסת.
+פתרון: השתמשו ב-`KNS_PlenumVote` (כותרת הצבעה) + `KNS_PlenumVoteResult` (שורות פר-ח"כ) ב-v4. ראו שלב 3.
+
+### שגיאה: 404 על `KNS_IsraelLawClassification` (כתיב אנגלי תקין)
+סיבה: שם הישות שגוי בכוונה ב-API: `KNS_IsraelLawClassificiation` (יוד כפול).
+פתרון: השתמשו בשם המוטעה כמו שהוא. אל תתקנו אותו, גם v3 וגם v4 נושאים את אותה שגיאת כתיב.
+
+### שגיאה: "Field 'ItemTitle' not found" ב-`KNS_PlenumVote`
+סיבה: `KNS_PlenumVote` משתמש ב-`VoteTitle` ככותרת ההצבעה.
+פתרון: החליפו `ItemTitle` ב-`VoteTitle`. אין טור נפרד של כותרת פריט בישות הזו.
+
+### שגיאה: "Field 'PersonID' not found" ב-`KNS_PlenumVoteResult`
+סיבה: מפתח-זר של ח"כ בישות הזו הוא `MkId`, לא `PersonID`.
+פתרון: השתמשו ב-`MkId` בסינון. את שם הח"כ קוראים מ-`FirstName`/`LastName` שכבר נמצאים בשורה, במקום ל-`$expand` חזרה ל-`KNS_Person`.
+
+### שגיאה: ערכי `ResultCode` לא תואמים את הציפייה (1/2/3)
+סיבה: `KNS_PlenumVoteResult.ResultCode` לא מיפוי פשוט של 1=בעד / 2=נגד / 3=נמנע.
+פתרון: השתמשו ב-`ResultDesc` ("בעד" / "נגד" / "נמנע") לתוצאה הקריאה, וטפלו ב-`ResultCode` כאטום.
+
+### שגיאה: "Field 'GovMinistryName' not found" ב-`KNS_Query`
+סיבה: `KNS_Query` שומר `GovMinistryID` (מספר שלם), אין טור עם שם.
+פתרון: קודם תרגמו את השם למזהה דרך `KNS_GovMinistry?$filter=contains(Name,'משפטים')&$select=Id,Name`, ואז סננו את `KNS_Query` לפי `GovMinistryID in (<ids>)`.
+
+### שגיאה: רשימת ח"כים לפי סיעה מחזירה את האנשים הלא-נכונים
+סיבה: סינון של `KNS_PersonToPosition` עם `PositionID eq 54` מחזיר רשומות של חברות בסיעה, וזה לא אותו דבר כמו תפקיד ח"כ עצמו.
+פתרון: סננו עם `PositionID eq 43 or PositionID eq 61` (תפקידי ח"כ) AND `FactionID eq {id}` AND `FinishDate eq null` (משרת כרגע).
 
 ### שגיאה: "Data returned in Hebrew"
 סיבה: ערכי הנתונים בעברית.
 פתרון: שמות השדות באנגלית (camelCase), אבל הערכים (שמות ח"כים, כותרות הצעות חוק, שמות סיעות, תיאורי תפקידים) בעברית. אפשר לתרגם בשכבת האפליקציה או לשמר עברית לדיוק.
-
-### שגיאה: "Entity not found" (404)
-סיבה: שמות הישויות רגישים לאותיות גדולות/קטנות.
-פתרון: כל הישויות מתחילות ב-`KNS_` עם רישיות מדויקות (`KNS_Person`, `KNS_Bill`, `KNS_Faction`). אפשר לשלוח שאילתה לכתובת השורש (`https://knesset.gov.il/Odata/ParliamentInfo.svc/?$format=json`) כדי לראות את רשימת הישויות החיה.
 
 ### שגיאה: "votes.gov.il connection refused"
 סיבה: ה-hostname הזה כבר לא בתוקף.

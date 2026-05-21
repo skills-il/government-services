@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -33,8 +33,8 @@
     "en": "Israeli Election Data"
   },
   "display_description": {
-    "he": "גישה לנתוני הכנסת ולתוצאות בחירות מוועדת הבחירות המרכזית: חברי כנסת, סיעות, הצעות חוק, ועדות, ותוצאות בחירות לפי יישוב או קלפי (מ-1949). מבוסס על Knesset OData API ומאגרי data.gov.il.",
-    "en": "Access Israeli election and political data from the Knesset OData API and the Central Elections Committee (data.gov.il). Use when user asks about Knesset, Israeli elections, MK (Member of Knesset) information, Israeli voting records, legislative bills in Israel, Knesset committees, Israeli political parties, coalition data, or election results by locality or ballot. Covers Knesset OData v3 API, Central Elections Committee CSV datasets on data.gov.il, municipal elections, and Israeli political system structure. Do NOT use for non-Israeli elections or political opinion/prediction."
+    "he": "גישה לנתוני הכנסת ולתוצאות בחירות מוועדת הבחירות המרכזית: חברי כנסת, סיעות, הצעות חוק, ועדות, הצבעות במליאה לפי ח\"כ, ותוצאות בחירות לפי יישוב או קלפי (מ-1949). מבוסס על Knesset OData v4 API ומאגרי data.gov.il.",
+    "en": "Access Israeli election and political data from the Knesset OData v4 API and the Central Elections Committee (data.gov.il). Use when user asks about Knesset, Israeli elections, MK (Member of Knesset) information, Israeli voting records (per-MK plenum votes via KNS_PlenumVote/KNS_PlenumVoteResult), legislative bills in Israel, Knesset committees, Israeli political parties, coalition data, or election results by locality or ballot. Covers Knesset OData v4 API, Central Elections Committee CSV datasets on data.gov.il, municipal elections, and Israeli political system structure. Do NOT use for non-Israeli elections or political opinion/prediction."
   },
   "supported_agents": [
     "claude-code",
