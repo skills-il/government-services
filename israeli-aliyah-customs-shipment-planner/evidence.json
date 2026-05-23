@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-aliyah-customs-shipment-planner",
+  "generated_at": "2026-05-24T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "olim-3-shipments-3-years",
+      "claim": "Olim have three years from their Aliyah date to utilize customs benefits across up to three separate shipments",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
+      "raw_snippet": "Olim have three years from their Aliyah date to utilize customs benefits across up to three separate shipments",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "hand-luggage-under-200-usd",
+      "claim": "Personal belongings in hand luggage are tax-free up to USD 200 per person",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
+      "raw_snippet": "Clothing, toiletries, and items valued under $200 USD per person",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "hand-luggage-alcohol-cap",
+      "claim": "Alcohol allowance in hand luggage: 1 litre spirits + 2 litres wine for age 18+",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
+      "raw_snippet": "Alcohol: 1 liter spirits + 2 liters wine (age 18+)",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "hand-luggage-tobacco-cap",
+      "claim": "Tobacco allowance in hand luggage: 250 grams or 200 cigarettes for age 18+",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
+      "raw_snippet": "Tobacco: max 250 grams or 200 cigarettes",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-3-tvs-3-computers-per-family",
+      "claim": "Up to 3 televisions and 3 computers per family under olim customs exemption",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Up to 3 televisions and 3 computers per family",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-one-of-each-appliance",
+      "claim": "One item maximum per other appliance category (fridge, oven, washer, dryer, microwave)",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "one of each appliance",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-6-year-retention",
+      "claim": "Goods imported duty-free under aliyah rights must stay in possession for 6 years or depreciated tax is owed back to Meches",
+      "source_url": "https://anglo-list.com/aliyah-shipping-rights/",
+      "raw_snippet": "6-year retention rule",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-vehicle-5-year-hold",
+      "claim": "Vehicles imported under oleh benefits must be kept 5 years",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Cars must be kept 5 years",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "red-customs-lane",
+      "claim": "Items exceeding value thresholds require Red Customs lane processing",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
+      "raw_snippet": "those exceeding value thresholds require Red Customs lane processing rather than the expedited Green lane",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}

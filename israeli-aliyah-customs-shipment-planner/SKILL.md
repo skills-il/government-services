@@ -56,6 +56,16 @@ Per-family caps to enforce during classification. Sources disagree on the exact 
 
 The oleh must physically present the teudat oleh (plus teudat zehut with the sefach addendum) with the exemption request form at customs clearance. Customs verifies that oleh benefits are still active before releasing the shipment.
 
+**Hand-luggage allowance on the aliyah flight itself.** Distinct from the 3-shipment exemption, an oleh entering Israel on the aliyah flight is allowed to bring the following in personal/hand luggage without using a shipment slot:
+
+| Category | Per-person cap | Notes |
+|---|---|---|
+| Clothing and toiletries | Under USD 200 value per person | Practical day-to-day items. Excess value routed through the Red Customs lane. |
+| Alcohol (age 18+) | 1 litre spirits + 2 litres wine | Combined cap per adult passenger |
+| Tobacco (age 18+) | 250 grams OR 200 cigarettes | Either form, not both |
+
+These hand-luggage caps are the same as for any incoming traveler and do NOT consume any of the 3 oleh shipment slots. They also do NOT extend the per-family caps in the table above. Anything over the hand-luggage caps must be declared via the Red Customs lane on arrival.
+
 Run `scripts/plan_shipments.py` to do this classification automatically from a JSON inventory.
 
 ### Step 3: Propose a 3-Shipment Split
@@ -183,6 +193,7 @@ Result: User is redirected to the correct authority instead of being handed an i
 | Misrad HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Teudat oleh issuance, returning resident classification |
 | Israel Tax Authority - Meches | https://www.gov.il/en/departments/israel_tax_authority | Official customs authority, Taarif HaMeches tariff database |
 | Kol-Zchut - All Rights | https://www.kolzchut.org.il | Community-maintained Hebrew and English rights pages |
+| Shivat Zion - Aliyah Customs Benefits | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits | Plain-English overview of olim customs caps, hand-luggage allowance, and the 3-shipment window |
 
 ## Troubleshooting
 
