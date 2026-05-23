@@ -24,10 +24,18 @@
   "category": "government-services",
   "supported_agents": [
     "claude-code",
-    "chatgpt",
     "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
     "codex",
-    "gemini-cli"
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
   ],
   "openclaw": false,
   "volatility": "legislative",
