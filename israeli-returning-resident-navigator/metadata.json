@@ -23,11 +23,11 @@
   "version": "1.0.0",
   "category": "government-services",
   "supported_agents": [
-    "claude",
+    "claude-code",
     "chatgpt",
     "cursor",
     "codex",
-    "gemini"
+    "gemini-cli"
   ],
   "openclaw": false,
   "volatility": "legislative",

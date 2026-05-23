@@ -22,7 +22,7 @@
   "author": "skills-il",
   "version": "1.0.0",
   "category": "government-services",
-  "supported_agents": ["claude", "chatgpt", "cursor", "codex", "gemini"],
+  "supported_agents": ["claude-code", "chatgpt", "cursor", "codex", "gemini-cli"],
   "openclaw": false,
   "volatility": "legislative",
   "authoritative_sources": [
