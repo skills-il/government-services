@@ -1,0 +1,72 @@
+{
+  "display_name": {
+    "he": "נווט תושב חוזר",
+    "en": "Israeli Returning Resident Navigator"
+  },
+  "display_description": {
+    "he": "מסייע לישראלים שחוזרים אחרי שנים בחו\"ל לעבור את 90 הימים הראשונים בארץ: בודק זכאות לתעודת תושב חוזר ממשרד העלייה והקליטה (סף שנתיים), מסביר באיזה סל מס הכנסה אתם נופלים (רגיל מ-6 שנים, ותיק מ-10), מנחה בהגשת טופס 628 בביטוח לאומי, ובוחר בין המתנה לפדיון (16,860 ש\"ח ב-2026) לקופת חולים. בנוסף: רישיון נהיגה, חלונות הזמן של 24 ו-9 חודשים, וסדר פעולות מעשי. לא לעולים חדשים (israeli-aliyah-navigator), לא לישראלים שעוזבים (israeli-relocation-abroad), לא לחישובי סעיף 14 (israeli-toshav-chozer-vatik-tax-planner) ולא ליבוא רכב ומכס (israeli-returning-resident-customs-vehicle).",
+    "en": "Helps Israelis returning from years abroad navigate the first 90 days back: checks eligibility for the Misrad HaAliyah V'HaKlita certificate (2-year threshold), identifies which Mas Hachnasa tax basket applies (regular at 6 years, vatik at 10), walks through filing Form 628 at Bituach Leumi, and weighs the kupat cholim waiting period against the 2026 pidyon (16,860 NIS). Also covers driver's license restoration, the 24-month and 9-month windows, and a practical order of operations. Do NOT use for new immigrants (israeli-aliyah-navigator), Israelis leaving the country (israeli-relocation-abroad), Section 14 tax math (israeli-toshav-chozer-vatik-tax-planner), or vehicle import and household-shipment customs (israeli-returning-resident-customs-vehicle)."
+  },
+  "tags": [
+    "toshav-chozer",
+    "returning-resident",
+    "section-14",
+    "bituach-leumi",
+    "kupat-cholim",
+    "misrad-haaliyah",
+    "vatik",
+    "dmei-vitoor",
+    "form-628",
+    "israel"
+  ],
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "supported_agents": [
+    "claude",
+    "chatgpt",
+    "cursor",
+    "codex",
+    "gemini"
+  ],
+  "openclaw": false,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.gov.il/en/pages/returning_residents_whois",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.gov.il/he/service/application_for_recognition_as_returning_resident",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8",
+      "type": "citizen-rights-portal",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "type": "citizen-rights-portal",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "type": "citizen-rights-portal",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/",
+      "type": "nonprofit",
+      "language": "en"
+    }
+  ],
+  "domain_checklist_version": 1
+}
