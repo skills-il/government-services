@@ -1,0 +1,37 @@
+{
+  "display_name": {
+    "he": "מתכנן מכס ויבוא רכב לתושב חוזר",
+    "en": "Israeli Returning Resident Customs & Vehicle Planner"
+  },
+  "display_description": {
+    "he": "תכננו את המכס והרכב לפני שתחזרו לארץ: כמה משלוחים מותר, כמה טלוויזיות, מה החלון של 9 החודשים, האם משתלם לייבא את הרכב שלכם, ולמה תושב חוזר זה לא עולה חדש. הכלי מפיק טיוטת הצהרה למשלוח, גיליון החלטה לרכב, וציר זמן של החלונות מהיום שאתם נוחתים.",
+    "en": "Plan customs and vehicle import before you return to Israel: how many shipments, how many TVs, the 9-month window, whether shipping your car pencils out, and why returnee customs are not olim customs. Produces a per-shipment declaration draft, a vehicle decision worksheet, and a timeline of windows from the day you land."
+  },
+  "tags": [
+    "customs",
+    "meches",
+    "vehicle-import",
+    "returning-resident",
+    "toshav-chozer",
+    "personal-effects",
+    "shipment",
+    "9-month-window",
+    "purchase-tax",
+    "israel"
+  ],
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "supported_agents": ["claude", "chatgpt", "cursor", "codex", "gemini"],
+  "openclaw": false,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+    "https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student",
+    "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+    "https://www.gov.il/he/departments/guides/personal_import_of_vehicles",
+    "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+    "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע%22מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית"
+  ],
+  "domain_checklist_version": 1
+}

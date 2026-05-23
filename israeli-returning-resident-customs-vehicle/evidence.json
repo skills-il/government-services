@@ -1,0 +1,475 @@
+{
+  "skill": "israeli-returning-resident-customs-vehicle",
+  "evidence_version": 1,
+  "researched_on": "2026-05-23",
+  "claims": [
+    {
+      "claim_id": "RETURNEE_2YR_ABROAD",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תושבים חוזרים",
+      "raw_snippet": "תושבי ישראל, ששהו בחוץ לארץ שנתיים או יותר וחוזרים סופית לישראל.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "A returning resident for customs purposes is an Israeli who was abroad 2 years or more and is returning permanently"
+    },
+    {
+      "claim_id": "STUDENT_18MO_ABROAD",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "סטודנטים חוזרים",
+      "raw_snippet": "תושבי ישראל, שחוזרים סופית לאחר ששהו בחוץ לארץ לפחות 18 חודשים, באחד מהתנאים הבאים: למדו כתלמידים מן המניין במוסד להשכלה גבוהה - המוכר ככזה בארץ, במשך שתי שנים אקדמיות רצופות. היו תלמידים מן המניין במוסד, וקיבלו תואר אקדמי מהמוסד. תושבים אלו לא יוכרו כסטודנטים חוזרים, אם חזרו לארץ באחד מהמצבים הבאים: לאחר שחלפו 6 חודשים מיום סיום לימודיהם. מיום שקיבלו את התואר.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "A returning student is an Israeli abroad 18+ months who studied 2 consecutive academic years full-time or earned a degree, returning within 6 months of finishing"
+    },
+    {
+      "claim_id": "TWO_SHIPMENTS",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חפצי בית המיובאים מחוץ לארץ",
+      "raw_snippet": "ניתן לייבא את חפצי הבית - בשני משלוחים בלבד.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Returning residents can import household goods in 2 shipments maximum"
+    },
+    {
+      "claim_id": "NINE_MONTH_WINDOW",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חפצי בית המיובאים מחוץ לארץ",
+      "raw_snippet": "יש לוודא שחפצי הבית יגיעו בתקופת הזכויות, שהיא תשעה חודשים מיום החזרה לארץ. לתשומת ליבכם: תקופה זו אינה ניתנת להארכה.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "The shipment window is 9 months from date of return to Israel and is not extendable"
+    },
+    {
+      "claim_id": "THREE_TVS_THREE_PCS",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חפצי בית המיובאים מחוץ לארץ",
+      "raw_snippet": "ניתן לייבא עד 3 מקלטי טלוויזיה ו-3 מחשבים אישיים, לכל משפחה.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Up to 3 TVs and 3 personal computers per family duty-free"
+    },
+    {
+      "claim_id": "ONE_PER_APPLIANCE_TYPE",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חפצי בית המיובאים מחוץ לארץ",
+      "raw_snippet": "מכשירי חשמל ואלקטרוניקה אחרים ופריטי ריהוט עיקריים - ניתן לייבא פריט אחד מכל סוג.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Other electrical / electronic appliances and major furniture: 1 unit per type duty-free"
+    },
+    {
+      "claim_id": "ACCOMPANYING_LUGGAGE_NOT_A_SHIPMENT",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חפצי בית המיובאים מחוץ לארץ",
+      "raw_snippet": "חפץ ביתי מאלה שפורטו למעלה, שתבחרו לייבא איתכם כמטען נלווה בזמן כניסתכם שהיא החזרה לישראל: לא יחויב במסים לא ייחשב כמשלוח האחד של החפצים, שלגביהם אתם זכאים לפטור.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "A single household item brought as accompanying luggage on entry day is duty-free and does NOT count as one of the 2 shipments"
+    },
+    {
+      "claim_id": "MAIL_PACKAGE_COUNTS",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "יבוא חפצים בחבילות דואר",
+      "raw_snippet": "אם תגיע על שמכם חבילת דואר שבה חפצי בית, החבילה תיחשב לכם כמשלוח האחד, שלגביו אתם זכאים לפטור.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "A mail package containing household goods counts as one of the 2 shipments"
+    },
+    {
+      "claim_id": "CLOTHING_MAIL_WINDOW",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "יבוא חפצים בחבילות דואר",
+      "raw_snippet": "חבילת דואר שבה רק פריטי הלבשה והנעלה ונשלחה לישראל, תהיה פטורה ממסים ולא תיחשב כמשלוח באחד מהתנאים הבאים: אם הגיעה לישראל תוך 30 יום לפני הכניסה. ביום הכניסה (כמטען נלווה). תוך 3 חודשים מיום הכניסה.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Clothing-only mail packages are exempt and do not count as a shipment if arriving within 30 days before entry, on entry day, or within 3 months after entry"
+    },
+    {
+      "claim_id": "PERSONAL_ALLOWANCE_200_USD",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "החפצים הפטורים ממסים",
+      "raw_snippet": "חפצים אחרים שלא פורטו למעלה, בתנאים הבאים: הבאתם אותם איתכם בכניסתכם לשימוש עצמי. הבאתם אותם כמתנה לאדם אחר. ערכם אינו עולה על 200$ (ארצות הברית). תקף לגבי כל אחד מהנכנסים, מגיל שנתיים ומעלה... הפטור הוא אישי לכל אחד מהנכנסים, ואין לצרף זכויות של מספר נכנסים ולקבל פטור לגבי חפץ, שערכו מעל 200$. אם ערכו של חפץ מיובא עולה על 200$, אין אפשרות לקבל פטור על 200$ ולשלם מסים על ההפרש, אלא הנכנסים יחויבו בתשלום המסים על ערכו המלא של החפץ.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Each entrant aged 2+ has a $200 USD duty-free allowance on other personal items, not poolable; above $200 the tax applies to the full value of the item"
+    },
+    {
+      "claim_id": "MIXED_FOOD_3KG",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "החפצים הפטורים ממסים",
+      "raw_snippet": "במסגרת סכום זה ניתן להביא מזון מעורב, בתנאים הבאים: משקלו הכולל הוא עד 3 קילוגרם. המשקל של כל סוג מזון, לא יעלה על 1 קילוגרם.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Within the $200 allowance, mixed food up to 3 kg total, single food type no more than 1 kg"
+    },
+    {
+      "claim_id": "ALCOHOL_TOBACCO_LIMITS",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "החפצים הפטורים ממסים",
+      "raw_snippet": "יינות ומשקאות לכל נכנס מגיל 18: משקה חריף עד 1 ליטר. יין עד 2 ליטר. תמרוקים כוהליים, עד 250 מיל - לכל נכנס. טבק בכל הצורות - במשקל שאינו עולה על 250 גרם - לכל נכנס מגיל 18. סיגריות - עד 200 סיגריות שהן פקט",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Each entrant aged 18+ duty-free: 1 liter spirit + 2 liters wine + 250 ml alcohol perfumes + 250 g tobacco / 200 cigarettes"
+    },
+    {
+      "claim_id": "VEHICLE_48_MONTH_WINDOW",
+      "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "source_label": "kolzchut, personal vehicle import for returning residents and students",
+      "raw_snippet": "טרם חלפו 48 חודשים ממועד ייצור הרכב",
+      "page_updated": "2025-12-10",
+      "verified_via": "WebFetch summary, 2026-05-23",
+      "claim": "Returning residents and students can personally import a vehicle up to 48 months old from manufacture, vs 24 months for general residents"
+    },
+    {
+      "claim_id": "VEHICLE_NO_PURCHASE_TAX_EXEMPTION",
+      "source_url": "https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/",
+      "source_label": "bshcpa - Customs Rights for Returning Residents (CPA breakdown)",
+      "raw_snippet": "Tax Status: No exemption from customs duty. The benefit is limited to the extended vehicle age window only.",
+      "verified_via": "WebFetch summary, 2026-05-23",
+      "cross_check_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "cross_check_note": "kolzchut lists the benefit as a vehicle-age window and does not claim a tax exemption; gov.il customs guide refers returnees to the general personal-import vehicle guide with no exemption basket",
+      "claim": "There is no purchase-tax / VAT / customs-duty exemption for returnees on personally imported vehicles; the only benefit is the extended 48-month age window"
+    },
+    {
+      "claim_id": "VEHICLE_9_MONTH_WINDOW",
+      "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "source_label": "kolzchut, personal vehicle import for returning residents and students",
+      "raw_snippet": "לתום 9 חודשים מיום כניסתו של הזכאי לישראל",
+      "page_updated": "2025-12-10",
+      "verified_via": "WebFetch summary, 2026-05-23",
+      "claim": "Vehicle must be imported within 9 months from entry to Israel"
+    },
+    {
+      "claim_id": "SIX_YEAR_HOLD",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "חובה שכל החפצים שישוחררו לכם לפי הזכויות שלכם, יהיו לשימושכם העצמי בישראל, לתקופה של 6 שנים לפחות.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Items released duty-free must remain in the returnee's personal use in Israel for at least 6 years"
+    },
+    {
+      "claim_id": "SIX_YEAR_RECLAIM",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "תושבים חוזרים יהיו זכאים לייבא או לרכוש בפטור ממסים, את אותו סוג חפץ ביתי, ששחררו בעבר בפטור ממסים, בתנאי ששהו בישראל במשך 6 שנים לפחות, לאחר יום שחרור חפצי הבית בפעם הקודמת.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Returnee can re-claim duty-free the same item type previously released duty-free only if 6 years have passed in Israel since the prior release"
+    },
+    {
+      "claim_id": "SPOUSAL_ANTI_STACKING",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "תושבים חוזרים יהיו זכאים לייבא או לרכוש בפטור ממסים, את אותו סוג חפץ ביתי ששוחרר בעבר בפטור ממסים על ידי בני זוגם, אם חלפו 6 שנים מיום שחרור החפץ. ובתנאי שלא היו בני זוג במועד השחרור הראשון.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Cannot re-claim what spouse released duty-free unless 6 years passed AND user was not spouse at time of prior release"
+    },
+    {
+      "claim_id": "YEAR_ABROAD_4MO_VISITS",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "בכל שנת היעדרות מהארץ אתם יכולים לבקר בארץ, מבלי לממש את זכאותכם, לתקופה מצטברת של עד 4 חודשים בשנת היעדרות, ותקופה זו תיחשב כאילו שהיתם בחוץ לארץ.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "A year of absence counts even with up to 4 cumulative months of visits to Israel in that year"
+    },
+    {
+      "claim_id": "ONLINE_FILE_OPENING",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "תושבים חוזרים המבקשים לפתוח תיק זכאות במכס, יוכלו לעשות זאת באמצעות מילוי טופס קביעת מעמד תושב חוזר ושליחתו באמצעות האינטרנט. פתיחת התיק מבוצעת על ידי המערכת אוטומטית ואין צורך בהגעה או בשליחת מסמכים למכס.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "The customs entitlement file is opened online via gov.il and the system opens it automatically"
+    },
+    {
+      "claim_id": "ENTITLEMENT_SERVICE_URL",
+      "source_url": "https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student",
+      "source_label": "gov.il, request entitlement exemption for returning resident / student",
+      "raw_snippet": "מי שחזר לארץ לאחר שהות של שנתיים ומעלה מחוץ לישראל ומעוניין לפתוח תיק זכאות במכס לצורך יבוא חפצי בית בפטור ממסים",
+      "verified_via": "WebSearch result snippet, 2026-05-23",
+      "claim": "The online service to open a customs entitlement file is hosted at gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student"
+    },
+    {
+      "claim_id": "BOND_DEPOSIT_REFUND",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע%22מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית",
+      "source_label": "kolzchut, customs exemption for returnee / student importing household goods",
+      "raw_snippet": "Upon entry, applicants must deposit a bond equaling 6 months of applicable taxes... If approved as a returning resident/student within the 9-month window, the deposited bond is refunded.",
+      "page_updated": "2025-03-02",
+      "verified_via": "WebFetch summary, 2026-05-23",
+      "claim": "A returnee may need to deposit a bond equal to about 6 months of applicable taxes on entry; refunded if entitlement is approved within 9 months"
+    },
+    {
+      "claim_id": "CURRENCY_50K_AIRSEA",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חובת דיווח על הכנסת כספים",
+      "raw_snippet": "חשוב לדעת! סעיף 9 לחוק איסור הלבנת הון קובע חובה על אדם לדווח על כספים שעמו בעת הכניסה לישראל או היציאה ממנה, אם שווי הכספים הוא מעל סף הדיווח של 50,000 ש\"ח או 12,000 ש\"ח (במעבר גבול יבשתי).",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Currency declaration threshold is 50,000 NIS at air / sea borders"
+    },
+    {
+      "claim_id": "CURRENCY_12K_LAND",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חובת דיווח על הכנסת כספים",
+      "raw_snippet": "סף הדיווח של 50,000 ש\"ח או 12,000 ש\"ח (במעבר גבול יבשתי)",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Currency declaration threshold is 12,000 NIS at land border crossings"
+    },
+    {
+      "claim_id": "CURRENCY_NO_POOLING",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חובת דיווח על הכנסת כספים",
+      "raw_snippet": "אם אדם נוסע עם אדם אחר חובה לדווח גם כאשר: נוסע אחד מחזיק כספים שסכומם מעל סף הדיווח. העובדה שהוא נוסע עם נוסע אחר (גם אם מדובר בבן משפחה) אינה פוטרת אותו מחובת הדיווח. נוסעים שונים מחזיקים כספים בבעלות משותפת כשכל אחד מחזיק בכליו סכום שהינו מתחת לסף הדיווח והסכום הכולל הינו מעל סף הדיווח, למשל כאשר מדובר בבני משפחה הנוסעים ביחד והכסף הינו בבעלות משותפת של בני המשפחה.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Family members traveling together cannot pool to skirt the currency declaration cap; jointly held amounts above threshold must be declared"
+    },
+    {
+      "claim_id": "CURRENCY_PENALTY",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "source_section": "חובת דיווח על הכנסת כספים",
+      "raw_snippet": "שוטר ופקיד מכס יכולים לתפוס מידי מי שהפרו את חובת הדיווח, את הכספים החייבים בדיווח ולפתוח בחקירה פלילית... להגיש כתב אישום, שעלול להסתיים בעונש מאסר של עד שישה חודשים ובקנס כספי גבוה.",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "Failure to declare currency may trigger seizure, criminal investigation, fine, or up to 6 months imprisonment"
+    },
+    {
+      "claim_id": "GOVIL_PAGE_UPDATE_DATE",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents",
+      "raw_snippet": "תאריך עדכון: 18.05.2026",
+      "page_updated": "2026-05-18",
+      "verified_via": "Playwright MCP, 2026-05-23",
+      "claim": "The gov.il customs guide for returning residents was last updated 18.05.2026"
+    },
+    {
+      "claim_id": "PERSONAL_VEHICLE_IMPORT_GUIDE_URL",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Israel Tax Authority - Personal Vehicle Import Guide",
+      "raw_snippet": "מדריך לייבוא אישי של רכב רשות המסים בישראל",
+      "verified_via": "WebSearch result, 2026-05-23",
+      "claim": "Israel Tax Authority publishes a personal vehicle import guide at gov.il/he/pages/personal_import_of_vehicles_guide"
+    },
+    {
+      "claim_id": "MISRAD_HATACHBURA_PERSONAL_IMPORT_URL",
+      "source_url": "https://www.gov.il/he/departments/guides/personal_import_of_vehicles",
+      "source_label": "Misrad HaTachbura - Personal Vehicle Import",
+      "raw_snippet": "יבוא אישי של כלי רכב משרד התחבורה והבטיחות בדרכים",
+      "verified_via": "WebSearch result, 2026-05-23",
+      "claim": "Misrad HaTachbura publishes a personal vehicle import process page at gov.il/he/departments/guides/personal_import_of_vehicles"
+    },
+    {
+      "claim_id": "FORM_628_BL_NAVIGATOR_HANDOFF",
+      "claim": "Form 628 / טופס 628 is the Bituach Leumi residency questionnaire handled by the sister navigator skill, not this customs skill",
+      "source_url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/default.aspx",
+      "source_label": "Bituach Leumi - Toshav Chozer landing",
+      "raw_snippet": "טופס 628 שאלון לקביעת תושבות לתושב חוזר",
+      "verified_via": "Cross-reference to israeli-returning-resident-navigator sister skill"
+    },
+    {
+      "claim_id": "FORM_1348_TAX_PLANNER_HANDOFF",
+      "claim": "Form 1348 / טופס 1348 is the income-tax residency-cessation form handled by the sister tax-planner skill, not this customs skill",
+      "source_url": "https://www.gov.il/he/Departments/General/forms-list",
+      "source_label": "Israel Tax Authority forms catalog",
+      "raw_snippet": "טופס 1348 - הצהרת תושב חוזר ותיק לעניין סעיף 14 לפקודה",
+      "verified_via": "Cross-reference to israeli-toshav-chozer-vatik-tax-planner sister skill"
+    },
+    {
+      "claim_id": "SECTION_14_TAX_PLANNER_HANDOFF",
+      "claim": "Section 14 / סעיף 14 of the Income Tax Ordinance is the source of the toshav chozer vatik 10-year tax exemption, handled by the sister tax-planner skill, not this customs skill",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%98%D7%91%D7%95%D7%AA_%D7%91%D7%9E%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "source_label": "kolzchut - tax benefits for returning residents",
+      "raw_snippet": "סעיף 14 לפקודת מס הכנסה",
+      "verified_via": "Cross-reference to israeli-toshav-chozer-vatik-tax-planner sister skill"
+    },
+    {
+      "claim_id": "SECTION_9_AML_LAW",
+      "claim": "Section 9 of the Anti-Money-Laundering Law requires currency declaration above threshold",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide, currency declaration chapter",
+      "source_section": "חובת דיווח על הכנסת כספים",
+      "raw_snippet": "סעיף 9 לחוק איסור הלבנת הון קובע חובה על אדם לדווח על כספים שעמו בעת הכניסה לישראל או היציאה ממנה",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "HOTLINE_1299",
+      "claim": "Israel Tax Authority and gov.il run a *1299 phone hotline for customs questions",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide, footer hotline reference",
+      "raw_snippet": "התקשרו למוקד 1299",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "VEHICLE_TAX_BAND_COMBINED",
+      "claim": "Combined customs + purchase tax + VAT on personally-imported vehicles lands at roughly 116% of CIF for passenger cars from FTA-origin countries, 131% for non-FTA, 75-87% for EVs, 103-117% for collector cars; rates already include VAT and do not stack additionally",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
+      "source_label": "gov.il Personal Vehicle Import Guide, chapter 3 (tax calculation), updated 15.01.2026",
+      "raw_snippet": "סוג הרכב | מדינות ההסכם | מדינות אחרות. רכב נוסעים/אופנוע/רכב שטח: כ-116% | כ-131%. רכב אספנות: כ-103% | כ-117%. רכב חשמלי: כ-75% | כ-87%. שיעור המס בטבלה כולל את מס הקניה, המכס (אם נדרש) והמע\"מ (מס ערך מוסף).",
+      "page_updated": "2026-01-15",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "VAT_RATE_18_PERCENT",
+      "claim": "Israeli VAT rate was raised from 17% to 18% effective 2025-01-01, applied to most goods including imports",
+      "source_url": "https://en.wikipedia.org/wiki/Taxation_in_Israel",
+      "source_label": "Wikipedia, Taxation in Israel, Value-added tax section",
+      "raw_snippet": "Value-added tax (VAT) in Israel, is applied to most goods and services, including imported goods and services. From 1 January 2025 the standard rate was increased to 18% from 17%.",
+      "verified_via": "Playwright MCP at en.wikipedia.org/wiki/Taxation_in_Israel, 2026-05-23",
+      "cross_check_note": "Wikipedia cites Israeli Knesset Arrangements Law for 2025. The gov.il Tax Authority landing page redirects on /value_added_tax_vat path; the personal_import_of_vehicles_guide chapter 3 table reflects the 18% VAT bake-in via combined rates that match the post-2025 stack."
+    },
+    {
+      "claim_id": "VEHICLE_12_MONTH_BAALUT_RESTRICTION",
+      "claim": "Misrad HaTachbura imposes a 12-month ownership-transfer restriction on every personally-imported vehicle, returnee or not; Nahal 416 is the early-release procedure",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_label": "gov.il, יבוא אישי של כלי רכב (Misrad HaTachbura), section 'מגבלת העברת בעלות'",
+      "raw_snippet": "מגבלת העברת בעלות. יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים. ... נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי.",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "VEHICLE_GUIDE_PAGE_UPDATE_DATE",
+      "claim": "The gov.il personal vehicle import guide (Rashut HaMisim) was last updated 15.01.2026",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "gov.il personal vehicle import guide",
+      "raw_snippet": "תאריך עדכון: 15.01.2026",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "MISRAD_HATACHBURA_PHONE_4515",
+      "claim": "Misrad HaTachbura import unit phone is *4515 for status questions on personal vehicle import permits and Nahal 416 applications",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_label": "gov.il, יבוא אישי של כלי רכב, מתן מידע אודות מצב הבקשה",
+      "raw_snippet": "לרשותכם עומד מוקד טלפוני שמספרו 4515* המאפשר מתן מידע אודות מצב הבקשה",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "MISRAD_HAALIYAH_PHONE_2994",
+      "claim": "Misrad HaAliyah hotline is *2994",
+      "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "source_label": "kolzchut, vehicle import for returnees, גורמים מסייעים table",
+      "raw_snippet": "משרד העלייה והקליטה *2994",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "RESTRICTED_PERMIT_ITEMS",
+      "claim": "Drones, communications gear / baby monitors, plants and seeds, pets, weapons and weapon parts, lasers, electric scooters and e-bikes all require a separate import permit from the relevant ministry before shipping; the customs benefit does not waive the permit requirement",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=12",
+      "source_label": "gov.il customs guide chapter 12, פריטים שהתנאי ליבוא שלהם הוא אישור הרשות המוסמכת",
+      "raw_snippet": "רחפן - משרד התקשורת + משרד התחבורה-רשות שדות התעופה. מוצרי תקשורת, מוניטורים לתינוקות - משרד התקשורת. צמחים, זרעים - משרד החקלאות. חיות מחמד - משרד החקלאות-שירותים וטרינריים. נשק וחלקי נשק - משרד לביטחון פנים. קסדות, חלקי חילוף לרכב - משרד התחבורה. מסמני לייזר - משרד הכלכלה. קורקינט ממונע, אופניים חשמליים - משרד התחבורה.",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "INSURE_FULL_VALUE_INCLUDING_TAXES",
+      "claim": "Shipments must be insured at their full value including all customs duties and taxes; under-insured claims get rejected at Meches",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=9",
+      "source_label": "gov.il customs guide chapter 9, תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "עליכם לבטח את חפציכם בערכם המלא, כולל כל המסים.",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH3_PERSONAL_ALLOWANCE",
+      "claim": "gov.il customs guide chapter 3 covers personal-allowance items duty-free on entry",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=3",
+      "source_label": "gov.il customs guide, chapter 3 (personal allowance)",
+      "raw_snippet": "החפצים הפטורים ממסים (מכס, מס קנייה ומע\"מ) - במעמד החזרה לארץ",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH4_HOUSEHOLD",
+      "claim": "gov.il customs guide chapter 4 covers household goods shipments",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=4",
+      "source_label": "gov.il customs guide, chapter 4 (household goods)",
+      "raw_snippet": "חפצי בית המיובאים מחוץ לארץ",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH7_MAIL_PACKAGES",
+      "claim": "gov.il customs guide chapter 7 covers mail packages",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=7",
+      "source_label": "gov.il customs guide, chapter 7 (mail packages)",
+      "raw_snippet": "יבוא חפצים בחבילות דואר",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH8_VEHICLE",
+      "claim": "gov.il customs guide chapter 8 covers vehicle import for returnees",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=8",
+      "source_label": "gov.il customs guide, chapter 8 (vehicle import)",
+      "raw_snippet": "יבוא רכב עם מנוע",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH9_CONDITIONS",
+      "claim": "gov.il customs guide chapter 9 covers additional conditions for entitlement approval",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=9",
+      "source_label": "gov.il customs guide, chapter 9 (additional conditions)",
+      "raw_snippet": "תנאים נוספים לאישור הזכויות",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "GOVIL_CH10_CURRENCY",
+      "claim": "gov.il customs guide chapter 10 covers currency declaration obligation",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=10",
+      "source_label": "gov.il customs guide, chapter 10 (currency declaration)",
+      "raw_snippet": "חובת דיווח על הכנסת כספים לישראל או הוצאתם ממנה",
+      "verified_via": "Playwright MCP, 2026-05-23"
+    },
+    {
+      "claim_id": "BSHCPA_CUSTOMS_RIGHTS_PAGE",
+      "claim": "bshcpa CPA firm publishes a customs-rights overview for returning residents",
+      "source_url": "https://www.bshcpa.co.il/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D-%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D-%D7%91%D7%9E%D7%9B%D7%A1/",
+      "source_label": "bshcpa - Customs Rights for Returning Residents",
+      "raw_snippet": "זכויות תושבים חוזרים במכס",
+      "verified_via": "WebFetch, 2026-05-23"
+    },
+    {
+      "claim_id": "KOLZCHUT_VEHICLE_IMPORT",
+      "claim": "kolzchut publishes a vehicle-import page for returning residents and students",
+      "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "source_label": "kolzchut - Personal Vehicle Import for Returning Residents",
+      "raw_snippet": "יבוא אישי של רכב לתושבים וסטודנטים חוזרים",
+      "verified_via": "WebFetch, 2026-05-23"
+    },
+    {
+      "claim_id": "KOLZCHUT_HOUSEHOLD_IMPORT",
+      "claim": "kolzchut publishes a household-goods customs page for returnees and students",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע%22מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית",
+      "source_label": "kolzchut - Customs exemption for returnee / student importing household goods",
+      "raw_snippet": "פטור ממס קניה, מע\"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית",
+      "verified_via": "WebFetch, 2026-05-23"
+    },
+    {
+      "claim_id": "KOLZCHUT_HOUSEHOLD_URL_PARTIAL",
+      "claim": "kolzchut household-goods customs page referenced via partial URL form",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע",
+      "source_label": "kolzchut household-goods customs page (URL-prefix match)",
+      "raw_snippet": "kolzchut household-goods customs page for returnees; full URL contains a quote character that confuses simple URL extractors",
+      "verified_via": "Manual cross-reference, 2026-05-23"
+    }
+  ],
+  "schemaVersion": "1.0"
+}
