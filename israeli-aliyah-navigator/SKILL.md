@@ -39,12 +39,13 @@ Guide the user through pre-arrival requirements:
 3. Obtain an aliyah visa (if required based on country)
 4. Gather required documents:
    - Proof of Jewish identity (birth certificate, parents' ketubah, letter from rabbi)
-   - Valid passport (minimum 6 months validity)
-   - Marriage certificate (if applicable)
+   - Valid passport, recommended at least 2 years remaining validity; dual-citizen olim bring all passports and coordinate with the Jewish Agency on which to use
+   - Marriage certificate (if applicable). Effective Sept 30 2024, the marriage certificate must show the pre-marriage civil status of both spouses. Any prior marriages also need supporting divorce or death certificates with apostille.
    - Children's birth certificates (if applicable)
-   - Police clearance from country of origin
+   - Police clearance / Certificate of Good Conduct from country of birth, every country of continuous residence over 1 year after age 14, and every country of current citizenship. Effective Nov 2024, applicants doing Shinui Ma'amad (status change to oleh from inside Israel) must also present background checks from every country they lived in for 6+ months.
    - Professional diplomas and transcripts (apostilled)
-   - Medical records and vaccination history
+   - Medical records and vaccination history. Bring 3 months' worth of any regular medication and complete vaccination cards (required for children's school enrollment).
+   - Apostille requirement: every public-record document (birth, marriage, divorce, background check, academic diploma) must carry an apostille from the issuing country's Hague Convention authority. Non-Hague countries require consular legalisation instead.
 
 **Nefesh B'Nefesh (for English-speaking countries):**
 - Free aliyah assistance for olim from USA, Canada, and UK
@@ -121,6 +122,8 @@ python scripts/sal-klita-calculator.py --family-size <number> --year <year>
 **Free Ulpan for Olim:**
 - Every oleh is entitled to a free 500-hour Hebrew course (Ulpan Aleph)
 - Must begin within 18 months of aliyah date
+- Attendance requirement: 80% minimum; missing more days can drop the oleh from the subsidized track
+- Second subsidized course (e.g., Ulpan Bet) available within 10 years of aliyah; only one of the two courses can be at a private/recognized institution, the rest must be at a Misrad HaKlita-recognized public ulpan
 - Registration through Misrad HaKlita or local municipality
 
 **Ulpan Options:**
@@ -240,11 +243,11 @@ A new tax incentive enacted late 2025 grants olim and toshavim chozrim vatikim w
 - Public sources (Gornitzky, BSH CPA, Knesset MMM memo) cite slightly different schedules; verify against the final Knesset-passed text and ITA circulars before quoting specific NIS ceilings to a user.
 - The 2028-2029 portion of the benefit may carry a minimum-days-in-Israel residency condition (~75 days/year per published memos). Verify before quoting.
 - A separate per-family-member NIS cap (~140K) applies in addition to the primary ceiling.
-- Olim arriving outside the November 5, 2025 - December 31, 2026 window do NOT receive this incentive — only the standard Section 14 benefits.
+- Olim arriving outside the November 5, 2025 - December 31, 2026 window do NOT receive this incentive, only the standard Section 14 benefits.
 
 **Capital declaration / asset cap on sal klita (2025/2026):**
 
-Sal klita applicants must now submit a capital declaration (הצהרת הון). Reported assets above NIS 500,000 reduce or deny eligibility. Applicants below the threshold receive a +10% top-up. Confirm the current threshold + top-up at klita.gov.il before applying — these figures are subject to budget-cycle adjustment.
+Sal klita applicants must now submit a capital declaration (הצהרת הון). Reported assets above NIS 500,000 reduce or deny eligibility. Applicants below the threshold receive a +10% top-up. Confirm the current threshold + top-up at klita.gov.il before applying, since these figures are subject to budget-cycle adjustment.
 
 **Bituach Leumi US-Social-Security exemption (Feb 2026 amendment):**
 
@@ -378,6 +381,21 @@ Professional recognition (hakarat miktzoa) varies significantly by field.
 
 Consult `references/aliyah-timeline-guide.md` for a month-by-month timeline of the full first year.
 
+### Step 12: Alternate Aliyah Statuses (Route the User Correctly)
+
+Not every aliyah is a standard Oleh Chadash under the Law of Return. Four named statuses sit alongside the main track. Recognize which one applies before quoting Sal Klita figures or document lists, because the eligibility rules, document set, and benefit basket all differ.
+
+| Status | Who qualifies | Key differences vs. standard oleh | Primary authority |
+|---|---|---|---|
+| **Ezrach Oleh** (Child of an Israeli) | Born outside Israel to a parent who held Israeli citizenship at the time of your birth | Requires proof of residence outside Israel for the past 7 years and a 7-year table of entries and exits to/from Israel. Benefit basket is similar to oleh chadash but processed under a separate file at the Jewish Agency / Misrad HaPnim. | Jewish Agency (from abroad) or Misrad HaPnim (within Israel) |
+| **Katin Chozer** (Returning Minor) | Born in Israel or immigrated as a child, departed before age 14 | Applicants under 30 also need parental documentation: parents' declaration, work proof for the past 5 years, parents' entry/exit records, and proof parents resided abroad during the applicant's ages 14-18. | Jewish Agency (from abroad) or Misrad HaPnim (within Israel) |
+| **Aliyah BaShenit** (Second-time Aliyah) | Previously held Israeli citizenship, formally renounced it, now wishes to resettle in Israel | Not automatically classified as Oleh Chadash; eligibility is reviewed case-by-case by Misrad HaPnim, Bituach Leumi, Misrad HaKlita, and Rashut HaMisim *independently*. May qualify for some immigrant benefits, but do NOT promise a full Sal Klita basket without ministry confirmation. | Jewish Agency (if abroad) + Ministry of Interior (if in Israel) |
+| **ARLI** (Renouncing Aliyah within 3 months) | Oleh over 18 who decides post-arrival that they do not want Israeli citizenship | Must declare in person at Misrad HaPnim within 3 months of aliyah date. Critical for olim from countries that prohibit dual citizenship and want to preserve their original passport. One parent can declare for the family with both spouses' consent. Reversible within the 3-month window. | Misrad HaPnim |
+
+For Toshav Chozer (returning Israeli citizen who left and is coming back, distinct from Oleh) and the in-depth Section 14 / 10-year tax exemption for Toshav Chozer Vatik, route the user to `israeli-returning-resident-navigator` and `israeli-toshav-chozer-vatik-tax-planner` respectively. Toshav Chozer is NOT a status under the Law of Return and does NOT receive the full oleh Sal Klita.
+
+If the user has already received a Toshav Chozer certificate from Misrad HaAliyah V'HaKlita, that is a returnee certificate, not an oleh one; reroute and stop quoting oleh figures.
+
 ## Examples
 
 ### Example 1: Pre-Arrival Planning for a Family from the USA
@@ -483,6 +501,19 @@ If the `kolzchut-mcp` server is available, use it to fetch **real-time, up-to-da
 - The Ministry of Aliyah and Integration (Misrad HaKlita) and the Jewish Agency (Sochnut) handle different parts of the aliyah process. Agents may direct users to the wrong organization.
 - Olim (new immigrants) receive extra tax credit points (neku'dot zikui) for 3.5 years, not permanently. Agents may fail to mention the expiration of these benefits.
 - Professional license recognition in Israel can take months to years depending on the profession (doctors, lawyers, engineers each have different processes). Agents may underestimate the timeline for practicing a licensed profession after aliyah.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|---|---|---|
+| Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Current Sal Klita amounts, Ulpan program list, returning-resident eligibility |
+| Klita.gov.il personal area (ezor ishi) | https://www.klita.gov.il/ | Sal Klita payment status, rights and forms for olim |
+| Kolzchut (Kol-Zchut) - Olim and returning residents | https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Authoritative rights pages with statute citations, current-year NIS amounts |
+| Nefesh B'Nefesh (English-speaking olim) | https://www.nbn.org.il/ | Flight subsidies, rights summaries, pre-aliyah employment guidance |
+| Jewish Agency (Sochnut) | https://www.jewishagency.org/aliyah/ | File opening, document upload, eligibility verification |
+| Shivat Zion knowledge base (EN/HE plain-English explainers) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842 | Apostille per country, background-check authorities by country, document checklist, alternate-status overviews (Ezrach Oleh, Katin Chozer, Aliyah BaShenit, ARLI) |
+| Bituach Leumi | https://www.btl.gov.il/ | Registration, benefit eligibility timelines for new residents |
+| Israel Tax Authority (Rashut HaMisim) - Olim department | https://www.gov.il/en/departments/israel_tax_authority | Section 14 exemption details, reporting obligations |
 
 ## Troubleshooting
 

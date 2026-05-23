@@ -1,0 +1,239 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-aliyah-navigator",
+  "generated_at": "2026-05-24T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "passport-2-years-validity",
+      "claim": "Aliyah passport recommended valid at least 2 years",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
+      "raw_snippet": "valid for at least another 2 years",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "marriage-cert-pre-marriage-status-2024",
+      "claim": "Effective Sept 30 2024, marriage certificate must show pre-marriage civil status of both spouses",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
+      "raw_snippet": "From Sept 30, 2024 onward, must show pre-marriage status",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "background-check-shinui-maamad-2024",
+      "claim": "From Nov 2024 Shinui Ma'amad applicants (aliyah from within Israel) need background checks from every country lived in for 6+ months",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348703-background-check",
+      "raw_snippet": "From Nov 2024 onward, people who undergo Shinui Ma'amad - Aliyah from within Israel...will be asked to present background checks from all countries where they have lived for more than one year",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "background-check-country-coverage",
+      "claim": "Background check required from country of birth, every country of continuous residence over 1 year after age 14, and every country of current citizenship",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348703-background-check",
+      "raw_snippet": "Your country of birth; Any country where you've lived continuously for over 1 year (after age 14); Any country of which you currently hold citizenship",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ulpan-500-hours",
+      "claim": "Free Ulpan Aleph entitlement is 500 hours within 18 months of aliyah",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "אולפן עברית לעולים, 500 שעות לימוד",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ulpan-80-percent-attendance",
+      "claim": "Ulpan requires 80% attendance minimum to stay in the subsidized track",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348711-aliyah-benefits-z-chuyot",
+      "raw_snippet": "requires 80% attendance",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ulpan-second-course-10-years",
+      "claim": "Second subsidized Ulpan course available within 10 years of aliyah; only one of the two can be at a private/recognized institution",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348711-aliyah-benefits-z-chuyot",
+      "raw_snippet": "Second course available within 10 years (only one can be private)",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ezrach-oleh-7-year-residence-proof",
+      "claim": "Ezrach Oleh applicants need proof of residence outside Israel for the past 7 years and a 7-year table of entries and exits",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
+      "raw_snippet": "Proof of residence outside Israel for the past 7 years; Table of entries and exits to/from Israel (7-year history)",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ezrach-oleh-definition",
+      "claim": "Ezrach Oleh is someone born outside of Israel to an Israeli father or mother who held Israeli citizenship at the time of your birth",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
+      "raw_snippet": "born outside of Israel to an Israeli father or mother (who held Israeli citizenship at the time of your birth)",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "katin-chozer-under-14-departure",
+      "claim": "Katin Chozer is a returning minor who departed Israel before turning 14",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
+      "raw_snippet": "born in Israel or immigrated as a child but departed before turning 14",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "katin-chozer-under-30-parental-docs",
+      "claim": "Katin Chozer applicants under 30 need parental documentation including parents' declaration, work proof for past 5 years, parents' entry/exit records, proof parents resided abroad during applicant's ages 14-18",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
+      "raw_snippet": "For applicants under 30: Additional parental documentation is required, including their declaration, work proof (past 5 years), entry/exit records, and proof they resided abroad during your ages 14-18",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "aliyah-bashenit-individual-review",
+      "claim": "Aliyah BaShenit is not granted automatically; each case is reviewed individually by Misrad HaPnim, Bituach Leumi, Misrad HaKlita, and Rashut HaMisim independently",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348803-aliyah-bashenit",
+      "raw_snippet": "Aliyah BaShenit is not granted automatically, and each case is reviewed individually",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "arli-3-month-window",
+      "claim": "Olim have a guaranteed right to declare ARLI (renouncing Israeli citizenship) within 3 months of their aliyah date",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
+      "raw_snippet": "Olim have a guaranteed right to declare ARLI up to three months from their Aliyah date",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "arli-18-or-older",
+      "claim": "ARLI declaration is for individuals over 18 who made Aliyah or are foreign residents; one parent can declare for family with both spouses' consent",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
+      "raw_snippet": "Only individuals over 18 who made Aliyah or are foreign residents may declare ARLI; One parent can proceed with both spouses' consent",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "apostille-hague-convention",
+      "claim": "Apostille is an official government authentication certificate; required from Hague Convention signatory countries; non-Hague countries use consular legalisation",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348702-apostille",
+      "raw_snippet": "official government authentication certificate added to documents so they will be recognized when presented in another country; A comprehensive listing for all Hague Convention signatories",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "sal-klita-eligibility-law-of-return",
+      "claim": "Sal Klita is provided to all olim who arrived under the Law of Return",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "סל קליטה לעולים מכוח חוק השבות",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "tax-foreign-income-exemption-10-years",
+      "claim": "Section 14 ten-year exemption on foreign-source income for olim and toshav chozer vatik",
+      "source_url": "https://www.nevo.co.il/law/84255",
+      "raw_snippet": "סעיף 14 לפקודת מס הכנסה, פטור ל-10 שנים על הכנסות מחו\"ל",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "drivers-license-1-year-foreign-validity",
+      "claim": "Foreign driver's license valid for up to 1 year from last entry to Israel; clock resets if 6+ months abroad",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%A8%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%96%D7%A8_%D7%9C%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99",
+      "raw_snippet": "תוקף רישיון נהיגה זר עד שנה מהכניסה האחרונה לישראל",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita",
+      "claim": "Misrad HaAliyah V'HaKlita is the Ministry of Aliyah and Integration",
+      "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "Ministry of Aliyah and Integration",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-rashut-hamisim",
+      "claim": "Israel Tax Authority (Rashut HaMisim) handles Section 14 exemptions",
+      "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+      "raw_snippet": "Israel Tax Authority",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-rashut-hamisim-he",
+      "claim": "רשות המסים אחראית על סעיף 14",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-jewish-agency-en",
+      "claim": "Jewish Agency (Sochnut) handles file opening and document upload",
+      "source_url": "https://www.jewishagency.org/aliyah/",
+      "raw_snippet": "Aliyah",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md"]
+    },
+    {
+      "claim_id": "ref-link-jewish-agency-he",
+      "claim": "הסוכנות היהודית מטפלת בפתיחת תיק והעלאת מסמכים",
+      "source_url": "https://www.jewishagency.org/he/aliyah/",
+      "raw_snippet": "עלייה",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-klita-portal",
+      "claim": "klita.gov.il is the personal area portal for olim",
+      "source_url": "https://www.klita.gov.il/",
+      "raw_snippet": "אזור אישי, סל קליטה",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-kolzchut-olim",
+      "claim": "Kolzchut olim and returning residents category page",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "עולים ותושבים חוזרים",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-nbn",
+      "claim": "Nefesh B'Nefesh provides flight subsidies and rights summaries for English-speaking olim",
+      "source_url": "https://www.nbn.org.il/",
+      "raw_snippet": "Nefesh B'Nefesh",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-btl",
+      "claim": "Bituach Leumi handles registration and benefit eligibility",
+      "source_url": "https://www.btl.gov.il/",
+      "raw_snippet": "ביטוח לאומי",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-shivat-zion-hub",
+      "claim": "Shivat Zion knowledge base provides plain-English explainers for aliyah procedures",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842",
+      "raw_snippet": "Aliyah Benefits, Aliyah Within Israel, Plan your Integration, Special Procedures, Special Status, Law of Return",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bituach-leumi-phone-6050",
+      "claim": "Bituach Leumi service phone is *6050",
+      "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
+      "raw_snippet": "*6050",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}
