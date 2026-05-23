@@ -127,6 +127,54 @@
       "claim": "URL-encoded Hebrew path fragments from kolzchut and gov.il URLs are byproducts of percent-encoding (%D7XX, %D8XX) and are not standalone percentage claims. The skill makes no numerical-percentage claims.",
       "source_url": "https://www.kolzchut.org.il/he/",
       "raw_snippet": "Percent-encoded Hebrew URL fragments: %D7%99 %D7%9D %D7%91 %D7%9C %D7%90 %D7%95 %D7%9E %D7%A8 %D7%93 %D7%AA %D7%A9 %D7%97 %D7%96 %D7%A2 %D7%A4 %D7%A0 %D7%A1 %D7%A7 %D7%92 %D7%94 %D7%A6 %D7%9F %D7%9B %D7%98 %D7%94 0% 2% 4% 6% 7% 8% 9% 22% 90% 91% 92% 93% 94% 95% 96% 97% 98% 99%. These are NOT numerical claims; they are URL-encoding artifacts."
+    },
+    {
+      "claim_id": "shnat-histaglut-benefit-name",
+      "claim": "Acclimatization Year (Shnat Histaglut) is among the benefits flagged by the toshav chozer certificate",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
+      "raw_snippet": "Acclimatization Year (Shnat Histaglut)",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "el-al-returnee-airfare-benefit",
+      "claim": "Toshav Chozer benefit basket includes reduced El Al airfares with expanded luggage allowance",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
+      "raw_snippet": "Reduced El Al airfares with expanded luggage",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "shnat-histaglut-form-1130-90-days",
+      "claim": "Year of Acclimation under Section 14(b) requires Form 1130 within 90 days of arrival",
+      "source_url": "https://www.bshcpa.co.il/%D7%A9%D7%A0%D7%AA-%D7%94%D7%A1%D7%AA%D7%92%D7%9C%D7%95%D7%AA-%D7%AA%D7%95%D7%A9%D7%91-%D7%97%D7%95%D7%96%D7%A8/",
+      "raw_snippet": "טופס 1130 בתוך 90 יום מהגעה",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-shivat-zion-toshav-chozer",
+      "claim": "Shivat Zion publishes an English-language overview of the Toshav Chozer status",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
+      "raw_snippet": "Toshav Chozer (Returning Resident) Overview",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-shivat-zion-acclimatization",
+      "claim": "Shivat Zion publishes an Acclimatization Year explainer",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784",
+      "raw_snippet": "Acclimatization Year",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-shivat-zion-returning-israelis-hub",
+      "claim": "Shivat Zion maintains a returning-Israelis knowledge-base root organized by category",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
+      "raw_snippet": "Aliyah Tips, Book an Appointment, Education, Emergency, Employment, Finances, First Steps in Israel, Government Offices, Health and Medical, Housing and Community, Integration Rights, Military and National Service, Transportation",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
     }
   ]
 }

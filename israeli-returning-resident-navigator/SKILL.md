@@ -64,6 +64,7 @@ The script prints one paragraph per agency and links to the source page for each
 2. Outcome: a "תעודת תושב חוזר" certificate. The local Misrad HaAliyah office (find via gov.il branch finder) issues it after reviewing passport entry/exit stamps and Misrad HaPnim records.
 3. Phone the service center on \*2994 or 03-9733333 (Sun-Thu 8:00-18:00, languages: Hebrew, Russian, English, French, Spanish, Amharic). WhatsApp: https://wa.me/972733972114 .
 4. Windows that start the day the user returns to Israel: ministry assistance = 24 months; assured income (havtachat hachnasa) = 12 months; customs = 9 months (see sister customs skill).
+5. Benefit basket flagged by the certificate (eligibility per category is confirmed at the local Misrad HaAliyah office): reduced taxes on household-goods imports, business start-up assistance, income-tax benefits (handed off to the tax-planner skill), **Acclimatization Year ("שנת הסתגלות" / Shnat Histaglut)**, employment and professional retraining support, education and childcare assistance, and **discounted El Al airfares with expanded luggage allowance** for the qualifying return flight. The "Acclimatization Year" is a *tax-residency election* with its own deadline (Section 14(b) + Form 1130, must be filed within 90 days of arrival); for the tax mechanics route the user to `israeli-toshav-chozer-vatik-tax-planner`. The El Al benefit is booked through the airline's returning-resident channel before purchasing the flight, not retroactively.
 
 ### Step 3.5: Children born abroad, register at Misrad HaPnim first
 
@@ -182,6 +183,9 @@ None currently in the directory map cleanly to this domain. Misrad HaAliyah and 
 | Kol Zchut, Returning resident definition | https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8 |
 | Kol Zchut, BL contributions for returnees | https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D |
 | Kol Zchut, Joining kupat cholim as returnee | https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA |
+| Shivat Zion, Toshav Chozer overview (EN) | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer |
+| Shivat Zion, Acclimatization Year (EN) | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784 |
+| Shivat Zion, Returning Israelis knowledge base root | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 |
 
 ## Troubleshooting
 
