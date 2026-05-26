@@ -44,7 +44,7 @@ After clearance and Misrad HaRishui registration, the returnee may approach Mech
 
 Misrad HaTachbura imposes a hard 12-month bealut-transfer restriction on every vehicle cleared through personal import. Exact text from [gov.il, יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles): "מגבלת העברת בעלות... יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים". The restriction applies to all personal imports, not just returnees.
 
-A separate procedure (Nahal 416, "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") allows applying to remove the restriction earlier in justified cases.
+A separate procedure ("נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") allows applying to remove the restriction earlier in justified cases.
 
 The Meches side (purchase-tax / customs side) does NOT publish a separate hold period for returnee vehicles in addition to the Misrad HaTachbura 12 months, but anti-abuse provisions can apply if a returnee flips a vehicle right after clearance. Plan to keep the vehicle at least 12 months.
 
@@ -86,7 +86,7 @@ Shipping rarely makes sense when:
 ## Open questions and verify-at-answer-time
 
 - Exact green-tax adjustment for the specific make/model (gov.il personal_import_of_vehicles_guide chapter 3 publishes a table by pollution grade, ranging from a reduction for the cleanest grades to a surcharge for the most-polluting). Verify with a customs broker.
-- The 12-month bealut-transfer restriction is published by Misrad HaTachbura but may have specific exception cases (Nahal 416 procedure). Verify with broker if the returnee needs to transfer the vehicle inside 12 months.
+- The 12-month bealut-transfer restriction is published by Misrad HaTachbura but may have specific exception cases (נוהל הסרת הגבלת העברת בעלות procedure). Verify with broker if the returnee needs to transfer the vehicle inside 12 months.
 - Whether the operational "one vehicle per returnee" practice has been codified anywhere or remains broker custom.
 
 ## Citations

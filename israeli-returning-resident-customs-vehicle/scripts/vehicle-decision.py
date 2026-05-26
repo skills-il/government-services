@@ -225,7 +225,7 @@ def print_worksheet(args):
     print("     refund at Meches with documentation; ask the broker.")
     print("  5. Misrad HaTachbura imposes a 12-month ownership-transfer restriction on")
     print("     personally-imported vehicles. Plan to keep the vehicle at least 12 months;")
-    print("     a separate procedure (Nahal 416) exists for removing the restriction early.")
+    print("     a separate procedure (bealut-removal application) exists for removing the restriction early.")
     print()
     print("=" * 72)
 

@@ -78,7 +78,7 @@ All sources at the gov.il customs guide for returning residents (updated 18.05.2
 ### If you sell the personally-imported vehicle quickly
 
 - Misrad HaTachbura imposes a 12-month bealut-transfer restriction on EVERY personally-imported vehicle, returnee or not (gov.il יבוא אישי של כלי רכב: "מגבלת העברת בעלות למשך 12 חודשים").
-- Nahal 416 is the early-release procedure for justified cases (job change, emigration, financial hardship). Apply via Misrad HaTachbura import unit, *4515.
+- the bealut-removal application is the early-release procedure (on gov.il page "יבוא אישי של כלי רכב") for justified cases (job change, emigration, financial hardship). Apply via Misrad HaTachbura import unit, *4515.
 - Practical guidance: plan to drive the vehicle for at least 12 months; document the personal use; engage the broker early if circumstances may require early sale.
 
 ### If you bring children separately

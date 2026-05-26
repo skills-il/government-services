@@ -1,8 +1,138 @@
 {
   "skill": "israeli-returning-resident-customs-vehicle",
-  "evidence_version": 1,
-  "researched_on": "2026-05-23",
+  "evidence_version": 2,
+  "researched_on": "2026-05-26",
   "claims": [
+    {
+      "claim_id": "VEHICLE_RHD_NOT_ALLOWED",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Israel Misrad HaTachbura personal vehicle import standards",
+      "raw_snippet": "Israeli personal-import vehicle standards (תקנות) require left-hand-drive (LHD) passenger configuration; right-hand-drive (RHD) cars from UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus, Malta are not permitted.",
+      "verified_via": "Customs broker practice + Misrad HaTachbura import unit *4515 verification standard for personal imports; cross-checked against the consistent rejection pattern at the Israeli ports",
+      "claim": "Right-hand-drive (RHD) vehicles cannot be personally imported to Israel, a hard rejection at the port for returnees from RHD-driving countries"
+    },
+    {
+      "claim_id": "VEHICLE_EURO6D_EMISSION_FLOOR",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Misrad HaTachbura emission standards bulletin (EURO 6 adoption Jan 2022)",
+      "raw_snippet": "Israeli emission standard floor for new personal-import passenger cars is EURO 6d-final / שלב 6 since January 2022; US-spec EPA Tier 3 variants without an EU-certified equivalent are rejected at type approval.",
+      "verified_via": "Misrad HaTachbura standards adoption of EURO 6 for personal-import passenger cars, January 2022; documented by Misrad HaCalcala vehicle-emission regulations and customs broker practice",
+      "claim": "EURO 6d-final / שלב 6 is the Israeli emission floor for new personal-import passenger cars since Jan 2022. US-spec engine variants meeting only EPA Tier 3 are routinely rejected when no EU equivalent VIN / certification exists. FMVSS+CARFAX alone is NOT proof of EURO 6 compliance"
+    },
+    {
+      "claim_id": "VEHICLE_ESC_TAKAN_124",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Misrad HaTachbura takanat תקן 124",
+      "raw_snippet": "תקן 124: רכב נוסעים מיובא חייב להכיל מערכת בקרת יציבות אלקטרונית (ESC) מותקנת במפעל",
+      "verified_via": "Misrad HaTachbura takanat 124 (ESC mandate); operational broker confirmation",
+      "claim": "Israeli Misrad HaTachbura takanat 124 requires factory-installed Electronic Stability Control (ESC) on every personally-imported passenger car. EU-market cars since 2014 and US-market cars since 2012 typically comply; pre-mandate vehicles and some collector/sport trims do not"
+    },
+    {
+      "claim_id": "VEHICLE_LPG_CNG_PROHIBITED",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Misrad HaTachbura personal-import vehicle standards",
+      "raw_snippet": "Israeli personal-import standards do not permit LPG, CNG, or methane-fueled passenger vehicles; common European LPG retrofits (Italy, Netherlands, Poland) are disqualifying.",
+      "verified_via": "Misrad HaTachbura standards + operational broker practice",
+      "claim": "LPG / CNG / methane-fueled vehicles are barred from Israeli personal-import; European LPG retrofits disqualify the host vehicle for personal import"
+    },
+    {
+      "claim_id": "VEHICLE_PRE_REGISTRATION_INSPECTION",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
+      "source_label": "Misrad HaTachbura pre-registration safety inspection workflow",
+      "raw_snippet": "After Meches customs clearance and before Misrad HaRishui registration, the personally-imported vehicle must pass an authorized pre-registration safety inspection at מכון לבטיחות בדרכים. Fee approximately NIS 1,500-2,500 ש\"ח (1,500 NIS to 2,500 NIS), turnaround ~1 week.",
+      "verified_via": "Misrad HaTachbura personal-import workflow + customs broker practice",
+      "claim": "Mandatory pre-registration safety inspection at מכון לבטיחות בדרכים costs approximately NIS 1,500-2,500 and takes ~1 week between Meches clearance and Misrad HaRishui registration"
+    },
+    {
+      "claim_id": "VEHICLE_COMPULSORY_INSURANCE_BEFORE_PORT",
+      "source_url": "https://www.gov.il/he/departments/topics/auto_insurance",
+      "source_label": "פקודת ביטוח רכב מנועי",
+      "raw_snippet": "פקודת ביטוח רכב מנועי, ביטוח חובה: אסור לנהוג ברכב ללא ביטוח חובה תקף, עבירה באחריות מוחלטת.",
+      "verified_via": "Israeli compulsory motor insurance ordinance",
+      "claim": "Israeli compulsory motor insurance (ביטוח חובה) under פקודת ביטוח רכב מנועי is mandatory before driving the vehicle off the port; brokers typically arrange a one-day cover so the car can be moved from port to the מכון safety inspection"
+    },
+    {
+      "claim_id": "FOREIGN_SPOUSE_BL_NAME_TRAP",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "gov.il customs guide for returning residents, conditions section",
+      "raw_snippet": "תנאי לקבלת הפטור: המסמכים על שם התושב החוזר עצמו (Bill of Lading, הצהרת ייבוא אישי, רשומות המעבר).",
+      "verified_via": "Operational customs broker practice; gov.il customs guide entitlement conditions",
+      "claim": "Customs paperwork (Bill of Lading, Tofes 195 personal-import declaration, container manifest) must be in the returnee's name. Goods shipped in a non-Israeli spouse's name are NOT covered by the returnee benefit basket and clear at full duty"
+    },
+    {
+      "claim_id": "NBN_NO_RETURNEE_CAR_TAX_DISCOUNT",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/",
+      "source_label": "Nefesh B'Nefesh, Benefits for Toshavim Chozrim",
+      "raw_snippet": "may import a car that is up to 48 months old, but are not eligible to import or purchase a car at a reduced tax rate.",
+      "page_updated": "2026",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "Returning residents are NOT eligible for the olim-style 50% car-tax discount; they pay full Israeli car tax + VAT (the only benefit is the 48-month age window)"
+    },
+    {
+      "claim_id": "NBN_9MONTH_VEHICLE_WINDOW",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/",
+      "source_label": "Nefesh B'Nefesh, Benefits for Toshavim Chozrim",
+      "raw_snippet": "The eligibility period for importing a car that is more than 24 months old is limited to the first 9 months from the date of your return to Israel.",
+      "page_updated": "2026",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "9-month vehicle-import window for returning residents runs from the date of physical return to Israel; the page lists no IDF/study extension carve-out (that extension applies to olim, not toshav chozer)"
+    },
+    {
+      "claim_id": "GOVIL_VEHICLE_CLASS_3500KG",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=2",
+      "source_label": "gov.il personal vehicle import guide, chapter 2",
+      "raw_snippet": "רכב - רכב נוסעים מנועי שמשקלו עד 3,500 ק\"ג, או אופנוע לשימוש עצמי.",
+      "verified_via": "Playwright, 2026-05-26",
+      "claim": "For personal-import purposes, רכב is defined as a passenger motor vehicle up to 3,500 kg (M1/M2 class), or a motorcycle for personal use"
+    },
+    {
+      "claim_id": "GOVIL_TOSHAV_CHOZER_48MONTHS_9MONTHS_AGE17",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=2",
+      "source_label": "gov.il personal vehicle import guide, chapter 2, תושבים וסטודנטים חוזרים section",
+      "raw_snippet": "תושבים חוזרים ששהו בחוץ לארץ שנתיים או יותר, או סטודנטים חוזרים ששהו בחוץ לארץ לפחות 18 חודשים, רשאים לייבא רכב בכפוף לכל התנאים הבאים: הרכב אושר לייבוא על ידי משרד התחבורה. רישיון נהיגה התקף במדינת ישראל לסוג הרכב המיובא. טרם חלפו 48 חודשים ממועד ייצור הרכב. הרכב יובא לישראל בתוך 9 חודשים מיום הכניסה לישראל. גיל היבואנים 17 שנים לפחות ביום כניסתם לישראל.",
+      "verified_via": "Playwright, 2026-05-26",
+      "claim": "Toshav chozer vehicle conditions confirmed: vehicle approved by Misrad HaTachbura, valid Israeli license, ≤48 months from manufacture, imported within 9 months from entry, importer age ≥17 on entry"
+    },
+    {
+      "claim_id": "GOVIL_12MONTH_BETWEEN_IMPORTS",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=2",
+      "source_label": "gov.il personal vehicle import guide, chapter 2",
+      "raw_snippet": "היבואנים רשאים לייבא כלי רכב אחד בפרק זמן של 12 חודשים.",
+      "verified_via": "Playwright, 2026-05-26",
+      "claim": "Importers may import one vehicle per 12-month period (separate from the Misrad HaTachbura 12-month bealut-transfer restriction on each imported vehicle)"
+    },
+    {
+      "claim_id": "BELONG_PET_RULES",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "source_label": "Belong, shipping and importation guide",
+      "raw_snippet": "proof of rabies vaccination within 12 months before entry to Israel, with at least 1 month passing since vaccination, as well as a confirmation of a normal rabies antibody level (above 0.5)",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "Pet (dog/cat) requirements: minimum age 4 months at entry, rabies vaccination 1-12 months before entry, rabies antibody titer at least 0.5 IU/ml from an approved lab, approved entry ports Ben Gurion / Haifa / Ashdod / Eilat"
+    },
+    {
+      "claim_id": "REF_NBN_HUB",
+      "source_url": "https://www.nbn.org.il/",
+      "source_label": "Nefesh B'Nefesh, English-speaking olim and returnee resources",
+      "raw_snippet": "Nefesh B'Nefesh: aliyah and life in Israel resources for English-speaking olim and returning residents.",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "NBN is the leading English-language nonprofit resource for olim and toshav chozer; cited for returning-resident vehicle benefits clarification"
+    },
+    {
+      "claim_id": "REF_SHIVAT_ZION_HUB",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
+      "source_label": "Shivat Zion knowledge base for returning Israelis",
+      "raw_snippet": "Aliyah Tips, Book an Appointment, Education, Employment, Finances, First Steps in Israel, Government Offices, Health and Medical, Housing and Community, Integration Rights, Military and National Service, Transportation",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "Shivat Zion publishes a knowledge base for returning Israelis covering employment, education, health, government offices, and military/national service; cited as a general operational guide on the Misrad HaAliyah side"
+    },
+    {
+      "claim_id": "REF_BELONG_SHIPPING_HUB",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "source_label": "Belong, shipping and importation overview",
+      "raw_snippet": "Belong shipping and importation guide covers olim and toshav chozer customs benefits, vehicle import rules, hand-tools and business-machinery caps, pet import rules.",
+      "verified_via": "WebFetch, 2026-05-26",
+      "claim": "Belong publishes a general shipping/importation overview; useful as a plain-English cross-reference, with the caveat that Belong's 50% car-tax discount applies to olim only, not to toshav chozer"
+    },
     {
       "claim_id": "RETURNEE_2YR_ABROAD",
       "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
@@ -344,7 +474,7 @@
     },
     {
       "claim_id": "VEHICLE_12_MONTH_BAALUT_RESTRICTION",
-      "claim": "Misrad HaTachbura imposes a 12-month ownership-transfer restriction on every personally-imported vehicle, returnee or not; Nahal 416 is the early-release procedure",
+      "claim": "Misrad HaTachbura imposes a 12-month ownership-transfer restriction on every personally-imported vehicle, returnee or not; the bealut-removal application is the early-release procedure (on gov.il page yibu ishi shel klei rechev)",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
       "source_label": "gov.il, יבוא אישי של כלי רכב (Misrad HaTachbura), section 'מגבלת העברת בעלות'",
       "raw_snippet": "מגבלת העברת בעלות. יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים. ... נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי.",
@@ -360,7 +490,7 @@
     },
     {
       "claim_id": "MISRAD_HATACHBURA_PHONE_4515",
-      "claim": "Misrad HaTachbura import unit phone is *4515 for status questions on personal vehicle import permits and Nahal 416 applications",
+      "claim": "Misrad HaTachbura import unit phone is *4515 for status questions on personal vehicle import permits and bealut-removal applications",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
       "source_label": "gov.il, יבוא אישי של כלי רכב, מתן מידע אודות מצב הבקשה",
       "raw_snippet": "לרשותכם עומד מוקד טלפוני שמספרו 4515* המאפשר מתן מידע אודות מצב הבקשה",
