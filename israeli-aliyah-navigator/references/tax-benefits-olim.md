@@ -159,7 +159,7 @@ Olim receive a reduced mas rechisha (purchase tax) rate on their first property 
 
 ## VAT Considerations
 
-- Standard VAT rate in Israel is 17%
+- Standard VAT rate in Israel is 18% (raised from 17% effective January 1, 2025)
 - Olim do NOT receive a general VAT exemption
 - Some specific programs may offer VAT reductions on first-purchase appliances (check current eligibility)
 - Imported personal belongings in the duty-free container are also exempt from VAT
