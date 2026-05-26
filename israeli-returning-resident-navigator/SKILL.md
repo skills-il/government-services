@@ -230,6 +230,7 @@ None currently in the directory map cleanly to this domain. Misrad HaAliyah and 
 | Shivat Zion, Acclimatization Year (EN) | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784 |
 | Shivat Zion, Returning Israelis knowledge base root | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 |
 | Belong, Toshav Chozer rights & benefits (EN, Feb 2024 / updated 2025) | https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/ |
+| Nefesh B'Nefesh, English-speaking olim and returnee resources | https://www.nbn.org.il/ |
 
 ## Troubleshooting
 

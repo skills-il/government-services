@@ -213,6 +213,7 @@ python3 scripts/check-eligibility.py \
 | שיבת ציון, שנת הסתגלות (אנגלית) | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784 |
 | שיבת ציון, מאגר ידע לישראלים חוזרים | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 |
 | Belong, זכויות והטבות לתושב חוזר (אנגלית, פברואר 2024 / עודכן 2025) | https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/ |
+| נפש בנפש, משאבים לעולים וחוזרים דוברי אנגלית | https://www.nbn.org.il/ |
 
 ## פתרון בעיות
 

@@ -4,6 +4,14 @@
   "generated_at": "2026-05-26",
   "claims": [
     {
+      "claim_id": "ref-link-nbn-hub",
+      "claim": "Nefesh B'Nefesh is the leading nonprofit for English-speaking olim and returnees, with plain-English resources on returning-resident rights, vehicle import, kupat cholim, banking, license conversion",
+      "source_url": "https://www.nbn.org.il/",
+      "raw_snippet": "Nefesh B'Nefesh: aliyah and life in Israel resources for English-speaking olim and returning residents.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
       "claim": "Misrad HaAliyah V'HaKlita definition of returning resident requires 2+ years abroad, Israeli citizen aged 17+, visits to Israel no more than 4 months in any year during the last 2 years before return.",
       "source_url": "https://www.gov.il/en/pages/returning_residents_whois",
       "raw_snippet": "A citizen of Israel. Age 17 and over at the time of return to Israel. Resident of Israel in the past. Residence abroad - residence abroad of at least two years. Visits to Israel, whether consecutive or cumulative, of no more than four months during each year of absence (during the last two years before return to Israel, or three years for entrepreneurs and five years for scientists). Updated date: 27.10.2024."
