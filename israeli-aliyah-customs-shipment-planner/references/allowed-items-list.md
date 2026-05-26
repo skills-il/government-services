@@ -26,7 +26,7 @@ Allowed but capped per family. A unit above the cap is over-limit.
 | Televisions | 3 | 4th TV pays duty + VAT + purchase tax |
 | Computers | 3 | 4th computer pays duty + VAT + purchase tax |
 | Cell phones | 5 | 6th phone pays full rates |
-| Carpeting | Up to 25% of the oleh's home area in Israel | Excess square meters pay full rates |
+| Carpeting | NBN publishes "up to 25% of the area of the Oleh's home in Israel" as the headline cap. Broker practice often quotes a tenure-aware split (higher allowance for owners; flat ~30 sqm for renters) but those finer numbers are not on the NBN page, so confirm with a licensed customs broker. | Excess square meters pay full rates |
 | Refrigerator | 1 | 2nd fridge pays full rates (no dairy/meat exemption) |
 | Oven | 1 | 2nd oven pays full rates |
 | Washing machine | 1 | 2nd washer pays full rates |
@@ -66,9 +66,10 @@ These items are outside the 3-shipment customs exemption and need a different re
 
 Vehicles have their own track, separate from the 3 shipment quota.
 
-- New car purchased in Israel or imported: reduced tax rate, available up to 3 years after aliyah, valid foreign license issued at least 3 months before aliyah required, valid for a new car or Passport-to-Passport purchase only.
-- Vehicle must remain in the oleh's possession for 5 years.
-- Do not plan a car as "shipment 1" or "shipment 3". It is a separate file with Meches.
+- New car purchased in Israel or imported: reduced tax rate (50% purchase tax vs the standard 83% per NBN, with 18% VAT on the car-value + tax base), available up to 3 years after aliyah, valid foreign license issued at least 3 months before aliyah required, valid for a new car or Passport-to-Passport purchase only.
+- 4-year resale restriction from the date of purchase. Selling within 4 years requires repaying the customs discount via the Meches CarTaxCompletion form; restriction lifts automatically after 4 years (NBN, NOT the older 5-year figure some skills carry).
+- The car may only be driven by the oleh and spouse by default. Children at the same address need annual Customs Authority permission to drive the car. EV cars have a separate national benefit (48% rate from Jan 2026, capped at NIS 22,000) that may be more favorable than the oleh discount on some EVs.
+- Do not plan a car as "shipment 1" or "shipment 3". It is a separate file with Meches; see sister skill `israeli-returning-resident-customs-vehicle`.
 
 ## Over-Limit Decision Guide
 
@@ -82,4 +83,4 @@ Do not try to relabel an over-limit item as "personal effects" to avoid the cap.
 
 ## Retention Rule Applies to All Exempt Items
 
-Every item in the Exempt columns above must stay in the oleh's possession for 6 years from the date of import, or depreciated tax must be paid to Meches. Cars are 5 years. Do not plan exempt imports for items you intend to resell or gift within the retention window.
+Every item in the Exempt columns above must stay in the oleh's possession for 6 years from the date of import, or depreciated tax must be paid to Meches. Cars are 4 years (resale restriction from date of purchase). Do not plan exempt imports for items you intend to resell or gift within the retention window.

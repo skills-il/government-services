@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-aliyah-customs-shipment-planner",
-  "generated_at": "2026-05-24T00:00:00Z",
+  "generated_at": "2026-05-26T00:00:00Z",
   "claims": [
     {
       "claim_id": "olim-3-shipments-3-years",
@@ -60,12 +60,132 @@
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
-      "claim_id": "olim-vehicle-5-year-hold",
-      "claim": "Vehicles imported under oleh benefits must be kept 5 years",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "Cars must be kept 5 years",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "claim_id": "olim-vehicle-4-year-resale-restriction",
+      "claim": "Vehicles purchased with oleh benefits carry a 4-year resale restriction from date of purchase: selling within 4 years requires repaying the customs discount via the Meches CarTaxCompletion form; restriction lifts automatically after 4 years",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
+      "raw_snippet": "If the Oleh or Olah wishes to sell the car within four years of the date of purchase, he or she will be obligated to pay back the amount of the reduction received at the time of purchase. The restriction will be automatically lifted after 4 years.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md", "scripts/plan_shipments.py"]
+    },
+    {
+      "claim_id": "olim-vehicle-50-percent-car-tax",
+      "claim": "Olim purchase tax on new vehicles is 50% of the car value (vs the standard 83% per NBN, or 92% per older Belong reporting), with 18% VAT applied to the car-value + car-tax base",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
+      "raw_snippet": "50% + VAT on all vehicles: ([car value + (car value *50%)] + [car value + (car value *50%)] *18% VAT) irrespective of engine size or car's country of origin. (For reference, without the benefit the tax is 83% +VAT).",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "olim-vehicle-3-year-window",
+      "claim": "Olim have 3 years from aliyah date to use the vehicle customs benefit; the car must arrive and clear customs (not just be purchased) before the end of the third year",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
+      "raw_snippet": "Olim are entitled to buy cars in Israel at a reduced tax rate, within three years after making Aliyah. The car must have arrived in Israel and cleared customs before the end of the third year.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "olim-hand-tools-1650-usd-cap",
+      "claim": "Professional hand tools imported under oleh benefits are capped at USD 1,650 total value; tools must be portable and for professional use",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "The total value of the tools...should not surpass $1,650 USD (as of 2024)",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "olim-business-machinery-36000-usd-cap",
+      "claim": "Business machinery / equipment imported under oleh benefits is capped at USD 36,000 total value (including the portable hand-tools cap of USD 1,650)",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "The total value of the equipment...must not exceed $36,000 (USD)",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "olim-pet-import-rules",
+      "claim": "Pet (dog/cat) import for olim requires: minimum age 4 months, rabies vaccination administered within 12 months before entry AND at least 1 month before entry, rabies antibody titer of at least 0.5 IU/ml from an approved laboratory; approved entry ports are Ben Gurion, Haifa, Ashdod, and Eilat",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "proof of rabies vaccination within 12 months before entry to Israel, with at least 1 month passing since vaccination, as well as a confirmation of a normal rabies antibody level (above 0.5)",
+      "fetched_at": "2026-05-26T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-extension-military-study-5-year-ceiling",
+      "claim": "The 3-year customs window can be extended for IDF service (clock pauses during service) and full-time study (+1 year from end of studies), with an overall 5-year ceiling on the eligibility period (longer for medicine and law)",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "IDF service: time frozen during duty. Full-time studies: +1 year upon completion; maximum 5-year study period (longer for medicine/law). The eligibility period extends by 1 year from the end of their studies.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-postal-clothing-window",
+      "claim": "Postal clothing shipments to an oleh can be sent within 30 days before entry, on the day of entry as accompanying luggage, or within 3 months after entry; this is a separate sub-allowance from the main 3-shipment quota",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "within 30 days before your entry, on the day of your entry as accompanying luggage, or within 3 months after your entry",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-perfume-250ml-gifts-200-usd",
+      "claim": "Hand-luggage sub-caps for olim entering Israel: perfume up to 250 ml (1/4 liter) per person; items for personal use or as gifts up to USD 200 per entrant",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "Up to 1/4 liter (250 ml/8.45 fl. oz.) is permitted per person. Items for personal use or as gifts, valued at under $200 USD per entrant.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-carpet-25-percent-nbn",
+      "claim": "NBN states the carpet allowance is up to 25% of the area of the Oleh's home in Israel; the more detailed tenure-aware split (70% wall-to-wall for owners, area-rugs alternative, ~30 sqm flat for renters) is conventional broker practice and should be confirmed with a licensed customs broker rather than treated as NBN-published",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Carpeting for up to 25% of the area of the Oleh's home in Israel.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "olim-ev-48-percent-22000-nis-cap-2026",
+      "claim": "Electric vehicle (EV) purchase-tax benefit is set at 48% from Jan 1 2026 (capped at NIS 22,000); this is a separate national benefit available to all Israelis, and may sometimes be more favorable than the 50% oleh discount on EVs",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
+      "raw_snippet": "the final decision set the rate at 48%. As a result, the standard electric vehicle tax benefit may still be more favorable than the Oleh vehicle benefit (50% tax) in some cases. However, since the electric vehicle benefit is now capped at 22,000 NIS",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["references/allowed-items-list.md"]
+    },
+    {
+      "claim_id": "ref-link-nbn-rights-hub",
+      "claim": "Nefesh B'Nefesh maintains a comprehensive rights and benefits hub for English-speaking olim covering banking, tax, license conversion, customs, and vehicle benefits",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/",
+      "raw_snippet": "Rights and Benefits hub: customs, banking, tax, license conversion, vehicle import.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-meches-israel-tax-authority",
+      "claim": "Israel Tax Authority (Meches) is the official customs authority; the Taarif HaMeches tariff database governs duty rates on over-limit imports",
+      "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+      "raw_snippet": "Israel Tax Authority (Meches) and the Taarif HaMeches tariff database.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita-customs",
+      "claim": "Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) issues the Teudat Oleh which gates customs benefits",
+      "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "Ministry of Aliyah and Integration issues Teudat Oleh.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-link-kolzchut-customs",
+      "claim": "Kol-Zchut is the community-maintained Hebrew and English rights portal with up-to-date olim customs pages",
+      "source_url": "https://www.kolzchut.org.il",
+      "raw_snippet": "Kol-Zchut community rights portal.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "olim-quantity-caps-3-tvs-3-pcs-1-of-each-belong",
+      "claim": "Belong (toshav chozer rights basket and shipping-importation pages) authoritatively documents: up to 3 televisions and 3 personal computers per family, plus 1 item per category for other appliances/furniture; these caps are now treated as confirmed rather than over-hedged",
+      "source_url": "https://belong.co.il/living/shipping-importation/",
+      "raw_snippet": "eligible families can bring a maximum of 3 television sets and 3 personal computers. For other electronic devices, appliances, and major furniture pieces, eligible families may import 1 item per category.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
     },
     {
       "claim_id": "red-customs-lane",

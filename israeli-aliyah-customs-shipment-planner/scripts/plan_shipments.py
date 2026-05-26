@@ -52,19 +52,25 @@ from pathlib import Path
 # Per-family caps. "cap" = count at/below which the item is treated as within
 # the family allowance; above it the item is over-limit. "verify_at" = count
 # at/above which the item is flagged "verify with a customs broker" because
-# sources disagree on whether it is genuinely duty-free (e.g. the 3rd computer).
-# Set verify_at == cap + 1 (i.e. above the cap) to disable the soft-verify flag.
+# sources disagree on whether it is genuinely duty-free.
+# As of v1.2.0, Belong (https://belong.co.il/living/shipping-importation/) is
+# treated as authoritative on 3 TVs / 3 computers / 1-of-each-appliance. The
+# old over-hedging that flagged the 3rd computer as "verify" was removed.
+# Set verify_at = cap + 1 (one above the cap) to disable the soft-verify flag.
+# Note: air_conditioner cap=1 here is a placeholder; the real rule is per-room
+# (1 AC per room, plus 1 for living area), so the assistant should pass an
+# n_rooms hint or override this cap based on the family's home layout.
 PER_FAMILY_CAPS = {
     "television": {"cap": 3, "verify_at": 4},
-    "computer": {"cap": 3, "verify_at": 3},
-    "cell_phone": {"cap": 5, "verify_at": 5},
+    "computer": {"cap": 3, "verify_at": 4},
+    "cell_phone": {"cap": 5, "verify_at": 6},
     "refrigerator": {"cap": 1, "verify_at": 2},
     "oven": {"cap": 1, "verify_at": 2},
     "washing_machine": {"cap": 1, "verify_at": 2},
     "clothes_dryer": {"cap": 1, "verify_at": 2},
     "microwave": {"cap": 1, "verify_at": 2},
     "dishwasher": {"cap": 1, "verify_at": 2},
-    "air_conditioner": {"cap": 1, "verify_at": 2},
+    "air_conditioner": {"cap": 1, "verify_at": 2},  # placeholder; real rule is per-room
     "other_appliance": {"cap": 1, "verify_at": 2},  # one of each type - user must split into distinct types
 }
 
@@ -80,9 +86,12 @@ RESTRICTED = {"restricted"}
 def carpet_allowance(home_area_sqm, home_tenure):
     """Return (allowed_sqm, description) for carpeting based on home tenure.
 
-    Owners: up to ~70% of floor area as wall-to-wall, OR 25% as area rugs.
-    The script uses the more generous 70% figure as the ceiling but says so.
-    Renters: a flat ~30 sqm allowance regardless of home size.
+    NBN's published headline rule is "up to 25% of the area of the Oleh's home".
+    Customs-broker practice often distinguishes between owners (claimed up to
+    ~70% wall-to-wall) and renters (a flat ~30 sqm), but those finer numbers
+    are NOT on the NBN page and should be confirmed with a licensed broker
+    before relying on them. The script keeps the broker-practice split as a
+    pragmatic planning aid and labels it as broker-practice in the description.
     """
     if home_tenure == "own":
         allowed = home_area_sqm * 0.70
@@ -144,7 +153,7 @@ def classify(items, home_area_sqm, home_tenure):
             entry["note"] = "not covered by aliyah exemption; clear as ordinary import"
         elif category in SEPARATE_TRACK:
             entry["flag"] = "vehicle"
-            entry["note"] = "vehicle benefit is a separate track with its own 3-year window and 5-year retention"
+            entry["note"] = "vehicle benefit is a separate track with its own 3-year window and 4-year resale restriction"
         elif category in RESTRICTED:
             entry["flag"] = "restricted"
             entry["note"] = "needs separate permit (firearms/plants/medication/drones/food)"
@@ -288,7 +297,7 @@ def main():
         "verify_summary": verify,
         "declarations": declarations,
         "caps_note": "Numeric caps (computers, cell phones) are reported differently by different sources. Items flagged 'verify' sit at a disputed cap - confirm duty-free status with a licensed customs broker before shipping.",
-        "retention_note": "All exempt items must remain in the oleh's household for 6 years from import (5 years for vehicles) or depreciated tax is owed to Meches.",
+        "retention_note": "All exempt items must remain in the oleh's household for 6 years from import (4-year resale restriction for vehicles from date of purchase) or depreciated tax is owed to Meches.",
     }
 
     print(json.dumps(result, ensure_ascii=False, indent=2))
