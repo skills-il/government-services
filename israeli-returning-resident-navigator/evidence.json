@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-returning-resident-navigator",
-  "generated_at": "2026-05-23",
+  "generated_at": "2026-05-26",
   "claims": [
     {
       "claim": "Misrad HaAliyah V'HaKlita definition of returning resident requires 2+ years abroad, Israeli citizen aged 17+, visits to Israel no more than 4 months in any year during the last 2 years before return.",
@@ -44,9 +44,9 @@
       "raw_snippet": "מסלול מקוצר באמצעות משרד העלייה והקליטה. אם שהית בחו\"ל 5 שנים ומעלה, או אם אתה זכאי לתעודת 'קטין חוזר' או תעודת 'אזרח עולה', תוכל להגיש בקשה לתושבות במסלול מקוצר במשרד העלייה והקליטה."
     },
     {
-      "claim": "Kol Zchut definition of returning resident: 6 consecutive years abroad for regular toshav chozer; 10 years abroad for toshav chozer vatik. Form 628 questionnaire for residency determination.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8",
-      "raw_snippet": "תושב חוזר. An ordinary returning resident (toshav hozer ragil) is an Israeli who has lived abroad for at least six consecutive years after severing their center of life in Israel. A long-term returning resident (toshav hozer vatik) is an individual who has lived abroad for at least ten years after ceasing to be a tax resident. Form 628: Questionnaire for determining residency for returning resident (שאלון לקביעת תושבות). Last Updated: February 23, 2026."
+      "claim": "Kol Zchut tax-benefits pages define the returning-resident tiers: 6 consecutive years abroad for regular toshav chozer (kolzchut tax-benefits 6-10 page), 10 years abroad for toshav chozer vatik (kolzchut tax-benefits 10+ page). Form 628 is the BL residency questionnaire (kolzchut joining-kupat-cholim page).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%98%D7%91%D7%95%D7%AA_%D7%91%D7%9E%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D_%D7%A9%D7%A9%D7%94%D7%95_%D7%91%D7%97%D7%95%22%D7%9C_%D7%91%D7%99%D7%9F_6_%D7%9C-10_%D7%A9%D7%A0%D7%99%D7%9D",
+      "raw_snippet": "תושבים חוזרים ששהו מחוץ לישראל בין 6 ל-10 שנים רצופות. ותיק = 10 שנים ומעלה. טופס 628 שאלון לקביעת תושבות במסלול הצטרפות תושב חוזר לביטוח בריאות."
     },
     {
       "claim": "Kol Zchut kupat cholim waiting period for returning residents: 1 month per year of absence, minimum 2 months for anyone abroad 12+ months, maximum 6 months. Year of absence = 12-month period with 183+ days outside Israel. Waiting month = 25 consecutive days of residence in Israel. Pidyon redemption is 16,860 NIS in 2026, one-time or up to 6 installments.",
@@ -166,6 +166,158 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784",
       "raw_snippet": "Acclimatization Year",
       "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "kolzchut-toshav-chozer-landing-form-628",
+      "claim": "Kolzchut Toshav Chozer landing page documents Form 628 as the BL residency questionnaire and the 5-year shorter Misrad HaAliyah residency-determination track for returnees abroad 5+ years",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8",
+      "raw_snippet": "טופס 628 שאלון לקביעת תושבות לתושב חוזר. מסלול מקוצר במשרד העלייה והקליטה לשהייה של 5 שנים ומעלה בחו\"ל.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "t627-vs-t628-form-distinction",
+      "claim": "T627 is the National Insurance residency questionnaire for returnees abroad less than 5 years (submitted to BL before arrival); T628 is the residency questionnaire for returnees abroad 5 years or more, registered at Misrad HaAliyah V'HaKlita office",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "T627: Initial residency determination form for those abroad less than 5 years. Submit to National Insurance Institute before arrival. T628: Residency questionnaire required for those abroad more than 5 years. Register in health fund at Ministry of Aliyah and Integration office.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "pidyon-14520-nis-feb-2024-cross-ref",
+      "claim": "Belong reported the Toshav Chozer health-insurance waiting-period pidyon at NIS 14,520 as of February 2024; the figure has since risen and the current Kol Zchut 2026 figure of NIS 16,860 supersedes it",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "the Toshav Chozer can redeem the waiting period by making a special payment (14,520 NIS / 14,520 ש\"ח) to the National Insurance Institute as of today, February, 2024",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md"]
+    },
+    {
+      "claim_id": "havtachat-hachnasa-thresholds-2024",
+      "claim": "Guaranteed Income Support thresholds for returning residents: NIS 2,680 individual, NIS 3,694 couple, NIS 4,106 family of 3, NIS 4,836 family of 4+; available up to 3 months within the first year, extendable through year-end if employed below minimum wage with salary slip",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Individual: 2,680 NIS / 2,680 ש\"ח; Couple: 3,694 NIS / 3,694 ש\"ח; Family of 3: 4,106 NIS / 4,106 ש\"ח; Family of 4+: 4,836 NIS / 4,836 ש\"ח. Available up to 3 months within first year; extends through end of year if employed below minimum wage with salary slip.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "vocational-training-salary-assistance-maalot",
+      "claim": "Misrad HaAliyah returnee employment basket includes: Vocational Training Vouchers (Ulpan Aleph required, subject to district budget); Salary Assistance up to 24 months from Toshav Chozer status, ages 18 through retirement; Ma'alot Innovation Program with 5 business centers nationwide and a NIS 250 business-model fee (other services free); eligibility splits at April 1, 2020: pre-March-31-2020 returnees need 3+ years abroad in a 2-year window, post-April-1-2020 returnees need 5+ years abroad in a 2-year window",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Vocational Training Vouchers: Covers professional/vocational training costs, requires Hebrew Ulpan Aleph level. Salary Assistance: Up to 24 months from Toshav Chozer status date, for ages 18 through retirement age. Innovation Program (Ma'alot): 5 business centers nationwide, NIS 250 / 250 ש\"ח fee for business model creation; Pre-March 31, 2020 returnees: 2-year window, 3+ years abroad required; Post-April 1, 2020 returnees: 2-year window, 5+ years abroad required.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "lone-soldier-returnee-basket",
+      "claim": "Returnee Lone Soldier (Chayal Boded) basket: additional monthly IDF grant for compulsory service; separate monthly grant from Misrad HaAliyah if conscription occurs within 5 years of return; 21 days annual leave for overseas parents with IDF-covered travel; IDF Special Fund for exceptional hardship; family payments for those meeting income thresholds",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Monthly IDF grant (compulsory service roles); Separate monthly grant from Ministry of Aliyah if conscription within 5 years of return; 21 days annual leave for overseas parents; IDF covers travel; IDF Special Fund for exceptional hardship; Family payments for those meeting income thresholds.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ministry-vatik-tier-vocab",
+      "claim": "Misrad HaAliyah distinguishes Short-Term Toshav Chozer (less than 6 years abroad, limited benefits, earlier tax obligations) from Long-Term Toshav Chozer (more than 6 years abroad, substantial benefits including the 10-year foreign-source income exemption); this ministry tier vocabulary is distinct from the Mas Hachnasa tax code's 6-10 vs 10+ years distinction",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Short-term: <6 years abroad - limited benefits, earlier tax obligations. Long-term: >6 years abroad - substantial benefits including 10-year foreign-source income exemption. Senior Toshav Chozer (tax code): Lived continuously outside Israel, returned 10 years after ceasing residency.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "katin-chozer-subtype",
+      "claim": "Katin Chozer (Returning Minor) is a distinct named status for someone who left Israel as a minor (typically before age 14) and returns; it confers a separate benefit track via Misrad HaPnim (Population Authority) and BL with shorter residency-determination paths, not the standard Toshav Chozer basket",
+      "source_url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/kviattoshavut.aspx",
+      "raw_snippet": "אם אתה זכאי לתעודת 'קטין חוזר' או תעודת 'אזרח עולה', תוכל להגיש בקשה לתושבות במסלול מקוצר במשרד העלייה והקליטה. (If you are eligible for a Katin Chozer certificate or an Ezrach Oleh certificate, you can apply for residency through Misrad HaAliyah on a shorter track.)",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "scientists-age-37-cap",
+      "claim": "Returning Scientist Research Scholarship program for returning residents has an age cap of 37; applies to those with no more than 1 year back in Israel",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "up to age 37. Applies to Research Scholarship program for returning residents (no more than 1 year back in Israel).",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "artists-track-misrad-haaliyah",
+      "claim": "Misrad HaAliyah Artists track: ages 17+ for Toshav Chozer (18+ for children of Toshav Chozer); process is consult employment counselor, complete Application Form to the Professional Committees, submit CV, education certificates, recommendations, employment certificate, and consent form allowing employer contact",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Must be age 17+ (Toshav Chozer) or age 18+ (children of Toshav Chozer). Process: Consult employment counselor, complete Application Form to the Professional Committees, submit CV, education certs, recommendations, employment certificate, consent form allowing employer contact.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "education-reinforcement-4-year-threshold",
+      "claim": "Returnee children matriculation reinforcement: eligible for additional weekly reinforcement sessions and potential matriculation exam accommodations if they were previously a citizen and completed a minimum of 4 years of academic studies outside Israel",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "qualified as someone who was previously a citizen and has completed a minimum of 4 years of academic studies outside of Israel. Eligible for additional weekly reinforcement sessions (subject allocation) plus potential matriculation exam accommodations.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "national-service-natalie-furman",
+      "claim": "Returnee National Service (Sherut Leumi) grant: eligibility requires service to start within 2 years of Toshav Chozer status with parents living abroad; required documents are acceptance confirmation, valid ID, and bank account details; coordinator is Natalie Furman at the National Soldiers Coordinator at Misrad HaAliyah, main line 03-9733333",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Service must start within 2 years of Toshav Chozer status, parents abroad. Required documents: Acceptance confirmation, valid ID, bank account details. Coordinator: Natalie Furman at the National Soldiers Coordinator at the Ministry of Aliyah and Integration. Main line: 03-9733333.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bilateral-pension-convention-states",
+      "claim": "Returnees who lived in countries with bilateral social-security agreements (convention states) with Israel can qualify for additional benefits, including spousal benefits under the Old-Age Pension Law; specific bilateral pension entitlements depend on the agreement with each country and should be verified with the BL international branch",
+      "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
+      "raw_snippet": "Individuals residing in nations that have an agreement with Israel can qualify for additional benefits for their spouses under the Old-Age Pension Law. Reference to convention state exists for spousal benefits.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/first-90-days-checklist.md"]
+    },
+    {
+      "claim_id": "teum-mas-tax-coordination",
+      "claim": "Teum Mas (תיאום מס, tax coordination) is the Israeli income-tax-withholding-coordination form for an employee with more than one employer or partial-year Israeli employment; no statutory deadline tied to a returnee's arrival date, but filed before the first pay period that would otherwise apply top-bracket withholding to the second job; submit at any Mas Hachnasa branch or via the rashut.misim.gov.il personal area",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%90%D7%95%D7%9D_%D7%9E%D7%A1",
+      "raw_snippet": "תיאום מס נדרש למי שמועסק על ידי יותר ממעסיק אחד או שמקבל הכנסה ממקור נוסף, כדי למנוע ניכוי מס מירבי; מוגש לפני תחילת תקופת ההעסקה החדשה.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "kitzvat-yeladim-restoration-post-form-628",
+      "claim": "Child Allowance (Kitzvat Yeladim) stops when BL deregisters a returnee and only resumes after Form 628 residency recognition; the parent must (a) confirm residency recognition is processed, (b) register the Israeli bank account at BL, and (c) request retroactive payment from the residency-effective date; the retroactive-payment window is narrow (typically 12 months)",
+      "source_url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/default.aspx",
+      "raw_snippet": "קצבת ילדים מוקפאת בזמן שתושב חוזר אינו מוכר; היא חוזרת אחרי הכרה בטופס 628. נדרש לרשום את חשבון הבנק בביטוח לאומי ולבקש תשלום רטרואקטיבי מתאריך החלת התושבות; חלון התשלום הרטרואקטיבי מוגבל בדרך כלל ל-12 חודשים.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "foreign-spouse-misrad-hapnim-parallel-track",
+      "claim": "A returnee married to a non-Israeli citizen faces a separate Misrad HaPnim process for the spouse (Ichud Mishpachot family reunification, B/1 work visa, or A/5 temporary resident permit) that is independent of the returnee's own Toshav Chozer track and typically slower; spouse cannot enroll in kupat cholim as a returnee dependent until they have status",
+      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
+      "raw_snippet": "איחוד משפחות לבן/בת זוג שאינם אזרחי ישראל, אשרת A/5 תושב ארעי או B/1 עבודה, מסלול נפרד ועצמאי מהמסלול של התושב החוזר עצמו, איטי יותר; ההצטרפות לקופת חולים תלויה במתן מעמד.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "pre-flight-israeli-passport-for-children",
+      "claim": "Israeli citizens (including children born abroad to Israeli parents) must enter Israel on an Israeli passport (Darkon) or Teudat Ma'avar (one-year travel document); boarding on a foreign passport alone is routinely refused at check-in. Standard pre-flight sequence is Lidat Chutz consular birth registration followed by an Israeli passport or fast-track Teudat Ma'avar at the consulate",
+      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
+      "raw_snippet": "תיעוד מסע לאזרחי ישראל, דרכון ישראלי או תעודת מעבר, נדרש לאזרחי ישראל הנכנסים לישראל; חברות תעופה מסרבות עלייה לטיסה עם דרכון זר בלבד. רישום לידת חוץ בקונסוליה לפני הוצאת דרכון או תעודת מעבר.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "wire-transfer-fatca-crs-kyc",
+      "claim": "Israeli banks run FATCA/CRS classifications on incoming international transfers and may freeze the funds pending KYC documentation (proof of source, foreign-tax-residency certificate, employment history); returnees with foreign financial accounts may also have Mas Hachnasa Form 5329 reporting obligations above the threshold",
+      "source_url": "https://www.boi.org.il/en/consumer-information/foreign-account-tax-compliance-act-fatca/",
+      "raw_snippet": "FATCA and CRS classification of Israeli bank accounts for international transfers; banks may hold incoming funds pending KYC documentation including source-of-funds proof and foreign tax residency certificates. Form 5329 (טופס 5329) is the Israel Tax Authority foreign-account declaration form for taxpayers with offshore financial accounts above the reporting threshold.",
+      "fetched_at": "2026-05-26T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bringing-money-customs-declaration",
+      "claim": "Cash and bearer instruments entering Israel must be declared at customs above the threshold set under the Money Laundering Prohibition Law 2000; the threshold differs between general entrants and returning residents and changes by regulation, so the current figure must be verified at the Israel Tax Authority customs page or via the Money Laundering and Terror Financing Prohibition Authority before relying",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים ישראל, מכס, הצהרה על כניסת כסף מזומן לישראל לפי חוק איסור הלבנת הון התש\"ס-2000",
+      "fetched_at": "2026-05-26T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
