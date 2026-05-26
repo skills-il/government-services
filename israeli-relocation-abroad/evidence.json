@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "skill_slug": "israeli-relocation-abroad",
+  "generated_on": "2026-05-26",
+  "claims": [
+    {
+      "id": "days-test-183",
+      "claim": "Israeli tax residency is presumed if the individual spends 183 or more days in Israel during the tax year.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
+      "raw_snippet": "An individual is presumed to be an Israeli resident if 183 days or more are spent in Israel during the tax year",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "days-test-30-425",
+      "claim": "Israeli tax residency is also presumed if the individual spends 30 or more days in Israel during the tax year AND 425 or more days total in that year combined with the two preceding years.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
+      "raw_snippet": "30 days or more in the tax year and 425 days or more in that year and the two preceding years",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "center-of-life-test",
+      "claim": "Even if the days test is met or failed, the Tax Authority applies a center-of-life test examining family, home, work, social ties, and economic interests to determine actual residency.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
+      "raw_snippet": "center of life test",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "form-1348-purpose",
+      "claim": "Form 1348 is the Israeli Declaration of Cessation of Residency, filed with the annual return (Form 1301) when an individual claims their center of life is abroad despite meeting the days test.",
+      "source_url": "https://www.gov.il/blobFolder/service/annual-tax-report/he/Service_Pages_Income_tax_itc1348_18.pdf",
+      "raw_snippet": "הצהרת ניתוק תושבות / Declaration of Cessation of Residency, Form 1348",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "section-100a-deemed-sale",
+      "claim": "Section 100A of the Income Tax Ordinance treats all of a person's worldwide assets as deemed sold one day before residency severance, subjecting unrealized gains to capital gains tax.",
+      "source_url": "https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat",
+      "raw_snippet": "Section 100A treats all worldwide assets as if they were sold one day before the day residency was severed",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "section-100a-rate-25-substantial",
+      "claim": "Section 100A applies the 25% individual capital-gains rate for regular shareholders, 30% for substantial shareholders (10%+ ownership), and the 23% corporate rate for company-held assets.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/income-determination",
+      "raw_snippet": "Capital gains are taxed at 25% for individuals, increased to 30% for substantial shareholders (10% or greater holding)",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "section-100a-deferral-option",
+      "claim": "The default option under Section 100A is to defer payment until the asset is actually sold, with Israel taxing only the Israeli-period pro-rata portion of the gain.",
+      "source_url": "https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat",
+      "raw_snippet": "default option to defer payment until actual sale; Israeli portion of gain calculated pro-rata",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "form-58-miluim-deferral",
+      "claim": "Israelis with reserve duty obligations leaving for personal-reasons relocation file Form 58 to defer, shorten, or be released from active reserve service.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C",
+      "raw_snippet": "טופס 58, בקשה לדחייה, קיצור או שחרור משירות מילואים",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "miluim-valtam-work-relocation",
+      "claim": "For a work-related relocation, the request for miluim deferral goes through the reserve coordination committee (Valtam) rather than Form 58.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C",
+      "raw_snippet": "ועדת תיאום מילואים (ולת\"ם)",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "bl-2026-minimum-non-treaty",
+      "claim": "Bituach Leumi 2026 minimum for an Israeli abroad in a non-treaty country with no income is approximately 266 NIS/month combined (national insurance + health insurance).",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "raw_snippet": "מינימום דמי ביטוח לאומי ובריאות לתושב ישראלי השוהה בחו\"ל",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "bl-2026-minimum-treaty",
+      "claim": "In treaty countries (USA, UK, EU members, Canada), Israelis paying social security locally pay only the Israeli health insurance minimum (approximately 123 NIS/month in 2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%94%D7%A9%D7%95%D7%94%D7%94_%D7%91%D7%97%D7%95%22%D7%9C",
+      "raw_snippet": "תשלום מינימום של דמי ביטוח בריאות לתושב במדינת אמנה",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "pension-fund-47-percent-penalty",
+      "claim": "Early withdrawal from an Israeli pension fund (pensia mekifa) before retirement age triggers a tax penalty of approximately 47% on the withdrawn amount.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A9%D7%99%D7%9B%D7%AA_%D7%9B%D7%A1%D7%A4%D7%99_%D7%AA%D7%92%D7%9E%D7%95%D7%9C%D7%99%D7%9D_%D7%9E%D7%A7%D7%A8%D7%9F_%D7%A4%D7%A0%D7%A1%D7%99%D7%94",
+      "raw_snippet": "משיכת כספי תגמולים שלא לפי החוק חייבת במס בשיעור של 35% או לפי שיעור המס השולי הגבוה ביותר",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "apostille-court-fee-2026",
+      "claim": "Court-issued apostille stamps cost 41 NIS per stamp as of 1.1.2026 (was 35 NIS through 2025).",
+      "source_url": "https://www.gov.il/he/service/apostille_court_secretariat",
+      "raw_snippet": "אגרת אישור אפוסטיל בבית משפט עודכנה ל-41 ש\"ח",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "apostille-foreign-ministry-interior",
+      "claim": "Apostille stamps for Interior Ministry documents (birth, marriage, divorce, death certificates) are issued by the Ministry of Foreign Affairs Authentication Branch, not by Misrad HaPnim.",
+      "source_url": "https://www.gov.il/en/departments/topics/apostille",
+      "raw_snippet": "Ministry of Foreign Affairs Authentication Branch issues apostilles for Interior Ministry documents",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "tofes-161-severance",
+      "claim": "Tofes 161 is the Israeli severance/retirement form filed by the employer when employment ends, signed by the employee to choose between withdrawing the pitzuim portion of the pension (taxable) or keeping it inside the fund for tax deferral (ritza).",
+      "source_url": "https://www.gov.il/he/service/form-161-tax-authority",
+      "raw_snippet": "טופס 161, הודעת מעביד על תשלום מענק פרישה / סיום עבודה, בחירת ייעוד הפיצויים",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "toshav-chozer-6-years",
+      "claim": "Toshav Chozer (regular returning resident) status requires 6 or more consecutive years of foreign tax residency. Eligible for 5-year exemption on foreign passive income and 10-year exemption on capital gains from foreign assets held prior to return.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תושב חוזר, יחיד ששהה בחו\"ל 6 שנים רצופות לפחות, פטור של 5 שנים על הכנסה פסיבית מנכסים שנרכשו בחו\"ל",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "toshav-chozer-vatik-10-years",
+      "claim": "Toshav Chozer Vatik (long-term returning resident) status requires 10 or more consecutive years of foreign tax residency. Eligible for the same 10-year exemption on all foreign-source income and gains as a new immigrant (Section 14 of the Income Tax Ordinance).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%98%D7%91%D7%95%D7%AA_%D7%91%D7%9E%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D_%D7%A9%D7%A9%D7%94%D7%95_%D7%91%D7%97%D7%95%22%D7%9C_%D7%9E%D7%A2%D7%9C_10_%D7%A9%D7%A0%D7%99%D7%9D",
+      "raw_snippet": "תושב חוזר ותיק, יחיד ששהה בחו\"ל 10 שנים רצופות לפחות והיה במהלכן תושב חוץ, פטור מלא של 10 שנים על הכנסה מחו\"ל",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "amendment-272-effective-2026",
+      "claim": "Amendment 272 to the Income Tax Ordinance cancels the 10-year reporting exemption for olim and Toshav Chozer Vatik becoming Israeli residents from 1 January 2026 onwards. The tax exemption itself is unchanged.",
+      "source_url": "https://arnontl.com/he/news/%D7%91%D7%99%D7%98%D7%95%D7%9C-%D7%94%D7%A4%D7%98%D7%95%D7%A8-%D7%9E%D7%93%D7%99%D7%95%D7%95%D7%97-%D7%A2%D7%9C-%D7%94%D7%9B%D7%A0%D7%A1%D7%95%D7%AA-%D7%A4%D7%98%D7%95%D7%A8%D7%95%D7%AA-%D7%9C%D7%A2%D7%95/",
+      "raw_snippet": "תיקון 272 לפקודת מס הכנסה, ביטול הפטור מדיווח על הכנסות פטורות לעולים חדשים ולתושבים חוזרים ותיקים, החל מ-1.1.2026",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "vehicle-import-48-months",
+      "claim": "A Toshav Chozer may personally import a vehicle manufactured up to 48 months before import (vs. 24 months for regular residents), within 9 months of entering Israel.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "ייבוא אישי של רכב לתושב חוזר, רכב שיוצר עד 48 חודשים לפני הייבוא, חלון של 9 חודשים מהכניסה לארץ",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "vehicle-no-tax-exemption",
+      "claim": "There is no purchase-tax or VAT exemption on the vehicle itself for a Toshav Chozer; full purchase tax and VAT are paid. The benefit is only the relaxed manufacture-age window.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אין פטור ממיסי קנייה או ממ\"מ על הרכב, רק חלון גיל הייצור מורחב",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "vehicle-6-year-prerequisite",
+      "claim": "Toshav Chozer status (and the vehicle-import age relaxation) requires 6 or more consecutive years of foreign residency. A returnee abroad fewer than 6 years cannot use the 48-month window and imports under regular-resident rules (24-month cap).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תנאי לזכאות תושב חוזר, 6 שנים רצופות לפחות בחו\"ל כתושב חוץ",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "kupat-cholim-2-year-trigger",
+      "claim": "The kupat cholim waiting period on return applies when the returnee was abroad 2 or more consecutive years without paying Israeli Bituach Leumi.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "raw_snippet": "תקופת המתנה לקופת חולים, חלה על תושב חוזר ששהה בחו\"ל שנתיים רצופות או יותר ולא שילם דמי ביטוח",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "kupat-cholim-2-months-per-year",
+      "claim": "The kupat cholim waiting period is 2 months per year of absence, capped at 6 months maximum.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "raw_snippet": "חודשיים המתנה לכל שנת היעדרות, עד מקסימום של 6 חודשים",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "kupat-cholim-pidyon-formula",
+      "claim": "The kupat cholim redemption (pidyon) payment to cancel the waiting period equals 12 minimum monthly health insurance contributions for the year of return.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "raw_snippet": "פדיון תקופת המתנה, תשלום חד-פעמי השווה ל-12 תשלומי מינימום של דמי בריאות",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "voluntary-bl-bituach-miratzon",
+      "claim": "Self-employed Israelis abroad can opt into voluntary continuation (Bituach mi-Ratzon) of specific BL branches including maternity/parental and work-injury, preserving contribution history needed for unemployment benefits on return.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9E%D7%A8%D7%A6%D7%95%D7%9F",
+      "raw_snippet": "ביטוח לאומי מרצון, אופציה להמשך מרצון של ענפים מסוימים לעצמאי השוהה בחו\"ל",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "shivat-zion-returning-resident-hub",
+      "claim": "Shivat Zion is the Misrad HaAliyah-operated knowledge base for returning residents, covering customs, employment, healthcare, and Misrad HaKlita absorption services on return.",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
+      "raw_snippet": "Shivat Zion: comprehensive guide for olim and returning Israelis",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "belong-return-to-israel-guide",
+      "claim": "Belong publishes a return-to-Israel guide covering kupat cholim waiting period (with health pidyon redemption figures), vehicle import, employment programs, and family integration for returning Israelis.",
+      "source_url": "https://belong.co.il/return-to-israel/",
+      "raw_snippet": "Welcome Home: Toshav Chozer process and rights",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "section-14-vesting-period-sourcing",
+      "claim": "Equity compensation (RSU, options) for a returning resident is sourced by where the work was performed during the vesting period, not by grant date. The foreign-vesting portion is exempt under Section 14 for vatik returnees; the Israeli-vesting portion is Israeli-source ordinary income.",
+      "source_url": "https://s-horowitz.com/taxation-of-stock-options-for-employees-who-became-israeli-residents/",
+      "raw_snippet": "Sourcing of equity compensation by vesting-period work location, not by grant date",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "misrad-haklita-returning-resident-track",
+      "claim": "Misrad HaKlita (Ministry of Aliyah and Integration) operates a returning-resident absorption track with Sal Klita Le-Toshav Chozer (returning resident grant), Hebrew refresher Ulpan, and employment counseling. Eligibility requires 6+ consecutive years abroad.",
+      "source_url": "https://www.gov.il/he/departments/topics/returning_residents",
+      "raw_snippet": "סל קליטה לתושב חוזר, ייעוץ תעסוקתי, אולפן ריענון עברית",
+      "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "tax-credit-points-returnees",
+      "claim": "Returning residents (and olim) are entitled to additional tax credit points (nekudot zikui) for approximately 4.5 years from the return date, worth approximately 3,000-9,000 NIS per year.",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-2026-tax-reform-benefits-for-new-olim-and-returning-residents",
+      "raw_snippet": "1-3 tax credit points for approximately 4.5 years (Worth approximately 3,000-9,000 NIS per year in tax savings)",
+      "fetched_on": "2026-05-26"
+    }
+  ]
+}

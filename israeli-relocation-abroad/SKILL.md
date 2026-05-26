@@ -52,9 +52,26 @@ This is the most consequential decision. Israeli tax residency is tested by **da
 
 Run `scripts/residency-check.py` to walk through the decision with the user's specifics. The script is a guidance tool, not a legal opinion -- always recommend a tax advisor (yo'etz mas) for the final call.
 
-**Exit tax (mas yetzia, Section 100A of the Income Tax Ordinance):** Cutting Israeli tax residency is not free. Section 100A treats all of a person's worldwide assets as if they were sold one day before the day residency was severed. The unrealized capital gain (based on the asset's fair market value on that day) is subject to capital gains tax, generally at 25-33%. This applies to securities, shares in private companies, real estate abroad, and similar assets, not to assets that remain Israeli-situated.
+**Exit tax (mas yetzia, Section 100A of the Income Tax Ordinance):** Cutting Israeli tax residency is not free. Section 100A treats all of a person's worldwide assets as if they were sold one day before the day residency was severed. The unrealized capital gain (based on the asset's fair market value on that day) is subject to capital gains tax. This applies to securities, shares in private companies, real estate abroad, and similar assets, not to assets that remain Israeli-situated.
 
-The default option is to defer payment: you do not pay on the day of severance, but when you actually sell the asset, the Israeli portion of the gain (the part that accrued during the Israeli residency period, calculated pro-rata by ownership days) is taxed in Israel. You can instead choose to pay the exit tax at the time of severance on the deemed-sale value. Either way, this is the tax that nituk toshavut triggers, so anyone holding appreciated assets must price it in before cutting residency. Always send the user to a tax advisor to model the exit tax against their specific asset mix before they sever residency.
+**Rate granularity (different rates for different asset types):**
+
+| Asset class | Section 100A rate | Notes |
+|---|---|---|
+| Listed securities, regular capital gains | 25% | Standard individual capital-gains rate |
+| Shares of a substantial shareholder (10%+ ownership) | 30% | Higher rate for "ba'al menaya mahuti" |
+| Company-held assets (deemed sale by a controlled company) | 23% (corporate rate) | Through the company, not personally |
+| Some asset classes treated as ordinary income | Marginal rate (up to 50%) | Edge cases (working interest in foreign partnership, certain options) |
+
+Founder holding 10%+ of a startup: 30% rate, not 25%. Mis-pricing by 5 points on a large equity position is a common expensive surprise.
+
+The default option is to defer payment until actual sale, with Israel taxing the Israeli pro-rata portion of the gain. Alternatively pay at severance on deemed-sale value. Either way, model with a tax advisor before severing residency.
+
+**Form 1348 procedure:** filed **with the annual return** (Form 1301) for the tax year of severance, NOT separately and NOT at departure. Filing deadline is the annual return deadline. The Pkid Shuma reviews and may accept, reject, or request more documentation.
+
+Attach: foreign lease/deed, foreign work contract, family relocation evidence (kids' foreign school enrollment, spouse's foreign employer letter), foreign tax filings already submitted, BL residency questionnaire if requested.
+
+If rejected: days-test presumption stands, residency continues for that year. Time the filing carefully with a CPA, or request a pre-approved Tax Authority "ruling" that binds the Authority up-front.
 
 ### Step 2a: Military Reserve Duty (Miluim) Before Leaving
 
@@ -161,10 +178,45 @@ If you stayed out long enough and did not maintain Israeli tax residency, Israel
 
 **Customs and belongings:**
 - Household goods and personal effects can be imported duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
-- **Vehicle:** A toshav chozer may personally import a vehicle manufactured up to 48 months before import (regular residents are capped at 24 months), within 9 months of entering Israel. There is no tax exemption on the vehicle itself -- you pay full purchase tax and VAT -- only the age limit is relaxed
-- Consult `references/toshav-chozer-customs.md` for the full quantity rules
+- **Vehicle:** A toshav chozer may personally import a vehicle manufactured up to 48 months before import (regular residents are capped at 24 months), within 9 months of entering Israel. There is no tax exemption on the vehicle itself, you pay full purchase tax and VAT, only the age limit is relaxed. **Prerequisite: you must qualify as toshav chozer first, which requires 6+ years of foreign residency.** A returnee abroad only 2-4 years gets none of this and imports under regular-resident rules (24-month age cap)
+- Consult `references/toshav-chozer-customs.md` for the full quantity rules and the sister skill `israeli-returning-resident-customs-vehicle` for the deep mechanics
 
-**Kupat cholim waiting period:** If you cut residency and stopped paying Bituach Leumi, returning to Israel triggers a waiting period before kupat cholim coverage resumes (2 months per year of absence, up to 6 months max). You can buy a redemption (pidyon) to cancel the wait -- a one-time payment equal to 12 minimum monthly contributions. This is the biggest argument for keeping up Bituach Leumi even when abroad: avoid the return waiting period.
+**Misrad HaKlita returning-resident track (separate from tax benefits):**
+
+The Ministry of Aliyah and Integration (Misrad HaKlita) operates an absorption program for returning residents, parallel to but smaller than the new-immigrant program:
+- **Sal Klita Le-Toshav Chozer** (returning resident grant), capped and means-tested
+- Hebrew refresher Ulpan (free or subsidized) for the returnee and the spouse if needed
+- Employment counseling and job-search support for the first 12 months back
+- **Eligibility threshold:** 6+ consecutive years abroad (same as the Toshav Chozer tax tier)
+
+This track is administrative (Misrad HaKlita certificate) and is separate from the Tax Authority's section-14 determination. The certificate helps with absorption services and customs paperwork but does NOT grant the tax benefit by itself.
+
+Reference: see the sister skill `israeli-returning-resident-navigator` for the full Toshav Chozer benefits basket (grant amounts, employment programs, Ma'alot business centers, lone-soldier provisions for kids drafting into the IDF after the return).
+
+**Children's status on return:**
+
+Returning families with kids born abroad face a symmetric document drill to the one done on departure:
+
+- **Israeli passports:** Kids born abroad to an Israeli parent are Israeli citizens by descent, but their Israeli passport is issued only after registration at an Israeli consulate (forms + apostilled foreign birth certificate). Allow 6-12 weeks for issuance from a consulate abroad. Faster to do this BEFORE the move back than to scramble after.
+- **Teudat zehut:** A child's Israeli ID number is assigned automatically on first physical entry to Israel (or earlier if registered at a consulate). Bring the foreign birth certificate (apostilled) to the Misrad HaPnim appointment.
+- **School records and re-enrollment:** For kids returning to the Israeli school system after attending foreign schools, the Ministry of Education's "Hakara BeLimudim" (recognition of foreign studies) process is required, especially for high-school grades that feed into Bagrut. Bring apostilled report cards and the school's official transcript. Allow 4-8 weeks for recognition.
+- **Hebrew gap for the kids:** Misrad HaKlita's returning-resident track includes Hebrew reinforcement for school-age returnees who studied abroad for 4+ years. Check eligibility with the local Misrad HaKlita office before the school year starts.
+
+**Stock options, voluntary Bituach Leumi, and estate planning (return-side deep topics):**
+
+Three further return-planning areas have substantial mechanics summarized briefly here and detailed in `references/return-side-deep-topics.md`:
+
+- **Stock options earned abroad** (RSU / Section 102): split-period treatment, sourced by vesting-period work location, not grant date. Foreign-vesting portion exempt for vatik under Section 14; Israeli-vesting portion taxable at marginal rate. Largest "I didn't know I owed" surprise for returning tech workers. Full mechanics: sister skill `israeli-toshav-chozer-vatik-tax-planner`.
+- **Voluntary Bituach Leumi** (Bituach mi-Ratzon): self-employed abroad can preserve contribution history (relevant for unemployment eligibility on return, which needs 12 of last 18 months). Check Kol-Zchut or call *6050.
+- **Estate planning while abroad**: dual-jurisdiction wills, host-country inheritance tax (US estate tax above $60K for non-resident-alien decedents, UK IHT, French succession), apostilled POAs. Important for relocations exceeding 5 years.
+
+**Kupat cholim waiting period:**
+
+- **Trigger:** the waiting period applies when the returnee was abroad **2 or more consecutive years** without paying Israeli Bituach Leumi. Under 2 years away you typically resume coverage immediately on re-establishing residency.
+- **Length:** 2 months of waiting per year of absence, capped at **6 months maximum**.
+- **Redemption (pidyon):** a one-time payment equal to **12 minimum monthly health-insurance contributions** cancels the wait. The current shekel amount changes annually with the BL minimum; check Bituach Leumi's "פדיון תקופת המתנה" page for the year-of-return figure (this is the same figure listed in `israeli-returning-resident-navigator` for the active 2026 amount).
+- **Why this matters most:** This is the single biggest argument for keeping up Bituach Leumi payments while abroad. The minimum health contributions are ₪123/month (treaty country) or ₪266/month (non-treaty), so the redemption cost approximates 12 months of those minimums plus the per-month rate adjustment, it is almost always cheaper than maintaining continuous coverage, except for very long absences.
+- **Reference:** see Step 6 cross-reference to `israeli-returning-resident-navigator` for the current pidyon NIS amount and full waiver workflow.
 
 ## Examples
 
@@ -252,6 +304,11 @@ All three MCPs are optional -- this skill works without them, but pairing gives 
 | hltaxes -- Israeli exit tax overview | https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat | Section 100A deemed-sale mechanics, rates, deferral option |
 | Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C | Form 58 vs Valtam, timing, appeal route |
 | Kol-Zchut -- Vehicle import for returning residents | https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Vehicle age limits and 9-month import window |
+| Shivat Zion -- Returning Israelis knowledge base (Misrad HaAliyah operational guide) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Step-by-step Toshav Chozer process, customs, employment, healthcare on return |
+| Belong -- Return to Israel guide | https://belong.co.il/return-to-israel/ | Symmetric return-side coverage: kids' status, kupat cholim pidyon, vehicle import, employment programs |
+| Belong -- Toshav Chozer rights and benefits | https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/ | Full benefits basket: salary assistance, Ma'alot, lone soldier, education reinforcement |
+| Kol-Zchut -- Voluntary Bituach Leumi (Bituach mi-Ratzon) | https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9E%D7%A8%D7%A6%D7%95%D7%9F | Voluntary continuation rules and eligibility |
+| PwC Tax Summaries -- Israel income determination | https://taxsummaries.pwc.com/israel/individual/income-determination | Section 100A rate granularity (25% / 30% / 23% corporate) |
 
 ## Troubleshooting
 
