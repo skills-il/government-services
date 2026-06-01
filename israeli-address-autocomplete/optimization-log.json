@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-05-31",
+      "lessons": [
+        "MAJOR fixed: stale Survey-of-Israel parcel-by-address URL. mapi.gov.il/Pages/LotAddressLocator.aspx was retired (redirects to a generic landing page); moved to gov.il/apps/mapi/parcel_address/parcel_address.html. Fixed in the granular-components table and Reference Links (EN+HE).",
+        "MAJOR fixed: bennymeg/IsraelPostalServiceAPI was mischaracterized as a community mikud-lookup library; it is actually a shipping-PRICE calculator. Reworded to say there is no official public mikud-by-address API (use the web form), and explicitly warn not to use bennymeg for mikud.",
+        "Added the official GovMap geocoding API (api.govmap.gov.il) as the canonical programmatic address-autocomplete/geocode endpoint, the skill previously implied no documented API existed.",
+        "Verified accurate (no change): all spot-checked CBS settlement codes (Jerusalem 3000, TLV 5000, Haifa 4000, Rishon 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin 1200, Nazareth 7300, Eilat 2600); 7-digit mikud (since 1.2.2013); data.gov.il street/locality datasets live; Israel Post mikud form + CBS + GovMap UI URLs work.",
+        "Deferred MINOR: cite the data.gov.il CKAN datastore_search API pattern + the locality field names (city_code/city_name_he/city_name_en) to make the 'validate 500 addresses' example actionable; EN/HE heading parity diverges (pre-existing)."
+      ]
+    }
+  ]
+}

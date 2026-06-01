@@ -66,9 +66,10 @@
 | מקור | כתובת | מה לבדוק |
 |------|-------|----------|
 | הלמ"ס – יישובים | https://www.cbs.gov.il | קודי יישובים ומקומות רשמיים בישראל |
-| חיפוש מיקוד דואר ישראל | https://doar.israelpost.co.il/locatezip | טופס חיפוש מיקוד (אין API ציבורי מתועד; ספריית קהילה `bennymeg/IsraelPostalServiceAPI`) |
+| חיפוש מיקוד דואר ישראל | https://doar.israelpost.co.il/locatezip | טופס חיפוש מיקוד. אין API ציבורי רשמי למיקוד-לפי-כתובת, זה הטופס. אל תשתמשו ב-`bennymeg/IsraelPostalServiceAPI` למיקוד, הספרייה הזו היא מחשבון מחירי משלוח, לא חיפוש כתובת-למיקוד |
 | GovMap, מפת ישראל | https://www.govmap.gov.il | חיפוש כתובת, גוש/חלקה, תצ"א |
-| מפ"י LotAddressLocator | https://www.mapi.gov.il/Pages/LotAddressLocator.aspx | כלי רשמי לגוש/חלקה לפי כתובת |
+| API גאוקודינג של GovMap | https://api.govmap.gov.il | API רשמי לחיפוש כתובת/גאוקודינג (דורש רישום באימייל), ה-endpoint הקנוני להשלמת כתובת ולקואורדינטות |
+| מפ"י, גוש/חלקה לפי כתובת | https://www.gov.il/apps/mapi/parcel_address/parcel_address.html | כלי רשמי לגוש/חלקה לפי כתובת (הנתיב הישן mapi.gov.il/Pages/LotAddressLocator.aspx הוצא משימוש) |
 | data.gov.il, מאגרים פתוחים | https://data.gov.il/dataset | מאגרי רחובות ויישובים, מתעדכן יומית. חפשו "רחובות" לרחובות, "ישובים" ליישובים |
 
 ## פתרון בעיות

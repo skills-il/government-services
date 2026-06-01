@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-address-autocomplete",
+  "generated_at": "2026-05-31T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "cbs-city-codes",
+      "claim": "CBS settlement (semel yishuv) codes: Jerusalem 3000, Tel Aviv-Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin-Maccabim-Reut 1200, Nazareth 7300, Eilat 2600. Israel has roughly 1,270 localities.",
+      "source_url": "https://data.gov.il/dataset",
+      "raw_snippet": "data.gov.il",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md", "scripts/lookup_address.py"]
+    },
+    {
+      "claim_id": "postal-code-format",
+      "claim": "The Israeli postal code (mikud) is 7 digits, introduced 1 February 2013 (replacing the older 5-digit code).",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "מיקוד",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md"]
+    },
+    {
+      "claim_id": "israel-post-mikud",
+      "claim": "Israel Post's mikud lookup is a web form at doar.israelpost.co.il/locatezip; there is no official public mikud-by-address API. The bennymeg/IsraelPostalServiceAPI library is a shipping-price calculator, not a mikud lookup.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "מיקוד",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "govmap-api",
+      "claim": "GovMap provides an official programmatic geocoding / address-search API at api.govmap.gov.il (email registration required); the national map UI is at govmap.gov.il.",
+      "source_url": "https://api.govmap.gov.il",
+      "raw_snippet": "govmap https://www.govmap.gov.il",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mapi-parcel-tool",
+      "claim": "The Survey of Israel block/parcel-by-address (gush/helka) tool is at gov.il/apps/mapi/parcel_address/parcel_address.html; the old mapi.gov.il/Pages/LotAddressLocator.aspx path was retired and now redirects to a generic landing page.",
+      "source_url": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
+      "raw_snippet": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "data-gov-il",
+      "claim": "data.gov.il hosts the street (רחובות) and locality (ישובים) datasets, queryable via the CKAN datastore_search API; fields include city_code / city_name_he / city_name_en.",
+      "source_url": "https://data.gov.il/dataset",
+      "raw_snippet": "data.gov.il",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "cbs-directory",
+      "claim": "The Israel Central Bureau of Statistics (CBS / Lamas) at cbs.gov.il publishes the official settlement and locality codes.",
+      "source_url": "https://www.cbs.gov.il",
+      "raw_snippet": "cbs",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md"]
+    },
+    {
+      "claim_id": "illustrative-figures",
+      "claim": "Illustrative example: Rothschild 42, Tel Aviv-Yafo, mikud 6688312, CBS code 5000. Example block/parcel 6213/250.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "מיקוד",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}

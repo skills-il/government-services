@@ -57,7 +57,7 @@ Israeli address forms (Bit, Pelephone, Bituach Leumi, banks) often split a singl
 | Floor | קומה | 3 | Common, especially Bituach Leumi and gov forms |
 | Entrance | כניסה | א | Tel Aviv / Bnei Brak / dense neighborhoods |
 | PO Box | ת.ד. | 1234 | Moshavim, government correspondence |
-| Block / parcel (gush/helka) | גוש / חלקה | 6213 / 250 | Tabu / land registry / mas shevach. Look up on `mapi.gov.il/Pages/LotAddressLocator.aspx` or GovMap |
+| Block / parcel (gush/helka) | גוש / חלקה | 6213 / 250 | Tabu / land registry / mas shevach. Look up on `gov.il/apps/mapi/parcel_address/parcel_address.html` (Survey of Israel "block-parcel by address") or GovMap |
 | Sub-parcel | תת-חלקה | 5 | Apartment-level land registry |
 | Settlement code (CBS) | קוד יישוב | 5000 (Tel Aviv) | Government forms requiring canonical settlement |
 
@@ -100,9 +100,10 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | CBS settlements directory | https://www.cbs.gov.il | Official Israeli settlement and locality codes |
-| Israel Post mikud lookup | https://doar.israelpost.co.il/locatezip | Postal code (mikud) lookup web form (no documented public API; community lib `bennymeg/IsraelPostalServiceAPI`) |
+| Israel Post mikud lookup | https://doar.israelpost.co.il/locatezip | Postal code (mikud) lookup web form. There is no official public mikud-by-address API, this is the web form. Do NOT use `bennymeg/IsraelPostalServiceAPI` for mikud, that library is a shipping-price calculator, not an address-to-mikud lookup |
 | GovMap (national map) | https://www.govmap.gov.il | Address search, gush/helka (block/parcel) info, aerial imagery |
-| Mapi.gov.il LotAddressLocator | https://www.mapi.gov.il/Pages/LotAddressLocator.aspx | Official block/parcel by address tool |
+| GovMap geocoding API | https://api.govmap.gov.il | Official programmatic address-search / geocode API (email registration required), the canonical endpoint for address autocomplete and coordinates |
+| Survey of Israel block/parcel by address | https://www.gov.il/apps/mapi/parcel_address/parcel_address.html | Official gush/helka by address tool (the old mapi.gov.il/Pages/LotAddressLocator.aspx path was retired) |
 | data.gov.il (open datasets) | https://data.gov.il/dataset | Street and locality datasets, daily-refreshed. Search "רחובות" for street data, "ישובים" for settlements |
 
 ## Troubleshooting
