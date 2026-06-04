@@ -1,0 +1,169 @@
+{
+  "skill_slug": "israeli-fact-checker",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-04",
+  "claims": [
+    {
+      "id": "verdict-nachon",
+      "claim": "The Whistle (המשרוקית) verdict label נכון means the statement is true in its near-entirety",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "נכון - האמירה נכונה ברובה המוחלט",
+      "confidence": "high"
+    },
+    {
+      "id": "verdict-lo-meduyak",
+      "claim": "The Whistle verdict label לא מדויק means substantial parts of the statement are wrong",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "לא מדויק - חלקים מהותיים מהאמירה שגויים",
+      "confidence": "high"
+    },
+    {
+      "id": "verdict-matе",
+      "claim": "The Whistle verdict label מטעה means the statement creates a false impression or takes facts out of context",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "מטעה - האמירה יוצרת מצג שווא או מוציאה עובדות מהקשרן",
+      "confidence": "high"
+    },
+    {
+      "id": "verdict-lo-nachon",
+      "claim": "The Whistle verdict label לא נכון means the statement is false",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "לא נכון - האמירה שגויה",
+      "confidence": "high"
+    },
+    {
+      "id": "verdict-lishputchem",
+      "claim": "The Whistle verdict label לשיפוטכם means the factual situation is too complex for a definitive score",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "לשיפוטכם - המצב העובדתי מורכב מכדי לתת ציון חד משמעי",
+      "confidence": "high"
+    },
+    {
+      "id": "whistle-ifcn-2018",
+      "claim": "The Whistle (המשרוקית of Globes) has been a member of the International Fact-Checking Network (IFCN) since 2018",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "חברה ברשת הבינלאומית של ארגוני בדיקת העובדות, ה- International Fact-Checking Network (ה- IFCN), בה היא חברה משנת 2018",
+      "confidence": "high"
+    },
+    {
+      "id": "ifcn-commitments",
+      "claim": "The IFCN Code of Principles has five commitments: non-partisanship and fairness, standards and transparency of sources, transparency of funding and organization, standards and transparency of methodology, and an open and honest corrections policy",
+      "claim_type": "feature",
+      "source_url": "https://ifcncodeofprinciples.poynter.org/the-commitments",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "A commitment to Non-partisanship and Fairness ... A commitment to Standards and Transparency of Sources ... A commitment to Transparency of Funding & Organization ... A commitment to Standards and Transparency of Methodology ... A commitment to an Open & Honest Corrections Policy",
+      "confidence": "high"
+    },
+    {
+      "id": "meta-platform-labels",
+      "claim": "Platform fact-checker rating labels on Hebrew content include לא נכון (false), עבר שינוי (altered), לא נכון חלקית (partly false), חסר הקשר (missing context), and סאטירה (satire)",
+      "claim_type": "feature",
+      "source_url": "https://transparency.meta.com/he-il/features/content-ratings-fact-checkers-use/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "לא נכון ... עבר שינוי ... לא נכון חלקית ... חסר הקשר ... סאטירה",
+      "confidence": "high"
+    },
+    {
+      "id": "src-cbs",
+      "claim": "Israel's Central Bureau of Statistics (Lishka Merkazit LiStatistika, cbs.gov.il) is the authoritative source for the CPI, price indices, labour force, demographics and the housing price index",
+      "claim_type": "url",
+      "source_url": "https://www.cbs.gov.il",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית",
+      "confidence": "high"
+    },
+    {
+      "id": "src-boi",
+      "claim": "The Bank of Israel publishes the official representative exchange rate (shaar yatzig) for the shekel",
+      "claim_type": "url",
+      "source_url": "https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "Exchange Rates | בנק ישראל - הבנק המרכזי של ישראל",
+      "confidence": "high"
+    },
+    {
+      "id": "src-budgetkey",
+      "claim": "BudgetKey (Mafteach HaTaktziv, obudget.org) is the open database of the Israeli state budget, support payments and procurement",
+      "claim_type": "url",
+      "source_url": "https://next.obudget.org/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "מפתח התקציב",
+      "confidence": "high"
+    },
+    {
+      "id": "src-knesset-odata",
+      "claim": "The Knesset ParliamentInfo OData service exposes bills, committees and member entities (KNS_Bill, KNS_Committee, KNS_Person)",
+      "claim_type": "api-endpoint",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "KNS_Bill KNS_Committee KNS_Person",
+      "confidence": "high"
+    },
+    {
+      "id": "src-elections",
+      "claim": "Official Knesset election results and turnout are published by the Central Elections Committee on data.gov.il",
+      "claim_type": "url",
+      "source_url": "https://data.gov.il/he/datasets/central-election-committee/votes-knesset",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "תוצאות בחירות - ועדת הבחירות המרכזית לכנסת",
+      "confidence": "high"
+    },
+    {
+      "id": "src-knesset-votes",
+      "claim": "Per-MK plenum roll-call votes are published by the Knesset as the dataset titled הצבעות חברי הכנסת במליאה on data.gov.il",
+      "claim_type": "url",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=vote",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "הצבעות חברי הכנסת במליאה",
+      "confidence": "high"
+    },
+    {
+      "id": "src-nadlan",
+      "claim": "The government real-estate site (nadlan.gov.il) publishes recorded real-estate transaction prices",
+      "claim_type": "url",
+      "source_url": "https://www.nadlan.gov.il/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "אתר הנדל\"ן הממשלתי",
+      "confidence": "high"
+    },
+    {
+      "id": "src-btl-wage",
+      "claim": "The National Insurance Institute (Bituach Leumi, btl.gov.il) is the authoritative source for the statutory average wage in the economy",
+      "claim_type": "url",
+      "source_url": "https://www.btl.gov.il",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "ביטוח לאומי",
+      "confidence": "high"
+    },
+    {
+      "id": "src-fakereporter",
+      "claim": "FakeReporter is an Israeli public-participation research project that exposes malicious online activity and fake news",
+      "claim_type": "url",
+      "source_url": "https://fakereporter.net/",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "מיזם מחקר בשיתוף הציבור להיאבק בפעילות זדונית ברשת ופייק ניוז",
+      "confidence": "high"
+    },
+    {
+      "id": "src-datagov",
+      "claim": "data.gov.il is Israel's national open government data portal (CKAN) and the catch-all source for ministry datasets without a dedicated MCP",
+      "claim_type": "url",
+      "source_url": "https://data.gov.il",
+      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "raw_snippet": "מאגרי המידע הממשלתיים",
+      "confidence": "high"
+    }
+  ]
+}

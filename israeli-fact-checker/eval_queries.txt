@@ -1,0 +1,17 @@
+# Positive (should trigger israeli-fact-checker)
+Is it true that inflation in Israel is the highest in a decade?
+בדוק לי את הטענה ששר האוצר אמר שהתקציב לביטחון הוכפל
+A WhatsApp message says apartment prices doubled in two years, is that real?
+האם נכון שאחוז ההצבעה בבחירות האחרונות היה הגבוה אי פעם?
+Fact check this claim about the shekel to dollar exchange rate
+Verify whether this nonprofit receives foreign government funding
+
+# Negative (should NOT trigger)
+Write me a marketing blog post about my startup
+כתוב לי כתבה שיווקית על המצב הכלכלי בישראל
+Help me file my VAT report with the Tax Authority
+
+# Edge (ambiguous)
+Is this government the worst in Israeli history?
+Just give me the current CPI number from the CBS
+Is this viral video of the prime minister real or a deepfake?
