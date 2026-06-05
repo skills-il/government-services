@@ -73,7 +73,10 @@ If you want a second opinion, you may point the user to a watermark or detector 
 If the item is a voice note or a call recording (a cloned-voice "CEO," a "family member in trouble," a public figure saying something), the image and video layers above do not apply. Be honest that audio is the hardest case:
 
 - **No reliable consumer audio detector**, especially on WhatsApp or phone-compressed voice notes. Compression destroys the very artifacts detectors look for. Do not paste an audio-detector score as a verdict.
-- **Provenance still helps when present.** Google's SynthID also watermarks AI-generated audio, so audio from Google's tools may carry a watermark you can check via Google's own tooling. Absence proves nothing, as always.
+- **Ecosystem-scoped provenance still helps when present** (same logic as C2PA for images: a positive is informative, absence proves nothing). Two concrete checks:
+  - **ElevenLabs AI Speech Classifier** (free): "Our AI Speech Classifier lets you detect whether an audio clip was created using ElevenLabs." It only flags ElevenLabs-generated audio, so a hit is strong, but a miss says nothing about voices made with other tools.
+  - **Google SynthID**: watermarks audio from Google's AI models; check via Google's tooling. Again, only Google-family audio, and compression or re-encoding can strip the watermark.
+  - Do NOT use a general "voice deepfake detector" score as your verdict: those tools lose a large share of their accuracy on compressed phone or WhatsApp audio (which is exactly what you will usually get), and some false-flag real speech at high rates. Treat any such score as a weak corroborating signal only.
 - **The strongest move is out-of-band verification.** Tell the user to confirm through a known, independent channel: call the person back on a number they already have (not one supplied in the message), or contact the institution through its official line. A cloned voice cannot survive a callback to a trusted number.
 - **Listen for tells** (suggestive only): flat or mismatched emotional tone, unnatural pacing and breath, missing room or background noise, abrupt edits, and a request that creates urgency or asks for money or codes (the classic scam shape).
 - **If it is fraud or impersonation, route it** (see `references/israeli-context.md`): the National Cyber Directorate 119 hotline for cyber incidents, the bank's fraud line for financial impersonation, and 105 specifically when the target is a minor.
@@ -145,6 +148,7 @@ No MCP server currently provides media-authenticity data for Israel. The genuine
 | Content Credentials Verify tool | https://contentcredentials.org/verify | No-code provenance check for an image or video |
 | c2patool docs | https://opensource.contentauthenticity.org/docs/c2patool/ | Install and read C2PA manifests from the command line |
 | Google SynthID | https://deepmind.google/science/synthid/ | What the SynthID watermark covers and its limits |
+| ElevenLabs AI Speech Classifier | https://elevenlabs.io/ai-speech-classifier | Free check for whether audio was made with ElevenLabs |
 | NewsGuard detector audit | https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/ | Why automated AI-image detectors are unreliable |
 | Poynter, spotting fake war images | https://www.poynter.org/fact-checking/2026/fake-images-iran-war-how-spot-them/ | Recycled and miscaptioned footage as the dominant fake |
 | Israel 105 (Child Online Protection) | https://www.gov.il/en/departments/units/105_call_center | Reporting online harm to minors, including AI impersonation |

@@ -139,6 +139,15 @@
       "confidence": "high"
     },
     {
+      "id": "elevenlabs-speech-classifier",
+      "claim": "ElevenLabs offers a free AI Speech Classifier that detects whether an audio clip was created using ElevenLabs and reports the probability it is AI-generated",
+      "claim_type": "feature",
+      "source_url": "https://elevenlabs.io/ai-speech-classifier",
+      "source_fetched_at": "2026-06-05T19:30:00Z",
+      "raw_snippet": "Our AI Speech Classifier lets you detect whether an audio clip was created using ElevenLabs. Upload your sample and understand the probability of it being AI generated.",
+      "confidence": "high"
+    },
+    {
       "id": "synthid-watermark",
       "claim": "Google SynthID embeds an imperceptible watermark into AI-generated images, audio, and video produced by Google AI models",
       "claim_type": "feature",
