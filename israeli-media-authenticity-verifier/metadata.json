@@ -1,0 +1,54 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "אימות-מדיה",
+      "דיפfייק",
+      "בינה-מלאכותית",
+      "פייק-ניוז",
+      "אותנטיות",
+      "C2PA",
+      "ישראל"
+    ],
+    "en": [
+      "media-verification",
+      "deepfake",
+      "ai-generated",
+      "disinformation",
+      "authenticity",
+      "c2pa",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מאמת אותנטיות מדיה ישראלי",
+    "en": "Israeli Media Authenticity Verifier"
+  },
+  "display_description": {
+    "he": "בודק בצורה מסודרת אם תמונה או סרטון נוצרו בבינה מלאכותית, עברו מניפולציה, או שהם אמיתיים אבל עם כיתוב מטעה, ומפיק פסק דין מנומק עם רמת ביטחון. שימושי כשמעבירים לכם בוואטסאפ או בטלגרם תמונה או סרטון דרמטי ממלחמה ואתם רוצים לדעת אם זה אמיתי, כשעיתונאי או מנהל קהילה צריך דוח אימות לפני שיתוף, או כשמגיעה תמונה או הקלטת קול שמתחזה לאדם מוכר. משלב מקור חתום (C2PA, SynthID, EXIF), בדיקה ויזואלית מול רשימת סימנים, ומעקב מקור (חיפוש תמונה הפוך, איתור מיקום). זה כלי אימות ולא גלאי קסם, והוא אומר בכנות מתי אי-אפשר לאמת. אל תשתמשו בו לאימות טענות מספריות (יש israeli-fact-checker), ליצירת דיפfייק, או כאישור פורנזי משפטי.",
+    "en": "Runs a structured check on whether an image or video is AI-generated, digitally manipulated, or authentic-but-miscaptioned, and produces a sourced verdict with a confidence level. Use when someone forwards a dramatic war or news photo or clip on WhatsApp or Telegram and you want to know if it is real, when a journalist or community moderator needs a verification report before sharing, or when a suspicious image or voice claims to be a known person. Combines signed provenance (C2PA, SynthID, EXIF), a visual inspection against an artifact checklist, and source tracing (reverse-image search, geolocation). It is a verifier, not a magic detector, and it says can't-verify honestly. Do NOT use for numeric claim fact-checking (use israeli-fact-checker), for generating deepfakes, or as legal forensic certification."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli"
+  ],
+  "openclaw": true,
+  "volatility": "versioned",
+  "authoritative_sources": [
+    { "url": "https://opensource.contentauthenticity.org/docs/c2patool/", "type": "vendor-doc", "language": "en" },
+    { "url": "https://contentcredentials.org/verify", "type": "vendor-tool", "language": "en" },
+    { "url": "https://deepmind.google/science/synthid/", "type": "vendor-doc", "language": "en" },
+    { "url": "https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/", "type": "research", "language": "en" },
+    { "url": "https://www.gov.il/en/departments/units/105_call_center", "type": "regulator", "language": "en" }
+  ],
+  "domain_checklist_version": 1
+}

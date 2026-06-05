@@ -1,0 +1,151 @@
+{
+  "skill_slug": "israeli-media-authenticity-verifier",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-05",
+  "claims": [
+    {
+      "id": "c2patool-install",
+      "claim": "c2patool installs on macOS via 'brew install c2patool'",
+      "claim_type": "cli-command",
+      "source_url": "https://opensource.contentauthenticity.org/docs/c2patool/",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "Homebrew (macOS): brew install c2patool",
+      "confidence": "high"
+    },
+    {
+      "id": "c2patool-read",
+      "claim": "Running c2patool against an asset prints a summary JSON report of its C2PA manifests; the -d / --detailed flag prints the detailed manifest data",
+      "claim_type": "cli-command",
+      "source_url": "https://opensource.contentauthenticity.org/docs/c2patool/",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "-d, --detailed  Display detailed C2PA-formatted manifest data",
+      "confidence": "high"
+    },
+    {
+      "id": "c2patool-brew-formula",
+      "claim": "c2patool is available as a Homebrew formula (CLI for working with C2PA manifests and media assets)",
+      "claim_type": "feature",
+      "source_url": "https://formulae.brew.sh/formula/c2patool",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "c2patool: stable 0.26.62 (bottled), HEAD - CLI for working with C2PA manifests and media assets",
+      "confidence": "high"
+    },
+    {
+      "id": "exiftool-install",
+      "claim": "ExifTool installs on macOS via 'brew install exiftool'",
+      "claim_type": "cli-command",
+      "source_url": "https://formulae.brew.sh/formula/exiftool",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "exiftool: stable 13.55 (bottled) - Perl lib for reading and writing EXIF metadata",
+      "confidence": "high"
+    },
+    {
+      "id": "content-credentials-verify-tool",
+      "claim": "Content Credentials provides a free web Verify tool where you can inspect an image's provenance, hosted at contentcredentials.org",
+      "claim_type": "url",
+      "source_url": "https://contentcredentials.org/verify",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "contentcredentials.org/verify redirects (301 Moved Permanently) to the Content Authenticity Initiative Verify tool at verify.contentauthenticity.org",
+      "confidence": "high"
+    },
+    {
+      "id": "newsguard-detector-unreliable",
+      "claim": "Leading automated AI-image detectors mislead users: across a NewsGuard audit they declared authentic images to be AI-generated 13.33 percent of the time, and one tool got it wrong 40 percent of the time",
+      "claim_type": "percentage",
+      "source_url": "https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/",
+      "source_fetched_at": "2026-06-05T17:30:00Z",
+      "raw_snippet": "The tools collectively declared authentic images to be AI-generated 13.33 percent of the time, and one tool got it wrong 40 percent of the time.",
+      "confidence": "high"
+    },
+    {
+      "id": "iran-israel-genai-battlefield",
+      "claim": "Experts called the June 2025 Iran-Israel conflict the first major conflict where generative AI is shaping the information battlefield, with game clips and AI-generated content passed off as real events",
+      "claim_type": "feature",
+      "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
+      "source_fetched_at": "2026-06-05T18:30:00Z",
+      "raw_snippet": "According to the BBC, game clips and AI-generated content are being “passed off as real events” across social media. This marks what experts call the first major conflict where generative AI is shaping the information battlefield.",
+      "confidence": "high"
+    },
+    {
+      "id": "iran-israel-recycled-footage",
+      "claim": "Verification group Geoconfirmed flagged a surge of misleading media including recycled strike footage, video game clips, and deepfakes during the Iran-Israel conflict",
+      "claim_type": "feature",
+      "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
+      "source_fetched_at": "2026-06-05T18:30:00Z",
+      "raw_snippet": "verification group Geoconfirmed flagged a surge of misleading media, including recycled strike footage, video game clips, deepfakes, and “AI-generated content being passed off as real events.”",
+      "confidence": "high"
+    },
+    {
+      "id": "iran-israel-flightsim-21m",
+      "claim": "Pro-Iran TikTok accounts shared flight simulator clips as real airstrikes, reaching over 21 million views before removal, and fake videos of missile damage in Tel Aviv and Ben Gurion Airport circulated",
+      "claim_type": "feature",
+      "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
+      "source_fetched_at": "2026-06-05T18:30:00Z",
+      "raw_snippet": "pro-Iran TikTok accounts shared flight simulator clips as real airstrikes, reaching over 21 million views before removal. Fake videos showing missile damage in Tel Aviv and Ben Gurion Airport were shared, with some traced to Iran-linked sources.",
+      "confidence": "high"
+    },
+    {
+      "id": "poynter-old-footage",
+      "claim": "Much viral war imagery is not real or current: it is either AI-generated or old footage misrepresented as new",
+      "claim_type": "feature",
+      "source_url": "https://www.poynter.org/fact-checking/2026/fake-images-iran-war-how-spot-them/",
+      "source_fetched_at": "2026-06-05T18:15:00Z",
+      "raw_snippet": "Much of that viral imagery doesn't show real or current events. Often, it's generated with artificial intelligence or else it's old footage misrepresented as if it's new.",
+      "confidence": "high"
+    },
+    {
+      "id": "carnegie-industrial-level",
+      "claim": "AI-generated content related to the Iran-Israel conflict took disinformation to an industrial level",
+      "claim_type": "feature",
+      "source_url": "https://carnegieendowment.org/research/2025/07/iran-israel-ai-war-propaganda-is-a-warning-to-the-world?lang=en",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "AI-generated content related to the Iran-Israel conflict has taken disinformation to an industrial level",
+      "confidence": "high"
+    },
+    {
+      "id": "channel14-gallant-deepfake",
+      "claim": "In April 2025 an Israeli broadcast aired a manipulated AI video; the anchor stopped it on air, saying the words were not the minister's but AI inserting messages",
+      "claim_type": "feature",
+      "source_url": "https://www.getclarity.ai/ai-deepfake-blog/iranian-deepfake-of-israeli-defense-minister-airs-live----and-how-clarity-caught-it-instantly",
+      "source_fetched_at": "2026-06-05T18:10:00Z",
+      "raw_snippet": "On the first sentence I said stop the video. We apologize. This is cooked… These are not Gallant's words but AI trying to insert messages about the U.S. and the Houthis.",
+      "confidence": "high"
+    },
+    {
+      "id": "boi-impersonation-warning",
+      "claim": "The Bank of Israel warns the public about fraud by criminals impersonating representatives of banks, credit card companies, the Bank of Israel, and the Israel Police",
+      "claim_type": "feature",
+      "source_url": "https://www.boi.org.il/en/information-and-service-to-the-public/consumer-enquiries-and-inspections/warning-to-the-public-with-regard-to-fraud-by-impersonating-the-bank-of-israel-or-commercial-banks/",
+      "source_fetched_at": "2026-06-05T18:05:00Z",
+      "raw_snippet": "Criminal elements are trying to conduct fraudulent activity with the aim of misappropriating funds from customers by impersonating representatives of banks, credit card companies, the Bank of Israel, and the Israel Police among others.",
+      "confidence": "high"
+    },
+    {
+      "id": "police-105-bureau",
+      "claim": "Israel's 105 hotline (Child Online Protection Bureau) takes reports of online harm to minors, including impersonation and AI-generated voices and videos, and is reachable by calling 105",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/en/departments/units/105_call_center",
+      "source_fetched_at": "2026-06-05T18:20:00Z",
+      "raw_snippet": "The 105 hotline is a unique national call center that accepts queries and reports from the public and provides professional responses to harm, violence, and crime aimed at children and adolescents in cyberspace.",
+      "confidence": "high"
+    },
+    {
+      "id": "cyber-119-hotline",
+      "claim": "119 is Israel's national cybersecurity hotline, part of the CERT run by the National Cyber Directorate, a 24/7 free service where anyone can report a cyberattack or suspicion of attack",
+      "claim_type": "feature",
+      "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
+      "source_fetched_at": "2026-06-05T19:03:00Z",
+      "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline. The initiative is part of the national CERT — Computer Emergency Response Team — that is based in Beersheba. The hotline ... is a 24/7 free service where anyone can report a cyberattack or suspicion of attack and get immediate help.",
+      "confidence": "high"
+    },
+    {
+      "id": "synthid-watermark",
+      "claim": "Google SynthID embeds an imperceptible watermark into AI-generated images, audio, and video produced by Google AI models",
+      "claim_type": "feature",
+      "source_url": "https://deepmind.google/science/synthid/",
+      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "raw_snippet": "SynthID embeds digital watermarks directly into AI-generated images, audio, text or video.",
+      "confidence": "high"
+    }
+  ]
+}
