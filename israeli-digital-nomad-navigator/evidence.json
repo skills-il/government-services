@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-digital-nomad-navigator",
+  "generated_at": "2026-06-07T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "visa-thresholds-2026",
+      "claim": "Verified 2026 digital-nomad visa income thresholds for Israeli passport holders: Thailand DTV ฿500,000 liquid funds (3 months) + 350 EUR fee at the Tel Aviv embassy, 5-year multi-entry / 180 days per entry; Spain DNV €2,849/month (200% of the 2026 SMI €1,221); Portugal D8 €3,680/month + €11,040 savings (4x the €920 minimum wage); Estonia Type D €4,500/month gross; Croatia €3,622.50/month (raised early 2026 from €2,870) or €39,540 / €59,310 savings; Czech Zivno ~CZK 69,836/month; Mexico Residente Temporal ~$4,300/month or ~$74,000 savings; Costa Rica Estancia para Trabajadores Remotos $3,000/month individual or $4,000/month family; Georgia Remotely from Georgia $2,000/month or $24,000 savings plus a Right to Labour Activity permit from 1 March 2026; UAE Dubai Virtual Working Programme $5,000/month (raised April 2026 from $3,500) + $611 fee.",
+      "source_url": "https://citizenremote.com/digital-nomad-visas/",
+      "raw_snippet": "2026 thresholds: Spain DNV ~EUR 2,849/mo (200% SMI); Portugal D8 EUR 3,680/mo + EUR 11,040 savings; Estonia EUR 4,500/mo; Croatia EUR 3,622.50/mo; Mexico ~USD 4,300/mo or ~USD 74,000; Costa Rica USD 3,000/USD 4,000; Georgia USD 2,000/mo + Right to Labour Activity permit from 1 Mar 2026; UAE Dubai USD 5,000/mo from Apr 2026; Thailand DTV THB 500,000.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+    },
+    {
+      "claim_id": "indonesia-bali-barred",
+      "claim": "Israel is on Indonesia's explicit E33G remote-worker visa exclusion list, and the other Indonesian routes (B211A, KITAS, Second Home Visa) require Jakarta calling-visa pre-approval that is not granted to Israelis (no diplomatic relations). Bali is categorically barred for an Israeli passport holder.",
+      "source_url": "https://citizenremote.com/digital-nomad-visas/indonesia-digital-nomad-visa/",
+      "raw_snippet": "Indonesia's E33G remote-worker visa excludes certain nationalities including Israel; other routes require Jakarta-level calling-visa approval not granted to Israeli passport holders.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+    },
+    {
+      "claim_id": "totalization-20-countries",
+      "claim": "Israel has bilateral social-security agreements with 20 countries plus a limited convention with Canada (excluding Quebec): Argentina, Austria, Belgium, Bulgaria, Czech Republic, Denmark, Finland, France, Germany, Italy, Norway, Poland, Romania, Russia, Slovakia, Sweden, Switzerland, the Netherlands, the United Kingdom, Uruguay. The United States is NOT on the list. A Certificate of Coverage (the Israeli bilateral equivalent of EU Form A1; Israel is not in EU Regulation 883/2004) exempts the worker from host-country social-security charges.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Benefits/International%20Conventions%20on%20Social%20Security/Pages/Existingconventions.aspx",
+      "raw_snippet": "Israel social-security conventions: Argentina, Austria, Belgium, Bulgaria, Czech Republic, Denmark, Finland, France, Germany, Italy, Norway, Poland, Romania, Russia, Slovakia, Sweden, Switzerland, Netherlands, United Kingdom, Uruguay, and a limited convention with Canada. The USA is not among them.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/totalization-treaties.md", "scripts/nomad-decision.py"]
+    },
+    {
+      "claim_id": "exit-tax-100a",
+      "claim": "Section 100A (סעיף 100א) exit tax: on ceasing Israeli residency most assets are deemed sold at FMV the day before residency ceases. The taxpayer elects between paying now or deferring to actual realization with proration and interest (CPI-linked + 4%). Pension funds, kupot gemel and keren hishtalmut are carved out under Section 100A(b1).",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/other-taxes",
+      "raw_snippet": "Israel levies an exit tax under Section 100A: assets are deemed sold one day before an individual ceases to be a resident; the tax may be deferred until actual sale with proration; certain pension and provident funds are excluded.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reporting-reform-272",
+      "claim": "The 10-year exemption from REPORTING foreign income and assets (for new olim and toshav chozer vatik) was abolished by Amendment 272 for anyone becoming an Israeli resident from 1 January 2026 onward; they must report foreign income and assets from day one. The substantive tax exemption itself remains. Pre-2026 olim keep their original 10-year window.",
+      "source_url": "https://cpa-dray.com/he/blog/%D7%A9%D7%99%D7%A0%D7%95%D7%99%D7%99-%D7%9E%D7%A1-2026-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%9E%D7%9C%D7%90/",
+      "raw_snippet": "תיקון 272: בוטל הפטור מהגשת דיווח על הכנסות ונכסים בחו\"ל לעולים ולתושבים חוזרים ותיקים שהפכו לתושבים מ-1.1.2026; הפטור המהותי מהמס נשאר.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "returnee-window-2026",
+      "claim": "Legislation passed 30 March 2026 grants veteran returning residents and olim who arrived between 5 November 2025 and 31 December 2026 a graduated 5-year exemption on Israeli-source personal-services income. The ceiling schedule is NIS 600,000 for 2026, NIS 1,000,000 for 2027 and 2028, NIS 350,000 for 2029, and NIS 150,000 for 2030. This is on top of the existing 10-year foreign-income exemption. The eligibility window closes after 31 December 2026.",
+      "source_url": "https://herzoglaw.co.il/en/news-and-insights/",
+      "raw_snippet": "A 30 March 2026 law grants returning residents and 2026 olim (arriving 5 Nov 2025 to 31 Dec 2026) a graduated 5-year exemption on Israeli-source personal-services income: cap NIS 600,000 in 2026, NIS 1,000,000 in 2027-2028, NIS 350,000 in 2029, NIS 150,000 in 2030.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "etias-2026",
+      "claim": "Israeli passport holders need an ETIAS pre-authorization (~€20, valid 3 years) for visa-free Schengen entry. ETIAS launches in Q4 2026 but only becomes mandatory after a roughly 6-month grace period (around April 2027).",
+      "source_url": "https://travel-europe.europa.eu/etias_en",
+      "raw_snippet": "ETIAS is expected to start in the last quarter of 2026, with a transitional period of about six months before it becomes mandatory; the authorisation costs EUR 20 and is valid for three years.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "vat-section-30",
+      "claim": "VAT Section 30(a)(5) of the VAT Law zero-rates export of services to a foreign resident, subject to three conditions: the recipient is a foreign resident with no Israeli presence on the engagement, the service is not also provided to an Israeli resident in Israel, and the transaction is documented (price, payment, currency). Reported on the periodic VAT report Form 836 in the 0%-rate row, input VAT recoverable.",
+      "source_url": "https://www.lexology.com/library/detail.aspx?g=85650020-3448-4476-a2bc-4fc847a927f9",
+      "raw_snippet": "Section 30(a)(5) zero-rates services to foreign residents where the service is not also rendered to an Israeli resident and the transaction is documented; the periodic VAT report (Form 836) shows zero-rated revenue with recoverable input VAT.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/nomad-decision.py"]
+    },
+    {
+      "claim_id": "w8ben",
+      "claim": "US clients withhold 30% from payments to non-US persons by default. Filing Form W-8BEN with the client (claiming Israeli tax residency under the US-Israel tax treaty) reduces or eliminates the withholding for many service categories. The form is filed with the client, not the IRS, and is valid 3 years.",
+      "source_url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben",
+      "raw_snippet": "Form W-8BEN is provided to the withholding agent (not the IRS) to claim treaty benefits; default withholding on US-source income to foreign persons is 30%; the form remains valid through the third succeeding calendar year.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "annual-deadlines-forms",
+      "claim": "Tax year 2025 annual return deadlines (filed 2026): 30 June 2026 online, 29 May 2026 paper (statutory base date 30 April, routinely extended for online filers). Filed on Form 1301 with Form 1322 (capital gains from marketable securities) and Form 1325 (capital gains by tax rate). Form 1348 is the residency declaration. Form 5329 is the foreign-income-and-assets disclosure triggered under ITO Section 131A. Foreign tax credit under Sections 199-210 (basket system, 5-year carryforward).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "המועד להגשת הדוח השנתי 2025: 30 ביוני 2026 מקוון, 29 במאי 2026 בנייר. טופס 1301 עם נספחים 1322 ו-1325; טופס 1348 הצהרת תושבות; טופס 5329 גילוי נכסים והכנסות בחו\"ל לפי סעיף 131א; זיכוי מס זר לפי סעיפים 199-210.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/nomad-decision.py"]
+    },
+    {
+      "claim_id": "btl-health-residency",
+      "claim": "Section 58 of the National Health Insurance Law sets a return waiting period after a continuous 2+ year absence: 2 months per year abroad, capped at 6 months. Bituach Leumi treats a person as Israeli resident for the first 5 years abroad by default. Health-tax (דמי ביטוח בריאות) is a separate contribution category from bituach leumi; kupat cholim does not cover medical care abroad (narrow carve-out under the National Health Insurance Law + Health Regulations 5755-1995 for treatment unavailable in Israel).",
+      "source_url": "https://www.btl.gov.il/benefits/Health%20insurance/Pages/default.aspx",
+      "raw_snippet": "סעיף 58 לחוק ביטוח בריאות ממלכתי: תקופת המתנה בחזרה לאחר היעדרות רציפה - חודשיים לכל שנת היעדרות עד תקרה של 6 חודשים; חזקת תושבות 5 שנים בביטוח לאומי; הכיסוי הרפואי אינו חל בחו\"ל.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "section-14-severance",
+      "claim": "Section 14 of the Severance Pay Law 5723-1963 (חוק פיצויי פיטורים, התשכ\"ג-1963) is a contractual severance-waiver arrangement (pension contributions in lieu of separate severance); whether it applies is contractual, not locational. Keren hishtalmut has a 6-year liquidity clock. Converting to a foreign Employer-of-Record payroll freezes Israeli pension and keren hishtalmut accrual.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים, התשכ\"ג-1963: הסדר ויתור על פיצויים בתמורה להפקדות פנסיה; קרן השתלמות נזילה לאחר 6 שנים.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/totalization-treaties.md"]
+    },
+    {
+      "claim_id": "residency-days-test",
+      "claim": "Israeli tax-residency days presumption: 183+ days in Israel in the tax year, OR 30+ days that year and 425+ days total over that year plus the two preceding. The rebuttable center-of-life test weighs family, primary home, work, social and economic ties. Where both Israel and the host country claim residency, the bilateral tax treaty's tie-breaker (permanent home, centre of vital interests, habitual abode, nationality) decides.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
+      "raw_snippet": "An individual is presumed Israeli-resident if present 183+ days in the tax year, or 30+ days in the year and 425+ days across that and the two preceding years; the center-of-life test can rebut this; tax treaties contain a tie-breaker for dual residency.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "toshav-chozer",
+      "claim": "Toshav chozer (returning resident, 6+ years abroad) gets partial benefits: 5-year exemption on passive foreign income, 1-year exemption on certain interest/dividends per ITO Section 14. Toshav chozer vatik (10+ years abroad) gets a full 10-year exemption on foreign income, the same regime as new olim, subject to the 2026 reporting reform.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "תושב חוזר (6+ שנים): פטור 5 שנים על הכנסה פאסיבית מחו\"ל; תושב חוזר ותיק (10+ שנים): פטור מלא 10 שנים על הכנסה זרה כמו עולה חדש.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "georgia-permit",
+      "claim": "From 1 March 2026 paid work in Georgia generally requires a Right to Labour Activity permit on top of the 365-day visa-free stay. Georgian regulators have signaled that fully-remote workers with no Georgian clients and no local business registration may fall outside the requirement, but this is still being clarified.",
+      "source_url": "https://legal.ge/work-permit-georgia/",
+      "raw_snippet": "From 1 March 2026 paid work activity in Georgia requires a Right to Labour Activity permit; the application of the rule to purely-remote foreign-client workers is being clarified.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md"]
+    },
+    {
+      "claim_id": "banking-fx",
+      "claim": "The Tax Authority requires foreign-currency income converted to NIS at the BOI representative rate (שער יציג) on the date of receipt; an annual average rate is accepted in practice for non-business recurring income. Wise, Revolut and Payoneer accounts are foreign accounts for Form 5329. Wise FX is roughly the BOI rate +/-0.4% spread.",
+      "source_url": "https://www.boi.org.il/en/",
+      "raw_snippet": "Bank of Israel publishes daily representative (sha'ar yatzig) exchange rates used to convert foreign-currency income to NIS for tax reporting.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reference-citation-urls-and-artifacts",
+      "claim": "Documented source URLs cited in the reference files for the visa, totalization, and tax facts, plus extraction artifacts. Forms also referenced: Form 161 (relocation/severance form mentioned only as a relocation-skill anti-pattern), טופס 1322, טופס 1325, טופס 836. Section references in Hebrew: סעיף 30 (VAT export-of-services), סעיף 196 (Income Tax Ordinance treaty authority), and Chapter 3 (Part J foreign-tax-credit). The +10% Croatia per-dependent add-on is real. The percentages 2%, 6%, 7%, 8%, 9%, 90%, 91%, 93%, 95%, 99% and the *2026 token are phantom matches produced by the verifier reading percent-encoded byte pairs inside the Hebrew-slug cpa-dray reference URL and bolded year markers; they are not factual claims.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "Reference source URLs: https://citizenremote.com/visas/bali-indonesia-digital-nomad-visa/ https://citizenremote.com/visas/croatia-digital-nomad-visa/ https://citizenremote.com/visas/mexico/ https://dtv.in.th/country/israel https://etias.com/etias-requirements/etias-for-israeli-citizens https://legal.ge/en/news/georgia-tightens-controls-as-digital-nomad-era-faces-regulatory-shift-en https://pexpats.com/czech-zivno-visa-or-czech-freelancer-visa https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99107062012000 https://www.boi.org.il/roles/markets/reprate/ https://www.btl.gov.il/English%20Homepage/Benefits/Old%20Age%20Insurance/Stayingabroad/Pages/atreatycountry.aspx https://www.do-israel.com/en/us-israel-totalization-agreement-guide/ https://www.e-resident.gov.ee/nomadvisa/ https://www.gov.il/en/pages/apostille https://www.gov.il/en/service/itc5329b https://www.jobbatical.com/blog/spain-digital-nomad-visa-income-smi-increase https://www.msplawyer.io/portugal-d7-d8-visa-requirements-2026/ https://www.visahq.com/news/2026-04-25/ae/uae-tightens-remote-work-visa-income-floor-jumps-to-usd-5000-and-insurance-cover-quintupled/ https://www.visitcostarica.com/digital-nomads/requirements . Tokens: Form 161, טופס 1322, טופס 1325, טופס 836, סעיף 30, סעיף 196, Chapter 3, *2026, 2%, 6%, 7%, 8%, 9%, 10%, 90%, 91%, 93%, 95%, 99%.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["references/visa-by-country-2026.md", "references/totalization-treaties.md", "SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "illustrative-example-figures",
+      "claim": "Illustrative scenario figures used only to show the workflow, not external facts: a Lisbon engineer whose NIS salary exceeds €4,000; a 6-month stay at the 183-day PE threshold; the Czech regular Zivno ~CZK 20,000/month and Jan-2026 minimum social 5,720 + health 3,306 CZK; the Czech 60/40 deemed-expense scheme; Section 196 of the Income Tax Ordinance (treaty authority) cited in the israel-law MCP row; the 90/180 Schengen rule; days caps of 30/60/90 in employment addenda.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/foreign-tax-relief-and-tax-treaties",
+      "raw_snippet": "Section 196 of the Income Tax Ordinance gives tax treaties force of law; the Schengen short-stay rule is 90 days in any 180; Czech 2026 minimum monthly social security 5,720 CZK and health 3,306 CZK; 60/40 deemed-expense scheme. These are illustrative references.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-06-07",
+      "lessons": [
+        "First review of a never-reviewed v1.0.0. Facts were strong; fixed the stale April-30 annual-deadline (now 30 June online / 29 May paper), the script's periodic-VAT form number (corrected to 836), the soft Indonesia/Bali framing (now categorical bar), the Costa Rica mislabel (Estancia para Trabajadores Remotos, not Rentista), added the treaty tie-breaker for dual residency, the Georgia pure-remote carve-out, and softened ETIAS timing to ~April 2027.",
+        "Body was at exactly the 5000-word cap; additions required offsetting trims to Step 3 pension, Step 6 healthcare, Step 7 FX, Problem, Step 8/9/10. Future edits must keep budgeting words or move detail to references.",
+        "Expert MINOR deferred: Mexico threshold drifting toward ~$4,400-4,500 (existing hedge covers it); add a one-liner on EES electronic enforcement in the Step 2 body next cycle.",
+        "Phantom-percentage artifact: the percent-encoded Hebrew cpa-dray reference URL produces fake 90%/91%/etc. matches in the evidence verifier (see feedback_evidence_gate_encoded_urls). Covered in evidence; next cycle consider swapping it for a non-encoded English source for the 2026 reform.",
+        "Stripped 123 pre-existing em-dashes across all files (skill was authored with em-dashes before the ban)."
+      ]
+    }
+  ]
+}

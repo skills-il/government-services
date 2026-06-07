@@ -1,6 +1,6 @@
-# Digital Nomad Visa by Country — 2026 Reference for Israeli Passport Holders
+# Digital Nomad Visa by Country - 2026 Reference for Israeli Passport Holders
 
-This is the reference table the skill cites in Step 2. Verify the current value before quoting any threshold to a user — visa programs change income requirements when the underlying minimum wage moves.
+This is the reference table the skill cites in Step 2. Verify the current value before quoting any threshold to a user - visa programs change income requirements when the underlying minimum wage moves.
 
 ## Quick verdict per country (sorted by Israeli-nomad popularity)
 
@@ -13,10 +13,10 @@ This is the reference table the skill cites in Step 2. Verify the current value 
 | Croatia | Digital Nomad Residence | ✓ Available | €3,622.50/month (raised from €2,870 early 2026) OR €39,540 savings | Up to 18 months, non-renewable consecutively (6-month gap to reapply); foreign-source income exempt from Croatian tax |
 | Czech Republic | Zivno (digital-nomad track for IT/marketing) | ✓ Available | ~CZK 69,836/month (1.5× Czech average) for nomad track, or ~CZK 20,000/month for regular Zivno | Trade-license route; from Jan 2026 minimum monthly social-security 5,720 CZK + health 3,306 CZK; 60/40 deemed-expense scheme available |
 | Mexico | Residente Temporal | ✓ Available | ~USD 4,300/month for prior 6 months OR ~USD 74,000 savings for prior 12 months (some consulates demand higher) | 1-year, renewable up to 4 total |
-| Costa Rica | Estancia (Rentista) | ✓ Available | USD 3,000/month individual or USD 4,000/month family from outside Costa Rica | 2 years (1+1); foreign income tax-exempt; 180-day minimum presence to renew |
+| Costa Rica | Estancia para Trabajadores Remotos (the digital-nomad visa, distinct from the separate Rentista visa) | ✓ Available | USD 3,000/month individual or USD 4,000/month family from outside Costa Rica | 2 years (1+1); foreign income tax-exempt; 180-day minimum presence to renew |
 | Georgia | Remotely from Georgia + Right to Labour Activity (1 Mar 2026) | ✓ Available with permit caveat | USD 2,000/month or USD 24,000 savings | 365-day visa-free historically; from 1 March 2026 paid work also requires Right to Labour Activity permit |
 | UAE | Dubai Virtual Working Programme | ✓ Available | USD 5,000/month + valid foreign employer (raised from $3,500 Apr 2026) + 6 months of statements | $611 fee + UAE-valid health insurance; 1 year, renewable; zero personal income tax |
-| Indonesia (Bali) | B211A / E33G / KITAS / Second Home | ✗ **NOT AVAILABLE — Israelis explicitly barred (2026)** | — | Israeli citizens listed alongside Afghanistan, North Korea and others on Indonesia's exclusion list. Do not advise an Israeli to apply |
+| Indonesia (Bali) | B211A / E33G / KITAS / Second Home | ✗ **NOT AVAILABLE - Israelis explicitly barred (2026)** | - | Israeli citizens listed alongside Afghanistan, North Korea and others on Indonesia's exclusion list. Do not advise an Israeli to apply |
 
 ## Documentation typically required (varies per embassy)
 
@@ -27,7 +27,7 @@ This is the reference table the skill cites in Step 2. Verify the current value 
 - Translated lease or accommodation booking
 - Employment contract or proof of self-employment (osek murshe certificate apostilled)
 - For DNV programs: university degree (or proof of 3+ years of relevant experience as a substitute) and private health insurance with required coverage tiers
-- Schengen ETIAS pre-authorization (~€7, valid 3 years) for application travel from late 2026 onwards
+- Schengen ETIAS pre-authorization (~€20, valid 3 years) for application travel from late 2026 onwards
 - Some embassies require Hebrew↔English↔target-language tri-language translation chain with separate apostilles
 
 ## Schengen 90/180 management

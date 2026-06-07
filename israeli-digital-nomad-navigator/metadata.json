@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -78,12 +78,36 @@
   ],
   "volatility": "legislative",
   "authoritative_sources": [
-    { "url": "https://www.btl.gov.il/English%20Homepage/Benefits/International%20Conventions%20on%20Social%20Security/Pages/Existingconventions.aspx", "type": "regulator", "language": "en" },
-    { "url": "https://www.gov.il/he/departments/israel_tax_authority", "type": "regulator", "language": "he" },
-    { "url": "https://www.gov.il/en/service/itc5329b", "type": "regulator", "language": "en" },
-    { "url": "https://dtv.in.th/country/israel", "type": "official-portal", "language": "en" },
-    { "url": "https://www.boi.org.il/en/", "type": "regulator", "language": "en" },
-    { "url": "https://www.gov.il/en/pages/apostille", "type": "regulator", "language": "en" }
+    {
+      "url": "https://www.btl.gov.il/English%20Homepage/Benefits/International%20Conventions%20on%20Social%20Security/Pages/Existingconventions.aspx",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/en/service/itc5329b",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://dtv.in.th/country/israel",
+      "type": "official-portal",
+      "language": "en"
+    },
+    {
+      "url": "https://www.boi.org.il/en/",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.gov.il/en/pages/apostille",
+      "type": "regulator",
+      "language": "en"
+    }
   ],
   "domain_checklist_version": 1
 }

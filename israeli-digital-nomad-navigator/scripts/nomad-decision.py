@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Israeli Digital Nomad Navigator — interactive decision script.
+"""Israeli Digital Nomad Navigator - interactive decision script.
 
 Takes the user's situation (employment shape, destination, duration, intent)
 and outputs a phased checklist of Israeli-side actions, with cross-references
@@ -31,7 +31,7 @@ TOTALIZATION_FULL = {
 }
 TOTALIZATION_LIMITED = {"canada"}  # excluding Quebec
 
-# 2026 visa data — verified per references/visa-by-country-2026.md.
+# 2026 visa data - verified per references/visa-by-country-2026.md.
 VISA_DATA: dict[str, dict[str, str]] = {
     "thailand": {
         "program": "DTV (Destination Thailand Visa)",
@@ -69,7 +69,7 @@ VISA_DATA: dict[str, dict[str, str]] = {
         "available": "yes",
     },
     "czech_republic": {
-        "program": "Zivno (zivnostensky list — freelance/digital-nomad track)",
+        "program": "Zivno (zivnostensky list - freelance/digital-nomad track)",
         "income": "~CZK 69,836/month for IT/marketing nomad track, or ~CZK 20,000/month for regular Zivno",
         "fee": "Consular fee + monthly social-security 5,720 CZK + health 3,306 CZK from Jan 2026",
         "validity": "1 year, renewable",
@@ -83,7 +83,7 @@ VISA_DATA: dict[str, dict[str, str]] = {
         "available": "yes",
     },
     "costa_rica": {
-        "program": "Estancia (Rentista para Trabajadores Remotos)",
+        "program": "Estancia para Trabajadores Remotos (digital-nomad visa; distinct from the separate Rentista visa)",
         "income": "USD 3,000/month individual or USD 4,000/month family from outside Costa Rica",
         "fee": "Consular fee",
         "validity": "2 years (1+1); 180-day minimum presence to renew; foreign income tax-exempt",
@@ -105,24 +105,24 @@ VISA_DATA: dict[str, dict[str, str]] = {
     },
     "indonesia": {
         "program": "B211A / E33G / KITAS / Second Home",
-        "income": "—",
-        "fee": "—",
-        "validity": "—",
-        "available": "no — Israeli citizens explicitly barred as of 2026",
+        "income": "-",
+        "fee": "-",
+        "validity": "-",
+        "available": "no - Israeli citizens explicitly barred as of 2026",
     },
     "bali": {
         "program": "B211A / E33G / KITAS / Second Home",
-        "income": "—",
-        "fee": "—",
-        "validity": "—",
-        "available": "no — Israeli citizens explicitly barred as of 2026",
+        "income": "-",
+        "fee": "-",
+        "validity": "-",
+        "available": "no - Israeli citizens explicitly barred as of 2026",
     },
     "usa": {
         "program": "No dedicated digital-nomad visa",
-        "income": "—",
-        "fee": "—",
+        "income": "-",
+        "fee": "-",
         "validity": "ESTA visa-free 90 days (recent change for Israelis); B1/B2 for longer",
-        "available": "limited — work on tourist/ESTA is technically prohibited",
+        "available": "limited - work on tourist/ESTA is technically prohibited",
     },
 }
 
@@ -191,7 +191,7 @@ def build_plan(
     elif is_limited_treaty:
         plan.treaty_status = (
             f"{destination.title()} has a LIMITED convention with Israel (Canada excludes Quebec). "
-            "Coverage is narrower than full treaties — confirm scope with BTL international affairs."
+            "Coverage is narrower than full treaties - confirm scope with BTL international affairs."
         )
     else:
         plan.treaty_status = (
@@ -204,11 +204,11 @@ def build_plan(
     if intent == "stay" or duration_months < 24:
         plan.residency_strategy = (
             "Default: stay an Israeli tax resident. Continue paying bituach leumi to keep "
-            "kupat cholim active. File Form 1322/1325 annually with worldwide income."
+            "kupat cholim active. File Form 1301 (base annual return) annually with worldwide income; add 1322/1325 only for capital gains."
         )
     elif intent == "cut":
         plan.residency_strategy = (
-            "Cutting residency (nituk toshavut). MODEL Section 100A exit tax FIRST — "
+            "Cutting residency (nituk toshavut). MODEL Section 100A exit tax FIRST - "
             "deemed sale of all assets at FMV the day before residency ceases. "
             "Lose kupat cholim continuity; toshav chozer benefits require 6+ years out, "
             "toshav chozer vatik 10+ years out."
@@ -226,7 +226,7 @@ def build_plan(
         "File 'הודעה על שהייה בחו״ל' notification with Bituach Leumi.",
         "Buy a long-stay insurance policy that explicitly covers REMOTE WORK (SafetyWing, Genki, or an Israeli policy with working-abroad rider). Standard travel insurance excludes work activity and long stays.",
         "Open a Wise multi-currency account if not already; consider Payoneer if clients pay via marketplaces; keep at least one Israeli credit card active for gov.il portal payments.",
-        "ETIAS pre-authorization for any Schengen application travel (€7, valid 3 years).",
+        "ETIAS pre-authorization for any Schengen application travel (€20, valid 3 years).",
     ])
 
     # Employee branch
@@ -249,7 +249,7 @@ def build_plan(
             "No client meetings in the host country, no signing authority used there, no commercial office in the employer's name, no local hires."
         )
         plan.flags.append(
-            "Section 14, keren hishtalmut, and pension contributions all CONTINUE on Israeli payroll — they do not pause while abroad."
+            "Section 14, keren hishtalmut, and pension contributions all CONTINUE on Israeli payroll - they do not pause while abroad."
         )
 
     # Freelancer branch
@@ -260,7 +260,7 @@ def build_plan(
             "Draft a bilingual EN/HE service agreement template with: parties + jurisdiction + IL governing law, IP assignment, NDA, USD/EUR payment terms, late-payment interest, termination + cure, Section 30 documentation hooks.",
         ])
         plan.actions_annual.append(
-            "Periodic VAT report (Form 874): zero-rated revenue goes in the 0%-rate row; input VAT on related expenses still recoverable."
+            "Periodic VAT report (Form 836): zero-rated revenue goes in the 0%-rate row; input VAT on related expenses still recoverable."
         )
 
     # Living-abroad common actions
@@ -271,7 +271,7 @@ def build_plan(
 
     # Annual cycle
     plan.actions_annual.extend([
-        "By 30 April of the following tax year: file Form 1301 (the main individual annual return) with Form 1322 (capital gains supplement) and Form 1325 (capital gains by tax rate) as needed.",
+        "Annual return deadline (tax year 2025, filed 2026): 30 June 2026 for online filers, 29 May 2026 for paper (the bare statutory date is 30 April but online filers get the extension; the ITA posts each year's dates). File Form 1301 (main individual return) with Form 1322 and Form 1325 supplements as needed.",
         "Apply foreign tax credit (זיכוי מס זר) under Sections 199-210 of the Income Tax Ordinance and any applicable bilateral treaty. Use the income-source basket system; excess credits carry forward up to 5 years per basket.",
         "If foreign income/assets cross the ITO sec. 131A trigger thresholds (verify current year on gov.il/en/service/itc5329b before filing): file Form 5329 disclosure listing each foreign account (Wise, Revolut, Payoneer, foreign bank).",
         "Convert all amounts to NIS at BOI שער יציג (representative rate) on the date of receipt for business income.",
@@ -290,7 +290,7 @@ def build_plan(
         )
     if intent == "cut":
         plan.flags.append(
-            "Section 100A exit tax can produce a very large bill on vested startup equity — model BEFORE filing nituk toshavut."
+            "Section 100A exit tax can produce a very large bill on vested startup equity - model BEFORE filing nituk toshavut."
         )
     if duration_months <= 12 and intent == "stay":
         plan.flags.append(
@@ -303,7 +303,7 @@ def build_plan(
 def render_plan(plan: Plan) -> str:
     out = []
     out.append("=" * 70)
-    out.append("ISRAELI DIGITAL NOMAD NAVIGATOR — Personalized plan")
+    out.append("ISRAELI DIGITAL NOMAD NAVIGATOR - Personalized plan")
     out.append("=" * 70)
     out.append("")
     out.append("USER SITUATION:")
@@ -337,13 +337,13 @@ def render_plan(plan: Plan) -> str:
         out.append("")
     out.append("=" * 70)
     out.append("Pair this plan with a Roeh Cheshbon and a labor lawyer before filing.")
-    out.append("Forms: 1322/1325 (annual), 1348 (residency declaration), 5329 (foreign assets), A1 (totalization).")
+    out.append("Forms: 1301 (base annual return), 1322/1325 (capital-gains supplements), 1348 (residency declaration), 5329 (foreign assets), A1 (totalization).")
     out.append("=" * 70)
     return "\n".join(out)
 
 
 def interactive() -> tuple[EmploymentShape, str, int, ResidencyIntent]:
-    print("Israeli Digital Nomad Navigator — interactive setup")
+    print("Israeli Digital Nomad Navigator - interactive setup")
     print()
     print("Employment shape:")
     print("  1. Israeli employee on tlush maskoret")
@@ -361,7 +361,7 @@ def interactive() -> tuple[EmploymentShape, str, int, ResidencyIntent]:
     duration_in = input("Intended duration (e.g., 6m, 18m, 2y): ").strip()
     duration_months = parse_duration(duration_in)
 
-    intent_in = input("Residency intent — stay Israeli resident, cut residency, or undecided? [stay/cut/undecided]: ").strip().lower()
+    intent_in = input("Residency intent - stay Israeli resident, cut residency, or undecided? [stay/cut/undecided]: ").strip().lower()
     intent_map: dict[str, ResidencyIntent] = {
         "stay": "stay", "cut": "cut", "undecided": "undecided",
     }
