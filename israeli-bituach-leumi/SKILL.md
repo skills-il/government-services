@@ -196,6 +196,22 @@ NI is collected on income up to a monthly cap, with two brackets:
 
 Self-employed pay both shares (employee + employer-equivalent) and cannot claim unemployment. They can claim every other benefit. Verify rates against the live BTL pages (`btl.gov.il/Insurance/.../rates.aspx`) at filing time, rates can shift mid-year on amendment.
 
+### Non-Working Residents and Non-Work (Passive) Income (2026)
+
+Working-age residents who are NOT salaried and NOT self-employed (for example: not working, living off savings, students, residents working abroad for a foreign employer) still owe NI and health insurance.
+
+| Situation | Monthly charge (2026) |
+|---|---|
+| Not working, no income | **Minimum 266 NIS/month** = 143 NIS NI + 123 NIS health |
+| Non-work (passive) income up to 3,442 NIS/month | Exempt (0) |
+| Non-work income 3,442 to 7,703 NIS (reduced tier) | 6.92% NI + 5.17% health = **12.09%** on the amount above 3,442 |
+| Non-work income 7,703 to 51,910 NIS (full tier) | 7.0% NI + 5.17% health = **12.17%** |
+
+- "Non-work income" (הכנסה שלא מעבודה) means passive income such as rent, dividends, interest, and pensions from abroad. The first 3,442 NIS/month is exempt; rates apply only to the amount above it.
+- The minimum 266 NIS still applies as a floor: a non-working resident pays the greater of the passive-income calculation or 266 NIS/month.
+- BTL sends a quarterly advance-payment book (pinkas mikdamot) for non-employees; amounts are paid each quarter.
+- Source: `btl.gov.il/Insurance/National Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx` and `btl.gov.il/Insurance/Rates` (non-working and non-work-income pages), 2026 figures effective 01.01.2026.
+
 ## Digital Channels
 
 1. **Personal area (preferred):** https://ps.btl.gov.il, most claims have full digital flows; the form-PDF is auto-generated from the wizard.
