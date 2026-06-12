@@ -198,19 +198,29 @@ Self-employed pay both shares (employee + employer-equivalent) and cannot claim 
 
 ### Non-Working Residents and Non-Work (Passive) Income (2026)
 
-Working-age residents who are NOT salaried and NOT self-employed (for example: not working, living off savings, students, residents working abroad for a foreign employer) still owe NI and health insurance.
+A working-age resident (18 to retirement age) who is NOT salaried, NOT self-employed, and NOT an exempt non-working spouse still owes NI and health insurance on their own account. The base table below applies to that person only. Read the exemptions and the coordination rule that follow, because they change the answer for several common cases (getting them wrong is the most frequent error here).
 
-| Situation | Monthly charge (2026) |
+| Situation (base case: own account, no work income) | Monthly charge (2026) |
 |---|---|
-| Not working, no income | **Minimum 266 NIS/month** = 143 NIS NI + 123 NIS health |
-| Non-work (passive) income up to 3,442 NIS/month | Exempt (0) |
+| Not working, no income | **Minimum 266 NIS/month** (143 NIS NI + 123 NIS health) |
+| Non-work (passive) income up to 3,442 NIS/month | Exempt from the rate, but the 266 minimum still applies |
 | Non-work income 3,442 to 7,703 NIS (reduced tier) | 6.92% NI + 5.17% health = **12.09%** on the amount above 3,442 |
 | Non-work income 7,703 to 51,910 NIS (full tier) | 7.0% NI + 5.17% health = **12.17%** |
 
-- "Non-work income" (הכנסה שלא מעבודה) means passive income such as rent, dividends, interest, and pensions from abroad. The first 3,442 NIS/month is exempt; rates apply only to the amount above it.
-- The minimum 266 NIS still applies as a floor: a non-working resident pays the greater of the passive-income calculation or 266 NIS/month.
-- BTL sends a quarterly advance-payment book (pinkas mikdamot) for non-employees; amounts are paid each quarter.
-- Source: `btl.gov.il/Insurance/National Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx` and `btl.gov.il/Insurance/Rates` (non-working and non-work-income pages), 2026 figures effective 01.01.2026.
+"Non-work income" (הכנסה שלא מעבודה) means passive income such as rent, dividends, and interest. The first 3,442 NIS/month is exempt; rates apply only to the amount above it. The 266 NIS minimum applies as a floor, so a non-working resident pays the greater of the passive-income calculation or 266 NIS/month. BTL sends a quarterly advance-payment book (pinkas mikdamot) for non-employees.
+
+**Exemptions and exceptions (these OVERRIDE the base table, do not apply the table to these people):**
+
+| Who | Treatment |
+|---|---|
+| Non-working spouse (עקרת בית, or a non-working partner of an insured resident, including common-law and same-sex marriage) | **Fully exempt, pays 0** NI and health on their own account. Granted automatically in most cases; otherwise reported via Form 673 (spouse-exemption declaration) or the Form 6101 multi-year declaration. Lumping this person under the 266 minimum is the single most common mistake. |
+| Old-age pension recipient / past retirement age | Special treatment, NOT the flat table. For benefit recipients, non-work income up to **688 NIS/month (2026)** is exempt, and the NI portion generally does not apply to a pensioner's income (health may still apply). Verify the exact split with BTL before quoting a number. |
+| Person with BOTH work income (salary or self-employment) AND passive income | The 3,442 NIS exemption does NOT stack on top of work income. Work income consumes the exemption, so passive income is charged separately (often from the first shekel for higher earners). This is a coordination calculation, do not treat passive income as exempt just because it is below 3,442. |
+| New immigrant (oleh) in the early residency window, full-time student, or resident working abroad for a foreign employer | Special rules apply (oleh reductions, bilateral social-security treaty coordination for a foreign employer). Treat as a separate case, not the base table. |
+
+- Under-18s are not separately liable; coverage is through the household.
+- The 266 minimum and the 3,442 / 688 thresholds are average-wage-indexed and update each January and July.
+- Source: `btl.gov.il/Insurance/National Insurance/Pages/מי פטור מתשלום דמי ביטוח לאומי.aspx` (exemptions), `btl.gov.il/Insurance/National Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx` (minimum), `btl.gov.il/Insurance/Rates` (non-working and non-work-income), and kolzchut "פטור מתשלום דמי ביטוח לאומי", 2026 figures effective 01.01.2026.
 
 ## Digital Channels
 

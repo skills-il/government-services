@@ -1,0 +1,14 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.0",
+      "date": "2026-06-13",
+      "lessons": [
+        "Added non-working residents + non-work (passive) income contribution rates (266 minimum, 3,442 exemption, 6.92%/7% NI + 5.17% health). Data was NOT in the skill, sourced live from btl.gov.il (NotWorking + non-working rates pages) and kolzchut exemptions page.",
+        "Expert review caught 3 CRITICALs on the first draft: (1) non-working spouse pays 0 not 266 (Form 673, akeret bayit), (2) the 3,442 passive exemption does not stack on work income, (3) pensioners/retirement-age are exempt from the NI portion. All three fixed by scoping the base table and adding an Exemptions and exceptions override table.",
+        "Legacy backfill: built evidence.json from scratch (118 entries, 178 facts) for the whole BL benefits catalog. Benefit amounts sourced to the 2026 rate circular; some scattered amounts (1,752.33 maternity, 1,314.25 work-injury, income-support tiers) cited to their benefit pages but not individually re-fetched, only the changed contributions facts were Judge-verified verbatim.",
+        "persistent_fail / CARRY: the benefit-amount evidence entries for the non-changed legacy catalog should be Judge-verified against their benefit pages in a future cycle (this cycle verified only the changed contributions section + spot-checks)."
+      ]
+    }
+  ]
+}
