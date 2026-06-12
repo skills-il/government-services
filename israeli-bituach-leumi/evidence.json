@@ -1300,6 +1300,127 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "pct-3_93",
+      "claim": "Working pensioner (67-70, not receiving old-age pension) employee NI+health reduced rate: 3.93%",
+      "raw_snippet": "3.93%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-10_03",
+      "claim": "Working pensioner (67-70, not receiving pension) employee full rate: 10.03%",
+      "raw_snippet": "10.03%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-3_95",
+      "claim": "Woman between retirement age and 67, not receiving pension, employee reduced rate: 3.95%",
+      "raw_snippet": "3.95%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-10_24",
+      "claim": "Woman between retirement age and 67, not receiving pension, employee full rate: 10.24%",
+      "raw_snippet": "10.24%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-4_86",
+      "claim": "Working pensioner full-bracket NI component 4.86% (4.86 NI + 5.17 health = 10.03)",
+      "raw_snippet": "4.86%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-age-zero",
+      "claim": "Under-18 employees and old-age-pension recipients have a 0% employee deduction (employer still pays the reduced 0.61%/2.12%)",
+      "raw_snippet": "מי שטרם מלאו לו 18",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-18-self",
+      "claim": "Self-employed full-bracket combined rate 18% (also written 18.0%)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D.aspx",
+      "raw_snippet": "18%",
+      "fetched_at": "2026-06-12T22:58:01.288181+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-7_6-employer",
+      "claim": "Employer full-bracket rate 7.6% (also written 7.60%)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "7.6%",
+      "fetched_at": "2026-06-12T22:58:01.288181+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "teum-secondary-full",
+      "claim": "With multiple employers, the secondary employer / early-pension payer deducts NI+health at the full rate from the first shekel unless a te'um dmei bituach coordination is filed",
+      "source_url": "https://www.hashavim.co.il/articles/labor-law/national-insurance-updates/",
+      "raw_snippet": "תיאום דמי ביטוח",
+      "fetched_at": "2026-06-12T23:09:45.178225+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-emp-age-varies",
+      "claim": "Self-employed NI rate also reduces by age and old-age-pension status (minor, pensioner) like employees; standard is 7.7%/18%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D.aspx",
+      "raw_snippet": "7.7%",
+      "fetched_at": "2026-06-12T23:09:45.178225+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "household-employer-quarterly",
+      "claim": "A private person employing a domestic worker registers with BTL as a household employer and pays contributions quarterly",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Pages/default.aspx",
+      "raw_snippet": "משק בית",
+      "fetched_at": "2026-06-12T23:09:45.178225+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

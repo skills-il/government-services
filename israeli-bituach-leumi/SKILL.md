@@ -196,6 +196,36 @@ NI is collected on income up to a monthly cap, with two brackets:
 
 Self-employed pay both shares (employee + employer-equivalent) and cannot claim unemployment. They can claim every other benefit. Verify rates against the live BTL pages (`btl.gov.il/Insurance/.../rates.aspx`) at filing time, rates can shift mid-year on amendment.
 
+#### Employee Rates Vary by Age and Pension Status (2026)
+
+The 4.27% / 12.17% above is ONLY the standard employee aged 18 to retirement. The amount actually deducted from an employee's salary changes with age and old-age-pension status. Applying the standard rate to a minor or a working pensioner is a common and material error (it over-charges them by the whole deduction).
+
+| Employee category | Employee deduction, reduced (up to 7,703) | Employee deduction, full (7,703 to 51,910) |
+|---|---|---|
+| Aged 18 to retirement age (standard) | 1.04% NI + 3.23% health = **4.27%** | 7.0% NI + 5.17% health = **12.17%** |
+| Under 18 | **0%** (employer pays 0.61% / 2.12%, employee nothing) | **0%** |
+| Receiving old-age pension (kitzbat azrach vatik), any age | **0%** (employer still pays 0.61% / 2.12%) | **0%** |
+| Reached retirement age, under 70, NOT yet receiving old-age pension (men 67-70) | 0.61% NI + 3.23% health = **3.93%** | 4.86% NI + 5.17% health = **10.03%** |
+| Woman between her retirement age and 67, NOT receiving old-age pension | **3.95%** | **10.24%** |
+| Recipient of work-injury or general-disability pension (75%+/100%, with annual BTL confirmation) | 0% NI + 3.23% health = **3.23%** (health only, NI exempt) | 0% NI + 5.17% health = **5.17%** |
+| Soldier in regular service, organ donor, treaty-country foreign resident | 1.04% NI only (health exempt) | 7.0% NI only |
+
+- The employer share (4.51% / 7.60%) does NOT change with the employee's age, only the employee deduction does (and for under-18 / pensioner the employer keeps paying its reduced 0.61% / 2.12%).
+- Recently-naturalized residents (first became resident over age 62) and controlling shareholders of a closely-held company (ba'al shlita) have their own slightly different rows, verify on the live page.
+- Source: `btl.gov.il/Insurance/Rates/Pages/לעובדים שכירים.aspx` (employee rate table, 2026 figures effective 01.01.2026; rates unchanged from 2025 per the BTL 2026 circular).
+
+#### Self-Employed Rates Also Vary by Age and Pension Status
+
+The 7.7% / 18% above is the STANDARD self-employed rate (aged 18 to retirement, not receiving old-age pension). Like employees, a self-employed person who is a minor, who receives an old-age pension, or who reached retirement age pays a reduced National Insurance rate (the health component continues). Do not apply the flat 7.7% / 18% to a self-employed pensioner. Verify the exact reduced rate for the specific age and pension status on `btl.gov.il/Insurance/Rates/Pages/לעצמאים.aspx`.
+
+#### Multiple Employers and Coordination (Te'um Dmei Bituach)
+
+Each employer applies the reduced-rate bracket (the lower 4.27% up to 7,703) to the salary IT pays. An employee with two or more employers (or salary plus an early pension) therefore gets the reduced bracket applied more than once and is over-deducted. The rule: the secondary employer (and an early-pension payer) must deduct at the FULL rate (12.17%) from the first shekel, UNLESS the employee files a coordination request (te'um dmei bituach). File te'um through the secondary employer, or claim a refund from BTL for the over-deducted amount after year-end. This is one of the most common over-payments for people with a second job or a gig plus a salary.
+
+#### Household-Help Employers (Ma'asik Oved Meshek Bayit)
+
+A private individual who employs a domestic worker (cleaner, nanny, caregiver, gardener) is a household employer and must register with BTL and pay National Insurance + health contributions on the worker's wage. It is a separate track from a business payroll: contributions are reported and paid quarterly (not through a monthly payslip system), the employer covers both the employer and employee shares for low-wage domestic workers, and registration is done once via the BTL household-employer service. See `btl.gov.il/Insurance/Rates/Pages/למעסיקי עובד משק בית.aspx` for the current rate and `btl.gov.il` household-employer registration.
+
 ### Non-Working Residents and Non-Work (Passive) Income (2026)
 
 A working-age resident (18 to retirement age) who is NOT salaried, NOT self-employed, and NOT an exempt non-working spouse still owes NI and health insurance on their own account. The base table below applies to that person only. Read the exemptions and the coordination rule that follow, because they change the answer for several common cases (getting them wrong is the most frequent error here).

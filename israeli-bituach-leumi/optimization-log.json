@@ -9,6 +9,15 @@
         "Legacy backfill: built evidence.json from scratch (118 entries, 178 facts) for the whole BL benefits catalog. Benefit amounts sourced to the 2026 rate circular; some scattered amounts (1,752.33 maternity, 1,314.25 work-injury, income-support tiers) cited to their benefit pages but not individually re-fetched, only the changed contributions facts were Judge-verified verbatim.",
         "persistent_fail / CARRY: the benefit-amount evidence entries for the non-changed legacy catalog should be Judge-verified against their benefit pages in a future cycle (this cycle verified only the changed contributions section + spot-checks)."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-06-13",
+      "lessons": [
+        "Added employee rate table BY age and pension status (under-18=0, working pensioner=0, 67-70 non-pensioner=3.93/10.03, woman ret-67=3.95/10.24, disability=3.23/5.17), self-employed age-varies note, te'um (multiple-employer) coordination rule, and household-help employer track. All employee rates verified by rendering the official btl.gov.il employee rate table via Playwright (WebFetch garbled it across 3 tries). Self-employed-pensioner exact % and household-help exact % ROUTED to btl pages (not fabricated).",
+        "ROOT-CAUSE of why v1.4.0 (and all prior gates) missed the age brackets: the pipeline verifies stated values + audits coverage against a topic-checklist, but never enumerated the official rate table's full row set. Fixed in update-skill (new Phase 3g.1 Rate-Table Completeness Pass) + admin-creator (Phase 1.7 Step C.1) on 2026-06-13.",
+        "CARRY/minor: chofesh-lelo-tashlum (unpaid-leave employer-continues) rule not explicitly named — non-material edge, revisit if a user hits it."
+      ]
     }
   ]
 }
