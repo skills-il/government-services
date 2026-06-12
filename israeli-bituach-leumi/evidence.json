@@ -1421,6 +1421,72 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "hh-employer-605",
+      "claim": "Household-help employer NI 6.05% (18 to retirement)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "6.05%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hh-worker-28",
+      "claim": "Household-help worker share 2.8% (1.8% NI + 1% health)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "2.8%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hh-worker-ni-18",
+      "claim": "Household-help worker NI 1.8%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "1.8%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hh-health-1",
+      "claim": "Household-help worker health 1%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "1%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hh-total-885",
+      "claim": "Household-help total 8.85%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "8.85%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hh-reduced-36",
+      "claim": "Household-help employer reduced 3.6% for under-18 / pensioner worker",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "3.6%",
+      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

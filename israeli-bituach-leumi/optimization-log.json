@@ -18,6 +18,13 @@
         "ROOT-CAUSE of why v1.4.0 (and all prior gates) missed the age brackets: the pipeline verifies stated values + audits coverage against a topic-checklist, but never enumerated the official rate table's full row set. Fixed in update-skill (new Phase 3g.1 Rate-Table Completeness Pass) + admin-creator (Phase 1.7 Step C.1) on 2026-06-13.",
         "CARRY/minor: chofesh-lelo-tashlum (unpaid-leave employer-continues) rule not explicitly named — non-material edge, revisit if a user hits it."
       ]
+    },
+    {
+      "version": "1.5.1",
+      "date": "2026-06-13",
+      "lessons": [
+        "Replaced routed household-help rate with the real figures captured by Playwright-rendering the correct btl page (employer NI 6.05%, worker 1.8%+1%=2.8%, total 8.85%; under-18/pensioner employer 3.6%). Principle: never route a number a browser render can capture. Self-employed age variants stay routed because the official self-employed rates page genuinely tabulates only the standard 7.7/18 (no age rows published there)."
+      ]
     }
   ]
 }

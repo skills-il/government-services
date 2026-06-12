@@ -224,7 +224,7 @@ Each employer applies the reduced-rate bracket (the lower 4.27% up to 7,703) to 
 
 #### Household-Help Employers (Ma'asik Oved Meshek Bayit)
 
-A private individual who employs a domestic worker (cleaner, nanny, caregiver, gardener) is a household employer and must register with BTL and pay National Insurance + health contributions on the worker's wage. It is a separate track from a business payroll: contributions are reported and paid quarterly (not through a monthly payslip system), the employer covers both the employer and employee shares for low-wage domestic workers, and registration is done once via the BTL household-employer service. See `btl.gov.il/Insurance/Rates/Pages/למעסיקי עובד משק בית.aspx` for the current rate and `btl.gov.il` household-employer registration.
+A private individual who employs a domestic worker (cleaner, nanny, caregiver, gardener) is a household employer and must register with BTL and pay contributions on the worker's wage, reported and paid quarterly (not through a monthly payslip system). For a domestic worker aged 18 to retirement (2026): the employer pays **6.05%** National Insurance (0% health on the employer side) and the worker's share is **2.8%** (1.8% NI + 1% health), total **8.85%** of the wage. For a domestic worker under 18 or receiving an old-age pension, the employer pays a reduced **3.6%**. Register once via the BTL household-employer service. Source: `btl.gov.il/Insurance/Rates/Pages/עובד משק בית.aspx`.
 
 ### Non-Working Residents and Non-Work (Passive) Income (2026)
 
