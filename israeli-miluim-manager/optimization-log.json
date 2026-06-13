@@ -1,1 +1,11 @@
-{"cycles":[]}
+{
+  "cycles": [
+    {
+      "version": "1.3.1",
+      "date": "2026-06-13",
+      "lessons": [
+        "CORRECTED an error from v1.3.0 (caught when re-checking tool accuracy): self-employed reservists do NOT get 25% INSTEAD of the 40% tosefet, they get the tagmul (incl. 40%) PLUS an additional 25% (verified btl.gov.il: לעובד עצמאי משולם בנוסף לתגמול גם פיצוי בשיעור 25%). Fixed SKILL+HE+gotcha. miluim-daily-pay tool got an employee/self-employed field (was computing employee-only, so self-employed got a wrong, too-low number)."
+      ]
+    }
+  ]
+}

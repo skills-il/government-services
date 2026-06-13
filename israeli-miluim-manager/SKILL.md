@@ -84,7 +84,7 @@ Bituach Leumi (ביטוח לאומי, National Insurance Institute) compensates 
 | Payment timing | Employer advances salary, then claims reimbursement from Bituach Leumi |
 | Self-employed | File directly with Bituach Leumi |
 
-**Daily compensation (commonly omitted, the biggest under-estimate):** daily wage = 3-month gross / 90 (= monthly / 30), bounded by the 328.76 floor / 1,730.33 ceiling, then **+40% for an employee** (self-employed get **+25%**); a **NIS 133.33/day supplement** applies from **day 32**. "Monthly / 30 times days" understates by ~40%. Source: btl.gov.il "סכום התגמול".
+**Daily compensation (commonly omitted, biggest under-estimate):** daily wage = 3-month gross / 90 (= monthly / 30), bounded by 328.76 / 1,730.33, then **+40%** (everyone); a **self-employed** reservist gets an **additional 25%** on top. A **133.33/day supplement** applies from **day 32**. "Monthly / 30 times days" understates by ~40%. Source: btl.gov.il "סכום התגמול".
 
 **Amendment 253 (effective May 1, 2025) changes the income basis for repeat reservists:** prior miluim pay is excluded from the next basis, a "fixed base" from the quarter before first emergency-period service is locked in, and Section 279 lets the reservist pick the more favorable basis when the gap is under 60 days (with special handling for >20% salary jumps). Critical for anyone serving multiple times in close succession, the simple "3-month average" can produce wrong numbers.
 
@@ -385,7 +385,7 @@ Result: User accesses immediate care, understands long-term recognition path.
 - Reserve duty has THREE separate Bituach Leumi tracks (salary reimbursement, Tagmul Nosaf, Tagmul Meyuchad) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents conflate them, so users think they were paid when a track is still owed.
 - Service-connected injuries and PTSD go to Misrad HaBitachon (Agaf HaShikum), NOT Bituach Leumi; filing with the wrong agency is the top cause of denied claims. Aka 8944 is the hotline; recognition via hachvana.mod.gov.il.
 - Amendment 283 combat tax credit tiers require **ishur lochem** (combat confirmation), not just **ishur sherut miluim** (service confirmation). The Tax Authority will reject combat tier claims without lochem confirmation, even if the day count qualifies.
-- Reserve compensation = daily wage + 40% (employee) or +25% (self-employed); estimating it as "monthly / 30 times days" understates by ~40%. Amendment 253 also breaks the plain 3-month average for repeat reservists.
+- Reserve compensation = daily wage + 40% (everyone), self-employed get an ADDITIONAL 25%. "Monthly / 30 times days" understates by ~40%. Amendment 253 also breaks the plain 3-month average for repeat reservists.
 - The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
 - Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their portal status (married, children, education under "miktzo'a ezrachi") for eligibility to compute correctly.
 - Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
