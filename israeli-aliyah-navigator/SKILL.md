@@ -165,7 +165,7 @@ Israel offers significant tax benefits for new immigrants under Section 14 of th
 
 **Additional tax benefits:** reduced customs duties on importing personal belongings (including a vehicle, within time limits), tax-free container shipment of household goods, potential VAT exemption on certain purchases (first car, appliances) within eligibility windows.
 
-**2026 New-Oleh Israeli-Source Income Exemption (special incentive window):**
+**New-oleh Israeli-source income exemption (2026 incentive window):**
 
 A new tax incentive grants olim and toshavim chozrim vatikim who establish Israeli residency between **November 5, 2025 and December 31, 2026** a tiered exemption on **Israeli-source earned income** (employment salary and self-employment only, NOT passive income), on top of the standard 10-year foreign-income exemption.
 
@@ -356,7 +356,7 @@ Result: Clear answer that UK rental income is exempt from Israeli tax for 10 yea
 |---|---|---|
 | Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Current Sal Klita amounts, Ulpan program list, returning-resident eligibility |
 | Klita.gov.il personal area (ezor ishi) | https://www.klita.gov.il/ | Sal Klita payment status, rights and forms for olim |
-| Kolzchut (Kol-Zchut) - Olim and returning residents | https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Authoritative rights pages with statute citations, current-year NIS amounts |
+| Kolzchut (Kol-Zchut) - Olim and returning residents | https://www.kolzchut.org.il/he/עולים_ותושבים_חוזרים | Authoritative rights pages with statute citations, current-year NIS amounts |
 | Nefesh B'Nefesh (English-speaking olim) | https://www.nbn.org.il/ | Flight subsidies, rights summaries, pre-aliyah employment guidance |
 | Jewish Agency (Sochnut) | https://www.jewishagency.org/aliyah/ | File opening, document upload, eligibility verification |
 | Shivat Zion knowledge base (EN/HE plain-English explainers) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842 | Apostille per country, background-check authorities by country, document checklist, alternate-status overviews (Ezrach Oleh, Katin Chozer, Aliyah BaShenit, ARLI) |

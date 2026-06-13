@@ -133,22 +133,24 @@ Important notes on vehicles:
 
 ### Standard Benefit
 
-Olim receive a reduced mas rechisha (purchase tax) rate on their first property purchase in Israel.
+Olim buying a single residential home in Israel get a reduced mas rechisha (purchase tax) rate under the reformed Purchase Tax Regulation 12a (the track in force from 15 August 2024). 2026 brackets (frozen at 2025 levels):
 
-| Tax Bracket | Standard Rate | Oleh Rate |
-|-------------|--------------|-----------|
-| Up to threshold 1 | 0% | 0% (higher threshold) |
-| Threshold 1 to 2 | 3.5% | 0.5% |
-| Threshold 2 to 3 | 5% | 5% |
-| Above threshold 3 | 8-10% | 8-10% |
+| Property value (NIS) | Standard (single home) | Oleh (Reg 12a) |
+|----------------------|------------------------|----------------|
+| 0 - 1,978,745 | 0% | 0% |
+| 1,978,745 - 2,347,040 | 3.5% | 0.5% |
+| 2,347,040 - 6,055,070 | 5% | 0.5% |
+| 6,055,070 - 20,183,565 | 8% | 8% |
+| 20,183,565+ | 10% | 10% |
+
+The reform lowered the whole 1,978,745 to 6,055,070 band to 0.5% for olim (the older track charged 5% on the part above 2,347,040). The tax is tiered: each rate applies only to the portion of the price inside its band, not to the entire value.
 
 ### Eligibility
 
-- Must be the oleh's first property purchase in Israel
-- Eligibility window: within 7 years of aliyah date (for the purchase) or within 1 year before aliyah
-- The reduced rate applies to the entire property value (not just the portion above a threshold)
-- Must be residential property intended for the oleh's own use
-- Exact thresholds are updated periodically by the Israel Tax Authority
+- Granted once only, and only for a single residential home (not an investment apartment)
+- Eligibility window: from one year before aliyah to seven years after the aliyah date
+- The reformed track no longer requires the home to be the oleh's actual residence
+- Exact thresholds are updated periodically by the Israel Tax Authority; verify before relying on them
 
 ### Process
 

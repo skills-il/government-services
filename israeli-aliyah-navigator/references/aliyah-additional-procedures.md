@@ -60,7 +60,7 @@ Scenario: one family member makes aliyah first, with spouse and/or children unde
 
 **Sal Klita implication:** Sal Klita is calculated per family unit, not per individual. The first arriving group receives the bulk of the family allocation. The later-arriving members receive only the remainder.
 
-Shivat Zion's figurative illustration (NOT actual policy numbers): a family entitled to 5,000 NIS total, if split, gives 4,000 to the first arriving and 1,000 to the second. The shape is the policy; the exact numbers depend on the Sal Klita rate published by Misrad HaKlita for that year. The key takeaway is that each arrival is NOT treated as a fresh family unit.
+Shivat Zion illustrates the shape (not actual figures): a family entitled to a total Sal Klita amount that is split gives the larger share to the first arriving member and the remainder to the second, rather than treating each arrival as a fresh family unit. The exact amounts depend on the Sal Klita rate Misrad HaKlita publishes for that year.
 
 **Practical guidance for advisors:**
 - If timing is flexible, recommend the family arrive within a few weeks of each other so the full basket is paid to whoever opens the bank account first
