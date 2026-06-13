@@ -17,7 +17,7 @@ import sys
 
 # 2026 Tax brackets (frozen at 2025 levels; first-apartment brackets frozen
 # until Jan 15, 2028). Always verify at the Israel Tax Authority:
-# https://www.gov.il/he/departments/topics/purchase_tax
+# https://www.gov.il/he/service/real_eatate_taxsimulator
 FIRST_APARTMENT_BRACKETS = [
     (1_978_745, 0.00),
     (2_347_040, 0.035),
@@ -94,7 +94,8 @@ def print_result(result: dict, as_json: bool = False) -> None:
 
     for b in result["breakdown"]:
         to_str = f"{b['to']:>12,.0f}" if b['to'] < float("inf") else "       ..."
-        print(f"  {b['from']:>12,.0f}  {to_str}  {b['rate']:>5.1%}  {b['taxable_amount']:>12,.0f}  {b['tax']:>10,.0f}")
+        rate_pct = f"{b['rate'] * 100:>4.1f}%"
+        print(f"  {b['from']:>12,.0f}  {to_str}  {rate_pct:>6}  {b['taxable_amount']:>12,.0f}  {b['tax']:>10,.0f}")
 
     print("  " + "-" * 56)
     print(f"  {'TOTAL TAX':>34}  {'':>12}  {result['total_tax']:>10,.0f} NIS")

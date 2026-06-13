@@ -38,7 +38,7 @@
 
 ## Key Costs
 - Purchase tax: See brackets above
-- Attorney: 0.5-1.5% of price
+- Attorney: about 0.5% of price + VAT (varies, higher on lower-priced deals)
 - Agent: 1-2% + VAT
 - Mortgage fees: Application, appraisal, registration
 - Arnona transfer: Municipal property tax

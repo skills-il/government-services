@@ -38,6 +38,16 @@ For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brac
 | 0 - 6,055,070 | 8% |
 | 6,055,071+ | 10% |
 
+**New immigrant (oleh chadash), single residential home:** under Purchase Tax Regulation 12a (the reformed track in force from 15 August 2024), an oleh buying a single residential home gets:
+| Price Range (NIS) | Tax Rate |
+|-------------------|----------|
+| 0 - 1,978,745 | 0% |
+| 1,978,746 - 6,055,070 | 0.5% |
+| 6,055,071 - 20,183,565 | 8% |
+| 20,183,566+ | 10% |
+
+The oleh benefit is granted once only, applies only to a single residential home (not an investment apartment), and is available from one year before aliyah to seven years after. The reformed track no longer requires the home to be the oleh's actual residence.
+
 Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
 
 ### Step 3: Buying Process Checklist
@@ -54,13 +64,13 @@ Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Inv
 
 ### Step 4: Tabu Extract (Nesach Tabu)
 A Tabu extract shows:
-- **Section 1:** Property description (gush, chelka, tat-chelka)
-- **Section 2:** Registered owners and shares
-- **Section 3:** Mortgages (mashkantaot)
-- **Section 4:** Liens, warnings (hearot azhara), court orders
+- **Part 1:** Property description (gush, chelka, tat-chelka)
+- **Part 2:** Registered owners and shares
+- **Part 3:** Mortgages (mashkantaot)
+- **Part 4:** Liens, warnings (hearot azhara), court orders
 
 **How to obtain:**
-- Online: the Land Registry online extract service at `https://www.gov.il/he/service/land_registration_extract` (portal: `https://mekarkein-online.justice.gov.il/voucher/main`). A regular online extract costs ~18 NIS; a historical extract ~74 NIS; a consolidated extract ~131 NIS. No account needed, extract arrives by email with an electronic signature.
+- Online: the Land Registry online extract service at `https://www.gov.il/he/service/land_registration_extract` (portal: `https://mekarkein-online.justice.gov.il/voucher/main`). A regular online extract costs about 15 NIS. A historical extract is about 74 NIS. A consolidated extract is about 131 NIS. No account needed, extract arrives by email with an electronic signature.
 - Full extract: Through attorney or in-person at the Land Registry office
 - Required info: Gush (block) and Chelka (parcel) numbers
 
@@ -129,11 +139,11 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order a Tabu extract online (regular ~18 NIS, historical ~74 NIS, consolidated ~131 NIS), gush/chelka lookup, liens and mortgages |
+| Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order a Tabu extract online (regular 15 / historical 74 / consolidated 131 NIS), gush/chelka lookup, liens and mortgages |
 | Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
-| Israel Tax Authority – purchase tax | https://www.gov.il/he/departments/topics/purchase_tax | Current mas rechisha brackets per buyer category |
+| Israel Tax Authority – real estate tax | https://www.gov.il/he/service/real_eatate_taxsimulator | Purchase tax (mas rechisha) simulator and current brackets |
 | Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |
-| Mechir LaMishtaken | https://www.gov.il/he/departments/topics/mehirlmishtaken | Reduced-price apartment program eligibility and listings |
+| Discounted housing (Dira BeHanacha) | https://www.gov.il/he/departments/topics/dira/govil-landing-page | Reduced-price apartment program eligibility and listings |
 
 ## Troubleshooting
 

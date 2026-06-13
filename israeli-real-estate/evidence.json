@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-real-estate",
+  "generated_at": "2026-06-13T18:35:27.515173+00:00",
+  "claims": [
+    {
+      "claim_id": "mas-rechisha-first",
+      "claim": "2026 first-home (dira yechida) purchase-tax brackets: 0% up to 1,978,745, 3.5% to 2,347,040, 5% to 6,055,070, 8% to 20,183,565, 10% above 20,183,565 NIS / 20,183,565 ש\"ח. The older 12% bracket above 20,183,565 was dropped (top is now 10%).",
+      "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
+      "raw_snippet": "עד 1,978,745 ש\"ח פטור, 1,978,745 עד 2,347,040 - 3.5%, 2,347,040 עד 6,055,070 - 5%, 6,055,070 עד 20,183,565 - 8%, מעל 20,183,565 - 10%",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-additional",
+      "claim": "2026 non-first / investment apartment purchase tax: 8% from the first shekel up to 6,055,070, then 10% above 6,055,070.",
+      "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
+      "raw_snippet": "דירה שנייה ומעלה: 8% עד 6,055,070 ש\"ח ו-10% מעל",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-oleh",
+      "claim": "New immigrant (oleh) single-home purchase tax under reformed Regulation 12a (תקנה 12א, from 15.8.2024): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565, 10% above; once only, single residential home, from one year before to seven years after aliyah.",
+      "source_url": "https://cpa-dray.com/he/blog/%D7%9E%D7%A1-%D7%A8%D7%9B%D7%99%D7%A9%D7%94-%D7%9C%D7%A2%D7%95%D7%9C%D7%99%D7%9D-%D7%97%D7%93%D7%A9%D7%99%D7%9D/",
+      "raw_snippet": "עד כ-2,000,000 ש\"ח 0%, מ-2,000,000 עד כ-6,000,000 ש\"ח 0.5%, מעל 8%",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-example",
+      "claim": "Worked example for a 2.5M first home: 0% on the first 1,978,745 + 3.5% on 368,295 (to 2,347,040) + 5% on the remaining 152,960 = 20,538 NIS / 20,538 ש\"ח, an effective rate of about 0.82%.",
+      "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
+      "raw_snippet": "1,978,745 עד 2,347,040 - 3.5%, 2,347,040 עד 6,055,070 - 5%",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ltv-bank-israel",
+      "claim": "Bank of Israel maximum mortgage loan-to-value (LTV): 75% for a first / sole home, 70% for a replacement (upgrade) home, 50% for an investment / additional property.",
+      "source_url": "https://www.wecheck.co.il/blog/%D7%90%D7%97%D7%95%D7%96-%D7%9E%D7%99%D7%9E%D7%95%D7%9F-%D7%9E%D7%A9%D7%9B%D7%A0%D7%AA%D7%90/",
+      "raw_snippet": "לדירה ראשונה עד 75% מימון, משפר דיור עד 70%, דירה להשקעה עד 50%",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tabu-fees",
+      "claim": "Online Land Registry (Tabu) extract fees: a regular online extract about 15 NIS / 15 ש\"ח, a historical extract about 74 NIS / 74 ש\"ח, a consolidated extract about 131 NIS / 131 ש\"ח.",
+      "source_url": "https://www.nadlancenter.co.il/article/828",
+      "raw_snippet": "נסח רגיל עולה 15 ש\"ח, נסח היסטורי עולה 74 ש\"ח, נסח מרוכז עולה 131 ש\"ח",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "betterment-tax",
+      "claim": "Betterment tax (heitel hashbacha) under the Third Schedule of the Planning and Building Law is 50% of the rise in property value caused by a planning action; the local authority may reduce it to 25% or grant a full exemption in defined cases (urban renewal, Tama 38, rehabilitation neighborhoods).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%94%D7%99%D7%98%D7%9C_%D7%94%D7%A9%D7%91%D7%97%D7%94",
+      "raw_snippet": "גובה היטל ההשבחה הוא מחצית (50%) מעליית שווי המקרקעין",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "attorney-fee",
+      "claim": "Customary buyer's attorney fee for an apartment purchase is about 0.5% of the price plus VAT (varies, higher on lower-priced deals).",
+      "source_url": "https://doron-aharoni.com/%D7%A9%D7%9B%D7%A8-%D7%98%D7%A8%D7%97%D7%AA-%D7%A2%D7%95%D7%A8%D7%9A-%D7%93%D7%99%D7%9F-%D7%91%D7%9E%D7%9B%D7%99%D7%A8%D7%AA-%D7%93%D7%99%D7%A8%D7%94-%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%94/",
+      "raw_snippet": "שכר הטרחה הממוצע הוא כ-0.5% בתוספת מע\"מ",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "references/transaction-guide.md"
+      ]
+    },
+    {
+      "claim_id": "agent-fee",
+      "claim": "Customary real-estate brokerage fee on an apartment sale is 2% plus VAT (range 1-2% + VAT).",
+      "source_url": "https://elkayamlaw.co.il/%D7%A2%D7%9E%D7%9C%D7%AA-%D7%AA%D7%99%D7%95%D7%95%D7%9A-%D7%9E%D7%9B%D7%99%D7%A8%D7%AA-%D7%93%D7%99%D7%A8%D7%94/%D7%A0%D7%93%D7%9C%D7%9F-%D7%95%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F/%D7%AA%D7%99%D7%95%D7%95%D7%9A/",
+      "raw_snippet": "עמלת התיווך הנפוצה ביותר היא 2% פלוס מע\"מ",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "references/transaction-guide.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-land-registration",
+      "claim": "The Land Registry (Tabu) online extract service is at gov.il land_registration_extract.",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח רישום",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-purchase-tax",
+      "claim": "Israel Tax Authority real-estate tax (mas rechisha) simulator page.",
+      "source_url": "https://www.gov.il/he/service/real_eatate_taxsimulator",
+      "raw_snippet": "מס ברכישת מקרקעין",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-israel-land-authority",
+      "claim": "Israel Land Authority (Rami) department page.",
+      "source_url": "https://www.gov.il/he/departments/israel_land_authority",
+      "raw_snippet": "רשות מקרקעי ישראל",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-nadlan",
+      "claim": "Nadlan (Tax Authority) historical residential transaction prices.",
+      "source_url": "https://www.nadlan.gov.il",
+      "raw_snippet": "עסקאות",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-mehir-lamishtaken",
+      "claim": "Discounted housing (Dira BeHanacha) program landing page.",
+      "source_url": "https://www.gov.il/he/departments/topics/dira/govil-landing-page",
+      "raw_snippet": "דירה בהנחה",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-mekarkein-portal",
+      "claim": "Ministry of Justice land-registry extract production portal.",
+      "source_url": "https://mekarkein-online.justice.gov.il/voucher/main",
+      "raw_snippet": "נסח",
+      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}
