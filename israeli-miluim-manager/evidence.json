@@ -9,7 +9,12 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
       "raw_snippet": "PENDING_VERIFICATION, BL 2026 maximum daily reserve compensation NIS 1,730.33 / 1,730.33 ש\"ח (= NIS 51,910 / 51,910 ש\"ח monthly ceiling)",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "bl-min-daily-2026",
@@ -17,7 +22,12 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
       "raw_snippet": "PENDING_VERIFICATION, BL 2026 minimum daily reserve compensation NIS 328.76 / 328.76 ש\"ח (= NIS 9,863 / 9,863 ש\"ח monthly floor)",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "credit-point-value-2026",
@@ -25,7 +35,11 @@
       "source_url": "https://www.gov.il/he/departments/topics/credit_points_tax",
       "raw_snippet": "PENDING_VERIFICATION, Israel Tax Authority 2026 credit point value: NIS 242/month / 242 ש\"ח, NIS 2,904/year / 2,904 ש\"ח",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "amendment-283-tier-30-39",
@@ -33,7 +47,11 @@
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
       "raw_snippet": "תיקון 283: שירת שירות מילואים כלוחם בין 30 ל-39 ימים בשנת-המס הקודמת, זכאי ל-1/2 נקודת זיכוי (1,452 ש\"ח שנתי); בין 40 ל-49 ימים זכאי ל-3/4 נקודת זיכוי (2,178 ש\"ח); מקסימום 4 נקודות זיכוי (11,616 ש\"ח). סעיף 39ב לפקודת מס הכנסה.",
       "fetched_at": "2026-05-19T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "amendment-283-tier-40-49",
@@ -41,7 +59,10 @@
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
       "raw_snippet": "תיקון 283: בין 40 ל-49 ימים זכאי ל-3/4 נקודת זיכוי (2,178 ש\"ח שנתי) ללוחמי מילואים. נקודת זיכוי = 2,904 ש\"ח לשנה (2026).",
       "fetched_at": "2026-05-19T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "amendment-283-max-tier",
@@ -49,7 +70,11 @@
       "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Amendment 283 passed Knesset Nov 19, 2025, max tier 4.0 credit points = NIS 11,616/year / 11,616 ש\"ח. Standard reservist credit = 1 credit point = NIS 2,904 / 2,904 ש\"ח.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "manak-nofesh-4500",
@@ -57,7 +82,11 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, IDF Aka Manak Hashlama LeNofesh up to NIS 4,500 / 4,500 ש\"ח",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "manak-yeled-mugbal-2000",
@@ -65,7 +94,11 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, Manak LeYeled Mugbal NIS 2,000 / 2,000 ש\"ח for parents of children with disabilities (45+ reserve days)",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "manak-havarat-dira-2500",
@@ -73,7 +106,11 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, Manak Ha'avarat Dira NIS 2,500 / 2,500 ש\"ח, rank-based",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "digital-wallet-5000",
@@ -81,7 +118,11 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, Digital wallet up to NIS 5,000 / 5,000 ש\"ח, from day 10 onward",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "tutoring-fund-amounts",
@@ -89,7 +130,11 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, Tutoring fund up to NIS 3,000 / 3,000 ש\"ח (combat) / NIS 2,000 / 2,000 ש\"ח (rear)",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "keren-hasiyua-6.2b",
@@ -97,7 +142,11 @@
       "source_url": "https://www.gov.il/he/departments/news/dec2025-reservist-package",
       "raw_snippet": "PENDING_VERIFICATION, Gov Resolution Jan 25, 2026: 6.2 billion NIS package; NIS 1.1 billion / 1.1 billion ש\"ח estimated annual cost of permanent 20% employer compensation",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "amendment-283-knesset-date",
@@ -105,7 +154,11 @@
       "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Knesset press release Nov 19, 2025 announcing Amendment 283 / Section 39B of the Income Tax Ordinance; published in Sefer HaChukim Nov 23, 2025",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "amendment-253-date",
@@ -113,7 +166,12 @@
       "source_url": "https://www.nevo.co.il/law_html/Law01/p182_001.htm",
       "raw_snippet": "PENDING_VERIFICATION, Amendment 253 to the National Insurance Law effective May 1, 2025. Section 279 / סעיף 279 election when gap between services under 60 days. Salary jumps above 20% trigger special handling.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "permanent-20pct-nii-amendment",
@@ -121,7 +179,12 @@
       "source_url": "https://main.knesset.gov.il/Activity/Legislation/Pages/legalSearch.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Knesset plenum vote April 27, 2026 anchoring permanent 20% employer compensation for social contributions, NII Law amendment; private employers only.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "dismissal-ban-tiers",
@@ -129,7 +192,11 @@
       "source_url": "https://www.kolzchut.org.il/he/הגנה_על_עובד_במילואים_מפני_פיטורים",
       "raw_snippet": "PENDING_VERIFICATION, Dismissal protection tiers per Reserve Duty Compensation Law: 30 days post-service if under 60 days served, 60 days post-service if 60+ days served (permanent law 2026).",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "labor-court-filing-fee",
@@ -137,7 +204,10 @@
       "source_url": "https://www.gov.il/he/service/labour-court-filing",
       "raw_snippet": "PENDING_VERIFICATION, Beit Din LaAvoda filing fee 1% of claim, minimum NIS 168 / 168 ש\"ח (expedited 0.5% / NIS 84 / 84 ש\"ח); many wage/overtime/vacation claims fee-exempt.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bl-phone-6050",
@@ -145,7 +215,11 @@
       "source_url": "https://www.btl.gov.il/About/Pages/CallCenter.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Bituach Leumi national service center *6050",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "aka-8944-hotline",
@@ -153,7 +227,11 @@
       "source_url": "https://www.idf.il/אתרי-יחידות/אכא/יחידת-תגובות-קרב/",
       "raw_snippet": "PENDING_VERIFICATION, IDF Combat Reactions Unit (Yechidat Tguvot Krav) 24/7 hotline *8944 / 8944, free trauma diagnosis and treatment",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "lone-soldier-5266",
@@ -161,7 +239,10 @@
       "source_url": "https://www.idf.il/חיילים-בודדים/",
       "raw_snippet": "PENDING_VERIFICATION, Lone soldier (chayal boded) IDF hotline *5266, accommodations through hachvana.mod.gov.il",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "disability-tiers-mod",
@@ -169,7 +250,11 @@
       "source_url": "https://www.hachvana.mod.gov.il",
       "raw_snippet": "PENDING_VERIFICATION, MoD Agaf HaShikum disability tiers: 1-9% no recognition, 10% / 10%+ recognized starts lump sum (10-19%) or lifetime pension (20%+). Filing via hachvana.mod.gov.il, va'ada refuit determines disability percentage; appeals route through internal MoD process and ultimately District Court.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "manak-nezek-akif-osek-patur",
@@ -177,7 +262,12 @@
       "source_url": "https://www.gov.il/he/service/grant-for-reservists",
       "raw_snippet": "PENDING_VERIFICATION, Manak Nezek Akif osek patur bimonthly NIS 2,000-9,000 / 2,000-9,000 ש\"ח; cash grant program, short rolling filing windows; example Jan 28-May 31, 2026 for Nov-Dec 2025 service.",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "keren-hishtalmut-caps-2026",
@@ -185,7 +275,10 @@
       "source_url": "https://www.gov.il/he/departments/general/keren-hishtalmut-rates",
       "raw_snippet": "PENDING_VERIFICATION, 2026 self-employed keren hishtalmut deductible cap NIS 13,203 / 13,203 ש\"ח, deposit ceiling NIS 20,566 / 20,566 ש\"ח",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bank-israel-reservist-relief",
@@ -193,7 +286,11 @@
       "source_url": "https://www.boi.org.il/he/consumer-information/miluim",
       "raw_snippet": "PENDING_VERIFICATION, Bank Israel reservist relief framework: mortgage 3-month interest-free deferral; consumer loan up to NIS 100,000 / 100,000 ש\"ח; business loan up to NIS 2,000,000 / 2,000,000 ש\"ח; 1% overdraft discount employees; NIS 30,000 / 30,000 ש\"ח interest-free overdraft self-employed",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "vatat-tuition-refund",
@@ -201,7 +298,11 @@
       "source_url": "https://www.gov.il/he/service/student-reservist-tuition-refund",
       "raw_snippet": "PENDING_VERIFICATION, VATAT Hesder Miluim tashpa\"u: 50+ days = 100% tuition refund; academic credit reductions -6 / -8 / -10 by service tier",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "tagmul-nosaf-threshold",
@@ -209,7 +310,12 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/tagmul_nosaf.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Tagmul Nosaf eligibility: 10+ qualifying reserve days in tax year, paid May of following year, automatic",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "tagmul-meyuchad-threshold",
@@ -217,7 +323,12 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/tagmul_meyuchad.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Tagmul Meyuchad: service 60+ days, Tzav 8 days Oct 7, 2023 to Dec 31, 2025 count toward threshold",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "form-3010-service-confirmation",
@@ -225,7 +336,11 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Form 3010 / טופס 3010 IDF discharge form, required for BL filings",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "form-510-self-employed",
@@ -233,7 +348,11 @@
       "source_url": "https://www.btl.gov.il/Insurance/Insurance_documentation/Pages/default.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Form 510 / טופס 510 self-employed reservist compensation claim; employee fallback when employer refuses",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "form-101-tax-credit",
@@ -241,7 +360,12 @@
       "source_url": "https://www.gov.il/he/service/income-tax-form-101",
       "raw_snippet": "PENDING_VERIFICATION, Form 101 / טופס 101 annual tax credit declaration to employer / Rashut HaMisim",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "form-106-annual-income",
@@ -249,7 +373,9 @@
       "source_url": "https://www.gov.il/he/service/income-tax-form-106",
       "raw_snippet": "PENDING_VERIFICATION, Form 106 / טופס 106 annual income summary issued by employer",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "amendment-283-2028-threshold",
@@ -257,7 +383,11 @@
       "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Amendment 283 from 2028: combat threshold drops 30 → 20 days, 20 days = 0.75 credit points, max 4.0",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "spouse-protections-permanent",
@@ -265,7 +395,11 @@
       "source_url": "https://www.kolzchut.org.il/he/זכויות_בני_זוג_של_משרתי_מילואים",
       "raw_snippet": "PENDING_VERIFICATION, Spouse protections permanent from 2026: 1-hour daily absence (5+ consecutive day service), up to 8 paid leave days (child under 14), 14-day dismissal protection scaled with reservist tier",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "vacation-2027-deadline",
@@ -273,7 +407,11 @@
       "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
       "raw_snippet": "PENDING_VERIFICATION, Wartime accumulated vacation days must be used by end of 2027",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "miluim-age-thresholds",
@@ -281,7 +419,10 @@
       "source_url": "https://www.kolzchut.org.il/he/חוק_שירות_המילואים",
       "raw_snippet": "PENDING_VERIFICATION, Reserve duty temporary order through June 30, 2027 with raised age thresholds",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "knesset-amendment-283-url",
@@ -289,7 +430,10 @@
       "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
       "raw_snippet": "PENDING_VERIFICATION, Knesset press release URL https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx for Amendment 283",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "btl-reserve-portal-url",
@@ -297,7 +441,11 @@
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
       "raw_snippet": "PENDING_VERIFICATION, BL reserve payments hub: https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bituach-leumi-filing-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
       "claim_id": "miluim-idf-portal-url",
@@ -305,7 +453,11 @@
       "source_url": "https://miluim.idf.il",
       "raw_snippet": "PENDING_VERIFICATION, miluim.idf.il IDF reservist portal for Aka grants, ishur sherut, ishur lochem, digital wallet, miktzo'a ezrachi status",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "keren-hasiyua-page-url",
@@ -313,7 +465,10 @@
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
       "raw_snippet": "PENDING_VERIFICATION, Keren HaSiyua landing page on miluim.idf.il for Aka grants stack",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mod-rehab-portal-url",
@@ -321,7 +476,11 @@
       "source_url": "https://www.hachvana.mod.gov.il",
       "raw_snippet": "PENDING_VERIFICATION, hachvana.mod.gov.il MoD Agaf HaShikum portal for disability claims, PTSD recognition, lone soldier accommodations",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/2026-law-changes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
       "claim_id": "manak-nezek-akif-url",
@@ -329,7 +488,10 @@
       "source_url": "https://www.gov.il/he/service/grant-for-reservists",
       "raw_snippet": "PENDING_VERIFICATION, gov.il Manak LeMishartei Miluim service URL for Nezek Akif filing",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "kolzchut-tax-credits-url",
@@ -337,7 +499,58 @@
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
       "raw_snippet": "נקודות זיכוי ממס הכנסה ללוחמי מילואים, דף כל-זכות המתעד את טבלת 17 הדרגות של תיקון 283 ותנאי הזכאות (חוזר 29.25 רשות המסים).",
       "fetched_at": "2026-05-19T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-tosefet-40",
+      "claim": "Reserve compensation = daily wage (3-month gross / 90) + 40% supplement (employee)",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "כולל את השכר היומי ותוספת 40%",
+      "fetched_at": "2026-06-13T00:01:10.022283+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-self-25",
+      "claim": "Self-employed reservist receives a 25% compensation in addition to the base",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "פיצוי בשיעור 25%",
+      "fetched_at": "2026-06-13T00:01:10.022283+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-day32-supp",
+      "claim": "Special payment (tagmul meyuchad) for cumulative days 32-60: NIS 133.33 / 133.33 ש\"ח per day",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99%D7%9D_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "133.33",
+      "fetched_at": "2026-06-13T00:01:10.022283+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "credit-30day-floor",
+      "claim": "Amendment 283 combat tax credit starts at 30 combat days; below 30 or non-combat = 0; given on top of the universal 2.25 resident points",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%9C%D7%95%D7%97%D7%9E%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "הטבה זו ניתנת בנוסף ל-2.25 נקודות הזיכוי",
+      "fetched_at": "2026-06-13T00:01:10.022283+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     }
   ],
   "pending_verification": [

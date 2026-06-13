@@ -9,7 +9,7 @@ Amendment 283 to the Income Tax Ordinance (Section 39B), effective
 January 1, 2026, introduced a 17-tier graduated credit system for
 combat reservists (lochamim) for tax years 2026-2027:
 
-  - Under 30 days: Standard credit (1.0 credit point)
+  - Under 30 days, or non-combat: no Amendment 283 credit (0)
   - 30-39 days:  0.50 credit points
   - 40-49 days:  0.75 credit points
   - 50-54 days:  1.00 credit points
@@ -27,7 +27,8 @@ combat reservists (lochamim) for tax years 2026-2027:
   - 110+ days:   4.00 credit points
 
 IMPORTANT: These tiers apply to COMBAT service days only. Non-combat
-reserve service qualifies for the standard 1.0 credit point.
+reserve service does NOT qualify for an Amendment 283 credit (0). The universal 2.25
+resident credit points apply to everyone regardless of service.
 
 Additionally, reservists earning below NIS 9,863/month receive a
 top-up from Bituach Leumi to reach that minimum compensation floor.
@@ -76,8 +77,9 @@ COMBAT_CREDIT_TIERS = [
     {"min_days": 30, "max_days": 39, "points": 0.50, "name": "Tier 2", "hebrew": "דרגה 2"},
 ]
 
-# Standard credit for non-combat or under 30 combat days
-STANDARD_CREDIT_POINTS = 1.0
+# No Amendment 283 credit for non-combat or under 30 combat days (the credit starts at 30
+# combat days; the universal 2.25 resident points are separate and not modeled here).
+STANDARD_CREDIT_POINTS = 0.0
 
 
 def get_combat_credit_tier(days: int) -> dict:

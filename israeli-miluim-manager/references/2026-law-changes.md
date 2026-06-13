@@ -127,11 +127,11 @@ Effective May 1, 2025. Fixes the income basis calculation for reservists who ser
 
 Amendment 283 to the Income Tax Ordinance (Section 39B), passed by the Knesset on November 19, 2025, introduced a graduated tax credit system for **combat reservists** based on days of combat service. This applies to tax years 2026-2027.
 
-**Important:** These tiers apply only to combat service days (yamei lochem). Non-combat reserve service qualifies for the standard reservist credit of 1 credit point.
+**Important:** These tiers apply only to combat service days (yamei lochem) and start at 30 days. Service under 30 combat days, and non-combat reserve service, do NOT qualify for any Amendment 283 credit. There is no separate 'standard reservist' credit point (every resident already gets the universal 2.25 base points; the combat credit is added on top of those for 30+ confirmed combat days, per kolzchut).
 
 | Combat Days Served Per Year | Credit Points | Annual Value (NIS) | Notes |
 |-----------------------------|---------------|--------------------| ------|
-| Under 30 days | 1.0 (standard) | 2,904 | Standard reservist credit |
+| Under 30 days, or non-combat | none | 0 | No Amendment 283 credit |
 | 30-39 days | 0.50 | 1,452 | |
 | 40-49 days | 0.75 | 2,178 | |
 | 50-54 days | 1.00 | 2,904 | |

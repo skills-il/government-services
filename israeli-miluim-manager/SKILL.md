@@ -84,12 +84,9 @@ Bituach Leumi (ביטוח לאומי, National Insurance Institute) compensates 
 | Payment timing | Employer advances salary, then claims reimbursement from Bituach Leumi |
 | Self-employed | File directly with Bituach Leumi |
 
-**Amendment 253 to the National Insurance Law (effective May 1, 2025) changes the income basis for repeat reservists:**
-- Prior miluim pay is excluded from the next service's basis (prevents technical inflation)
-- A "fixed base" derived from the quarter preceding first emergency-period service is locked in
-- Section 279 lets the reservist choose the more favorable basis when the gap between services is under 60 days
-- Special handling when salary jumps above 20% between services
-- Critical for anyone serving multiple times in close succession; the simple "3-month average" can produce wrong numbers
+**Daily compensation (commonly omitted, the biggest under-estimate):** daily wage = 3-month gross / 90 (= monthly / 30), bounded by the 328.76 floor / 1,730.33 ceiling, then **+40% for an employee** (self-employed get **+25%**); a **NIS 133.33/day supplement** applies from **day 32**. "Monthly / 30 times days" understates by ~40%. Source: btl.gov.il "סכום התגמול".
+
+**Amendment 253 (effective May 1, 2025) changes the income basis for repeat reservists:** prior miluim pay is excluded from the next basis, a "fixed base" from the quarter before first emergency-period service is locked in, and Section 279 lets the reservist pick the more favorable basis when the gap is under 60 days (with special handling for >20% salary jumps). Critical for anyone serving multiple times in close succession, the simple "3-month average" can produce wrong numbers.
 
 **How to file salary reimbursement (employees):**
 1. Employer submits claim via Bituach Leumi employer portal
@@ -119,11 +116,11 @@ Paid by Bituach Leumi for service of 60+ days. Days served on Tzav 8 in the Oct 
 
 Amendment 283 to the Income Tax Ordinance (Section 39B), passed by the Knesset on November 19, 2025 and published in Sefer HaChukim on November 23, 2025, introduced a graduated tax credit system for **combat reservists** based on days served. These apply to tax years 2026-2027 and are managed through the Israel Tax Authority (Rashut HaMisim, רשות המסים).
 
-**Important:** These tax credits apply only to **combat service days** (yamei lochem). Non-combat reserve service qualifies for the standard reservist credit of 1 credit point (NIS 2,904/year).
+**Important:** These credits apply ONLY to **combat days** (yamei lochem), starting at 30. Under 30 combat days, and non-combat service, get NO Amendment 283 credit, and there is no separate "standard reservist" point (every resident already gets 2.25 base points; the combat credit is added on top, only for 30+ confirmed combat days with ishur lochem).
 
 | Combat Service Days Per Year | Credit Points | Annual Credit Value (NIS) |
 |------------------------------|---------------|---------------------------|
-| Under 30 days | Standard (1.0) | 2,904 |
+| Under 30 days, or non-combat | none | 0 (no Amendment 283 credit) |
 | 30-39 days | 0.50 | 1,452 |
 | 40-49 days | 0.75 | 2,178 |
 | 50-54 days | 1.00 | 2,904 |
@@ -385,16 +382,15 @@ Result: User accesses immediate care, understands long-term recognition path.
 | Knesset Amendment 283 announcement | https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx | Original legislation |
 
 ## Gotchas
-- Israeli reserve duty has THREE separate Bituach Leumi payment tracks (salary reimbursement, Tagmul Nosaf, Tagmul Meyuchad) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents commonly conflate them, leading users to think they have been paid when one or more tracks are still owed.
-- Service-connected injuries and PTSD go to Misrad HaBitachon (Agaf HaShikum), NOT Bituach Leumi. Filing with the wrong agency is the most common cause of denied claims. Aka 8944 is the immediate hotline; formal recognition is via hachvana.mod.gov.il.
+- Reserve duty has THREE separate Bituach Leumi tracks (salary reimbursement, Tagmul Nosaf, Tagmul Meyuchad) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents conflate them, so users think they were paid when a track is still owed.
+- Service-connected injuries and PTSD go to Misrad HaBitachon (Agaf HaShikum), NOT Bituach Leumi; filing with the wrong agency is the top cause of denied claims. Aka 8944 is the hotline; recognition via hachvana.mod.gov.il.
 - Amendment 283 combat tax credit tiers require **ishur lochem** (combat confirmation), not just **ishur sherut miluim** (service confirmation). The Tax Authority will reject combat tier claims without lochem confirmation, even if the day count qualifies.
-- Amendment 253 (May 2025) changed how Bituach Leumi calculates the income basis for repeat reservists. The "3-month average" formula produces wrong numbers for anyone serving multiple times in close succession.
-- The 20% employer social contribution refund applies to PRIVATE employers only. Public sector (state, local authorities, public corporations) is explicitly excluded.
-- Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their personal status (married, children, education under "miktzo'a ezrachi") in the portal for eligibility to compute correctly.
-- Manak Nezek Akif for self-employed reservists has short rolling filing windows. Missing the window forfeits the grant; this is a cash grant program, not a tax deduction.
-- Dismissal protection duration depends on length of service: 30 days for under 60 days served, 60 days for 60+ days served. Spouse dismissal protection scales with the reservist's tier.
-- Tagmul Nosaf is paid in May of the year following the qualifying service, not at the end of service. Reservists often think they were skipped when they simply have not yet reached May.
-- The 2028 threshold drop (combat tier minimum from 30 to 20 days) is established law. Reservists planning service across 2027-2028 should account for it.
+- Reserve compensation = daily wage + 40% (employee) or +25% (self-employed); estimating it as "monthly / 30 times days" understates by ~40%. Amendment 253 also breaks the plain 3-month average for repeat reservists.
+- The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
+- Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their portal status (married, children, education under "miktzo'a ezrachi") for eligibility to compute correctly.
+- Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
+- Dismissal protection: 30 days for under-60-day service, 60 days for 60+; spouse protection scales with the tier.
+- Tagmul Nosaf is paid in May of the FOLLOWING year, not at end of service. The 2028 combat-tier threshold drops from 30 to 20 days.
 
 ## Troubleshooting
 
