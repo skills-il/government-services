@@ -706,6 +706,17 @@
         "references/eligibility-rules.md",
         "references/benefit-calculation-tables.md"
       ]
+    },
+    {
+      "claim_id": "women-300-day176-ceiling",
+      "claim": "Women 300-day track day-176 ceiling: 201.03 NIS / ₪201.03 / 201.03 ש\"ח per day (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "201.03",
+      "fetched_at": "2026-06-13T00:13:55.226438+00:00",
+      "appears_in": [
+        "references/benefit-calculation-tables.md",
+        "SKILL.md"
+      ]
     }
   ],
   "pending_verification": [

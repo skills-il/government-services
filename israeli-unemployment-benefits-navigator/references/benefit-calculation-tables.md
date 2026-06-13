@@ -8,7 +8,8 @@ All figures effective 01.01.2026 and linked to inflation. They re-link in Januar
 |--------|-------|
 | Daily base amount | ₪415 |
 | Daily ceiling, days 1-125 | ₪550.76 |
-| Daily ceiling, days 126+ | ₪367.17 |
+| Daily ceiling, days 126-175 | ₪367.17 |
+| Daily ceiling, days 176+ (women's 300-day track only) | ₪201.03 (effective 01.01.2026) |
 | Bituach Leumi monthly deduction from benefit | ₪48 (effective 01.01.2026) |
 | Divisor for average daily wage | 150 (= 25 days * 6 months) |
 
@@ -67,6 +68,8 @@ Total entitlement gross: ~44,167
 ```
 
 If the user's calculated daily rate exceeds ₪367.17, the tail portion is capped at the lower ceiling. Do NOT multiply the day-1 rate by the full max-days; you'll overstate by 5-15% on long entitlements.
+
+**Women's 300-day track (ages 57-67, born 1/1/1960+) has a THIRD ceiling.** This track runs over an 18-month window, and from day 176 onward the daily benefit is capped at **₪201.03** (2026, much lower than the ₪367.17 that applies to days 126-175). Project this track in three slices: days 1-125 at the ₪550.76 ceiling, days 126-175 at ₪367.17, and days 176-300 at ₪201.03. Capping days 176-300 at ₪367.17 instead overstates the tail by up to ~45% per day. Source: btl.gov.il/benefits/Unemployment women's track ("מהיום ה-176 ואילך 201.03 ש"ח"). Vocational-training participants also receive 100% but no more than ₪201.03/day from day 176.
 
 ## Payment Cadence (5-weeks-per-month quirk)
 

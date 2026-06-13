@@ -122,7 +122,8 @@ Sum each bracket contribution to get the gross daily benefit.
 **Step 5c: Apply the 2026 daily ceilings**
 
 - First 125 days of unemployment: maximum ₪550.76 per day
-- Day 126 onwards: maximum ₪367.17 per day
+- Days 126-175: maximum ₪367.17 per day
+- Days 176+ (women's 300-day track only, ages 57-67 born 1960+): maximum ₪201.03 per day
 - Cap whatever the formula produces to these ceilings
 
 For long entitlements (138, 175, 300 days), the average daily benefit drops once the user crosses day 125. Do not multiply the day-1 rate by total max days; project the front portion at the higher ceiling and the tail at the lower ceiling.
