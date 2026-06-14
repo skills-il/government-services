@@ -5,7 +5,7 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, nevo
 ## Must cover (core)
 
 - [x] **Pikadon eligibility rules**, IDF / MAGAV / Police / SHABAS / SLE, minimum 12 months (less if medical / training injury), source: kolzchut Pikadon page, why core: most common first question; SLE / under-12-months edge cases mislead users
-- [x] **Pikadon monthly amount per service type (2026 indexed)**, lochem 978.34, tomech 815.28, acher 652.23, SLE 652.23 NIS/month, source: hachvana DepositUpTo5 page, why core: the "kama magia li?" answer; tier multipliers needed for sanity-check; instruct user to verify via official calculator since rates change monthly with index
+- [x] **Pikadon monthly amount per service type (2026 indexed)**, lochem 993.46, tomech 827.89, acher 662.31, SLE 662.31 NIS/month, source: hachvana DepositUpTo5 page, why core: the "kama magia li?" answer; tier multipliers needed for sanity-check; instruct user to verify via official calculator since rates change monthly with index
 - [x] **Pikadon 14-day availability rule (IDF) vs 30-day (SLE)**, source: kolzchut Pikadon page + hachvana, why core: distinct from 60-day grant timeline; users confuse the windows
 - [x] **6 permitted pre-5y withdrawal purposes (exact Hebrew list)**, לימודים אקדמיים, הכשרה מקצועית, לימודי נהיגה, פתיחת/השקעה בעסק, נישואין, רכישת דירה/בית/קרקע. **Rental NOT included.**, source: hachvana GrantAndDeposit + DepositUpTo5, why core: most common user mistake is assuming rent qualifies; closed statutory list per Chok Klitat Chayalim Meshuchrarim
 - [x] **5-year auto-transfer rule**, at end of 5 years remaining balance auto-transfers to bank for any purpose, source: kolzchut Pikadon page, why core: the "I forgot about my Pikadon" recovery flow
@@ -16,7 +16,7 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, nevo
 - [x] **Iron Swords full-tuition combat-soldier law**, Knesset legislation passed late 2023 covering 100% annual tuition for combat soldiers discharged from Oct 2023 onward, usable up to 5 years post-discharge, source: Times of Israel + hachvana IronSwords page, why core: most valuable post-discharge benefit for a typical 21-year-old planning university
 - [x] **MY VISIT app / personal area at hachvana.mod.gov.il**, single login for balance, withdrawals, bank account updates, career-counselor scheduling, source: hachvana, why core: no manual/paper flow for most actions
 - [x] **Required documents**, Teudat Shichrur, Teudat Zehut, Israeli bank account; purpose-specific evidence for withdrawals, source: hachvana, why core: missing Teudat Shichrur blocks every benefit
-- [x] **Service-type cap: 32 months male / 28 months female**, source: hilan Chapter ג summary, why core: extra unpaid service does not accrue Pikadon
+- [x] **Service-type cap: 32 months male / 24 months female**, source: hilan Chapter ג summary, why core: extra unpaid service does not accrue Pikadon
 - [x] **Pikadon non-transferable / non-pledgeable / non-seizable**, source: hilan Chapter ג, why core: cannot be used as loan collateral
 
 ## Should cover (advanced / edge cases)

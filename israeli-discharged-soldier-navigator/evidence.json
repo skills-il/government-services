@@ -50,11 +50,11 @@
     },
     {
       "id": "pikadon-monthly-amounts-2026",
-      "claim": "Monthly Pikadon credit by service type (Feb 2026 indexed values): combat (lochem) 978.34 NIS, combat support (tomech lechima) 815.28 NIS, rear/other 652.23 NIS, civic-national service 652.23 NIS",
+      "claim": "Monthly Pikadon credit by service type (April 2026 indexed values): combat (lochem) 993.46 NIS, combat support (tomech lechima) 827.89 NIS, rear/other 662.31 NIS, civic-national service 662.31 NIS",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "Combat soldiers: 978.34 ₪ לכל חודש שירות. Combat support: 815.28 ₪ לכל חודש שירות. Rear/Other: 652.23 ₪ לכל חודש שירות. National civilian service: 652.23 ₪ לכל חודש שירות.",
+      "source_fetched_at": "2026-06-14T00:00:00+00:00",
+      "raw_snippet": "Combat soldiers: 993.46 ₪ לכל חודש שירות. Combat support: 827.89 ₪ לכל חודש שירות. Rear/Other: 662.31 ₪ לכל חודש שירות. National civilian service: 662.31 ₪ לכל חודש שירות.",
       "confidence": "high"
     },
     {
@@ -77,11 +77,11 @@
     },
     {
       "id": "service-type-cap-32-28",
-      "claim": "Pikadon and grant are credited/paid only up to 32 months for male soldiers and 28 months for female soldiers; service beyond that (unpaid extension) does not increase the deposit or grant",
+      "claim": "Pikadon and grant are credited/paid only up to 32 months for male soldiers and 24 months for female soldiers; service beyond that (unpaid extension) does not increase the deposit or grant",
       "claim_type": "threshold",
-      "source_url": "https://www.hilan.co.il/%D7%9E%D7%A8%D7%9B%D7%96-%D7%99%D7%93%D7%A2/%D7%97%D7%A7%D7%99%D7%A7%D7%94/%D7%97%D7%95%D7%A7%D7%99%D7%9D-%D7%A9%D7%95%D7%A0%D7%99%D7%9D/%D7%97%D7%95%D7%A7-%D7%A7%D7%9C%D7%99%D7%98%D7%AA-%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D/%D7%A4%D7%A8%D7%A7-%D7%92-%D7%A4%D7%A7%D7%93%D7%95%D7%9F-%D7%95%D7%9E%D7%A2%D7%A0%D7%A7/",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "לא ייזקף פיקדון ולא ישולם מענק בעד תקופת השירות ללא תשלום העולה על 32 חודשים (גברים) או 28 חודשים (נשים)",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-06-14T00:00:00+00:00",
+      "raw_snippet": "לא ייזקף פיקדון ולא ישולם מענק בעד תקופת השירות ללא תשלום העולה על 32 חודשים (גברים) או 24 חודשים (נשים)",
       "confidence": "high"
     },
     {
@@ -212,11 +212,11 @@
     },
     {
       "id": "hebrew-shekel-notation-pikadon-rates",
-      "claim": "Hebrew shekel notation for the 2026 Pikadon monthly rates: לוחם 978.34 ש\"ח; תומך לחימה 815.28 ש\"ח; אחר 652.23 ש\"ח; שירות לאומי 652.23 ש\"ח; per-credit-point monthly value 242 ש\"ח; 2 points monthly 484 ש\"ח",
+      "claim": "Hebrew shekel notation for the 2026 Pikadon monthly rates: לוחם 993.46 ש\"ח; תומך לחימה 827.89 ש\"ח; אחר 662.31 ש\"ח; שירות לאומי 662.31 ש\"ח; per-credit-point monthly value 242 ש\"ח; 2 points monthly 484 ש\"ח",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "תעריפי 2026 לפיקדון לפי סוג שירות: לוחם 978.34 ש\"ח / חודש, תומך לחימה 815.28 ש\"ח / חודש, אחר 652.23 ש\"ח / חודש, שירות לאומי 652.23 ש\"ח / חודש; שווי נקודת זיכוי חודשית 242 ש\"ח; שתי נקודות 484 ש\"ח / חודש",
+      "source_fetched_at": "2026-06-14T00:00:00+00:00",
+      "raw_snippet": "תעריפי 2026 לפיקדון לפי סוג שירות: לוחם 993.46 ש\"ח / חודש, תומך לחימה 827.89 ש\"ח / חודש, אחר 662.31 ש\"ח / חודש, שירות לאומי 662.31 ש\"ח / חודש; שווי נקודת זיכוי חודשית 242 ש\"ח; שתי נקודות 484 ש\"ח / חודש",
       "confidence": "high"
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "id": "tofes-1521-preferred-work-grant",
-      "claim": "Form 1521 (טופס 1521) is the Bituach Leumi form for claiming the מענק עבודה מועדפת / נדרשת — a cash grant paid to discharged soldiers who worked 6 months full-time in defined sectors (construction, agriculture, manufacturing, hotels, gas stations, disability care) within 24 months of discharge",
+      "claim": "Form 1521 (טופס 1521) is the Bituach Leumi form for claiming the מענק עבודה מועדפת / נדרשת, a cash grant paid to discharged soldiers who worked 6 months full-time in defined sectors (construction, agriculture, manufacturing, hotels, gas stations, disability care) within 24 months of discharge",
       "claim_type": "form-number",
       "source_url": "https://www.btl.gov.il/benefits/Demobilized_Soldier",
       "source_fetched_at": "2026-05-18T14:00:00Z",
@@ -275,7 +275,7 @@
     },
     {
       "id": "kolzchut-urls-unencoded-and-encoded",
-      "claim": "The kolzchut Pikadon and nekudot zikui pages have both URL-encoded and unencoded Hebrew URL forms — same source, equivalent",
+      "claim": "The kolzchut Pikadon and nekudot zikui pages have both URL-encoded and unencoded Hebrew URL forms, same source, equivalent",
       "claim_type": "url",
       "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
       "source_fetched_at": "2026-05-18T12:00:00Z",

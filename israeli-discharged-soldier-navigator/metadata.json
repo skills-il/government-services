@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -53,13 +53,41 @@
   ],
   "volatility": "legislative",
   "authoritative_sources": [
-    { "url": "https://www.hachvana.mod.gov.il/Pages/default.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.hachvana.mod.gov.il/IronSwords/Pages/sword.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי", "type": "regulator", "language": "he" },
-    { "url": "https://www.nevo.co.il/law_html/law01/150_023.htm", "type": "statute", "language": "he" }
+    {
+      "url": "https://www.hachvana.mod.gov.il/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/IronSwords/Pages/sword.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "type": "statute",
+      "language": "he"
+    }
   ],
   "domain_checklist_version": 1
 }

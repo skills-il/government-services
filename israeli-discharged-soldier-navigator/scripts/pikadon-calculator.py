@@ -16,13 +16,13 @@ import argparse
 import sys
 
 PIKADON_RATES_FEB_2026 = {
-    "lochem": 978.34,
-    "tomech-lechima": 815.28,
-    "acher": 652.23,
-    "sle": 652.23,
+    "lochem": 993.46,
+    "tomech-lechima": 827.89,
+    "acher": 662.31,
+    "sle": 662.31,
 }
 
-ACCRUAL_CAP = {"male": 32, "female": 28}
+ACCRUAL_CAP = {"male": 32, "female": 24}
 
 NEKUDOT_ZIKUI_VALUE_PER_POINT_PER_MONTH_2026 = 242
 

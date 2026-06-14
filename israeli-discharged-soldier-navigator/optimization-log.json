@@ -1,0 +1,17 @@
+{
+  "skill": "israeli-discharged-soldier-navigator",
+  "cycles": [
+    {
+      "date": "2026-06-14",
+      "version": "1.1.0",
+      "summary": "Refreshed Pikadon monthly rates to current hachvana.mod.gov.il values (combat 978.34 to 993.46, support 815.28 to 827.89, rear 652.23 to 662.31) and FIXED the female accrual cap from 28 to 24 months (a structural error; the law caps women at 24 paid service months, matching mandatory service length).",
+      "lessons": [
+        "Pikadon rates are CPI-indexed and drift monthly; the skill correctly caveats this and routes to the official calculator, but the stated anchor values must still be refreshed.",
+        "The female accrual cap (24, not 28) is a structural fact, not drift; the wrong value over-credited any woman who served more than 24 months. Surfaced by a fresh-eyes audit of the discharge-pikadon checker tool."
+      ],
+      "buckets": {
+        "persistent_fail": []
+      }
+    }
+  ]
+}

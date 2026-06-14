@@ -35,17 +35,17 @@ The Pikadon accrues each month of paid service at a rate set by service type. Cu
 
 | Service type (Hebrew) | English | NIS / month |
 |---|---|---|
-| לוחם | Combat | 978.34 |
-| תומך לחימה | Combat support | 815.28 |
-| שירות אחר / עורפי | Rear / regular | 652.23 |
-| שירות לאומי-אזרחי | National-civic service (SLE) | 652.23 |
+| לוחם | Combat | 993.46 |
+| תומך לחימה | Combat support | 827.89 |
+| שירות אחר / עורפי | Rear / regular | 662.31 |
+| שירות לאומי-אזרחי | National-civic service (SLE) | 662.31 |
 
 **Important caps and indexing rules:**
 
 | Rule | Detail |
 |---|---|
 | Male soldier accrual cap | 32 months of paid service |
-| Female soldier accrual cap | 28 months of paid service |
+| Female soldier accrual cap | 24 months of paid service |
 | Beyond cap | No further Pikadon credit (unpaid extension does not accrue) |
 | Index | Balance updated at start of each month per CPI (madad) |
 | Type | Personal, cannot be transferred, pledged, or seized |
@@ -54,7 +54,7 @@ The Pikadon accrues each month of paid service at a rate set by service type. Cu
 
 **Always direct the user to the official calculator for the personalized total**, rates change monthly with the CPI: https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx (Pikadon calculator linked from the page).
 
-Provide an order-of-magnitude estimate only when the user supplies (a) service type and (b) months served (capped at 32/28). The example below uses Feb 2026 rates and may drift by a few NIS/month over the year.
+Provide an order-of-magnitude estimate only when the user supplies (a) service type and (b) months served (capped at 32/24). The example below uses Feb 2026 rates and may drift by a few NIS/month over the year.
 
 ### Step 3: The Discharge Grant (Manak Shichrur)
 
@@ -217,7 +217,7 @@ User says: "I just finished my service as a lochem (32 months). Can I use my Pik
 
 Actions:
 1. Confirm eligibility: 32 months IDF lochem → full Pikadon, capped at 32 months.
-2. Estimate amount: 32 × 978.34 NIS (Feb 2026 lochem rate). Direct user to the official calculator for the personalized current total.
+2. Estimate amount: 32 × 993.46 NIS (Feb 2026 lochem rate). Direct user to the official calculator for the personalized current total.
 3. Confirm purpose: driving lessons (לימודי נהיגה) is purpose #3 of the 6 permitted pre-5y purposes, YES, eligible.
 4. Note timeline: Pikadon visible day 14 after discharge.
 5. Documents needed: driving school payment receipts.
@@ -241,7 +241,7 @@ User says: "My daughter finished Sherut Leumi-Ezrachi 18 months ago, what is she
 
 Actions:
 1. Confirm eligibility: SLE 18 months ≥ 12 → eligible for Pikadon and grant.
-2. Compute Pikadon: SLE tier is acher (652.23 NIS/month × 18 months). Direct user to the official calculator for the personalized current total.
+2. Compute Pikadon: SLE tier is acher (662.31 NIS/month × 18 months). Direct user to the official calculator for the personalized current total.
 3. Discharge grant: should have already landed within 60 days of completion, verify with her bank statements; if missing, contact hachvana.
 4. 6 permitted purposes apply equally.
 5. Nekudot zikui: 18 months falls in the 12-22 range → 1 point/year for 36 months from month after SLE completion if she has taxable income. Submit Tofes 101 to her employer.
@@ -295,8 +295,8 @@ No public MCP server exists for hachvana.mod.gov.il (the MoD personal area has n
 - **Section 39a, NOT Section 11.** Agents trained on older Israeli tax content often cite "Section 11 Pkudat Mas Hachnasa" for discharged-soldier credit points. The correct citation is **Section 39a (סעיף 39א)**. Section 11 covers basic resident points, not the post-discharge bonus.
 - **Section 9(27), NOT Section 9(7).** The Pikadon tax exemption is **Section 9(27)** of the Income Tax Ordinance. Section 9(7) covers severance pay exemption, different statute, different ceiling. Don't conflate them.
 - **Rental is NOT a permitted purpose.** The most common user mistake is assuming Pikadon can cover their first rental apartment deposit. Only **purchase** of an apartment / house / land qualifies. If the user wants cash for rent: route to the discharge grant (unrestricted) or wait for the 5-year auto-transfer.
-- **Pikadon rates index monthly with CPI.** Any specific NIS/month figure cited (e.g., 978.34 for combat) is the rate at the time of writing, it changes monthly. ALWAYS direct the user to the official calculator at hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5 for the personalized current total, rather than asserting a precise lump sum.
-- **The 32/28 month cap is on PAID service.** A male soldier who served 36 months (some unpaid extension) still only accrues Pikadon for 32 months at the relevant tier. Female cap is 28 months. Iron Swords reservist extension beyond mandatory service does NOT add to this Pikadon, that goes under miluim, a separate skill.
+- **Pikadon rates index monthly with CPI.** Any specific NIS/month figure cited (e.g., 993.46 for combat) is the rate at the time of writing, it changes monthly. ALWAYS direct the user to the official calculator at hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5 for the personalized current total, rather than asserting a precise lump sum.
+- **The 32/24 month cap is on PAID service.** A male soldier who served 36 months (some unpaid extension) still only accrues Pikadon for 32 months at the relevant tier. Female cap is 24 months. Iron Swords reservist extension beyond mandatory service does NOT add to this Pikadon, that goes under miluim, a separate skill.
 - **Credit points start the month AFTER discharge.** A soldier who discharged on March 15 starts the 36-month nekudot-zikui clock from April 1, not March. The March payslip does not yet get the points.
 - **Nekudot zikui forward-claim cannot exceed monthly tax liability** (via Tofes 101). If a discharged soldier in their first job has low taxable income (e.g., part-time student job), the credit reduces tax owed to zero but does not pay out negative tax going forward. The retroactive **Tofes 135** path is different: if a prior employer over-withheld in past years because they didn't apply the credit, Tofes 135 yields a cash refund of the over-withholding, plus indexation and 4% interest. So "I lost X shekels" framing is accurate for the retroactive case but not for the forward case.
 - **The discharge grant lands automatically, no application needed.** If a user 60+ days post-discharge has no grant in their account, the cause is usually wrong/stale bank account on file. Direct them to update via the personal area.
