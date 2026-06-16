@@ -241,11 +241,11 @@ GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=
 
 | MCP | קישור | מה מקבלים |
 |-----|-------|-----------|
-| `datagov-israel` | https://agentskills.co.il/he/mcps/government-services/datagov-israel | גישה ישירה ככלי MCP ל-CKAN API של data.gov.il (search, package_show, datastore_search). |
-| `data-gov-il` | https://agentskills.co.il/he/mcps/government-services/data-gov-il | MCP חלופי שעוטף את אותו CKAN API של data.gov.il. |
-| `israel-vehicles` | https://agentskills.co.il/he/mcps/government-services/israel-vehicles | MCP ממוקד ל-dataset של רישוי כלי רכב (חיפוש לפי לוחית, יצרן, דגם, שנה). |
-| `israel-amutot` | https://agentskills.co.il/he/mcps/government-services/israel-amutot | MCP ממוקד למרשם העמותות של משרד המשפטים. |
-| `israel-elections` | https://agentskills.co.il/he/mcps/government-services/israel-elections | MCP ממוקד לנתוני תוצאות הבחירות בישראל. |
+| `datagov-israel` | https://agentskills.co.il/he/mcp/datagov-israel | גישה ישירה ככלי MCP ל-CKAN API של data.gov.il (search, package_show, datastore_search). |
+| `data-gov-il` | https://agentskills.co.il/he/mcp/data-gov-il | MCP חלופי שעוטף את אותו CKAN API של data.gov.il. |
+| `israel-vehicles` | https://agentskills.co.il/he/mcp/israel-vehicles | MCP ממוקד ל-dataset של רישוי כלי רכב (חיפוש לפי לוחית, יצרן, דגם, שנה). |
+| `israel-amutot` | https://agentskills.co.il/he/mcp/israel-amutot | MCP ממוקד למרשם העמותות של משרד המשפטים. |
+| `israel-elections` | https://agentskills.co.il/he/mcp/israel-elections | MCP ממוקד לנתוני תוצאות הבחירות בישראל. |
 
 כשהסקיל מנחה את המשתמש דרך שאילתה, תעדיפו את ה-MCP הייעודי אם הוא מותקן; אחרת ליפלו ל-CKAN API הגולמי.
 

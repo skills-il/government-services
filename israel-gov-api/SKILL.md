@@ -178,11 +178,11 @@ Pair this skill with an MCP server so your agent can call data.gov.il (or a deri
 
 | MCP | URL | What it gives you |
 |-----|-----|-------------------|
-| `datagov-israel` | https://agentskills.co.il/he/mcps/government-services/datagov-israel | Direct MCP tool access to the data.gov.il CKAN API (search, package_show, datastore_search). |
-| `data-gov-il` | https://agentskills.co.il/he/mcps/government-services/data-gov-il | Alternative MCP wrapping the same data.gov.il CKAN API. |
-| `israel-vehicles` | https://agentskills.co.il/he/mcps/government-services/israel-vehicles | Pre-scoped MCP for the vehicle registration dataset (license-plate lookup, make/model/year). |
-| `israel-amutot` | https://agentskills.co.il/he/mcps/government-services/israel-amutot | Pre-scoped MCP for the Ministry of Justice amutot (NGO) registry. |
-| `israel-elections` | https://agentskills.co.il/he/mcps/government-services/israel-elections | Pre-scoped MCP for Israeli election results data. |
+| `datagov-israel` | https://agentskills.co.il/he/mcp/datagov-israel | Direct MCP tool access to the data.gov.il CKAN API (search, package_show, datastore_search). |
+| `data-gov-il` | https://agentskills.co.il/he/mcp/data-gov-il | Alternative MCP wrapping the same data.gov.il CKAN API. |
+| `israel-vehicles` | https://agentskills.co.il/he/mcp/israel-vehicles | Pre-scoped MCP for the vehicle registration dataset (license-plate lookup, make/model/year). |
+| `israel-amutot` | https://agentskills.co.il/he/mcp/israel-amutot | Pre-scoped MCP for the Ministry of Justice amutot (NGO) registry. |
+| `israel-elections` | https://agentskills.co.il/he/mcp/israel-elections | Pre-scoped MCP for Israeli election results data. |
 
 When this skill walks the user through a query, prefer the dedicated MCP if it's installed; fall back to the raw CKAN API otherwise.
 
