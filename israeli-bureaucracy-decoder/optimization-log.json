@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.2",
+      "date": "2026-06-16",
+      "lessons": [
+        "Resolved this cycle: the skill conflated Income Tax Ordinance Section 150 (the objection / השגה provision) with a non-existent 'Form 150'. Objections are free-form written notices; the real ITA Form 150 is a foreign-corporation holdings declaration. Also corrected the glossary: reopening past-year assessments is Section 147, not 150.",
+        "Resolved this cycle: reserve-duty (miluim) minimum daily tagmul was 350.40; corrected to 328.76 NIS (floor effective 01.01.2026), example recomputed to 328.76 x 15 = 4,931.40. Legal basis Section 272 (Chapter XII) confirmed.",
+        "Resolved this cycle: Small Claims statement-of-defense deadline was 15 days; corrected to 30 days (kolzchut). The first pass missed the duplicate in references/common-government-forms.md line 92 (caught by the verification panel) and the script's seizure_notice default (20 -> 30); both fixed.",
+        "Resolved this cycle: Execution (אזהרה / Hotzaa LaPoal) opposition deadline was 20 days; corrected to 30.",
+        "Resolved this cycle: three open TODO URLs resolved: Freedom of Information -> gov.il/he/service/freedom_of_information_submission (24 NIS fee, 30+30 day window); Ombudsman -> complaint.mevaker.gov.il; digital signature -> justice.gov.il electronic-signature page. govisit.gov.il booking confirmed correct. A fourth leftover TODO (administrative-court vs HCJ jurisdiction) was resolved into a verified subject-matter-jurisdiction statement.",
+        "Resolved this cycle: stale Tax Authority personal-area link mof.gov.il (Finance Ministry) corrected to misim.gov.il in 3 places.",
+        "Process note: a research subagent applied the first-pass edits directly; the verification panel then caught two residual stale values it had missed (forms.md small-claims 15-day, script seizure 20-day). Always run the panel even when a prior agent reports the edits done."
+      ]
+    }
+  ]
+}

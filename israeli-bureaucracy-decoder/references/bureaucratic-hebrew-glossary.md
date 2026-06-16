@@ -16,7 +16,7 @@ A plain-language guide to Hebrew bureaucratic terms. When government documents u
 | ניכוי מס במקור | Nikui mas bamakor | Tax withheld from your income before you receive it (like your employer deducting tax from your salary) | מס שמנכים מההכנסה שלכם לפני שאתם מקבלים אותה |
 | החזר מס | Hehzer mas | Tax refund: money the government owes you back | כסף שהמדינה חייבת להחזיר לכם |
 | פקודת מס הכנסה | Pkudat mas hachnasa | Income Tax Ordinance: the main law governing income tax in Israel | החוק הראשי שמסדיר מס הכנסה בישראל |
-| סעיף 150 | Saif 150 | Section 150 of the Income Tax Ordinance: deals with re-assessment of past tax years | עוסק בפתיחת שומות של שנים קודמות |
+| סעיף 150 | Saif 150 | Section 150 of the Income Tax Ordinance: the taxpayer's right to object (השגה) to an assessment, in writing with reasons, within 30 days of delivery. (Reopening a past-year assessment is a different provision, Section 147) | זכות ההשגה על שומה: הגשת השגה בכתב עם נימוקים תוך 30 יום ממסירת השומה (פתיחת שומה של שנה קודמת היא סעיף 147 הנפרד) |
 | הפרשי הצמדה וריבית | Hefreshei hatzmada veribbit | Linkage differentials and interest: extra charges added to debts to account for inflation and time | תוספות על חובות בגלל אינפלציה וריבית |
 | מס ערך מוסף (מע"מ) | Ma'am (MAM) | Value Added Tax (VAT): 18% tax on goods and services (raised from 17% on January 1, 2025) | מס של 18% על מוצרים ושירותים (עלה מ-17% ב-1 בינואר 2025) |
 | עוסק מורשה | Osek murshe | Licensed/authorized dealer: a business registered for VAT above the small business threshold | עסק רשום למע"מ מעל תקרת העוסק הפטור |

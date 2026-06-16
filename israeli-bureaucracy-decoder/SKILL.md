@@ -114,7 +114,7 @@ Use this as a fast lookup when classifying urgency and pointing the user to the 
 
 | Sender | Key term in the letter | Urgency tier | Standard response window | Where to appeal / escalate |
 |--------|------------------------|--------------|---------------------------|----------------------------|
-| Tax Authority | שומה לפי מיטב השפיטה | URGENT | 30 days to file השגה (Form 150) | Internal השגה, then appeal to District Court (Tax Affairs) |
+| Tax Authority | שומה לפי מיטב השפיטה | URGENT | 30 days to file a written השגה (objection) under Section 150 of the Income Tax Ordinance | Internal השגה, then appeal to District Court (Tax Affairs) |
 | Tax Authority | החלטה בהשגה | URGENT | 30 days | District Court (Tax Affairs) |
 | Tax Authority | הודעת קנס | URGENT | 30 days to pay or appeal | Internal review, then court |
 | Bituach Leumi | דחיית תביעה | IMPORTANT | 12 months to appeal | Beit Din L'Avoda (Labor Court) |
@@ -123,11 +123,11 @@ Use this as a fast lookup when classifying urgency and pointing the user to the 
 | Municipality | התראה לפני נקיטת הליכים | URGENT | Act immediately | Pay, arrange installments, or contest at Magistrate Court |
 | Planning Committee | סירוב היתר | IMPORTANT | 30-45 days per the letter | District Planning Committee, then administrative petition |
 | Planning Committee | צו הריסה | URGENT | Per the order | Magistrate Court (planning division), and counsel immediately |
-| Hotzaa LaPoal | אזהרה | URGENT | 20 days | התנגדות לביצוע at the Execution Office |
+| Hotzaa LaPoal | אזהרה | URGENT | 30 days | התנגדות לביצוע at the Execution Office |
 | Hotzaa LaPoal | עיקול | URGENT | Immediate | Motion to release / arrangement |
 | Court | הזמנה לדין | URGENT | Per the summons | The court itself; consult a lawyer |
 | Court (Magistrate) | כתב תביעה | URGENT | 60 days to file כתב הגנה (תקנות סדר הדין האזרחי תשע"ט-2018) | The same court |
-| Court (Small Claims) | כתב תביעה | URGENT | 15 days to file כתב הגנה | The same court |
+| Court (Small Claims) | כתב תביעה | URGENT | 30 days to file כתב הגנה | The same court |
 | PIBA | החלטה בעניין מעמד | URGENT | Per the letter (often 21-45 days) | Internal appeal in PIBA, then Administrative Affairs Court |
 | Interior Ministry (Misrad HaPnim) | הודעה בעניין תעודת זהות | INFORMATIONAL or MEDIUM | Per the letter | Misrad HaPnim regional registration office |
 | Mevaker HaMedina | פנייה / החלטה | INFORMATIONAL | Per the letter | Cooperate; this is itself an escalation venue |
@@ -136,8 +136,8 @@ Use this as a fast lookup when classifying urgency and pointing the user to the 
 
 When the agency's internal objection / appeal has been used (or is plainly futile):
 
-1. **Freedom of Information request** (`gov.il/he/service/info_request_under_freedom_of_information_act`) if the letter cites information the user cannot otherwise access. Each public body has a designated information officer; statutory response window 30 days, extendable. Fees and exemptions apply per the 1998 law. TODO: verify URL and current fee schedule.
-2. **State Comptroller and Ombudsman** (`mevaker.gov.il`) for complaints about maladministration, delay, or abuse of authority by a public body. TODO: verify ombudsman intake URL.
+1. **Freedom of Information request** (`gov.il/he/service/freedom_of_information_submission`) if the letter cites information the user cannot otherwise access. Each public body has a designated information officer; statutory response window 30 days, which the head of the body may extend by an additional 30 days (and further for voluminous or complex requests). A request fee of 24 NIS applies (as of late 2025, covering the first 3 hours of processing), plus per-hour and per-page handling charges, with exemptions per the 1998 law.
+2. **State Comptroller and Ombudsman** (complaint intake at `complaint.mevaker.gov.il`) for complaints about maladministration, delay, or abuse of authority by a public body. In Israel the State Comptroller and the Ombudsman (נציב תלונות הציבור) are the same office.
 3. **Administrative petition** (עתירה מנהלית) to the District Court sitting as an Administrative Affairs Court, with strict time limits (typically 45 days from the decision). For nationwide-impact or constitutional issues, the High Court of Justice (בג"ץ). Always recommend consulting a lawyer first.
 
 ## Examples
@@ -168,7 +168,7 @@ Actions:
 5. Extract the payment amount, period covered, and payment date
 6. Present a clear breakdown of the decision
 
-Result: The user learns their reserve duty claim was approved for 15 days at a daily rate of 350.40 NIS, totaling 5,256 NIS before tax. Payment will arrive within 10 business days. The letter references Section 272 of the National Insurance Law, which is the standard legal basis for reserve duty compensation, nothing unusual. No action required unless the user believes the number of days or the daily rate is incorrect, in which case they have 12 months to appeal.
+Result: The user learns their reserve duty claim was approved for 15 days at the minimum daily rate of 328.76 NIS (the floor effective 01.01.2026; the actual rate is usually higher and based on the reservist's income), totaling 4,931.40 NIS before tax. Payment will arrive within 10 business days. The letter references Section 272 of the National Insurance Law, which is the standard legal basis for the reserve duty compensation rate (within Chapter XII, "תגמולים למשרתים במילואים"), nothing unusual. No action required unless the user believes the number of days or the daily rate is incorrect, in which case they have 12 months to appeal.
 
 ### Example 3: Municipal Arnona Notice
 
@@ -195,7 +195,7 @@ Actions:
 4. Extract the case number, parties involved, hearing date, and required response
 5. Flag this as URGENT and recommend immediate professional consultation
 
-Result: The user received a summons to Small Claims Court as the defendant. Someone filed a claim against them for 12,000 NIS regarding a service dispute. The hearing is scheduled for 45 days from the letter date. The user MUST file a written defense ("כתב הגנה") at least 15 days before the hearing date, or they risk a default judgment ("פסק דין בהיעדר הגנה"). The decoder strongly recommends consulting a lawyer, though representation by a lawyer is not required in Small Claims Court.
+Result: The user received a summons to Small Claims Court as the defendant. Someone filed a claim against them for 12,000 NIS regarding a service dispute. The hearing is scheduled for 45 days from the letter date. The user MUST file a written defense ("כתב הגנה") within 30 days of receiving the claim, or they risk a default judgment ("פסק דין בהיעדר הגנה"). The decoder strongly recommends consulting a lawyer, though representation by a lawyer is not required in Small Claims Court.
 
 ## Bundled Resources
 
@@ -222,7 +222,7 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 - Government office hours in Israel vary: some close at 12:30 PM on certain days, and most are closed on Fridays. Agents may suggest visiting offices during hours when they are closed.
 - `gov.il` URLs are frequently restructured and individual department slugs redirect or 404. Treat direct deep links as best-effort, not authoritative. If a slug does not resolve, send the user to the `gov.il` homepage and have them search by the service name (the search bar is more stable than department paths).
 - In-person visits almost always require a pre-booked appointment now. The unified gov.il booking portal is `govisit.gov.il` (users may know it by the `myVisit` mobile-app brand from the same vendor). Agency-specific portals: PIBA (`piba.gov.il`), Bituach Leumi (`btl.gov.il`).
-- Many digital forms now require a personal **digital signature** certificate (comsign / PersonalID). Suggesting "just sign it digitally" without checking is wrong if the user does not have a certificate set up; see `gov.il/he/departments/policies/digital_signature` (TODO: verify URL).
+- Many digital forms now require a personal **digital signature** certificate from a licensed certification authority (גורם מאשר) such as comsign or PersonalID, both real Israeli providers regulated under the Electronic Signature Law, 5761-2001. Suggesting "just sign it digitally" without checking is wrong if the user does not have a certificate set up; the authoritative reference and the registry of accredited certification authorities live on the Ministry of Justice electronic-signature page (`justice.gov.il/Units/YeutzVehakika/NosimMishpatim/Pages/HatimaElectronit.aspx`).
 
 ## Reference Links
 
@@ -259,4 +259,4 @@ Solution: First, check if the deadline is calculated from the send date or the r
 
 Cause: Scanned documents, old faxes, or photocopied letters may have missing sections, blurred text, or cut-off margins. Government offices sometimes print on both sides, and the user may have only scanned one side.
 
-Solution: Work with what is available. Identify as many structural elements as possible (sender, reference number, date, any visible deadlines). Flag the missing sections explicitly in the summary and note what information might be in the illegible parts. Suggest the user: (1) Check if there is a second page or reverse side. (2) Contact the sending body's call center with the reference number to get the document resent or read over the phone. (3) Check their government portal account (e.g., the Tax Authority's "Personal Area" at mof.gov.il) where many documents are available digitally.
+Solution: Work with what is available. Identify as many structural elements as possible (sender, reference number, date, any visible deadlines). Flag the missing sections explicitly in the summary and note what information might be in the illegible parts. Suggest the user: (1) Check if there is a second page or reverse side. (2) Contact the sending body's call center with the reference number to get the document resent or read over the phone. (3) Check their government portal account (e.g., the Tax Authority's "Personal Area" at misim.gov.il) where many documents are available digitally.

@@ -212,14 +212,14 @@ DOCUMENT_TYPES = {
         "name_en": "Seizure/Lien Notice",
         "patterns": [r"עיקול", r"צו עיקול"],
         "urgency": "URGENT",
-        "default_deadline_days": 20,
+        "default_deadline_days": 30,
     },
     "enforcement_warning": {
         "name_he": "אזהרה (הוצאה לפועל)",
         "name_en": "Enforcement Warning",
         "patterns": [r"אזהרה", r"הוצאה לפועל"],
         "urgency": "URGENT",
-        "default_deadline_days": 20,
+        "default_deadline_days": 30,
     },
     "arnona_notice": {
         "name_he": "הודעת ארנונה",

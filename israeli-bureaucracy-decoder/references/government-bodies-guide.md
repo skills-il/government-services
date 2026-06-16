@@ -32,7 +32,7 @@ A comprehensive reference for identifying government bodies by their letterhead,
 
 **What they usually want:** Money, documents proving your income/expenses, or for you to file returns you have not filed yet. The Tax Authority is the most deadline-sensitive body. Missing a 30-day window often means losing the right to object.
 
-**Contact:** *4954 or 02-6559000, Sunday-Thursday 8:15-15:30. Online services at mof.gov.il.
+**Contact:** *4954 or 02-6559000, Sunday-Thursday 8:15-15:30. Online services at misim.gov.il.
 
 ---
 
@@ -247,12 +247,12 @@ A comprehensive reference for identifying government bodies by their letterhead,
 
 | Document | Hebrew Name | What It Means | Urgency |
 |----------|-------------|---------------|---------|
-| Debt notice | אזהרה | You have an open enforcement file against you | URGENT - 20 days to respond |
+| Debt notice | אזהרה | You have an open enforcement file against you | URGENT - 30 days to respond |
 | Property seizure | עיקול | Your assets/bank account has been frozen | URGENT |
 | Payment arrangement | הסדר תשלומים | Terms for paying off debt | HIGH - comply or renegotiate |
 | Restriction on leaving country | צו עיכוב יציאה מהארץ | You cannot leave Israel until debt resolved | URGENT |
 
-**What they usually want:** Payment. Hotzaa LaPoal is the most aggressive collection mechanism in Israel. Their letters should always be treated as urgent. An "אזהרה" (warning) gives you 20 days to either pay, reach an arrangement, or file a claim of opposition ("התנגדות"). Ignoring it leads to asset seizure.
+**What they usually want:** Payment. Hotzaa LaPoal is the most aggressive collection mechanism in Israel. Their letters should always be treated as urgent. An "אזהרה" (warning) gives you 30 days to either pay, reach an arrangement, or file a claim of opposition ("התנגדות"). Ignoring it leads to asset seizure.
 
 ---
 
@@ -302,7 +302,7 @@ A comprehensive reference for identifying government bodies by their letterhead,
 - The user believes the agency acted improperly, not just incorrectly
 - The complaint is about service quality, delay, abuse of authority, or maladministration
 
-**Online:** `mevaker.gov.il`. TODO: verify the exact ombudsman intake URL and current SLA for response.
+**Online:** complaint intake at `complaint.mevaker.gov.il` (the descriptive landing page is `mevaker.gov.il/contact-us/הגשת-תלונה`). In Israel the State Comptroller (מבקר המדינה) and the Ombudsman (נציב תלונות הציבור) are the same office.
 
 ---
 
@@ -311,11 +311,11 @@ A comprehensive reference for identifying government bodies by their letterhead,
 When a government letter cites information (a report, a calculation, an internal memo) that the user cannot otherwise access, the user has a statutory right to request it under the **Freedom of Information Law, 5758-1998** (חוק חופש המידע).
 
 - Each public body has a designated "Information Officer" (ממונה על חוק חופש המידע)
-- Standard fees apply (a base filing fee plus per-page handling), with exemptions for certain categories
-- The body must respond within a statutory window (default 30 days, extendable)
+- A request fee of 24 NIS applies (as of late 2025, covering the first 3 hours of processing), plus a per-hour handling charge (about 36 NIS/hour from the 4th hour) and per-page reproduction charge, with exemptions for certain categories
+- The body must respond within a statutory window of 30 days, which the head of the public body may extend by an additional 30 days with written reasoned notice (and further, for voluminous or complex requests)
 - Refusal can be appealed administratively and then to court
 
-**Service page:** `gov.il/he/service/info_request_under_freedom_of_information_act`. TODO: verify exact URL and current fee schedule before quoting numbers to a user.
+**Service page:** `gov.il/he/service/freedom_of_information_submission` (alternate FOI-unit portal: `foi.gov.il/inforequest`). Verify the current fee schedule before quoting numbers to a user, since the fees regulations are updated periodically.
 
 ---
 
@@ -325,7 +325,7 @@ When a government letter cites information (a report, a calculation, an internal
 - **Administrative petition** (עתירה מנהלית) is filed at the District Court sitting as an Administrative Affairs Court (בית משפט לעניינים מנהליים) for most ministry decisions. Strict time limits apply (typically 45 days from the decision, sometimes shorter).
 - **Bagatz** (the High Court of Justice / בית המשפט הגבוה לצדק, a hat of the Supreme Court) hears petitions that fall outside the administrative-courts jurisdiction or that raise constitutional / nationwide-impact issues.
 
-This is a step for situations where every administrative remedy inside the agency and its parent ministry has been exhausted (or is plainly futile) and the user is willing to incur legal-representation cost. Always recommend consulting a lawyer before drafting such a petition. TODO: verify current jurisdictional thresholds between Administrative Affairs Court and Bagatz before advising a specific venue.
+This is a step for situations where every administrative remedy inside the agency and its parent ministry has been exhausted (or is plainly futile) and the user is willing to incur legal-representation cost. Always recommend consulting a lawyer before drafting such a petition. Jurisdiction is by subject matter, not a monetary threshold: the Administrative Affairs Courts hear petitions on the subjects listed in the schedule to the Administrative Courts Law 5760-2000 (planning and building, tenders, local-authority decisions, and similar), while the High Court of Justice hears matters outside that schedule and constitutional or nationwide-impact petitions.
 
 ---
 

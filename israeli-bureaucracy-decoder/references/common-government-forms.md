@@ -19,7 +19,8 @@ An index of frequently encountered government forms, what they are for, who need
 | **119** | טופס 119 | Request for advance tax ruling | Anyone needing clarity on tax treatment before a transaction | Before the transaction takes place |
 | **134** | טופס 134 | Self-assessment for individuals with income from capital, overseas, or other non-salary sources | Individuals with passive income | Annual, with the tax return |
 | **1325** | טופס 1325 | Request for tax coordination (tium mas) when you have two or more employers | Employees with multiple jobs | When starting an additional job |
-| **150** | טופס 150 | Objection to a tax assessment (hashagah) | Anyone who disagrees with their assessment | Within 30 days of receiving the assessment |
+| **(no form)** | הודעת השגה | Objection to a tax assessment (hashagah). NOT a numbered form: an objection is filed as a free-form written notice ("הודעת השגה") stating the grounds, under Section 150 of the Income Tax Ordinance (סעיף 150 לפקודת מס הכנסה). "150" is the law section, not a form number | Anyone who disagrees with their assessment | Within 30 days of receiving the assessment |
+| **150** | טופס 150 | Declaration of holdings in a foreign corporation (הצהרה על החזקה בחבר בני אדם תושב חוץ). This is the real ITA Form 150, filed with the annual return by Israeli residents holding interests in foreign entities. It is UNRELATED to tax objections | Israeli residents holding interests in foreign corporations | Annually, with the income tax return |
 
 > **Annual return deadline note (forms 135, 1301):** The Tax Authority extends these annual filing deadlines almost every year. For tax year 2025 (reported in 2026), gov.il published deadlines are **May 29, 2026 (paper)** and **June 30, 2026 (online)** per the gov.il service page `gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals`. Earlier guidance of "April 30 (paper) / May 31 (online)" is the historical default. Always verify the exact current dates on gov.il before advising a user, since the Tax Authority can issue additional extensions during the filing season.
 
@@ -88,10 +89,10 @@ An index of frequently encountered government forms, what they are for, who need
 | Form | Purpose | Who Files | When |
 |------|---------|-----------|------|
 | **Statement of claim** (כתב תביעה) | Initiate a lawsuit | The plaintiff (person suing) | When filing a case |
-| **Statement of defense** (כתב הגנה) | Respond to a lawsuit | The defendant (person being sued) | **Magistrate Court (שלום): 60 days** from service of the claim under תקנות סדר הדין האזרחי, תשע"ט-2018 (Civil Procedure Regulations 2018). **Small Claims (תביעות קטנות): 15 days** from service. Some specialized proceedings (e.g. the State as a party) may set their own period in the summons, so always verify on the court summons itself |
+| **Statement of defense** (כתב הגנה) | Respond to a lawsuit | The defendant (person being sued) | **Magistrate Court (שלום): 60 days** from service of the claim under תקנות סדר הדין האזרחי, תשע"ט-2018 (Civil Procedure Regulations 2018). **Small Claims (תביעות קטנות): 30 days** from service of the claim (per kolzchut "הגשת תביעה קטנה"; this derives from the small-claims regime, not the general 60-day civil-procedure rule). Some specialized proceedings (e.g. the State as a party) may set their own period in the summons, so always verify on the court summons itself |
 | **Small claims form** (טופס תביעה קטנה) | File a small claims case (up to **39,900 NIS as of January 2026** per kolzchut "הגשת תביעה קטנה"; the ceiling is updated periodically by regulation) | Anyone suing for a small amount | When filing at Small Claims Court |
 | **Fee exemption request** (בקשה לפטור מאגרה) | Request waiver of court filing fees due to financial hardship | Low-income plaintiffs | When filing the case |
-| **Opposition to execution** (התנגדות לביצוע) | Challenge an enforcement/execution proceeding | Defendants in Hotzaa LaPoal proceedings | Within 20 days of receiving the warning (azhara) |
+| **Opposition to execution** (התנגדות לביצוע) | Challenge an enforcement/execution proceeding | Defendants in Hotzaa LaPoal proceedings | Within 30 days of receiving the warning (azhara) |
 
 ---
 
@@ -117,7 +118,7 @@ Most Israeli government portals now require a verified digital identity before y
 | Population and Immigration Authority (PIBA) | `piba.gov.il` (personal area for visa/permit holders) | Visa status, biometric appointments, residency files |
 | Unified gov.il | `gov.il` after sign-in | Cross-ministry forms, appointment booking |
 
-**Digital signature:** Some forms (especially in tax, courts, and property contexts) require a personal digital signature certificate from a recognized provider (comsign, PersonalID). Background and the legal framework live at `gov.il/he/departments/policies/digital_signature`. TODO: verify exact URL and current list of accredited certificate providers.
+**Digital signature:** Some forms (especially in tax, courts, and property contexts) require a personal digital signature certificate from a licensed certification authority (גורם מאשר). comsign and PersonalID are both real, licensed Israeli providers regulated under the Electronic Signature Law, 5761-2001. Background, the legal framework, and the registry of accredited certification authorities live on the Ministry of Justice electronic-signature page: `justice.gov.il/Units/YeutzVehakika/NosimMishpatim/Pages/HatimaElectronit.aspx`.
 
 > Before escalating to a phone call or office visit, **check the relevant personal area first**. Many letters that look "missing" are actually sitting in the user's digital inbox.
 
