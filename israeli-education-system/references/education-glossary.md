@@ -57,7 +57,7 @@
 | Open University | Distance | Open admissions (no Bagrut/PET required) |
 | Reichman University | Herzliya | Research (granted university status 2021; formerly IDC) |
 | Ariel University | Ariel | Research (granted university status 2012) |
-| University of Kiryat Shmona in the Galilee | Kiryat Shmona | Research (CHE-approved 22 Jan 2026, effective 2026/27 academic year, 5-year provisional; ex-Tel-Hai Academic College) |
+| University of Kiryat Shmona and the Galilee | Kiryat Shmona | Research (CHE-approved ~20 Jan 2026, effective 2026/27 academic year, 5-year provisional; ex-Tel-Hai Academic College) |
 
 ## English Placement Tests (Distinct from Bagrut English)
 | Test | Hebrew | Purpose |
@@ -75,4 +75,4 @@
 | Atuda Akademait | עתודה אקדמית | IDF-sponsored degree; tuition + stipend in exchange for ~4-5y service post-graduation |
 | Naale | נעל"ה | Bagrut in Israel for diaspora teens; recognized by all universities |
 | Olim PET exemption | פטור מפסיכומטרי לעולים | Olim chadashim are exempt from PET for first 3 years post-aliyah at most universities |
-| Open University petuach | מודל פתוח | 108 credit points = full degree, no Bagrut/PET prerequisite |
+| Open University petuach | מודל פתוח | 120 credit points = full degree, no Bagrut/PET prerequisite |

@@ -1,0 +1,18 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.1",
+      "date": "2026-06-16",
+      "lessons": [
+        "Resolved this cycle: psychometric fee was 665 NIS / ~150% late; corrected to ~560 NIS (NITE price sheet) in SKILL.md, SKILL_HE.md, and the script.",
+        "Resolved this cycle: Open University first degree was '108 credit points' (legacy pre-2022); corrected to 120 (CHE-mandated since 2021-22) in body + glossary.",
+        "Resolved this cycle: MOR registration window was 'January-March' (wrong); corrected to spring-early summer (2026 biographical-questionnaire registration early-mid June; assessment late May-July). Fixed in Step 5.5, Gotcha, and Troubleshooting.",
+        "Resolved this cycle: University of Kiryat Shmona approval date 22 Jan -> ~20 Jan 2026; name -> 'Kiryat Shmona and the Galilee' (קריית שמונה והגליל). Added the Dec 2026 PET restructure admissions-impact nuance (from תשפ\"ח / Oct 2027).",
+        "Resolved this cycle: calculate_sekhem.py used a wrong Bagrut-bonus formula (added total_bonus/num_subjects to a plain average and ignored the grade-60 condition); corrected to the canonical sum(units*(grade+bonus))/sum(units) with the grade>=60 gate. Also aligned the script's tel_aviv weight (45/55 -> 40/60) to match the prose.",
+        "Resolved this cycle: added the missing Hebrew '## שרתי MCP מומלצים' section to restore SKILL_HE.md parity with SKILL.md (was 6 vs 7).",
+        "Expert MINOR deferred: the 5-unit bonus stacking rule (math + two science => +30 each) is specifically the Technion Madatech cluster rule, stated as 'most universities'; it is followed by a verify-the-program caveat. Next cycle: attribute it to Technion specifically.",
+        "Expert MINOR deferred: the sekhem estimator's bagrut-to-psychometric normalization (bagrut * 8) is a crude approximation; it is an illustrative estimate with a verify-on-official-calculator caveat. Next cycle: consider a more faithful normalization or label outputs more explicitly as rough estimates."
+      ]
+    }
+  ]
+}

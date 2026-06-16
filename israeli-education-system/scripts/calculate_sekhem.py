@@ -76,7 +76,7 @@ UNIVERSITY_WEIGHTS = {
     "general": {"bagrut": 0.40, "psychometric": 0.60},
     "technion": {"bagrut": 0.35, "psychometric": 0.65},
     "hebrew_university": {"bagrut": 0.40, "psychometric": 0.60},
-    "tel_aviv": {"bagrut": 0.45, "psychometric": 0.55},
+    "tel_aviv": {"bagrut": 0.40, "psychometric": 0.60},
     "ben_gurion": {"bagrut": 0.40, "psychometric": 0.60},
     "bar_ilan": {"bagrut": 0.45, "psychometric": 0.55},
     "haifa": {"bagrut": 0.45, "psychometric": 0.55},
@@ -94,10 +94,10 @@ def calculate_bagrut_average(subjects_json: str) -> None:
 
     print("=== Bagrut Average Calculator ===\n")
 
-    total_weighted = 0
+    total_raw_weighted = 0
+    total_boosted_weighted = 0
     total_units = 0
     total_bonus = 0
-    num_subjects = len(subjects)
 
     print(f"{'Subject':<25} {'Units':>5} {'Grade':>5} {'Bonus':>5}")
     print("-" * 45)
@@ -107,11 +107,16 @@ def calculate_bagrut_average(subjects_json: str) -> None:
         grade = data.get("grade", 0)
         bonus = 0
 
-        if units == 5 and name in FIVE_UNIT_BONUSES:
+        # A 5-unit bonus applies only to an eligible subject taken at 5 units
+        # with a final grade of at least 60.
+        if units == 5 and name in FIVE_UNIT_BONUSES and grade >= 60:
             bonus = FIVE_UNIT_BONUSES[name]
             total_bonus += bonus
 
-        total_weighted += grade * units
+        # Canonical Israeli method: add the bonus to the subject grade, then take
+        # the unit-weighted average: sum(units * (grade + bonus)) / sum(units).
+        total_raw_weighted += grade * units
+        total_boosted_weighted += (grade + bonus) * units
         total_units += units
 
         print(f"{name:<25} {units:>5} {grade:>5} {'+' + str(bonus) if bonus else '':>5}")
@@ -122,18 +127,17 @@ def calculate_bagrut_average(subjects_json: str) -> None:
         print("No valid subjects provided.")
         return
 
-    raw_average = total_weighted / total_units
-    # Bonus is typically added as points to the average (divided by number of subjects)
-    bonus_contribution = total_bonus / num_subjects if num_subjects > 0 else 0
-    boosted_average = min(raw_average + bonus_contribution, 120)
+    raw_average = total_raw_weighted / total_units
+    boosted_average = total_boosted_weighted / total_units
 
     print(f"\nTotal units: {total_units}")
     print(f"Meets minimum (21 units): {'Yes' if total_units >= 21 else 'No'}")
     print(f"Raw average: {raw_average:.1f}")
     print(f"5-unit bonus points: {total_bonus}")
-    print(f"Boosted average: {boosted_average:.1f}")
+    print(f"Boosted (bonus-weighted) average: {boosted_average:.1f}")
     print()
-    print("NOTE: Exact bonus calculation varies by university.")
+    print("NOTE: Bonus applies only to a 5-unit subject with a final grade of 60+.")
+    print("Exact bonus tables and caps vary by university; verify on the program calculator.")
 
 
 def estimate_sekhem(bagrut_avg: float, psychometric: int,
@@ -218,7 +222,7 @@ def interpret_psychometric(score: int) -> None:
 
     print("Maximum attempts: unlimited (NITE removed the prior 8-attempt cap; highest score counts)")
     print("Available in: Hebrew, Arabic, Russian, French, Spanish")
-    print("Cost: 665 NIS standard registration (2026); late registration ~150% of standard")
+    print("Cost: approximately 560 NIS standard registration (2026); verify the current fee on nite.org.il")
     print()
     print("From December 2026: English moves to a separate computerized test (Amirnett);")
     print("the main PET shrinks to 2 sections (Verbal + Quantitative). Verify on nite.org.il.")

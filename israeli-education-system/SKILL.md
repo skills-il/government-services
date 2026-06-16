@@ -103,14 +103,14 @@ Note: Exact bonus tables vary by university and program. The values above reflec
 **Key facts:**
 - No cap on retake attempts (NITE removed the prior 8-attempt limit years ago); the highest score counts.
 - Available in Hebrew, Arabic, Russian, French, Spanish.
-- Cost (2026): 665 NIS standard registration. Late registration runs roughly 150% of standard (~1,000 NIS). Always verify the current sitting fee on nite.org.il/test-dates-and-prices before quoting.
+- Cost (2026): approximately 560 NIS standard registration (per the NITE price sheet); late registration adds a surcharge. Always verify the current sitting fee on nite.org.il/test-dates-and-prices before quoting.
 - Popular prep courses: Kidum, High-Q, Yoel Geva, Psagot.
 
-**IMPORTANT — December 2026 PET restructure:**
+**IMPORTANT, December 2026 PET restructure:**
 NITE is removing English from the main psychometric. From the December 2026 sitting onward:
 - The PET shrinks to 2 sections (Verbal + Quantitative), ~2.5 hours total.
 - English moves to a separate computerized test called **Amirnett** (אמירנט).
-- Confirm the current schedule on nite.org.il before advising whether a student should sit the legacy 3-section format or the new structure. Universities that previously used the PET English score will gradually migrate to Amirnett.
+- The restructure affects admissions only from academic year תשפ"ח (starting October 2027); each institution decides whether to keep using the PET English score in the sekhem until then. Confirm the current schedule on nite.org.il before advising whether a student should sit the legacy 3-section format or the new structure. Universities that previously used the PET English score will gradually migrate to Amirnett.
 
 ### Step 4.5: English Placement Tests (Distinct from Bagrut English)
 
@@ -137,7 +137,7 @@ PET / Amir / Amiram English score determines the bracket. From December 2026, **
 ### Step 5: University Admissions
 
 **Sekhem (composite admission score) calculation:**
-Each university (and each faculty within a university) weights Bagrut and Psychometric differently, and weights shift between admission cycles. The illustrative ranges below are starting points only — always verify on the program's official admissions calculator before quoting a number to a user:
+Each university (and each faculty within a university) weights Bagrut and Psychometric differently, and weights shift between admission cycles. The illustrative ranges below are starting points only, always verify on the program's official admissions calculator before quoting a number to a user:
 - Typical: 40% Bagrut + 60% Psychometric (varies by program)
 - Technion: roughly 35% Bagrut + 65% Psychometric, with program-specific 5-unit-Math / 5-unit-English thresholds for CS and engineering
 - Tel Aviv University: roughly 40% Bagrut + 60% Psychometric, with Bagrut average multiplied by ×1.25 in the formula. Medicine requires the centralized **MOR Multi-Mini Interview** on top of sekhem (see Step 5.5).
@@ -156,7 +156,7 @@ Each university (and each faculty within a university) weights Bagrut and Psycho
 | Open University | ha-universita ha-ptuchah | Distance | Open admissions (no Bagrut/PET required for course enrollment) |
 | Reichman University | universitat raichman | Herzliya | Business, law, government (granted university status by CHE in 2021; formerly IDC) |
 | Ariel University | universitat ariel | Ariel | Engineering, sciences (granted university status in 2012) |
-| University of Kiryat Shmona in the Galilee | universitat kiryat shmona ba-galil | Kiryat Shmona | Biotech, education, psychology, nutrition (CHE-approved 22 Jan 2026, effective 2026/27 academic year, 5-year provisional recognition; ex-Tel-Hai Academic College) |
+| University of Kiryat Shmona and the Galilee | universitat kiryat shmona ve-ha-galil | Kiryat Shmona | Biotech, education, psychology, nutrition (CHE-approved ~20 Jan 2026, effective 2026/27 academic year (תשפ"ז), 5-year provisional recognition; ex-Tel-Hai Academic College) |
 
 **Approximate admission thresholds (sekhem):**
 | Program | Top Universities | Mid-tier |
@@ -170,14 +170,14 @@ Each university (and each faculty within a university) weights Bagrut and Psycho
 
 ### Step 5.5: Medicine Admissions (MOR Multi-Mini Interview)
 
-All Israeli medical schools (TAU, Hebrew U, BGU, Bar-Ilan/Tzfat, Technion, Ariel) require the **MOR** (מור) Multi-Mini Interview administered centrally by NITE, in addition to sekhem:
+Most Israeli medical schools (TAU, Hebrew U, BGU, Bar-Ilan/Tzfat, Technion, Ariel) require the **MOR** (מו"ר) selection process (a multi-station assessment center) administered centrally by NITE, in addition to sekhem:
 
-- **Registration window**: typically January-March each year via nite.org.il/other-tests/mor
+- **Registration window**: spring to early summer (for 2026 the biographical-questionnaire registration ran in early-mid June; assessment centers run roughly late May to July) via nite.org.il/other-tests/mor. Verify the current cycle's exact dates.
 - **Format**: in-person, multi-station Hebrew interviews
 - **Capacity-limited**: registration closes well before the medical-school application deadline; missing this window means missing the entire admissions cycle for medicine
 - **Hard pre-screen**: a student with sekhem 740+ who skips MOR is auto-rejected from medicine
 - **Fee**: separate from PET, posted annually on nite.org.il
-- No exemption for atuda candidates or olim — the MOR is required across the board
+- No exemption for atuda candidates or olim, the MOR is required across the board
 
 A student aiming for medicine who only optimizes Bagrut + Psychometric will fail admissions. Always flag MOR registration windows when advising medicine applicants.
 
@@ -193,7 +193,7 @@ Not every path into Israeli higher education runs through Bagrut + Psychometric.
 **Atuda Akademait (IDF-sponsored academic deferral):**
 - The IDF pays full tuition + monthly stipend in exchange for extended service after the degree (length depends on degree, typically 4-5 years post-graduation).
 - Apply via Meitav (IDF Manpower Directorate); registration window opens around age 16.5, before the standard draft age. The Yom Hamiyunim (selection day) is held during high school.
-- Atuda is a separate gate ON TOP of regular university admission — a student must be accepted both by the IDF AND the university.
+- Atuda is a separate gate ON TOP of regular university admission, a student must be accepted both by the IDF AND the university.
 - Strongly STEM-skewed: most slots are CS, engineering, math, physics. Reference: mitgaisim.idf.il/roles/מסלול-העתודה-האקדמית.
 
 **Olim Chadashim (new immigrants):**
@@ -203,12 +203,12 @@ Not every path into Israeli higher education runs through Bagrut + Psychometric.
 - Student Authority (Minhal HaStudentim) provides tuition scholarships and dorm subsidies for first-degree olim. Reference: gov.il/he/departments/units/student_authority.
 
 **Open University (Ha'Universita Ha'Petucha) "petuach" model:**
-- Course enrollment is open to anyone — no Bagrut, no psychometric, no application form required.
-- Students accumulate course credits; **108 credit points** with the required core completes a fully CHE-recognized first degree, equivalent in legal status to any other university degree.
+- Course enrollment is open to anyone, no Bagrut, no psychometric, no application form required.
+- Students accumulate course credits; **120 credit points** (engineering degrees differ) with the required core completes a fully CHE-recognized first degree, equivalent in legal status to any other university degree.
 - Strongest fit for older students, dropouts, working professionals, and students who failed the psychometric and prefer not to retake. Reference: openu.ac.il/registration.
 
 **Elite IDF-academic programs (Mahalol):**
-- **Talpiot** (IDF + Hebrew U Math/Physics/CS), **Havatzalot** (intelligence + BGU), **Brakim**, **Psagot**, **Tzameret** (medicine + IDF) — separate selection processes parallel to standard admission, with multi-year service commitments.
+- **Talpiot** (IDF + Hebrew U Math/Physics/CS), **Havatzalot** (intelligence + BGU), **Brakim**, **Psagot**, **Tzameret** (medicine + IDF), separate selection processes parallel to standard admission, with multi-year service commitments.
 - Application gates open in 11th grade for some (e.g., Talpiot Yom Hamiyunim). Students with the academic profile to apply often miss the window because the skill is treated as university-only.
 
 ### Step 7: Wartime 2023-2025 (Iron Swords) Accommodations
@@ -276,10 +276,10 @@ Result: Structured school list for the requested city and level.
 ## Bundled Resources
 
 ### Scripts
-- `scripts/calculate_sekhem.py` — Calculate weighted Bagrut averages with 5-unit bonus points, estimate university admission composite scores (sekhem) for specific universities, interpret psychometric exam scores with percentile rankings, and display admission thresholds for popular programs. Supports subcommands: `bagrut`, `sekhem`, `psychometric`, `thresholds`. Run: `python scripts/calculate_sekhem.py --help`
+- `scripts/calculate_sekhem.py`, Calculate weighted Bagrut averages with 5-unit bonus points, estimate university admission composite scores (sekhem) for specific universities, interpret psychometric exam scores with percentile rankings, and display admission thresholds for popular programs. Supports subcommands: `bagrut`, `sekhem`, `psychometric`, `thresholds`. Run: `python scripts/calculate_sekhem.py --help`
 
 ### References
-- `references/education-glossary.md` — Hebrew-English glossary of Israeli education terms covering system levels (gan through tichon), exam terminology (bagrut, yechidot limud, sekhem), education streams (mamlachti, charedi, aravi), mandatory Bagrut subject requirements, and all major universities with locations. Consult when translating education terms or explaining system structure.
+- `references/education-glossary.md`, Hebrew-English glossary of Israeli education terms covering system levels (gan through tichon), exam terminology (bagrut, yechidot limud, sekhem), education streams (mamlachti, charedi, aravi), mandatory Bagrut subject requirements, and all major universities with locations. Consult when translating education terms or explaining system structure.
 
 ## Gotchas
 - The Israeli school year starts September 1, but end dates differ by level: elementary schools and kindergartens end June 30, while middle schools and high schools end **June 19** (e.g., 2025/26 cycle). Do NOT generalize "June 30" across all levels.
@@ -288,7 +288,7 @@ Result: Structured school list for the requested city and level.
 - Israeli universities have a separate admissions process from the US: SAT equivalent is the psychometric exam (psychometri), GPA is calculated differently (sekhem), and army service (sherut tzva'i) is factored into admissions.
 - Bagrut English score does NOT determine university English placement. Universities use Amir / Amiram (and from December 2026, Amirnett) for English bracketing. A student with 5yl Bagrut English at 90 may still be placed in "Advanced A" and required to take an English course. See Step 4.5.
 - Bagrut bonus tables: math 5yl earns +35 but English 5yl earns only +25. Treating English as a "+35 subject" inflates calculated sekhem and misleads students about admission chances.
-- Medicine admissions are MOR-gated. A student with a 740+ sekhem who skipped MOR registration in January-March is auto-rejected from medicine for that admission cycle. See Step 5.5.
+- Medicine admissions are MOR-gated. A student with a 740+ sekhem who skipped MOR registration (spring to early summer) is auto-rejected from medicine for that admission cycle. See Step 5.5.
 - The Iron Swords (Charvot Barzel) accommodations are still active for 2025/26 Bagrut: ~15% extra time, ~20% material reduction, oral conversions for displaced students. Do not assume standard format for evacuee or reservist students.
 
 ## Troubleshooting
@@ -310,7 +310,7 @@ Cause: Olim chadashim are exempt from the psychometric for the first 3 years pos
 Solution: Confirm aliyah date, then advise applying via the Olim track at the target university and the Student Authority for tuition scholarship. See Step 6.
 
 ### Issue: "Student wants medicine but missed MOR registration"
-Cause: MOR (Multi-Mini Interview) registration closes January-March, well before the medical-school application deadline. Students who only optimize sekhem assume "I'll worry about admissions later" and miss the window entirely.
+Cause: MOR registration runs in spring to early summer (around May-June) and closes well before the medical-school application deadline. Students who only optimize sekhem assume "I'll worry about admissions later" and miss the window entirely.
 Solution: There is no late MOR sitting. The student must wait a full year and register for the next MOR cycle. See Step 5.5.
 
 ## Recommended MCP Servers
@@ -325,7 +325,7 @@ For live school data lookups and education datasets from data.gov.il, pair this 
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | NITE (psychometric exam) | https://www.nite.org.il/ | Current sitting fee, registration windows, exam languages, score interpretation, December 2026 PET restructure (Amirnett) |
-| NITE — Amir / Amiram / Yael | https://www.nite.org.il/other-tests/ | English placement (Amir, Amiram), Hebrew proficiency for non-Hebrew speakers (Yael), MOR for medicine |
+| NITE, Amir / Amiram / Yael | https://www.nite.org.il/other-tests/ | English placement (Amir, Amiram), Hebrew proficiency for non-Hebrew speakers (Yael), MOR for medicine |
 | Ministry of Education | https://edu.gov.il/ | Current Bagrut requirements, unit thresholds, school year calendar |
 | Iron Swords accommodations | https://edu.gov.il/special/iron-swords/ | Wartime Bagrut accommodations for evacuees, reservists, bereaved families |
 | Council for Higher Education (CHE) | https://che.org.il/en/ | Authoritative list of recognized universities and accredited colleges (11 universities as of 2026) |
