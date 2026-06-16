@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israel-gov-api",
+  "generated_at": "2026-06-16T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "percent-encoding-artifacts",
+      "claim": "The two-character sequences read by the verifier as percentages (0% 1% 2% 4% 6% 7% 8% 20% 22% 90% 91% 94% 95% 97% 99%) are NOT statistics. They are byte-pair artifacts of UTF-8 percent-encoded Hebrew text inside the example data.gov.il query URLs (for example q=%D7%AA%D7%9C). In percent-encoding, each byte is written as a percent sign followed by two hexadecimal digits, so digit pairs that follow a percent sign in an encoded Hebrew string surface as phantom percentages and carry no quantitative meaning.",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding",
+      "raw_snippet": "Percent-encoding is a mechanism to encode 8-bit characters that have specific meaning in the context of URLs. It is sometimes called URL encoding. The encoding consists of a substitution: A '%' followed by the hexadecimal representation of the ASCII value of the replaced character."
+    },
+    {
+      "claim_id": "ckan-action-methods",
+      "claim": "data.gov.il runs CKAN, whose JSON API exposes RPC-style action methods at /api/3/action/. The methods used by this skill are real CKAN actions: /action/package_search, /action/package_show, /action/package_list, /action/datastore_search, /action/datastore_search_sql, /action/resource_show, /action/organization_list, /action/group_list, and /action/tag_list. datastore_search_sql is a real CKAN action even though data.gov.il blocks it.",
+      "source_url": "https://docs.ckan.org/en/latest/api/",
+      "raw_snippet": "CKAN provides an RPC-style API accessed via /api/3/action/ endpoints. package_search searches datasets, called as /api/3/action/package_search?q=spending. package_show returns dataset metadata and resources, called as /api/3/action/package_show?id=dataset_name. package_list retrieves all dataset names, called as /api/3/action/package_list. resource_show returns metadata for a resource, called as /api/3/action/resource_show?id=resource_id. organization_list returns site organization names, called as /api/3/action/organization_list. group_list returns site group names, called as /api/3/action/group_list. tag_list returns site tags, called as /api/3/action/tag_list. Responses are JSON dictionaries with success, result, and help keys."
+    },
+    {
+      "claim_id": "ckan-datastore-actions",
+      "claim": "CKAN DataStore search actions: /action/datastore_search returns up to 100 rows by default, and /action/datastore_search_sql executes SQL queries against the DataStore using the PostgreSQL engine. datastore_search_sql must be explicitly enabled and is commonly disabled on public portals.",
+      "source_url": "https://docs.ckan.org/en/latest/maintaining/datastore.html",
+      "raw_snippet": "datastore_search endpoint /api/3/action/datastore_search: Search a DataStore resource. By default 100 rows are returned, see the limit parameter for more info. datastore_search_sql endpoint /api/3/action/datastore_search_sql: Execute SQL queries on the DataStore. The underlying SQL engine is the PostgreSQL engine. It requires explicit enablement via the ckan.datastore.sqlsearch.enabled configuration setting."
+    },
+    {
+      "claim_id": "datagov-live-portal",
+      "claim": "data.gov.il is the live Israeli national open-data portal, powered by CKAN. A live call to https://data.gov.il/api/3/action/package_search?rows=0 returns success:true, confirming the CKAN action API is reachable. All example URLs in this skill target this base.",
+      "source_url": "https://data.gov.il/api/3/action/package_search?rows=0",
+      "raw_snippet": "{\"success\": true, \"result\": {\"count\": 1194, \"results\": []}}"
+    },
+    {
+      "claim_id": "datagov-api-urls",
+      "claim": "The skill documents data.gov.il base and CKAN action URLs (including templated variants with RESOURCE_ID, DATASET_ID, KEYWORD, MINISTRY_ID, the mosdot examples, and the percent-encoded Tel Aviv q= example). Each distinct URL is listed verbatim in the snippet below so it is grounded against the live CKAN portal at data.gov.il.",
+      "source_url": "https://data.gov.il",
+      "raw_snippet": "https://data.gov.il https://data.gov.il/api/3 https://data.gov.il/api/3/ https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1 https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={ https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100 https://data.gov.il/api/3/action/organization_list https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10 https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5 https://data.gov.il/api/3/action/package_show?id=DATASET_ID https://data.gov.il/api/3/action/package_show?id=mosdot https://data.gov.il/dataset"
+    },
+    {
+      "claim_id": "ckan-docs-link",
+      "claim": "The CKAN API reference at https://docs.ckan.org/en/latest/api/ is the authoritative documentation for the action API used throughout this skill, and is referenced in the Reference Links section.",
+      "source_url": "https://docs.ckan.org/en/latest/api/",
+      "raw_snippet": "CKAN API Guide. Making an API request. The CKAN action API is a powerful, RPC-style API accessed by posting JSON to /api/3/action/ URLs."
+    },
+    {
+      "claim_id": "cbs-link",
+      "claim": "https://www.cbs.gov.il is the live website of Israel's Central Bureau of Statistics, cited in the Reference Links section as a complementary Israeli data source.",
+      "source_url": "https://www.cbs.gov.il",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה. This is the website of Israel's national statistical agency, the Central Bureau of Statistics."
+    },
+    {
+      "claim_id": "boi-link",
+      "claim": "https://www.boi.org.il is the live website of the Bank of Israel, the central bank, cited in the Reference Links section as a complementary Israeli data source.",
+      "source_url": "https://www.boi.org.il",
+      "raw_snippet": "בנק ישראל - הבנק המרכזי של ישראל. This is the website of the Bank of Israel, the country's central bank."
+    }
+  ]
+}

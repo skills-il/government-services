@@ -33,12 +33,12 @@ None required (public API).
 
 ### Datastore Query Parameters
 - `resource_id` -- Resource ID (required)
-- `limit` -- Maximum records (default 100, hard ceiling around 32,000 via `offset` paging)
-- `offset` -- Record offset (use cursor paging on `_id` for datasets larger than ~32k records)
+- `limit` -- Maximum records per page (default 100). There is no hard ceiling, but deep `offset` paging gets progressively slower.
+- `offset` -- Record offset; the response also returns `_links.next` for the next page. `filters` is exact-match only, so there is no `_id` keyset paging; use offset, or download the resource CSV for full extractions.
 - `fields` -- Comma-separated field names
 - `filters` -- JSON object of field:value pairs
 - `q` -- Full-text search within resource
-- `sort` -- Sort field and order (use `sort=_id asc` for cursor paging)
+- `sort` -- Sort field and order (e.g. `sort=_id asc` for a stable ordering across offset pages)
 - `records_format` -- One of `objects` (default), `lists`, `csv`, `tsv`. `lists` and `csv` are noticeably faster for large pulls.
 
 ### Deprecated Endpoints
@@ -48,7 +48,7 @@ None required (public API).
 
 ## Common Organization IDs
 
-Verified against `organization_show?id=<id>` on 2026-05-13. Stale aliases like `cbs`, `mot`, `moh`, `moe`, `ita` return 404 and must not be used.
+Verified against `organization_show?id=<id>` on 2026-06-16. Stale aliases like `cbs`, `mot`, `moh`, `moe`, `ita` return 404 and must not be used.
 
 | Organization | ID | Hebrew |
 |--------------|-----|--------|

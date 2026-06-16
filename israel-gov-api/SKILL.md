@@ -79,8 +79,9 @@ GET https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=
 - Date fields may be in various formats -- check dataset documentation
 
 **Pagination:**
-- Offset paging caps at roughly 32,000 records on the data.gov.il datastore. Above that, deep `offset=` requests will start returning errors or empty pages.
-- For datasets above ~32k rows, switch to cursor paging on `_id`: sort by `_id` ascending and keep `filters={"_id":">LAST_ID"}` between calls. CKAN exposes the `_id` integer on every record.
+- Page with `limit` + `offset`: the response returns `_links.next` (an offset-based next-page URL) you can follow, or you can increment `offset` yourself. Deep `offset` paging still works (large offsets return data, there is no hard cap), but the further you page the slower each request gets.
+- data.gov.il's `filters` does exact matching only, so there is NO `_id` keyset/cursor paging: `filters={"_id":">N"}` returns `success:false` (an invalid query). Use offset paging instead.
+- For very large or full-table extractions, download the resource's CSV directly (the `resources[].url` from `package_show`) or pass `records_format=csv`, rather than paging the entire table over the API.
 - The response `total` field is the count of all records in the resource (not in the page), so use it to plan how many pages you need.
 - `records_format` accepts `objects` (default JSON), `lists` (positional arrays), `csv`, or `tsv`. `lists` and `csv` are noticeably faster and cheaper for large pulls; reach for them when streaming or bulk-extracting.
 
@@ -101,7 +102,7 @@ When combining multiple datasets:
 
 ## Commonly Requested Datasets
 
-Resource IDs below were verified live on 2026-05-13 via `datastore_search?resource_id=<id>&limit=1`. IDs on data.gov.il do change without notice. Always re-verify before quoting them to a user.
+Resource IDs below were verified live on 2026-06-16 via `datastore_search?resource_id=<id>&limit=1`. IDs on data.gov.il do change without notice. Always re-verify before quoting them to a user.
 
 | Dataset | Resource ID | Description |
 |---------|------------|-------------|
@@ -132,10 +133,12 @@ Actions (do not skip the lookup steps -- resource IDs rotate):
    ```
    curl -s "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1"
    ```
-4. Filter by Tel Aviv city code (5000) once you have the correct Hebrew field name (commonly `סמל_ישוב`). Hebrew values must be percent-encoded:
+4. The mosdot resource exposes the locality as a NAME field `שם ישוב` (city name text, e.g. `תל אביב - יפו`), not a numeric city code. Filter by the city name (or use `q=` full-text); Hebrew must be percent-encoded:
    ```
-   curl -s "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&filters=%7B%22%D7%A1%D7%9E%D7%9C_%D7%99%D7%A9%D7%95%D7%91%22%3A%225000%22%7D&limit=100"
+   # full-text search for Tel Aviv schools (q = "תל אביב", percent-encoded)
+   curl -s "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100"
    ```
+   The numeric CBS locality code (Tel Aviv-Yafo 5000, Haifa 4000, Jerusalem 3000) is the field `סמל_ישוב`, but it lives in the CBS localities dataset (resource `5c78e9fa-c2e2-4771-93ff-7f400a12f7ba`), not in the mosdot resource. Join by city name when you need the code.
 
 Result: Structured school list for Tel Aviv (count, types, sizes).
 
@@ -156,7 +159,7 @@ User says: "Compare education spending across Israeli cities"
 Actions:
 1. `package_search?q=%D7%AA%D7%A7%D7%A6%D7%99%D7%91%20%D7%97%D7%99%D7%A0%D7%95%D7%9A` (budget + education in Hebrew, percent-encoded).
 2. Pick a municipal-budget dataset, `package_show` to retrieve the active resource id.
-3. `datastore_search` filtered to education-category rows; paginate via `_id` cursor if the resource exceeds 32k rows.
+3. `datastore_search` filtered to education-category rows; page with `offset` (or download the resource CSV) for large resources.
 4. Normalize per capita using `lamas` (CBS) population figures.
 
 Result: Ranked comparison of education spending per student across major Israeli municipalities with data source and year.
@@ -190,7 +193,7 @@ When this skill walks the user through a query, prefer the dedicated MCP if it's
 - Rate limiting on gov.il APIs is strict and undocumented. Agents that make rapid sequential requests will be blocked. Always add delays between API calls.
 - A 403 response with body `Security Violation` is the data.gov.il WAF terminating your session. This is distinct from an auth 403. Recovery: back off exponentially (10s, 30s, 60s), drop any session cookies, and retry with a fresh `User-Agent`. Do not retry tight-loop, the WAF will extend the block.
 - Many government datasets have date fields in DD/MM/YYYY format (Israeli convention), not ISO 8601. Agents may parse "01/02/2026" as February 1st instead of January 2nd.
-- Offset paging caps around 32k records. For larger pulls, use cursor paging on `_id` (sort by `_id` ascending, filter `_id` greater than last seen).
+- Deep offset paging gets progressively slower on large datasets (there is no hard cap, but big offsets are expensive). data.gov.il does NOT support `_id` keyset paging (`filters` is exact-match only, so `{"_id":">N"}` fails with `success:false`); for full extractions, download the resource CSV instead of paging the whole table.
 
 ## Reference Links
 
