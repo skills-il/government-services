@@ -12,7 +12,7 @@
 | Rasham HaChevarot (Companies Registrar) | https://ica.justice.gov.il | Company registration and filings | Digital certificate |
 | Misrad HaPnim (Interior Ministry) | https://www.gov.il/he/departments/ministry_of_interior | Population registry, ID services | gov.il account |
 | Rashut HaTaagidim (Corporations Authority) | https://www.gov.il/he/departments/corporations_authority | Non-profit organizations | gov.il account |
-| Israel Post Mikud Lookup | https://www.israelpost.co.il/zip_data.nsf/SearchZip | Authoritative postal-code lookup | None |
+| Israel Post Mikud Lookup | https://mypost.israelpost.co.il/zipcodesearch | Authoritative postal-code lookup | None |
 
 Note: `my.gov.il` is the unified personal area introduced and rolled out by the National Digital Agency. Treat it as the default landing page when a user says "I want to log in to gov.il". Specific service portals (misim, btl, ica) still exist for deeper flows.
 
@@ -32,7 +32,7 @@ Note: `my.gov.il` is the unified personal area introduced and rolled out by the 
 
 Tofes 101 (digital): see `https://www.gov.il/he/service/itc-application-for-electronic-101` for the digital approval flow via employer payroll systems. PDF instructions remain as the legacy fallback.
 
-Tofes 1301 (online mandatory): per kolzchut "הגשת דוח שנתי למס הכנסה", online submission is mandatory for most individual filers since 2019. Paper filing is allowed only for retirees and certain below-threshold filers. TODO: verify exact threshold figure for current tax year.
+Tofes 1301 (online mandatory): per kolzchut "הגשת דוח שנתי למס הכנסה", online submission is mandatory for most individual filers since 2019. Paper filing is allowed only for retirees (retirement age) and certain below-threshold filers; the exact income threshold is set annually, so check the current figure on the kolzchut page or the ITA annual-return instructions before relying on it.
 
 ### Bituach Leumi (National Insurance) Forms
 
@@ -79,7 +79,7 @@ Three accepted methods:
 
 Sources:
 - https://www.govextra.gov.il/national-digital-agency/signature/home/
-- https://www.gov.il/he/departments/policies/digital_signature
+- https://www.gov.il/he/pages/digital_signature
 
 ## Date and Number Formats
 
@@ -94,7 +94,7 @@ Sources:
 | Amuta (non-profit) number | 9 digits starting with 58 | 580123456 |
 | IBAN (Israeli) | IL + 2 check + 3 bank + 3 branch + 13 account = 23 chars | IL620108000000099999999 |
 
-For authoritative mikud lookup use Israel Post: `https://www.israelpost.co.il/zip_data.nsf/SearchZip`.
+For authoritative mikud lookup use Israel Post: `https://mypost.israelpost.co.il/zipcodesearch`.
 
 ## Browser Automation Notes
 

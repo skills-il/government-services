@@ -64,6 +64,11 @@ def validate_israeli_phone(phone: str) -> dict:
     elif cleaned.startswith("972"):
         cleaned = "0" + cleaned[3:]
 
+    # Format-level check only: validates the structure of a 10-digit Israeli
+    # number, NOT carrier or geographic-area existence. Any 05X is accepted as
+    # mobile (number portability means a prefix never identifies the carrier, and
+    # the allocated prefix set changes over time). 07X non-geographic / VoIP
+    # numbers will match the landline pattern; that is acceptable for a format check.
     mobile_pattern = r"^05[0-9]{8}$"
     landline_pattern = r"^0[2-9][0-9]{7}$"
 

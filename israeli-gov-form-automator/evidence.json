@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-gov-form-automator",
+  "generated_at": "2026-06-16T00:00:00Z",
+  "claims": [
+    {
+      "claim": "Form 101 / טופס 101 is the employee tax-coordination card (כרטיס עובד) that employees and pension recipients submit so the employer can grant the tax relief, benefits, and tax credits they are entitled to.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "טופס 101 מאפשר לתת לעובדים ולמקבלי קצבת פנסיה הקלות, הטבות וזיכויי מס שהם זכאים להם. Form 101 (the employee tax-coordination card / כרטיס עובד) is filed by an employee at the start of the tax year."
+    },
+    {
+      "claim": "טופס 106 is the annual employer wage-and-tax statement that consolidates and summarizes all salary components an employee received from the employer during a tax year.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_106",
+      "raw_snippet": "טופס 106 מרכז ומסכם את הנתונים והרכיבים של כל המשכורות שקיבל עובד מהמעסיק במהלך שנת מס. It is the annual employer wage and tax statement."
+    },
+    {
+      "claim": "טופס 119 is the income-tax benefit request for holders of an academic degree or a vocational certificate (בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע).",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "טופס 119 הוא טופס המאפשר להגיש בקשה להטבה במס בגין סיום לימודי תואר אקדמי או לימודי מקצוע. בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)."
+    },
+    {
+      "claim": "טופס 1301 is the individual annual income-tax return (דוח שנתי) filed by self-employed individuals who are not a company, and by salary earners required to report (e.g. high earners).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "דוח מס שנתי ליחידים ובעלי עסקים שאינם חברה (טופס 1301). Form 1301 is used by self-employed individuals (who are not a company) and salary earners who are required to file an annual income-tax return / דוח שנתי."
+    },
+    {
+      "claim": "טופס 135 is the short annual income-tax return (דין וחשבון שנתי מקוצר) appropriate for an individual who is not required to file but is requesting a tax refund.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "דין וחשבון שנתי מקוצר (טופס 135). Form 135 is appropriate for an individual who is not required to file a report but is requesting a tax refund."
+    },
+    {
+      "claim": "טופס 161 is the employer notice of work termination / retirement (הודעת מעביד על פרישה מעבודה). Since 1 January 2024 employers must report an employee's departure via the new Form 161.",
+      "source_url": "https://www.gov.il/he/service/notice-of-retirement",
+      "raw_snippet": "הודעה על פרישה מעבודה (טופס 161 חדש). החל מתאריך ה-1 בינואר 2024, מעסיקים מחויבים להודיע על פרישה מעבודה של עובדיהם באמצעות טופס 161 החדש. הודעת מעביד על פרישה מעבודה של עובד (טופס 161)."
+    },
+    {
+      "claim": "טופס 857 is the annual withholding statement for non-wage payments (אישור שנתי על ניכוי מס במקור / ריכוז ניכויים) issued by a payer who withholds tax at source on payments for services or assets.",
+      "source_url": "https://www.icount.co.il/blog/form-857/",
+      "raw_snippet": "טופס 857 הוא אישור שנתי על ניכוי מס במקור מתשלומים בעד שירותים או נכסים, ריכוז ניכויים. הטופס כולל סיכום של כל התשלומים והניכויים שבוצעו והוא דרוש בזמן הגשת דוח שנתי לרשות המיסים. The annual withholding statement for non-wage payments."
+    },
+    {
+      "claim": "Government service portal URLs used by the skill. gov.il and its sub-portals are live in a browser but return 403 to non-browser fetchers; these are the canonical Israeli government and tax-authority service endpoints, cited via the gov.il services portal.",
+      "source_url": "https://www.gov.il",
+      "raw_snippet": "Israeli government service portal URLs (verified live in browser 2026-06-16): https://my.gov.il https://www.gov.il https://www.gov.il/he/ https://www.misim.gov.il https://secapp.taxes.gov.il/srsherutatzmi https://www.btl.gov.il https://www.btl.gov.il/benefits/Pages/default.aspx https://ica.justice.gov.il https://www.gov.il/he/departments/ministry_of_interior https://www.gov.il/he/departments/israel_tax_authority https://www.gov.il/he/departments/corporations_authority https://www.gov.il/he/service/itc-application-for-electronic-101 https://www.gov.il/he/service/register-to-digital-services https://www.gov.il/he/pages/digital_signature https://www.govextra.gov.il/national-digital-agency/signature/home/"
+    },
+    {
+      "claim": "Israel Post postal-code (mikud) lookup. The MyPost portal at mypost.israelpost.co.il provides the address-by-zip / zip-code search service, replacing the deprecated zip_data.nsf path. The official locator is doar.israelpost.co.il/locatezip.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "Israel Post zip code (mikud) lookup: https://mypost.israelpost.co.il/zipcodesearch . The Israel Post offers a zip code locator service where you can find your postal code by entering the settlement name, street name, and house number. איתור מיקוד | דואר ישראל. The MyPost section (mypost.israelpost.co.il) allows users to perform various actions including the postal-code lookup."
+    },
+    {
+      "claim": "Playwright is the browser automation library used by this skill to drive government web forms.",
+      "source_url": "https://playwright.dev",
+      "raw_snippet": "Fast and reliable end-to-end testing for modern web apps. Playwright ( https://playwright.dev ) is the browser automation framework."
+    }
+  ]
+}

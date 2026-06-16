@@ -3,7 +3,7 @@ name: israeli-gov-form-automator
 description: Automate Israeli government form filling via Playwright browser automation and PDF population. Prevents hours of manual form filling and data entry errors on government portals. Use when user asks about filling government forms, "tofes" (form), "milui tfasim" (form filling), "gov.il" portal submissions, online form submission, Rashut HaMisim (Tax Authority) filings, Bituach Leumi (National Insurance) claims, or Rasham HaChevarot (Companies Registrar) documents. Validates Teudat Zehut (ID numbers) with check digit, Israeli phone numbers (+972), and Hebrew address fields. Supports Doch Shnati (annual tax report), maternity grant claims, and company registration forms. Do NOT use for classified or security-clearance government systems.
 license: MIT
 allowed-tools: Bash(python:*) Bash(pip:*) WebFetch
-compatibility: "Requires Python 3.9+, Playwright for browser automation, and network access to gov.il portals. Optional: pikepdf or PyPDF2 for PDF form filling."
+compatibility: "Requires Python 3.9+, Playwright for browser automation, and network access to gov.il portals. Optional: pikepdf or pypdf for PDF form filling."
 ---
 
 # Israeli Government Form Automator
@@ -57,7 +57,7 @@ def validate_tz(id_number: str) -> bool:
 **Israeli Phone Number Formats:**
 | Format | Example | Notes |
 |--------|---------|-------|
-| Mobile | 05X-XXXXXXX | Prefixes: 050, 051, 052, 053, 054, 055, 056 (HOT Mobile / Cellcom MVNOs), 057 (Pelephone), 058, 059 (other MVNOs) |
+| Mobile | 05X-XXXXXXX | Currently-allocated prefixes: 050, 051, 052, 053, 054, 055, 058 (plus some 059 MVNO blocks). The bundled validator checks 05X mobile format, not the carrier; number portability means a prefix never identifies the current carrier, and the allocated set shifts over time (057 was retired in 2014; 056 is a Palestinian-territories prefix) |
 | Landline | 0X-XXXXXXX | Area codes: 02 (Jerusalem), 03 (Tel Aviv), 04 (Haifa), 08 (South), 09 (Sharon) |
 | International | +972-5X-XXXXXXX | Drop leading 0, add +972 |
 
@@ -67,7 +67,7 @@ def validate_tz(id_number: str) -> bool:
 {city_name}, {mikud (postal code - 7 digits)}
 ```
 
-For authoritative mikud lookup use Israel Post: `https://www.israelpost.co.il/zip_data.nsf/SearchZip`. Always verify mikud matches the city before submitting, mismatches are a top rejection reason.
+For authoritative mikud lookup use Israel Post: `https://mypost.israelpost.co.il/zipcodesearch`. Always verify mikud matches the city before submitting, mismatches are a top rejection reason.
 
 **Hebrew-only vs English-allowed fields:** Most Israeli government forms require Hebrew text. Exceptions where English (or Latin) input is allowed or required:
 
@@ -129,8 +129,8 @@ import pikepdf
 pdf = pikepdf.open("tofes_101.pdf")
 pdf.pages[0]["/Annots"]  # Inspect form field names
 
-# Option 2: PyPDF2
-from PyPDF2 import PdfReader, PdfWriter
+# Option 2: pypdf (the maintained successor to PyPDF2, which is deprecated)
+from pypdf import PdfReader, PdfWriter
 
 reader = PdfReader("tofes_101.pdf")
 fields = reader.get_fields()  # MANDATORY: enumerate before guessing names
@@ -203,7 +203,7 @@ Three accepted methods on Israeli government portals:
 2. **תעודת זהות ביומטרית + סיסמה** (biometric ID + password). Primary authentication for `my.gov.il` and the gov.il personal area.
 3. **חתימה דיגיטלית מאומתת** (verified digital signature) per the National Digital Agency standard.
 
-Agents cannot programmatically sign forms, the user must complete the signing step interactively. Sources: `https://www.govextra.gov.il/national-digital-agency/signature/home/`, `https://www.gov.il/he/departments/policies/digital_signature`.
+Agents cannot programmatically sign forms, the user must complete the signing step interactively. Sources: `https://www.govextra.gov.il/national-digital-agency/signature/home/`, `https://www.gov.il/he/pages/digital_signature`.
 
 ### Step 8: Submit and Verify
 
@@ -286,8 +286,8 @@ Result: Address change request submitted with confirmation number
 | Bituach Leumi (NII) | https://www.btl.gov.il | NII forms, claim submission, personal account |
 | Companies Registrar (ICA) | https://ica.justice.gov.il | Company filings and updates |
 | National Digital Agency, signatures | https://www.govextra.gov.il/national-digital-agency/signature/home/ | Approved digital-signature methods |
-| Digital signature policy | https://www.gov.il/he/departments/policies/digital_signature | National standard |
-| Israel Post mikud lookup | https://www.israelpost.co.il/zip_data.nsf/SearchZip | Authoritative postal-code source |
+| Digital signature policy | https://www.gov.il/he/pages/digital_signature | National standard |
+| Israel Post mikud lookup | https://mypost.israelpost.co.il/zipcodesearch | Authoritative postal-code source |
 | Playwright docs | https://playwright.dev | RTL context, form automation, waits |
 
 ## Troubleshooting
