@@ -44,6 +44,8 @@ Search the MoH drug registry:
 | Registration status | matzav rishum | Active, suspended, or cancelled |
 | Prescription type | sug mircham | Prescription (mircham), OTC (lo mircham), restricted |
 
+**The live registry API.** The canonical machine-readable source is the MoH Israel Drug Registry backend at `israeldrugs.health.gov.il/GovServiceList/IDRServer/` (the same API the `israel-drugs` MCP wraps). Key endpoints: `SearchByName` (search by Hebrew or English name, or a partial string, via the `val` field, one field handles both languages), `GetSpecificDrug`, `SearchGenericByDragRegNum` (generics by registration number), and `SearchByPackageBarcode` (EAN barcode). The JSON uses these real field names (not the transliterations in the table above): `dragHebName` / `dragEnName`, `dragRegNum` (registration number, e.g. `020 16 20534 00`), `dosageForm`, `activeComponents[].componentName` plus `activeComponentsCompareName` for exact ingredient matching, `dragRegOwner` (manufacturer), `prescription` (boolean), `health` (boolean, true = in the health basket), `customerPrice` and per-package `packagesPrices[]` (the regulated price), `barcodes`, `indications`, and `iscanceled`. Treat these as an undocumented public backend: cache results and do not bulk-scrape.
+
 ### Step 3: Health Basket Coverage
 Check if a drug is covered in the national health basket:
 
@@ -60,14 +62,14 @@ Check if a drug is covered in the national health basket:
 - Brand-name (when generic exists): ~30-50 NIS per package
 - Specialty/biologic: Variable, often subsidized for qualifying patients
 
-**How to check:** Query sal briut formulary via MoH data, or check kupat cholim website
+**How to check:** Query sal briut formulary via MoH data, or check kupat cholim website. Note: the registry API returns only whether a drug is in the basket (`health` boolean) and its regulated price (`customerPrice`); the copay TIER and exact copay amount above come from each kupat cholim, not the registry, so confirm those on the kupah's site.
 
 **Freshness note:** The national health basket (sal briut) is updated once a year. A public committee (vaadat sal ha-briut) reviews candidate drugs and technologies, and the new list takes effect in January. The current year's basket additions and the committee's recommendations are published on gov.il under the health basket topic: https://www.gov.il/he/departments/topics/health_basket_drugs. Always confirm coverage against the most recent annual list, since a drug's status can change between basket cycles.
 
 ### Step 4: Generic Alternatives
 To find generic alternatives:
 1. Identify the active ingredient (chomer peeil) of the brand-name drug
-2. Search the registry for all products with the same active ingredient and strength
+2. Search the registry for all products with the same active ingredient and strength. The API does this directly: call `SearchGenericByDragRegNum` with the brand's `dragRegNum`, or match on the `activeComponentsCompareName` returned for every product.
 3. Filter for currently registered (active status) products
 4. Compare:
    - Same active ingredient and strength
@@ -110,8 +112,8 @@ Provide safety context (NOT medical advice):
 Note: the FDA retired the A/B/C/D/X letter categories in 2015 in favour of narrative pregnancy and lactation labelling. Many Israeli patient leaflets still reference the letter system, so users may encounter it, but treat it as legacy and always defer to the current leaflet and the prescribing physician.
 
 **Recall and safety alerts:**
-- MoH publishes drug safety alerts at `gov.il` (Ministry of Health) and `israeldrugs.health.gov.il`
-- Pharmacovigilance reports via Yellow Card system
+- MoH publishes drug safety alerts and recalls on `gov.il` (the Pharmaceutical Division)
+- Adverse-event (side-effect) reports go to the MoH **Side Effects Reporting Form** (טופס דיווח על תופעות לוואי), run by the MoH Pharmacovigilance and Drug Information Department. ("Yellow Card" is the UK MHRA scheme, not Israel's, do not use that term for Israel.)
 
 ### Step 6: Prescription Status
 Israeli prescription categories:
@@ -164,7 +166,7 @@ Result: Keytruda (pembrolizumab) is partially in the health basket for specific 
 | Drug registry search UI | https://israeldrugs.health.gov.il/ | Live search by trade name, active ingredient, or registration number |
 | Ministry of Health - Pharma | https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page | Pharmaceuticals Division landing page, registry entry points |
 | Health basket (Sal Briut) | https://www.gov.il/he/departments/topics/health_basket_drugs | Annual coverage list, committee recommendations, and updates for subsidized drugs |
-| data.gov.il - health datasets | https://data.gov.il/organization/ministry-health | Machine-readable drug registry and price lists |
+| Drug registry API (IDRServer) | https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName | The live JSON API: SearchByName / GetSpecificDrug / SearchGenericByDragRegNum / SearchByPackageBarcode; real fields dragHebName, dragRegNum, health (basket), customerPrice |
 | ATC / WHO drug classification | https://www.whocc.no/atc_ddd_index/ | International ATC codes for cross-referencing active ingredients |
 
 ## Troubleshooting
@@ -178,5 +180,5 @@ Cause: Drug may be covered for specific indications only, or recently added/remo
 Solution: Health basket is updated annually. Check the most recent published formulary. For edge cases, contact the kupat cholim's pharmaceutical committee (vaada le-trufot).
 
 ### Error: "Price information unavailable"
-Cause: MoH price list may not be current, or drug is hospital-only
-Solution: Check with local pharmacy for current retail price. Hospital-administered drugs are not priced in the retail price list.
+Cause: Reading a stale source, or the drug is genuinely hospital-only.
+Solution: The registry API returns the regulated price directly in `customerPrice` and per-package `packagesPrices[]`, so query `SearchByName` / `GetSpecificDrug` rather than assuming the price is unavailable. Only genuinely hospital-administered drugs are absent from the retail price list; for those, check with the local pharmacy.

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-drug-database",
+  "generated_at": "2026-06-21T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "idr-api",
+      "claim": "The canonical machine-readable Israel Drug Registry is the MoH backend at israeldrugs.health.gov.il/GovServiceList/IDRServer/ (endpoints SearchByName, GetSpecificDrug, SearchGenericByDragRegNum, SearchByPackageBarcode). It returns JSON fields dragHebName, dragEnName, dragRegNum, dosageForm, activeComponents/activeComponentsCompareName, dragRegOwner, prescription (bool), health (bool = in basket), customerPrice/packagesPrices, barcodes, indications, iscanceled.",
+      "source_url": "https://israeldrugs.health.gov.il/",
+      "raw_snippet": "The Israel Drug Registry (israeldrugs.health.gov.il) provides a live search over registered medicines; its backend IDRServer API returns drug name, registration number, dosage form, active components, manufacturer, prescription/health-basket flags, and regulated price.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "idr-searchbyname-endpoint",
+      "claim": "The SearchByName endpoint of the IDRServer API returns drug records as JSON.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
+      "raw_snippet": "POST israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName with a val field returns matching drugs as JSON.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "side-effects-form-not-yellow-card",
+      "claim": "Israel's adverse-event (pharmacovigilance) reporting is the MoH Side Effects Reporting Form (טופס דיווח על תופעות לוואי) run by the MoH Pharmacovigilance and Drug Information Department; 'Yellow Card' is the UK MHRA scheme, not Israel's.",
+      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
+      "raw_snippet": "Israel's Ministry of Health operates a side-effects reporting form (טופס דיווח על תופעות לוואי) for adverse drug events through its Pharmacovigilance and Drug Information Department; the 'Yellow Card' name belongs to the UK MHRA.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "sal-annual-cycle",
+      "claim": "The national health basket (sal briut) is updated once a year; a public committee reviews candidates and the new list takes effect in January.",
+      "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
+      "raw_snippet": "The health basket (sal ha-briut) is updated annually; the committee's recommendations and the year's additions take effect in January.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "fda-pllr-2015",
+      "claim": "The FDA retired the A/B/C/D/X pregnancy letter categories in 2015 (PLLR) in favor of narrative pregnancy and lactation labeling; many Israeli leaflets still reference the legacy letters.",
+      "source_url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-drugs-final-rule",
+      "raw_snippet": "The Pregnancy and Lactation Labeling Rule (PLLR), effective June 30, 2015, removed the A/B/C/D/X letter categories in favor of narrative labeling.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "copay-generic-approximate",
+      "claim": "Approximate, kupah-dependent figures used as ballpark guidance (not fixed regulated values): a generic drug copay is roughly 10-20 NIS / 20 ש\"ח per package and a brand-name copay (where a generic exists) roughly 30-50 NIS / 50 ש\"ח; generics typically run 40-60% cheaper than the brand. Actual copays are set per kupat cholim, so the skill tells users to confirm with their kupah.",
+      "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
+      "raw_snippet": "Copay amounts for subsidized drugs are set by each kupat cholim and vary; generic drugs are substantially cheaper than originator brands. These are approximate ranges, not fixed national prices.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "moh-pharma-division",
+      "claim": "The MoH Pharmaceutical Division publishes the drug registry entry points and safety alerts on gov.il.",
+      "source_url": "https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page",
+      "raw_snippet": "The Pharmaceutical Division of the Israeli Ministry of Health manages drug registration and publishes safety information.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "atc-who",
+      "claim": "The WHO ATC/DDD index provides the anatomical therapeutic chemical classification used to cross-reference active ingredients.",
+      "source_url": "https://www.whocc.no/atc_ddd_index/",
+      "raw_snippet": "The WHO Collaborating Centre for Drug Statistics Methodology maintains the ATC/DDD index.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "drug-index-service",
+      "claim": "The gov.il Israeli drug index service page is the primary entry point to the national drug registry.",
+      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
+      "raw_snippet": "The gov.il Israeli drug index service links to the national drug registry search.",
+      "fetched_at": "2026-06-21T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}
