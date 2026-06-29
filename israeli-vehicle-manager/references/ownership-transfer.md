@@ -32,7 +32,7 @@
 3. Buyer confirms and pays the fee
 4. Transfer is recorded immediately
 
-### Post Office -- 250 NIS
+### Post Office -- 257 NIS
 **Requirements:**
 - Both parties present in person
 - Current vehicle license

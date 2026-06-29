@@ -1,0 +1,18 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.2",
+      "date": "2026-06-29",
+      "lessons": [
+        "Ownership-transfer fees: the gov.il fee board (drivers-car-license-fee-boards, 'אגרות שינוי רישום הבעלות', effective 2026-04-01) gives online 235 / post office 257 for 'רכב מנועי מכל סוג'. The research agent's 206/219 were the SUPERSEDED pre-April-2026 values, briefly applied then reverted. Online stayed 235 (unchanged); post office 250->257. LESSON: a research agent citing insurance/CPA blogs (lbr.co.il) can be stale vs the gov.il fee board, the Judge + a Playwright read of the gov.il board are authoritative for fees. Verify fees on gov.il, not secondary blogs.",
+        "STALE fix: annual test (mivchan rishyon) fees, new price list effective 2026-06-01 (after the last review): private car 119->126, EV 100->106 (two mentions, the Costs list AND the EV note), motorcycle 75->80.",
+        "STALE fix: annual licensing-fee range floor was ~1,200; the April-2026 table floor is ~850 (older low-group cars pay less). Ceiling 'over 5,000' updated to 'over 5,300'. Added the EV tax-benefit ceiling drop specificity (NIS 30,000 in 2025 -> NIS 22,000 in 2026).",
+        "VERIFIED OK (no change): April-2026 CPI licensing hike (22->132 NIS), Rashut HaShidur ~135 bundled, EV purchase tax 48% (was 45%, Treasury proposed 52%), new-car test exemption 3y private / 2y rental, 15-day transfer deadline, ~10-minute online-payment window, mandatory bituach chova for renewal, digital vehicle license via gov.il, late-test fine 250 NIS (first 6 months).",
+        "MAJOR fix (expert-found, pre-existing): the expired-test fine was stated as a flat '250 NIS (first 6 months), court after 6 months'. Correct graduated structure (verified): up to 4 months = 250 NIS + 6 license points; 4 months to 1 year = 1,000 NIS + 6 points; over 1 year = court summons. The skill omitted the 1,000 tier + the 6 license points and mis-timed court (1 year, not 6 months). Fixed EN+HE + evidence.",
+        "MAJOR softened (expert-found): the '15 days strict' ownership-transfer deadline is contested (sources cite shorter windows). Reframed to 'register ASAP, the seller stays liable until the transfer is recorded'; kept the 15-day kolzchut figure with a caveat. CARRY: verify the exact statutory window against the current תקנות התעבורה.",
+        "CARRY (minors): surface the all-in test cost (~300-500 NIS at the station vs the ~126 NIS agra); re-verify the e-bike/kalanoit registration date + plate fee against the gov.il fee board; confirm or generalize the 'TesTime' SMS-booking product name.",
+        "WATCH (tooling): editing the transfer-fee 250 in evidence broke the justification for the separate late-test-fine 250 (the only '250 שקל' token was the transfer one). When changing a figure that another claim relies on for token coverage, re-add the token to the other claim. Same lesson as the war-damage 52,750 substring incident."
+      ]
+    }
+  ]
+}
