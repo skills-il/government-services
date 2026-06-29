@@ -18,9 +18,9 @@ The figures below are approximate, current as of early 2026.
 | Single person | ~52,750 |
 | Married couple or single parent | ~85,000 |
 | Elderly relative supplement (per relative) | ~10,000 |
-| Each additional child (under 18) | ~9,000 supplement |
+| Each additional child (under 18) | ~8,460 supplement |
 | Family of 4 (couple + 2 children) | ~103,000 |
-| Family of 5 (couple + 3 children) | ~150,000 |
+| Family of 5 (couple + 3 children) | ~110,000 |
 
 ## Category Breakdown (Couple / Single Parent)
 
@@ -34,9 +34,9 @@ The figures below are approximate, current as of early 2026.
 
 | Category | Approximate Amount (NIS) |
 |---|---|
-| Furniture | ~5,200 |
-| Clothing | ~750 |
-| Total per child | ~9,000 |
+| Furniture | ~4,964 |
+| Clothing | ~710 |
+| Total per child | ~8,460 |
 
 ## What Counts as "Contents" (תכולה)
 

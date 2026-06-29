@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.2",
+      "date": "2026-06-29",
+      "lessons": [
+        "STALE fix: per-child (<18) contents-compensation supplement was ~5,200 furniture / ~750 clothing / ~9,000 total; official Jan-2026 gazetted figures are 4,964 / 710 / 8,460. Fixed in references/compensation-ceilings.md, SKILL_HE.md, and evidence.json.",
+        "Coverage/freshness: added Operation Am K'Lavi (Rising Lion), the 12-day Iran war of June 2025 that caused widespread ballistic-missile home damage and prompted the Tax Authority fast track, to the covered-conflicts framing in the body (alongside Iron Swords and Shaagat HaAri). The direct-damage process is identical across wars; added to the body Problem section rather than the frontmatter description to avoid a description-eval cycle for a purely additive war name.",
+        "VERIFIED OK (no change): fast track <=30,000 + 7-day approval (introduced during Am K'Lavi, June 2025), optional contents insurance 0.3% / max insurable 1,037,100 / max premium 3,111 / no cancellation after payment, 14-day notification + 3-month filing deadlines, contents ceilings (single ~52,750, family-of-4 ~102,725), Property Tax and Compensation Fund Law 1961, appeal committees, all gov.il/nevo URLs (bot-blocked to curl, live for humans).",
+        "CRITICAL fix (expert+judge-found, pre-existing): the family-of-5 contents ceiling was ~150,000; it must be ~110,000 (couple 84,349 + 3 x 8,460 per-child = ~109,700). Fixed in SKILL_HE, references, evidence.",
+        "CRITICAL fix (expert-found, pre-existing): vehicle war/missile damage was routed to 'private car insurance', but comprehensive motor policies EXCLUDE war, exactly like home insurance. War damage to a vehicle is paid by the Mas Rechush Compensation Fund (regular track; a Fund appraiser must approve the repair before it is done at any garage; 14-day notice + 3-month claim). Verified via gov.il / kolzchut / CPA sources. Fixed the Step-1 routing table (EN+HE) and narrowed the do-NOT description from 'car damage' to 'ordinary road-accident car damage', so war-vehicle queries route here. Removed the blanket car-insurance routing.",
+        "CARRY (MAJOR, deferred): add municipal hotline 106 reporting and a generalized 'get appraiser approval before any repair' step (now relevant to vehicles too); relabel the ~10,000 supplement as 'per additional adult' (not 'elderly relative'); soften the 14-day-forfeiture framing (both 14-day notice and 3-month claim are extendable on justified request).",
+        "WATCH (tooling): a blanket numeric replace on evidence.json corrupted 52,750 -> 52,710 because '750 ש'/'750 NIS' is a substring of '52,750 ש'; always anchor numeric replacements (use the full token) when a smaller figure is a substring of a larger one."
+      ]
+    }
+  ]
+}

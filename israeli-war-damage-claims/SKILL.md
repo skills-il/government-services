@@ -1,6 +1,6 @@
 ---
 name: israeli-war-damage-claims
-description: "Guide users through filing DIRECT property damage claims from rocket attacks and hostilities in Israel (Iron Swords and Shaagat HaAri 2026): documenting damage, filing with the Tax Authority Compensation Fund, home contents insurance, assessor visits, appeals. Use when user asks about physical property damage from war, rockets, missiles, 'nezek yashir', 'mas rechush', 'keren pitzuim', war damage claim, damaged apartment, broken windows from blast, or compensation for hostility damage. Covers fast track (up to NIS 30,000), regular track, optional contents insurance, and appeals (va'adot erar). Do NOT use for indirect/economic business damage like turnover decline or wage grants (use israeli-business-war-compensation), employee unpaid-leave dmei avtala (use israeli-unemployment-benefits-navigator), personal injury (israeli-bituach-leumi), car damage (private insurance), or general home insurance (israeli-insurance-comparator)."
+description: "Guide users through filing DIRECT property damage claims from rocket attacks and hostilities in Israel (Iron Swords and Shaagat HaAri 2026): documenting damage, filing with the Tax Authority Compensation Fund, home contents insurance, assessor visits, appeals. Use when user asks about physical property damage from war, rockets, missiles, 'nezek yashir', 'mas rechush', 'keren pitzuim', war damage claim, damaged apartment, broken windows from blast, or compensation for hostility damage. Covers fast track (up to NIS 30,000), regular track, optional contents insurance, and appeals (va'adot erar). Do NOT use for indirect/economic business damage like turnover decline or wage grants (use israeli-business-war-compensation), employee unpaid-leave dmei avtala (use israeli-unemployment-benefits-navigator), personal injury (israeli-bituach-leumi), ordinary road-accident car damage (private insurance), or general home insurance (israeli-insurance-comparator)."
 license: MIT
 ---
 
@@ -9,6 +9,8 @@ license: MIT
 ## Problem
 
 Thousands of Israelis face property damage from rocket and missile attacks. Filing compensation claims through the Tax Authority's Compensation Fund is bureaucratic and complex, with different tracks, critical deadlines, and compensation ceilings that vary by household composition. A single documentation mistake or missed deadline can result in complete forfeiture of compensation rights.
+
+The direct-damage process here is the same across recent conflicts, Iron Swords (October 2023 onward), Operation Am K'Lavi / Rising Lion (the 12-day Iran war of June 2025, which caused widespread ballistic-missile damage to homes and prompted the Tax Authority's fast track), and Shaagat HaAri (2026).
 
 ## Instructions
 
@@ -22,7 +24,7 @@ First, determine what kind of damage the user has and which compensation track a
 | Home contents (furniture, electronics, appliances) | נזק לתכולה | Tax Authority Compensation Fund (capped by household size) | Regular or Fast |
 | Contents above ceiling | תכולה מעל התקרה | Optional war damage insurance (ביטוח מלחמה רשות המסים) | Insurance claim |
 | Business property/equipment | נזק לעסק | Tax Authority Compensation Fund | Regular or Fast |
-| Vehicle damage | נזק לרכב | Private car insurance company | Insurance claim |
+| Vehicle damage from war/missile | נזק לרכב | Tax Authority Compensation Fund (קרן הפיצויים), NOT car insurance (comprehensive policies exclude war) | Regular track (a Compensation Fund appraiser must approve the repair before you fix it at any garage) |
 | Economic loss (lost revenue, wages) | נזק עקיף | Tax Authority (separate indirect damage track) | **Use `israeli-business-war-compensation`**, covers both Iron Swords and the Shaagat HaAri (March-April 2026) eligible-expenses track, with the wage participation grant, business continuity grant, and the 5/10-day חל"ת bifurcation |
 
 **Key distinction:** The Compensation Fund (under the Property Tax and Compensation Fund Law, 1961) handles direct physical damage. **Indirect economic damage has a completely separate process and different deadlines**, different statute (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026 for Shaagat HaAri; Iron Swords hora'at sha'a for that war), different portals, different forms, different appeals tracks. If the user's loss is from business turnover decline, employee wages, or fixed business costs (not physical damage to the building or contents), route to `israeli-business-war-compensation` immediately rather than continuing here.

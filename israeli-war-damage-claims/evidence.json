@@ -69,7 +69,7 @@
     },
     {
       "claim_id": "supplement-per-child-9000",
-      "claim": "Per-child (under 18) supplement to contents compensation ceiling is approximately 9,000 ש\"ח / 9,000 שקל / 9,000 NIS additional per child (2026 estimate). Breakdown: ~5,200 ש\"ח furniture + ~750 ש\"ח clothing + balance across other categories.",
+      "claim": "Per-child (under 18) supplement to contents compensation ceiling is approximately 8,460 ש\"ח / 8,460 שקל / 8,460 NIS additional per child (2026 estimate). Breakdown: ~4,964 ש\"ח furniture + ~710 ש\"ח clothing + balance across other categories.",
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
@@ -85,7 +85,7 @@
     },
     {
       "claim_id": "ceiling-family-of-5-150000",
-      "claim": "Total contents compensation ceiling for a family of 5 (couple + 3 children) is approximately 150,000 ש\"ח / 150,000 שקל / 150,000 NIS (2026 estimate, updated periodically by CPI).",
+      "claim": "Total contents compensation ceiling for a family of 5 (couple + 3 children) is approximately 110,000 ש\"ח / 110,000 שקל / 110,000 NIS (2026 estimate, updated periodically by CPI).",
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
@@ -109,7 +109,7 @@
     },
     {
       "claim_id": "per-child-furniture-5200",
-      "claim": "Per-child (under 18) furniture supplement is approximately 5,200 NIS / 5,200 ש\"ח / 5,200 שקל (2026 estimate, component of the ~9,000 ש\"ח per-child total).",
+      "claim": "Per-child (under 18) furniture supplement is approximately 4,964 NIS / 4,964 ש\"ח / 4,964 שקל (2026 estimate, component of the ~8,460 ש\"ח per-child total).",
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
@@ -117,7 +117,7 @@
     },
     {
       "claim_id": "per-child-clothing-750",
-      "claim": "Per-child (under 18) clothing supplement is approximately 750 NIS / 750 ש\"ח / 750 שקל (2026 estimate, component of the ~9,000 ש\"ח per-child total).",
+      "claim": "Per-child (under 18) clothing supplement is approximately 710 NIS / 710 ש\"ח / 710 שקל (2026 estimate, component of the ~8,460 ש\"ח per-child total).",
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
