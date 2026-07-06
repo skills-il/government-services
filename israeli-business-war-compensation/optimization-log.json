@@ -1,0 +1,31 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-07-06",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "how do I file for indirect war damage compensation for my business?",
+          "עמותה נפגעה מהמלחמה, זכאית לפיצוי נזק עקיף?",
+          "בסיס מזומן פיצוי מלחמה מתי מגישים?"
+        ]
+      },
+      "lessons": [
+        "CRITICAL fixed: the skill labeled 30.06.2026/31.05.2026 (income-tax-report + state-loan deadlines) as the compensation-claim deadline; corrected to the live per-track windows (nationwide 17.05-17.08.2026; red ~31.08.2026; turnover/wage/agriculture ~24.09.2026; extensions up to 18 months).",
+        "CRITICAL fixed (Expert): wage-track per-employee cap omitted the 1.25 employer-cost (עלות מעביד) coefficient; cap corrected to 13,773 × 1.25 × employees × decline and wage input clarified as הוצאות שכר (employer cost per Form 102), so cap and input are in the same units (was understating grants ~20%). Walkthrough examples recomputed (Ex4 41,319; Ex5 309,892).",
+        "CRITICAL fixed (Judge): the request-for-dvance-dealers-shaagat-haari URL is the NATIONWIDE advance (all businesses EXCEPT קו העימות), not the border red-track advance; added the separate border/frontier advance portal (pay-advances-to-business-owners-in-frontier-roaring-lion) and dropped the unsourced hard six-figure advance amount (nationwide is roughly 80% of assessed comp; border figure not published).",
+        "Correctness fixed: removed the '12.5% bi-monthly' decline gate (a wrong Iron-Swords carryover); Shaagat HaAri uses 25% for bi-monthly filers comparing the full March-April period (gov.il rions-roar authoritative).",
+        "[CARRY] avg-wage 13,773 NIS is UNVERIFIED against the hora'at sha'a order text; current BTL 2026 average is ~13,769 (§2). Left unchanged (may be the frozen statutory figure; delta immaterial). Verify against the published order next cycle.",
+        "[CARRY] cash-basis (בסיס מזומן) May-June baseline/window not cleanly sourced (CPA briefs cite it, gov.il accordion not captured); body softened to a generic 'confirm baseline on gov.il' pointer with no specific dates. Pin exact baseline+window if gov.il publishes them.",
+        "[CARRY] the exact advance amount and its per-segment percentage were not pinned; expressed qualitatively. Nail the figure next cycle.",
+        "[CARRY] Iron Swords older-period bi-monthly decline threshold not verified per-period; skill routes to the operative regulation text.",
+        "Discretionary deferred over batch cap: medium/large-business sector multipliers (fuel 0.35, exempt 0.19, contractors 0.68) and the 300-400M-turnover absolute cap (~1.2M NIS) not added; next-cycle candidate."
+      ]
+    }
+  ]
+}

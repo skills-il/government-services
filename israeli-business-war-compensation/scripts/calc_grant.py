@@ -12,8 +12,11 @@ Usage:
 Output explains both tracks, identifies the higher one, and lists the gates passed.
 
 Sources for every figure in this file are listed in evidence.json (sibling file
-in the skill folder). Average wage 13,773 NIS, 75% wage formula, 25%/12.5%
-thresholds, 12,000-400M NIS turnover band, and tier multipliers (7/11/15/22%)
+in the skill folder). Average wage 13,773 NIS (× 1.25 employer-cost coefficient for
+the per-employee cap, so wage input and cap are both in employer-cost units), 75% wage formula, the 25% decline
+threshold (applied to both monthly and bi-monthly filers under Shaagat HaAri - a
+bi-monthly filer compares the full March-April two-month period, NOT a halved
+12.5% threshold), 12,000-400M NIS turnover band, and tier multipliers (7/11/15/22%)
 all come from the Tax Authority's published Shaagat HaAri framework.
 """
 
@@ -24,10 +27,15 @@ import sys
 from dataclasses import dataclass
 
 
-AVERAGE_WAGE_NIS = 13_773  # Shaagat HaAri 2026 framework: per-employee cap base
+AVERAGE_WAGE_NIS = 13_773  # Shaagat HaAri 2026 framework: average wage in the economy
+EMPLOYER_COST_FACTOR = 1.25  # מקדם עלות מעביד: grosses the average wage to employer-cost units,
+#                              matching the wage input (הוצאות שכר per Form 102). Per-employee cap
+#                              base is therefore 13,773 × 1.25 ≈ 17,216, not the bare gross 13,773.
 WAGE_FORMULA_RATE = 0.75
 MIN_DECLINE_MONTHLY = 0.25
-MIN_DECLINE_BIMONTHLY = 0.125
+# Shaagat HaAri: bi-monthly filers use the SAME 25% gate, comparing the full
+# March-April two-month period (not a halved 12.5% threshold).
+MIN_DECLINE_BIMONTHLY = 0.25
 TURNOVER_FLOOR = 12_000
 TURNOVER_CEILING = 400_000_000
 SMALL_BUSINESS_THRESHOLD = 300_000  # routes to the small-business continuity track
@@ -117,8 +125,8 @@ def calc_grant(
             recommended_amount=0,
         )
 
-    raw_wage = WAGE_FORMULA_RATE * decline * wages_in_period
-    per_emp_cap = AVERAGE_WAGE_NIS * employees * decline
+    raw_wage = WAGE_FORMULA_RATE * decline * wages_in_period * EMPLOYER_COST_FACTOR
+    per_emp_cap = AVERAGE_WAGE_NIS * EMPLOYER_COST_FACTOR * employees * decline
     wage_grant = min(raw_wage, per_emp_cap)
 
     multiplier = fixed_cost_multiplier(decline)
@@ -157,13 +165,13 @@ def calc_grant(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--ref", type=float, required=True, help="Reference turnover (NIS) - typically March 2025 or March 2023 (north)")
-    parser.add_argument("--claim", type=float, required=True, help="Claim turnover (NIS) - typically March 2026")
-    parser.add_argument("--wages", type=float, default=0, help="Wages paid in claim period (NIS)")
+    parser.add_argument("--ref", type=float, help="Reference turnover (NIS) - typically March 2025 or March 2023 (north)")
+    parser.add_argument("--claim", type=float, help="Claim turnover (NIS) - typically March 2026")
+    parser.add_argument("--wages", type=float, default=0, help="Gross wages paid in claim period per Form 102 (the script applies the ×1.25 employer-cost gross-up), NIS")
     parser.add_argument("--employees", type=int, default=0, help="Number of employees")
     parser.add_argument("--fixed", type=float, default=0, help="Monthly fixed expenses (NIS)")
     parser.add_argument("--months", type=int, default=1, help="Reporting period months (default 1)")
-    parser.add_argument("--bimonthly", action="store_true", help="Bi-monthly VAT filer (12.5%% threshold instead of 25%%)")
+    parser.add_argument("--bimonthly", action="store_true", help="Bi-monthly VAT filer (Shaagat HaAri: still 25%%, compared over the full March-April two-month period)")
     parser.add_argument("--example", action="store_true", help="Run a worked example and exit")
     args = parser.parse_args()
 
@@ -172,6 +180,9 @@ def main() -> int:
         result = calc_grant(280_000, 168_000, 70_000, 5, 28_000)
         _print_result(result)
         return 0
+
+    if args.ref is None or args.claim is None:
+        parser.error("--ref and --claim are required (or use --example for a worked demo)")
 
     result = calc_grant(
         ref_turnover=args.ref,
@@ -193,8 +204,8 @@ def _print_result(result: GrantResult) -> None:
         return
     print()
     print("Wage track:")
-    print(f"  Raw wage grant:        {result.wage_track_raw:,.0f} NIS  (= 0.75 × {result.decline_rate:.1%} × wages)")
-    print(f"  Per-employee cap:      {result.wage_track_per_emp_cap:,.0f} NIS  (= 13,773 × employees × {result.decline_rate:.1%})")
+    print(f"  Raw wage grant:        {result.wage_track_raw:,.0f} NIS  (= 0.75 × {result.decline_rate:.1%} × wages × 1.25)")
+    print(f"  Per-employee cap:      {result.wage_track_per_emp_cap:,.0f} NIS  (= 13,773 × 1.25 × employees × {result.decline_rate:.1%})")
     print(f"  Wage grant:            {result.wage_track_grant:,.0f} NIS  (min of the two)")
     print()
     print("Fixed-cost track:")

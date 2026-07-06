@@ -22,16 +22,16 @@ Step A - eligibility
   registration assumed pre-31.12.2024           (PASS)
 
 Step B - wage track
-  rawWageGrant = 0.75 * 0.40 * 70000 = 21000 NIS
-  perEmpCap    = avgWage * 5 * 0.40            (per-employee × employees × decline)
-  wageGrant    = min(rawWageGrant, perEmpCap)  (binding constraint reported by calc_grant.py)
+  rawWageGrant = 0.75 * 0.40 * 70000 * 1.25 = 26250 NIS   (×1.25 employer-cost gross-up)
+  perEmpCap    = avgWage * 1.25 * 5 * 0.40 = 34432 NIS     (13,773 × 1.25 employer-cost coefficient)
+  wageGrant    = min(26250, 34432) = 26250 NIS            (raw side binds)
 
 Step C - fixed-cost track
-  decline 0.40 sits at the 25-40% / 40-60% boundary
-  conservative reading: tier multiplier = 0.07
-  fixedCostGrant = 0.07 * 28000 * 1 = 1960 NIS
+  decline 0.40 falls in the 40-60% tier (calc_grant.py uses low <= decline < high)
+  tier multiplier = 0.11
+  fixedCostGrant = 0.11 * 28000 * 1 = 3080 NIS
 
-Result: wage track wins. File under the nationwide wage track.
+Result: wage track (26250 NIS) wins over fixed-cost (3080 NIS). File under the nationwide wage track.
 ```
 
 ## Example 2: Galilee restaurant evacuated since Oct 2023 - northern baseline
@@ -56,9 +56,10 @@ Step B - track choice
   Red track §35: no upper cap, profit losses compensable
   → recommend red track over wage/fixed-cost track
 
-Step C - red track advance
-  Per gov.il/he/pages/press_11032026, red-track businesses can request
-  an advance up to 100000 NIS for the March 2026 damage period.
+Step C - border advance
+  Border/red-track businesses request a partial advance (before the full
+  claim) via the frontier advance page:
+  gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion
 
 Result: file under red track §35. Request the advance immediately.
 ```
@@ -78,7 +79,7 @@ Inputs:
 Step A - eligibility
   Annual turnover 215000 NIS is ≤ 300000 NIS
   → small business continuity grant track applies
-  → 25% / 12.5% threshold does NOT apply on this track
+  → the 25% decline threshold does NOT apply as a formula on this track
 
 Step B - exclusivity
   Small-business track is exclusive of wage/fixed-cost track
@@ -107,17 +108,17 @@ Step A - eligibility
 
 Step B - wage track
   rawWageGrant = 0.75 * 0.30 * 220000 = 49500 NIS
-  perEmpCap    = avgWage * 8 * 0.30
+  perEmpCap    = avgWage * 1.25 * 8 * 0.30      (13,773 × 1.25 employer-cost coefficient)
   wageGrant    = min(rawWageGrant, perEmpCap)
-  Per-employee cap binds (wages above the average-wage proxy)
-  → wageGrant ~ 33055 NIS
+  Per-employee cap binds (wages above the employer-cost average-wage proxy)
+  → wageGrant ~ 41319 NIS
 
 Step C - fixed-cost track
   decline 0.30 sits in 25-40% tier
   multiplier = 0.07
   fixedCostGrant = 0.07 * 95000 * 1 = 6650 NIS
 
-Result: wage track ~ 33055 NIS clearly beats fixed-cost track 6650 NIS.
+Result: wage track ~ 41319 NIS clearly beats fixed-cost track 6650 NIS.
 Surface that the per-employee cap reduced the grant from raw 49500 NIS.
 ```
 
@@ -138,16 +139,16 @@ Step A - eligibility
 
 Step B - wage track
   rawWageGrant = 0.75 * 0.30 * 1800000 = 405000 NIS
-  perEmpCap    = avgWage * 60 * 0.30
-  wageGrant    = min(rawWageGrant, perEmpCap) ~ 247914 NIS
+  perEmpCap    = avgWage * 1.25 * 60 * 0.30      (13,773 × 1.25 employer-cost coefficient)
+  wageGrant    = min(rawWageGrant, perEmpCap) ~ 309892 NIS
 
 Step C - fixed-cost track
   fixedCostGrant = 0.07 * 540000 * 1 = 37800 NIS
 
-Aggregate cap check: 247914 NIS < 600000 NIS → cap not binding here.
+Aggregate cap check: 309892 NIS < 600000 NIS → cap not binding here.
 At higher wages it would clamp to 600000 NIS.
 
-Result: wage track ~ 247914 NIS wins.
+Result: wage track ~ 309892 NIS wins.
 ```
 
 ## How these examples were derived
@@ -155,12 +156,12 @@ Result: wage track ~ 247914 NIS wins.
 Every dollar amount above is the output of the calc_grant.py script in scripts/, which encodes:
 
 - The 75% wage formula multiplier (Shaagat HaAri framework)
-- The average wage cap (13,773 NIS) on the per-employee branch
-- The 25% / 12.5% eligibility threshold for monthly / bi-monthly filers
+- The average wage cap (13,773 NIS × 1.25 employer-cost coefficient ≈ 17,216) on the per-employee branch
+- The 25% eligibility threshold (monthly and bi-monthly filers alike under Shaagat HaAri)
 - The 12000-400M NIS annual turnover band
 - The 300000 NIS small-business cutoff
 - The 600000 NIS aggregate ceiling for businesses above the cutoff
 - The fixed-cost tier multipliers: 7%, 11%, 15%, 22%
-- The 100000 NIS red-track advance ceiling
+- The partial pre-claim advance (nationwide and border portals)
 
 Run `python scripts/calc_grant.py --example` to reproduce Example 1 directly.

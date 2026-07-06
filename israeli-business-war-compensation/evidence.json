@@ -34,10 +34,10 @@
     },
     {
       "claim_id": "decline-threshold-25-monthly",
-      "claim": "Minimum turnover decline threshold for monthly VAT filer is 25% (March 2026 vs March 2025); 25 percent / 25%",
-      "source_url": "https://www.mako.co.il/news-money/2026_q1/Article-79d26c770b1ec91027.htm",
-      "raw_snippet": "ירידה של יותר מ-25% בהכנסות בחודש מרץ 2026 לעומת מרץ אשתקד",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Minimum turnover-decline threshold is 25% over the March-April 2026 period vs the base period (March-April 2025); 25 percent / 25%",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "raw_snippet": "העסק חווה ירידה במחזור העסקאות של לפחות 25% בחודשים מרץ-אפריל 2026, ביחס לתקופת הבסיס (מרץ-אפריל 2025)",
+      "fetched_at": "2026-07-06T10:47:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -47,11 +47,11 @@
       ]
     },
     {
-      "claim_id": "decline-threshold-125-bimonthly",
-      "claim": "Minimum turnover decline threshold for bi-monthly VAT filer is 12.5% (March-April 2026 vs March-April 2025)",
-      "source_url": "https://www.mako.co.il/news-money/2026_q1/Article-79d26c770b1ec91027.htm",
-      "raw_snippet": "ירידה של לפחות 12.5% בחודשים מרץ-אפריל 2026",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim_id": "decline-threshold-25-bimonthly",
+      "claim": "Under Shaagat HaAri the minimum turnover-decline threshold is 25% for bi-monthly filers too, comparing the full March-April 2026 two-month period vs the base period (March-April 2025); there is no halved 12.5% bi-monthly gate",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "raw_snippet": "העסק חווה ירידה במחזור העסקאות של לפחות 25% בחודשים מרץ-אפריל 2026, ביחס לתקופת הבסיס (מרץ-אפריל 2025)",
+      "fetched_at": "2026-07-06T10:47:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -169,11 +169,11 @@
       ]
     },
     {
-      "claim_id": "red-track-advance-100000",
-      "claim": "Red track advance: businesses in northern border yishuvei sfar can receive an advance of up to 100,000 NIS / 100,000 ש\"ח for March 2026 indirect damage, before filing the full claim",
+      "claim_id": "advance-portal-nationwide",
+      "claim": "Nationwide advance portal (request-for-dvance-dealers-shaagat-haari) is scoped to businesses across the country EXCEPT קו העימות (confrontation-line) settlements; a partial advance is paid before the full claim",
       "source_url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari",
-      "raw_snippet": "בעלי עסקים ביישובי ספר בצפון הארץ שעומדים בתנאי הזכאות לפי המסלול האדום יכולים לקבל מקדמות בגובה של עד 100,000 ש\"ח על הנזק שנגרם להם במהלך חודש מרץ 2026",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "בקשה למקדמה עבור עוסקים בכל הארץ (מלבד יישובי קו העימות) בשל מבצע \"שאגת הארי\"",
+      "fetched_at": "2026-07-06T11:13:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -315,7 +315,7 @@
     },
     {
       "claim_id": "aggregate-cap-600000",
-      "claim": "Aggregate monthly compensation ceiling for businesses with turnover above 300,000 NIS / above 100M NIS: 600,000 NIS per period",
+      "claim": "Aggregate monthly compensation ceiling for businesses with turnover above 300,000 NIS / above 100M NIS: 600,000 NIS per period. Aggregate ceiling = 600,000 NIS / 600,000 ש\"ח per damage period for turnover up to 100M.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A9%D7%91%D7%99%D7%9F_300,000_-_400_%D7%9E%D7%99%D7%9C%D7%99%D7%95%D7%9F_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
       "raw_snippet": "Up to ₪100M turnover: ₪600,000 monthly maximum",
       "fetched_at": "2026-05-18T17:00:00Z",
@@ -511,11 +511,11 @@
       ]
     },
     {
-      "claim_id": "advance-request-portal-url",
-      "claim": "Gov.il service page for Shaagat HaAri red-track 100,000 NIS advance request (request-for-dvance-dealers-shaagat-haari)",
-      "source_url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari",
-      "raw_snippet": "בעלי עסקים ביישובי ספר בצפון הארץ",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim_id": "advance-portal-frontier",
+      "claim": "Border/frontier settlements (יישובי ספר, אזור התגוננות קו העימות) have a SEPARATE advance portal: pay-advances-to-business-owners-in-frontier-roaring-lion",
+      "source_url": "https://www.gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion",
+      "raw_snippet": "בקשה לתשלום מקדמות לבעלי עסקים ביישובי ספר באזור התגוננות קו העימות בשל מבצע שאגת הארי",
+      "fetched_at": "2026-07-06T11:14:00Z",
       "appears_in": [
         "references/red-track-yishuvim.md"
       ]
@@ -566,17 +566,6 @@
       "claim": "Form 102 (טופס 102) is the Israeli payroll declaration required for the wage track filing; appears both as Hebrew טופס 102 and English Form 102",
       "source_url": "https://bitancpa.com/knowledge/business-grants-operation-shaagat-haari-2026",
       "raw_snippet": "השכר ששולם בחודש 3-4/2026 לפי טופס 102 (Form 102)",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "section-15-appeals",
-      "claim": "Section 15 (סעיף 15) of the Property Tax & Compensation Fund Law 1961 covers the ועדת ערר (appeals committee). Cited as the statutory basis for the two-stage appeals path.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "ועדת ערר",
       "fetched_at": "2026-05-18T17:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -650,7 +639,7 @@
     },
     {
       "claim_id": "small-business-table-post-passage-values",
-      "claim": "Post-Knesset-passage (4.5.2026) authoritative monthly grant values for small business continuity track (turnover up to 300K NIS): bottom 3 bands flat at 1,864 / 3,356 / 4,475 NIS; bands above 120K scale by decline tier from 2,823 / 4,234.50 / 6,775.20 / 8,469 (120-150K) through 4,980 / 7,470 / 11,952 / 14,940 (250-300K). Includes values 3,329 / 4,993.50 / 7,989.60 / 9,987 (150-200K) and 4,261 / 6,391.50 / 10,226.40 / 12,783 (200-250K).",
+      "claim": "Post-Knesset-passage (4.5.2026) authoritative monthly grant values for small business continuity track (turnover up to 300K NIS): bottom 3 bands flat at 1,864 / 3,356 / 4,475 NIS; bands above 120K scale by decline tier from 2,823 / 4,234.50 / 6,775.20 / 8,469 (120-150K) through 4,980 / 7,470 / 11,952 / 14,940 (250-300K). Includes values 3,329 / 4,993.50 / 7,989.60 / 9,987 (150-200K) and 4,261 / 6,391.50 / 10,226.40 / 12,783 (200-250K). Post-passage table spans 1,864 NIS (1,864 ש\"ח) at the floor to 14,940 NIS (14,940 ש\"ח) at the top cell.",
       "source_url": "https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים_עם_מחזור_עד_300,000_ש\"ח_על_הפסדים_במבצע_שאגת_הארי",
       "raw_snippet": "1,864 / 3,356 / 4,475 / 2,823 / 4,234.50 / 6,775.20 / 8,469 / 3,329 / 4,993.50 / 7,989.60 / 9,987 / 4,261 / 6,391.50 / 10,226.40 / 12,783 / 4,980 / 7,470 / 11,952 / 14,940",
       "fetched_at": "2026-05-18T19:00:00Z",
@@ -713,6 +702,30 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "north-track-deadlines-2026",
+      "claim": "North (special-area) filing windows run later than nationwide: turnover/wage/agriculture tracks to 24.09.2026; red track extended to 31.08.2026 (some info pages still show 24.08)",
+      "source_url": "https://www.amir-cpa.net/post/%D7%A9%D7%90%D7%92%D7%AA-%D7%94%D7%90%D7%A8%D7%99-%D7%99%D7%95%D7%A0%D7%99-2026-%D7%96%D7%94%D7%95-%D7%9E%D7%AA%D7%95%D7%95%D7%94-%D7%A0%D7%96%D7%A7-%D7%A2%D7%A7%D7%99%D7%A3-%D7%94%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%91%D7%A6%D7%A4%D7%95%D7%9F",
+      "raw_snippet": "מסלולי מחזורים, שכר וחקלאות: עד 24.9.26 ... מסלול אדום: עד 31.8.26 (בהתאם לאורכה האחרונה שפרסמה רשות המסים, ולא עד ל-24.8 כמופיע בדף המידע)",
+      "fetched_at": "2026-07-06T10:48:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "agriculture-track-13615-per-worker",
+      "claim": "North agriculture track (מסלול חקלאות): 13,615 ש\"ח / 13,615 NIS per worker employed in agricultural land in the special area, capped at 5,000,000 NIS per farmer for the whole eligibility period",
+      "source_url": "https://www.amir-cpa.net/post/%D7%A9%D7%90%D7%92%D7%AA-%D7%94%D7%90%D7%A8%D7%99-%D7%99%D7%95%D7%A0%D7%99-2026-%D7%96%D7%94%D7%95-%D7%9E%D7%AA%D7%95%D7%95%D7%94-%D7%A0%D7%96%D7%A7-%D7%A2%D7%A7%D7%99%D7%A3-%D7%94%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%91%D7%A6%D7%A4%D7%95%D7%9F",
+      "raw_snippet": "מסלול חקלאות - הפיצוי הנו 13,615 ₪ בגין כל עובד המועסק בשטחים חקלאיים באזור המיוחד, עד תקרה של 5 מיליון ש\"ח לחקלאי לכל תקופת הזכאות",
+      "fetched_at": "2026-07-06T10:48:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ],
   "pending_verification": [
@@ -726,7 +739,7 @@
     },
     {
       "claim_id": "press-release-11-03-2026",
-      "reason": "gov.il/he/pages/press_11032026 returns HTTP 403; URL is cited verbatim in skill files but body not retrievable. Mako N12 and Bitan CPA reproduce the key numbers (25%/12.5%, 13,773, 7/11/15/22%, 12K-400M, 100,000 advance, 20% reservist) directly from this brief."
+      "reason": "gov.il/he/pages/press_11032026 returns HTTP 403; URL is cited verbatim in skill files but body not retrievable. Mako N12 and Bitan CPA reproduce the key numbers (25%/25% (bi-monthly two-month), 13,773, 7/11/15/22%, 12K-400M, advance mechanism, 20% reservist) directly from this brief."
     },
     {
       "claim_id": "compensation-tracks-master-url",

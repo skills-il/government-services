@@ -4,8 +4,8 @@ The "red track" under section 35 of the Property Tax & Compensation Fund Law, 19
 
 - No upper cap on the indirect-damage claim
 - Direct profit losses are compensable, not just fixed costs and wages
-- An advance payment of up to 100,000 NIS for March 2026 damages, available before the formal claim is finalized
-- No minimum turnover-decline threshold (the 25% / 12.5% gate does not apply)
+- Border settlements have a dedicated frontier advance page (gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion). Do NOT use the nationwide advance page (request-for-dvance-dealers-shaagat-haari), which is explicitly scoped to businesses across the country EXCEPT קו העימות settlements
+- No minimum turnover-decline threshold (the 25% decline gate does not apply)
 
 ## Where the canonical list lives
 
