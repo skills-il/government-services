@@ -121,7 +121,23 @@ Before buying a used car in Israel, verify these items:
 - Includes: brake/steering assessment, emissions, body/assembly visual inspection, electronics scan, chassis diagnostics
 - Output: detailed report with findings and repair recommendations
 
-**4. Transfer of ownership (העברת בעלות):**
+**4. Estimate the value (מחירון / שווי רכב):**
+
+Before you negotiate a used-car price, check the market value:
+- Ministry of Transport official pricelist (free): https://carlistprice.mot.gov.il/ - the ministry's own reference price, used to compute the ownership-transfer fee. It is a conservative official figure and typically runs lower than the commercial price.
+- מחירון לוי יצחק (levi-itzhak.co.il) - the commercial benchmark most dealers, insurers, and banks price against. It is a paid product, though some banks' and insurers' car-value pages surface a free single lookup.
+
+Both give a BASE price for the model, year, and trim. The real value moves up or down from that base with:
+- Ownership type: a private-hand (יד פרטית) car is worth more than an ex-company, rental, lease, driving-school, or taxi car.
+- Number of previous owners: more owners lowers the value.
+- Kilometrage relative to the average for the car's age: above-average km lowers it, below-average raises it.
+- Structural change (שינוי מבנה): a non-original structural modification lowers value noticeably.
+- Import path: a parallel or personal import (יבוא מקביל / יבוא אישי) is worth less than an official-importer car of the same model, year, and trim.
+- Condition, and any accident or lien history (use the vehicle-history report and the Registrar of Pledges check above).
+
+The exact adjustment percentages are part of the (proprietary) מחירון, so use the tools above for the number rather than a formula. This is an estimate to anchor a negotiation, not an official appraisal.
+
+**5. Transfer of ownership (העברת בעלות):**
 
 | Method | Cost | Requirements |
 |--------|------|-------------|

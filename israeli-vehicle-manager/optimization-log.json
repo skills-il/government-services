@@ -13,6 +13,14 @@
         "CARRY (minors): surface the all-in test cost (~300-500 NIS at the station vs the ~126 NIS agra); re-verify the e-bike/kalanoit registration date + plate fee against the gov.il fee board; confirm or generalize the 'TesTime' SMS-booking product name.",
         "WATCH (tooling): editing the transfer-fee 250 in evidence broke the justification for the separate late-test-fine 250 (the only '250 שקל' token was the transfer one). When changing a figure that another claim relies on for token coverage, re-add the token to the other claim. Same lesson as the war-damage 52,750 substring incident."
       ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-07-07",
+      "lessons": [
+        "Added a qualitative used-car value-estimation block (Step 4) from a WhatsApp community request. A computational checker was ruled out: the Levi Yitzhak base price + adjustment percentages are proprietary; the only public figures (BL Circular 2044's 10/11%) are narrow disability-accessory depreciation. So the block points to the public MOT pricelist + Levi Yitzhak and lists the adjustment FACTORS qualitatively, no invented percentages.",
+        "Expert review corrected two accuracy points: Levi Yitzhak is a PAID product (only carlistprice.mot.gov.il is free), and carlistprice is the MOT official reference price used to compute the transfer fee (runs lower than the commercial price), NOT an aggregation of reported transfer prices. Added שינוי מבנה (structural change) and יבוא מקביל/אישי (parallel/personal import) as missing value factors."
+      ]
     }
   ]
 }

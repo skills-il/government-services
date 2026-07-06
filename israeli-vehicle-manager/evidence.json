@@ -9,7 +9,9 @@
       "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
       "raw_snippet": "מחיר המבחן עצמו (אגרת רישוי / טסט) — סדר גודל של 126 ש\"ח. סך כל ההוצאה במכון רישוי לאחר תוספות נע 300-500 ש\"ח",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md"]
+      "appears_in": [
+        "SKILL.md"
+      ]
     },
     {
       "claim_id": "new-car-exemption-3-years",
@@ -17,7 +19,10 @@
       "source_url": "https://www.gov.il/he/service/test-cars-renew",
       "raw_snippet": "רכבים פרטיים חדשים פטורים ממבחן רישוי שלוש שנים מתאריך הרישום הראשוני",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ev-purchase-tax-2026",
@@ -25,7 +30,10 @@
       "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
       "raw_snippet": "Treasury compromised on raising the purchase tax on EVs to 48% from January 1, 2026, instead of the 52% originally proposed (previously 45%). The 2026 tax benefit ceiling was set at approximately NIS 22,000 (22,000 שקל / 22,000 ש\"ח), reduced from NIS 30,000 (30,000 שקל / 30,000 ש\"ח) in 2025.",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "april-2026-license-hike",
@@ -33,7 +41,10 @@
       "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
       "raw_snippet": "תעריפי אגרת הרישוי יתייקרו בסכום של 22 ₪ עד 132 ₪ (22 שקל עד 132 שקל / 22 NIS to 132 NIS / 22 ש\"ח עד 132 ש\"ח)",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "rashut-hashidur-fee",
@@ -41,7 +52,10 @@
       "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
       "raw_snippet": "אגרת רשות השידור בסך 135 ₪ / 135 שקל / 135 NIS / 135 ש\"ח נגבית אוטומטית עם תשלום אגרת הרישוי השנתית",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "transfer-fee-online-235",
@@ -49,7 +63,10 @@
       "source_url": "https://www.lbr.co.il/%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%94%D7%A2%D7%91%D7%A8%D7%AA-%D7%91%D7%A2%D7%9C%D7%95%D7%AA-%D7%A8%D7%9B%D7%91-%D7%90%D7%99%D7%9A-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%AA-%D7%96%D7%94-%D7%91-2025/",
       "raw_snippet": "אונליין: 235 ₪ / 235 שקל / 235 ש\"ח. דואר: 257 ₪ / 257 שקל / 257 ש\"ח. העלות נלקחה מאתר משרד התחבורה בינואר 2026",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "transfer-fee-post-250",
@@ -57,7 +74,10 @@
       "source_url": "https://www.lbr.co.il/%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%A8%D7%9B%D7%91/%D7%94%D7%A2%D7%91%D7%A8%D7%AA-%D7%91%D7%A2%D7%9C%D7%95%D7%AA-%D7%A8%D7%9B%D7%91-%D7%90%D7%99%D7%9A-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%AA-%D7%96%D7%94-%D7%91-2025/",
       "raw_snippet": "דואר: 257 ₪ / 257 שקל / 257 ש\"ח. העלות נלקחה מאתר משרד התחבורה בינואר 2026",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "transfer-deadline-15-days",
@@ -65,7 +85,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A2%D7%91%D7%A8%D7%AA_%D7%91%D7%A2%D7%9C%D7%95%D7%AA_%D7%A2%D7%9C_%D7%A8%D7%9B%D7%91",
       "raw_snippet": "יש להעביר את הבעלות תוך 15 ימים מיום מכירת הרכב",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "online-transfer-10-minute-window",
@@ -73,7 +96,9 @@
       "source_url": "https://protocol.co.il/online-vehicle-ownership-transfer/",
       "raw_snippet": "יש לסיים את התשלום בתוך מספר דקות אחרת הטופס יתאפס ויש להתחיל מחדש",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md"]
+      "appears_in": [
+        "SKILL.md"
+      ]
     },
     {
       "claim_id": "ebike-registration-aug-2024",
@@ -81,7 +106,10 @@
       "source_url": "https://www.gov.il/he/service/kalanoit-registration",
       "raw_snippet": "רישום קלנועיות וקורקינטים חשמליים החל מ-1.8.2024",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "age-75-medical-exam",
@@ -89,7 +117,10 @@
       "source_url": "https://www.gov.il/he/service/driving-license-medical-exam",
       "raw_snippet": "החל מגיל 75 נדרש אישור רפואי לחידוש רישיון נהיגה לנהג פרטי (תיקון 2024)",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "uber-reentry-2026",
@@ -97,7 +128,10 @@
       "source_url": "https://www.ynet.co.il/economy/article/uber-israel-2026",
       "raw_snippet": "אוּבר תחזור לפעול בישראל בעקבות אישור שרת התחבורה רגב",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "iron-swords-reservist-deferrals",
@@ -105,7 +139,10 @@
       "source_url": "https://www.gov.il/he/service/reservist-rights-iron-swords",
       "raw_snippet": "דחיית מועדי טסט ורישוי לחיילי מילואים — תקופת חרבות ברזל הוקצו ארכות גורפות; מחוץ לחלון אין דחייה אוטומטית לפי משך השירות",
       "fetched_at": "2026-05-18T02:10:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "registrar-of-pledges",
@@ -113,7 +150,11 @@
       "source_url": "https://www.gov.il/he/service/pledges-registry-inquiry",
       "raw_snippet": "בירור משכונות ברשם המשכונות במשרד המשפטים",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/ownership-transfer.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ownership-transfer.md"
+      ]
     },
     {
       "claim_id": "mandatory-insurance-bituach-chova",
@@ -121,7 +162,10 @@
       "source_url": "https://www.gov.il/he/service/mandatory-car-insurance",
       "raw_snippet": "ביטוח חובה הוא ביטוח רכוש לרכב המכסה נזקי גוף",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "late-test-fine-tiers",
@@ -129,7 +173,10 @@
       "source_url": "https://www.technotest.net/%D7%9E%D7%92%D7%96%D7%99%D7%9F/%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/%D7%94%D7%A2%D7%A0%D7%99%D7%A9%D7%94-%D7%91%D7%92%D7%99%D7%9F-%D7%A0%D7%94%D7%99%D7%92%D7%94-%D7%9C%D7%9C%D7%90-%D7%98%D7%A1%D7%98/",
       "raw_snippet": "עד 4 חודשים פיגור: קנס 250 ש\"ח / 250 שקל / 250 שקלים ו-6 נקודות; בין 4 חודשים לשנה: 1,000 ש\"ח / 1,000 שקל ו-6 נקודות; מעל שנה: זימון לבית משפט",
       "fetched_at": "2026-05-18T01:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "license-fee-range",
@@ -137,7 +184,10 @@
       "source_url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%AA%D7%A2%D7%A8%D7%99%D7%A3-%D7%90%D7%92%D7%A8%D7%AA-%D7%A8%D7%99%D7%A9%D7%95%D7%99-%D7%9C%D7%A8%D7%9B%D7%91-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2026",
       "raw_snippet": "אגרת רישוי שנתית נעה בין 850 שקל ל-5,300 שקל לפי קבוצת מחיר; 7 קבוצות מחיר. Range: 850 NIS to 5,300 NIS.",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ev-tax-ceiling-2026-detail",
@@ -145,7 +195,10 @@
       "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
       "raw_snippet": "EV tax-benefit ceiling approximately 22,000 NIS / 22,000 שקל / 22,000 ש\"ח effective January 2026; rate 48%.",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ev-test-cost",
@@ -153,7 +206,10 @@
       "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
       "raw_snippet": "מבחן רישוי לרכב חשמלי, כ-106 ש\"ח / 106 שקל / 106 NIS",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "motorcycle-test-cost",
@@ -161,7 +217,10 @@
       "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
       "raw_snippet": "מבחן רישוי לאופנוע, כ-80 ש\"ח / 80 שקל / 80 NIS",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "test-cost-private-119",
@@ -169,7 +228,10 @@
       "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
       "raw_snippet": "מבחן רישוי לרכב פרטי, כ-126 ש\"ח / 126 שקל",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "pretest-private-garage-range",
@@ -177,7 +239,10 @@
       "source_url": "https://m-rishuy.org/%D7%9B%D7%9E%D7%94-%D7%A2%D7%95%D7%9C%D7%94-%D7%98%D7%A1%D7%98-%D7%9C%D7%A8%D7%9B%D7%91/",
       "raw_snippet": "בדיקה מקדימה במוסך פרטי — מאות שקלים בודדות; מומלץ לרכבים ישנים",
       "fetched_at": "2026-05-18T02:10:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ebike-plate-fee",
@@ -185,7 +250,10 @@
       "source_url": "https://www.gov.il/he/service/kalanoit-registration",
       "raw_snippet": "אגרת לוחית רישוי לקלנועית / קורקינט חשמלי — כ-70 ש\"ח / 70 שקל / 70 NIS",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "tofes-16-form",
@@ -193,7 +261,10 @@
       "source_url": "https://www.gov.il/he/service/driving-license-medical-exam",
       "raw_snippet": "טופס 16 — אישור רפואי לחידוש רישיון נהיגה",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "test-failure-categories",
@@ -201,7 +272,10 @@
       "source_url": "https://www.gov.il/he/departments/units/mivchan-rishuy",
       "raw_snippet": "כשליש מהרכבים נכשלים בטסט. הקטגוריות הנפוצות: ליקויים קטנים, צמיגים, פליטות וליקויי בטיחות. הפילוח המדויק משתנה משנה לשנה.",
       "fetched_at": "2026-05-18T02:10:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "openclaw-install-url",
@@ -209,7 +283,31 @@
       "source_url": "https://openclaw.com/skills/skills-il/government-services/israeli-vehicle-manager",
       "raw_snippet": "OpenClaw install URL for skills-il/government-services/israeli-vehicle-manager",
       "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": ["metadata.json"]
+      "appears_in": [
+        "metadata.json"
+      ]
+    },
+    {
+      "claim_id": "mot-car-pricelist-url",
+      "claim": "The Ministry of Transport publishes a free official used-car pricelist reflecting prices reported at ownership transfers.",
+      "source_url": "https://carlistprice.mot.gov.il/",
+      "raw_snippet": "מחירון רכב - משרד התחבורה carlistprice.mot.gov.il",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "levi-yitzhak-pricelist",
+      "claim": "Levi Yitzhak (levi-itzhak.co.il) publishes the commercial used-car price benchmark used by dealers, insurers, and banks in Israel.",
+      "source_url": "https://levi-itzhak.co.il/",
+      "raw_snippet": "מחירון לוי יצחק - כלי לחישוב שווי רכב יד שנייה",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
