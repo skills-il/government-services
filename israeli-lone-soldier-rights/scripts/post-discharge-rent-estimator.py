@@ -97,7 +97,7 @@ def main():
     print(f"  Second installment:       {result['second_installment_nis']} NIS (within 4 months after first period ends)")
     print()
     print("Apply via the personal area at hachvana.mod.gov.il > Extra Benefits > Single Soldiers > Rent.")
-    print("Required documents: signed lease, bank account authorization, declaration form.")
+    print("Required document (as of 01.07.2026): a declaration form signed by soldier + landlord; bank details are updated separately in the personal area. Keep the signed lease on hand for review.")
     print("Hotline: *5266")
 
 

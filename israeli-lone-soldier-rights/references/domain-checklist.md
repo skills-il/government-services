@@ -5,11 +5,14 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, mome
 ## Must cover (core)
 
 - [x] **Three eligibility categories (chayal boded muvhak / chaser oref / yatom)**, oleh without family in Israel, Israeli with parents abroad / deceased / estranged, orphan, kolzchut + mitgaisim.idf.il
-- [x] **Aka recognition forms**, Form 7304 pre-enlistment via Lishkat HaGiyus; Form 62 (in duplicate) during service via Mashak Tash
+- [x] **Aka recognition forms**, soldier-facing form is Form 62 (שאלון הכרה, in duplicate) in BOTH pre-enlistment and in-service phases; Form 7304 is an internal Rakezet Tash intake doc (do not ask for 7304 at the counter)
 - [x] **Hotlines**, IDF 1111, Soldiers' Ombudsman 03-6977374, NBN+FIDF 24/7
-- [x] **Active-duty monthly grant**, 100% of base salary of a turai (private) in mandatory service, paid with the regular salary, automatic upon recognition
+- [x] **Active-duty monthly grant**, 100% of base salary of a turai (private) in mandatory service (currently 601.2 NIS/month), paid with the regular salary, automatic upon recognition
+- [x] **Combat / combat-support boded supplements**, additional 467.2 NIS/month (combat, activity level א'+) / 233.7 NIS/month (combat-support, א') on top of the base grant, per IDF economic-benefits page
+- [x] **Aliyah-Ministry monthly grant**, olim bodedim (aliyah within 5y before service) get a SECOND grant = 100% of turai base salary (150% for Ethiopian olim within 10y), stacks on the IDF grant; apply via Misrad HaAliyah (03-9733333)
 - [x] **Rent + utilities assistance during service**, via Mashak Tash, covers rent + electricity + gas + water + building committee
-- [x] **Free flights home ("מתגעגעים הביתה")**, 1 for non-combat, 2 for combat (different years), after 8 months minimum service
+- [x] **Free flights home ("מתגעגעים הביתה")**, after 8 months of service: 1 funded flight for non-combat, 2 for combat (not the same year); the funding covers ticket + port fees + medical insurance (soldier pays only passport + entry visas), coordinated via Mashak Tash (kolzchut מימון טיסה)
+- [x] **Other often-missed benefits**, psychometric-course funding, private-work permit, subsidized אל"ח / "יחד למען החייל" apartments (higher food-voucher allotment), post-discharge boded scholarships (קרן הישג, קרן גרוס), כנפיים program
 - [x] **Beit HaChayal free lodging**, weekends, holidays, extended weekends; Kiryat Shmona, Tveriya, Yerushalayim, Haifa, Tel Aviv, Ramat Gan, Be'er Sheva
 - [x] **Special leave**, up to 60 days/year, 30 reserved for visiting parents abroad, 1 yom sidurim/month, first 5 days deducted from regular bank
 - [x] **Marriage grant supplement**, special one-time grant on top of regular marriage grant
@@ -46,6 +49,6 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, mome
 - https://www.kolzchut.org.il/he/מענק_חודשי_לחיילים_בודדים, monthly grant 100% of private base salary
 - https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים, rent + utilities during service
 - https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx, post-discharge 12-month rent assistance, 12,000 NIS cap, two installments, *5266
-- https://www.momentum4u.org/boded/, 10-year extended benefits window for lone soldiers
+- https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx, 10-year extended benefits window for lone soldiers (§7/§7א per §1; official MoD law page)
 - https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/, diaspora-side benefits (NBN+FIDF joint program)
 - https://he.wikipedia.org/wiki/חייל_בודד, overview (use as map, not primary source)
