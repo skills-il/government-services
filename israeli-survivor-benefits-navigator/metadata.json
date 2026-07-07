@@ -1,0 +1,26 @@
+{
+  "display_name": {
+    "he": "מדריך קצבת שאירים וזכויות אחרי פטירה",
+    "en": "Israeli Survivor Benefits Navigator"
+  },
+  "display_description": {
+    "he": "מרכז את כל הזכויות הכספיות שפטירה בישראל מזכה בהן, במקום אחד. בודק מי נחשב שאיר, מעריך את קצבת השאירים החודשית מהביטוח הלאומי לפי טבלת השיעורים המעודכנת (לפי גיל, מספר ילדים ותוספת ותק), ומסמן גם את מסלול קצבת התלויים לפטירה מעבודה, מענק הפטירה, פנסיית השאירים מקרן הפנסיה וכספי הגמל והביטוח. שימושי כשאדם קרוב נפטר והמשפחה צריכה לדעת מה מגיע לה ואיזה טופס להגיש לכל גוף, כי כמעט שום תשלום לא מגיע לבד וצריך לתבוע אותו. לא מיועד לסידורי קבורה או העברת רכוש, לכתיבת צוואה או צו ירושה, ולשאלות ביטוח לאומי כלליות שלא קשורות לפטירה, ובכל מקרה מורכב כדאי להיוועץ ביועץ פנסיוני או בעורך דין.",
+    "en": "Ties together, in one place, every financial entitlement a death triggers in Israel. Checks who counts as a she'er, estimates the monthly Bituach Leumi survivor's allowance from the current rate table (by age, number of children, and seniority increment), and also flags the work-related-death dependents' allowance track, the death grant, the pension-fund survivor's pension, and provident-fund and life-insurance payouts. Use when a close relative has died and the family needs to know what it is owed and which form to file with each institution, because almost no payment arrives automatically and each must be actively claimed. Do NOT use for burial logistics or asset transfer, for writing a will or a succession order, or for general non-death Bituach Leumi questions, and always recommend a pension advisor or lawyer for complex cases."
+  },
+  "tags": {
+    "he": ["קצבת שאירים", "ביטוח לאומי", "אלמנה", "יתומים", "פנסיית שאירים", "מענק פטירה", "קצבת תלויים", "זכויות אחרי פטירה"],
+    "en": ["survivor benefits", "survivors allowance", "bituach leumi", "pension", "israel", "widow benefits", "death grant", "dependents allowance"]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "government-services",
+  "supported_agents": ["claude-code", "cursor", "github-copilot", "windsurf", "opencode", "codex", "openclaw", "antigravity", "gemini-cli", "chatgpt", "claude-ai", "claude-desktop", "manus"],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {"url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/default.aspx", "type": "regulator", "language": "he"},
+    {"url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx", "type": "regulator", "language": "he"},
+    {"url": "https://www.kolzchut.org.il/he/קצבת_שאירים", "type": "ngo", "language": "he"}
+  ],
+  "domain_checklist_version": 1
+}
