@@ -1,17 +1,21 @@
 # Bituach Leumi Benefit Programs Reference
 
-Complete program catalog with 2026 rates, qualifying periods, claim forms, and contact channels. Source: BTL 2026 announcement (`btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx`), kolzchut.org.il, and the per-program forms portals at `btl.gov.il/טפסים-ואישורים`.
+Complete program catalog with 2026 rates, qualifying periods, claim forms, and contact channels. Source: the official January 2026 BTL benefits circular (`btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf`), the per-benefit pages on btl.gov.il, kolzchut.org.il, and the per-program forms portals at `btl.gov.il/טפסים%20ואישורים`.
 
 ## Macroeconomic Anchors (2026)
 
 | Anchor | Value | Used for |
 |---|---|---|
-| Average wage section 1 (sachir memutza) | 13,566 NIS/month | Contribution bracket break, child-allowance reference |
-| Average wage section 2 (for benefit calcs) | 13,769 NIS/month | Maternity, miluim, work-injury daily caps |
-| Maximum insurable income (תקרה) | 51,910 NIS/month | All benefits with a daily cap |
-| Bracket boundary (60% of avg wage) | 7,703 NIS/month | NI contribution tier split |
+| Average wage section 1 (sachir memutza) | 13,566 NIS/month | Statistical reference only. The contribution bracket break is NOT derived from it (see the statutory 7,703 step below) |
+| Average wage section 2 (for benefit calcs) | 13,769 NIS/month | Unemployment daily cap (13,769 ÷ 25), benefit indexation |
+| Maximum insurable income for CONTRIBUTIONS (תקרה) | 51,910 NIS/month | Contribution ceiling; miluim daily cap (51,910 ÷ 30 = 1,730.33) |
+| Reduced-collection step (מדרגת גביה מופחתת) | 7,703 NIS/month | NI contribution tier split |
+| Basic amount (הסכום הבסיסי) | 10,514 NIS/month | Benefit derivations |
+| Maximum income for wage-replacing BENEFITS | 52,570 NIS/month | Maternity daily cap (52,570 ÷ 30 = 1,752.33); work-injury daily cap (75% of 1,752.33 = 1,314.25) |
 
-Both average-wage figures update twice yearly (January and July). Verify before any calculation that depends on them.
+The reduced-collection step is a STATUTORY amount (base 7,522, CPI-indexed each 1 January through 2028, wage-indexed from 2029), NOT 60% of the average wage. Do not recompute it as 0.6 x average wage, that gives 8,261 and is wrong.
+
+Amounts are reissued each 1 January. Individual benefit tables are occasionally reissued mid-year (the long-term-care income test changed effective 1 April 2026), so verify against the specific benefit page before any calculation that depends on them.
 
 ## Programs at a Glance
 
@@ -44,9 +48,12 @@ Both average-wage figures update twice yearly (January and July). Verify before 
 | Single | 1,838 NIS | 1,941 NIS |
 | Couple (with spouse increment) | 2,762 NIS | 2,865 NIS |
 
-- **Seniority supplement (תוספת ותק):** +2% per year from year 11, capped at 50%. Most recipients receive the full 50%, bringing the typical single rate to ~2,757 NIS/month.
+- **Seniority supplement (תוספת ותק):** 2% of the basic pension for EVERY full insured year, counted from year ONE (BTL example: 15 insured years = +30%). Capped at 50%, reached at 25 years. It does NOT start at year 11.
 - **Deferral bonus:** +5% per year of deferred claiming, paid up to age 70.
-- **Income test (between retirement age and 70):** Single ~7,827 NIS/month; couple ~10,436 NIS/month. Above the threshold the pension is suspended until age 70.
+- **Income test (between retirement age and 70), work income, 2026:** graduated, not a cliff.
+  - No spouse: full pension below 10,113 NIS/month; partial pension 10,113 to 14,402; none above 14,402.
+  - With a spouse: full pension below 13,484 NIS/month; partial 13,484 to 20,082; none above 20,082.
+  - Pension income (Israeli or foreign) is not counted. Years skipped for income reasons earn the +5% deferral supplement later.
 
 ### General Disability (Nechut Klalit)
 
@@ -57,21 +64,30 @@ Both average-wage figures update twice yearly (January and July). Verify before 
 | 65% | 2,894 NIS |
 | 60% | 2,718 NIS |
 
-- **Spouse supplement:** +1,518 NIS.
-- **Children supplement:** +1,214 NIS up to 2 children.
+- **Family supplements are BANDED BY DEGREE:**
+
+| Degree | Spouse supplement | Per child (max 2) |
+|---|---|---|
+| 75-100% | 1,518 NIS | 1,214 NIS |
+| 74% | 1,123 NIS | 898 NIS |
+| 65% | 987 NIS | 789 NIS |
+| 60% | 911 NIS | 728 NIS |
+
+The spouse supplement also requires the spouse's gross income to be at most 7,848 NIS/month and the spouse to draw no other benefit. A claimant at 74/65/60% who earns more than 2,891 NIS/month gross gets the FULL supplement. Source: btl.gov.il/benefits/Disability/Pages/שיעורי הקצבה.aspx
 
 ### Special Services (SHRM)
 
 | Care level | Monthly amount |
 |---|---|
 | 50% rate | 1,943 NIS |
-| 100% rate | 3,886 NIS |
-| 150% rate | 5,829 NIS |
-| 188% rate | 7,304 NIS |
+| 112% rate | 4,501 NIS |
+| 188% rate | 7,181 NIS |
 | 235% rate | 9,126 NIS |
 
-- **Caregiver supplement:** Up to 10,774 NIS/month.
-- **Disabled child:** Up to 3,820 NIS for a 100%-disabled child.
+- **Ventilated-patient supplement:** 10,774 NIS/month for a recipient at the 188% tier or above who is ventilated. NOT payable together with the 235% rate (a ventilated recipient gets 188% + this supplement instead).
+- **Two-caregiver supplement:** 7,182 NIS/month, not payable with the 235% rate and not payable together with the ventilated supplement.
+- **Child under 3:** 1,215 NIS per child, for up to 2 children, at every SHRM level.
+- **Disabled child:** five levels (1,943 / 3,820 / 4,501 / 7,181 / 9,126). See "Disabled Child (Yeled Nacheh): Full Table" below. 3,820 is the 100% level, NOT the ceiling.
 
 ### Unemployment (Dmei Avtala)
 
@@ -82,7 +98,7 @@ Both average-wage figures update twice yearly (January and July). Verify before 
 
 - **Waiting period:** 5 working days for terminations.
 - **Resignation penalty:** 90-day disqualification unless resigning for justified cause.
-- **Duration:** 50-175 days, depending on age and dependents.
+- **Duration:** 50 to 175 days by age and dependants (3+ family members); 175 unconditional from age 45; women 57-67 born 1960 or later get 300 days over 18 months. Full table below.
 
 ### Maternity (Dmei Leida)
 
@@ -94,7 +110,7 @@ Both average-wage figures update twice yearly (January and July). Verify before 
 - **Birth grant first child:** 2,103 NIS.
 - **Birth grant 2nd child:** 946 NIS.
 - **Birth grant 3rd+ child:** 631 NIS.
-- **Birth grant twins:** 10,514 NIS.
+- **Birth grant, multiple births (banded):** twins 10,514 NIS; triplets 15,771 NIS; +5,257 NIS for each additional baby.
 
 ### Child Allowance
 
@@ -127,34 +143,43 @@ After 91 days, permanent disability determined by medical committee.
 
 ### Long-term Care (Siyud)
 
-| ADL Level | Cash amount (2026) |
-|---|---|
-| Level 1 (2.5-3 pts) | 1,659 NIS |
-| Level 2 | 2,395 NIS |
-| Level 3 | 3,366 NIS |
-| Level 4 | 4,564 NIS |
-| Level 5 | 5,961 NIS |
-| Level 6 (9.5+ pts) | 7,238 NIS |
+Maximum CASH amount (instead of care services), effective 01.04.2026. It depends on the level AND on whether a foreign or Israeli caregiver is employed:
 
-- **Income threshold (full benefit):** Single < 12,536 NIS/month; couple < 18,804 NIS/month.
+| Level | Employing a foreign caregiver | Employing an Israeli caregiver |
+|---|---|---|
+| Level 1 | 1,705 NIS | 1,705 NIS |
+| Level 2 | 2,480 NIS | 2,480 NIS |
+| Level 3 | 3,472 NIS | 4,216 NIS |
+| Level 4 | 4,464 NIS | 5,208 NIS |
+| Level 5 | 5,456 NIS | 6,448 NIS |
+| Level 6 | 6,448 NIS | 7,440 NIS |
+
+Source: btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx
+
+- **Income test (effective 1 April 2026):** Single, full benefit up to 13,769 NIS/month, 50%-reduced benefit 13,769 to 20,654, none above 20,654. Couple, full up to 20,654, 50%-reduced 20,654 to 30,980, none above 30,980. Income is measured over the 3 months before the claim.
 
 ### Income Support (Havtachat Hachnasa)
 
-| Profile | Monthly amount |
-|---|---|
-| Single, under 25 | 1,661 NIS |
-| Single, 25+ | 2,295 NIS |
-| Couple | 3,295 NIS |
-| Single parent + 2 children, 55+ | 5,289 NIS |
+See **Income Support: Full 2026 Table** at the end of this file (amounts vary by age AND family composition).
 
-Asset test and employment test (under 55) apply.
+Ages 20 to 24: single 1,661 if registering with the employment service, 2,076 if exempt from registering. Women born 1.1.1960 to 31.12.1964 get an extra 825 NIS/month from age 62 to retirement age. Asset test and employment test (under 55) apply. Source: btl.gov.il/benefits/Income_support/Pages/סכומי הקצבה.aspx
 
 ### Survivors (Sheerim)
 
 | Status | Base amount |
 |---|---|
-| Widow/widower (40+ or with kids) | ~1,838 NIS |
+| Widow/widower 40 to 50, no children | 1,381 NIS |
+| Widow/widower 50+, no children | 1,838 NIS |
+| Widow/widower 80+ | 1,941 NIS |
+| Widow/widower with 1 child | 2,700 NIS |
+| Widow/widower with 2 children | 3,562 NIS |
+| Each additional child | 862 NIS |
+| Drawing an old-age pension and entitled to half a survivors pension | 919 NIS |
 | Plus orphan supplement | per child |
+
+- **These are BASE amounts.** BTL pays a seniority supplement (תוספת ותק) and, for orphans, a subsistence supplement (תוספת דמי מחיה) ON TOP of them, so treat each figure as a floor, not the final answer.
+- **Under 40 with no children:** no monthly pension, but a one-time **survivors grant (מענק שאירים)** worth **36 monthly survivors pensions** is paid instead. It also goes to a widower whose income later rises above the maximum, or whose child stops qualifying. A widower who was married to a non-working spouse (עקרת בית) is NOT entitled to the grant. Source: btl.gov.il/benefits/Survivors_ Insurance/Pages/מענק שאירים.aspx
+- **The 12-month filing window is a retroactivity cap, not a forfeiture.** Filing later still grants the pension; back-payment is capped at 12 months.
 
 ## Qualifying Periods (Tkufat Achshara)
 
@@ -182,7 +207,9 @@ Asset test and employment test (under 55) apply.
 
 - **Self-employed pay both shares.**
 - **Self-employed cannot claim unemployment.**
-- **Maximum insurable income:** 51,910 NIS/month.
+- **Maximum insurable income for contributions:** 51,910 NIS/month. The ceiling for wage-replacing BENEFITS is different: 52,570 NIS/month.
+- **Rates vary by age and status.** The table above is the standard working-age case only. Employees who are minors, old-age-pension recipients, past retirement age, disability-pension recipients, controlling shareholders, or naturalized over age 62 have their own rows; self-employed minors and pensioners pay 0.26% / 0.78% NI (pensioner health is a flat 237 NIS/month off the pension) and a self-employed person past retirement age who is not drawing a pension pays 6.92% / 15.79%; an early-pension recipient has 4.25% / 11.96% withheld by the pension payer. See SKILL.md "Contribution Rates" for the full tables.
+- **Unpaid leave (chalat):** the employer pays contributions for the first 2 months (and may deduct them from the employee's wage); from the 3rd month a non-working person pays the 266 NIS/month minimum themselves.
 - **Amendment 252 (תיקון 252):** the 2026 rate increases above were enacted on 2025-01-14 by Amendment 252 to the National Insurance Law. Rates are CPI-indexed through 2028 and switch to wage indexation from 2029.
 
 ## Appeal Deadlines
@@ -240,7 +267,7 @@ Free legal aid available through הסיוע המשפטי for low-income claimant
 ## Contact Channels
 
 - **Personal area (filing):** https://ps.btl.gov.il
-- **Forms portal:** https://www.btl.gov.il/טפסים-ואישורים
+- **Forms portal:** https://www.btl.gov.il/טפסים%20ואישורים
 - **Phone + WhatsApp:** *6050 (press 9 for English)
 - **Joint unemployment + employment-service form:** https://www.taasuka.gov.il/applicants/sharedform/
 - **MyBTL mobile app:** iOS and Android
@@ -249,8 +276,115 @@ Free legal aid available through הסיוע המשפטי for low-income claimant
 
 ## Key Dates
 
-- **Rate updates:** January 1 and July 1 (twice yearly, tied to average wage).
+- **Rate updates:** 1 January each year (CPI for CPI-linked benefits, average wage for wage-linked ones), plus an extra adjustment only if a cost-of-living supplement is paid. Individual tables can be reissued mid-year (siyud income test, 1 April 2026).
 - **Old-age and disability paid:** ~28th of each month (for prior month).
 - **Child allowance paid:** ~20th of each month.
-- **Old-age eligibility:** Men 67 (stable). Women 62-65 by birth-month cohort, schedule completes ~2032.
+- **Old-age eligibility:** Men 67 (stable). Women 62 to 65 by BIRTH YEAR (65 only from birth-year 1970), schedule completes ~2032.
 - **Absolute eligibility age:** 70 (income test removed).
+
+## Other Programs (beyond the 13 main ones)
+
+Smaller BTL programs that are real entitlements people miss. Route here when the question fits none of the 13 above. Details and eligibility in `references/benefit-programs.md`, forms in `references/forms.md`.
+
+- **Alimony (mezonot, מזונות), form 5400:** BTL pays the holder of a court alimony judgment when the ex-partner does not pay, then collects from the debtor itself. Has its own income test and ceiling.
+- **Personal-accident benefit (dmei te'una, דמי תאונה), form 2201:** any insured resident injured at home, on holiday, or in leisure time who loses the ability to function. Up to 90 days. NOT for work or road accidents. Widely unknown, so it goes unclaimed.
+- **Vocational rehabilitation (shikum miktzo'i), form 270:** retraining, tuition, and a living stipend for someone whose earning capacity dropped (disability, work injury, hostile action) or a widow/widower.
+- **Burial grant (dmei kvura):** normally settled directly between BTL and the burial society, no family claim needed. Form 460 only when there is no authorized burial body locally or the burial was abroad.
+- **Death grant (ma'anak petira), form 416:** one-off grant to the spouse or children of someone who was receiving an old-age, survivors, disability, or work-injury pension. Distinct from the survivors pension.
+- **Study grant (ma'anak limudim):** annual per-child grant for single parents, large families, and parents on disability or survivors pensions. Usually automatic.
+- **Also:** discharged-soldier preferred-work grant (filed via the personal area), and volunteer injury (a registered volunteer is covered on work-injury terms).
+
+Do NOT confuse **ma'anak avoda (מענק עבודה, the EITC)** with a BTL grant: it is paid by the **Tax Authority**, not BTL. **Sick pay (dmei machala)** is paid by the **employer**, not BTL.
+
+## Women's Retirement Age (full table)
+
+Age 65 applies only from birth-year 1970. Source: btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx
+
+| Woman's birth year | Retirement age |
+|---|---|
+| up to 1959 | 62 |
+| 1960 | 62 years 4 months |
+| 1961 | 62 years 8 months |
+| 1962 | 63 |
+| 1963 | 63 years 3 months |
+| 1964 | 63 years 6 months |
+| 1965 | 63 years 9 months |
+| 1966 | 64 |
+| 1967 | 64 years 3 months |
+| 1968 | 64 years 6 months |
+| 1969 | 64 years 9 months |
+| 1970 onward | 65 |
+
+Men: 67.
+
+## Unemployment: Maximum Benefit Days (full table)
+
+"Dependants" means 3 or more dependent family members (spouse, including same-sex, plus children).
+
+| Age | Fewer than 3 dependants | 3 or more dependants |
+|---|---|---|
+| up to 25 | 50 days | 138 days |
+| 25 to 28 | 67 days | 138 days |
+| 28 to 35 | 100 days | 138 days |
+| 35 to 45 | 138 days | 175 days |
+| 45 and over | 175 days (unconditional) | 175 days |
+| Women aged 57 to 67 born 1960 or later | 300 days (usable over 18 months, not 12) | 300 days |
+
+Discharged soldiers: 70 days in the first year after discharge.
+
+Replacement rate is also age-capped: 60% of the wage under 28, 80% from 28, degressive above ~5,000 NIS/month. BTL publishes two separate tables (btl.gov.il/benefits/Unemployment/Pages/sum.aspx). Daily caps: 550.76 for the first 125 payment days, 367.17 from day 126 (a cap, not a floor).
+
+Sources: duration table, kolzchut "מספר הימים המירבי לקבלת דמי אבטלה"; the 300-day / 18-month rule for women 57-67 born 1960+, btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx.
+
+## Income Support: Full 2026 Table
+
+| Family | Ages 25 to 54 | Age 55 to retirement |
+|---|---|---|
+| Single | 2,076 NIS | 2,596 NIS |
+| Couple | 2,855 NIS | 3,893 NIS |
+| Couple + 1 child | 3,115 NIS | 4,516 NIS |
+| Couple + 2 children or more | 3,478 NIS | 5,139 NIS |
+| Single parent + 1 child | 3,478 NIS | 4,250 NIS |
+| Single parent + 2 children or more | 4,049 NIS | 5,289 NIS |
+
+Ages 20 to 24: the registering/exempt split applies only to a single (1,661 / 2,076) and a couple (2,284 / 2,855). The family rows are the same as the 25-54 band: couple + 1 child 3,115; couple + 2 or more 3,478; single parent + 1 child 3,478; single parent + 2 or more 4,049. Above retirement age: equal to the old-age pension with income supplement. Women born 1.1.1960 to 31.12.1964: extra 825 NIS/month from age 62 to retirement age. Source: btl.gov.il/benefits/Income_support/Pages/סכומי הקצבה.aspx
+
+## Disabled Child (Yeled Nacheh): Full Table
+
+Five levels, computed as a percentage of the full single rate (3,820 NIS), effective 01.01.2026. **3,820 is the 100% level, NOT the ceiling.**
+
+| Level | Monthly |
+|---|---|
+| 50% | 1,943 NIS |
+| 100% | 3,820 NIS |
+| 112% | 4,501 NIS |
+| 188% | 7,181 NIS |
+| 235% | 9,126 NIS |
+
+- **Ventilated child:** +10,774 NIS at the 100 / 112 / 188% levels. A ventilated child at 235% is paid the 188% rate (7,181) PLUS the supplement instead of 9,126.
+- **Two caregivers:** +7,182 NIS, not payable with the 235% rate (such a recipient is paid 188% + the supplement) and not payable together with the ventilated supplement.
+- **Family with two or more disabled children:** every child's rate is raised by 50% (a 100% child becomes 150%, a 50% child becomes 75%). Paid automatically.
+- **Child in an institution:** 673 NIS (50% level) or 1,347 NIS (100% and above).
+
+Source: btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx
+
+## Unemployment: Women 57-67 born 1.1.1960 or later
+
+Both sub-bands get 300 days over 18 months (instead of 175 over 12).
+
+- **Ages 57 to 60:** the maximum daily benefit **from day 176 onward is 201.03 NIS** (01.01.2026). Vocational training pays 100% but no more than 201.03/day. Refusing training during the first 175 days: 90-day disqualification PLUS 30 days struck off the entitlement (leaving 270). Refusing from day 176: the remaining days are forfeited. On reaching 60 she moves to the 60-67 regime.
+- **Ages 60 to 67:** 300 days over 18 months, without the day-176 cap.
+
+Source: btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx
+
+## Old-Age Supplements
+
+- Seniority (ותק): 2% per full insured year, counted from year ONE (15 years = 30%), max 50% (reached at 25 years).
+- Deferral: +5% **of the full pension INCLUDING the seniority supplement** for each year between retirement age and 70 in which the pension was deferred because of work income. The two therefore COMPOUND: base x (1 + seniority) x (1 + deferral).
+- Spouse: 924 NIS. Children: 581 NIS each, for up to 2 children.
+
+Source: btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx
+
+## Birth Grant: Multiple Births
+
+Twins 10,514 NIS; triplets 15,771 NIS; +5,257 NIS for each additional baby.

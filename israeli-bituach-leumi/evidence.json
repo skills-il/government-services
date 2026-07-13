@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-bituach-leumi",
-  "generated_at": "2026-06-12T21:54:47.677885+00:00",
+  "generated_at": "2026-07-13T00:00:00Z",
   "claims": [
     {
       "claim_id": "amt-266",
@@ -50,9 +50,9 @@
     {
       "claim_id": "amt-1838",
       "claim": "old-age single pension: 1,838 NIS / 1,838 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
       "raw_snippet": "1,838",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -61,9 +61,9 @@
     {
       "claim_id": "amt-1941",
       "claim": "old-age single age 80+ (1,838 + 103): 1,941 NIS / 1,941 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
       "raw_snippet": "1,941",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -72,9 +72,9 @@
     {
       "claim_id": "amt-2762",
       "claim": "old-age couple: 2,762 NIS / 2,762 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
       "raw_snippet": "2,762",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -83,9 +83,9 @@
     {
       "claim_id": "amt-2757",
       "claim": "old-age single with seniority supplement: 2,757 NIS / 2,757 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "2,757",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "1,838",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -94,9 +94,9 @@
     {
       "claim_id": "amt-4711",
       "claim": "general disability single full: 4,711 NIS / 4,711 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "4,711",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -105,9 +105,9 @@
     {
       "claim_id": "amt-2718",
       "claim": "disability 60%: 2,718 NIS / 2,718 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "2,718",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -116,9 +116,9 @@
     {
       "claim_id": "amt-2894",
       "claim": "disability 65%: 2,894 NIS / 2,894 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "2,894",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -127,9 +127,9 @@
     {
       "claim_id": "amt-3211",
       "claim": "disability 74%: 3,211 NIS / 3,211 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "3,211",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -138,9 +138,9 @@
     {
       "claim_id": "amt-1214",
       "claim": "disability per-child supplement: 1,214 NIS / 1,214 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "1,214",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -149,9 +149,9 @@
     {
       "claim_id": "amt-1943",
       "claim": "special services allowance 50%: 1,943 NIS / 1,943 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "1,943",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -160,9 +160,9 @@
     {
       "claim_id": "amt-9126",
       "claim": "special services allowance 235%: 9,126 NIS / 9,126 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "9,126",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -171,9 +171,9 @@
     {
       "claim_id": "amt-10774",
       "claim": "attendant supplement: 10,774 NIS / 10,774 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "10,774",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -182,9 +182,9 @@
     {
       "claim_id": "amt-3820",
       "claim": "disabled child 100%: 3,820 NIS / 3,820 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "3,820",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -193,9 +193,9 @@
     {
       "claim_id": "amt-173",
       "claim": "child allowance first child: 173 NIS / 173 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "173",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -204,9 +204,9 @@
     {
       "claim_id": "amt-219",
       "claim": "child allowance children 2-4: 219 NIS / 219 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "219",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -215,9 +215,9 @@
     {
       "claim_id": "amt-2103",
       "claim": "birth grant first child: 2,103 NIS / 2,103 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "2,103",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -226,9 +226,9 @@
     {
       "claim_id": "amt-946",
       "claim": "birth grant second child: 946 NIS / 946 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "946",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -237,9 +237,9 @@
     {
       "claim_id": "amt-924",
       "claim": "birth grant prior-year / spouse increment: 924 NIS / 924 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "924",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
+      "raw_snippet": "2,762",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -248,9 +248,9 @@
     {
       "claim_id": "amt-631",
       "claim": "birth grant third+ child: 631 NIS / 631 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "631",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -259,31 +259,9 @@
     {
       "claim_id": "amt-10514",
       "claim": "birth grant twins: 10,514 NIS / 10,514 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "10,514",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-1659",
-      "claim": "long-term care level 1 full: 1,659 NIS / 1,659 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "1,659",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-7238",
-      "claim": "long-term care level 6 full: 7,238 NIS / 7,238 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "7,238",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -292,9 +270,9 @@
     {
       "claim_id": "amt-1661",
       "claim": "income support single under 25: 1,661 NIS / 1,661 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "1,661",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -303,9 +281,9 @@
     {
       "claim_id": "amt-5289",
       "claim": "income support single parent 55+ with 2+ children: 5,289 NIS / 5,289 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
       "raw_snippet": "5,289",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -314,9 +292,9 @@
     {
       "claim_id": "amt-13769",
       "claim": "average wage 2026: 13,769 NIS / 13,769 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "13,769",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -380,31 +358,9 @@
     {
       "claim_id": "amt-1314_25",
       "claim": "work-injury daily ceiling: 1,314.25 NIS / 1,314.25 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Work_Injuries/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/Pages/default.aspx",
       "raw_snippet": "1,314.25",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-7827",
-      "claim": "old-age income test single: 7,827 NIS / 7,827 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/default.aspx",
-      "raw_snippet": "7,827",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-10436",
-      "claim": "old-age income test couple: 10,436 NIS / 10,436 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/default.aspx",
-      "raw_snippet": "10,436",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -434,10 +390,10 @@
     },
     {
       "claim_id": "amt-7703",
-      "claim": "NI bracket boundary (60% avg wage): 7,703 NIS / 7,703 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "claim": "reduced-collection step (מדרגת גביה מופחתת) for 2026: 7,703 NIS / 7,703 ש\"ח. A STATUTORY amount (base 7,522, CPI-indexed 2026-2028), NOT 60% of the average wage.",
+      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
       "raw_snippet": "7,703",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -456,10 +412,10 @@
     },
     {
       "claim_id": "amt-116",
-      "claim": "savings-for-every-child monthly deposit: 116 NIS / 116 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "116",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "claim": "savings-for-every-child: BTL deposits 58 NIS/month; 116 NIS / 116 ש\"ח is reached only when the parent matches an equal amount out of the child allowance",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "58",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -468,31 +424,9 @@
     {
       "claim_id": "amt-58",
       "claim": "savings-for-every-child parent matching option: 58 NIS / 58 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "58",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-2295",
-      "claim": "long-term care intermediate level: 2,295 NIS / 2,295 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx",
-      "raw_snippet": "2,295",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-2395",
-      "claim": "income support amount: 2,395 NIS / 2,395 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/default.aspx",
-      "raw_snippet": "2,395",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -500,87 +434,10 @@
     },
     {
       "claim_id": "amt-2865",
-      "claim": "disability-related amount: 2,865 NIS / 2,865 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/default.aspx",
+      "claim": "old-age pension, couple where the claimant is 80+: 2,865 NIS / 2,865 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
       "raw_snippet": "2,865",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-3295",
-      "claim": "long-term care level amount: 3,295 NIS / 3,295 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx",
-      "raw_snippet": "3,295",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-3366",
-      "claim": "long-term care level amount: 3,366 NIS / 3,366 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx",
-      "raw_snippet": "3,366",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-3886",
-      "claim": "disability-related amount: 3,886 NIS / 3,886 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/default.aspx",
-      "raw_snippet": "3,886",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-4564",
-      "claim": "disability-related amount: 4,564 NIS / 4,564 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/default.aspx",
-      "raw_snippet": "4,564",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-5829",
-      "claim": "income support couple+children amount: 5,829 NIS / 5,829 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/default.aspx",
-      "raw_snippet": "5,829",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-5961",
-      "claim": "disability-related amount: 5,961 NIS / 5,961 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/default.aspx",
-      "raw_snippet": "5,961",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-7304",
-      "claim": "special services 188% rate amount: 7,304 NIS / 7,304 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "7,304",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -588,10 +445,10 @@
     },
     {
       "claim_id": "amt-13566",
-      "claim": "old-age related income test amount: 13,566 NIS / 13,566 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/default.aspx",
+      "claim": "average wage per section 1 of the law: 13,566 NIS / 13,566 ש\"ח (2026). Statistical reference, NOT an income-test threshold and NOT the contribution bracket break.",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "13,566",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -752,22 +609,11 @@
       ]
     },
     {
-      "claim_id": "pct-60",
-      "claim": "bracket boundary = 60% of average wage: 60%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "60",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "pct-50",
       "claim": "seniority supplement max / sick pay day rate: 50%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "50",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -776,9 +622,9 @@
     {
       "claim_id": "pct-2",
       "claim": "seniority supplement per-year increment: 2%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "2",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -787,9 +633,9 @@
     {
       "claim_id": "pct-5",
       "claim": "deferral bonus per year: 5%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
       "raw_snippet": "5",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -798,9 +644,9 @@
     {
       "claim_id": "pct-100",
       "claim": "disabled child 100% rate: 100%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "100",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "100%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -809,9 +655,9 @@
     {
       "claim_id": "pct-75",
       "claim": "work-injury coverage 75% of wage: 75%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "75",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "75%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -820,9 +666,9 @@
     {
       "claim_id": "pct-74",
       "claim": "disability 74% degree: 74%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "74",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "74%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -853,9 +699,9 @@
     {
       "claim_id": "pct-188",
       "claim": "special services 188% rate: 188%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "188",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "188%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -864,9 +710,9 @@
     {
       "claim_id": "pct-235",
       "claim": "special services 235% rate: 235%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "235",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "235%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -886,9 +732,9 @@
     {
       "claim_id": "pct-112",
       "claim": "special services 112% rate: 112%",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "112",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "112%",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -897,9 +743,9 @@
     {
       "claim_id": "form-100",
       "claim": "Bituach Leumi claim/notice form: טופס 100 / Form 100",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "100",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -908,9 +754,9 @@
     {
       "claim_id": "form-1514",
       "claim": "Bituach Leumi claim/notice form: טופס 1514 / Form 1514",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "1514",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -919,9 +765,9 @@
     {
       "claim_id": "form-211",
       "claim": "Bituach Leumi claim/notice form: טופס 211 / Form 211",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "211",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -930,9 +776,9 @@
     {
       "claim_id": "form-330",
       "claim": "Bituach Leumi claim/notice form: טופס 330 / Form 330",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "330",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -941,9 +787,9 @@
     {
       "claim_id": "form-355",
       "claim": "Bituach Leumi claim/notice form: טופס 355 / Form 355",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "355",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -952,9 +798,9 @@
     {
       "claim_id": "form-480",
       "claim": "Bituach Leumi claim/notice form: טופס 480 / Form 480",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "480",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -963,9 +809,9 @@
     {
       "claim_id": "form-501",
       "claim": "Bituach Leumi claim/notice form: טופס 501 / Form 501",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "501",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -974,9 +820,9 @@
     {
       "claim_id": "form-502",
       "claim": "Bituach Leumi claim/notice form: טופס 502 / Form 502",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "502",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -985,9 +831,9 @@
     {
       "claim_id": "form-509",
       "claim": "Bituach Leumi claim/notice form: טופס 509 / Form 509",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "509",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -996,9 +842,9 @@
     {
       "claim_id": "form-900",
       "claim": "Bituach Leumi claim/notice form: טופס 900 / Form 900",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "900",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1007,9 +853,9 @@
     {
       "claim_id": "form-7801",
       "claim": "Bituach Leumi claim/notice form: טופס 7801 / Form 7801",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "7801",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1018,9 +864,9 @@
     {
       "claim_id": "form-7810",
       "claim": "Bituach Leumi claim/notice form: טופס 7810 / Form 7810",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "7810",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1029,9 +875,9 @@
     {
       "claim_id": "form-7849",
       "claim": "Bituach Leumi claim/notice form: טופס 7849 / Form 7849",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "7849",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1040,9 +886,9 @@
     {
       "claim_id": "form-8200",
       "claim": "Bituach Leumi claim/notice form: טופס 8200 / Form 8200",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "8200",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1051,108 +897,9 @@
     {
       "claim_id": "form-8220",
       "claim": "Bituach Leumi claim/notice form: טופס 8220 / Form 8220",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "8220",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-1500",
-      "claim": "Bituach Leumi telephone service line: *1500",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*1500",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-1514",
-      "claim": "Bituach Leumi telephone service line: *1514",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*1514",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-2026",
-      "claim": "Bituach Leumi telephone service line: *2026",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*2026",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-2600",
-      "claim": "Bituach Leumi telephone service line: *2600",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*2600",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-2655",
-      "claim": "Bituach Leumi telephone service line: *2655",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*2655",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-2910",
-      "claim": "Bituach Leumi telephone service line: *2910",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*2910",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-5025",
-      "claim": "Bituach Leumi telephone service line: *5025",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*5025",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-5521",
-      "claim": "Bituach Leumi telephone service line: *5521",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*5521",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-5619",
-      "claim": "Bituach Leumi telephone service line: *5619",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*5619",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1170,66 +917,11 @@
       ]
     },
     {
-      "claim_id": "phone-7801",
-      "claim": "Bituach Leumi telephone service line: *7801",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*7801",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-7821",
-      "claim": "Bituach Leumi telephone service line: *7821",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*7821",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-7849",
-      "claim": "Bituach Leumi telephone service line: *7849",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*7849",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-8200",
-      "claim": "Bituach Leumi telephone service line: *8200",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*8200",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "phone-8220",
-      "claim": "Bituach Leumi telephone service line: *8220",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*8220",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "noise-comma-nis",
       "claim": "Prose artifact: amounts written as \"..., NIS ...\" and \"NIS, ...\" in lists; covered by the 2026 circular figures above",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": ", NIS ,",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "13,769",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1271,9 +963,9 @@
     {
       "claim_id": "form-673",
       "claim": "Non-working spouse exemption declaration: Form 673 / טופס 673 (הצהרת בני/בנות זוג)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "673",
-      "fetched_at": "2026-06-12T22:02:56.675866+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1282,9 +974,9 @@
     {
       "claim_id": "form-6101",
       "claim": "Multi-year declaration opening the non-working/self-employed collection file: Form 6101 / טופס 6101 (דין וחשבון רב שנתי)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D-%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
       "raw_snippet": "6101",
-      "fetched_at": "2026-06-12T22:02:56.675866+00:00",
+      "fetched_at": "2026-07-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1486,6 +1178,1710 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "oldage-inc-10113",
+      "claim": "old-age income test, no spouse, full pension below 10,113 NIS/month (2026) / 10,113 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
+      "raw_snippet": "10,113",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "oldage-inc-14402",
+      "claim": "old-age income test, no spouse, no pension above 14,402 NIS/month (2026) / 14,402 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
+      "raw_snippet": "14,402",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "oldage-inc-13484",
+      "claim": "old-age income test, with spouse, full pension below 13,484 NIS/month (2026) / 13,484 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
+      "raw_snippet": "13,484",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "oldage-inc-20082",
+      "claim": "old-age income test, with spouse, no pension above 20,082 NIS/month (2026) / 20,082 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
+      "raw_snippet": "20,082",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-2419",
+      "claim": "old-age single + 1 child: 2,419 NIS (2026) / 2,419 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
+      "raw_snippet": "2,419",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-3343",
+      "claim": "old-age couple + 1 child: 3,343 NIS (2026) / 3,343 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
+      "raw_snippet": "3,343",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-3000",
+      "claim": "old-age single + 2 children or more: 3,000 NIS (2026) / 3,000 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
+      "raw_snippet": "3,000",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-3924",
+      "claim": "old-age couple + 2 children or more: 3,924 NIS (2026) / 3,924 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
+      "raw_snippet": "3,924",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-inc-13769",
+      "claim": "siyud income test, single, full benefit up to 13,769 NIS/month (from 1.4.2026) / 13,769 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
+      "raw_snippet": "13,769",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-inc-20654",
+      "claim": "siyud income test, single 50%-reduced to 20,654 / couple full to 20,654 (from 1.4.2026) / 20,654 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
+      "raw_snippet": "20,654",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-inc-30980",
+      "claim": "siyud income test, couple, no entitlement above 30,980 NIS/month (from 1.4.2026) / 30,980 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
+      "raw_snippet": "30,980",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "step-7522",
+      "claim": "reduced-collection step is a statutory amount, base 7,522 NIS, CPI-indexed each 1 January 2026-2028 / 7,522 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
+      "raw_snippet": "7,522",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "step-7703",
+      "claim": "reduced-collection step for 2026 is 7,703 NIS/month / 7,703 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
+      "raw_snippet": "7,703",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ceiling-51910",
+      "claim": "maximum monthly income for contributions: 51,910 NIS / 51,910 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
+      "raw_snippet": "51,910",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ceiling-52570",
+      "claim": "ceiling for wage-replacing benefits: 52,570 NIS/month (5 x basic amount 10,514) / 52,570 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "52,570",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-4501",
+      "claim": "special services 112% tier: 4,501 NIS/month (2026) / 4,501 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "4,501",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amt-7181",
+      "claim": "special services 188% tier: 7,181 NIS/month (2026) / 7,181 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "7,181",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-baal-shlita",
+      "claim": "controlling shareholder employee rate: 4.25% reduced / 11.96% full; employer 4.46% / 7.38%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "4.25%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-baal-shlita-full",
+      "claim": "controlling shareholder employee full-bracket rate 11.96%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "11.96%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-baal-shlita-er",
+      "claim": "controlling shareholder employer rates 4.46% / 7.38%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "4.46%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-under",
+      "claim": "naturalized over 62, under retirement age: employee 3.6% / 7.45%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "3.6%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-under-full",
+      "claim": "naturalized over 62, under retirement age, full bracket 7.45%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "7.45%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-woman",
+      "claim": "naturalized over 62, woman between her retirement age and 67: employee 3.28% / 5.52%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "3.28%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-woman-full",
+      "claim": "naturalized over 62, woman ret-to-67, full bracket 5.52%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "5.52%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-mid",
+      "claim": "naturalized over 62, between men retirement age and eligibility age: 3.26% / 5.31%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "3.26%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-mid-full",
+      "claim": "naturalized over 62, mid band, full bracket 5.31%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "5.31%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-nat62-over",
+      "claim": "naturalized over 62, above eligibility age: 3.23% / 5.17%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "3.23%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-026",
+      "claim": "self-employed under 18 or receiving old-age pension: NI 0.26% reduced",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "0.26%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-078",
+      "claim": "self-employed under 18 or receiving old-age pension: NI 0.78% full",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "0.78%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-692",
+      "claim": "self-employed past retirement age not receiving old-age pension: 6.92% reduced",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "6.92%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-1579",
+      "claim": "self-employed past retirement age not receiving old-age pension: 15.79% full",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "15.79%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-237",
+      "claim": "self-employed old-age pension recipient: health contributions deducted from the pension at 237 NIS/month / 237 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "237",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-3442-min",
+      "claim": "self-employed income below 3,442 NIS/month charged on the minimum-income basis / 3,442 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "3,442",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "early-425",
+      "claim": "early-pension recipient total reduced rate 4.25% (1.02% NI + 3.23% health)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
+      "raw_snippet": "4.25%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "early-1196",
+      "claim": "early-pension recipient total full rate 11.96% (6.79% NI + 5.17% health)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
+      "raw_snippet": "11.96%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "early-102",
+      "claim": "early-pension NI component reduced 1.02%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
+      "raw_snippet": "1.02%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "early-679",
+      "claim": "early-pension NI component full 6.79%",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
+      "raw_snippet": "6.79%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "chalat-2months",
+      "claim": "unpaid leave: employer pays contributions for the first 2 months and may deduct them from the wage",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Employee_in_vacation/Pages/schum.aspx",
+      "raw_snippet": "בחודשיים הראשונים ישולמו על ידי המעסיק",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "chalat-266",
+      "claim": "unpaid leave from the 3rd month: the non-working person pays the 266 NIS/month minimum / 266 ש\"ח",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Employee_in_vacation/Pages/schum.aspx",
+      "raw_snippet": "266",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-2201",
+      "claim": "personal-accident benefit claim form is 2201 (non-work accident)",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Accident_Contributions_forms/Pages/default.aspx",
+      "raw_snippet": "2201",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "acc-90days",
+      "claim": "personal-accident benefit paid for up to 90 days of lost functioning",
+      "source_url": "https://www.btl.gov.il/benefits/Accident_Injury/Pages/default.aspx",
+      "raw_snippet": "90 יום",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-56",
+      "claim": "7,703 is 56% of the 13,769 average wage, which is why the \"60% of average wage\" derivation is wrong (56%)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "7,703",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "avgwage-sec2",
+      "claim": "average wage per section 2 of the law (סעיף 2), for benefits: 13,769 NIS / 13,769 ש\"ח (January 2026)",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "השכר הממוצע עפ\"י סעיף 2 לחוק",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "avgwage-sec1",
+      "claim": "average wage per section 1 of the law (סעיף 1): 13,566 NIS / 13,566 ש\"ח (January 2026)",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "13,566",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-rates-hub",
+      "claim": "BTL contribution-rates hub URL (per payer type)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/default.aspx",
+      "raw_snippet": "שיעורי וסכומי דמי ביטוח",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-circ-index",
+      "claim": "BTL benefits-update circular index URL",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Pages/default.aspx",
+      "raw_snippet": "עדכון קצבאות",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "emp-6770-er-red",
+      "claim": "employer rate for an employee aged 67-70 not receiving an old-age pension: 4.13% reduced",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "4.13%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/contribution-rates.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "emp-6770-er-full",
+      "claim": "employer rate for an employee aged 67-70 not receiving an old-age pension: 6.96% full",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "6.96%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/contribution-rates.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "emp-woman-er-red",
+      "claim": "employer rate for a woman between her retirement age and 67 not receiving a pension: 4.17% reduced",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "4.17%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/contribution-rates.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "emp-woman-er-full",
+      "claim": "employer rate for a woman between her retirement age and 67 not receiving a pension: 7.12% full",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
+      "raw_snippet": "7.12%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/contribution-rates.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-460",
+      "claim": "burial grant personal claim form is 460 (Form 460), used only when there is no authorized burial body locally or the burial was abroad",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "460",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/contribution-rates.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-1705",
+      "claim": "siyud cash benefit level 1 (from 1.4.2026): 1,705 NIS / 1,705 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "1,705",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-2480",
+      "claim": "siyud cash benefit level 2 (from 1.4.2026): 2,480 NIS / 2,480 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "2,480",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-3472",
+      "claim": "siyud cash level 3, foreign caregiver: 3,472 NIS / 3,472 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "3,472",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-4216",
+      "claim": "siyud cash level 3, Israeli caregiver: 4,216 NIS / 4,216 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "4,216",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-4464",
+      "claim": "siyud cash level 4, foreign caregiver: 4,464 NIS / 4,464 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "4,464",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-5208",
+      "claim": "siyud cash level 4, Israeli caregiver: 5,208 NIS / 5,208 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "5,208",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-5456",
+      "claim": "siyud cash level 5, foreign caregiver: 5,456 NIS / 5,456 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "5,456",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-6448",
+      "claim": "siyud cash level 5 Israeli / level 6 foreign caregiver: 6,448 NIS / 6,448 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "6,448",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "siyud-cash-7440",
+      "claim": "siyud cash level 6, Israeli caregiver: 7,440 NIS / 7,440 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "7,440",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "incsup-2076",
+      "claim": "income support single aged 25-54 (and 20-24 exempt from registering): 2,076 NIS / 2,076 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "2,076",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "incsup-2596",
+      "claim": "income support single aged 55 to retirement age: 2,596 NIS / 2,596 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "2,596",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "incsup-2855",
+      "claim": "income support couple aged 25-54: 2,855 NIS / 2,855 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "2,855",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "incsup-3893",
+      "claim": "income support couple aged 55 to retirement age: 3,893 NIS / 3,893 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "3,893",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "incsup-825",
+      "claim": "women born 1.1.1960 to 31.12.1964 get an extra 825 NIS / 825 ש\"ח per month from age 62 to retirement age",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "825",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-1381",
+      "claim": "survivors pension, widow/widower aged 40-50 with no children: 1,381 NIS / 1,381 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "1,381",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-2700",
+      "claim": "survivors pension, widow/widower with 1 child: 2,700 NIS / 2,700 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "2,700",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-3562",
+      "claim": "survivors pension, widow/widower with 2 children: 3,562 NIS / 3,562 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "3,562",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-862",
+      "claim": "survivors pension, each additional child: 862 NIS / 862 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "862",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-919",
+      "claim": "widow/widower receiving an old-age pension and entitled to half the survivors pension: 919 NIS / 919 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "919",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-grant",
+      "claim": "a one-time survivors grant (מענק שאירים) is paid in cases where there is no entitlement to the ongoing survivors pension",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A6%D7%91%D7%AA_%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "במקרים מסוימים שבהם אין זכאות לקצבה ניתן מענק שאירים חד פעמי",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-retro",
+      "claim": "the 12-month survivors filing window is a retroactivity cap, not a forfeiture: filing later still grants the pension, with back-payment limited to 12 months",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A6%D7%91%D7%AA_%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "יהיה ניתן לקבל את הקצבה רטרואקטיבית לתקופה שאינה עולה על 12 חודשים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-252",
+      "claim": "the 2026 contribution rates were set by Amendment 252 to the National Insurance Law, enacted 2025-01-14",
+      "source_url": "https://oknesset.org/meetings/2/2/2225809.html",
+      "raw_snippet": "תיקון מס' 252",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-1500",
+      "claim": "Extraction artifact, NOT a phone line: \"*1500\" is the markdown-bold FORM number **1500** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "1500",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-1514",
+      "claim": "Extraction artifact, NOT a phone line: \"*1514\" is the markdown-bold FORM number **1514** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "1514",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-2026",
+      "claim": "Extraction artifact, NOT a phone line: \"*2026\" is the markdown-bold year **2026** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "2026",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-2600",
+      "claim": "Extraction artifact, NOT a phone line: \"*2600\" is the markdown-bold FORM number **2600** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "2600",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-2655",
+      "claim": "Extraction artifact, NOT a phone line: \"*2655\" is the markdown-bold FORM number **2655** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "2655",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-2910",
+      "claim": "Extraction artifact, NOT a phone line: \"*2910\" is the markdown-bold FORM number **2910** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "2910",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-5025",
+      "claim": "Extraction artifact, NOT a phone line: \"*5025\" is the markdown-bold FORM number **5025** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "5025",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-5521",
+      "claim": "Extraction artifact, NOT a phone line: \"*5521\" is the markdown-bold FORM number **5521** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "5521",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-5619",
+      "claim": "Extraction artifact, NOT a phone line: \"*5619\" is the markdown-bold FORM number **5619** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "5619",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-7801",
+      "claim": "Extraction artifact, NOT a phone line: \"*7801\" is the markdown-bold FORM number **7801** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "7801",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-7821",
+      "claim": "Extraction artifact, NOT a phone line: \"*7821\" is the markdown-bold FORM number **7821** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "7821",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-7849",
+      "claim": "Extraction artifact, NOT a phone line: \"*7849\" is the markdown-bold FORM number **7849** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "7849",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-8200",
+      "claim": "Extraction artifact, NOT a phone line: \"*8200\" is the markdown-bold FORM number **8200** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "8200",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-8220",
+      "claim": "Extraction artifact, NOT a phone line: \"*8220\" is the markdown-bold FORM number **8220** in the skill body. The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "8220",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-portal",
+      "claim": "BTL forms-and-certificates portal. The live path uses a SPACE (%20), not a hyphen: https://www.btl.gov.il/טפסים%20ואישורים",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T355.pdf",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-search",
+      "claim": "BTL master form-search page: https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-online",
+      "claim": "BTL online-forms submission portal: https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfasimMkuvanim/Pages/default.aspx",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-portal-lit",
+      "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים (the live path uses a space, %20, not a hyphen)",
+      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-search-lit",
+      "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx (the live path uses a space, %20, not a hyphen)",
+      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "url-forms-online-lit",
+      "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx (the live path uses a space, %20, not a hyphen)",
+      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx",
+      "raw_snippet": "טפסים ואישורים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/forms.md"
+      ]
+    },
+    {
+      "claim_id": "ret-women-1970",
+      "claim": "women retirement age reaches 65 only from birth-year 1970; 62 up to 1959, 63 for 1962, 64 for 1966",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
+      "raw_snippet": "1/1970 ואילך",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "ret-1962-63",
+      "claim": "a woman born in 1962 retires at 63",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
+      "raw_snippet": "1/1962 עד 12/1962",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "ret-men-67",
+      "claim": "men retirement age is 67",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
+      "raw_snippet": "גיל הפרישה לגברים הוא 67 שנים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-50",
+      "claim": "unemployment max days, up to age 25 with fewer than 3 dependants: 50 days",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "50 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-67",
+      "claim": "unemployment max days, ages 25-28 with fewer than 3 dependants: 67 days",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "67 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-100",
+      "claim": "unemployment max days, ages 28-35 with fewer than 3 dependants: 100 days",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "100 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-138",
+      "claim": "unemployment max days: 138 days (3+ dependants under 35, or ages 35-45 with fewer than 3)",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "138 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-175",
+      "claim": "unemployment max days: 175, and from age 45 it is unconditional",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "175 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-days-300",
+      "claim": "women aged 57-67 born 1960 or later get 300 unemployment days, usable over 18 months",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "300",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-dependants-3",
+      "claim": "\"dependants\" for unemployment duration means 3 or more dependent family members (spouse + children)",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "3 ומעלה",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-soldiers-70",
+      "claim": "discharged soldiers get a maximum of 70 unemployment days in the first year after discharge",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "raw_snippet": "70 ימים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-rate-60",
+      "claim": "unemployment replacement rate is capped at 60% of the wage for claimants under 28",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "60%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-rate-80",
+      "claim": "unemployment replacement rate is capped at 80% of the wage from age 28",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "80%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-two-tables",
+      "claim": "BTL publishes two unemployment amount tables, one for under 28 and one for 28 and over",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "סכום הקצבה למי שלא מלאו 28 שנים",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-3115",
+      "claim": "income support, couple + 1 child, ages 25-54: 3,115 NIS / 3,115 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "3,115",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-3478",
+      "claim": "income support, couple + 2 children or single parent + 1 child, ages 25-54: 3,478 NIS / 3,478 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "3,478",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-4049",
+      "claim": "income support, single parent + 2 children or more, ages 25-54: 4,049 NIS / 4,049 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "4,049",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-4516",
+      "claim": "income support, couple + 1 child, age 55+: 4,516 NIS / 4,516 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "4,516",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-5139",
+      "claim": "income support, couple + 2 children or more, age 55+: 5,139 NIS / 5,139 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "5,139",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-4250",
+      "claim": "income support, single parent + 1 child, age 55+: 4,250 NIS / 4,250 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "4,250",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "surv-grant-36",
+      "claim": "the survivors grant equals 36 monthly survivors pensions",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "שיעור המענק - סכום של 36 קצבאות שאירים חודשיות",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "surv-grant-akeret",
+      "claim": "a widower who was married to a non-working spouse (עקרת בית) is not entitled to the survivors grant",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אלמן שהיה נשוי לעקרת בית אינו זכאי למענק",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-5000",
+      "claim": "the unemployment replacement-rate ceiling (60% under 28, 80% from 28) applies up to about 5,000 NIS / 5,000 ש\"ח of monthly wage, and the rate is degressive above it",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "5,000 ש\"ח",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-1970",
+      "claim": "Extraction artifact, NOT a phone line: \"*1970\" is the markdown-bold birth-year **1970** (the year from which women retirement age is 65). The only BTL phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
+      "raw_snippet": "1970",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "defer-cap-15",
+      "claim": "the old-age deferral bonus is +5% per deferred year and is payable only up to age 70, so a man claiming at 67 can defer at most 3 years, a maximum of +15%",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "5%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-spouse-1123",
+      "claim": "disability spouse supplement at 74% degree: 1,123 NIS / 1,123 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "1,123",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-spouse-987",
+      "claim": "disability spouse supplement at 65% degree: 987 NIS / 987 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "987",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-spouse-911",
+      "claim": "disability spouse supplement at 60% degree: 911 NIS / 911 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "911",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-child-898",
+      "claim": "disability child supplement at 74% degree: 898 NIS / 898 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "898",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-child-789",
+      "claim": "disability child supplement at 65% degree: 789 NIS / 789 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "789",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-child-728",
+      "claim": "disability child supplement at 60% degree: 728 NIS / 728 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "728",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-spouse-income-7848",
+      "claim": "the disability spouse supplement requires spouse gross income up to 7,848 NIS / 7,848 ש\"ח per month and no other benefit",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "7,848",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dis-work-2891",
+      "claim": "a disability claimant at 74/65/60% who earns more than 2,891 NIS / 2,891 ש\"ח gross per month receives the FULL family supplement",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "2,891",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dc-five-levels",
+      "claim": "the disabled-child allowance has five levels: 1,943 / 3,820 / 4,501 / 7,181 / 9,126 NIS at 50 / 100 / 112 / 188 / 235%",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "חמש רמות זכאות",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dc-7182",
+      "claim": "two-caregiver supplement for a disabled child: 7,182 NIS / 7,182 ש\"ח, not payable with the 235% rate",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "7,182",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dc-50pct-uplift",
+      "claim": "a family with two or more disabled children gets every child rate raised by 50%",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "קצבה מוגדלת ב-50% עבור כל ילד",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dc-institution",
+      "claim": "disabled child in an institution: 673 NIS / 673 ש\"ח at the 50% level, 1,347 NIS / 1,347 ש\"ח at 100% and above",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "673",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "dc-1347",
+      "claim": "disabled child in an institution at 100%+: 1,347 NIS / 1,347 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "1,347",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "shrm-1215",
+      "claim": "SHRM supplement for a recipient with a child under 3: 1,215 NIS / 1,215 ש\"ח per child, max 2",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "1,215",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-20103",
+      "claim": "women aged 57-60 in the 300-day cohort: maximum daily unemployment benefit from day 176 is 201.03 NIS / 201.03 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "201.03",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-270",
+      "claim": "refusing vocational training in the first 175 days costs a 90-day disqualification plus 30 days off the entitlement, leaving 270 days",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "270",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "defer-compounds",
+      "claim": "the 5% deferral bonus is levied on the full pension INCLUDING the seniority supplement, so the two compound",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "5% מסך הקצבה המלאה (כולל תוספת הוותק)",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "oldage-child-581",
+      "claim": "old-age child supplement: 581 NIS / 581 ש\"ח per child, for up to 2 children",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "581",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "bg-15771",
+      "claim": "birth grant for triplets: 15,771 NIS / 15,771 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/maternity/maanakleda/Pages/ShiurMaanakLeda.aspx",
+      "raw_snippet": "15,771",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "bg-5257",
+      "claim": "birth grant adds 5,257 NIS / 5,257 ש\"ח for each baby beyond triplets",
+      "source_url": "https://www.btl.gov.il/benefits/maternity/maanakleda/Pages/ShiurMaanakLeda.aspx",
+      "raw_snippet": "5,257",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "incsup-2284",
+      "claim": "income support couple aged 20-24 registering with the employment service: 2,284 NIS / 2,284 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/%d7%a1%d7%9b%d7%95%d7%9e%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "2,284",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "surv-919-row",
+      "claim": "widow/widower drawing an old-age pension and entitled to half a survivors pension: 919 NIS / 919 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "raw_snippet": "919",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "vetek-from-year-1",
+      "claim": "the seniority supplement is 2% of the basic pension for EVERY full insured year, counted from year one (not from year 11)",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/tosefetVetek.aspx",
+      "raw_snippet": "תוספת של 2% לסכום הקצבה הבסיסית, עבור כל שנת ביטוח מלאה שנצברה",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "vetek-15-30",
+      "claim": "BTL worked example: 15 insured years entitles the pensioner to a 30% seniority supplement",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/tosefetVetek.aspx",
+      "raw_snippet": "מי שצבר 15 שנות ביטוח, זכאי לתוספת ותק בשיעור 30%",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "vetek-max-50",
+      "claim": "the maximum seniority supplement is 50% of the pension",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/tosefetVetek.aspx",
+      "raw_snippet": "תוספת הוותק המקסימלית שניתן לקבל היא בגובה 50% מהקצבה",
+      "fetched_at": "2026-07-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -23,8 +23,8 @@
     "en": "Israeli Bituach Leumi"
   },
   "display_description": {
-    "he": "ניווט בביטוח לאומי: זכאות לקצבאות (זיקנה, אבטלה, לידה, ילדים, נכות, מילואים, סיעוד), שיעורי דמי ביטוח (כולל תיקון 252 משנת 2025), וטפסי תביעה (טופס 900, 355, 480, 1500, 211, 7801 ועוד) להגשה דיגיטלית באזור האישי. סכומים לפי הודעת ביטוח לאומי 2026. אין להשתמש לשאלות על ביטוח פרטי או קופת חולים.",
-    "en": "Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, contributions, and claim forms (טפסים). Use when user asks about bituach leumi, national insurance, retirement pension (kitzbat zikna), unemployment (dmei avtala), maternity leave (dmei leida), child allowance (kitzbat yeladim), disability (nechut), work injury, reserve duty (miluim), survivors pension, long-term care (siyud), income support (havtachat hachnasa), birth grant (ma'anak leida), savings-for-every-child, or NI contribution rates. Includes form numbers (Form 900, 355, 480, 1500, 211, 7801, etc.) for filing each claim. Do NOT use for private insurance or health fund (kupat cholim) questions."
+    "he": "ניווט בביטוח לאומי: זכאות לקצבאות (זיקנה, אבטלה, לידה, ילדים, נכות, מילואים, סיעוד, מזונות, דמי תאונה, שיקום מקצועי, מענקי פטירה וקבורה), מבחני הכנסות מדורגים, שיעורי דמי ביטוח לכל סוג משלם (שכיר, עצמאי, לא-עובד, מקבל פנסיה מוקדמת, מעסיק במשק בית, חל\"ת), וטפסי תביעה (טופס 900, 355, 480, 1500, 211, 7801, 2201 ועוד) להגשה דיגיטלית באזור האישי. סכומים לפי חוזר עדכון הקצבאות של ינואר 2026. אין להשתמש לשאלות על ביטוח פרטי או קופת חולים.",
+    "en": "Navigate Israeli National Insurance (Bituach Leumi) benefits, eligibility, contributions, and claim forms (טפסים). Use when user asks about \"bituach leumi\", national insurance, retirement pension (kitzbat zikna), unemployment (dmei avtala), maternity leave (dmei leida), child allowance (kitzbat yeladim), disability (nechut), work injury, reserve duty (miluim), survivors pension, long-term care (siyud), income support (havtachat hachnasa), birth grant (ma'anak leida), savings-for-every-child, alimony (mezonot), personal-accident benefit (dmei te'una), vocational rehabilitation, burial and death grants, or NI contribution rates and who pays them (employee, self-employed, non-worker, early pensioner, household-help employer, unpaid leave / chalat). Includes form numbers (Form 900, 355, 480, 1500, 211, 7801, 2201, etc.) for filing each claim. Do NOT use for private insurance or health fund (kupat cholim) questions."
   },
   "supported_agents": [
     "claude-code",

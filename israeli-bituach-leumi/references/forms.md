@@ -2,7 +2,7 @@
 
 Complete catalog of ~85 verified Bituach Leumi forms organized by program. All form numbers verified against btl.gov.il official portals as of 2026.
 
-Most can be filed digitally through the personal area at **https://ps.btl.gov.il** (login with Israeli ID + password or one-time SMS code). PDF originals live at **https://www.btl.gov.il/טפסים-ואישורים** under per-program subfolders.
+Most can be filed digitally through the personal area at **https://ps.btl.gov.il** (login with Israeli ID + password or one-time SMS code). PDF originals live at https://www.btl.gov.il/טפסים%20ואישורים under per-program subfolders.
 
 > **Form 900 is NOT a benefit claim.** It is the general "Personal Details Update" form (הודעה על עדכון פרטים אישיים) used by anyone already receiving a benefit to change their address, marital status, or bank account. The actual program-specific claim forms are listed below.
 
@@ -79,6 +79,12 @@ Most can be filed digitally through the personal area at **https://ps.btl.gov.il
 | 202 | תביעה להכרה במחלת מקצוע | Worker | Occupational-disease recognition |
 | 213 | תביעה לתשלום גמלה לבני משפחה של מי שנפטר מפגיעה בעבודה | Dependants | Dependants pension after fatal injury |
 | 247 | ערר על החלטת ועדה רפואית מדרג ראשון (נפגעי עבודה) | Injured worker | Appeal first-instance medical-committee work-injury decision (60 days) |
+
+## Personal accident, non-work (דמי תאונה)
+
+| Form | Hebrew name | Filed by | Notes |
+|---|---|---|---|
+| 2201 | תביעה לתשלום דמי תאונה (לתאונה שאינה מעבודה) | Injured resident | Accidents at home / on holiday / in leisure time, up to 90 days of lost functioning. NOT for work accidents or road accidents |
 
 ## Vocational rehabilitation (שיקום מקצועי)
 
@@ -184,7 +190,7 @@ Israeli pension recipients living abroad must submit annual life-certificate for
 | 9220 | אישור חיים למוסד הסוציאלי ברומניה (CNPP) | Recipient receiving Romanian pension | Romania treaty form |
 | IL-PL 5 | טופס תביעה לדמי קבורה מפולין | Family in Poland | Poland treaty burial-grant form |
 
-Full per-country treaty form list: btl.gov.il/טפסים-ואישורים/forms/amanot/klali.
+Full per-country treaty form list: btl.gov.il/טפסים%20ואישורים/forms/amanot/klali.
 
 ## Representation (power of attorney)
 
@@ -192,7 +198,7 @@ Full per-country treaty form list: btl.gov.il/טפסים-ואישורים/forms/
 |---|---|---|---|
 | 70 | ייפוי כוח למייצג בנושאי ביטוח וגבייה | Insured person | Authorize accountant / tax consultant / lawyer for insurance and collection matters |
 
-A digital ייפוי-כוח flow is also available via the representatives portal at btl.gov.il/טפסים-ואישורים/forms/meyatzgim.
+A digital ייפוי-כוח flow is also available via the representatives portal at btl.gov.il/טפסים%20ואישורים/forms/meyatzgim.
 
 ## General-purpose forms (every program uses these)
 
@@ -211,7 +217,7 @@ A digital ייפוי-כוח flow is also available via the representatives porta
 ## Filing channels
 
 1. **Personal area (preferred):** https://ps.btl.gov.il
-2. **Online forms portal:** https://www.btl.gov.il/טפסים-ואישורים/tfasimMkuvanim/Pages/default.aspx
+2. **Online forms portal:** https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx
 3. **Document upload to caseworker:** https://b2b.btl.gov.il/BTL.ILG.Payments/DocumentsForm.aspx
 4. **Joint unemployment + employment-service form:** https://www.taasuka.gov.il/applicants/sharedform/
 5. **Branch service:** https://www.btl.gov.il/snifim (appointment required)
@@ -223,4 +229,4 @@ A digital ייפוי-כוח flow is also available via the representatives porta
 - **Burial institutional reimbursement:** paid administratively without a numbered claimant form (only 460 for individual claims).
 - **Vocational-rehab sub-programs:** only 270 verified; no per-population sub-form numbers.
 - **Pikuach hasaba / vatikim-specific:** no separate forms beyond the existing old-age catalog plus 10420.
-- **Medical-committee logistics (expedite/copy/translation):** handled via the general portal at btl.gov.il/טפסים-ואישורים/forms/VaadotTfasim, no numbered standalone forms.
+- **Medical-committee logistics (expedite/copy/translation):** handled via the general portal at btl.gov.il/טפסים%20ואישורים/forms/VaadotTfasim, no numbered standalone forms.
