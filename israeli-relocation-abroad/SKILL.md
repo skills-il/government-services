@@ -178,16 +178,16 @@ If you stayed out long enough and did not maintain Israeli tax residency, Israel
 
 **Customs and belongings:**
 - Household goods and personal effects can be imported duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
-- **Vehicle:** A toshav chozer may personally import a vehicle manufactured up to 48 months before import (regular residents are capped at 24 months), within 9 months of entering Israel. There is no tax exemption on the vehicle itself, you pay full purchase tax and VAT, only the age limit is relaxed. **Prerequisite: you must qualify as toshav chozer first, which requires 6+ years of foreign residency.** A returnee abroad only 2-4 years gets none of this and imports under regular-resident rules (24-month age cap)
+- **Vehicle:** A toshav chozer may personally import a vehicle manufactured up to 48 months before import (regular residents are capped at 24 months), within 9 months of entering Israel. There is no tax exemption on the vehicle itself -- you pay full purchase tax and VAT, only the age limit is relaxed. **The customs prerequisite is TWO years abroad, not six** (a returning student needs 18 months). The 6-year figure is the income-tax tier and does not govern customs. A returnee abroad 2-4 years DOES get the 48-month window -- telling them they get "none of this" costs them the benefit.
 - Consult `references/toshav-chozer-customs.md` for the full quantity rules and the sister skill `israeli-returning-resident-customs-vehicle` for the deep mechanics
 
 **Misrad HaKlita returning-resident track (separate from tax benefits):**
 
 The Ministry of Aliyah and Integration (Misrad HaKlita) operates an absorption program for returning residents, parallel to but smaller than the new-immigrant program:
-- **Sal Klita Le-Toshav Chozer** (returning resident grant), capped and means-tested
+- **There is no oleh-style sal klita cash basket for a returning resident.** The ministry's returnee package is employment/retraining assistance, customs help, and ulpan -- not the new-immigrant absorption basket. (The sal klita page lists only olim, ezrach oleh and katin chozer as eligible.) Do not promise a returnee a sal klita grant.
 - Hebrew refresher Ulpan (free or subsidized) for the returnee and the spouse if needed
 - Employment counseling and job-search support for the first 12 months back
-- **Eligibility threshold:** 6+ consecutive years abroad (same as the Toshav Chozer tax tier)
+- **Eligibility threshold: TWO years abroad** (five years for returning scientists and business entrepreneurs), an Israeli citizen aged 17+ at return who was previously an Israeli resident, with visits to Israel of no more than 4 months in each year of absence. The 6-year figure is the Income Tax Ordinance's TAX tier for a regular toshav chozer -- it does not govern the ministry track.
 
 This track is administrative (Misrad HaKlita certificate) and is separate from the Tax Authority's section-14 determination. The certificate helps with absorption services and customs paperwork but does NOT grant the tax benefit by itself.
 
@@ -212,11 +212,11 @@ Three further return-planning areas have substantial mechanics summarized briefl
 
 **Kupat cholim waiting period:**
 
-- **Trigger:** the waiting period applies when the returnee was abroad **2 or more consecutive years** without paying Israeli Bituach Leumi. Under 2 years away you typically resume coverage immediately on re-establishing residency.
-- **Length:** 2 months of waiting per year of absence, capped at **6 months maximum**.
-- **Redemption (pidyon):** a one-time payment equal to **12 minimum monthly health-insurance contributions** cancels the wait. The current shekel amount changes annually with the BL minimum; check Bituach Leumi's "פדיון תקופת המתנה" page for the year-of-return figure (this is the same figure listed in `israeli-returning-resident-navigator` for the active 2026 amount).
-- **Why this matters most:** This is the single biggest argument for keeping up Bituach Leumi payments while abroad. The minimum health contributions are ₪123/month (treaty country) or ₪266/month (non-treaty), so the redemption cost approximates 12 months of those minimums plus the per-month rate adjustment, it is almost always cheaper than maintaining continuous coverage, except for very long absences.
-- **Reference:** see Step 6 cross-reference to `israeli-returning-resident-navigator` for the current pidyon NIS amount and full waiver workflow.
+- **Trigger:** the waiting period applies to someone who was abroad **18 consecutive months or more AND did not pay health contributions for at least 12 months** (or who ceased to be an Israeli resident). It is not a plain "2 years away" test.
+- **Length: ONE waiting month per year of absence, capped at 6 months.** (A "year of absence" = a 12-month period with at least 183 days outside Israel; a "waiting month" = 25 consecutive days of presence in Israel.) It is **not** 2 months per year: that doubles the real wait.
+- **Redemption (pidyon):** a **fixed statutory amount of 16,860 NIS (2026)**, payable in one payment or up to 6 equal instalments. It is NOT "12 minimum monthly contributions".
+- **Why this matters, and why the old advice was backwards:** keeping Bituach Leumi current while abroad costs 123 NIS/month (treaty country) or 266 NIS/month (non-treaty) -- that is **1,476 to 3,192 NIS a year**. Redeeming the waiting period afterwards costs **16,860 NIS**. So maintaining coverage is far cheaper than redeeming, not the other way round. Advise the user to keep paying.
+- **Reference:** `israeli-returning-resident-navigator` carries the same figures; the two skills must agree.
 
 ## Examples
 
@@ -297,17 +297,15 @@ All three MCPs are optional -- this skill works without them, but pairing gives 
 | Source | URL | What to check |
 |--------|-----|----------------|
 | Bituach Leumi -- Israelis abroad | https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx | Current contribution rates and minimum health insurance amount |
-| Kol-Zchut -- National insurance while abroad | https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%94%D7%A9%D7%95%D7%94%D7%94_%D7%91%D7%97%D7%95%22%D7%9C | Payment procedure and treaty country exemptions |
-| Kol-Zchut -- Returning resident benefits | https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Toshav chozer and toshav chozer vatik eligibility and rights |
+| Kol-Zchut -- National insurance while abroad | https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו"ל | Payment procedure and treaty country exemptions |
+| Kol-Zchut -- Returning resident benefits | https://www.kolzchut.org.il/he/תושבים_חוזרים | Toshav chozer and toshav chozer vatik eligibility and rights |
 | PwC Tax Summaries -- Israel tax administration | https://taxsummaries.pwc.com/israel/individual/tax-administration | Annual filing process and Form 1301 details |
 | PwC Tax Summaries -- Israel individual residence | https://taxsummaries.pwc.com/israel/individual/residence | Days test and center-of-life test details |
 | hltaxes -- Israeli exit tax overview | https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat | Section 100A deemed-sale mechanics, rates, deferral option |
-| Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C | Form 58 vs Valtam, timing, appeal route |
-| Kol-Zchut -- Vehicle import for returning residents | https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D | Vehicle age limits and 9-month import window |
+| Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו"ל | Form 58 vs Valtam, timing, appeal route |
+| Kol-Zchut -- Vehicle import for returning residents | https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | Vehicle age limits and 9-month import window |
 | Shivat Zion -- Returning Israelis knowledge base (Misrad HaAliyah operational guide) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Step-by-step Toshav Chozer process, customs, employment, healthcare on return |
-| Belong -- Return to Israel guide | https://belong.co.il/return-to-israel/ | Symmetric return-side coverage: kids' status, kupat cholim pidyon, vehicle import, employment programs |
-| Belong -- Toshav Chozer rights and benefits | https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/ | Full benefits basket: salary assistance, Ma'alot, lone soldier, education reinforcement |
-| Kol-Zchut -- Voluntary Bituach Leumi (Bituach mi-Ratzon) | https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9E%D7%A8%D7%A6%D7%95%D7%9F | Voluntary continuation rules and eligibility |
+| Kol-Zchut -- Voluntary Bituach Leumi (Bituach mi-Ratzon) | https://www.kolzchut.org.il/he/ביטוח_לאומי_מרצון | Voluntary continuation rules and eligibility |
 | PwC Tax Summaries -- Israel income determination | https://taxsummaries.pwc.com/israel/individual/income-determination | Section 100A rate granularity (25% / 30% / 23% corporate) |
 
 ## Troubleshooting

@@ -66,4 +66,4 @@ If you discover you owe back payments after months or years abroad:
 
 - Main skill file: SKILL.md, Step 3 (pre-move financial checklist) and Step 6 (return planning)
 - Bituach Leumi page for Israelis abroad: https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx
-- Kol-Zchut article on payment procedure (Hebrew): https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%94%D7%A9%D7%95%D7%94%D7%94_%D7%91%D7%97%D7%95%22%D7%9C
+- Kol-Zchut article on payment procedure (Hebrew): https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו"ל

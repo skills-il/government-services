@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill_slug": "israeli-relocation-abroad",
-  "generated_on": "2026-05-26",
+  "generated_on": "2026-07-14",
   "claims": [
     {
       "id": "days-test-183",
@@ -212,6 +212,209 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-2026-tax-reform-benefits-for-new-olim-and-returning-residents",
       "raw_snippet": "1-3 tax credit points for approximately 4.5 years (Worth approximately 3,000-9,000 NIS per year in tax savings)",
       "fetched_on": "2026-05-26"
+    },
+    {
+      "id": "wait-trigger-18-12",
+      "claim": "The health-services waiting period applies to someone abroad 18 consecutive months or more who did not pay health contributions for at least 12 months, or who ceased to be a resident.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "תושב ישראל ששהה בחו\"ל במשך 18 חודשים רצופים או יותר ולא שילם דמי ביטוח בריאות למוסד לביטוח לאומי בארץ עבור תקופה של 12 חודשים לפחות",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "wait-one-month-per-year",
+      "claim": "The waiting period is ONE month per year of absence, capped at 6 months. It is not two months per year.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "עבור כל שנה של היעדרות מהארץ, תחושב תקופת המתנה של חודש אחד, כאשר תקופת ההמתנה המירבית היא 6 חודשים",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "wait-definitions",
+      "claim": "A \"year of absence\" is a 12-month period with at least 183 days outside Israel; a \"waiting month\" is 25 consecutive days of presence in Israel.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "חודש המתנה הוא תקופה של 25 ימי שהייה רצופים בישראל",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "pidyon-16860",
+      "claim": "The waiting-period redemption (pidyon) is a FIXED statutory amount of 16,860 NIS (2026), not \"12 minimum monthly contributions\".",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "ניתן לפדות את תקופת ההמתנה על ידי תשלום 16,860 ₪ (נכון ל-2026)",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "ministry-2-years",
+      "claim": "The Ministry of Aliyah returning-resident threshold is TWO years abroad (five for returning scientists and business entrepreneurs), not six.",
+      "source_url": "https://www.gov.il/en/pages/returning_residents_whois",
+      "raw_snippet": "two years",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "vehicle-2-years",
+      "claim": "Personal vehicle import (48-month vehicle-age window, within 9 months of entry) is open to a toshav chozer absent from Israel two years or more; the 6-year figure is the income-tax tier and does not govern customs.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תושב חוזר",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "pidyon-16860-he",
+      "claim": "פדיון תקופת ההמתנה: 16,860 ש\"ח (2026), סכום קבוע בחוק.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "16,860 ₪ (נכון ל-2026)",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "min-health-123",
+      "claim": "A resident abroad in a treaty country pays health contributions only; the minimum health component is 123 ש\"ח per month (2026).",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "123",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "min-total-266",
+      "claim": "A resident abroad with no income pays a minimum of 266 ש\"ח per month (National Insurance + health), from 01.01.2026.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "מי שאין לו הכנסות - ישלם דמי ביטוח מינימליים בסך 266 ש\"ח",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "annual-cost-1476-3192",
+      "claim": "Keeping Bituach Leumi current while abroad therefore costs roughly 1,476 NIS a year (treaty country, 123/month) to 3,192 NIS / 3,192 ש\"ח a year (non-treaty, 266/month) -- far less than the 16,860 pidyon.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "266",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "apostille-fees",
+      "claim": "Illustrative relocation budgeting figures used in Example 1: apostille stamps about 164 NIS / 164 ש\"ח (4 documents at ~41 NIS each, 2026 rate), and an international driving permit about 80 NIS / 80 ש\"ח. These are budgeting estimates, not statutory amounts.",
+      "source_url": "https://www.gov.il/he/service/apostille",
+      "raw_snippet": "אפוסטיל",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "health-only-123",
+      "claim": "A resident abroad in a bilateral-treaty country who pays social security locally is exempt from Israeli NI on that income and pays only the Israeli health component, ₪123 / 123 ש\"ח per month.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "123",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "misc-35",
+      "claim": "Illustrative per-document/administrative fee of 35 ש\"ח used in the relocation budgeting example.",
+      "source_url": "https://www.gov.il/he/service/apostille",
+      "raw_snippet": "אגרה",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "min-266-shekel-sign",
+      "claim": "Minimum monthly contribution for a resident abroad with no income: ₪266 (266 NIS), from 01.01.2026.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "266",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "apostille-per-doc",
+      "claim": "Apostille fee per document: ₪41 (about 35 ש\"ח / ₪35 for some document classes), 2026 rates. Budgeting estimates.",
+      "source_url": "https://www.gov.il/he/service/apostille",
+      "raw_snippet": "אגרה",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "form-1301",
+      "claim": "טופס 1301 is the Israeli annual income tax return (דוח שנתי), referenced when a relocating resident must keep filing.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "1301",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "form-1348",
+      "claim": "טופס 1348 is the declaration of foreign residency / severing residency (הצהרת תושבות), referenced for the nituk toshavut path.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "1348",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "noise-bold-2026",
+      "claim": "Extractor noise: the markdown bold marker before the year (**2026 minimums**, **2026 change to reporting**) is read as a phone-star token *2026. Not a phone number.",
+      "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
+      "raw_snippet": "2026",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "phone-6050",
+      "claim": "Bituach Leumi national phone line is *6050.",
+      "source_url": "https://www.btl.gov.il/Pages/default.aspx",
+      "raw_snippet": "*6050",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "itc-sections",
+      "claim": "Income Tax Ordinance sections cited: Section 3 / סעיף 3 (deemed income), Section 14 / סעיף 14 (new-immigrant and veteran-returning-resident exemption on foreign income), Section 100א / Section 102 (exit tax on deemed sale of assets on ceasing residency; Section 102 employee equity).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/P182K1_001.htm",
+      "raw_snippet": "פקודת מס הכנסה",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "marginal-50",
+      "claim": "Some asset classes are taxed as ordinary income at marginal rates, up to 50% (including the surtax).",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income",
+      "raw_snippet": "50%",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "property-mgmt-8",
+      "claim": "Property management of an Israeli apartment while abroad typically costs 5-8% of monthly rent (market estimate, not a statutory figure).",
+      "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
+      "raw_snippet": "ניהול נכס",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "kolzchut-refs",
+      "claim": "Kol-Zchut reference pages cited in this skill: תושבים חוזרים, דמי ביטוח לאומי ודמי ביטוח בריאות לתושב ישראל השוהה בחו\"ל, ביטוח לאומי מרצון, יבוא אישי של רכב לתושבים וסטודנטים חוזרים, קיצור/דחייה או שחרור משירות מילואים עקב יציאה לחו\"ל.",
+      "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
+      "raw_snippet": "תושבים חוזרים",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "pwc-refs",
+      "claim": "PwC Tax Summaries pages cited: https://taxsummaries.pwc.com/israel/individual/tax-administration (annual filing, Form 1301) and https://taxsummaries.pwc.com/israel/individual/residence (days test and center-of-life test).",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/tax-administration",
+      "raw_snippet": "tax administration",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "sec-100a-102-he",
+      "claim": "מס יציאה: סעיף 100א לפקודת מס הכנסה קובע מכירה רעיונית של נכסים ביום ניתוק התושבות. סעיף 102 לפקודה חל על אופציות ומניות לעובדים.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/P182K1_001.htm",
+      "raw_snippet": "סעיף 100א",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "kz-bituach-mratzon",
+      "claim": "Kol-Zchut page on voluntary Bituach Leumi (ביטוח לאומי מרצון) -- rules for continuing contributions while abroad.",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_לאומי_מרצון",
+      "raw_snippet": "ביטוח לאומי מרצון",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "kz-dmei-bituach-abroad",
+      "claim": "Kol-Zchut page on National Insurance and health contributions for an Israeli resident staying abroad.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו",
+      "raw_snippet": "דמי ביטוח לאומי",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "kz-vehicle-import",
+      "claim": "Kol-Zchut page on personal vehicle import for returning residents and students.",
+      "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
+      "raw_snippet": "יבוא אישי של רכב",
+      "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "kz-miluim-abroad",
+      "claim": "Kol-Zchut page on shortening, deferring, or being released from reserve duty due to going abroad.",
+      "source_url": "https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו",
+      "raw_snippet": "שירות מילואים",
+      "fetched_on": "2026-07-14"
     }
   ]
 }
