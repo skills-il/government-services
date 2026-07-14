@@ -45,6 +45,20 @@ A stand-alone orphan allowance is paid in these cases:
 | Orphan whose parent is not entitled, each, when more than one | 862 |
 | Orphan of both parents, per child | 2,284 |
 
+## Orphan subsistence allowance (דמי מחיה)
+
+Separate monthly payment, on top of the allowance, for an orphan studying at least 24 weekly hours from 9th grade until age 20 (upkeep not at state expense). Claim on form 2910.
+
+| Situation | Monthly (NIS) |
+|---|---|
+| Family IS paid a survivor's allowance (with child increment) | 683 |
+| Family is NOT paid a survivor's allowance | 946 |
+| Orphan of both parents (two allowances) | paid twice |
+
+Income test: full dmei michya up to 15,697 NIS gross/month for a parent with one qualifying orphan, +964 per additional child.
+
+Source: kolzchut.org.il "דמי מחיה ליתומים (שאירים)", btl.gov.il survivors section. Effective 2026.
+
 ## Seniority increment (תוספת ותק)
 
 - 2% of the base allowance per full insurance year of the deceased, counted from the first

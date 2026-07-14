@@ -48,6 +48,15 @@ Use the current rate table. The amount is set by the widow(er)'s age and the num
 
 Per-orphan bases in special cases (parent not entitled: 1,142 for a single child, 862 each when more than one; orphan of both parents: 2,284 per child). There is no cap on the number of eligible children.
 
+**Orphan subsistence allowance (dmei michya, דמי מחיה) -- a SEPARATE monthly payment on top of the allowance, and the one families most often miss.** It is paid for an orphan who is studying, from 9th grade (after 8 years of compulsory schooling) until age 20, at least 24 weekly hours in a school, university, college, vocational institution, or yeshiva gvoha, and whose upkeep is not at state expense. The amount depends on whether the parent draws the survivor's allowance:
+
+| Situation | Monthly dmei michya (NIS) |
+|---|---|
+| The family IS paid a survivor's allowance (with the child increment) | 683 |
+| The family is NOT paid a survivor's allowance | 946 |
+
+An orphan of both parents drawing two survivors' allowances gets dmei michya TWICE. Payment is income-tested on the parent's and the orphan's income: the ceiling for full dmei michya for a parent with one qualifying orphan is 15,697 NIS gross a month, plus 964 for each additional child. Claim on form 2910. A widow(er) can claim dmei michya for a child even when no child increment is paid for that child.
+
 **Old-age (vatik) pension interaction.** A widow(er) who is entitled to both an old-age pension and a survivor's allowance is paid the old-age pension **in full PLUS half of the survivor's allowance** (if they accrued the old-age qualifying period as an insured worker). The 919 figure is specifically half of the childless-50+ base (half of 1,838). A widow(er) WITH children is paid half of the higher with-children rate, so 919 is NOT a universal half-allowance figure. A widowed homemaker who reached the absolute pension age is not paid the extra half and instead chooses the higher of the two allowances.
 
 Then add the **seniority increment (tosefet vetek)**: 2% of the base per full insurance year the deceased accrued (from the first year), up to a maximum of 50%. A full insurance year is 12 insurance months.

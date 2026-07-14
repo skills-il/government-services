@@ -443,6 +443,33 @@
       "source_fetched_at": "2026-07-07T00:00:00Z",
       "raw_snippet": "הר הכסף - מנוע לאיתור חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק ... היכן מחכים לך חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק אבודים?",
       "confidence": "high"
+    },
+    {
+      "id": "dmei-michya-amounts",
+      "claim": "Orphan subsistence allowance (דמי מחיה) 2026: 683 NIS / 683 ש\"ח a month when the family IS paid a survivor's allowance with the child increment, and 946 NIS / 946 ש\"ח a month when it is not. An orphan of both parents receiving two survivors' allowances is paid dmei michya twice.",
+      "claim_type": "amount",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחיה_ליתומים_(שאירים)",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "אם משולמת להורה קצבת שאירים (עם תוספת ליתום/ה), דמי המחיה יהיו בסך 683 ₪, נכון לשנת 2026. אם לא משולמת להורה קצבת שאירים, דמי המחיה יהיו בסך 946 ₪ לחודש",
+      "confidence": "high"
+    },
+    {
+      "id": "dmei-michya-eligibility",
+      "claim": "Dmei michya eligibility: the orphan has not yet turned 20, completed 8 years of compulsory schooling (finished 8th grade), studies at least 24 weekly hours in a school or other educational institution (university, college, vocational institution, yeshiva gvoha), and is not maintained at state expense. Claim on form 2910. טופס 2910 (תביעה לדמי מחיה).",
+      "claim_type": "form",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחיה_ליתומים_(שאירים)",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "טרם מלאו להם 20. הם סיימו 8 שנות לימוד חובה (סיימו את כיתה ח'). הם לומדים לפחות 24 שעות שבועיות",
+      "confidence": "high"
+    },
+    {
+      "id": "dmei-michya-income-test",
+      "claim": "Dmei michya income test 2026: the income ceiling for a parent with one qualifying orphan to receive full dmei michya is 15,697 NIS / 15,697 ש\"ח gross a month, plus 964 NIS / 964 ש\"ח a month for each additional child.",
+      "claim_type": "amount",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחיה_ליתומים_(שאירים)",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "תקרת ההכנסה להורה עם יתום אחד שמזכה בדמי מחיה מלאים היא 15,697 ₪ (ברוטו) לחודש, נכון לשנת 2026. עבור כל ילד נוסף, יתווספו לסכום ההכנסה המותרת 964 ₪ לחודש",
+      "confidence": "high"
     }
   ]
 }
