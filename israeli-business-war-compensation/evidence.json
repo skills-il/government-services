@@ -1,23 +1,8 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-business-war-compensation",
-  "generated_at": "2026-05-18T17:00:00Z",
+  "generated_at": "2026-07-14T00:00:00Z",
   "claims": [
-    {
-      "claim_id": "average-wage-13773",
-      "claim": "Average wage in the Israeli economy used as the per-employee cap base in the Shaagat HaAri wage participation grant is 13,773 NIS (₪ / ש\"ח / שקל / NIS); multiplied by 1.25 employer-cost coefficient",
-      "source_url": "https://bitancpa.com/knowledge/business-grants-operation-shaagat-haari-2026",
-      "raw_snippet": "תקרת שכר לעובד: 13,773 ש\"ח (השכר הממוצע במשק) × 1.25",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/calculator-walkthrough.md",
-        "references/domain-checklist.md",
-        "scripts/calc_grant.py"
-      ]
-    },
     {
       "claim_id": "turnover-band-12000-400m",
       "claim": "Eligible business turnover band: 12,000 NIS to 400,000,000 NIS / 12,000 ש\"ח עד 400 מיליון ש\"ח / 12,000 שקל ל-400 מיליון שקל / 12,000 NIS to 400M NIS annual turnover",
@@ -75,34 +60,6 @@
       ]
     },
     {
-      "claim_id": "wage-formula-75-percent",
-      "claim": "Wage participation grant formula: 75% × turnover decline rate × actual wages in claim period (per Shaagat HaAri framework). The 0.75 / 75% multiplier and 1.25 employer-cost factor are both authoritative.",
-      "source_url": "https://bitancpa.com/knowledge/business-grants-operation-shaagat-haari-2026",
-      "raw_snippet": "השכר ששולם בחודש 3-4/2026 לפי טופס 102, מוכפל ב-1.25 (עלות מעביד), ב-0.75",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/calculator-walkthrough.md",
-        "references/domain-checklist.md",
-        "scripts/calc_grant.py"
-      ]
-    },
-    {
-      "claim_id": "small-business-table-1833-14691",
-      "claim": "Small business continuity grant table (turnover ≤ 300,000 NIS) ranges from 1,833 NIS minimum (12,000-50,000 turnover band) to 14,691 NIS maximum (250,000-300,000 turnover, 80-100% decline tier). Variants: 1,833 ₪, 14,691 ₪",
-      "source_url": "https://www.mako.co.il/news-money/2026_q1/Article-79d26c770b1ec91027.htm",
-      "raw_snippet": "מי שמחזורו השנתי עד 50 אלף שקל יקבל 1,833 שקל, מי שמחזורו עד 90 אלף שקל יקבל 3,300 שקל",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/domain-checklist.md"
-      ]
-    },
-    {
       "claim_id": "small-business-mid-bands-2776-8328",
       "claim": "Small business continuity grant for 120,000-150,000 NIS turnover: 2,776 NIS (25-40% decline), 4,164 NIS (40-60%), 6,662 NIS (60-80%), 8,328 NIS (80-100%) -- per Mako N12 framework summary",
       "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
@@ -111,20 +68,6 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "wage-component-75-explicit",
-      "claim": "Wage component formula: wages × decline rate × 75% (האחיד 0.75 multiplier appears identically in Hebrew sources)",
-      "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
-      "raw_snippet": "רכיב שכר: החזר המחושב לפי: הוצאות שכר X שיעור הפגיעה X 75%.",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/calculator-walkthrough.md",
-        "scripts/calc_grant.py"
       ]
     },
     {
@@ -311,17 +254,6 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "aggregate-cap-600000",
-      "claim": "Aggregate monthly compensation ceiling for businesses with turnover above 300,000 NIS / above 100M NIS: 600,000 NIS per period. Aggregate ceiling = 600,000 NIS / 600,000 ש\"ח per damage period for turnover up to 100M.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A9%D7%91%D7%99%D7%9F_300,000_-_400_%D7%9E%D7%99%D7%9C%D7%99%D7%95%D7%9F_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "Up to ₪100M turnover: ₪600,000 monthly maximum",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "references/calculator-walkthrough.md",
-        "scripts/calc_grant.py"
       ]
     },
     {
@@ -638,17 +570,6 @@
       ]
     },
     {
-      "claim_id": "small-business-table-post-passage-values",
-      "claim": "Post-Knesset-passage (4.5.2026) authoritative monthly grant values for small business continuity track (turnover up to 300K NIS): bottom 3 bands flat at 1,864 / 3,356 / 4,475 NIS; bands above 120K scale by decline tier from 2,823 / 4,234.50 / 6,775.20 / 8,469 (120-150K) through 4,980 / 7,470 / 11,952 / 14,940 (250-300K). Includes values 3,329 / 4,993.50 / 7,989.60 / 9,987 (150-200K) and 4,261 / 6,391.50 / 10,226.40 / 12,783 (200-250K). Post-passage table spans 1,864 NIS (1,864 ש\"ח) at the floor to 14,940 NIS (14,940 ש\"ח) at the top cell.",
-      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים_עם_מחזור_עד_300,000_ש\"ח_על_הפסדים_במבצע_שאגת_הארי",
-      "raw_snippet": "1,864 / 3,356 / 4,475 / 2,823 / 4,234.50 / 6,775.20 / 8,469 / 3,329 / 4,993.50 / 7,989.60 / 9,987 / 4,261 / 6,391.50 / 10,226.40 / 12,783 / 4,980 / 7,470 / 11,952 / 14,940",
-      "fetched_at": "2026-05-18T19:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "small-business-filing-window-17may-17aug",
       "claim": "Online filing window for the Shaagat HaAri small-business continuity track: 17.05.2026 to 17.08.2026 per Kol-Zchut authoritative page",
       "source_url": "https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים_עם_מחזור_עד_300,000_ש\"ח_על_הפסדים_במבצע_שאגת_הארי",
@@ -675,17 +596,6 @@
       "claim": "Form 100 (טופס 100) is the employer's halat authorization document for Bituach Leumi purposes; filed with exact halat start and end dates to authorize the leave",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "raw_snippet": "Form 100 / טופס 100",
-      "fetched_at": "2026-05-18T19:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "pre-vs-post-passage-table-delta",
-      "claim": "Pre-passage (11-12.03.2026 Mako/CPA-Institute) small-business table figures were approximately 1.7%-1.9% lower than the post-passage authoritative Kol-Zchut values (e.g., 1,833 → 1,864 is +1.69%; 14,691 → 14,940 is +1.69%)",
-      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים_עם_מחזור_עד_300,000_ש\"ח_על_הפסדים_במבצע_שאגת_הארי",
-      "raw_snippet": "1.7%-1.9%",
       "fetched_at": "2026-05-18T19:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -725,6 +635,180 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-hotzaot-mezakot-additive",
+      "claim": "Eligible expenses (הוצאות מזכות) = fixed expenses PLUS the eligible wage part, capped, then multiplied by 2. The two parts are ADDED, not compared.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "\"הוצאות מזכות\" - ההוצאות הקבועות בתוספת חלק השכר המזכה, והכול עד לסכום כמפורט להלן, לפי העניין, כשהוא מוכפל ב־2",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-cap-600k-1.2m",
+      "claim": "Cap on eligible expenses: 600,000 NIS for base-year turnover up to 100M; 600,000 + 0.3% of the excess for 100M-300M; 1,200,000 NIS for 300M-400M. The cap is itself doubled, so the effective payout ceiling under 100M is 1.2M.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס אינו עולה על 100 מיליון שקלים חדשים - 600 אלף שקלים חדשים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-fixed-expenses-vat-inputs",
+      "claim": "Fixed expenses (הוצאות קבועות) = total current VAT inputs of the PREVIOUS year, divided by 6, times the fixed-cost coefficient. NOT the owner's monthly rent and utilities.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "\"הוצאות קבועות\" - ... סך כל התשומות השוטפות בשנה הקודמת, מחולק ב־6 ומוכפל במקדם ההוצאות הקבועות",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-wage-part-definition",
+      "claim": "The eligible wage part (חלק השכר המזכה) = wage expenses in the eligible period multiplied by the turnover-decline rate.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "\"חלק השכר המזכה\" - סכום הוצאות השכר בתקופה המזכה לעניין שכר, מוכפל בשיעור הירידה במחזור העסקאות",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-small-business-doubled",
+      "claim": "The small-business (<=300K turnover) amounts in §38לז(ב) are paid at DOUBLE the listed figures, and only if the conditions in (a)(2)-(6) are met, which include a turnover decline EXCEEDING 25%.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "זכאי לפיצויים בסכום של פי 2 מהסכום המפורט בפסקאות שלהלן, לפי העניין, בעד נזק עקיף שנגרם לו במהלך התקופה הקובעת, ובלבד שמתקיימים לגביו התנאים הקבועים בפסקאות (2) עד (6) שבסעיף קטן (א)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-small-business-bands",
+      "claim": "Small-business base amounts per month: up to 50K = 1,864; 50-90K = 3,356; 90-120K = 4,475; 120-150K = 2,823 x damage coefficient; 150-200K = 3,329 x coef; 200-250K = 4,261 x coef; 250-300K = 4,980 x coef. All are then doubled.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס אינו עולה על 50 אלף שקלים חדשים - סכום של 1,864 שקלים חדשים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-damage-coefficient",
+      "claim": "Damage coefficient (מקדם הנזק): 1 for a decline over 25% and up to 40%; 1.5 for over 40% to 60%; 2.4 for over 60% to 80%; 3 for over 80%. The bands are (low, high], so exactly 40% takes the coefficient 1.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על 25% ואינו עולה על 40% - 1",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-floor-rule-38lz-g",
+      "claim": "Floor rule: a business on the nationwide track entitled to LESS than the top small-business band would have paid receives that band amount instead (§38לז(ג)).",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "היה סכום הפיצויים שניזוק כאמור באותו סעיף קטן זכאי לו נמוך מסכום הפיצויים שאותו ניזוק היה זכאי לו לפי הוראות סעיף קטן (ב)(7) ... יהיה הניזוק זכאי לקבל את סכום הפיצוי לפי אותו סעיף קטן",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-average-wage-13769",
+      "claim": "The per-employee wage cap uses the National Insurance s.2(b) average wage as known in March 2026 (13,769 NIS), times 1.25.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "השכר הממוצע לחודש כמשמעותו בסעיף 2(ב) לחוק הביטוח הלאומי, כפי שהיה ידוע בחודש מרץ 2026, מוכפל במספר העובדים המזכים כאמור בפסקת משנה (א), כשהתוצאה המתקבלת מוכפלת ב־1.25",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-wage-base-deductions",
+      "claim": "The wage base deducts pay for vacation days the employee used, and any sums Bituach Leumi reimbursed the employer for reserve duty.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "בהפחתת תשלום בעד ימי חופשה שניצל העובד, ובהפחתת סכומים שהמוסד לביטוח לאומי שילם למעסיק לשם החזר תגמולי מילואים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-cap-he-forms",
+      "claim": "Cap figures in Hebrew form: 600,000 ש\"ח before doubling; 1,200,000 ש\"ח effective; 2,400,000 NIS / 2,400,000 ש\"ח for the 300M-400M band.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 300 מיליון שקלים חדשים ואינו עולה על 400 מיליון שקלים חדשים - 1.2 מיליון שקלים חדשים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "law-vat-section-33",
+      "claim": "Sector override: a business under the VAT exemption of סעיף 33 to the VAT Law takes a fixed-cost coefficient of x0.19.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "עוסק פטור",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "legacy-75-percent",
+      "claim": "Legacy artifact: the \"75%\" wage multiplier appears only where the skill documents the OLD (wrong) formula it replaced, and in the kibbutz-specific rule of the statute (75% משכר העבודה לעובדים מזכים).",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "הסכום הנמוך מבין (א) 75% משכר העבודה לעובדים מזכים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "legacy-14940",
+      "claim": "Legacy artifact: 14,940 NIS is the pre-doubling top-band figure. The amount actually paid in that cell is 29,880 (the doubled figure).",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "סכום של 4,980 שקלים חדשים מוכפל במקדם הנזק",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ],

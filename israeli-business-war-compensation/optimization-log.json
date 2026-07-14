@@ -26,6 +26,22 @@
         "[CARRY] Iron Swords older-period bi-monthly decline threshold not verified per-period; skill routes to the operative regulation text.",
         "Discretionary deferred over batch cap: medium/large-business sector multipliers (fuel 0.35, exempt 0.19, contractors 0.68) and the 300-400M-turnover absolute cap (~1.2M NIS) not added; next-cycle candidate."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-07-14",
+      "lessons": [
+        "STRUCTURAL: the skill's core algorithm was wrong, not just its numbers. It computed MAX(wage track, fixed-cost track). §38לו of the operative statute defines הוצאות מזכות as the fixed expenses IN ADDITION TO the eligible wage part ('ההוצאות הקבועות בתוספת חלק השכר המזכה'), capped, then MULTIPLIED BY 2. Every business with both payroll and fixed costs was being under-quoted, and the calculator, the prose, the Hebrew and the walkthrough all agreed with each other while all contradicting the law.",
+        "ROOT CAUSE, and the reason no gate caught it: evidence.json sourced the formula from a NEWS SITE (mako.co.il) and a CPA firm's blog (bitancpa.com). Not one claim cited the statute. The blog's paraphrase became the skill's algorithm. RULE now in domain-checklist.md: for a statutory benefit, cite the statute (Knesset PDF) — never a blog, a press release, or a CPA summary. The same failure produced the phantom oleh bracket in israeli-real-estate, which was sourced from cpa-dray.com and klikatnadlan.co.il.",
+        "The small-business (<=300K) table was 50% low: §38לז(ב) says 'זכאי לפיצויים בסכום של פי 2 מהסכום המפורט', and the listed amounts are PER MONTH. Every cell has been doubled.",
+        "The skill told a business with a <=25% decline that the small-business track 'does not impose the decline gate' and might still pay. §38לז(ב) incorporates the conditions of (a)(2)-(6), and (a)(2) is the >25% decline test. That was advice to file a claim that cannot succeed.",
+        "The aggregate cap was quoted as 600K when 600K is the PRE-doubling figure; the effective payout ceiling under 100M turnover is 1.2M.",
+        "Fixed expenses were taken from the owner's monthly rent/electricity/leasing. The statute derives them from the PREVIOUS year's total VAT inputs / 6, times a coefficient — a completely different number from the one a user would hand you.",
+        "Four statutory sector coefficients were missing entirely (fuel x0.35, VAT-§33-exempt x0.19, קבלן ביצוע x0.68, director's discretion capped at x2), so a fuel dealer or contractor was over-quoted by up to ~3x.",
+        "Band edges: the statute reads 'עולה על 25% ואינו עולה על 40%', i.e. (low, high]. The script used [low, high), so a clean 40% decline took the wrong tier.",
+        "references/calculator-walkthrough.md is now GENERATED from scripts/calc_grant.py output, so the prose examples and the code cannot drift apart again.",
+        "CARRY: the northern 100% tracks (מסלול אדום / מחזורים / חקלאות, incl. the 13,615/agricultural-worker figure) and the חל\"ת 5/10-day bifurcation sit under separate instruments that were NOT re-verified this cycle. Absence of a finding there is not a clean bill of health."
+      ]
     }
   ]
 }

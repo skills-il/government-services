@@ -1,6 +1,6 @@
 ---
 name: israeli-business-war-compensation
-description: "Indirect-damage business compensation calculator and filing guide for Israeli businesses, NPOs (≥25% activity income), and daycare operators hit by war. Covers Shaagat HaAri (March-April 2026) and Iron Swords (Oct 2023+) under the Property Tax & Compensation Fund Law, 1961. Computes turnover-decline eligibility (≥25% over the March-April 2026 period, monthly and bi-monthly alike), wage grant (75% × decline × Form-102 wages × 1.25, cap 13,773 ₪ × 1.25/employee), the small-business continuity table (≤300K), 100% northern tracks (מחזורים, אדום, חקלאות), and a partial pre-claim advance. Surfaces the bifurcated 5/10-day חל\"ת rule and live per-track filing windows (to 17.08.2026). Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, או הגשה לרשות המסים. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
+description: "Indirect-damage business compensation calculator and filing guide for Israeli businesses, NPOs, and daycare operators hit by war. Covers Shaagat HaAri (March-April 2026) and Iron Swords (Oct 2023+). Computes eligibility (turnover decline must EXCEED 25 percent), the eligible-expenses grant per section 38lo (fixed expenses PLUS the wage part, capped, then doubled - the parts are ADDED, not compared), the doubled small-business continuity table (turnover up to 300K), the northern 100 percent tracks, and the advance schedule. Surfaces the 5/10-day chalat rule and live filing windows (to 17.08.2026). Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, or filing with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
 license: MIT
 ---
 
@@ -44,7 +44,8 @@ Reject early if any gate fails - the system rejects with no recourse.
 
 | Gate | Rule | If user fails |
 |---|---|---|
-| Business registration date | Registered before 31.12.2024 uses standard same-period prior-year baseline. Newer businesses use an alternate baseline (Jan-Feb 2025 → Mar 2025-Feb 2026; March 2025 onward → first reporting period through Feb 28, 2026) | NOT a hard cliff; baseline formula simply changes |
+| Business opened by 27.02.2026 (Tax Authority notified by 28.02.2026) | HARD eligibility cliff: a business opened later cannot claim at all | Hard cliff |
+| Baseline formula | Opened before 01.01.2025: standard same-period prior-year baseline. Opened after 01.01.2025: total transactions from the opening date or 01.07.2025 (whichever is later) / active months, x2 (and x12 for the base year) | Not a cliff; the formula changes |
 | Annual turnover band | Between 12,000 NIS and 400,000,000 NIS | INELIGIBLE if outside band |
 | Turnover decline (Shaagat HaAri) | ≥ 25% drop over the **March-April 2026** combined period vs the base period (same two months of 2025, or 2023 for evacuated north). This 25% test applies to **both** monthly and bi-monthly VAT filers - a bi-monthly filer compares the full Mar-Apr two-month report, NOT a halved 12.5% threshold. | INELIGIBLE for wage/fixed-cost track |
 | Turnover decline (Iron Swords older periods) | Per the operative Iron Swords הוראת שעה for that qualifying period - check the active regulation text for the exact decline % and comparison window (do not assume the Shaagat HaAri 25% carries over). | INELIGIBLE for that period |
@@ -53,64 +54,98 @@ Reject early if any gate fails - the system rejects with no recourse.
 
 ### Step 3: Pick the highest-yield track (mutually exclusive)
 
-A business can file under only ONE track per damage period. Run all four and recommend the highest.
+A business can file under only ONE track per damage period. Run all four, recommend the highest, then apply the §38לז(ג) floor rule (Step 4).
 
 | Track | Who qualifies | What it pays | Filing form |
 |---|---|---|---|
 | Red track §35 | Border-area yishuvei sfar (predefined list) | No upper cap on compensation (uncapped, proven loss) | Red-track form on gov.il/he/Departments/DynamicCollectors/compensation-tracks |
 | Small business continuity grant (מענק המשכיות עסקית) | Turnover ≤ 300,000 NIS | Fixed-amount table lookup (see Step 4b) | Small-business form (separate flow) |
-| Nationwide turnover/wage track | Turnover 300,000 NIS to 400M NIS, declined ≥25% (monthly and bi-monthly alike) | MAX(wage track, fixed-cost track) - see Step 4; a partial advance (paid before the full claim) is available via the nationwide non-border advance portal | תביעת פיצויים נזק עקיף on gov.il/he/service/compensation-indirect-damage |
+| Nationwide turnover/wage track | Turnover 300,000 NIS to 400M NIS, decline EXCEEDING 25% (monthly and bi-monthly alike) | (fixed expenses + wage part) x 2, capped - see Step 4. NOT "the higher of the two". A partial advance is available via the nationwide non-border advance portal | תביעת פיצויים נזק עקיף on gov.il/he/service/compensation-indirect-damage |
 | Special-area track | Specific yishuvim outside the red list but designated as special | Track-specific formula | Same portal, marked as special area |
 
-### Step 4: Calculate the wage track AND the fixed-cost track, take the higher
+### Step 4: Compute the eligible expenses (הוצאות מזכות). The wage part and the fixed-cost part are ADDED, not compared
 
-For the nationwide track only. Both branches are computed; the system pays the larger.
+For the nationwide track only. **This is the single most important rule in the skill: the statute defines הוצאות מזכות as the fixed expenses PLUS the eligible wage part, and then doubles the result. It is NOT "run both tracks and take the higher".** Paying the higher of the two understates the grant for every business that has both payroll and fixed costs, which is almost all of them.
 
-**Wage participation grant (per evidence.json claim wage-formula-75-percent):**
+Statutory definition (§38לו, חוק התוכנית לסיוע כלכלי (הוראת שעה)(סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026):
+
+> "הוצאות מזכות" - ההוצאות הקבועות **בתוספת** חלק השכר המזכה, והכול עד לסכום כמפורט להלן, לפי העניין, **כשהוא מוכפל ב־2**
 
 ```
-declineRate    = (refTurnover - claimTurnover) / refTurnover        // e.g., 0.40 for 40% drop
-rawWageGrant   = 0.75 × declineRate × form102GrossWages × 1.25      // form102GrossWages = gross salaries paid per Form 102; ×1.25 = employer-cost gross-up (מקדם עלות מעביד)
-perEmpCap      = 13_773 × 1.25 × numberOfEmployees × declineRate    // 13,773 = avg wage; ×1.25 = same employer-cost gross-up (≈ 17,216/employee)
-wageGrant      = min(rawWageGrant, perEmpCap)
+declineRate  = (refTurnover - claimTurnover) / refTurnover     // must EXCEED 0.25 to qualify at all
+wagePart     = form102GrossWages x declineRate                 // "חלק השכר המזכה"
+fixedPart    = priorYearVatInputs / 6 x fixedCostCoefficient   // "הוצאות קבועות", see below
+eligible     = min(wagePart + fixedPart, cap) x 2              // the sum AND the cap are both doubled
 ```
 
-Input the gross salaries paid per Form 102. The formula multiplies by the 1.25 employer-cost coefficient (מקדם עלות מעביד) on BOTH the raw wage AND the per-employee cap base, so both sides are in employer-cost units. Do NOT pre-gross the input yourself, and do not cap at the bare 13,773 gross figure - either omission understates the grant by ~20%.
+**Aggregate cap, by base-year turnover:**
 
-For businesses above 300,000 NIS turnover, each track (wage and fixed-cost) is also subject to an aggregate ceiling of 600,000 NIS per damage period.
+| Base-year turnover | Cap before x2 | Effective payout cap |
+|---|---|---|
+| up to 100M NIS | 600,000 NIS | **1,200,000 NIS** |
+| 100M to 300M NIS | 600,000 + 0.3% of the excess over 100M | double that |
+| 300M to 400M NIS | 1,200,000 NIS | 2,400,000 NIS |
 
-**Do not double-count חל"ת workers in the wage base.** An employee on unpaid leave (חל"ת) earns no wages in the period and is collecting dmei avtala from Bituach Leumi (Step 5), so their salary is NOT part of `employerWageCost` for those days. Counting a חל"ת worker in both the wage-participation base and the dmei-avtala flow inflates the grant and invites a clawback of the 60% advance.
+The old "aggregate ceiling of 600,000 NIS" was the PRE-doubling figure quoted as if it were the payout ceiling. For a business under 100M turnover the real ceiling is **1.2M**.
 
-**Fixed-cost (inputs) track:** tiered multiplier × monthly fixed expenses × number of months in the reporting period.
+**Fixed expenses (הוצאות קבועות) are NOT the owner's rent + electricity + leasing.** The statute derives them from the VAT return:
 
-| Decline tier | Multiplier on monthly fixed expenses |
+```
+fixedExpenses = (total current VAT inputs of the PREVIOUS year) / 6 x fixedCostCoefficient
+```
+
+Ask for **סך כל התשומות השוטפות בשנה הקודמת** off the VAT reports. A user who hands you monthly rent and utility bills will produce a number unrelated to what the Tax Authority computes.
+
+**Fixed-cost coefficient (מקדם ההוצאות הקבועות)** - the general tiers plus four sector overrides:
+
+| Case | Coefficient |
 |---|---|
-| 25% – 40% | 7% |
-| 40% – 60% | 11% |
-| 60% – 80% | 15% |
-| 80% – 100% | 22% |
+| Decline over 25% and up to 40% | 7% |
+| Decline over 40% and up to 60% | 11% |
+| Decline over 60% and up to 80% | 15% |
+| Decline over 80% | 22% |
+| **Fuel wholesale / retail** | **x0.35** |
+| **Business under the VAT section-33 exemption** | **x0.19** |
+| **קבלן ביצוע (execution contractor)** | **x0.68** |
+| Director's discretionary coefficient | capped at x2 |
 
-Pay whichever is higher. Most labor-heavy businesses (cafés, salons, agencies) come out ahead on the wage track. Most rent-heavy / inventory-heavy businesses come out ahead on the fixed-cost track.
+The statute's bands read "עולה על 25% ואינו עולה על 40%", i.e. **(low, high]**. Exactly 40% decline falls in the 7% tier, not the 11% tier.
 
-### Step 4b: Small business continuity grant table (turnover ≤ 300,000 NIS only)
+**Per-employee cap on the wage part:**
 
-Single monthly payment, no formula. Look up the (annual turnover band, decline tier) cell. **Post-passage authoritative values** per Kol-Zchut (updated after the law passed Knesset 4.5.2026). Pre-passage Mako/CPA-Institute figures (11-12.03.2026) were ~1.7-1.9% lower; do not quote those.
+```
+perEmpCap = 13,769 x 1.25 x numberOfEligibleEmployees x declineRate
+```
 
-| Annual turnover (₪) | 25-40% decline | 40-60% | 60-80% | 80-100% |
+13,769 is the National Insurance average wage as known in March 2026 (the statute's own reference point), not 13,773. x1.25 is the employer-cost coefficient (מקדם עלות מעביד).
+
+**Two statutory deductions from the wage base:** subtract pay for vacation days the employee used (ימי חופשה שניצל העובד), and subtract any sums Bituach Leumi reimbursed the employer for reserve duty (החזר תגמולי מילואים).
+
+**Do not double-count חל"ת workers in the wage base.** An employee on unpaid leave earns no wages in the period and is collecting dmei avtala from Bituach Leumi (Step 5), so their salary is NOT part of the wage base for those days. Counting them in both inflates the grant and invites a clawback of the 60% advance.
+
+**Floor rule (§38לז(ג)):** if a business on the nationwide track would receive LESS than the small-business band (b)(7) would have paid it, it is entitled to the (b)(7) amount instead. Compute both and apply the floor.
+
+### Step 4b: Small business continuity grant table (turnover up to 300,000 NIS only)
+
+**Every amount in the statute is PER MONTH, and the law pays double (פי 2) for the March-April 2026 period.** §38לז(ב): "זכאי לפיצויים בסכום של **פי 2** מהסכום המפורט בפסקאות שלהלן". The table below is ALREADY doubled - these are the amounts actually paid.
+
+| Annual turnover (₪) | Over 25% to 40% | Over 40% to 60% | Over 60% to 80% | Over 80% |
 |---|---|---|---|---|
-| 12,000 - 50,000 | 1,864 | 1,864 | 1,864 | 1,864 |
-| 50,000 - 90,000 | 3,356 | 3,356 | 3,356 | 3,356 |
-| 90,000 - 120,000 | 4,475 | 4,475 | 4,475 | 4,475 |
-| 120,000 - 150,000 | 2,823 | 4,234.50 | 6,775.20 | 8,469 |
-| 150,000 - 200,000 | 3,329 | 4,993.50 | 7,989.60 | 9,987 |
-| 200,000 - 250,000 | 4,261 | 6,391.50 | 10,226.40 | 12,783 |
-| 250,000 - 300,000 | 4,980 | 7,470 | 11,952 | 14,940 |
+| 12,000 - 50,000 | 3,728 | 3,728 | 3,728 | 3,728 |
+| 50,000 - 90,000 | 6,712 | 6,712 | 6,712 | 6,712 |
+| 90,000 - 120,000 | 8,950 | 8,950 | 8,950 | 8,950 |
+| 120,000 - 150,000 | 5,646 | 8,469 | 13,550.40 | 16,938 |
+| 150,000 - 200,000 | 6,658 | 9,987 | 15,979.20 | 19,974 |
+| 200,000 - 250,000 | 8,522 | 12,783 | 20,452.80 | 25,566 |
+| 250,000 - 300,000 | 9,960 | 14,940 | 23,904 | 29,880 |
+
+The four bands above 120K scale by the statutory **damage coefficient (מקדם הנזק)**: **1** (decline over 25% to 40%), **1.5** (over 40% to 60%), **2.4** (over 60% to 80%), **3** (over 80%). The three bands up to 120K pay a flat doubled amount regardless of decline tier.
+
+**The decline gate DOES apply to this track.** §38לז(ב) pays these amounts "ובלבד שמתקיימים לגביו התנאים הקבועים בפסקאות (2) עד (6) שבסעיף קטן (א)", and (a)(2) requires that "שיעור הירידה במחזור העסקאות שלו עולה על 25%". A business at or below 25% decline gets NOTHING on this track either. Never tell a 20%-decline business that the small-business track "does not impose the decline gate".
 
 Notes:
-- All amounts are NIS, single grant for the March-April 2026 damage period.
-- The bottom three turnover bands (up to 120K) pay a flat amount regardless of decline tier (post-passage rule); the four bands above 120K scale by decline tier.
-- Online filing window for this track: **17.05.2026 - 17.08.2026** per the kolzchut authoritative page; verify the active dates on https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar before promising deadlines (windows have been extended multiple times since the law passed).
-- The skill's `scripts/calc_grant.py` does NOT compute this table; it covers only the wage / fixed-cost track for businesses above 300K. For small businesses, route to the gov.il portal and reference this table.
+- Online filing window: **17.05.2026 - 17.08.2026**; verify on https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar before promising deadlines.
+- `scripts/calc_grant.py` computes this table as well as the nationwide track.
 
 ### Step 5: Stack with reservist & employee-side benefits (additive, not exclusive)
 
@@ -129,7 +164,7 @@ Output a documentation pack the user must assemble before opening the gov.il fil
 - Profit & loss statement for the reference year
 - ניהול ספרים (revenue books) for both periods
 - Bank statements covering both periods
-- Business registration confirmation (תעודת עוסק) showing pre-31.12.2024 registration
+- Business registration confirmation (תעודת עוסק) showing the business opened by 27.02.2026
 
 **Wage track only:**
 - Form 102 (`טופס 102`) - payroll declaration for claim-period months
@@ -153,7 +188,7 @@ Output a documentation pack the user must assemble before opening the gov.il fil
 Set realistic expectations:
 
 - **21 days** after a complete filing: 60% advance payment lands.
-- **150 days**: full determination of the remaining 40%.
+- **150 days**: if no decision has been issued, an ADDITIONAL 10% advance is paid (70% advanced in total). This is NOT the final determination of the balance (§38מא(ד)).
 - **8 months**: if no decision is issued, the claim is automatically approved.
 
 ### Step 8: Plan for the tax bill on the grant
@@ -164,14 +199,14 @@ Surface this proactively. Suggest the owner top up מקדמות (advance tax pay
 
 ### Step 9: Appeals if rejected or under-paid
 
-The Property Tax & Compensation Fund Law, 1961 establishes a two-stage appeals path. For INDIRECT damage compensation (the subject of this skill), the appeals committee is established under **§38ל** (Chapter 8B, the indirect-damage compensation chapter), NOT under §29 (which covers general property-tax appeals).
+The live Shaagat HaAri track has its own two-stage appeals path, set by the 2026 economic-assistance law, NOT by §38ל.
 
-| Stage | Filed with |
-|---|---|
-| השגה (objection) | The same assessing officer (פקיד שומה) who issued the decision |
-| ערר (appeal) | ועדת ערר under §38ל - independent appeals committee dedicated to indirect-damage compensation under the Property Tax Law |
+| Stage | Filed with | Deadline |
+|---|---|---|
+| השגה (objection) | A Tax Authority employee **the Director authorised for the purpose** - NOT the officer who issued the decision (§38מז(א)(1)) | **60 days** from the decision |
+| ערר (appeal) | The **ועדת ערר constituted under §21 of the Corona economic-assistance law (2020)**, sitting at the Ministry of Justice (§38מז(ב), §38מח) | **60 days** from the objection decision |
 
-Day-count windows for each stage are defined in the operative hora'at sha'a regulation rather than a fixed code rule, and they're tight (typically 30–60 days). Read the rejection letter carefully for the explicit deadline rather than relying on memory. Miss the השגה window and the ערר window slams shut too. Flag this immediately to any user with a denial or partial approval.
+Both windows are fixed at 60 days by statute. Do not tell a claimant the day-counts "live in the operative hora'at sha'a", and do not send the objection back to the officer who issued the decision. Miss the השגה window and the ערר window slams shut too. Flag this immediately to any user with a denial or partial approval.
 
 ## Recommended MCP Servers
 
@@ -190,6 +225,7 @@ Day-count windows for each stage are defined in the operative hora'at sha'a regu
 | Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of both Shaagat HaAri assistance laws (ספר החוקים 3525) |
 | Kol-Zchut: Shaagat HaAri business owner Q&A | https://www.kolzchut.org.il/he/שאלות_ותשובות_לעצמאים_ובעלי_עסקים_במהלך_המלחמה_מול_איראן_(מבצע_שאגת_הארי) | Plain-language coverage of eligibility, halat 5/10-day bifurcation, cross-references to specific regulations |
 | Tax Authority track index | https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks | Track exclusivity rules, list of red-track yishuvim |
+| Economic Assistance Law (Shaagat HaAri), 2026 - the operative statute | https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf | §38לו definitions, §38לז small-business table + doubling, §38מא advances, §38מז-מח appeals |
 | Property Tax & Compensation Fund Law | https://www.nevo.co.il/law_html/law01/273_001.htm | Statutory definitions, §§35–36 indirect damage, §38ל ועדת ערר for indirect damage (§29 is the general property-tax appeals committee, not the indirect-damage one) |
 | Bituach Leumi (Shaagat HaAri page) | https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx | Bifurcated 5/10-day חל"ת rule, dmei avtala mechanics, employer reservist comp filing |
 | Treasury Ministry (אגף דוברות) framework briefs | https://www.gov.il/he/departments/ministry_of_finance | 30.03.2026 "מתווה פיצויים למשק" brief: 10-day חל"ת rule, retroactive employment-service registration to 14.05.2026, NPO/daycare eligibility, northern 100% tracks |
@@ -200,7 +236,7 @@ Day-count windows for each stage are defined in the operative hora'at sha'a regu
 
 1. **Track exclusivity is per damage period, not per business.** Choose the wrong track and the entire period's claim is forfeit (no reverting). Always run all four track calculations before recommending.
 2. **The 25% threshold is a hard cliff, not a sliding scale.** A business at 24.9% decline gets nothing under the wage/fixed-cost track. The fixed-cost tier multipliers (7%/11%/15%/22%) only kick in once the gate is cleared. Note: under Shaagat HaAri the 25% test is the SAME for monthly and bi-monthly filers (the bi-monthly filer compares the full March-April period) - do not apply a halved 12.5% bi-monthly threshold, which was a mistaken carryover from earlier framework drafts.
-3. **The wage track cap stacks two limits, not one.** Both `0.75 × declineRate × form102GrossWages × 1.25` AND `13,773 × 1.25 × employees × declineRate` apply; the grant is the LOWER of the two raw amounts (i.e., min of formula vs per-employee cap), not the sum. Computing them as additive overstates the grant by 50–100%. Both sides carry the ×1.25 employer-cost coefficient, so they are in the same units.
+3. **The wage part and the fixed-cost part are ADDED, then doubled (§38לו). They are NOT alternatives.** Paying "whichever track is higher" understates the grant for any business with both payroll and fixed costs. Within the wage part, the per-employee cap (13,769 x 1.25 x employees x declineRate) is a CEILING on the wage part, not a second additive component.
 4. **Northern evacuated businesses use 2023 baseline AND have the decline floor waived** - but only on the dedicated northern track. If the agent files under the standard nationwide track, the 2023 baseline does NOT apply and the claim under-pays.
 5. **The grant is taxable ordinary income.** Owners frequently spend the 60% advance and get hit by a marginal-rate tax bill (up to 47% for high earners) on the annual return. Always surface this in the output.
 6. **The 8-month auto-approval rule is a floor, not a service-level commitment.** Real-world processing routinely slips. Encourage the owner to hold receipts and respond to any clarification request within 14 days to keep the timer running.
@@ -209,15 +245,15 @@ Day-count windows for each stage are defined in the operative hora'at sha'a regu
 
 ### Issue: User's turnover decline is 20% - close to the threshold but below
 
-The 25% gate is statutory and applies to monthly and bi-monthly filers alike under Shaagat HaAri (no halved bi-monthly threshold). Below it, the wage/fixed-cost track is unavailable. Two real fallbacks: (1) the small business continuity track (turnover ≤ 300,000 NIS) doesn't impose the decline gate as a formula and may still pay a fixed amount on a ≥25% declaration; (2) cash-basis (בסיס מזומן) filers report their war-period revenue a VAT period later, so their comparison period may differ - confirm the specific baseline for their filing cadence on the gov.il portal, since a business that looks flat in March-April may still show a qualifying decline in the shifted period. If the claim is for an older Iron Swords damage period, check that regulation's own threshold.
+The gate is statutory: the decline must EXCEED 25% (not merely reach it), and it applies to monthly and bi-monthly filers alike. **There is no fallback track for a business under the gate.** The small-business (up to 300K) track does NOT waive it: §38לז(ב) grants those amounts only "ובלבד שמתקיימים... התנאים בפסקאות (2) עד (6) שבסעיף קטן (א)", and (a)(2) is the decline test. Telling a 20%-decline business to file the small-business track sends them into a claim that cannot succeed. The one genuine avenue: cash-basis (בסיס מזומן) filers report their war-period revenue a VAT period later, so their comparison period may differ - confirm the specific baseline for their filing cadence on the gov.il portal, since a business that looks flat in March-April may still show a qualifying decline in the shifted period. If the claim is for an older Iron Swords damage period, check that regulation's own threshold.
 
 ### Issue: Employee was on חל"ת for 8 days
 
 The Shaagat HaAri minimum is **bifurcated** (effective 5.5.2026 amendment): **5 consecutive days** if the chal"t started on 28.2.2026 or 1.3.2026 (the first two war days only); **10 consecutive days** for chal"t starting any later date. Once the applicable threshold is crossed, dmei avtala covers ALL days from day one (no waiting period). Eight days fails BOTH gates if the chal"t started after 1.3.2026 (needs 10) and would also fail the 5-day gate if not in the early-onset window. Recommend the employer extend the leave to 10 consecutive days for the general case, or fall back to standard dmei avtala rules (30-day default with five-day waiting period) if eligible. Splitting the leave (e.g., 5 days off, 2 days back, 5 days off) does NOT aggregate; each block is evaluated separately and must independently clear its applicable threshold. The 5-day early-onset cohort's first BL payments only landed June 2026 due to the late amendment, so flag the payment-timing delay to those users.
 
-### Issue: Business registered 15.01.2025 - newer than the standard pre-31.12.2024 cohort
+### Issue: Business opened 15.01.2025 - newer than the standard pre-01.01.2025 cohort
 
-Eligible, but the baseline period changes. For businesses opened January–February 2025, the baseline is March 2025 through February 2026 (averaged) rather than the standard same-period prior year. For businesses opened from March 1, 2025 onward, the baseline is the business's own first reporting period through February 28, 2026. Apply the 25% decline test against the alternate baseline. The business is not auto-rejected as it would be under a hard 31.12.2024 cliff.
+Eligible, but the baseline formula changes. For a business opened after 01.01.2025 the base turnover is: total transactions from the opening date (or 01.07.2025, whichever is LATER), divided by the number of active months, x2 for the two-month eligible period (and x12 for the base year). Apply the decline test against that alternate baseline. The one genuine cliff is different: the business must have OPENED by 27.02.2026 and notified the Tax Authority by 28.02.2026, or it cannot claim at all.
 
 ### Issue: User received private business interruption insurance payout
 

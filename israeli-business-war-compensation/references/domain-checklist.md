@@ -10,7 +10,7 @@ Generated: 2026-04-27, refreshed 2026-04-28 against Treasury Ministry brief (30.
 - [x] Eligibility thresholds - ≥25% decline over the March-April 2026 combined period vs the base period (same two months 2025, or 2023 for evacuated north), applied to BOTH monthly and bi-monthly filers (a bi-monthly filer compares the full two-month report; there is no halved 12.5% bi-monthly gate under Shaagat HaAri). - why core: gating eligibility check.
 - [x] Cash-basis (בסיס מזומן / +30 payment-terms) filers - because their war-period revenue is reported a VAT period later, their comparison/reporting period and filing window may shift accordingly; confirm the specific baseline and window for their cadence on the gov.il portal. - source: CPA briefs (poenta/amir-cpa); exact window not published on the main gov.il service page as of 2026-07-06 - why core: a whole filer class (contractors, +30-terms businesses) whose damage does not show in the March-April reports.
 - [x] Eligibility - turnover band 12,000 NIS ≤ annual turnover ≤ 400M NIS, registered and active by 31.12.2024. - why core: floor and ceiling are hard exclusions.
-- [x] Wage participation grant formula - 75% × (turnover decline rate) × (Form-102 gross wages × 1.25 employer-cost coefficient), capped per employee at 13,773 × 1.25 (≈ 17,216) × employees × decline rate, aggregate ceiling 600,000 NIS for businesses above 300,000 NIS turnover (up to 100M; larger firms have a higher ceiling). - why core: central deliverable.
+- [x] Eligible-expenses grant (§38לו) - (fixed expenses + eligible wage part), capped, THEN x2. The parts are ADDED, not compared. Wage part = Form-102 wages x decline rate, capped per employee at 13,769 x 1.25 x employees x decline rate. Fixed part = prior-year VAT inputs / 6 x coefficient. Effective cap 1.2M (turnover <= 100M). - why core: central deliverable.
 - [x] Fixed-cost (inputs) track - tiered multiplier on monthly fixed expenses: 25–40% decline → 7%; 40–60% → 11%; 60–80% → 15%; 80–100% → 22%. System pays whichever of (wage track, fixed-cost track) yields higher amount. - why core: ignoring fixed-cost track leaves money on the table.
 - [x] Small business fast track (turnover ≤ 300,000 NIS) - fixed-amount table lookup ("מענק המשכיות עסקית"), no formula, different filing form, exclusive of wage/fixed-cost track. Table reproduced inline in SKILL.md Step 4b (post-passage kolzchut/legislated values, ranging from 1,864 for the 12-50K band up to 14,940 for the 250-300K / 80-100%-decline cell; pre-passage press summaries quoted a lower ~1,833-14,691 range, do not use those). - source: CPA Institute Shaagat HaAri framework brief 11.03.2026, cross-referenced against Treasury Ministry brief 30.03.2026 - why core: 300k NIS is the bright-line routing threshold and the table values gate cash-flow expectations.
 - [x] NPO (amuta / mlcr) eligibility - entities with ≥25% income from "activity income" (הכנסה מפעילות) qualify under the same framework as businesses. Sub-25% NPOs that were nonetheless harmed get a separate dedicated grant program coordinated by Treasury + Ministry of Culture & Sport (tens of millions ₪). - source: Treasury brief 30.03.2026 - why core: nonprofits routinely call the same hotline; routing them away to "businesses only" would forfeit eligible claims.
@@ -53,3 +53,36 @@ Generated: 2026-04-27, refreshed 2026-04-28 against Treasury Ministry brief (30.
 - https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C - Plain-language entitlement entry for general business compensation.
 - https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F - Reservist business-owner grant.
 - https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx - Bituach Leumi Shaagat HaAri updates. Verify the bifurcated 5/10-day חל"ת threshold and employee-side filing flow.
+
+## Must cover (statutory core) -- these regressed once and must be checked every cycle
+
+Source of truth: חוק התוכנית לסיוע כלכלי (הוראת שעה)(סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026
+(https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf). Do NOT source any figure in this
+skill from a blog, a press release, or a CPA-firm summary; go to the statute.
+
+- **§38לו: הוצאות מזכות = הוצאות קבועות + חלק השכר המזכה, capped, THEN x2.** The wage
+  part and the fixed-cost part are ADDED. "Run both tracks, pay the higher" is WRONG and
+  understates the grant for any business with both payroll and fixed costs.
+- **The cap is doubled too:** 600K -> 1.2M effective (turnover <= 100M); 600K + 0.3% of the
+  excess (100M-300M); 1.2M -> 2.4M (300M-400M).
+- **הוצאות קבועות = prior-year total VAT inputs / 6 x coefficient**, NOT the owner's monthly
+  rent/electricity/leasing.
+- **Sector coefficients override the tiers:** fuel x0.35, VAT-§33-exempt x0.19, קבלן ביצוע
+  x0.68, director's discretion capped at x2.
+- **Bands are (low, high]:** exactly 40% decline -> the 7% tier (and damage coefficient 1).
+- **§38לז(ב): the small-business (<=300K) amounts are PER MONTH and paid at x2.** The table
+  in SKILL.md is the already-doubled one (3,728 / 6,712 / 8,950 / then damage-coefficient
+  scaled). Quoting the statute's raw numbers halves every small business's grant.
+- **The >25% decline gate applies to EVERY track, including small business** (§38לז(ב)
+  incorporates (a)(2)). A business at or below 25% gets nothing. Never route it to the
+  small-business track as a "fallback".
+- **§38לז(ג) floor:** a nationwide-track business receiving less than the top small-business
+  band gets that band's amount instead.
+- **Average wage = 13,769** (the s.2(b) figure "as known in March 2026"), not 13,773.
+- **Wage base deductions:** minus vacation pay used, minus BTL reserve-duty reimbursements.
+- **Advances:** 60% at 21 days; an ADDITIONAL 10% at 150 days if no decision (70% total);
+  deemed approval at 8 months. The 150-day milestone is NOT the final determination.
+- **Appeals:** השגה 60 days to a Director-authorised employee (NOT the issuing officer);
+  ערר 60 days to the ועדת ערר under §21 of the 2020 Corona economic-assistance law. Not §38ל.
+- **Hard cliff:** the business must have OPENED by 27.02.2026 (Tax Authority notified by
+  28.02.2026). The 01.01.2025 pivot only changes the baseline formula.

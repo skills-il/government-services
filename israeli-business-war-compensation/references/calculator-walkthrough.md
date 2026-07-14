@@ -1,167 +1,110 @@
-# Calculator Walkthrough - All Four Tracks
+# Calculator Walkthrough (Shaagat HaAri, March-April 2026)
 
-Worked examples covering each of the four mutually exclusive compensation tracks under the Shaagat HaAri / Iron Swords frameworks. Use these as test cases when verifying an agent's calculation. All numbers below are illustrative inputs and derived outputs from the published formulas (see evidence.json for the source of every formula constant - average wage, tier multipliers, aggregate cap).
+> **REGENERATED 2026-07-14 from `scripts/calc_grant.py`.** Every example below previously
+> computed `MAX(wage track, fixed-cost track)`. That is not the law. §38לו defines הוצאות
+> מזכות as the fixed expenses **plus** the eligible wage part, capped, then **doubled**.
+> These examples are the calculator's own output, so prose and code cannot drift apart.
 
-## Example 1: Tel Aviv café - wage track wins
-
-Profile: café in central Tel Aviv, monthly VAT filer, 5 employees.
-
-```
-Inputs:
-  Turnover March 2025         = 280000 NIS
-  Turnover March 2026         = 168000 NIS
-  March 2026 wages paid       = 70000 NIS
-  Monthly fixed expenses      = 28000 NIS  (rent + electricity + leasing)
-  Reporting period            = 1 month
-  VAT cadence                 = monthly
-
-Step A - eligibility
-  decline = (280000 - 168000) / 280000 = 0.40   (40% drop)
-  threshold (monthly filer) = 0.25              (PASS)
-  annual turnover estimate ~ 168000 * 12 = 2.0M (within band)
-  registration assumed pre-31.12.2024           (PASS)
-
-Step B - wage track
-  rawWageGrant = 0.75 * 0.40 * 70000 * 1.25 = 26250 NIS   (×1.25 employer-cost gross-up)
-  perEmpCap    = avgWage * 1.25 * 5 * 0.40 = 34432 NIS     (13,773 × 1.25 employer-cost coefficient)
-  wageGrant    = min(26250, 34432) = 26250 NIS            (raw side binds)
-
-Step C - fixed-cost track
-  decline 0.40 falls in the 40-60% tier (calc_grant.py uses low <= decline < high)
-  tier multiplier = 0.11
-  fixedCostGrant = 0.11 * 28000 * 1 = 3080 NIS
-
-Result: wage track (26250 NIS) wins over fixed-cost (3080 NIS). File under the nationwide wage track.
-```
-
-## Example 2: Galilee restaurant evacuated since Oct 2023 - northern baseline
-
-Profile: restaurant in Shtula (border yishuv), evacuated October 2023.
+Command shape:
 
 ```
-Inputs:
-  Turnover March 2023         = 110000 NIS    (BASELINE - northern exception)
-  Turnover March 2026         = 9000 NIS
-  Wages paid                  = 0             (owner-only, no employees)
-  Monthly fixed expenses      = 18000 NIS
-  Reporting period            = 1 month
-
-Step A - northern exception applies
-  Baseline is March 2023 (not March 2025)
-  decline = (110000 - 9000) / 110000 = 0.918   (91.8% drop)
-  Northern dedicated track: NO minimum decline threshold required
-
-Step B - track choice
-  Shtula is on the red-track yishuv list
-  Red track §35: no upper cap, profit losses compensable
-  → recommend red track over wage/fixed-cost track
-
-Step C - border advance
-  Border/red-track businesses request a partial advance (before the full
-  claim) via the frontier advance page:
-  gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion
-
-Result: file under red track §35. Request the advance immediately.
+python scripts/calc_grant.py --ref-turnover R --claim-turnover C \
+    --wages W --employees N --vat-inputs V --base-year-turnover B [--sector fuel|vat-exempt|contractor]
 ```
 
-## Example 3: Solo bookkeeper - small business continuity track
+Reminder: `--vat-inputs` is the PREVIOUS year's total current VAT inputs (סך התשומות
+השוטפות), NOT the owner's monthly rent and utilities. `--wages` is Form 102 gross wages
+for March-April 2026, already net of vacation pay used and of any BTL reserve-duty
+reimbursement to the employer.
 
-Profile: osek murshe bookkeeper, no employees, home office.
-
-```
-Inputs:
-  Turnover March 2025         = 18000 NIS
-  Turnover March 2026         = 12500 NIS
-  Wages paid                  = 0
-  Monthly fixed expenses      = 1200 NIS
-  Annual turnover (last year) = 215000 NIS
-
-Step A - eligibility
-  Annual turnover 215000 NIS is ≤ 300000 NIS
-  → small business continuity grant track applies
-  → the 25% decline threshold does NOT apply as a formula on this track
-
-Step B - exclusivity
-  Small-business track is exclusive of wage/fixed-cost track
-  Do NOT compute wage/fixed-cost
-  Submit small-business form (separate flow)
-
-Result: small business continuity grant per the gov.il table for
-the 12000-300000 NIS bracket. Pull exact table amount from the
-kolzchut entry: kolzchut.org.il/he/פיצוי_לעסקים_קטנים
-```
-
-## Example 4: Mid-size SaaS company - wage track wins despite per-employee cap
-
-Profile: B2B SaaS, 8 employees on remote work, leased office.
+## Example 1 - cafe, 40% decline, payroll + fixed costs
 
 ```
-Inputs:
-  Turnover March 2025         = 850000 NIS
-  Turnover March 2026         = 595000 NIS
-  Wages paid                  = 220000 NIS
-  Monthly fixed expenses      = 95000 NIS    (rent, AWS, leasing)
+$ python scripts/calc_grant.py --ref-turnover 280000 --claim-turnover 168000 --wages 70000 --employees 5 --vat-inputs 336000 --base-year-turnover 1680000
+=== Shaagat HaAri indirect-damage compensation (March-April 2026) ===
 
-Step A - eligibility
-  decline = (850000 - 595000) / 850000 = 0.30   (30% drop)
-  Above 25% monthly threshold
+Turnover decline:      40.0%
+Status:                OK (nationwide track)
 
-Step B - wage track
-  rawWageGrant = 0.75 * 0.30 * 220000 = 49500 NIS
-  perEmpCap    = avgWage * 1.25 * 8 * 0.30      (13,773 × 1.25 employer-cost coefficient)
-  wageGrant    = min(rawWageGrant, perEmpCap)
-  Per-employee cap binds (wages above the employer-cost average-wage proxy)
-  → wageGrant ~ 41319 NIS
+Wage part              28,000.00 NIS  (per-employee cap 34,422.50)
+Fixed-cost part      + 3,920.00 NIS  (coefficient 7.00%)
+Eligible expenses    = 31,920.00 NIS  (ADDED, not compared)
+Cap (before x2)        600,000.00 NIS
+x2 per §38לו
 
-Step C - fixed-cost track
-  decline 0.30 sits in 25-40% tier
-  multiplier = 0.07
-  fixedCostGrant = 0.07 * 95000 * 1 = 6650 NIS
+TOTAL GRANT:           63,840.00 NIS
 
-Result: wage track ~ 41319 NIS clearly beats fixed-cost track 6650 NIS.
-Surface that the per-employee cap reduced the grant from raw 49500 NIS.
+NOTE: fixed expenses come from the PREVIOUS year's total VAT inputs / 6,
+      NOT from the owner's monthly rent and utility bills.
 ```
 
-## Example 5: Aggregate cap potentially binding - large corporation
-
-Profile: retail chain, 60 employees, multiple stores.
+## Example 2 - small business (250-300K band), 70% decline
 
 ```
-Inputs:
-  Turnover March 2025         = 4200000 NIS
-  Turnover March 2026         = 2940000 NIS
-  Wages paid                  = 1800000 NIS
-  Monthly fixed expenses      = 540000 NIS
+$ python scripts/calc_grant.py --ref-turnover 45000 --claim-turnover 13500 --base-year-turnover 270000
+=== Shaagat HaAri indirect-damage compensation (March-April 2026) ===
 
-Step A - eligibility
-  decline = 0.30, turnover 2.94M NIS within band
-  Above 300000 NIS threshold → aggregate ceiling 600000 NIS applies
+Turnover decline:      70.0%
+Status:                OK (small-business continuity track, <=300K turnover)
 
-Step B - wage track
-  rawWageGrant = 0.75 * 0.30 * 1800000 = 405000 NIS
-  perEmpCap    = avgWage * 1.25 * 60 * 0.30      (13,773 × 1.25 employer-cost coefficient)
-  wageGrant    = min(rawWageGrant, perEmpCap) ~ 309892 NIS
+Small-business grant:  23,904.00 NIS
+  (statutory monthly amount x damage coefficient, then x2 per §38לז(ב))
 
-Step C - fixed-cost track
-  fixedCostGrant = 0.07 * 540000 * 1 = 37800 NIS
+TOTAL GRANT:           23,904.00 NIS
 
-Aggregate cap check: 309892 NIS < 600000 NIS → cap not binding here.
-At higher wages it would clamp to 600000 NIS.
-
-Result: wage track ~ 309892 NIS wins.
+NOTE: fixed expenses come from the PREVIOUS year's total VAT inputs / 6,
+      NOT from the owner's monthly rent and utility bills.
 ```
 
-## How these examples were derived
+## Example 3 - decline exactly 25%: NOT eligible on any track
 
-Every dollar amount above is the output of the calc_grant.py script in scripts/, which encodes:
+```
+$ python scripts/calc_grant.py --ref-turnover 100000 --claim-turnover 75000 --base-year-turnover 600000
+=== Shaagat HaAri indirect-damage compensation (March-April 2026) ===
 
-- The 75% wage formula multiplier (Shaagat HaAri framework)
-- The average wage cap (13,773 NIS × 1.25 employer-cost coefficient ≈ 17,216) on the per-employee branch
-- The 25% eligibility threshold (monthly and bi-monthly filers alike under Shaagat HaAri)
-- The 12000-400M NIS annual turnover band
-- The 300000 NIS small-business cutoff
-- The 600000 NIS aggregate ceiling for businesses above the cutoff
-- The fixed-cost tier multipliers: 7%, 11%, 15%, 22%
-- The partial pre-claim advance (nationwide and border portals)
+Turnover decline:      25.0%
+NOT ELIGIBLE:          Decline 25.0% does not EXCEED the statutory 25% gate. No track is available, including the small-business track (§38לז(ב) incorporates the same >25% test through (a)(2)).
+```
 
-Run `python scripts/calc_grant.py --example` to reproduce Example 1 directly.
+## Example 4 - execution contractor (sector coefficient x0.68)
+
+```
+$ python scripts/calc_grant.py --ref-turnover 500000 --claim-turnover 250000 --wages 200000 --employees 10 --vat-inputs 600000 --base-year-turnover 3000000 --sector contractor
+=== Shaagat HaAri indirect-damage compensation (March-April 2026) ===
+
+Turnover decline:      50.0%
+Status:                OK (nationwide track)
+
+Wage part              86,056.25 NIS  (per-employee cap 86,056.25)
+Fixed-cost part      + 68,000.00 NIS  (coefficient 68.00%)
+Eligible expenses    = 154,056.25 NIS  (ADDED, not compared)
+Cap (before x2)        600,000.00 NIS
+x2 per §38לו
+
+TOTAL GRANT:           308,112.50 NIS
+
+NOTE: fixed expenses come from the PREVIOUS year's total VAT inputs / 6,
+      NOT from the owner's monthly rent and utility bills.
+```
+
+## Example 5 - large firm, cap binds
+
+```
+$ python scripts/calc_grant.py --ref-turnover 5000000 --claim-turnover 1000000 --wages 3000000 --employees 120 --vat-inputs 12000000 --base-year-turnover 30000000
+=== Shaagat HaAri indirect-damage compensation (March-April 2026) ===
+
+Turnover decline:      80.0%
+Status:                OK (nationwide track)
+
+Wage part              1,652,280.00 NIS  (per-employee cap 1,652,280.00)
+Fixed-cost part      + 300,000.00 NIS  (coefficient 15.00%)
+Eligible expenses    = 1,952,280.00 NIS  (ADDED, not compared)
+Cap (before x2)        600,000.00 NIS   <- APPLIED
+x2 per §38לו
+
+TOTAL GRANT:           1,200,000.00 NIS
+
+NOTE: fixed expenses come from the PREVIOUS year's total VAT inputs / 6,
+      NOT from the owner's monthly rent and utility bills.
+```
+
