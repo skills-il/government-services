@@ -31,10 +31,10 @@
     },
     {
       "claim_id": "mas-rechisha-oleh",
-      "claim": "New immigrant (oleh) single-home purchase tax under reformed Regulation 12a (תקנה 12א, from 15.8.2024): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565, 10% above; once only, single residential home, from one year before to seven years after aliyah.",
-      "source_url": "https://cpa-dray.com/he/blog/%D7%9E%D7%A1-%D7%A8%D7%9B%D7%99%D7%A9%D7%94-%D7%9C%D7%A2%D7%95%D7%9C%D7%99%D7%9D-%D7%97%D7%93%D7%A9%D7%99%D7%9D/",
-      "raw_snippet": "עד כ-2,000,000 ש\"ח 0%, מ-2,000,000 עד כ-6,000,000 ש\"ח 0.5%, מעל 8%",
-      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "claim": "New immigrant (oleh) single-home purchase tax under reformed Regulation 12a (תקנה 12א, from 15.8.2024): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565. The relief has a VALUE CEILING: if the home is worth more than 20,183,565 NIS, Regulation 12a does not apply at all and the ordinary brackets tax the full price. Once only, single residential home, from one year before to seven years after aliyah.",
+      "source_url": "https://www.gov.il/he/pages/tax-purchase-1-2026",
+      "raw_snippet": "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול",
+      "fetched_at": "2026-07-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

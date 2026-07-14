@@ -44,7 +44,8 @@ For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brac
 | 0 - 1,978,745 | 0% |
 | 1,978,746 - 6,055,070 | 0.5% |
 | 6,055,071 - 20,183,565 | 8% |
-| 20,183,566+ | 10% |
+
+**The relief has a value ceiling.** If the home is worth MORE than 20,183,565 NIS, Regulation 12a does not apply at all: the purchase is taxed under the ordinary brackets (the first-home or additional-home ladder above, as applicable) on the FULL price, not under the oleh ladder with a 10% top band. ITA purchase-tax circular 1/2026, footnote 1: "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול". Do not tell an oleh buying a 21M NIS home that they still get the 0% and 0.5% steps, they get none of them.
 
 The oleh benefit is granted once only, applies only to a single residential home (not an investment apartment), and is available from one year before aliyah to seven years after. The reformed track no longer requires the home to be the oleh's actual residence.
 
@@ -141,7 +142,7 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 |--------|-----|---------------|
 | Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order a Tabu extract online (regular 15 / historical 74 / consolidated 131 NIS), gush/chelka lookup, liens and mortgages |
 | Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
-| Israel Tax Authority – real estate tax | https://www.gov.il/he/service/real_eatate_taxsimulator | Purchase tax (mas rechisha) simulator and current brackets |
+| Israel Tax Authority -- real estate tax | https://www.gov.il/he/service/real_eatate_taxsimulator | Purchase tax (mas rechisha) simulator and current brackets |
 | Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |
 | Discounted housing (Dira BeHanacha) | https://www.gov.il/he/departments/topics/dira/govil-landing-page | Reduced-price apartment program eligibility and listings |
 
