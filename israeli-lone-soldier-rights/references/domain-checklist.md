@@ -18,7 +18,7 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, mome
 - [x] **Marriage grant supplement**, special one-time grant on top of regular marriage grant
 - [x] **Post-discharge 12-month rent assistance**, up to 1,000 NIS/month × 12 months = 12,000 NIS cap; two installments; via hachvana personal area; hotline *5266
 - [x] **Pikadon, same per-tier amounts as regular discharged soldier**, explicit debunk of "Pikadon Mugdal" misconception
-- [x] **Extended 10-year benefits window**, many post-discharge benefits (academic counseling, scholarships, career programs) extend from 5y to 10y for lone soldiers
+- [x] **Extended 10-year benefits window applies to the section 7 / 7א benefits ONLY** (academic counseling, tuition assistance, scholarships, career programs): 5y to 10y for lone soldiers. It does NOT extend the Pikadon, whose restricted-purpose window is 5 years for a lone soldier exactly as for everyone else, after which the balance is released unrestricted.
 - [x] **Citizenship under Chok HaShvut**, automatic for olim, sal klita absorption period runs in parallel with service
 - [x] **Diaspora orgs (4 distinct)**, Nefesh B'Nefesh + FIDF (joint LSP), FIDF standalone (housing), Garin Tzabar (pre-aliyah kibbutz prep), Lone Soldier Center in Memory of Michael Levin, Mahal (foreign volunteers)
 - [x] **Required documents checklist**, per phase: recognition, active-duty rent, flights, post-discharge rent, Pikadon

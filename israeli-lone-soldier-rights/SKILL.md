@@ -124,13 +124,13 @@ This is independent of the active-duty rent assistance, the active-duty one stop
 
 The Pikadon a lone soldier accrues during service follows the SAME per-month amounts and the SAME 6 permitted purposes as the regular discharged-soldier stack, there is no separate "Pikadon Mugdal" with higher monthly accrual (a common misconception). Lone soldiers get the same per-tier amounts (lochem / tomech lechima / acher / SLE), these are covered in `israeli-discharged-soldier-navigator`.
 
-**Critical: the extended-benefits window for lone soldiers runs 10 years, vs 5 for a regular discharged soldier.** Per the official hachvana (MoD) law page, recognized lone discharged soldiers (and active reservists) receive the §7 and §7א benefits (the extended-benefits + Pikadon entitlements per §1 of Chok Klitat Chayalim Meshuchrarim) for a 10-year window. This means:
+**Critical, and easy to get backwards: the 10-year window covers the §7 / §7א BENEFITS, not the Pikadon.** Per the official hachvana (MoD) law page, a recognized lone discharged soldier (and an active reservist) receives the section 7 and 7א benefits for 10 years instead of 5. The **Pikadon window is 5 years for everyone, lone soldier included**: the restricted-purpose window ends at year 5 and the unused balance is then released to the bank account with no restrictions. There is no 10-year restricted Pikadon window, and telling a lone soldier to "wait, you have until year 10" is wrong on both halves (the restriction is already gone, and the money is already theirs).
 
 | Window | Regular discharged soldier | Lone soldier |
 |---|---|---|
-| Restricted to 6 permitted purposes | 0-5 years post-discharge | **0-10 years post-discharge** |
-| Unrestricted (auto-transfer to bank) | After year 5 | After year 10 |
-| Academic counseling, scholarships, mentorship | 5 years | **10 years** |
+| Pikadon restricted to the 6 permitted purposes | 0-5 years post-discharge | 0-5 years post-discharge (**the same**) |
+| Pikadon unrestricted (auto-transfer to bank) | After year 5 | After year 5 (**the same**) |
+| Section 7 / 7א benefits: academic counseling, tuition assistance, scholarships, mentorship | 5 years | **10 years** |
 | Hachvana career programs | 5 years | **10 years** |
 
 > Source quote (hachvana, MoD): "משך הזכאות של חייל משוחרר להטבות הקבועות בחוק הינה עד 5 שנים... (ועד 10 שנים לבודדים משוחררים ומשרתי מילואים פעילים). חיילים בודדים משוחררים ומשרתי מילואים פעילים יהיו זכאים לקבלת ההטבות בסעיף 7 לחוק ו-7א לחוק כמפורט בסעיף 1, לתקופה של 10 שנים"
@@ -284,7 +284,7 @@ No public MCP server exists for hachvana.mod.gov.il or IDF systems. Aka recognit
 ## Gotchas
 
 - **Recognition (Aka acknowledgment) is the gate for EVERY benefit on this skill.** No formal recognition = no grant, no rent, no flights, no post-discharge rent. If a soldier "lives like a boded" (alone, far from family) but never filed Bakshat Hakara b'Bededut, they get nothing on the lone-soldier package. Verify recognition status before computing entitlements.
-- **There is NO "Pikadon Mugdal" with a higher per-month accrual specific to lone soldiers.** A common misconception is that lone soldiers get an enhanced per-month Pikadon tier. They don't, they get the same per-tier monthly accrual as everyone else (the actual NIS amounts per service tier are CPI-indexed monthly; see `israeli-discharged-soldier-navigator` for current figures, do not hardcode here). What IS lone-soldier-specific is the **doubled benefits window**: 10 years (vs 5) for the §7/§7א entitlements including Pikadon use for the 6 restricted purposes (per §7/§7א of Chok Klitat Chayalim Meshuchrarim, confirmed on the hachvana MoD law page). That is the real Pikadon-side benefit.
+- **There is NO "Pikadon Mugdal" with a higher per-month accrual specific to lone soldiers.** A common misconception is that lone soldiers get an enhanced per-month Pikadon tier. They don't, they get the same per-tier monthly accrual as everyone else (the actual NIS amounts per service tier are CPI-indexed monthly; see `israeli-discharged-soldier-navigator` for current figures, do not hardcode here). What IS lone-soldier-specific is the **doubled benefits window**: 10 years (vs 5) for the section 7 / 7א entitlements, which are the study, scholarship and career benefits. It does NOT extend the Pikadon: the Pikadon's restricted-purpose window is 5 years for a lone soldier exactly as for anyone else, and the balance is released unrestricted after year 5.
 - **The active-duty rent assistance and the post-discharge rent assistance are TWO DIFFERENT benefits.** The active-duty one (rent + utilities, applied via Mashak Tash) ends on discharge day. The post-discharge 12,000 NIS one starts on discharge day and is independent, apply separately via hachvana personal area within the first 12 months.
 - **Smart-card login is deprecated.** The personal area at hachvana.mod.gov.il uses the government identifier (מזהה ממשלתי) or the MoD mobile app push. Skip any documentation that says smart-card.
 - **The 12-month post-discharge rent assistance is "first year", it does not carry over.** If the user does not apply within the 12 months following discharge, the benefit is lost. Set an explicit reminder for olim returning to family abroad temporarily.

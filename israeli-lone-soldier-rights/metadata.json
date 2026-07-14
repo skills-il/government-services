@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -53,12 +53,36 @@
   ],
   "volatility": "legislative",
   "authoritative_sources": [
-    { "url": "https://www.kolzchut.org.il/he/חייל_בודד", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/חיילים_בודדים", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/מענק_חודשי_לחיילים_בודדים", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים", "type": "regulator", "language": "he" },
-    { "url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/", "type": "ngo", "language": "en" }
+    {
+      "url": "https://www.kolzchut.org.il/he/חייל_בודד",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/חיילים_בודדים",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/מענק_חודשי_לחיילים_בודדים",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "type": "ngo",
+      "language": "en"
+    }
   ],
   "domain_checklist_version": 2
 }
