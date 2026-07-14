@@ -9,7 +9,11 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/claims-process-flowchart.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
     },
     {
       "claim_id": "regular-track-no-ceiling",
@@ -17,7 +21,11 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/claims-process-flowchart.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
     },
     {
       "claim_id": "premium-rate-0.3",
@@ -25,7 +33,11 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "max-insurable-value-1037100",
@@ -33,7 +45,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "max-annual-premium-3111",
@@ -41,7 +56,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "ceiling-single-52750",
@@ -49,7 +67,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "ceiling-couple-85000",
@@ -57,7 +78,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "supplement-elderly-10000",
@@ -65,7 +89,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "supplement-per-child-9000",
@@ -73,7 +100,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "ceiling-family-of-4-103000",
@@ -81,7 +111,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "ceiling-family-of-5-150000",
@@ -89,7 +122,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "category-furniture-couple-25000",
@@ -97,7 +133,9 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["references/compensation-ceilings.md"]
+      "appears_in": [
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "category-electronics-couple-30000",
@@ -105,7 +143,9 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["references/compensation-ceilings.md"]
+      "appears_in": [
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "per-child-furniture-5200",
@@ -113,7 +153,9 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["references/compensation-ceilings.md"]
+      "appears_in": [
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "per-child-clothing-750",
@@ -121,7 +163,9 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["references/compensation-ceilings.md"]
+      "appears_in": [
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "example-damage-20000",
@@ -129,7 +173,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "example-damage-15000",
@@ -137,7 +184,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "example-damage-40000",
@@ -145,7 +195,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "example-electronics-130000",
@@ -153,7 +206,9 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL_HE.md"]
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "property-tax-law-1961",
@@ -161,7 +216,11 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
       "raw_snippet": "חוק מס רכוש וקרן פיצויים, תשכ\"א-1961",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/compensation-ceilings.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
     },
     {
       "claim_id": "property-tax-regulations-1973-reg-8",
@@ -169,7 +228,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
       "raw_snippet": "תקנה 8 - החלטת המנהל ותשלום הפיצוי: המנהל מחליט על זכאות התובע, סכומי פיצוי, אופן התשלום ושיקום הנזק",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "property-tax-regulations-1973-reg-9",
@@ -177,7 +239,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
       "raw_snippet": "תקנה 9 - תיקון החלטת המנהל: המנהל רשאי לתקן את החלטתו תוך ארבע שנים אם התגלו עובדות חדשות או הייתה טעות",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "property-tax-regulations-1973-reg-10",
@@ -185,7 +250,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
       "raw_snippet": "תקנה 10 - בוטלה. בנוסח קודם: הקמת ועדה לנזק עקיף בת שלושה חברים ממשרדי הביטחון, האוצר והחקלאות",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "tax-authority-hotline-4954",
@@ -193,7 +261,10 @@
       "source_url": "TBD",
       "raw_snippet": "PENDING_VERIFICATION",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "references/claims-process-flowchart.md"]
+      "appears_in": [
+        "SKILL.md",
+        "references/claims-process-flowchart.md"
+      ]
     },
     {
       "claim_id": "url-gov-il-online-direct-damage-claim",
@@ -201,7 +272,10 @@
       "source_url": "https://www.gov.il/he/service/online-direct-damage-claim",
       "raw_snippet": "https://www.gov.il/he/service/online-direct-damage-claim",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-gov-il-israel-tax-authority",
@@ -209,7 +283,10 @@
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "https://www.gov.il/he/departments/israel_tax_authority",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-nevo-property-tax-law",
@@ -217,7 +294,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
       "raw_snippet": "חוק מס רכוש וקרן פיצויים, תשכ\"א-1961",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-nevo-property-tax-regulations",
@@ -225,7 +305,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
       "raw_snippet": "תקנות מס רכוש, התשל\"ג-1973",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-mevaker-2026-tax-emergency-report",
@@ -233,7 +316,10 @@
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
       "raw_snippet": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-small-business-compensation",
@@ -241,7 +327,65 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D",
       "raw_snippet": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D — equivalent rendered Hebrew URL: https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים",
       "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "contents-ceilings-2026",
+      "claim": "Household-contents compensation ceilings, effective 01.01.2026 (NIS / ש\"ח): furniture 14,198 single, 24,552 couple or single parent, 4,964 per child under 18, 7,258 per additional adult. Clothing 2,366 / 4,731 / 710 / 2,366. Electrical appliances and electronics 24,894 / 30,175 / 505 / 3,961. Other household items 10,370 / 24,891 ש\"ח / 2,281 / 4,563. Totals 51,828 / 84,349 / 8,460 / 18,148. The ceilings are per category and are not interchangeable. Amounts are index-linked and reissued on 1 January and 1 July.",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_על_נזק_שנגרם_לרכוש_בגין_פגיעת_איבה_על_רקע_גזעני_או_לאומני",
+      "raw_snippet": "רהיטים 14,198 ₪ 24,552 ₪ 4,964 ₪ 7,258 ₪ בגדים 2,366 ₪ 4,731 ₪ 710 ₪ 2,366 ₪ מכשירי חשמל ואלקטרוניקה 24,894 ₪ 30,175 ₪ 505 ₪ 3,961 ₪ חפצים ביתיים אחרים 10,370 ₪ 24,891 ₪ 2,281 ₪ 4,563 ₪ (נכון ל-01.01.2026)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "household-item-definition",
+      "claim": "Definition of a household item in the regulations, and the exclusions: cash, cheques, jewellery, artworks and antiques are not compensated.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "רהיטים, ביגוד, כלים, מכשירים לשימוש ביתי, ספרים ותקליטים, המצויים בבית מגוריו של אדם ואינם נכס כהגדרתו בחוק, למעט תכשיטים, חפצי אמנות ועתיקות",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "notice-and-claim-deadlines",
+      "claim": "תקנה 5 (regulation 5) of תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), תשל\"ג-1973: notice of damage within two weeks of the damage; the claim itself within one month per the base text (the Tax Authority's operational guidance for the current operations says three months). Regulation 5(ג) empowers the director to extend BOTH deadlines where there is a reasonable cause, so neither is an automatic forfeiture, and the extension must be requested before the deadline passes. Filing the notice is not filing the claim.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "הודעה על נזק תוגש למנהל בטופס שקבע, תוך שבועיים מיום קרות הנזק. ... תביעה לפיצויים תוגש למנהל בטופס שקבע, תוך חודש מיום קרות הנזק. ... המנהל רשאי להאריך את המועדים לפי תקנות משנה (א) ו-(ב) אם נוכח כי ישנה סיבה סבירה לכך.",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-route",
+      "claim": "Appeal (ערר): fill in the appeal form and email it to Ararim@taxes.gov.il. תקנה 11 (regulation 11) sets the deadline at 30 days from delivery of the director's decision. A claim filed through the fast track that was only partially approved has no appeal to the ועדת ערר; the appeal route there is open only for an outright rejection.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "יש למלא את הפרטים בטופס הערר ולשלוח בדוא\"ל לכתובת Ararim@taxes.gov.il",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fast-track-status",
+      "claim": "The fast track (מסלול מהיר, up to 30,000 NIS, decided within 7 business days with no assessor visit) is opened per operation and then closed. For Shaagat HaArie it was open with a filing deadline of 28.04.2026, after which only the regular track is available. Never state that the fast track is open without checking the current status.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "ניתן להגיש תביעה במסלול המהיר עד 28.04.2026. לאחר מועד זה ניתן להגיש תביעה רק במסלול הרגיל.",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ],
   "pending_verification": [

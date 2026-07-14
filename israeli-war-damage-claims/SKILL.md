@@ -31,7 +31,11 @@ First, determine what kind of damage the user has and which compensation track a
 
 ### Step 2: Document the Damage Immediately
 
-**Critical timing:** The user must report damage within **14 days** of the incident. Missing this deadline can forfeit compensation rights entirely.
+**Critical timing, stated precisely (regulation 5 of תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), תשל"ג-1973):**
+
+- **Notice of damage (הודעה על נזק): two weeks** from the day the damage occurred. Report to the Tax Authority hotline *4954 or through the online direct-damage claim.
+- **The claim itself (תביעה לפיצויים)** is a SEPARATE filing. **Filing the notice does not count as filing the claim**, and this is where people lose money. The base regulation text says "תוך חודש" (one month), while the Tax Authority's operational guidance for the current operations says three months. Do not rely on the longer figure: file as early as you can, and confirm the deadline for your event on *4954.
+- **Neither deadline is an automatic forfeiture.** Regulation 5(ג): "המנהל רשאי להאריך את המועדים... אם נוכח כי ישנה סיבה סבירה לכך". The extension is discretionary, and **the extension request must be filed BEFORE the deadline runs out**, not after it. Telling someone who is at day 15 that their rights are gone is wrong; telling them to ask for an extension today is right.
 
 **Documentation checklist:**
 1. Photograph all damage from multiple angles (wide shots + close-ups)
@@ -69,6 +73,8 @@ First, determine what kind of damage the user has and which compensation track a
 - Structural damage that needs professional engineering assessment
 - User wants full compensation without the NIS 30,000 cap
 
+**The fast track is opened per operation and then closed.** It was reopened on 1 March 2026 for Shaagat HaArie with a filing deadline of 28 April 2026, and the Tax Authority closed the equivalent track after the earlier operation. **Never tell a user the fast track is open without checking the current status** on the Tax Authority site or *4954; if it is closed, the regular track is the only route.
+
 **Switching tracks:** Users who filed a regular track claim and have not yet received an assessor visit can switch to the fast track through their personal area on the Tax Authority website. The Compensation Fund may also proactively contact eligible claimants via SMS with an option to switch.
 
 ### Step 4: File the Claim Online
@@ -95,28 +101,23 @@ First, determine what kind of damage the user has and which compensation track a
 
 The Compensation Fund covers structural damage in full (no ceiling), but home contents compensation is capped based on household composition.
 
-These compensation ceilings are updated periodically by the Consumer Price Index. For current accurate figures, users should verify the amounts directly on the Tax Authority website, as the specific NIS amounts change over time.
+The ceilings are set by תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (חפצים ביתיים), תשל"ג-1973, are index-linked, and are re-issued on 1 January and 1 July. The table below is the **01.01.2026** column; re-check it on the Tax Authority site before quoting a figure for a later date.
 
-**Approximate structure of compensation ceilings:**
+**Household-contents ceilings (חפצים ביתיים), in shekels, effective 01.01.2026:**
 
-| Household | Relative Contents Ceiling |
-|---|---|
-| Single person | Lowest baseline amount |
-| Married couple / single parent | Higher baseline amount |
-| Per additional child (under 18) | Supplement added to baseline |
-| Larger families | Progressively higher totals |
+| Category | Single person | Married couple / single parent | Each child under 18 | Each additional adult |
+|---|---|---|---|---|
+| Furniture (רהיטים) | 14,198 | 24,552 | 4,964 | 7,258 |
+| Clothing (בגדים) | 2,366 | 4,731 | 710 | 2,366 |
+| Electrical appliances and electronics (מכשירי חשמל ואלקטרוניקה) | 24,894 | 30,175 | 505 | 3,961 |
+| **Other household items (חפצים ביתיים אחרים)** | 10,370 | 24,891 | 2,281 | 4,563 |
+| **Total** | **51,828** | **84,349** | **8,460** | **18,148** |
 
-**Categories within the ceiling:**
+**The fourth category is the one everyone forgets.** "חפצים ביתיים אחרים" is worth 24,891 to a couple, nearly as much as the furniture line. A claim that lists only furniture, appliances and clothing leaves that ceiling unused. Kitchenware, tools, linens, books and records, toys, and similar household goods belong there.
 
-| Category | Hebrew |
-|---|---|
-| Furniture | רהיטים |
-| Electrical appliances & electronics | מכשירי חשמל ואלקטרוניקה |
-| Clothing | ביגוד |
+The four ceilings are **per category, not interchangeable**: unused furniture headroom does not top up an over-ceiling appliance loss.
 
-**Not covered:** Jewelry (תכשיטים), artwork (יצירות אמנות), and cash are excluded from compensation.
-
-**Important:** These ceilings are updated periodically. Always check the current figures on the Tax Authority website for the most accurate compensation amounts.
+**Not covered at all:** cash, cheques, jewellery (תכשיטים), artworks (חפצי אמנות), antiques, and similar valuables. Verbatim from the regulation's definition of a household item: "רהיטים, ביגוד, כלים, מכשירים לשימוש ביתי, ספרים ותקליטים, המצויים בבית מגוריו של אדם ואינם נכס כהגדרתו בחוק, למעט תכשיטים, חפצי אמנות ועתיקות".
 
 ### Step 6: Optional War Damage Contents Insurance
 
@@ -158,11 +159,13 @@ If the user's contents are worth more than the standard ceiling, the Tax Authori
 If the user's claim is denied or the compensation amount is too low, they can appeal.
 
 **Appeal process:**
-1. The appeal deadline is stated in the decision letter itself (varies by claim type)
-2. Submit written appeal via email to: `vaadat-erar@taxes.gov.il`
-3. The Compensation Fund has 60 days to submit a written response
-4. The appeal committee (ועדת ערר) hears both sides
-5. Decision issued in writing within 30 days of the hearing
+1. The deadline is **30 days from the day the director's decision was delivered** (regulation 11: "רשאי תוך שלושים ימים מיום שנמסרה לו ההחלטה לערור עליה לפני ועדת ערר").
+2. Fill in the appeal form and email it to **`Ararim@taxes.gov.il`**.
+3. The Compensation Fund submits a written response.
+4. The appeal committee (ועדת ערר) hears both sides.
+5. Decision issued in writing.
+
+**The fast track costs you your appeal rights on a partial award.** If the claim was filed through the מסלול מהיר and was only PARTIALLY approved, there is no appeal to the ועדת ערר; the appeal route is open only where the claim was rejected outright. Someone with a borderline claim who wants the option to appeal a low award should think twice before taking the fast track.
 
 **Appeal committee composition:** Two members -- a civil servant and a citizen representative, appointed by the Minister of Justice.
 
@@ -183,7 +186,7 @@ User says: "A missile hit near my building, all my windows are shattered and som
 
 Actions:
 1. Confirm damage is under NIS 30,000 -- recommend Fast Track
-2. Guide: report within 14 days, then open online claim via Tax Authority digital services
+2. Guide: notify within two weeks (*4954 or online), then file the claim itself, which is a separate submission
 3. After opening claim, wait for SMS link, then photograph damage from the site
 4. Upload photos + 2 repair quotes
 5. Expect approval within 7 days
@@ -195,20 +198,20 @@ User says: "A rocket hit my building directly. The walls are cracked, ceiling co
 Actions:
 1. Damage clearly exceeds NIS 30,000 -- recommend Regular Track
 2. Document everything immediately (photos, keep damaged items in place)
-3. File online within 14 days
+3. Notify within two weeks, then file the claim (a separate submission, so do not assume the notice covered it)
 4. Assessor will be scheduled to visit
-5. Structure: full compensation (no ceiling). Contents: check current ceiling for family of 4 on Tax Authority website
+5. Structure: full compensation (no ceiling). Contents for a couple with 2 children (01.01.2026): 84,349 + 2 x 8,460 = 101,269, split across the four category ceilings. Claim the "חפצים ביתיים אחרים" line too, it is worth 24,891 + 2 x 2,281.
 6. If contents worth more, suggest purchasing optional insurance for future incidents
 
 ### Example 3: Appeal a denied claim
 User says: "My compensation claim was approved but they gave me only NIS 15,000 when the damage was at least NIS 40,000. How do I appeal?"
 
 Actions:
-1. Check the decision letter for the appeal deadline
-2. Prepare written appeal documenting why the amount is insufficient (additional quotes, photos, expert opinion)
-3. Email appeal to vaadat-erar@taxes.gov.il
-4. The Fund has 60 days to respond
-5. Appeal committee hearing, then decision within 30 days
+1. The appeal deadline is 30 days from delivery of the decision, so check the date on the letter first
+2. Check HOW the claim was filed: if it went through the fast track and was only partially approved, there is no appeal to the ועדת ערר (that route is open only for an outright rejection)
+3. Prepare a written appeal documenting why the amount is insufficient (additional quotes, photos, a private assessor's opinion)
+4. Email the appeal form to Ararim@taxes.gov.il
+5. Appeal committee hearing, then a written decision
 6. If still unsatisfied, can escalate to District Court
 
 ## Bundled Resources
@@ -232,9 +235,9 @@ Actions:
 
 1. **Fast Track photo trap:** Photos MUST be taken from the damage site AFTER receiving the SMS link from the Tax Authority. Photos taken before opening the claim or uploaded from another location are automatically rejected. This is the #1 reason fast track claims get denied.
 
-2. **14-day notification vs 3-month filing:** These are two separate deadlines. The initial damage notification must happen within 14 days. The full compensation claim must be filed within 3 months. Missing the 14-day notification can forfeit all rights, even if the 3-month window hasn't passed.
+2. **Notice and claim are two separate filings.** The notice of damage is due within two weeks; the claim itself is a separate form with its own deadline (the regulation says one month, current Tax Authority guidance says three). Filing the notice does NOT file the claim. Neither deadline is an automatic forfeiture: regulation 5(ג) lets the director extend both for a reasonable cause, but the extension request must be filed BEFORE the deadline passes.
 
-3. **Contents ceiling confusion:** The compensation ceiling for contents varies by household size AND by category (furniture, electronics, clothing). Do not assume one flat number. Always direct users to check the current figures on the Tax Authority website for accurate amounts.
+3. **Contents ceiling confusion:** the ceiling varies by household size AND by category, and there are FOUR categories, not three. The forgotten one is "חפצים ביתיים אחרים" (24,891 for a couple), which is where kitchenware, tools, linens, books and toys go. A claim listing only furniture, appliances and clothing leaves that whole ceiling unclaimed. The categories are not interchangeable: unused furniture headroom does not top up an over-ceiling appliance loss.
 
 4. **Regular home insurance does NOT cover war damage:** Commercial home insurance policies in Israel explicitly exclude war and hostility damage. Only the Tax Authority Compensation Fund (and its optional extended insurance) covers war-related property damage. Do not direct users to their regular insurance company for war damage claims.
 
@@ -246,9 +249,9 @@ Actions:
 Cause: Fast Track requires photos taken at the damage location after the SMS link is sent. The system uses geolocation to verify.
 Solution: Re-open the claim, wait for the new SMS link, go to the damage site, then take and upload fresh photos from that location.
 
-### Error: "Missed the 14-day notification deadline"
-Cause: The user did not report damage within 14 days of the incident.
-Solution: File anyway and include an explanation for the delay. In some cases (mass incidents, evacuation, medical emergency), extensions may be granted. The user may need legal representation to argue for an exception.
+### Error: "Missed the two-week notification deadline"
+Cause: The user did not notify the Tax Authority within two weeks of the incident.
+Solution: This is NOT an automatic forfeiture. Regulation 5(ג) empowers the director to extend the deadline where there is a reasonable cause ("אם נוכח כי ישנה סיבה סבירה לכך"), and mass incidents, evacuation, hospitalisation or a call-up are exactly that. File the notice and the claim now, attach the reason for the delay, and ask for the extension in the same submission. If a deadline has not yet passed, ask for the extension BEFORE it does; a request made after the fact is much weaker.
 
 ### Error: "Compensation amount seems too low"
 Cause: The assessor may have undervalued the damage, or the contents ceiling was applied.
