@@ -272,3 +272,69 @@ A cash grant program (NOT a tax deduction) jointly run by the Tax Authority's Pr
 5. **Save the confirmation number** after submitting your claim online
 6. **Follow up** if you have not received payment within 30 days of filing
 7. **If rejected**, read the rejection reason carefully; most rejections are due to missing documents that can be resubmitted
+
+## Tagmul Meyuchad: daily rate by unit activity tier (2026)
+
+| Unit tier | NIS per shamap day |
+|---|---|
+| מדרג א'+ | 133 |
+| מדרג א' | 113 |
+| מדרג ב' | 86 |
+| מדרג ג' | 60 |
+| מדרג ד' | 40 |
+| מדרג ה' | 30 |
+
+To find the unit's tier: IDF miluim hotline **1111, extension 4, then 1**.
+
+## Reserve-duty forms: who files what
+
+| Form | What it is | Who files it |
+|---|---|---|
+| **502** | תביעה אישית לתגמולי מילואים - the PERSONAL claim | The reservist |
+| **501** | תביעת מעסיק להחזרת תגמולי מילואים | The employer |
+| **509** | בקשה לתשלום מקדמה | The reservist |
+| **510** | אישור המעסיק על עבודה ושכר - a wage confirmation | **The employer only** |
+| **503** | שינוי חשבון בנק/כתובת להחזר למעסיק | The employer |
+| **504** | תביעה להענקה בעד השתתפות בחינוך קדם צבאי | The reservist |
+
+Telling a reservist whose employer refuses to cooperate to "file Form 510" sends them to a form
+only that employer can complete. The personal claim is **502**.
+
+## The 40% supplement is a remainder rule
+
+BTL divides the service days by 7 and pays the supplement only on the remainder:
+remainder 0 = nothing, 1 = +0.4 day, 2 = +0.8, 3 = +1.2, 4 = +1.6, 5 = +2, 6 = +1 full day.
+BTL's own example: 20 days pays 21 days; 21 days pays exactly 21 days. The worked example in
+this guide (12,000/month -> 400/day x 21 days = 8,400 NIS) is therefore CORRECT.
+
+## Self-employed reservists (moved from SKILL.md Step 7)
+
+Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim, פרילנסרים) have a distinct entitlement set, and most importantly the **indirect-damage grant (Manak Nezek Akif)** which is a cash grant program, not just a tax deduction.
+
+| Right | Details |
+|-------|---------|
+| Direct salary reimbursement | File via **Form 502** with Bituach Leumi (no employer intermediary); income basis = the gross advances (מקדמות) reported to BTL for the 3 months before service / 90, subject to Amendment 253 |
+| Tagmul Nosaf | Annual recognition payment, automatic if 10+ qualifying days |
+| Tagmul Meyuchad | IDF payment for **32-60** cumulative shamap days (and beyond 60 under Tzav 8); paid automatically by 1 May, rate banded by unit tier |
+| Manak Nezek Akif | Cash grant program for income loss tied to reserve service |
+| Tax credits | Same Amendment 283 combat tiers as employees (if serving in combat role) |
+| Minimum compensation | NIS 9,863/month floor, topped up by Bituach Leumi if income is below this |
+
+**Manak Nezek Akif (indirect-damage grant):**
+- Run jointly by the Tax Authority's Property Tax Compensation Fund (Keren Pitzuyim Mas Rechush) and IDF Keren HaSiyua
+- For osek patur: bimonthly payments of NIS 2,000-9,000 based on reserve days and reported income
+- For osek murshe: turnover-decline tracks (different filing windows)
+- Filing windows are short and rolling. Example window: for service in Nov-Dec 2025, filing was open Jan 28 to May 31, 2026
+- File at gov.il in the "Manak LeMishartei Miluim" service
+
+**Keren hishtalmut continuity for self-employed:** Unlike employees, self-employed reservists have NO automatic continuity right for keren hishtalmut deposits during service. Self-funding required to keep the 6-year tax-free withdrawal clock from breaking. 2026 caps: NIS 13,203 deductible / NIS 20,566 deposit ceiling.
+
+**Steps for self-employed reservists after service:**
+1. Verify Form 3010 dates match actual service period
+2. File **Form 502** with Bituach Leumi for salary reimbursement (510 is the employer's wage confirmation)
+3. Check eligibility for Tagmul Nosaf and Tagmul Meyuchad (both are IDF payments, not BTL)
+4. File Manak Nezek Akif at gov.il if applicable; note the filing window
+5. Claim Amendment 283 tax credits (with both ishur sherut and ishur lochem) through annual filing with Rashut HaMisim
+6. Self-deposit keren hishtalmut to maintain the tax-free withdrawal clock
+
+**Business-owner reservists with halat'd employees** cross three skills: this one (personal entitlements: Nezek Akif, Tagmul Nosaf/Meyuchad, Amendment 283), `israeli-business-war-compensation` (business-side Shaagat HaAri / Iron Swords filings + 20% employer refund on צו 8 reservists), and `israeli-unemployment-benefits-navigator` (employee chal"t bifurcated 5/10-day rule).

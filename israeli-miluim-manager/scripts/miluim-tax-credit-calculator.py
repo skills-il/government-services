@@ -181,7 +181,7 @@ def main():
     parser.add_argument(
         "--non-combat",
         action="store_true",
-        help="Flag for non-combat reserve service (standard 1.0 credit point)",
+        help="Flag for non-combat reserve service (no Amendment 283 credit: 0 points)",
     )
 
     args = parser.parse_args()
@@ -295,7 +295,7 @@ def main():
     print(f"  These calculations are estimates based on 2026 rates (frozen")
     print(f"  through 2027). Combat credit tiers apply ONLY to combat service")
     print(f"  days (yamei lochem) under Amendment 283 (Section 39B).")
-    print(f"  Non-combat reserve service qualifies for standard 1.0 credit point.")
+    print("  Non-combat reserve service earns NO Amendment 283 credit (0 points).")
     print(f"  Consult a tax advisor or Rashut HaMisim for exact calculations.")
     print()
 

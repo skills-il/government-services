@@ -6,6 +6,20 @@
       "lessons": [
         "CORRECTED an error from v1.3.0 (caught when re-checking tool accuracy): self-employed reservists do NOT get 25% INSTEAD of the 40% tosefet, they get the tagmul (incl. 40%) PLUS an additional 25% (verified btl.gov.il: לעובד עצמאי משולם בנוסף לתגמול גם פיצוי בשיעור 25%). Fixed SKILL+HE+gotcha. miluim-daily-pay tool got an employee/self-employed field (was computing employee-only, so self-employed got a wrong, too-low number)."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-07-14",
+      "lessons": [
+        "THE 40% SUPPLEMENT IS A REMAINDER RULE, not a flat uplift. BTL divides the service days by 7 and pays the supplement only on the remainder (0 -> nothing, 6 -> +1 full day). 7/14/21 days therefore earn NO supplement at all. The skill (and the live /tools calculator) multiplied every day by 1.4, overstating a 21-day call-up by 40% (11,760 instead of 8,400). The skill's OWN reference file carried the correct worked example (400/day x 21 = 8,400) while the Gotchas section branded that same arithmetic as a ~40% under-estimate. An internal contradiction between a reference file and the body is a free bug detector.",
+        "BTL's own examples table has one row (120 -> 122) that contradicts the rule stated three lines above it (120 mod 7 = 1 -> 120.4). The stated rule reproduces 19 of their 20 rows, so the rule was encoded and the outlier row treated as a typo, and that decision is documented in the checker's sources. When a source disagrees with itself, follow the normative rule text, not a single table cell, and say so.",
+        "WRONG PAYING AGENCY: Tagmul Nosaf and Tagmul Meyuchad are IDF payments (automatic, by 1 May, to the account registered with the unit; chased at 1111 ext. 4), not Bituach Leumi ones. The skill routed users to the BTL portal and *6050 -- the exact 'wrong agency' failure the skill itself warns about elsewhere.",
+        "Tagmul Meyuchad starts at 32 cumulative shamap days, not 60 (the skill said 60 in six places), and its daily rate is BANDED by unit activity tier (133/113/86/60/40/30), not a flat 133.33. Same banded-amount-quoted-flat disease as the bituach-leumi skill.",
+        "FORM 510 IS THE EMPLOYER'S WAGE CONFIRMATION. The reservist's personal claim is 502. The skill's 'employer refuses to pay -> file 510' fallback sent the reservist to a form only that employer can complete. Verified against the BTL reserve-duty forms index: 501 employer claim, 502 personal claim, 509 advance, 510 employer wage confirmation.",
+        "The self-employed cap was breached in two different directions at once: the prose clamped before the +40% and the checker clamped after it and then added 25%. BTL: 'סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי'.",
+        "CARRY: the IDF Aka / Keren HaSiyua grant table in references/2026-law-changes.md still does not match the 2026 תקנון (the student tutoring grant is a 3-tier banded amount with a 21-day minimum, and several named grants in the skill do not appear in the regulations under those names). Not fixed this cycle.",
+        "CARRY: Amendment 283 credits are granted in the tax year FOLLOWING the service year; SKILL.md still implies same-year credit in Example 4."
+      ]
     }
   ]
 }

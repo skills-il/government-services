@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-miluim-manager",
-  "generated_at": "2026-05-18T16:55:00Z",
+  "generated_at": "2026-07-14T00:00:00Z",
   "claims": [
     {
       "claim_id": "bl-max-daily-2026",
@@ -550,6 +550,149 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "supplement-remainder-rule",
+      "claim": "The 40% reserve-duty supplement is paid only on the REMAINDER of the service days divided by 7: remainder 0 = no supplement, 1 = +0.4 day, 2 = +0.8, 3 = +1.2, 4 = +1.6, 5 = +2, 6 = +1 full day.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "התוספת מחושבת כך: את ימי השירות המילואים מחלקים ב-7, ולפי השארית נקבע גובה התוספת",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "supplement-example-20-21",
+      "claim": "BTL worked example: 20 service days is paid as 21 days (14 + a remainder of 6, which earns one extra day). 21 service days is paid as exactly 21 days.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "20 לחלק ל-7 = 14 + 6 ימי שארית. על 6 ימי שארית מקבלים תוספת של יום אחד, לפיכך יקבל תשלום עבור 21 ימים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "self-employed-combined-cap",
+      "claim": "For a self-employed reservist the tagmul and the 25% compensation TOGETHER may not exceed the maximum tagmul.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/hefreshimLeatzmayi.aspx",
+      "raw_snippet": "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-502-personal-claim",
+      "claim": "Form 502 (תביעה אישית לתגמולי מילואים) is the reservist's personal claim. Form 510 (אישור המעסיק על עבודה ושכר) is the EMPLOYER's wage confirmation. 501 is the employer reimbursement claim; 509 is the advance request.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה אישית לתגמולי מילואים (502)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-510-is-employer",
+      "claim": "Form 510 is the employer's confirmation of work and wage, not a reservist claim form.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "אישור המעסיק על עבודה ושכר (510)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-32-days",
+      "claim": "Tagmul Meyuchad is paid to reservists who did between 32 and 60 cumulative shamap days in a year (and for service beyond 60 days under Tzav 8).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "חיילי מילואים שביצעו בין 32 ל-60 ימי שמ\"פ במצטבר בשנה",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-tiers",
+      "claim": "The 2026 Tagmul Meyuchad daily rate varies by the unit activity tier: 133 (מדרג א+), 113 (א), 86 (ב), 60 (ג), 40 (ד), 30 (ה) NIS per shamap day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "133 ₪ - מדרג א'+",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-paid-by-idf",
+      "claim": "Tagmul Nosaf and Tagmul Meyuchad are paid by the IDF, automatically by 1 May, to the bank account registered with the unit. Discrepancies go to the IDF miluim hotline 1111 ext. 4, not to Bituach Leumi.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "התגמולים משולמים בכל שנה עד ל-1 במאי ישירות לחשבון הבנק של הזכאים לפי פרטי החשבון שדווחו ביחידותיהם",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-he-502",
+      "claim": "טופס 502 — תביעה אישית לתגמולי מילואים (the reservist's personal claim form).",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה אישית לתגמולי מילואים (502)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "noise-bold-1111",
+      "claim": "Extraction artifact, NOT a phone-star line: \"*1111\" is the bolded IDF miluim hotline number **1111** (extension 4). It is dialled as 1111, not *1111. The BTL line is *6050.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "1111",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-tier-30",
+      "claim": "Lowest Tagmul Meyuchad tier (מדרג ה'): 30 NIS per shamap day (2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "30 ₪ - מדרג ה'",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "worked-example-8400",
+      "claim": "Worked example: a reservist on 12,000 NIS/month serving 21 days is paid 400/day x 21 paid days = 8,400 NIS (21 days is an exact multiple of 7, so the 40% supplement adds nothing).",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "21 ימים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-501-employer",
+      "claim": "Form 501 (תביעת מעסיק להחזרת תגמולי מילואים) is the employer's reimbursement claim.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "תביעת מעסיק להחזרת תגמולי מילואים (501)",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ],

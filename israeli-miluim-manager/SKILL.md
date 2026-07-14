@@ -70,9 +70,11 @@ Bituach Leumi (ביטוח לאומי, National Insurance Institute) compensates 
 
 | Track | Hebrew | What It Is | Who Gets It |
 |-------|--------|-----------|-------------|
-| Salary reimbursement | תגמולי מילואים | Replaces lost income during service | All reservists; employer-mediated for employees, direct for self-employed |
-| Tagmul Nosaf | תגמול נוסף | Annual recognition payment for any year with 10+ days of reserve duty | Paid in May of the following year, automatic |
-| Tagmul Meyuchad | תגמול מיוחד | Special wartime payment for service of 60+ days | Days served on Tzav 8 between Oct 7, 2023 and Dec 31, 2025 count toward the 60-day threshold |
+| Salary reimbursement (**Bituach Leumi**) | תגמולי מילואים | Replaces lost income during service | All reservists; employer-mediated for employees, direct for self-employed |
+| Tagmul Nosaf (**paid by the IDF, NOT BTL**) | תגמול נוסף | Annual recognition payment for any year with 10+ days of reserve duty | Paid automatically by 1 May of the following year, straight to the bank account registered with the unit |
+| Tagmul Meyuchad (**paid by the IDF, NOT BTL**) | תגמול מיוחד | Special payment for **32 to 60** cumulative shamap days in a year (and for service beyond 60 days under Tzav 8) | Days served on Tzav 8 between 07.10.2023 and 31.12.2025 count toward the threshold |
+
+**Only the salary reimbursement is a Bituach Leumi payment.** Tagmul Nosaf and Tagmul Meyuchad are IDF payments under the Reserve Service Law. Do NOT route a user to the BTL portal or *6050 for them: they are paid automatically by 1 May to the bank account registered with the unit, and discrepancies go to the **IDF miluim hotline, 1111 extension 4** (then 1 for unit-tier questions).
 
 **Salary-reimbursement compensation basis:**
 
@@ -84,33 +86,53 @@ Bituach Leumi (ביטוח לאומי, National Insurance Institute) compensates 
 | Payment timing | Employer advances salary, then claims reimbursement from Bituach Leumi |
 | Self-employed | File directly with Bituach Leumi |
 
-**Daily compensation (commonly omitted, biggest under-estimate):** daily wage = 3-month gross / 90 (= monthly / 30), bounded by 328.76 / 1,730.33, then **+40%** (everyone); a **self-employed** reservist gets an **additional 25%** on top. A **133.33/day supplement** applies from **day 32**. "Monthly / 30 times days" understates by ~40%. Source: btl.gov.il "סכום התגמול".
+**Daily compensation, and the 40% supplement rule everybody gets wrong:**
 
-**Amendment 253 (effective May 1, 2025) changes the income basis for repeat reservists:** prior miluim pay is excluded from the next basis, a "fixed base" from the quarter before first emergency-period service is locked in, and Section 279 lets the reservist pick the more favorable basis when the gap is under 60 days (with special handling for >20% salary jumps). Critical for anyone serving multiple times in close succession, the simple "3-month average" can produce wrong numbers.
+```
+dailyTagmul = clamp(3-month gross / 90, 328.76, 1730.33)     // the cap applies to the DAILY rate
+paidDays    = serviceDays + supplement(serviceDays mod 7)     // see the remainder table below
+total       = dailyTagmul x paidDays
+```
 
-**How to file salary reimbursement (employees):**
-1. Employer submits claim via Bituach Leumi employer portal
-2. Attach Form 3010 confirming service dates
-3. Bituach Leumi reimburses the employer within 30-60 days
-4. Employee receives regular salary as usual
+**The 40% supplement is NOT paid on every day.** BTL divides the service days by 7 and pays the supplement only on the REMAINDER:
 
-**How to file salary reimbursement (self-employed):**
-1. Log in to Bituach Leumi personal portal
-2. Submit reserve duty compensation claim (tvia letagmulei miluim)
-3. Upload Form 3010 and income documentation
-4. Payment deposited directly to bank account
+| Remainder (days mod 7) | Supplement |
+|---|---|
+| 0 | none |
+| 1 | +0.4 day |
+| 2 | +0.8 day |
+| 3 | +1.2 days |
+| 4 | +1.6 days |
+| 5 | +2.0 days |
+| 6 | **+1 day** |
 
-**Form 510 fallback (employer refuses to pay):**
-If the employer refuses to advance salary, the employee can file Form 510 directly with Bituach Leumi as if self-employed, and receive compensation directly. This is in addition to (not a replacement for) a Beit Din LaAvoda complaint against the employer.
+BTL's own worked example: 20 days = 14 + a remainder of 6, so the reservist is paid for **21** days. And **21 days of service pays exactly 21 days** (remainder 0, no supplement at all). Multiplying every day by 1.4 overstates a 21-day call-up by 40% (11,760 instead of 8,400 at a 400/day rate). Source: btl.gov.il "סכום התגמול", חישוב תוספת 40%.
+
+**Self-employed:** an additional 25% compensation on top of the tagmul — but **the combined daily total may never exceed the maximum tagmul** (1,730.33/day). BTL: "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי".
+
+**Self-employed income basis:** BTL computes it from the **gross advance payments (מקדמות) you reported to BTL** for the 3 months before service, divided by 90 (the monthly advance = annual gross income / 12), and recomputes once the final tax assessment arrives. It is NOT "net income for the 3 months".
+
+**Amendment 253 (from 01.05.2025) breaks the plain 3-month average for repeat reservists:** prior miluim pay is excluded from the next basis, a "fixed base" from the quarter before first emergency-period service is locked in, and Section 279 lets the reservist pick the more favourable basis when the gap is under 60 days. Detail in `references/bituach-leumi-filing-guide.md`.
+
+**How to file salary reimbursement:** employees — the employer claims via the BTL employer portal (Form 501 + Form 3010) and is reimbursed within 30-60 days while the employee keeps drawing normal salary. Self-employed — **BTL usually pays automatically** from the IDF's data, with no claim at all; file a personal claim (Form 502) only if nothing has arrived within 3 weeks of discharge. Step-by-step in `references/bituach-leumi-filing-guide.md`.
+
+**Employer refuses to pay — file Form 502, not 510:**
+If the employer refuses to advance salary, the reservist files **Form 502 (תביעה אישית לתגמולי מילואים)** with Bituach Leumi and is paid directly. This is in addition to (not a replacement for) a Beit Din LaAvoda complaint against the employer.
+
+**Do not confuse the reserve-duty forms:** **502** = the reservist's personal claim; **501** = the employer's reimbursement claim; **509** = advance request; **510** = the EMPLOYER's wage confirmation. Telling a reservist whose employer refuses to cooperate to "file Form 510" sends them to a form only that employer can complete.
 
 **Minimum compensation top-up:**
 Reservists earning below the minimum compensation floor (NIS 9,863/month in 2026) receive a top-up from Bituach Leumi to reach that floor during service months. Applied automatically.
 
 **Tagmul Nosaf (annual recognition payment):**
-Every reservist with 10+ qualifying days in a tax year receives an annual additional payment, paid by Bituach Leumi in May of the following year. Separate from salary reimbursement. The most universally received reservist benefit; if a reservist did not receive it by mid-year, they should contact Bituach Leumi at *6050.
+Every reservist with 10+ qualifying days in a tax year receives an annual additional payment, paid by the **IDF** (not Bituach Leumi) by **1 May** of the following year, straight to the bank account registered with the unit. Separate from salary reimbursement. If it has not arrived, contact the **IDF miluim hotline at 1111 extension 4** — not *6050. If the bank account changed, update the IDF payments administrator.
 
-**Tagmul Meyuchad (special wartime payment):**
-Paid by Bituach Leumi for service of 60+ days. Days served on Tzav 8 in the Oct 7, 2023 to Dec 31, 2025 period count toward the 60-day threshold. Filed via the Bituach Leumi personal portal; eligibility verified against IDF service records.
+**Tagmul Meyuchad (special payment) — starts at 32 days, and the daily rate is BANDED:**
+Paid by the **IDF** (not BTL) to reservists who did **32 to 60** cumulative shamap days in a calendar year, and for service beyond 60 days under Tzav 8. Days served on Tzav 8 between 07.10.2023 and 31.12.2025 count toward the threshold. Telling a reservist with 32-59 days that they are not eligible costs them the whole payment.
+
+The daily rate is **not a flat 133.33**: for 2026 it is banded by the unit's activity tier (מדרג א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS per shamap day). Full table in `references/bituach-leumi-filing-guide.md`.
+
+To find the unit's tier, call the IDF miluim hotline **1111, extension 4, then 1**. Commanders receive the payment for days beyond 60 as well, and age-exempt reservists (מוחרגי גיל) receive it from their FIRST shamap day. The payment is income-tax-free.
 
 ### Step 4: 2026 Tax Benefits for Combat Reservists
 
@@ -195,71 +217,16 @@ Government Resolution from January 25, 2026 created a 6.2 billion NIS support pa
 
 ### Step 7: Self-Employed Reservists and Manak Nezek Akif
 
-Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim, פרילנסרים) have a distinct entitlement set, and most importantly the **indirect-damage grant (Manak Nezek Akif)** which is a cash grant program, not just a tax deduction.
+Self-employed reservists have two distinct claims, and they stack:
 
-| Right | Details |
-|-------|---------|
-| Direct salary reimbursement | File via Form 510 with Bituach Leumi (no employer intermediary); income basis = 3-month average prior to service, subject to Amendment 253 |
-| Tagmul Nosaf | Annual recognition payment, automatic if 10+ qualifying days |
-| Tagmul Meyuchad | Special payment for 60+ days, applied via BL portal |
-| Manak Nezek Akif | Cash grant program for income loss tied to reserve service |
-| Tax credits | Same Amendment 283 combat tiers as employees (if serving in combat role) |
-| Minimum compensation | NIS 9,863/month floor, topped up by Bituach Leumi if income is below this |
+1. **Reserve-duty compensation (BTL).** Basis = the gross advances (מקדמות) reported to BTL for the 3 months before service, divided by 90; recomputed once the final tax assessment lands. BTL usually pays this **automatically** from IDF data — file Form 502 only if nothing arrives within 3 weeks of discharge. A 25% compensation is added on top of the tagmul, but the combined daily total may never exceed the maximum tagmul (1,730.33/day).
+2. **Indirect-damage business compensation (Tax Authority).** A separate scheme with its own gates and deadlines. Route the user to `israeli-business-war-compensation` — do not attempt the calculation here.
 
-**Manak Nezek Akif (indirect-damage grant):**
-- Run jointly by the Tax Authority's Property Tax Compensation Fund (Keren Pitzuyim Mas Rechush) and IDF Keren HaSiyua
-- For osek patur: bimonthly payments of NIS 2,000-9,000 based on reserve days and reported income
-- For osek murshe: turnover-decline tracks (different filing windows)
-- Filing windows are short and rolling. Example window: for service in Nov-Dec 2025, filing was open Jan 28 to May 31, 2026
-- File at gov.il in the "Manak LeMishartei Miluim" service
+Full self-employed filing detail: `references/bituach-leumi-filing-guide.md`.
 
-**Keren hishtalmut continuity for self-employed:** Unlike employees, self-employed reservists have NO automatic continuity right for keren hishtalmut deposits during service. Self-funding required to keep the 6-year tax-free withdrawal clock from breaking. 2026 caps: NIS 13,203 deductible / NIS 20,566 deposit ceiling.
+### Step 8: Vacation Days, Spouse Protections, and Family Support
 
-**Steps for self-employed reservists after service:**
-1. Verify Form 3010 dates match actual service period
-2. File Form 510 with Bituach Leumi for salary reimbursement
-3. Check eligibility for Tagmul Nosaf and Tagmul Meyuchad
-4. File Manak Nezek Akif at gov.il if applicable; note the filing window
-5. Claim Amendment 283 tax credits (with both ishur sherut and ishur lochem) through annual filing with Rashut HaMisim
-6. Self-deposit keren hishtalmut to maintain the tax-free withdrawal clock
-
-**Business-owner reservists with halat'd employees** cross three skills: this one (personal entitlements: Nezek Akif, Tagmul Nosaf/Meyuchad, Amendment 283), `israeli-business-war-compensation` (business-side Shaagat HaAri / Iron Swords filings + 20% employer refund on צו 8 reservists), and `israeli-unemployment-benefits-navigator` (employee chal"t bifurcated 5/10-day rule).
-
-### Step 8: Vacation Days, Spouse Protections, and Family Benefits
-
-Several temporary provisions enacted during wartime operations have been resolved for 2026, some made permanent and some expired.
-
-| Provision | Status (2026) |
-|-----------|---------------|
-| Accumulated vacation days from wartime order | Must be used by end of 2027 |
-| Broad spouse unpaid leave entitlement | Expired (wartime temporary order ended Dec 31, 2025) |
-| Spouse 1-hour paid absence per day | Active (permanent law, during reservist's service of 5+ consecutive days) |
-| Spouse paid leave days (graduated) | Active: up to 8 paid leave days based on reservist's accumulated days and child age (under 14) |
-| Spouse dismissal protection | Active: scaled with reservist's protection (up to 60 days post-service for reservists serving 60+ days) |
-| Vacation accrual during service | Continues per labor law |
-
-**Vacation day rules:**
-- Wartime-accumulated vacation days must be used by end of 2027
-- Standard labor law accrual continues during miluim
-- Employers cannot force vacation use during miluim
-- Sick days and dmey havra'a continue to accrue
-
-**Spouse protections (permanent from 2026):**
-- 1-hour paid absence per day during reservist's service of 5+ consecutive days
-- Up to 8 paid leave days per service event for spouses with a child under 14 (graduated by reservist's accumulated days)
-- Dismissal protection scaled with the reservist's tier (matches the 30 or 60-day post-service window)
-- BL spouse-on-chal"at grant remains accessible for select operational orders
-
-**Family benefits:**
-
-| Benefit | Eligible | Source |
-|---------|---------|--------|
-| Aka 8944 hotline | Reservist, spouse, parents, children | IDF Combat Reactions Unit (24/7) |
-| Free therapy budget | Reservist + immediate family | Keren HaSiyua (no disability finding required) |
-| Aka grants stack | Reservists + dependents | See Step 5 |
-| Bereavement support | Families of fallen | Misrad HaBitachon Mishpachot ShChol |
-| Lone soldier reserve benefits | Chayalim bodedim in miluim | hachvana.mod.gov.il (*5266) |
-| NGO support | All reservist families | Keren Libi, IDFWO (downstream of MoD/Aka) |
+Reserve service does NOT consume vacation days, and an employer may not force a reservist to take leave for it. The reservist's spouse gets dismissal protection scaled to the reservist's own (up to 60 days post-service where the reservist served 60+ days). Family-support grants (childcare, spouse-employment assistance) run through the IDF's Keren HaSiyua, not BTL. Detail and the current grant table: `references/2026-law-changes.md`.
 
 ### Step 9: Bank Israel Relief and Practical Accommodations
 
@@ -330,29 +297,6 @@ Actions:
 7. If the employer is public sector, note the 20% refund does not apply
 Result: Employer complies with all legal obligations and claims proper reimbursement.
 
-### Example 4: Combat Reservist Checking 2026 Tax Benefits
-User says: "I served 120 days of combat miluim this year. What tax benefits do I get?"
-Actions:
-1. Identify highest credit tier: 110+ combat days = 4.0 credit points = NIS 11,616/year
-2. Confirm both confirmations needed: ishur sherut (general) + ishur lochem (combat)
-3. Check income level for minimum compensation top-up (below NIS 9,863/month) and maximum cap (above NIS 51,910/month)
-4. Confirm Tagmul Meyuchad eligibility (60+ day service triggers special payment)
-5. Confirm Aka grants eligibility (Manak Mishpacha Mugdal if 40+ days with child under 14)
-6. Submit Form 101 to employer or file directly with Rashut HaMisim
-7. If self-employed, check Manak Nezek Akif filing window
-Result: Reservist claims maximum tax credits, salary reimbursement, Tagmul Meyuchad, and applicable Aka grants.
-
-### Example 5: Combat Reservist with Service-Connected PTSD
-User says: "I am having flashbacks and panic attacks since the operation. What should I do?"
-Actions:
-1. Recommend immediate contact with Aka 8944 (24/7 free trauma diagnosis and treatment, no disability finding required)
-2. Explain that miluim injuries (physical and mental) go to Misrad HaBitachon (Agaf HaShikum), not Bituach Leumi
-3. Free therapy is available through Keren HaSiyua before any formal disability claim
-4. If pursuing formal recognition: document the trauma, file via hachvana.mod.gov.il, va'ada refuit determines disability percentage
-5. 20%+ disability = lifetime monthly pension + medical benefits
-6. Family members can also access Keren HaSiyua therapy budget
-Result: User accesses immediate care, understands long-term recognition path.
-
 ## Bundled Resources
 
 ### References
@@ -385,7 +329,9 @@ Result: User accesses immediate care, understands long-term recognition path.
 - Reserve duty has THREE separate Bituach Leumi tracks (salary reimbursement, Tagmul Nosaf, Tagmul Meyuchad) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents conflate them, so users think they were paid when a track is still owed.
 - Service-connected injuries and PTSD go to Misrad HaBitachon (Agaf HaShikum), NOT Bituach Leumi; filing with the wrong agency is the top cause of denied claims. Aka 8944 is the hotline; recognition via hachvana.mod.gov.il.
 - Amendment 283 combat tax credit tiers require **ishur lochem** (combat confirmation), not just **ishur sherut miluim** (service confirmation). The Tax Authority will reject combat tier claims without lochem confirmation, even if the day count qualifies.
-- Reserve compensation = daily wage + 40% (everyone), self-employed get an ADDITIONAL 25%. "Monthly / 30 times days" understates by ~40%. Amendment 253 also breaks the plain 3-month average for repeat reservists.
+- **The 40% supplement is a REMAINDER rule, not a flat uplift.** Divide the service days by 7; only the remainder earns the supplement (remainder 0 = nothing, so 7 / 14 / 21 days earn no supplement at all; remainder 6 = +1 day). "Monthly / 30 x days" is therefore CORRECT for 21 days (12,000/mo -> 400/day -> 8,400), and multiplying every day by 1.4 overstates it by 40%. Self-employed get an ADDITIONAL 25%, but the combined daily total may never exceed the maximum tagmul (1,730.33/day). Amendment 253 also breaks the plain 3-month average for repeat reservists.
+- **Tagmul Nosaf and Tagmul Meyuchad are IDF payments, not Bituach Leumi ones.** They arrive automatically by 1 May; chase them at the IDF hotline 1111 ext. 4, never at *6050. Tagmul Meyuchad starts at 32 cumulative shamap days (not 60) and its daily rate is banded by unit tier (133 / 113 / 86 / 60 / 40 / 30), not a flat 133.33.
+- **Form 510 is the EMPLOYER's wage confirmation.** The reservist's personal claim is Form 502. Sending a reservist whose employer refuses to cooperate to "file 510" sends them to a form only that employer can file.
 - The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
 - Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their portal status (married, children, education under "miktzo'a ezrachi") for eligibility to compute correctly.
 - Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
