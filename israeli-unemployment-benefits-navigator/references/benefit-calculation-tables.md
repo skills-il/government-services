@@ -9,7 +9,10 @@ All figures effective 01.01.2026 and linked to inflation. They re-link in Januar
 | Daily base amount | ₪415 |
 | Daily ceiling, days 1-125 | ₪550.76 |
 | Daily ceiling, days 126-175 | ₪367.17 |
-| Daily ceiling, days 176+ (women's 300-day track only) | ₪201.03 (effective 01.01.2026) |
+| Daily ceiling, days 176+ (women aged 57-60 on the 300-day track ONLY) | ₪201.03 (effective 01.01.2026) |
+| Daily ceiling, days 176+ (women aged 60-67 on the 300-day track) | ₪367.17, no extra cap |
+| Statutory minimum daily benefit, discharged soldier | ₪144.62 |
+| Daily ceiling for a repeat claimant under 40, after 100% of days used | ₪468.15 |
 | Bituach Leumi monthly deduction from benefit | ₪48 (effective 01.01.2026) |
 | Divisor for average daily wage | 150 (= 25 days * 6 months) |
 
@@ -69,7 +72,12 @@ Total entitlement gross: ~44,167
 
 If the user's calculated daily rate exceeds ₪367.17, the tail portion is capped at the lower ceiling. Do NOT multiply the day-1 rate by the full max-days; you'll overstate by 5-15% on long entitlements.
 
-**Women's 300-day track (ages 57-67, born 1/1/1960+) has a THIRD ceiling.** This track runs over an 18-month window, and from day 176 onward the daily benefit is capped at **₪201.03** (2026, much lower than the ₪367.17 that applies to days 126-175). Project this track in three slices: days 1-125 at the ₪550.76 ceiling, days 126-175 at ₪367.17, and days 176-300 at ₪201.03. Capping days 176-300 at ₪367.17 instead overstates the tail by up to ~45% per day. Source: btl.gov.il/benefits/Unemployment women's track ("מהיום ה-176 ואילך 201.03 ש"ח"). Vocational-training participants also receive 100% but no more than ₪201.03/day from day 176.
+**The women's 300-day track (ages 57-67, born 1/1/1960 or later) splits in two at age 60, and the split governs the AMOUNT, not the duration.** Both sub-bands get 300 days over an 18-month window.
+
+- **Women 57 to 60:** from day 176 the daily benefit is capped at **₪201.03** (2026). Project in three slices: days 1-125 at ₪550.76, days 126-175 at ₪367.17, days 176-300 at ₪201.03. A woman in this band who participates in vocational training is paid 100% of her wage but still no more than ₪201.03 a day. Refusing vocational training in the first 175 days costs her 90 days of disqualification plus 30 days off the entitlement, leaving 270.
+- **Women 60 to 67:** there is **NO day-176 cap**. Her tail stays at the ₪367.17 ceiling, she is paid 100% during vocational training, and refusing work or training does not cut her benefit. Applying the 201.03 cap to her understates a full 300-day entitlement by roughly ₪10,000.
+
+Source: btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx, which sets out the two sub-bands separately ("זכויות לנשים בגילאי 57 עד 60" and "זכויות לנשים בגילאי 60 עד 67").
 
 ## Payment Cadence (5-weeks-per-month quirk)
 
@@ -115,3 +123,25 @@ Before the claimant receives money in their bank account:
 | Foreign work months under bilateral SS treaty | Counted toward akhshara via form בל/627. Treaty countries: US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others |
 | Shaagat HaArie 2026 chal"t track | Akhshara reduced to 6 months out of 18; **bifurcated minimum (effective 5.5.2026): chal"t qualifies from 5 consecutive days ONLY if started 28.2.2026 or 1.3.2026, otherwise 10 consecutive days**; avtala from day 1; no need to exhaust accrued vacation. Defining period 28 Feb to 14 Apr 2026 (extendable to 14 May 2026). Passed second + third readings 4.5.2026 (ספר החוקים 3525) |
 | Claimant on long miluim service | Hok Khayalim Meshukhrarim s. 41a forbids dismissal during miluim and 30 days after. Registration window extended via hekel mizvad on request |
+
+
+## Discharged soldiers (first year after release)
+
+- Maximum **70** benefit days if the unemployment period starts in the first year after release from regular service.
+- The daily benefit never falls below the **statutory minimum of ₪144.62** for a discharged soldier.
+- Up to **6 months of regular service** count toward the 12-of-18 qualifying period; employed months that overlapped the service count too.
+- Vocational training through the Employment Service in the first year: **no qualifying period required**, 70 days of benefit (or **138** days for someone with fewer than 12 years of education). Resigning in order to start that training is a justified resignation.
+- Source: btl.gov.il, "משוחררים משירות צבאי ומשירות לאומי/אזרחי".
+
+## Repeat claimant (mobtal chozer)
+
+A repeat claimant is someone who filed **at least 2 unemployment claims in the last 4 years**.
+
+| | Under 40 | 40 and over |
+|---|---|---|
+| Days | All claims in the 4-year window are capped at **180%** of the maximum days | If unemployment was paid in the 11 months before the claim, each month's days are reduced by the days already paid in the preceding 11 months (rolling window); otherwise as a first claim |
+| Amount | Once 100% of the days are used, the daily maximum drops to **₪468.15** | **No cap on the amount** |
+
+Bituach Leumi's own example: someone who used all 175 days and claims again gets 140 days (80%), with the first 125 capped at ₪468.15.
+
+Source: btl.gov.il/benefits/Unemployment/Pages/MovtalHozer.aspx.

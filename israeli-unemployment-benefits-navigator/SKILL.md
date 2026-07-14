@@ -84,8 +84,13 @@ Use the age + dependents table. "Dependents" = spouse + children the user suppor
 | 35-45 | 3 or more | 175 |
 | 45-67 | Any | 175 |
 | Women 57-67 born 1960 or later | Any | 300 (special track, 18-month window) |
+| Discharged soldier, unemployment starting in the first year after release | Any | 70 |
 
 The maximum days must be used within 12 months from the 1st of the registration month. The special women's track uses 18 months instead of 12.
+
+**Discharged soldiers.** Unemployment starting in the first year after release from regular service is capped at **70 benefit days**, and the daily benefit never falls below the statutory minimum of **₪144.62**. Up to 6 months of regular service count toward the qualifying period. Vocational training in that first year needs no qualifying period at all (70 days, or 138 for someone with fewer than 12 years of education).
+
+**Repeat claimant (mobtal chozer = 2 or more claims in the last 4 years).** **Under 40:** total days across all claims in the 4-year window are capped at **180%** of the maximum, and once 100% of the days are used the daily maximum drops to **₪468.15**. **40 and over:** no cap on the amount, but if unemployment was paid in the 11 months before the claim, each month's days are reduced by the days already paid in the preceding 11 months. Full rules and worked examples: `references/benefit-calculation-tables.md`.
 
 ### Step 5: Calculate Daily Benefit Amount
 
@@ -123,7 +128,7 @@ Sum each bracket contribution to get the gross daily benefit.
 
 - First 125 days of unemployment: maximum ₪550.76 per day
 - Days 126-175: maximum ₪367.17 per day
-- Days 176+ (women's 300-day track only, ages 57-67 born 1960+): maximum ₪201.03 per day
+- Days 176+: maximum ₪201.03 per day, but **ONLY for a woman aged 57 to 60** on the 300-day track. A woman aged **60 to 67** on the same 300-day track has **NO** day-176 cap: her tail stays at ₪367.17. Applying 201.03 to her understates a full 300-day entitlement by roughly ₪10,000. A duration rule and its payment rule are not the same rule.
 - Cap whatever the formula produces to these ceilings
 
 For long entitlements (138, 175, 300 days), the average daily benefit drops once the user crosses day 125. Do not multiply the day-1 rate by total max days; project the front portion at the higher ceiling and the tail at the lower ceiling.
@@ -231,47 +236,7 @@ Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (ת�
 
 **Form 100 is the employer's halat authorization.** For dmei avtala purposes, the employer files Form 100 with the exact halat start and end dates; this is the document Bituach Leumi treats as proof the leave was employer-initiated. (Separately, the employee's standalone BL claim still requires Form 126, the annual employer summary, not Form 100. See Gotcha #11.)
 
-**Employer-initiated vs employee-initiated.** Most halat under this regime is employer-initiated and routine. Employee-initiated halat IS allowed but raises a justification question at BL: a claimant who pushed for the leave themselves without documented cause (medical, family, dependent-care) may be treated as voluntary cessation and pulled into the 90-day waiting period despite the emergency framework. Walk the user through their circumstances carefully.
-
-**Working during the halat even partially disqualifies.** Even one day of paid work for the halat employer (or any other employer) inside the halat window may void the claim for the entire halat period, not just the day worked. Vacation pay (חופשה בתשלום) and sick pay (דמי מחלה) received during the halat have the same effect: they signal the employment relationship was not actually suspended.
-
-**Additional income offsets (not full disqualifiers).** Self-employed (עוסק) income or pension payments received during the halat trigger a קיזוז (offset) against the daily benefit, not a hard disqualification. Bituach Leumi applies the standard partial-employment reduction (roughly 75% of the additional gross is deducted from that period's avtala).
-
-**Self-employed who is ALSO salaried (חצי-חצי).** A claimant who runs an עוסק *and* draws a regular salary can claim dmei avtala on the **salary component only**, with a רואה חשבון אישור attesting to income from both sources for the relevant 6-month base period. The osek months still don't count toward akhshara (Gotcha #6 applies), but the salaried portion is paid normally.
-
-**Recurring claimants (מובטלים חוזרים).** The Shaagat HaArie act extends and eases entitlement for claimants who previously exhausted avtala benefits, including a shortened re-qualifying window and an extension to the 12-month consumption clock for those affected by the war period. Specific extension parameters are set by minister order; check btl.gov.il/StateOfEmergency/ShaagatHari for the current calibration before promising days.
-
-**Workers aged 67+ get a special grant, not avtala.** Claimants above the avtala age ceiling receive a dedicated emergency grant under the same act in lieu of regular dmei avtala. The grant is one-time, age-conditioned, and filed through the Bituach Leumi Shaagat HaArie portal (not the standard avtala flow). Verify the current amount on the BL emergency page before quoting.
-
-Verify the final extension date and any further parameter changes at btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx before quoting numbers; the framework was amended multiple times between March and May 2026.
-
-### Vocational Training (hachshara miktzoit) During Unemployment
-
-Claimants placed in an approved Sherut HaTaasuka training program (kursim mukarim, maslulei mahalehet) keep receiving avtala throughout the program, and may receive an enhanced stipend (dmei kiyum) in addition. Days spent in training do NOT consume max-days the same way active job-seeking days do, verify with the case worker before assuming.
-
-Refusing an assigned training course is treated like refusing a job offer: 90-day waiting penalty + 30-day deduction. Encourage the user to attend.
-
-### Stacking with Hashlamat Hachnasa (Income Supplementation)
-
-Avtala benefits below the household subsistence threshold can be topped up with hashlamat hachnasa for low earners with dependents (especially single parents, families with 3+ children). Typical supplementation is ₪1,500 to ₪2,000 per month. File via Bituach Leumi form 5320. Do not assume this is automatic, the claimant has to apply separately.
-
-### Reservists, Returning Israelis, Foreign Treaty Workers
-
-- **Laid off during or shortly after long miluim service.** Hok Khayalim Meshukhrarim s. 41a forbids dismissal during miluim and 30 days after. The avtala registration window is extended for the miluim period; a hekel mizvad waiver is granted on request.
-- **Worked abroad recently.** If the user worked in a country with a bilateral social-security treaty (US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others), foreign months can count toward akhshara via form בל/627. Bring the foreign country's social-insurance statement.
-- **Foreign workers on permit.** Generally not entitled, with narrow exceptions for some Palestinian workers and caregivers.
-
-### Maternity Leave Edge Cases
-
-- Months on dmei leda count toward akhshara.
-- The 60-day post-leda period is a protected period under Hok Avoda Nashim s. 9. Firing during this window without a Labor Ministry permit is illegal, register as fired AND consider a separate labor-court complaint.
-- Extending leda with chofesh lelo tashlum (CHALAT) up to 12 months does not break tkufat akhshara.
-- Drawing dmei leda blocks avtala for the leda period; switch carefully when leda ends.
-
-### Sickness or Disability During Avtala
-
-- Cannot draw both avtala and dmei machala simultaneously. Report sickness to BL within the reporting cadence; switch to sick-pay status. Some sick days still consume avtala max-days.
-- Receiving full nechut klalit (75%+) blocks avtala. Partial disability (under 75%) sometimes allows partial avtala, case by case.
+Every further rule of this emergency regime (retroactive reporting, Form 100, employee-initiated chal"t, working during the chal"t, income offsets, the half-self-employed case, recurring claimants, the 67+ grant) is in `references/eligibility-rules.md`.
 
 ## Bundled Resources
 

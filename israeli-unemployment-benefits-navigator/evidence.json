@@ -717,6 +717,45 @@
         "references/benefit-calculation-tables.md",
         "SKILL.md"
       ]
+    },
+    {
+      "claim_id": "women-57-60-cap",
+      "claim": "On the women's 300-day track, the 201.03 NIS / 201.03 ש\"ח daily maximum from day 176 applies ONLY to women aged 57 to 60 (born 1.1.1960 or later). Women aged 60 to 67 on the same 300-day track have no day-176 cap. Refusing vocational training in the first 175 days costs a woman aged 57-60 a 90-day disqualification plus 30 days off her entitlement, leaving 270 days. Applying the 201.03 cap to a woman aged 60-67 understates a full 300-day entitlement by roughly 10,000 NIS / 10,000 ש\"ח / ₪10,000.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "זכויות לנשים בגילאי 57 עד 60 (שנולדו מ-1.1.60 ואילך) ... סכום דמי האבטלה המרבי מהיום ה- 176 ואילך - 201.03 ש\"ח (החל ב- 01.01.2026) ליום ... מי שתסרב להשתתף בהכשרה מקצועית במהלך 175 הימים הראשונים - תישלל זכאותה לאבטלה במשך 90 ימים + יופחתו 30 ימים מימי הזכאות לדמי אבטלה (כלומר תהיה זכאית ל- 270 ימים). ... זכויות לנשים בגילאי 60 עד 67 (שנולדו מ-1.1.60 ואילך): תקופת הזכאות לדמי אבטלה הוגדלה: תוכלו לקבל דמי אבטלה עבור 300 ימים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "discharged-soldier-70",
+      "claim": "A discharged soldier whose unemployment period starts in the first year after release from regular service gets at most 70 benefit days, with a statutory minimum daily benefit of 144.62 NIS / ₪144.62 / 144.62 ש\"ח. Up to 6 months of regular service count toward the 12-of-18 qualifying period. In vocational training in that first year no qualifying period is required, and the maximum is 70 days (138 days for someone with fewer than 12 years of education).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/%d7%97%d7%99%d7%99%d7%9c%20%d7%9e%d7%a9%d7%95%d7%97%d7%a8%d7%a8%20%d7%91%d7%aa%20%d7%a9%d7%a1%d7%99%d7%99%d7%9e%d7%94%20%d7%aa%d7%a7%d7%95%d7%a4%d7%aa%20%d7%94%d7%aa%d7%a0%d7%93%d7%91%d7%95%d7%aa.aspx",
+      "raw_snippet": "אם התחלת את תקופת האבטלה בשנה הראשונה לשחרורך משירות סדיר -תוכל לקבל 70 ימי אבטלה לכל היותר ... לא ייפחת מהסכום המינימלי הקבוע בחוק לחייל משוחרר - 144.62 ש\"ח ליום ... יכולים להילקח בחשבון 6 חודשי שירות סדיר, לכל היותר ... ישולמו לך דמי אבטלה בזמן לימודיך לתקופה של 138 ימים, לכל היותר",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "repeat-claimant",
+      "claim": "A repeat claimant (mobtal chozer) is someone who filed at least 2 unemployment claims in the last 4 years. Under 40: total days for all claims in the 4-year window are capped at 180% of the maximum, and once 100% of the days are used the daily maximum is 468.15 NIS / ₪468.15 / 468.15 ש\"ח. Aged 40 and over: no cap on the amount; if unemployment was paid in the 11 months before the claim, each month's days are reduced by the days paid in the preceding 11 months.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/MovtalHozer.aspx",
+      "raw_snippet": "מובטל חוזר הוא מי שהגיש לפחות 2 תביעות לדמי אבטלה ב-4 השנים האחרונות ... עד 180% ממספר הימים המרבי שלהם הוא זכאי ... לאחר שנוצלו 100% מימי הזכאות, מקסימום דמי האבטלה ליום יהיה - 468.15 ₪ (נכון ל-01.01.2026) ... למובטל חוזר מגיל 40 ומעלה אין הגבלה על סכום דמי האבטלה",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
     }
   ],
   "pending_verification": [
