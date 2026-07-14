@@ -33,12 +33,16 @@ The Pikadon and discharge grant are governed by **Chok Klitat Chayalim Meshuchra
 
 The Pikadon accrues each month of paid service at a rate set by service type. Current 2026 indexed monthly rates from hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5:
 
-| Service type (Hebrew) | English | NIS / month |
+| Service type (Hebrew) | English | NIS / month (May 2026) |
 |---|---|---|
-| לוחם | Combat | 993.46 |
-| תומך לחימה | Combat support | 827.89 |
-| שירות אחר / עורפי | Rear / regular | 662.31 |
-| שירות לאומי-אזרחי | National-civic service (SLE) | 662.31 |
+| לוחמים | Combat | 990.63 |
+| תומכי לחימה | Combat support | 825.52 |
+| עורפי | Rear / other | 660.42 |
+| שירות לאומי-אזרחי | National-civic service (SLE) | 660.42 |
+| מסלול אזרחי ביניים | Intermediate civilian track | 495.38 |
+| מסלול אזרחי מפוצל | Split civilian track | 330.25 |
+
+**Training months are reclassified, and this is the single most common over-estimate.** The MoD says so explicitly: the first **4 months** of a combat soldier's training are credited as **combat support**, and the first **2 months** of a combat-support soldier's training are credited as **other**. A combat soldier with 32 countable months therefore accrues 4 x 825.52 + 28 x 990.63, not 32 x 990.63.
 
 **Important caps and indexing rules:**
 
@@ -54,7 +58,7 @@ The Pikadon accrues each month of paid service at a rate set by service type. Cu
 
 **Always direct the user to the official calculator for the personalized total**, rates change monthly with the CPI: https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx (Pikadon calculator linked from the page).
 
-Provide an order-of-magnitude estimate only when the user supplies (a) service type and (b) months served (capped at 32/24). The example below uses Feb 2026 rates and may drift by a few NIS/month over the year.
+Provide an order-of-magnitude estimate only when the user supplies (a) service type and (b) months served (capped at 32/24). The rates above are the MoD's May 2026 figures and are re-indexed; re-read hachvana before quoting them for a later period.
 
 ### Step 3: The Discharge Grant (Manak Shichrur)
 
@@ -66,7 +70,8 @@ The discharge grant is **separate** from the Pikadon. Key facts:
 | To where? | The same bank account that received salary during service |
 | Restrictions on use? | None, "any purpose you choose" (לכל מטרה בה תבחרו) |
 | Tax? | Exempt (same statute as Pikadon) |
-| Per-tier amounts | Indexed monthly, verify via hachvana personal area or the calculator |
+| Per-tier amounts (May 2026, per month of service) | Combat 684.99, combat support 570.42, other (including SLE) 455.84, intermediate civilian track 342.50, split civilian track 227.92. The SAME training reclassification applies: a combat soldier's first 4 training months are paid at the combat-support rate. |
+| Eligibility | 12 months of service, or less if discharged on health grounds. Lone soldiers get an advance on the grant within 14 days. |
 
 > Source quote (hachvana GrantAndDeposit): "מענק שחרור, אשר יועבר לחשבונכם תוך 60 יום ממועד השחרור ובו תוכלו להשתמש לכל מטרה בה תבחרו"
 
@@ -94,7 +99,7 @@ Numbered in the statute order quoted above:
 
 | # | Purpose (Hebrew) | English | Typical evidence required |
 |---|---|---|---|
-| 1 | לימודים אקדמיים | Academic studies | Acceptance letter, tuition receipt, recognized institution (for abroad studies, verify recognition via Mishrad HaChinuch) |
+| 1 | לימודים אקדמיים | Academic studies | Acceptance letter, tuition receipt, recognized institution **in Israel** (see the abroad rule below) |
 | 2 | הכשרה מקצועית | Professional / vocational training | Course registration + payment receipt from recognized provider |
 | 3 | נישואין | Marriage | Teudat Nisuin OR wedding hall contract / vendor receipts (works pre- or post-wedding within the 5y window) |
 | 4 | הקמת עסק | Starting / investing in a business | Osek Patur or Osek Murshe registration + business setup expenses (equipment, lease, registration fees) |
@@ -107,7 +112,7 @@ Numbered in the statute order quoted above:
 |---|---|
 | "I can use Pikadon to pay rent on my first apartment" | **No.** Only purchase qualifies. Rental is not a permitted purpose. Tell the user to wait for the 5-year auto-transfer if they need cash for rent, or use the discharge grant (which has no restrictions). |
 | "I'll use it for my trip after the army (Big Trip)" | **No.** Travel is not a permitted purpose. The discharge grant can cover this, Pikadon cannot pre-5y. |
-| "It's for my degree, but I'm studying abroad" | **Yes, if** the institution is recognized by Mishrad HaChinuch / GHIL (Gimel Hod Israeli list). Verify before withdrawing. |
+| "It's for my degree, but I'm studying abroad" | **No.** The Pikadon can only be realised inside Israel: "כספי הפיקדון ניתנים למימוש רק במדינת ישראל" (kolzchut, "פיקדון אישי לחיילים משוחררים ומסיימי שירות לאומי-אזרחי"). A degree abroad does not qualify, however recognized the institution is. Someone studying abroad must wait for the 5-year auto-transfer, or use the discharge grant, which has no restrictions. |
 | "Can my parents withdraw it for me?" | **No.** The Pikadon is personal and non-transferable. The user must apply via their own MY VISIT account. |
 | "I want to use it as collateral for a loan" | **No.** Statutorily non-pledgeable (לא ניתן לשעבוד). |
 
@@ -217,7 +222,7 @@ User says: "I just finished my service as a lochem (32 months). Can I use my Pik
 
 Actions:
 1. Confirm eligibility: 32 months IDF lochem → full Pikadon, capped at 32 months.
-2. Estimate amount: 32 × 993.46 NIS (Feb 2026 lochem rate). Direct user to the official calculator for the personalized current total.
+2. Estimate the amount: 4 x 825.52 (the training months, credited as combat support) plus 28 x 990.63 (combat rate, May 2026). Direct the user to the official calculator for the personalized current total.
 3. Confirm purpose: driving lessons (לימודי נהיגה) is purpose #3 of the 6 permitted pre-5y purposes, YES, eligible.
 4. Note timeline: Pikadon visible day 14 after discharge.
 5. Documents needed: driving school payment receipts.
@@ -241,7 +246,7 @@ User says: "My daughter finished Sherut Leumi-Ezrachi 18 months ago, what is she
 
 Actions:
 1. Confirm eligibility: SLE 18 months ≥ 12 → eligible for Pikadon and grant.
-2. Compute Pikadon: SLE tier is acher (662.31 NIS/month × 18 months). Direct user to the official calculator for the personalized current total.
+2. Compute the Pikadon: the SLE rate is 660.42 NIS/month x 18 months. Direct the user to the official calculator for the personalized current total.
 3. Discharge grant: should have already landed within 60 days of completion, verify with her bank statements; if missing, contact hachvana.
 4. 6 permitted purposes apply equally.
 5. Nekudot zikui: 18 months falls in the 12-22 range → 1 point/year for 36 months from month after SLE completion if she has taxable income. Submit Tofes 101 to her employer.
@@ -295,7 +300,7 @@ No public MCP server exists for hachvana.mod.gov.il (the MoD personal area has n
 - **Section 39a, NOT Section 11.** Agents trained on older Israeli tax content often cite "Section 11 Pkudat Mas Hachnasa" for discharged-soldier credit points. The correct citation is **Section 39a (סעיף 39א)**. Section 11 covers basic resident points, not the post-discharge bonus.
 - **Section 9(27), NOT Section 9(7).** The Pikadon tax exemption is **Section 9(27)** of the Income Tax Ordinance. Section 9(7) covers severance pay exemption, different statute, different ceiling. Don't conflate them.
 - **Rental is NOT a permitted purpose.** The most common user mistake is assuming Pikadon can cover their first rental apartment deposit. Only **purchase** of an apartment / house / land qualifies. If the user wants cash for rent: route to the discharge grant (unrestricted) or wait for the 5-year auto-transfer.
-- **Pikadon rates index monthly with CPI.** Any specific NIS/month figure cited (e.g., 993.46 for combat) is the rate at the time of writing, it changes monthly. ALWAYS direct the user to the official calculator at hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5 for the personalized current total, rather than asserting a precise lump sum.
+- **Pikadon rates index monthly with CPI.** Any specific NIS/month figure cited (e.g. 990.63 for combat, May 2026) is the rate at the time of writing, it changes monthly. ALWAYS direct the user to the official calculator at hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5 for the personalized current total, rather than asserting a precise lump sum.
 - **The 32/24 month cap is on PAID service.** A male soldier who served 36 months (some unpaid extension) still only accrues Pikadon for 32 months at the relevant tier. Female cap is 24 months. Iron Swords reservist extension beyond mandatory service does NOT add to this Pikadon, that goes under miluim, a separate skill.
 - **Credit points start the month AFTER discharge.** A soldier who discharged on March 15 starts the 36-month nekudot-zikui clock from April 1, not March. The March payslip does not yet get the points.
 - **Nekudot zikui forward-claim cannot exceed monthly tax liability** (via Tofes 101). If a discharged soldier in their first job has low taxable income (e.g., part-time student job), the credit reduces tax owed to zero but does not pay out negative tax going forward. The retroactive **Tofes 135** path is different: if a prior employer over-withheld in past years because they didn't apply the credit, Tofes 135 yields a cash refund of the over-withholding, plus indexation and 4% interest. So "I lost X shekels" framing is accurate for the retroactive case but not for the forward case.

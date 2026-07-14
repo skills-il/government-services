@@ -281,6 +281,42 @@
       "source_fetched_at": "2026-05-18T12:00:00Z",
       "raw_snippet": "Equivalent URLs: https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי and https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
       "confidence": "high"
+    },
+    {
+      "id": "pikadon-rates-may-2026",
+      "claim": "Pikadon monthly rates, MoD, updated May 2026: combat 990.63 NIS / 990.63 ש\"ח, combat support 825.52 NIS / 825.52 ש\"ח, rear/other 660.42 NIS / 660.42 ש\"ח, national-civic service 660.42 NIS, intermediate civilian track 495.38 NIS / 495.38 ש\"ח, split civilian track 330.25 NIS / 330.25 ש\"ח. Maximum accrual 32 months for a male soldier, 24 for a female soldier. Ignoring the training reclassification over-states a combat soldier's pikadon by roughly 660 NIS.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "לוחמים: 990.63 ₪ לכל חודש שירות. תומכי לחימה: 825.52 ₪ לכל חודש שירות. עורפי: 660.42 ₪ לכל חודש שירות. שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
+      "confidence": "high"
+    },
+    {
+      "id": "training-reclassification",
+      "claim": "Basic-training months at the start of service are classified at a lower tier than the role actually served: a combat soldier's first 4 training months are classified as combat support, and a combat-support soldier's first 2 training months are classified as other. This applies to BOTH the pikadon and the discharge grant.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "חודשי ההכשרה הצבאית בתחילת השירות מסווגים לעיתים קרובות באופן שונה מהשירות שבוצע בפועל. לדוגמא, ארבעת חודשי ההכשרה של לוחמים מסווגים כתומכי לחימה, ושני חודשי ההכשרה של תומכי לחימה מסווגים כשירות אחר.",
+      "confidence": "high"
+    },
+    {
+      "id": "grant-rates-may-2026",
+      "claim": "Discharge grant (manak shichrur) monthly rates, MoD, updated May 2026: combat 684.99 NIS / 684.99 ש\"ח, combat support 570.42, other (including national-civic service completers) 455.84, intermediate civilian track 342.50, split civilian track 227.92. Paid within 60 days of discharge; lone soldiers get an advance within 14 days.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "לוחמים: 684.99 ₪ לכל חודש שירות. תומכי לחימה: 570.42 ₪ לכל חודש שירות. בתפקיד אחר כולל מסיימי שירות לאומי- אזרחי: 455.84 ₪ לכל חודש שירות.",
+      "confidence": "high"
+    },
+    {
+      "id": "pikadon-israel-only",
+      "claim": "The pikadon can be realised ONLY inside Israel. Studies abroad do not qualify, however recognized the institution. In the first 5 years the pikadon is available for studies, vocational training, driving lessons, starting a business, buying an apartment/house/land to build, or marriage; after 5 years the balance is released for any purpose.",
+      "claim_type": "amount",
+      "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-07-14",
+      "raw_snippet": "כספי הפיקדון ניתנים למימוש רק במדינת ישראל.",
+      "confidence": "high"
     }
   ]
 }
