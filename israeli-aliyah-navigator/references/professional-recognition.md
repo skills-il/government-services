@@ -61,3 +61,14 @@ Typical timeline: 1-2 years for physicians; shorter for nurses if Hebrew is alre
 - Academic transcripts that don't include detailed course-level breakdowns
 - Missing proof of continuous professional practice in the field
 - Hebrew level insufficient for the profession's communication requirements
+
+
+## Recognizing bodies and typical timelines
+
+| Field | Recognizing body | Typical timeline |
+|---|---|---|
+| Medical (physician, dentist, nurse, pharmacist, psychologist) | Misrad HaBriut (Ministry of Health) | 1-2 years for physicians (credential review + Hebrew exam + stazh) |
+| Engineering | MAHAT or the relevant engineering union | Months; pre-approval from abroad possible |
+| Law | Israel Bar Association | 2-3 years (Hebrew bar exam + stazh) |
+| Accounting | Council of CPAs (moetzet roei cheshbon) | Months; "New Oleh Accountant" streamlined track for 2+ years experience |
+| Teaching | Misrad HaChinuch (Ministry of Education) | Months; Hebrew at Ulpan Bet+ required |

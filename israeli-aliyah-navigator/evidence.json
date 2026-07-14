@@ -626,6 +626,123 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "sal-klita-standard-2026",
+      "claim": "Sal klita 2026, standard (working-age) track: single -- 1,250 airport prepaid card + 1,544 bank top-up + 6 x 3,150 = 21,694 NIS / 21,694 ש\"ח. Single parent -- 2,300 + 1,631 + 6 x 5,190 = 35,071. Couple -- 2,500 + 4,023 + 6 x 5,806 = 41,359.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,544 1,631 4,023 תשלום 1 3,150 5,190 5,806 סך הכל 21,694 35,071 41,359",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-prepension-2026",
+      "claim": "Sal klita 2026, pre-pension track (reaches statutory retirement age within 5 years of aliyah): single 1,250 + 1,583 + 6 x 3,992 = 26,785; single parent 2,300 + 1,690 + 6 x 6,201 = 41,196; couple 2,500 + 3,904 + 6 x 7,414 = 50,888.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "טרום פנסיה 1,583 1,690 3,904 3,992 6,201 7,414 סך הכל 26,785 41,196 50,888",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-pensioner-2026",
+      "claim": "Sal klita 2026, pensioner track (already at the statutory retirement age set by law): single 1,250 + 2,305 + 6 x 3,204 = 22,779; single parent 2,300 + 1,606 + 6 x 4,030 = 28,086; couple 2,500 + 3,785 + 6 x 4,663 = 34,263.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "גמלאי יחיד 2,305 3,204 22,779 28,086 34,263",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-supplements-2026",
+      "claim": "Sal klita 2026 supplements (added to the family basket, never a basket of their own): household of 6 or more adds 6 x 986 = 5,918; a person aged 18-21 adds 250 + 3,106 + 6 x 1,324 = 11,039; a child 4-18 adds 250 + 3,051 + 6 x 870 = 8,521; a child 0-4 adds 250 + 3,095 + 6 x 1,581 = 12,831.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "תוספת למשפחה 6 נפשות 986 בן/בת 18-21 1,324 ילד 4-18 870 ילד 0-4 1,581 סך הכל 5,918 11,039 8,521 12,831",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-structure",
+      "claim": "The sal klita is paid as a prepaid card at Ben Gurion (a bank deposit for those changing status inside Israel), a one-time bank top-up into the Israeli account (a couple must open a joint account), and SIX monthly instalments. There is NO seventh payment: after six months the oleh is checked for income support (havtachat hachnasa).",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "המשך המענק ניתן ב - 6 תשלומים חודשיים. בתום שישה חודשים לעלייה ניתן לבדוק זכאות לסיוע לצרכי הקיום באמצעות הבטחת הכנסה.",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-no-income-test",
+      "claim": "Entitlement to sal klita does not depend on income; the ministry page states no capital declaration (hatzharat hon) and no asset ceiling. Leaving the country stops the payments, and they resume only on return within the first aliyah year.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "הזכאות לסל קליטה אינה תלויה בגובה ההכנסה",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "oleh-credit-points-2022",
+      "claim": "Oleh tax credit points, current regime (arrived 2022 or later): 1/12 of an annual point per month for months 1-12, 1/4 per month for the next 18 months, 1/6 per month for the next 12, and 1/12 per month for the last 12. Total 8.5 points over 54 months. Olim who arrived before 2022 are on the legacy 42-month / 7.5-point ladder, which starts at the 1/4 rung.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לעולה_חדש",
+      "raw_snippet": "במשך כל אחד מ-12 החודשים הראשונים מאז עלייתם זכאים העולים ל-1/12 נקודת זיכוי שנתית (כלומר בממוצע 242 ₪ לכל חודש). במשך כל אחד מ-18 החודשים הבאים זכאים העולים ל-1/4 נקודת זיכוי שנתית (כלומר בממוצע 726 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הבאים זכאים העולים ל-1/6 נקודת זיכוי שנתית (כלומר בממוצע 484 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הנותרים זכאים העולים ל-1/12 נקודת זיכוי שנתית (כלומר בממוצע 242 ₪ לכל חודש).",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "credit-point-value-2026",
+      "claim": "The value of one income-tax credit point in 2026 is NIS 242 / 242 NIS / 242 ש\"ח per month, i.e. NIS 2,904 / 2,904 ש\"ח a year. Monthly values on the oleh ladder: 1/12 of a point = 242 NIS / 242 ש\"ח, 1/4 = 726 NIS / 726 ש\"ח, 1/6 = 484 NIS / 484 ש\"ח. Full use of the post-2022 ladder is worth about NIS 24,700 / 24,700 NIS / 24,700 ש\"ח of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242 = 24,684); the legacy 42-month ladder is worth about NIS 21,800.",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-monthly-deductions-booklet/he/generalInformation_income-tax-monthly-deductions-booklet_monthly-deductions-booklet-2026.pdf",
+      "raw_snippet": "נקודת זיכוי 33א 242 לחודש",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "credit-points-clock-pause",
+      "claim": "Regular IDF service and post-secondary study are excluded from the 54 months automatically: the clock pauses and the unused remainder of the benefit resumes on discharge or graduation. Otherwise the clock runs continuously from the teudat oleh, including months with no income. The credit applies to all taxable income, not only earned income, and a refund can be claimed up to 6 years back. The oleh points are on top of the 2.25 resident points.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לעולה_חדש",
+      "raw_snippet": "תקופה של שירות סדיר בצה\"ל או תקופת לימודים במוסד על-תיכוני לא תיספר בתוך 54 החודשים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
     }
   ]
 }

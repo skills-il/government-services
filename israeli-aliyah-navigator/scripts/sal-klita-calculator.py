@@ -1,295 +1,199 @@
 #!/usr/bin/env python3
 """
-Sal Klita (Absorption Basket) Calculator
+Sal Klita (absorption basket) calculator, 2026 rates.
 
-Calculates the expected sal klita amounts for new immigrants (olim)
-based on family size and year. The sal klita is a financial grant
-provided by Misrad HaKlita (Ministry of Absorption) to help olim
-during their first months in Israel.
+Source of every number below: Ministry of Aliyah and Integration, "סל קליטה"
+(https://www.gov.il/he/pages/absorption_basket), page updated 11.06.2026,
+tables "לוח סיוע כספי בסל הקליטה" (three tracks) and "לוח תוספות לסל קליטה".
+The tables are transcribed verbatim. Do NOT interpolate, index, or "estimate"
+these amounts: if the year changes, re-read the page and replace the table.
 
-Note: Amounts are approximations based on published rates and may
-vary. Always verify current amounts with Misrad HaKlita or at
-klita.gov.il for the most up-to-date figures.
+Structure of the basket (identical in all three tracks):
+  1. Ben Gurion payment, loaded onto a prepaid card on arrival (olim who change
+     status inside Israel get it as a bank deposit instead).
+  2. A one-time "bank top-up" (השלמה לחשבון בנק), paid into the Israeli bank
+     account. It is a separate line, not part of the monthly instalments.
+  3. Six monthly instalments. There is NO seventh payment: after month 6 the
+     oleh is checked for income support (havtachat hachnasa), not another
+     basket payment.
+
+Tracks:
+  standard    -- working-age oleh
+  pre-pension -- reaches the statutory retirement age within 5 years of aliyah
+  pensioner   -- already at the statutory retirement age set by law
+Note the tracks key off the STATUTORY retirement age (67 for men; 62-65 for
+women by birth year), not off age 65.
 
 Usage:
-    python scripts/sal-klita-calculator.py --family-size 1
-    python scripts/sal-klita-calculator.py --family-size 4 --year 2026
-    python scripts/sal-klita-calculator.py --help
+    python scripts/sal-klita-calculator.py --status single
+    python scripts/sal-klita-calculator.py --status couple --child-ages 3,9,17
+    python scripts/sal-klita-calculator.py --status single --track pensioner
+    python scripts/sal-klita-calculator.py --example
 """
 
 import argparse
 import sys
-from datetime import datetime
 
+YEAR = 2026
+SOURCE = "https://www.gov.il/he/pages/absorption_basket (updated 11.06.2026)"
 
-# Approximate sal klita base amounts in NIS (as of 2025/2026).
-# These are estimates based on published Misrad HaKlita schedules.
-# Actual amounts are updated annually and may differ.
-#
-# Structure: {year: {category: {airport_payment, monthly_payment, months, total}}}
-# Categories: single, couple, family_small (1-2 children), family_large (3+ children)
-
-SAL_KLITA_RATES = {
-    2025: {
-        "single": {
-            "airport": 2500,
-            "monthly": 2800,
-            "months": 6,
-            "rental_supplement": 0,
-        },
-        "couple": {
-            "airport": 3700,
-            "monthly": 3600,
-            "months": 6,
-            "final_payment": 3600,
-            "rental_supplement": 0,
-        },
-        "family_small": {
-            "airport": 4200,
-            "monthly": 4000,
-            "months": 6,
-            "final_payment": 4000,
-            "per_child_bonus": 1000,
-            "rental_supplement": 0,
-        },
-        "family_large": {
-            "airport": 4700,
-            "monthly": 4400,
-            "months": 6,
-            "final_payment": 4400,
-            "per_child_bonus": 1000,
-            "rental_supplement": 0,
-        },
+# track -> status -> (airport, bank_top_up, monthly, published_total)
+BASKET = {
+    "standard": {
+        "single": (1250, 1544, 3150, 21694),
+        "single-parent": (2300, 1631, 5190, 35071),
+        "couple": (2500, 4023, 5806, 41359),
     },
-    2026: {
-        "single": {
-            "airport": 2600,
-            "monthly": 2900,
-            "months": 6,
-            "rental_supplement": 0,
-        },
-        "couple": {
-            "airport": 3850,
-            "monthly": 3750,
-            "months": 6,
-            "final_payment": 3750,
-            "rental_supplement": 0,
-        },
-        "family_small": {
-            "airport": 4350,
-            "monthly": 4150,
-            "months": 6,
-            "final_payment": 4150,
-            "per_child_bonus": 1050,
-            "rental_supplement": 0,
-        },
-        "family_large": {
-            "airport": 4900,
-            "monthly": 4600,
-            "months": 6,
-            "final_payment": 4600,
-            "per_child_bonus": 1050,
-            "rental_supplement": 0,
-        },
+    "pre-pension": {
+        "single": (1250, 1583, 3992, 26785),
+        "single-parent": (2300, 1690, 6201, 41196),
+        "couple": (2500, 3904, 7414, 50888),
+    },
+    "pensioner": {
+        "single": (1250, 2305, 3204, 22779),
+        "single-parent": (2300, 1606, 4030, 28086),
+        "couple": (2500, 3785, 4663, 34263),
     },
 }
 
+# Child supplements (added to the family's basket; a minor never has a basket
+# of their own). key -> (airport, bank_top_up, monthly, published_total)
+CHILD_SUPPLEMENT = {
+    "0-4": (250, 3095, 1581, 12831),
+    "4-18": (250, 3051, 870, 8521),
+    "18-21": (250, 3106, 1324, 11039),
+}
 
-def get_category(family_size: int) -> str:
-    """Determine the sal klita category based on family size."""
-    if family_size == 1:
-        return "single"
-    elif family_size == 2:
-        return "couple"
-    elif family_size <= 4:
-        return "family_small"
-    else:
-        return "family_large"
+# Supplement for a household of 6 or more people. No airport / bank line.
+LARGE_FAMILY_SUPPLEMENT = (0, 0, 986, 5918)
 
-
-def get_category_label(category: str) -> str:
-    """Human-readable category label."""
-    labels = {
-        "single": "Single Oleh",
-        "couple": "Couple (no children)",
-        "family_small": "Family (1-2 children)",
-        "family_large": "Family (3+ children)",
-    }
-    return labels.get(category, category)
+MONTHS = 6
 
 
-def get_num_children(family_size: int) -> int:
-    """Calculate number of children from family size."""
-    if family_size <= 2:
-        return 0
-    return family_size - 2
+def child_band(age: int) -> str:
+    if age < 4:
+        return "0-4"
+    if age < 18:
+        return "4-18"
+    if age <= 21:
+        return "18-21"
+    return ""
 
 
-def calculate_sal_klita(family_size: int, year: int) -> dict:
-    """Calculate sal klita amounts for the given family size and year."""
-    category = get_category(family_size)
-    num_children = get_num_children(family_size)
+def line_total(row) -> int:
+    airport, top_up, monthly, published = row
+    computed = airport + top_up + monthly * MONTHS
+    if computed != published:
+        # The ministry's own published total wins. Two of its rows are a few
+        # shekels off their component sum (rounding inside the ministry table):
+        # the 18-21 child row and the large-family row. Report the gap instead
+        # of silently choosing one of the two numbers.
+        print(
+            f"Note: ministry rounding: {airport} + {top_up} + 6 x {monthly} = {computed}, "
+            f"but the published total for this row is {published}. Using the published total.",
+            file=sys.stderr,
+        )
+    return published
 
-    # Use closest available year if exact year not in rates
-    available_years = sorted(SAL_KLITA_RATES.keys())
-    if year in SAL_KLITA_RATES:
-        rates = SAL_KLITA_RATES[year]
-    elif year > max(available_years):
-        # Extrapolate from latest year with ~3% annual increase
-        base_year = max(available_years)
-        rates = SAL_KLITA_RATES[base_year]
-        years_diff = year - base_year
-        adjustment = 1.03 ** years_diff
-        rates = {
-            cat: {k: int(v * adjustment) if isinstance(v, (int, float)) else v
-                  for k, v in cat_rates.items()}
-            for cat, cat_rates in rates.items()
-        }
-    else:
-        rates = SAL_KLITA_RATES[min(available_years)]
 
-    cat_rates = rates[category]
+def calculate(status: str, track: str, child_ages, household_size: int) -> dict:
+    row = BASKET[track][status]
+    adults = 1 if status in ("single", "single-parent") else 2
+    if household_size is None:
+        household_size = adults + len(child_ages)
 
-    airport = cat_rates["airport"]
-    monthly = cat_rates["monthly"]
-    months = cat_rates["months"]
-    final_payment = cat_rates.get("final_payment", 0)
-    per_child_bonus = cat_rates.get("per_child_bonus", 0)
+    parts = [(f"Base basket ({status}, {track})", row)]
+    for age in child_ages:
+        band = child_band(age)
+        if not band:
+            print(
+                f"Note: a child aged {age} is outside the supplement bands (0-21) "
+                "and adds nothing to the basket.",
+                file=sys.stderr,
+            )
+            continue
+        parts.append((f"Child aged {age} (band {band})", CHILD_SUPPLEMENT[band]))
 
-    child_bonus_total = per_child_bonus * num_children
-    monthly_total = monthly * months
-    total = airport + monthly_total + final_payment + child_bonus_total
+    if household_size >= 6:
+        parts.append(("Household of 6 or more", LARGE_FAMILY_SUPPLEMENT))
 
+    total = sum(line_total(p[1]) for p in parts)
+    airport = sum(p[1][0] for p in parts)
+    top_up = sum(p[1][1] for p in parts)
+    monthly = sum(p[1][2] for p in parts)
     return {
-        "category": category,
-        "category_label": get_category_label(category),
-        "family_size": family_size,
-        "num_children": num_children,
-        "year": year,
+        "parts": parts,
         "airport": airport,
+        "bank_top_up": top_up,
         "monthly": monthly,
-        "months": months,
-        "final_payment": final_payment,
-        "per_child_bonus": per_child_bonus,
-        "child_bonus_total": child_bonus_total,
-        "monthly_total": monthly_total,
+        "months": MONTHS,
         "total": total,
+        "household_size": household_size,
     }
 
 
-def print_results(result: dict):
-    """Print formatted sal klita calculation results."""
+def report(r: dict) -> None:
+    print(f"Sal Klita estimate, {YEAR} rates")
+    print(f"Household size: {r['household_size']}")
     print()
-    print("=" * 60)
-    print("  SAL KLITA (ABSORPTION BASKET) CALCULATOR")
-    print(f"  Estimated amounts for {result['year']}")
-    print("=" * 60)
+    print("Components:")
+    for label, (a, t, m, tot) in r["parts"]:
+        print(f"  {label}: airport {a:,} + bank top-up {t:,} + 6 x {m:,} = {tot:,} NIS")
     print()
-    print(f"  Family size:    {result['family_size']} person(s)")
-    print(f"  Category:       {result['category_label']}")
-    if result["num_children"] > 0:
-        print(f"  Children:       {result['num_children']}")
+    print(f"  Ben Gurion prepaid card (on arrival): {r['airport']:,} NIS")
+    print(f"  One-time bank top-up:                 {r['bank_top_up']:,} NIS")
+    print(f"  Monthly instalment (x6):              {r['monthly']:,} NIS")
+    print(f"  TOTAL over the 6-month basket:        {r['total']:,} NIS")
     print()
-    print("  PAYMENT SCHEDULE")
-    print(f"  {'-' * 50}")
-    print()
-
-    # Payment schedule table
-    print(f"  {'Payment':<25} {'Amount (NIS)':>15}")
-    print(f"  {'=' * 40}")
-    print(f"  {'Airport (arrival)':<25} {result['airport']:>12,}")
-    print()
-
-    for month in range(1, result["months"] + 1):
-        print(f"  {'Month ' + str(month):<25} {result['monthly']:>12,}")
-
-    if result["final_payment"] > 0:
-        print(f"  {'Month 7 (final)':<25} {result['final_payment']:>12,}")
-
-    if result["child_bonus_total"] > 0:
-        print()
-        print(f"  {'Child bonus':<25} {result['child_bonus_total']:>12,}")
-        print(f"  ({result['num_children']} children x {result['per_child_bonus']:,} NIS each)")
-
-    print()
-    print(f"  {'-' * 40}")
-    print(f"  {'TOTAL ESTIMATED':<25} {result['total']:>12,} NIS")
-    print(f"  {'-' * 40}")
-    print()
-
-    # Timeline
-    print("  PAYMENT TIMELINE")
-    print(f"  {'-' * 50}")
-    print(f"  Arrival:     {result['airport']:,} NIS (cash at airport)")
-    print(f"  Months 1-6:  {result['monthly']:,} NIS/month (bank transfer)")
-    if result["final_payment"] > 0:
-        print(f"  Month 7:     {result['final_payment']:,} NIS (final payment)")
-    if result["child_bonus_total"] > 0:
-        print(f"  Children:    {result['child_bonus_total']:,} NIS (added to payments)")
-    print()
-
-    # Disclaimer
-    print("  IMPORTANT NOTES")
-    print(f"  {'-' * 50}")
-    print("  * Amounts are ESTIMATES based on published rates")
-    print("  * Actual amounts are updated annually by Misrad HaKlita")
-    print("  * Verify current amounts at klita.gov.il")
-    print("  * Sal klita is NOT taxable income")
-    print("  * Sal klita does NOT need to be repaid")
-    print("  * Payments require an active Israeli bank account")
-    print()
+    print("Notes:")
+    print("  * There is NO 7th payment. After month 6, check eligibility for income")
+    print("    support (havtachat hachnasa) instead.")
+    print("  * The bank top-up requires an Israeli account (a JOINT account for a couple);")
+    print("    give the account details to Misrad HaAliyah VeHaKlita.")
+    print("  * The basket is NOT income-tested.")
+    print("  * Register within one year of receiving oleh status.")
+    print("  * Leaving Israel STOPS the payments; they resume only if you return within")
+    print("    the first aliyah year.")
+    print("  * The track is set by the STATUTORY retirement age, not by age 65.")
+    print(f"  * Source: {SOURCE}")
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Calculate estimated sal klita (absorption basket) amounts for new olim.",
+def main() -> int:
+    p = argparse.ArgumentParser(
+        description="Calculate the 2026 sal klita (absorption basket) for a new oleh.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Examples:
-  %(prog)s --family-size 1              Single oleh, current year
-  %(prog)s --family-size 2              Couple, current year
-  %(prog)s --family-size 4 --year 2026  Family of 4 (2 adults + 2 children)
-  %(prog)s --family-size 6              Family with 4 children
-
-Notes:
-  - Family size 1 = single oleh
-  - Family size 2 = couple (no children)
-  - Family size 3-4 = family with 1-2 children
-  - Family size 5+ = family with 3+ children
-  - Amounts are estimates; verify at klita.gov.il
-        """
     )
-
-    parser.add_argument(
-        "--family-size",
+    p.add_argument("--status", choices=["single", "single-parent", "couple"], default="single")
+    p.add_argument(
+        "--track",
+        choices=["standard", "pre-pension", "pensioner"],
+        default="standard",
+        help="pre-pension = reaches statutory retirement age within 5 years of aliyah; "
+        "pensioner = already at the statutory retirement age",
+    )
+    p.add_argument(
+        "--child-ages",
+        default="",
+        help="comma-separated ages of children, e.g. 2,7,19 (bands: 0-4, 4-18, 18-21)",
+    )
+    p.add_argument(
+        "--household-size",
         type=int,
-        required=True,
-        help="Total number of family members making aliyah (1=single, 2=couple, 3+=family)"
+        default=None,
+        help="total people in the household; 6 or more adds the large-family supplement",
     )
-    parser.add_argument(
-        "--year",
-        type=int,
-        default=datetime.now().year,
-        help=f"Year to calculate for (default: {datetime.now().year})"
-    )
+    p.add_argument("--example", action="store_true", help="run a worked example")
+    a = p.parse_args()
 
-    args = parser.parse_args()
+    if a.example:
+        print("Example: couple with children aged 3 and 9, standard track\n")
+        report(calculate("couple", "standard", [3, 9], None))
+        return 0
 
-    if args.family_size < 1:
-        print("Error: Family size must be at least 1.")
-        sys.exit(1)
-
-    if args.family_size > 15:
-        print("Error: Family size seems unusually large. Maximum supported: 15.")
-        sys.exit(1)
-
-    if args.year < 2020 or args.year > 2035:
-        print(f"Error: Year must be between 2020 and 2035. Got: {args.year}")
-        sys.exit(1)
-
-    result = calculate_sal_klita(args.family_size, args.year)
-    print_results(result)
+    ages = [int(x) for x in a.child_ages.split(",") if x.strip()]
+    report(calculate(a.status, a.track, ages, a.household_size))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

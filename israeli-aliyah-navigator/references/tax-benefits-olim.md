@@ -78,17 +78,24 @@ This is the most significant tax benefit for olim.
 
 Olim receive additional tax credit points that reduce their Israeli tax liability.
 
-### Credit Point Schedule
+### Credit Point Schedule (reformed in 2022, branch on the aliyah date)
 
-| Period | Additional Credit Points | Value per Point (approx.) |
-|--------|------------------------|--------------------------|
-| Months 1-18 from aliyah | 3 additional points | ~NIS 235/month per point |
-| Months 19-30 from aliyah | 2 additional points | ~NIS 235/month per point |
-| Months 31-42 from aliyah | 1 additional point | ~NIS 235/month per point |
+**Arrived 2022 or later: 8.5 points over 54 months** (Income Tax Ordinance s.35).
+
+| Months since aliyah | Points per month | Cumulative points | Monthly value (2026) |
+|---|---|---|---|
+| 1-12 | 1/12 of an annual point | 1.0 | 242 NIS |
+| 13-30 | 1/4 | 4.5 | 726 NIS |
+| 31-42 | 1/6 | 2.0 | 484 NIS |
+| 43-54 | 1/12 | 1.0 | 242 NIS |
+
+**Arrived before 2022: the legacy ladder, 7.5 points over 42 months** (18 months at 1/4, 12 at 1/6, 12 at 1/12). It has no opening 1/12 period.
+
+Regular IDF service and post-secondary study do NOT count toward the 54 months: the clock pauses and the unused remainder resumes on discharge or graduation. This is automatic, not an election. In every other case the clock runs continuously from the teudat oleh, including months with no income, and those months are lost.
 
 ### How It Works
 
-- Each credit point reduces monthly tax by approximately NIS 235 (exact amount updated annually)
+- One credit point is worth NIS 242 per month / NIS 2,904 per year in 2026 (Israel Tax Authority, monthly deductions booklet, "נקודת זיכוי 33א 242 לחודש"). The value is updated annually.
 - Credit points reduce the tax owed, not the taxable income
 - If the total credit points exceed the tax liability, the excess is not refunded (for employment income)
 - Credit points apply automatically when the employer is notified of oleh status via Form 101
@@ -96,7 +103,7 @@ Olim receive additional tax credit points that reduce their Israeli tax liabilit
 
 ### Total Benefit
 
-Over the 3.5-year period, the additional credit points provide an estimated total tax reduction of approximately NIS 30,000-50,000 (depending on the exact credit point value in each year).
+Full use of the post-2022 ladder is worth about NIS 24,700 of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242, at the 2026 credit-point value). The legacy 42-month ladder is worth about NIS 21,800. These oleh points are on top of the 2.25 resident points.
 
 ## Customs and Import Benefits
 
@@ -227,3 +234,23 @@ Consult a tax advisor (yo'etz mas) specializing in olim if you:
 | ניכוי במקור | nikui ba'makor | tax withholding at source |
 | החזר מס | hechzer mas | tax refund |
 | תיק מס | tik mas | tax file |
+
+
+## New-oleh Israeli-source earned-income exemption (2026 incentive window)
+
+A new tax incentive grants olim and toshavim chozrim vatikim who establish Israeli residency between **November 5, 2025 and December 31, 2026** a tiered exemption on **Israeli-source earned income** (employment salary and self-employment only, NOT passive income), on top of the standard 10-year foreign-income exemption.
+
+| Tax year | Exemption ceiling on earned Israeli-source income |
+|---|---|
+| 2026 | up to NIS 600,000 |
+| 2027 | up to NIS 1,000,000 |
+| 2028 | up to NIS 1,000,000 |
+| 2029 | up to NIS 350,000 |
+| 2030 | up to NIS 150,000 |
+
+- **Related-party cap:** when working for a related party (own company, family business), the exemption is capped at NIS 140,000 per year for all years 2026-2030.
+- **75-day residency requirement:** eligibility is lost if you spend fewer than 75 days in Israel during 2028 or 2029, or cease being an Israeli tax resident in those years.
+- **Earned income only:** rental, interest, dividends do NOT qualify. The standard Section 14 ten-year foreign-income exemption remains intact.
+- Olim arriving outside the November 5, 2025 - December 31, 2026 window do NOT receive this incentive, only the standard Section 14 benefits.
+
+Source: Shivat Zion 501000361627 (Tax Reform 2026).

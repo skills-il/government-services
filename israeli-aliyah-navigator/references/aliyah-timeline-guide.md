@@ -203,3 +203,27 @@ This reference provides a detailed month-by-month breakdown of the first year af
 6. **Be patient with bureaucracy.** Israeli government offices can be slow. Follow up regularly but allow processing time.
 7. **Leverage oleh discounts.** Arnona, mas rechisha, and other benefits can save significant money.
 8. **Consult professionals** for tax and legal matters, especially if you have foreign assets or complex income situations.
+
+
+## Pre-arrival: Nefesh B'Nefesh and departure checklist
+
+**Nefesh B'Nefesh (for English-speaking countries):**
+- Free aliyah assistance for olim from USA, Canada, and UK
+- Flight subsidies and group flights
+- Pre-aliyah employment guidance
+- Airport welcome and first-day assistance
+- Website: nbn.org.il
+
+**Before Departure:**
+- Notify banks about international transfers
+- Obtain certified translations of key documents (Hebrew or English)
+- Research health insurance options (kupat cholim selection)
+- Consider shipping personal belongings (tax-free container for olim)
+- Download Israeli banking apps and government service apps
+
+
+## Ulpan options and levels
+
+**Ulpan options:** Morning Ulpan (boker, Sun-Thu 8-13, 5 months, full-time learners); Evening Ulpan (erev, Sun-Thu 17-20, 10 months, working olim); Kibbutz Ulpan (immersive, 5 months, ages 18-35); Online Ulpan (flexible, for remote workers and parents); Private Ulpan (paid, custom schedule, for profession-specific vocab).
+
+**Levels:** Aleph (א׳, beginners, free), Bet (ב׳, intermediate, sometimes subsidized), Gimel (ג׳, advanced, usually paid), Dalet+ (ד׳+, academic/professional).
