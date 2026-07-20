@@ -169,6 +169,46 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "mas-shevach-rate",
+      "claim": "Mas shevach (land-appreciation / capital-gains tax) on the sale of Israeli real estate is 25% on the real gain, after deducting the CPI-linked inflation component and allowable expenses (purchase tax, agent and lawyer fees, improvements).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A9%D7%91%D7%97",
+      "raw_snippet": "מס שבח מקרקעין מוטל בשיעור 25% על השבח הריאלי במכירת זכות במקרקעין, לאחר ניכוי מרכיב האינפלציה וההוצאות המותרות.",
+      "fetched_at": "2026-07-20T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mas-shevach-linear-exemption",
+      "claim": "Linear exemption: for a residential home bought before 1 January 2014, the portion of the gain attributable to the period before that date is exempt and only the portion from 1 January 2014 onward is taxed at 25% (split linearly by holding period); the linear benefit is legislated to be phased out from 2030.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1_%D7%A9%D7%91%D7%97_%D7%9C%D7%99%D7%A0%D7%99%D7%90%D7%A8%D7%99",
+      "raw_snippet": "חישוב מס שבח לינארי: לדירת מגורים שנרכשה לפני 1.1.2014, השבח שנצבר עד מועד זה פטור, והשבח מ-1.1.2014 ואילך חייב במס בשיעור 25%.",
+      "fetched_at": "2026-07-20T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mas-shevach-single-home-exemption",
+      "claim": "Section 49b(2) single-residence exemption: a seller who owns a single residential home held at least 18 months can be fully exempt from mas shevach on the sale, subject to a value ceiling of 5,008,000 NIS (frozen until 15 January 2028); gain attributable to value above the ceiling is taxed. One exempt sale is generally available every 18 months.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A9%D7%91%D7%97_%D7%91%D7%9E%D7%9B%D7%99%D7%A8%D7%AA_%D7%93%D7%99%D7%A8%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%99%D7%97%D7%99%D7%93%D7%94",
+      "raw_snippet": "פטור ממס שבח במכירת דירת מגורים יחידה לפי סעיף 49ב(2), בכפוף לתקרת שווי של 5,008,000 ש\"ח, מכירה פטורה אחת כל 18 חודשים.",
+      "fetched_at": "2026-07-20T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mas-rechisha-additional-temp-order",
+      "claim": "The 8%/10% additional-home purchase-tax rates are a temporary order (hora'at sha'a) in force through 31 December 2026, using tier amounts frozen at 16 January 2024, and are due for re-legislation.",
+      "source_url": "https://www.gov.il/he/departments/legalInfo/purchase-tax-additional-apartment",
+      "raw_snippet": "מס רכישה על דירה נוספת בשיעור 8% ו-10% נקבע בהוראת שעה שבתוקף עד 31 בדצמבר 2026.",
+      "fetched_at": "2026-07-20T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mas-rechisha-reg11-reduced",
+      "claim": "Regulation 11 reduced purchase-tax track for disabled persons, the blind, terror/hostility victims, and bereaved families: 0.5% on the portion up to a periodically-updated CPI-linked threshold and 5% above it, on a single residential home, available up to twice in a lifetime.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%9E%D7%A1_%D7%A8%D7%9B%D7%99%D7%A9%D7%94_%D7%9C%D7%A0%D7%9B%D7%94",
+      "raw_snippet": "הנחה במס רכישה לפי תקנה 11 לנכה, עיוור, נפגע פעולות איבה ומשפחה שכולה: 0.5% עד סף המתעדכן ו-5% מעליו, עד פעמיים בחיים.",
+      "fetched_at": "2026-07-20T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
     }
   ]
 }

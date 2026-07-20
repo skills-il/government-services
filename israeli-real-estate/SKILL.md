@@ -51,6 +51,10 @@ The oleh benefit is granted once only, applies only to a single residential home
 
 Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
 
+**The 8%/10% additional-home rates are a temporary order (hora'at sha'a) in force through 31 December 2026**, using tier amounts frozen at 16 January 2024. They are due for re-legislation. If you are buying an additional home in late 2026 or in 2027, re-check whether the temporary order was extended before relying on the 8%-from-the-first-shekel rate.
+
+**Reduced rate for disabled, blind, terror/hostility victims, and bereaved families (Regulation 11):** these buyers get a reduced purchase-tax track on a single residential home, 0.5% on the portion up to a periodically-updated threshold and 5% above it, granted up to twice in a lifetime. The exact threshold is CPI-linked, verify the current figure and eligibility conditions with the Israel Tax Authority before quoting a number.
+
 ### Step 3: Buying Process Checklist
 1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank. Bank of Israel caps the loan-to-value (LTV): up to 75% for a first/sole home, 70% for a replacement home (selling your existing one), and 50% for an investment/additional property. Plan the down payment accordingly.
 2. **Property search:** View properties, check neighborhood
@@ -81,6 +85,15 @@ Betterment tax is a municipal levy of 50% of the rise in property value caused b
 - **Who pays:** the owner at the time of realization, typically the seller.
 - **Reductions and exemptions:** the local authority may reduce the levy to 25% or grant a full exemption in defined cases (urban renewal, certain Tama 38 projects, rehabilitation neighborhoods). Always check the specific plan and the municipality's policy.
 - Factor this into renovation ROI and sale-price math, it can be a large unplanned cost.
+
+Do NOT confuse betterment tax (heitel hashbacha, a municipal levy on a planning-driven value rise) with capital-gains tax on sale (mas shevach), covered next. They are different taxes with different authorities.
+
+### Step 5b: Seller Capital Gains Tax (Mas Shevach)
+When you SELL Israeli real estate, the seller (not the buyer) may owe mas shevach, the land-appreciation (capital-gains) tax, on the real gain between purchase and sale. This is the biggest tax a seller faces and is separate from the buyer's purchase tax and from betterment tax.
+- **Rate:** 25% on the real gain (the gain after deducting the CPI-linked inflation component and allowable expenses such as purchase tax, agent and lawyer fees, and improvements).
+- **Linear exemption for pre-2014 holdings:** for a residential home bought before 1 January 2014, the portion of the gain attributable to the period before that date is exempt, and only the portion from 1 January 2014 onward is taxed at 25% (the "linear" split by holding period). This linear benefit is legislated to be phased out from 2030, verify the current rule for sales in 2030 and later.
+- **Single-residence exemption (Section 49b(2)):** a seller who owns a single residential home and has held it at least 18 months can be fully exempt on the sale, subject to a value ceiling of 5,008,000 NIS (frozen until 15 January 2028). Gain attributable to value above the ceiling is taxed. One exempt sale is generally available every 18 months.
+- File the mas shevach declaration with the Israel Tax Authority within 30 days of the sale. Because the exemptions and expense deductions are technical, route a real seller to a CPA or real-estate lawyer before quoting a net figure.
 
 ### Step 6: Rental Agreement Key Terms
 Israeli rental contracts (chozeh schirut) must include:
