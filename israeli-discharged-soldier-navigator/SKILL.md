@@ -91,7 +91,9 @@ If the user expected money on day 1 and there's nothing in their account: this i
 
 ### Step 5: The Six Permitted Pre-5-Year Withdrawal Purposes
 
-Before the 5-year window closes, Pikadon can be withdrawn for these and ONLY these purposes (exact statutory wording from hachvana):
+**The window is 5 years for most discharged soldiers, but up to 10 years for active reservists (and for discharged lone soldiers, whose full rights live in `israeli-lone-soldier-rights`).** Post-October-2023, hachvana extends the entitlement window to 10 years for a discharged soldier who is an active reservist (mesharet miluim pa'il). If the user is doing reserve duty, do not tell them their Pikadon rights expire at 5 years, check the extended window on hachvana.
+
+Before the window closes, Pikadon can be withdrawn for these and ONLY these purposes (exact statutory wording from hachvana):
 
 > "לימודים אקדמיים, הכשרה מקצועית, נישואין, הקמת עסק, לימודי נהיגה ורכישת דירה, בית או קרקע לבניית בית"
 
@@ -162,7 +164,7 @@ This means a user withdrawing the full Pikadon balance for academic studies rece
 |---|---|
 | Who qualifies | Lochem (combat) classification on Teudat Shichrur AND "special populations", lone soldiers, new immigrants, conscripts with children, recognized minorities. Combat-support (tomech lechima) may also qualify depending on the special-populations definition for each cohort. Verify on hachvana for the current cycle. |
 | Coverage | 100% of annual undergraduate tuition (BA or MA scope per Mimadim rules). Tuition only, does NOT cover dorms, living costs, or non-academic expenses. |
-| Window | Usable up to 5 years after end of service (raised from 3 years by Tikkun 25). |
+| Window | Base window is 5 years after end of service (raised from 3 by Tikkun 25). It extends by +1 year for someone who did a mechina (preparatory program), by +2 years for at least a full year of permanent (keva) service, and by +3 years for both combined, up to a maximum of 8 years. Verify the applicable extension for the current cycle on hachvana. |
 | Application | Via the Education section of the personal area at hachvana.mod.gov.il (look for "ממדים ללימודים" / "Mimadim LiLimudim"). |
 | Statute citation | Tikkun 25 to Chok Klitat Chayalim Meshuchrarim, approved 20 Dec 2023. Bill sponsors: MKs Katz, Dallal, Nir, Biton. |
 
