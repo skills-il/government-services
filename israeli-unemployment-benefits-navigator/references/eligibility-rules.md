@@ -8,14 +8,14 @@ Complete eligibility rule table for Israeli unemployment benefits under the Nati
 
 1. **Israeli resident** at the time of unemployment
 2. **Age 20 to 67** (under 20 not eligible; over 67 see kiztavat zikna)
-3. **Qualifying period met** (tkufat akhshara): at least 12 months of salaried work (shakhir) out of the 18 months preceding registration. Reduced to **6 months out of 18** when the user is on chal"t inside the Shaagat HaArie 2026 defining period (28 Feb 2026 to 14 Apr 2026, extendable by ministerial order to 14 May 2026)
+3. **Qualifying period met** (tkufat akhshara): at least 12 months of salaried work (shakhir) out of the 18 months preceding registration. Reduced to **6 months out of 18** only when the user was on chal"t inside the Shaagat HaAri 2026 defining period (28 Feb 2026 to 14 Apr 2026, extendable by ministerial order to 14 May 2026). **That window is CLOSED: for any leave or job loss beginning after 14.5.2026 the 12-month rule is the only rule.** A further reduction to 3 months out of 18 applied to special populations inside the same window
 4. **Registered as unemployed** at Sherut HaTaasuka (taasuka.gov.il), with a follow-up in-person branch visit within 14 days of online registration
 5. **Actively seeking work**, attending reporting sessions, and accepting suitable offers
 
 ## Qualifying Period (tkufat akhshara) Rules
 
 - **Standard track:** 12 months required out of the 18-month lookback window
-- **Shaagat HaArie 2026 chal"t track:** 6 months required out of 18 (only if chal"t falls within the defining period above)
+- **Shaagat HaAri 2026 chal"t track [CLOSED 14.5.2026]:** 6 months required out of 18, and 3 months out of 18 for special populations (operation evacuees; people on a BL or MoD disability allowance; spouses of reservists with 90+ days in the preceding year; MoD-recognised hostile-action casualties and disabled IDF veterans since 7 Oct and their spouses; soldiers discharged within the last year), each with its own required attachment. Applies only if the chal"t fell within the defining period above
 - **Lookback window anchor:** starts from the last day of work if the person registers within 3 months, otherwise from the registration date. A `hekel mizvad` waiver can shift the anchor back for force-majeure delays (hospitalization, miluim, abroad for emergency); request in writing from the local BL branch with documentation
 - **Counting rule:** any month with even one day of salaried work counts as a full qualifying month
 - **Freelance months do NOT count:** only salaried (shakhir) employment qualifies. Osek Patur and Osek Murshe months are excluded, even if BL was paid
@@ -37,7 +37,7 @@ Complete eligibility rule table for Israeli unemployment benefits under the Nati
 
 ## Reason for Termination Matrix
 
-The 90-day waiting period for resignation runs from the **registration date** at Sherut HaTaasuka, not from the last day of work, and is calendar days (not work days). The wait delays the start; it does NOT reduce total max days.
+The 90-day waiting period for resignation runs from the **day work ceased** (`מיום הפסקת העבודה`), not from the registration date, and is calendar days (not work days). The wait delays the start; it does NOT reduce total max days.
 
 | Reason | Wait period | Notes |
 |--------|-------------|-------|
@@ -46,9 +46,9 @@ The 90-day waiting period for resignation runs from the **registration date** at
 | End of fixed-term contract | 0 days | Full benefits |
 | Employer bankruptcy / dissolution | 0 days | Additionally can claim unpaid wages separately |
 | Unpaid leave (chalat) 30+ days, standard | 0 days | Under standard chalat rules |
-| Chal"t inside Shaagat HaArie defining period (bifurcated rule, effective 5.5.2026) | 0 days | Emergency track; no 5-day deduction; no need to exhaust accrued vacation. Minimum chal"t length: **5 consecutive days ONLY if the chal"t started 28.2.2026 or 1.3.2026** (first two war days); **10 consecutive days** for any chal"t starting later |
+| Chal"t inside the Shaagat HaAri window **[CLOSED 14.5.2026]** | 0 days | Emergency track; no 5-day deduction; no need to exhaust accrued vacation. Minimum chal"t length: **5 consecutive days ONLY if the chal"t started 28.2.2026 or 1.3.2026** (first two war days); **10 consecutive days** for any chal"t starting later |
 | Unpaid leave under 30 days (standard) | Not eligible | Too short to qualify outside the emergency track |
-| Resignation (hitpatrut) without justified cause | 90 days | Calendar days, from registration date |
+| Resignation (hitpatrut) without justified cause | 90 days | Calendar days, counted from the day work ceased |
 | Resignation with justified cause (hitpatrut b'din mefuteret) | 0 days | See justified causes below |
 | Refused a suitable job offer from Sherut HaTaasuka | 90 days waiting + 30 days deducted from max-day total | Two separate penalties: 90-day delay AND 30-day reduction in max days |
 | Fired for cause (criminal / gross negligence) | 30 day wait typically, sometimes more | Bituach Leumi decides case by case |
@@ -95,7 +95,9 @@ Once approved, the claimant must:
 - Failure to report side income = fraud = retroactive clawback + possible criminal liability
 
 
-## Shaagat HaArie 2026 emergency chal"t regime -- detailed rules
+## Shaagat HaAri 2026 emergency chal"t regime -- detailed rules [WINDOW CLOSED 14.5.2026]
+
+**Status: closed.** The defining period ran 28 Feb to 14 Apr 2026, extendable only to 14 May 2026. Nothing in this section applies to leave or unemployment beginning after that date; those claimants fall under the standard 12-of-18 rules. Kol-Zchut notes the framework can be re-activated by order for a future emergency through the end of 2027, so treat it as a dormant standby mechanism.
 
 **Employer-initiated vs employee-initiated.** Most halat under this regime is employer-initiated and routine. Employee-initiated halat IS allowed but raises a justification question at BL: a claimant who pushed for the leave themselves without documented cause (medical, family, dependent-care) may be treated as voluntary cessation and pulled into the 90-day waiting period despite the emergency framework. Walk the user through their circumstances carefully.
 

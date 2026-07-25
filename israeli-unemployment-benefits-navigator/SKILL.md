@@ -1,6 +1,6 @@
 ---
 name: israeli-unemployment-benefits-navigator
-description: "Walk a user through Israeli dmei avtala (דמי אבטלה / unemployment benefits) end to end: check eligibility under the 12-of-18 month qualifying period (tkufat akhshara, or 6-of-18 during Shaagat HaArie chal\"t), calculate the 2026 progressive benefit, map max days by age and dependents (50 to 300), warn about the 90-day resignation wait, surface stackable benefits (hashlamat hachnasa, hachshara miktzoit, severance interaction), and generate a Sherut HaTaasuka and Bituach Leumi application checklist. Use when a user asks about dmei avtala, eligibility, how much avtala they will get, how to apply, was laid off, fired, or placed on chal\"t in Israel. Do NOT use for other Bituach Leumi programs (israeli-bituach-leumi), net salary (israeli-payroll-calculator), reservist pay (israeli-miluim-manager), aliyah benefits (israeli-aliyah-navigator), or employment contract review."
+description: "Walk a user through Israeli dmei avtala (דמי אבטלה / unemployment benefits) end to end: check eligibility under the 12-of-18 month qualifying period (tkufat akhshara; the 6-of-18 chal\"t variant applied only inside the Shaagat HaAri window, which closed 14.5.2026), calculate the 2026 progressive benefit, map max days by age and dependents (50 to 300), warn about the 90-day resignation wait, surface stackable benefits (hashlamat hachnasa, hachshara miktzoit, severance interaction), and generate a Sherut HaTaasuka and Bituach Leumi application checklist. Use when a user asks about dmei avtala, eligibility, how much avtala they will get, how to apply, was laid off, fired, or placed on chal\"t in Israel. Do NOT use for other Bituach Leumi programs (israeli-bituach-leumi), net salary (israeli-payroll-calculator), reservist pay (israeli-miluim-manager), aliyah benefits (israeli-aliyah-navigator), or employment contract review."
 license: MIT
 allowed-tools: ''
 compatibility: Works with Claude, Claude Code, ChatGPT, Cursor. Optional pairing with kolzchut MCP for live rule lookups. No network required for standalone calculations.
@@ -9,7 +9,7 @@ compatibility: Works with Claude, Claude Code, ChatGPT, Cursor. Optional pairing
 # Israeli Unemployment Benefits Navigator
 
 ## Problem
-Every year, tens of thousands of Israelis lose their job or are placed on unpaid leave (חל"ת) and leave avtala money on the table because the rules are dense, the qualifying period is easy to miscount, and the Bituach Leumi website buries the progressive benefit formula under links. Resigning without knowing about the 90-day waiting period, registering late at Sherut HaTaasuka, or forgetting that only 12 salaried months out of the last 18 qualify, all cost real shekels. A separate set of users miss out on stackable benefits (hashlamat hachnasa for low earners, vocational training stipends, the 2026 שאגת הארי emergency 6-of-18 track) because nobody told them. This skill gives a clear "Am I eligible? How much will I get? What do I do first?" answer in one pass, with a personalized application checklist the user can execute the same day.
+Every year, tens of thousands of Israelis lose their job or are placed on unpaid leave (חל"ת) and leave avtala money on the table because the rules are dense, the qualifying period is easy to miscount, and the Bituach Leumi website buries the progressive benefit formula under links. Resigning without knowing about the 90-day waiting period, registering late at Sherut HaTaasuka, or forgetting that only 12 salaried months out of the last 18 qualify, all cost real shekels. A separate set of users miss out on stackable benefits (hashlamat hachnasa for low earners, vocational training stipends, and, for claims from the closed 2026 שאגת הארי window, the 6-of-18 and 3-of-18 emergency tiers) because nobody told them. This skill gives a clear "Am I eligible? How much will I get? What do I do first?" answer in one pass, with a personalized application checklist the user can execute the same day.
 
 > All ₪ amounts in this skill are 2026 figures (effective 01.01.2026) and are linked to inflation. They re-link in January 2027. Always cross-check against btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx for the current year before quoting numbers to a user.
 
@@ -24,11 +24,11 @@ Every year, tens of thousands of Israelis lose their job or are placed on unpaid
 | Age in years | Yes | Determines max benefit days and the under-28 vs 28+ benefit rate tier |
 | Number of people you support (spouse + children) | Yes | Determines max benefit days bracket |
 | Average monthly gross salary over the last 6 months | Yes | Drives benefit amount via the progressive tier formula |
-| Number of months worked as an employee in the last 18 | Yes | Verifies tkufat akhshara (12 standard, 6 if on chal"t during Shaagat HaArie defining period) |
+| Number of months worked as an employee in the last 18 | Yes | Verifies tkufat akhshara. **12 is the operative rule.** The 6-month variant applied only to chal"t inside the Shaagat HaAri window, which closed 14.5.2026 |
 | Israeli resident? | Yes | Non-residents are ineligible |
 | Already registered at Sherut HaTaasuka? | Yes | If not, this is the first action |
 | Gender and exact date of birth | If aged 57 to 67 | Women born 1960 or later get a special 300-day track |
-| On chal"t between 28 Feb 2026 and 14 May 2026? | Yes if chal"t | Triggers the Shaagat HaArie emergency track (see Special Cases) |
+| On chal"t between 28 Feb 2026 and 14 May 2026? | Only if the leave began on or before 14.5.2026 | That window is CLOSED. Ask only to classify an older claim still in process; for any leave starting after it, skip this and use the standard rules |
 | Worked abroad in the last 18 months in a treaty country (US, UK, EU, CA)? | Yes if relevant | Foreign months may count via bilateral social-security treaty (form בל/627) |
 | Currently receiving any other Bituach Leumi benefit (nechut, leda, hashlamat hachnasa)? | Yes | Some benefits cannot stack; some can supplement |
 
@@ -41,8 +41,8 @@ Run the eligibility gate in this order. Stop at the first failure and tell the u
 | Residency | Must be an Israeli resident | Explain that non-residents and most foreign workers cannot claim dmei avtala |
 | Age | Between 20 and 67 | Below 20: not eligible. Above 67: explain kiztavat zikna instead |
 | Qualifying period (standard) | At least 12 months of work as a salaried employee (shakhir) in the last 18 months | Explain that osek months do not count, that even one day in a month counts as a full month |
-| Qualifying period (Shaagat HaArie chal"t) | At least 6 months of salaried work in the last 18 months IF the chal"t falls inside the 28 Feb to 14 May 2026 defining period | Use the emergency track; see Special Cases |
-| Registration window | Must register at Sherut HaTaasuka within 3 months of the last day of work | If outside window, eligibility may still exist but the 18-month lookback starts from registration; force-majeure waivers (hekel mizvad) exist for hospitalization, miluim, or being abroad for emergency |
+| Qualifying period (Shaagat HaAri chal"t) **[CLOSED WINDOW]** | At least 6 months out of 18, but ONLY if the chal"t began inside 28 Feb to 14 May 2026. That window has closed, so this row does not apply to any new claim | Applies only to claims from that period still being processed; otherwise use the 12-month row above |
+| Registration window | **Register now, not later.** Entitlement runs from the registration date and every day before it is simply lost, not backdated. Three months from the last day of work is the outer backstop, not a target | If outside window, eligibility may still exist but the 18-month lookback starts from registration; force-majeure waivers (hekel mizvad) exist for hospitalization, miluim, or being abroad for emergency |
 | In-person follow-up | After online registration at taasuka.gov.il, attend the local branch in person within 14 days | Missing the in-person visit voids the registration |
 
 Under Israeli law, a month with even a single day of salaried work counts as a full qualifying month. Mandatory IDF service, paid parental leave (dmei leda), miluim days, and paid sick leave from the employer all count toward the qualifying period. Osek (self-employed) months do NOT count toward standard akhshara, even if Bituach Leumi was paid.
@@ -57,8 +57,8 @@ Under Israeli law, a month with even a single day of salaried work counts as a f
 | Made redundant | None | Same as fired |
 | Employer bankrupt | None | Employee can claim both unpaid wages from Bituach Leumi and dmei avtala |
 | Chal"t (unpaid leave) 30+ days, standard | None | Standard chalat rules |
-| Chal"t during Shaagat HaArie defining period (bifurcated rule, effective 5.5.2026) | None | Emergency track, paid from day 1; no need to exhaust vacation first. Minimum: **5 consecutive days** ONLY if chal"t started 28.2.2026 or 1.3.2026; **10 consecutive days** if chal"t started later. See Special Cases. |
-| Resignation without justified cause | 90 days | The 90-day clock runs from the registration date, not the last day of work. Calendar days, not work days. The wait delays the start; it does NOT reduce total max days |
+| Chal"t during the Shaagat HaAri window **[CLOSED 14.5.2026]** | None | Emergency track, paid from day 1; no need to exhaust vacation first. Minimum: **5 consecutive days** ONLY if chal"t started 28.2.2026 or 1.3.2026; **10 consecutive days** if chal"t started later. See Special Cases. |
+| Resignation without justified cause | 90 days | The 90-day clock runs from the **day work ceased** (`מיום הפסקת העבודה`), not from the registration date. Calendar days, not work days. Register anyway during the wait. The wait delays the start; it does NOT reduce total max days |
 | Resignation with justified cause (hitpatrut b'din mefuteret) | None | Must prove grounds. Bituach Leumi decides |
 | Refused a suitable job offer from Sherut HaTaasuka | 90 days waiting + 30 days deducted from max-day total | Two separate penalties: a 90-day delay AND a permanent 30-day reduction in entitlement |
 
@@ -210,7 +210,7 @@ Warn the user if any of these apply to their case:
 | Refused a suitable job from Sherut HaTaasuka | 90-day wait + 30-day deduction from max days | Do not refuse offers that match the 25%/60-min/profession test |
 | Did not register within 3 months | Lookback shifts, may lose qualifying months | Register immediately. If late due to hospitalization, miluim, or emergency travel, request a hekel mizvad waiver in writing |
 | Missed scheduled reporting | Benefits suspended for the period | Always attend or reschedule in advance |
-| Self-employed (osek) during last 18 months | Freelance months do not count toward standard akhshara | Need 12 salaried months specifically (or 6 under Shaagat HaArie chal"t track). One more salaried month may flip eligibility |
+| Self-employed (osek) during last 18 months | Freelance months do not count toward standard akhshara | Need 12 salaried months specifically (the 6-month chal"t variant applied only inside the closed Shaagat HaAri window). One more salaried month may flip eligibility |
 | Worked for a family member | Benefits denied unless arms-length employment is proven | Need all 5: payslips dated 12+ months pre-dispute, bank-transfer trail (no cash), third-party witness to actual work, dated employment contract, employer paid tax+BL+pension on time. BL חוזר 1287 |
 | Employer refuses to fill Form 1514 | Claim stalls | Substitute with tatzhir + 3 payslips + bank statements (חוזר 1342) |
 | Working part-time during unemployment | Benefit reduced (~75% of part-time gross is deducted from that month's avtala) | Report all income. Below the BL kotzbat patur (small-earnings exemption), reduction may not apply, verify thresholds |
@@ -218,9 +218,11 @@ Warn the user if any of these apply to their case:
 
 ## Special Cases
 
-### Shaagat HaArie 2026 Emergency Chal"t Regime
+### Shaagat HaAri 2026 Emergency Chal"t Regime [WINDOW CLOSED 14.5.2026]
 
 Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026, which **passed second and third readings on 4.5.2026** and was published in ספר החוקים 3525. Its companion business-side law (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026) covers business compensation and the 20% employer reservist refund. Applies if the user is on chal"t between 28 Feb 2026 and 14 Apr 2026 (extendable by joint Finance and Labor minister order to 14 May 2026).
+
+**STATUS AS OF TODAY: this window has CLOSED.** The defining period ran 28 Feb to 14 Apr 2026, extendable only to 14 May 2026. For any chal"t or job loss beginning after that, the **standard 12-of-18 rule applies** and none of the concessions below are available. Keep reading this section only when the user's chal"t actually fell inside the window, since those claims, retroactive employer reports, and appeals are still being processed. Kol-Zchut notes the framework can be re-activated by order for a future emergency through the end of 2027, so treat it as a dormant standby mechanism, not a live track.
 
 | Standard track | Shaagat HaArie chal"t track |
 |----------------|-----------------------------|
@@ -229,6 +231,8 @@ Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (ת�
 | 5-day deduction at start of payments | Avtala from day 1 of chal"t |
 | Must exhaust accrued vacation first | No need to exhaust accrued vacation |
 | Sherut HaTaasuka in-person within 14 days | Sherut HaTaasuka offices were closed 28 Feb-9 Apr 2026, registration window extended; rights preserved during closure |
+
+**A 3-of-18 tier exists for special populations, and missing it costs the whole claim.** Inside the same defining period the qualifying period was cut to **3 months out of 18** (not 6) for: people evacuated during the operation (attach a local-authority evacuation confirmation); people with disabilities receiving a BL or MoD disability allowance (attach the allowance or entitlement confirmation); spouses of reservists who served 90+ days in the year before the unemployment (attach the reservist service confirmation); those recognized by the MoD as hostile-action casualties or disabled IDF veterans since 7 October, and their spouses (attach the MoD recognition); and soldiers discharged within the last year (no extra form needed). Entitlement in these cases is paid in full with no 5-day deduction and without needing to exhaust vacation days.
 
 **Continuous, includes weekends and holidays.** The 5-day / 10-day count is calendar-consecutive: Shabbat, חג, and Yom HaAtzmaut all count toward the threshold. Splitting the leave (e.g., 4 days off, work Friday, 4 days off) does NOT aggregate; each block is evaluated independently and must clear the bifurcated minimum on its own.
 
@@ -283,7 +287,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 
 9. **Quoting 2026 figures past Jan 2027.** All ₪ values re-link with inflation each January. Always check btl.gov.il for the current year before stating numbers.
 
-10. **Assuming the 90-day clock starts when work ended.** It starts on the registration date at Sherut HaTaasuka, calendar days. A delayed registration delays the clock too.
+10. **Assuming the 90-day resignation clock starts at registration.** Bituach Leumi counts it from the **day work ceased**: `אם הפסקת לעבוד מרצונך תוכל להתחיל לקבל דמי אבטלה רק לאחר שחלפו 90 יום מיום הפסקת העבודה`. Register immediately anyway, because entitlement still runs from registration once the wait is over.
 
 11. **Recommending Form 100 instead of Form 126 for the standalone avtala claim.** Form 100 is monthly withholding (per payslip). The employee's standalone BL avtala claim needs Form 126 (annual employer summary). Bringing Form 100 alone causes rejection. **However**, Form 100 plays a different and required role under the Shaagat HaArie chal"t track: the employer files Form 100 with the exact halat start and end dates to authorize the leave for BL purposes. So Form 100 IS the right document on the employer side; it's the wrong document on the claimant side. Don't conflate them.
 
@@ -298,13 +302,13 @@ If neither MCP is installed, the skill still works from the built-in reference t
 | Bituach Leumi: maximum entitlement period | https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx | Max days table including women's 300-day track |
 | Bituach Leumi: Shaagat HaArie chal"t framework (authoritative) | https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx | Emergency 6-of-18, bifurcated 5/10-day chal"t minimum (effective 5.5.2026), day-1 payment, retroactive reporting |
 | Bituach Leumi: changes to the Shaagat HaArie halat framework | https://www.btl.gov.il/about/news/Pages/changes-halat.aspx | Official changelog of amendments to the 5/10-day bifurcation and parameters |
-| Kol-Zchut: dmei avtala for chal"t workers during Shaagat HaArie | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_(חל"ת)_במהלך_מבצע_שאגת_הארי | Plain-language guide to the bifurcated rule with payment-date timing for the 5-day cohort |
+| Kol-Zchut: dmei avtala for chal"t workers during Shaagat HaArie | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_%28חל%22ת%29_במהלך_מבצע_שאגת_הארי | Plain-language guide to the bifurcated rule with payment-date timing for the 5-day cohort |
 | Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of the assistance laws (ספר החוקים 3525) |
 | Cross-reference: business-side compensation | https://agentskills.co.il/he/skills/government-services/israeli-business-war-compensation | For business owners with halat'd employees; covers employer-side filings, wage participation grant, indirect-damage track |
 | Bituach Leumi: reasons for stopping work | https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx | Resignation, refused-offer, justified-cause rules |
-| Kolzchut: dmei avtala (right) | https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 | Plain-language rules and exceptions in Hebrew |
-| Kolzchut: qualifying period (tkufat akhshara) | https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 | How months are counted |
-| Kolzchut: maximum days by age and dependents | https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94 | Max days table |
+| Kolzchut: dmei avtala (right) | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_%28חל%22ת%29_במהלך_מבצע_שאגת_הארי | Plain-language rules and exceptions in Hebrew |
+| Kolzchut: qualifying period (tkufat akhshara) | https://www.kolzchut.org.il/he/תקופת_אכשרה_לדמי_אבטלה | How months are counted |
+| Kolzchut: maximum days by age and dependents | https://www.kolzchut.org.il/he/מספר_הימים_המירבי_לקבלת_דמי_אבטלה | Max days table |
 | Sherut HaTaasuka: applicant info | https://www.taasuka.gov.il/applicants/dmeiavtala/ | Registration steps |
 | Bituach Leumi: special benefits for women 57-67 | https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx | 300-day track rules |
 
@@ -315,7 +319,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 | Benefit amount looks too high | Did not apply the daily ceiling or used wrong age tier | Re-check age is 28+ vs under-28, apply ₪550.76 / ₪367.17 ceilings |
 | Benefit projection over a long entitlement looks too high | Used day-1 ceiling for the entire period | After day 125 the ceiling drops to ₪367.17. Project front and tail separately |
 | User has only 11 qualifying months | Just short of the 12-month threshold | Explain the rule. If they can wait one more month of salaried work, they reach 12. If they were on chal"t in the Shaagat HaArie defining period, only 6 months may be needed |
-| Resigner confused about 90-day wait | Thinks they lose 90 days of total entitlement | Clarify: the 90-day wait delays the start (from registration date, not termination date), but does not reduce total max days. Refusing a job offer adds a 30-day reduction on top |
+| Resigner confused about 90-day wait | Thinks they lose 90 days of total entitlement | Clarify: the 90-day wait delays the start and is counted from the day work ceased, not from registration, but does not reduce total max days. Refusing a job offer adds a 30-day reduction on top |
 | User was fired from a family member's business | Bituach Leumi rejects as non-arms-length | Need all 5: dated employment contract, payslips predating dispute by 12+ months, bank-transfer wage trail, third-party witness, employer paid tax+BL+pension on time (חוזר 1287) |
 | Employer refuses to provide Form 1514 | Claim stalls without employer cooperation | Per חוזר אבטלה 1342, substitute with a tatzhir + 3 payslips + bank statements showing wage transfers |
 | Calculation shows benefit below minimum wage | Low salary user | Confirm tier 1 at the correct rate (80% for 28+, 60% for under 28). Still may be low, consider hashlamat hachnasa stacking (form 5320) |

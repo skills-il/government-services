@@ -2,7 +2,10 @@
 """Israeli unemployment benefits (dmei avtala) calculator for 2026.
 
 Takes age, dependents, and 6-month salary history and returns:
-- Eligibility check (standard 12-of-18 or Shaagat HaArie 6-of-18 chal"t track)
+- Eligibility check (standard 12-of-18; the Shaagat HaAri 6-of-18 chal"t track is a CLOSED
+  window and is refused unless --chalat-start falls on or before 2026-05-14. A further
+  3-of-18 tier applied to special populations inside that same window; pass the real
+  month count via --qualifying-months for those cases.)
 - Daily and monthly gross benefit amount
 - Estimated net (after BL deduction, health tax, marginal income tax)
 - Maximum benefit days based on age + dependents
@@ -47,6 +50,11 @@ BL_MONTHLY_DEDUCTION = 48
 HEALTH_TAX_RATE = 0.031  # ~3.1% mas briut on benefit, approximate
 DEFAULT_QUAL_MONTHS_STANDARD = 12
 DEFAULT_QUAL_MONTHS_EMERGENCY = 6
+# Shaagat HaAri emergency chal"t window. Defining period 28.2.2026 to 14.4.2026,
+# extendable by ministerial order only to 14.5.2026. CLOSED thereafter: any leave or
+# job loss starting after this date falls under the standard 12-of-18 rule.
+EMERGENCY_WINDOW_START = "2026-02-28"
+EMERGENCY_WINDOW_END = "2026-05-14"
 
 # Progressive brackets: (upper_bound, rate_under_28, rate_28_plus)
 BRACKETS = [
@@ -103,7 +111,7 @@ def check_eligibility(
     if age >= 67:
         return EligibilityResult(False, "Above maximum age (67); see kiztavat zikna")
     required = DEFAULT_QUAL_MONTHS_EMERGENCY if emergency_chalat else DEFAULT_QUAL_MONTHS_STANDARD
-    track = "Shaagat HaArie chal\"t emergency track" if emergency_chalat else "standard track"
+    track = "Shaagat HaAri chal\"t emergency track [CLOSED WINDOW]" if emergency_chalat else "standard track"
     if qualifying_months < required:
         return EligibilityResult(
             False,
@@ -345,6 +353,10 @@ def format_output(e: EligibilityResult, b: BenefitResult | None) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Israeli unemployment benefits calculator")
+    parser.add_argument(
+        "--chalat-start",
+        help="Chal\"t start date YYYY-MM-DD. Required with --emergency-chalat; the emergency track is refused if it is after 2026-05-14.",
+    )
     parser.add_argument("--age", type=int, help="Age in years")
     parser.add_argument("--dependents", type=int, default=0, help="Number of dependents (spouse + children)")
     parser.add_argument("--salary", type=float, help="Average monthly gross salary ILS")
@@ -377,7 +389,7 @@ def main() -> int:
     parser.add_argument(
         "--emergency-chalat",
         action="store_true",
-        help="Shaagat HaArie chal\"t track (6-of-18 akhshara, defining period 28 Feb to 14 May 2026)",
+        help="Shaagat HaAri chal\"t track (6-of-18 akhshara). CLOSED WINDOW: only valid when --chalat-start is on or before 2026-05-14",
     )
     parser.add_argument("--example", action="store_true", help="Run with a worked example")
     args = parser.parse_args()
@@ -393,6 +405,25 @@ def main() -> int:
         )
         print(format_output(e, b))
         return 0
+
+    if args.emergency_chalat:
+        if not args.chalat_start:
+            print(
+                "Error: --emergency-chalat requires --chalat-start YYYY-MM-DD. The Shaagat HaAri\n"
+                f"window ran {EMERGENCY_WINDOW_START} to {EMERGENCY_WINDOW_END} and is CLOSED; the 6-of-18\n"
+                "qualifying period cannot be applied without confirming the leave fell inside it.",
+                file=sys.stderr,
+            )
+            return 1
+        if not (EMERGENCY_WINDOW_START <= args.chalat_start <= EMERGENCY_WINDOW_END):
+            print(
+                f"Error: chal\"t start {args.chalat_start} is outside the Shaagat HaAri window "
+                f"({EMERGENCY_WINDOW_START} to {EMERGENCY_WINDOW_END}).\n"
+                "That window is CLOSED. The standard 12-of-18 qualifying period applies; rerun without "
+                "--emergency-chalat.",
+                file=sys.stderr,
+            )
+            return 1
 
     if args.age is None or args.salary is None:
         parser.print_help()
