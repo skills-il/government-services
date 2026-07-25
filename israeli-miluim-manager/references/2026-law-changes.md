@@ -157,23 +157,79 @@ One credit point (nekudat zikui) = NIS 242/month = NIS 2,904/year (2026 value, f
 
 ## IDF Aka Grants and Keren HaSiyua (Government Resolution Jan 25, 2026)
 
-A 6.2 billion NIS support package for reservists, administered by the IDF Personnel Directorate (Aka) through Keren HaSiyua LeMishartei HaMiluim. These grants are paid by the IDF, NOT by Bituach Leumi or Rashut HaMisim. They are the most-asked-about and most-frequently-missed reservist benefits.
+The 2026 reservist support package, renewed by the Government Resolution of 25.01.2026 and administered by the IDF Personnel Directorate (Aka) through Keren HaSiyua LeMishartei HaMiluim. Paid by the IDF, NOT by Bituach Leumi or Rashut HaMisim.
 
-| Grant | Hebrew | Eligibility | Amount |
-|-------|--------|-------------|--------|
-| Manak Mishpacha Mugdal | מענק משפחה מוגדל | 40+ days served + child age 14 or under | Graduated by accumulated days |
-| Manak Hashlama LeNofesh | מענק השלמה לנופש | Vacation supplement | Up to NIS 4,500 |
-| Manak Mishpacha LeYeled Mugbal | מענק לילד מוגבל | Parents of children with disabilities, 45+ days | NIS 2,000 |
-| Manak Ha'avarat Dira | מענק העברת דירה | Reservists who relocated, 45+ days, ranks A+/A/B | NIS 2,500 |
-| Digital Wallet | ארנק דיגיטלי | Cumulative reserve days from day 10 onward | Up to NIS 5,000 |
-| Tutoring Fund (students) | קרן שיעורים פרטיים | Reservists in higher education | NIS 3,000 (combat) / NIS 2,000 (rear) |
+**Two structural changes that invalidate every pre-2026 figure:**
 
-**How to claim:**
-1. Log in to miluim.idf.il (the IDF reservist portal)
-2. Update personal status: married, children, location, education status under "miktzo'a ezrachi" (NOT "haskala"). Eligibility computes from this data.
-3. Eligible grants appear under "Manakim VeHatavot"
-4. Some are paid automatically; others require submitting a request with supporting documents
-5. Digital wallet credits accrue automatically once the reservist passes the day-10 threshold
+1. Tzav shagra service counts, not only Tzav 8: `בשנת 2026 הזכאויות למענקים ולסיוע מקרן הסיוע לא תהיה מוגבלת לצווי 8 בלבד`.
+2. Grants are banded by **מדרג פעילות** (activity tier) א'+, א', ב', ג', ד', ה', assigned by the IDF per unit and service type. The illustrative mapping published by the IDF is: א'+ combat battalions, א' brigades, ב' divisions, ג' HAGMAR, ד' training and security units, ה' commands and staffs. The IDF states this is illustrative only and not binding. Confirm a reservist's tier at 1111 ext. 4 then 1.
+
+### Grants by tier
+
+**מענק משפחה מוגדל**, 40+ days (any order type), child up to 14. Section 8 days from 07.10.23 to 31.12.25 count. Paid daily from day 41.
+
+| מדרג | א'+ | א' | ב' | ג' | ד' | ה' |
+|---|---|---|---|---|---|---|
+| NIS/day | 83 | 71 | 60 | 60 | 33 | 21 |
+
+**מענק הוצאות אישיות**, 40+ days, same day-counting rule, paid daily from day 41. Explicitly all-or-nothing: a reservist below the day threshold gets nothing, not a pro-rata share.
+
+| מדרג | א'+ | א' | ב' | ג' | ד' | ה' |
+|---|---|---|---|---|---|---|
+| NIS/day | 46 | 39 | 31 | 31 | 18 | 11 |
+
+**מענק כלכלת הבית מוגדל**, 45+ shamap days, tiers א'+/א'/ב' only. One-off for 2026, paid in September by Mofet: 1,250 / 1,065 / 815 NIS.
+
+**מענק שנתי למפקדים**, 54 shamap days (40 if a student), tiers א'+/א', in an established, trained, formally-assigned command role: Magad 20,000 / Samgad and Mem-Pey 10,000 / Samap and Mem-Mem 5,000 NIS. Days across two command roles can be summed, with the grant pro-rated between them.
+
+**מענק משפחה מיוחדת**, 45+ days, parent of a special-education pupil or of a child receiving the disabled-child allowance: 2,000 NIS one-off, no double grants.
+
+**ארנק דיגיטלי (פייטר)**, 10+ days. Usable for state fees and levies, leisure and welfare for the reservist and family.
+
+| מדרג | Days 1-30 | Days 31-45 | Day 46+ | Cap |
+|---|---|---|---|---|
+| א'+ | 45 | 120 | 70 | 5,000 |
+| א' | 40 | 100 | 60 | 4,250 |
+| ב' | 30 | 80 | 45 | 3,250 |
+
+**שובר נופש**, 45+ days in 2026, one-off, redeemable until end of 2028, with a per-day top-up for days 46 to 60 inclusive.
+
+| מדרג | Base, no children | Cap | Base, child under 14 | Cap |
+|---|---|---|---|---|
+| א'+ | 2,630 (+~58/day) | 3,500 | 3,375 (+~75/day) | 4,500 |
+| א' | 2,200 (+~50/day) | 2,950 | 2,925 (+~65/day) | 3,900 |
+| ב' | 1,700 (+~40/day) | 2,300 | 2,250 (+~50/day) | 3,000 |
+| ג' | 780 (+~18/day) | 1,050 | 1,020 (+~22/day) | 1,350 |
+| ד' | 780 (+~18/day) | 1,050 | 1,020 (+~22/day) | 1,350 |
+| ה' | 605 (+~13/day) | 800 | 760 (+~16/day) | 1,000 |
+
+**סיוע במעבר דירה**, 45+ shamap days, tiers א'+/א'/ב', 2,500 NIS, reduced by any relocation help already received.
+
+**מענק חופשת לידה**, 45+ shamap days, and the partner stayed off work at least 21 days beyond the paid maternity period, of which 21+ fell during the reservist's qualifying service. Up to 10,700 NIS per birth in 2026.
+
+**קייטנות**, tiers א'+/א'/ב', 20+ days including 3 in a camp period, or 21 summer days; child under 16 at camp start. Qualifying 2026 periods: Pesach 24.03-08.04, summer 01.07-31.08, Tishrei 22.09-02.10, Hanukkah 06.12-12.12. Amount 500 NIS for one child, 250 for each additional; annual cap 2,000 (א'+/א') or 1,300 (ב').
+
+**סיוע נפשי**, 50+ days from 01.01.2026, tiers א'+/א'/ב'. Covers psychologist, psychiatrist, social worker, occupational therapist, or speech therapist only, plus resilience group therapy, for the reservist, partner, and children up to 18. Reimburses 80% of actual cost up to 240 NIS per session, redeemable to end of 2027.
+
+| מדרג | 4+ children | 1-3 children | No children |
+|---|---|---|---|
+| א'+ | 25 sessions / 6,000 | 22 / 5,280 | 15 / 3,600 |
+| א' | 21 sessions / 5,040 | 18 / 4,320 | 13 / 3,120 |
+| ב' | 17 sessions / 4,080 | 14 / 3,360 | 10 / 2,400 |
+
+### Students
+
+Tuition help requires 50+ qualifying shamap days between 23.10.2025 and 30.09.2026; the share covered is then banded: א'+ 100%, א' 85%, ב' 65%, ג' 30%, ד' 30%, ה' 22%. A state-funded scholarship holder gets only the uncovered remainder, with no double funding. Tiers א'+/א'/ב' with 50+ days who do not qualify receive Ministry of Labor vocational-training and employment-guidance vouchers instead. Tier א'+ undergraduates in defined STEM subjects also get individual or small-group tutoring for tashpa"u.
+
+There is NO published academic-credit-reduction table for 2026. Do not reproduce one.
+
+### Claiming, and the timing caveat
+
+1. Log in to miluim.idf.il and update personal status: married, children, location, and education under "miktzo'a ezrachi" (NOT "haskala"). Eligibility computes from this data.
+2. Eligible grants appear under "Manakim VeHatavot".
+3. Some are paid automatically by Mofet to the bank account registered in the IDF system; others need a request with documents.
+
+**Most 2026 grants are announced but not yet open.** The policy repeats `מימוש הזכאות לאחר הפצת מדיניות ייעודית בנושא` for grant after grant, the Fighter card and vacation voucher are expected to be implemented during summer 2026, the full 2026 Keren HaSiyua regulations are explicitly **not yet published** (`תקנון קרן הסיוע המלא והמעודכן לשנת 2026 יפורסם בהמשך`), and the package is conditional on the 2026 budget law. Always tell a reservist what they are expected to be entitled to and to watch miluim.idf.il, never that they can claim today.
 
 ## Service-Connected Injury and PTSD: Misrad HaBitachon Track
 
@@ -255,10 +311,10 @@ To activate: update IDF portal under "miktzo'a ezrachi" (NOT "haskala") with stu
 | Bituach Leumi salary reimbursement | Active | Active (permanent) + Amendment 253 income basis fix (May 2025) |
 | Tagmul Nosaf (annual recognition) | Active | Active (paid in May of following year for any year with 10+ days) |
 | Tagmul Meyuchad (60+ day special payment) | Active | Active (Tzav 8 days Oct 7, 2023 to Dec 31, 2025 count to threshold) |
-| Tax credits | Wartime special credits | New 17-tier system for combat (Amendment 283); 2028 threshold drops to 20 days |
+| Tax credits | Wartime special credits | New 15-tier system for combat (Amendment 283); 2028 threshold drops to 20 days |
 | Minimum compensation (floor) | Active | NIS 9,863/month (NIS 328.76/day, 2026) |
 | Maximum compensation (ceiling) | Active | NIS 51,910/month (NIS 1,730.33/day, 2026) |
-| Aka 6.2B grants stack | N/A | Active per Government Resolution Jan 25, 2026 |
+| Keren HaSiyua grant set (tier-banded) | N/A | Active per Government Resolution Jan 25, 2026, most grants pending a dedicated procedure |
 | Manak Nezek Akif (self-employed) | Active | Active (joint Tax Authority + Aka program; rolling filing windows) |
 | Bank Israel relief | Active | Active (mortgage/loan/overdraft accommodations) |
 | Student tuition refund (VATAT) | Active | Active (50+ days = up to 100% refund for tashpa"u) |
@@ -279,6 +335,6 @@ To activate: update IDF portal under "miktzo'a ezrachi" (NOT "haskala") with stu
 1. **Update HR policies**: Reflect the tiered dismissal protection (30 days for under 60 days served, 60 days for 60+ days served)
 2. **Claim 20% social contribution compensation**: This is now permanent for private employers. File with Bituach Leumi
 3. **Process Bituach Leumi reimbursements**: File salary reimbursement claims promptly after employee returns
-4. **Apply correct tax credits**: Use the new 17-tier combat credit system under Amendment 283
+4. **Apply correct tax credits**: Use the new 15-tier combat credit system under Amendment 283
 5. **Track service dates**: Maintain accurate records of employees' service periods using Form 3010
 6. **Respect spouse protections**: 1-hour paid absence per day during service, 14-day dismissal ban after service

@@ -1,0 +1,21 @@
+{
+  "pending_cycle": {
+    "version": "1.5.0",
+    "date": "2026-07-25",
+    "status": "COMMITTED LOCALLY, NOT PUSHED. Evidence --check-sources gate still failing on 7 legacy entries.",
+    "lessons": [
+      "RESOLVED CARRY: the IDF grant table was rebuilt against the verbatim 2026 policy. 2026 moved to a six-level מדרג פעילות model and tzav shagra now counts, so every flat pre-2026 amount in the skill was a top-band value. Confirmed directly from a browser render of miluim.idf.il with accordions expanded.",
+      "RESOLVED CARRY: Amendment 283 credits are granted in the tax year FOLLOWING the service year. Double-confirmed: statute 39B opens 'בשנת המס שקדמה לה', and kolzchut states 'ששירתו לפחות 30 ימים בשנת 2025 זכאים לנקודות זיכוי במס הכנסה בשנת המס 2026'. Both SKILL.md and SKILL_HE.md now state it explicitly.",
+      "CORRECTED A LIVE USER-HARM BUG: תגמול מיוחד was documented as starting at 32 cumulative shamap days. The 2026 policy says 'זכאים לתגמול מיוחד החל מהיום ה-61 כולל'. The skill was telling reservists with 32-59 days they were owed a payment they are not entitled to, and the previous cycle had actively 'corrected' 60 down to 32. Section 8 days from 07.10.2023 to 31.12.2025 do count toward the 60.",
+      "The tier count for Amendment 283 was labelled '17 tiers' everywhere while the table itself has 15 rows. Label and table disagreed for at least two cycles; nobody counted the rows.",
+      "Grant NAMES were wrong, not just amounts: מענק לילד מוגבל is actually מענק משפחה מיוחדת, מענק השלמה לנופש is actually שובר נופש, קרן שיעורים פרטיים is actually the student tuition/tutoring support. Six grants were missing entirely (commanders, כלכלת הבית מוגדל, הוצאות אישיות, חופשת לידה, קייטנות, סיוע נפשי).",
+      "The '6.2 billion NIS' figure appears only in press coverage of the 25.01.2026 government decision, not in the IDF policy page or the תקנון. Removed from all descriptions as an unsourced claim.",
+      "Student tuition was documented as '50+ days = up to 100%'. The 50 days are only the gate; the share is banded 100/85/65/30/30/22 by מדרג. The academic-credit-reduction table in the skill does not appear in the 2026 policy at all and was removed.",
+      "CARRY (BLOCKING THE PUSH): 7 legacy evidence entries carry literal 'PENDING_VERIFICATION' placeholder text or paraphrased summaries instead of verbatim quotes, so --check-sources fails on them: amendment-253-date, disability-tiers-mod, form-3010-service-confirmation, vacation-2027-deadline, miluim-age-thresholds, btl-reserve-portal-url, mod-rehab-portal-url. This evidence file had never been run through --check-sources before. Each needs a real snippet from its cited page, or the underlying claim needs removing.",
+      "CARRY: SKILL.md has 27 headings and SKILL_HE.md has 29 (Hebrew carries two extra worked examples). Pre-existing parity divergence, not introduced this cycle.",
+      "CARRY: tool_manifests/miluim-daily-pay has a stale sources note reading 'Special supplement 133.33 NIS/day from day 32'. It does NOT reach the formula (the tool computes BTL tagmul only and explicitly excludes the IDF payments), so no user got a wrong number, but the note must be corrected to 'banded 133/113/86/60/40/30 from day 61' when the checker is regenerated.",
+      "תגמול נוסף does not appear anywhere in the 2026 IDF policy page. The skill still documents it (10+ days, paid by 1 May). Treat as unverified for 2026 and re-source before the next release.",
+      "SKILL.md breached the 5,000-word cap during this rewrite and needed roughly 600 words moved into references/2026-law-changes.md. The full band tables belong in the reference; SKILL.md keeps a compact summary plus the tier warning."
+    ]
+  }
+}

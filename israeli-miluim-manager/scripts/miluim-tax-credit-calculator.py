@@ -6,7 +6,7 @@ Estimates tax credits for Israeli combat reserve duty (miluim) based on
 the number of combat service days in a given tax year.
 
 Amendment 283 to the Income Tax Ordinance (Section 39B), effective
-January 1, 2026, introduced a 17-tier graduated credit system for
+January 1, 2026, introduced a 15-tier graduated credit system for
 combat reservists (lochamim) for tax years 2026-2027:
 
   - Under 30 days, or non-combat: no Amendment 283 credit (0)
@@ -151,7 +151,7 @@ def main():
         description=(
             "Calculate estimated miluim (reserve duty) tax credits based on "
             "combat days served and monthly income for the 2026-2027 tax years. "
-            "Uses the 17-tier Amendment 283 system (Section 39B)."
+            "Uses the 15-tier Amendment 283 system (Section 39B)."
         ),
         epilog=(
             "Examples:\n"
