@@ -29,7 +29,7 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Paid by | Government (via Bituach Leumi) | Government (via Bituach Leumi) |
 | Effective date | Was temporary emergency order | Applied retroactively to January 2026; legally anchored as permanent via NII Law amendment approved by Knesset plenum on April 27, 2026 |
 | Eligible employers | Private employers only | Private employers only (public employers explicitly excluded) |
-| Estimated annual cost | Part of emergency budget | Approximately NIS 1.1 billion from defense budget |
+| Estimated annual cost | Part of emergency budget | Not published in an official source; do not quote a figure |
 
 **Impact**: Private employers continue to receive 20% reimbursement of the reservist employee's salary for social contributions during service. This is no longer a temporary wartime benefit but a permanent entitlement.
 
@@ -40,10 +40,10 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Aspect | Wartime (Temporary) | Current Law (2026, Permanent) |
 |--------|---------------------|-------------------------------|
 | 1-hour paid absence per day | Available during wartime | Permanent: for spouses of reservists serving 5+ consecutive days |
-| 14-day dismissal protection | Passed December 2024 | Permanent: employer cannot dismiss spouse within 14 days of reservist's return |
+| Spouse dismissal protection | Passed December 2024 | Permanent. **UNRESOLVED:** an earlier cycle recorded a flat 14 days here, while the skill body states it scales with the reservist's own protection (up to 60 days). Neither figure is currently sourced. Verify against the statute before advising, and do not quote a number with confidence |
 | Broad unpaid leave entitlement | Available during wartime | Expired (December 31, 2025) |
 
-**Impact**: Spouses retain two key permanent protections: the daily paid absence hour and the 14-day dismissal ban. The broader wartime unpaid leave option has expired.
+**Impact**: Spouses retain two key permanent protections: the daily paid absence hour and a post-service dismissal ban whose length is unresolved between sources (see the row above). The broader wartime unpaid leave option has expired.
 
 ## Expired Wartime Provisions
 
@@ -63,7 +63,7 @@ The following measures were enacted as temporary wartime provisions and have exp
 |--------|-------------------|-------------------|
 | What it provided | Spouses of reservists could take unpaid leave from work during active service | Not in effect |
 | Job protection | Employer could not fire spouse for taking this leave | Standard labor law applies |
-| Replaced by | N/A | Narrower permanent protections (1-hour paid absence, 14-day dismissal ban) |
+| Replaced by | N/A | Narrower permanent protections (1-hour paid absence, post-service dismissal ban of unresolved length) |
 
 ### 3. Extended Family Support Services
 
@@ -94,18 +94,18 @@ These protections are part of permanent law and remain fully in effect.
 
 ### Compensation Through Bituach Leumi
 
-Bituach Leumi pays reservists through three distinct tracks:
+Reservists are paid through three distinct tracks, only the first of which is a Bituach Leumi payment:
 
 | Track | Hebrew | What | Filing |
 |-------|--------|------|--------|
-| Salary reimbursement | תגמולי מילואים | Replaces lost income during service | Employer-mediated for employees, Form 510 for self-employed; Form 510 also fallback for employees whose employer refuses to advance salary |
-| Tagmul Nosaf | תגמול נוסף | Annual recognition payment for any year with 10+ qualifying days | Automatic; paid in May of following year |
-| Tagmul Meyuchad | תגמול מיוחד | Special payment for service of 60+ days | Filed via BL personal portal; days served on Tzav 8 between Oct 7, 2023 and Dec 31, 2025 count toward the 60-day threshold |
+| Salary reimbursement | תגמולי מילואים | Replaces lost income during service | Employer-mediated for employees (employer files 501). The self-employed are usually paid automatically from IDF data; **Form 502** is the reservist's own claim and is also the route when an employer refuses to advance salary. Form 510 is the EMPLOYER's wage confirmation and only they can file it |
+| Tagmul Nosaf | תגמול נוסף | Annual IDF payment; the 10-qualifying-day rule is unverified for 2026 | Automatic, by 1 May of the following year; chase at 1111 ext. 4, never *6050 |
+| Tagmul Meyuchad | תגמול מיוחד | IDF payment from the **61st** cumulative shamap day inclusive, banded by activity tier | Automatic via Mofet on 01.05.2027 for 2026; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. NOT a BTL payment |
 
 | Component | Details | Status |
 |-----------|---------|--------|
 | Salary reimbursement | Employer advances salary, Bituach Leumi reimburses | Active |
-| Self-employed compensation | Direct payment to self-employed reservists via Form 510 | Active |
+| Self-employed compensation | Usually paid automatically from IDF data; Form 502 is the reservist's own claim if nothing arrives | Active |
 | Income basis | Average of 3 months before service (subject to Amendment 253 for repeat reservists, see below) | Active |
 | Maximum daily rate | NIS 1,730.33/day (NIS 51,910/month equivalent, 2026) | Active |
 | Minimum daily compensation | NIS 328.76/day (NIS 9,863/month equivalent, 2026) | Active |
@@ -154,6 +154,8 @@ One credit point (nekudat zikui) = NIS 242/month = NIS 2,904/year (2026 value, f
 - The minimum qualifying threshold for combat credit tiers is 30 days for 2026-2027 (drops to 20 days from 2028)
 - Credits are claimed through the employer (Form 101) or annual tax filing with Rashut HaMisim
 - This entire graduated system is new legislation created in response to extended reserve duty since October 2023
+
+**The credit is given in the tax year AFTER the service year** (Section 39B: `בשנת המס שקדמה לה`). Combat service in 2025 credits in 2026; 2026 service credits in 2027. The claim is never automatic: it requires the IDF combat confirmation (ishur lochem) attached to tofes 101, which was amended for this credit at part ח', section 16. A claim filed with only the general service confirmation is rejected.
 
 ## IDF Aka Grants and Keren HaSiyua (Government Resolution Jan 25, 2026)
 
@@ -235,18 +237,18 @@ There is NO published academic-credit-reduction table for 2026. Do not reproduce
 
 Critical distinction missing from many user assumptions: injuries sustained during reserve duty (physical or mental) go to the **Ministry of Defense Rehabilitation Department (Agaf HaShikum)**, NOT Bituach Leumi.
 
-| Severity | Disability Tier | Outcome |
-|----------|----------------|---------|
-| 1-9% | No formal recognition | No payment |
-| 10-19% | Recognized | One-time lump sum |
-| 20%+ | Recognized | Lifetime monthly pension + medical benefits + possible mobility/housing benefits |
+Recognition is decided by the Ktzin HaTagmulim (compensation officer) at Agaf HaShikum. If approved, a medical committee (va'ada refuit) sets the disability percentage and that percentage drives entitlement to payments and benefits; a higher medical committee hears appeals on the percentage.
+
+For an injury sustained while NOT performing duty, Agaf HaShikum rights are granted only at 20% disability or more. During-duty injuries carry no such floor.
+
+Do not publish a percentage-band payout table mapping disability bands to nothing, a lump sum, or a lifetime pension unless it can be cited to Agaf HaShikum or the Invalids Law directly. The band table previously carried here was unsourced and has been removed.
 
 **PTSD and combat trauma:**
 - IDF Combat Reactions Unit (Yechidat Tguvot Krav) operates a 24/7 hotline at **8944**. Free trauma diagnosis and treatment, no disability finding required.
 - Free therapy through Keren HaSiyua available even before any disability claim is filed.
 - Formal recognition as a disabled IDF veteran (nechei tzahal) is processed by Agaf HaShikum.
 
-**Filing path:** hachvana.mod.gov.il > submit claim > medical committee (va'ada refuit) determines disability percentage. Appeals route through internal MoD process and ultimately the District Court (NOT Beit Din LaAvoda).
+**Filing path:** shikum.mod.gov.il > submit claim > medical committee (va'ada refuit) determines disability percentage. Appeals route through internal MoD process and ultimately the District Court (NOT Beit Din LaAvoda).
 
 ## Manak Nezek Akif (Self-Employed Reservists)
 
@@ -271,18 +273,24 @@ Bank Israel maintains a periodically renewed relief framework for reservists. Ve
 | Overdraft discount (employees) | 1% for reservists with salary transfer at major banks |
 | Overdraft for self-employed | Automatic NIS 30,000 interest-free |
 
-## Student Tuition Refund (Hesder Miluim VATAT)
+## Student Tuition Support (tashpa"u)
 
-For tashpa"u (academic year 2025-26): the IDF and the Council for Higher Education (VATAT) operate a tuition refund and academic-credit accommodation program.
+A student who served **50+ qualifying shamap days between 23.10.2025 and 30.09.2026** is entitled to help with tuition at a recognized higher-education, arts, or MAHAT institution. The 50 days are only the gate; the share of tuition covered is banded by activity tier:
 
-| Days Served (qualifying, Oct 23, 2025 to Sep 30, 2026) | Benefit |
-|--------------------------------------------------------|---------|
-| 30-60 days | -6 academic credit reduction (NIS"Z) |
-| 61-99 days | -8 academic credit reduction |
-| 100+ days | -10 academic credit reduction |
-| 50+ days | Up to 100% tuition refund |
+| מדרג | Share of tuition |
+|------|------------------|
+| א'+ | 100% |
+| א' | 85% |
+| ב' | 65% |
+| ג' | 30% |
+| ד' | 30% |
+| ה' | 22% |
 
-To activate: update IDF portal under "miktzo'a ezrachi" (NOT "haskala") with student details and institution.
+A state-funded scholarship holder receives only the uncovered remainder, with no double funding. Tiers א'+/א'/ב' with 50+ days who do not qualify above receive Ministry of Labor vocational-training and employment-guidance vouchers instead. Tier א'+ undergraduates in defined STEM subjects also receive individual or small-group tutoring.
+
+**There is NO published academic-credit-reduction table for 2026.** Do not reproduce one.
+
+To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with student details and institution.
 
 ## Vacation Day Rules (2026)
 
@@ -304,20 +312,20 @@ To activate: update IDF portal under "miktzo'a ezrachi" (NOT "haskala") with stu
 | Supplementary employer compensation (temp replacements) | Active | Expired |
 | Spouse 1-hour paid absence | Active | Active (made permanent) |
 | Spouse paid leave days (graduated) | Active | Up to 8 days based on reservist's accumulated days and child age (under 14) |
-| Spouse dismissal protection | Active | Scaled with reservist's tier (up to 60 days post-service for 60+ day service) |
+| Spouse dismissal protection | Active | Length UNRESOLVED between sources (see the spouse row above); do not quote a number with confidence |
 | Broad spouse unpaid leave | Active | Expired (Dec 31, 2025) |
 | Job preservation during service | Active | Active (permanent) |
 | Pension and keren hishtalmut continuity | Active | Active (permanent) |
 | Bituach Leumi salary reimbursement | Active | Active (permanent) + Amendment 253 income basis fix (May 2025) |
-| Tagmul Nosaf (annual recognition) | Active | Active (paid in May of following year for any year with 10+ days) |
-| Tagmul Meyuchad (60+ day special payment) | Active | Active (Tzav 8 days Oct 7, 2023 to Dec 31, 2025 count to threshold) |
+| Tagmul Nosaf (annual, IDF) | Active | Active; paid by 1 May of the following year. The 10-qualifying-day rule is unverified for 2026 |
+| Tagmul Meyuchad (from the 61st cumulative shamap day) | Active | Active; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. IDF payment, not BTL |
 | Tax credits | Wartime special credits | New 15-tier system for combat (Amendment 283); 2028 threshold drops to 20 days |
 | Minimum compensation (floor) | Active | NIS 9,863/month (NIS 328.76/day, 2026) |
 | Maximum compensation (ceiling) | Active | NIS 51,910/month (NIS 1,730.33/day, 2026) |
 | Keren HaSiyua grant set (tier-banded) | N/A | Active per Government Resolution Jan 25, 2026, most grants pending a dedicated procedure |
 | Manak Nezek Akif (self-employed) | Active | Active (joint Tax Authority + Aka program; rolling filing windows) |
 | Bank Israel relief | Active | Active (mortgage/loan/overdraft accommodations) |
-| Student tuition refund (VATAT) | Active | Active (50+ days = up to 100% refund for tashpa"u) |
+| Student tuition support | Active | Active (50+ days is the gate; the share is banded by tier, 100/85/65/30/30/22 percent) |
 | Wartime vacation accumulation | Active | Use by end of 2027 |
 | Enhanced family services | Active | Standard services + Aka 8944 PTSD hotline |
 
@@ -337,4 +345,4 @@ To activate: update IDF portal under "miktzo'a ezrachi" (NOT "haskala") with stu
 3. **Process Bituach Leumi reimbursements**: File salary reimbursement claims promptly after employee returns
 4. **Apply correct tax credits**: Use the new 15-tier combat credit system under Amendment 283
 5. **Track service dates**: Maintain accurate records of employees' service periods using Form 3010
-6. **Respect spouse protections**: 1-hour paid absence per day during service, 14-day dismissal ban after service
+6. **Respect spouse protections**: 1-hour paid absence per day during service, plus a post-service dismissal ban whose length is unresolved between sources (verify before acting)

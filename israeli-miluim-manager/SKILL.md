@@ -1,6 +1,6 @@
 ---
 name: israeli-miluim-manager
-description: Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, employer obligations, IDF Aka grants, Ministry of Defense disability track, and family support. Use when a reservist, employer, or family member needs help understanding miluim entitlements, filing for Bituach Leumi compensation (tagmul nosaf, tagmul meyuchad, salary reimbursement), claiming Keren HaSiyua grants (Manak Mishpacha Mugdal, Shover Nofesh, Fighter digital wallet), recognizing service-connected injury or PTSD via Misrad HaBitachon (Aka 8944), navigating Amendment 283 combat tax credits (15 tiers, up to 4.0 credit points), Amendment 253 BL income basis fixes, Bank Israel mortgage and loan relief, student tuition refunds, or post-service employment protections (tiered 30 or 60-day dismissal ban, permanent 20% employer compensation). Do NOT use for active-duty (sherut sadir) conscription, draft deferral policy, or career military (keva) matters.
+description: Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, employer obligations, IDF Aka grants, Ministry of Defense disability track, and family support. Use when a reservist, employer, or family member needs help understanding miluim entitlements, filing for reserve compensation (Bituach Leumi salary reimbursement, plus tagmul nosaf and tagmul meyuchad from the IDF), claiming Keren HaSiyua grants (Manak Mishpacha Mugdal, Shover Nofesh, Fighter digital wallet), recognizing service-connected injury or PTSD via Misrad HaBitachon (Aka 8944), navigating Amendment 283 combat tax credits (15 tiers, up to 4.0 credit points), Amendment 253 BL income basis fixes, Bank Israel mortgage and loan relief, student tuition refunds, or post-service employment protections (tiered 30 or 60-day dismissal ban, permanent 20% employer compensation). Do NOT use for active-duty (sherut sadir) conscription, draft deferral policy, or career military (keva) matters.
 license: MIT
 compatibility: Requires Claude Code or compatible AI coding agent
 ---
@@ -24,12 +24,7 @@ Israeli reserve duty (miluim, מילואים) is compulsory military service for
 | Aka | אכ"א | IDF Personnel Directorate |
 | Ishur Lochem | אישור לוחם | Combat confirmation (required for Amendment 283 credit) |
 
-**Who serves (temporary order, valid through June 30, 2027):**
-- Men (non-officers) up to age 41, officers up to age 46
-- Special professions (drivers, pilots, physicians) up to age 49-50
-- Women in specific roles until age 38 (combat roles to equivalent male age)
-- Single women without children to age 24 (age 34 in special professions)
-- Exemptions: medical, religious study (hesder/yeshiva), single parents
+**Who serves.** The statutory exemption age is **40 for enlisted (chugrim), 45 for officers**. A **temporary order running 09.08.2024 to 30.06.2027** then sets a per-role exemption age of **45 or 49** for listed professions (pilots, navigators, combat physicians, medical and mental-health officers, military rabbis, heavy-vehicle drivers sit at 49). Women in roles covered by the volunteer-service regulations have the same age as men. Medical, religious-study, and single-parent exemptions also exist. The age depends on the role, so look it up in the order's table instead of quoting one number.
 
 **Call-up process:** a Tsav Kriah or Tsav 8 arrives by mail, phone, or IDF systems; the reservist reports on the stated date; on release they receive **Form 3010** confirming service dates. Combat reservists also need an **Ishur Lochem** for the Amendment 283 tax tiers, since the service confirmation alone will not do.
 
@@ -58,17 +53,17 @@ Israeli law provides strong employment protections for reservists under the Rese
 
 **Filing a complaint:** violations go to the Labor Court (Beit Din LaAvoda). The fee is 1% of the claim, minimum NIS 168 (expedited 0.5% / NIS 84), and common wage claims (wages, overtime, holiday and vacation pay) are fee-exempt.
 
-### Step 3: Compensation Through Bituach Leumi
+### Step 3: Reserve Compensation, Three Payment Tracks
 
-Bituach Leumi (ביטוח לאומי, National Insurance Institute) compensates reservists through three distinct payment tracks. Conflating them is a common cause of users believing they have been underpaid.
+Reservists are paid through three distinct tracks. **Only the first is a Bituach Leumi payment**; the other two come from the IDF. Conflating them is a common cause of users believing they have been underpaid.
 
 | Track | Hebrew | What It Is | Who Gets It |
 |-------|--------|-----------|-------------|
 | Salary reimbursement (**Bituach Leumi**) | תגמולי מילואים | Replaces lost income during service | All reservists; employer-mediated for employees, direct for self-employed |
-| Tagmul Nosaf (**paid by the IDF, NOT BTL**) | תגמול נוסף | Annual recognition payment for any year with 10+ days of reserve duty | Paid automatically by 1 May of the following year, straight to the bank account registered with the unit |
+| Tagmul Nosaf (**paid by the IDF, NOT BTL**) | תגמול נוסף | Annual payment; the 10-day rule is unverified for 2026 | Paid automatically by 1 May of the following year, straight to the bank account registered with the unit |
 | Tagmul Meyuchad (**paid by the IDF, NOT BTL**) | תגמול מיוחד | Special payment from the **61st** cumulative shamap day onward, any order type | Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60 |
 
-**Only the salary reimbursement is a Bituach Leumi payment.** Tagmul Nosaf and Tagmul Meyuchad are IDF payments under the Reserve Service Law. Do NOT route a user to the BTL portal or *6050 for them: they are paid automatically by 1 May to the bank account registered with the unit, and discrepancies go to the **IDF miluim hotline, 1111 extension 4** (then 1 for unit-tier questions).
+**Only the salary reimbursement is a Bituach Leumi payment.** Tagmul Nosaf and Tagmul Meyuchad are IDF payments. Never route a user to the BTL portal or *6050 for them: discrepancies go to the **IDF miluim hotline, 1111 extension 4** (then 1 for unit-tier questions).
 
 **Salary-reimbursement compensation basis:**
 
@@ -96,21 +91,21 @@ BTL's own worked example: 20 days = 14 + a remainder of 6, so the reservist is p
 
 **Self-employed:** an additional 25% compensation on top of the tagmul, but **the combined daily total may never exceed the maximum tagmul** (1,730.33/day). BTL: "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי".
 
-**Self-employed income basis:** BTL computes it from the **gross advance payments (מקדמות) you reported to BTL** for the 3 months before service, divided by 90, and recomputes once the final assessment arrives. It is NOT "net income for the 3 months". **Amendment 253** (from 01.05.2025) further breaks the plain 3-month average for repeat reservists: prior miluim pay is excluded from the next basis, a "fixed base" is locked in, and Section 279 lets the reservist pick the better basis when the gap is under 60 days.
+**Self-employed income basis:** BTL computes it from the **gross advance payments (מקדמות) you reported to BTL** for the 3 months before service, divided by 90, and recomputes once the final assessment arrives. It is NOT "net income for the 3 months". **Amendment 253** (from 01.05.2025) further breaks the plain 3-month average for repeat reservists: prior miluim pay is excluded from the next basis, a "fixed base" is locked in, and Section 279 lets the reservist pick the better basis when the gap is under 60 days. The law expressly lets the minister disapply Section 279 during an emergency period, so confirm it was in force for the dates in question.
 
-**Filing:** for employees the employer claims via the BTL employer portal (Form 501 + Form 3010) and is reimbursed in 30-60 days while the employee keeps drawing salary. For the self-employed **BTL usually pays automatically** from IDF data; file a personal claim only if nothing arrives within 3 weeks of discharge.
+**Filing:** for employees the employer claims via the BTL employer portal (Form 501 + Form 3010) and is reimbursed in 30-60 days while the employee keeps drawing salary. The self-employed are **usually paid automatically** from IDF data; file a personal claim only if nothing arrives within 3 weeks.
 
 **Do not confuse the forms:** **502** = the reservist's personal claim, **501** = the employer's reimbursement claim, **509** = advance request, **510** = the EMPLOYER's confirmation of work and wages. If an employer refuses to advance salary the reservist files **502** and is paid directly (alongside, not instead of, a Beit Din LaAvoda complaint). Telling them to "file 510" sends them to a form only that employer can complete. Step-by-step in `references/bituach-leumi-filing-guide.md`.
 
-**Minimum compensation top-up:** reservists earning below the floor (NIS 9,863/month in 2026) are topped up to it automatically during service months.
+**Minimum top-up:** earnings below the floor (NIS 9,863/month in 2026) are topped up automatically during service months.
 
 **Tagmul Nosaf (annual recognition payment):**
-Every reservist with 10+ qualifying days in a tax year receives an annual additional payment, paid by the **IDF** (not Bituach Leumi) by **1 May** of the following year, straight to the bank account registered with the unit. Separate from salary reimbursement. If it has not arrived, contact the **IDF miluim hotline at 1111 extension 4**, not *6050. If the bank account changed, update the IDF payments administrator.
+Paid by the **IDF** (not Bituach Leumi) by **1 May** of the following year to the account registered with the unit. The 2026 IDF policy does not restate its terms, so verify the qualifying-day threshold before quoting one. Chase it at **1111 ext. 4**, not *6050.
 
 **Tagmul Meyuchad (special payment), begins at day 61, and the daily rate is BANDED:**
 Paid by the **IDF** (not BTL). For 2026 the entitlement starts **from the 61st shamap day inclusive** (`זכאים לתגמול מיוחד החל מהיום ה-61 כולל`), in any order type. Crucially, days served under Section 8 between 07.10.2023 and 31.12.2025 **count toward the 60**, so a reservist with heavy wartime service can cross the threshold early in 2026.
 
-The daily rate is **not a flat 133.33**: it is banded by the unit's activity tier (מדרג א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS per shamap day). The 2026 payment is made on **01.05.2027** by Mofet, to the bank account registered in the IDF system.
+The daily rate is **not flat**: it is banded by the unit's activity tier (מדרג א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS per shamap day). The 2026 payment is made on **01.05.2027** by Mofet, to the bank account registered in the IDF system.
 
 To find the unit's tier, call the IDF miluim hotline **1111, extension 4, then 1**. The payment is income-tax-free.
 
@@ -137,7 +132,7 @@ One credit point (nekudat zikui) = NIS 242/month = NIS 2,904/year (2026 value, f
 
 ### Step 5: IDF Aka Grants and Keren HaSiyua
 
-A Government Resolution of 25.01.2026 renewed and widened the reservist support package, administered by the IDF Personnel Directorate (Aka) through Keren HaSiyua LeMishartei HaMiluim (קרן הסיוע למשרתי המילואים). These grants are paid by the IDF, not by Bituach Leumi or the Tax Authority. They are the most-asked-about and most-frequently-missed benefits.
+A Government Resolution of 25.01.2026 renewed and widened the reservist support package, run by the IDF Personnel Directorate (Aka) through Keren HaSiyua. Paid by the IDF, not Bituach Leumi or the Tax Authority, and the most-asked-about and most-missed benefits.
 
 **Two structural changes in 2026 that invalidate any pre-2026 answer:**
 
@@ -160,26 +155,24 @@ A Government Resolution of 25.01.2026 renewed and widened the reservist support 
 
 Full band-by-band tables, including every שובר נופש and סיוע נפשי combination, are in `references/2026-law-changes.md`.
 
-**Timing caveat, state it whenever you quote these:** most 2026 grants are announced but not yet open for claims. The policy says a dedicated procedure will be published per grant (`מימוש הזכאות לאחר הפצת מדיניות ייעודית בנושא`), the Fighter card and vacation voucher are expected to be implemented during summer 2026, the full קרן הסיוע regulations for 2026 are **not yet published**, and the package is conditional on the 2026 budget law passing. Tell reservists what they will be entitled to and to watch miluim.idf.il, not that they can claim today.
+**Timing caveat, state it whenever you quote these:** most 2026 grants are announced but not yet open; a dedicated procedure is published per grant, the Fighter card and vacation voucher are expected in summer 2026, the full 2026 קרן הסיוע regulations are **not yet published**, and the package depends on the 2026 budget law. Say what a reservist will be entitled to, not that they can claim today.
 
-**How to claim:** log in to miluim.idf.il, update personal status (married, children, location, and education under "miktzo'a ezrachi", NOT "haskala") because eligibility is computed from that data, then check the "Manakim VeHatavot" tab. Some grants are paid automatically by Mofet to the bank account registered in the IDF system; others need a request with documents.
+**How to claim:** log in to miluim.idf.il, update personal status (married, children, location, education under "miktzo'a ezrachi", NOT "haskala") since eligibility computes from it, then check the "Manakim VeHatavot" tab. Some grants pay automatically via Mofet; others need a request with documents.
 
 ### Step 6: Service-Connected Injury and PTSD: The Misrad HaBitachon Track
 
 **Critical distinction:** injuries from reserve duty, physical or mental, go to the **MoD Rehabilitation Department (Agaf HaShikum)**, NOT Bituach Leumi. Filing with the wrong agency is the most common cause of denied claims.
 
-| Severity | Disability Tier | Outcome |
-|----------|----------------|---------|
-| Minor injury (achuz nechut 1-9%) | No formal recognition | No payment |
-| Moderate injury (achuz nechut 10-19%) | Recognized | One-time lump sum |
-| Significant injury (achuz nechut 20%+) | Recognized | Lifetime monthly pension + medical benefits + possible mobility/housing benefits |
+The **Ktzin HaTagmulim** at Agaf HaShikum decides recognition; a **medical committee** then sets the disability percentage, which drives entitlement. Appeals on the percentage go to a higher committee.
+
+**A rule reservists routinely miss:** for an injury sustained while NOT on duty, Agaf HaShikum rights start only at **20% disability**. On-duty injuries have no such floor.
 
 **PTSD and combat trauma:**
 - The IDF Combat Reactions Unit (Yechidat Tguvot Krav, יחידת תגובות קרב) operates a 24/7 hotline at **8944** (from any Israeli phone). Free trauma diagnosis and treatment, no disability finding required.
 - Reservists who served in combat conditions are eligible for free therapy through Keren HaSiyua even before any disability claim is filed.
 - Formal recognition as a disabled IDF veteran (nechei tzahal) yields lifetime benefits and is processed by Agaf HaShikum at Misrad HaBitachon.
 
-**How to file a disability claim:** document the injury or trauma during or immediately after service (medical records, unit reports), submit through the Agaf HaShikum portal at hachvana.mod.gov.il, and a medical committee (va'ada refuit) sets the disability percentage. At 10%+ benefits begin; appeals run through the internal MoD process and ultimately the District Court, NOT Beit Din LaAvoda.
+**How to file a disability claim:** document the injury or trauma during or immediately after service (medical records, unit reports), submit through the Agaf HaShikum portal at shikum.mod.gov.il (personal area myshikum.mod.gov.il), and a medical committee (va'ada refuit) sets the disability percentage. Once a percentage is set, entitlement follows from it; appeals on the percentage go to a higher medical committee, and other appeals run through the internal MoD process and ultimately the District Court, NOT Beit Din LaAvoda.
 
 **Bereavement (mishpachot shchol):** families of fallen reservists get the same MoD pension, housing, and orphan-education benefits as families of fallen regular soldiers under Chok HaMishpachot.
 
@@ -194,7 +187,7 @@ Full self-employed filing detail: `references/bituach-leumi-filing-guide.md`.
 
 ### Step 8: Vacation Days, Spouse Protections, and Family Support
 
-Reserve service does NOT consume vacation days, and an employer may not force a reservist to take leave for it. The reservist's spouse gets dismissal protection scaled to the reservist's own (up to 60 days post-service where the reservist served 60+ days). Family-support grants (childcare, spouse-employment assistance) run through the IDF's Keren HaSiyua, not BTL. Detail and the current grant table: `references/2026-law-changes.md`.
+Reserve service does NOT consume vacation days, and an employer may not force a reservist to take leave for it. The spouse also gets post-service dismissal protection, but its length is unsourced (one record says 14 days, another says it scales with the reservist's). Say it exists and verify the length. Family-support grants (childcare, spouse-employment assistance) run through the IDF's Keren HaSiyua, not BTL. Detail and the current grant table: `references/2026-law-changes.md`.
 
 ### Step 9: Bank Israel Relief and Practical Accommodations
 
@@ -240,9 +233,9 @@ User says: "I received a tsav kriah for 45 days of miluim as a combat reservist.
 Actions:
 1. Confirm employer must hold position and continue salary during 45-day service
 2. Explain employer claims salary reimbursement from Bituach Leumi, plus 20% state compensation for social contributions
-3. Note 30-day post-service dismissal protection upon return (under 60 days served), with spouse protection scaled accordingly
-4. Calculate Amendment 283 tax credit eligibility: 40-49 day tier = 0.75 credit points = NIS 2,178/year (only with ishur lochem)
-5. Confirm Tagmul Nosaf will be paid in May next year (annual recognition payment)
+3. Note 30-day post-service dismissal protection upon return (under 60 days served); spouse protection exists but verify its length
+4. Amendment 283 credit: 40-49 day tier = 0.75 points = NIS 2,178/year, only with the ishur lochem, and credited in the tax year AFTER the service year
+5. Note Tagmul Nosaf is an IDF payment due by 1 May next year (its 2026 day-threshold needs verifying)
 6. Note digital wallet eligibility (accrues from day 10) and check miluim.idf.il for Aka grants
 Result: Employee understands full rights, employer obligations, exact tax credit value, and Aka grant access path.
 
@@ -250,10 +243,10 @@ Result: Employee understands full rights, employer obligations, exact tax credit
 User says: "I am a freelancer and just finished 3 weeks of miluim. How do I get compensated?"
 Actions:
 1. Guide through Bituach Leumi personal portal login
-2. Submit Form 510 with Form 3010 attached
+2. BTL usually pays the self-employed automatically from IDF data; only if nothing arrives within 3 weeks, file Form 502 with Form 3010. Never Form 510, which only an employer can complete
 3. Calculate expected compensation based on 3-month average income (note Amendment 253 if this is a repeat service)
 4. Check if income is below NIS 9,863/month floor for automatic top-up
-5. Confirm Tagmul Nosaf eligibility (any year with 10+ days = automatic payment in May)
+5. Check Tagmul Nosaf with the IDF (automatic by 1 May; the 2026 day-threshold needs verifying)
 6. Check Manak Nezek Akif filing window for the relevant period at gov.il
 7. Confirm self-funded keren hishtalmut deposit if maintaining the 6-year clock
 Result: Freelancer files claim, receives compensation directly from Bituach Leumi, captures Manak Nezek Akif and Tagmul Nosaf.
@@ -293,23 +286,24 @@ Result: Employer complies with all legal obligations and claims proper reimburse
 | Bituach Leumi reserve duty payments | https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx | Current daily/monthly rates, tagmul nosaf, tagmul meyuchad |
 | IDF reservist portal | https://miluim.idf.il | Aka grants, Keren HaSiyua, ishur sherut, ishur lochem, digital wallet |
 | Keren HaSiyua LeMishartei HaMiluim | https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/ | Manak Mishpacha Mugdal, Shover Nofesh, and every Keren HaSiyua grant with its activity-tier bands |
-| Misrad HaBitachon Rehabilitation | https://www.hachvana.mod.gov.il | Disability claims, PTSD recognition, lone soldier benefits |
+| Agaf HaShikum (MoD Rehabilitation) | https://shikum.mod.gov.il/recognition | Disability and PTSD recognition, medical committees, appeals |
+| Discharged Soldiers and Reserves Dept | https://www.hachvana.mod.gov.il | Discharge grant, personal deposit (pikadon), study scholarships, lone-soldier benefits |
 | Manak Nezek Akif grant (gov.il) | https://www.gov.il/he/service/grant-for-reservists | Self-employed indirect-damage grant filing |
 | Kolzchut combat tax credits | https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים | Amendment 283 15-tier table, qualifying conditions |
 | Knesset Amendment 283 announcement | https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx | Original legislation |
 
 ## Gotchas
-- Reserve duty has THREE separate Bituach Leumi tracks (salary reimbursement, Tagmul Nosaf, Tagmul Meyuchad) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents conflate them, so users think they were paid when a track is still owed.
-- Service-connected injuries and PTSD go to Misrad HaBitachon (Agaf HaShikum), NOT Bituach Leumi; filing with the wrong agency is the top cause of denied claims. Aka 8944 is the hotline; recognition via hachvana.mod.gov.il.
+- Reserve duty has THREE payment tracks (salary reimbursement from Bituach Leumi; Tagmul Nosaf and Tagmul Meyuchad from the IDF) plus IDF Aka grants and the Tax Authority Manak Nezek Akif. Agents conflate them, so users think they were paid when a track is still owed.
+- Service-connected injuries and PTSD go to Agaf HaShikum at **shikum.mod.gov.il**, NOT Bituach Leumi and NOT hachvana.mod.gov.il (the separate discharged-soldiers department). Wrong-agency filing is the top cause of denied claims. Aka **8944** is the hotline.
 - Amendment 283 combat tax credit tiers require **ishur lochem** (combat confirmation), not just **ishur sherut miluim** (service confirmation). The Tax Authority will reject combat tier claims without lochem confirmation, even if the day count qualifies.
 - **The 40% supplement is a REMAINDER rule, not a flat uplift.** Divide the service days by 7; only the remainder earns the supplement (remainder 0 = nothing, so 7 / 14 / 21 days earn no supplement at all; remainder 6 = +1 day). "Monthly / 30 x days" is therefore CORRECT for 21 days (12,000/mo -> 400/day -> 8,400), and multiplying every day by 1.4 overstates it by 40%. Self-employed get an ADDITIONAL 25%, but the combined daily total may never exceed the maximum tagmul (1,730.33/day). Amendment 253 also breaks the plain 3-month average for repeat reservists.
-- **Tagmul Nosaf and Tagmul Meyuchad are IDF payments, not Bituach Leumi ones.** They arrive automatically by 1 May; chase them at the IDF hotline 1111 ext. 4, never at *6050. Tagmul Meyuchad begins from the 61st cumulative shamap day (Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60), its daily rate is banded by unit tier (133 / 113 / 86 / 60 / 40 / 30) and not a flat 133.33, and the 2026 payment lands on 01.05.2027.
+- **Tagmul Nosaf and Tagmul Meyuchad are IDF payments, not Bituach Leumi ones.** They arrive automatically by 1 May; chase them at the IDF hotline 1111 ext. 4, never at *6050. Tagmul Meyuchad begins from the 61st cumulative shamap day (Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60), its daily rate is banded by unit tier (133 / 113 / 86 / 60 / 40 / 30) and not flat, and the 2026 payment lands on 01.05.2027.
 - **Most 2026 Keren HaSiyua grants are tier-banded and not yet open for claims.** A single figure quoted without a מדרג is almost always the top-tier value. Confirm the tier at 1111 ext. 4 then 1, and tell the reservist the full 2026 regulations are not yet published and the package is budget-conditional.
 - **Form 510 is the EMPLOYER's wage confirmation.** The reservist's personal claim is Form 502. Sending a reservist whose employer refuses to cooperate to "file 510" sends them to a form only that employer can file.
 - The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
 - Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their portal status (married, children, education under "miktzo'a ezrachi") for eligibility to compute correctly.
 - Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
-- Dismissal protection: 30 days for under-60-day service, 60 days for 60+; spouse protection scales with the tier.
+- Dismissal protection: 30 days for under-60-day service, 60 days for 60+. Spouse protection exists but its length is unresolved, so verify rather than quote it.
 - Tagmul Nosaf is paid in May of the FOLLOWING year, not at end of service. The 2028 combat-tier threshold drops from 30 to 20 days.
 
 ## Troubleshooting
@@ -319,7 +313,7 @@ Cause: Employer may be unaware of legal obligation, facing cash flow issues, or 
 Solution:
 1. Cite the Reserve Duty Compensation Law requiring salary advancement
 2. Remind employer that Bituach Leumi reimburses the full amount, plus 20% for social contributions (if private sector)
-3. **Fallback:** File Form 510 with Bituach Leumi directly as if self-employed and receive compensation directly. This is independent of any complaint against the employer.
+3. **Fallback:** file **Form 502**, the reservist's own claim, and be paid directly. Form 510 is the employer's wage confirmation and only they can file it. Independent of any complaint against the employer.
 4. File complaint with the Labor Court (Beit Din LaAvoda). Filing fee is 1% of claim, minimum NIS 168 (many common labor claims are exempt from fees)
 
 ### Error: "Bituach Leumi rejected compensation claim"
@@ -339,18 +333,9 @@ Solution:
 3. Resubmit with both documents attached to Form 101 or annual filing
 
 ### Error: "Employer terminated reservist within protection period"
-Cause: Employer violated post-service dismissal protection (either unaware or deliberate).
-Solution:
-1. Document termination date and service return date
-2. Determine applicable protection period: 30 days (under 60 days served) or 60 days (60+ days served)
-3. Send formal letter citing the applicable post-service protection period
-4. File complaint with Labor Court; claim reinstatement and compensation
-5. Filing fee is 1% of claim, minimum NIS 168 (many common labor claims are exempt from fees)
+Cause: dismissal inside the 30-day (under 60 days served) or 60-day (60+ days served) protected window.
+Solution: the dismissal is void by law. File with the Labor Court; see `references/2026-law-changes.md` for the tiered protection and the spouse extension.
 
 ### Error: "I served combat miluim but received no Tagmul Nosaf"
-Cause: Tagmul Nosaf is paid in May of the year following the qualifying year (10+ days), not at end of service.
-Solution:
-1. Confirm the qualifying year had 10+ reserve days
-2. Wait until May of the following year, then check the BL personal portal
-3. If not received by end of May, contact Bituach Leumi at *6050
-4. If account/bank details changed, update them via the BL personal portal before May
+Cause: Tagmul Nosaf and Tagmul Meyuchad are IDF payments, so people chase them at Bituach Leumi and are told there is no record.
+Solution: chase them at the IDF hotline **1111 ext. 4**, never *6050, and confirm the bank account registered with the unit is current. Note the 2026 tagmul nosaf terms are not restated in the 2026 IDF policy, so verify before quoting a threshold.

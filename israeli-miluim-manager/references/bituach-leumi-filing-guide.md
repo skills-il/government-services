@@ -1,14 +1,16 @@
 # Bituach Leumi Reserve Duty Compensation Filing Guide
 
-A step-by-step guide for filing all three reserve duty payment tracks with Bituach Leumi (ביטוח לאומי, National Insurance Institute), plus the joint Tax Authority and IDF Manak Nezek Akif grant for self-employed reservists. Covers both employees and self-employed workers.
+A step-by-step guide for filing all three reserve-duty payment tracks (only the first is a Bituach Leumi payment) (ביטוח לאומי, National Insurance Institute), plus the joint Tax Authority and IDF Manak Nezek Akif grant for self-employed reservists. Covers both employees and self-employed workers.
 
-## The Three Bituach Leumi Tracks
+## The Three Reserve-Duty Payment Tracks
+
+Only the first is a Bituach Leumi payment. Tagmul Nosaf and Tagmul Meyuchad are IDF payments, chased at 1111 ext. 4 and never at *6050.
 
 | Track | Hebrew | What It Is | When Paid |
 |-------|--------|-----------|-----------|
-| Salary reimbursement | תגמולי מילואים | Replaces lost income during service | Monthly during/after service |
-| Tagmul Nosaf | תגמול נוסף | Annual recognition payment for any year with 10+ qualifying days | May of the following year |
-| Tagmul Meyuchad | תגמול מיוחד | Special payment for service of 60+ days | After service ends; verified against IDF records |
+| Salary reimbursement (Bituach Leumi) | תגמולי מילואים | Replaces lost income during service | Monthly during/after service |
+| Tagmul Nosaf (IDF) | תגמול נוסף | Annual payment; the 10-qualifying-day rule is unverified for 2026 | By 1 May of the following year |
+| Tagmul Meyuchad (IDF) | תגמול מיוחד | From the 61st cumulative shamap day inclusive; rate banded by unit tier | 2026 payment on 01.05.2027 by Mofet |
 
 A reservist may be entitled to all three. Conflating them is the leading cause of believing a payment is missing when only one track has been processed.
 
@@ -88,7 +90,7 @@ If your employer fails to advance your salary during miluim:
 
 1. **Remind the employer** of the legal obligation under the Reserve Duty Compensation Law
 2. **Point out** that Bituach Leumi reimburses the employer for the full salary cost
-3. **Form 510 fallback (most important)**: file Form 510 directly with Bituach Leumi as if you were self-employed and receive compensation directly to your bank account. This is independent of any complaint against the employer; you do not have to wait for the dispute to resolve.
+3. **Form 502 fallback (most important)**: file **Form 502**, the reservist's own personal claim, directly with Bituach Leumi and be paid straight to your bank account. Do NOT try to file Form 510: that is the employer's wage confirmation and only the employer can complete it. This is independent of any complaint against the employer; you do not have to wait for the dispute to resolve.
 4. **File a complaint** with the Labor Court (Beit Din LaAvoda) for any wages owed beyond what BL covers, plus penalties
 5. **Note for the employer**: The state reimburses 20% of salary for social contributions (private employers only; permanent since January 2026, anchored by NII Law amendment April 27, 2026), reducing the employer's financial burden
 
@@ -123,7 +125,7 @@ Self-employed workers file directly with Bituach Leumi and receive compensation 
 
 | Calculation Step | Details |
 |-----------------|---------|
-| Determine 3-month average income | Add up net income from the 3 months before service start |
+| Determine the income basis | Use the GROSS advance payments (מקדמות) reported to BTL for the 3 months before service, NOT net income. Amendment 253 overrides the plain average for repeat reservists |
 | Divide by 90 | To get daily rate |
 | Multiply by service days | Number of days on Form 3010 |
 | Check against maximum | Bituach Leumi has a maximum daily rate (check current year's rate) |
@@ -164,7 +166,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 | Form | Hebrew | Purpose | Where to Get It |
 |------|--------|---------|----------------|
 | Form 3010 | טופס 3010 | Service confirmation | IDF (at discharge) |
-| Form 510 | טופס 510 | Self-employed compensation claim | Bituach Leumi website |
+| Form 510 | טופס 510 | Employer confirmation of work and wages (employer files it, not the reservist) | Bituach Leumi website |
 | Form 101 | טופס 101 | Tax credit declaration | Rashut HaMisim / employer |
 | Form 106 | טופס 106 | Annual income summary (from employer) | Your employer |
 
@@ -227,26 +229,27 @@ Gross compensation: 400 x 21 = NIS 8,400
 
 ## Tagmul Nosaf (Annual Recognition Payment)
 
-Every reservist with 10+ qualifying days in a tax year receives an annual additional payment. Separate from salary reimbursement and the most universally received reservist benefit.
+An annual payment separate from salary reimbursement, **paid by the IDF, not by Bituach Leumi**.
+
+**Verify before quoting a threshold:** the 2026 IDF policy page does not restate the terms of tagmul nosaf, so the 10-qualifying-day rule below is carried over from earlier years and is currently UNVERIFIED for 2026.
 
 | Aspect | Detail |
 |--------|--------|
-| Eligibility | Any year with 10+ qualifying reserve days |
-| Amount | Determined by Bituach Leumi annually based on accumulated days; check current rates on btl.gov.il |
-| When paid | May of the year following the qualifying year (NOT at end of service) |
-| How to claim | Automatic; no claim needed if BL has correct bank details |
-| If not received by end of May | Call Bituach Leumi at *6050 and verify bank details on the personal portal |
+| Eligibility | Historically any year with 10+ qualifying reserve days (unverified for 2026) |
+| Payer | The IDF, to the bank account registered with the unit |
+| When paid | By 1 May of the year following the qualifying year (NOT at end of service) |
+| How to claim | Automatic; no claim needed if the unit holds correct bank details |
+| If not received | Call the IDF miluim hotline **1111 ext. 4**. Do NOT call *6050, which is Bituach Leumi and holds no record of this payment |
 
 ## Tagmul Meyuchad (Special Wartime Payment)
 
-Special payment for service of 60+ days. Days served on Tzav 8 between Oct 7, 2023 and Dec 31, 2025 count toward the 60-day threshold.
+**Paid by the IDF (Mofet), NOT by Bituach Leumi.** Entitlement begins from the **61st** cumulative shamap day inclusive in 2026, in any order type. Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60. The daily rate is banded by the unit's activity tier (א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS). The 2026 payment is made on 01.05.2027.
 
 | Aspect | Detail |
 |--------|--------|
-| Eligibility | 60+ days of qualifying service (cumulative across the qualifying period) |
-| How to file | Bituach Leumi personal portal, "Tagmul Meyuchad" section |
-| Verification | BL cross-checks against IDF service records |
-| Payment | Direct deposit after approval |
+| Eligibility | From the 61st cumulative shamap day inclusive; pre-2026 Section 8 days count toward the 60 |
+| How to chase it | IDF miluim hotline **1111 ext. 4** (then 1 for unit-tier questions). Never the BTL portal or *6050 |
+| Payment | Automatic by Mofet to the bank account registered with the unit; 2026 payment on 01.05.2027 |
 
 ## Manak Nezek Akif (Indirect-Damage Grant for Self-Employed)
 
@@ -314,8 +317,8 @@ Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim
 | Right | Details |
 |-------|---------|
 | Direct salary reimbursement | File via **Form 502** with Bituach Leumi (no employer intermediary); income basis = the gross advances (מקדמות) reported to BTL for the 3 months before service / 90, subject to Amendment 253 |
-| Tagmul Nosaf | Annual recognition payment, automatic if 10+ qualifying days |
-| Tagmul Meyuchad | IDF payment for **32-60** cumulative shamap days (and beyond 60 under Tzav 8); paid automatically by 1 May, rate banded by unit tier |
+| Tagmul Nosaf | Annual IDF payment, automatic; the 10-qualifying-day rule is unverified for 2026 |
+| Tagmul Meyuchad | IDF payment from the **61st** cumulative shamap day inclusive (pre-2026 Section 8 days count toward the 60); rate banded by unit tier; 2026 payment on 01.05.2027 |
 | Manak Nezek Akif | Cash grant program for income loss tied to reserve service |
 | Tax credits | Same Amendment 283 combat tiers as employees (if serving in combat role) |
 | Minimum compensation | NIS 9,863/month floor, topped up by Bituach Leumi if income is below this |

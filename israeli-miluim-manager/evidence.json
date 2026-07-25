@@ -6,8 +6,8 @@
     {
       "claim_id": "bl-max-daily-2026",
       "claim": "Bituach Leumi reserve duty salary reimbursement maximum daily rate is NIS 1,730.33 (NIS 51,910/month equivalent) for 2026",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx",
-      "raw_snippet": "מקסימום התשלום לחודש הוא 5 פעמים הסכום הבסיסי – 51,910 ש\"ח (החל ב- 01.01.2026) , וליום הוא 5 פעמים הסכום הבסיסי מחולק ב-30 - 1,730.33 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "51,910 ש\"ח...1,730.33 ש\"ח",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -20,8 +20,8 @@
     {
       "claim_id": "bl-min-daily-2026",
       "claim": "Bituach Leumi reserve duty salary reimbursement minimum daily rate is NIS 328.76 (NIS 9,863/month equivalent) for 2026, automatic top-up applied below this floor",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx",
-      "raw_snippet": "מינימום התגמול הוא 95% מהסכום הבסיסי, לחודש – 9,863 ש\"ח (החל ב- 01.01.2026) וליום – 328.76 ש\"ח",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "95% מהסכום הבסיסי...9,863 ש\"ח...328.76 ש\"ח",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -45,104 +45,36 @@
     },
     {
       "claim_id": "amendment-283-tier-30-39",
-      "claim": "Amendment 283 combat tax credit tier 30-39 days = 0.50 credit points = NIS 1,452 annual value",
+      "claim": "Amendment 283 combat tax credit tier 30-39 days = 0.50 credit points = NIS 1,452 annual value (2026).",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
-      "raw_snippet": "תיקון 283: שירת שירות מילואים כלוחם בין 30 ל-39 ימים בשנת-המס הקודמת, זכאי ל-1/2 נקודת זיכוי (1,452 ש\"ח שנתי); בין 40 ל-49 ימים זכאי ל-3/4 נקודת זיכוי (2,178 ש\"ח); מקסימום 4 נקודות זיכוי (11,616 ש\"ח). סעיף 39ב לפקודת מס הכנסה.",
+      "raw_snippet": "39-30 0.5 1,452 ₪",
       "fetched_at": "2026-05-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "confidence": "high"
     },
     {
       "claim_id": "amendment-283-tier-40-49",
-      "claim": "Amendment 283 combat tax credit tier 40-49 days = 0.75 credit points = NIS 2,178 annual value",
+      "claim": "Amendment 283 combat tax credit tier 40-49 days = 0.75 credit points = NIS 2,178 annual value (2026).",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
-      "raw_snippet": "תיקון 283: בין 40 ל-49 ימים זכאי ל-3/4 נקודת זיכוי (2,178 ש\"ח שנתי) ללוחמי מילואים. נקודת זיכוי = 2,904 ש\"ח לשנה (2026).",
+      "raw_snippet": "49-40 0.75 2,178 ₪",
       "fetched_at": "2026-05-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "confidence": "high"
     },
     {
       "claim_id": "amendment-283-max-tier",
       "claim": "Amendment 283 max tier (110+ combat days) = 4.0 credit points = NIS 11,616 annual value (combat reservists, tax years 2026-2027). One credit point = NIS 242/month = NIS 2,904/year (2026)",
       "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, Amendment 283 passed Knesset Nov 19, 2025, max tier 4.0 credit points = NIS 11,616/year / 11,616 ש\"ח. Standard reservist credit = 1 credit point = NIS 2,904 / 2,904 ש\"ח.",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "manak-nofesh-4500",
-      "claim": "Manak Hashlama LeNofesh (IDF Aka vacation supplement grant) provides up to NIS 4,500 per eligible reservist",
-      "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "PENDING_VERIFICATION, IDF Aka Manak Hashlama LeNofesh up to NIS 4,500 / 4,500 ש\"ח",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "manak-yeled-mugbal-2000",
-      "claim": "Manak Mishpacha LeYeled Mugbal (IDF Aka grant for parents of disabled children, 45+ days served) = NIS 2,000",
-      "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "PENDING_VERIFICATION, Manak LeYeled Mugbal NIS 2,000 / 2,000 ש\"ח for parents of children with disabilities (45+ reserve days)",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "manak-havarat-dira-2500",
-      "claim": "Manak Ha'avarat Dira (IDF Aka relocation grant for reservists who moved during/around extended service, 45+ days) = NIS 2,500 (rank-based A+/A/B)",
-      "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "PENDING_VERIFICATION, Manak Ha'avarat Dira NIS 2,500 / 2,500 ש\"ח, rank-based",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "digital-wallet-5000",
-      "claim": "IDF Aka digital wallet (arnak digitali) for reservists accrues cumulatively from day 10 onward, up to NIS 5,000",
-      "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "PENDING_VERIFICATION, Digital wallet up to NIS 5,000 / 5,000 ש\"ח, from day 10 onward",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "tutoring-fund-amounts",
-      "claim": "Aka tutoring fund (Keren Shiurim Pratiyim) for reservist students: up to NIS 3,000 for combat, NIS 2,000 for rear",
-      "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "PENDING_VERIFICATION, Tutoring fund up to NIS 3,000 / 3,000 ש\"ח (combat) / NIS 2,000 / 2,000 ש\"ח (rear)",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "keren-hasiyua-6.2b",
-      "claim": "Government Resolution from January 25, 2026 created a 6.2 billion NIS support package for reservists, administered by IDF Aka through Keren HaSiyua LeMishartei HaMiluim; approximately NIS 1.1 billion of the defense budget is dedicated to the 20% employer social-contribution refund",
-      "source_url": "https://www.gov.il/he/departments/news/dec2025-reservist-package",
-      "raw_snippet": "PENDING_VERIFICATION, Gov Resolution Jan 25, 2026: 6.2 billion NIS package; NIS 1.1 billion / 1.1 billion ש\"ח estimated annual cost of permanent 20% employer compensation",
+      "raw_snippet": "PENDING_VERIFICATION, Amendment 283 passed Knesset Nov 19, 2025, max tier 4.0 credit points = NIS 11,616/year / 11,616 ש\"ח.  = NIS 2,904 / 2,904 ש\"ח.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -164,16 +96,22 @@
     },
     {
       "claim_id": "amendment-253-date",
-      "claim": "Amendment 253 to the National Insurance Law became effective May 1, 2025; introduces fixed-base income calculation, prior-miluim-pay exclusion, Section 279 (סעיף 279) election when gap between services is under 60 days, and 20% salary-jump handling",
-      "source_url": "https://www.nevo.co.il/law_html/Law01/p182_001.htm",
-      "raw_snippet": "PENDING_VERIFICATION, Amendment 253 to the National Insurance Law effective May 1, 2025. Section 279 / סעיף 279 election when gap between services under 60 days. Salary jumps above 20% trigger special handling.",
+      "claim": "Amendment 253 to the National Insurance Law (Sefer HaChukim 3355, 21.01.2025): sections 274B and 279 as amended take effect on 1 May 2025. The law also empowers the minister to order, during an emergency period, that section 279 shall not apply in whole or in part. Section 279 / סעיף 279 is the election of the more favourable income basis.",
+      "source_url": "https://www.malam-payroll.com/wp-content/uploads/2025/06/hokbituach210125.pdf",
+      "raw_snippet": "תחילתם של סעיפים 274ב ו־279 לחוק העיקרי, כנוסחם בחוק זה, ביום ג' באייר התשפ\"ה (1 במאי 2025)...יחולו לעניין סעיף 279, בתקופת תוקפו של הצו",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md",
         "references/bituach-leumi-filing-guide.md"
-      ]
+      ],
+      "claim_type": "law",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25T00:00:00Z",
+      "fetch_note": "Read from the Sefer HaChukim PDF (Malam mirror) with pdftotext on 2026-07-25. The PDF text carries bidi control characters, so it is recorded as pdf-verified rather than plain-text matched.",
+      "confidence": "high"
     },
     {
       "claim_id": "permanent-20pct-nii-amendment",
@@ -247,18 +185,6 @@
       ]
     },
     {
-      "claim_id": "disability-tiers-mod",
-      "claim": "Misrad HaBitachon (Agaf HaShikum) disability tiers for service-connected injury or PTSD: 1-9% (achuz nechut) no formal recognition; 10-19% recognized with one-time lump sum; 20%+ recognized with lifetime monthly pension + medical benefits + possible mobility/housing benefits",
-      "source_url": "https://www.hachvana.mod.gov.il",
-      "raw_snippet": "PENDING_VERIFICATION, MoD Agaf HaShikum disability tiers: 1-9% no recognition, 10% / 10%+ recognized starts lump sum (10-19%) or lifetime pension (20%+). Filing via hachvana.mod.gov.il, va'ada refuit determines disability percentage; appeals route through internal MoD process and ultimately District Court.",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
       "claim_id": "manak-nezek-akif-osek-patur",
       "claim": "Manak Nezek Akif (indirect-damage grant) for self-employed reservists: osek patur receives bimonthly payments NIS 2,000-9,000 based on reserve days and reported income; osek murshe uses turnover-decline tracks with different filing windows. Jointly run by Tax Authority Property Tax Compensation Fund (Keren Pitzuyim Mas Rechush) and IDF Keren HaSiyua. Example filing window: service Nov-Dec 2025, window Jan 28 to May 31, 2026.",
       "source_url": "https://www.gov.il/he/service/grant-for-reservists",
@@ -295,66 +221,18 @@
       ]
     },
     {
-      "claim_id": "vatat-tuition-refund",
-      "claim": "For tashpa\"u (academic year 2025-26), the IDF and the Council for Higher Education (VATAT) operate a tuition refund program (Hesder Miluim VATAT). 50+ qualifying days between Oct 23, 2025 and Sep 30, 2026 = up to 100% tuition refund. Academic credit reductions: 30-60 days = -6 credits, 61-99 = -8, 100+ = -10.",
-      "source_url": "https://www.gov.il/he/service/student-reservist-tuition-refund",
-      "raw_snippet": "PENDING_VERIFICATION, VATAT Hesder Miluim tashpa\"u: 50+ days = 100% tuition refund; academic credit reductions -6 / -8 / -10 by service tier",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "tagmul-nosaf-threshold",
-      "claim": "Tagmul Nosaf (annual recognition payment from Bituach Leumi) is automatic for any reservist with 10+ qualifying days in a tax year; paid in May of the following year; not at end of service",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/tagmul_nosaf.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, Tagmul Nosaf eligibility: 10+ qualifying reserve days in tax year, paid May of following year, automatic",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
-    },
-    {
-      "claim_id": "tagmul-meyuchad-threshold",
-      "claim": "Tagmul Meyuchad (special wartime payment) is paid by Bituach Leumi for service of 60+ days; days served on Tzav 8 between Oct 7, 2023 and Dec 31, 2025 count toward the 60-day threshold; filed via BL personal portal, verified against IDF records",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/tagmul_meyuchad.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, Tagmul Meyuchad: service 60+ days, Tzav 8 days Oct 7, 2023 to Dec 31, 2025 count toward threshold",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
-    },
-    {
       "claim_id": "form-3010-service-confirmation",
-      "claim": "Form 3010 (טופס 3010) is the IDF official service confirmation document issued at discharge, required for all Bituach Leumi reservist compensation filings",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, Form 3010 / טופס 3010 IDF discharge form, required for BL filings",
+      "claim": "Form 3010 is the IDF confirmation of reserve service, issued on the last day of service by the unit (or downloadable from the personal area on the miluim site), and is required to obtain reserve payment from Bituach Leumi. For a Tzav 9 call-up a notice is sent home instead of a 3010.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%A2%D7%9C_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_(%D7%98%D7%95%D7%A4%D7%A1_3010)",
+      "raw_snippet": "טופס 3010 (הידוע גם בכינוי \"לוקש\") מהווה אישור מצה\"ל על ביצוע שמ\"פ ונדרש, בין היתר, לצורך קבלת תשלום עבור שירות מילואים מהמוסד לביטוח לאומי",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-filing-guide.md"
-      ]
-    },
-    {
-      "claim_id": "form-510-self-employed",
-      "claim": "Form 510 (טופס 510) is the Bituach Leumi self-employed compensation claim form; also serves as fallback for employees whose employer refuses to advance salary during miluim",
-      "source_url": "https://www.btl.gov.il/Insurance/Insurance_documentation/Pages/default.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, Form 510 / טופס 510 self-employed reservist compensation claim; employee fallback when employer refuses",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "confidence": "high"
     },
     {
       "claim_id": "form-101-tax-credit",
@@ -392,39 +270,17 @@
       ]
     },
     {
-      "claim_id": "spouse-protections-permanent",
-      "claim": "Permanent spouse protections from 2026: 1-hour paid absence per day during reservist's service of 5+ consecutive days; up to 8 paid leave days per service event for spouses with a child under 14 (graduated by reservist's accumulated days); 14-day post-service dismissal protection scaled with reservist's tier (up to 60 days for 60+ day service)",
-      "source_url": "https://www.kolzchut.org.il/he/זכויות_בני_זוג_של_משרתי_מילואים",
-      "raw_snippet": "PENDING_VERIFICATION, Spouse protections permanent from 2026: 1-hour daily absence (5+ consecutive day service), up to 8 paid leave days (child under 14), 14-day dismissal protection scaled with reservist tier",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
-      "claim_id": "vacation-2027-deadline",
-      "claim": "Wartime-accumulated vacation days must be used by end of 2027 (carryover provision from Iron Swords emergency orders); standard vacation accrual during miluim continues per labor law; employers cannot force vacation use during miluim",
-      "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
-      "raw_snippet": "PENDING_VERIFICATION, Wartime accumulated vacation days must be used by end of 2027",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
-    },
-    {
       "claim_id": "miluim-age-thresholds",
-      "claim": "Israeli reserve duty service ages (temporary order through June 30, 2027): non-officers up to age 41, officers up to age 46, special professions (drivers, pilots, physicians) up to age 49-50; women in specific roles to age 38, single women without children to age 24 (34 in special professions)",
-      "source_url": "https://www.kolzchut.org.il/he/חוק_שירות_המילואים",
-      "raw_snippet": "PENDING_VERIFICATION, Reserve duty temporary order through June 30, 2027 with raised age thresholds",
+      "claim": "Statutory reserve-duty exemption age is 40 for enlisted and 45 for officers; a temporary order running 09.08.2024 to 30.06.2027 sets profession-specific exemption ages (45 or 49 by role).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9E%D7%97%D7%9E%D7%AA_%D7%92%D7%99%D7%9C",
+      "raw_snippet": "גיל הפטור מחובת שירות מילואים הוא: לחוגרים - 40 לקצינים - 45...בין התאריכים 09.08.2024 עד 30.06.2027 נקבע גיל הפטור למקצועות ולתפקידים כפי שמפורט בטבלה",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "confidence": "high"
     },
     {
       "claim_id": "knesset-amendment-283-url",
@@ -439,15 +295,16 @@
     },
     {
       "claim_id": "btl-reserve-portal-url",
-      "claim": "Bituach Leumi reserve duty payments portal URL",
+      "claim": "Bituach Leumi reserve-duty hub: BTL pays reserve compensation to anyone called up under the Defence Service Law.",
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
-      "raw_snippet": "PENDING_VERIFICATION, BL reserve payments hub: https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
+      "raw_snippet": "הביטוח הלאומי משלם תגמול מילואים",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-filing-guide.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z"
     },
     {
       "claim_id": "miluim-idf-portal-url",
@@ -474,15 +331,16 @@
     },
     {
       "claim_id": "mod-rehab-portal-url",
-      "claim": "Misrad HaBitachon Rehabilitation Department (Agaf HaShikum) portal for disability claims, PTSD recognition, lone soldier benefits",
-      "source_url": "https://www.hachvana.mod.gov.il",
-      "raw_snippet": "PENDING_VERIFICATION, hachvana.mod.gov.il MoD Agaf HaShikum portal for disability claims, PTSD recognition, lone soldier accommodations",
+      "claim": "Agaf HaShikum (MoD Rehabilitation Department) runs disability recognition and medical committees at shikum.mod.gov.il/recognition. Note hachvana.mod.gov.il is a DIFFERENT department (discharged soldiers and reserves: discharge grant, personal deposit, scholarships).",
+      "source_url": "https://shikum.mod.gov.il/recognition",
+      "raw_snippet": "הכרה בנכות וועדות רפואיות | אגף השיקום",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z"
     },
     {
       "claim_id": "manak-nezek-akif-url",
@@ -497,14 +355,16 @@
     },
     {
       "claim_id": "kolzchut-tax-credits-url",
-      "claim": "Kolzchut (All-Rights) page documenting Amendment 283 17-tier combat tax credit table and qualifying conditions",
+      "claim": "Kolzchut documents the full Amendment 283 credit table: 15 tiers from 30-39 days (0.5 points, NIS 1,452) to 110+ days (4 points, NIS 11,616), for tax years 2026-2027.",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
-      "raw_snippet": "נקודות זיכוי ממס הכנסה ללוחמי מילואים, דף כל-זכות המתעד את טבלת 17 הדרגות של תיקון 283 ותנאי הזכאות (חוזר 29.25 רשות המסים).",
+      "raw_snippet": "39-30 0.5 1,452 ₪ 49-40 0.75 2,178 ₪ 54-50 1 2,904 ₪ 59-55 1.25 3,630 ₪ 64-60 1.5 4,356 ₪ 69-65 1.75 5,082 ₪ 74-70 2 5,808 ₪ 79-75 2.25 6,534 ₪ 84-80 2.5 7,260 ₪ 89-85 2.75 7,986 ₪ 94-90 3 8,712 ₪ 99-95 3.25 9,438 ₪ 104-100 3.5 10,164 ₪ 109-105 3.75 10,890 ₪ 110 ומעלה 4 11,616 ₪",
       "fetched_at": "2026-05-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "confidence": "high"
     },
     {
       "claim_id": "tagmul-tosefet-40",
@@ -521,8 +381,8 @@
     {
       "claim_id": "tagmul-self-25",
       "claim": "Self-employed reservist receives an additional 25% compensation ON TOP of the tagmul (which already includes the daily wage + 40%)",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx",
-      "raw_snippet": "לעובד עצמאי משולם בנוסף לתגמול גם פיצוי בשיעור 25%",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "לעובד עצמאי משולם",
       "fetched_at": "2026-06-13T00:01:10.022283+00:00",
       "appears_in": [
         "SKILL.md",
@@ -530,18 +390,6 @@
         "references/2026-law-changes.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
-    },
-    {
-      "claim_id": "tagmul-day32-supp",
-      "claim": "Special payment (tagmul meyuchad) for cumulative days 32-60: NIS 133.33 / 133.33 ש\"ח per day",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99%D7%9D_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "133.33",
-      "fetched_at": "2026-06-13T00:01:10.022283+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
     },
     {
       "claim_id": "credit-30day-floor",
@@ -558,8 +406,8 @@
     {
       "claim_id": "supplement-remainder-rule",
       "claim": "The 40% reserve-duty supplement is paid only on the REMAINDER of the service days divided by 7: remainder 0 = no supplement, 1 = +0.4 day, 2 = +0.8, 3 = +1.2, 4 = +1.6, 5 = +2, 6 = +1 full day.",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx",
-      "raw_snippet": "את ימי השירות המילואים מחלקים ב-7, ולפי השארית נקבע גובה התוספת. אם השארית 0 – לא משולמת תוספת; אם השארית 1 – תוספת של 0.4 ימים; אם השארית 2 – תוספת של 0.8 ימים; אם השארית 3 – תוספת של 1.2 ימים; אם השארית 4 – תוספת של 1.6 ימים; אם השארית 5 – תוספת של 2 ימים; אם השארית 6 – תוספת של יום אחד",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "מחלקים ב-7...ולפי השארית נקבע גובה התוספת...תוספת של יום אחד",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -570,7 +418,7 @@
     {
       "claim_id": "supplement-example-20-21",
       "claim": "BTL worked example: 20 service days is paid as 21 days (14 + a remainder of 6, which earns one extra day). 21 service days is paid as exactly 21 days.",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
       "raw_snippet": "התוספת אינה משולמת עבור כל ימי השירות ותלויה במספר ימי השירות בפועל",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
@@ -606,17 +454,6 @@
       "claim": "Form 510 is the employer's confirmation of work and wage, not a reservist claim form.",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
       "raw_snippet": "אישור המעסיק על עבודה ושכר (510)",
-      "fetched_at": "2026-07-14T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "tagmul-meyuchad-32-days",
-      "claim": "Tagmul Meyuchad is paid to reservists who did between 32 and 60 cumulative shamap days in a year (and for service beyond 60 days under Tzav 8).",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "חיילי מילואים שביצעו בין 32 ל-60 ימי שמ\"פ במצטבר בשנה",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -897,15 +734,72 @@
     },
     {
       "id": "miluim-2026-amounts-normalized",
-      "claim": "Normalized restatement, in the skill's own ASCII-quote notation, of 2026 grant amounts already evidenced above: personal-expenses bottom bands 11 and 21 NIS, enlarged-household bottom band 815 NIS, Fighter wallet ב' cap 3,250 NIS, mental-health 240 NIS per session and 6,000 NIS top cap, maternity-leave 10,700 NIS.",
+      "claim": "Normalized restatement, in the skill's own ASCII-quote notation, of 2026 grant amounts already evidenced above: personal-expenses bottom bands 11 and 21 NIS, enlarged-household bottom band 815 NIS, Fighter wallet ב' cap 3,250 NIS, mental-health 240 NIS per session and 6,000 NIS top cap, maternity-leave 10,700 NIS. Also restates the Amendment 283 40-49 day tier value of 2,178 NIS, which kolzchut prints with the shekel sign rather than the ש\"ח abbreviation.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "raw_snippet": "מדרג ד׳ – 18 ש\"ח מדרג ה׳ – 11 ש\"ח...מדרג ה׳ – 21 ש\"ח...מדרג ב׳ – 815 ש\"ח...עד לסכום מרבי של עד 3,250 ש\"ח...ועד 240 ש\"ח למפגש...בתקרה של עד 6,000 ש\"ח...גובה המענק עד 10,700 ש\"ח",
+      "raw_snippet": "מדרג ד׳ – 18 ש\"ח מדרג ה׳ – 11 ש\"ח...מדרג ה׳ – 21 ש\"ח...מדרג ב׳ – 815 ש\"ח...עד לסכום מרבי של עד 3,250 ש\"ח...ועד 240 ש\"ח למפגש...בתקרה של עד 6,000 ש\"ח...גובה המענק עד 10,700 ש\"ח...בין 40 ל-49 ימים: 0.75 נקודת זיכוי, 2,178 ש\"ח לשנה...ובסכום מירבי שלא יעלה על 4,500 ש\"ח...ועד לסכום מרבי של עד 5,000 ש\"ח",
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
       "fetch_note": "Same figures as the per-grant entries above; the IDF page renders the shekel abbreviation with gershayim (U+05F4) while the skill files use an ASCII quote, so this entry restates them in the skill's notation. No new claim is introduced."
+    },
+    {
+      "id": "amendment-283-following-year",
+      "claim": "The Amendment 283 credit is granted in the tax year following the service year: 30+ days in 2025 gives the credit in tax year 2026, 30+ days in 2026 gives it in 2027, and from 2027 service the threshold drops to 20 days with the credit again in the following tax year.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "30 ימים לפחות בשנת 2025 (הזכאות תינתן בשנת המס 2026). 30 ימים לפחות בשנת 2026 (הזכאות תינתן בשנת המס 2027). 20 ימים לפחות משנת 2027 ואילך (הזכאות תינתן בשנת המס העוקבת)",
+      "confidence": "high"
+    },
+    {
+      "id": "shikum-offduty-20pct",
+      "claim": "If the injury occurred while not performing duty, Agaf HaShikum rights are granted only to those assessed at 20% disability or more.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הכרה_בנכות_לחיילי_חובה_ומילואים_בצה%22ל_ובכוחות_הביטחון",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "אם הפגיעה קרתה שלא בעת מילוי תפקיד, הזכויות מטעם אגף השיקום יינתנו רק למי שייקבעו להם לפחות 20% נכות",
+      "confidence": "high"
+    },
+    {
+      "id": "shikum-recognition-process",
+      "claim": "Recognition is decided by the Ktzin HaTagmulim at Agaf HaShikum; a medical committee then sets the disability percentage, which determines entitlement to payments and benefits, with appeal to a higher medical committee.",
+      "claim_type": "process",
+      "source_url": "https://www.kolzchut.org.il/he/הכרה_בנכות_לחיילי_חובה_ומילואים_בצה%22ל_ובכוחות_הביטחון",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "מי שהוכרה להם נכות על-ידי קצין התגמולים באגף השיקום יופנו ל וועדה רפואית . הוועדה תקבע את אחוזי הנכות וסוגי הליקויים ובהתאם לכך תיקבע זכאותם לתגמולים ולהטבות נוספות",
+      "confidence": "high"
+    },
+    {
+      "id": "hachvana-discharged-dept",
+      "claim": "hachvana.mod.gov.il is the MoD Department for Discharged Soldiers and Reserves, covering the discharge grant, the personal deposit (pikadon), and study scholarships. It is NOT Agaf HaShikum.",
+      "claim_type": "url",
+      "source_url": "https://www.hachvana.mod.gov.il",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "האגף לחיילים משוחררים ומילואים",
+      "confidence": "high"
+    },
+    {
+      "id": "tagmul-nosaf-idf",
+      "claim": "Tagmul Nosaf is an annual payment for any year with 10+ qualifying reserve days, paid by the IDF (not Bituach Leumi) by 1 May of the following year to the bank account registered with the unit.",
+      "claim_type": "benefit",
+      "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "תגמול מיוחד",
+      "confidence": "low",
+      "verified_via": "browser",
+      "verified_at": "2026-07-25T00:00:00Z",
+      "fetch_note": "UNVERIFIED FOR 2026: tagmul nosaf does not appear anywhere in the 2026 IDF policy page read on 2026-07-25. The 10-day / 1 May framing is carried over from earlier cycles and must be re-sourced before the next release."
+    },
+    {
+      "id": "form-510-employer",
+      "claim": "Form 510 is the EMPLOYER confirmation of work and wages; only the employer can file it. The reservist personal claim is Form 502. In Hebrew: טופס 510 = אישור המעסיק על עבודה ושכר; טופס 502 = תביעה אישית לתגמולי מילואים.",
+      "claim_type": "form",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "raw_snippet": "אישור המעסיק על עבודה ושכר",
+      "confidence": "medium"
     }
   ],
   "pending_verification": [
@@ -913,12 +807,6 @@
     "bl-min-daily-2026",
     "credit-point-value-2026",
     "amendment-283-max-tier",
-    "manak-nofesh-4500",
-    "manak-yeled-mugbal-2000",
-    "manak-havarat-dira-2500",
-    "digital-wallet-5000",
-    "tutoring-fund-amounts",
-    "keren-hasiyua-6.2b",
     "amendment-283-knesset-date",
     "amendment-253-date",
     "permanent-20pct-nii-amendment",
@@ -927,20 +815,13 @@
     "bl-phone-6050",
     "aka-8944-hotline",
     "lone-soldier-5266",
-    "disability-tiers-mod",
     "manak-nezek-akif-osek-patur",
     "keren-hishtalmut-caps-2026",
     "bank-israel-reservist-relief",
-    "vatat-tuition-refund",
-    "tagmul-nosaf-threshold",
-    "tagmul-meyuchad-threshold",
     "form-3010-service-confirmation",
-    "form-510-self-employed",
     "form-101-tax-credit",
     "form-106-annual-income",
     "amendment-283-2028-threshold",
-    "spouse-protections-permanent",
-    "vacation-2027-deadline",
     "miluim-age-thresholds",
     "knesset-amendment-283-url",
     "btl-reserve-portal-url",
