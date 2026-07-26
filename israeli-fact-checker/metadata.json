@@ -12,7 +12,7 @@
     "en": ["fact-checking", "verification", "misinformation", "official-data", "journalism", "transparency", "israel"]
   },
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

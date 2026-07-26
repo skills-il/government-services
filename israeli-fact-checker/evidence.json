@@ -22,7 +22,7 @@
       "confidence": "high"
     },
     {
-      "id": "verdict-matе",
+      "id": "verdict-mate",
       "claim": "The Whistle verdict label מטעה means the statement creates a false impression or takes facts out of context",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
@@ -53,8 +53,8 @@
       "claim": "The Whistle (המשרוקית of Globes) has been a member of the International Fact-Checking Network (IFCN) since 2018",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "חברה ברשת הבינלאומית של ארגוני בדיקת העובדות, ה- International Fact-Checking Network (ה- IFCN), בה היא חברה משנת 2018",
+      "source_fetched_at": "2026-07-26T19:08:52Z",
+      "raw_snippet": "קוד העקרונות המנחים של הרשת הבינלאומית של ארגוני בדיקת העובדות, ה- International Fact-Checking Network (ה- IFCN), בה היא חברה משנת 2018",
       "confidence": "high"
     },
     {
@@ -62,8 +62,8 @@
       "claim": "The IFCN Code of Principles has five commitments: non-partisanship and fairness, standards and transparency of sources, transparency of funding and organization, standards and transparency of methodology, and an open and honest corrections policy",
       "claim_type": "feature",
       "source_url": "https://ifcncodeofprinciples.poynter.org/the-commitments",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "A commitment to Non-partisanship and Fairness ... A commitment to Standards and Transparency of Sources ... A commitment to Transparency of Funding & Organization ... A commitment to Standards and Transparency of Methodology ... A commitment to an Open & Honest Corrections Policy",
+      "source_fetched_at": "2026-07-26T19:08:52Z",
+      "raw_snippet": "A commitment to Non-partisanship and Fairness ... A commitment to Standards and Transparency of Sources ... A commitment to Standards and Transparency of Methodology ... Signatory organizations are transparent ... Signatories publish their corrections polic",
       "confidence": "high"
     },
     {
@@ -125,9 +125,11 @@
       "claim": "Per-MK plenum roll-call votes are published by the Knesset as the dataset titled הצבעות חברי הכנסת במליאה on data.gov.il",
       "claim_type": "url",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=vote",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
+      "source_fetched_at": "2026-07-26T19:08:52Z",
       "raw_snippet": "הצבעות חברי הכנסת במליאה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-26T19:08:52Z"
     },
     {
       "id": "src-nadlan",

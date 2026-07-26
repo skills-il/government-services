@@ -50,7 +50,7 @@ ROUTES = [
     (["בחירות", "מנדט", "אחוז הצבעה", "מצביעים", "election", "turnout", "seats", "votes"],
      "Central Elections Committee (data.gov.il)", "israel-elections",
      "Official final results, not exit polls. Turnout denominator is eligible voters."),
-    (["דירה", "נדל", "מחיר דיור", "שכירות", "apartment", "housing", "real estate", "rent"],
+    (["דירה", "דירות", "דיור", "נדל", "שכירות", "apartment", "housing", "real estate", "rent"],
      "CBS House Price Index + Nadlan recorded deals", "nadlan",
      "Recorded sold prices, not asking prices. National trend uses the CBS index."),
     (["עמותה", "תרומה", "מימון זר", "amuta", "ngo", "donation", "foreign funding"],
