@@ -85,7 +85,7 @@
     },
     {
       "claim_id": "turnover-band-mako",
-      "claim": "Eligible business: annual turnover between 12,000 NIS and 400 million NIS in base year",
+      "claim": "Eligible business: annual turnover between 12,000 NIS and 400 million NIS in base year Written in the skill as 12,000 ש\"ח to 400,000,000 ש\"ח / 300,000 ש\"ח small-business cut-off.",
       "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
       "raw_snippet": "זכאות ניתנת לעסקים בכל הארץ שמחזורם בשנת הבסיס היה בין 12,000 שקלים ל-400 מיליון שקלים",
       "fetched_at": "2026-05-18T17:00:00Z",
@@ -165,10 +165,10 @@
     },
     {
       "claim_id": "knesset-passage-4-5-2026",
-      "claim": "Knesset passed the Shaagat HaAri compensation/halat legislation on 4.5.2026, with the new bifurcated 5-day chalat rule entering force 5.5.2026",
+      "claim": "The Knesset gave final approval to the Shaagat HaAri business-assistance framework on 04.05.2026; the Tax Authority advance-request system opened the next day, and final claims could be filed from 17 May after the March-April 2026 VAT reports.",
       "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "מתווה הסיוע לעסקים בעקבות \"שאגת הארי\" אושר סופית בכנסת ממחר ניתן לבקש מקדמות.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -178,8 +178,8 @@
       "claim_id": "eligible-expenses-portal-url",
       "claim": "Tax Authority indirect-damage Shaagat HaAri eligible expenses filing portal: gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
       "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2025 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -187,10 +187,10 @@
     },
     {
       "claim_id": "filing-portal-url",
-      "claim": "Tax Authority online filing portal for indirect-damage business compensation: gov.il/he/service/compensation-indirect-damage",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
-      "raw_snippet": "את התביעה במסלול מחזורים ניתן להגיש",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Kol-Zchut documents the small-business (turnover up to 300,000 NIS) Shaagat HaAri grant track and the 25% turnover-decline gate for March-April 2026 vs March-April 2025.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A2%D7%93_300%2C000_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
+      "raw_snippet": "בעלי עסקים בכל הארץ, שחוו ירידה של לפחות 25% במחזור ההכנסות שלהם בחודשים מרץ-אפריל 2026 לעומת מרץ-אפריל 2025 כתוצאה ממבצע שאגת הארי והם עומדים בתנאי הזכאות, זכאים למענק",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -200,9 +200,9 @@
     {
       "claim_id": "tax-authority-hotline-4954",
       "claim": "Tax Authority hotline for indirect damage business compensation: *4954",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
-      "raw_snippet": "טלפון למספר *4954",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_על_הפסדים_עקב_מלחמת_חרבות_ברזל",
+      "raw_snippet": "לפנות בטלפון למספר *4954 או 02-5656400 בימים א' עד ה' בין השעות: 09:00 -15:00",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -211,10 +211,10 @@
     },
     {
       "claim_id": "section-35-law",
-      "claim": "Section 35 (סעיף 35) of Property Tax & Compensation Fund Law 1961 establishes the red track for border-area indirect damage with no upper cap",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
-      "raw_snippet": "סעיף 35 לחוק",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Section 35 of the Property Tax and Compensation Fund Law defines the border settlements (yishuvei sfar) whose businesses are compensated for actual proven loss under the red track.",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_על_הפסדים_עקב_מלחמת_חרבות_ברזל",
+      "raw_snippet": "בעלי עסקים שנמצאים בתחום יישוב ספר, כמפורט ב סעיף 35 לחוק , זכאים לפיצויים על הפסד או מניעת רווח כתוצאה מהמלחמה, בגובה הנזק שנגרם בפועל.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -247,7 +247,7 @@
     },
     {
       "claim_id": "advance-21-days-150-days-8-months",
-      "claim": "Cash-flow schedule: 60% advance after 21 days of complete filing, full determination at 150 days, automatic approval after 8 months. Mid-large business pages confirm 60% advance after 21 days and 8-month auto-approval.",
+      "claim": "Cash-flow schedule: 60% advance after 21 days of complete filing, full determination at 150 days, automatic approval after 8 months. Mid-large business pages confirm 60% advance after 21 days and 8-month auto-approval. 60% at 21 days plus an additional 10% at 150 days is 70% advanced in total.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A9%D7%91%D7%99%D7%9F_300,000_-_400_%D7%9E%D7%99%D7%9C%D7%99%D7%95%D7%9F_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%A2%D7%A7%D7%91%D7%95%D7%AA_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
       "raw_snippet": "60% advance if no decision within 21 days. Additional 10% if no decision within 150 days. Final determination within 8 months.",
       "fetched_at": "2026-05-18T17:00:00Z",
@@ -260,8 +260,8 @@
       "claim_id": "employer-reservist-20-percent",
       "claim": "Employer reservist compensation: 20% of employee's average daily wage × reserve duty days, paid by Bituach Leumi to the employer, stacks with indirect-damage grants",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "גובה הפיצוי הוא 20% משכרו היומי הממוצע של העובד ב-3 החודשים שקדמו לשירות המילואים, כפול מספר ימי המילואים שביצע העובד.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -271,10 +271,10 @@
     },
     {
       "claim_id": "nevo-law-url",
-      "claim": "Authoritative source: full text of חוק מס רכוש וקרן פיצויים תשכ\"א-1961 (Property Tax & Compensation Fund Law, 1961) at nevo.co.il",
+      "claim": "The Property Tax and Compensation Fund Law, 5721-1961 chapter 8 (compensation) opens at section 35 with the definitions, including \"ישוב ספר\" (border-area settlement) designated by the Finance Minister with Knesset Finance Committee approval.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "ועדת ערר",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "\"ישוב ספר\" - ישוב ששר האוצר, באישור ועדת הכספים של הכנסת, הודיע עליו שהוא ישוב ספר [1] , וכן אזור ששר האוצר, באישור ועדת הכספים של הכנסת, הודיע עליו שהוא ישוב ספר לתקופה קצובה שקבע;",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -334,10 +334,10 @@
     },
     {
       "claim_id": "press-release-11-03-2026",
-      "claim": "Tax Authority Shaagat HaAri press release URL (11.03.2026) - cited in skill text and metadata",
+      "claim": "On 11.03.2026 the Finance Ministry published the FRAMEWORK rules for the Shaagat HaAri assistance package (pre-legislation). That framework proposed shortening the qualifying chalat period from 30 days to 14 consecutive days. The figure that finally took effect is the bifurcated 5-day / 10-day rule on the Bituach Leumi and Kol-Zchut pages; do not quote the 14-day framework number as current law.",
       "source_url": "https://www.gov.il/he/pages/press_11032026",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "תאריך פרסום: 11.03.2026 בהמשך למנגנוני הסיוע שהופעלו בתחילת מלחמת \"חרבות ברזל\" ובמבצע \"עם כלביא\", שר האוצר, בצלאל סמוטריץ', הציג היום (רביעי) את כללי המסגרת למתווה הסיוע למשק במסגרת מבצע \"שאגת הארי\".",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -424,8 +424,8 @@
       "claim_id": "knesset-passage-gov-url",
       "claim": "Gov.il news page for 4.5.2026 Knesset passage of Shaagat HaAri compensation/chalat legislation",
       "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "תאריך פרסום: 04.05.2026 המתווה, שגובש על ידי משרד האוצר ורשות המסים, אשר הוכיח את יעילותו במתן ודאות למשק ובשמירה על רציפות הפעילות הכלכלית בתקופות חירום אושר היום באופן סופי בכנסת.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -484,10 +484,10 @@
     },
     {
       "claim_id": "currency-variants-300k-400m",
-      "claim": "Currency variant coverage: 300,000 ש\"ח, 400,000,000 ש\"ח, 15,000 ש\"ח -- the small business 300K threshold, the 400M ceiling, and the ~15,000 NIS max monthly small-operator daycare grant all appear in Hebrew with ש\"ח suffix in source material",
+      "claim": "Small-business grant amounts by turnover band and decline depth: up to 150,000 NIS turnover 2,776-8,328 NIS; up to 200,000 3,273-9,819; up to 250,000 4,190-12,570; up to 300,000 4,897-14,691. Businesses above 300,000 NIS turnover use the two-component (inputs + wages) track. The skill rounds the top small-business band (14,691) to \"about 15,000 ש\"ח per month\" in its narrative text.",
       "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
-      "raw_snippet": "מחזור 300,000 ש\"ח ... 400,000,000 ש\"ח ... 15,000 ש\"ח -- (covered by combination of mako.co.il small-business table 250,000-300,000 / mid-business 400 million ceiling / max daycare small-operator grant ~14,691-15,000 ש\"ח)",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "לעסקים שמחזורם 12,000 עד 300,000 שקלים, המענק מדורג לפי עומק הירידה במחזור : מחזור עד 150,000 שקלים: מענק של 2,776 שקלים (בירידה של 25-40%) ועד 8,328 שקלים (בירידה מעל 80%). מחזור עד 200,000 שקלים: מענק של 3,273 שקלים (בירידה של 25-40%) ועד 9,819 שקלים (בירידה מעל 80%). מחזור עד 250,000 שקלים: מענק של 4,190 שקלים (בירידה של 25-40%) ועד 12,570 שקלים (בירידה מעל 80%). מחזור עד 300,000 שקלים: מענק של 4,897 שקלים (בירידה של 25-40%) ועד 14,691 שקלים (בירידה מעל 80%).",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -506,10 +506,10 @@
     },
     {
       "claim_id": "derived-percentages-tax-rates",
-      "claim": "Derived/illustrative percentages used in walkthrough: 30%, 47% (max marginal mas hachnasa rate), 50% (overstatement risk pct), 70% (example chalat replacement), 90%, 91%, 93%, 94%, 95%, 96%, 97%, 99% appear inside larger decline-rate strings (e.g., 91.8% from 110,000-9,000/110,000 in Example 2). The 4%, 6%, 8%, 9% percentages appear as digit-fragment matches inside larger numbers. These are derived from the published 25-40/40-60/60-80/80-100 tier framework, the 25% gate, and Israeli marginal tax brackets up to 47%.",
+      "claim": "Mid/large-business compensation has two components: an inputs (fixed-expenses) reimbursement of 7% / 11% / 15% / 22% by decline band (25-40 / 40-60 / 60-80 / over 80), and a wage component computed as wage expenses x decline rate x 75%.",
       "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
-      "raw_snippet": "פגיעה של 60-80% ... פגיעה מעל 80% ... ירידה 80%-100% (illustrative 30%/47%/50%/70%/90%/91%/93%/94%/95%/96%/97%/99% values derive from these tier brackets and the marginal-tax rate cap of 47% in Israel; not standalone authoritative numbers)",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "רכיב תשומות (הוצאות קבועות) : החזר של 7% (פגיעה של 25-40%), 11% (פגיעה של 40-60%), 15% (פגיעה של 60-80%) או 22% (פגיעה מעל 80%) . רכיב שכר : החזר המחושב לפי: הוצאות שכר X שיעור הפגיעה X 75%.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -529,10 +529,10 @@
     },
     {
       "claim_id": "general-business-iron-swords-kolzchut",
-      "claim": "Kol-Zchut entry for general business compensation under Iron Swords cites *4954 hotline, sections 35/36, turnover bands 12,000-300,000 ₪ and 300,000-400 million ₪. URL appears in domain-checklist.md as authoritative cross-reference.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
-      "raw_snippet": "טלפון למספר *4954 ... סעיף 35 לחוק ... עסקים שמחזור העסקאות שלהם הוא בין 300,000 ₪ ל-400 מיליון ₪",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "The Iron Swords business-compensation framework has three tracks by business location: nationwide business-continuity grant, the \"special area\" (green) track, and the border-settlement (red) track. A business owner may claim under only one track.",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_על_הפסדים_עקב_מלחמת_חרבות_ברזל",
+      "raw_snippet": "מתווה הפיצויים כולל מענה ל-3 קבוצות אוכלוסייה לפי מיקום העסק: מתווה פיצויים לכל העסקים בארץ (מענק המשכיות עסקית), מתווה פיצויים לעסקים ב\"אזור המיוחד\", מתווה פיצויים ליישובי ספר",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/domain-checklist.md",
         "SKILL.md",
@@ -617,7 +617,7 @@
       "claim_id": "north-track-deadlines-2026",
       "claim": "North (special-area) filing windows run later than nationwide: turnover/wage/agriculture tracks to 24.09.2026; red track extended to 31.08.2026 (some info pages still show 24.08)",
       "source_url": "https://www.amir-cpa.net/post/%D7%A9%D7%90%D7%92%D7%AA-%D7%94%D7%90%D7%A8%D7%99-%D7%99%D7%95%D7%A0%D7%99-2026-%D7%96%D7%94%D7%95-%D7%9E%D7%AA%D7%95%D7%95%D7%94-%D7%A0%D7%96%D7%A7-%D7%A2%D7%A7%D7%99%D7%A3-%D7%94%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%91%D7%A6%D7%A4%D7%95%D7%9F",
-      "raw_snippet": "מסלולי מחזורים, שכר וחקלאות: עד 24.9.26 ... מסלול אדום: עד 31.8.26 (בהתאם לאורכה האחרונה שפרסמה רשות המסים, ולא עד ל-24.8 כמופיע בדף המידע)",
+      "raw_snippet": "מסלולי מחזורים, שכר וחקלאות - לפי תקופות הזכאות: מרץ-אפריל 2026: עד 24.9.26 חדש! מאי-יוני 2026 (מחזורים וחקלאות): עד 15.11.26 מסלול אדום: עד 31.8.26 (בהתאם לאורכה האחרונה שפרסמה רשות המסים, ולא עד ל-24.8 כמופיע באתר הרשות)",
       "fetched_at": "2026-07-06T10:48:00Z",
       "appears_in": [
         "SKILL.md",
@@ -667,7 +667,7 @@
       "claim_id": "law-fixed-expenses-vat-inputs",
       "claim": "Fixed expenses (הוצאות קבועות) = total current VAT inputs of the PREVIOUS year, divided by 6, times the fixed-cost coefficient. NOT the owner's monthly rent and utilities.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "\"הוצאות קבועות\" - ... סך כל התשומות השוטפות בשנה הקודמת, מחולק ב־6 ומוכפל במקדם ההוצאות הקבועות",
+      "raw_snippet": "\"הוצאות קבועות\"  -אחד מאלה ,לפי העניין: ( )1לעניין ניזוק שאינו מנוי בפסקאות ( )2או ( - )3סך כל התשומות השוטפות בשנה הקודמת ,מחולק ב־6 ומוכפל במקדם ההוצאות הקבועות;",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -732,7 +732,7 @@
       "claim_id": "law-floor-rule-38lz-g",
       "claim": "Floor rule: a business on the nationwide track entitled to LESS than the top small-business band would have paid receives that band amount instead (§38לז(ג)).",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "היה סכום הפיצויים שניזוק כאמור באותו סעיף קטן זכאי לו נמוך מסכום הפיצויים שאותו ניזוק היה זכאי לו לפי הוראות סעיף קטן (ב)(7) ... יהיה הניזוק זכאי לקבל את סכום הפיצוי לפי אותו סעיף קטן",
+      "raw_snippet": "(ג) על אף האמור בסעיף קטן (א) ,היה סכום הפיצויים שניזוק כאמור באותו סעיף קטן זכאי לו נמוך מסכום הפיצויים שאותו ניזוק היה זכאי לו לפי הוראות סעיף קטן (ב)( ,)7אם מחזור העסקאות שלו בשנת הבסיס היה כאמור באותו סעיף קטן ,יהיה הניזוק זכאי לקבל את סכום הפיצוי לפי אותו סעיף קטן.",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -782,7 +782,7 @@
       "claim_id": "law-vat-section-33",
       "claim": "Sector override: a business under the VAT exemption of סעיף 33 to the VAT Law takes a fixed-cost coefficient of x0.19.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "עוסק פטור",
+      "raw_snippet": "הפטור לפי סעיף  33לחוק מס ערך מוסף ,ומתקיים לגביו האמור בפסקאות משנה (א) עד (ד) של פסקה ()1 להגדרה זו  -השיעור כאמור בסיפה של אותן פסקאות משנה ,לפי העניין ,מוכפל ב־;0.19",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -810,6 +810,20 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "grant-taxable-marginal-rate",
+      "claim": "The business-continuity grant is revenue-substituting income taxed at the recipient's marginal rate. Israeli individual rates run up to 47%, with a 3% surtax above ILS 721,560 giving a 50% maximum. The skill's \"30%-47%\" range is the ordinary marginal band a typical business owner falls in, and the \"50%+\" figure in the red-track note is an illustrative under-payment magnitude, not a statutory rate.",
+      "source_url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income",
+      "raw_snippet": "Taxation of individuals is imposed in graduated rates ranging up to 47%. Additionally, a 3% surtax applies on annual taxable income exceeding ILS 721,560, resulting in a 50% maximum income tax rate.",
+      "fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "reservist-owner-grant-kolzchut",
+      "claim": "Business owners who served tzav-8 reserve duty from 07.10.2023 may be entitled to compensation for the resulting drop in business income; two separate tracks exist by period.",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_ששירתו_במילואים_במלחמת_חרבות_ברזל_או_במלחמה_מול_איראן",
+      "raw_snippet": "בעלי עסקים ששירתו במילואים בצו 8 החל מיום 07.10.2023 עשויים להיות זכאים לפיצוי בגין ירידה בהכנסות העסק החל מחודש ינואר 2024",
+      "fetched_at": "2026-08-09"
     }
   ],
   "pending_verification": [
