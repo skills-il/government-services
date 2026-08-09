@@ -179,7 +179,7 @@ Give the user a personalized, ordered checklist. Each step references a real for
    - Output: dorsh avoda status, scheduled reporting days
 
 3. File the Bituach Leumi unemployment claim
-   URL: https://www.btl.gov.il
+   URL: https://www.btl.gov.il/Pages/default.aspx
    - Unified online form through gov.il national ID login
    - Required: bank details, termination letter, 6 most recent payslips, FORM 126 (annual employer summary, NOT the monthly Form 100), completed Form 1514 from employer
    - If the employer refuses to fill Form 1514: under BL חוזר אבטלה 1342, a tatzhir + 3 payslips + bank statements showing wage transfers can substitute

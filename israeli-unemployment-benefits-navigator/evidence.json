@@ -261,9 +261,9 @@
     {
       "claim_id": "btl-portal-domain",
       "claim": "Bituach Leumi main online portal for filing unemployment claims, checking status, and appealing decisions: https://www.btl.gov.il. The general info hotline is *6050.",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "דף הבית, הביטוח הלאומי",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "source_url": "https://www.btl.gov.il/Pages/default.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -626,10 +626,10 @@
     },
     {
       "claim_id": "employer-reservist-refund-20pct",
-      "claim": "Bituach Leumi pays 20% of employee average daily wage to employer for each employee called up on Tzav 8 reserve duty (Shaagat HaAri framework)",
-      "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "20%",
-      "fetched_at": "2026-05-18T18:00:00Z",
+      "claim": "Employers who paid social contributions (gemel / pension / keren hishtalmut) for employees during their March 2026 reserve service are compensated by Bituach Leumi at 20% of the employee average daily wage over the preceding 3 months, times the number of reserve days.",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לעצמאים_ובעלי_עסקים_בתקופת_המלחמה_מול_איראן_(מבצע_שאגת_הארי)",
+      "raw_snippet": "גובה הפיצוי הוא 20% משכרו היומי הממוצע של העובד ב-3 החודשים שקדמו לשירות המילואים, כפול מספר ימי המילואים שביצע העובד.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -675,8 +675,8 @@
       "claim_id": "women-300-day176-ceiling",
       "claim": "Women 300-day track day-176 ceiling: 201.03 NIS / ₪201.03 / 201.03 ש\"ח per day (2026)",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
-      "raw_snippet": "201.03",
-      "fetched_at": "2026-06-13T00:13:55.226438+00:00",
+      "raw_snippet": "תוכלו לקבל דמי אבטלה עבור 300 ימים (במקום 175 ימים) בתקופה של 18 חודשים (במקום 12 חודשים). סכום דמי האבטלה המרבי מהיום ה- 176 ואילך -  201.03 ש\"ח (החל ב- 01.01.2026) ליום.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/benefit-calculation-tables.md",
         "SKILL.md"

@@ -7,7 +7,7 @@ All official forms, portals, and contact points for Israeli unemployment claims.
 | Portal | URL | Purpose |
 |--------|-----|---------|
 | Sherut HaTaasuka (Employment Service) | https://www.taasuka.gov.il | Register as job seeker, attend reporting, job search |
-| Bituach Leumi (National Insurance) | https://www.btl.gov.il | File unemployment claim, check status, appeal decisions |
+| Bituach Leumi (National Insurance) | https://www.btl.gov.il/Pages/default.aspx | File unemployment claim, check status, appeal decisions |
 | Government Login (zehut digitalit) | https://www.gov.il | Unified digital ID for all online services |
 
 ## Required Documents
