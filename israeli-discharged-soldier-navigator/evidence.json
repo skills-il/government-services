@@ -158,12 +158,16 @@
     },
     {
       "id": "iron-swords-full-tuition-combat",
-      "claim": "Tikkun 25 to Chok Klitat Chayalim Meshuchrarim, approved by the Knesset on 8 Tevet 5784 (December 20, 2023), raised Mimadim LiLimudim coverage to 100% and extended the eligibility window from 3 years to 5 years for combat (lochem) soldiers. Qualifying classifications: lochem (combat), lone soldiers, minorities (combat-support / tomech lechima is NOT listed as qualifying for the expanded track).",
+      "claim": "Mimadim LiLimudim, run by the MoD Department for Discharged Soldiers and Reservists, funds 100% of university tuition. Combat soldiers qualify with a 'shichrur bekavod-zahav' (gold-honour) discharge certificate; 'special populations' qualify with a 'shichrur bekavod' certificate. The window to file a first application is up to 5 years from discharge from compulsory service, extended by 1 year (bagrut completion / mechina / psychometric), by 2 years (a year or more of continuous keva service), or by 3 years for both, up to 8 years.",
       "claim_type": "law",
-      "source_url": "https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים",
-      "source_fetched_at": "2026-05-18T13:00:00Z",
-      "raw_snippet": "תיקון 25 לחוק קליטת חיילים משוחררים אושר ב-20 בדצמבר 2023. המימון יגדל ל-100%. הזכאות למימון תגדל מ-3 שנים ל-5 שנים ללוחמי סדיר משוחררים. זכאים: לוחמים עם תעודת שחרור בכבוד או בכבוד-זהב, חיילים בודדים, ובני מיעוטים.",
-      "confidence": "high"
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תקופת הזכאות להגשת בקשה ראשונה למלגת \"ממדים ללימודים\" היא עד 5 שנים מיום השחרור משירות חובה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "iron-swords-hub-url",
@@ -212,12 +216,16 @@
     },
     {
       "id": "iron-swords-100-percent-tuition",
-      "claim": "Mimadim LiLimudim provides 100% annual tuition coverage. The hachvana program page describes eligible populations as 'lochem soldiers AND special populations who enlisted from 01.07.13 onward'. Special populations include lone soldiers, new immigrants, conscripts with children, and recognized minorities. Combat-support (tomech lechima) may qualify depending on the special-populations definition for each cohort. The Tikkun 25 amendment (Dec 20 2023) raised coverage to 100% and extended the eligibility window from 3 years to 5 years.",
+      "claim": "Mimadim LiLimudim provides 100% funding of the university tuition set by the Council for Higher Education, for a first degree or an art certificate programme. Eligible populations named by the MoD are combat soldiers with a gold-honour discharge, and 'special populations' with an honour discharge: parents-support entitlements, discharged lone soldiers, minorities, Arab / Druze / Circassian dischargees, and new olim. The annual refund is up to 85% of the tuition actually paid (10,214.45 NIS in 5786), with the accrued 15% topped up to 100% in the final year of the degree.",
       "claim_type": "percentage",
-      "source_url": "https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים",
-      "source_fetched_at": "2026-05-18T13:00:00Z",
-      "raw_snippet": "תיקון 25 לחוק קליטת חיילים משוחררים אושר ב-20 בדצמבר 2023. המימון יגדל ל-100%. הזכאות למימון תגדל מ-3 שנים ל-5 שנים. זכאים: לוחמים, חיילים בודדים, ובני מיעוטים. תוכנית ממדים ללימודים מיועדת לחיילים לוחמים ואוכלוסיות מיוחדות משוחררים שהתגייסו החל מ-01.07.13 ואילך.",
-      "confidence": "high"
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מלגת \"ממדים ללימודים\" של האגף לחיילים משוחררים ומילואים מעניקה 100% מימון לשכר הלימוד האוניברסיטאי עבור לימודים אקדמיים או לימודי תעודה באמנות החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ו 10,214.45 ₪). השלמת שכר לימוד - בשנת הלימודים האחרונה תבוצע השלמה ל-100% מימון משכר הלימוד האוניברסיטאי ששולם בפועל.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "annual-credit-point-values",

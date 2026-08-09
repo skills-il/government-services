@@ -9,7 +9,7 @@ license: MIT
 
 ## Problem
 
-A 21-year-old who just finished sherut chova has access to a Pikadon (personal deposit), a separate discharge grant, three years of tax credit points, and (for Iron Swords combat veterans) full university tuition. The official information is scattered across the MoD's hachvana site, kolzchut, the Income Tax Ordinance, and the Knesset full-tuition law from December 2023. Most discharged soldiers either miss benefits entirely (especially the retroactive nekudot zikui), try to use Pikadon for non-permitted purposes (rental is the most common mistake, only purchase qualifies), or fail to claim within the 5-year statutory window. This skill walks the user through eligibility, the current indexed Pikadon rates per service tier, the 6 permitted pre-5y withdrawal purposes, the Tofes 101 claim flow for credit points, and the Iron Swords expansions, with the right form numbers and the right hachvana.mod.gov.il portal flows.
+A 21-year-old who just finished sherut chova has access to a Pikadon (personal deposit), a separate discharge grant, three years of tax credit points, and (for Iron Swords combat veterans) full university tuition. The official information is scattered across the MoD's hachvana site, kolzchut, the Income Tax Ordinance, and the MoD Mimadim LiLimudim scholarship page. Most discharged soldiers either miss benefits entirely (especially the retroactive nekudot zikui), try to use Pikadon for non-permitted purposes (rental is the most common mistake, only purchase qualifies), or fail to claim within the 5-year statutory window. This skill walks the user through eligibility, the current indexed Pikadon rates per service tier, the 6 permitted pre-5y withdrawal purposes, the Tofes 101 claim flow for credit points, and the Iron Swords expansions, with the right form numbers and the right hachvana.mod.gov.il portal flows.
 
 ## Instructions
 
@@ -158,15 +158,14 @@ This means a user withdrawing the full Pikadon balance for academic studies rece
 
 ### Step 8: Iron Swords (חרבות ברזל) Expanded Benefits, Mimadim 100%
 
-**Tikkun 25 to Chok Klitat Chayalim Meshuchrarim**, approved by the Knesset on 8 Tevet 5784 (December 20, 2023), raised the Mimadim LiLimudim ("Uniform to Studies") scholarship coverage to **100% of annual undergraduate tuition** and extended the eligibility window from 3 to 5 years after discharge. Key facts:
+The **Mimadim LiLimudim** ("Uniform to Studies") scholarship of the MoD Department for Discharged Soldiers and Reservists funds **100% of the university tuition** set by the Council for Higher Education. Read the current-cycle terms on the official page: https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx. Key facts:
 
 | Aspect | Detail |
 |---|---|
-| Who qualifies | Lochem (combat) classification on Teudat Shichrur AND "special populations", lone soldiers, new immigrants, conscripts with children, recognized minorities. Combat-support (tomech lechima) may also qualify depending on the special-populations definition for each cohort. Verify on hachvana for the current cycle. |
-| Coverage | 100% of annual undergraduate tuition (BA or MA scope per Mimadim rules). Tuition only, does NOT cover dorms, living costs, or non-academic expenses. |
-| Window | Base window is 5 years after end of service (raised from 3 by Tikkun 25). It extends by +1 year for someone who did a mechina (preparatory program), by +2 years for at least a full year of permanent (keva) service, and by +3 years for both combined, up to a maximum of 8 years. Verify the applicable extension for the current cycle on hachvana. |
+| Who qualifies | Two separate tracks. (1) Lochamot/lochamim holding a **"shichrur bekavod-zahav"** (gold-honour) discharge certificate. (2) "Special populations" holding a **"shichrur bekavod"** (honour) certificate: entitlement to tashmash horim, those whose parents received family payments during service, discharged lone soldiers recognized as lone until end of service, minorities, Arab / Druze / Circassian dischargees, and new olim so defined during service. Combat-support (tomech lechima) is NOT a listed track on its own. Verify on hachvana for the current cycle. |
+| Coverage | 100% of the university tuition set by the Council for Higher Education, for a first degree, a second degree, or an art certificate programme. Paid as an annual refund of up to 85% of what was actually paid, with the remaining 15% topped up to 100% in the final year of the degree. Tuition only, does NOT cover dorms, living costs, or non-academic expenses. |
+| Window | A first application must be filed within 5 years of discharge from compulsory service. It extends by +1 year (to 6) for someone who completed bagrut, a mechina, or the psychometric within those 5 years, by +2 years (to 7) for a year or more of continuous keva service after discharge, and by +3 years (to 8) for both combined. Verify the applicable extension for the current cycle on hachvana. |
 | Application | Via the Education section of the personal area at hachvana.mod.gov.il (look for "ממדים ללימודים" / "Mimadim LiLimudim"). |
-| Statute citation | Tikkun 25 to Chok Klitat Chayalim Meshuchrarim, approved 20 Dec 2023. Bill sponsors: MKs Katz, Dallal, Nir, Biton. |
 
 **What this skill does NOT do:** Match the user to a specific university scholarship beyond Mimadim. For PEREACH / Adams / Rashi / Rothschild / Mimadim deep-dive, route to `israeli-academic-scholarships`.
 
@@ -259,9 +258,9 @@ Actions:
 User says: "I'm a lochem who discharged March 2024, I heard the Knesset passed free university?"
 
 Actions:
-1. Confirm eligibility: discharged March 2024 as lochem → eligible for Mimadim 100% tuition (raised by Tikkun 25, December 20, 2023).
+1. Confirm eligibility: discharged March 2024 as lochem → eligible for Mimadim 100% tuition if the discharge certificate is 'shichrur bekavod-zahav'.
 2. Coverage: 100% of annual undergraduate tuition. Tuition only, does not cover dorms, living, or expenses beyond Mimadim scope.
-3. Window: 5 years from end of service (extended from 3 by Tikkun 25). For a March 2024 discharge, the window runs to ~March 2029.
+3. Window: 5 years from discharge from compulsory service to file a first application. For a March 2024 discharge, the window runs to ~March 2029.
 4. Apply via the Education section of the hachvana.mod.gov.il personal area (look for "ממדים ללימודים").
 5. Suggest pairing with Pikadon: use Pikadon under purpose #1 (academic studies) for additional study-related expenses Mimadim doesn't cover.
 6. Note tomech-lechima soldiers: do NOT assume exclusion, the special-populations basket may apply. Verify on hachvana for the specific cohort.
@@ -294,7 +293,7 @@ No public MCP server exists for hachvana.mod.gov.il (the MoD personal area has n
 | Chok Klitat Chayalim Meshuchrarim (full text) | https://www.nevo.co.il/law_html/law01/150_023.htm | Statutory base for Pikadon, grant, scholarship, tax credit |
 | Kol Zchut: Pikadon | https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי | 6-purpose canonical list, SLE rules, medical-discharge exception |
 | Kol Zchut: Nekudot Zikui | https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי | Section 39a, service-length point table, Tofes 101 + Tofes 135 process |
-| Wikipedia: Chok Mimadim LiLimudim | https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים | Tikkun 25 (Dec 20 2023) raising Mimadim to 100% and extending the window to 5 years |
+| MoD hachvana: Mimadim LiLimudim scholarship | https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx | 100% tuition funding, the gold-honour vs honour discharge eligibility split, and the 5-year window with its extensions |
 | Kol Zchut: tax refund + Form 135 | https://www.kolzchut.org.il/he/החזר_מס_הכנסה | Tofes 135 retroactive refund process for salaried employees, 6-year window, 4% interest |
 
 ## Gotchas

@@ -1,6 +1,6 @@
 # Domain Coverage Checklist, israeli-discharged-soldier-navigator
 
-Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, nevo.co.il, hilan.co.il, he.wikipedia.org.
+Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, nevo.co.il, hilan.co.il.
 
 ## Must cover (core)
 
@@ -56,5 +56,5 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, nevo
 - Kol Zchut: search "מענק שחרור לחיילים משוחררים", discharge grant (20-60 day window)
 - https://www.nevo.co.il/law_html/law01/150_023.htm, Chok Klitat Chayalim Meshuchrarim full text; statutory base
 - hilan.co.il legislation center "חוק קליטת חיילים משוחררים פרק ג פקדון ומענק", Chapter ג summary (sections 8-11); verify caps and non-transferable clause
-- https://he.wikipedia.org/wiki/חוק_ממדים_ללימודים, Wikipedia Hebrew article on Chok Mimadim LiLimudim; Tikkun 25 Dec 2023 raised coverage to 100% and extended window 3y→5y
+- https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx, MoD Department for Discharged Soldiers and Reservists, official Mimadim LiLimudim page: 100% tuition funding, gold-honour vs honour eligibility tracks, and the 5-year application window with its extensions
 - https://www.kolzchut.org.il/he/החזר_מס_הכנסה, Kol Zchut Tofes 135 process for retroactive employee tax refunds (6-year window, 4% interest)

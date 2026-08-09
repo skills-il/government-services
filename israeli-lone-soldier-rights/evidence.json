@@ -144,12 +144,16 @@
     },
     {
       "id": "law-of-citizenship-1952",
-      "claim": "Israeli citizenship for olim is granted under Chok HaEzrachut (Law of Citizenship, 5712-1952), while the right of return is granted under Chok HaShvut (Law of Return, 5710-1950). Both statutes apply automatically on aliyah for eligible olim.",
+      "claim": "Under the Citizenship Law 5712-1952, every oleh under the Law of Return 5710-1950 becomes an Israeli citizen by virtue of return (mikoach shvut), acquired from the day of his aliyah for someone who made aliyah after the founding of the state.",
       "claim_type": "law",
-      "source_url": "https://he.wikipedia.org/wiki/חוק_האזרחות",
-      "source_fetched_at": "2026-05-18T15:00:00Z",
-      "raw_snippet": "חוק האזרחות, התשי\"ב-1952 מקנה אזרחות ישראלית; חוק השבות, התש\"י-1950 מקנה את זכות העלייה. שניהם חלים אוטומטית על עולים זכאים.",
-      "confidence": "medium"
+      "source_url": "https://www.nevo.co.il/law_html/law01/011_001.htm",
+      "source_fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "כל עולה לפי חוק השבות, תש\"י-1950, יהיה לאזרח ישראלי מכוח שבות, זולת אם הוקנתה לו אזרחות ישראלית מכוח לידה לפי סעיף 4 או מכוח אימוץ לפי סעיף 4ב",
+      "confidence": "medium",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "status-change-immediate",
