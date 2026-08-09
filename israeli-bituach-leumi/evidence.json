@@ -82,10 +82,10 @@
     },
     {
       "claim_id": "amt-2757",
-      "claim": "old-age single with seniority supplement: 2,757 NIS / 2,757 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "1,838",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "claim": "old-age seniority supplement: 2% of the basic pension per full insured year, capped at 50% of the pension (2,757 NIS for a single pensioner is the derived 1,838 x 1.5 cap figure, not a published amount)",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת ותק תוספת בשיעור 2% עבור כל שנה מלאה שבה הייתם מבוטחים בביטוח הלאומי. תוספת הוותק המקסימלית שניתן לקבל היא בגובה 50% מהקצבה. שימו לב, שנת ביטוח ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -139,8 +139,8 @@
       "claim_id": "amt-1214",
       "claim": "disability per-child supplement: 1,214 NIS / 1,214 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "1,214",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "1,175 1,214 תוספ ת לילד כשהוא מעודכן לפי פסקה ( )4בסיפא סעיף (200א) 3,",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -182,9 +182,9 @@
     {
       "claim_id": "amt-3820",
       "claim": "disabled child 100%: 3,820 NIS / 3,820 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "3,820",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הו",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -194,8 +194,8 @@
       "claim_id": "amt-173",
       "claim": "child allowance first child: 173 NIS / 173 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "173",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הסכום הבסיסי לפי פסקה (( )2לקצבת הילדים המשתלמת לפי הוראות סימן ב' בפרק ד'): (א) 173ש\"ח בעד הילד הראשון והחמישי ואילך (ב) 219ש\"ח בעד הילד השני ,השלישי והרביעי (ג) 162ש\"ח לעניין גמלה לפי חוק הבטחת הכנסה או תוספת משפחתית למקבלי הבטחת הכנסה הס",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -205,8 +205,8 @@
       "claim_id": "amt-219",
       "claim": "child allowance children 2-4: 219 NIS / 219 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "219",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הסכום הבסיסי לפי פסקה (( )2לקצבת הילדים המשתלמת לפי הוראות סימן ב' בפרק ד'): (א) 173ש\"ח בעד הילד הראשון והחמישי ואילך (ב) 219ש\"ח בעד הילד השני ,השלישי והרביעי (ג) 162ש\"ח לעניין גמלה לפי חוק הבטחת הכנסה או תוספת משפחתית למקבלי הבטחת הכנסה הס",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -216,8 +216,8 @@
       "claim_id": "amt-2103",
       "claim": "birth grant first child: 2,103 NIS / 2,103 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "2,103",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מענקי לידה ומענקי אשפוז 20%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 2,054 2,103 מענק ליולדת -ילד ראשון (ב) בסיפא. 9%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 924 946 מענק ליולדת -ילד שני (ב) בסיפא. 6%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 616 631 מע",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -227,8 +227,8 @@
       "claim_id": "amt-946",
       "claim": "birth grant second child: 946 NIS / 946 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "946",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מענקי לידה ומענקי אשפוז 20%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 2,054 2,103 מענק ליולדת -ילד ראשון (ב) בסיפא. 9%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 924 946 מענק ליולדת -ילד שני (ב) בסיפא. 6%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 616 631 מע",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -236,10 +236,10 @@
     },
     {
       "claim_id": "amt-924",
-      "claim": "birth grant prior-year / spouse increment: 924 NIS / 924 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Shum.aspx",
-      "raw_snippet": "2,762",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "claim": "old-age spouse increment: 924 NIS / 924 ש\"ח (2026)",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת עבור בן/בת זוג – ש\"ח 924 ש\"ח (החל ב- 01.01.2026) . תוס",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -249,8 +249,8 @@
       "claim_id": "amt-631",
       "claim": "birth grant third+ child: 631 NIS / 631 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "631",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מענקי לידה ומענקי אשפוז 20%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 2,054 2,103 מענק ליולדת -ילד ראשון (ב) בסיפא. 9%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 924 946 מענק ליולדת -ילד שני (ב) בסיפא. 6%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 616 631 מע",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -260,8 +260,8 @@
       "claim_id": "amt-10514",
       "claim": "birth grant twins: 10,514 NIS / 10,514 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "10,514",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הסכום הבסיסי לפי פסקה ( )1יהיה .₪ 10,514 ואלה הגמלאות המחושב",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -293,8 +293,8 @@
       "claim_id": "amt-13769",
       "claim": "average wage 2026: 13,769 NIS / 13,769 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "13,769",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "השכר הממוצע עפ\"י סעיף 2לחוק (נוסח משולב תשנ\"ה) יעמוד בחודש ינואר 2026על 13,769 ש\"ח לעומת 13,316ש\"ח עד כה ,גידול של .3.4%השכר הממוצע לפי סעיף 2מתבסס על נתוני השכר הממוצע למשרת שכיר בחודשים אוגוסט עד אוקטובר 2025בסכום ממוצע של 13,566 ש\"ח (שכר ממוצע לפי סעיף 1לחוק) .לממוצע זה נוסף מקדם פריסה עפ\"י החוק ",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -414,8 +414,8 @@
       "claim_id": "amt-116",
       "claim": "savings-for-every-child: BTL deposits 58 NIS/month; 116 NIS / 116 ש\"ח is reached only when the parent matches an equal amount out of the child allowance",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "58",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "חסכון ארוך טווח לילד ולילדה סעיף 74ב ( )1ותקנה 12לתקנות חיסכון ארוך 57 58 החסכון הבסיסי טווח לילד 57 58 החסכון הנוסף 284",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -425,8 +425,8 @@
       "claim_id": "amt-58",
       "claim": "savings-for-every-child parent matching option: 58 NIS / 58 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "58",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "חסכון ארוך טווח לילד ולילדה סעיף 74ב ( )1ותקנה 12לתקנות חיסכון ארוך 57 58 החסכון הבסיסי טווח לילד 57 58 החסכון הנוסף 284",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -447,8 +447,8 @@
       "claim_id": "amt-13566",
       "claim": "average wage per section 1 of the law: 13,566 NIS / 13,566 ש\"ח (2026). Statistical reference, NOT an income-test threshold and NOT the contribution bracket break.",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "13,566",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "השכר הממוצע עפ\"י סעיף 2לחוק (נוסח משולב תשנ\"ה) יעמוד בחודש ינואר 2026על 13,769 ש\"ח לעומת 13,316ש\"ח עד כה ,גידול של .3.4%השכר הממוצע לפי סעיף 2מתבסס על נתוני השכר הממוצע למשרת שכיר בחודשים אוגוסט עד אוקטובר 2025בסכום ממוצע של 13,566 ש\"ח (שכר ממוצע לפי סעיף 1לחוק) .לממוצע זה נוסף מקדם פריסה עפ\"י החוק ",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -611,9 +611,9 @@
     {
       "claim_id": "pct-50",
       "claim": "seniority supplement max / sick pay day rate: 50%",
-      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "50",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת ותק תוספת בשיעור 2% עבור כל שנה מלאה שבה הייתם מבוטחים בביטוח הלאומי. תוספת הוותק המקסימלית שניתן לקבל היא בגובה 50% מהקצבה. שימו לב, שנת ביטוח ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -622,9 +622,9 @@
     {
       "claim_id": "pct-2",
       "claim": "seniority supplement per-year increment: 2%",
-      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "2",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת ותק תוספת בשיעור 2% עבור כל שנה מלאה שבה הייתם מבוטחים בביטוח הלאומי. תוספת הוותק המקסימלית שניתן לקבל היא בגובה 50% מהקצבה. שימו לב, שנת ביטוח ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -633,9 +633,9 @@
     {
       "claim_id": "pct-5",
       "claim": "deferral bonus per year: 5%",
-      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "5",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת דחיית קצבה תוספת בשיעור 5% מסך הקצבה המלאה (כולל תוספת הוותק) עבור כל שנה בין גיל הפרישה לבין גיל הזכאות שבה תשלום הקצבה נדחה בגלל הכנסות מעבודה. התוספת משולמת עבור השנים שלאחר גיל הפרישה שבהן ה",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -920,8 +920,8 @@
       "claim_id": "noise-comma-nis",
       "claim": "Prose artifact: amounts written as \"..., NIS ...\" and \"NIS, ...\" in lists; covered by the 2026 circular figures above",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "13,769",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "השכר הממוצע עפ\"י סעיף 2לחוק (נוסח משולב תשנ\"ה) יעמוד בחודש ינואר 2026על 13,769 ש\"ח לעומת 13,316ש\"ח עד כה ,גידול של .3.4%השכר הממוצע לפי סעיף 2מתבסס על נתוני השכר הממוצע למשרת שכיר בחודשים אוגוסט עד אוקטובר 2025בסכום ממוצע של 13,566 ש\"ח (שכר ממוצע לפי סעיף 1לחוק) .לממוצע זה נוסף מקדם פריסה עפ\"י החוק ",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1184,8 +1184,8 @@
       "claim_id": "oldage-inc-10113",
       "claim": "old-age income test, no spouse, full pension below 10,113 NIS/month (2026) / 10,113 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
-      "raw_snippet": "10,113",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שאין לו בן זוג או בת זוג העונים להגדרה לפי החוק אם הכנסתו החודשית מעבודה (ברוטו) נמוכה מ- 10,113 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק מלאה. אם הכנסתו החודשית מעבודה (ברוטו) גבוהה מ- 10,113 ש\"ח אבל נמוכה מ- 14,402 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק חלקית או לא להיות זכאי לקצבה. החישוב ייעשה לפי תקופות הביטוח שצבר. ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1195,8 +1195,8 @@
       "claim_id": "oldage-inc-14402",
       "claim": "old-age income test, no spouse, no pension above 14,402 NIS/month (2026) / 14,402 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
-      "raw_snippet": "14,402",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שאין לו בן זוג או בת זוג העונים להגדרה לפי החוק אם הכנסתו החודשית מעבודה (ברוטו) נמוכה מ- 10,113 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק מלאה. אם הכנסתו החודשית מעבודה (ברוטו) גבוהה מ- 10,113 ש\"ח אבל נמוכה מ- 14,402 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק חלקית או לא להיות זכאי לקצבה. החישוב ייעשה לפי תקופות הביטוח שצבר. ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1206,8 +1206,8 @@
       "claim_id": "oldage-inc-13484",
       "claim": "old-age income test, with spouse, full pension below 13,484 NIS/month (2026) / 13,484 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
-      "raw_snippet": "13,484",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שיש לו בן זוג או בת זוג העונים להגדרה לפי החוק אם הכנסתו החודשית מעבודה (ברוטו) נמוכה מ- 13,484 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק מלאה. אם הכנסתו החודשית מעבודה (ברוטו) גבוהה מ- 13,484 ש\"ח אבל נמוכה מ- 20,082 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק חלקית או לא להיות זכאי לקצבת אזרח ותיק. החישוב ייעשה לפי תקופות הביט",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1217,8 +1217,8 @@
       "claim_id": "oldage-inc-20082",
       "claim": "old-age income test, with spouse, no pension above 20,082 NIS/month (2026) / 20,082 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/Pages/hachnasotMewavoda.aspx",
-      "raw_snippet": "20,082",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שיש לו בן זוג או בת זוג העונים להגדרה לפי החוק אם הכנסתו החודשית מעבודה (ברוטו) נמוכה מ- 13,484 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק מלאה. אם הכנסתו החודשית מעבודה (ברוטו) גבוהה מ- 13,484 ש\"ח אבל נמוכה מ- 20,082 ש\"ח – הוא עשוי להיות זכאי לקצבת אזרח ותיק חלקית או לא להיות זכאי לקצבת אזרח ותיק. החישוב ייעשה לפי תקופות הביט",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1338,8 +1338,8 @@
       "claim_id": "ceiling-52570",
       "claim": "ceiling for wage-replacing benefits: 52,570 NIS/month (5 x basic amount 10,514) / 52,570 ש\"ח",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "52,570",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": ".4ההכנסה המרבית לגמלאות מחליפות שכר הסכום הבסיסי המשמש לחישוב ההכנסה המרבית לתשלום דמי לידה וגמלאות נפגעי עבודה יעלה ל 10,514-ש\"ח וההכנסה המרבית ל 52,570-ש\"ח לחודש ( 5פעמים הסכום הבסיסי). ההכנסה המרבית לעניין מילואים המחושבת לפי הסכום הבסיסי של 10,38",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1657,8 +1657,8 @@
       "claim_id": "avgwage-sec1",
       "claim": "average wage per section 1 of the law (סעיף 1): 13,566 NIS / 13,566 ש\"ח (January 2026)",
       "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
-      "raw_snippet": "13,566",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "השכר הממוצע עפ\"י סעיף 2לחוק (נוסח משולב תשנ\"ה) יעמוד בחודש ינואר 2026על 13,769 ש\"ח לעומת 13,316ש\"ח עד כה ,גידול של .3.4%השכר הממוצע לפי סעיף 2מתבסס על נתוני השכר הממוצע למשרת שכיר בחודשים אוגוסט עד אוקטובר 2025בסכום ממוצע של 13,566 ש\"ח (שכר ממוצע לפי סעיף 1לחוק) .לממוצע זה נוסף מקדם פריסה עפ\"י החוק ",
+      "fetched_at": "2026-08-09T15:42:27.572514+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2553,8 +2553,8 @@
       "claim_id": "defer-cap-15",
       "claim": "the old-age deferral bonus is +5% per deferred year and is payable only up to age 70, so a man claiming at 67 can defer at most 3 years, a maximum of +15%",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
-      "raw_snippet": "5%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "תוספת דחיית קצבה תוספת בשיעור 5% מסך הקצבה המלאה (כולל תוספת הוותק) עבור כל שנה בין גיל הפרישה לבין גיל הזכאות שבה תשלום הקצבה נדחה בגלל הכנסות מעבודה. התוספת משולמת עבור השנים שלאחר גיל הפרישה שבהן ה",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "scripts/calculate_benefits.py"
       ]
@@ -2667,8 +2667,8 @@
       "claim_id": "dc-five-levels",
       "claim": "the disabled-child allowance has five levels: 1,943 / 3,820 / 4,501 / 7,181 / 9,126 NIS at 50 / 100 / 112 / 188 / 235%",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
-      "raw_snippet": "חמש רמות זכאות",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הו",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2680,8 +2680,8 @@
       "claim_id": "dc-7182",
       "claim": "two-caregiver supplement for a disabled child: 7,182 NIS / 7,182 ש\"ח, not payable with the 235% rate",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
-      "raw_snippet": "7,182",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מקבל קצבת ילד נכה שרופא המוסד קבע כי מצבו הרפואי ותלותו מצריכים 2 מטפלים ויש לו היתר להעסקת 2 מטפלים והוא מעסיק 2 מטפלים בפועל - יקבל תוספת של 7,182 ש\"ח לקצבה. שימו לב , לא ניתן לקבל את התוס",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2706,8 +2706,8 @@
       "claim_id": "dc-institution",
       "claim": "disabled child in an institution: 673 NIS / 673 ש\"ח at the 50% level, 1,347 NIS / 1,347 ש\"ח at 100% and above",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
-      "raw_snippet": "673",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום הקצבה לילד השוהה במוסד ילד הזכאי לקצבה בשיעור 50% - יקבל קצבה חודשית - 673 ש\"ח . ילד הזכאי לקצבה בשיעור 100% ומעלה- יקבל קצבה חודשית - 1,347 ש\"ח ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2719,8 +2719,8 @@
       "claim_id": "dc-1347",
       "claim": "disabled child in an institution at 100%+: 1,347 NIS / 1,347 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
-      "raw_snippet": "1,347",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום הקצבה לילד השוהה במוסד ילד הזכאי לקצבה בשיעור 50% - יקבל קצבה חודשית - 673 ש\"ח . ילד הזכאי לקצבה בשיעור 100% ומעלה- יקבל קצבה חודשית - 1,347 ש\"ח ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2784,8 +2784,8 @@
       "claim_id": "oldage-child-581",
       "claim": "old-age child supplement: 581 NIS / 581 ש\"ח per child, for up to 2 children",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
-      "raw_snippet": "581",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "תוספת עבור ילדים – תוספת בסך 581 ש\"ח (החל ב- 01.01.2026) לילד, משולמת עבור שני ילדים לכל היותר. למידע נוסף על ",
+      "fetched_at": "2026-08-09T15:43:13.323694+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
