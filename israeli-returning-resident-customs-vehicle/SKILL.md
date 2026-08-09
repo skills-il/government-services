@@ -17,6 +17,13 @@ license: MIT
 
 # Israeli Returning Resident Customs and Vehicle Planner
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains customs and import rules and helps you organise your own figures. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by a customs agent or tax adviser. The output is not a filed customs declaration and not a professional opinion, but an explanation and a draft only. An AI model may err, omit data, or present a wrong conclusion.
+
+A declaration to the customs authority is a legal document, and a false declaration carries liability. Any text this tool produces is therefore an automatic draft for your personal preparation only, to be checked with a customs agent or with the Tax Authority before filing. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Returnees routinely lose money on the trip back. They miss the 9-month customs window, conflate their 2-shipment basket with the oleh 3-shipment basket, ship 4 TVs when only 3 are duty-free, sell a paid-off car abroad because they assume returnees pay full tax (they do, but with a wider age window so the car might still be worth shipping), or ship a car expecting a purchase-tax break that does not exist. AI agents make this worse: training data conflates olim and returnees because both flows live under "personal import" at Meches. This skill produces a per-shipment declaration draft, a ship-vs-sell vehicle worksheet, and a windows timeline so the user does not learn the rules by paying for a mistake.

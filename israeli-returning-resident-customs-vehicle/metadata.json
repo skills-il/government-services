@@ -4,8 +4,8 @@
     "en": "Israeli Returning Resident Customs & Vehicle Planner"
   },
   "display_description": {
-    "he": "תכננו את המכס והרכב לפני שתחזרו לארץ: כמה משלוחים מותר, כמה טלוויזיות, מה החלון של 9 החודשים, האם משתלם לייבא את הרכב שלכם, ולמה תושב חוזר זה לא עולה חדש. הכלי מפיק טיוטת הצהרה למשלוח, גיליון החלטה לרכב, וציר זמן של החלונות מהיום שאתם נוחתים.",
-    "en": "Plan customs and vehicle import before you return to Israel: how many shipments, how many TVs, the 9-month window, whether shipping your car pencils out, and why returnee customs are not olim customs. Produces a per-shipment declaration draft, a vehicle decision worksheet, and a timeline of windows from the day you land."
+    "he": "אינו הצהרת מכס שהוגשה. תכננו את המכס והרכב לפני שתחזרו לארץ: כמה משלוחים מותר, כמה טלוויזיות, מה החלון של 9 החודשים, האם משתלם לייבא את הרכב שלכם, ולמה תושב חוזר זה לא עולה חדש. הכלי מפיק טיוטת הצהרה למשלוח, גיליון החלטה לרכב, וציר זמן של החלונות מהיום שאתם נוחתים.",
+    "en": "Not a filed customs declaration. Plan customs and vehicle import before you return to Israel: how many shipments, how many TVs, the 9-month window, whether shipping your car pencils out, and why returnee customs are not olim customs. Produces a per-shipment declaration draft, a vehicle decision worksheet, and a timeline of windows from the day you land."
   },
   "tags": [
     "customs",
@@ -20,7 +20,7 @@
     "israel"
   ],
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

@@ -7,6 +7,13 @@ compatibility: "Works with Claude Code, Cursor, GitHub Copilot, Windsurf, OpenCo
 
 # Israeli Aliyah Customs Shipment Planner
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains customs and import rules and helps you organise your own figures. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by a customs agent or tax adviser. The output is not a filed customs declaration and not a professional opinion, but an explanation and a draft only. An AI model may err, omit data, or present a wrong conclusion.
+
+A declaration to the customs authority is a legal document, and a false declaration carries liability. Any text this tool produces is therefore an automatic draft for your personal preparation only, to be checked with a customs agent or with the Tax Authority before filing. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 New olim (immigrants) to Israel are entitled to three duty-free shipments of household goods within three years of aliyah, but the rules are riddled with per-family caps (TVs, computers, cell phones, appliances, carpeting) and a six-year retention rule that blocks resale. Most olim pack by emotion, then discover at the port that a third computer or a fourth appliance triggers full duty plus VAT plus purchase tax. This skill plans the split across three shipments, flags over-limit items before packing, and drafts a clean declaration per shipment.

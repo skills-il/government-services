@@ -4,8 +4,8 @@
     "en": "Israeli War Damage Claims"
   },
   "display_description": {
-    "he": "מדריך מלא להגשת תביעות פיצויים על נזקי רכוש מהתקפות טילים ופעולות איבה בישראל. מכסה את כל התהליך: תיעוד הנזק, הגשת תביעה לקרן הפיצויים ברשות המסים (מסלול מהיר עד 30,000 ש\"ח או מסלול רגיל), ביטוח תכולת דירה מרחיב, ותהליך הערר. השתמשו כשצריך להגיש תביעה על נזק ישיר לדירה, בית, או תכולה מטילים ורקטות. אל תשתמשו לנזק עקיף לעסקים, תביעות נזק גוף, או נזק לרכב.",
-    "en": "Complete guide to filing property damage compensation claims from rocket attacks and hostilities in Israel. Covers the full pipeline: documenting damage, filing with the Tax Authority Compensation Fund (fast track up to NIS 30,000 or regular track), optional extended contents insurance, and the appeals process. Use when filing claims for direct damage to apartments, houses, or home contents from missiles and rockets. Do NOT use for indirect business damage, personal injury claims, or vehicle damage."
+    "he": "אינו ייעוץ משפטי. מדריך מלא להגשת תביעות פיצויים על נזקי רכוש מהתקפות טילים ופעולות איבה בישראל. מכסה את כל התהליך: תיעוד הנזק, הגשת תביעה לקרן הפיצויים ברשות המסים (מסלול מהיר עד 30,000 ש\"ח או מסלול רגיל), ביטוח תכולת דירה מרחיב, ותהליך הערר. השתמשו כשצריך להגיש תביעה על נזק ישיר לדירה, בית, או תכולה מטילים ורקטות. אל תשתמשו לנזק עקיף לעסקים, תביעות נזק גוף, או נזק לרכב.",
+    "en": "Not legal advice. Complete guide to filing property damage compensation claims from rocket attacks and hostilities in Israel. Covers the full pipeline: documenting damage, filing with the Tax Authority Compensation Fund (fast track up to NIS 30,000 or regular track), optional extended contents insurance, and the appeals process. Use when filing claims for direct damage to apartments, houses, or home contents from missiles and rockets. Do NOT use for indirect business damage, personal injury claims, or vehicle damage."
   },
   "tags": {
     "he": [
@@ -32,7 +32,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",
