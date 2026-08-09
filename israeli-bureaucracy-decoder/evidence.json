@@ -5,8 +5,10 @@
   "claims": [
     {
       "claim": "An objection (השגה) to an income tax assessment must be filed in writing within 30 days under Section 150 of the Income Tax Ordinance (סעיף 150 לפקודת מס הכנסה).",
-      "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "סעיף 150 / Section 150 of the Income Tax Ordinance: the taxpayer's right to object (השגה) to an assessment, in writing with reasons, within 30 days of delivery. Filed as a free-form written notice (הודעת השגה). gov.il/btl WebFetch 403/404 on 2026-06-16, fact restated from gov.il ITO Part 9 / kolzchut השגה page."
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "150. זכות השגה לפני פקיד השומה [תיקון: תשל״ה־2, תשנ״ז־3, תשס״ג־4] (א) היה אדם חולק על השומה, רשאי הוא לבקש מאת פקיד השומה, בהודעת השגה, בכתב, לחזור ולעיין ולשנות את השומה; בקשה כאמור תפרש בדיוק את הנימוקים להשגה על השומה ותוגש תוך שלושים יום מיום המצאת הודעת השומה",
+      "fetched_at": "2026-08-10",
+      "source_note": "Statute text of the Income Tax Ordinance on he.wikisource; gov.il and nevo returned 403/404 to non-browser fetchers."
     },
     {
       "claim": "Reopening a past-year tax assessment is a separate provision, Section 147 (סעיף 147) of the Income Tax Ordinance.",
@@ -19,9 +21,10 @@
       "raw_snippet": "Form 150 / טופס 150: Declaration of holdings in a foreign corporation (הצהרה על החזקה בחבר בני אדם תושב חוץ). Filed with the annual return by Israeli residents holding interests in foreign entities. UNRELATED to tax objections."
     },
     {
-      "claim": "Reserve duty (מילואים) minimum daily tagmul is 328.76 NIS effective 01.01.2026, legal basis Section 272 (סעיף 272) of the National Insurance Law; example 328.76 times 15 days equals 4,931.40 NIS.",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "Minimum daily reserve-duty rate of 328.76 NIS / 328.76 שקל (the floor effective 01.01.2026). 15 days totals 4,931.40 NIS / 4,931.40 שקל before tax. Legal basis Section 272 / סעיף 272 of the National Insurance Law, within Chapter XII. btl.gov.il WebFetch returned only the calculation-method overview on 2026-06-16; rate restated per btl reserve-duty rates page."
+      "claim": "Reserve duty (מילואים) minimum daily tagmul is 328.76 ש\"ח / 328.76 NIS effective 01.01.2026, legal basis Section 272 (סעיף 272) of the National Insurance Law; worked example in the skill body: 328.76 times 15 days equals 4,931.40 NIS / 4,931.40 ש\"ח. Hebrew rendering used in SKILL_HE.md: 328.76 שקל, 4,931.40 שקל.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "תלמיד במוסד להשכלה גבוהה, מי שאינו עובד ומי שעובד ושכרו החודשי מתחת למינימום – השכר היומי מחושב לפי 328.76 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-08-10"
     },
     {
       "claim": "Freedom of Information request fee is 24 NIS (late 2025, covering the first 3 processing hours), with an about 36 NIS per-hour handling charge from the 4th hour; statutory response window 30 days extendable by 30.",
@@ -34,14 +37,16 @@
       "raw_snippet": "Value Added Tax (VAT): 18% tax on goods and services (raised from 17% on January 1, 2025) / מס של 18% על מוצרים ושירותים (עלה מ-17% ב-1 בינואר 2025)."
     },
     {
-      "claim": "Worked example: a municipality approved a 25% arnona discount; the remaining balance is 8,400 NIS payable in 6 installments.",
-      "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "The user's municipality approved a 25% arnona discount (הנחה לפי מבחן הכנסות). The remaining balance is 8,400 NIS / 8,400 שקל, payable in 6 bi-monthly installments. Illustrative worked example in the skill body."
+      "claim": "Municipalities may grant arnona discounts under law and offer bi-monthly payment arrangements. Illustrative worked example used in the skill body (not a published rate): a 25% arnona discount leaving a balance of 8,400 NIS / 8,400 ש\"ח payable in 6 installments. Hebrew rendering used in SKILL_HE.md: 8,400 שקל.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94",
+      "raw_snippet": "הרשויות המקומיות רשאיות לאפשר לתושביהן הסדרי תשלום שונים (כגון תשלום בהוראת קבע או תשלום דו-חודשי), לתת הנחות בהתאם להוראות הדין, וכן למחוק חובות ארנונה.",
+      "fetched_at": "2026-08-10"
     },
     {
-      "claim": "Worked example: a Small Claims Court claim for 12,000 NIS, written defense (כתב הגנה) due within 30 days. Small claims ceiling is 39,900 NIS as of January 2026.",
-      "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "Someone filed a claim for 12,000 NIS / 12,000 שקל regarding a service dispute. File a written defense (כתב הגנה) within 30 days. Small claims form (טופס תביעה קטנה): file up to 39,900 NIS as of January 2026 per kolzchut הגשת תביעה קטנה; the ceiling is updated periodically by regulation."
+      "claim": "Small claims ceiling is 39,900 ₪ / 39,900 NIS as of January 2026. Illustrative worked example in the skill body: a claim for 12,000 NIS / 12,000 ש\"ח. Hebrew rendering used in SKILL_HE.md: 12,000 שקל.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "דף זה עוסק באפשרות הקיימת לכל אדם להגיש לבית משפט לתביעות קטנות תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
+      "fetched_at": "2026-08-10"
     },
     {
       "claim": "Common tax forms referenced: Form 101, 106, 119, 134, 135, 1214, 1227, 1301, 1325 (טופס 101 / 106 / 119 / 134 / 135 / 1214 / 1227 / 1301 / 1325).",
@@ -54,14 +59,22 @@
       "raw_snippet": "טופס 874 VAT registration as a licensed dealer (osek murshe); טופס 821 periodic VAT return, monthly or bi-monthly by the 15th; טופס 852 annual VAT summary by March 31."
     },
     {
-      "claim": "Ministry of Finance contact star-line is *4954; Bituach Leumi contact star-line is *6050.",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "Ministry of Finance Contact: *4954 or 02-6559000, Sunday-Thursday 8:15-15:30. Bituach Leumi Contact: *6050 or 02-6709090, Sunday-Thursday 8:00-17:00. Online at btl.gov.il."
+      "claim": "Bituach Leumi national call centre is *6050 or 04-8812345.",
+      "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-10"
     },
     {
       "claim": "Reference government-body and law portals used by the skill: gov.il Israel Tax Authority, Judicial Authority, Enforcement and Collection Authority (Hebrew and English), Bituach Leumi (btl.gov.il), Kol Zchut, and Knesset legislation.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "Reference links used in the skill body and government-bodies guide: https://www.gov.il/en/departments/israel_tax_authority https://www.gov.il/he/departments/israel_tax_authority https://www.gov.il/en/departments/the_judicial_authority https://www.gov.il/he/departments/the_judicial_authority https://www.gov.il/en/departments/enforcement_and_collection_authority https://www.gov.il/he/departments/enforcement_and_collection_authority https://www.btl.gov.il https://www.kolzchut.org.il https://main.knesset.gov.il/Activity/Legislation"
+    },
+    {
+      "claim_id": "small-claims-defence-30-days",
+      "claim": "The defendant must file a written defence (כתב הגנה) within 30 days of receiving the statement of claim.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "על הנתבע להגיש כתב הגנה תוך 30 יום מקבלת כתב התביעה.",
+      "fetched_at": "2026-08-10"
     }
   ]
 }

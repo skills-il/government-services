@@ -7,7 +7,7 @@
 - Data portal: data.gov.il (organization: lamas)
 
 ## Where the data lives
-- **Price and economic time series** (CPI, housing prices, producer prices, building input costs) come from the **CBS Price Indices API** at `api.cbs.gov.il/index`. List all indices: `api.cbs.gov.il/index/catalog/catalog?format=json`. Fetch one series: `api.cbs.gov.il/index/data/price?id=<mainCode>&format=json` (CPI is code `120010`, apartment prices `40010`, producer prices `170030`).
+- **Price and economic time series** (CPI, housing prices, producer prices, building input costs) come from the **CBS Price Indices API** at `api.cbs.gov.il/index`. List all indices: `api.cbs.gov.il/index/catalog/catalog?format=json`. Fetch one series: `api.cbs.gov.il/index/data/price?id={mainCode}&format=json` (CPI is code `120010`, apartment prices `40010`, producer prices `170030`).
 - **data.gov.il organization `lamas`** hosts a small set of CBS datasets (census tabulations, localities, traffic accidents). It does **NOT** host the CPI / GDP / unemployment time series. Use the `lamas` slug (not `cbs`) when searching data.gov.il.
 - GDP, unemployment, population, and foreign-trade series are published as CBS tables at `cbs.gov.il` and are not all exposed via a public API.
 
@@ -23,16 +23,7 @@
 | Foreign trade | Monthly | ~4 weeks after month |
 
 ## CPI Components
-| Component | Weight (~%) |
-|-----------|-------------|
-| Housing (rents) | 25% |
-| Transportation | 17% |
-| Food | 16% |
-| Education and culture | 8% |
-| Health | 6% |
-| Furniture and household | 5% |
-| Clothing and footwear | 3% |
-| Other | 20% |
+The CPI basket is split into consumption groups: housing (rents), transportation, food, education and culture, health, furniture and household, clothing and footwear, and miscellaneous. CBS re-sets and republishes the weight of each group with the index, so never quote a weight from memory. Fetch the current breakdown from the Price Indices API catalog before answering.
 
 ## Rent Adjustment Formula
 ```

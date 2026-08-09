@@ -25,10 +25,10 @@ before computing.
 |-----------|-------|------------------|--------|
 | CPI annual inflation | 1.9% | April 2026 | CBS, released 2026-05-15 |
 | CPI monthly change | +1.2% | April 2026 vs March 2026 | CBS |
-| Bank of Israel policy rate | 4.00% | Set 2026-03-30, unchanged from January | bankisrael.gov.il |
+| Bank of Israel policy rate | 3.5% | Set 2026-07-06 (cut from 4%) | bankisrael.gov.il |
 | Unemployment rate (15+, SA) | 2.7% | February 2026 | CBS Labour Force Survey |
 | Labor force participation | 62.5% | February 2026 | CBS Labour Force Survey |
-| Average gross monthly wage | ~NIS 13,623 | October 2025 (latest published) | CBS |
+| Average gross monthly wage | fetch from CBS before quoting | latest CBS wage release | CBS |
 | Minimum wage | NIS 6,443.85/month | From 2026-04-01 | Israeli labor law |
 | GDP growth (annual) | 3.0% | Full year 2025 | CBS National Accounts |
 | Population | 10.178 million | 2026-01-01 estimate | CBS |
@@ -63,17 +63,7 @@ The CPI (madad hamchirim latarchan) is Israel's most widely referenced index.
 2. **Annual change:** Year-over-year percentage change (inflation rate)
 3. **Component breakdown:** Which sectors are driving price changes
 
-**CPI Components (approximate weights):**
-| Component | Hebrew | Weight (~%) |
-|-----------|--------|-------------|
-| Housing (rents) | diyur | ~25% |
-| Transportation | tachburah | ~17% |
-| Food | mazon | ~16% |
-| Health | briut | ~6% |
-| Education and culture | chinuch vetarbut | ~8% |
-| Clothing and footwear | halbasha vehanala | ~3% |
-| Furniture and household | rihut umeshek bayit | ~5% |
-| Other | acher | ~20% |
+**CPI Components:** the CPI basket is divided into consumption groups (housing, transportation, food, health, education and culture, clothing and footwear, furniture and household, miscellaneous). The weight of each group is re-set by CBS and published with the index; do not quote a weight from memory. Fetch the current component breakdown from the CBS Price Indices API catalog (`api.cbs.gov.il/index/catalog/catalog?format=json`) before answering.
 
 **Rent adjustment formula (for madad-linked contracts):**
 ```
@@ -144,7 +134,7 @@ CBS is the authoritative source for Israeli demographics:
 Using the israel-statistics MCP server or direct CBS access.
 
 **Two distinct data sources:**
-- **CBS Price Indices API** (`api.cbs.gov.il/index`): the canonical source for CPI, housing prices, producer prices, and building input costs. List indices at `api.cbs.gov.il/index/catalog/catalog?format=json`, fetch a series at `api.cbs.gov.il/index/data/price?id=<code>&format=json` (CPI is `120010`, apartment prices `40010`).
+- **CBS Price Indices API** (`api.cbs.gov.il/index`): the canonical source for CPI, housing prices, producer prices, and building input costs. List indices at `api.cbs.gov.il/index/catalog/catalog?format=json`, fetch a series at `api.cbs.gov.il/index/data/price?id={code}&format=json` (CPI is `120010`, apartment prices `40010`).
 - **data.gov.il** under organization `lamas` (not `cbs`): hosts a small set of CBS datasets such as census tabulations, localities, and traffic accidents. It does NOT host the CPI/GDP/unemployment time series.
 - GDP, unemployment, population, and foreign-trade series are published as numbered CBS tables at `cbs.gov.il` and are not all exposed via a public API.
 
@@ -183,7 +173,7 @@ Result: Query the Housing Price Index for Tel Aviv district. Present quarterly a
 
 ### Example 3: Economic Overview
 User says: "How is the Israeli economy doing?"
-Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. As of May 2026 the reference baseline is: GDP +3.0% for 2025, CPI annual inflation 1.9% in April 2026, unemployment 2.7% in February 2026, Bank of Israel rate 4.00% set 2026-03-30. Always re-fetch before answering for a fresh date.
+Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. As of May 2026 the reference baseline is: GDP +3.0% for 2025, CPI annual inflation 1.9% in April 2026, unemployment 2.7% in February 2026, Bank of Israel rate 3.5% set 2026-07-06. Always re-fetch before answering for a fresh date.
 
 ## Bundled Resources
 
@@ -211,8 +201,7 @@ Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CP
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | Central Bureau of Statistics | https://www.cbs.gov.il | CPI, housing prices, employment, population tables |
-| CBS Price Indices API | https://api.cbs.gov.il/index/catalog/catalog?format=json | Canonical API for CPI, housing, producer-price, and building-cost series (use `data/price?id=<code>` to fetch a series) |
-| CBS publication schedule | https://www.cbs.gov.il/he/pages/calendar.aspx | Release calendar for CPI, GDP, housing, demographics |
+| CBS Price Indices API | https://api.cbs.gov.il/index/catalog/catalog?format=json | Canonical API for CPI, housing, producer-price, and building-cost series (use `data/price?id={code}` to fetch a series) |
 | data.gov.il - CBS datasets | https://data.gov.il/organization/lamas | Census tabulations, localities, and traffic-accident datasets (organization `lamas`, NOT `cbs`); does not host CPI/GDP time series |
 | Bank of Israel data | https://www.boi.org.il | Monetary, financial, and exchange-rate data |
 | CBS English portal | https://www.cbs.gov.il/en/Pages/default.aspx | English-language statistical tables and publications |

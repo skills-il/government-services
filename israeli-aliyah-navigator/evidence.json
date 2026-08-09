@@ -217,22 +217,26 @@
       "claim_id": "ref-link-rashut-hamisim",
       "claim": "Israel Tax Authority (Rashut HaMisim) handles Section 14 exemptions",
       "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
-      "raw_snippet": "Israel Tax Authority",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Israel Tax Authority My taxes Reception units Scheduling an appointment Contact Us The Justice Line Additional links",
+      "fetched_at": "2026-08-10",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
     },
     {
       "claim_id": "ref-link-rashut-hamisim-he",
       "claim": "רשות המסים אחראית על סעיף 14",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "רשות המסים",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "רשות המסים בישראל אזור אישי רשות המסים יחידות קבלת קהל זימון תור פנו אלינו קו הצדק פרסומים",
+      "fetched_at": "2026-08-10",
       "appears_in": [
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
     },
     {
       "claim_id": "ref-link-jewish-agency-en",
@@ -359,8 +363,8 @@
       "claim_id": "bituach-leumi-phone-6050",
       "claim": "Bituach Leumi service phone is *6050",
       "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
-      "raw_snippet": "*6050",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-10",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

@@ -32,7 +32,7 @@ A comprehensive reference for identifying government bodies by their letterhead,
 
 **What they usually want:** Money, documents proving your income/expenses, or for you to file returns you have not filed yet. The Tax Authority is the most deadline-sensitive body. Missing a 30-day window often means losing the right to object.
 
-**Contact:** *4954 or 02-6559000, Sunday-Thursday 8:15-15:30. Online services at misim.gov.il.
+**Contact:** see the Contact Us page on the Israel Tax Authority gov.il department page. Online services at misim.gov.il.
 
 ---
 
@@ -66,7 +66,7 @@ A comprehensive reference for identifying government bodies by their letterhead,
 
 **What they usually want:** To inform you of a decision, request additional medical documents, or notify you of a debt. Bituach Leumi letters are often dense with legal references but many are informational. The key question is always: "approved" or "denied."
 
-**Contact:** *6050 or 02-6709090, Sunday-Thursday 8:00-17:00. Online at btl.gov.il.
+**Contact:** national call centre *6050 or 04-8812345. Online at btl.gov.il.
 
 ---
 

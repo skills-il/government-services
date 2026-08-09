@@ -8,7 +8,7 @@ Economic / price time series (CPI, housing prices, producer prices, building
 input costs) come from the CBS Price Indices API at api.cbs.gov.il. That API
 is the canonical source for "hamadad" data:
   - https://api.cbs.gov.il/index/catalog/catalog?format=json  (list of indices)
-  - https://api.cbs.gov.il/index/data/price?id=<code>&format=json  (a series)
+  - https://api.cbs.gov.il/index/data/price?id={code}&format=json  (a series)
 
 NOTE: data.gov.il (organization "lamas") hosts a small set of CBS datasets
 (census tabulations, localities, traffic accidents) but does NOT host the
@@ -118,21 +118,11 @@ def fetch_cpi_info() -> None:
     else:
         print("No CPI data returned. Check api.cbs.gov.il.\n")
 
-    print("CPI Component Weights (approximate):")
-    print(f"  {'Component':<30} {'Weight'}")
-    print("  " + "-" * 40)
-    components = [
-        ("Housing (diyur)", "~25%"),
-        ("Transportation (tachburah)", "~17%"),
-        ("Food (mazon)", "~16%"),
-        ("Education & culture", "~8%"),
-        ("Health (briut)", "~6%"),
-        ("Furniture & household", "~5%"),
-        ("Clothing & footwear", "~3%"),
-        ("Other", "~20%"),
-    ]
-    for name, weight in components:
-        print(f"  {name:<30} {weight}")
+    print("CPI Component groups (weights are re-set and republished by CBS):")
+    print("  housing (diyur), transportation (tachburah), food (mazon),")
+    print("  education & culture, health (briut), furniture & household,")
+    print("  clothing & footwear, miscellaneous")
+    print("  Fetch current weights from the catalog endpoint; do not quote from memory.")
 
     print()
     print("Publication: Monthly, ~15th of following month")
