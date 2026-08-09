@@ -743,9 +743,9 @@
     {
       "claim_id": "form-100",
       "claim": "Bituach Leumi claim/notice form: טופס 100 / Form 100",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "100",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T100.pdf",
+      "raw_snippet": "ב לפניה למעסיקים ומשלמי פנסיה מוקדמת (טופס ) 100 פרטי המצהיר 1 שם פרטי שם משפחה תאריך לידה מס' זהות /מס' מזהה זמני ביטוח לאומי יום חודש שנה הצהרה על סירוב 2 אני מסרב שהביטוח הלאומי יפנה למעסיקים ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -754,9 +754,9 @@
     {
       "claim_id": "form-1514",
       "claim": "Bituach Leumi claim/notice form: טופס 1514 / Form 1514",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "1514",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T1514.pdf",
+      "raw_snippet": "בל1514 / המוסד לביטוח לאומי מינהל הגמלאות סניף________ תאריך _____________ לכבוד _____________________ _____________________ _____________________ הנדון :אישור מעסיק על תקופת העסקה ושכר רצ\"ב טופס",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -765,9 +765,9 @@
     {
       "claim_id": "form-211",
       "claim": "Bituach Leumi claim/notice form: טופס 211 / Form 211",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "211",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T211.pdf",
+      "raw_snippet": "לצפייה בסרטון הסבר על בל211 / מילוי הטופס ולמיצוי זכויות, יש לסרוק את הברקוד המוסד לביטוח לאומי מינהל הגמלאות פגיעה בעבודה תביעה לתשלום דמי פגיעה והודעה על פגיעה בעבודה חובה לצרף לטופס זה תעודה ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -776,9 +776,9 @@
     {
       "claim_id": "form-330",
       "claim": "Bituach Leumi claim/notice form: טופס 330 / Form 330",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "330",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T330.pdf",
+      "raw_snippet": "בל330 / המוסד לביטוח לאומי מינהל הגמלאות גמלאות אימהות תביעה לתשלום גמלה לשמירת היריון (יציאה ושהייה בחו\"ל בזמן שמירת היריון שוללת את הזכאות לגמלה) חובה לצרף לטופס זה אישור רפואי ,שימולא ע\"י רופא",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -787,9 +787,9 @@
     {
       "claim_id": "form-355",
       "claim": "Bituach Leumi claim/notice form: טופס 355 / Form 355",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "355",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T355.pdf",
+      "raw_snippet": "בל355 / המוסד לביטוח לאומי מינהל הגמלאות תביעה לתשלום דמי לידה ליולדת חובה לצרף לטופס זה אם מוגשת תביעה לפני הלידה – על רופא נשים למלא ולאשר את סעיף -.4אין להגיש תביעה לפני  שמלאו 31שבועות של הר",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -798,9 +798,9 @@
     {
       "claim_id": "form-480",
       "claim": "Bituach Leumi claim/notice form: טופס 480 / Form 480",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "480",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T480.pdf",
+      "raw_snippet": "לצפייה בסרטון הסבר על המוסד לביטוח לאומי בל480 / מילוי הטופס ולמיצוי זכויות, מנהל הגמלאות יש לסרוק את הברקוד אגף קצבאות אזרחים ותיקים ושאירים תביעה לקצבת אזרח ותיק כולל תביעה להשלמת הכנסה על מנת ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -809,9 +809,9 @@
     {
       "claim_id": "form-501",
       "claim": "Bituach Leumi claim/notice form: טופס 501 / Form 501",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "501",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T501.pdf",
+      "raw_snippet": "ן זכר אך פונה לנשים ולגברים כאחד בל)04.2023.(501/ שם העובד ____________________________ מס' ת\"ז _______________________________ פרטים על עבודה ושכר 6 סוג תביעה מעמד עובד תאריך תחילת העבודה רגילה",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -820,9 +820,9 @@
     {
       "claim_id": "form-502",
       "claim": "Bituach Leumi claim/notice form: טופס 502 / Form 502",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "502",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T502.pdf",
+      "raw_snippet": "בל502 / המוסד לביטוח לאומי מינהל הגמלאות מילואים תביעה אישית לתגמולי מילואים מיועד גם למי ששכרו עלה – לפי תקנה 6א' חובה לצרף לטופס זה טופס ( 3010אישור על תקופת השירות בצה\"ל) מקור או צילום או לחי",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -831,9 +831,9 @@
     {
       "claim_id": "form-509",
       "claim": "Bituach Leumi claim/notice form: טופס 509 / Form 509",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "509",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T509.pdf",
+      "raw_snippet": "ם לחשבון חתימת מקבל הגמלה תאריך בל( 05.2018) 509/ טופס זה מנוסח בלשון זכר ,אך פונה לנשים ולגברים כאחד. עמוד 2מתוך 2 דרכי שליחת הטופס ניתן לשלוח את הבקשה באתר המוסד לביטוח לאומי בלשונית שליחת מסמכ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -842,9 +842,9 @@
     {
       "claim_id": "form-900",
       "claim": "Bituach Leumi claim/notice form: טופס 900 / Form 900",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "900",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T900.pdf",
+      "raw_snippet": "ן זכר אך פונה לנשים ולגברים כאחד בל)07.2025( 900 / עמוד 2מתוך 2 שינוי בכתובת למשלוח דואר בארץ או בחו\"ל של ❑ :הזכאי ❑ ממונה מקבל (סמן ✓ במקום המתאים) 5ה מיקוד יישוב ()City דירה כניסה מספר בית רחוב",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -853,9 +853,9 @@
     {
       "claim_id": "form-7801",
       "claim": "Bituach Leumi claim/notice form: טופס 7801 / Form 7801",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7801",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7801.pdf",
+      "raw_snippet": "בל7801 / המוסד לביטוח לאומי מינהל הגמלאות נכות כללית תביעה לקצבת נכות כללית, ובקשה להענקה מטעמי צדק על מנת לייעל את הטיפול בתביעתך ,אנא תצרף לבקשה זו: סיכומי מחלה או כל מסמך רפואי אחר המצוי ברשות",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -864,9 +864,9 @@
     {
       "claim_id": "form-7810",
       "claim": "Bituach Leumi claim/notice form: טופס 7810 / Form 7810",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7810",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7810.pdf",
+      "raw_snippet": "______ חתימה שם מגיש הערר תאריך בל)11.2024 ( 7810/",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -875,9 +875,9 @@
     {
       "claim_id": "form-7849",
       "claim": "Bituach Leumi claim/notice form: טופס 7849 / Form 7849",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7849",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7849.pdf",
+      "raw_snippet": "עמוד 1מתוך 5 המוסד לביטוח לאומי בל7849 / מינהל הגמלאות שירותים מיוחדים תביעה לקצבת שירותים מיוחדים הגשת תביעה לשירותים מיוחדים קצבת שירותים מיוחדים משולמת למי שזקוק לעזרה רבה בביצוע פעולות היום ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -886,9 +886,9 @@
     {
       "claim_id": "form-8200",
       "claim": "Bituach Leumi claim/notice form: טופס 8200 / Form 8200",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "8200",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T8200.pdf",
+      "raw_snippet": "בל8200 / המוסד לביטוח לאומי מינהל הגמלאות ניידות תביעה להטבות על פי הסכם הניידות חובה לצרף לטופס זה מסמכים רפואיים שהמצאת לוועדה הרפואית בלשכת הבריאות או לוועדה הרפואית לעררים.  סיכומי מחלה -אם ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -897,9 +897,9 @@
     {
       "claim_id": "form-8220",
       "claim": "Bituach Leumi claim/notice form: טופס 8220 / Form 8220",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "8220",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T8220.pdf",
+      "raw_snippet": "ני קבלת האישור ב__________________________ - בל8220 / להלוואה עומדת – לא תשולם לך הלוואה עומדת בעבורו. בקשה לבדיקה רפואית לקביעת מוגבלות בניידות לידיעתך: בבקשה לבדיקה חוזרת ,הוועדה רשאית לקבוע א",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -963,9 +963,9 @@
     {
       "claim_id": "form-673",
       "claim": "Non-working spouse exemption declaration: Form 673 / טופס 673 (הצהרת בני/בנות זוג)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "673",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T673.pdf",
+      "raw_snippet": " התצהיר ______________________  בל)10.2025( 673/",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -974,9 +974,9 @@
     {
       "claim_id": "form-6101",
       "claim": "Multi-year declaration opening the non-working/self-employed collection file: Form 6101 / טופס 6101 (דין וחשבון רב שנתי)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "6101",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T6101.pdf",
+      "raw_snippet": " זכר אך פונה לנשים ולגברים כאחד בל)06.2026 ( 6101 / מס' ת.ז _______________________עמוד 2מתוך 3 עיסוק והכנסות – נא פרט את עיסוקיך בשנתיים האחרונות וצרף אישורים 3 ◊לא עובד ◊ שכיר (נא לצרף תלוש שכר",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1612,9 +1612,9 @@
     {
       "claim_id": "form-2201",
       "claim": "personal-accident benefit claim form is 2201 (non-work accident)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Accident_Contributions_forms/Pages/default.aspx",
-      "raw_snippet": "2201",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T2201.pdf",
+      "raw_snippet": "בל2201 / המוסד לביטוח לאומי מינהל הגמלאות דמי תאונה תביעה לתשלום דמי תאונה (טופס זה אינו משמש למקרה של תביעה בגין פגיעה בעבודה) הטופס מיועד למילוי ע\"י תושב ישראל בן 18ומעלה ועד גיל הפרישה ,אשר נפ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1741,9 +1741,9 @@
     {
       "claim_id": "form-460",
       "claim": "burial grant personal claim form is 460 (Form 460), used only when there is no authorized burial body locally or the burial was abroad",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "460",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T460.pdf",
+      "raw_snippet": "ן זכר אך פונה לנשים ולגברים כאחד בל)04.2026( 460 / עמוד 2מתוך 2 פרטי חשבון הבנק של התובע 5 כל תשלום שיגיע לי מהמוסד לביטוח לאומי בגין תביעה זו ,אבקש להעבירו לחשבוני שפרטיו רשומים מטה: שמות בעלי ה",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2018,9 +2018,9 @@
     {
       "claim_id": "noise-bold-1500",
       "claim": "Extraction artifact, NOT a phone line: \"*1500\" is the markdown-bold FORM number **1500** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "1500",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T1500.pdf",
+      "raw_snippet": "בל1500 / המוסד לביטוח לאומי מינהל הגמלאות אבטלה תביעה לדמי אבטלה מסמכים שיש לצרף לתביעה טופס - 100המעסיק שלך צריך לשדר עבורך טופס ( 100קובץ של ריכוז נתוני שכר) ,עבור תקופת העבודה שלך ב 12-החודשי",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2029,9 +2029,9 @@
     {
       "claim_id": "noise-bold-1514",
       "claim": "Extraction artifact, NOT a phone line: \"*1514\" is the markdown-bold FORM number **1514** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "1514",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T1514.pdf",
+      "raw_snippet": "בל1514 / המוסד לביטוח לאומי מינהל הגמלאות סניף________ תאריך _____________ לכבוד _____________________ _____________________ _____________________ הנדון :אישור מעסיק על תקופת העסקה ושכר רצ\"ב טופס",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2040,9 +2040,9 @@
     {
       "claim_id": "noise-bold-2026",
       "claim": "Extraction artifact, NOT a phone line: \"*2026\" is the markdown-bold year **2026** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "2026",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "הנדון :עדכון קצבאות ינואר 2026 השכר הממוצע לפי סעיף 1וכן השכר הממוצע לפי סעיף 2בחוק הביטוח הלאומי יתעדכנו בחודש ינואר ,2",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2051,9 +2051,9 @@
     {
       "claim_id": "noise-bold-2600",
       "claim": "Extraction artifact, NOT a phone line: \"*2600\" is the markdown-bold FORM number **2600** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "2600",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T2600.pdf",
+      "raw_snippet": "עמוד 1מתוך 8 המוסד לביטוח לאומי בל2600 / תביעה לגמלת סיעוד מנהל הגמלאות סיעוד הגשת תביעה לגמלת סיעוד הטופס מיועד למילוי על ידי התובע ,בן משפחה או מכר ולא על ידי חברה נותנת שירותי סיעוד. גמלת סיע",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2062,9 +2062,9 @@
     {
       "claim_id": "noise-bold-2655",
       "claim": "Extraction artifact, NOT a phone line: \"*2655\" is the markdown-bold FORM number **2655** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "2655",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T2655.pdf",
+      "raw_snippet": "בל2655 / המוסד לביטוח לאומי מינהל הגמלאות אגף סיעוד בקשה לקבלת גמלה בכסף לזכאי לגמלת סיעוד המעסיק מטפל צמוד לידיעתך רמת זכאות מספר יחידות שירות למעסיק מספר יחידות נקודות שנצבר בהערכת התלות רמת זכ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2073,9 +2073,9 @@
     {
       "claim_id": "noise-bold-2910",
       "claim": "Extraction artifact, NOT a phone line: \"*2910\" is the markdown-bold FORM number **2910** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "2910",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T2910.pdf",
+      "raw_snippet": "המוסד לביטוח לאומי בל2910 / מינהל הגמלאות אגף קצבאות אזרחים ותיקים ושאירים תביעה לדמי מחיה בעד יתום הזכאי לקצבת שאירים חובה לצרף לטופס זה אישור מבית הספר התיכון או הכשרה מקצועית בהם לומד הילד .ב",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2084,9 +2084,9 @@
     {
       "claim_id": "noise-bold-5025",
       "claim": "Extraction artifact, NOT a phone line: \"*5025\" is the markdown-bold FORM number **5025** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "5025",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T5025.pdf",
+      "raw_snippet": "ן זכר אך פונה לנשים ולגברים כאחד בל(09.2019) 5025 / עמוד 2מתוך 3 פרטי מקבל הקצבה 3 האם מקבלת הקצבה הינה : אפוטרופוס/ממונה -יש לצרף אישור מתאים ) -מינוי מקבל הקצבה מותנה באישור פקיד השיקום של המוס",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2095,9 +2095,9 @@
     {
       "claim_id": "noise-bold-5521",
       "claim": "Extraction artifact, NOT a phone line: \"*5521\" is the markdown-bold FORM number **5521** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "5521",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T5521.pdf",
+      "raw_snippet": "ותמת המעביד ____________________ בל)10.2021( 5521 / טופס זה מנוסח בלשון זכר ,אך פונה לנשים ולגברים כאחד",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2106,9 +2106,9 @@
     {
       "claim_id": "noise-bold-5619",
       "claim": "Extraction artifact, NOT a phone line: \"*5619\" is the markdown-bold FORM number **5619** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "5619",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T5619.pdf",
+      "raw_snippet": "בל5619 / המוסד לביטוח לאומי מינהל הגמלאות הבטחת הכנסה תביעה להבטחת הכנסה גמלת הבטחת הכנסה אתה יכול להיות זכאי לקצבה להבטחת הכנסה אם אין לך הכנסה או שהכנסתך נמוכה.  הזכאות לגמלה מותנית בכך ששני ב",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2117,9 +2117,9 @@
     {
       "claim_id": "noise-bold-7801",
       "claim": "Extraction artifact, NOT a phone line: \"*7801\" is the markdown-bold FORM number **7801** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7801",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7801.pdf",
+      "raw_snippet": "בל7801 / המוסד לביטוח לאומי מינהל הגמלאות נכות כללית תביעה לקצבת נכות כללית, ובקשה להענקה מטעמי צדק על מנת לייעל את הטיפול בתביעתך ,אנא תצרף לבקשה זו: סיכומי מחלה או כל מסמך רפואי אחר המצוי ברשות",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2128,9 +2128,9 @@
     {
       "claim_id": "noise-bold-7821",
       "claim": "Extraction artifact, NOT a phone line: \"*7821\" is the markdown-bold FORM number **7821** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7821",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7821.pdf",
+      "raw_snippet": "בל7821 / המוסד לביטוח לאומי מינהל הגמלאות תביעה לגמלה לילד/ה נכה הגשת תביעה לילד נכה כדי לייעל את הטיפול בתביעתך ,יש למלא את התביעה על פי ההנחיות הרשומות בה ,ולצרף את המסמכים הבאים: מסמכים רפואי",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2139,9 +2139,9 @@
     {
       "claim_id": "noise-bold-7849",
       "claim": "Extraction artifact, NOT a phone line: \"*7849\" is the markdown-bold FORM number **7849** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "7849",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7849.pdf",
+      "raw_snippet": "עמוד 1מתוך 5 המוסד לביטוח לאומי בל7849 / מינהל הגמלאות שירותים מיוחדים תביעה לקצבת שירותים מיוחדים הגשת תביעה לשירותים מיוחדים קצבת שירותים מיוחדים משולמת למי שזקוק לעזרה רבה בביצוע פעולות היום ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2150,9 +2150,9 @@
     {
       "claim_id": "noise-bold-8200",
       "claim": "Extraction artifact, NOT a phone line: \"*8200\" is the markdown-bold FORM number **8200** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "8200",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T8200.pdf",
+      "raw_snippet": "בל8200 / המוסד לביטוח לאומי מינהל הגמלאות ניידות תביעה להטבות על פי הסכם הניידות חובה לצרף לטופס זה מסמכים רפואיים שהמצאת לוועדה הרפואית בלשכת הבריאות או לוועדה הרפואית לעררים.  סיכומי מחלה -אם ",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2161,9 +2161,9 @@
     {
       "claim_id": "noise-bold-8220",
       "claim": "Extraction artifact, NOT a phone line: \"*8220\" is the markdown-bold FORM number **8220** in the skill body. The only BTL phone line is *6050.",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "8220",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T8220.pdf",
+      "raw_snippet": "ני קבלת האישור ב__________________________ - בל8220 / להלוואה עומדת – לא תשולם לך הלוואה עומדת בעבורו. בקשה לבדיקה רפואית לקביעת מוגבלות בניידות לידיעתך: בבקשה לבדיקה חוזרת ,הוועדה רשאית לקבוע א",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2185,8 +2185,8 @@
       "claim_id": "url-forms-search",
       "claim": "BTL master form-search page: https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "כדי להקל עליכם את מציאת הטופס הדרוש לכם, אנו מעמידים לרשותכם אפשרות לחיפוש ואיתור טפסים. זמנית החיפוש אינו פעיל באפשרותך להיעזר ברשימת החיפושים הנפוצי",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2220,9 +2220,9 @@
     {
       "claim_id": "url-forms-search-lit",
       "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx (the live path uses a space, %20, not a hyphen)",
-      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "raw_snippet": "כדי להקל עליכם את מציאת הטופס הדרוש לכם, אנו מעמידים לרשותכם אפשרות לחיפוש ואיתור טפסים. זמנית החיפוש אינו פעיל באפשרותך להיעזר ברשימת החיפושים הנפוצי",
+      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
