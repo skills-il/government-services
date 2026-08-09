@@ -41,15 +41,36 @@
     },
     {
       "claim_id": "cbs-link",
-      "claim": "https://www.cbs.gov.il is the live website of Israel's Central Bureau of Statistics, cited in the Reference Links section as a complementary Israeli data source.",
-      "source_url": "https://www.cbs.gov.il",
-      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה. This is the website of Israel's national statistical agency, the Central Bureau of Statistics."
+      "claim": "https://www.cbs.gov.il is the live website of Israel's Central Bureau of Statistics, listed in the Reference Links table as a complementary Israeli data source.",
+      "source_url": "https://www.cbs.gov.il/he/Pages/default.aspx",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה",
+      "fetched_at": "2026-08-10"
     },
     {
       "claim_id": "boi-link",
-      "claim": "https://www.boi.org.il is the live website of the Bank of Israel, the central bank, cited in the Reference Links section as a complementary Israeli data source.",
+      "claim": "https://www.boi.org.il is the live website of the Bank of Israel, the central bank, listed in the Reference Links table as a complementary Israeli data source.",
+      "source_url": "https://www.boi.org.il/en/",
+      "raw_snippet": "Home Page | בנק ישראל - הבנק המרכזי של ישראל",
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "source_note": "boi.org.il serves a Radware bot-check to curl; title read in Playwright with location.href asserted."
+    },
+    {
+      "claim_id": "cbs-link-root",
+      "claim": "https://www.cbs.gov.il resolves to the Central Bureau of Statistics site.",
+      "source_url": "https://www.cbs.gov.il",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "boi-link-root",
+      "claim": "https://www.boi.org.il resolves to the Bank of Israel site.",
       "source_url": "https://www.boi.org.il",
-      "raw_snippet": "בנק ישראל - הבנק המרכזי של ישראל. This is the website of the Bank of Israel, the country's central bank."
+      "raw_snippet": "בנק ישראל - הבנק המרכזי של ישראל",
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "source_note": "boi.org.il serves a Radware bot-check to curl; title read in Playwright with location.href asserted."
     }
   ]
 }

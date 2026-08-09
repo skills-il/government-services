@@ -37,7 +37,7 @@ Source: kolzchut "חייל בודד" + mitgaisim.idf.il. Statutory base: Pkudat 
 |---|---|
 | 1 | Re-submit through unit Mashak Tash with additional supporting documents |
 | 2 | Appeals committee reviews; decision is final unless material circumstances change |
-| 3 | Hotlines: IDF general 1111, Soldiers' Ombudsman 03-6977374, NBN+FIDF 24/7 |
+| 3 | Hotlines: the IDF general hotline and the Soldiers' Ombudsman (numbers published on the IDF site), NBN+FIDF 24/7 |
 
 ## Status changes during service
 

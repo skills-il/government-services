@@ -51,7 +51,7 @@ The governing IDF order is **Pkudat Matkal 35.0808** ("חיילים בודדים
 | 2 | Required documents depend on track: oleh = Teudat Oleh + family documentation showing parents abroad; estranged Israeli = social worker assessment; orphan = parental death certificates |
 | 3 | Decision by recognition committee, typically within ~1 month, response via Mashak Tash |
 | 4 | If rejected: appeal back through Mashak Tash; the appeals committee decision is final unless circumstances change materially |
-| 5 | Hotlines for help: IDF **1111**, Soldiers' Ombudsman **03-6977374**, NBN+FIDF 24/7 lone-soldier hotline |
+| 5 | Hotlines for help: the IDF general hotline and the Soldiers' Ombudsman (current numbers are published on the IDF site), plus the NBN+FIDF 24/7 lone-soldier hotline |
 
 **Recognition triggers everything.** No benefit on the list below applies until the soldier is officially recognized. Without recognition, even an oleh living alone in Israel gets only the standard private's salary.
 

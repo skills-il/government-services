@@ -256,15 +256,6 @@
       "confidence": "high"
     },
     {
-      "id": "mahal-90-percent-combat",
-      "claim": "Mahal program participants, non-Israeli Jewish volunteers serving in the IDF, have a minimum service of 14.5 months, with approximately 90% combat placement",
-      "claim_type": "percentage",
-      "source_url": "http://www.mahal-idf-volunteers.org/",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "Mahal: 14.5-month minimum service, approximately 90% combat placement",
-      "confidence": "medium"
-    },
-    {
       "id": "diaspora-orgs-urls",
       "claim": "URLs for the diaspora and Israeli NGO directory referenced in this skill: Nefesh B'Nefesh Lone Soldier Program at https://www.nbn.org.il/nbnlsp/, Friends of the IDF lone soldier support at https://www.fidf.org/lone-soldier-support/, Garin Tzabar at https://garintzabar.org/, Lone Soldier Center in Memory of Michael Levin at https://www.lonesoldiercenter.com/ (NOTE: tzevetmikey.com is a SEPARATE org, Tzevet Mikey / Lone Soldier Empowerment Foundation, not the Michael Levin center), Mahal program at http://www.mahal-idf-volunteers.org/, Hebrew Wikipedia lone-soldier overview at https://he.wikipedia.org/wiki/חייל_בודד",
       "claim_type": "url",
@@ -272,15 +263,6 @@
       "source_fetched_at": "2026-05-18T14:30:00Z",
       "raw_snippet": "Diaspora orgs supporting lone soldiers: https://www.nbn.org.il/nbnlsp/, https://www.fidf.org/lone-soldier-support/, https://garintzabar.org/, https://www.lonesoldiercenter.com/, https://tzevetmikey.com/, http://www.mahal-idf-volunteers.org/, https://he.wikipedia.org/wiki/חייל_בודד",
       "confidence": "high"
-    },
-    {
-      "id": "idf-hotline-1111",
-      "claim": "IDF general hotline for soldiers is *1111 (toll-free three-digit asterisk number). Soldiers' Ombudsman: 03-6977374.",
-      "claim_type": "phone-star",
-      "source_url": "https://www.idf.il/",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "מוקד צה\"ל הכללי: *1111. נציב תלונות החיילים: 03-6977374.",
-      "confidence": "medium"
     },
     {
       "id": "law-of-return-citizenship",

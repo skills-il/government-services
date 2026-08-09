@@ -474,11 +474,12 @@
     },
     {
       "claim_id": "VEHICLE_12_MONTH_BAALUT_RESTRICTION",
-      "claim": "Misrad HaTachbura imposes a 12-month ownership-transfer restriction on every personally-imported vehicle, returnee or not; the bealut-removal application is the early-release procedure (on gov.il page yibu ishi shel klei rechev)",
+      "claim": "Misrad HaTachbura imposes a 12-month ownership-transfer restriction on every personally-imported vehicle, returnee or not.",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
       "source_label": "gov.il, יבוא אישי של כלי רכב (Misrad HaTachbura), section 'מגבלת העברת בעלות'",
-      "raw_snippet": "מגבלת העברת בעלות. יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים. ... נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי.",
-      "verified_via": "Playwright MCP, 2026-05-23"
+      "raw_snippet": "מגבלת העברת בעלות יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים.",
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright 2026-08-10 with location.href asserted."
     },
     {
       "claim_id": "VEHICLE_GUIDE_PAGE_UPDATE_DATE",
@@ -599,6 +600,14 @@
       "source_label": "kolzchut household-goods customs page (URL-prefix match)",
       "raw_snippet": "kolzchut household-goods customs page for returnees; full URL contains a quote character that confuses simple URL extractors",
       "verified_via": "Manual cross-reference, 2026-05-23"
+    },
+    {
+      "claim_id": "VEHICLE_BAALUT_REMOVAL_PROCEDURE",
+      "claim": "gov.il's personal-vehicle-import page links a dedicated procedure for applying to remove the ownership-transfer restriction.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי",
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright 2026-08-10 with location.href asserted."
     }
   ],
   "schemaVersion": "1.0"

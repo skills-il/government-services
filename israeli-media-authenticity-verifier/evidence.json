@@ -107,9 +107,10 @@
       "claim": "In April 2025 an Israeli broadcast aired a manipulated AI video; the anchor stopped it on air, saying the words were not the minister's but AI inserting messages",
       "claim_type": "feature",
       "source_url": "https://www.getclarity.ai/ai-deepfake-blog/iranian-deepfake-of-israeli-defense-minister-airs-live----and-how-clarity-caught-it-instantly",
-      "source_fetched_at": "2026-06-05T18:10:00Z",
-      "raw_snippet": "On the first sentence I said stop the video. We apologize. This is cooked… These are not Gallant's words but AI trying to insert messages about the U.S. and the Houthis.",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-10",
+      "raw_snippet": "These are not Gallant’s words but AI trying to insert messages about the U.S. and the Houthis,” said anchor Sarah Beck live on air.",
+      "confidence": "high",
+      "source_note": "The longer on-air quote as published contains a typographic ellipsis inside the source text itself; this entry quotes the contiguous second half."
     },
     {
       "id": "boi-impersonation-warning",
@@ -134,8 +135,8 @@
       "claim": "119 is Israel's national cybersecurity hotline, part of the CERT run by the National Cyber Directorate, a 24/7 free service where anyone can report a cyberattack or suspicion of attack",
       "claim_type": "feature",
       "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
-      "source_fetched_at": "2026-06-05T19:03:00Z",
-      "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline. The initiative is part of the national CERT — Computer Emergency Response Team — that is based in Beersheba. The hotline ... is a 24/7 free service where anyone can report a cyberattack or suspicion of attack and get immediate help.",
+      "source_fetched_at": "2026-08-10",
+      "raw_snippet": "The initiative is part of the national CERT — Computer Emergency Response Team — that is based in Beersheba. The hotline was officially launched last month after being in operation somewhat under the radar for about a year, and is a 24/7 free service where anyone can report a cyberattack or suspicion of attack and get immediate help.",
       "confidence": "high"
     },
     {
@@ -154,6 +155,22 @@
       "source_url": "https://deepmind.google/science/synthid/",
       "source_fetched_at": "2026-06-05T18:00:00Z",
       "raw_snippet": "SynthID embeds digital watermarks directly into AI-generated images, audio, text or video.",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "cyber-119-hotline-number",
+      "claim": "119 is Israel's cybersecurity hotline, which Israelis can call if they believe they are under cyberattack.",
+      "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
+      "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline.",
+      "source_fetched_at": "2026-08-10"
+    },
+    {
+      "id": "cyber-119-hotline-number",
+      "claim": "119 is Israel's cybersecurity hotline, which Israelis can call if they believe they are under cyberattack.",
+      "claim_type": "feature",
+      "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
+      "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline.",
+      "source_fetched_at": "2026-08-10",
       "confidence": "high"
     }
   ]

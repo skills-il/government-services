@@ -6,7 +6,7 @@ Generated: 2026-05-18 via research on hachvana.mod.gov.il, kolzchut.org.il, mome
 
 - [x] **Three eligibility categories (chayal boded muvhak / chaser oref / yatom)**, oleh without family in Israel, Israeli with parents abroad / deceased / estranged, orphan, kolzchut + mitgaisim.idf.il
 - [x] **Aka recognition forms**, soldier-facing form is Form 62 (שאלון הכרה, in duplicate) in BOTH pre-enlistment and in-service phases; Form 7304 is an internal Rakezet Tash intake doc (do not ask for 7304 at the counter)
-- [x] **Hotlines**, IDF 1111, Soldiers' Ombudsman 03-6977374, NBN+FIDF 24/7
+- [x] **Hotlines**, IDF general hotline and Soldiers' Ombudsman (numbers published on the IDF site), NBN+FIDF 24/7
 - [x] **Active-duty monthly grant**, 100% of base salary of a turai (private) in mandatory service (currently 601.2 NIS/month), paid with the regular salary, automatic upon recognition
 - [x] **Combat / combat-support boded supplements**, additional 467.2 NIS/month (combat, activity level א'+) / 233.7 NIS/month (combat-support, א') on top of the base grant, per IDF economic-benefits page
 - [x] **Aliyah-Ministry monthly grant**, olim bodedim (aliyah within 5y before service) get a SECOND grant = 100% of turai base salary (150% for Ethiopian olim within 10y), stacks on the IDF grant; apply via Misrad HaAliyah (03-9733333)
