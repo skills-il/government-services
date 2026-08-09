@@ -40,8 +40,8 @@
       "claim_id": "amt-3442",
       "claim": "non-work income monthly exemption: 3,442 NIS / 3,442 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9E%D7%99%20%D7%A9%D7%90%D7%99%D7%A0%D7%9D%20%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%91%D7%A2%D7%9C%D7%99%20%D7%94%D7%9B%D7%A0%D7%A1%D7%94%20%D7%A9%D7%9C%D7%90%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
-      "raw_snippet": "3,442",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "טבלת שיעור דמי הביטוח להכנסה שלא מעבודה: עד 3,442 ש\"ח מההכנסה עד 7,703 ש\"ח (שיעור מופחת) מחלק ההכנסה שבין 7,703 ש\"ח ועד 51,910 ש\"ח (שיעור רגיל) דמי ביטוח לאומי פטור 6.92% 7% דמי ביטוח בריאות פטור 5.17% 5.17% סך הכול 0% 12.09% 12.1",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -95,8 +95,8 @@
       "claim_id": "amt-4711",
       "claim": "general disability single full: 4,711 NIS / 4,711 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "4,711",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשי",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -106,8 +106,8 @@
       "claim_id": "amt-2718",
       "claim": "disability 60%: 2,718 NIS / 2,718 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "2,718",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשי",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -117,8 +117,8 @@
       "claim_id": "amt-2894",
       "claim": "disability 65%: 2,894 NIS / 2,894 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "2,894",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשי",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -128,8 +128,8 @@
       "claim_id": "amt-3211",
       "claim": "disability 74%: 3,211 NIS / 3,211 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "3,211",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשי",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -403,8 +403,8 @@
       "claim_id": "amt-51910",
       "claim": "max insurable income ceiling: 51,910 NIS / 51,910 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "51,910",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -457,9 +457,9 @@
     {
       "claim_id": "pct-4_27",
       "claim": "employee NI+health reduced rate: 4.27%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "4.27",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -468,9 +468,9 @@
     {
       "claim_id": "pct-12_17",
       "claim": "employee NI+health full rate: 12.17%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "12.17",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -479,9 +479,9 @@
     {
       "claim_id": "pct-1_04",
       "claim": "employee NI reduced: 1.04%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "1.04",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -490,9 +490,9 @@
     {
       "claim_id": "pct-3_23",
       "claim": "employee health reduced: 3.23%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "3.23",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -501,9 +501,9 @@
     {
       "claim_id": "pct-7_0",
       "claim": "employee NI full / passive NI full: 7.0%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "7.0",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -512,9 +512,9 @@
     {
       "claim_id": "pct-5_17",
       "claim": "health full rate: 5.17%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "5.17",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -523,9 +523,9 @@
     {
       "claim_id": "pct-4_51",
       "claim": "employer NI reduced: 4.51%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "4.51",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -534,9 +534,9 @@
     {
       "claim_id": "pct-7_60",
       "claim": "employer NI full: 7.60%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "7.60",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -546,8 +546,8 @@
       "claim_id": "pct-7_7",
       "claim": "self-employed reduced: 7.7%",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "7.7",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -557,8 +557,8 @@
       "claim_id": "pct-18_0",
       "claim": "self-employed full: 18.0%",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "18.0",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -568,8 +568,8 @@
       "claim_id": "pct-4_47",
       "claim": "self-employed NI reduced: 4.47%",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "4.47",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -579,8 +579,8 @@
       "claim_id": "pct-12_83",
       "claim": "self-employed NI full: 12.83%",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "12.83",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -590,8 +590,8 @@
       "claim_id": "pct-6_92",
       "claim": "passive-income NI reduced: 6.92%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9E%D7%99%20%D7%A9%D7%90%D7%99%D7%A0%D7%9D%20%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%91%D7%A2%D7%9C%D7%99%20%D7%94%D7%9B%D7%A0%D7%A1%D7%94%20%D7%A9%D7%9C%D7%90%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
-      "raw_snippet": "6.92",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "טבלת שיעור דמי הביטוח להכנסה שלא מעבודה: עד 3,442 ש\"ח מההכנסה עד 7,703 ש\"ח (שיעור מופחת) מחלק ההכנסה שבין 7,703 ש\"ח ועד 51,910 ש\"ח (שיעור רגיל) דמי ביטוח לאומי פטור 6.92% 7% דמי ביטוח בריאות פטור 5.17% 5.17% סך הכול 0% 12.09% 12.1",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -601,8 +601,8 @@
       "claim_id": "pct-12_09",
       "claim": "passive-income reduced combined: 12.09%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9E%D7%99%20%D7%A9%D7%90%D7%99%D7%A0%D7%9D%20%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%91%D7%A2%D7%9C%D7%99%20%D7%94%D7%9B%D7%A0%D7%A1%D7%94%20%D7%A9%D7%9C%D7%90%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
-      "raw_snippet": "12.09",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "טבלת שיעור דמי הביטוח להכנסה שלא מעבודה: עד 3,442 ש\"ח מההכנסה עד 7,703 ש\"ח (שיעור מופחת) מחלק ההכנסה שבין 7,703 ש\"ח ועד 51,910 ש\"ח (שיעור רגיל) דמי ביטוח לאומי פטור 6.92% 7% דמי ביטוח בריאות פטור 5.17% 5.17% סך הכול 0% 12.09% 12.1",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -667,8 +667,8 @@
       "claim_id": "pct-74",
       "claim": "disability 74% degree: 74%",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "74%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשי",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -996,9 +996,9 @@
     {
       "claim_id": "pct-3_93",
       "claim": "Working pensioner (67-70, not receiving old-age pension) employee NI+health reduced rate: 3.93%",
-      "raw_snippet": "3.93%",
+      "raw_snippet": "נשים וגברים בין גיל 67 לגיל 70 שאינם מקבלים קצבת אזרח ותיק 8.06% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.13% (החל ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1007,9 +1007,9 @@
     {
       "claim_id": "pct-10_03",
       "claim": "Working pensioner (67-70, not receiving pension) employee full rate: 10.03%",
-      "raw_snippet": "10.03%",
+      "raw_snippet": "נשים וגברים בין גיל 67 לגיל 70 שאינם מקבלים קצבת אזרח ותיק 8.06% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.13% (החל ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1018,9 +1018,9 @@
     {
       "claim_id": "pct-3_95",
       "claim": "Woman between retirement age and 67, not receiving pension, employee reduced rate: 3.95%",
-      "raw_snippet": "3.95%",
+      "raw_snippet": "אישה בין גיל פרישה ל \" גיל פרישה לגבר\" שאינה מקבלת קצבת אזרח ותיק 8.12% (החל ב- 01.01.2025) 3.95% (החל ב- 01.01.2025) 4.17% (החל ב- 01.01.2025) 17.36% (החל ב- 01.02.2025) 10.24% (החל ב- 01.02.2025) 7.12% (החל ב- 01.01.2021) נ",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1029,9 +1029,9 @@
     {
       "claim_id": "pct-10_24",
       "claim": "Woman between retirement age and 67, not receiving pension, employee full rate: 10.24%",
-      "raw_snippet": "10.24%",
+      "raw_snippet": "אישה בין גיל פרישה ל \" גיל פרישה לגבר\" שאינה מקבלת קצבת אזרח ותיק 8.12% (החל ב- 01.01.2025) 3.95% (החל ב- 01.01.2025) 4.17% (החל ב- 01.01.2025) 17.36% (החל ב- 01.02.2025) 10.24% (החל ב- 01.02.2025) 7.12% (החל ב- 01.01.2021) נ",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1062,9 +1062,9 @@
     {
       "claim_id": "pct-18-self",
       "claim": "Self-employed full-bracket combined rate 18% (also written 18.0%)",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D.aspx",
-      "raw_snippet": "18%",
-      "fetched_at": "2026-06-12T22:58:01.288181+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1074,8 +1074,8 @@
       "claim_id": "pct-7_6-employer",
       "claim": "Employer full-bracket rate 7.6% (also written 7.60%)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "raw_snippet": "7.6%",
-      "fetched_at": "2026-06-12T22:58:01.288181+00:00",
+      "raw_snippet": "דמי ביטוח לאומי 4.51% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 5.55% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 7% (החל ב- 01.01.2006) 14.6% (החל ב- 01.02.2025) דמי ביטוח בריאות - 3.23% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) - 5.17% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) סך הכול 4.51% (החל ב- 01.01.2025) 4.27% (החל ב- 01.01.2025) 8.78% (החל ב- 01.01.2025) 7.6% (החל ב- 01.01.2019) 12.17% (החל ב- 01.02.2025) 19.77% (החל ב- 01.02.2025) ההכנסה המרבי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1095,9 +1095,9 @@
     {
       "claim_id": "self-emp-age-varies",
       "claim": "Self-employed NI rate also reduces by age and old-age-pension status (minor, pensioner) like employees; standard is 7.7%/18%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D.aspx",
-      "raw_snippet": "7.7%",
-      "fetched_at": "2026-06-12T23:09:45.178225+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
+      "raw_snippet": "על הכנסה חודשית 7,703 ש\"ח - (שיעור מופחת) על הכנסה חודשית מעל 7,703 ש\"ח ועד ההכנסה המרבית החייבת בדמי ביטוח בסך 51,910 ש\"ח לחודש - (שיעור רגיל) דמי ביטוח לאומי 4.47% 12.83% דמי ביטוח בריאות 3.23% 5.17% סך הכול 7.7% 18% שיעורי דמי הביטוח לעובד עצמאי שטרם מלאו לו 18 או לעובד עצמאי שהגיע לגיל פרישה: עם",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1118,8 +1118,8 @@
       "claim_id": "hh-employer-605",
       "claim": "Household-help employer NI 6.05% (18 to retirement)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "6.05%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "תשלום המעסיק תשלום העובד סך הכול דמי ביטוח לאומי 6.05% 1.8% 7.85% דמי ביטוח בריאות 0% 1% 1% סך הכול 6.05% 2.8% 8.85% עוב",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1129,8 +1129,8 @@
       "claim_id": "hh-worker-28",
       "claim": "Household-help worker share 2.8% (1.8% NI + 1% health)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "2.8%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "תשלום המעסיק תשלום העובד סך הכול דמי ביטוח לאומי 6.05% 1.8% 7.85% דמי ביטוח בריאות 0% 1% 1% סך הכול 6.05% 2.8% 8.85% עוב",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1140,8 +1140,8 @@
       "claim_id": "hh-worker-ni-18",
       "claim": "Household-help worker NI 1.8%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "1.8%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "תשלום המעסיק תשלום העובד סך הכול דמי ביטוח לאומי 6.05% 1.8% 7.85% דמי ביטוח בריאות 0% 1% 1% סך הכול 6.05% 2.8% 8.85% עוב",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1151,8 +1151,8 @@
       "claim_id": "hh-health-1",
       "claim": "Household-help worker health 1%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "1%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "תשלום המעסיק תשלום העובד סך הכול דמי ביטוח לאומי 6.05% 1.8% 7.85% דמי ביטוח בריאות 0% 1% 1% סך הכול 6.05% 2.8% 8.85% עוב",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1162,8 +1162,8 @@
       "claim_id": "hh-total-885",
       "claim": "Household-help total 8.85%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "8.85%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "תשלום המעסיק תשלום העובד סך הכול דמי ביטוח לאומי 6.05% 1.8% 7.85% דמי ביטוח בריאות 0% 1% 1% סך הכול 6.05% 2.8% 8.85% עוב",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1173,8 +1173,8 @@
       "claim_id": "hh-reduced-36",
       "claim": "Household-help employer reduced 3.6% for under-18 / pensioner worker",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
-      "raw_snippet": "3.6%",
-      "fetched_at": "2026-06-12T23:20:43.111301+00:00",
+      "raw_snippet": "עובדים שעדיין לא מלאו להם 18 שנים, או שהגיעו לגיל הפרישה והם מקבלים קצבת אזרח ותיק - ישלם עבורם המעסיק בלבד דמי ביטוח בשיעור של 3.6% אחוז משכרם. עובדים תושבי יהודה ש",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1370,9 +1370,9 @@
     {
       "claim_id": "emp-baal-shlita",
       "claim": "controlling shareholder employee rate: 4.25% reduced / 11.96% full; employer 4.46% / 7.38%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "4.25%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "טור 2 - בעל שליטה בחברת מעטים מי שמחזיק ב- 10% לפחות ממניות החברה או בזכות למנות מנהל. שמלאו לו 18 וטרם הגיע לגיל פרישה 8.71% (החל ב- 01.01.2025) 4.25% (החל ב- 01.01.2025) 4.46% (החל ב- 01.01.2025) 19.34% (החל ב- 01.02.2025) 11.96% (החל ב- 01.02.2025) 7.38% (החל ב- 01.01.2019) טור 3 - בטור זה יש לדו",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1381,9 +1381,9 @@
     {
       "claim_id": "emp-baal-shlita-full",
       "claim": "controlling shareholder employee full-bracket rate 11.96%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "11.96%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "טור 2 - בעל שליטה בחברת מעטים מי שמחזיק ב- 10% לפחות ממניות החברה או בזכות למנות מנהל. שמלאו לו 18 וטרם הגיע לגיל פרישה 8.71% (החל ב- 01.01.2025) 4.25% (החל ב- 01.01.2025) 4.46% (החל ב- 01.01.2025) 19.34% (החל ב- 01.02.2025) 11.96% (החל ב- 01.02.2025) 7.38% (החל ב- 01.01.2019) טור 3 - בטור זה יש לדו",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1392,9 +1392,9 @@
     {
       "claim_id": "emp-baal-shlita-er",
       "claim": "controlling shareholder employer rates 4.46% / 7.38%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "4.46%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "טור 2 - בעל שליטה בחברת מעטים מי שמחזיק ב- 10% לפחות ממניות החברה או בזכות למנות מנהל. שמלאו לו 18 וטרם הגיע לגיל פרישה 8.71% (החל ב- 01.01.2025) 4.25% (החל ב- 01.01.2025) 4.46% (החל ב- 01.01.2025) 19.34% (החל ב- 01.02.2025) 11.96% (החל ב- 01.02.2025) 7.38% (החל ב- 01.01.2019) טור 3 - בטור זה יש לדו",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1403,9 +1403,9 @@
     {
       "claim_id": "emp-nat62-under",
       "claim": "naturalized over 62, under retirement age: employee 3.6% / 7.45%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "3.6%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה וגבר מתחת לגיל פרישה שנעשו לראשונה תושב/ת ישראל מעל גיל 62 4.64% (החל ב- 01.01.2025) 3.6% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 10.4% (החל ב- 01.02.2025) 7.45% (החל ב- 01.02.2025) 2.95% (החל ב- 01.01.20",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1414,9 +1414,9 @@
     {
       "claim_id": "emp-nat62-under-full",
       "claim": "naturalized over 62, under retirement age, full bracket 7.45%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "7.45%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה וגבר מתחת לגיל פרישה שנעשו לראשונה תושב/ת ישראל מעל גיל 62 4.64% (החל ב- 01.01.2025) 3.6% (החל ב- 01.01.2025) 1.04% (החל ב- 01.01.2025) 10.4% (החל ב- 01.02.2025) 7.45% (החל ב- 01.02.2025) 2.95% (החל ב- 01.01.20",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1425,9 +1425,9 @@
     {
       "claim_id": "emp-nat62-woman",
       "claim": "naturalized over 62, woman between her retirement age and 67: employee 3.28% / 5.52%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "3.28%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה בין גיל פרישה ל\"גיל פרישה לגבר\" שנעשתה לראשונה תושב/ת ישראל מעל גיל 62 3.98% (החל ב- 01.01.2025) 3.28% (החל ב- 01.01.2025) 0.7% (החל ב- 01.01.2025) 7.99% (החל ב- 01.02.2025) 5.52% (החל ב- 01.02.2025) 2.47% (החל ב- 01.01.",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1436,9 +1436,9 @@
     {
       "claim_id": "emp-nat62-woman-full",
       "claim": "naturalized over 62, woman ret-to-67, full bracket 5.52%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "5.52%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה בין גיל פרישה ל\"גיל פרישה לגבר\" שנעשתה לראשונה תושב/ת ישראל מעל גיל 62 3.98% (החל ב- 01.01.2025) 3.28% (החל ב- 01.01.2025) 0.7% (החל ב- 01.01.2025) 7.99% (החל ב- 01.02.2025) 5.52% (החל ב- 01.02.2025) 2.47% (החל ב- 01.01.",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1447,9 +1447,9 @@
     {
       "claim_id": "emp-nat62-mid",
       "claim": "naturalized over 62, between men retirement age and eligibility age: 3.26% / 5.31%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "3.26%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "גבר ואישה בין \" גיל פרישה לגבר\" ל גיל הזכאות לקצבת אזרח ותיק שנעשו לראשונה תושבים מעל גיל 62 3.92% (החל ב- 01.01.2025) 3.26% (החל ב- 01.01.2025) 0.66% (החל ב- 01.01.2025) 7.62% (החל ב- 01.02.2025) 5.31% (החל ב- 01.02.2025) 2.31% (החל ב- 01.01.2019) מ",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1458,9 +1458,9 @@
     {
       "claim_id": "emp-nat62-mid-full",
       "claim": "naturalized over 62, mid band, full bracket 5.31%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "5.31%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "גבר ואישה בין \" גיל פרישה לגבר\" ל גיל הזכאות לקצבת אזרח ותיק שנעשו לראשונה תושבים מעל גיל 62 3.92% (החל ב- 01.01.2025) 3.26% (החל ב- 01.01.2025) 0.66% (החל ב- 01.01.2025) 7.62% (החל ב- 01.02.2025) 5.31% (החל ב- 01.02.2025) 2.31% (החל ב- 01.01.2019) מ",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1469,9 +1469,9 @@
     {
       "claim_id": "emp-nat62-over",
       "claim": "naturalized over 62, above eligibility age: 3.23% / 5.17%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "3.23%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה וגבר מעל גיל הזכאות לקצבת אזרח ותיק גיל הזכאות לגברים ולנשים הוא 70, הזכאות לקצבת אזרח ותיק אינה מותנית במבחן הכנסות. שנעשו לראשונה תושב/ת ישראל מעל גיל 62 3.84% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) 0.61% (החל ב- 01.01.2025) 7.29% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) 2.12% (הח",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1481,8 +1481,8 @@
       "claim_id": "self-026",
       "claim": "self-employed under 18 or receiving old-age pension: NI 0.26% reduced",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "0.26%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "ע ד ג יל 18 או מי שמקבל קצבת אזרח ותיק ישלם כך: על הכנסה חודשית עד 7,703 ש\"ח - דמי ביטוח בשיעור מופחת 0.26% . על הכנסה חודשית מעל 7,703 ש\"ח עד 51,910 ש\"ח - דמי ביטוח בשיעור רגיל 0.78% . שיעורים אלה כוללים תשלום דמי ביטוח",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1492,8 +1492,8 @@
       "claim_id": "self-078",
       "claim": "self-employed under 18 or receiving old-age pension: NI 0.78% full",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "0.78%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "ע ד ג יל 18 או מי שמקבל קצבת אזרח ותיק ישלם כך: על הכנסה חודשית עד 7,703 ש\"ח - דמי ביטוח בשיעור מופחת 0.26% . על הכנסה חודשית מעל 7,703 ש\"ח עד 51,910 ש\"ח - דמי ביטוח בשיעור רגיל 0.78% . שיעורים אלה כוללים תשלום דמי ביטוח",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1503,8 +1503,8 @@
       "claim_id": "self-692",
       "claim": "self-employed past retirement age not receiving old-age pension: 6.92% reduced",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "6.92%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שהגיע לגיל פרישה ולא מקבל קצבת אזרח ותיק ישלם כך: על הכנסה חודשית עד 7,703 ש\"ח - דמי ביטוח בשיעור מופחת 6.92% . על הכנסה חודשית מעל 7,703 ש\"ח עד 51,910 ש\"ח - דמי ביטוח בשיעור רגיל 15.79% . שיעורים אלה כוללים",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1514,8 +1514,8 @@
       "claim_id": "self-1579",
       "claim": "self-employed past retirement age not receiving old-age pension: 15.79% full",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "15.79%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שהגיע לגיל פרישה ולא מקבל קצבת אזרח ותיק ישלם כך: על הכנסה חודשית עד 7,703 ש\"ח - דמי ביטוח בשיעור מופחת 6.92% . על הכנסה חודשית מעל 7,703 ש\"ח עד 51,910 ש\"ח - דמי ביטוח בשיעור רגיל 15.79% . שיעורים אלה כוללים",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1525,8 +1525,8 @@
       "claim_id": "self-237",
       "claim": "self-employed old-age pension recipient: health contributions deducted from the pension at 237 NIS/month / 237 ש\"ח",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "237",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שמקבל קצבת אזרח ותיק - דמי ביטוח הבריאות מנוכים מהקצבה בסכום חודשי של 237 ש\"ח . מי שהגי",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1536,8 +1536,8 @@
       "claim_id": "self-3442-min",
       "claim": "self-employed income below 3,442 NIS/month charged on the minimum-income basis / 3,442 ש\"ח",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "3,442",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שהכנסתו נמוכה מ- 3,442 ש\"ח לחודש, ישלם דמי ביטוח מהכנסה מזערית. החל מ- 01.01.2026 הדפס ",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1547,8 +1547,8 @@
       "claim_id": "early-425",
       "claim": "early-pension recipient total reduced rate 4.25% (1.02% NI + 3.23% health)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
-      "raw_snippet": "4.25%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "דמי ביטוח לאומי 1.02% 6.79% דמי ביטוח בריאות 3.23% 5.17% סך הכול 4.25% 11.96% פעולות בנושא",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1558,8 +1558,8 @@
       "claim_id": "early-1196",
       "claim": "early-pension recipient total full rate 11.96% (6.79% NI + 5.17% health)",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
-      "raw_snippet": "11.96%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "דמי ביטוח לאומי 1.02% 6.79% דמי ביטוח בריאות 3.23% 5.17% סך הכול 4.25% 11.96% פעולות בנושא",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1569,8 +1569,8 @@
       "claim_id": "early-102",
       "claim": "early-pension NI component reduced 1.02%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
-      "raw_snippet": "1.02%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "דמי ביטוח לאומי 1.02% 6.79% דמי ביטוח בריאות 3.23% 5.17% סך הכול 4.25% 11.96% פעולות בנושא",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1580,8 +1580,8 @@
       "claim_id": "early-679",
       "claim": "early-pension NI component full 6.79%",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%9e%d7%a7%d7%91%d7%9c%d7%99%20%d7%a4%d7%a0%d7%a1%d7%99%d7%94%20%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa.aspx",
-      "raw_snippet": "6.79%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "דמי ביטוח לאומי 1.02% 6.79% דמי ביטוח בריאות 3.23% 5.17% סך הכול 4.25% 11.96% פעולות בנושא",
+      "fetched_at": "2026-08-09T15:38:43.122565+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1634,9 +1634,9 @@
     {
       "claim_id": "pct-56",
       "claim": "7,703 is 56% of the 13,769 average wage, which is why the \"60% of average wage\" derivation is wrong (56%)",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "7,703",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "מחלק השכר שעד מדרגת גביה מופחתת (שיעור מופחת) - 7,703 ש\"ח (החל ב- 01.01.2026) מחלק השכר שמעל מדרגת גביה מופחתת ועד ההכנסה המרבית החייבת בדמי ביטוח (שיעור מלא) - 51,910 ש\"ח (החל ב- 01.01.2026) מעסיק עו",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1689,9 +1689,9 @@
     {
       "claim_id": "emp-6770-er-red",
       "claim": "employer rate for an employee aged 67-70 not receiving an old-age pension: 4.13% reduced",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "4.13%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "נשים וגברים בין גיל 67 לגיל 70 שאינם מקבלים קצבת אזרח ותיק 8.06% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.13% (החל ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -1702,9 +1702,9 @@
     {
       "claim_id": "emp-6770-er-full",
       "claim": "employer rate for an employee aged 67-70 not receiving an old-age pension: 6.96% full",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "6.96%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "נשים וגברים בין גיל 67 לגיל 70 שאינם מקבלים קצבת אזרח ותיק 8.06% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.13% (החל ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -1715,9 +1715,9 @@
     {
       "claim_id": "emp-woman-er-red",
       "claim": "employer rate for a woman between her retirement age and 67 not receiving a pension: 4.17% reduced",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "4.17%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה בין גיל פרישה ל \" גיל פרישה לגבר\" שאינה מקבלת קצבת אזרח ותיק 8.12% (החל ב- 01.01.2025) 3.95% (החל ב- 01.01.2025) 4.17% (החל ב- 01.01.2025) 17.36% (החל ב- 01.02.2025) 10.24% (החל ב- 01.02.2025) 7.12% (החל ב- 01.01.2021) נ",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -1728,9 +1728,9 @@
     {
       "claim_id": "emp-woman-er-full",
       "claim": "employer rate for a woman between her retirement age and 67 not receiving a pension: 7.12% full",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9c%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%a9%d7%9b%d7%99%d7%a8%d7%99%d7%9d.aspx",
-      "raw_snippet": "7.12%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "אישה בין גיל פרישה ל \" גיל פרישה לגבר\" שאינה מקבלת קצבת אזרח ותיק 8.12% (החל ב- 01.01.2025) 3.95% (החל ב- 01.01.2025) 4.17% (החל ב- 01.01.2025) 17.36% (החל ב- 01.02.2025) 10.24% (החל ב- 01.02.2025) 7.12% (החל ב- 01.01.2021) נ",
+      "fetched_at": "2026-08-09T15:37:38.225090+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2563,8 +2563,8 @@
       "claim_id": "dis-spouse-1123",
       "claim": "disability spouse supplement at 74% degree: 1,123 NIS / 1,123 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "1,123",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור בן/ בת זוג הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח . דרגה חלקית בשיעור 74% - סכום התוספת הוא 1,123 ש\"ח . דרגה חלקית בשיעור 65% - סכום התוספת הוא 987 ש\"ח . דרגה חלקית",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2576,8 +2576,8 @@
       "claim_id": "dis-spouse-987",
       "claim": "disability spouse supplement at 65% degree: 987 NIS / 987 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "987",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור בן/ בת זוג הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח . דרגה חלקית בשיעור 74% - סכום התוספת הוא 1,123 ש\"ח . דרגה חלקית בשיעור 65% - סכום התוספת הוא 987 ש\"ח . דרגה חלקית",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2589,8 +2589,8 @@
       "claim_id": "dis-spouse-911",
       "claim": "disability spouse supplement at 60% degree: 911 NIS / 911 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "911",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור בן/ בת זוג הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח . דרגה חלקית בשיעור 74% - סכום התוספת הוא 1,123 ש\"ח . דרגה חלקית בשיעור 65% - סכום התוספת הוא 987 ש\"ח . דרגה חלקית",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2602,8 +2602,8 @@
       "claim_id": "dis-child-898",
       "claim": "disability child supplement at 74% degree: 898 NIS / 898 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "898",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור הילדים הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,214 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 74% - סכום התוספת 898 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 65% - סכום התוספת 789 ש\"ח עבור כל ילד. דרגה ח",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2615,8 +2615,8 @@
       "claim_id": "dis-child-789",
       "claim": "disability child supplement at 65% degree: 789 NIS / 789 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "789",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור הילדים הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,214 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 74% - סכום התוספת 898 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 65% - סכום התוספת 789 ש\"ח עבור כל ילד. דרגה ח",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2628,8 +2628,8 @@
       "claim_id": "dis-child-728",
       "claim": "disability child supplement at 60% degree: 728 NIS / 728 ש\"ח",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "728",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום התוספת עבור הילדים הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,214 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 74% - סכום התוספת 898 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 65% - סכום התוספת 789 ש\"ח עבור כל ילד. דרגה ח",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2641,8 +2641,8 @@
       "claim_id": "dis-spouse-income-7848",
       "claim": "the disability spouse supplement requires spouse gross income up to 7,848 NIS / 7,848 ש\"ח per month and no other benefit",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "7,848",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכומי ההכנסה של בן הזוג הם עד 7,848 ש\"ח ברוטו בחודש. בן הזוג אינו מקבל קצבה אחרת. סכום התוספת ע",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2654,8 +2654,8 @@
       "claim_id": "dis-work-2891",
       "claim": "a disability claimant at 74/65/60% who earns more than 2,891 NIS / 2,891 ש\"ח gross per month receives the FULL family supplement",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "2,891",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "לתשומת לבך, אם יש לך דרגת אי-כושר בשיעור 74% או 65% או 60%, ואתה מרוויח יותר מ- 2,891 ש\"ח ברוטו בחודש, תהיה זכאי לתוספת מלאה עבור בן הזוג ו/או הילדים. כדאי לך לצאת לעבודה אם ת",
+      "fetched_at": "2026-08-09T15:39:13.751966+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
