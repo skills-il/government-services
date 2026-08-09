@@ -9,7 +9,12 @@
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/",
       "raw_snippet": "https://knesset.gov.il/OdataV4/ParliamentInfo/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "scripts/query_knesset.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "scripts/query_knesset.py"
+      ]
     },
     {
       "claim_id": "v3-legacy-endpoint",
@@ -17,47 +22,74 @@
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
       "raw_snippet": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "v4-plenum-vote-entity",
       "claim": "KNS_PlenumVote is exposed in v4 with fields including Id, VoteDateTime, VoteTitle, VoteMethodDesc, VoteStatusCode, IsNoConfidenceInGov.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVote?$top=1",
-      "raw_snippet": "KNS_PlenumVote\",\"value\":[{\"Id\":6,\"VoteDateTime\":\"2003-10-20T19:54:19+02:00\",\"SessionID\":15797,\"ItemID\":15768,\"Ordinal\":6,\"VoteMethodID\":1,\"VoteMethodDesc\":\"אלקטרונית\",\"VoteStatusCode\":7,\"VoteStatusDesc\":\"מפורסם\",\"VoteTitle\":",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "scripts/query_knesset.py"]
+      "raw_snippet": "\"VoteMethodID\":1,\"VoteMethodDesc\":\"אלקטרונית\",\"VoteStatusCode\":7,\"VoteStatusDesc\":\"מפורסם\",\"VoteTitle\":\"הצעת סיעת ש\\\"ס להביע אי אמון בממשלה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "scripts/query_knesset.py"
+      ]
     },
     {
       "claim_id": "v4-plenum-vote-result-entity",
       "claim": "KNS_PlenumVoteResult is exposed in v4 with MkId (not PersonID), VoteID, ResultCode, ResultDesc, FirstName, LastName.",
-      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=1",
-      "raw_snippet": "KNS_PlenumVoteResult\",\"value\":[{\"Id\":1,\"MkId\":466,\"VoteID\":2212,\"VoteDate\":\"2004-06-21T19:27:56+03:00\",\"ResultCode\":7,\"ResultDesc\":\"בעד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"הירשזון\",\"FirstName\":\"אברהם\"",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "scripts/query_knesset.py"]
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=40",
+      "raw_snippet": "\"Id\":22,\"MkId\":12959,\"VoteID\":29824,\"VoteDate\":\"2018-06-27T11:59:16+03:00\",\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "scripts/query_knesset.py"
+      ]
     },
     {
       "claim_id": "v4-result-code-not-1-2-3",
-      "claim": "ResultCode integer for 'בעד' is 7 in live data, not 1; ResultCode is not a simple 1=for/2=against/3=abstain mapping. Use ResultDesc.",
-      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=1",
-      "raw_snippet": "\"ResultCode\":7,\"ResultDesc\":\"בעד\"",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "claim": "ResultCode is not a 1=for/2=against/3=abstain mapping: live rows carry ResultCode 7 for 'בעד' and 8 for 'נגד'. Read ResultDesc, not ResultCode.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=40",
+      "raw_snippet": "\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "v4-contains-filter-works",
-      "claim": "v4 supports contains(Field,'text') filter syntax; v3 used substringof('text', Field).",
-      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Bill?$top=1&$filter=contains(Name,'דיור')",
-      "raw_snippet": "contains(Name,'דיור')",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "scripts/query_knesset.py"]
+      "claim": "The v4 service accepts the OData v4 contains(Field,'text') filter syntax (v3 used substringof('text', Field)). The Hebrew literal must be percent-encoded in the request URL; unencoded Hebrew silently returns an empty value array.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Bill?$top=1&$filter=contains(Name,%27%D7%97%D7%95%D7%A7%27)",
+      "raw_snippet": "\"Name\":\"חוק שכר חברי הכנסת, התש\\\"ט-1949\",\"TypeID\":2,\"TypeDesc\":\"הצעת חוק\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "scripts/query_knesset.py"
+      ]
     },
     {
       "claim_id": "kns-israellawclassificiation-typo",
       "claim": "KNS_IsraelLawClassificiation is misspelled in the upstream API (double 'i'); the correctly-spelled name returns 404.",
-      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLawClassificiation?$top=1",
-      "raw_snippet": "KNS_IsraelLawClassificiation",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLawClassificiation?$top=60",
+      "raw_snippet": "\"ClassificiationID\":27,\"ClassificiationDesc\":\"ניהול נכסים\",\"LastUpdatedDate\":\"2015-01-15T15:59:55.7+02:00\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "knesset-size-120",
@@ -65,7 +97,12 @@
       "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
       "raw_snippet": "120 members",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "electoral-threshold-3-25",
@@ -73,7 +110,12 @@
       "source_url": "https://en.idi.org.il/articles/64020",
       "raw_snippet": "3.25 percent",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "bader-ofer-method",
@@ -81,7 +123,12 @@
       "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
       "raw_snippet": "Bader-Ofer",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "position-ids-lexicon",
@@ -89,7 +136,11 @@
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Position?$format=json&$top=80",
       "raw_snippet": "PositionID lexicon from KNS_Position: 43=חבר הכנסת, 61=חברת הכנסת, 45=ראש הממשלה, 39=שר, 57=שרה, 41=יו\"ר ועדה, 42=חבר ועדה, 122/123=יושב/ת–ראש הכנסת.",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "position-54-faction-member",
@@ -97,7 +148,11 @@
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Position?$format=json&$top=80",
       "raw_snippet": "PositionID 54 = חבר/ת סיעה (gender-neutral faction-member designation), separate from 43/61 (MK male/female).",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "election-2022-results",
@@ -105,7 +160,10 @@
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
       "raw_snippet": "Likud 32, Yesh Atid 24, Religious Zionism 14, National Unity 12, Shas 11, United Torah Judaism 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5, Labor 4",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "election-2022-coalition-split",
@@ -113,7 +171,10 @@
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
       "raw_snippet": "Total coalition: 64, opposition: 56.",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "election-2022-below-threshold",
@@ -121,7 +182,10 @@
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
       "raw_snippet": "Meretz (3.16%) and Balad (2.91%)",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "25th-knesset-swearing-in",
@@ -129,7 +193,11 @@
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
       "raw_snippet": "November 15, 2022",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "next-election-deadline-2026-10-27",
@@ -137,23 +205,33 @@
       "source_url": "https://www.timesofisrael.com/judge-sets-date-for-next-scheduled-elections-for-october-2026/",
       "raw_snippet": "October 27, 2026",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "municipal-elections-2024",
-      "claim": "2024 Israeli municipal elections were held on 27 February 2024 with a runoff round on 10 March 2024 in 35 localities; turnout approximately 49.5%.",
+      "claim": "The 2024 Israeli municipal elections were held on 27 February 2024 in 242 localities, with a second round two weeks later on 10 March 2024 in 35 of them.",
       "source_url": "https://en.idi.org.il/articles/53620",
-      "raw_snippet": "February 27, 2024 ... runoff ... March 10, 2024 ... 35 localities ... turnout ... 49.5%",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "On February 27, 2024, elections were held in 242 localities throughout Israel; two weeks later, on March 10, there was a second round in 35 of them. [1]",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "municipal-elections-2024-evacuated",
       "claim": "11 localities in northern and southern Israel had their municipal elections postponed to November 2024 due to wartime evacuation.",
       "source_url": "https://en.idi.org.il/articles/53620",
-      "raw_snippet": "11 localities ... November 2024 ... evacuated",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "Elections would have been held in 253 localities on the original date; but in 11 of them in northern and southern Israel, whose residents had been evacuated because of the war, the elections were postponed and are now scheduled for November 2024.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "votes-gov-il-dead",
@@ -161,15 +239,21 @@
       "source_url": "https://www.bechirot.gov.il/",
       "raw_snippet": "https://www.bechirot.gov.il/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "data-gov-il-votes-knesset-dataset",
       "claim": "Central Elections Committee election results are published on data.gov.il under dataset 'votes-knesset' for Knessets 16-25.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
-      "raw_snippet": "votes-knesset",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "\"result\": {\"Frequency\": \"NotConstant\", \"Update\": \"Manual\", \"author\": null, \"author_email\": \"bard@knesset.gov.il\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bill-status-codes",
@@ -177,7 +261,12 @@
       "source_url": "https://github.com/hasadna/Open-Knesset",
       "raw_snippet": "118 = approved third reading; 108 = preparation for first reading; 125 = rejected",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/query_knesset.py", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "committee-session-cancelled-193",
@@ -185,15 +274,23 @@
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata",
       "raw_snippet": "KNS_CommitteeSession StatusID 193 = cancelled",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "knesset-0-provisional-council",
-      "claim": "Knesset number 0 in the data represents the Provisional State Council (מועצת המדינה הזמנית, 1948-49). Data quality improves from Knesset 17 onward.",
-      "source_url": "https://main.knesset.gov.il/activity/info/pages/databases.aspx",
-      "raw_snippet": "Provisional State Council",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/knesset-api-entities.md"]
+      "claim": "Knesset number 0 in the Knesset data is the Provisional State Council (מועצת המדינה הזמנית), plenum 15 May 1948 to 14 February 1949.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_KnessetDates?$top=2&$orderby=KnessetNum",
+      "raw_snippet": "\"KnessetNum\":0,\"Name\":\"מועצת המדינה הזמנית\",\"Assembly\":1,\"Plenum\":1,\"PlenumStart\":\"1948-05-15T01:00:00+03:00\",\"PlenumFinish\":\"1949-02-14T00:00:00+02:00\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
     },
     {
       "claim_id": "hasadna-knesset-data",
@@ -201,23 +298,32 @@
       "source_url": "https://github.com/hasadna/knesset-data",
       "raw_snippet": "https://github.com/hasadna/knesset-data",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "csv-encoding-cp1255",
-      "claim": "Older data.gov.il votes-knesset CSVs (Knesset 16-20) use Windows-1255 encoding; newer files (21+) use UTF-8 with BOM.",
-      "source_url": "https://data.gov.il/dataset/votes-knesset",
-      "raw_snippet": "Windows-1255 ... UTF-8 with BOM",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "The votes-knesset dataset is published by the Knesset (bard@knesset.gov.il) as a set of CSV resources. The per-file character encoding is NOT documented by the publisher and the download endpoints are behind a JS challenge, so the skill tells the agent to detect the encoding rather than asserting Windows-1255 for specific Knesset numbers.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
+      "raw_snippet": "\"result\": {\"Frequency\": \"NotConstant\", \"Update\": \"Manual\", \"author\": null, \"author_email\": \"bard@knesset.gov.il\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "pre-2014-threshold-2pct",
       "claim": "Pre-2014, the Israeli electoral threshold was 2%.",
       "source_url": "https://www.washingtoninstitute.org/policy-analysis/israels-governance-law-raising-electoral-threshold",
-      "raw_snippet": "raising the electoral threshold ... from 2%",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "Until 1992, that threshold was 1% of all votes cast; parties falling under that requirement were not granted seats. The threshold was raised to 1.5% for the 1992 election, and to 2% for the 2003 election. The new Governance Law would raise it to 3.25%, among other measures.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "surplus-vote-agreements",
@@ -225,23 +331,32 @@
       "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
       "raw_snippet": "Surplus Votes Agreement",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "municipal-runoff-40pct",
-      "claim": "Israeli municipal elections trigger a runoff round when no mayoral candidate clears 40% in the first round.",
+      "claim": "A second round was held on 10 March 2024 in 35 of the 242 localities. The IDI analysis does not state the vote share a mayoral candidate must clear to avoid a runoff, so the skill no longer asserts a percentage.",
       "source_url": "https://en.idi.org.il/articles/53620",
-      "raw_snippet": "no candidate cleared 40%",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "two weeks later, on March 10, there was a second round in 35 of them.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "municipal-242-localities",
       "claim": "The 2024 Israeli municipal elections were held in 242 localities.",
       "source_url": "https://en.idi.org.il/articles/53620",
-      "raw_snippet": "242 localities",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "On February 27, 2024, elections were held in 242 localities throughout Israel",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-data-gov-il-25th-csv",
@@ -249,7 +364,10 @@
       "source_url": "https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv",
       "raw_snippet": "https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-idi",
@@ -257,7 +375,9 @@
       "source_url": "https://en.idi.org.il/",
       "raw_snippet": "https://en.idi.org.il/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["references/domain-checklist.md"]
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "ref-bills-search-ui",
@@ -265,7 +385,10 @@
       "source_url": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx",
       "raw_snippet": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-plenum-votes-ui",
@@ -273,7 +396,10 @@
       "source_url": "https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx",
       "raw_snippet": "https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-local2024",
@@ -281,7 +407,10 @@
       "source_url": "https://www.bechirot.gov.il/local2024/Pages/default.aspx",
       "raw_snippet": "https://www.bechirot.gov.il/local2024/Pages/default.aspx",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-cbs",
@@ -289,7 +418,10 @@
       "source_url": "https://www.cbs.gov.il/",
       "raw_snippet": "https://www.cbs.gov.il/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-gov-policies",
@@ -297,7 +429,10 @@
       "source_url": "https://www.gov.il/he/Departments/policies",
       "raw_snippet": "https://www.gov.il/he/Departments/policies",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-moi",
@@ -305,7 +440,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
       "raw_snippet": "https://www.gov.il/he/departments/ministry_of_interior",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-voter-registration-check",
@@ -313,7 +451,10 @@
       "source_url": "https://www.gov.il/he/service/check_voter_registration",
       "raw_snippet": "https://www.gov.il/he/service/check_voter_registration",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-mevaker",
@@ -321,15 +462,22 @@
       "source_url": "https://www.mevaker.gov.il/",
       "raw_snippet": "https://www.mevaker.gov.il/",
       "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-odata-spec",
       "claim": "OData v4 specification is the upstream protocol reference for filter / expand / paging syntax.",
-      "source_url": "https://www.odata.org",
-      "raw_snippet": "https://www.odata.org",
-      "fetched_at": "2026-05-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/domain-checklist.md"]
+      "source_url": "https://www.odata.org/documentation/",
+      "raw_snippet": "Documentation OData Version 4.01 OData has been standardized by OASIS and approved as an ISO/IEC International Standard .",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }

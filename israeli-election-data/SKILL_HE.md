@@ -124,7 +124,7 @@ GET .../KNS_DocumentBill?$filter=BillID eq {id}
 
 ועדת הבחירות המרכזית מפרסמת תוצאות ב-**data.gov.il** במאגר `votes-knesset`:
 
-- דף המאגר: `https://data.gov.il/dataset/votes-knesset`
+- דף המאגר: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 - CKAN API: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 
 לכל כנסת (16 עד 25) יש שני קבצי CSV:
@@ -172,9 +172,9 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 
 הבחירות לרשויות המקומיות (`בחירות לרשויות מקומיות`) נערכות בדרך כלל אחת לחמש שנים. המחזור האחרון:
 
-- **27 בפברואר 2024**, 242 רשויות. סבב שני 10 במרץ 2024 ב-35 רשויות שבהן אף מועמד לא עבר 40%.
+- **27 בפברואר 2024**, 242 רשויות. סבב שני ב-10 במרץ 2024 ב-35 מתוכן.
 - **נובמבר 2024**, סבב נפרד עבור 11 רשויות בצפון ובדרום שתושביהן פונו עקב מלחמת חרבות ברזל ולא יכלו להצביע בפברואר.
-- אחוז הצבעה היה שפל היסטורי של כ-49.5%.
+- אחוז ההצבעה ב-2024 היה נמוך מ-2018 אבל גבוה מ-2003, 2008 ו-2013 (המכון הישראלי לדמוקרטיה). לא לצטט אחוז הצבעה ארצי בודד: הניתוח של המכון מפרסם אותו רק כגרף.
 
 תוצאות הבחירות המקומיות מתפרסמות ב-`https://www.bechirot.gov.il/local2024/Pages/default.aspx` ובהמשך מועברות ל-data.gov.il. כל עיר מפרסמת גם פילוח עצמאי דרך משרד הפנים (`https://www.gov.il/he/departments/ministry_of_interior`).
 
@@ -293,7 +293,7 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 - **`KNS_CommitteeSession` StatusID 193 = ישיבה שבוטלה.** תמיד תוסיפו `StatusID ne 193` לסינון של ישיבות ועדה אלא אם רוצים במפורש לראות גם ישיבות שבוטלו.
 - **כנסת 0 = מועצת המדינה הזמנית** (1948-49). איכות הנתונים משתפרת משמעותית מכנסת 17 ואילך; ברשומות ישנות יותר יכולים להיות חורים.
 - **פורמט זמן** ב-v4: ISO 8601 בלי גרשיים. `VoteDateTime gt 2024-01-01T00:00:00Z`, ולא `datetime'2024-01-01'` (פורמט v3).
-- `votes.gov.il` לא מתפענח יותר. תשתמשו ב-`bechirot.gov.il` לאתר החי וב-`data.gov.il/dataset/votes-knesset` לקבצי ה-CSV.
+- `votes.gov.il` לא מתפענח יותר. תשתמשו ב-`bechirot.gov.il` לאתר החי וב-`data.gov.il/api/3/action/package_show?id=votes-knesset` לקבצי ה-CSV.
 
 ## קישורי עזר
 
@@ -301,11 +301,11 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 |------|-----|----------|
 | Knesset OData v4 root | https://knesset.gov.il/OdataV4/ParliamentInfo/ | רשימת ישויות חיה |
 | Knesset OData v4 metadata | https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata | סכמה מלאה: שמות שדות, סוגים, יחסים |
-| פורטל מאגרי המידע של הכנסת | https://main.knesset.gov.il/activity/info/pages/databases.aspx | הודעות על מאגרים, סטטוס API |
+| פורטל מאגרי המידע של הכנסת | https://knesset.gov.il/OdataV4/ParliamentInfo/ | הודעות על מאגרים, סטטוס API |
 | חיפוש הצעות חוק (ממשק) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx | הצלבה של נתוני הצעות חוק |
 | הצבעות מליאה (ממשק) | https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx | הצלבה של נתוני הצבעות |
-| data.gov.il votes-knesset | https://data.gov.il/dataset/votes-knesset | תוצאות לפי יישוב ולפי קלפי בקבצי CSV |
-| מפרט OData v4 | https://www.odata.org | תחביר filter / expand / paging |
+| data.gov.il votes-knesset | https://data.gov.il/api/3/action/package_show?id=votes-knesset | תוצאות לפי יישוב ולפי קלפי בקבצי CSV |
+| מפרט OData v4 | https://www.odata.org/documentation/ | תחביר filter / expand / paging |
 
 ## פתרון בעיות
 
@@ -347,8 +347,8 @@ https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392
 
 ### שגיאה: "votes.gov.il connection refused"
 סיבה: ה-hostname הזה כבר לא בתוקף.
-פתרון: תשתמשו ב-`https://www.bechirot.gov.il/` לאתר החי של ועדת הבחירות, או ב-`https://data.gov.il/dataset/votes-knesset` לקבצי ה-CSV ההיסטוריים.
+פתרון: תשתמשו ב-`https://www.bechirot.gov.il/` לאתר החי של ועדת הבחירות, או ב-`https://data.gov.il/api/3/action/package_show?id=votes-knesset` לקבצי ה-CSV ההיסטוריים.
 
 ### שגיאה: "ה-CSV ב-data.gov.il בקידוד עברית ישן"
-סיבה: קבצי `votes-knesset` ישנים (כנסת 16-20) יכולים להיות ב-Windows-1255 ולא UTF-8.
-פתרון: לקרוא ב-Python עם `encoding='cp1255'`, או לזהות עם `chardet`. קבצים חדשים יותר (כנסת 21+) הם UTF-8 עם BOM.
+סיבה: קבצי `votes-knesset` לא כולם באותו קידוד תווים, והגורם המפרסם לא מתעד איזה קובץ בכל קידוד.
+פתרון: לזהות את הקידוד לכל קובץ בנפרד (`chardet`) ולא להניח. אם הזיהוי לא חד-משמעי, לנסות `utf-8-sig` ואחר כך `cp1255`.

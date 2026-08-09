@@ -132,7 +132,7 @@ The `BillID` column in these related tables points back to `KNS_Bill.Id`. In v4 
 
 The Central Elections Committee publishes results on **data.gov.il** under the dataset `votes-knesset`:
 
-- Catalog page: `https://data.gov.il/dataset/votes-knesset`
+- Catalog page: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 - CKAN API: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 
 Each Knesset election (16th through 25th) has two CSV files:
@@ -180,9 +180,9 @@ Canonical seat counts for the November 1, 2022 election:
 
 Municipal elections (`bechirot reshuyot mekomiyot`) are normally held every five years. Most recent cycle:
 
-- **27 February 2024**, 242 localities. Runoff round 10 March 2024 in 35 localities where no candidate cleared 40%.
+- **27 February 2024**, 242 localities. Second round 10 March 2024 in 35 of them.
 - **November 2024**, separate round for 11 northern and southern localities that were evacuated due to the Gaza/Lebanon wars and could not vote in February.
-- Turnout was a historic low of approximately 49.5%.
+- Turnout in 2024 was lower than in 2018 but higher than in 2003, 2008 and 2013 (Israel Democracy Institute). Do not quote a single national turnout percentage -- the IDI analysis publishes it only as a chart.
 
 Municipal results live on `https://www.bechirot.gov.il/local2024/Pages/default.aspx` and were eventually mirrored to `data.gov.il`. Each city publishes its own breakdown via the Ministry of Interior (`https://www.gov.il/he/departments/ministry_of_interior`).
 
@@ -301,7 +301,7 @@ When the `knesset` MCP is available, use its tools for live legislative data ins
 - **`KNS_CommitteeSession` StatusID 193 = cancelled.** Always filter with `StatusID ne 193` unless cancelled sessions are explicitly wanted.
 - **Knesset 0 = Provisional State Council** (מועצת המדינה הזמנית, 1948-49). Data quality improves materially from Knesset 17 onward; older records may have gaps.
 - **Datetime format** in v4: ISO 8601, no quotes. Use `VoteDateTime gt 2024-01-01T00:00:00Z`, not `datetime'2024-01-01'` (the v3 form).
-- `votes.gov.il` no longer resolves. Use `bechirot.gov.il` for the live site and `data.gov.il/dataset/votes-knesset` for the CSVs.
+- `votes.gov.il` no longer resolves. Use `bechirot.gov.il` for the live site and `data.gov.il/api/3/action/package_show?id=votes-knesset` for the CSVs.
 
 ## Reference Links
 
@@ -309,11 +309,11 @@ When the `knesset` MCP is available, use its tools for live legislative data ins
 |--------|-----|---------------|
 | Knesset OData v4 root | https://knesset.gov.il/OdataV4/ParliamentInfo/ | Live entity list |
 | Knesset OData v4 metadata | https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata | Full schema: field names, types, relationships |
-| Knesset databases portal | https://main.knesset.gov.il/activity/info/pages/databases.aspx | Dataset announcements, API status |
+| Knesset databases portal | https://knesset.gov.il/OdataV4/ParliamentInfo/ | Dataset announcements, API status |
 | Bills search (web UI) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx | Cross-check bill data |
 | Plenum votes (web UI) | https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx | Cross-check vote data |
-| data.gov.il votes-knesset | https://data.gov.il/dataset/votes-knesset | Per-locality and per-ballot CSV results |
-| OData v4 spec | https://www.odata.org | Filter / expand / paging syntax reference |
+| data.gov.il votes-knesset | https://data.gov.il/api/3/action/package_show?id=votes-knesset | Per-locality and per-ballot CSV results |
+| OData v4 spec | https://www.odata.org/documentation/ | Filter / expand / paging syntax reference |
 
 ## Troubleshooting
 
@@ -355,8 +355,8 @@ Solution: Field names are in English (camelCase) but values (MK names, bill titl
 
 ### Error: "votes.gov.il connection refused"
 Cause: That hostname is dead.
-Solution: Use `https://www.bechirot.gov.il/` for the live Central Elections Committee site, or `https://data.gov.il/dataset/votes-knesset` for the historical CSVs.
+Solution: Use `https://www.bechirot.gov.il/` for the live Central Elections Committee site, or `https://data.gov.il/api/3/action/package_show?id=votes-knesset` for the historical CSVs.
 
 ### Error: "data.gov.il CSV is in legacy Hebrew encoding"
-Cause: Older `votes-knesset` CSVs (Knesset 16-20) may be in Windows-1255 instead of UTF-8.
-Solution: Read with `encoding='cp1255'` in Python, or detect via `chardet`. Newer files (21+) are UTF-8 with BOM.
+Cause: `votes-knesset` CSVs are not all in the same character encoding, and the publisher does not document which file uses which.
+Solution: Detect the encoding per file (`chardet`) rather than assuming. If detection is inconclusive, try `utf-8-sig` and then `cp1255`.

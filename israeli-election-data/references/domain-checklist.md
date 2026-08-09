@@ -5,7 +5,7 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 ## Must cover (core)
 
 - Knesset OData v4 base URL and entity-discovery via the service root. Source: live API at `https://knesset.gov.il/OdataV4/ParliamentInfo/`.
-- v4 filter syntax (`contains`, `in`, ISO 8601 datetimes, no `datetime'...'` wrapper). Source: OData v4 spec at `https://www.odata.org`.
+- v4 filter syntax (`contains`, `in`, ISO 8601 datetimes, no `datetime'...'` wrapper). Source: OData v4 spec at `https://www.odata.org/documentation/`.
 - v3 fallback callout (legacy endpoint at `/Odata/ParliamentInfo.svc/` still up but does not expose vote tables). Source: live API.
 - The two vote entities `KNS_PlenumVote` and `KNS_PlenumVoteResult` with `VoteTitle`, `MkId`, `ResultDesc` fields. Source: live API metadata + sample rows.
 - PositionID lexicon at minimum: 43 (MK male), 61 (MK female), 45 (PM), 39/57 (Minister), 41 (Committee Chair), 42 (Committee Member), 122/123 (Knesset Speaker), 54 (faction member, with the explicit note that 54 ≠ MK role).
@@ -15,7 +15,7 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 - Seat allocation = Bader-Ofer (modified D'Hondt). Source: Knesset Lexicon.
 - 2022 election (25th Knesset) seat distribution. Source: Wikipedia 2022 Israeli legislative election, cross-confirmed with IDI.
 - data.gov.il `votes-knesset` dataset for per-locality / per-ballot CSVs (Knessets 16-25). Source: data.gov.il CKAN package_show.
-- 2024 municipal elections summary (Feb 27 + March 10 runoff + Nov 2024 evacuated-localities round; ~49.5% turnout). Source: IDI 2024 local elections analysis, Knesset RIC fact sheet.
+- 2024 municipal elections summary (Feb 27 + March 10 second round + Nov 2024 evacuated-localities round; no national turnout percentage is asserted, the IDI analysis publishes it only as a chart). Source: IDI 2024 local elections analysis, Knesset RIC fact sheet.
 - `votes.gov.il` is dead; canonical Central Elections Committee site is `bechirot.gov.il`. Source: direct DNS probe.
 - Hebrew-encoding caveat for older `votes-knesset` CSVs (Windows-1255 for Knessets 16-20, UTF-8 with BOM for 21+). Source: empirical observation.
 
@@ -50,10 +50,10 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 
 - `https://knesset.gov.il/OdataV4/ParliamentInfo/` (live API root)
 - `https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata` (full schema)
-- `https://main.knesset.gov.il/activity/info/pages/databases.aspx` (Knesset databases portal)
+- `https://knesset.gov.il/OdataV4/ParliamentInfo/` (Knesset OData v4 service root)
 - `https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx` (Bader-Ofer, threshold, seat math)
-- `https://data.gov.il/dataset/votes-knesset` (Central Elections Committee CSVs)
+- `https://data.gov.il/api/3/action/package_show?id=votes-knesset` (Central Elections Committee CSVs, CKAN API)
 - `https://www.bechirot.gov.il/` (Central Elections Committee live site)
 - `https://en.idi.org.il/` (Israel Democracy Institute, post-election analysis)
 - `https://github.com/hasadna/knesset-data` (community ETL of internal Knesset DBs)
-- `https://www.odata.org` (OData v4 spec)
+- `https://www.odata.org/documentation/` (OData v4 spec)
