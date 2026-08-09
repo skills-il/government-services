@@ -252,8 +252,8 @@
       "id": "vehicle-2-years",
       "claim": "Personal vehicle import (48-month vehicle-age window, within 9 months of entry) is open to a toshav chozer absent from Israel two years or more; the 6-year figure is the income-tax tier and does not govern customs.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "תושב חוזר",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "תושב חוזר שנעדר מישראל שנתיים או יותר",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "pidyon-16860-he",
@@ -265,9 +265,9 @@
     {
       "id": "min-health-123",
       "claim": "A resident abroad in a treaty country pays health contributions only; the minimum health component is 123 ש\"ח per month (2026).",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "123",
-      "fetched_on": "2026-07-14"
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9e%d7%99%20%d7%a9%d7%90%d7%99%d7%a0%d7%9d%20%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%95%d7%91%d7%a2%d7%9c%d7%99%20%d7%94%d7%9b%d7%a0%d7%a1%d7%94%20%d7%a9%d7%9c%d7%90%20%d7%9e%d7%a2%d7%91%d7%95%d7%93%d7%94.aspx",
+      "raw_snippet": "דמי ביטוח לאומי בסך 143 ש\"ח לחודש דמי ביטוח בריאות בסך 123 ש\"ח לחודש",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "min-total-266",
@@ -279,107 +279,65 @@
     {
       "id": "annual-cost-1476-3192",
       "claim": "Keeping Bituach Leumi current while abroad therefore costs roughly 1,476 NIS a year (treaty country, 123/month) to 3,192 NIS / 3,192 ש\"ח a year (non-treaty, 266/month) -- far less than the 16,860 pidyon.",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "266",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "apostille-fees",
-      "claim": "Illustrative relocation budgeting figures used in Example 1: apostille stamps about 164 NIS / 164 ש\"ח (4 documents at ~41 NIS each, 2026 rate), and an international driving permit about 80 NIS / 80 ש\"ח. These are budgeting estimates, not statutory amounts.",
-      "source_url": "https://www.gov.il/he/service/apostille",
-      "raw_snippet": "אפוסטיל",
-      "fetched_on": "2026-07-14"
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9e%d7%99%20%d7%a9%d7%90%d7%99%d7%a0%d7%9d%20%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%95%d7%91%d7%a2%d7%9c%d7%99%20%d7%94%d7%9b%d7%a0%d7%a1%d7%94%20%d7%a9%d7%9c%d7%90%20%d7%9e%d7%a2%d7%91%d7%95%d7%93%d7%94.aspx",
+      "raw_snippet": "בסך הכל, מי שאינו עובד ואין לו הכנסות ישלם 266 ש\"ח בחודש.",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "health-only-123",
       "claim": "A resident abroad in a bilateral-treaty country who pays social security locally is exempt from Israeli NI on that income and pays only the Israeli health component, ₪123 / 123 ש\"ח per month.",
       "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "123",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "misc-35",
-      "claim": "Illustrative per-document/administrative fee of 35 ש\"ח used in the relocation budgeting example.",
-      "source_url": "https://www.gov.il/he/service/apostille",
-      "raw_snippet": "אגרה",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "ושילם דמי ביטוח לאומי במדינת אמנה- יחויב בדמי ביטוח בריאות בלבד",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "min-266-shekel-sign",
       "claim": "Minimum monthly contribution for a resident abroad with no income: ₪266 (266 NIS), from 01.01.2026.",
       "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "266",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "apostille-per-doc",
-      "claim": "Apostille fee per document: ₪41 (about 35 ש\"ח / ₪35 for some document classes), 2026 rates. Budgeting estimates.",
-      "source_url": "https://www.gov.il/he/service/apostille",
-      "raw_snippet": "אגרה",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "מי שאין לו הכנסות - ישלם דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש.",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "form-1301",
-      "claim": "טופס 1301 is the Israeli annual income tax return (דוח שנתי), referenced when a relocating resident must keep filing.",
+      "claim": "טופס 1301 is the Israeli annual income tax return for individuals and non-corporate business owners, confirmed on the Israel Tax Authority department page. The residency declaration filed together with it is טופס 1348; that form number is stated here as the Tax Authority's designation and was NOT independently re-verified against an Israel Tax Authority page in the 2026-08 evidence pass (the ITA form pages were not reachable).",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "1301",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "form-1348",
-      "claim": "טופס 1348 is the declaration of foreign residency / severing residency (הצהרת תושבות), referenced for the nituk toshavut path.",
-      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "1348",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "noise-bold-2026",
-      "claim": "Extractor noise: the markdown bold marker before the year (**2026 minimums**, **2026 change to reporting**) is read as a phone-star token *2026. Not a phone number.",
-      "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
-      "raw_snippet": "2026",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "דוח מס שנתי 2025 ליחידים ובעלי עסקים שאינם חברה (טופס 1301)",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "phone-6050",
       "claim": "Bituach Leumi national phone line is *6050.",
       "source_url": "https://www.btl.gov.il/Pages/default.aspx",
-      "raw_snippet": "*6050",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "itc-sections",
       "claim": "Income Tax Ordinance sections cited: Section 3 / סעיף 3 (deemed income), Section 14 / סעיף 14 (new-immigrant and veteran-returning-resident exemption on foreign income), Section 100א / Section 102 (exit tax on deemed sale of assets on ceasing residency; Section 102 employee equity).",
-      "source_url": "https://www.nevo.co.il/law_html/law01/P182K1_001.htm",
-      "raw_snippet": "פקודת מס הכנסה",
-      "fetched_on": "2026-07-14"
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "יחיד שהיה לתושב ישראל לראשונה או שהיה לתושב חוזר ותיק, כאמור בסעיף 14(א), וטרם חלפו עשר שנים מהמועד שהיה לתושב ישראל כאמור",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "marginal-50",
       "claim": "Some asset classes are taxed as ordinary income at marginal rates, up to 50% (including the surtax).",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income",
-      "raw_snippet": "50%",
-      "fetched_on": "2026-07-14"
-    },
-    {
-      "id": "property-mgmt-8",
-      "claim": "Property management of an Israeli apartment while abroad typically costs 5-8% of monthly rent (market estimate, not a statutory figure).",
-      "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
-      "raw_snippet": "ניהול נכס",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "a 3% surtax applies on annual taxable income exceeding ILS 721,560, resulting in a 50% maximum income tax rate",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "kolzchut-refs",
       "claim": "Kol-Zchut reference pages cited in this skill: תושבים חוזרים, דמי ביטוח לאומי ודמי ביטוח בריאות לתושב ישראל השוהה בחו\"ל, ביטוח לאומי מרצון, יבוא אישי של רכב לתושבים וסטודנטים חוזרים, קיצור/דחייה או שחרור משירות מילואים עקב יציאה לחו\"ל.",
       "source_url": "https://www.kolzchut.org.il/he/תושבים_חוזרים",
-      "raw_snippet": "תושבים חוזרים",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "מתן ייעוץ, הכוונה וסיוע לתושבים חוזרים - בקונסוליות ישראל בחו\"ל ובלשכות משרד הקליטה בארץ.",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "pwc-refs",
       "claim": "PwC Tax Summaries pages cited: https://taxsummaries.pwc.com/israel/individual/tax-administration (annual filing, Form 1301) and https://taxsummaries.pwc.com/israel/individual/residence (days test and center-of-life test).",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/tax-administration",
-      "raw_snippet": "tax administration",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "Tax returns are filed on a calendar-year basis.",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "sec-100a-102-he",
@@ -415,6 +373,13 @@
       "source_url": "https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו",
       "raw_snippet": "שירות מילואים",
       "fetched_on": "2026-07-14"
+    },
+    {
+      "id": "btl-rates-hub",
+      "claim": "The Bituach Leumi contribution-rate hub page links the per-status rate pages; the 'לא עובד' / 'למי שאינם עובדים ולבעלי הכנסה שלא מעבודה' page under it carries the minimum NI (143) and health (123) amounts, total 266 per month. The deep page URL is percent-encoded Hebrew, so the skill body links the hub instead.",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/default.aspx",
+      "raw_snippet": "שיעורי דמי ביטוח והסכומים דרכים לדיווח ולתשלום דמי ביטוח תיאום דמי ביטוח חוב בדמי ביטוח תושב ישראל השוהה בחו\"ל",
+      "fetched_on": "2026-08-09"
     }
   ]
 }

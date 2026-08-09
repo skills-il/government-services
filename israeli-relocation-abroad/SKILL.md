@@ -92,7 +92,7 @@ Two to three months before the flight is the right window for most of this.
 An Israeli who stays a tax resident must keep paying Bituach Leumi and health insurance (dmei briut) while abroad, even with zero income. This is how you keep continuous kupat cholim coverage and avoid a waiting period on return.
 
 - Contribution rates on reported income abroad: 7% National Insurance + 5% health insurance (on amounts above the reduced-rate ceiling, lower rates below)
-- **2026 minimums (Bituach Leumi, effective 01.01.2026):**
+- **Bituach Leumi minimums, effective 01.01.2026:**
   - Non-treaty country, no income: ₪266/month combined (NI + health)
   - Treaty country (USA, UK, most of EU, Canada), paying social security locally: ₪123/month (health only)
 - Open a standing order (horaat keva) before leaving so payments don't lapse
@@ -132,7 +132,7 @@ For any Israeli public document you may need abroad (marriage certificate, birth
 | Notarized translations | Court secretariat | Any court in Israel |
 | University diplomas | First notarize and translate, then court secretariat for the notarization | Any court |
 
-Court-issued apostille stamps cost **41 NIS per stamp** (updated 01.01.2026, was ₪35 through 2025). Budget for one per language per document (translations often need their own apostille).
+Court-issued apostille stamps carry a per-stamp court fee. Confirm the current fee with the court secretariat before budgeting, and allow for one stamp per language per document (translations often need their own apostille).
 
 **Driver's license:** Apply for an International Driving Permit (IDP, rishayon binleumi) at a MEMSI office before leaving. It is valid for 1 year and is required on top of your Israeli license in most countries.
 
@@ -174,7 +174,7 @@ If you stayed out long enough and did not maintain Israeli tax residency, Israel
 | Toshav Chozer (regular) | Foreign resident 6+ consecutive years | 5-year exemption from tax on foreign-source passive income (interest, dividends, royalties, pensions) and 10 years on specific foreign financial assets |
 | Toshav Chozer Vatik (veteran) | Foreign resident 10+ consecutive years | 10-year exemption from Israeli tax on all foreign-source income and gains from foreign assets -- under Section 14 of the Income Tax Ordinance. Same treatment as a new immigrant |
 
-**2026 change to reporting:** The reporting exemption was repealed by Amendment 272 to the Income Tax Ordinance (published April 2025, applies to anyone becoming an Israeli resident from January 1, 2026 onward). The 10-year exemption from reporting foreign income and assets is gone. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing the worldwide income as exempt income. People who became residents before January 1, 2026 keep both exemptions.
+**Reporting change from 2026:** The reporting exemption was repealed by Amendment 272 to the Income Tax Ordinance (published April 2025, applies to anyone becoming an Israeli resident from January 1, 2026 onward). The 10-year exemption from reporting foreign income and assets is gone. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing the worldwide income as exempt income. People who became residents before January 1, 2026 keep both exemptions.
 
 **Customs and belongings:**
 - Household goods and personal effects can be imported duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
@@ -230,7 +230,7 @@ Actions:
 3. Generate pre-move checklist: Bituach Leumi continuation via standing order if staying resident, or formal exit if cutting; apartment rental with 10% landlord tax track; apostille on marriage and children's birth certificates
 4. Pension fund: freeze the comprehensive fund and keren hishtalmut, do not withdraw (withdrawal triggers ~47% tax)
 5. School records: apostille teudat gmar for kids in case of re-enrollment abroad
-6. Budget for relocation: apostille stamps ~164 NIS (marriage + 2 birth + 1 diploma at ₪41 each, 2026 rate), IDP 80 NIS, property management 5-8% of monthly rent
+6. Budget for relocation: apostille stamps (one per document -- marriage, both birth certificates, diploma), an international driving permit, and property management fees on the Israeli apartment. Get current prices from the court secretariat, MEMSI/Israeli automobile club, and the managing agency -- do not quote figures from memory
 
 Result: 12-week phased checklist with financial estimates and a flagged decision point for tax residency to review with an accountant.
 
@@ -296,10 +296,10 @@ All three MCPs are optional -- this skill works without them, but pairing gives 
 
 | Source | URL | What to check |
 |--------|-----|----------------|
-| Bituach Leumi -- Israelis abroad | https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx | Current contribution rates and minimum health insurance amount |
+| Bituach Leumi -- contribution rates for non-workers | https://www.btl.gov.il/Insurance/Rates/Pages/default.aspx | Minimum national insurance and health insurance amounts (the Living_abroad landing page carries no figures) |
 | Kol-Zchut -- National insurance while abroad | https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו"ל | Payment procedure and treaty country exemptions |
 | Kol-Zchut -- Returning resident benefits | https://www.kolzchut.org.il/he/תושבים_חוזרים | Toshav chozer and toshav chozer vatik eligibility and rights |
-| PwC Tax Summaries -- Israel tax administration | https://taxsummaries.pwc.com/israel/individual/tax-administration | Annual filing process and Form 1301 details |
+| PwC Tax Summaries -- Israel tax administration | https://taxsummaries.pwc.com/israel/individual/tax-administration | Annual filing process, who must file, and the top marginal rate |
 | PwC Tax Summaries -- Israel individual residence | https://taxsummaries.pwc.com/israel/individual/residence | Days test and center-of-life test details |
 | hltaxes -- Israeli exit tax overview | https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat | Section 100A deemed-sale mechanics, rates, deferral option |
 | Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו"ל | Form 58 vs Valtam, timing, appeal route |
@@ -320,7 +320,7 @@ Solution: Log in at btl.gov.il, check the personal area (ezor ishi) for outstand
 
 ### Error: "Need to apostille an Israeli birth certificate from abroad"
 Cause: The user is no longer in Israel but needs an apostilled document.
-Solution: Two paths -- (1) authorize a family member in Israel with power of attorney to get the document from Misrad HaPnim and the apostille from Misrad HaChutz, or (2) use a paid apostille service in Israel that handles end-to-end. Budget 41 NIS per court apostille (2026 rate) plus the service fee.
+Solution: Two paths -- (1) authorize a family member in Israel with power of attorney to get the document from Misrad HaPnim and the apostille from Misrad HaChutz, or (2) use a paid apostille service in Israel that handles end-to-end. Budget the current court apostille fee plus the service fee.
 
 ### Error: "Severance / pitzuim treatment at exit from Israeli employer is unclear"
 Cause: User signed a Tofes 161 incorrectly or did not understand the ritza (tax deferral) option.
