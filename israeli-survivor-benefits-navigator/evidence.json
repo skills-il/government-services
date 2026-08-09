@@ -4,13 +4,23 @@
   "generated_at": "2026-07-07",
   "claims": [
     {
-      "id": "widow-40-50-no-children",
+      "id": "widow-40-50-no-children-a",
       "claim": "Survivor's allowance for a widow(er) aged 40-50 without children is 1,381 NIS/month (from 01.01.2026).",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "להלן סכומי הקצבה לחודש החל מ- 01.01.2026: ... לאלמן/ה בגיל 50-40 בלי ילדים 1,381 ש\"ח",
+      "raw_snippet": "להלן סכומי הקצבה לחודש החל מ- 01.01.2026:",
       "confidence": "high"
+    },
+    {
+      "id": "widow-40-50-no-children-b",
+      "claim": "Survivor's allowance for a widow(er) aged 40-50 without children is 1,381 NIS/month (from 01.01.2026).",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לאלמן/ה בגיל 50-40 בלי ילדים     ​ 1,381 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "widow-50plus-no-children",
@@ -18,8 +28,9 @@
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לאלמן/ה בגיל 50 ומעלה בלי ילדים 1,838 ש\"ח",
-      "confidence": "high"
+      "raw_snippet": "לאלמן/ה בגיל 50 ומעלה בלי ילדים    ​ 1,838 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "widow-80plus",
@@ -27,8 +38,9 @@
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לאלמן/ה בגיל 80 ומעלה 1,941 ש\"ח",
-      "confidence": "high"
+      "raw_snippet": "לאלמן/ה בגיל 80 ומעלה      ​ 1,941 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "widow-one-child",
@@ -36,8 +48,9 @@
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לאלמן/ה עם ילד אחד 2,700 ש\"ח",
-      "confidence": "high"
+      "raw_snippet": "לאלמן/ה עם ילד אחד         ​ 2,700 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "widow-two-children",
@@ -45,16 +58,26 @@
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לאלמן/ה עם שני ילדים 3,562 ש\"ח",
-      "confidence": "high"
+      "raw_snippet": "לאלמן/ה עם שני ילדים   ​ 3,562 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
-      "id": "widow-each-additional-child",
+      "id": "widow-each-additional-child-a",
       "claim": "Each additional child beyond two adds 862 NIS/month to the widow(er) survivor's allowance (from 01.01.2026); there is no limit on the number of eligible children.",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לכל ילד נוסף 862 ש\"ח ... לתשומת הלב, אין הגבלה במספר הילדים הזכאים",
+      "raw_snippet": "לכל ילד נוסף 862 ש\"ח",
+      "confidence": "high"
+    },
+    {
+      "id": "widow-each-additional-child-b",
+      "claim": "Each additional child beyond two adds 862 NIS/month to the widow(er) survivor's allowance (from 01.01.2026); there is no limit on the number of eligible children.",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לתשומת הלב, אין הגבלה במספר הילדים הזכאים",
       "confidence": "high"
     },
     {
@@ -63,8 +86,9 @@
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.almanim.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לאלמן/ה המקבלים קצבת אזרח ותיק, וזכאים למחצית מקצבת שאירים 919 ש\"ח",
-      "confidence": "high"
+      "raw_snippet": "לאלמן/ה המקבלים קצבת אזרח ותיק, וזכאים למחצית מקצבת שאירים​ 919 ש\"ח ​",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "widow-amount-depends-age-children",
@@ -76,12 +100,21 @@
       "confidence": "high"
     },
     {
-      "id": "orphan-parent-ineligible-single",
+      "id": "orphan-parent-ineligible-single-a",
       "claim": "Allowance for an orphan whose parent is not entitled to a survivor's allowance is 1,142 NIS/month for a single child (from 01.01.2026).",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.yatom.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "קצבה ליתום שהורהו אינו זכאי לקצבת שאירים ... סכום הקצבה לילד יחיד - 1,142 ש\"ח (החל ב- 01.01.2026)",
+      "raw_snippet": "קצבה ליתום שהורהו אינו זכאי לקצבת שאירים",
+      "confidence": "high"
+    },
+    {
+      "id": "orphan-parent-ineligible-single-b",
+      "claim": "Allowance for an orphan whose parent is not entitled to a survivor's allowance is 1,142 NIS/month for a single child (from 01.01.2026).",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.yatom.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "סכום הקצבה לילד יחיד - 1,142 ש\"ח (החל ב- 01.01.2026)",
       "confidence": "high"
     },
     {
@@ -94,21 +127,48 @@
       "confidence": "high"
     },
     {
-      "id": "orphan-both-parents",
+      "id": "orphan-both-parents-a",
       "claim": "An orphan of both parents is entitled to 2,284 NIS/month per child (from 01.01.2026), from each parent's entitlement.",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.yatom.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "קצבה ליתום משני הורים ... סכום הקצבה לכל ילד - 2,284 ש\"ח (החל ב- 01.01.2026)",
+      "raw_snippet": "קצבה ליתום משני הורים",
       "confidence": "high"
     },
     {
-      "id": "seniority-increment",
+      "id": "orphan-both-parents-b",
+      "claim": "An orphan of both parents is entitled to 2,284 NIS/month per child (from 01.01.2026), from each parent's entitlement.",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/k.yatom.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "סכום הקצבה לכל ילד - 2,284 ש\"ח (החל ב- 01.01.2026)",
+      "confidence": "high"
+    },
+    {
+      "id": "seniority-increment-a",
       "claim": "The seniority increment (tosefet vetek) adds 2% of the base allowance per insurance year (from the first year since January 2019), up to a maximum of 50%. A full insurance year is 12 insurance months.",
       "claim_type": "percentage",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/vetek.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "מקסימום תוספת הוותק שניתן לקבל- 50% מהקצבה. ... מינואר 2019 משולמת תוספת ותק בשיעור של 2% עבור כל שנת ביטוח, כלומר משנת הביטוח הראשונה. ... כשנת ביטוח מלאה ייחשבו 12 חודשי ביטוח",
+      "raw_snippet": "מקסימום תוספת הוותק שניתן לקבל- 50% מהקצבה.",
+      "confidence": "high"
+    },
+    {
+      "id": "seniority-increment-b",
+      "claim": "The seniority increment (tosefet vetek) adds 2% of the base allowance per insurance year (from the first year since January 2019), up to a maximum of 50%. A full insurance year is 12 insurance months.",
+      "claim_type": "percentage",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/vetek.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מינואר 2019 משולמת תוספת ותק בשיעור של 2% עבור כל שנת ביטוח, כלומר משנת הביטוח הראשונה.",
+      "confidence": "high"
+    },
+    {
+      "id": "seniority-increment-c",
+      "claim": "The seniority increment (tosefet vetek) adds 2% of the base allowance per insurance year (from the first year since January 2019), up to a maximum of 50%. A full insurance year is 12 insurance months.",
+      "claim_type": "percentage",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/vetek.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "כשנת ביטוח מלאה ייחשבו 12 חודשי ביטוח",
       "confidence": "high"
     },
     {
@@ -135,34 +195,71 @@
       "claim_type": "feature",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/Pages/default.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "הקצבה מגיעה למי שעונה על כל התנאים האלה: הנפטר היה מבוטח בביטוח שאירים בעת פטירתו; הנפטר השלים תקופת אכשרה (ביטוח); אתה/את נמנה/ית עם שאיריו של הנפטר/ת; אין פיגור בתשלום דמי הביטוח",
-      "confidence": "high"
+      "raw_snippet": "הקצבה מגיעה למי שעונה על כל  התנאים האלה: הנפטר היה מבוטח בביטוח שאירים בעת פטירתו הנפטר השלים תקופת אכשרה (ביטוח) תקופות ביטוח לאישה נשואה שנפטרה אתה/את נמנה/ית עם שאיריו של הנפטר/ת אין פיגור בתשלום דמי הביטוח",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
-      "id": "survivor-grant",
+      "id": "survivor-grant-a",
       "claim": "A survivor grant (menak she'erim) is a one-time payment to a widow(er) who is under 40 with no children (or in income-based cases), equal to 36 monthly survivor's allowances.",
       "claim_type": "feature",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "מענק שאירים הוא תשלום חד-פעמי המשולם לאלמן או לאלמנה ... אלמן או אלמנה שעדיין לא מלאו להם 40 שנה ואין עמם ילדים. ... שיעור המענק - סכום של 36 קצבאות שאירים חודשיות.",
+      "raw_snippet": "מענק שאירים הוא תשלום חד-פעמי המשולם לאלמן או לאלמנה",
       "confidence": "high"
     },
     {
-      "id": "death-grant-amount",
+      "id": "survivor-grant-b",
+      "claim": "A survivor grant (menak she'erim) is a one-time payment to a widow(er) who is under 40 with no children (or in income-based cases), equal to 36 monthly survivor's allowances.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "אלמן או אלמנה שעדיין לא מלאו להם 40 שנה ואין עמם ילדים.",
+      "confidence": "high"
+    },
+    {
+      "id": "survivor-grant-c",
+      "claim": "A survivor grant (menak she'erim) is a one-time payment to a widow(er) who is under 40 with no children (or in income-based cases), equal to 36 monthly survivor's allowances.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "שיעור המענק - סכום של 36 קצבאות שאירים חודשיות.",
+      "confidence": "high"
+    },
+    {
+      "id": "death-grant-amount-a",
       "claim": "The death grant (menak petira) is a one-time 10,514 NIS (from 01.01.2026), paid to the spouse of a deceased who received old-age, income-support, general-disability, special-services, work-injury, survivors, or prisoners-of-Zion benefits; if no spouse, to the child.",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A4%D7%98%D7%99%D7%A8%D7%94.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "מענק פטירה משולם לבן זוג של נפטר, שקיבל עד לפטירתו אחת מהקצבאות האלה: קצבת אזרח ותיק, הבטחת הכנסה, נכות כללית, שירותים מיוחדים, נפגעי עבודה, שאירים או אסירי ציון. ... סכום המענק הוא 10,514 ש\"ח (החל ב- 01.01.2026).",
+      "raw_snippet": "מענק פטירה משולם לבן זוג של נפטר, שקיבל עד לפטירתו אחת מהקצבאות האלה: קצבת אזרח ותיק, הבטחת הכנסה, נכות כללית, שירותים מיוחדים, נפגעי עבודה, שאירים או אסירי ציון.",
       "confidence": "high"
     },
     {
-      "id": "death-grant-automatic-and-claim",
+      "id": "death-grant-amount-b",
+      "claim": "The death grant (menak petira) is a one-time 10,514 NIS (from 01.01.2026), paid to the spouse of a deceased who received old-age, income-support, general-disability, special-services, work-injury, survivors, or prisoners-of-Zion benefits; if no spouse, to the child.",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A4%D7%98%D7%99%D7%A8%D7%94.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "סכום המענק הוא 10,514 ש\"ח (החל ב- 01.01.2026).",
+      "confidence": "high"
+    },
+    {
+      "id": "death-grant-automatic-and-claim-a",
       "claim": "The death grant is usually paid automatically; a survivor's-allowance claim (form 410) already includes the death-grant claim, so no separate form is needed.",
       "claim_type": "feature",
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A4%D7%98%D7%99%D7%A8%D7%94.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "מענק הפטירה משולם בדרך כלל באופן אוטומטי. ... אם כבר הגשת תביעה לקצבת שאירים, אין צורך למלא גם את הטופס לתשלום מענק פטירה (התביעה לקצבת שאירים כוללת גם את התביעה למענק פטירה).",
+      "raw_snippet": "מענק הפטירה משולם בדרך כלל באופן אוטומטי.",
+      "confidence": "high"
+    },
+    {
+      "id": "death-grant-automatic-and-claim-b",
+      "claim": "The death grant is usually paid automatically; a survivor's-allowance claim (form 410) already includes the death-grant claim, so no separate form is needed.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%A4%D7%98%D7%99%D7%A8%D7%94.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "אם כבר הגשת תביעה לקצבת שאירים, אין צורך למלא גם את הטופס לתשלום מענק פטירה (התביעה לקצבת שאירים כוללת גם את התביעה למענק פטירה).",
       "confidence": "high"
     },
     {
@@ -189,8 +286,9 @@
       "claim_type": "percentage",
       "source_url": "https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20משפחה%20של%20נפטר%20מפגיעה%20בעבודה/Pages/שיעורי%20הגמלה.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "אלמן/ה + ילד אחד 80% (מתוכם 20% תוספת בעבור הילד); אלמן/ה + 2 ילדים 90% (מתוכם 30% תוספת בעבור הילדים); אלמן/ה + 3 ילדים ויותר 100% (מתוכם 40% תוספת בעבור הילדים)",
-      "confidence": "high"
+      "raw_snippet": "אלמן/ה + ילד אחד 80% (מתוכם 20% תוספת בעבור הילד) אלמן/ה + 2 ילדים 90% (מתוכם 30% תוספת בעבור הילדים) אלמן/ה + 3 ילדים ויותר 100% (מתוכם 40% תוספת בעבור הילדים)",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "dependents-widow-no-children",
@@ -198,17 +296,19 @@
       "claim_type": "percentage",
       "source_url": "https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20משפחה%20של%20נפטר%20מפגיעה%20בעבודה/Pages/שיעורי%20הגמלה.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "גיל האלמנה 50-40 שנה 40%; 50 שנה ומעלה 60%; עד 40 שנה מענק חד-פעמי בשיעור 60% כפול 36.",
-      "confidence": "high"
+      "raw_snippet": "שיעורי הקצבה לאלמנה שאין עמה ילדים נקבעים בהתאם לגילה כמפורט להלן:   גיל האלמנה שיעור הקצבה באחוזים מקצבת נכות מלאה מעבודה 50-40 שנה 40% 50 שנה ומעלה 60% עד 40 שנה מענק חד-פעמי בשיעור 60% כפול 36.",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "dependents-cannot-get-both",
       "claim": "Dependents' allowance for a work-related death is distinct from and cannot be received together with the ordinary survivor's allowance; the family chooses the applicable track for the same death.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/efsharutLekitzbaAjeret/Pages/zakaiLekitzbaAjeret.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "Related Benefits Listed: Pension fund survivor benefits; dependents allowance is the work-injury track (גמלת תלויים) paid instead of survivor's allowance when death resulted from a work injury.",
-      "confidence": "medium"
+      "raw_snippet": "מי שזכאי לקצבת שאירים וזכאי גם לקצבה אחרת על פי חוק הביטוח הלאומי, כגון קצבת תלויים בנפגעי עבודה, קצבת נכות כללית, קצבת נכות מעבודה, אינו יכול לקבל יותר מקצבה אחת, ועליו לבחור באחת מהן.",
+      "confidence": "medium",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "burial-grant",
@@ -216,26 +316,39 @@
       "claim_type": "feature",
       "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/default.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "הביטוח הלאומי משלם את הוצאות הקבורה והשירותים המקובלים בקשר לקבורה בעד כל אדם שנפטר בישראל ונקבר בה, ובעד כל תושב/ת ישראל שנפטר מחוץ לישראל. התשלומים מועברים ישירות מהביטוח הלאומי לחברה הקדישא",
-      "confidence": "high"
+      "raw_snippet": "התשלומים מועברים ישירות מהביטוח הלאומי לחברה הקדישא ולכל גוף שהורשה כדין לעסוק בקבורה, שחתמו על הסכם עם הביטוח הלאומי בעניין זה .",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
-      "id": "pension-fund-survivor-spouse",
-      "claim": "In a new comprehensive pension fund, a surviving spouse typically receives a survivor's pension of about 60% of the deceased's salary/pension for life, and orphans about 40% until age 21; exact rates and eligible survivors depend on the specific fund's regulations (takanon).",
+      "id": "pension-fund-survivor-spouse-a",
+      "claim": "Pension-fund survivor rates are set by each fund's takanon, not by statute. In the veteran Amitim funds the published split is 60% of the pension to the spouse, 20% to an orphan, 40% to an orphan of both parents and 15% to a dependent parent, capped at 100% of the pension in total. Other funds differ, so the fund must be asked directly.",
       "claim_type": "percentage",
       "source_url": "https://www.amitim.com/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A2%D7%9E%D7%99%D7%AA%D7%99%D7%9D/%D7%A7%D7%A6%D7%91%D7%AA-%D7%A9%D7%90%D7%A8%D7%99%D7%9D/",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "A spouse (including same-sex common-law spouses) is entitled to 60% of the basic salary for all their lives. Orphans are entitled to benefits until age 21 at 40% of the basic salary. ... Eligibility for survivor benefits depends on the definition of heirs according to the pension fund's regulations (תקנון).",
-      "confidence": "medium"
+      "raw_snippet": "אלמן/ה – 60% מהקצבה יתום – 20% מהקצבה יתום משני הוריו – 40% מהקצבה הורה נתמך (של המנוח/ה או של בן/ת הזוג) – 15% מהקצבה סך כל הקצבאות לשאירים לא יעלה על 100% מהקצבה",
+      "confidence": "medium",
+      "fetched_on": "2026-08-09"
     },
     {
-      "id": "beneficiary-overrides-will",
+      "id": "pension-fund-survivor-spouse-b",
+      "claim": "Pension-fund survivor rates are set by each fund's takanon, not by statute. In the veteran Amitim funds the published split is 60% of the pension to the spouse, 20% to an orphan, 40% to an orphan of both parents and 15% to a dependent parent, capped at 100% of the pension in total. Other funds differ, so the fund must be asked directly.",
+      "claim_type": "percentage",
+      "source_url": "https://www.amitim.com/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A2%D7%9E%D7%99%D7%AA%D7%99%D7%9D/%D7%A7%D7%A6%D7%91%D7%AA-%D7%A9%D7%90%D7%A8%D7%99%D7%9D/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "על הפונה לעמוד בהגדרות שאיר פנסיונר על פי התקנון, כמפורט בהמשך.",
+      "confidence": "medium",
+      "fetched_on": "2026-08-09"
+    },
+    {
+      "id": "beneficiary-overrides-will-a",
       "claim": "Under section 147 of the Inheritance Law, sums payable on death from a pension fund, provident fund (kupat gemel), or life-insurance policy are not part of the estate and go to the registered beneficiaries (motavim) in the policy, overriding the will, unless the deceased stipulated otherwise.",
       "claim_type": "law",
-      "source_url": "https://www.the-lawyer.co.il/%D7%A1%D7%A2%D7%99%D7%A3-147-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94/",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "סעיף 147 לחוק הירושה קובע כי סכומים שיש לשלם עקב מותו של אדם על פי חוזה ביטוח או על פי חברות בקופת קיצבה או בקופת תגמולים אינם בכלל העזבון, זולת אם הותנה שהם מגיעים לעזבון. ... כספי ביטוח חיים ... אינם כלולים בעיזבונו של הנפטר הם לא יחולקו לפי צוואה, והכספים מגיעים לידי המוטבים הרשומים בפוליסה בלבד",
-      "confidence": "high"
+      "raw_snippet": "147. דין תשלומים על פי ביטוח וכו׳ סכומים שיש לשלם עקב מותו של אדם על פי חוזה ביטוח, על פי חברות בקופת קיצבה או בקופת תגמולים או על פי עילה דומה, אינם בכלל העזבון, זולת אם הותנה שהם מגיעים לעזבון.",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "form-410-survivors",
@@ -279,8 +392,9 @@
       "claim_type": "form-number",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/t213.pdf",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "בל 213 ( 10.2025 ) תביעה ל תשלום גמל ה לתלויים בנפגעי עבודה",
-      "confidence": "high"
+      "raw_snippet": "המוסד לביטוח לאומי בל/213 מינהל הגמלאות תביעה לתשלום גמלה לתלויים בנפגעי עבודה",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
     },
     {
       "id": "special-allowance-non-insured",
@@ -292,12 +406,21 @@
       "confidence": "high"
     },
     {
-      "id": "sherim-eligibility-calculator",
+      "id": "sherim-eligibility-calculator-a",
       "claim": "Bituach Leumi provides an online survivor's-allowance eligibility calculator (SherimCalc) that checks entitlement for survivors of an insured deceased.",
       "claim_type": "url",
       "source_url": "https://www.btl.gov.il/Simulators/Pages/SherimCalc.aspx",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "בדיקת זכאות לקצבת שאירים ... מחשבון זה נועד לשאריו של מי שנפטר, והיה מבוטח ושולמו בעדו דמי ביטוח כחוק",
+      "raw_snippet": "בדיקת זכאות לקצבת שאירים",
+      "confidence": "high"
+    },
+    {
+      "id": "sherim-eligibility-calculator-b",
+      "claim": "Bituach Leumi provides an online survivor's-allowance eligibility calculator (SherimCalc) that checks entitlement for survivors of an insured deceased.",
+      "claim_type": "url",
+      "source_url": "https://www.btl.gov.il/Simulators/Pages/SherimCalc.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מחשבון זה נועד לשאריו של מי שנפטר, והיה מבוטח ושולמו בעדו דמי ביטוח כחוק",
       "confidence": "high"
     },
     {
@@ -346,12 +469,39 @@
       "confidence": "high"
     },
     {
-      "id": "orphan-age-cutoffs",
+      "id": "orphan-age-cutoffs-a",
       "claim": "For survivor benefits, an orphan is a child up to age 18; up to 20 if completing secondary school or in an IDF pre-military framework (mechina); up to 21 while volunteering for a public purpose (national/community service) for up to 12 months.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/הגדרת_יתום_על_פי_חוק_הביטוח_הלאומי",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "לא מלאו לו 18 שנים ... לא מלאו לו 20 שנים והוא מסיים את לימודיו במוסד חינוך על-יסודי ... לא מלאו לו 20 שנים והוא שוחר במסגרת קדם צבאית של צה\"ל ... לא מלאו לו 21 שנים והוא משרת בהתנדבות למטרה ציבורית עד 12 חודשים",
+      "raw_snippet": "לא מלאו לו 18 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "orphan-age-cutoffs-b",
+      "claim": "For survivor benefits, an orphan is a child up to age 18; up to 20 if completing secondary school or in an IDF pre-military framework (mechina); up to 21 while volunteering for a public purpose (national/community service) for up to 12 months.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הגדרת_יתום_על_פי_חוק_הביטוח_הלאומי",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לא מלאו לו 20 שנים והוא מסיים את לימודיו במוסד חינוך על-יסודי",
+      "confidence": "high"
+    },
+    {
+      "id": "orphan-age-cutoffs-c",
+      "claim": "For survivor benefits, an orphan is a child up to age 18; up to 20 if completing secondary school or in an IDF pre-military framework (mechina); up to 21 while volunteering for a public purpose (national/community service) for up to 12 months.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הגדרת_יתום_על_פי_חוק_הביטוח_הלאומי",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לא מלאו לו 20 שנים והוא שוחר במסגרת קדם צבאית של צה\"ל",
+      "confidence": "high"
+    },
+    {
+      "id": "orphan-age-cutoffs-d",
+      "claim": "For survivor benefits, an orphan is a child up to age 18; up to 20 if completing secondary school or in an IDF pre-military framework (mechina); up to 21 while volunteering for a public purpose (national/community service) for up to 12 months.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הגדרת_יתום_על_פי_חוק_הביטוח_הלאומי",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לא מלאו לו 21 שנים והוא משרת בהתנדבות למטרה ציבורית עד 12 חודשים",
       "confidence": "high"
     },
     {
@@ -382,30 +532,97 @@
       "confidence": "high"
     },
     {
-      "id": "remarriage-marriage-grant-statute",
+      "id": "remarriage-marriage-grant-statute-a",
       "claim": "Section 255 of the National Insurance Law: an under-40 childless widow not entitled to an allowance gets a grant equal to 36 times the survivor's-allowance rate; and a widow entitled to the allowance who remarries loses the allowance and is paid a grant in two installments (18 monthly allowances after the remarriage, and another 18 at the end of two years from the remarriage). A widower is treated the same.",
       "claim_type": "law",
       "source_url": "https://www.nevo.co.il/law_html/law01/039_002.htm",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "255. (א) אלמנה שלא מלאו לה עדיין 40 שנים ואינה זכאית לקצבה, או אלמנה שפקעה זכותה לקצבה שלא עקב נישואיה, ישלם לה המוסד מענק בסכום השווה לקצבת שאירים לפי שיעור הקצבה כאמור בסעיף 252(א)(1) כפול שלושים ושש. (ב) חזרה ונישאה אלמנה הזכאית לקצבת שאירים, תפקע זכותה לקצבת שאירים והמוסד ישלם לה מענק בשני שיעורים כלהלן: (1) לאחר יום נישואיה מחדש ... כפול שמונה עשרה; (2) כתום שנתיים מיום נישואיה מחדש ... כפול שמונה עשרה. (ד) דין אלמן לענין סעיף זה כדין אלמנה.",
+      "raw_snippet": "255. (א)  אלמנה שלא מלאו לה עדיין 40 שנים ואינה זכאית לקצבה, או אלמנה שפקעה זכותה לקצבה שלא עקב נישואיה, ישלם לה המוסד מענק בסכום השווה לקצבת שאירים לפי שיעור הקצבה כאמור בסעיף 252(א)(1) כפול שלושים ושש.",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
+    },
+    {
+      "id": "remarriage-marriage-grant-statute-b",
+      "claim": "Section 255 of the National Insurance Law: an under-40 childless widow not entitled to an allowance gets a grant equal to 36 times the survivor's-allowance rate; and a widow entitled to the allowance who remarries loses the allowance and is paid a grant in two installments (18 monthly allowances after the remarriage, and another 18 at the end of two years from the remarriage). A widower is treated the same.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_002.htm",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "כפול שמונה עשרה; (2) כתום שנתיים מיום נישואיה מחדש",
       "confidence": "high"
     },
     {
-      "id": "remarriage-continue-reinstate",
+      "id": "remarriage-marriage-grant-statute-c",
+      "claim": "Section 255 of the National Insurance Law: an under-40 childless widow not entitled to an allowance gets a grant equal to 36 times the survivor's-allowance rate; and a widow entitled to the allowance who remarries loses the allowance and is paid a grant in two installments (18 monthly allowances after the remarriage, and another 18 at the end of two years from the remarriage). A widower is treated the same.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_002.htm",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "(ד)  דין אלמן לענין סעיף זה כדין אלמנה.",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
+    },
+    {
+      "id": "remarriage-continue-reinstate-a",
       "claim": "On remarriage the survivor's allowance generally ends, but a remarried widow keeps the allowance if the new husband's monthly income does not exceed 7,848 NIS AND he cannot support himself or was 60+ on the marriage day; and the allowance is reinstated (from the date they cease being married) if the widow(er) begins divorce proceedings or divorces within 10 years of remarrying.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים_לאלמנות_ואלמנים_שנישאו_מחדש",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "ככלל, אלמנות ואלמנים שהיו זכאים לקצבת שאירים ... ונישאו מחדש לא זכאים יותר לקצבה. אלמנה שנישאה מחדש תהיה זכאית להמשך תשלום הקצבה, אם מתקיימים שני התנאים הבאים: הכנסת בעלה בחודש שנישאו לא עולה על 7,848 ש\"ח לחודש ... בעלה לא מסוגל לכלכל את עצמו, או שביום נישואיהם מלאו לו 60 שנה. ... נישאו מחדש והחלו בהליכי גירושין, או התגרשו בתוך 10 שנים ... תשלום הקצבה יחודש להם החל מהיום שבו חדלו להיות נשואים.",
+      "raw_snippet": "ככלל, אלמנות ואלמנים שהיו זכאים לקצבת שאירים",
       "confidence": "high"
     },
     {
-      "id": "under40-childless-child-waiver",
+      "id": "remarriage-continue-reinstate-b",
+      "claim": "On remarriage the survivor's allowance generally ends, but a remarried widow keeps the allowance if the new husband's monthly income does not exceed 7,848 NIS AND he cannot support himself or was 60+ on the marriage day; and the allowance is reinstated (from the date they cease being married) if the widow(er) begins divorce proceedings or divorces within 10 years of remarrying.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים_לאלמנות_ואלמנים_שנישאו_מחדש",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "אלמנה שנישאה מחדש תהיה זכאית להמשך תשלום הקצבה, אם מתקיימים שני התנאים הבאים: הכנסת בעלה בחודש שנישאו לא עולה על 7,848 ₪ לחודש (נכון לשנת 2026). בעלה לא מסוגל לכלכל את עצמו, או שביום נישואיהם מלאו לו 60 שנה.",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
+    },
+    {
+      "id": "remarriage-continue-reinstate-c",
+      "claim": "On remarriage the survivor's allowance generally ends, but a remarried widow keeps the allowance if the new husband's monthly income does not exceed 7,848 NIS AND he cannot support himself or was 60+ on the marriage day; and the allowance is reinstated (from the date they cease being married) if the widow(er) begins divorce proceedings or divorces within 10 years of remarrying.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים_לאלמנות_ואלמנים_שנישאו_מחדש",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "בעלה לא מסוגל לכלכל את עצמו, או שביום נישואיהם מלאו לו 60 שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "remarriage-continue-reinstate-d",
+      "claim": "On remarriage the survivor's allowance generally ends, but a remarried widow keeps the allowance if the new husband's monthly income does not exceed 7,848 NIS AND he cannot support himself or was 60+ on the marriage day; and the allowance is reinstated (from the date they cease being married) if the widow(er) begins divorce proceedings or divorces within 10 years of remarrying.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים_לאלמנות_ואלמנים_שנישאו_מחדש",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "נישאו מחדש והחלו בהליכי גירושין, או התגרשו בתוך 10 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "remarriage-continue-reinstate-e",
+      "claim": "On remarriage the survivor's allowance generally ends, but a remarried widow keeps the allowance if the new husband's monthly income does not exceed 7,848 NIS AND he cannot support himself or was 60+ on the marriage day; and the allowance is reinstated (from the date they cease being married) if the widow(er) begins divorce proceedings or divorces within 10 years of remarrying.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קצבת_שאירים_לאלמנות_ואלמנים_שנישאו_מחדש",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "תשלום הקצבה יחודש להם החל מהיום שבו חדלו להיות נשואים.",
+      "confidence": "high"
+    },
+    {
+      "id": "under40-childless-child-waiver-a",
       "claim": "The under-40 childless one-time grant is not absolute: a widow who bears the deceased's child (including after his death) is treated as a widow with a child and is entitled to the monthly allowance from the date of death; and a widow who had a child that is no longer with her is paid the allowance as if she were 50.",
       "claim_type": "law",
       "source_url": "https://www.nevo.co.il/law_html/law01/039_002.htm",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "אלמנה שילדה לו ילד אחרי מותו תהיה זכאית לקצבה החל ביום פטירתו של המבוטח, והמענק ששולם לה ייזקף על חשבון הקצבה המגיעה לה ... 256. אלמנה הזכאית לקצבת שאירים, שהיה עמה ילד ואינו עמה עוד, תשולם לה קצבה כאילו היא בת 50 שנים.",
+      "raw_snippet": "אלמנה שילדה לו ילד אחרי מותו תהיה זכאית לקצבה החל ביום פטירתו של המבוטח, והמענק ששולם לה ייזקף על חשבון הקצבה המגיעה לה;",
+      "confidence": "high",
+      "fetched_on": "2026-08-09"
+    },
+    {
+      "id": "under40-childless-child-waiver-b",
+      "claim": "The under-40 childless one-time grant is not absolute: a widow who bears the deceased's child (including after his death) is treated as a widow with a child and is entitled to the monthly allowance from the date of death; and a widow who had a child that is no longer with her is paid the allowance as if she were 50.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_002.htm",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "256. אלמנה הזכאית לקצבת שאירים, שהיה עמה ילד ואינו עמה עוד, תשולם לה קצבה כאילו היא בת 50 שנים.",
       "confidence": "high"
     },
     {
@@ -418,30 +635,57 @@
       "confidence": "high"
     },
     {
-      "id": "oldage-full-plus-half-survivors",
+      "id": "oldage-full-plus-half-survivors-a",
       "claim": "A person entitled to both an old-age (vatik) pension and a survivor's allowance is paid the old-age pension in full PLUS half of the survivor's allowance (if they accrued the old-age qualifying period as an insured worker). A widowed homemaker at the absolute pension age (70) is not paid the extra half and instead chooses the higher of the two allowances.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/קבלת_קצבת_שאירים_וקצבת_זיקנה",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "מקבל/ת קצבת שאירים שהגיע/ה לגיל הזכאות לקצבת זיקנה או מקבל/ת קצבת זיקנה שהתאלמן/ה, זכאי/ת לקצבת זיקנה מלאה ולמחצית קצבת שאירים, אם צבר/ה את תקופת האכשרה לקצבת זיקנה כמבוטח/ת עובד/ת. ... עקרת בית שהתאלמנה ומקבלת קצבת זיקנה בגיל הזכאות המוחלטת לקצבה (70) לא זכאית למחצית קצבת שאירים בנוסף לקצבת הזיקנה. היא יכולה לבחור בין קצבת זיקנה לקצבת שאירים, לפי הגבוהה מביניהן.",
+      "raw_snippet": "מקבל/ת קצבת שאירים שהגיע/ה לגיל הזכאות לקצבת זיקנה או מקבל/ת קצבת זיקנה שהתאלמן/ה, זכאי/ת לקצבת זיקנה מלאה ולמחצית קצבת שאירים, אם צבר/ה את תקופת האכשרה לקצבת זיקנה כמבוטח/ת עובד/ת.",
       "confidence": "high"
     },
     {
-      "id": "har-habituach",
+      "id": "oldage-full-plus-half-survivors-b",
+      "claim": "A person entitled to both an old-age (vatik) pension and a survivor's allowance is paid the old-age pension in full PLUS half of the survivor's allowance (if they accrued the old-age qualifying period as an insured worker). A widowed homemaker at the absolute pension age (70) is not paid the extra half and instead chooses the higher of the two allowances.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_קצבת_שאירים_וקצבת_זיקנה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "עקרת בית שהתאלמנה ומקבלת קצבת זיקנה בגיל הזכאות המוחלטת לקצבה (70) לא זכאית למחצית קצבת שאירים בנוסף לקצבת הזיקנה. היא יכולה לבחור בין קצבת זיקנה לקצבת שאירים, לפי הגבוהה מביניהן.",
+      "confidence": "high"
+    },
+    {
+      "id": "har-habituach-a",
       "claim": "Har HaBituach (הר הביטוח) is a free website set up by the Capital Market, Insurance and Savings Authority that aggregates a person's insurance information (insurance policies and pension products) in one place, so survivors can locate all of the deceased's policies and funds.",
       "claim_type": "url",
       "source_url": "https://harb.cma.gov.il/",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "הר הביטוח ... אתר חינמי שהוקם על ידי רשות שוק ההון, ביטוח וחיסכון המאגד את המידע הביטוחי לטובת ציבור המבוטחים",
+      "raw_snippet": "הר הביטוח",
       "confidence": "high"
     },
     {
-      "id": "har-hakesef",
+      "id": "har-habituach-b",
+      "claim": "Har HaBituach (הר הביטוח) is a free website set up by the Capital Market, Insurance and Savings Authority that aggregates a person's insurance information (insurance policies and pension products) in one place, so survivors can locate all of the deceased's policies and funds.",
+      "claim_type": "url",
+      "source_url": "https://harb.cma.gov.il/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "אתר חינמי שהוקם על ידי רשות שוק ההון, ביטוח וחיסכון המאגד את המידע הביטוחי לטובת ציבור המבוטחים",
+      "confidence": "high"
+    },
+    {
+      "id": "har-hakesef-a",
       "claim": "Har HaKesef (הר הכסף) at itur.mof.gov.il is an engine for locating lost or dormant pension savings, life-insurance policies, and bank accounts.",
       "claim_type": "url",
       "source_url": "https://itur.mof.gov.il/",
       "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "הר הכסף - מנוע לאיתור חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק ... היכן מחכים לך חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק אבודים?",
+      "raw_snippet": "הר הכסף - מנוע לאיתור חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק",
+      "confidence": "high"
+    },
+    {
+      "id": "har-hakesef-b",
+      "claim": "Har HaKesef (הר הכסף) at itur.mof.gov.il is an engine for locating lost or dormant pension savings, life-insurance policies, and bank accounts.",
+      "claim_type": "url",
+      "source_url": "https://itur.mof.gov.il/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "היכן מחכים לך חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק אבודים?",
       "confidence": "high"
     },
     {
