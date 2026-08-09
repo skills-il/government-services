@@ -1,72 +1,61 @@
 # Compensation Ceilings for Home Contents (War Damage)
 
-Source: Property Tax and Compensation Fund Law, 1961 (חוק מס רכוש וקרן פיצויים, תשכ"א-1961)
-Administered by: Israel Tax Authority (רשות המסים בישראל)
+Legal basis: תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (חפצים ביתיים), תשל"ג-1973,
+under חוק מס רכוש וקרן פיצויים, תשכ"א-1961.
+Administered by: Israel Tax Authority (רשות המסים בישראל), Compensation Fund (קרן הפיצויים).
 
 ## Important Note
 
-These amounts are updated periodically based on the Consumer Price Index (CPI).
-**Always verify current amounts on the Tax Authority website (mas.gov.il) before
-advising users.** Israeli accountants tracking the 2026 figures (cpa-dray.com,
-hilan, Goldfarb) report several upward adjustments since the 2023-25 figures.
-The figures below are approximate, current as of early 2026.
+These amounts are index-linked and re-issued on 1 January and 1 July.
+The table below is the **01.01.2026** column. **Re-check the current column on the
+Tax Authority site before quoting a figure for a later date.**
 
-## Total Contents Ceiling by Household Size (2026)
+## Household-contents ceilings, effective 01.01.2026 (NIS)
 
-| Household Composition | Approximate Total Ceiling (NIS) |
-|---|---|
-| Single person | ~52,750 |
-| Married couple or single parent | ~85,000 |
-| Elderly relative supplement (per relative) | ~10,000 |
-| Each additional child (under 18) | ~8,460 supplement |
-| Family of 4 (couple + 2 children) | ~103,000 |
-| Family of 5 (couple + 3 children) | ~110,000 |
+| Category | Single person | Married couple / single parent | Each child under 18 | Each additional adult |
+|---|---|---|---|---|
+| Furniture (רהיטים) | 14,198 | 24,552 | 4,964 | 7,258 |
+| Clothing (בגדים) | 2,366 | 4,731 | 710 | 2,366 |
+| Electrical appliances and electronics (מכשירי חשמל ואלקטרוניקה) | 24,894 | 30,175 | 505 | 3,961 |
+| Other household items (חפצים ביתיים אחרים) | 10,370 | 24,891 | 2,281 | 4,563 |
+| **Total** | **51,828** | **84,349** | **8,460** | **18,148** |
 
-## Category Breakdown (Couple / Single Parent)
+The four ceilings are **per category and not interchangeable**: unused furniture
+headroom does not top up an over-ceiling appliance loss.
 
-| Category | Hebrew | Approximate Ceiling (NIS) |
-|---|---|---|
-| Furniture | רהיטים | ~25,000 |
-| Electrical appliances & electronics | מכשירי חשמל ואלקטרוניקה | ~30,000 |
-| Clothing | ביגוד | Per-person allocation |
+"חפצים ביתיים אחרים" is the category claimants most often leave unused. It covers
+kitchenware, tools, linens, books and records, toys and similar household goods.
 
-## Per-Child Supplement (Under 18)
+## What Counts as "Contents" (חפץ ביתי)
 
-| Category | Approximate Amount (NIS) |
-|---|---|
-| Furniture | ~4,964 |
-| Clothing | ~710 |
-| Total per child | ~8,460 |
-
-## What Counts as "Contents" (תכולה)
-
-Movable property that can be relocated:
-- Electrical appliances (refrigerator, TV, washing machine, air conditioner)
-- Non-built-in furniture (sofas, beds, tables, chairs, dining sets)
-- Clothing and personal items
-- Kitchen utensils
-- Bicycles
-- Computers and electronics
+Verbatim from the regulation's definition: "רהיטים, ביגוד, כלים, מכשירים לשימוש
+ביתי, ספרים ותקליטים, המצויים בבית מגוריו של אדם ואינם נכס כהגדרתו בחוק, למעט
+תכשיטים, חפצי אמנות ועתיקות".
 
 ## What is NOT Covered
 
-- Jewelry (תכשיטים)
-- Artwork and art objects (יצירות אמנות)
-- Cash
-- Items in storage outside the home (unless damaged at that location)
+- Jewellery (תכשיטים)
+- Artworks (חפצי אמנות) and antiques (עתיקות)
+- Cash and cheques
 
 ## Structural Damage
 
-No ceiling applies to structural damage (walls, roof, windows, doors, infrastructure).
-Full compensation is provided for restoring the structure to its pre-damage condition.
+Structural damage is not settled from the contents table. The Compensation Fund's
+staff, assisted by engineers and assessors, inspect the damaged building and set
+the amount needed to restore it.
 
-## Optional Extended Insurance (ביטוח רשות המסים)
+## Optional Extended Insurance (ביטוח רשות של חפצים ביתיים)
 
-For contents exceeding the standard ceiling:
-- Premium: 0.3% of additional insured value per year
-- Maximum insurable value: NIS 1,037,100 (2026)
-- Maximum annual premium: NIS 3,111 (2026)
-- Available online through the Tax Authority website
-- Coverage starts immediately upon payment, valid through December 31
+For contents worth more than the ceilings above:
+- Premium: 0.3% per year of the additional value being insured
+- Maximum additional value that can be insured: NIS 1,037,100 (as of 2026)
+- Purchased online, or on a declaration form at a Tax Authority office
+- Takes effect after the premium is paid and the declaration is accepted; valid to 31.12 of that year
 - No cancellation after purchase
-- This is the ONLY product covering war damage to home contents above the standard ceiling
+- This is the only product covering war damage to home contents above the standard ceiling
+
+## Sources
+
+- https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה
+- https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה
+- https://www.nevo.co.il/law_html/law01/273_034.htm

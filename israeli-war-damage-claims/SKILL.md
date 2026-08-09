@@ -132,8 +132,9 @@ If the user's contents are worth more than the standard ceiling, the Tax Authori
 
 **Key details:**
 - Premium: 0.3% of the additional insured value per year
+- Maximum additional value that can be insured: NIS 1,037,100 (as of 2026)
 - Available since 2007, but subscriber numbers surged after October 2023
-- Coverage starts immediately upon payment and runs through year-end
+- Coverage takes effect after the premium is paid and the declaration is accepted, and runs to 31.12 of that year
 - No cancellation option after purchase
 - This is the ONLY product in Israel that covers war damage to contents above the standard ceiling (regular home insurance excludes war damage)
 
@@ -189,7 +190,7 @@ If the user's claim is denied or the compensation amount is too low, they can ap
 ## Examples
 
 ### Example 1: Apartment damaged by rocket -- fast track
-User says: "A missile hit near my building, all my windows are shattered and some furniture is destroyed. The damage is probably around NIS 20,000."
+User says: "A missile hit near my building, all my windows are shattered and some furniture is destroyed. The damage looks well under the fast-track ceiling."
 
 Actions:
 1. Confirm damage is under NIS 30,000 -- recommend Fast Track
@@ -211,7 +212,7 @@ Actions:
 6. If contents worth more, suggest purchasing optional insurance for future incidents
 
 ### Example 3: Appeal a denied claim
-User says: "My compensation claim was approved but they gave me only NIS 15,000 when the damage was at least NIS 40,000. How do I appeal?"
+User says: "My compensation claim was approved but they paid out roughly a third of what the assessor-visible damage was worth. How do I appeal?"
 
 Actions:
 1. The appeal deadline is 30 days from delivery of the decision, so check the date on the letter first
@@ -236,7 +237,6 @@ Actions:
 | Property Tax and Compensation Fund Law (1961) | https://www.nevo.co.il/law_html/law01/273_001.htm | Statute (Tekana) numbering: regulations 8/9/10/11/12 distinctions |
 | Property Tax Regulations (1973) | https://www.nevo.co.il/law_html/law01/273_020.htm | Reg 8 (manager's decision), Reg 9 (corrections, 4-year window), Reg 10 (committee composition) |
 | State Comptroller report on Tax Authority emergency preparedness (Jan 2026) | https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf | Process gaps and known delays |
-| Kol Zchut: small-business compensation track | https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D | Eligibility for the &lt;300K turnover track |
 
 ## Gotchas
 

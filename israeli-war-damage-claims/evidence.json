@@ -1,214 +1,58 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-war-damage-claims",
-  "generated_at": "2026-05-18T16:55:00Z",
+  "generated_at": "2026-08-09",
   "claims": [
     {
       "claim_id": "fast-track-ceiling-30000",
       "claim": "Fast track (מסלול מהיר) compensation ceiling is NIS 30,000 / 30,000 ש\"ח / 30,000 שקל. Claims at or under this amount can use the fast track; larger claims must use the regular track. Single claim per household per incident.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "התביעה היא על נזקים בסכום של עד 30,000 ₪ למבנה, לתכולה ביתית (חפצים) ולציוד ומלאי של עסק.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/claims-process-flowchart.md"
-      ]
+      ],
+      "id": "fast-track-ceiling-30000"
     },
     {
       "claim_id": "regular-track-no-ceiling",
       "claim": "Regular track (מסלול רגיל) has no ceiling for structural damage; contents capped by household composition. Used for claims above NIS 30,000 / 30,000 ש\"ח / 30,000 שקל or requiring professional engineering assessment.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "עובדי קרן הפיצויים (מס רכוש) בסיוע אנשי מקצוע (מהנדסים, שמאים וכו') יבקרו במבנה שניזוק כדי להעריך את גובה הפיצוי שנדרש לשיקום הנזק.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/claims-process-flowchart.md"
-      ]
+      ],
+      "id": "regular-track-no-ceiling"
     },
     {
       "claim_id": "premium-rate-0.3",
       "claim": "Optional Tax Authority war damage contents insurance premium rate is 0.3% of additional insured value per year. This is the only Israeli product covering war damage to home contents above the standard ceiling (regular home insurance excludes war damage).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "הביטוח כרוך בתשלום פרמיה שנתית בשיעור של 0.3% מהשווי הנוסף של החפצים שמבקשים לבטח.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/compensation-ceilings.md"
-      ]
+      ],
+      "id": "premium-rate-0.3"
     },
     {
       "claim_id": "max-insurable-value-1037100",
       "claim": "Maximum insurable value under the Tax Authority optional war-damage contents insurance is approximately NIS 1,037,100 / 1,037,100 ש\"ח / 1,037,100 שקל (2026 figure, updated periodically by CPI).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "ניתן לבטח שווי נוסף בסך 1,037,100 ₪ לכל היותר (נכון ל-2026).",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL_HE.md",
         "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "max-annual-premium-3111",
-      "claim": "Maximum annual premium under the Tax Authority optional war-damage contents insurance is approximately NIS 3,111 / 3,111 ש\"ח / 3,111 שקל (2026 figure, derived from 0.3% premium on the maximum insurable value of approximately NIS 1,037,100).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "ceiling-single-52750",
-      "claim": "Total contents compensation ceiling for a single-person household is approximately 52,750 ש\"ח / 52,750 שקל / 52,750 NIS (2026 estimate, updated periodically by Consumer Price Index).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "ceiling-couple-85000",
-      "claim": "Total contents compensation ceiling for a married couple or single-parent household is approximately 85,000 ש\"ח / 85,000 שקל / 85,000 NIS (2026 estimate, updated periodically by Consumer Price Index).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "supplement-elderly-10000",
-      "claim": "Elderly relative supplement under the contents compensation ceilings is approximately 10,000 ש\"ח / 10,000 שקל / 10,000 NIS per qualifying relative (2026 estimate).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "supplement-per-child-9000",
-      "claim": "Per-child (under 18) supplement to contents compensation ceiling is approximately 8,460 ש\"ח / 8,460 שקל / 8,460 NIS additional per child (2026 estimate). Breakdown: ~4,964 ש\"ח furniture + ~710 ש\"ח clothing + balance across other categories.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "ceiling-family-of-4-103000",
-      "claim": "Total contents compensation ceiling for a family of 4 (couple + 2 children) is approximately 103,000 ש\"ח / 103,000 שקל / 103,000 NIS (2026 estimate, updated periodically by CPI).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "ceiling-family-of-5-150000",
-      "claim": "Total contents compensation ceiling for a family of 5 (couple + 3 children) is approximately 110,000 ש\"ח / 110,000 שקל / 110,000 NIS (2026 estimate, updated periodically by CPI).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "category-furniture-couple-25000",
-      "claim": "Within the couple/single-parent compensation ceiling, the furniture (רהיטים) category is allocated approximately 25,000 NIS / 25,000 ש\"ח / 25,000 שקל (2026 estimate).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "category-electronics-couple-30000",
-      "claim": "Within the couple/single-parent compensation ceiling, the electrical appliances & electronics (מכשירי חשמל ואלקטרוניקה) category is allocated approximately 30,000 NIS / 30,000 ש\"ח / 30,000 שקל (2026 estimate).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "per-child-furniture-5200",
-      "claim": "Per-child (under 18) furniture supplement is approximately 4,964 NIS / 4,964 ש\"ח / 4,964 שקל (2026 estimate, component of the ~8,460 ש\"ח per-child total).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "per-child-clothing-750",
-      "claim": "Per-child (under 18) clothing supplement is approximately 710 NIS / 710 ש\"ח / 710 שקל (2026 estimate, component of the ~8,460 ש\"ח per-child total).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "references/compensation-ceilings.md"
-      ]
-    },
-    {
-      "claim_id": "example-damage-20000",
-      "claim": "Illustrative example claim: rocket-blast damage where total damage is approximately 20,000 ש\"ח / 20,000 שקל / NIS 20,000 — under the 30,000 NIS fast track ceiling. (Used as an example in the skill.)",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "example-damage-15000",
-      "claim": "Illustrative example: appeal scenario where claimant received NIS 15,000 / 15,000 ש\"ח / 15,000 שקל compensation while damage was at least NIS 40,000 / 40,000 ש\"ח / 40,000 שקל. (Used as an appeal example in the skill.)",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "example-damage-40000",
-      "claim": "Illustrative example damage estimate: NIS 40,000 / 40,000 ש\"ח / 40,000 שקל — used in the appeal scenario where the awarded compensation was disputed as too low. (Used as an example in the skill.)",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "example-electronics-130000",
-      "claim": "Illustrative example used in the Hebrew skill body: a couple with electronics worth 130,000 ש\"ח / 130,000 שקל / 130,000 NIS, with the standard electronics ceiling at approximately 30,000 ש\"ח. To insure the additional 100,000 ש\"ח / 100,000 שקל / 100,000 NIS, the annual premium at the 0.3% rate is approximately 300 ש\"ח / 300 שקל / 300 NIS.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL_HE.md"
-      ]
+      ],
+      "id": "max-insurable-value-1037100"
     },
     {
       "claim_id": "property-tax-law-1961",
@@ -226,7 +70,7 @@
       "claim_id": "property-tax-regulations-1973-reg-8",
       "claim": "תקנה 8 (Regulation 8) of the Property Tax Regulations 1973 (תקנות מס רכוש, התשל\"ג-1973) addresses the manager's decision on claimant entitlement, compensation amounts, payment methods, and damage restoration — the manager may distribute funds among injured parties and condition payment on restoration completion.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "תקנה 8 - החלטת המנהל ותשלום הפיצוי: המנהל מחליט על זכאות התובע, סכומי פיצוי, אופן התשלום ושיקום הנזק",
+      "raw_snippet": "8. (א) הוגשה תביעה לפיצויים, יחליט המנהל בדבר זכותו של הניזוק לפיצויים, בדבר שיעורם ודרך תשלומם, וכן בדבר שיקום הנזק, והוא רשאי לחלק את סכום הפיצויים בין ניזוקים ולהתנות את תשלום הפיצויים בשיקום הנזק, הכל לפי נסיבות הענין.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -237,7 +81,7 @@
       "claim_id": "property-tax-regulations-1973-reg-9",
       "claim": "תקנה 9 (Regulation 9) of the Property Tax Regulations 1973 permits the manager to correct decisions within a 4-year window if new facts emerged or there was an error; overpayments must be returned within 90 days.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "תקנה 9 - תיקון החלטת המנהל: המנהל רשאי לתקן את החלטתו תוך ארבע שנים אם התגלו עובדות חדשות או הייתה טעות",
+      "raw_snippet": "(א) המנהל רשאי לתקן החלטה לפי תקנה 8 תוך ארבע שנים מיום שניתנה, אם נתגלו עובדות חדשות או אם ראה כי היתה בה טעות.",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -248,7 +92,7 @@
       "claim_id": "property-tax-regulations-1973-reg-10",
       "claim": "תקנה 10 (Regulation 10) of the Property Tax Regulations 1973 historically established the Indirect Damage Committee (ועדה לנזק עקיף) composed of three members from the Defense, Finance, and Agriculture ministries; the regulation was subsequently repealed (בוטלה) and is no longer operative.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "תקנה 10 - בוטלה. בנוסח קודם: הקמת ועדה לנזק עקיף בת שלושה חברים ממשרדי הביטחון, האוצר והחקלאות",
+      "raw_snippet": "10. (בוטלה).",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -258,13 +102,14 @@
     {
       "claim_id": "tax-authority-hotline-4954",
       "claim": "Tax Authority (רשות המסים) customer service hotline is *4954, used for digital-services login issues and general support. Also referenced for Compensation Fund (קרן הפיצויים) questions.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "מומלץ להודיע על הנזק מוקדם ככל האפשר למוקד רשות המסים: *4954 או באמצעות תביעה מקוונת לנזק ישיר",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "references/claims-process-flowchart.md"
-      ]
+      ],
+      "id": "tax-authority-hotline-4954"
     },
     {
       "claim_id": "url-gov-il-online-direct-damage-claim",
@@ -275,7 +120,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     },
     {
       "claim_id": "url-gov-il-israel-tax-authority",
@@ -286,7 +133,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     },
     {
       "claim_id": "url-nevo-property-tax-law",
@@ -303,7 +152,7 @@
       "claim_id": "url-nevo-property-tax-regulations",
       "claim": "Nevo legal database canonical URL for the Property Tax Regulations 1973 (תקנות מס רכוש, התשל\"ג-1973). Verified to contain Regulations 8, 9, and 10 covering manager's decisions, correction window, and (repealed) indirect-damage committee composition.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "תקנות מס רכוש, התשל\"ג-1973",
+      "raw_snippet": "תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), תשל",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
@@ -314,29 +163,20 @@
       "claim_id": "url-mevaker-2026-tax-emergency-report",
       "claim": "State Comptroller (מבקר המדינה) report on Tax Authority emergency preparedness, January 2026. Published as part of the 2026 Emergency series. PDF returns HTTP 200 with Hebrew language metadata (he-IL) and a 2.6MB binary payload — body text not parseable via WebFetch but URL resolves.",
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
-      "raw_snippet": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
+      "raw_snippet": "בחוק מס רכוש ובתקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), התשל\"ג-1973 (להלן - תקנות קרן הפיצויים או התקנות), הוסדר תשלום פיצויים מטעם המדינה בעד \"נזק מלחמה\" - נזק פיזי לנכס",
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "url-kolzchut-small-business-compensation",
-      "claim": "Kol Zchut (כל זכות) page describing the small-business compensation track under the Tax Authority Compensation Fund — relevant for businesses with turnover below approximately NIS 300,000. Same wiki article is linked in two forms in the skill files: the percent-encoded canonical form https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D and the rendered-Hebrew form https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D",
-      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D — equivalent rendered Hebrew URL: https://www.kolzchut.org.il/he/פיצוי_לעסקים_קטנים",
-      "fetched_at": "2026-05-18T16:55:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
     },
     {
       "claim_id": "contents-ceilings-2026",
       "claim": "Household-contents compensation ceilings, effective 01.01.2026 (NIS / ש\"ח): furniture 14,198 single, 24,552 couple or single parent, 4,964 per child under 18, 7,258 per additional adult. Clothing 2,366 / 4,731 / 710 / 2,366. Electrical appliances and electronics 24,894 / 30,175 / 505 / 3,961. Other household items 10,370 / 24,891 ש\"ח / 2,281 / 4,563. Totals 51,828 / 84,349 / 8,460 / 18,148. The ceilings are per category and are not interchangeable. Amounts are index-linked and reissued on 1 January and 1 July.",
-      "source_url": "https://www.kolzchut.org.il/he/פיצוי_על_נזק_שנגרם_לרכוש_בגין_פגיעת_איבה_על_רקע_גזעני_או_לאומני",
-      "raw_snippet": "רהיטים 14,198 ₪ 24,552 ₪ 4,964 ₪ 7,258 ₪ בגדים 2,366 ₪ 4,731 ₪ 710 ₪ 2,366 ₪ מכשירי חשמל ואלקטרוניקה 24,894 ₪ 30,175 ₪ 505 ₪ 3,961 ₪ חפצים ביתיים אחרים 10,370 ₪ 24,891 ₪ 2,281 ₪ 4,563 ₪ (נכון ל-01.01.2026)",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "תקרת הפיצויים שנקבעה בחוק לחפצים ביתיים (נכון ל-01.01.2026) סוגי החפצים הפיצוי המרבי לאדם יחיד הפיצוי המרבי לזוג נשוי או ל הורה עצמאי (הורה יחיד) הפיצוי המרבי לכל ילד עד גיל 18 הפיצוי המרבי למבוגר שגר עם אדם נוסף או עם זוג המשך טיפול רהיטים 14,198 ₪ 24,552 ₪ 4,964 ₪ 7,258 ₪ בגדים 2,366 ₪ 4,731 ₪ 710 ₪ 2,366 ₪ מכשירי חשמל ואלקטרוניקה 24,894 ₪ 30,175 ₪ 505 ₪ 3,961 ₪ חפצים ביתיים אחרים 10,370 ₪ 24,891 ₪ 2,281 ₪ 4,563 ₪",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -386,28 +226,12 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "id": "insurance-coverage-period",
+      "claim": "insurance coverage period",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "הביטוח יכנס לתוקפו לאחר תשלום הפרמיה ואישור קבלת הצהרה, ויהיה תקף עד ליום 31.12 לאותה שנה."
     }
-  ],
-  "pending_verification": [
-    "fast-track-ceiling-30000",
-    "regular-track-no-ceiling",
-    "premium-rate-0.3",
-    "max-insurable-value-1037100",
-    "max-annual-premium-3111",
-    "ceiling-single-52750",
-    "ceiling-couple-85000",
-    "supplement-elderly-10000",
-    "supplement-per-child-9000",
-    "ceiling-family-of-4-103000",
-    "ceiling-family-of-5-150000",
-    "category-furniture-couple-25000",
-    "category-electronics-couple-30000",
-    "per-child-furniture-5200",
-    "per-child-clothing-750",
-    "example-damage-20000",
-    "example-damage-15000",
-    "example-damage-40000",
-    "example-electronics-130000",
-    "tax-authority-hotline-4954"
   ]
 }
