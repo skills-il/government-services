@@ -16,7 +16,7 @@ A form submitted to an authority is a document whose contents are your responsib
 
 ## Problem
 
-A lone soldier (chayal boded), an oleh without family in Israel, or an Israeli whose parents are abroad / deceased / formally estranged, is entitled to a substantial supplemental benefits package on top of regular service compensation: a monthly grant equal to 100% of a private's base salary, rent + utility assistance during service, free flights home, and up to ₪12,000 of rent assistance in the first year after discharge. But the rules live in IDF Chief of Staff Order 35.0808 (which is not user-facing), the hachvana.mod.gov.il extra-benefits page, kolzchut, plus diaspora-org programs from Nefesh B'Nefesh, FIDF, Garin Tzabar, and the Lone Soldier Center in Memory of Michael Levin. Many lone soldiers (and their parents abroad) don't realize they need formal Aka recognition before any of this kicks in, miss the post-discharge rent application within the 12-month window, or assume one benefit replaces another when in fact they stack. This skill maps the recognition flow, the active-duty benefits, the post-discharge supplements (which are distinct from the regular discharged-soldier package), and the diaspora-org routing.
+A lone soldier (chayal boded), an oleh without family in Israel or an Israeli whose parents are abroad, deceased or formally estranged, gets a supplemental benefits package on top of regular service compensation: a monthly grant equal to 100% of a private's base salary, rent + utility assistance during service, free flights home, and up to ₪12,000 of rent assistance in the first year after discharge. But the rules are split across IDF Chief of Staff Order 35.0808 (not user-facing), the hachvana.mod.gov.il extra-benefits page, kolzchut, and diaspora-org programs (Nefesh B'Nefesh, FIDF, Garin Tzabar, Lone Soldier Center in Memory of Michael Levin). Many lone soldiers (and their parents abroad) don't realize they need formal Aka recognition before any of this kicks in, miss the post-discharge rent application within the 12-month window, or assume one benefit replaces another when in fact they stack. This skill maps the recognition flow, the active-duty benefits, the post-discharge supplements (which are distinct from the regular discharged-soldier package), and the diaspora-org routing.
 
 ## Instructions
 
@@ -38,7 +38,7 @@ The governing IDF order is **Pkudat Matkal 35.0808** ("חיילים בודדים
 
 > Source quote (kolzchut): "כדי להיות מוכר כחייל בודד, יש להגיש בקשה ללשכת הגיוס האזורית"
 
-**The soldier-facing form is Form 62** (שאלון הכרה לחייל בודד, submitted in duplicate). It is the same form in BOTH pre-enlistment and during-service phases. Form 7304 is an internal routing/intake document that the Rakezet Tash (Tash desk coordinator) initiates, with the soldier completing it, AFTER status is raised at the Lishkat HaGiyus interview, soldiers should not ask for "Form 7304" at the counter; ask for the **שאלון הכרה לחייל בודד (Form 62)**.
+**The soldier-facing form is Form 62** (שאלון הכרה לחייל בודד, submitted in duplicate), the same form in BOTH pre-enlistment and during-service phases. Form 7304 is an internal routing document the Rakezet Tash initiates and the soldier completes AFTER status is raised at the Lishkat HaGiyus interview. Do not ask for "Form 7304" at the counter; ask for the **שאלון הכרה לחייל בודד (Form 62)**.
 
 | Phase | What to do | Where |
 |---|---|---|
@@ -51,7 +51,7 @@ The governing IDF order is **Pkudat Matkal 35.0808** ("חיילים בודדים
 | 2 | Required documents depend on track: oleh = Teudat Oleh + family documentation showing parents abroad; estranged Israeli = social worker assessment; orphan = parental death certificates |
 | 3 | Decision by recognition committee, typically within ~1 month, response via Mashak Tash |
 | 4 | If rejected: appeal back through Mashak Tash; the appeals committee decision is final unless circumstances change materially |
-| 5 | Hotlines for help: the IDF general hotline and the Soldiers' Ombudsman (current numbers are published on the IDF site), plus the NBN+FIDF 24/7 lone-soldier hotline |
+| 5 | Hotlines: IDF general line and Soldiers' Ombudsman (numbers on the IDF site), NBN+FIDF 24/7 |
 
 **Recognition triggers everything.** No benefit on the list below applies until the soldier is officially recognized. Without recognition, even an oleh living alone in Israel gets only the standard private's salary.
 
@@ -63,7 +63,7 @@ The recognized lone soldier receives a **fixed monthly grant equal to 100% of th
 
 The grant accrues automatically upon recognition, no separate application needed each month. The base monthly boded grant is fixed at 100% of the private's base salary regardless of the soldier's actual rank or service-tier (currently **₪601.2/month** per the official IDF lone-soldier economic-benefits page).
 
-**Important: combat and combat-support lone soldiers get an ADDITIONAL boded-specific supplement on top of the base monthly grant.** Per the official IDF lone-soldier economic-benefits page: combat lone soldiers at activity level א'+ (lochem) receive an additional **₪467.2/month**; combat-support lone soldiers at activity level א' (tomech lechima) receive an additional **₪233.7/month**. These are boded-only uplifts that STACK on top of the universal combat/tomech salary differentials every soldier already gets. These figures are updated periodically, confirm the current amount with Mashak Tash or the IDF benefits page.
+**Important: combat and combat-support lone soldiers get an ADDITIONAL boded-specific supplement on top of the base monthly grant.** Per the official IDF lone-soldier economic-benefits page: combat lone soldiers at level א'+ (lochem) get **₪467.2/month** extra; combat-support at level א' (tomech lechima) get **₪233.7/month** extra. These boded-only uplifts STACK on the universal combat/tomech differentials every soldier gets. The figures are updated periodically, confirm with Mashak Tash or the IDF benefits page.
 
 **Oleh lone soldiers get a SECOND monthly grant from the Aliyah Ministry that STACKS on the IDF grant.** A lone soldier (or lone national-service volunteer) who made aliyah in the 5 years before service is entitled to a grant from משרד העלייה והקליטה equal to **100% of a private's base salary**, paid IN ADDITION to the IDF monthly grant above. Ethiopian-origin lone soldiers who immigrated within the prior 10 years get a higher grant of **150%**. This is a separate application: contact משרד העלייה והקליטה at one of its service bureaus (hotline 03-9733333). Estranged-track Israeli lone soldiers are not olim and do NOT get this grant.
 
@@ -167,7 +167,7 @@ These organizations operate independently of the IDF / MoD and provide social, f
 | **Friends of the IDF (FIDF)** | Direct financial grants and welfare support to lone soldiers; equipment, vacations, family-visit-to-Israel programs |
 | **Garin Tzabar** | Aliyah-and-IDF preparation program from the Israeli Scouts (Tzofim). Places groups of olim on kibbutzim for pre-army adaptation; alumni support continues post-discharge |
 | **Lone Soldier Center in Memory of Michael Levin** | Community center providing social events, holiday hosting, emergency assistance, post-discharge programs. Site: lonesoldiercenter.com |
-| **Mahal program** | Specifically for non-Israeli Jews who serve in the IDF without making aliyah, different track from boded oleh. Service length varies (commonly cited as approximately 18 months minimum, verify current rules with Mahal program coordinators) |
+| **Mahal program** | For non-Israeli Jews serving without making aliyah, a different track from boded oleh. Service length varies (about 18 months minimum is commonly cited); verify with Mahal coordinators |
 
 When to route to NGOs: any lone soldier (especially olim) should be aware of these, they fill gaps the IDF/MoD don't cover (e.g., furnished apartments for olim, holiday family-hosting, post-discharge career mentorship).
 
@@ -297,7 +297,7 @@ No public MCP server exists for hachvana.mod.gov.il or IDF systems. Aka recognit
 - **The 12-month post-discharge rent assistance is "first year", it does not carry over.** If the user does not apply within the 12 months following discharge, the benefit is lost. Set an explicit reminder for olim returning to family abroad temporarily.
 - **The monthly grant during service = 100% of a PRIVATE'S base salary, NOT 100% of the soldier's actual salary.** A combat lone soldier still earns the combat tier rate + the private-scale boded grant on top. The grant is fixed to the turai scale, not the soldier's rank or service tier.
 - **Estrangement-track Israeli lone soldiers get the SAME IDF / hachvana benefits as olim lone soldiers, but NOT the diaspora / aliyah-side benefits.** The IDF financial package (monthly grant, rent, flights, post-discharge rent assistance) is identical regardless of recognition track. But the differentiating layers DO differ: Misrad HaKlita sal klita is zero for estranged Israelis (they are not olim); NBN serves olim primarily and routes estranged Israelis to the Lone Soldier Center in Memory of Michael Levin or directly to Aguda; the abroad-flight allotment is moot for estranged Israelis whose family is in Israel (no destination to fly to). The recognition criterion is "no parental support in Israel", but the practical benefits stack diverges based on whether the soldier has overseas family + immigrant status.
-- **Mahal is NOT the same as the boded oleh track.** Mahal soldiers are non-Israeli volunteers who serve without making aliyah; their service length (Regular Mahal is approximately 18 months, Mahal Hesder is longer) and combat-placement rate differ from oleh lone soldiers. Don't conflate them.
+- **Mahal is NOT the boded oleh track.** Mahal soldiers are non-Israeli volunteers serving without making aliyah; their service length (Regular Mahal about 18 months, Mahal Hesder longer) and placement differ from oleh lone soldiers. Don't conflate them.
 - **For everything in the regular discharged-soldier package, route to israeli-discharged-soldier-navigator.** Pikadon by service tier, manak shichrur, nekudot zikui Section 39a, Iron Swords Mimadim 100% tuition (under Tikkun 25, Dec 20 2023), that's the OTHER skill. This skill ONLY adds the supplemental lone-soldier layer on top.
 
 ## Bundled Resources

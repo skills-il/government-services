@@ -38,7 +38,7 @@ Major Israeli cities and their CBS settlement codes.
 | Afula | afula | 7700 | Northern | 04 |
 
 ## Postal Code Format
-Israeli postal codes (mikud) are 7 digits since 2013 (formerly 5 digits).
+Israeli postal codes (mikud) are assigned per address and are looked up through the Israel Post lookup form; there is no official public API, so never derive a mikud yourself.
 Format: XXXXXXX (e.g., 6688312)
 
 ## Address Format

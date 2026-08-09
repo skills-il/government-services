@@ -80,7 +80,7 @@ Check live arrival times at a stop:
 - Integration: Connects with Dan bus network and Israel Railways
 
 ### Step 5: Rav-Kav Fare System
-- **Single ride:** Zone-based pricing. Urban ride (0-15km): 8 NIS (raised from 6 to 8 NIS on April 25, 2025 as part of the post-war budget; a further ~12% hike to roughly 9 NIS was announced for June 2026 but at the time of writing the increase is contested and may be deferred, verify on the day). Intercity varies by distance.
+- **Single ride:** Zone-based pricing. Urban ride (yellow zone, 0-15km): bus 8 NIS, train 11.5 NIS, per the National Public Transport Authority fare table (checked 2026-08-10; the increase that had been floated for June 2026 is not in the published table). Longer zones cost more: green 15-40km bus 14.5 NIS, light-blue 40-75km bus 19 NIS.
 - **Daily cap:** Maximum daily charge regardless of trips. A nationwide monthly pass (excluding Israel Railways, up to 225km) is around 315 NIS.
 - **Transfers:** Free transfer within 90 minutes of first boarding (same zone)
 - **Discount and free-ride profiles** (updated April 2025, "Transport Justice" reform):

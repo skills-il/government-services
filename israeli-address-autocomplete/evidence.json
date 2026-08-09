@@ -5,19 +5,31 @@
   "claims": [
     {
       "claim_id": "cbs-city-codes",
-      "claim": "CBS settlement (semel yishuv) codes: Jerusalem 3000, Tel Aviv-Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin-Maccabim-Reut 1200, Nazareth 7300, Eilat 2600. Israel has roughly 1,270 localities.",
-      "source_url": "https://data.gov.il/dataset",
-      "raw_snippet": "data.gov.il",
-      "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md", "scripts/lookup_address.py"]
+      "claim": "CBS/Interior settlement (semel yishuv) codes, verified against the official data.gov.il \"רשימת ישובים בישראל\" dataset on 2026-08-10: Jerusalem 3000, Tel Aviv-Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin-Maccabim-Reut 1200, Nazareth 7300, Eilat 2600. The dataset lists about 1,310 localities.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=5&q=%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "{\"_id\":1,\"סמל_ישוב\":\"3000 \",\"שם_ישוב\":\"ירושלים \"",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md",
+        "scripts/lookup_address.py"
+      ],
+      "source_note": "Each listed code was queried individually against the same CKAN datastore resource; total record count returned by the API was 1310."
     },
     {
       "claim_id": "postal-code-format",
-      "claim": "The Israeli postal code (mikud) is 7 digits, introduced 1 February 2013 (replacing the older 5-digit code).",
+      "claim": "The Israeli postal code (mikud) is looked up per address through the Israel Post lookup form; there is no official public API.",
       "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "מיקוד",
-      "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md"]
+      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "The page is client-rendered; read in Playwright with location.href asserted."
     },
     {
       "claim_id": "israel-post-mikud",
@@ -25,7 +37,10 @@
       "source_url": "https://doar.israelpost.co.il/locatezip",
       "raw_snippet": "מיקוד",
       "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "govmap-api",
@@ -33,7 +48,10 @@
       "source_url": "https://api.govmap.gov.il",
       "raw_snippet": "govmap https://www.govmap.gov.il",
       "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mapi-parcel-tool",
@@ -41,7 +59,10 @@
       "source_url": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
       "raw_snippet": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
       "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "data-gov-il",
@@ -49,7 +70,10 @@
       "source_url": "https://data.gov.il/dataset",
       "raw_snippet": "data.gov.il",
       "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "cbs-directory",
@@ -57,15 +81,24 @@
       "source_url": "https://www.cbs.gov.il",
       "raw_snippet": "cbs",
       "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/city-codes.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md"
+      ]
     },
     {
       "claim_id": "illustrative-figures",
-      "claim": "Illustrative example: Rothschild 42, Tel Aviv-Yafo, mikud 6688312, CBS code 5000. Example block/parcel 6213/250.",
+      "claim": "Illustrative example only (not a verified address record): Rothschild 42, Tel Aviv-Yafo, mikud 6688312, CBS code 5000; example block/parcel 6213/250. The Tel Aviv-Yafo code 5000 is the one verified figure here.",
       "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "מיקוד",
-      "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "The mikud and block/parcel numbers in this example were NOT re-verified against Israel Post; they are illustrative and the skill body presents them as an example."
     }
   ]
 }

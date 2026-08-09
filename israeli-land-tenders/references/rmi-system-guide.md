@@ -2,7 +2,7 @@
 
 ## Israeli Land System
 - ~93% of land is state-owned (Israel Land Authority)
-- ~7% privately owned (registered in Tabu)
+- the remaining share (roughly 7%) is privately owned and registered in the Tabu
 - Leasehold model: 49-98 year leases
 - 2009 reform: Allows conversion to ownership (residential)
 
@@ -74,7 +74,7 @@ Cannot sell or rent the unit for **5 years from Form 4 (Tofes 4 / occupancy appr
 ## Official RMI URLs
 - Department page: https://www.gov.il/he/departments/israel_land_authority
 - Tender portal (MichrazimSite): https://apps.land.gov.il/MichrazimSite/
-- Interactive tender map: https://www.gov.il/he/departments/israel_land_authority/map/map_micrazim
+- Land tenders hub (tender system, tender map, exemption-from-tender): https://www.gov.il/he/departments/topics/land_tenders
 - Online bid submission (EN): https://www.gov.il/en/service/tenders-online
 - My ILA portal (EN): https://www.gov.il/en/service/my-ramitech
 

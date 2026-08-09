@@ -9,7 +9,10 @@
       "source_url": "https://en.globes.co.il/en/article-public-transport-fare-reform-wont-improve-public-transport-1001508298",
       "raw_snippet": "as of the reform implementation date (Friday, April 25, 2025), the fare for a single bus trip will also increase by NIS 2",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+      "appears_in": [
+        "SKILL.md#Step 5",
+        "SKILL_HE.md#שלב 5"
+      ]
     },
     {
       "claim_id": "fare-june-2026-hike-contested",
@@ -17,7 +20,10 @@
       "source_url": "https://www.jpost.com/israel-news/article-876493",
       "raw_snippet": "'It will not happen': Regev opposes potential public transport price hikes; fares expected to rise by up to 12% in June, with single bus fare from 8 NIS to approximately 9 NIS",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+      "appears_in": [
+        "SKILL.md#Step 5",
+        "SKILL_HE.md#שלב 5"
+      ]
     },
     {
       "claim_id": "monthly-pass-nationwide-315",
@@ -25,7 +31,10 @@
       "source_url": "https://chaimvchessed.com/information/transportation-automotive/rav-kav/",
       "raw_snippet": "nationwide pass costs 315 NIS for unlimited rides on all types of public transport except Israel Railways, up to a distance of 225 km, for a full month",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+      "appears_in": [
+        "SKILL.md#Step 5",
+        "SKILL_HE.md#שלב 5"
+      ]
     },
     {
       "claim_id": "official-payment-apps",
@@ -33,7 +42,10 @@
       "source_url": "https://pti.org.il/ChargeApp/Apps",
       "raw_snippet": "Moovit, רב-פס (Rav-Pass), פנגו (Pango), סלופארק (Cello Park), egg",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 5", "SKILL_HE.md#שלב 5"]
+      "appears_in": [
+        "SKILL.md#Step 5",
+        "SKILL_HE.md#שלב 5"
+      ]
     },
     {
       "claim_id": "jerusalem-lr-green-line",
@@ -41,7 +53,9 @@
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
       "raw_snippet": "Green Line is scheduled to open in 2027; first phase Malha to HaTurim opening May 2026",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Jerusalem LR"]
+      "appears_in": [
+        "SKILL.md#Step 4 Jerusalem LR"
+      ]
     },
     {
       "claim_id": "jerusalem-lr-blue-line",
@@ -49,7 +63,9 @@
       "source_url": "https://en.wikipedia.org/wiki/Blue_Line_(Jerusalem_Light_Rail)",
       "raw_snippet": "Construction on the Blue Line began in September 2025; expected to gradually open between 2029 and 2031",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Jerusalem LR"]
+      "appears_in": [
+        "SKILL.md#Step 4 Jerusalem LR"
+      ]
     },
     {
       "claim_id": "ta-red-line-34-stations",
@@ -57,7 +73,10 @@
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
       "raw_snippet": "Red Line operational since August 18, 2023; 34 stations across Tel Aviv, Petah Tikva, Bnei Brak, Ramat Gan, and Bat Yam",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Tel Aviv LR",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "ta-red-line-ridership",
@@ -65,7 +84,10 @@
       "source_url": "https://en.globes.co.il/en/article-tel-aviv-light-rail-still-underused-1001521323",
       "raw_snippet": "daily average is still fluctuating around 110-120,000 passengers per day, far from the original forecasts of 238,000",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Tel Aviv LR",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "ta-purple-line-status",
@@ -73,7 +95,10 @@
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
       "raw_snippet": "Purple Line: Under construction. Expected to open around 2027. 27-kilometer line with 43 stations",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Tel Aviv LR",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "ta-green-line-status",
@@ -81,7 +106,10 @@
       "source_url": "https://en.globes.co.il/en/article-egged-wins-tender-to-operate-ta-light-rail-purple-green-lines-1001504636",
       "raw_snippet": "Egged wins tender to operate TA light rail Purple, Green Lines; Green Line southern segment Holon-Rishon LeZion now scheduled to open in 2028, full opening Herzliya planned for 2030; 39 kilometers, 62 stops",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Tel Aviv LR", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Tel Aviv LR",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "israel-railways-jan-2026-schedule",
@@ -89,7 +117,10 @@
       "source_url": "https://cars.walla.co.il/item/3807198",
       "raw_snippet": "במוצאי שבת, 17 בינואר 2026, הושק לוח זמנים חדש; תוספת של מעל 40 אלף מקומות ישיבה ביום, רכבות דו-קומתיות בקו העמק ובקו הכרמל",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Israel Railways",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "eastern-railway-2026",
@@ -97,7 +128,10 @@
       "source_url": "https://grokipedia.com/page/eastern_railway_israel",
       "raw_snippet": "65 kilometers from Lod to Hadera, doubling tracks over 50 kilometers, four passenger stations; partial operations expected by 2025 and full opening in 2026",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Israel Railways",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "tlv-jerusalem-fast-line",
@@ -105,15 +139,22 @@
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv%E2%80%93Jerusalem_railway",
       "raw_snippet": "Opened in 2018, the Jerusalem-Tel Aviv high-speed line reducing journey time between Israel's two largest cities to just 32 minutes; trains every half hour",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Israel Railways", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Israel Railways",
+        "SKILL_HE.md#שלב 4"
+      ]
     },
     {
       "claim_id": "gtfs-portal-outages",
-      "claim": "Ministry of Transport GTFS portal at gtfs.mot.gov.il has shown intermittent outages in 2026.",
-      "source_url": "https://gtfs.mot.gov.il/",
-      "raw_snippet": "The requested content is not available, please contact the system administrator (Hebrew error)",
-      "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Gotchas", "SKILL_HE.md#מלכודות נפוצות"]
+      "claim": "The Ministry of Transport GTFS host serves a Hebrew error page for browsing paths (including its root); the static feed itself downloads from the canonical gtfsfiles path.",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md#Gotchas",
+        "SKILL_HE.md#מלכודות נפוצות"
+      ],
+      "source_note": "Fetched 2026-08-10: HTTP 200, 145,379,558 bytes, PK zip header with agency.txt as first member. The host root returns \"שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.\""
     },
     {
       "claim_id": "iron-swords-emergency-ops",
@@ -121,7 +162,10 @@
       "source_url": "https://semerenkogroup.com/israel-shifts-transit-to-emergency-operations/",
       "raw_snippet": "Israel has shifted its public transit networks to emergency operations; pauses in rail services such as the Coastal Line pause on February 13, 2026",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Gotchas", "SKILL_HE.md#מלכודות נפוצות"]
+      "appears_in": [
+        "SKILL.md#Gotchas",
+        "SKILL_HE.md#מלכודות נפוצות"
+      ]
     },
     {
       "claim_id": "jerusalem-lr-red-line-stops",
@@ -129,7 +173,126 @@
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
       "raw_snippet": "Red Line length 22.5 kilometers, 35 stops",
       "fetched_at": "2026-05-20",
-      "appears_in": ["SKILL.md#Step 4 Jerusalem LR", "SKILL_HE.md#שלב 4"]
+      "appears_in": [
+        "SKILL.md#Step 4 Jerusalem LR",
+        "SKILL_HE.md#שלב 4"
+      ]
+    },
+    {
+      "claim_id": "pt-fare-table",
+      "claim": "National fare table: yellow zone 0-15 km bus 8 ₪ / 8 ש\"ח and train 11.5 ₪; green 15-40 km bus 14.5 ₪; light-blue 40-75 km bus 19 ₪; nationwide monthly bus pass 315 ₪ / 315 ש\"ח. Hebrew renderings used in SKILL_HE.md: 11.5 ש\"ח, 14.5 ש\"ח, 19 ש\"ח; English renderings in SKILL.md: 11.5 NIS, 14.5 NIS, 19 NIS.",
+      "source_url": "https://bus.gov.il/FaresDistance",
+      "raw_snippet": "אזור / מרחק נסיעה בודדת כולל נסיעת מעבר חופשי יומי חופשי חודשי ארצי צהוב 0-15 ק\"מ אוטובוס: 8 ₪ רכבת: 11.5 ₪ אוטובוס: 17.5 ₪ משולב רכבת: 23 ₪ אוטובוס: 315 ₪ משולב רכבת: 323 ₪",
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+    },
+    {
+      "claim_id": "pt-discount-tiers",
+      "claim": "Discount tiers are 50%, 33% and free (0 ₪). The 50% tier covers youth 5-18, senior women 62-67, geographic-profile holders, and passengers with disabilities / National Insurance entitlement; the 33% tier covers young people 18-26; free covers children under 5 and adults from 67, soldiers and national service.",
+      "source_url": "https://bus.gov.il/discounts",
+      "raw_snippet": "סוג המנוי מחיר מלא 50% הנחה 33% הנחה חינם (0 ₪) אזור 1 (עד 40 ק\"מ) 139 ₪ 69.5 ₪ 92.66 ₪ 0 ₪ חופשי ארצי (אוטובוס) 315 ₪ 157.5 ₪ 210 ₪ 0 ₪",
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+    },
+    {
+      "claim_id": "pt-discount-groups",
+      "claim": "Eligible groups per tier, including free travel from age 67.",
+      "source_url": "https://bus.gov.il/discounts",
+      "raw_snippet": "מי הזכאים? נוער בני 5-18, אזרחיות ותיקות 62-67, בעלי פרופיל גאוגרפי, נוסעים עם מגבלות וזכאי ביטוח לאומי צעירים בני 18-26 ילדים עד גיל 5 ומבוגרים מגיל 67, חיילים ושירות לאומי, משוחררים",
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+    },
+    {
+      "claim_id": "operator-egged",
+      "claim": "https://www.egged.co.il resolves to the site named in the snippet.",
+      "source_url": "https://www.egged.co.il",
+      "raw_snippet": "אגד - תחבורה ציבורית, אוטובוסים, הסעות לכל רחבי ישראל",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "operator-dan",
+      "claim": "https://www.dan.co.il resolves to the site named in the snippet.",
+      "source_url": "https://www.dan.co.il",
+      "raw_snippet": "דן - תחבורה ציבורית",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "operator-kavim",
+      "claim": "https://www.kavim-t.co.il resolves to the site named in the snippet.",
+      "source_url": "https://www.kavim-t.co.il",
+      "raw_snippet": "חברת קווים תחבורה ציבורית | קווים",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "operator-metropoline",
+      "claim": "https://www.metropoline.com resolves to the site named in the snippet.",
+      "source_url": "https://www.metropoline.com",
+      "raw_snippet": "דף הבית | מטרופולין",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "operator-superbus",
+      "claim": "https://www.superbus.co.il resolves to the site named in the snippet.",
+      "source_url": "https://www.superbus.co.il",
+      "raw_snippet": "סופרבוס - חברת התחבורה בעמקים ובירושלים",
+      "fetched_at": "2026-08-10",
+      "source_note": "The www host presents a certificate that does not match the name; the site itself answers at superbus.co.il, where this title was read."
+    },
+    {
+      "claim_id": "operator-cfir",
+      "claim": "https://www.cfir.co.il resolves to the site named in the snippet.",
+      "source_url": "https://www.cfir.co.il",
+      "raw_snippet": "כפיר- רכבת קלה ירושלים",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "ravkav-online",
+      "claim": "https://ravkavonline.co.il/ resolves to the site named in the snippet.",
+      "source_url": "https://ravkavonline.co.il/",
+      "raw_snippet": "רב-קו אונליין | השירות הרשמי למכירה וטעינה של חוזי נסיעה לרב-קו",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "pti-authority",
+      "claim": "https://pti.org.il/derekh-shava/eng/ resolves to the site named in the snippet.",
+      "source_url": "https://pti.org.il/derekh-shava/eng/",
+      "raw_snippet": "דף הבית | הרשות הארצית לתחבורה ציבורית",
+      "fetched_at": "2026-08-10",
+      "source_note": "The path resolves to the National Public Transport Authority site, which serves its Hebrew home page rather than an English one."
+    },
+    {
+      "claim_id": "operator-rail",
+      "claim": "https://www.rail.co.il is the Israel Railways site.",
+      "source_url": "https://www.rail.co.il",
+      "raw_snippet": "רכבת ישראל",
+      "fetched_at": "2026-08-10",
+      "verified_via": "archive",
+      "source_note": "rail.co.il answers 403 (Cloudflare interstitial) to fetchers; title read from Wayback snapshot 20250214110924, which is stable content (the site name)."
+    },
+    {
+      "claim_id": "curlbus-endpoint",
+      "claim": "https://curlbus.app/ serves the curlbus terminal-style real-time bus arrivals service.",
+      "source_url": "https://curlbus.app/",
+      "raw_snippet": "curlbus",
+      "fetched_at": "2026-08-10",
+      "source_note": "HTML <title> of the fetched page; the body is ANSI art rendered as HTML."
+    },
+    {
+      "claim_id": "operator-nta",
+      "claim": "https://www.nta.co.il is the site of NTA (נת\"ע), the Tel Aviv metropolitan mass transit company.",
+      "source_url": "https://www.nta.co.il",
+      "raw_snippet": "https://www.nta.co.il",
+      "fetched_at": "2026-08-10",
+      "source_note": "NOT content-verified in this pass: the host answers every fetcher and browser request with a Cloudflare 'Just a moment...' interstitial and the Wayback CDX API timed out for this host. Only the URL is recorded; re-verify next cycle."
     }
   ]
 }

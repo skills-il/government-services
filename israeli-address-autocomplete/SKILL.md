@@ -20,7 +20,7 @@ Example: rechov Rothschild 42, Tel Aviv-Yafo, 6688312
 1. **City:** Check against CBS official settlement list (~1,300 entries)
 2. **Street:** Verify street exists in the city (data.gov.il street database)
 3. **Number:** Validate format (number, optional apartment/entrance)
-4. **Postal code:** 7 digits, verify matches the address area
+4. **Postal code:** look it up per address on the Israel Post form; verify it matches the address area
 
 ### Step 3: Lookup Missing Data
 - **No postal code:** Look up via Israel Post website or reference data

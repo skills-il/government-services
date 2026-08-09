@@ -29,7 +29,7 @@ mikrkain) before submitting bids on significant tenders.
 | Development terms | Decode building rights and conditions |
 
 ### Step 2: Search for Tenders
-Use the remy-land-authority MCP server, or query the official RMI tender portal at `apps.land.gov.il/MichrazimSite/`, to find active and recent tenders. RMI also publishes an interactive tender map at `gov.il/he/departments/israel_land_authority/map/map_micrazim`.
+Use the remy-land-authority MCP server, or query the official RMI tender portal at `apps.land.gov.il/MichrazimSite/`, to find active and recent tenders. RMI's land-tenders hub page at `gov.il/he/departments/topics/land_tenders` links the tender system and an interactive tender map.
 
 **Search parameters:**
 | Filter | Description | Example |
@@ -60,7 +60,7 @@ Use the remy-land-authority MCP server, or query the official RMI tender portal 
 - Bidders submit sealed proposals with price and sometimes qualitative criteria
 - Most common for large residential and commercial projects
 - Requires significant financial capacity and often development experience
-- Deposit: Usually 10-15% of minimum price
+- Deposit (arbon): set per tender in the tender document; read the amount off the specific michraz, never assume a rate
 
 **Lottery (Hagralah)**
 - Fixed price set by RMI, applicants drawn randomly
@@ -94,7 +94,7 @@ Step-by-step process for submitting a tender bid:
 
 2. **Assess financial capacity**
    - Minimum price: Listed in tender, can bid higher
-   - Deposit (arbon): Typically 10-15% of minimum price, bank guarantee or check
+   - Deposit (arbon): the amount is stated in the tender document, paid as a bank guarantee or check
    - Development costs: Estimate construction and infrastructure costs
    - Development fees: Government levies (hetel hashbacha, agrat pituach)
 
@@ -172,7 +172,7 @@ Result: Clarify that "Mechir Lamishtaken" is now one sub-track inside the umbrel
 
 ### Example 3: Bid Strategy
 User says: "There's a tender in Netanya, minimum price 15 million, how much should I bid?"
-Result: Explain that bid strategy depends on: recent comparable tender results in Netanya, number of expected bidders, building rights and development costs, current market conditions. Provide framework for analysis but recommend consulting a real estate appraiser (shamai mikrkain) and attorney for specific bid amount. Note that winning bids in Netanya coastal areas are typically 20-40% above minimum.
+Result: Explain that bid strategy depends on: recent comparable tender results in Netanya, number of expected bidders, building rights and development costs, current market conditions. Provide framework for analysis but recommend consulting a real estate appraiser (shamai mikrkain) and attorney for specific bid amount. Do not quote a typical premium over the minimum price: it varies by tender and is not published as a rate.
 
 ## Bundled Resources
 
@@ -191,7 +191,7 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 ## Gotchas
 - Israeli land tenders (michrazei karka'ot) from the Israel Land Authority (RMI/Rami) are published in Hebrew only. Agents may search for tenders using English location names, which will return no results.
 - Land measurements in Israeli tenders use dunam (1 dunam = 1,000 square meters), not acres or hectares. Agents may convert to international units without noting the original dunam figure.
-- Tender participation requires a bank guarantee (areva bankit) of 10-15% of the tender price. Agents may suggest bidding without mentioning this upfront financial requirement.
+- Tender participation requires a deposit, usually as a bank guarantee (areva bankit), in the amount stated in the tender document. Agents may suggest bidding without mentioning this upfront financial requirement.
 - Israeli land in urban areas is often leased from the state (chakira) for 49 or 98 years (not a free range, those are the canonical lease lengths), not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
 - The affordable-housing lottery program is administered by the Ministry of Construction and Housing at `dira.moch.gov.il`, not by RMI directly. Agents that point users to the RMI site for lottery registration will send them to the wrong place. RMI tenders the land; the Housing Ministry runs eligibility, registration, and the drawing.
 - "Mechir Lamishtaken" is the legacy name; today it is one sub-track inside Dira BeHanacha. **Mechir Matara** is a distinct sub-track with different rules (20% / 500K NIS discount cap, 40,000 NIS buyer grant, open to dwelling upgraders). Treating them as the same program causes wrong eligibility advice.
@@ -203,7 +203,7 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 |--------|-----|---------------|
 | RMI tender portal (MichrazimSite) | https://apps.land.gov.il/MichrazimSite/ | Active and recent tenders, tender booklets, online bid submission |
 | Israel Land Authority (gov.il) | https://www.gov.il/he/departments/israel_land_authority | Official RMI department page, announcements, policy updates |
-| RMI tender map | https://www.gov.il/he/departments/israel_land_authority/map/map_micrazim | Interactive map of active land tenders |
+| RMI land tenders hub | https://www.gov.il/he/departments/topics/land_tenders | Tender system, tender map, and exemption-from-tender information |
 | Dira BeHanacha lottery | https://dira.moch.gov.il/ | Current and upcoming affordable-housing lottery rounds, eligibility certificate |
 | Online bid submission service (English) | https://www.gov.il/en/service/tenders-online | English documentation of the online bid submission flow |
 | RMI services portal | https://www.gov.il/en/service/my-ramitech | "My ILA" -- view participated tenders, mailings, exercise bid wins |
