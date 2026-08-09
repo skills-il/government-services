@@ -8,6 +8,13 @@ compatibility: Requires Claude Code or compatible AI coding agent
 
 # Israeli Miluim Manager
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It helps you organise and complete forms for government authorities. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate, tax adviser, or accountant. The output is not legal, tax, or other professional advice. An AI model may err, omit data, or present a wrong conclusion.
+
+A form submitted to an authority is a document whose contents are your responsibility, and incorrect details in it can carry liability. Check every field before filing, and do not file a form whose contents you do not understand. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Instructions
 
 ### Step 1: Reserve Duty Basics

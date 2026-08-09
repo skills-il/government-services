@@ -6,6 +6,13 @@ license: MIT
 
 # Israeli Digital Nomad Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the tax rules and helps you organise your own figures. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by a tax adviser or accountant. The output is not a tax opinion, not a return prepared by a licensed representative, and not professional advice, but a general calculation and explanation only: it does not examine the full extent of your income or your complete documents. An AI model may err, omit data, or present a wrong conclusion.
+
+Any form or text this tool produces is an automatic draft for your personal preparation only, and is not a filed return. Responsibility for reporting and for paying the tax is yours, the binding computation is the Tax Authority's, and representation before the Tax Authority is reserved to those permitted by law. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Consult a tax adviser or accountant before filing or paying. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Israelis going nomad face four entangled regimes at once: per-country visa rules, Israeli tax residency that follows them across borders, kupat cholim and bituach leumi continuity rules with hard cliff edges, and the freelancer-vs-employee split that decides between a totalization certificate and a VAT Section 30 zero-rated invoice. Most nomad guides ignore the Israeli side; most Israeli-side guides assume a full relocation. Decisions made (or missed) in the first 90 days routinely cost thousands of shekels and trigger a kupat cholim waiting period on return. This skill gives a phased, branch-aware checklist so nothing falls through the cracks.

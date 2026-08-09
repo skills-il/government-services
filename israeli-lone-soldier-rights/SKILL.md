@@ -7,6 +7,13 @@ license: MIT
 
 # Israeli Lone Soldier Rights
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It helps you organise and complete forms for government authorities. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate, tax adviser, or accountant. The output is not legal, tax, or other professional advice. An AI model may err, omit data, or present a wrong conclusion.
+
+A form submitted to an authority is a document whose contents are your responsibility, and incorrect details in it can carry liability. Check every field before filing, and do not file a form whose contents you do not understand. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 A lone soldier (chayal boded), an oleh without family in Israel, or an Israeli whose parents are abroad / deceased / formally estranged, is entitled to a substantial supplemental benefits package on top of regular service compensation: a monthly grant equal to 100% of a private's base salary, rent + utility assistance during service, free flights home, and up to ₪12,000 of rent assistance in the first year after discharge. But the rules live in IDF Chief of Staff Order 35.0808 (which is not user-facing), the hachvana.mod.gov.il extra-benefits page, kolzchut, plus diaspora-org programs from Nefesh B'Nefesh, FIDF, Garin Tzabar, and the Lone Soldier Center in Memory of Michael Levin. Many lone soldiers (and their parents abroad) don't realize they need formal Aka recognition before any of this kicks in, miss the post-discharge rent application within the 12-month window, or assume one benefit replaces another when in fact they stack. This skill maps the recognition flow, the active-duty benefits, the post-discharge supplements (which are distinct from the regular discharged-soldier package), and the diaspora-org routing.

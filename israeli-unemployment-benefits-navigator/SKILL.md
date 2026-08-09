@@ -8,6 +8,13 @@ compatibility: Works with Claude, Claude Code, ChatGPT, Cursor. Optional pairing
 
 # Israeli Unemployment Benefits Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It helps you organise and complete forms for government authorities. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate, tax adviser, or accountant. The output is not legal, tax, or other professional advice. An AI model may err, omit data, or present a wrong conclusion.
+
+A form submitted to an authority is a document whose contents are your responsibility, and incorrect details in it can carry liability. Check every field before filing, and do not file a form whose contents you do not understand. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 Every year, tens of thousands of Israelis lose their job or are placed on unpaid leave (חל"ת) and leave avtala money on the table because the rules are dense, the qualifying period is easy to miscount, and the Bituach Leumi website buries the progressive benefit formula under links. Resigning without knowing about the 90-day waiting period, registering late at Sherut HaTaasuka, or forgetting that only 12 salaried months out of the last 18 qualify, all cost real shekels. A separate set of users miss out on stackable benefits (hashlamat hachnasa for low earners, vocational training stipends, and, for claims from the closed 2026 שאגת הארי window, the 6-of-18 and 3-of-18 emergency tiers) because nobody told them. This skill gives a clear "Am I eligible? How much will I get? What do I do first?" answer in one pass, with a personalized application checklist the user can execute the same day.
 

@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -33,8 +33,8 @@
     "en": "Israeli Miluim Manager"
   },
   "display_description": {
-    "he": "מדריך מקיף לזכויות שירות מילואים בישראל: תגמולי מילואים (תגמולי שכר מביטוח לאומי, תגמול נוסף ותגמול מיוחד מצה\"ל), זיכויי מס לוחם לפי תיקון 283 (15 דרגות, בשנת המס שאחרי השירות), מענקי קרן הסיוע של אכ\"א מדורגים לפי מדרג פעילות (משפחה מוגדל, שובר נופש, ארנק דיגיטלי פייטר), מסלול נכות במשרד הביטחון (פוסט-טראומה דרך אכ\"א 8944), מענק נזק עקיף לעצמאים, הקלות בנק ישראל והחזרי שכר לימוד לסטודנטים. כולל פיצוי קבוע של 20% למעסיקים פרטיים, איסור פיטורים מדורג (30 או 60 יום), והגנות לבני זוג. מיועד למשרתי מילואים, מעסיקים ומשפחות. לא מיועד לשירות סדיר או צבא קבע, ולא לפיטורים או פיצויי פיטורים שאינם קשורים לשירות מילואים (לזה ראו ניווט זכויות עובדים).",
-    "en": "Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, and benefits. Use when a reservist, employer, or family member needs help with reserve compensation (Bituach Leumi salary reimbursement; tagmul nosaf and tagmul meyuchad paid by the IDF), IDF Aka grants (Manak Mishpacha Mugdal, Fighter digital wallet, Keren HaSiyua, all tiered by activity band), Misrad HaBitachon disability and PTSD recognition (Aka 8944), Amendment 283 combat tax credits (15 tiers, up to 4.0 credit points), Amendment 253 BL income basis fixes, Manak Nezek Akif for self-employed, Bank Israel mortgage relief, student tuition refunds, and post-service employment protections (tiered 30 or 60-day dismissal ban, permanent 20% private employer compensation). Do NOT use for active-duty (sherut sadir) conscription, draft deferral, or career military (keva) matters. Do NOT use for general (non-reservist) firing or severance pay; for that see israeli-workplace-rights-navigator."
+    "he": "אינו ייעוץ משפטי או מיסויי. מדריך מקיף לזכויות שירות מילואים בישראל: תגמולי מילואים (תגמולי שכר מביטוח לאומי, תגמול נוסף ותגמול מיוחד מצה\"ל), זיכויי מס לוחם לפי תיקון 283 (15 דרגות, בשנת המס שאחרי השירות), מענקי קרן הסיוע של אכ\"א מדורגים לפי מדרג פעילות (משפחה מוגדל, שובר נופש, ארנק דיגיטלי פייטר), מסלול נכות במשרד הביטחון (פוסט-טראומה דרך אכ\"א 8944), מענק נזק עקיף לעצמאים, הקלות בנק ישראל והחזרי שכר לימוד לסטודנטים. כולל פיצוי קבוע של 20% למעסיקים פרטיים, איסור פיטורים מדורג (30 או 60 יום), והגנות לבני זוג. מיועד למשרתי מילואים, מעסיקים ומשפחות. לא מיועד לשירות סדיר או צבא קבע, ולא לפיטורים או פיצויי פיטורים שאינם קשורים לשירות מילואים (לזה ראו ניווט זכויות עובדים).",
+    "en": "Not legal or tax advice. Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, and benefits. Use when a reservist, employer, or family member needs help with reserve compensation (Bituach Leumi salary reimbursement; tagmul nosaf and tagmul meyuchad paid by the IDF), IDF Aka grants (Manak Mishpacha Mugdal, Fighter digital wallet, Keren HaSiyua, all tiered by activity band), Misrad HaBitachon disability and PTSD recognition (Aka 8944), Amendment 283 combat tax credits (15 tiers, up to 4.0 credit points), Amendment 253 BL income basis fixes, Manak Nezek Akif for self-employed, Bank Israel mortgage relief, student tuition refunds, and post-service employment protections (tiered 30 or 60-day dismissal ban, permanent 20% private employer compensation). Do NOT use for active-duty (sherut sadir) conscription, draft deferral, or career military (keva) matters. Do NOT use for general (non-reservist) firing or severance pay; for that see israeli-workplace-rights-navigator."
   },
   "supported_agents": [
     "claude-code",
