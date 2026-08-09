@@ -6,6 +6,11 @@ license: MIT
 
 # Israeli Survivor Benefits Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the rules and calculates from the figures you enter, but it does not examine your full circumstances and does not constitute advice. All of its outputs are produced automatically, with no involvement, review, or approval by an authorised National Insurance representative, and an AI model may err, omit data, or present a wrong conclusion. Eligibility and the amount are determined solely by the National Insurance Institute. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 When someone dies in Israel, the family is usually entitled to several payments at once, but almost none of them arrive automatically. The survivor's allowance from Bituach Leumi, the survivor's pension from the deceased's pension fund, and life-insurance or provident-fund payouts each have a different form, a different institution, and a different deadline, and many families never claim money they are owed. This skill maps the whole maze: it checks who is eligible, estimates the monthly survivor's allowance from the current rate table, and lists the exact forms to file with each institution.

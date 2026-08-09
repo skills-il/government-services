@@ -8,6 +8,11 @@ compatibility: No network required. Works with Claude Code, Claude.ai, Cursor.
 
 # Israeli Bituach Leumi (National Insurance)
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the rules and calculates from the figures you enter, but it does not examine your full circumstances and does not constitute advice. All of its outputs are produced automatically, with no involvement, review, or approval by an authorised National Insurance representative, and an AI model may err, omit data, or present a wrong conclusion. Eligibility and the amount are determined solely by the National Insurance Institute. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Critical Note
 Bituach Leumi rules are complex. Amounts update **once a year, on 1 January**, plus an adjustment only if a cost-of-living supplement is paid. Individual tables can also be reissued mid-year (the long-term-care income test AND cash amounts changed on 1 April 2026), so check the specific benefit page rather than trusting an update calendar. Always tell users to verify their case at btl.gov.il, the personal area at https://ps.btl.gov.il, or *6050. Amounts here follow the January 2026 benefits circular (`btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf`) and contributions circular 1522.
 

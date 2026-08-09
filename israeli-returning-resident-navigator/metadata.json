@@ -4,8 +4,8 @@
     "en": "Israeli Returning Resident Navigator"
   },
   "display_description": {
-    "he": "מסייע לישראלים שחוזרים אחרי שנים בחו\"ל לעבור את 90 הימים הראשונים בארץ: בודק זכאות לתעודת תושב חוזר ממשרד העלייה והקליטה (סף שנתיים), מסביר באיזה סל מס הכנסה אתם נופלים (רגיל מ-6 שנים, ותיק מ-10), מנחה בהגשת טופס 628 בביטוח לאומי, ובוחר בין המתנה לפדיון (16,860 ש\"ח ב-2026) לקופת חולים. בנוסף: רישיון נהיגה, חלונות הזמן של 24 ו-9 חודשים, וסדר פעולות מעשי. לא לעולים חדשים (israeli-aliyah-navigator), לא לישראלים שעוזבים (israeli-relocation-abroad), לא לחישובי סעיף 14 (israeli-toshav-chozer-vatik-tax-planner) ולא ליבוא רכב ומכס (israeli-returning-resident-customs-vehicle).",
-    "en": "Helps Israelis returning from years abroad navigate the first 90 days back: checks eligibility for the Misrad HaAliyah V'HaKlita certificate (2-year threshold), identifies which Mas Hachnasa tax basket applies (regular at 6 years, vatik at 10), walks through filing Form 628 at Bituach Leumi, and weighs the kupat cholim waiting period against the 2026 pidyon (16,860 NIS). Also covers driver's license restoration, the 24-month and 9-month windows, and a practical order of operations. Do NOT use for new immigrants (israeli-aliyah-navigator), Israelis leaving the country (israeli-relocation-abroad), Section 14 tax math (israeli-toshav-chozer-vatik-tax-planner), or vehicle import and household-shipment customs (israeli-returning-resident-customs-vehicle)."
+    "he": "אינו ייעוץ מס. מסייע לישראלים שחוזרים אחרי שנים בחו\"ל לעבור את 90 הימים הראשונים בארץ: בודק זכאות לתעודת תושב חוזר ממשרד העלייה והקליטה (סף שנתיים), מסביר באיזה סל מס הכנסה אתם נופלים (רגיל מ-6 שנים, ותיק מ-10), מנחה בהגשת טופס 628 בביטוח לאומי, ובוחר בין המתנה לפדיון (16,860 ש\"ח ב-2026) לקופת חולים. בנוסף: רישיון נהיגה, חלונות הזמן של 24 ו-9 חודשים, וסדר פעולות מעשי. לא לעולים חדשים (israeli-aliyah-navigator), לא לישראלים שעוזבים (israeli-relocation-abroad), לא לחישובי סעיף 14 (israeli-toshav-chozer-vatik-tax-planner) ולא ליבוא רכב ומכס (israeli-returning-resident-customs-vehicle).",
+    "en": "Not tax advice. Helps Israelis returning from years abroad navigate the first 90 days back: checks eligibility for the Misrad HaAliyah V'HaKlita certificate (2-year threshold), identifies which Mas Hachnasa tax basket applies (regular at 6 years, vatik at 10), walks through filing Form 628 at Bituach Leumi, and weighs the kupat cholim waiting period against the 2026 pidyon (16,860 NIS). Also covers driver's license restoration, the 24-month and 9-month windows, and a practical order of operations. Do NOT use for new immigrants (israeli-aliyah-navigator), Israelis leaving the country (israeli-relocation-abroad), Section 14 tax math (israeli-toshav-chozer-vatik-tax-planner), or vehicle import and household-shipment customs (israeli-returning-resident-customs-vehicle)."
   },
   "tags": [
     "toshav-chozer",
@@ -20,7 +20,7 @@
     "israel"
   ],
   "author": "skills-il",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

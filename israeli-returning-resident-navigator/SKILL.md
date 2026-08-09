@@ -17,6 +17,11 @@ license: MIT
 
 # Israeli Returning Resident Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the rules and calculates from the figures you enter, but it does not examine your full circumstances and does not constitute tax advice. All of its outputs are produced automatically, with no involvement, review, or approval by a tax adviser or accountant, and an AI model may err, omit data, or present a wrong conclusion. The binding computation is the Tax Authority's and responsibility for reporting is yours. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Israelis returning home after years abroad get routinely confused with olim chadashim, and AI agents make this mistake even more often: they quote oleh sal-klita figures, conflate the 6-year and 10-year tax tracks, or assume Bituach Leumi residency is automatic. The result is missed customs windows, surprise BL debt, longer-than-needed kupat cholim waiting periods, and lost retroactive benefits. Three independent agencies (Misrad HaAliyah V'HaKlita, Mas Hachnasa, Bituach Leumi) decide three independent questions on three different timelines, and this skill walks the returnee through each one in the right order.

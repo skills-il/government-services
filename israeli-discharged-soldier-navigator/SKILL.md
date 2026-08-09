@@ -7,6 +7,11 @@ license: MIT
 
 # Israeli Discharged Soldier Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the rules and calculates from the figures you enter, but it does not examine your full circumstances and does not constitute advice. All of its outputs are produced automatically, with no involvement, review, or approval by an authorised National Insurance representative, and an AI model may err, omit data, or present a wrong conclusion. Eligibility and the amount are determined solely by the National Insurance Institute. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 A 21-year-old who just finished sherut chova has access to a Pikadon (personal deposit), a separate discharge grant, three years of tax credit points, and (for Iron Swords combat veterans) full university tuition. The official information is scattered across the MoD's hachvana site, kolzchut, the Income Tax Ordinance, and the MoD Mimadim LiLimudim scholarship page. Most discharged soldiers either miss benefits entirely (especially the retroactive nekudot zikui), try to use Pikadon for non-permitted purposes (rental is the most common mistake, only purchase qualifies), or fail to claim within the 5-year statutory window. This skill walks the user through eligibility, the current indexed Pikadon rates per service tier, the 6 permitted pre-5y withdrawal purposes, the Tofes 101 claim flow for credit points, and the Iron Swords expansions, with the right form numbers and the right hachvana.mod.gov.il portal flows.
