@@ -1,6 +1,6 @@
 ---
 name: israeli-real-estate
-description: Israeli real estate data, property valuation, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets.
+description: Israeli real estate data, comparable-sales analysis, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets.
 license: MIT
 allowed-tools: Bash(python:*) WebFetch
 compatibility: Network access helpful for data lookups. Enhanced by remy-land-authority MCP for land tenders.
@@ -8,12 +8,19 @@ compatibility: Network access helpful for data lookups. Enhanced by remy-land-au
 
 # Israeli Real Estate
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains Israeli real estate processes and presents data that has been published to the public. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by a licensed real estate appraiser, advocate, or tax adviser. The output is not a property appraisal (shuma), not a professional opinion, and not legal or tax advice, but general information only: it involves no site visit, it does not perform the appraisal adjustments required by the comparison approach, and it does not examine the documents of your specific transaction. An AI model may err, omit data, or present a wrong conclusion.
+
+The output must not be presented as a certified appraisal, must not be relied on as evidence, and must not be submitted to a court or an authority. A binding valuation requires a licensed appraiser, a property transaction requires an advocate, and a binding tax computation requires a tax adviser or accountant. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Instructions
 
 ### Step 1: Identify Real Estate Need
 | Need | Action |
 |------|--------|
-| Property valuation | Use comparable sales data methodology |
+| Comparable-sales analysis | Present reported and published transactions, not an appraisal |
 | Buying guidance | Full transaction checklist |
 | Purchase tax calculation | Apply mas rechisha brackets |
 | Tabu extract | Guide through obtaining nesach tabu |
