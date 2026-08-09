@@ -7,8 +7,8 @@
       "claim_id": "amt-266",
       "claim": "not-working minimum total monthly: 266 NIS / 266 ש\"ח (2026)",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx",
-      "raw_snippet": "266",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "מ י שאינו עובד (למעט אישה הנשואה למבוטח תושב ישראל) ואין לו הכנסות, חייב לשלם דמי ביטוח לאומי ודמי ביטוח בריאות עבור עצמו בשיעור המינימום - 266 ש\"ח (החל ב- 01.01.2026) לרשותך מחשבון לחישוב דמי הביטוח דרכים לתשלום דמי הביטוח הדפס ש",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -17,9 +17,9 @@
     {
       "claim_id": "amt-143",
       "claim": "not-working minimum NI portion: 143 NIS / 143 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx",
-      "raw_snippet": "143",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "לא עובד ולא עובד עצמאי ,שוהה בחול יותר מ 6-חודשים 250 266 סך הכ ול שכר ממוצע לפי סעיף 15%* 2 130 143 ביטוח לאומי * ,6.92%לוח יא' פרט 3ולוח י' סעיף (14א) לחוק ביטוח בריאות 120 123 ביטוח בריאו",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -28,9 +28,9 @@
     {
       "claim_id": "amt-123",
       "claim": "not-working minimum health portion: 123 NIS / 123 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/NotWorking/Pages/ScomNotWorking.aspx",
-      "raw_snippet": "123",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "לא עובד ולא עובד עצמאי ,שוהה בחול יותר מ 6-חודשים 250 266 סך הכ ול שכר ממוצע לפי סעיף 15%* 2 130 143 ביטוח לאומי * ,6.92%לוח יא' פרט 3ולוח י' סעיף (14א) לחוק ביטוח בריאות 120 123 ביטוח בריאו",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -82,7 +82,7 @@
     },
     {
       "claim_id": "amt-2757",
-      "claim": "old-age seniority supplement: 2% of the basic pension per full insured year, capped at 50% of the pension (2,757 NIS for a single pensioner is the derived 1,838 x 1.5 cap figure, not a published amount)",
+      "claim": "old-age seniority supplement: 2% of the basic pension per full insured year, capped at 50% of the pension. The 2,757 ש\"ח / 2,757 NIS single-pensioner figure is the DERIVED cap (1,838 x 1.5), not a published amount.",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
       "raw_snippet": "תוספת ותק תוספת בשיעור 2% עבור כל שנה מלאה שבה הייתם מבוטחים בביטוח הלאומי. תוספת הוותק המקסימלית שניתן לקבל היא בגובה 50% מהקצבה. שימו לב, שנת ביטוח ",
       "fetched_at": "2026-08-09T15:43:13.323694+00:00",
@@ -171,9 +171,9 @@
     {
       "claim_id": "amt-10774",
       "claim": "attendant supplement: 10,774 NIS / 10,774 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "10,774",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "10,421 10,774 תוספת מונ שם למי שמקבל 188% ,112% ,100% לפי סעי ף .9 תקנו ת ילד נכ",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -303,9 +303,9 @@
     {
       "claim_id": "amt-550_76",
       "claim": "unemployment daily ceiling days 1-125: 550.76 NIS / 550.76 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "550.76",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "דמי אבטלה מרביים ליום השכר היומי הממוצע סעיף 532.64 550.76 לתקופה הראשונה (167ב)()1()2 2/3מהשכר היומי הממוצע 355.09 367.17 לתקופה השנ ייה סעיף (167ב)()2()2 1.46%מהשכר הממוצע ,סעיף לתקופה מהיום ה ,176-לנשים בשל ",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -314,9 +314,9 @@
     {
       "claim_id": "amt-367_17",
       "claim": "unemployment daily ceiling days 126+: 367.17 NIS / 367.17 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "367.17",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "דמי אבטלה מרביים ליום השכר היומי הממוצע סעיף 532.64 550.76 לתקופה הראשונה (167ב)()1()2 2/3מהשכר היומי הממוצע 355.09 367.17 לתקופה השנ ייה סעיף (167ב)()2()2 1.46%מהשכר הממוצע ,סעיף לתקופה מהיום ה ,176-לנשים בשל ",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -325,9 +325,9 @@
     {
       "claim_id": "amt-1730_33",
       "claim": "miluim max daily rate: 1,730.33 NIS / 1,730.33 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
-      "raw_snippet": "1,730.33",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "1,689.83 1,730.33 יומי הענקה לנוער עובד המשתתף בחינוך קדם צבאי 3,329 3",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -336,9 +336,9 @@
     {
       "claim_id": "amt-328_76",
       "claim": "miluim min daily rate: 328.76 NIS / 328.76 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
-      "raw_snippet": "328.76",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": ".5תגמול מילואים הוראת השעה לעניין התגמול המזערי ליום מילואים עוגנה בחוק הביטוח הלאומי והתגמול המזערי ליום מילואים יהיה .₪ 328.76 .6קצבאות אזרח ותיק ושאירים החל בינואר 2022גיל הפרישה לנשים יע",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -347,9 +347,9 @@
     {
       "claim_id": "amt-1752_33",
       "claim": "maternity daily ceiling: 1,752.33 NIS / 1,752.33 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/maternity/Pages/default.aspx",
-      "raw_snippet": "1,752.33",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "1,711.33 1,752.33 דמי לידה מרביים -ליום פיסקה (( )1ב) בסיפא ,כפול 5 שכ",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -358,31 +358,9 @@
     {
       "claim_id": "amt-1314_25",
       "claim": "work-injury daily ceiling: 1,314.25 NIS / 1,314.25 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/Pages/default.aspx",
-      "raw_snippet": "1,314.25",
-      "fetched_at": "2026-07-13T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-12536",
-      "claim": "income supplement threshold single: 12,536 NIS / 12,536 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/default.aspx",
-      "raw_snippet": "12,536",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "amt-18804",
-      "claim": "income supplement threshold couple: 18,804 NIS / 18,804 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/default.aspx",
-      "raw_snippet": "18,804",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/%d7%93%d7%9e%d7%99%20%d7%a4%d7%92%d7%99%d7%a2%d7%94/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%20%d7%93%d7%9e%d7%99%20%d7%94%d7%a4%d7%92%d7%99%d7%a2%d7%94%20%d7%9c%d7%99%d7%95%d7%9d.aspx",
+      "raw_snippet": "ועד למקסימום דמי הפגיעה ליום 1,314.25 ש\"ח (החל ב- 01.01.2026) . ההכנסות שנלקחות ",
+      "fetched_at": "2026-08-09T15:50:56.522745+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -391,9 +369,9 @@
     {
       "claim_id": "amt-7703",
       "claim": "reduced-collection step (מדרגת גביה מופחתת) for 2026: 7,703 NIS / 7,703 ש\"ח. A STATUTORY amount (base 7,522, CPI-indexed 2026-2028), NOT 60% of the average wage.",
-      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
-      "raw_snippet": "7,703",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "תקרת ההכנסה לתשלום שיעו רים מופחתים למבוטח סעיף (334א) 7,522 7,703 לחודש 3פעמים ההכנסה לתשלום 22,566 23,109 לר",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -644,9 +622,9 @@
     {
       "claim_id": "pct-100",
       "claim": "disabled child 100% rate: 100%",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "100%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הו",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -655,9 +633,9 @@
     {
       "claim_id": "pct-75",
       "claim": "work-injury coverage 75% of wage: 75%",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "75%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/%d7%93%d7%9e%d7%99%20%d7%a4%d7%92%d7%99%d7%a2%d7%94/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%20%d7%93%d7%9e%d7%99%20%d7%94%d7%a4%d7%92%d7%99%d7%a2%d7%94%20%d7%9c%d7%99%d7%95%d7%9d.aspx",
+      "raw_snippet": "דמי הפגיעה ליום לעובד שכיר ולעובד עצמאי יחושבו באופן הבא: 75% מההכנסה החייבת בדמי ביטוח ב- 3 החודשים המלאים שקדמו ל-1 בחודש שבו הופסקה העבודה בשל הפגיעה, או חודש הפגיעה עד ליום הפגיעה ושני החודשים שקדמו לו, לחלק ב-90 - התשלום הגבוה מבין השניים, ועד למקסימום דמי הפגיעה ליום 1,314.25 ש\"ח (החל ב- 01.01",
+      "fetched_at": "2026-08-09T15:50:56.522745+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -677,9 +655,9 @@
     {
       "claim_id": "pct-65",
       "claim": "women retirement age cohort: 65%",
-      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/default.aspx",
-      "raw_snippet": "65",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
+      "raw_snippet": "גיל הפרישה לנשים הוא 60 עד 65 שנים ונקבע לפי תאריך הלידה, כפי שמופיע בטבלה: תאריך הלידה גיל הפרישה 6/1944 60 7",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -688,9 +666,9 @@
     {
       "claim_id": "pct-0",
       "claim": "no contribution below exemption / above ceiling: 0%",
-      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx",
-      "raw_snippet": "0",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9E%D7%99%20%D7%A9%D7%90%D7%99%D7%A0%D7%9D%20%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%91%D7%A2%D7%9C%D7%99%20%D7%94%D7%9B%D7%A0%D7%A1%D7%94%20%D7%A9%D7%9C%D7%90%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
+      "raw_snippet": "טבלת שיעור דמי הביטוח להכנסה שלא מעבודה: עד 3,442 ש\"ח מההכנסה עד 7,703 ש\"ח (שיעור מופחת) מחלק ההכנסה שבין 7,703 ש\"ח ועד 51,910 ש\"ח (שיעור רגיל) דמי ביטוח לאומי פטור 6.92% 7% דמי ביטוח בריאות פטור 5.17% 5.17% סך הכול 0% 12.09% 12.1",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -720,10 +698,10 @@
     },
     {
       "claim_id": "pct-150",
-      "claim": "multiple-birth maternity extension percentage: 150%",
-      "source_url": "https://www.btl.gov.il/benefits/maternity/Pages/default.aspx",
-      "raw_snippet": "150",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "claim": "birth grant for triplets is 150% of the basic amount (150% figure verified as the multiple-birth grant rate, not a maternity-leave extension)",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "150%מהסכום הבסיסי לפי פסקה 1בהגדרת הסכום הבסיסי כשהוא מעודכן לפי פיסקה ()1 15,402 15,771 מענק ליולדת 3ילדים (ב) בסיפא. 50%מהסכום ה",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -909,8 +887,8 @@
       "claim_id": "phone-6050",
       "claim": "Bituach Leumi telephone service line: *6050",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "*6050",
-      "fetched_at": "2026-06-12T21:54:47.677885+00:00",
+      "raw_snippet": "טלפון: *6050 מוקד טלפוני ארצי 04-8812345 תפקיד ביטוח תעסוקתי והבטחת הכ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -930,9 +908,9 @@
     {
       "claim_id": "amt-1518",
       "claim": "income support / long-term care related amount: 1,518 NIS / 1,518 ש\"ח (2026)",
-      "source_url": "https://www.btl.gov.il/benefits/Income_support/Pages/default.aspx",
-      "raw_snippet": "1,518",
-      "fetched_at": "2026-06-12T21:55:15.015801+00:00",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "1,468 1,518 תוספ ת לבן זוג לפי פסקה ( ) 4בסיפא 10.7%הסכום הב",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -940,10 +918,10 @@
     },
     {
       "claim_id": "operational-urls",
-      "claim": "Operational Bituach Leumi portals and reference URLs cited in the skill (personal area, payments B2B, branch finder, forms portal, retirement calculator, joint unemployment form, kolzchut hub).",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "https://b2b.btl.gov.il/BTL.ILG.Payments/DocumentsForm.aspx https://ps.btl.gov.il https://ps.btl.gov.il** https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Self_Employed/Pages/rates.aspx https://www.btl.gov.il/benefits/old_age/Pages/RetirementCalculation.aspx https://www.btl.gov.il/snifim https://www.btl.gov.il/טפסים-ואישורים https://www.btl.gov.il/טפסים-ואישורים** https://www.btl.gov.il/טפסים-ואישורים/FormSearch/Pages/default.aspx https://www.btl.gov.il/טפסים-ואישורים/tfasimMkuvanim/Pages/default.aspx https://www.kolzchut.org.il/he/המוסד_לביטוח_לאומי https://www.taasuka.gov.il/applicants/sharedform/",
-      "fetched_at": "2026-06-12T21:55:15.015801+00:00",
+      "claim": "Operational Bituach Leumi portals and reference URLs cited in the skill: https://b2b.btl.gov.il/BTL.ILG.Payments/DocumentsForm.aspx https://ps.btl.gov.il https://ps.btl.gov.il** https://www.btl.gov.il/benefits/old_age/Pages/RetirementCalculation.aspx https://www.btl.gov.il/snifim https://www.btl.gov.il/טפסים%20ואישורים https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx https://www.kolzchut.org.il/he/המוסד_לביטוח_לאומי https://www.taasuka.gov.il/applicants/sharedform/ (portal verified live; the forms portal path uses a space, %20, not a hyphen)",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Pages/default.aspx",
+      "raw_snippet": "באתר זה תוכלו להדפיס ולהזמין טפסי תביעה לקצבאות וטפסים בנושא ביטוח וגבייה וכן אישורים על זכאות לקצבאות. לידיעתכם, חלק מהטפסים ניתן למלא באופן מקוון ול",
+      "fetched_at": "2026-08-09T15:50:56.522745+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -953,8 +931,8 @@
       "claim_id": "amt-688",
       "claim": "benefit-recipient non-work income exemption threshold: 688 NIS / 688 ש\"ח per month (2026)",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "688",
-      "fetched_at": "2026-06-12T22:02:56.675866+00:00",
+      "raw_snippet": "מי שאין להם הכנסות מעבודה וממקורות אחרים , או שיש להם הכנסות ממקורות אחרים שאינן עולות על 688 ₪ לחודש (נכון ל-2026), והם אחד מאלה : מקבלי קצבה מהביטוח הלאומי או מגוף",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1032,17 +1010,6 @@
       "raw_snippet": "אישה בין גיל פרישה ל \" גיל פרישה לגבר\" שאינה מקבלת קצבת אזרח ותיק 8.12% (החל ב- 01.01.2025) 3.95% (החל ב- 01.01.2025) 4.17% (החל ב- 01.01.2025) 17.36% (החל ב- 01.02.2025) 10.24% (החל ב- 01.02.2025) 7.12% (החל ב- 01.01.2021) נ",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
       "fetched_at": "2026-08-09T15:37:38.225090+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "pct-4_86",
-      "claim": "Working pensioner full-bracket NI component 4.86% (4.86 NI + 5.17 health = 10.03)",
-      "raw_snippet": "4.86%",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
-      "fetched_at": "2026-06-12T22:57:23.905075+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1271,9 +1238,9 @@
     {
       "claim_id": "siyud-inc-13769",
       "claim": "siyud income test, single, full benefit up to 13,769 NIS/month (from 1.4.2026) / 13,769 ש\"ח",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
-      "raw_snippet": "13,769",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "מבוטח שאין עמו בן זוג זכאות לגמלה 13,769 עד 13,618 עד 13,467 עד מלאה זכאות למחצית עד 20,427מעל 13,769עד 20,654 13,618 מעל 13,467עד 20,201מעל גמלה מבוטח שיש עמו בן זוג זכאות לגמלה 20,654 עד 2",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1282,9 +1249,9 @@
     {
       "claim_id": "siyud-inc-20654",
       "claim": "siyud income test, single 50%-reduced to 20,654 / couple full to 20,654 (from 1.4.2026) / 20,654 ש\"ח",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
-      "raw_snippet": "20,654",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "מבוטח שאין עמו בן זוג זכאות לגמלה 13,769 עד 13,618 עד 13,467 עד מלאה זכאות למחצית עד 20,427מעל 13,769עד 20,654 13,618 מעל 13,467עד 20,201מעל גמלה מבוטח שיש עמו בן זוג זכאות לגמלה 20,654 עד 20,427 עד 20,201 עד מלאה זכאות למחצית עד 30,641מעל 20,654עד 30,980 20,427 מעל 20,201עד 30,301מעל גמלה תוספת בעד",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1293,9 +1260,9 @@
     {
       "claim_id": "siyud-inc-30980",
       "claim": "siyud income test, couple, no entitlement above 30,980 NIS/month (from 1.4.2026) / 30,980 ש\"ח",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx",
-      "raw_snippet": "30,980",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "מבוטח שיש עמו בן זוג זכאות לגמלה 20,654 עד 20,427 עד 20,201 עד מלאה זכאות למחצית עד 30,641מעל 20,654עד 30,980 20,427 מעל 20,201עד 30,301מעל גמלה תוספת בעד כל ילד זכאות לגמלה 6,885 עד 6,809 עד 6,734 עד",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1304,9 +1271,9 @@
     {
       "claim_id": "step-7522",
       "claim": "reduced-collection step is a statutory amount, base 7,522 NIS, CPI-indexed each 1 January 2026-2028 / 7,522 ש\"ח",
-      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
-      "raw_snippet": "7,522",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "תקרת ההכנסה לתשלום שיעו רים מופחתים למבוטח סעיף (334א) 7,522 7,703 לחודש 3פעמים ההכנסה לתשלום 22,566 23,109 לר",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1315,9 +1282,9 @@
     {
       "claim_id": "step-7703",
       "claim": "reduced-collection step for 2026 is 7,703 NIS/month / 7,703 ש\"ח",
-      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
-      "raw_snippet": "7,703",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "תקרת ההכנסה לתשלום שיעו רים מופחתים למבוטח סעיף (334א) 7,522 7,703 לחודש 3פעמים ההכנסה לתשלום 22,566 23,109 לר",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1326,9 +1293,9 @@
     {
       "claim_id": "ceiling-51910",
       "claim": "maximum monthly income for contributions: 51,910 NIS / 51,910 ש\"ח",
-      "source_url": "https://www.btl.gov.il/Insurance/HozrimBituah/Hozrim/_%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%91%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%A9%D7%A0%D7%AA_2026.pdf",
-      "raw_snippet": "51,910",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "ההכנסה המרבית לעניין מילואים המחושבת לפי הסכום הבסיסי של 10,382ש\"ח תעלה ל- 51,910ש\"ח. דמי האבטלה המרביים יהיו שווים לשכר",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1602,8 +1569,8 @@
       "claim_id": "chalat-266",
       "claim": "unpaid leave from the 3rd month: the non-working person pays the 266 NIS/month minimum / 266 ש\"ח",
       "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/Employee_in_vacation/Pages/schum.aspx",
-      "raw_snippet": "266",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "החל מהחודש השלישי מי שנמצא בחופשה ללא תשלום ואינו עובד כשכיר ו/או כעצמאי, חייב לשלם דמי ביטוח לאומי ודמי ביטוח בריאות עבור עצמו בשיעור המינימום - 266 ש\"ח (החל ב- 01.01.2026) לחודש. דרכים לתש",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -1624,8 +1591,8 @@
       "claim_id": "acc-90days",
       "claim": "personal-accident benefit paid for up to 90 days of lost functioning",
       "source_url": "https://www.btl.gov.il/benefits/Accident_Injury/Pages/default.aspx",
-      "raw_snippet": "90 יום",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הקצבה משולמת לכל היותר למשך 90 יום של אובדן כושר התפקוד, ובהתאם למצב התפקודי של הנפגע. שימו לב, מי שנפגע בתאונת דרכים או",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2172,9 +2139,9 @@
     {
       "claim_id": "url-forms-portal",
       "claim": "BTL forms-and-certificates portal. The live path uses a SPACE (%20), not a hyphen: https://www.btl.gov.il/טפסים%20ואישורים",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T355.pdf",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Pages/default.aspx",
+      "raw_snippet": "באתר זה תוכלו להדפיס ולהזמין טפסי תביעה לקצבאות וטפסים בנושא ביטוח וגבייה וכן אישורים על זכאות לקצבאות. לידיעתכם, חלק מהטפסים ניתן למלא באופן מקוון ול",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2197,8 +2164,8 @@
       "claim_id": "url-forms-online",
       "claim": "BTL online-forms submission portal: https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfasimMkuvanim/Pages/default.aspx",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "באתר זה תמצא טפסים שאפשר למלא ולשלוח באופן מקוון לביטוח הלאומי. נכון להיום רק חלק מהטפסים הם מקוונים. אנו מתכוונים להוסיף כל העת טפסים מקוונים נוספים.",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2209,8 +2176,8 @@
       "claim_id": "url-forms-portal-lit",
       "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים (the live path uses a space, %20, not a hyphen)",
       "source_url": "https://www.btl.gov.il/טפסים%20ואישורים",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "באתר זה תוכלו להדפיס ולהזמין טפסי תביעה לקצבאות וטפסים בנושא ביטוח וגבייה וכן אישורים על זכאות לקצבאות. לידיעתכם, חלק מהטפסים ניתן למלא באופן מקוון ול",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2220,7 +2187,7 @@
     {
       "claim_id": "url-forms-search-lit",
       "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx (the live path uses a space, %20, not a hyphen)",
-      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/FormSearch/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/FormSearch/Pages/default.aspx",
       "raw_snippet": "כדי להקל עליכם את מציאת הטופס הדרוש לכם, אנו מעמידים לרשותכם אפשרות לחיפוש ואיתור טפסים. זמנית החיפוש אינו פעיל באפשרותך להיעזר ברשימת החיפושים הנפוצי",
       "fetched_at": "2026-08-09T15:45:34.315027+00:00",
       "appears_in": [
@@ -2233,8 +2200,8 @@
       "claim_id": "url-forms-online-lit",
       "claim": "BTL forms portal URL as cited in the skill: https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx (the live path uses a space, %20, not a hyphen)",
       "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/tfasimMkuvanim/Pages/default.aspx",
-      "raw_snippet": "טפסים ואישורים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "באתר זה תמצא טפסים שאפשר למלא ולשלוח באופן מקוון לביטוח הלאומי. נכון להיום רק חלק מהטפסים הם מקוונים. אנו מתכוונים להוסיף כל העת טפסים מקוונים נוספים.",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2284,8 +2251,8 @@
       "claim_id": "unemp-days-50",
       "claim": "unemployment max days, up to age 25 with fewer than 3 dependants: 50 days",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
-      "raw_snippet": "50 ימים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הגיל של דורש/ת העבודה מספר בני המשפחה התלויים תקופת הזכאות המירבית עד 25 פחות מ-3 (0 - 2) 50 ימים 3 ומעלה 138 ימים 25 - 28 פחות מ-3 (0 - 2) 67 ימים 3 ומעלה 138 ימים 28 - 35 פחות מ-3 (0 - 2) 100 ימים 3 ומעלה 138 ימים 35 - 45 פחות מ-3 (0 - 2) 138 ימים 3 ומעלה 175 ימים 45 ומעלה ללא התניה 175 ימים נשים ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2297,8 +2264,8 @@
       "claim_id": "unemp-days-67",
       "claim": "unemployment max days, ages 25-28 with fewer than 3 dependants: 67 days",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
-      "raw_snippet": "67 ימים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הגיל של דורש/ת העבודה מספר בני המשפחה התלויים תקופת הזכאות המירבית עד 25 פחות מ-3 (0 - 2) 50 ימים 3 ומעלה 138 ימים 25 - 28 פחות מ-3 (0 - 2) 67 ימים 3 ומעלה 138 ימים 28 - 35 פחות מ-3 (0 - 2) 100 ימים 3 ומעלה 138 ימים 35 - 45 פחות מ-3 (0 - 2) 138 ימים 3 ומעלה 175 ימים 45 ומעלה ללא התניה 175 ימים נשים ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2349,8 +2316,8 @@
       "claim_id": "unemp-days-300",
       "claim": "women aged 57-67 born 1960 or later get 300 unemployment days, usable over 18 months",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
-      "raw_snippet": "300",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "נשים בגיל 67-57 שנולדו בשנת 1960 ואילך יכולות לנצל את מספר הימים המירבי שנקבע להן (300) במשך 18 חודשים. ימי האבטלה ישולמ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2362,8 +2329,8 @@
       "claim_id": "unemp-dependants-3",
       "claim": "\"dependants\" for unemployment duration means 3 or more dependent family members (spouse + children)",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
-      "raw_snippet": "3 ומעלה",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "הגיל של דורש/ת העבודה מספר בני המשפחה התלויים תקופת הזכאות המירבית עד 25 פחות מ-3 (0 - 2) 50 ימים 3 ומעלה 138 ימים 25 - 28 פחות מ-3 (0 - 2) 67 ימים 3 ומעלה 138 ימים 28 - 35 פחות מ-3 (0 - 2) 100 ימים 3 ומעלה 138 ימים 35 - 45 פחות מ-3 (0 - 2) 138 ימים 3 ומעלה 175 ימים 45 ומעלה ללא התניה 175 ימים נשים ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2375,8 +2342,8 @@
       "claim_id": "unemp-soldiers-70",
       "claim": "discharged soldiers get a maximum of 70 unemployment days in the first year after discharge",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%9E%D7%99%D7%9D_%D7%94%D7%9E%D7%99%D7%A8%D7%91%D7%99_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
-      "raw_snippet": "70 ימים",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "ל חיילים משוחררים ומסיימי שירות לאומי-אזרחי התקופה המירבית היא 70 ימים, בשנה הראשונה לשחרורם. דורשי עבודה שלא ",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2388,8 +2355,8 @@
       "claim_id": "unemp-rate-60",
       "claim": "unemployment replacement rate is capped at 60% of the wage for claimants under 28",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
-      "raw_snippet": "60%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום הקצבה למי שלא מלאו 28 שנים (החל מ- 01.01.2026) השכר שלך (ברוטו לחודש) דמי אבטלה ליום דמי אבטלה לחודש (לפי 25 ימים) דמי אבטלה באחוז מהשכר 3,000 ש\"ח 72 ש\"ח 1,800 ש\"ח 60% 4,000 ש\"ח 96 ש\"ח 2,400 ש\"ח 60% 5,000 ש\"ח 120 ש\"ח 3,000 ש\"",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2401,8 +2368,8 @@
       "claim_id": "unemp-rate-80",
       "claim": "unemployment replacement rate is capped at 80% of the wage from age 28",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
-      "raw_snippet": "80%",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "סכום הקצבה לבני 28 ומעלה השכר שלך (ברוטו לחודש) דמי אבטלה ליום דמי אבטלה לחודש ( לפי 25 ימים ) דמי אבטלה כאחוז מהשכר 3,000 ש\"ח 96 ש\"ח 2,400 ש\"ח 80% 4,000 ש\"ח 128 ש\"ח 3,200 ש\"ח 80% 5,000 ש\"ח 160 ש\"ח 4,000 ש\"ח 80% 6,000 ש\"ח 182.25 ש",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2540,10 +2507,10 @@
     },
     {
       "claim_id": "noise-bold-1970",
-      "claim": "Extraction artifact, NOT a phone line: \"*1970\" is the markdown-bold birth-year **1970** (the year from which women retirement age is 65). The only BTL phone line is *6050.",
+      "claim": "Retirement age for women born from 1/1970 onward is 65 (the '*1970' in the skill body is a markdown-bold birth year, not a phone line)",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Conditions_of_eligibility/gilMezake/Pages/gilPrisha.aspx",
-      "raw_snippet": "1970",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "1/1970 ואילך גיל 65 הדפס שלח לחבר שתף פעולות בנושא אזרח ותיק",
+      "fetched_at": "2026-08-09T15:49:12.164102+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2731,9 +2698,9 @@
     {
       "claim_id": "shrm-1215",
       "claim": "SHRM supplement for a recipient with a child under 3: 1,215 NIS / 1,215 ש\"ח per child, max 2",
-      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a9%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
-      "raw_snippet": "1,215",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "1,175 1,215 תוספ ת לילד שט רם מלאו לו 3שנים תקנות בדבר מתן שירותים מיו",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2744,9 +2711,9 @@
     {
       "claim_id": "unemp-20103",
       "claim": "women aged 57-60 in the 300-day cohort: maximum daily unemployment benefit from day 176 is 201.03 NIS / 201.03 ש\"ח",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
-      "raw_snippet": "201.03",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "לתקופה מהיום ה ,176-לנשים בשל 194.41 201.03 (167ג) דחיית גיל פרישה לנשים 13,316 13,769 השכר הממ",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2758,8 +2725,8 @@
       "claim_id": "unemp-270",
       "claim": "refusing vocational training in the first 175 days costs a 90-day disqualification plus 30 days off the entitlement, leaving 270 days",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
-      "raw_snippet": "270",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "raw_snippet": "מי שתסרב להשתתף בהכשרה מקצועית במהלך 175 הימים הראשונים - תישלל זכאותה לאבטלה במשך 90 ימים + יופחתו 30 ימים מימי הזכאות לדמי אבטלה (כלומר תהיה זכאית ל- 270 ימים). מי שתסרב להשתתף ב",
+      "fetched_at": "2026-08-09T15:48:23.828093+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2796,9 +2763,9 @@
     {
       "claim_id": "bg-15771",
       "claim": "birth grant for triplets: 15,771 NIS / 15,771 ש\"ח",
-      "source_url": "https://www.btl.gov.il/benefits/maternity/maanakleda/Pages/ShiurMaanakLeda.aspx",
-      "raw_snippet": "15,771",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "15,402 15,771 מענק ליולדת 3ילדים (ב) בסיפא. 50%מהסכום הבסיסי",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2809,9 +2776,9 @@
     {
       "claim_id": "bg-5257",
       "claim": "birth grant adds 5,257 NIS / 5,257 ש\"ח for each baby beyond triplets",
-      "source_url": "https://www.btl.gov.il/benefits/maternity/maanakleda/Pages/ShiurMaanakLeda.aspx",
-      "raw_snippet": "5,257",
-      "fetched_at": "2026-07-13T00:00:00Z",
+      "source_url": "https://www.btl.gov.il/Publications/benefits_update/Documents/hozerkizba2026.pdf",
+      "raw_snippet": "5,134 5,257 מענק ליולדת -עבור כל ילד נוסף (ב) בסיפא. מענקי אשפוז 17,98",
+      "fetched_at": "2026-08-09T15:46:59.430546+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -2883,6 +2850,93 @@
         "references/benefit-programs.md",
         "scripts/calculate_benefits.py"
       ]
+    },
+    {
+      "claim_id": "pct-4_86",
+      "claim": "Working pensioner aged 67-70 not drawing an old-age pension: BTL publishes the employee TOTAL 3.93% reduced / 10.03% full. The 4.86% NI component in references/contribution-rates.md is DERIVED (10.03% - 5.17% health), not published.",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "נשים וגברים בין גיל 67 לגיל 70 שאינם מקבלים קצבת אזרח ותיק 8.06% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.13% (החל ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ],
+      "fetched_at": "2026-08-09T15:51:32.943186+00:00"
+    },
+    {
+      "claim_id": "op-b2b",
+      "claim": "BTL online document-submission portal (send documents directly to the handling clerk)",
+      "source_url": "https://b2b.btl.gov.il/BTL.ILG.Payments/DocumentsForm.aspx",
+      "raw_snippet": "שליחת מסמכים באינטרנט ישירות לפקיד נושא המסמכים --> 1. נושא המסמכים 2. פרטים מזהים 3. בחיר",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-ps",
+      "claim": "BTL personal service area (השירות האישי) at https://ps.btl.gov.il and https://ps.btl.gov.il**",
+      "source_url": "https://ps.btl.gov.il**",
+      "raw_snippet": "קישור לאתר ביטוח לאומי (נפתח בלשונית חדשה) כיבוי מצב נגישות שלום, [ {{ currentUs",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-retcalc",
+      "claim": "BTL retirement-age calculator page",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/RetirementCalculation.aspx",
+      "raw_snippet": "דף הבית תיבת חיפוש של האתר,לאחר הקלדת 3 אותיות הראשונות, נוכ",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-snifim",
+      "claim": "BTL branch finder at https://www.btl.gov.il/snifim",
+      "source_url": "https://www.btl.gov.il/snifim",
+      "raw_snippet": "דף הבית תיבת חיפוש של האתר,לאחר הקלדת 3 אותיות הראשונות, נוכ",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-kz",
+      "claim": "Kol Zchut hub page for Bituach Leumi: https://www.kolzchut.org.il/he/המוסד_לביטוח_לאומי",
+      "source_url": "https://www.kolzchut.org.il/he/המוסד_לביטוח_לאומי",
+      "raw_snippet": "המוסד לביטוח לאומי (גורם ממשל) الصفحة بالعربية русский המוסד",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-taasuka",
+      "claim": "Employment Service joint registration form (טופס אחוד) at https://www.taasuka.gov.il/applicants/sharedform/",
+      "source_url": "https://www.taasuka.gov.il/applicants/sharedform/",
+      "raw_snippet": "טופס אחוד מסלול שירות דיגיטלי חיפוש משרות הסוכן החכם העלאת ק",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+    },
+    {
+      "claim_id": "op-ps-plain",
+      "claim": "BTL personal service area (השירות האישי) at https://ps.btl.gov.il",
+      "source_url": "https://ps.btl.gov.il",
+      "raw_snippet": "קישור לאתר ביטוח לאומי (נפתח בלשונית חדשה) כיבוי מצב נגישות שלום, [ {{ currentUs",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
     }
   ]
 }
