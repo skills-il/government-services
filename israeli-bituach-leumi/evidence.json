@@ -964,12 +964,13 @@
       "claim_id": "akeret-bayit-exempt",
       "claim": "Non-working spouse (akeret bayit) of an insured resident is fully exempt from NI and health contributions",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
-      "raw_snippet": "עקרת הבית פטורה מתשלום דמי ביטוח לאומי ודמי ביטוח בריאות",
-      "fetched_at": "2026-06-12T22:02:56.675866+00:00",
+      "raw_snippet": "פטור מתשלום דמי ביטוח לאומי ודמי ביטוח בריאות לאישה נשואה או לידועה בציבור שלא עובדת",
+      "fetched_at": "2026-08-10T00:00:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "note": "Snippet re-cut 2026-08-10: the prior quote paraphrased the page ('עקרת הבית') and appeared nowhere on it. Kol Zchut wording is 'אישה נשואה או ידועה בציבור שלא עובדת'; the exemption itself is unchanged."
     },
     {
       "claim_id": "pct-3_93",
@@ -1051,13 +1052,14 @@
     {
       "claim_id": "teum-secondary-full",
       "claim": "With multiple employers, the secondary employer / early-pension payer deducts NI+health at the full rate from the first shekel unless a te'um dmei bituach coordination is filed",
-      "source_url": "https://www.hashavim.co.il/articles/labor-law/national-insurance-updates/",
-      "raw_snippet": "תיאום דמי ביטוח",
-      "fetched_at": "2026-06-12T23:09:45.178225+00:00",
+      "source_url": "https://www.btl.gov.il/Insurance/Teum/Pages/default.aspx",
+      "raw_snippet": "ובדוק אם עליך לבצע תיאום דמי ביטוח לאומי, כדי להימנע מתשלום דמי ביטוח גבוהים מהנדרש",
+      "fetched_at": "2026-08-10T00:00:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "note": "Re-sourced 2026-08-10: previous citation (hashavim.co.il overview article) did not contain 'תיאום דמי ביטוח' on either the live page or the 2026-02-14 Wayback capture. Replaced with BTL's own תיאום דמי ביטוח page."
     },
     {
       "claim_id": "self-emp-age-varies",
@@ -2873,17 +2875,6 @@
       "fetched_at": "2026-08-09T15:52:12.319301+00:00"
     },
     {
-      "claim_id": "op-ps",
-      "claim": "BTL personal service area (השירות האישי) at https://ps.btl.gov.il and https://ps.btl.gov.il**",
-      "source_url": "https://ps.btl.gov.il**",
-      "raw_snippet": "קישור לאתר ביטוח לאומי (נפתח בלשונית חדשה) כיבוי מצב נגישות שלום, [ {{ currentUs",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
-    },
-    {
       "claim_id": "op-retcalc",
       "claim": "BTL retirement-age calculator page",
       "source_url": "https://www.btl.gov.il/benefits/old_age/Pages/RetirementCalculation.aspx",
@@ -2936,7 +2927,8 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "fetched_at": "2026-08-09T15:52:12.319301+00:00"
+      "fetched_at": "2026-08-09T15:52:12.319301+00:00",
+      "note": "Personal-area portal is a JS-rendered Angular app behind login; curl returns a shell. Not text-verifiable by the gate; the URL itself resolves HTTP 200. Duplicate entry op-ps (source_url 'https://ps.btl.gov.il**') removed 2026-08-10 - it existed only because the URL extractor swallowed markdown bold markers, now fixed in verify-evidence.py."
     }
   ]
 }
