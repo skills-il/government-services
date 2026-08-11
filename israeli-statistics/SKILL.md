@@ -23,8 +23,8 @@ before computing.
 
 | Indicator | Value | Reference period | Source |
 |-----------|-------|------------------|--------|
-| CPI annual inflation | 1.9% | April 2026 | CBS, released 2026-05-15 |
-| CPI monthly change | +1.2% | April 2026 vs March 2026 | CBS |
+| CPI annual inflation | 1.6% | June 2026 | CBS index 120010 |
+| CPI monthly change | 0.0% | June 2026 vs May 2026 | CBS index 120010 |
 | Bank of Israel policy rate | 3.5% | Set 2026-07-06 (cut from 4%) | bankisrael.gov.il |
 | Unemployment rate (15+, SA) | 2.7% | February 2026 | CBS Labour Force Survey |
 | Labor force participation | 62.5% | February 2026 | CBS Labour Force Survey |
@@ -173,7 +173,7 @@ Result: Query the Housing Price Index for Tel Aviv district. Present quarterly a
 
 ### Example 3: Economic Overview
 User says: "How is the Israeli economy doing?"
-Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. As of May 2026 the reference baseline is: GDP +3.0% for 2025, CPI annual inflation 1.9% in April 2026, unemployment 2.7% in February 2026, Bank of Israel rate 3.5% set 2026-07-06. Always re-fetch before answering for a fresh date.
+Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. As of August 2026 the reference baseline is: GDP +3.0% for 2025, CPI annual inflation 1.6% in June 2026 (monthly 0.0%, index 104.8 on the 2024 average base), unemployment 2.7% in February 2026, Bank of Israel rate 3.5% set 2026-07-06. Always re-fetch before answering for a fresh date.
 
 ## Bundled Resources
 
