@@ -227,7 +227,7 @@ Warn the user if any of these apply to their case:
 
 ### Shaagat HaAri 2026 Emergency Chal"t Regime [WINDOW CLOSED 14.5.2026]
 
-Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026, which **passed second and third readings on 4.5.2026** and was published in ספר החוקים 3525. Its companion business-side law (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026) covers business compensation and the 20% employer reservist refund. Applies if the user is on chal"t between 28 Feb 2026 and 14 Apr 2026 (extendable by joint Finance and Labor minister order to 14 May 2026).
+Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026, which the statute records as **התקבל בכנסת ביום י״ג בניסן התשפ״ו (31 במרץ 2026)**. Its companion business-side law (חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026) covers business compensation and the 20% employer reservist refund. Applies if the user is on chal"t between 28 Feb 2026 and 14 Apr 2026 (extendable by joint Finance and Labor minister order to 14 May 2026).
 
 **STATUS AS OF TODAY: this window has CLOSED.** The defining period ran 28 Feb to 14 Apr 2026, extendable only to 14 May 2026. For any chal"t or job loss beginning after that, the **standard 12-of-18 rule applies** and none of the concessions below are available. Keep reading this section only when the user's chal"t actually fell inside the window, since those claims, retroactive employer reports, and appeals are still being processed. Kol-Zchut notes the framework can be re-activated by order for a future emergency through the end of 2027, so treat it as a dormant standby mechanism, not a live track.
 
@@ -310,7 +310,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 | Bituach Leumi: Shaagat HaArie chal"t framework (authoritative) | https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx | Emergency 6-of-18, bifurcated 5/10-day chal"t minimum (effective 5.5.2026), day-1 payment, retroactive reporting |
 | Bituach Leumi: changes to the Shaagat HaArie halat framework | https://www.btl.gov.il/about/news/Pages/changes-halat.aspx | Official changelog of amendments to the 5/10-day bifurcation and parameters |
 | Kol-Zchut: dmei avtala for chal"t workers during Shaagat HaArie | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_%28חל%22ת%29_במהלך_מבצע_שאגת_הארי | Plain-language guide to the bifurcated rule with payment-date timing for the 5-day cohort |
-| Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of the assistance laws (ספר החוקים 3525) |
+| Employment assistance law, full text | https://he.wikisource.org/wiki/חוק_התוכנית_לסיוע_כלכלי_(הוראת_שעה)_(תעסוקה) | The statute itself: enactment date, the Section 7 dormant-reactivation window to 31.12.2027 |
 | Cross-reference: business-side compensation | https://agentskills.co.il/he/skills/government-services/israeli-business-war-compensation | For business owners with halat'd employees; covers employer-side filings, wage participation grant, indirect-damage track |
 | Bituach Leumi: reasons for stopping work | https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx | Resignation, refused-offer, justified-cause rules |
 | Kolzchut: dmei avtala (right) | https://www.kolzchut.org.il/he/דמי_אבטלה_לעובדים_שהוצאו_לחופשה_ללא_תשלום_%28חל%22ת%29_במהלך_מבצע_שאגת_הארי | Plain-language rules and exceptions in Hebrew |
