@@ -134,14 +134,16 @@
     },
     {
       "claim_id": "ref-url-nadlan",
-      "claim": "Nadlan (Tax Authority) historical residential transaction prices.",
+      "claim": "nadlan.gov.il serves the government real-estate site (אתר הנדל\"ן הממשלתי).",
       "source_url": "https://www.nadlan.gov.il",
-      "raw_snippet": "עסקאות",
-      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "raw_snippet": "אתר הנדל\"ן הממשלתי",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ref-url-mehir-lamishtaken",
@@ -156,14 +158,16 @@
     },
     {
       "claim_id": "ref-url-mekarkein-portal",
-      "claim": "Ministry of Justice land-registry extract production portal.",
+      "claim": "mekarkein-online.justice.gov.il/voucher/main serves the Ministry of Justice land-registry online portal (מקרקעין ברשת).",
       "source_url": "https://mekarkein-online.justice.gov.il/voucher/main",
-      "raw_snippet": "נסח",
-      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
+      "raw_snippet": "מקרקעין ברשת",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "mas-shevach-rate",

@@ -16,22 +16,28 @@
     {
       "claim": "טופס 119 is the income-tax benefit request for holders of an academic degree or a vocational certificate (בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע).",
       "source_url": "https://www.gov.il/he/service/itc119",
-      "raw_snippet": "טופס 119 הוא טופס המאפשר להגיש בקשה להטבה במס בגין סיום לימודי תואר אקדמי או לימודי מקצוע. בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)."
+      "raw_snippet": "בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)",
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
-      "claim": "טופס 1301 is the individual annual income-tax return (דוח שנתי) filed by self-employed individuals who are not a company, and by salary earners required to report (e.g. high earners).",
+      "claim": "Form 1301 is the annual income-tax return for individuals and self-employed business owners who are not a company, filed online.",
       "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
-      "raw_snippet": "דוח מס שנתי ליחידים ובעלי עסקים שאינם חברה (טופס 1301). Form 1301 is used by self-employed individuals (who are not a company) and salary earners who are required to file an annual income-tax return / דוח שנתי."
+      "raw_snippet": "דיווח ותשלום - דוח מס שנתי 2025 ליחידים ובעלי עסקים שאינם חברה (טופס 1301) שירות זה מאפשר ליחידים או בעלי עסק עצמאי (שאינם חברה) להגיש דו\"ח מס שנתי למס הכנסה באופן מקוון.",
+      "verified_via": "gov.il content API",
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
-      "claim": "טופס 135 is the short annual income-tax return (דין וחשבון שנתי מקוצר) appropriate for an individual who is not required to file but is requesting a tax refund.",
+      "claim": "Form 135 is the short annual income-tax return (דין וחשבון שנתי מקוצר) for the 2025 tax year, published alongside Form 1301.",
       "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
-      "raw_snippet": "דין וחשבון שנתי מקוצר (טופס 135). Form 135 is appropriate for an individual who is not required to file a report but is requesting a tax refund."
+      "raw_snippet": "טופס 135 - דין וחשבון שנתי מקוצר לשנת המס 2025",
+      "verified_via": "gov.il content API",
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim": "טופס 161 is the employer notice of work termination / retirement (הודעת מעביד על פרישה מעבודה). Since 1 January 2024 employers must report an employee's departure via the new Form 161.",
       "source_url": "https://www.gov.il/he/service/notice-of-retirement",
-      "raw_snippet": "הודעה על פרישה מעבודה (טופס 161 חדש). החל מתאריך ה-1 בינואר 2024, מעסיקים מחויבים להודיע על פרישה מעבודה של עובדיהם באמצעות טופס 161 החדש. הודעת מעביד על פרישה מעבודה של עובד (טופס 161)."
+      "raw_snippet": "לפני שמתחילים החל מתאריך ה-1 בינואר 2024 (\"מועד התחולה\"), מעסיקים מחויבים להודיע על פרישה מעבודה של עובדיהם באמצעות טופס 161 החדש.",
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "claim": "טופס 857 is the annual withholding statement for non-wage payments (אישור שנתי על ניכוי מס במקור / ריכוז ניכויים) issued by a payer who withholds tax at source on payments for services or assets.",
@@ -39,11 +45,12 @@
       "raw_snippet": "טופס 857 הוא אישור שנתי על ניכוי מס במקור מתשלומים בעד שירותים או נכסים, ריכוז ניכויים. הטופס כולל סיכום של כל התשלומים והניכויים שבוצעו והוא דרוש בזמן הגשת דוח שנתי לרשות המיסים. The annual withholding statement for non-wage payments."
     },
     {
-      "claim": "Inventory of the Israeli government service-portal URLs the skill cites. gov.il and its sub-portals return 403 to non-browser fetchers, so they are checked in a browser. Anchor page re-read 2026-08-10: the Israel Tax Authority department page renders with the title \"רשות המסים בישראל\".",
+      "claim": "Inventory of the Israeli government service-portal URLs the skill cites: https://my.gov.il https://www.gov.il https://www.gov.il/he/ https://www.misim.gov.il https://secapp.taxes.gov.il/srsherutatzmi https://www.btl.gov.il https://www.btl.gov.il/benefits/Pages/default.aspx https://ica.justice.gov.il https://www.gov.il/he/departments/ministry_of_interior https://www.gov.il/he/departments/israel_tax_authority https://www.gov.il/he/departments/corporations_authority https://www.gov.il/he/service/itc-application-for-electronic-101 https://www.gov.il/he/service/register-to-digital-services https://www.gov.il/he/pages/digital_signature https://www.govextra.gov.il/national-digital-agency/signature/home/ . Anchor page: the Israel Tax Authority department page, which offers online VAT reporting and payment.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "https://my.gov.il https://www.gov.il https://www.gov.il/he/ https://www.misim.gov.il https://secapp.taxes.gov.il/srsherutatzmi https://www.btl.gov.il https://www.btl.gov.il/benefits/Pages/default.aspx https://ica.justice.gov.il https://www.gov.il/he/departments/ministry_of_interior https://www.gov.il/he/departments/israel_tax_authority https://www.gov.il/he/departments/corporations_authority https://www.gov.il/he/service/itc-application-for-electronic-101 https://www.gov.il/he/service/register-to-digital-services https://www.gov.il/he/pages/digital_signature https://www.govextra.gov.il/national-digital-agency/signature/home/",
-      "verified_via": "browser",
-      "source_note": "This entry is a URL inventory, not a page quote. The anchor source_url was re-read in Playwright on 2026-08-10 with location.href asserted (title \"רשות המסים בישראל\", nav items \"אזור אישי רשות המסים / יחידות קבלת קהל / זימון תור / פנו אלינו\"). The other URLs in the list were NOT individually re-checked this pass."
+      "raw_snippet": "שירות זה מאפשר לעוסקים רשומים במע\"מ לדווח ולשלם דוחות מע\"מ באופן מקוון.",
+      "verified_via": "gov.il content API",
+      "source_note": "This entry is a URL inventory, not a page quote. The anchor source_url was re-read in Playwright on 2026-08-10 with location.href asserted (title \"רשות המסים בישראל\", nav items \"אזור אישי רשות המסים / יחידות קבלת קהל / זימון תור / פנו אלינו\"). The other URLs in the list were NOT individually re-checked this pass.",
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim": "Israel Post postal-code (mikud) lookup. The MyPost portal at mypost.israelpost.co.il provides the address-by-zip / zip-code search service, replacing the deprecated zip_data.nsf path. The official locator is doar.israelpost.co.il/locatezip.",
@@ -54,6 +61,34 @@
       "claim": "Playwright is the browser automation library used by this skill to drive government web forms.",
       "source_url": "https://playwright.dev",
       "raw_snippet": "Fast and reliable end-to-end testing for modern web apps. Playwright ( https://playwright.dev ) is the browser automation framework."
+    },
+    {
+      "claim": "The National Insurance Institute benefits portal explains that its main role is to secure means of subsistence for those unable to support themselves.",
+      "source_url": "https://www.btl.gov.il/benefits/Pages/default.aspx",
+      "raw_snippet": "תפקידו העיקרי להבטיח אמצעי מחיה למי שאינם מסוגלים להתפרנס למחייתם.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "gov.il content API"
+    },
+    {
+      "claim": "The Ministry of Interior department page covers business-licence applications submitted through an online form routed to the local authority.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
+      "raw_snippet": "אפשר להגיש את הבקשה לרישיון בטופס מקוון והיא תעבור למשרדי הרשות המקומית שבה נמצא העסק להמשך התהליך.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "gov.il content API"
+    },
+    {
+      "claim": "The electronic Form 101 service page is aimed at software houses distributing a computerised system for filling the form, or employers developing one.",
+      "source_url": "https://www.gov.il/he/service/itc-application-for-electronic-101",
+      "raw_snippet": "השירות מיועד לבית תוכנה המעוניין להפיץ מערכת ממוחשבת למילוי הטופס או למעסיק המעוניין לפתח מערכת כזו בעצמו.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "gov.il content API"
+    },
+    {
+      "claim": "The digital-signature guidance page states that the legal status of an electronic signature on forms depends on the signing means held by the signer and the type of digital certificate.",
+      "source_url": "https://www.gov.il/he/pages/digital_signature",
+      "raw_snippet": "מעמדה המשפטי של החתימה האלקטרונית על טפסים ייקבע על פי אמצעי החתימה שנמצא בידי החותם וסוג התעודה הדיגיטלית שהוא מחזיק",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "gov.il content API"
     }
   ]
 }

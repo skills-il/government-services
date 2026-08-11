@@ -5,27 +5,31 @@
   "claims": [
     {
       "claim_id": "cpi_annual_april_2026",
-      "claim": "Israel CPI annual inflation rate was 1.9% in April 2026",
-      "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N3QL0AI:0-israel-inflation-rate-holds-at-1-9-in-april-iran-war-boosts-cpi-m-m/",
-      "raw_snippet": "Israel's annual inflation rate stood at 1.9% in April 2026, unchanged from March and staying within the Bank of Israel's 1%-3% target band for nine consecutive months.",
-      "fetched_at": "2026-05-20",
+      "claim": "Israel CPI annual inflation was 1.9% in April 2026 (CBS series 120010). NOTE: this is no longer the latest reading - see cpi-latest-june-2026.",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
+      "raw_snippet": "{\"year\": 2026, \"percent\": 1.2, \"percentYear\": 1.9, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 105.1}, \"prevBase\": null, \"month\": 4, \"monthDesc\": \"אפריל\"}",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב",
         "SKILL.md Example 3",
         "SKILL_HE.md דוגמה 3"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "cpi_monthly_april_2026",
-      "claim": "Israel CPI rose 1.2% in April 2026 vs March 2026",
-      "source_url": "https://en.globes.co.il/en/article-israels-cpi-jumped-in-april-1001543120",
-      "raw_snippet": "Israel's Consumer Price Index (CPI) rose 1.2% in April 2026 from the previous month, according to Central Bureau of Statistics figures released today.",
-      "fetched_at": "2026-05-20",
+      "claim": "Israel CPI rose 1.2% in April 2026 versus March 2026 (CBS series 120010). NOTE: the June 2026 monthly change is 0.0% - see cpi-latest-june-2026.",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
+      "raw_snippet": "{\"year\": 2026, \"percent\": 1.2, \"percentYear\": 1.9, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 105.1}, \"prevBase\": null, \"month\": 4, \"monthDesc\": \"אפריל\"}",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "cpi_release_schedule",
@@ -113,10 +117,10 @@
     },
     {
       "claim_id": "population_jan_2026",
-      "claim": "Israel population estimate was 10.178 million on January 1, 2026",
-      "source_url": "https://www.cbs.gov.il/en/mediarelease/Pages/2025/Population-of-Israel-on-the-Eve-of-2026.aspx",
-      "raw_snippet": "As of the start of 2026, Israel's population is estimated at 10.178 million residents, marking a significant milestone as the country exceeded 10 million for the first time.",
-      "fetched_at": "2026-05-20",
+      "claim": "Israel's population was estimated at 10.178 million residents on 31 December 2025 (the CBS 'eve of 2026' estimate).",
+      "source_url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2025/422/01_25_422b.pdf",
+      "raw_snippet": "ב 31-בדצמבר  2025אוכלוסיית ישראל נאמדת בכ 10.178-מיליון תושבים",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
@@ -124,10 +128,10 @@
     },
     {
       "claim_id": "population_breakdown_jan_2026",
-      "claim": "Israel population on Jan 1 2026: 76.3% Jews and others (7.771M), 21.1% Arabs (2.147M), 2.6% foreign nationals (0.26M)",
-      "source_url": "https://www.cbs.gov.il/en/mediarelease/Pages/2025/Population-of-Israel-on-the-Eve-of-2026.aspx",
-      "raw_snippet": "Of these 7.771 million are Jews and others (76.3% of the total population), 2.147 million are Arabs (21.1%) and 0.26 million are foreign nationals (2.6%).",
-      "fetched_at": "2026-05-20",
+      "claim": "Israel population at end-2025: 7.771 million Jews and others (76.3% of the total), 2.147 million Arabs (21.1%) and 0.260 million foreign nationals (2.6%).",
+      "source_url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2025/422/01_25_422b.pdf",
+      "raw_snippet": "7.771מיליון הם יהודים ואחרים  76.3%) 2מכלל האוכלוסייה( 2.147 ,מיליון – ערבים ) (21.1%ו0.260- מיליון – זרים ).(2.6%",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
@@ -157,10 +161,10 @@
     },
     {
       "claim_id": "cbs_api_cpi_code",
-      "claim": "CBS Price Indices API code for the general CPI is 120010",
-      "source_url": "https://api.cbs.gov.il/index/data/price?download=false&format=xml&id=120010&lang=en",
-      "raw_snippet": "https://api.cbs.gov.il/index/data/price?download=false&format=xml&id=120010&lang=en",
-      "fetched_at": "2026-05-20",
+      "claim": "CBS Price Indices API code for the general CPI is 120010 (the catalog endpoint returns chapter 'מדד המחירים לצרכן' with mainCode 120010); series are then fetched at api.cbs.gov.il/index/data/price?id=120010.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\",\"chapterOrder\":1,\"mainCode\":120010,\"subject\":null}",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md Step 6",
         "SKILL_HE.md שלב 6",
@@ -197,8 +201,8 @@
       "claim_id": "cbs-price-indices-api-catalog",
       "claim": "The CBS Price Indices API catalog endpoint is live and lists the CPI (mainCode 120010) and apartment-price (mainCode 40010) index chapters.",
       "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
-      "raw_snippet": "{\"chapterId\": \"a\", \"chapterName\": \"מדד המחירים לצרכן\", \"chapterOrder\": 1, \"mainCode\": 120010, \"subject\": null}",
-      "fetched_at": "2026-08-10"
+      "raw_snippet": "{\"chapterId\":\"aa\",\"chapterName\":\"מדד ומחירים ממוצעים משוק הדירות\",\"chapterOrder\":2,\"mainCode\":40010,\"subject\":null}",
+      "fetched_at": "2026-08-11"
     },
     {
       "claim_id": "cbs-site-he",
@@ -225,11 +229,10 @@
     },
     {
       "claim_id": "datagov-lamas-org",
-      "claim": "data.gov.il hosts the CBS datasets under the organization slug 'lamas'.",
-      "source_url": "https://data.gov.il/organization/lamas",
-      "raw_snippet": "https://data.gov.il/organization/lamas",
-      "fetched_at": "2026-08-10",
-      "source_note": "CKAN organization page; the page body is client-rendered, the URL itself resolves 200."
+      "claim": "data.gov.il hosts the CBS datasets under the organization slug 'lamas' (display name הלשכה המרכזית לסטטיסטיקה).",
+      "source_url": "https://data.gov.il/api/3/action/organization_show?id=lamas",
+      "raw_snippet": "\"name\": \"lamas\", \"notes\"",
+      "fetched_at": "2026-08-11"
     },
     {
       "claim_id": "minimum-wage-2026-04",
@@ -245,6 +248,60 @@
       "raw_snippet": "CBS Site",
       "fetched_at": "2026-08-10",
       "source_note": "HTML <title> of the fetched page."
+    },
+    {
+      "claim_id": "cpi-latest-june-2026",
+      "claim": "Latest published CPI (general index, code 120010) at the time of this check: June 2026, index 104.8 on the 2024 average base, monthly change 0.0%, annual change 1.6%. The skill's snapshot table still shows the April 2026 figures (1.9% annual, +1.2% monthly).",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
+      "raw_snippet": "{\"year\": 2026, \"percent\": 0.0, \"percentYear\": 1.6, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 104.8}, \"prevBase\": null, \"month\": 6, \"monthDesc\": \"יוני\"}",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "cbs-api-base",
+      "claim": "The CBS Price Indices API is served under api.cbs.gov.il/index; its catalog path returns the list of index chapters.",
+      "source_url": "https://api.cbs.gov.il/index",
+      "raw_snippet": "{\"chapters\":[{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\"",
+      "source_note": "Snippet is the body returned by <base>/catalog/catalog?format=json, read with curl. The gate's fetch() misroutes api.cbs.gov.il URLs through the gov.il content API and returns unrelated pages, so this entry is marked curl-verified.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs-api-host",
+      "claim": "api.cbs.gov.il is the CBS API host used by the skill's fetch script; content is served under its /index paths rather than at the bare host root.",
+      "source_url": "https://api.cbs.gov.il",
+      "raw_snippet": "{\"chapters\":[{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\"",
+      "source_note": "Same body as cbs-api-base; the bare host root returns no response, the /index paths do.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-lamas-org-page",
+      "claim": "The data.gov.il CKAN organization page for the CBS uses the slug lamas.",
+      "source_url": "https://data.gov.il/organization/lamas",
+      "raw_snippet": "\"name\": \"lamas\"",
+      "source_note": "The HTML page is behind an anti-bot JS challenge; the same organization record is returned by the CKAN API entry datagov-lamas-org.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
     }
   ]
 }

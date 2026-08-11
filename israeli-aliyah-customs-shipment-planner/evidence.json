@@ -9,7 +9,10 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
       "raw_snippet": "Olim have three years from their Aliyah date to utilize customs benefits across up to three separate shipments",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "hand-luggage-under-200-usd",
@@ -17,7 +20,10 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
       "raw_snippet": "Clothing, toiletries, and items valued under $200 USD per person",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "hand-luggage-alcohol-cap",
@@ -25,7 +31,10 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
       "raw_snippet": "Alcohol: 1 liter spirits + 2 liters wine (age 18+)",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "hand-luggage-tobacco-cap",
@@ -33,7 +42,10 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
       "raw_snippet": "Tobacco: max 250 grams or 200 cigarettes",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-3-tvs-3-computers-per-family",
@@ -41,7 +53,10 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
       "raw_snippet": "Up to 3 televisions and 3 computers per family",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-one-of-each-appliance",
@@ -49,7 +64,10 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
       "raw_snippet": "one of each appliance",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-6-year-retention",
@@ -57,7 +75,10 @@
       "source_url": "https://anglo-list.com/aliyah-shipping-rights/",
       "raw_snippet": "6-year retention rule",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-vehicle-4-year-resale-restriction",
@@ -65,7 +86,12 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
       "raw_snippet": "If the Oleh or Olah wishes to sell the car within four years of the date of purchase, he or she will be obligated to pay back the amount of the reduction received at the time of purchase. The restriction will be automatically lifted after 4 years.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md", "scripts/plan_shipments.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md",
+        "scripts/plan_shipments.py"
+      ]
     },
     {
       "claim_id": "olim-vehicle-50-percent-car-tax",
@@ -73,7 +99,9 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
       "raw_snippet": "50% + VAT on all vehicles: ([car value + (car value *50%)] + [car value + (car value *50%)] *18% VAT) irrespective of engine size or car's country of origin. (For reference, without the benefit the tax is 83% +VAT).",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["references/allowed-items-list.md"]
+      "appears_in": [
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "olim-vehicle-3-year-window",
@@ -81,7 +109,11 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
       "raw_snippet": "Olim are entitled to buy cars in Israel at a reduced tax rate, within three years after making Aliyah. The car must have arrived in Israel and cleared customs before the end of the third year.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "olim-hand-tools-1650-usd-cap",
@@ -89,7 +121,11 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "The total value of the tools...should not surpass $1,650 USD (as of 2024)",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "olim-business-machinery-36000-usd-cap",
@@ -97,7 +133,11 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "The total value of the equipment...must not exceed $36,000 (USD)",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "olim-pet-import-rules",
@@ -105,7 +145,10 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "proof of rabies vaccination within 12 months before entry to Israel, with at least 1 month passing since vaccination, as well as a confirmation of a normal rabies antibody level (above 0.5)",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-extension-military-study-5-year-ceiling",
@@ -113,7 +156,10 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "IDF service: time frozen during duty. Full-time studies: +1 year upon completion; maximum 5-year study period (longer for medicine/law). The eligibility period extends by 1 year from the end of their studies.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-postal-clothing-window",
@@ -121,7 +167,10 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "within 30 days before your entry, on the day of your entry as accompanying luggage, or within 3 months after your entry",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-perfume-250ml-gifts-200-usd",
@@ -129,7 +178,10 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "Up to 1/4 liter (250 ml/8.45 fl. oz.) is permitted per person. Items for personal use or as gifts, valued at under $200 USD per entrant.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-carpet-25-percent-nbn",
@@ -137,7 +189,11 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
       "raw_snippet": "Carpeting for up to 25% of the area of the Oleh's home in Israel.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "olim-ev-48-percent-22000-nis-cap-2026",
@@ -145,7 +201,9 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
       "raw_snippet": "the final decision set the rate at 48%. As a result, the standard electric vehicle tax benefit may still be more favorable than the Oleh vehicle benefit (50% tax) in some cases. However, since the electric vehicle benefit is now capped at 22,000 NIS",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["references/allowed-items-list.md"]
+      "appears_in": [
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "ref-link-nbn-rights-hub",
@@ -153,15 +211,21 @@
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/",
       "raw_snippet": "Rights and Benefits hub: customs, banking, tax, license conversion, vehicle import.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-link-meches-israel-tax-authority",
-      "claim": "Israel Tax Authority (Meches) is the official customs authority; the Taarif HaMeches tariff database governs duty rates on over-limit imports",
+      "claim": "The Israel Tax Authority (Meches) is the government body that consolidates the customs division along with income tax, real-estate taxation, VAT, purchase tax and stamp duty. NOTE: the separate assertion that the Taarif HaMeches tariff database governs duty rates on over-limit imports is not stated on this page and needs its own source.",
       "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
-      "raw_snippet": "Israel Tax Authority (Meches) and the Taarif HaMeches tariff database.",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "The Israel Tax Authority consolidates the various tax divisions: income tax, real estate taxation, VAT, purchase tax, customs and stamp duty.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-link-misrad-haklita-customs",
@@ -169,7 +233,10 @@
       "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
       "raw_snippet": "Ministry of Aliyah and Integration issues Teudat Oleh.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-link-kolzchut-customs",
@@ -177,7 +244,10 @@
       "source_url": "https://www.kolzchut.org.il",
       "raw_snippet": "Kol-Zchut community rights portal.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "olim-quantity-caps-3-tvs-3-pcs-1-of-each-belong",
@@ -185,7 +255,11 @@
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "raw_snippet": "eligible families can bring a maximum of 3 television sets and 3 personal computers. For other electronic devices, appliances, and major furniture pieces, eligible families may import 1 item per category.",
       "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/allowed-items-list.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/allowed-items-list.md"
+      ]
     },
     {
       "claim_id": "red-customs-lane",
@@ -193,7 +267,10 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
       "raw_snippet": "those exceeding value thresholds require Red Customs lane processing rather than the expedited Green lane",
       "fetched_at": "2026-05-24T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

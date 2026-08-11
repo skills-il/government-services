@@ -54,8 +54,9 @@
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
       "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "עד 1,000 ₪ לחודש לתקופה של עד 12 חודשי שכירות. סיוע בשכר דירה בסכום של עד 12,000 ₪ בשנה הראשונה",
-      "confidence": "high"
+      "raw_snippet": "סיוע בשכר דירה בסכום של עד 12,000 ₪ בשנה הראשונה לשחרורכם משירות חובה, לפי הפירוט הבא: עד 1,000 ₪ לחודש, לתקופה של עד 12 חודשי שכירות.",
+      "confidence": "high",
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "id": "marriage-grant-during-service",
@@ -128,9 +129,10 @@
       "claim_type": "threshold",
       "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
       "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "על פי החוק נקבע כי משך הזכאות של חייל משוחרר להטבות הקבועות בחוק הינה עד 5 שנים מסיום השירות הסדיר או השירות הלאומי-אזרחי (ועד 10 שנים לבודדים משוחררים ומשרתי מילואים פעילים). חיילים בודדים משוחררים ומשרתי מילואים פעילים יהיו זכאים לקבלת ההטבות בסעיף 7 לחוק ו-7א לחוק כמפורט בסעיף 1, לתקופה של 10 שנים.",
+      "raw_snippet": "חיילים בודדים משוחררים ומשרתי מילואים פעילים יהיו זכאים לקבלת ההטבות בסעיף 7 לחוק ו-7א לחוק כמפורט בסעיף 1, לתקופה של 10 שנים.",
       "confidence": "high",
-      "fetched_at": "2026-07-06T12:28:00Z"
+      "fetched_at": "2026-07-06T12:28:00Z",
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "id": "boded-combat-supplement",
@@ -197,8 +199,9 @@
       "claim_type": "phone-star",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
       "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "מוקד שירות *5266 לסיוע ולפניות",
-      "confidence": "medium"
+      "raw_snippet": "אם לא קיבלתם את הכסף בטווח זמנים זה, יש לפנות באופן יזום למוקד הטלפוני 5266*, לבירור הסיבה.",
+      "confidence": "medium",
+      "fetched_at": "2026-08-11"
     },
     {
       "id": "ombudsman-1111",
@@ -230,12 +233,13 @@
     },
     {
       "id": "regular-pikadon-acher-tier-cross-reference",
-      "claim": "The Pikadon acher (regular / rear) tier rate for Feb 2026 is 652.23 NIS / 652.23 ש\"ח per month of service, identical for SLE. This is the same rate covered in the companion israeli-discharged-soldier-navigator skill, lone soldiers do NOT receive a Pikadon Mugdal at a higher per-month rate.",
+      "claim": "Personal-deposit (פיקדון אישי) monthly rates updated to May 2026: combat 990.63 NIS, combat-support 825.52 NIS, rear (עורפי) 660.42 NIS, national-civil service 660.42 NIS, per month of actual service. The rate is set by service type and length, not by lone-soldier status, so lone soldiers do not receive an enlarged per-month deposit.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
       "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "תעריף פיקדון לאחר / שירות לאומי-אזרחי: 652.23 ש\"ח / 652.23 NIS לחודש שירות (פברואר 2026). זהה לחיילים בודדים, אין פיקדון מוגדל בסכום חודשי גבוה יותר.",
-      "confidence": "high"
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11"
     },
     {
       "id": "tofes-135-cross-reference",

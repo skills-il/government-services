@@ -104,21 +104,25 @@
     },
     {
       "id": "src-knesset-odata",
-      "claim": "The Knesset ParliamentInfo OData service exposes bills, committees and member entities (KNS_Bill, KNS_Committee, KNS_Person)",
+      "claim": "The Knesset ParliamentInfo OData service exposes bill and committee entity collections, including KNS_Bill and KNS_Committee.",
       "claim_type": "api-endpoint",
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "KNS_Bill KNS_Committee KNS_Person",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-11",
+      "raw_snippet": "<collection href=\"KNS_Bill\"><atom:title>KNS_Bill</atom:title></collection><collection href=\"KNS_BillHistoryInitiator\"><atom:title>KNS_BillHistoryInitiator</atom:title></collection><collection href=\"KNS_BillInitiator\"><atom:title>KNS_BillInitiator</atom:title></collection><collection href=\"KNS_BillName\"><atom:title>KNS_BillName</atom:title></collection><collection href=\"KNS_BillSplit\"><atom:title>KNS_BillSplit</atom:title></collection><collection href=\"KNS_BillUnion\"><atom:title>KNS_BillUnion</atom:title></collection><collection href=\"KNS_CmtSessionItem\"><atom:title>KNS_CmtSessionItem</atom:title></collection><collection href=\"KNS_CmtSiteCode\"><atom:title>KNS_CmtSiteCode</atom:title></collection><collection href=\"KNS_Committee\"><atom:title>KNS_Committee</atom:title></collection>",
+      "confidence": "high",
+      "fetched_at": "2026-08-11"
     },
     {
       "id": "src-elections",
-      "claim": "Official Knesset election results and turnout are published by the Central Elections Committee on data.gov.il",
+      "claim": "Knesset election results are published on data.gov.il with the Central Elections Committee (ועדת הבחירות המרכזית לכנסת) as the dataset publisher.",
       "claim_type": "url",
       "source_url": "https://data.gov.il/he/datasets/central-election-committee/votes-knesset",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "תוצאות בחירות - ועדת הבחירות המרכזית לכנסת",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-11",
+      "raw_snippet": "תוצאות בחירות - ועדת הבחירות המרכזית לכנסת\n\nהמפרסם:\n\nועדת הבחירות המרכזית לכנסת",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-11",
+      "fetched_at": "2026-08-11"
     },
     {
       "id": "src-knesset-votes",
@@ -160,12 +164,15 @@
     },
     {
       "id": "src-datagov",
-      "claim": "data.gov.il is Israel's national open government data portal (CKAN) and the catch-all source for ministry datasets without a dedicated MCP",
+      "claim": "data.gov.il is the Israeli government open-data portal, aggregating datasets from across government ministries that are open for public use.",
       "claim_type": "url",
       "source_url": "https://data.gov.il",
-      "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "מאגרי המידע הממשלתיים",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-11",
+      "raw_snippet": "אתר מאגרי המידע הממשלתיים מרכז מאגרי נתונים מכלל משרדי הממשלה הפתוחים לשימוש הציבור, מאפשר חיפוש נתונים בקלות וביעילות.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-11",
+      "fetched_at": "2026-08-11"
     }
   ]
 }

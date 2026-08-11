@@ -167,12 +167,13 @@
       "claim_id": "knesset-passage-4-5-2026",
       "claim": "The Knesset gave final approval to the Shaagat HaAri business-assistance framework on 04.05.2026; the Tax Authority advance-request system opened the next day, and final claims could be filed from 17 May after the March-April 2026 VAT reports.",
       "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "מתווה הסיוע לעסקים בעקבות \"שאגת הארי\" אושר סופית בכנסת ממחר ניתן לבקש מקדמות.",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "ברשות המסים נערכו לשלם מקדמות לעסקים הזכאים, והמערכת הדיגטלית לשם כך תהיה זמינה החל ממחר (שלישי). באמצעות המערכת יוכלו בעלי העסקים שמחזור פעילותם נפגע בשל המלחמה לקבל מקדמה על חשבון הפיצוי עד שיעור של 80% מהפיצוי המשוער. הגשת תביעות סופיות תתאפשר החל מה-17 במאי, לאחר הגשת הדיווחים למע\"מ בגין מרץ-אפריל 2026.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "eligible-expenses-portal-url",
@@ -298,15 +299,16 @@
     },
     {
       "claim_id": "treasury-ministry-url",
-      "claim": "Ministry of Finance (משרד האוצר) landing for war framework briefs and press releases",
+      "claim": "gov.il Ministry of Finance (משרד האוצר) department landing page; the ministry is responsible for setting and executing Israel's economic policy, and its press-release feed is where war-assistance framework briefs are published.",
       "source_url": "https://www.gov.il/he/departments/ministry_of_finance",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "משרד האוצר אחראי לקביעת המדיניות הכלכלית בישראל ולביצועה. המשרד קובע את מדיניות השכר והסכמי העבודה במגזר הציבורי ומפקח על גופים מרכזיים בשוק ההון.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "metadata.json"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "kolzchut-base-url",
@@ -334,17 +336,18 @@
     },
     {
       "claim_id": "press-release-11-03-2026",
-      "claim": "On 11.03.2026 the Finance Ministry published the FRAMEWORK rules for the Shaagat HaAri assistance package (pre-legislation). That framework proposed shortening the qualifying chalat period from 30 days to 14 consecutive days. The figure that finally took effect is the bifurcated 5-day / 10-day rule on the Bituach Leumi and Kol-Zchut pages; do not quote the 14-day framework number as current law.",
+      "claim": "The Finance Ministry FRAMEWORK announcement for the Shaagat HaAri assistance package (gov.il press page press_11032026, pre-legislation) proposed shortening the chalat period qualifying for unemployment benefit from 30 days to 14 consecutive days. The figure that finally took effect is the bifurcated 5-day / 10-day rule on the Bituach Leumi and Kol-Zchut pages; do not quote the 14-day framework number as current law.",
       "source_url": "https://www.gov.il/he/pages/press_11032026",
-      "raw_snippet": "תאריך פרסום: 11.03.2026 בהמשך למנגנוני הסיוע שהופעלו בתחילת מלחמת \"חרבות ברזל\" ובמבצע \"עם כלביא\", שר האוצר, בצלאל סמוטריץ', הציג היום (רביעי) את כללי המסגרת למתווה הסיוע למשק במסגרת מבצע \"שאגת הארי\".",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "קיצור תקופת החל\"ת המזכה בדמי אבטלה מ־30 יום ל־14 ימים רצופים, קיצור תקופת האכשרה הנדרשת ל־6 מתוך 18 חודשים במקום 12, ביטול ימי ההמתנה הקבועים בחוק ואי ניכוי ימי החופשה הצבורים מתקופת הזכאות.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "metadata.json",
         "references/calculator-walkthrough.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "compensation-tracks-master-url",
@@ -361,10 +364,10 @@
     },
     {
       "claim_id": "compensation-indirect-damage-portal",
-      "claim": "Tax Authority indirect damage compensation filing portal URL: gov.il/he/service/compensation-indirect-damage",
+      "claim": "Tax Authority indirect-damage (nationwide, Iron Swords) compensation filing portal: gov.il/he/service/compensation-indirect-damage, for businesses with base-year (2022) turnover from 12,000 to 400,000,000 NIS.",
       "source_url": "https://www.gov.il/he/service/compensation-indirect-damage",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2022 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף - הנזק הכלכלי שנגרם לעסק בשל תשלום הוצאות קבועות ותשלום שכר כתוצאה ממלחמת חרבות ברזל.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -372,7 +375,8 @@
         "references/calculator-walkthrough.md",
         "references/domain-checklist.md",
         "scripts/calc_grant.py"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "small-business-fast-track-url",
@@ -422,25 +426,27 @@
     },
     {
       "claim_id": "knesset-passage-gov-url",
-      "claim": "Gov.il news page for 4.5.2026 Knesset passage of Shaagat HaAri compensation/chalat legislation",
+      "claim": "Gov.il Tax Authority news page (sa040526-2) announcing that the Shaagat HaAri business-assistance framework received final Knesset approval, with the digital advance-payment system opening the following day.",
       "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "תאריך פרסום: 04.05.2026 המתווה, שגובש על ידי משרד האוצר ורשות המסים, אשר הוכיח את יעילותו במתן ודאות למשק ובשמירה על רציפות הפעילות הכלכלית בתקופות חירום אושר היום באופן סופי בכנסת.",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "המתווה, שגובש על ידי משרד האוצר ורשות המסים, אשר הוכיח את יעילותו במתן ודאות למשק ובשמירה על רציפות הפעילות הכלכלית בתקופות חירום אושר היום באופן סופי בכנסת.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "eligible-expenses-portal-shaagat-url",
-      "claim": "Gov.il service page for Shaagat HaAri indirect damage compensation claim portal (rions-roar route)",
+      "claim": "Gov.il service page for the Shaagat HaAri eligible-expenses (March-April 2026) indirect-damage compensation claim portal (rions-roar route), for businesses with base-year (2025) turnover from 12,000 to 400,000,000 NIS.",
       "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2025 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף - הנזק הכלכלי שנגרם לעסק בשל תשלום הוצאות קבועות ותשלום שכר כתוצאה ממבצע \"שאגת הארי\".",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "advance-portal-frontier",
@@ -549,14 +555,15 @@
     },
     {
       "claim_id": "special-area-iron-swords-portal",
-      "claim": "Tax Authority Iron Swords special-area portal for indirect-damage compensation",
+      "claim": "Tax Authority Iron Swords SPECIAL-AREA portal for indirect-damage compensation: for businesses in areas placed under especially severe security restrictions, covering October-December 2023.",
       "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage",
-      "raw_snippet": "https://www.gov.il/he/service/claim-compensation-indirect-damage",
-      "fetched_at": "2026-05-18T18:00:00Z",
+      "raw_snippet": "שירות זה מאפשר לעסקים באזורים בהם הטילה מערכת הביטחון הגבלות מחמירות במיוחד על הפעילות הכלכלית בשל מלחמת חרבות ברזל, להגיש תביעה לפיצויים עבור נזק עקיף שנגרם להם בחודשים אוקטובר, נובמבר ודצמבר 2023.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "kolzchut-faq-shaagat-literal-url",
@@ -641,27 +648,29 @@
       "claim_id": "law-hotzaot-mezakot-additive",
       "claim": "Eligible expenses (הוצאות מזכות) = fixed expenses PLUS the eligible wage part, capped, then multiplied by 2. The two parts are ADDED, not compared.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "\"הוצאות מזכות\" - ההוצאות הקבועות בתוספת חלק השכר המזכה, והכול עד לסכום כמפורט להלן, לפי העניין, כשהוא מוכפל ב־2",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "\"הוצאות מזכות\" -ההוצאות הקבועות בתוספת חלק השכר המזכה ,והכול עד לסכום כמפורט להלן ,לפי העניין, כשהוא מוכפל ב־:2",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/calc_grant.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-cap-600k-1.2m",
       "claim": "Cap on eligible expenses: 600,000 NIS for base-year turnover up to 100M; 600,000 + 0.3% of the excess for 100M-300M; 1,200,000 NIS for 300M-400M. The cap is itself doubled, so the effective payout ceiling under 100M is 1.2M.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס אינו עולה על 100 מיליון שקלים חדשים - 600 אלף שקלים חדשים",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "\"הוצאות מזכות\" -ההוצאות הקבועות בתוספת חלק השכר המזכה ,והכול עד לסכום כמפורט להלן ,לפי העניין, כשהוא מוכפל ב־:2 ( )1לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס אינו עולה על 100מיליון שקלים חדשים 600 -אלף שקלים חדשים; ( )2לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 100מיליון שקלים חדשים ואינו עולה על 300מיליון שקלים חדשים 600 -אלף שקלים חדשים בתוספת 0.3%מחלק מחזור עסקאותיו בשנת הבסיס העולה על 100מיליון שקלים חדשים; ( )3לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 300מיליון שקלים חדשים ואינו עולה על 400 מיליון שקלים חדשים 1.2 -מיליון שקלים חדשים;",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/calc_grant.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-fixed-expenses-vat-inputs",
@@ -693,14 +702,15 @@
       "claim_id": "law-small-business-doubled",
       "claim": "The small-business (<=300K turnover) amounts in §38לז(ב) are paid at DOUBLE the listed figures, and only if the conditions in (a)(2)-(6) are met, which include a turnover decline EXCEEDING 25%.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "זכאי לפיצויים בסכום של פי 2 מהסכום המפורט בפסקאות שלהלן, לפי העניין, בעד נזק עקיף שנגרם לו במהלך התקופה הקובעת, ובלבד שמתקיימים לגביו התנאים הקבועים בפסקאות (2) עד (6) שבסעיף קטן (א)",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "זכאי לפיצויים בסכום של פי 2מהסכום המפורט בפסקאות שלהלן, לפי העניין ,בעד נזק עקיף שנגרם לו במהלך התקופה הקובעת, ובלבד שמתקיימים לגביו התנאים הקבועים בפסקאות ()2 עד ( )6שבסעיף קטן (א)",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/calc_grant.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-small-business-bands",
@@ -719,14 +729,15 @@
       "claim_id": "law-damage-coefficient",
       "claim": "Damage coefficient (מקדם הנזק): 1 for a decline over 25% and up to 40%; 1.5 for over 40% to 60%; 2.4 for over 60% to 80%; 3 for over 80%. The bands are (low, high], so exactly 40% takes the coefficient 1.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על 25% ואינו עולה על 40% - 1",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "(ה) בסעיף זה\" ,מקדם הנזק\" -אחד מאלה ,לפי העניין: ( )1לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על 25%ואינו עולה על ;1 - 40% ( )2לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על 40%ואינו עולה על ;1.5 - 60% ( )3לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על 60%ואינו עולה על ;2.4 - 80% ( )4לעניין ניזוק ששיעור הירידה במחזור העסקאות שלו עולה על .3 - 80%",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/calc_grant.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-floor-rule-38lz-g",
@@ -743,16 +754,17 @@
     },
     {
       "claim_id": "law-average-wage-13769",
-      "claim": "The per-employee wage cap uses the National Insurance s.2(b) average wage as known in March 2026 (13,769 NIS), times 1.25.",
+      "claim": "The per-employee wage cap uses the National Insurance s.2(b) average wage as known in March 2026, times 1.25 (the statute fixes the mechanism and the reference month; the 13,769 NIS value itself is evidenced separately under wage-cap-13769-alt-source).",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "השכר הממוצע לחודש כמשמעותו בסעיף 2(ב) לחוק הביטוח הלאומי, כפי שהיה ידוע בחודש מרץ 2026, מוכפל במספר העובדים המזכים כאמור בפסקת משנה (א), כשהתוצאה המתקבלת מוכפלת ב־1.25",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "(ב) השכר הממוצע לחודש כמשמעותו בסעיף (2ב) לחוק הביטוח הלאומי ,כפי שהיה ידוע בחודש מרץ ,2026מוכפל במספר העובדים המזכים ששולם להם שכר בעד החודש האמור, כשהתוצאה המתקבלת מוכפלת ב־;1.25",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/calc_grant.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-wage-base-deductions",
@@ -769,14 +781,15 @@
     },
     {
       "claim_id": "law-cap-he-forms",
-      "claim": "Cap figures in Hebrew form: 600,000 ש\"ח before doubling; 1,200,000 ש\"ח effective; 2,400,000 NIS / 2,400,000 ש\"ח for the 300M-400M band.",
+      "claim": "Statutory cap bands in the law's own Hebrew wording: 600 אלף שקלים חדשים up to 100M turnover; 600 אלף + 0.3% of the excess for 100M-300M; 1.2 מיליון שקלים חדשים for 300M-400M; the whole cap multiplied by 2 (מוכפל ב־2), i.e. 1,200,000 ש\"ח / 1,200,000 NIS and 2,400,000 ש\"ח / 2,400,000 NIS effective.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 300 מיליון שקלים חדשים ואינו עולה על 400 מיליון שקלים חדשים - 1.2 מיליון שקלים חדשים",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "\"הוצאות מזכות\" -ההוצאות הקבועות בתוספת חלק השכר המזכה ,והכול עד לסכום כמפורט להלן ,לפי העניין, כשהוא מוכפל ב־:2 ( )1לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס אינו עולה על 100מיליון שקלים חדשים 600 -אלף שקלים חדשים; ( )2לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 100מיליון שקלים חדשים ואינו עולה על 300מיליון שקלים חדשים 600 -אלף שקלים חדשים בתוספת 0.3%מחלק מחזור עסקאותיו בשנת הבסיס העולה על 100מיליון שקלים חדשים; ( )3לעניין ניזוק שמחזור עסקאותיו בשנת הבסיס עולה על 300מיליון שקלים חדשים ואינו עולה על 400 מיליון שקלים חדשים 1.2 -מיליון שקלים חדשים;",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "law-vat-section-33",
@@ -827,14 +840,6 @@
     }
   ],
   "pending_verification": [
-    {
-      "claim_id": "knesset-passage-4-5-2026",
-      "reason": "gov.il/he/pages/sa040526-2 returns HTTP 403 to WebFetch; the date and content are widely reported but the gov.il page body could not be retrieved directly. Use kolzchut chalat page as fallback for the 5.5.2026 effective date."
-    },
-    {
-      "claim_id": "eligible-expenses-portal-url",
-      "reason": "gov.il/he/service/claim-compensation-indirect-damage-rions-roar returns HTTP 403 to WebFetch; route exists per Tax Authority directory but page body not retrievable."
-    },
     {
       "claim_id": "press-release-11-03-2026",
       "reason": "gov.il/he/pages/press_11032026 returns HTTP 403; URL is cited verbatim in skill files but body not retrievable. Mako N12 and Bitan CPA reproduce the key numbers (25%/25% (bi-monthly two-month), 13,773, 7/11/15/22%, 12K-400M, advance mechanism, 20% reservist) directly from this brief."

@@ -26,10 +26,11 @@
     },
     {
       "id": "form-1348-purpose",
-      "claim": "Form 1348 is the Israeli Declaration of Cessation of Residency, filed with the annual return (Form 1301) when an individual claims their center of life is abroad despite meeting the days test.",
+      "claim": "Form 1348 is the tax-year residency declaration (הצהרת תושבות), an annex to the individual annual return (Form 1301), setting out the facts behind a claim that the filer is not an Israeli resident, per section 131(a)(5e) of the Income Tax Ordinance.",
       "source_url": "https://www.gov.il/blobFolder/service/annual-tax-report/he/Service_Pages_Income_tax_itc1348_18.pdf",
-      "raw_snippet": "הצהרת ניתוק תושבות / Declaration of Cessation of Residency, Form 1348",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "נספח לדוח השנתי ליחיד )טופס (1301 1348 הצהרת תושבות לשנת המס דוח המפרט את העובדות בשל טענתי כי אינני תושב ישראל",
+      "fetched_on": "2026-05-26",
+      "fetched_at": "2026-08-11"
     },
     {
       "id": "section-100a-deemed-sale",

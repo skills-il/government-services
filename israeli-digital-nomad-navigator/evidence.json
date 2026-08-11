@@ -9,7 +9,12 @@
       "source_url": "https://citizenremote.com/digital-nomad-visas/",
       "raw_snippet": "2026 thresholds: Spain DNV ~EUR 2,849/mo (200% SMI); Portugal D8 EUR 3,680/mo + EUR 11,040 savings; Estonia EUR 4,500/mo; Croatia EUR 3,622.50/mo; Mexico ~USD 4,300/mo or ~USD 74,000; Costa Rica USD 3,000/USD 4,000; Georgia USD 2,000/mo + Right to Labour Activity permit from 1 Mar 2026; UAE Dubai USD 5,000/mo from Apr 2026; Thailand DTV THB 500,000.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-by-country-2026.md",
+        "scripts/nomad-decision.py"
+      ]
     },
     {
       "claim_id": "indonesia-bali-barred",
@@ -17,7 +22,12 @@
       "source_url": "https://citizenremote.com/digital-nomad-visas/indonesia-digital-nomad-visa/",
       "raw_snippet": "Indonesia's E33G remote-worker visa excludes certain nationalities including Israel; other routes require Jakarta-level calling-visa approval not granted to Israeli passport holders.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-by-country-2026.md",
+        "scripts/nomad-decision.py"
+      ]
     },
     {
       "claim_id": "totalization-20-countries",
@@ -25,7 +35,12 @@
       "source_url": "https://www.btl.gov.il/English%20Homepage/Benefits/International%20Conventions%20on%20Social%20Security/Pages/Existingconventions.aspx",
       "raw_snippet": "Israel social-security conventions: Argentina, Austria, Belgium, Bulgaria, Czech Republic, Denmark, Finland, France, Germany, Italy, Norway, Poland, Romania, Russia, Slovakia, Sweden, Switzerland, Netherlands, United Kingdom, Uruguay, and a limited convention with Canada. The USA is not among them.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/totalization-treaties.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/totalization-treaties.md",
+        "scripts/nomad-decision.py"
+      ]
     },
     {
       "claim_id": "exit-tax-100a",
@@ -33,7 +48,10 @@
       "source_url": "https://taxsummaries.pwc.com/israel/individual/other-taxes",
       "raw_snippet": "Israel levies an exit tax under Section 100A: assets are deemed sold one day before an individual ceases to be a resident; the tax may be deferred until actual sale with proration; certain pension and provident funds are excluded.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reporting-reform-272",
@@ -41,7 +59,10 @@
       "source_url": "https://cpa-dray.com/he/blog/%D7%A9%D7%99%D7%A0%D7%95%D7%99%D7%99-%D7%9E%D7%A1-2026-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%9E%D7%9C%D7%90/",
       "raw_snippet": "תיקון 272: בוטל הפטור מהגשת דיווח על הכנסות ונכסים בחו\"ל לעולים ולתושבים חוזרים ותיקים שהפכו לתושבים מ-1.1.2026; הפטור המהותי מהמס נשאר.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "returnee-window-2026",
@@ -49,7 +70,10 @@
       "source_url": "https://herzoglaw.co.il/en/news-and-insights/",
       "raw_snippet": "A 30 March 2026 law grants returning residents and 2026 olim (arriving 5 Nov 2025 to 31 Dec 2026) a graduated 5-year exemption on Israeli-source personal-services income: cap NIS 600,000 in 2026, NIS 1,000,000 in 2027-2028, NIS 350,000 in 2029, NIS 150,000 in 2030.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "etias-2026",
@@ -57,7 +81,10 @@
       "source_url": "https://travel-europe.europa.eu/etias_en",
       "raw_snippet": "ETIAS is expected to start in the last quarter of 2026, with a transitional period of about six months before it becomes mandatory; the authorisation costs EUR 20 and is valid for three years.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "vat-section-30",
@@ -65,7 +92,11 @@
       "source_url": "https://www.lexology.com/library/detail.aspx?g=85650020-3448-4476-a2bc-4fc847a927f9",
       "raw_snippet": "Section 30(a)(5) zero-rates services to foreign residents where the service is not also rendered to an Israeli resident and the transaction is documented; the periodic VAT report (Form 836) shows zero-rated revenue with recoverable input VAT.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nomad-decision.py"
+      ]
     },
     {
       "claim_id": "w8ben",
@@ -73,7 +104,10 @@
       "source_url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben",
       "raw_snippet": "Form W-8BEN is provided to the withholding agent (not the IRS) to claim treaty benefits; default withholding on US-source income to foreign persons is 30%; the form remains valid through the third succeeding calendar year.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "annual-deadlines-forms",
@@ -81,7 +115,11 @@
       "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
       "raw_snippet": "המועד להגשת הדוח השנתי 2025: 30 ביוני 2026 מקוון, 29 במאי 2026 בנייר. טופס 1301 עם נספחים 1322 ו-1325; טופס 1348 הצהרת תושבות; טופס 5329 גילוי נכסים והכנסות בחו\"ל לפי סעיף 131א; זיכוי מס זר לפי סעיפים 199-210.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nomad-decision.py"
+      ]
     },
     {
       "claim_id": "btl-health-residency",
@@ -89,7 +127,10 @@
       "source_url": "https://www.btl.gov.il/benefits/Health%20insurance/Pages/default.aspx",
       "raw_snippet": "סעיף 58 לחוק ביטוח בריאות ממלכתי: תקופת המתנה בחזרה לאחר היעדרות רציפה - חודשיים לכל שנת היעדרות עד תקרה של 6 חודשים; חזקת תושבות 5 שנים בביטוח לאומי; הכיסוי הרפואי אינו חל בחו\"ל.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "section-14-severance",
@@ -97,7 +138,11 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים, התשכ\"ג-1963: הסדר ויתור על פיצויים בתמורה להפקדות פנסיה; קרן השתלמות נזילה לאחר 6 שנים.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/totalization-treaties.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/totalization-treaties.md"
+      ]
     },
     {
       "claim_id": "residency-days-test",
@@ -105,7 +150,10 @@
       "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
       "raw_snippet": "An individual is presumed Israeli-resident if present 183+ days in the tax year, or 30+ days in the year and 425+ days across that and the two preceding years; the center-of-life test can rebut this; tax treaties contain a tie-breaker for dual residency.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "toshav-chozer",
@@ -113,7 +161,10 @@
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "תושב חוזר (6+ שנים): פטור 5 שנים על הכנסה פאסיבית מחו\"ל; תושב חוזר ותיק (10+ שנים): פטור מלא 10 שנים על הכנסה זרה כמו עולה חדש.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "georgia-permit",
@@ -121,7 +172,11 @@
       "source_url": "https://legal.ge/work-permit-georgia/",
       "raw_snippet": "From 1 March 2026 paid work activity in Georgia requires a Right to Labour Activity permit; the application of the rule to purely-remote foreign-client workers is being clarified.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-by-country-2026.md"
+      ]
     },
     {
       "claim_id": "banking-fx",
@@ -129,15 +184,23 @@
       "source_url": "https://www.boi.org.il/en/",
       "raw_snippet": "Bank of Israel publishes daily representative (sha'ar yatzig) exchange rates used to convert foreign-currency income to NIS for tax reporting.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reference-citation-urls-and-artifacts",
-      "claim": "Documented source URLs cited in the reference files for the visa, totalization, and tax facts, plus extraction artifacts. Forms also referenced: Form 161 (relocation/severance form mentioned only as a relocation-skill anti-pattern), טופס 1322, טופס 1325, טופס 836. Section references in Hebrew: סעיף 30 (VAT export-of-services), סעיף 196 (Income Tax Ordinance treaty authority), and Chapter 3 (Part J foreign-tax-credit). The +10% Croatia per-dependent add-on is real. The percentages 2%, 6%, 7%, 8%, 9%, 90%, 91%, 93%, 95%, 99% and the *2026 token are phantom matches produced by the verifier reading percent-encoded byte pairs inside the Hebrew-slug cpa-dray reference URL and bolded year markers; they are not factual claims.",
+      "claim": "The Israel Tax Authority department page is cited as the portal for the Israeli side of the visa/totalization/tax facts in the reference files. Documented source URLs cited in the reference files for the visa, totalization, and tax facts, plus extraction artifacts. Forms also referenced: Form 161 (relocation/severance form mentioned only as a relocation-skill anti-pattern), טופס 1322, טופס 1325, טופס 836. Section references in Hebrew: סעיף 30 (VAT export-of-services), סעיף 196 (Income Tax Ordinance treaty authority), and Chapter 3 (Part J foreign-tax-credit). The +10% Croatia per-dependent add-on is real. The percentages 2%, 6%, 7%, 8%, 9%, 90%, 91%, 93%, 95%, 99% and the *2026 token are phantom matches produced by the verifier reading percent-encoded byte pairs inside the Hebrew-slug cpa-dray reference URL and bolded year markers; they are not factual claims.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "Reference source URLs: https://citizenremote.com/visas/bali-indonesia-digital-nomad-visa/ https://citizenremote.com/visas/croatia-digital-nomad-visa/ https://citizenremote.com/visas/mexico/ https://dtv.in.th/country/israel https://etias.com/etias-requirements/etias-for-israeli-citizens https://legal.ge/en/news/georgia-tightens-controls-as-digital-nomad-era-faces-regulatory-shift-en https://pexpats.com/czech-zivno-visa-or-czech-freelancer-visa https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99107062012000 https://www.boi.org.il/roles/markets/reprate/ https://www.btl.gov.il/English%20Homepage/Benefits/Old%20Age%20Insurance/Stayingabroad/Pages/atreatycountry.aspx https://www.do-israel.com/en/us-israel-totalization-agreement-guide/ https://www.e-resident.gov.ee/nomadvisa/ https://www.gov.il/en/pages/apostille https://www.gov.il/en/service/itc5329b https://www.jobbatical.com/blog/spain-digital-nomad-visa-income-smi-increase https://www.msplawyer.io/portugal-d7-d8-visa-requirements-2026/ https://www.visahq.com/news/2026-04-25/ae/uae-tightens-remote-work-visa-income-floor-jumps-to-usd-5000-and-insurance-cover-quintupled/ https://www.visitcostarica.com/digital-nomads/requirements . Tokens: Form 161, טופס 1322, טופס 1325, טופס 836, סעיף 30, סעיף 196, Chapter 3, *2026, 2%, 6%, 7%, 8%, 9%, 10%, 90%, 91%, 93%, 95%, 99%.",
-      "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["references/visa-by-country-2026.md", "references/totalization-treaties.md", "SKILL.md", "SKILL_HE.md"]
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/visa-by-country-2026.md",
+        "references/totalization-treaties.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "illustrative-example-figures",
@@ -145,7 +208,23 @@
       "source_url": "https://taxsummaries.pwc.com/israel/individual/foreign-tax-relief-and-tax-treaties",
       "raw_snippet": "Section 196 of the Income Tax Ordinance gives tax treaties force of law; the Schengen short-stay rule is 90 days in any 180; Czech 2026 minimum monthly social security 5,720 CZK and health 3,306 CZK; 60/40 deemed-expense scheme. These are illustrative references.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/visa-by-country-2026.md", "scripts/nomad-decision.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-by-country-2026.md",
+        "scripts/nomad-decision.py"
+      ]
+    },
+    {
+      "claim_id": "ita-department-pointer",
+      "claim": "The Israel Tax Authority gov.il department page unifies the tax branches: income tax, real-estate taxation, VAT, purchase tax, customs and stamp duty. It is the Israeli-side portal cited for the tax facts in this skill's reference files.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

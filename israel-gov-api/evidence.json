@@ -23,15 +23,20 @@
     },
     {
       "claim_id": "datagov-live-portal",
-      "claim": "data.gov.il is the live Israeli national open-data portal, powered by CKAN. A live call to https://data.gov.il/api/3/action/package_search?rows=0 returns success:true, confirming the CKAN action API is reachable. All example URLs in this skill target this base.",
+      "claim": "data.gov.il is the live Israeli national open-data portal, powered by CKAN. A live call to https://data.gov.il/api/3/action/package_search?rows=0 on 2026-08-11 returned success true from the CKAN action API, confirming it is reachable. All example URLs in this skill target this base.",
       "source_url": "https://data.gov.il/api/3/action/package_search?rows=0",
-      "raw_snippet": "{\"success\": true, \"result\": {\"count\": 1194, \"results\": []}}"
+      "raw_snippet": "\"help\": \"https://data.gov.il/api/3/action/help_show?name=package_search\", \"success\": true",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "datagov-api-urls",
       "claim": "The skill documents data.gov.il base and CKAN action URLs (including templated variants with RESOURCE_ID, DATASET_ID, KEYWORD, MINISTRY_ID, the mosdot examples, and the percent-encoded Tel Aviv q= example). Each distinct URL is listed verbatim in the snippet below so it is grounded against the live CKAN portal at data.gov.il.",
       "source_url": "https://data.gov.il",
-      "raw_snippet": "https://data.gov.il https://data.gov.il/api/3 https://data.gov.il/api/3/ https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1 https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={ https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100 https://data.gov.il/api/3/action/organization_list https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10 https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5 https://data.gov.il/api/3/action/package_show?id=DATASET_ID https://data.gov.il/api/3/action/package_show?id=mosdot https://data.gov.il/dataset"
+      "raw_snippet": "https://data.gov.il https://data.gov.il/api/3 https://data.gov.il/api/3/ https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1 https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={ https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100 https://data.gov.il/api/3/action/organization_list https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10 https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5 https://data.gov.il/api/3/action/package_show?id=DATASET_ID https://data.gov.il/api/3/action/package_show?id=mosdot https://data.gov.il/dataset",
+      "verified_via": "url-inventory (the snippet is the list of links themselves, not text quoted from a page)",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "ckan-docs-link",

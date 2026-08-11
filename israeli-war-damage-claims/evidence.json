@@ -113,29 +113,29 @@
     },
     {
       "claim_id": "url-gov-il-online-direct-damage-claim",
-      "claim": "Tax Authority direct-damage online claim filing page (הגשת תביעה מקוונת לנזק ישיר). Filing URL where users open Compensation Fund claims and receive the SMS photo-upload link for fast track submissions.",
+      "claim": "Tax Authority online direct-damage claim page (הגשת תביעה מקוונת - נזק ישיר): after the claim details are filled in, a link is sent by SMS for uploading photographs of the damage scene, which must be taken and uploaded from the scene itself after the SMS is sent",
       "source_url": "https://www.gov.il/he/service/online-direct-damage-claim",
-      "raw_snippet": "https://www.gov.il/he/service/online-direct-damage-claim",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "לאחר מילוי פרטי התביעה יישלח קישור במסרון להעלאת תמונות מזירת הפגיעה המתעדות את הנזקים. את התמונות יש לצלם ולהעלות מזירת הפגיעה בלבד ולאחר שנשלח המסרון. תמונות שיצולמו לפני פתיחת התביעה ויועלו ממקום שאינו זירת הפגיעה לא יתקבלו והתביעה לא תושלם.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "url-gov-il-israel-tax-authority",
-      "claim": "Israel Tax Authority (רשות המסים בישראל) departmental landing page on gov.il — primary reference for current compensation ceilings, deadline notices, and forms.",
+      "claim": "Israel Tax Authority (רשות המסים בישראל) departmental landing page on gov.il, the portal covering income tax, real-estate taxation, VAT, purchase tax, customs and stamp duty",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "https://www.gov.il/he/departments/israel_tax_authority",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים. הרשות מספקת שירותים בנושאי רפורמות, מוסדות ללא כוונת רווח וכן מידע למעסיקים, למייצגים ולציבור.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "url-nevo-property-tax-law",
@@ -161,16 +161,16 @@
     },
     {
       "claim_id": "url-mevaker-2026-tax-emergency-report",
-      "claim": "State Comptroller (מבקר המדינה) report on Tax Authority emergency preparedness, January 2026. Published as part of the 2026 Emergency series. PDF returns HTTP 200 with Hebrew language metadata (he-IL) and a 2.6MB binary payload — body text not parseable via WebFetch but URL resolves.",
+      "claim": "State Comptroller report on Tax Authority emergency preparedness (2026 Emergency series): state compensation for \"war damage\" (physical damage to property) is regulated by the Property Tax Law and the Property Tax and Compensation Fund (Payment of Compensation) (War Damage and Indirect Damage) Regulations 1973",
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
       "raw_snippet": "בחוק מס רכוש ובתקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), התשל\"ג-1973 (להלן - תקנות קרן הפיצויים או התקנות), הוסדר תשלום פיצויים מטעם המדינה בעד \"נזק מלחמה\" - נזק פיזי לנכס",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "contents-ceilings-2026",

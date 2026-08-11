@@ -146,15 +146,18 @@
     },
     {
       "claim_id": "gtfs-portal-outages",
-      "claim": "The Ministry of Transport GTFS host serves a Hebrew error page for browsing paths (including its root); the static feed itself downloads from the canonical gtfsfiles path.",
-      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
-      "raw_snippet": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
-      "fetched_at": "2026-08-10",
+      "claim": "The Ministry of Transport GTFS host serves a Hebrew error page for browsing paths including its root; only the canonical gtfsfiles/israel-public-transportation.zip path returns the static feed.",
+      "source_url": "https://gtfs.mot.gov.il/",
+      "raw_snippet": "שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md#Gotchas",
         "SKILL_HE.md#מלכודות נפוצות"
       ],
-      "source_note": "Fetched 2026-08-10: HTTP 200, 145,379,558 bytes, PK zip header with agency.txt as first member. The host root returns \"שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.\""
+      "source_note": "Fetched 2026-08-10: HTTP 200, 145,379,558 bytes, PK zip header with agency.txt as first member. The host root returns \"שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.\"",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "iron-swords-emergency-ops",
@@ -182,28 +185,34 @@
       "claim_id": "pt-fare-table",
       "claim": "National fare table: yellow zone 0-15 km bus 8 ₪ / 8 ש\"ח and train 11.5 ₪; green 15-40 km bus 14.5 ₪; light-blue 40-75 km bus 19 ₪; nationwide monthly bus pass 315 ₪ / 315 ש\"ח. Hebrew renderings used in SKILL_HE.md: 11.5 ש\"ח, 14.5 ש\"ח, 19 ש\"ח; English renderings in SKILL.md: 11.5 NIS, 14.5 NIS, 19 NIS.",
       "source_url": "https://bus.gov.il/FaresDistance",
-      "raw_snippet": "אזור / מרחק נסיעה בודדת כולל נסיעת מעבר חופשי יומי חופשי חודשי ארצי צהוב 0-15 ק\"מ אוטובוס: 8 ₪ רכבת: 11.5 ₪ אוטובוס: 17.5 ₪ משולב רכבת: 23 ₪ אוטובוס: 315 ₪ משולב רכבת: 323 ₪",
+      "raw_snippet": "לפניכם טבלת תעריפי הנסיעה בהתאם למרחק הנסיעה ולסוג כלי התחבורה:\n\nאזור / מרחק\tנסיעה בודדת\nכולל נסיעת מעבר\tחופשי יומי\tחופשי חודשי\nארצי\nצהוב\n0-15 ק\"מ\t\nאוטובוס: 8 ₪\nרכבת: 11.5 ₪\n\t\nאוטובוס: 17.5 ₪\nמשולב רכבת: 23 ₪\n\t\nאוטובוס: 315 ₪\nמשולב רכבת: 323 ₪\n\nירוק\n15-40 ק\"מ\t\nאוטובוס: 14.5 ₪\nרכבת: 21 ₪\n\t\nאוטובוס: 29 ₪\nמשולב רכבת: 32.5 ₪\n\t\nאוטובוס: 315 ₪\nמשולב רכבת: 323 ₪\n\nתכלת\n40-75 ק\"מ\t\nאוטובוס: 19 ₪\nרכבת: 27 ₪\n\t\nאוטובוס: 37.5 ₪\nמשולב רכבת: 42 ₪\n\t\nאוטובוס: 315 ₪\nמשולב רכבת: 464 ₪",
       "fetched_at": "2026-08-10",
-      "verified_via": "browser",
-      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+      "verified_via": "browser-playwright",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "pt-discount-tiers",
       "claim": "Discount tiers are 50%, 33% and free (0 ₪). The 50% tier covers youth 5-18, senior women 62-67, geographic-profile holders, and passengers with disabilities / National Insurance entitlement; the 33% tier covers young people 18-26; free covers children under 5 and adults from 67, soldiers and national service.",
       "source_url": "https://bus.gov.il/discounts",
-      "raw_snippet": "סוג המנוי מחיר מלא 50% הנחה 33% הנחה חינם (0 ₪) אזור 1 (עד 40 ק\"מ) 139 ₪ 69.5 ₪ 92.66 ₪ 0 ₪ חופשי ארצי (אוטובוס) 315 ₪ 157.5 ₪ 210 ₪ 0 ₪",
+      "raw_snippet": "סוג המנוי\n\n\t\n\nמחיר מלא\n\n\t\n\n50% הנחה\n\n\t\n\n33% הנחה\n\n\t\n\nחינם (0 ₪)\n\n\n\n\nאזור 1 (עד 40 ק\"מ)\n\n\t\n\n139 ₪\n\n\t\n\n69.5 ₪\n\n\t\n\n92.66 ₪\n\n\t\n\n0 ₪\n\n\n\n\nחופשי ארצי (אוטובוס)\n\n\t\n\n315 ₪\n\n\t\n\n157.5 ₪\n\n\t\n\n210 ₪\n\n\t\n\n0 ₪",
       "fetched_at": "2026-08-10",
-      "verified_via": "browser",
-      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+      "verified_via": "browser-playwright",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "pt-discount-groups",
-      "claim": "Eligible groups per tier, including free travel from age 67.",
+      "claim": "Eligible groups per tier: 50% for youth 5-18, senior women 62-67, geographic-profile holders and passengers with disabilities / National Insurance entitlement; 33% for young people 18-26; free for children under 5, adults from 67, soldiers and national service, discharged soldiers, and blind or visually impaired passengers.",
       "source_url": "https://bus.gov.il/discounts",
-      "raw_snippet": "מי הזכאים? נוער בני 5-18, אזרחיות ותיקות 62-67, בעלי פרופיל גאוגרפי, נוסעים עם מגבלות וזכאי ביטוח לאומי צעירים בני 18-26 ילדים עד גיל 5 ומבוגרים מגיל 67, חיילים ושירות לאומי, משוחררים",
+      "raw_snippet": "מי הזכאים?\n\n\t\n\n\t\n\nנוער בני 5-18, אזרחיות ותיקות 62-67, בעלי פרופיל גאוגרפי, נוסעים עם מגבלות וזכאי ביטוח לאומי\n\n\t\n\nצעירים בני 18-26\n\n\t\n\nילדים עד גיל 5 ומבוגרים מגיל 67, חיילים ושירות לאומי, משוחררים, עיוורים ולקויי ראייה",
       "fetched_at": "2026-08-10",
-      "verified_via": "browser",
-      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted."
+      "verified_via": "browser-playwright",
+      "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "operator-egged",

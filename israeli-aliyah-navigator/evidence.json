@@ -580,10 +580,10 @@
     },
     {
       "claim_id": "sal-klita-calculator-3-percent-extrapolation",
-      "claim": "sal-klita-calculator.py uses ~3% annual increase to extrapolate sal klita amounts past the latest year of stored data; this is a heuristic, not an official rate",
-      "source_url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
-      "raw_snippet": "Misrad HaKlita updates sal klita figures annually; historical Israeli CPI-linked adjustments average roughly 2-4% per year",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Misrad HaAliyah VeHaKlita publishes the sal klita amounts as year-labelled tables (the current set is labelled 2026). sal-klita-calculator.py applies a ~3% annual increase to extrapolate past the latest year of stored data; that 3% is an internal heuristic with no official basis, not a published rate.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "לוחות סכומי הסיוע בסל הקליטה לוח סיוע כספי בסל הקליטה טרום פנסיה 2026",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "scripts/sal-klita-calculator.py"
       ]
@@ -635,8 +635,8 @@
       "claim_id": "sal-klita-standard-2026",
       "claim": "Sal klita 2026, standard (working-age) track: single -- 1,250 airport prepaid card + 1,544 bank top-up + 6 x 3,150 = 21,694 NIS / 21,694 ש\"ח. Single parent -- 2,300 + 1,631 + 6 x 5,190 = 35,071. Couple -- 2,500 + 4,023 + 6 x 5,806 = 41,359.",
       "source_url": "https://www.gov.il/he/pages/absorption_basket",
-      "raw_snippet": "נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,544 1,631 4,023 תשלום 1 3,150 5,190 5,806 סך הכל 21,694 35,071 41,359",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "לוח סיוע כספי בסל הקליטה תשלומים יחיד (ב-₪) משפחה חד הורית (ב-₪) זוגות (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,544 1,631 4,023 תשלום 1 3,150 5,190 5,806",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -648,8 +648,8 @@
       "claim_id": "sal-klita-prepension-2026",
       "claim": "Sal klita 2026, pre-pension track (reaches statutory retirement age within 5 years of aliyah): single 1,250 + 1,583 + 6 x 3,992 = 26,785; single parent 2,300 + 1,690 + 6 x 6,201 = 41,196; couple 2,500 + 3,904 + 6 x 7,414 = 50,888.",
       "source_url": "https://www.gov.il/he/pages/absorption_basket",
-      "raw_snippet": "טרום פנסיה 1,583 1,690 3,904 3,992 6,201 7,414 סך הכל 26,785 41,196 50,888",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "טרום פנסיה 2026 למי שתוך 5 שנים מתאריך העלייה או קבלת מעמד כעולה יגיע ל גיל הפרישה תשלומים יחיד טרום פנסיה* (ב-₪) חד הורי טרום פנסיה* (ב-₪) זוגות טרום פנסיה* (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,583 1,690 3,904 תשלום 1 3,992 6,201 7,414",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -661,8 +661,8 @@
       "claim_id": "sal-klita-pensioner-2026",
       "claim": "Sal klita 2026, pensioner track (already at the statutory retirement age set by law): single 1,250 + 2,305 + 6 x 3,204 = 22,779; single parent 2,300 + 1,606 + 6 x 4,030 = 28,086; couple 2,500 + 3,785 + 6 x 4,663 = 34,263.",
       "source_url": "https://www.gov.il/he/pages/absorption_basket",
-      "raw_snippet": "גמלאי יחיד 2,305 3,204 22,779 28,086 34,263",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "גמלאים 2026 לפי גיל הפרישה שנקבע בחוק תשלומים גמלאי יחיד (ב-₪) גמלאי חד הורי (ב-₪) זוגות גמלאים (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 2,305 1,606 3,785 תשלום 1 3,204 4,030 4,663",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -674,8 +674,8 @@
       "claim_id": "sal-klita-supplements-2026",
       "claim": "Sal klita 2026 supplements (added to the family basket, never a basket of their own): household of 6 or more adds 6 x 986 = 5,918; a person aged 18-21 adds 250 + 3,106 + 6 x 1,324 = 11,039; a child 4-18 adds 250 + 3,051 + 6 x 870 = 8,521; a child 0-4 adds 250 + 3,095 + 6 x 1,581 = 12,831.",
       "source_url": "https://www.gov.il/he/pages/absorption_basket",
-      "raw_snippet": "תוספת למשפחה 6 נפשות 986 בן/בת 18-21 1,324 ילד 4-18 870 ילד 0-4 1,581 סך הכל 5,918 11,039 8,521 12,831",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "לוח תוספות לסל קליטה 2026 תשלומים תוספת למשפחה 6 נפשות (ב-₪) בן/בת 18-21 (ב-₪) ילד 4-18 (ב-₪) ילד 0-4 (ב-₪) נתב\"ג (כרטיס נטען) --- 250 250 250 השלמה לחשבון בנק --- 3,106 3,051 3,095 תשלום 1 986 1,324 870 1,581",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -726,8 +726,8 @@
       "claim_id": "credit-point-value-2026",
       "claim": "The value of one income-tax credit point in 2026 is NIS 242 / 242 NIS / 242 ש\"ח per month, i.e. NIS 2,904 / 2,904 ש\"ח a year. Monthly values on the oleh ladder: 1/12 of a point = 242 NIS / 242 ש\"ח, 1/4 = 726 NIS / 726 ש\"ח, 1/6 = 484 NIS / 484 ש\"ח. Full use of the post-2022 ladder is worth about NIS 24,700 / 24,700 NIS / 24,700 ש\"ח of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242 = 24,684); the legacy 42-month ladder is worth about NIS 21,800.",
       "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-monthly-deductions-booklet/he/generalInformation_income-tax-monthly-deductions-booklet_monthly-deductions-booklet-2026.pdf",
-      "raw_snippet": "נקודת זיכוי 33א 242 לחודש",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "פרק ג - סכומים מתואמים לשנת המס 2026 א. נקודת זיכוי 242 נקודת זיכוי 33א לחודש",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -746,6 +746,17 @@
         "SKILL_HE.md",
         "references/sal-klita-rates.md",
         "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita-he",
+      "claim": "Reference link: the Ministry of Aliyah and Integration gov.il department page (Hebrew), https://www.gov.il/he/departments/ministry_of_aliyah_and_integration . The ministry provides assistance to olim and returning residents, sets policy and procedures, allocates assistance budgets and provides services in housing, employment and culture.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "משרד העלייה והקליטה מעניק סיוע לעולים ולתושבים חוזרים. המשרד קובע מדיניות ונהלים, מקצה תקציבי סיוע לעולים ומעניק שירותים מיוחדים בתחום הדיור, התעסוקה והתרבות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]

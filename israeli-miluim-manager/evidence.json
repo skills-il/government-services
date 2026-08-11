@@ -186,10 +186,10 @@
     },
     {
       "claim_id": "manak-nezek-akif-osek-patur",
-      "claim": "Manak Nezek Akif (indirect-damage grant) for self-employed reservists: osek patur receives bimonthly payments NIS 2,000-9,000 based on reserve days and reported income; osek murshe uses turnover-decline tracks with different filing windows. Jointly run by Tax Authority Property Tax Compensation Fund (Keren Pitzuyim Mas Rechush) and IDF Keren HaSiyua. Example filing window: service Nov-Dec 2025, window Jan 28 to May 31, 2026.",
-      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
-      "raw_snippet": "PENDING_VERIFICATION, Manak Nezek Akif osek patur bimonthly NIS 2,000-9,000 / 2,000-9,000 ש\"ח; cash grant program, short rolling filing windows; example Jan 28-May 31, 2026 for Nov-Dec 2025 service.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim": "Indirect-damage grant for self-employed reservists (Keren HaPitzuyim, Israel Tax Authority, jointly with the IDF aid fund): for a business whose 2022 turnover did not exceed 107,000 NIS (osek patur), a FIXED grant is paid per period, set by the annual-turnover band and by the turnover-decline band the osek patur declared, multiplied by the relative eligibility period. The per-single-month table runs from 1,000 NIS to 4,500 NIS, i.e. 2,000 to 9,000 NIS for a two-month period.",
+      "source_url": "https://www.gov.il/BlobFolder/service/grant-for-reservists/he/CompensationFund_inst-210125.pdf",
+      "raw_snippet": "לגבי עסק שמחזור עסקאותיו בשנת 2022 אינו עולה על 107,000 שקלים חדשים (עוסק פטור), ישולם סכום מענק קבוע עבור כל תקופה, בהתאם לגובה המחזור השנתי ולשיעור ירידת המחזורים עליו הצהיר העוסק הפטור כפול תקופת הזכאות היחסית שנקבעה",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -334,20 +334,22 @@
       "claim": "Agaf HaShikum (MoD Rehabilitation Department) runs disability recognition and medical committees at shikum.mod.gov.il/recognition. Note hachvana.mod.gov.il is a DIFFERENT department (discharged soldiers and reserves: discharge grant, personal deposit, scholarships).",
       "source_url": "https://shikum.mod.gov.il/recognition",
       "raw_snippet": "הכרה בנכות וועדות רפואיות | אגף השיקום",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md"
       ],
-      "source_fetched_at": "2026-07-25T00:00:00Z"
+      "source_fetched_at": "2026-07-25T00:00:00Z",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "manak-nezek-akif-url",
-      "claim": "Manak Nezek Akif (Manak LeMishartei Miluim) service at gov.il for self-employed reservist indirect-damage grant filing",
+      "claim": "The gov.il service for the self-employed reservist indirect-damage grant is 'Application for a grant for self-employed reservists - for indirect (economic) damage caused by their service in the Swords of Iron war', run by the Israel Tax Authority Compensation Fund.",
       "source_url": "https://www.gov.il/he/service/grant-for-reservists",
-      "raw_snippet": "PENDING_VERIFICATION, gov.il Manak LeMishartei Miluim service URL for Nezek Akif filing",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "בקשה למענק לעוסקים משרתי מילואים - עבור נזק עקיף (נזק כלכלי) שנגרם להם בעקבות שירותם במלחמת חרבות ברזל",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

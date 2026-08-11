@@ -240,7 +240,7 @@ Result: The user received a summons to Small Claims Court as the defendant. Some
 | Knesset Legislation Database | https://main.knesset.gov.il/Activity/Legislation | Full text of laws cited in government documents |
 | Kolzchut (All-Rights) | https://www.kolzchut.org.il | Plain-language explanations of rights and entitlements |
 | Israeli Courts | https://www.gov.il/en/departments/the_judicial_authority | Court procedures, filing deadlines, small claims limits |
-| Enforcement Authority | https://www.gov.il/en/departments/enforcement_and_collection_authority | Execution file procedures, objection deadlines |
+| Enforcement Authority | https://www.gov.il/he/departments/law_enforcement_and_collection_system_authority | Execution file procedures, objection deadlines |
 
 ## Troubleshooting
 

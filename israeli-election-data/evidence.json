@@ -18,53 +18,61 @@
     },
     {
       "claim_id": "v3-legacy-endpoint",
-      "claim": "The older v3 endpoint at https://knesset.gov.il/Odata/ParliamentInfo.svc/ is still up but does not expose vote tables.",
+      "claim": "The older v3 endpoint at https://knesset.gov.il/Odata/ParliamentInfo.svc/ is still up but exposes no vote entity sets: its service document jumps straight from KNS_PlenumSession to KNS_PlmSessionItem, with no KNS_PlenumVote or KNS_PlenumVoteResult.",
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
-      "raw_snippet": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "<collection href=\"KNS_PlenumSession\"><atom:title>KNS_PlenumSession</atom:title></collection><collection href=\"KNS_PlmSessionItem\"><atom:title>KNS_PlmSessionItem</atom:title></collection>",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "v4-plenum-vote-entity",
-      "claim": "KNS_PlenumVote is exposed in v4 with fields including Id, VoteDateTime, VoteTitle, VoteMethodDesc, VoteStatusCode, IsNoConfidenceInGov.",
+      "claim": "KNS_PlenumVote is exposed in v4 with fields Id, VoteDateTime, SessionID, ItemID, Ordinal, VoteMethodID, VoteMethodDesc, VoteStatusCode, VoteStatusDesc, VoteTitle, VoteSubject and IsNoConfidenceInGov.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVote?$top=1",
-      "raw_snippet": "\"VoteMethodID\":1,\"VoteMethodDesc\":\"אלקטרונית\",\"VoteStatusCode\":7,\"VoteStatusDesc\":\"מפורסם\",\"VoteTitle\":\"הצעת סיעת ש\\\"ס להביע אי אמון בממשלה",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "{\"Id\":6,\"VoteDateTime\":\"2003-10-20T19:54:19+02:00\",\"SessionID\":15797,\"ItemID\":15768,\"Ordinal\":6,\"VoteMethodID\":1,\"VoteMethodDesc\":\"אלקטרונית\",\"VoteStatusCode\":7,\"VoteStatusDesc\":\"מפורסם\",\"VoteTitle\":\"הצעת סיעת ש\\\"ס להביע אי אמון בממשלה בשל החלטת הממשלה להעביר את בתי הדין הרבנים למשרד המשפטים\",\"VoteSubject\":\"הצבעה\",\"IsNoConfidenceInGov\":null",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md",
         "scripts/query_knesset.py"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "v4-plenum-vote-result-entity",
-      "claim": "KNS_PlenumVoteResult is exposed in v4 with MkId (not PersonID), VoteID, ResultCode, ResultDesc, FirstName, LastName.",
+      "claim": "KNS_PlenumVoteResult is exposed in v4 with MkId (not PersonID), VoteID, VoteDate, ResultCode, ResultDesc, LastName, FirstName, SessionID and ItemID.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=40",
-      "raw_snippet": "\"Id\":22,\"MkId\":12959,\"VoteID\":29824,\"VoteDate\":\"2018-06-27T11:59:16+03:00\",\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "{\"Id\":21,\"MkId\":23573,\"VoteID\":29810,\"VoteDate\":\"2018-06-25T22:33:41+03:00\",\"ResultCode\":7,\"ResultDesc\":\"בעד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"יונה\",\"FirstName\":\"יוסי\",\"SessionID\":2071973,\"ItemID\":2025535},{\"Id\":22,\"MkId\":12959,\"VoteID\":29824,\"VoteDate\":\"2018-06-27T11:59:16+03:00\",\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\",\"SessionID\":2071975,\"ItemID\":566168},",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md",
         "scripts/query_knesset.py"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "v4-result-code-not-1-2-3",
       "claim": "ResultCode is not a 1=for/2=against/3=abstain mapping: live rows carry ResultCode 7 for 'בעד' and 8 for 'נגד'. Read ResultDesc, not ResultCode.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=40",
-      "raw_snippet": "\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "{\"Id\":21,\"MkId\":23573,\"VoteID\":29810,\"VoteDate\":\"2018-06-25T22:33:41+03:00\",\"ResultCode\":7,\"ResultDesc\":\"בעד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"יונה\",\"FirstName\":\"יוסי\",\"SessionID\":2071973,\"ItemID\":2025535},{\"Id\":22,\"MkId\":12959,\"VoteID\":29824,\"VoteDate\":\"2018-06-27T11:59:16+03:00\",\"ResultCode\":8,\"ResultDesc\":\"נגד\",\"LastUpdatedDate\":\"2021-07-22T09:47:04.36+03:00\",\"LastName\":\"רגב\",\"FirstName\":\"מירי מרים\",\"SessionID\":2071975,\"ItemID\":566168},",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "v4-contains-filter-works",
@@ -81,15 +89,17 @@
     },
     {
       "claim_id": "kns-israellawclassificiation-typo",
-      "claim": "KNS_IsraelLawClassificiation is misspelled in the upstream API (double 'i'); the correctly-spelled name returns 404.",
+      "claim": "KNS_IsraelLawClassificiation is misspelled in the upstream API (double 'i', in both the entity-set name and its ClassificiationID / ClassificiationDesc fields); the correctly-spelled KNS_IsraelLawClassification returns HTTP 404.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLawClassificiation?$top=60",
-      "raw_snippet": "\"ClassificiationID\":27,\"ClassificiationDesc\":\"ניהול נכסים\",\"LastUpdatedDate\":\"2015-01-15T15:59:55.7+02:00\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "#KNS_IsraelLawClassificiation\",\"value\":[{\"Id\":1,\"IsraelLawID\":2000001,\"ClassificiationID\":23,\"ClassificiationDesc\":\"מקרקעין\",\"LastUpdatedDate\":\"2015-01-15T15:59:55.7+02:00\"},{\"Id\":2,\"IsraelLawID\":2000001,\"ClassificiationID\":27,\"ClassificiationDesc\":\"ניהול נכסים\",\"LastUpdatedDate\":\"2015-01-15T15:59:55.7+02:00\"},",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "knesset-size-120",
@@ -132,27 +142,59 @@
     },
     {
       "claim_id": "position-ids-lexicon",
-      "claim": "PositionID 43 = male MK, 61 = female MK, 45 = PM, 39 = male Minister, 57 = female Minister, 41 = Committee Chair, 42 = Committee Member, 122/123 = Knesset Speaker (m/f).",
-      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Position?$format=json&$top=80",
-      "raw_snippet": "PositionID lexicon from KNS_Position: 43=חבר הכנסת, 61=חברת הכנסת, 45=ראש הממשלה, 39=שר, 57=שרה, 41=יו\"ר ועדה, 42=חבר ועדה, 122/123=יושב/ת–ראש הכנסת.",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "PositionID lexicon from KNS_Position: 39 = שר (male Minister), 41 = יו\"ר ועדה (Committee Chair), 42 = חבר ועדה (Committee Member), 43 = חבר הכנסת (male MK), 45 = ראש הממשלה (PM).",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Position?$top=80",
+      "raw_snippet": "{\"Id\":39,\"Description\":\"שר\",\"GenderID\":251,\"GenderDesc\":\"זכר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":40,\"Description\":\"סגן שר\",\"GenderID\":251,\"GenderDesc\":\"זכר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":41,\"Description\":\"יו\\\"ר ועדה\",\"GenderID\":252,\"GenderDesc\":\"אחר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":42,\"Description\":\"חבר ועדה\",\"GenderID\":251,\"GenderDesc\":\"זכר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":43,\"Description\":\"חבר הכנסת\",\"GenderID\":251,\"GenderDesc\":\"זכר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":45,\"Description\":\"ראש הממשלה\",\"GenderID\":252,\"GenderDesc\":\"אחר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ],
+      "claim_id": "position-ids-lexicon-female",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Position?$top=80",
+      "claim": "PositionID 57 = שרה (female Minister) and 61 = חברת הכנסת (female MK).",
+      "raw_snippet": "{\"Id\":57,\"Description\":\"שרה\",\"GenderID\":250,\"GenderDesc\":\"נקבה\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":59,\"Description\":\"סגנית שר\",\"GenderID\":250,\"GenderDesc\":\"נקבה\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":61,\"Description\":\"חברת הכנסת\",\"GenderID\":250,\"GenderDesc\":\"נקבה\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ],
+      "claim_id": "position-ids-lexicon-speaker",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Position?$top=80",
+      "claim": "PositionID 122 = יושב–ראש הכנסת and 123 = יושבת–ראש הכנסת (Knesset Speaker, male/female).",
+      "raw_snippet": "{\"Id\":122,\"Description\":\"יושב–ראש הכנסת\",\"GenderID\":251,\"GenderDesc\":\"זכר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},{\"Id\":123,\"Description\":\"יושבת–ראש הכנסת\",\"GenderID\":250,\"GenderDesc\":\"נקבה\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"},",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "position-54-faction-member",
-      "claim": "PositionID 54 records faction membership (חבר/ת סיעה), NOT MK status. Filtering by 54 alone to list MKs is incorrect.",
-      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Position?$format=json&$top=80",
-      "raw_snippet": "PositionID 54 = חבר/ת סיעה (gender-neutral faction-member designation), separate from 43/61 (MK male/female).",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "PositionID 54 records faction membership (חבר/ת סיעה, gender-neutral), NOT MK status. Filtering by 54 alone to list MKs is incorrect.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Position?$top=80",
+      "raw_snippet": "{\"Id\":54,\"Description\":\"חבר/ת סיעה\",\"GenderID\":252,\"GenderDesc\":\"אחר\",\"LastUpdatedDate\":\"2015-03-20T12:03:00+02:00\"}",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "election-2022-results",
@@ -235,21 +277,23 @@
     },
     {
       "claim_id": "votes-gov-il-dead",
-      "claim": "votes.gov.il no longer resolves; the live Central Elections Committee site is bechirot.gov.il.",
-      "source_url": "https://www.bechirot.gov.il/",
-      "raw_snippet": "https://www.bechirot.gov.il/",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "votes.gov.il no longer resolves (DNS lookup fails); the live Central Elections Committee site is https://www.bechirot.gov.il/, which answers HTTP 200 and redirects to https://www.bechirot.gov.il/home/.",
+      "source_url": "https://www.bechirot.gov.il/home/",
+      "raw_snippet": "curl https://votes.gov.il/ -> \"Could not resolve host: votes.gov.il\"; curl -L https://www.bechirot.gov.il/ -> HTTP 200, effective URL https://www.bechirot.gov.il/home/",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "dns and http status check (curl)",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "data-gov-il-votes-knesset-dataset",
-      "claim": "Central Elections Committee election results are published on data.gov.il under dataset 'votes-knesset' for Knessets 16-25.",
+      "claim": "Central Elections Committee election results are published on data.gov.il under dataset 'votes-knesset', owned by the central-election-committee organization, with 17 CSV resources covering Knessets 16-25.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
-      "raw_snippet": "\"result\": {\"Frequency\": \"NotConstant\", \"Update\": \"Manual\", \"author\": null, \"author_email\": \"bard@knesset.gov.il\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "\"num_resources\": 17, \"num_tags\": 1, \"organization\": {\"id\": \"798010b4-a7b7-4981-afe6-85eda525a671\", \"name\": \"central-election-committee\"",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -270,27 +314,31 @@
     },
     {
       "claim_id": "committee-session-cancelled-193",
-      "claim": "KNS_CommitteeSession StatusID 193 = cancelled session. Filter with StatusID ne 193 unless cancelled sessions are wanted.",
-      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata",
-      "raw_snippet": "KNS_CommitteeSession StatusID 193 = cancelled",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "KNS_CommitteeSession StatusID 193 resolves in KNS_Status to \"מבוטלת\" (cancelled) for TypeDesc \"ישיבת ועדה\". Filter with StatusID ne 193 unless cancelled sessions are wanted. Note the KNS_Status key field is Id, not StatusID.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Status?$filter=Id%20eq%20193",
+      "raw_snippet": "{\"Id\":193,\"Desc\":\"מבוטלת\",\"TypeID\":12,\"TypeDesc\":\"ישיבת ועדה\"",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "knesset-0-provisional-council",
       "claim": "Knesset number 0 in the Knesset data is the Provisional State Council (מועצת המדינה הזמנית), plenum 15 May 1948 to 14 February 1949.",
       "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_KnessetDates?$top=2&$orderby=KnessetNum",
-      "raw_snippet": "\"KnessetNum\":0,\"Name\":\"מועצת המדינה הזמנית\",\"Assembly\":1,\"Plenum\":1,\"PlenumStart\":\"1948-05-15T01:00:00+03:00\",\"PlenumFinish\":\"1949-02-14T00:00:00+02:00\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "{\"Id\":60,\"KnessetNum\":0,\"Name\":\"מועצת המדינה הזמנית\",\"Assembly\":1,\"Plenum\":1,\"PlenumStart\":\"1948-05-15T01:00:00+03:00\",\"PlenumFinish\":\"1949-02-14T00:00:00+02:00\"",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "hasadna-knesset-data",
@@ -305,10 +353,10 @@
     },
     {
       "claim_id": "csv-encoding-cp1255",
-      "claim": "The votes-knesset dataset is published by the Knesset (bard@knesset.gov.il) as a set of CSV resources. The per-file character encoding is NOT documented by the publisher and the download endpoints are behind a JS challenge, so the skill tells the agent to detect the encoding rather than asserting Windows-1255 for specific Knesset numbers.",
+      "claim": "The votes-knesset dataset is published by the Knesset (bard@knesset.gov.il) as a set of CSV resources. The per-file character encoding is NOT documented by the publisher, so the skill tells the agent to detect the encoding rather than asserting Windows-1255 for specific Knesset numbers.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
-      "raw_snippet": "\"result\": {\"Frequency\": \"NotConstant\", \"Update\": \"Manual\", \"author\": null, \"author_email\": \"bard@knesset.gov.il\"",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "\"author_email\": \"bard@knesset.gov.il\", \"creator_user_id\": \"e01f2a18-b401-4758-9533-db0a713d1d6c\", \"id\": \"26f9fa06-fcd7-4173-8df5-65797b63e857\"",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -360,10 +408,10 @@
     },
     {
       "claim_id": "ref-data-gov-il-25th-csv",
-      "claim": "Example URL for the 25th Knesset per-locality CSV on data.gov.il.",
-      "source_url": "https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv",
-      "raw_snippet": "https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "The 25th Knesset per-locality CSV resource is listed in the votes-knesset package as https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv (154,331 bytes). The download endpoint itself is behind a JS bot challenge and returns HTML to a plain client.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
+      "raw_snippet": "\"size\": 154331, \"state\": \"active\", \"task_created\": \"2024-09-25 15:04:20.750447\", \"url\": \"https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv\", \"url_type\": \"upload\"",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -403,25 +451,29 @@
     },
     {
       "claim_id": "ref-local2024",
-      "claim": "Central Elections Committee results page for the 2024 municipal elections.",
+      "claim": "The Central Elections Committee URL https://www.bechirot.gov.il/local2024/Pages/default.aspx no longer exists: it serves the gov.il \"page not found\" screen. Municipal-election data sits with the Ministry of Interior.",
       "source_url": "https://www.bechirot.gov.il/local2024/Pages/default.aspx",
-      "raw_snippet": "https://www.bechirot.gov.il/local2024/Pages/default.aspx",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ref-cbs",
-      "claim": "Israeli Central Bureau of Statistics provides per-locality population context.",
-      "source_url": "https://www.cbs.gov.il/",
-      "raw_snippet": "https://www.cbs.gov.il/",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "The Israeli Central Bureau of Statistics (https://www.cbs.gov.il) publishes population figures used as per-locality context (10.263 million residents, June 2026).",
+      "source_url": "https://www.cbs.gov.il/he/pages/default.aspx",
+      "raw_snippet": "תושבים בארץ 10.263 מיליון יוני 2026",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ref-gov-policies",
@@ -436,10 +488,10 @@
     },
     {
       "claim_id": "ref-moi",
-      "claim": "Ministry of Interior site for per-city municipal-election breakdowns and other local-government data.",
+      "claim": "The Ministry of Interior handles local-government matters including elections in local authorities and regional councils, and runs the national election-supervision unit (היחידה הארצית לפיקוח על הבחירות).",
       "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
-      "raw_snippet": "https://www.gov.il/he/departments/ministry_of_interior",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "משרד הפנים עוסק בנושאי שלטון מקומי ביניהם: בחירות ברשויות המקומיות ובמועצות האזוריות",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -458,10 +510,10 @@
     },
     {
       "claim_id": "ref-mevaker",
-      "claim": "State Comptroller (mevaker hamedina) publishes party financing reports.",
-      "source_url": "https://www.mevaker.gov.il/",
-      "raw_snippet": "https://www.mevaker.gov.il/",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "The State Comptroller (mevaker hamedina) is the authority for party-financing law (חוקי מימון מפלגות).",
+      "source_url": "https://www.mevaker.gov.il/he/Pages/default.aspx",
+      "raw_snippet": "חוקים חוק יסוד: מבקר המדינה חוק מבקר המדינה חוקי מימון מפלגות",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -477,6 +529,19 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "v4-committee-session-statusid-property",
+      "claim": "KNS_CommitteeSession in the v4 OData $metadata declares a StatusID (Edm.Int32) property alongside StatusDesc, and navigates to KNS_Status.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata",
+      "raw_snippet": "<Property Name=\"CommitteeID\" Type=\"Edm.Int32\" /><Property Name=\"StatusID\" Type=\"Edm.Int32\" /><Property Name=\"StatusDesc\" Type=\"Edm.String\" />",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "references/knesset-api-entities.md"
       ]
     }
   ]

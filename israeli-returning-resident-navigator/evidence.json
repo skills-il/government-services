@@ -15,9 +15,10 @@
       ]
     },
     {
-      "claim": "Misrad HaAliyah V'HaKlita definition of returning resident requires 2+ years abroad, Israeli citizen aged 17+, visits to Israel no more than 4 months in any year during the last 2 years before return.",
+      "claim": "Misrad HaAliyah VeHaKlita definition of a returning resident: an Israeli citizen, aged 17 or over at the time of return, who was a resident of Israel in the past and lived abroad for at least two years.",
       "source_url": "https://www.gov.il/en/pages/returning_residents_whois",
-      "raw_snippet": "A citizen of Israel. Age 17 and over at the time of return to Israel. Resident of Israel in the past. Residence abroad - residence abroad of at least two years. Visits to Israel, whether consecutive or cumulative, of no more than four months during each year of absence (during the last two years before return to Israel, or three years for entrepreneurs and five years for scientists). Updated date: 27.10.2024."
+      "raw_snippet": "A citizen of Israel Age 17 and over at the time of return to Israel Resident of Israel in the past Residence abroad - residence abroad of at least two years.",
+      "fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim": "Misrad HaAliyah ministry-assistance eligibility window is 24 months from date of return; assured income (havtachat hachnasa) is 12 months; customs concessions window is 9 months.",
@@ -134,9 +135,10 @@
       "raw_snippet": "תושב חוזר ותיק. הצהרת תושבות לצרכי מס בישראל בעת עזיבה או חזרה. טופס 1348 (Form 1348) הוא טופס הצהרת תושבות שמטופל בסקיל האחות israeli-toshav-chozer-vatik-tax-planner. Referenced here only as a handoff pointer to the sister tax skill; no fields, deadlines, or filing rules claimed."
     },
     {
-      "claim": "Section 17 of the Customs Ordinance (פקודת המכס) governs personal-effects exemptions for olim and returning residents; this skill only references it as a handoff pointer to the sister customs/vehicle skill, with no substantive claims about quotas or eligibility math.",
+      "claim": "Customs is administered by the Israel Tax Authority. Section 17 of the Customs Ordinance, which governs personal-effects exemptions for olim and returning residents, is referenced in this skill only as a handoff pointer to the sister customs/vehicle skill; no quota or eligibility figures are asserted here.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "רשות המסים בישראל. פקודת המכס. Section 17 personal-effects framework for olim and returning residents lives at the Israel Tax Authority and is handled by the sister skill israeli-returning-resident-customs-vehicle. Referenced here only as a handoff pointer."
+      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
+      "fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim": "URL-encoded Hebrew path fragments from kolzchut and gov.il URLs are byproducts of percent-encoding (%D7XX, %D8XX) and are not standalone percentage claims. The skill makes no numerical-percentage claims.",
@@ -365,10 +367,10 @@
     },
     {
       "claim_id": "foreign-spouse-misrad-hapnim-parallel-track",
-      "claim": "A returnee married to a non-Israeli citizen faces a separate Misrad HaPnim process for the spouse (Ichud Mishpachot family reunification, B/1 work visa, or A/5 temporary resident permit) that is independent of the returnee's own Toshav Chozer track and typically slower; spouse cannot enroll in kupat cholim as a returnee dependent until they have status",
-      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
-      "raw_snippet": "איחוד משפחות לבן/בת זוג שאינם אזרחי ישראל, אשרת A/5 תושב ארעי או B/1 עבודה, מסלול נפרד ועצמאי מהמסלול של התושב החוזר עצמו, איטי יותר; ההצטרפות לקופת חולים תלויה במתן מעמד.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "A returnee's non-Israeli spouse is handled by the Population and Immigration Authority, whose Population Administration is responsible for registry and passports, citizenship and status, visas, FAMILY REUNIFICATION (ichud mishpachot), aliyah and return. That is a separate authority and process from the returnee's own Toshav Chozer recognition at Misrad HaAliyah VeHaKlita.",
+      "source_url": "https://www.gov.il/he/pages/populationandimmigrationauthority_about",
+      "raw_snippet": "מינהל אוכלוסין - אחראי למכלול הנושאים בתחומים של מרשם ודרכונים, אזרחות ומעמד, אשרות, איחוד משפחות, עלייה ושבות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -376,10 +378,10 @@
     },
     {
       "claim_id": "pre-flight-israeli-passport-for-children",
-      "claim": "Israeli citizens (including children born abroad to Israeli parents) must enter Israel on an Israeli passport (Darkon) or Teudat Ma'avar (one-year travel document); boarding on a foreign passport alone is routinely refused at check-in. Standard pre-flight sequence is Lidat Chutz consular birth registration followed by an Israeli passport or fast-track Teudat Ma'avar at the consulate",
-      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
-      "raw_snippet": "תיעוד מסע לאזרחי ישראל, דרכון ישראלי או תעודת מעבר, נדרש לאזרחי ישראל הנכנסים לישראל; חברות תעופה מסרבות עלייה לטיסה עם דרכון זר בלבד. רישום לידת חוץ בקונסוליה לפני הוצאת דרכון או תעודת מעבר.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "The Population and Immigration Authority has EXTENDED, until 30.09.2026, the arrangement allowing Israelis to enter and leave Israel on a valid foreign passport. The blanket rule that an Israeli citizen may only enter on an Israeli passport or Teudat Maavar is therefore currently suspended; check the arrangement's status before travel.",
+      "source_url": "https://www.gov.il/he/pages/news-exit-with-foriegn-passport-300926",
+      "raw_snippet": "לתשומת לבכם, רשות האוכלוסין וההגירה החליטה להאריך את האפשרות לישראלים להיכנס ולצאת מישראל עם דרכון זר בתוקף עד ל-30.09.2026.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -398,10 +400,10 @@
     },
     {
       "claim_id": "bringing-money-customs-declaration",
-      "claim": "Cash and bearer instruments entering Israel must be declared at customs above the threshold set under the Money Laundering Prohibition Law 2000; the threshold differs between general entrants and returning residents and changes by regulation, so the current figure must be verified at the Israel Tax Authority customs page or via the Money Laundering and Terror Financing Prohibition Authority before relying",
+      "claim": "Customs (mechess) is one of the tax branches unified under the Israel Tax Authority, alongside income tax, real-estate taxation, VAT, purchase tax and stamp duty. Cash-declaration thresholds on entry to Israel under the Money Laundering Prohibition Law 2000 are set by regulation and change; the current figure must be checked on the Israel Tax Authority customs pages or with the Anti-Money-Laundering Authority before it is relied on. No threshold figure is asserted here.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "רשות המסים ישראל, מכס, הצהרה על כניסת כסף מזומן לישראל לפי חוק איסור הלבנת הון התש\"ס-2000",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -413,6 +415,17 @@
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
       "raw_snippet": "Aliyah Tips, Book an Appointment, Education, Emergency, Employment, Finances, First Steps in Israel, Government Offices, Health and Medical, Housing and Community, Integration Rights, Military and National Service, Transportation",
       "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "returning-resident-visits-four-months",
+      "claim": "Visits to Israel during the absence, whether consecutive or cumulative, must not exceed four months during each year of absence (measured over the last two years before return, three years for entrepreneurs and five years for scientists).",
+      "source_url": "https://www.gov.il/en/pages/returning_residents_whois",
+      "raw_snippet": "Visits to Israel - Visits to Israel, whether consecutive or cumulative, of no more than four months during each year of absence (during the last two years before return to Israel, or three years for entrepreneurs and five years for scientists).",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

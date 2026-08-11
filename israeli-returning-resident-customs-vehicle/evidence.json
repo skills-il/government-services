@@ -5,43 +5,48 @@
   "claims": [
     {
       "claim_id": "VEHICLE_RHD_NOT_ALLOWED",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "Israel Misrad HaTachbura personal vehicle import standards",
-      "raw_snippet": "Israeli personal-import vehicle standards (תקנות) require left-hand-drive (LHD) passenger configuration; right-hand-drive (RHD) cars from UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus, Malta are not permitted.",
-      "verified_via": "Customs broker practice + Misrad HaTachbura import unit *4515 verification standard for personal imports; cross-checked against the consistent rejection pattern at the Israeli ports",
-      "claim": "Right-hand-drive (RHD) vehicles cannot be personally imported to Israel, a hard rejection at the port for returnees from RHD-driving countries"
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%204-13%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%A8%D7%9B%D7%91%20%D7%90%D7%A1%D7%A4%D7%A0%D7%95%D7%AA%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%A1%D7%A4%D7%A8%209%20%D7%9E%D7%99%D7%95%D7%9D%203.8.25.pdf",
+      "source_label": "משרד התחבורה, הוראת נוהל 004/13 (יבוא אישי של רכב אספנות), עדכון 3.8.2025",
+      "raw_snippet": "חל איסור לייבא רכב שיוצר לאחר שנת 1960 וההגה שלו מותקן בצידו הימני של הרכב.",
+      "claim": "Under takana 320(e) of the Israeli traffic regulations, a vehicle manufactured after 1960 whose steering wheel is on the right-hand side may not be imported to Israel, so right-hand-drive cars from the UK, Japan, Australia and similar markets are not importable.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_EURO6D_EMISSION_FLOOR",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "Misrad HaTachbura emission standards bulletin (EURO 6 adoption Jan 2022)",
-      "raw_snippet": "Israeli emission standard floor for new personal-import passenger cars is EURO 6d-final / שלב 6 since January 2022; US-spec EPA Tier 3 variants without an EU-certified equivalent are rejected at type approval.",
-      "verified_via": "Misrad HaTachbura standards adoption of EURO 6 for personal-import passenger cars, January 2022; documented by Misrad HaCalcala vehicle-emission regulations and customs broker practice",
-      "claim": "EURO 6d-final / שלב 6 is the Israeli emission floor for new personal-import passenger cars since Jan 2022. US-spec engine variants meeting only EPA Tier 3 are routinely rejected when no EU equivalent VIN / certification exists. FMVSS+CARFAX alone is NOT proof of EURO 6 compliance"
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_label": "משרד התחבורה - יבוא אישי של כלי רכב, דרישות תקינה",
+      "raw_snippet": "יובהר כי ניתן לייבא רכב אשר יוצר בתקינה פדראלית של ארה\"ב או בתקינה קנדית, גם אם יוצר מחוץ למדינות נפט\"א כמצוין בהוראת הנוהל.",
+      "claim": "A personally-imported vehicle may be built to US federal (FMVSS) or Canadian standards, not only to European standards. US-spec vehicles are explicitly importable; there is no EU-only / EURO 6d-final emission floor that rejects them.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_ESC_TAKAN_124",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "Misrad HaTachbura takanat תקן 124",
-      "raw_snippet": "תקן 124: רכב נוסעים מיובא חייב להכיל מערכת בקרת יציבות אלקטרונית (ESC) מותקנת במפעל",
-      "verified_via": "Misrad HaTachbura takanat 124 (ESC mandate); operational broker confirmation",
-      "claim": "Israeli Misrad HaTachbura takanat 124 requires factory-installed Electronic Stability Control (ESC) on every personally-imported passenger car. EU-market cars since 2014 and US-market cars since 2012 typically comply; pre-mandate vehicles and some collector/sport trims do not"
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_label": "משרד התחבורה - יבוא אישי של כלי רכב, מה חשוב לדעת",
+      "raw_snippet": "יש לוודא כי ברכב מותקנת מערכת בקרת יציבות (ESP), זאת עפ\"י המפרט הטכני של הרכב וכן עפ\"י נורת חיווי בלוח המחוונים.",
+      "claim": "A personally-imported vehicle must have an electronic stability control system (ESP/ESC) installed, verified against the vehicle's technical specification and the dashboard indicator lamp.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_LPG_CNG_PROHIBITED",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "Misrad HaTachbura personal-import vehicle standards",
-      "raw_snippet": "Israeli personal-import standards do not permit LPG, CNG, or methane-fueled passenger vehicles; common European LPG retrofits (Italy, Netherlands, Poland) are disqualifying.",
-      "verified_via": "Misrad HaTachbura standards + operational broker practice",
-      "claim": "LPG / CNG / methane-fueled vehicles are barred from Israeli personal-import; European LPG retrofits disqualify the host vehicle for personal import"
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "source_label": "משרד התחבורה, הוראת נוהל 02/12 - רישיון יבוא אישי של רכב M1/M2/L, סעיף 14",
+      "raw_snippet": "הרכב מונע בדלק המותר לשימוש בישראל: בנזין או סולר או בנזין/סולר+חשמל (\"רכב היברידי\") או מנוע חשמלי ובכל מקרה על פי קביעת יצרן הרכב.",
+      "claim": "The fuels permitted for a personally-imported vehicle are petrol, diesel, petrol/diesel hybrid or an electric motor, per the manufacturer's determination. LPG, CNG and other fuels are not on the permitted list.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_PRE_REGISTRATION_INSPECTION",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "Misrad HaTachbura pre-registration safety inspection workflow",
-      "raw_snippet": "After Meches customs clearance and before Misrad HaRishui registration, the personally-imported vehicle must pass an authorized pre-registration safety inspection at מכון לבטיחות בדרכים. Fee approximately NIS 1,500-2,500 ש\"ח (1,500 NIS to 2,500 NIS), turnaround ~1 week.",
-      "verified_via": "Misrad HaTachbura personal-import workflow + customs broker practice",
-      "claim": "Mandatory pre-registration safety inspection at מכון לבטיחות בדרכים costs approximately NIS 1,500-2,500 and takes ~1 week between Meches clearance and Misrad HaRishui registration"
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_label": "משרד התחבורה - בדיקת רכב ביבוא אישי לפי תקנה 309",
+      "raw_snippet": "בתקנה 282 לתקנות התעבורה נקבע כי רישום רכב ביבוא אישי מותנה בבדיקתו במכון רישוי המורשה לביצוע בדיקה עפ''י תקנה 309 לתקנות התעבורה והצגת תעודה חיובית על כשירות הרכב.",
+      "claim": "Registration of a personally-imported vehicle is conditional on inspection at a licensing institute (מכון רישוי) authorised under takana 309 of the traffic regulations, and on presenting a positive roadworthiness certificate.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_COMPULSORY_INSURANCE_BEFORE_PORT",
@@ -54,10 +59,11 @@
     {
       "claim_id": "FOREIGN_SPOUSE_BL_NAME_TRAP",
       "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
-      "source_label": "gov.il customs guide for returning residents, conditions section",
-      "raw_snippet": "תנאי לקבלת הפטור: המסמכים על שם התושב החוזר עצמו (Bill of Lading, הצהרת ייבוא אישי, רשומות המעבר).",
-      "verified_via": "Operational customs broker practice; gov.il customs guide entitlement conditions",
-      "claim": "Customs paperwork (Bill of Lading, Tofes 195 personal-import declaration, container manifest) must be in the returnee's name. Goods shipped in a non-Israeli spouse's name are NOT covered by the returnee benefit basket and clear at full duty"
+      "source_label": "רשות המסים - מדריך מכס לתושבים חוזרים, תנאים נוספים לאישור הזכויות",
+      "raw_snippet": "החפצים וכל מסמכי היבוא - חייבים להיות רשומים על שמכם.",
+      "claim": "The goods and every import document must be registered in the returning resident's own name as a condition of the customs benefit.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "NBN_NO_RETURNEE_CAR_TAX_DISCOUNT",
@@ -81,8 +87,8 @@
       "claim_id": "GOVIL_VEHICLE_CLASS_3500KG",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=2",
       "source_label": "gov.il personal vehicle import guide, chapter 2",
-      "raw_snippet": "רכב - רכב נוסעים מנועי שמשקלו עד 3,500 ק\"ג, או אופנוע לשימוש עצמי.",
-      "verified_via": "Playwright, 2026-05-26",
+      "raw_snippet": "״רכב״ - רכב נוסעים מנועי שמשקלו עד 3,500 ק״ג, או אופנוע לשימוש עצמי.",
+      "verified_via": "gov.il content API (programmatic re-extraction)",
       "claim": "For personal-import purposes, רכב is defined as a passenger motor vehicle up to 3,500 kg (M1/M2 class), or a motorcycle for personal use"
     },
     {
@@ -391,11 +397,12 @@
     {
       "claim_id": "GOVIL_PAGE_UPDATE_DATE",
       "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
-      "source_label": "gov.il customs guide for returning residents",
-      "raw_snippet": "תאריך עדכון: 18.05.2026",
+      "source_label": "רשות המסים - מדריך מכס לתושבים חוזרים, תאריך עדכון",
+      "raw_snippet": "\"תאריך עדכון\":[{\"title\":\"30.07.2026\"",
       "page_updated": "2026-05-18",
-      "verified_via": "Playwright MCP, 2026-05-23",
-      "claim": "The gov.il customs guide for returning residents was last updated 18.05.2026"
+      "claim": "The gov.il customs guide for returning residents was last updated 30.07.2026",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "PERSONAL_VEHICLE_IMPORT_GUIDE_URL",
@@ -448,20 +455,21 @@
     },
     {
       "claim_id": "HOTLINE_1299",
-      "claim": "Israel Tax Authority and gov.il run a *1299 phone hotline for customs questions",
-      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
-      "source_label": "gov.il customs guide, footer hotline reference",
-      "raw_snippet": "התקשרו למוקד 1299",
-      "verified_via": "Playwright MCP, 2026-05-23"
+      "claim": "The Israel Tax Authority national service call center is *4954 (Sunday to Thursday 08:15-15:45), not *1299.",
+      "source_url": "https://www.gov.il/he/pages/ta-contact-us",
+      "source_label": "רשות המסים - יצירת קשר, מוקד שירות ארצי",
+      "raw_snippet": "לפניות טלפוניות חייגו 4954*",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "VEHICLE_TAX_BAND_COMBINED",
       "claim": "Combined customs + purchase tax + VAT on personally-imported vehicles lands at roughly 116% of CIF for passenger cars from FTA-origin countries, 131% for non-FTA, 75-87% for EVs, 103-117% for collector cars; rates already include VAT and do not stack additionally",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
       "source_label": "gov.il Personal Vehicle Import Guide, chapter 3 (tax calculation), updated 15.01.2026",
-      "raw_snippet": "סוג הרכב | מדינות ההסכם | מדינות אחרות. רכב נוסעים/אופנוע/רכב שטח: כ-116% | כ-131%. רכב אספנות: כ-103% | כ-117%. רכב חשמלי: כ-75% | כ-87%. שיעור המס בטבלה כולל את מס הקניה, המכס (אם נדרש) והמע\"מ (מס ערך מוסף).",
+      "raw_snippet": "סוג הרכב מדינות ההסכם מדינות אחרות רכב נוסעים/אופנוע/רכב שטח כ- 116% כ-131% רכב אספנות כ-103% כ-117% רכב חשמלי כ-75% כ-87% שיעור המס בטבלה כולל את מס הקניה, המכס (אם נדרש) והמע״מ (מס ערך מוסף).",
       "page_updated": "2026-01-15",
-      "verified_via": "Playwright MCP, 2026-05-23"
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "claim_id": "VAT_RATE_18_PERCENT",
@@ -485,9 +493,10 @@
       "claim_id": "VEHICLE_GUIDE_PAGE_UPDATE_DATE",
       "claim": "The gov.il personal vehicle import guide (Rashut HaMisim) was last updated 15.01.2026",
       "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide",
-      "source_label": "gov.il personal vehicle import guide",
-      "raw_snippet": "תאריך עדכון: 15.01.2026",
-      "verified_via": "Playwright MCP, 2026-05-23"
+      "source_label": "רשות המסים - מדריך לייבוא אישי של רכב, תאריך עדכון",
+      "raw_snippet": "\"תאריך עדכון\":[{\"title\":\"15.01.2026\"",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "MISRAD_HATACHBURA_PHONE_4515",
@@ -507,11 +516,12 @@
     },
     {
       "claim_id": "RESTRICTED_PERMIT_ITEMS",
-      "claim": "Drones, communications gear / baby monitors, plants and seeds, pets, weapons and weapon parts, lasers, electric scooters and e-bikes all require a separate import permit from the relevant ministry before shipping; the customs benefit does not waive the permit requirement",
-      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=12",
-      "source_label": "gov.il customs guide chapter 12, פריטים שהתנאי ליבוא שלהם הוא אישור הרשות המוסמכת",
-      "raw_snippet": "רחפן - משרד התקשורת + משרד התחבורה-רשות שדות התעופה. מוצרי תקשורת, מוניטורים לתינוקות - משרד התקשורת. צמחים, זרעים - משרד החקלאות. חיות מחמד - משרד החקלאות-שירותים וטרינריים. נשק וחלקי נשק - משרד לביטחון פנים. קסדות, חלקי חילוף לרכב - משרד התחבורה. מסמני לייזר - משרד הכלכלה. קורקינט ממונע, אופניים חשמליים - משרד התחבורה.",
-      "verified_via": "Playwright MCP, 2026-05-23"
+      "claim": "Drones, communications products and remote controls, plants and seeds, pets, weapons and weapon parts, helmets / baby car seats / vehicle spare parts, laser pointers and laser meters, and electric scooters and e-bikes each require an import approval or licence from the relevant authorising ministry.",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "source_label": "רשות המסים - מדריך מכס לתושבים חוזרים, פריטים שהתנאי ליבוא שלהם הוא אישור הרשות המוסמכת",
+      "raw_snippet": "המוצרים הרשות המוסמכת טלפון מייל רחפן משרד התקשורת 03-5198282 03-9774521 requests@moc.gov.il מוצרי תקשורת, שלטים, וכיוצא באלה משרד התקשורת 03-5198282 requests@moc.gov.il צמחים, זרעים משרד החקלאות-אישור הגנת הצומח 03-9681587 בית דגן, קבלת קהל במשרד ביום ד' 8:30-15:00 חיות מחמד משרד החקלאות-שירותים וטרינריים 03-9485461 Mankal@moag.gov.il נשק וחלקי נשק משרד לביטחון פנים 077-2324444 מענה טלפוני בימים א'-ה' 8:00-17:00 ו' 8:00-12:00 קסדות, מושב בטיחות לתינוקות, חלקי חילוף לרכב משרד התחבורה 5678* rechev@mot.gov.il מסמני לייזר/ מד לייזר משרד הכלכלה 6680* Dina.blilti@economy.gov.il קורקינט ממונע, אופניים חשמליים משרד התחבורה 5678* rechev@mot.gov.il",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "INSURE_FULL_VALUE_INCLUDING_TAXES",

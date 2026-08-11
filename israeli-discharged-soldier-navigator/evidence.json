@@ -50,11 +50,11 @@
     },
     {
       "id": "pikadon-monthly-amounts-2026",
-      "claim": "Monthly Pikadon credit by service type (May 2026 indexed values): combat (lochem) 990.63 NIS, combat support (tomech lechima) 825.52 NIS, rear/other 660.42 NIS, civic-national service 660.42 NIS",
+      "claim": "Monthly Pikadon credit by service type, as updated to May 2026: combat (lochamim) NIS 990.63, combat support (tomchei lechima) NIS 825.52, rear (orfi) NIS 660.42, national-civic service NIS 660.42, intermediate civilian track NIS 495.38, split civilian track NIS 330.25, per month of service.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-06-14T00:00:00+00:00",
-      "raw_snippet": "Combat soldiers: 990.63 ₪ לכל חודש שירות. Combat support: 825.52 ₪ לכל חודש שירות. Rear/Other: 660.42 ₪ לכל חודש שירות. National civilian service: 660.42 ₪ לכל חודש שירות.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
       "confidence": "high"
     },
     {
@@ -77,11 +77,11 @@
     },
     {
       "id": "service-type-cap-32-28",
-      "claim": "Pikadon and grant are credited/paid only up to 32 months for male soldiers and 24 months for female soldiers; service beyond that (unpaid extension) does not increase the deposit or grant",
+      "claim": "The Pikadon amount is set by actual length of service, counted up to 32 months for a male soldier and 24 months for a female soldier, and by service type.",
       "claim_type": "threshold",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-06-14T00:00:00+00:00",
-      "raw_snippet": "לא ייזקף פיקדון ולא ישולם מענק בעד תקופת השירות ללא תשלום העולה על 32 חודשים (גברים) או 24 חודשים (נשים)",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "גובה הפיקדון נקבע לפי משך השירות בפועל (עד 32 חודשים לחייל ו-24 חודשים לחיילת) וסוג השירות",
       "confidence": "high"
     },
     {
@@ -171,29 +171,29 @@
     },
     {
       "id": "iron-swords-hub-url",
-      "claim": "The MoD Department for Discharged Soldiers publishes the active Iron Swords benefit expansions and the current Mimadim scholarship cycle dates on its Iron Swords hub page.",
+      "claim": "The MoD Department for Discharged Soldiers publishes wartime rights and benefits on its Iron Swords hub page, including extensions to the Mimadim LiLimudim registration window. As read on 2026-08-11 the page still showed the superseded 2025 cycle dates (register by 31.08.2025, upload documents by 30.09.2025), so cycle dates on this page must be cross-checked against the Mimadim scholarship page.",
       "claim_type": "url",
       "source_url": "https://www.hachvana.mod.gov.il/IronSwords/Pages/sword.aspx",
-      "source_fetched_at": "2026-07-20T00:00:00Z",
-      "raw_snippet": "הרחבות חרבות ברזל",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "עקב המצב הביטחוני, החלטנו להאריך את ההרשמה למלגת \"ממדים ללימודים\". ניתן להירשם למלגה עד ה 31.08.2025 ולהעלות מסמכים עד 30.09.2025.",
       "confidence": "high"
     },
     {
       "id": "pikadon-window-reservist-10y",
-      "claim": "The Pikadon/benefit entitlement window is 5 years for most discharged soldiers, but is extended to up to 10 years for a discharged soldier who is an active reservist (mesharet miluim pa'il), and for discharged lone soldiers, per the MoD hachvana benefit rules after October 2023.",
+      "claim": "The MoD Department for Discharged Soldiers offers its dedicated reservist benefits track for up to 10 years from the end of regular service.",
       "claim_type": "rule",
-      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx",
-      "source_fetched_at": "2026-07-20T00:00:00Z",
-      "raw_snippet": "חלון הזכאות הוא עד 5 שנים, ועד 10 שנים לבודדים משוחררים ולמשרתי מילואים פעילים.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/Miluim.aspx",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "משרתי ומשרתות מילואים - עד 10 שנים מיום סיום השירות הסדיר",
       "confidence": "high"
     },
     {
       "id": "mimadim-window-extensions",
-      "claim": "The Mimadim LiLimudim scholarship base window of 5 years extends by +1 year for a mechina (preparatory program), by +2 years for at least a year of permanent (keva) service, and by +3 years for both combined, up to a maximum of 8 years after end of service.",
+      "claim": "The Mimadim LiLimudim base eligibility window of 5 years from discharge extends by one year (to 6) for someone who completed bagrut, a mechina or the psychometric exam within those 5 years, by two years (to 7) for at least a year of continuous permanent (keva) service, and by three years (to 8) for both.",
       "claim_type": "rule",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "source_fetched_at": "2026-07-20T00:00:00Z",
-      "raw_snippet": "חלון הבסיס 5 שנים, תוספת שנה למכינה, שנתיים לשירות קבע של שנה לפחות, שלוש שנים לשילוב, עד 8 שנים.",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "הארכה בשנה (עד 6 שנים מהשחרור): למי שביצעו השלמת בגרויות, מכינה או פסיכומטרי. במהלך 5 השנים מיום השחרור משירות סדיר. • הארכה בשנתיים (עד 7 שנים מהשחרור): למי שהמשיכו לשירות קבע רציף של שנה ומעלה מיום השחרור משירות חובה. • הארכה ב-3 שנים (עד 8 שנים מהשחרור)",
       "confidence": "high"
     },
     {
@@ -247,11 +247,11 @@
     },
     {
       "id": "hebrew-shekel-notation-pikadon-rates",
-      "claim": "Hebrew shekel notation for the 2026 Pikadon monthly rates: לוחם 990.63 ש\"ח; תומך לחימה 825.52 ש\"ח; אחר 660.42 ש\"ח; שירות לאומי 660.42 ש\"ח; per-credit-point monthly value 242 ש\"ח; 2 points monthly 484 ש\"ח",
+      "claim": "Hebrew shekel notation for the Pikadon monthly rates updated to May 2026: לוחמים 990.63 ₪, תומכי לחימה 825.52 ₪, עורפי 660.42 ₪, שירות לאומי אזרחי 660.42 ₪, מסלול אזרחי ביניים 495.38 ₪, מסלול אזרחי מפוצל 330.25 ₪.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-06-14T00:00:00+00:00",
-      "raw_snippet": "תעריפי 2026 לפיקדון לפי סוג שירות: לוחם 990.63 ש\"ח / חודש, תומך לחימה 825.52 ש\"ח / חודש, אחר 660.42 ש\"ח / חודש, שירות לאומי 660.42 ש\"ח / חודש; שווי נקודת זיכוי חודשית 242 ש\"ח; שתי נקודות 484 ש\"ח / חודש",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
       "confidence": "high"
     },
     {

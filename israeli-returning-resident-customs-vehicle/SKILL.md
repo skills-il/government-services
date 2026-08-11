@@ -122,7 +122,7 @@ Confirm the exact paperwork against the Misrad HaTachbura standards unit (\*4515
 
 **12-month bealut-transfer restriction**: Misrad HaTachbura imposes a 12-month hold on every personally-imported vehicle, returnee or not. Source: gov.il [יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles): "על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים." A separate procedure (the bealut-removal application, "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") exists for applying to remove the restriction earlier in justified cases. Plan to keep the vehicle at least 12 months; the broker can advise on bealut-removal application if circumstances change.
 
-**Pre-registration safety inspection (מכון לבטיחות בדרכים).** After Meches clearance and BEFORE Misrad HaRishui will register the car, the vehicle must pass an authorized pre-registration safety inspection at one of the approved institutes. Fee ~1,500-2,500 NIS, turnaround ~1 week. The script's broker-fees default does not include this, budget separately.
+**Pre-registration safety inspection (מכון לבטיחות בדרכים).** After Meches clearance and BEFORE Misrad HaRishui will register the car, the vehicle must pass an authorized pre-registration safety inspection at one of the approved institutes. The script's broker-fees default does not include this, budget separately.
 
 **Compulsory insurance (ביטוח חובה) BEFORE leaving the port.** Carriers deliver unregistered. Driving the vehicle off the port without Israeli ביטוח חובה is a strict-liability offense under פקודת ביטוח רכב מנועי. Brokers typically arrange a one-day cover so the car can be moved to the inspection institute; budget that on top of the eventual annual policy.
 

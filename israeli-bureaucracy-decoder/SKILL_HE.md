@@ -246,7 +246,7 @@ python scripts/document-analyzer.py --file path/to/document.txt
 | מאגר החקיקה של הכנסת | https://main.knesset.gov.il/Activity/Legislation | נוסח מלא של חוקים שמצוטטים במסמכים ממשלתיים |
 | כל-זכות | https://www.kolzchut.org.il | הסברים בשפה פשוטה על זכויות והטבות |
 | בתי המשפט | https://www.gov.il/he/departments/the_judicial_authority | הליכים משפטיים, מועדי הגשה, תקרת תביעות קטנות |
-| רשות האכיפה והגבייה | https://www.gov.il/he/departments/enforcement_and_collection_authority | הליכי תיק הוצל"פ, מועדי התנגדות |
+| רשות האכיפה והגבייה | https://www.gov.il/he/departments/law_enforcement_and_collection_system_authority | הליכי תיק הוצל"פ, מועדי התנגדות |
 
 ## פתרון בעיות
 

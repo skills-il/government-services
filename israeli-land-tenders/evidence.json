@@ -147,14 +147,16 @@
     },
     {
       "claim_id": "rmi-portal-online-bids",
-      "claim": "RMI tender portal at apps.land.gov.il/MichrazimSite supports online bid submission requiring digital ID certificate or smart card.",
+      "claim": "apps.land.gov.il/MichrazimSite is the Israel Land Authority land-tenders portal (רשות מקרקעי ישראל – מכרזי מקרקעין).",
       "source_url": "https://apps.land.gov.il/MichrazimSite/",
-      "raw_snippet": "RMI operates the MichrazimSite tender portal as the official channel for active tenders, booklets, and online bid submission.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "רשות מקרקעי ישראל – מכרזי מקרקעין",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "housing-ministry-runs-lottery",
@@ -170,11 +172,10 @@
     },
     {
       "claim_id": "rmi-department-page",
-      "claim": "https://www.gov.il/he/departments/israel_land_authority is the official Israel Land Authority department page on gov.il.",
+      "claim": "https://www.gov.il/he/departments/israel_land_authority is the official Israel Land Authority department page on gov.il, and the Authority publishes online tenders for the purchase of lease rights.",
       "source_url": "https://www.gov.il/he/departments/israel_land_authority",
-      "raw_snippet": "רשות מקרקעי ישראל האזור האישי – רמ\"י שלי שירותים ומידע מדיניות ונהלים דרושים פרסומים קבלת קהל",
-      "fetched_at": "2026-08-10",
-      "verified_via": "browser",
+      "raw_snippet": "רשות מקרקעי ישראל מפרסמת מכרז מקוון לרכישת זכויות חכירה",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
     },
     {

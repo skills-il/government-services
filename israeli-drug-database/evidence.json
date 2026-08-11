@@ -5,27 +5,40 @@
   "claims": [
     {
       "claim_id": "idr-api",
-      "claim": "The canonical machine-readable Israel Drug Registry is the MoH backend at israeldrugs.health.gov.il/GovServiceList/IDRServer/ (endpoints SearchByName, GetSpecificDrug, SearchGenericByDragRegNum, SearchByPackageBarcode). It returns JSON fields dragHebName, dragEnName, dragRegNum, dosageForm, activeComponents/activeComponentsCompareName, dragRegOwner, prescription (bool), health (bool = in basket), customerPrice/packagesPrices, barcodes, indications, iscanceled.",
-      "source_url": "https://israeldrugs.health.gov.il/",
-      "raw_snippet": "The Israel Drug Registry (israeldrugs.health.gov.il) provides a live search over registered medicines; its backend IDRServer API returns drug name, registration number, dosage form, active components, manufacturer, prescription/health-basket flags, and regulated price.",
-      "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "The machine-readable Israel Drug Registry is the Ministry of Health backend at israeldrugs.health.gov.il/GovServiceList/IDRServer/. A live POST to SearchByName on 2026-08-11 returned JSON carrying dragRegNum, dragHebName, dragEnName, dosageForm, iscanceled, prescription, activeComponents[].componentName, activeComponentsCompareName, dragRegOwner, health (in-basket flag), customerPrice, packagesPrices, barcodes and indications. GetSpecificDrug answers on the same base path.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
+      "raw_snippet": "{\"dbVersiob\":\"5.14\",\"dragRegNum\":\"020 16 20534 00\",\"dragRegDate\":\"31.07.2024\",\"dragHebName\":\"אקמול\",\"dosageForm\":\"טבליה\",\"bitulDate\":\"01/01/1900\",\"iscanceled\":false,\"prescription\":false,\"usageForm\":\"פומי\",\"usageList\":[\"פומי\"],\"dragEnName\":\"ACAMOL\",\"activeComponents\":[{\"componentName\":\"PARACETAMOL 500  MG \"}]",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "idr-searchbyname-endpoint",
-      "claim": "The SearchByName endpoint of the IDRServer API returns drug records as JSON.",
+      "claim": "A POST to the IDRServer SearchByName endpoint with a val field returns matching drug records as JSON, including the regulated consumer price and the health-basket flag.",
       "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "POST israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName with a val field returns matching drugs as JSON.",
-      "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "\"health\":true,\"route\":\"פומי\",\"pages\":2,\"results\":13,\"dragRegOwner\":\"TEVA ISRAEL LTD\",\"barcodes\":\"7290000800028\"",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "side-effects-form-not-yellow-card",
-      "claim": "Israel's adverse-event (pharmacovigilance) reporting is the MoH Side Effects Reporting Form (טופס דיווח על תופעות לוואי) run by the MoH Pharmacovigilance and Drug Information Department; 'Yellow Card' is the UK MHRA scheme, not Israel's.",
+      "claim": "Adverse effects from taking a medicine can be reported to the Israeli Ministry of Health through its side-effects reporting form (טופס דיווח תופעות לוואי), as stated on the ministry's own drug-registry service page.",
       "source_url": "https://www.gov.il/he/service/israeli-drug-index",
-      "raw_snippet": "Israel's Ministry of Health operates a side-effects reporting form (טופס דיווח על תופעות לוואי) for adverse drug events through its Pharmacovigilance and Drug Information Department; the 'Yellow Card' name belongs to the UK MHRA.",
-      "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "ניתן לדווח למשרד הבריאות על תופעות לוואי שהתרחשו כתוצאה מנטילת תרופות, באמצעות טופס דיווח תופעות לוואי",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "sal-annual-cycle",
@@ -33,7 +46,10 @@
       "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
       "raw_snippet": "The health basket (sal ha-briut) is updated annually; the committee's recommendations and the year's additions take effect in January.",
       "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "fda-pllr-2015",
@@ -41,7 +57,10 @@
       "source_url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-drugs-final-rule",
       "raw_snippet": "The Pregnancy and Lactation Labeling Rule (PLLR), effective June 30, 2015, removed the A/B/C/D/X letter categories in favor of narrative labeling.",
       "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "copay-generic-approximate",
@@ -49,7 +68,10 @@
       "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
       "raw_snippet": "Copay amounts for subsidized drugs are set by each kupat cholim and vary; generic drugs are substantially cheaper than originator brands. These are approximate ranges, not fixed national prices.",
       "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "moh-pharma-division",
@@ -57,7 +79,10 @@
       "source_url": "https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page",
       "raw_snippet": "The Pharmaceutical Division of the Israeli Ministry of Health manages drug registration and publishes safety information.",
       "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "atc-who",
@@ -65,15 +90,36 @@
       "source_url": "https://www.whocc.no/atc_ddd_index/",
       "raw_snippet": "The WHO Collaborating Centre for Drug Statistics Methodology maintains the ATC/DDD index.",
       "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "drug-index-service",
-      "claim": "The gov.il Israeli drug index service page is the primary entry point to the national drug registry.",
+      "claim": "The gov.il \"חיפוש במאגר התרופות\" service page is the official entry point to the national drug registry, which is managed by the Pharmacy Division of the Ministry of Health.",
       "source_url": "https://www.gov.il/he/service/israeli-drug-index",
-      "raw_snippet": "The gov.il Israeli drug index service links to the national drug registry search.",
-      "fetched_at": "2026-06-21T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "שירות זה מאפשר חיפוש מידע על תרופות הרשומות במאגר התרופות המנוהל על ידי אגף הרוקחות במשרד הבריאות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "idr-public-search-ui",
+      "claim": "The public search UI for the Israel Drug Registry is served at https://israeldrugs.health.gov.il/, titled \"מאגר התרופות\"; it redirects to the #!/byDrug search view.",
+      "claim_type": "source",
+      "source_url": "https://israeldrugs.health.gov.il/",
+      "raw_snippet": "מאגר התרופות",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
