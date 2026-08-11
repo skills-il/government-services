@@ -14,7 +14,8 @@
         "SKILL_HE.md",
         "references/transaction-guide.md",
         "scripts/calculate_mas_rechisha.py"
-      ]
+      ],
+      "notes": "SECONDARY SOURCE, flagged. The figures are statutory amounts published by רשות המסים, not values this commercial page originates, and they are corroborated independently by Kol Zchut and by several law-firm publications. An authoritative re-source is currently BLOCKED: gov.il returns 403 to plain fetches and serves an interstitial to a headless browser, so the Tax Authority page could not be read first-hand. Re-source it the moment gov.il becomes readable. DRIFT: LOW until 2028-01-15. The first-home brackets are frozen by the Arrangements Law and the cited page states the same window (16.01.2024 to 15.01.2028). Re-verify on or before that date."
     },
     {
       "claim_id": "mas-rechisha-additional",
@@ -27,7 +28,8 @@
         "SKILL_HE.md",
         "references/transaction-guide.md",
         "scripts/calculate_mas_rechisha.py"
-      ]
+      ],
+      "notes": "SECONDARY SOURCE, flagged. The figures are statutory amounts published by רשות המסים, not values this commercial page originates, and they are corroborated independently by Kol Zchut and by several law-firm publications. An authoritative re-source is currently BLOCKED: gov.il returns 403 to plain fetches and serves an interstitial to a headless browser, so the Tax Authority page could not be read first-hand. Re-source it the moment gov.il becomes readable. DRIFT: HIGH. The 8%/10% additional-home rates sit on a temporary order (הוראת שעה) expiring 2026-12-31. Re-verify BEFORE that date; if it lapsed or was re-legislated these rates change."
     },
     {
       "claim_id": "mas-rechisha-oleh",
@@ -44,12 +46,13 @@
       "claim_id": "mas-rechisha-example",
       "claim": "Worked example for a 2.5M first home: 0% on the first 1,978,745 + 3.5% on 368,295 (to 2,347,040) + 5% on the remaining 152,960 = 20,538 NIS / 20,538 ש\"ח, an effective rate of about 0.82%.",
       "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
-      "raw_snippet": "1,978,745 עד 2,347,040 - 3.5%, 2,347,040 עד 6,055,070 - 5%",
+      "raw_snippet": "אם קניתם דירה ב-2.5 מיליון ש\"ח, תשלמו 3.5% רק על החלק שבין 1,978,745 ל-2,347,040 ש\"ח, ו-5% על היתרה. לא 5% על כל 2.5 מיליון.",
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "notes": "SECONDARY SOURCE, flagged. The figures are statutory amounts published by רשות המסים, not values this commercial page originates, and they are corroborated independently by Kol Zchut and by several law-firm publications. An authoritative re-source is currently BLOCKED: gov.il returns 403 to plain fetches and serves an interstitial to a headless browser, so the Tax Authority page could not be read first-hand. Re-source it the moment gov.il becomes readable. DRIFT: LOW until 2028-01-15. The first-home brackets are frozen by the Arrangements Law and the cited page states the same window (16.01.2024 to 15.01.2028). Re-verify on or before that date. Snippet re-quoted 2026-08-11 after the page reworded it; the previous quote no longer appeared and failed the source check."
     },
     {
       "claim_id": "ltv-bank-israel",
@@ -60,7 +63,8 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "notes": "SECONDARY SOURCE, flagged. Loan-to-value caps are set by the Bank of Israel in its Proper Conduct of Banking Business directives, not by this commercial page. Re-source to boi.org.il on the next update. DRIFT: MEDIUM, the BOI can amend a directive at any time without an annual cycle."
     },
     {
       "claim_id": "betterment-tax",
@@ -81,7 +85,8 @@
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
       "appears_in": [
         "references/transaction-guide.md"
-      ]
+      ],
+      "notes": "Customary market practice, not a statutory rate, so a practitioner's published range is an acceptable source for it. DRIFT: LOW, but it is a RANGE and must never be presented as a fixed fee."
     },
     {
       "claim_id": "agent-fee",
@@ -91,7 +96,8 @@
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
       "appears_in": [
         "references/transaction-guide.md"
-      ]
+      ],
+      "notes": "Customary market practice and capped only by agreement, not statute, so a practitioner's published range is acceptable. DRIFT: LOW, present as a range."
     },
     {
       "claim_id": "ref-url-land-registration",
@@ -222,7 +228,7 @@
       "raw_snippet": "בעד נסח מרוכז של הדירות בבית משותף",
       "confidence": "high",
       "fetched_at": "2026-08-11T00:00:00Z",
-      "notes": "Replaces a removed entry that sourced three specific extract fees to a commercial real-estate article (nadlancenter.co.il). A statutory fee may not rest on a secondary source, the amounts are index-linked, and at least three different figure sets are circulating. The skill now cites the instrument and routes the user to the live catalogue instead of quoting an amount."
+      "notes": "Replaces a removed entry that sourced three specific extract fees to a commercial real-estate article (nadlancenter.co.il). A statutory fee may not rest on a secondary source, the amounts are index-linked, and at least three different figure sets are circulating. The skill now cites the instrument and routes the user to the live catalogue instead of quoting an amount. DRIFT: the fee AMOUNTS are index-linked; this entry deliberately cites only the instrument, never an amount."
     }
   ]
 }
