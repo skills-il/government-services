@@ -1,6 +1,6 @@
 ---
 name: israeli-real-estate
-description: Israeli real estate data, comparable-sales analysis, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets.
+description: Not legal advice. Israeli real estate data, comparable-sales analysis, transaction guidance, and regulatory compliance. Use when user asks about Israeli property, "nadlan", "dira", apartment prices, purchase tax (mas rechisha), Tabu extract, rental agreements, mortgage (mashkanta), or Israel Land Authority tenders. Covers buying, selling, and renting in Israel. Do NOT use for non-Israeli real estate markets, and do NOT use to decode a Tabu extract entry by entry (use israeli-tabu-extract-decoder for what each ownership share, mortgage rank, ikul, he'arat azhara, easement and hatzmada actually means).
 license: MIT
 allowed-tools: Bash(python:*) WebFetch
 compatibility: Network access helpful for data lookups. Enhanced by remy-land-authority MCP for land tenders.
@@ -82,9 +82,11 @@ A Tabu extract shows:
 - **Part 4:** Liens, warnings (hearot azhara), court orders
 
 **How to obtain:**
-- Online: the Land Registry online extract service at `https://www.gov.il/he/service/land_registration_extract` (portal: `https://mekarkein-online.justice.gov.il/voucher/main`). A regular online extract costs about 15 NIS. A historical extract is about 74 NIS. A consolidated extract is about 131 NIS. No account needed, extract arrives by email with an electronic signature.
+- Online: the Land Registry online extract service at `https://www.gov.il/he/service/land_registration_extract` (portal: `https://mekarkein-online.justice.gov.il/voucher/main`). Fees are index-linked and are set in תקנות המקרקעין (אגרות); check the current amount on the government payments catalogue rather than relying on a figure quoted in an article, which in this domain is usually stale.
 - Full extract: Through attorney or in-person at the Land Registry office
 - Required info: Gush (block) and Chelka (parcel) numbers
+
+**Reading the extract itself is a separate job.** This skill tells you what an extract is for and how to obtain one. For what each line on it MEANS, entry by entry (ownership shares, mortgage ranks and vacated ranks, attachments, caveats and their limits, consent-required notes, easements, attachments of common property, and whether the register is conclusive or merely prima facie evidence for this land), use `israeli-tabu-extract-decoder`.
 
 ### Step 5: Betterment Tax (Heitel Hashbacha)
 Betterment tax is a municipal levy of 50% of the rise in property value caused by a planning action (new or amended zoning plan, a granted variance, or a use permit).
@@ -160,7 +162,8 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order a Tabu extract online (regular 15 / historical 74 / consolidated 131 NIS), gush/chelka lookup, liens and mortgages |
+| Land Registry extract service (Tabu) | https://www.gov.il/he/service/land_registration_extract | Order an extract online, gush/chelka lookup, and the current fee |
+| תקנות המקרקעין (אגרות) | https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29 | The statutory fee items for each extract category |
 | Israel Land Authority (Rami) | https://www.gov.il/he/departments/israel_land_authority | Rami-registered properties, long-term leases |
 | Israel Tax Authority -- real estate tax | https://www.gov.il/he/service/real_eatate_taxsimulator | Purchase tax (mas rechisha) simulator and current brackets |
 | Nadlan (Tax Authority transactions) | https://www.nadlan.gov.il | Historical sale prices for Israeli residential properties |

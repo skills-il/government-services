@@ -63,17 +63,6 @@
       ]
     },
     {
-      "claim_id": "tabu-fees",
-      "claim": "Online Land Registry (Tabu) extract fees: a regular online extract about 15 NIS / 15 ש\"ח, a historical extract about 74 NIS / 74 ש\"ח, a consolidated extract about 131 NIS / 131 ש\"ח.",
-      "source_url": "https://www.nadlancenter.co.il/article/828",
-      "raw_snippet": "נסח רגיל עולה 15 ש\"ח, נסח היסטורי עולה 74 ש\"ח, נסח מרוכז עולה 131 ש\"ח",
-      "fetched_at": "2026-06-13T18:35:27.515173+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "betterment-tax",
       "claim": "Betterment tax (heitel hashbacha) under the Third Schedule of the Planning and Building Law is 50% of the rise in property value caused by a planning action; the local authority may reduce it to 25% or grant a full exemption in defined cases (urban renewal, Tama 38, rehabilitation neighborhoods).",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%94%D7%99%D7%98%D7%9C_%D7%94%D7%A9%D7%91%D7%97%D7%94",
@@ -176,7 +165,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A9%D7%91%D7%97",
       "raw_snippet": "מס שבח מקרקעין מוטל בשיעור 25% על השבח הריאלי במכירת זכות במקרקעין, לאחר ניכוי מרכיב האינפלציה וההוצאות המותרות.",
       "fetched_at": "2026-07-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mas-shevach-linear-exemption",
@@ -184,7 +176,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1_%D7%A9%D7%91%D7%97_%D7%9C%D7%99%D7%A0%D7%99%D7%90%D7%A8%D7%99",
       "raw_snippet": "חישוב מס שבח לינארי: לדירת מגורים שנרכשה לפני 1.1.2014, השבח שנצבר עד מועד זה פטור, והשבח מ-1.1.2014 ואילך חייב במס בשיעור 25%.",
       "fetched_at": "2026-07-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mas-shevach-single-home-exemption",
@@ -192,7 +187,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A9%D7%91%D7%97_%D7%91%D7%9E%D7%9B%D7%99%D7%A8%D7%AA_%D7%93%D7%99%D7%A8%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%99%D7%97%D7%99%D7%93%D7%94",
       "raw_snippet": "פטור ממס שבח במכירת דירת מגורים יחידה לפי סעיף 49ב(2), בכפוף לתקרת שווי של 5,008,000 ש\"ח, מכירה פטורה אחת כל 18 חודשים.",
       "fetched_at": "2026-07-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mas-rechisha-additional-temp-order",
@@ -200,7 +198,10 @@
       "source_url": "https://www.gov.il/he/departments/legalInfo/purchase-tax-additional-apartment",
       "raw_snippet": "מס רכישה על דירה נוספת בשיעור 8% ו-10% נקבע בהוראת שעה שבתוקף עד 31 בדצמבר 2026.",
       "fetched_at": "2026-07-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mas-rechisha-reg11-reduced",
@@ -208,7 +209,20 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%9E%D7%A1_%D7%A8%D7%9B%D7%99%D7%A9%D7%94_%D7%9C%D7%A0%D7%9B%D7%94",
       "raw_snippet": "הנחה במס רכישה לפי תקנה 11 לנכה, עיוור, נפגע פעולות איבה ומשפחה שכולה: 0.5% עד סף המתעדכן ו-5% מעליו, עד פעמיים בחיים.",
       "fetched_at": "2026-07-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tabu-fee-instrument",
+      "claim": "Land registry extract fees are set in the Land Regulations (Fees), which contain distinct fee items per extract category, including a consolidated condominium extract and an extract delivered as an electronically signed message.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "בעד נסח מרוכז של הדירות בבית משותף",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Replaces a removed entry that sourced three specific extract fees to a commercial real-estate article (nadlancenter.co.il). A statutory fee may not rest on a secondary source, the amounts are index-linked, and at least three different figure sets are circulating. The skill now cites the instrument and routes the user to the live catalogue instead of quoting an amount."
     }
   ]
 }
