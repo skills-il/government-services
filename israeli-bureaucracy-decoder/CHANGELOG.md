@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 - 2026-08-11
+
+Replaced the retired Enforcement and Collection Authority URL, which served gov.il's 404 page, with the live authority portal.
+
 All notable changes to this skill are documented here.
 
 ## [1.3.0] - 2026-08-09

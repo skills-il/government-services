@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 - 2026-08-11
+
+Removed the fabricated pre-registration inspection fee ("~1,500-2,500 NIS, turnaround ~1 week"). No fee or duration is published by any official source.
+
 All notable changes to this skill are documented here.
 
 ## [1.2.0] - 2026-08-09
