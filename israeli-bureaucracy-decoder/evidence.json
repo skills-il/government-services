@@ -229,6 +229,43 @@
       ],
       "verified_via": "browser-playwright",
       "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "foi-120-day-complex-extension",
+      "claim": "A public body must answer a Freedom of Information request within 30 days at most; for a complex request it may extend the response deadline up to 120 days, notifying the applicant in writing with reasons.",
+      "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
+      "raw_snippet": "על הרשות להודיע לכם על החלטתה תוך 30 יום לכל היותר. אם מדובר בקשה מורכבת, רשאית הרשות להאריך את מועד מתן התשובה עד ל-120 ימים.",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-119-is-study-credit",
+      "claim": "ITA Form 119 is a request for a tax benefit for completing an academic degree or vocational qualification, not a request for an advance tax ruling.",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "tax-coordination-uses-form-116",
+      "claim": "Tax coordination (tium mas) is filed through the ITA online service attaching a completed Form 116; pensioners whose income is pension only may use the shorter Form 101ג.",
+      "source_url": "https://www.gov.il/he/service/tax-coordination",
+      "raw_snippet": "מזינים פרטים אישיים, מצרפים טופס 116 מלא ומסמכים מאמתים",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
     }
   ]
 }
