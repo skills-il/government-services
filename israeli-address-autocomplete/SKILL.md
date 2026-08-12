@@ -104,7 +104,7 @@ Result: Validated CSV with postal codes, CBS city codes, and flags for addresses
 | GovMap (national map) | https://www.govmap.gov.il | Address search, gush/helka (block/parcel) info, aerial imagery |
 | GovMap geocoding API | https://api.govmap.gov.il | Official programmatic address-search / geocode API (email registration required), the canonical endpoint for address autocomplete and coordinates |
 | Survey of Israel block/parcel by address | https://www.gov.il/apps/mapi/parcel_address/parcel_address.html | Official gush/helka by address tool (the old mapi.gov.il/Pages/LotAddressLocator.aspx path was retired) |
-| data.gov.il (open datasets) | https://data.gov.il/dataset | Street and locality datasets, daily-refreshed. Search "רחובות" for street data, "ישובים" for settlements |
+| data.gov.il (open datasets) | https://data.gov.il/datasets | Street and locality datasets, daily-refreshed. Search "רחובות" for street data, "ישובים" for settlements |
 
 ## Troubleshooting
 

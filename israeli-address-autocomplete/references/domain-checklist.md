@@ -15,7 +15,7 @@ Anchor for expert review. Scope: format/validate/geocode Israeli addresses, CBS 
 
 ## Authoritative sources
 - CBS: https://www.cbs.gov.il
-- data.gov.il: https://data.gov.il/dataset
+- data.gov.il: https://data.gov.il/datasets
 - Israel Post mikud: https://doar.israelpost.co.il/locatezip
 - GovMap API: https://api.govmap.gov.il
 - Survey of Israel parcel tool: https://www.gov.il/apps/mapi/parcel_address/parcel_address.html

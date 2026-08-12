@@ -70,7 +70,7 @@
 | GovMap, מפת ישראל | https://www.govmap.gov.il | חיפוש כתובת, גוש/חלקה, תצ"א |
 | API גאוקודינג של GovMap | https://api.govmap.gov.il | API רשמי לחיפוש כתובת/גאוקודינג (דורש רישום באימייל), ה-endpoint הקנוני להשלמת כתובת ולקואורדינטות |
 | מפ"י, גוש/חלקה לפי כתובת | https://www.gov.il/apps/mapi/parcel_address/parcel_address.html | כלי רשמי לגוש/חלקה לפי כתובת (הנתיב הישן mapi.gov.il/Pages/LotAddressLocator.aspx הוצא משימוש) |
-| data.gov.il, מאגרים פתוחים | https://data.gov.il/dataset | מאגרי רחובות ויישובים, מתעדכן יומית. חפשו "רחובות" לרחובות, "ישובים" ליישובים |
+| data.gov.il, מאגרים פתוחים | https://data.gov.il/datasets | מאגרי רחובות ויישובים, מתעדכן יומית. חפשו "רחובות" לרחובות, "ישובים" ליישובים |
 
 ## פתרון בעיות
 

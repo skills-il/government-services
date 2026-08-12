@@ -153,6 +153,20 @@
       "appears_in": [
         "SKILL.md"
       ]
+    },
+    {
+      "claim_id": "data-gov-il-datasets-url",
+      "claim": "The data.gov.il catalogue lives at /datasets. The older /dataset path redirects to /he/dataset and returns HTTP 404 with 'מצטערים, העמוד שחיפשת לא נמצא'; a plain fetch cannot see this because the site is client-rendered and serves a 200 shell.",
+      "source_url": "https://data.gov.il/datasets",
+      "raw_snippet": "מאגרי המידע הממשלתיים | מאגרי מידע",
+      "fetched_at": "2026-08-12",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }
