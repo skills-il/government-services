@@ -47,7 +47,7 @@ REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING = 468.15
 REPEAT_CLAIMANT_UNDER_40_DAYS_CAP = 1.80  # 180% of max days across 4 years
 WAGE_DIVISOR = 150
 BL_MONTHLY_DEDUCTION = 48
-HEALTH_TAX_RATE = 0.031  # ~3.1% mas briut on benefit, approximate
+HEALTH_TAX_RATE = 0.031  # UNVERIFIED approximation. BTL publishes no rate for the health component on dmei avtala; it states only that health insurance is deducted "according to the amount of the benefit".
 DEFAULT_QUAL_MONTHS_STANDARD = 12
 DEFAULT_QUAL_MONTHS_EMERGENCY = 6
 # Shaagat HaAri emergency chal"t window. Defining period 28.2.2026 to 14.4.2026,

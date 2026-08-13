@@ -53,7 +53,7 @@ The 90-day waiting period for resignation runs from the **day work ceased** (`מ
 | Refused a suitable job offer from Sherut HaTaasuka | 90 days waiting + 30 days deducted from max-day total | Two separate penalties: 90-day delay AND 30-day reduction in max days |
 | Fired for cause (criminal / gross negligence) | 30 day wait typically, sometimes more | Bituach Leumi decides case by case |
 
-**Severance pay (pitzuei piturin) interaction.** Legal pitzuim do NOT delay or reduce avtala. *Adam meritzon* (severance beyond the legal floor, e.g., generous "golden parachute") CAN postpone the start by the equivalent number of months under National Insurance Law s. 174 ("tashlumei avoda"). Always ask whether the user received any payment beyond the standard pitzuim formula.
+**Severance pay (pitzuei piturin) interaction.** Legal pitzuim do NOT delay or reduce avtala. What Bituach Leumi does postpone the benefit for is vacation pay paid under the Annual Leave Law, a collective agreement or an employment contract, and payment in lieu of prior notice (up to one month). Note: National Insurance Law s. 174 is NOT this rule, it is the preferred-employment grant.
 
 ## Justified Cause for Resignation (hitpatrut b'din mefuteret)
 
@@ -78,7 +78,7 @@ Bituach Leumi evaluates each claim. Provide evidence: occupational-physician let
 |--------|--------|
 | Working for spouse / parent / child / sibling without arms-length employment | Not eligible unless ALL 5 are proven (per BL חוזר אבטלה 1287): payslips dated 12+ months pre-dispute, bank-transfer wage trail (no cash), third-party witness to actual work, dated employment contract, employer paid tax+BL+pension on time |
 | Self-employed (osek) for most of the qualifying window | Fails standard tkufat akhshara |
-| Already receiving full kiztavat nechut klalit (75%+) or a competing BL benefit | Cannot stack; avtala blocked. Partial disability (under 75%) sometimes allows partial avtala, BL evaluates per case |
+| Already receiving a competing BL benefit | Cannot stack; BL evaluates per case. The specific 75% disability threshold is unverified, check with BL |
 | Already receiving dmei leda | Avtala blocked for the leda period; switch carefully when leda ends |
 | Resides abroad more than 6 months per year | Not considered Israeli resident |
 | Foreign worker on permit (most cases) | Generally not entitled, with narrow exceptions for some Palestinian workers and caregivers |
@@ -89,9 +89,9 @@ Bituach Leumi evaluates each claim. Provide evidence: occupational-physician let
 Once approved, the claimant must:
 - Attend every scheduled reporting meeting at Sherut HaTaasuka
 - Apply to a minimum number of jobs per reporting period (usually 2-3)
-- Accept any "suitable offer" (post-2024 BL clarification): salary within 25% of prior wage, commute under 60 minutes (or remote-eligible), profession within one degree of prior role. After day 60 of unemployment, the suitability test relaxes (claimants are expected to broaden their search)
+- Accept any "suitable offer" under National Insurance Law s. 165: job type or training/education match, wage at least the dmei avtala otherwise due, no change of home (60 km rule). The first two tests relax by age: under 25 after 14 days, 25-28 after 30 days, 28-35 after 60 days
 - Refusing an assigned vocational-training course (kursim mukarim, maslulei mahalehet) is treated like refusing a job offer: 90-day waiting penalty + 30-day deduction
-- Report any side income immediately (reduces benefit roughly 75% of the part-time gross). Below the BL kotzbat patur (small-earnings exemption) the reduction may not apply, verify thresholds
+- Report any side income immediately. Income from work, self-employment or a pension is deducted from the benefit; s. 176 deducts the average daily income from the daily benefit
 - Failure to report side income = fraud = retroactive clawback + possible criminal liability
 
 
@@ -103,7 +103,7 @@ Once approved, the claimant must:
 
 **Working during the halat even partially disqualifies.** Even one day of paid work for the halat employer (or any other employer) inside the halat window may void the claim for the entire halat period, not just the day worked. Vacation pay (חופשה בתשלום) and sick pay (דמי מחלה) received during the halat have the same effect: they signal the employment relationship was not actually suspended.
 
-**Additional income offsets (not full disqualifiers).** Self-employed (עוסק) income or pension payments received during the halat trigger a קיזוז (offset) against the daily benefit, not a hard disqualification. Bituach Leumi applies the standard partial-employment reduction (roughly 75% of the additional gross is deducted from that period's avtala).
+**Additional income offsets (not full disqualifiers).** Self-employed (עוסק) income or pension payments received during the halat trigger a קיזוז (offset) against the daily benefit, not a hard disqualification. Bituach Leumi deducts the income from the benefit for that period.
 
 **Self-employed who is ALSO salaried (חצי-חצי).** A claimant who runs an עוסק *and* draws a regular salary can claim dmei avtala on the **salary component only**, with a רואה חשבון אישור attesting to income from both sources for the relevant 6-month base period. The osek months still don't count toward akhshara (Gotcha #6 applies), but the salaried portion is paid normally.
 
@@ -139,4 +139,4 @@ Avtala benefits below the household subsistence threshold can be topped up with 
 ### Sickness or Disability During Avtala
 
 - Cannot draw both avtala and dmei machala simultaneously. Report sickness to BL within the reporting cadence; switch to sick-pay status. Some sick days still consume avtala max-days.
-- Receiving full nechut klalit (75%+) blocks avtala. Partial disability (under 75%) sometimes allows partial avtala, case by case.
+- A competing BL benefit can block avtala, case by case. The specific 75% disability threshold is unverified.

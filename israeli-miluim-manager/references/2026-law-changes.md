@@ -15,11 +15,11 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Aspect | Wartime (Temporary) | Current Law (2026, Permanent) |
 |--------|---------------------|-------------------------------|
 | Duration (under 60 days served) | 30 days | 30 days (unchanged) |
-| Duration (60+ days served) | 60 days (temporary order) | 60 days (now permanent law) |
+| Duration (60+ days served) | 60 days (temporary order) | Reported as 60 days, UNVERIFIED: not in the consolidated text of Section 41A |
 | Applies to | All employers, all reservists | All employers, all reservists |
 | Legal basis | Hora'at Sha'a (temporary provision) | Made permanent via 2026 legislation |
 
-**Impact**: The tiered dismissal protection is now permanent. Reservists serving 60+ days receive 60 days of post-service dismissal protection. Those serving fewer than 60 days receive the standard 30 days.
+**Impact**: Section 41A(b) gives 30 days of post-service dismissal protection for reserve service exceeding two consecutive days. The tiered 60-day protection for 60+ days of service is widely reported but does not appear in the consolidated statute, so do not quote it as settled.
 
 ### 2. Employer Compensation for Social Contributions (20%)
 
@@ -27,7 +27,7 @@ The following wartime temporary provisions were enshrined in permanent law start
 |--------|---------------------|-------------------------------|
 | What it covers | 20% of salary for pension, national insurance, and other social contributions during miluim | Same (now permanent) |
 | Paid by | Government (via Bituach Leumi) | Government (via Bituach Leumi) |
-| Effective date | Was temporary emergency order | Applied retroactively to January 2026; legally anchored as permanent via NII Law amendment approved by Knesset plenum on April 27, 2026 |
+| Effective date | Was temporary emergency order | Anchored by a statutory amendment; Bituach Leumi is paying it retroactively for service periods since the start of the war. The exact plenum date could not be verified |
 | Eligible employers | Private employers only | Private employers only (public employers explicitly excluded) |
 | Estimated annual cost | Part of emergency budget | Not published in an official source; do not quote a figure |
 

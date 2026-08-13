@@ -286,16 +286,18 @@
     },
     {
       "claim_id": "btl-shaagat-page-url",
-      "claim": "Bituach Leumi Shaagat HaAri framework page for unemployment / chalat / employer reservist mechanics",
+      "claim": "Bituach Leumi \"Shaagat HaAri\" running-updates page, covering the chalat framework (passed in the Knesset on 31.3.2026), medical committees and service channels",
       "source_url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "מתווה החל\"ת הוסכם ועבר הצבעה בכנסת, בתאריך ה-31.3.2026.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "metadata.json",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed (btl.gov.il serves static HTML); page publish date 19.04.2026",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "treasury-ministry-url",
@@ -351,16 +353,18 @@
     },
     {
       "claim_id": "compensation-tracks-master-url",
-      "claim": "Tax Authority master index of indirect-damage compensation tracks: gov.il/he/Departments/DynamicCollectors/compensation-tracks",
+      "claim": "Tax Authority indirect-damage compensation track index lives at gov.il/he/Departments/DynamicCollectors/compensation-tracks. URL recorded as a pointer only, its body is not machine-readable.",
       "source_url": "https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/red-track-yishuvim.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "not verifiable by fetch: the gov.il DynamicCollectors route is behind Cloudflare and returns HTTP 403 (\"Attention Required! | Cloudflare\") to curl and to the gov.il content API alike. The compensation framework itself is evidenced separately from the readable service page gov.il/he/service/compensation-indirect-damage.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "compensation-indirect-damage-portal",
@@ -470,23 +474,27 @@
     },
     {
       "claim_id": "reservist-business-owner-grant-url",
-      "claim": "Kol-Zchut entry for business owners who served in reserves during Iron Swords / Iran war",
+      "claim": "Kol-Zchut entry for business owners who served in reserves during Iron Swords / Iran war. URL recorded as a pointer only, its body is not machine-readable.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "not verifiable by fetch: kolzchut.org.il answers every non-browser request with a Cloudflare interstitial (HTTP 403, body \"Just a moment...\"), so no passage can be quoted. Recorded as a pointer to the page, not as a quoted source.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "self-employed-reservist-guide-url",
-      "claim": "Kol-Zchut master guide for self-employed and business owners during Iran war (Shaagat HaAri) - covers advance, reservist, halat, all entitlements",
+      "claim": "Kol-Zchut master guide for self-employed and business owners during Iran war (Shaagat HaAri) - covers advance, reservist, halat, all entitlements. URL recorded as a pointer only, its body is not machine-readable.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/red-track-yishuvim.md"
-      ]
+      ],
+      "verified_via": "not verifiable by fetch: kolzchut.org.il answers every non-browser request with a Cloudflare interstitial (HTTP 403, body \"Just a moment...\"), so no passage can be quoted. Recorded as a pointer to the page, not as a quoted source.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "currency-variants-300k-400m",
@@ -544,14 +552,6 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
-    },
-    {
-      "claim_id": "kolzchut-faq-shaagat-url",
-      "claim": "Kol-Zchut FAQ page for self-employed and business owners during Iran war (Shaagat HaAri)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%90%D7%9C%D7%95%D7%AA_%D7%95%D7%AA%D7%A9%D7%95%D7%91%D7%95%D7%AA_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%9E%D7%94%D7%9C%D7%9A_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
-      "raw_snippet": "PENDING_VERIFICATION",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": []
     },
     {
       "claim_id": "special-area-iron-swords-portal",
@@ -837,24 +837,26 @@
       "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_ששירתו_במילואים_במלחמת_חרבות_ברזל_או_במלחמה_מול_איראן",
       "raw_snippet": "בעלי עסקים ששירתו במילואים בצו 8 החל מיום 07.10.2023 עשויים להיות זכאים לפיצוי בגין ירידה בהכנסות העסק החל מחודש ינואר 2024",
       "fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "compensation-indirect-damage-service-page",
+      "claim": "The Tax Authority indirect-damage compensation service is open to a business whose base-year turnover is from 12,000 NIS up to 400,000,000 NIS.",
+      "source_url": "https://www.gov.il/he/service/compensation-indirect-damage",
+      "raw_snippet": "עוסק שמחזור עסקאותיו בשנת הבסיס (2022) הוא מ-12 אלף ₪ ועד 400 מיליון ₪",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "gov.il content API (contentpage/compensation-indirect-damage)",
+      "verified_at": "2026-08-13"
     }
   ],
   "pending_verification": [
     {
       "claim_id": "press-release-11-03-2026",
       "reason": "gov.il/he/pages/press_11032026 returns HTTP 403; URL is cited verbatim in skill files but body not retrievable. Mako N12 and Bitan CPA reproduce the key numbers (25%/25% (bi-monthly two-month), 13,773, 7/11/15/22%, 12K-400M, advance mechanism, 20% reservist) directly from this brief."
-    },
-    {
-      "claim_id": "compensation-tracks-master-url",
-      "reason": "gov.il/he/Departments/DynamicCollectors/compensation-tracks returns HTTP 403; cited as Tax Authority master index."
-    },
-    {
-      "claim_id": "compensation-indirect-damage-portal",
-      "reason": "gov.il/he/service/compensation-indirect-damage returns HTTP 403; existence confirmed by kolzchut cross-references but body not retrievable."
-    },
-    {
-      "claim_id": "btl-shaagat-page-url",
-      "reason": "btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx is a news landing page; only mentions framework approval, not the technical halat/reservist numbers cited in skill text."
     },
     {
       "claim_id": "treasury-ministry-url",

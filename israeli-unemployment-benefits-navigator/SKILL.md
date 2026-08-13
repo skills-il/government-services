@@ -69,9 +69,9 @@ Under Israeli law, a month with even a single day of salaried work counts as a f
 | Resignation with justified cause (hitpatrut b'din mefuteret) | None | Must prove grounds. Bituach Leumi decides |
 | Refused a suitable job offer from Sherut HaTaasuka | 90 days waiting + 30 days deducted from max-day total | Two separate penalties: a 90-day delay AND a permanent 30-day reduction in entitlement |
 
-**What "suitable" means (post-2024 BL clarification):** salary within 25% of prior wage, commute under 60 minutes (or remote-eligible), profession within one degree of prior role. After day 60 of unemployment, the suitability test relaxes (claimants are expected to broaden their search).
+**What "suitable" means (National Insurance Law s. 165):** the job matches the main type of work of the last 3 years or the claimant's training or education, the wage is at least the dmei avtala otherwise due, and it does not require moving home (60 km or more counts as a move, unless public or employer transport exists). The first two tests relax by AGE: under 25 after 14 days, 25-28 after 30 days, 28-35 after 60 days.
 
-**Severance pay (pitzuei piturin) interaction.** Legal pitzuim do NOT delay or reduce avtala. Adam meritzon (severance beyond the legal floor, e.g., generous "golden parachute") CAN postpone the start by the equivalent number of months under National Insurance Law s. 174 ("tashlumei avoda"). Ask the user if they received any payment beyond the standard pitzuim formula.
+**Severance pay (pitzuei piturin) interaction.** Legal pitzuim do NOT delay or reduce avtala. What does postpone the benefit is vacation pay and payment in lieu of prior notice (up to one month). Ask how each payment was labelled on the payslip.
 
 **Justified-cause resignation grounds (skip the 90-day wait):** documented health deterioration (must be from a rofeh tasukati / occupational physician, not a regular GP), 25%+ unilateral cut in pay over a 6-month window (excluding voluntary bonus reductions), forced relocation, sexual harassment with documented complaint (Tikkun 232 of 2023 shifted some burden of proof onto BL for harassment and wage-delay cases), spouse's job moves to another city, marriage relocation, return from leda when employer refuses to restore the role.
 
@@ -188,13 +188,13 @@ Give the user a personalized, ordered checklist. Each step references a real for
 3. File the Bituach Leumi unemployment claim
    URL: https://www.btl.gov.il/Pages/default.aspx
    - Unified online form through gov.il national ID login
-   - Required: bank details, termination letter, 6 most recent payslips, FORM 126 (annual employer summary, NOT the monthly Form 100), completed Form 1514 from employer
-   - If the employer refuses to fill Form 1514: under BL חוזר אבטלה 1342, a tatzhir + 3 payslips + bank statements showing wage transfers can substitute
+   - Required: bank details, a signed and stamped employer confirmation of the reason and date employment ended, and the 6 most recent payslips. Check the employer transmitted Form 100 (your wage data); if not, attach an employer confirmation of period and wage, or 12 payslips out of the last 18
+   - If the employer will not sign it: the affidavit-plus-payslips-plus-bank-statements route is not published on any reachable BTL page, so treat it as unconfirmed and call *6050
 
 4. Attend scheduled reporting (harshama) at Sherut HaTaasuka
    - Attend every scheduled meeting or face suspension
    - Apply to the required number of jobs per reporting period
-   - Accept "suitable" offers under the 25%/60-min/profession test (relaxes after day 60)
+   - Accept "suitable" offers under the s. 165 test (job type or training match, wage at least the benefit, no move of home)
 
 5. Monitor the Bituach Leumi decision
    - First payment typically lands 30-45 days after registration
@@ -214,13 +214,13 @@ Warn the user if any of these apply to their case:
 | Risk | What Bituach Leumi will do | How to avoid |
 |------|---------------------------|--------------|
 | Resigned without justified cause | 90-day waiting period | Document any justified grounds and provide evidence |
-| Refused a suitable job from Sherut HaTaasuka | 90-day wait + 30-day deduction from max days | Do not refuse offers that match the 25%/60-min/profession test |
+| Refused a suitable job, training or professional conversion from Sherut HaTaasuka | 90 days with no benefit from the day of refusal, every time, plus 30 days deducted from the quota | Do not refuse offers that meet the s. 165 suitability test |
 | Did not register within 3 months | Lookback shifts, may lose qualifying months | Register immediately. If late due to hospitalization, miluim, or emergency travel, request a hekel mizvad waiver in writing |
 | Missed scheduled reporting | Benefits suspended for the period | Always attend or reschedule in advance |
 | Self-employed (osek) during last 18 months | Freelance months do not count toward standard akhshara | Need 12 salaried months specifically (the 6-month chal"t variant applied only inside the closed Shaagat HaAri window). One more salaried month may flip eligibility |
 | Worked for a family member | Benefits denied unless arms-length employment is proven | Need all 5: payslips dated 12+ months pre-dispute, bank-transfer trail (no cash), third-party witness to actual work, dated employment contract, employer paid tax+BL+pension on time. BL חוזר 1287 |
-| Employer refuses to fill Form 1514 | Claim stalls | Substitute with tatzhir + 3 payslips + bank statements (חוזר 1342) |
-| Working part-time during unemployment | Benefit reduced (~75% of part-time gross is deducted from that month's avtala) | Report all income. Below the BL kotzbat patur (small-earnings exemption), reduction may not apply, verify thresholds |
+| Employer will not sign the termination confirmation | Claim stalls | File within the 12-month window with what you have and call *6050; the affidavit route is unconfirmed |
+| Working part-time during unemployment | Income from work, a business or a pension is deducted from the benefit (s. 176: average daily income off the daily benefit) | Report all income |
 | Worked abroad in last 18 months, returned to Israel | Fails standard akhshara | If country has bilateral SS treaty (US, UK, EU, CA, CH, others), submit form בל/627 to count foreign months |
 
 ## Special Cases
@@ -245,7 +245,7 @@ Codified in חוק התוכנית לסיוע כלכלי (הוראת שעה) (ת�
 
 **Retroactive halat reporting allowed.** Employers may report chal"t to Bituach Leumi retroactively back to 28.2.2026 once the halat agreement is signed. This matters for employers who placed staff on leave verbally first and only formalized later.
 
-**Form 100 is the employer's halat authorization.** For dmei avtala purposes, the employer files Form 100 with the exact halat start and end dates; this is the document Bituach Leumi treats as proof the leave was employer-initiated. (Separately, the employee's standalone BL claim still requires Form 126, the annual employer summary, not Form 100. See Gotcha #11.)
+**Form 100 is the employer's halat authorization.** For dmei avtala purposes, the employer files Form 100 with the exact halat start and end dates; this is the document Bituach Leumi treats as proof the leave was employer-initiated. (Form 100 is also the wage data BTL expects the employer to transmit for an ordinary claim.)
 
 Every further rule of this emergency regime (retroactive reporting, Form 100, employee-initiated chal"t, working during the chal"t, income offsets, the half-self-employed case, recurring claimants, the 67+ grant) is in `references/eligibility-rules.md`.
 
@@ -296,7 +296,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 
 10. **Assuming the 90-day resignation clock starts at registration.** Bituach Leumi counts it from the **day work ceased**: `אם הפסקת לעבוד מרצונך תוכל להתחיל לקבל דמי אבטלה רק לאחר שחלפו 90 יום מיום הפסקת העבודה`. Register immediately anyway, because entitlement still runs from registration once the wait is over.
 
-11. **Recommending Form 100 instead of Form 126 for the standalone avtala claim.** Form 100 is monthly withholding (per payslip). The employee's standalone BL avtala claim needs Form 126 (annual employer summary). Bringing Form 100 alone causes rejection. **However**, Form 100 plays a different and required role under the Shaagat HaArie chal"t track: the employer files Form 100 with the exact halat start and end dates to authorize the leave for BL purposes. So Form 100 IS the right document on the employer side; it's the wrong document on the claimant side. Don't conflate them.
+11. **Telling the claimant that Form 100 is the wrong document.** It is not. BTL asks the claimant to check the employer transmitted Form 100 (the wage data), and only if not, to attach an employer confirmation or 12 payslips out of the last 18. Form 126 is the employer's annual report to the assessing officer and is not on the BTL document list.
 
 12. **Treating "single parent" as automatic 3+ dependents.** This shortcut appears in some BL guidance but the actual tlui count depends on the children supported. A single parent with 1 child counts as 2 tluyim, not 3+. Count actual dependents.
 
@@ -328,7 +328,7 @@ If neither MCP is installed, the skill still works from the built-in reference t
 | User has only 11 qualifying months | Just short of the 12-month threshold | Explain the rule. If they can wait one more month of salaried work, they reach 12. If they were on chal"t in the Shaagat HaArie defining period, only 6 months may be needed |
 | Resigner confused about 90-day wait | Thinks they lose 90 days of total entitlement | Clarify: the 90-day wait delays the start and is counted from the day work ceased, not from registration, but does not reduce total max days. Refusing a job offer adds a 30-day reduction on top |
 | User was fired from a family member's business | Bituach Leumi rejects as non-arms-length | Need all 5: dated employment contract, payslips predating dispute by 12+ months, bank-transfer wage trail, third-party witness, employer paid tax+BL+pension on time (חוזר 1287) |
-| Employer refuses to provide Form 1514 | Claim stalls without employer cooperation | Per חוזר אבטלה 1342, substitute with a tatzhir + 3 payslips + bank statements showing wage transfers |
+| Employer will not provide the termination confirmation | Claim stalls | File within the 12-month window and call *6050. The affidavit substitute is unpublished |
 | Calculation shows benefit below minimum wage | Low salary user | Confirm tier 1 at the correct rate (80% for 28+, 60% for under 28). Still may be low, consider hashlamat hachnasa stacking (form 5320) |
 | Returning Israeli denied for missing akhshara | Foreign months not counted | If country has a social-security treaty with Israel, file form בל/627 and attach the foreign social-insurance statement |
 | Late registration due to hospitalization or miluim | Standard 3-month window missed | Request a hekel mizvad waiver in writing to the local BL branch with documentation |

@@ -43,22 +43,22 @@ Israeli law provides strong employment protections for reservists under the Rese
 |------------|----------------|
 | Job preservation | Employer must hold the reservist's position during service |
 | Dismissal ban (post-service, under 60 days served) | 30 days after return from service |
-| Dismissal ban (post-service, 60+ days served) | 60 days after return (permanent law since 2026) |
+| Dismissal ban (post-service, 60+ days served) | Reported 60 days, UNVERIFIED: Section 41A carries only 30 days |
 | Dismissal ban (pre-service) | Cannot fire employee due to upcoming miluim call-up |
 | Seniority | Service period counts toward seniority and tenure |
 | Pension contributions | Employer must continue pension deposits during service (sechar kove'a = pre-service salary) |
 | Keren hishtalmut | Employer must continue keren hishtalmut deposits during service |
 | Work conditions | Must return to same role, same terms, same pay |
-| 20% social contribution compensation | State compensates private employers 20% of salary for social contributions (permanent since 2026, anchored via NII Law amendment April 27, 2026) |
+| 20% social contribution compensation | 20% of the 3-month wage base divided by 90, per statute. All employers except public ones |
 
 **Key changes for 2026:**
-- The 60-day post-service protection that was a wartime temporary order has been **made permanent law** for reservists serving 60+ days. Reservists serving fewer than 60 days receive the standard 30-day protection.
-- The 20% employer compensation for social contributions was applied retroactively to January 2026 and was anchored as permanent law via an amendment to the National Insurance Law approved by the Knesset plenum on April 27, 2026.
+- Section 41A(b) of the Discharged Soldiers (Return to Work) Law gives 30 days of post-service protection, for service over two consecutive days. The reported 60-day window for 60+ days served is not in the consolidated statute, so verify it.
+- The 20% employer compensation follows a statutory amendment. Bituach Leumi pays it to all employers except public ones, retroactively for service since the war began.
 - The wartime supplementary employer compensation (for hiring temp replacements) has expired.
 
 **Public-sector employees:** public employers are explicitly excluded from the 20% refund, and state employees fall under Takanon HaSherut HaTziburi, whose collective agreements may override default labor law on seniority and leave.
 
-**Filing a complaint:** violations go to the Labor Court (Beit Din LaAvoda). The fee is 1% of the claim, minimum NIS 168 (expedited 0.5% / NIS 84), and common wage claims (wages, overtime, holiday and vacation pay) are fee-exempt.
+**Filing a complaint:** violations go to the Labor Court (Beit Din LaAvoda). The fee is 1% of the claim, minimum NIS 168 (NIS 84 in an expedited hearing), and common wage claims (wages, overtime, holiday and vacation pay) are fee-exempt.
 
 ### Step 3: Reserve Compensation, Three Payment Tracks
 
@@ -118,7 +118,7 @@ To find the unit's tier, call the IDF miluim hotline **1111, extension 4, then 1
 
 ### Step 4: 2026 Tax Benefits for Combat Reservists
 
-Amendment 283 to the Income Tax Ordinance (Section 39B), passed by the Knesset on November 19, 2025 and published in Sefer HaChukim on November 23, 2025, introduced a graduated tax credit system for **combat reservists** based on days served. These apply to tax years 2026-2027 and are managed through the Israel Tax Authority (Rashut HaMisim, רשות המסים).
+Amendment 283 to the Income Tax Ordinance (Section 39B, marked in the consolidated text as amendment תשפ"ו) introduced a graduated tax credit system for **combat reservists** based on days served. These apply to tax years 2026-2027 and are managed through the Israel Tax Authority (Rashut HaMisim, רשות המסים).
 
 **The credit is given in the tax year AFTER the service year.** Section 39B opens `בחישוב המס לשנת המס של יחיד ששירת שירות מילואים כלוחם בשנת המס שקדמה לה`, so combat service in 2025 produces a credit in 2026, and 2026 service produces a credit in 2027. Never tell a reservist their current-year service reduces their current-year tax.
 
@@ -263,8 +263,8 @@ User says: "One of my employees was called up for miluim. What do I need to do?"
 Actions:
 1. Explain salary advance obligation during service (sechar kove'a = pre-service salary)
 2. Detail pension and keren hishtalmut continuity requirements
-3. Note the state reimburses 20% of salary for social contributions (private employers only; permanent since 2026, anchored by NII Law amendment April 27, 2026)
-4. Explain dismissal ban: 30 days post-service for service under 60 days, 60 days for 60+ days
+3. Note the 20% social-contribution compensation to employers (all except public ones)
+4. Explain dismissal ban: 30 days post-service under Section 41A(b); the reported 60-day window is unverified
 5. Note spouse protections: 1-hour paid absence per day during 5+ consecutive days of service, up to 8 paid leave days for spouses with a child under 14
 6. Guide through Bituach Leumi employer portal for salary reimbursement
 7. If the employer is public sector, note the 20% refund does not apply
@@ -310,7 +310,7 @@ Result: Employer complies with all legal obligations and claims proper reimburse
 - The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
 - Aka grants from miluim.idf.il are paid by the IDF, not Bituach Leumi or Rashut HaMisim. Reservists must update their portal status (married, children, education under "miktzo'a ezrachi") for eligibility to compute correctly.
 - Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
-- Dismissal protection: 30 days for under-60-day service, 60 days for 60+. Spouse protection exists but its length is unresolved, so verify rather than quote it.
+- Dismissal protection: 30 days under Section 41A(b); the reported 60-day window is not in the statute. Spouse protection length is unresolved. Verify rather than quote either.
 - Tagmul Nosaf is paid in May of the FOLLOWING year, not at end of service. The 2028 combat-tier threshold drops from 30 to 20 days.
 
 ## Troubleshooting
@@ -340,7 +340,7 @@ Solution:
 3. Resubmit with both documents attached to Form 101 or annual filing
 
 ### Error: "Employer terminated reservist within protection period"
-Cause: dismissal inside the 30-day (under 60 days served) or 60-day (60+ days served) protected window.
+Cause: dismissal inside the 30-day protected window (the reported 60-day window is unverified).
 Solution: the dismissal is void by law. File with the Labor Court; see `references/2026-law-changes.md` for the tiered protection and the spouse extension.
 
 ### Error: "I served combat miluim but received no Tagmul Nosaf"

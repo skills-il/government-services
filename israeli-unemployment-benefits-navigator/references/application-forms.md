@@ -16,7 +16,7 @@ Gather these before starting the online application:
 
 1. **Teudat Zehut** (ID card) + sefach (appendix)
 2. **Termination letter** (mikhtav piturin) signed by employer, stating the termination date
-3. **Form 126** (tofes 126) from the employer for the current year. **Form 126 is the annual employer summary, NOT the monthly Form 100.** Bringing only Form 100 is a common rejection cause
+3. **Form 100** is the wage data the employer transmits to Bituach Leumi. Check it was transmitted; if it was not, attach an employer confirmation of the employment period and wage, or 12 payslips out of the last 18. Form 126 is the employer's annual report to the assessing officer and is not on the BTL document list
 4. **Last 6 payslips** (tlushei maskoret)
 5. **Bank account details** (snif, cheshbon) for benefit deposits
 6. **Marriage certificate** if claiming as married

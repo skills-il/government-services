@@ -115,17 +115,18 @@
     },
     {
       "claim_id": "knesset-passage-shaagat-haarie-law",
-      "claim": "חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ\"ו-2026 was passed by the Knesset on 31 March 2026.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%9C%D7%A1%D7%99%D7%95%D7%A2_%D7%9B%D7%9C%D7%9B%D7%9C%D7%99_(%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94)_(%D7%AA%D7%A2%D7%A1%D7%95%D7%A7%D7%94)",
-      "raw_snippet": "התקבל בכנסת ביום י״ג בניסן התשפ״ו (31 במרץ 2026).",
-      "fetched_at": "2026-08-11",
+      "claim": "The Shaagat HaAri chalat framework was agreed and passed a Knesset vote on 31.3.2026",
+      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
+      "raw_snippet": "מתווה החל\"ת הוסכם ועבר הצבעה בכנסת, בתאריך ה-31.3.2026.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
       ],
-      "verified_via": "curl",
-      "source_fetched_at": "2026-08-11T00:00:00Z"
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); page publish date 19.04.2026",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "max-days-table-authoritative",
@@ -309,49 +310,57 @@
     },
     {
       "claim_id": "form-1514-employer-confirmation",
-      "claim": "טופס 1514 (Form 1514) is the employer confirmation form (אישור המעסיק) required for the Bituach Leumi dmei avtala claim. If the employer refuses to fill it, חוזר אבטלה 1342 allows substitution with a tatzhir plus 3 payslips plus bank statements showing wage transfers.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - טופס 1514 אישור המעסיק לתביעת דמי אבטלה",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Bituach Leumi requires a confirmation from the employer stating the reason for the end of employment and the date it ended, signed and stamped. The form number 1514 and the substitution route in circular 1342 are NOT INDEPENDENTLY VERIFIED.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "אישור מהמעסיק המציין את סיבת הפסקת העבודה ותאריך הפסקת העבודה, עם חתימה וחותמת של המעסיק.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). The BTL page names no form number for this confirmation, and no BTL page carrying \"1514\" or circular 1342 could be reached.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "form-126-annual-employer-summary",
-      "claim": "טופס 126 (Form 126) is the employer's annual tax summary required for the dmei avtala claim. It is NOT the same as Form 100 (monthly withholding per payslip). Bringing only Form 100 is a common rejection cause.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - טופס 126 סיכום שנתי של המעסיק, לא טופס 100 החודשי",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Form 126 (טופס 126, form 0126) is the employer's annual report to the assessing officer for the employees it paid in the previous tax year, due by 31 March. The Bituach Leumi unemployment claim page does not list it among the required documents.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מס_הכנסה_(ניכוי_ממשכורת_ומשכר_עבודה)",
+      "raw_snippet": "(ב) מעביד חייב להגיש לפקיד השומה, לא יאוחר מיום 31 במרס של כל שנה, דוח בטופס 0126 לגבי העובדים שהעסיק או ששילם להם משכורת בשנת המס הקודמת",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax (Deduction from Salary and Wages) Regulations, regulation 12(b))",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "form-100-monthly-withholding",
-      "claim": "Form 100 (טופס 100) is the monthly tax withholding form attached per payslip. Bituach Leumi does NOT accept Form 100 alone in lieu of the annual Form 126 for the avtala claim.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - Form 100 / טופס 100 ניכוי חודשי, לא מתקבל כתחליף לטופס 126",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Form 100 (טופס 100) is the wage data the employer transmits to Bituach Leumi. For the dmei avtala claim BTL asks the claimant to make sure the employer transmitted Form 100, and only if it was not transmitted to attach an employer confirmation of the employment period and wage, or 12 months of payslips out of the last 18.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "פירוט שכר - עליך לוודא שהמעסיק שידר לנו טופס 100 (נתוני השכר שלך), אם לא יש לצרף אישור מהמעסיק על תקופת העסקה ועל השכר או תלושי שכר של 12 חודשים מתוך 18 החודשים האחרונים שקדמו להתייצבותך הראשונה בשירות התעסוקה.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). This contradicts the previous claim that Form 100 is not accepted and causes rejection; the skill body was corrected.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "form-5040-bank-details",
-      "claim": "Form 5040 (פרטי חשבון בנק) is the Bituach Leumi bank-details form for routing benefit deposits.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - Form 5040 פרטי חשבון בנק לקליטת תשלומי קצבה",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Form 5040 (פרטי חשבון בנק) is the Bituach Leumi bank-details form for routing benefit deposits. NOT VERIFIED: no reachable Bituach Leumi page names a form 5040; BTL asks for bank details in the online claim without a form number.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/application-forms.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page names a form 5040; BTL asks for bank details in the online claim without a form number. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "form-5320-hashlamat-hachnasa",
@@ -368,53 +377,61 @@
     },
     {
       "claim_id": "form-bl-627-treaty",
-      "claim": "Form בל/627 is the Bituach Leumi form used to count foreign work months toward tkufat akhshara under bilateral social-security treaties (US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - טופס בל/627 אישור תקופות ביטוח לפי אמנת ביטחון סוציאלי",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Form בל/627 is the Bituach Leumi form used to count foreign work months toward tkufat akhshara under bilateral social-security treaties (US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others). NOT VERIFIED: no reachable Bituach Leumi page names form בל/627.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md",
         "references/eligibility-rules.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page names form בל/627. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "section-174-tashlumei-avoda",
-      "claim": "סעיף 174 לחוק הביטוח הלאומי (Section 174 of the National Insurance Law) covers tashlumei avoda - allowing BL to postpone the start of avtala by the equivalent number of months when adam meritzon (severance beyond the legal pitzuim floor, e.g. golden parachute) is paid. Legal pitzuim alone do NOT delay or reduce avtala.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - סעיף 174 לחוק הביטוח הלאומי תשלומי עבודה - אדם מירצון דוחה תחילת אבטלה",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Payments from the employer that postpone dmei avtala are vacation pay and payment in lieu of prior notice, not legal severance. Section 174 of the National Insurance Law is NOT this rule, it is the grant for someone who worked in preferred employment (מענק למי שעבד בעבודה מועדפת).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "תשלום דמי חופשה - לא ישולמו לך דמי אבטלה עבור תקופה שבה קיבלת ממעסיקך תשלום עבור דמי חופשה, המשולמים לפי חוק חופשה שנתית, הסכם קיבוצי או חוזה עבודה.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/benefit-calculation-tables.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); the section-174 heading was read from https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי (\"174. מענק למי שעבד בעבודה מועדפת\"). The skill body was corrected to drop the section 174 citation.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "section-41a-miluim-protection",
-      "claim": "סעיף 41א לחוק חיילים משוחררים (Section 41a of the Discharged Soldiers Law) forbids dismissal during miluim service and for 30 days after. The avtala registration window is extended for the miluim period via hekel mizvad on request.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - סעיף 41א לחוק חיילים משוחררים איסור פיטורין במהלך מילואים ו-30 יום אחריו",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Section 41A of the Discharged Soldiers (Return to Work) Law (סעיף 41א לחוק חיילים משוחררים) bars dismissal during reserve service without a permit and, for service exceeding two consecutive days, for 30 days after the end of the service.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חיילים_משוחררים_(החזרה_לעבודה)",
+      "raw_snippet": "ולענין שירות מילואים העולה על יומיים רצופים, לא יפטרו ולא יפגע בהיקף המשרה או בהכנסה שלו בלא היתר כאמור גם בתקופה של שלושים ימים לאחר תום שירות המילואים",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/benefit-calculation-tables.md"
-      ]
+      ],
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Discharged Soldiers (Return to Work) Law, section 41A(b))",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "section-9-hok-avoda-nashim",
-      "claim": "סעיף 9 לחוק עבודת נשים (Section 9 of the Women's Employment Law) protects the 60-day post-leda period; firing during this window without a Labor Ministry permit is illegal.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - סעיף 9 לחוק עבודת נשים תקופה מוגנת של 60 יום אחרי חזרה מחל\"ד",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Section 9 of the Women's Employment Law (סעיף 9 לחוק עבודת נשים) bars an employer from dismissing an employee for 60 days after the end of the birth-and-parenthood period, or from giving notice for a date inside it, without a permit from the minister.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_עבודת_נשים",
+      "raw_snippet": "(1א) לא יפטר מעסיק עובדת או עובד בתקופה של 60 ימים לאחר תום תקופת הלידה וההורות או לאחר תום ימי ההיעדרות, כאמור בפסקה (1), לפי העניין, ולא ייתן הודעת פיטורים למועד החל בתקופה האמורה, אלא בהיתר מאת שר התעשיה המסחר והתעסוקה",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
-      ]
+      ],
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Women's Employment Law, section 9(c)(1a))",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "phone-bl-6050",
@@ -440,150 +457,174 @@
     },
     {
       "claim_id": "phone-gov-info-2496-3450",
-      "claim": "Government info center hotlines (sometimes confused with kolzchut): *2496 and *3450, standard government hours.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - מוקדי שירות ממשלתי *2496 ו-*3450",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Government info center hotlines (sometimes confused with kolzchut): *2496 and *3450, standard government hours. NOT VERIFIED: no reachable government page carries the numbers *2496 or *3450.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/application-forms.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable government page carries the numbers *2496 or *3450. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "appeal-windows-6mo-12mo-60days",
-      "claim": "Appeal windows for BL avtala decisions: informal va'adat tvi'ot review = 6 months; formal Beit Din Ezorit L'Avoda appeal = 12 months from the original decision; appeal of a Va'adat Ararim ruling specifically = 60 days from that Va'adat Ararim decision (much shorter window).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - ערעור ועדת תביעות 6 חודשים, בית דין אזורי לעבודה 12 חודשים, ועדת עררים 60 ימים",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Appeal windows for BL avtala decisions: informal va'adat tvi'ot review = 6 months; formal Beit Din Ezorit L'Avoda appeal = 12 months from the original decision; appeal of a Va'adat Ararim ruling specifically = 60 days from that Va'adat Ararim decision (much shorter window). NOT VERIFIED: section 396 of the National Insurance Law leaves these deadlines to regulations, and the relevant regulations were not reachable.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: section 396 of the National Insurance Law leaves these deadlines to regulations, and the relevant regulations were not reachable. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "first-payment-timing",
-      "claim": "First Bituach Leumi avtala payment typically lands 30 to 45 days after registration.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - תשלום ראשון 30-45 ימים מהרישום",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Dmei avtala are paid on or about the 12th of the month, for the registration days of the previous month.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "מועד התשלום דמי אבטלה משולמים ב-12 לחודש או בסמוך לו, עבור ימי ההתייצבות בחודש הקודם.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). The previous \"first payment lands 30 to 45 days after registration\" wording was replaced with the published payment date.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "suitable-job-25pct-60min",
-      "claim": "Post-2024 Bituach Leumi clarification of 'suitable offer' from Sherut HaTaasuka: salary within 25% of prior wage, commute under 60 minutes (or remote-eligible), profession within one degree of prior role. After day 60 of unemployment, the suitability test relaxes (claimants are expected to broaden their search).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - הצעה מתאימה: שכר בטווח 25% מהקודם, נסיעה עד 60 דקות, מקצוע במרחק דרגה אחת. אחרי יום 60 המבחן מתרכך",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Under section 165 of the National Insurance Law an offered job is suitable if it is of the main type worked in the last 3 years or matches the claimant's training or education, the wage is at least the dmei avtala they would receive, and it does not require moving home. A job 60 km or more away counts as requiring a move unless there is proper public transport or employer transport, with travel time over one hour counted as work time. The relaxation of the first two tests is by AGE, not by day 60 for everyone: under 25 after 14 days, 25-28 after 30 days, 28-35 after 60 days. In Hebrew: סעיף 165 לחוק הביטוח הלאומי (עבודה מתאימה).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "(2) השכר בעבודה המוצעת שווה לפחות לדמי האבטלה שהיו מגיעים לו אילו היה זכאי להם; (3) העבודה המוצעת אינה מחייבת שינוי במקום מגוריו.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (National Insurance Law, section 165(b),(d),(e)). This corrects the previous \"salary within 25% of prior wage, commute under 60 minutes, relaxes after day 60\" formulation, which does not appear in the statute.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "refused-offer-penalty-90-plus-30",
-      "claim": "Refusing a suitable job offer from Sherut HaTaasuka triggers two separate penalties: a 90-day waiting period AND a permanent 30-day deduction from the max-day total. The same penalty applies to refusing an assigned vocational-training course (kursim mukarim, maslulei mahalehet).",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - סירוב להצעה מתאימה: 90 ימי המתנה + הפחתה של 30 ימים ממקסימום. סירוב לקורס מוכר - אותו עונש",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Refusing a suitable job, training, further training or professional conversion offered by Sherut HaTaasuka costs 90 days of dmei avtala from the day of refusal, every time, and deducts 30 days from the claimant's quota of unemployment days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "סירוב להצעת עבודה - אם שירות התעסוקה הציע לך עבודה מתאימה, הכשרה, השתלמות או הסבה מקצועית וסירבת לקבלה, לא ישולמו לך דמי אבטלה עבור 90 הימים מיום הסירוב בכל פעם שתסרב, ויופחתו 30 ימים ממכסת ימי האבטלה שלך .",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); the same two rules are in sections 166(d) and 171(a1) of the National Insurance Law",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "part-time-deduction-75pct",
-      "claim": "Working part-time during unemployment reduces the avtala benefit by roughly 75% of the part-time gross wage; below the BL kotzbat patur (small-earnings exemption) the reduction may not apply.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - עבודה חלקית: כ-75% מהשכר החלקי ברוטו מנוכה מהקצבה. מתחת לקצובת פטור ההפחתה עשויה לא לחול",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Income from employment, self-employment or a pension during the unemployment period is deducted from the dmei avtala. Section 176 deducts the average daily income from the daily benefit; there is no 75% factor. In Hebrew: סעיף 176 לחוק הביטוח הלאומי.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "הכנסות בתקופת אבטלה אם בתקופת האבטלה יש לך הכנסות מעבודה כשכיר, כעצמאי או מפנסיה - ינוכו ההכנסות האלו מדמי האבטלה המגיעים לך.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/application-forms.md",
         "references/benefit-calculation-tables.md"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); section 176(a) of the National Insurance Law reads \"תנוכה ההכנסה הממוצעת היומית מהעבודה או ממשלח היד מדמי האבטלה המגיעים לו ליום\". The previous ~75% figure was removed from the skill.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "nechut-block-75pct",
-      "claim": "Receiving full kiztavat nechut klalit (75%+ disability) blocks avtala. Partial disability under 75% sometimes allows partial avtala, evaluated case by case.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - נכות כללית מלאה 75%+ חוסמת אבטלה. נכות חלקית מתחת ל-75% לעיתים מאפשרת אבטלה חלקית",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Receiving full kiztavat nechut klalit (75%+ disability) blocks avtala. Partial disability under 75% sometimes allows partial avtala, evaluated case by case. NOT VERIFIED: no reachable Bituach Leumi page states a 75% disability block on dmei avtala.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page states a 75% disability block on dmei avtala. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "bl-chozer-1287-family-employment",
-      "claim": "Per BL חוזר אבטלה 1287, working for a family member (spouse, parent, child, sibling) is disqualified unless arms-length employment is proven via all 5: dated employment contract, payslips dated 12+ months pre-dispute, bank-transfer wage trail (no cash), third-party witness to actual work, employer paid tax+BL+pension on time.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - חוזר אבטלה 1287 - עבודה אצל בן משפחה דורשת הוכחת יחסי עבודה אמיתיים: חוזה מתוארך, תלושים 12+ חודשים, העברות בנק, עד צד שלישי, מעסיק שילם מס+ביטוח+פנסיה",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Per BL חוזר אבטלה 1287, working for a family member (spouse, parent, child, sibling) is disqualified unless arms-length employment is proven via all 5: dated employment contract, payslips dated 12+ months pre-dispute, bank-transfer wage trail (no cash), third-party witness to actual work, employer paid tax+BL+pension on time. NOT VERIFIED: Bituach Leumi unemployment circular 1287 is not published at any reachable URL.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: Bituach Leumi unemployment circular 1287 is not published at any reachable URL. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "bl-chozer-1342-form-1514-substitute",
-      "claim": "Per BL חוזר אבטלה 1342, when the employer refuses to fill Form 1514, the claimant can substitute with a tatzhir + 3 payslips + bank statements showing wage transfers.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - חוזר אבטלה 1342 - תחליף לטופס 1514: תצהיר + 3 תלושים + דפי בנק שמראים העברות שכר",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Per BL חוזר אבטלה 1342, when the employer refuses to fill Form 1514, the claimant can substitute with a tatzhir + 3 payslips + bank statements showing wage transfers. NOT VERIFIED: Bituach Leumi unemployment circular 1342 is not published at any reachable URL.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/application-forms.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: Bituach Leumi unemployment circular 1342 is not published at any reachable URL. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "tikkun-232-2023-harassment",
-      "claim": "Tikkun 232 of 2023 (תיקון 232 משנת 2023) shifted some of the documentation burden onto Bituach Leumi for sexual harassment and wage-delay cases, helping resigners claim hitpatrut b'din mefuteret without the 90-day wait.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - תיקון 232 משנת 2023 - העברת נטל הוכחה לביטוח לאומי במקרי הטרדה מינית ועיכוב שכר",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Tikkun 232 of 2023 (תיקון 232 משנת 2023) shifted some of the documentation burden onto Bituach Leumi for sexual harassment and wage-delay cases, helping resigners claim hitpatrut b'din mefuteret without the 90-day wait. NOT VERIFIED: no reachable source carries a 2023 amendment 232 shifting the burden of proof to Bituach Leumi.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable source carries a 2023 amendment 232 shifting the burden of proof to Bituach Leumi. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "health-tax-3pct",
-      "claim": "Mas briut (health tax) is deducted from the gross dmei avtala benefit at approximately 3.1%.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - מס בריאות בשיעור של כ-3.1% מהקצבה ברוטו",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Income tax, national insurance contributions at the minimum rate of NIS 48, and health insurance contributions computed on the benefit amount are deducted from dmei avtala. Bituach Leumi publishes no percentage for the health component on this page.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
+      "raw_snippet": "דמי ביטוח לאומי וביטוח בריאות - מדמי האבטלה מנוכים דמי ביטוח לאומי לפי שיעור המינימום לדמי ביטוח לאומי 48 ש\"ח , ודמי ביטוח בריאות לפי סכום דמי האבטלה.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "scripts/avtala_calculator.py"
-      ]
+      ],
+      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). The 3.1% rate used by scripts/avtala_calculator.py is an approximation and is now labelled as unverified in the script.",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "hashlamat-supplementation-typical-range",
-      "claim": "Typical hashlamat hachnasa supplementation for low-earner avtala claimants with dependents (especially single parents, families with 3+ children) is ₪1,500 to ₪2,000 per month.",
-      "source_url": "TBD",
-      "raw_snippet": "PENDING_VERIFICATION - השלמת הכנסה למרוויחים נמוך עם תלויים: כ-₪1,500 עד ₪2,000 בחודש",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Typical hashlamat hachnasa supplementation for low-earner avtala claimants with dependents (especially single parents, families with 3+ children) is ₪1,500 to ₪2,000 per month. NOT VERIFIED: no reachable Bituach Leumi page publishes a typical hashlamat hachnasa range for unemployment claimants.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md",
         "references/application-forms.md",
         "references/benefit-calculation-tables.md"
-      ]
+      ],
+      "verified_at": "2026-08-13",
+      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page publishes a typical hashlamat hachnasa range for unemployment claimants. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "iron-swords-context",
@@ -808,27 +849,5 @@
       ]
     }
   ],
-  "pending_verification": [
-    "form-1514-employer-confirmation",
-    "form-126-annual-employer-summary",
-    "form-100-monthly-withholding",
-    "form-5040-bank-details",
-    "form-bl-627-treaty",
-    "section-174-tashlumei-avoda",
-    "section-41a-miluim-protection",
-    "section-9-hok-avoda-nashim",
-    "phone-gov-info-2496-3450",
-    "appeal-windows-6mo-12mo-60days",
-    "first-payment-timing",
-    "suitable-job-25pct-60min",
-    "refused-offer-penalty-90-plus-30",
-    "part-time-deduction-75pct",
-    "nechut-block-75pct",
-    "bl-chozer-1287-family-employment",
-    "bl-chozer-1342-form-1514-substitute",
-    "tikkun-232-2023-harassment",
-    "health-tax-3pct",
-    "hashlamat-supplementation-typical-range",
-    "knesset-passage-shaagat-haarie-law"
-  ]
+  "pending_verification": []
 }
