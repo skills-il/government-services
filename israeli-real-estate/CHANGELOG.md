@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.2 - 2026-08-13
+
+Repaired three dead Kol-Zchut citations (linear mas shevach, single-home exemption, reduced purchase tax for buyers with a disability). The reduced purchase-tax passage claimed 0.5% up to a threshold, 5% above it, and twice in a lifetime; the source states no purchase tax up to 1,978,745 NIS and 0.5% on the remainder for a single home up to 2,500,000 NIS, and 0.5% flat otherwise, so the passage was rewritten. The single-home exemption ceiling is stated by the source as applying to 2024-2027, not 'frozen until 15 January 2028'.
+
 ## 1.6.1 (2026-08-11)
 
 - Added a boundary to `israeli-tabu-extract-decoder`, which decodes an extract entry by entry. This skill explains what an extract is for and how to obtain one; it does not interpret each line.

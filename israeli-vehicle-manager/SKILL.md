@@ -20,9 +20,9 @@ Israeli vehicle management falls into these categories:
 |------|-------------|-------------|
 | Annual vehicle test | טסט (test) | Before registration expiry |
 | Registration renewal | חידוש רישיון רכב | Pay up to 60 days before expiry |
-| Used car purchase | קניית רכב יד שנייה | Transfer within 15 days of sale |
+| Used car purchase | קניית רכב יד שנייה | Transfer immediately after the sale |
 | Insurance | ביטוח רכב | Must be active before driving |
-| Ownership transfer | העברת בעלות | Within 15 days of sale |
+| Ownership transfer | העברת בעלות | Immediately after the sale |
 
 ### Step 2: Annual Vehicle Test (טסט)
 
@@ -145,7 +145,7 @@ The exact adjustment percentages are part of the (proprietary) מחירון, so 
 | Post office | 257 NIS | Both parties present in person with IDs |
 | Licensing bureau | Varies | If one/both parties are not Israeli citizens |
 
-**Deadline:** Register the transfer as soon as possible, ideally the same day. Kol Zchut cites 15 days from the sale, but some sources cite a shorter statutory window, and the seller stays legally liable for the vehicle (fines, tolls) until the transfer is actually recorded, so do not rely on the full window.
+**Deadline:** Register the transfer as soon as possible, ideally the same day. Published figures for a statutory grace window disagree with each other and we could not verify any of them against a primary source, so do not rely on one: the seller stays legally liable for the vehicle (fines, tolls) until the transfer is actually recorded.
 
 **Online-transfer footgun:** The Mygov online flow requires both parties to confirm AND payment to complete within roughly 10 minutes from the start of the form. If you exceed this window the entire transfer resets and you have to begin again. Have credit-card details ready before opening the form.
 
@@ -181,7 +181,7 @@ The exact adjustment percentages are part of the (proprietary) מחירון, so 
 
 3. **Liens are the buyer's problem, not the seller's.** The Ministry of Transport system does NOT show all liens on a vehicle. Always direct used car buyers to check with the Registrar of Pledges (רשם המשכונות) at the Ministry of Justice before completing a purchase.
 
-4. **The 15-day transfer deadline is strict.** Ownership transfer must happen within 15 days of sale. After this, both buyer and seller may face administrative issues. The seller remains legally responsible for the vehicle until transfer is complete.
+4. **Do not delay the ownership transfer.** Register it the same day if you can. The seller remains legally responsible for the vehicle (fines, tolls, and liability) until the transfer is actually recorded, so a delay is the seller's risk, not the buyer's.
 
 5. **Cars 15+ years old have extra requirements.** Before the annual test, these vehicles must have their braking system checked at a licensed garage and present confirmation at the inspection station.
 
