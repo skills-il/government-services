@@ -159,7 +159,7 @@ Major banks for olim: Leumi, Hapoalim, Discount, Mizrahi-Tefahot, Mercantile. Al
 
 **Banking considerations:** open the account as early as possible (sal klita requires an Israeli account). Request online banking + English app if needed. For large transfers use dedicated services (Wise, OFP) over bank rates. Chekim (checks) are still common for rent. Set up standing orders (horaat keva) for arnona, vaad bayit, utilities. Foreign income has the 10-year exemption (Step 8).
 
-**Bringing money declaration:** cash and bearer instruments brought into Israel must be declared at customs if the total exceeds the threshold (NIS 50,000 standard, higher for first-time-entry olim per ITA guidance). Verify current threshold before traveling. See `references/aliyah-additional-procedures.md`.
+**Bringing money declaration:** cash and bearer instruments must be declared at customs above a threshold that DEPENDS ON THE CROSSING, not a single national figure: NIS 12,000 at the Jordan River, Yitzhak Rabin and Taba crossings, 2,000 dinar (about NIS 10,000) at Allenby, and NIS 50,000 at all other crossings including Ben Gurion. Someone entering overland can therefore be well under 50,000 and still be required to declare. "Funds" includes cash, bank and traveller cheques, negotiable securities and instruments, and immediate-debit payment cards. See `references/aliyah-additional-procedures.md`.
 
 ### Step 8: Tax Benefits for Olim
 
@@ -363,18 +363,4 @@ Result: Clear answer that UK rental income is exempt from Israeli tax for 10 yea
 
 ## Troubleshooting
 
-### Error: "Sal klita payment not received"
-Cause: Incomplete bank registration, incorrect account details, or delay in Misrad HaKlita processing.
-Solution: Verify bank account is active and details were provided to Misrad HaKlita. Check the personal area (ezor ishi) at klita.gov.il. Visit local Misrad HaKlita branch with Teudat Oleh and bank statement.
-
-### Error: "Professional license application rejected"
-Cause: Missing documents, documents not apostilled, or insufficient Hebrew translations.
-Solution: Ensure all academic documents have an apostille from the country of origin. Provide certified Hebrew translations. Contact the specific licensing body for their exact document requirements. Some professions require additional Israeli exams.
-
-### Error: "Foreign driver's license expired before conversion completed"
-Cause: Conversion process not started within the 1-year validity window.
-Solution: The conversion window is **5 years from aliyah date**. The 1-year clock applies separately to the foreign license itself (counting from your last entry to Israel; resets after 6+ months abroad). Within 5 years of aliyah, you can still convert per the experience-based tiers. Past 5 years, you must complete the full Israeli licensing process (theory + practical). Contact the local licensing office (misrad harishui) for options.
-
-### Error: "Kupat cholim registration issues"
-Cause: Bituach Leumi registration incomplete or not processed.
-Solution: First verify Bituach Leumi registration is complete. Bring Teudat Zehut to the chosen kupat cholim branch. Registration should be processed within 1-2 business days. If issues persist, contact Bituach Leumi at *6050.
+See `references/troubleshooting.md`.

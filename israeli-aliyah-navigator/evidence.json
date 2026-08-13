@@ -317,15 +317,17 @@
     },
     {
       "claim_id": "bringing-money-nis-50k-100k-thresholds",
-      "claim": "Cash and bearer instruments entering Israel must be declared at customs above the threshold under the Money Laundering Prohibition Law 2000; common practice cites NIS 50,000 for general entrants and a higher threshold (around NIS 100,000) for first-time-entry olim per ITA customs guidance; verify the current threshold at the Israel Tax Authority customs page before relying",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "הצהרה על הכנסת כסף מזומן וניירות ערך למוכ\"ז למכס בעת כניסה לישראל, מעל סף לפי חוק איסור הלבנת הון",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "The cash declaration threshold depends on the crossing, not a single pair of figures: 12,000 NIS at the Jordan River, Yitzhak Rabin and Taba crossings, 2,000 dinar (about 10,000 NIS) at Allenby, and 50,000 NIS at all other crossings. \"Funds\" covers cash, bank and traveller cheques, negotiable securities and instruments, and immediate-debit payment cards.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%A2%D7%9C_%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%95_%D7%94%D7%9B%D7%A0%D7%A1%D7%AA_%D7%9B%D7%A1%D7%A4%D7%99%D7%9D_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+      "raw_snippet": "בכניסה או ביציאה דרך מעבר אלנבי - 2000 דינר (כ-10,000 ₪). בכניסה או ביציאה דרך יתר מעברי הגבול - 50,000 ₪. כספים מוגדרים כמזומנים, המחאות בנקאיות, המחאות נוסעים, ניירות ערך סחירים, שטרות סחירים וכרטיסי תשלום",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/aliyah-additional-procedures.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "olim-vehicle-3-year-window",
@@ -443,13 +445,15 @@
     },
     {
       "claim_id": "child-savings-plan-nis-55-monthly",
-      "claim": "Bituach Leumi deposits approximately NIS 55 per child per month into the Chisachon LeKol Yeled savings plan; parents can elect to double the deposit by adding their own NIS 55 deducted from kitzvat yeladim (figure is CPI-linked and updated periodically; verify current amount via the BTL personal area)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "תוכנית חיסכון לכל ילד, הפקדה חודשית כ-NIS 55 מקצבת ילדים, אפשרות להכפיל ע\"י תוספת הורית NIS 55",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "National Insurance deposits 58 NIS a month for each child up to age 18 under the \"Savings for Every Child\" programme, and a parent may add a further 58 NIS from the child allowance. The 55 NIS figure previously stated here was wrong.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%22%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F_%D7%9C%D7%9B%D7%9C_%D7%99%D7%9C%D7%93%22",
+      "raw_snippet": "הביטוח הלאומי מפקיד כל חודש 58 ₪ עבור ילדים עד גיל 18 בתוכנית \"חיסכון לכל ילד\". יש אפשרות להוסיף עוד 58 ₪ מתוך קצבת הילדים",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/aliyah-additional-procedures.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "2026-tax-reform-nis-350000-2029",
@@ -497,23 +501,27 @@
     },
     {
       "claim_id": "vat-rate-18-percent-2025",
-      "claim": "Israel VAT rate is 18% effective January 1, 2025 (raised from 17% via the 2024 budget law amendment to address fiscal pressure; independently corroborated by Israel Tax Authority and ITA-adjacent reporting)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "מע\"מ ישראל הועלה מ-17% ל-18% החל מ-1 בינואר 2025",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Israeli VAT is 18% of the purchase or service price from 01.01.2025; it was 17% until 31.12.2024.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_%28%D7%9E%D7%A2%22%D7%9E%29",
+      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה או הסחורה, והחל מיום 01.01.2025 הוא עומד על 18% ממחיר הרכישה או השירות. עד 31.12.2024 היה שיעור המע\"מ 17%",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/tax-benefits-olim.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "credit-point-value-nis-235",
-      "claim": "Each Israeli tax credit point (nekudat zikui) reduces monthly tax by approximately NIS 235 (recent-year value; the Israel Tax Authority publishes the annual value, which is CPI-linked and adjusted each tax year)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "נקודת זיכוי במס הכנסה, ערכה השנתי מפורסם על ידי רשות המסים, סביב 235 ש\"ח לחודש בשנים האחרונות",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "An income-tax credit point is worth 2,904 NIS per year and 242 NIS per month as of 2026. The 235 NIS monthly figure previously stated here was the 2023 value.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99",
+      "raw_snippet": "ערכה השנתי של נקודת זיכוי הוא 2,904 ₪ וערכה החודשי הוא 242 ₪ (נכון לשנת 2026)",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/tax-benefits-olim.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "oleh-credit-points-3-2-1-schedule",
@@ -531,35 +539,41 @@
     },
     {
       "claim_id": "oleh-cumulative-credit-points-30-50k",
-      "claim": "Cumulative tax reduction from oleh credit points over 3.5 years is approximately NIS 30,000-50,000 (computed from monthly point value × point-months across the 3-2-1 schedule; the range reflects per-year CPI-linked point-value adjustment)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "סך כל ההטבה הצפויה במשך 3.5 שנים, סדר גודל של 30,000-50,000 ש\"ח, בהנחת ערך נקודת זיכוי שנתי כ-2,820 ש\"ח",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "DERIVED, not a published figure: the cumulative oleh credit-point benefit over the 3.5-year schedule is computed from the annual credit-point value, which is 2,904 NIS as of 2026. Any total quoted must be recomputed from the current value rather than an older one.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99",
+      "raw_snippet": "ערכה השנתי של נקודת זיכוי הוא 2,904 ₪ וערכה החודשי הוא 242 ₪ (נכון לשנת 2026)",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/tax-benefits-olim.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "form-101-employer-notification",
-      "claim": "Form 101 (טופס 101) is the annual employee tax declaration form; olim notify their employer of oleh status via Form 101 to apply the additional credit points",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "טופס 101, כרטיס עובד, הצהרת עובד שנתית למעסיק; עולה מציין מעמד עולה לקבלת נקודות זיכוי",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Form 101 (\"employee card and request for relief and tax coordination by the employer\") is an ITA form every salaried employee must complete and submit to their employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים שכל העובדים השכירים חייבים למלא ולהגיש למעסיק",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/tax-benefits-olim.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "arnona-discount-90-percent-olim",
-      "claim": "Olim receive up to 90% arnona (municipal tax) discount for a defined post-aliyah window (commonly the first 12 months for the standard tier, with extended discounts on a sliding scale in subsequent years per Misrad HaPnim arnona regulations)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "הנחות ארנונה לעולה חדש, עד 90% במסגרת תקנות הסדרי הנחות לעולים",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "New olim are entitled to a discount of up to 90% of arnona on 100 sq m of their apartment, for one year. The 100 sq m area cap and the one-year duration are part of the entitlement, not optional detail.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%97%D7%93%D7%A9%D7%99%D7%9D",
+      "raw_snippet": "עולים חדשים זכאים להנחה של עד 90% מתשלום הארנונה עבור שטח של 100 מ\"ר מדירתם, לתקופה של שנה",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/aliyah-checklist.py"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "mas-rechisha-oleh-brackets-2024",
