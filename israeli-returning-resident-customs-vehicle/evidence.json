@@ -618,6 +618,58 @@
       "raw_snippet": "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי",
       "verified_via": "browser",
       "source_note": "gov.il returns 403 to curl; read in Playwright 2026-08-10 with location.href asserted."
+    },
+    {
+      "claim_id": "inspection-at-machon-rishui-309",
+      "claim": "Registration of a personally-imported vehicle is conditioned by Takana 282 on inspection at a licensing institute (מכון רישוי) authorised to test under Takana 309, plus a positive roadworthiness certificate.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "בתקנה 282 לתקנות התעבורה נקבע כי רישום רכב ביבוא אישי מותנה בבדיקתו במכון רישוי המורשה לביצוע בדיקה עפ''י תקנה 309 לתקנות התעבורה והצגת תעודה חיובית על כשירות הרכב.",
+      "fetched_at": "2026-08-13",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "us-canadian-standards-accepted",
+      "claim": "A vehicle built to US federal or Canadian standards may be personally imported into Israel, even if manufactured outside the NAFTA countries.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "דרישות תקינה יובהר כי ניתן לייבא רכב אשר יוצר בתקינה פדראלית של ארה\"ב או בתקינה קנדית, גם אם יוצר מחוץ למדינות נפט\"א כמצוין בהוראת הנוהל.",
+      "fetched_at": "2026-08-13",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "esp-verified-by-spec-and-lamp",
+      "claim": "Electronic stability control (ESP) must be present, verified against the vehicle's technical specification and the dashboard indicator lamp. The official requirements cite no standard number such as 'takan 124'.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "מערכת בקרת יציבות יש לוודא כי ברכב מותקנת מערכת בקרת יציבות (ESP), זאת עפ\"י המפרט הטכני של הרכב וכן עפ\"י נורת חיווי בלוח המחוונים.",
+      "fetched_at": "2026-08-13",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ita-national-centre-4954",
+      "claim": "The Israel Tax Authority national telephone service centre is *4954, Sunday to Thursday 08:15-15:45; extension 1 covers customs including parcel post.",
+      "source_url": "https://www.gov.il/he/pages/ta-contact-us",
+      "raw_snippet": "מוקד שירות ארצי לפניות טלפוניות חייגו 4954* ימים א'-ה' בין השעות 08:15-15:45",
+      "fetched_at": "2026-08-13",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ],
   "schemaVersion": "1.0"

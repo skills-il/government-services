@@ -20,7 +20,7 @@
     "israel"
   ],
   "author": "skills-il",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

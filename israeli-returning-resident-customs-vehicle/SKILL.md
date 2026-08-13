@@ -111,7 +111,7 @@ Other conditions: vehicle must be a make/model approved by Misrad HaTachbura, cu
 
 - **Right-hand-drive (RHD) vehicles are NOT permitted** in Israeli personal import. UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus, Malta all ship RHD cars by default. A returnee from London or Tokyo who ships a paid-off RHD car learns at port that it cannot register. This is a hard reject, not a fix-on-port issue.
 - **EURO 6d-final emission standard (שלב 6)** is the Israeli floor for new passenger-car personal imports as of January 2022. US-spec powertrain variants meeting only EPA Tier 3 are routinely rejected when the variant was never EU-certified to EURO 6d. Returnees from the US must verify the specific engine variant has an EU equivalent VIN or OEM emissions certification BEFORE shipping.
-- **ESC (electronic stability control, תקן 124)** is mandatory. EU-market cars since 2014 and US-market cars since 2012 typically have it factory-installed; classic / collector / pre-2012 imports often don't. Verify the spec sheet.
+- **ESP / electronic stability control** is mandatory. gov.il says to verify it from the vehicle's technical specification AND the dashboard indicator lamp; it does not cite a "תקן 124", and no such standard reference appears in the official requirements. EU-market cars since 2014 and US-market cars since 2012 typically have it factory-installed; classic / collector / pre-2012 imports often don't. Verify the spec sheet.
 - **LPG / CNG / methane-fueled vehicles** cannot be personally imported. Common European LPG conversions (Italy, Netherlands, Poland) are disqualifying.
 
 Confirm the exact paperwork against the Misrad HaTachbura standards unit (\*4515) for the specific make/model AND the country of origin before booking the freight.
@@ -122,7 +122,7 @@ Confirm the exact paperwork against the Misrad HaTachbura standards unit (\*4515
 
 **12-month bealut-transfer restriction**: Misrad HaTachbura imposes a 12-month hold on every personally-imported vehicle, returnee or not. Source: gov.il [יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles): "על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים." A separate procedure (the bealut-removal application, "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") exists for applying to remove the restriction earlier in justified cases. Plan to keep the vehicle at least 12 months; the broker can advise on bealut-removal application if circumstances change.
 
-**Pre-registration safety inspection (מכון לבטיחות בדרכים).** After Meches clearance and BEFORE Misrad HaRishui will register the car, the vehicle must pass an authorized pre-registration safety inspection at one of the approved institutes. The script's broker-fees default does not include this, budget separately.
+**Pre-registration inspection (מכון רישוי, per Takana 309).** After Meches clearance and BEFORE Misrad HaRishui will register the car, Takana 282 conditions registration of a personally-imported vehicle on inspection at a מכון רישוי licensed to test under Takana 309, and on a positive roadworthiness certificate. gov.il lists the approved institutes by region. The script's broker-fees default does not include this, budget separately.
 
 **Compulsory insurance (ביטוח חובה) BEFORE leaving the port.** Carriers deliver unregistered. Driving the vehicle off the port without Israeli ביטוח חובה is a strict-liability offense under פקודת ביטוח רכב מנועי. Brokers typically arrange a one-day cover so the car can be moved to the inspection institute; budget that on top of the eventual annual policy.
 
@@ -140,7 +140,7 @@ After clearance and Misrad HaRishui registration, a tax refund based on equipmen
 3. Returning students: bring institutional certification (2 years full-time enrollment, or degree certificate).
 4. On entry the customs officer may require a bond / deposit equal to 6 months of the applicable taxes. The deposit is refunded if the entitlement file is approved within 9 months. Plan for short-term cash-flow impact.
 
-The returnee CAN start the file even before the תעודת תושב חוזר is issued; Meches has its own determination process. Sources of confusion: some Meches branches will ask for the certificate, others accept the online auto-approval. If a clerk demands the certificate, the returnee can either (a) wait for Misrad HaAliyah, or (b) escalate via the **Rashut HaMisim 1299 hotline** (the Israel Tax Authority's main service line, which routes customs questions internally). For vehicle-specific Misrad HaTachbura status issues (import permit, type approval, bealut-restriction (bealut-removal application)), use **\*4515** (Misrad HaTachbura import unit, listed on the gov.il יבוא אישי של כלי רכב page).
+The returnee CAN start the file even before the תעודת תושב חוזר is issued; Meches has its own determination process. Sources of confusion: some Meches branches will ask for the certificate, others accept the online auto-approval. If a clerk demands the certificate, the returnee can either (a) wait for Misrad HaAliyah, or (b) escalate via the **Rashut HaMisim national service centre \*4954** (Sun-Thu 08:15-15:45; extension 1 covers customs, including parcel post). For vehicle-specific Misrad HaTachbura status issues (import permit, type approval, bealut-restriction (bealut-removal application)), use **\*4515** (Misrad HaTachbura import unit, listed on the gov.il יבוא אישי של כלי רכב page).
 
 ### Step 6: Currency on the body (anti-money-laundering)
 
@@ -216,7 +216,7 @@ Response framework:
 
 ## Recommended MCP Servers
 
-None directly applicable. The customs Tax Authority does not expose an MCP / API. Users with Meches / customs questions should call **1299** (Rashut HaMisim main service line). For vehicle-specific Misrad HaTachbura questions (import permit, type approval, bealut-restriction (bealut-removal application)) use **\*4515** (import unit). For Misrad HaAliyah questions about the תעודת תושב חוזר use **\*2994**. Or visit a Meches office in person.
+None directly applicable. The customs Tax Authority does not expose an MCP / API. Users with Meches / customs questions should call **\*4954** (Rashut HaMisim national service centre, extension 1 for customs). For vehicle-specific Misrad HaTachbura questions (import permit, type approval, bealut-restriction (bealut-removal application)) use **\*4515** (import unit). For Misrad HaAliyah questions about the תעודת תושב חוזר use **\*2994**. Or visit a Meches office in person.
 
 ## Gotchas
 
@@ -254,7 +254,7 @@ None directly applicable. The customs Tax Authority does not expose an MCP / API
 ## Troubleshooting
 
 - **gov.il customs guide URL returns a 403 to scrapers**: it loads fine in a real browser; if an agent cannot fetch it, fall back to the kolzchut mirrors above and the citations in `references/domain-checklist.md`.
-- **Meches clerk insists on the Misrad HaAliyah certificate even though the gov.il guide says the online system handles it**: this is a known inconsistency. The user can (a) wait, or (b) escalate via the 1299 hotline.
+- **Meches clerk insists on the Misrad HaAliyah certificate even though the gov.il guide says the online system handles it**: this is a known inconsistency. The user can (a) wait, or (b) escalate via the *4954 hotline.
 - **Auto-approval fails for a returnee who was abroad on a long trip but kept an Israeli address**: Meches may classify the user as never having lost residency. Bring proof of foreign residency (lease, tax returns, work permit) to the in-person appointment.
 - **Customs broker (סוכן מכס) gives a different number than this skill quotes**: a broker is dealing with the live takanot and Meches commissioner discretion. Trust the broker on the actual filing; use this skill for the planning conversation BEFORE engaging the broker.
 - **The user already shipped 3 shipments**: not all is lost, the third shipment will clear as a regular import (full tax), but the goods clear; user pays the tax difference. This skill should have prevented this; surface the lesson and move on.
