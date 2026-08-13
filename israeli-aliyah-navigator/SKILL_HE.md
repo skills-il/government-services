@@ -491,7 +491,7 @@ python scripts/sal-klita-calculator.py --status couple --child-ages 3,9 --track 
 |---|---|---|
 | משרד העלייה והקליטה | https://www.gov.il/he/departments/ministry_of_aliyah_and_integration | סכומי סל קליטה עדכניים, רשימת אולפנים, זכאות לתושב חוזר |
 | אזור אישי באתר משרד הקליטה (klita.gov.il) | https://www.klita.gov.il/ | מעקב תשלומי סל קליטה, זכויות וטפסים לעולים |
-| כל-זכות, עולים ותושבים חוזרים | https://www.kolzchut.org.il/he/עולים_ותושבים_חוזרים | דפי זכויות עם הפניות לחקיקה וסכומים שנתיים |
+| כל-זכות, עולים ותושבים חוזרים | https://www.kolzchut.org.il/he/עולים | דפי זכויות עם הפניות לחקיקה וסכומים שנתיים |
 | נפש בנפש (עולים מארצות דוברות אנגלית) | https://www.nbn.org.il/ | סבסוד טיסות, סיכומי זכויות, ייעוץ תעסוקתי לפני עלייה |
 | הסוכנות היהודית | https://www.jewishagency.org/he/aliyah/ | פתיחת תיק, העלאת מסמכים, בדיקת זכאות |
 | שיבת ציון, מאגר הסברים בעברית ובאנגלית | https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842 | אפוסטיל לפי מדינה, רשויות תעודות יושר לפי מדינה, רשימות מסמכים, סקירת מעמדות חלופיים (אזרח עולה, קטין חוזר, עלייה בשנית, ARLI) |

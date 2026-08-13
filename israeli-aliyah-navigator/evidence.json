@@ -271,14 +271,16 @@
     },
     {
       "claim_id": "ref-link-kolzchut-olim",
-      "claim": "Kolzchut olim and returning residents category page",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "עולים ותושבים חוזרים",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "claim": "Kol Zchut hub page for olim, listing the benefit pages: income-tax credit points, tax benefits, purchase-tax discount, arnona discount and National Insurance exemption.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "נקודות זיכוי ממס הכנסה לעולה חדש הטבות מס לעולים הנחה במס רכישה לעולים הנחה בארנונה לעולים חדשים פטור מתשלום דמי ביטוח לאומי לעולים חדשים",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "ref-link-nbn",
@@ -515,15 +517,17 @@
     },
     {
       "claim_id": "oleh-credit-points-3-2-1-schedule",
-      "claim": "Olim receive additional tax credit points on a 3-2-1 schedule: 3 extra points months 1-18, 2 points months 19-30, 1 point months 31-42 (3.5 years total)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "נקודות זיכוי לעולה חדש בסך 3, 2, ו-1 נקודות ב-18, 12, ו-12 החודשים הראשונים (3.5 שנים סך הכל)",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Olim receive 1/4 of an annual credit point for each of the first 18 months after aliyah (about 726 NIS per month) and 1/6 of an annual point for each of the following 12 months (about 484 NIS per month). Expressed annually this is the 3 / 2 / 1 point schedule; the source states it per month.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%A2%D7%95%D7%9C%D7%94_%D7%97%D7%93%D7%A9",
+      "raw_snippet": "במשך כל אחד מ-18 החודשים הראשונים מאז עלייתם זכאים העולים ל-1/4 נקודת זיכוי שנתית (כלומר בממוצע 726 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הבאים זכאים העולים ל-1/6 נקודת זיכוי שנתית (כלומר בממוצע 484 ₪ לכל",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/tax-benefits-olim.md",
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "oleh-cumulative-credit-points-30-50k",
@@ -622,14 +626,16 @@
     },
     {
       "claim_id": "kolzchut-olim-hub",
-      "claim": "Kol-Zchut olim-and-returning-residents rights hub with statute citations and current-year amounts.",
-      "source_url": "https://www.kolzchut.org.il/he/עולים_ותושבים_חוזרים",
-      "raw_snippet": "עולים ותושבים חוזרים",
-      "fetched_at": "2026-06-13T22:45:49.663627+00:00",
+      "claim": "Kol Zchut hub page for olim, listing the benefit pages: income-tax credit points, tax benefits, purchase-tax discount, arnona discount and National Insurance exemption.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "נקודות זיכוי ממס הכנסה לעולה חדש הטבות מס לעולים הנחה במס רכישה לעולים הנחה בארנונה לעולים חדשים פטור מתשלום דמי ביטוח לאומי לעולים חדשים",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "sal-klita-standard-2026",

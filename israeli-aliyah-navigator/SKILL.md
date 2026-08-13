@@ -354,7 +354,7 @@ Result: Clear answer that UK rental income is exempt from Israeli tax for 10 yea
 |---|---|---|
 | Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Current Sal Klita amounts, Ulpan program list, returning-resident eligibility |
 | Klita.gov.il personal area (ezor ishi) | https://www.klita.gov.il/ | Sal Klita payment status, rights and forms for olim |
-| Kolzchut (Kol-Zchut) - Olim and returning residents | https://www.kolzchut.org.il/he/עולים_ותושבים_חוזרים | Authoritative rights pages with statute citations, current-year NIS amounts |
+| Kolzchut (Kol-Zchut) - Olim and returning residents | https://www.kolzchut.org.il/he/עולים | Authoritative rights pages with statute citations, current-year NIS amounts |
 | Nefesh B'Nefesh (English-speaking olim) | https://www.nbn.org.il/ | Flight subsidies, rights summaries, pre-aliyah employment guidance |
 | Jewish Agency (Sochnut) | https://www.jewishagency.org/aliyah/ | File opening, document upload, eligibility verification |
 | Shivat Zion knowledge base (EN/HE plain-English explainers) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842 | Apostille per country, background-check authorities by country, document checklist, alternate-status overviews (Ezrach Oleh, Katin Chozer, Aliyah BaShenit, ARLI) |
