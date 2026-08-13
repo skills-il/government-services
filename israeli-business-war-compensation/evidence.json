@@ -465,12 +465,14 @@
     {
       "claim_id": "general-business-compensation-iron-swords-url",
       "claim": "Kol-Zchut entry for general business compensation under Iron Swords war (turnover decline, indirect damage, wage track, fixed-cost track)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
-      "raw_snippet": "עסקים שמחזור העסקאות שלהם הוא בין 300,000 ₪ ל-400 מיליון ₪",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
+      "raw_snippet": "עסקים שמחזור העסקאות שלהם הוא בין 300,000 ₪ ל-400 מיליון ₪, זכאים למענק חודשי המורכב ממענק רכיב תשומות",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "reservist-business-owner-grant-url",
