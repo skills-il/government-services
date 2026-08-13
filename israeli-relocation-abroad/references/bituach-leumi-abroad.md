@@ -14,7 +14,7 @@ Two separate components are both collected by Bituach Leumi:
 
 | Component | What it funds | Rate on reported income |
 |-----------|---------------|-------------------------|
-| National Insurance (dmei bituach leumi) | Unemployment, maternity, disability, old-age pension, child allowance, work injury | 7% above the reduced-rate ceiling, lower rate below |
+| National Insurance (dmei bituach leumi) | Unemployment, maternity, disability, old-age pension, child allowance, work injury | Set by Bituach Leumi and updated periodically: a reduced rate below the reduced-rate ceiling and a full rate above it. Confirm the current figures at *6050 |
 | Health Insurance (dmei bituach briut) | Funds the universal health basket delivered via the four kupot cholim | 5% above the reduced-rate ceiling, lower rate below |
 
 ## 2026 Minimums (effective 01.01.2026)
@@ -66,4 +66,4 @@ If you discover you owe back payments after months or years abroad:
 
 - Main skill file: SKILL.md, Step 3 (pre-move financial checklist) and Step 6 (return planning)
 - Bituach Leumi page for Israelis abroad: https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx
-- Kol-Zchut article on payment procedure (Hebrew): https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו"ל
+- Kol-Zchut article on payment procedure (Hebrew): Kol-Zchut, search the page titled "דמי ביטוח לאומי ודמי ביטוח בריאות לתושב ישראל השוהה בחו"ל"

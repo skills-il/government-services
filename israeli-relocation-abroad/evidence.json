@@ -83,10 +83,13 @@
     },
     {
       "id": "pension-fund-47-percent-penalty",
-      "claim": "Early withdrawal from an Israeli pension fund (pensia mekifa) before retirement age triggers a tax penalty of approximately 47% on the withdrawn amount.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A9%D7%99%D7%9B%D7%AA_%D7%9B%D7%A1%D7%A4%D7%99_%D7%AA%D7%92%D7%9E%D7%95%D7%9C%D7%99%D7%9D_%D7%9E%D7%A7%D7%A8%D7%9F_%D7%A4%D7%A0%D7%A1%D7%99%D7%94",
-      "raw_snippet": "משיכת כספי תגמולים שלא לפי החוק חייבת במס בשיעור של 35% או לפי שיעור המס השולי הגבוה ביותר",
-      "fetched_on": "2026-05-26"
+      "claim": "Withdrawing provident-fund (kupat gemel) savings before the statutory withdrawal age costs 35% tax on the accumulated balance.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%95%D7%A4%D7%AA_%D7%92%D7%9E%D7%9C",
+      "raw_snippet": "ניתן למשוך כספים לפני המועדים אלה לאחר תשלום מס של 35% על היתרה שצבר העמית.",
+      "fetched_on": "2026-05-26",
+      "fetched_at": "2026-08-13T00:00:00Z",
+      "verified_via": "playwright",
+      "verified_at": "2026-08-13T00:00:00Z"
     },
     {
       "id": "apostille-court-fee-2026",
@@ -170,13 +173,6 @@
       "claim": "The kupat cholim redemption (pidyon) payment to cancel the waiting period equals 12 minimum monthly health insurance contributions for the year of return.",
       "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
       "raw_snippet": "פדיון תקופת המתנה, תשלום חד-פעמי השווה ל-12 תשלומי מינימום של דמי בריאות",
-      "fetched_on": "2026-05-26"
-    },
-    {
-      "id": "voluntary-bl-bituach-miratzon",
-      "claim": "Self-employed Israelis abroad can opt into voluntary continuation (Bituach mi-Ratzon) of specific BL branches including maternity/parental and work-injury, preserving contribution history needed for unemployment benefits on return.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9E%D7%A8%D7%A6%D7%95%D7%9F",
-      "raw_snippet": "ביטוח לאומי מרצון, אופציה להמשך מרצון של ענפים מסוימים לעצמאי השוהה בחו\"ל",
       "fetched_on": "2026-05-26"
     },
     {
@@ -348,18 +344,14 @@
       "fetched_on": "2026-07-14"
     },
     {
-      "id": "kz-bituach-mratzon",
-      "claim": "Kol-Zchut page on voluntary Bituach Leumi (ביטוח לאומי מרצון) -- rules for continuing contributions while abroad.",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_לאומי_מרצון",
-      "raw_snippet": "ביטוח לאומי מרצון",
-      "fetched_on": "2026-07-14"
-    },
-    {
       "id": "kz-dmei-bituach-abroad",
       "claim": "Kol-Zchut page on National Insurance and health contributions for an Israeli resident staying abroad.",
-      "source_url": "https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%95%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%94%D7%A9%D7%95%D7%94%D7%94_%D7%91%D7%97%D7%95%22%D7%9C",
       "raw_snippet": "דמי ביטוח לאומי",
-      "fetched_on": "2026-07-14"
+      "fetched_on": "2026-07-14",
+      "verified_via": "playwright",
+      "verified_at": "2026-08-13T00:00:00Z",
+      "fetched_at": "2026-08-13T00:00:00Z"
     },
     {
       "id": "kz-vehicle-import",
@@ -371,9 +363,12 @@
     {
       "id": "kz-miluim-abroad",
       "claim": "Kol-Zchut page on shortening, deferring, or being released from reserve duty due to going abroad.",
-      "source_url": "https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%99%D7%A6%D7%95%D7%A8%2C_%D7%93%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%95_%D7%A9%D7%97%D7%A8%D7%95%D7%A8_%D7%9E%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%A2%D7%A7%D7%91_%D7%99%D7%A6%D7%99%D7%90%D7%94_%D7%9C%D7%97%D7%95%22%D7%9C",
       "raw_snippet": "שירות מילואים",
-      "fetched_on": "2026-07-14"
+      "fetched_on": "2026-07-14",
+      "verified_via": "playwright",
+      "verified_at": "2026-08-13T00:00:00Z",
+      "fetched_at": "2026-08-13T00:00:00Z"
     },
     {
       "id": "btl-rates-hub",

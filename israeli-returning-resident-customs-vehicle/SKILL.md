@@ -245,7 +245,7 @@ None directly applicable. The customs Tax Authority does not expose an MCP / API
 | https://www.gov.il/he/pages/personal_import_of_vehicles_guide | Personal vehicle import guide (Israel Tax Authority) |
 | https://www.gov.il/he/departments/guides/personal_import_of_vehicles | Personal vehicle import (Misrad HaTachbura, approvals + type approval) |
 | https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | kolzchut, personal vehicle import for returning residents and students (updated 10.12.2025) |
-| https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע"מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית | kolzchut, customs exemption for returnee / student importing household goods (updated 02.03.2025) |
+| Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | kolzchut, customs exemption for returnee / student importing household goods (updated 02.03.2025) |
 | https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ | Nefesh B'Nefesh, returning-resident benefits hub (confirms toshav chozer pay full vehicle tax; only the 48-month age window is extended) |
 | https://www.nbn.org.il/ | Nefesh B'Nefesh general aliyah and life-in-Israel resources |
 | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Shivat Zion knowledge base for returning Israelis (operational guide on Misrad HaAliyah side) |

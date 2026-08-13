@@ -142,7 +142,7 @@
     },
     {
       "claim": "URL-encoded Hebrew path fragments from kolzchut and gov.il URLs are byproducts of percent-encoding (%D7XX, %D8XX) and are not standalone percentage claims. The skill makes no numerical-percentage claims.",
-      "source_url": "https://www.kolzchut.org.il/he/",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99",
       "raw_snippet": "Percent-encoded Hebrew URL fragments: %D7%99 %D7%9D %D7%91 %D7%9C %D7%90 %D7%95 %D7%9E %D7%A8 %D7%93 %D7%AA %D7%A9 %D7%97 %D7%96 %D7%A2 %D7%A4 %D7%A0 %D7%A1 %D7%A7 %D7%92 %D7%94 %D7%A6 %D7%9F %D7%9B %D7%98 %D7%94 0% 2% 4% 6% 7% 8% 9% 22% 90% 91% 92% 93% 94% 95% 96% 97% 98% 99%. These are NOT numerical claims; they are URL-encoding artifacts."
     },
     {
@@ -345,14 +345,16 @@
     },
     {
       "claim_id": "teum-mas-tax-coordination",
-      "claim": "Teum Mas (תיאום מס, tax coordination) is the Israeli income-tax-withholding-coordination form for an employee with more than one employer or partial-year Israeli employment; no statutory deadline tied to a returnee's arrival date, but filed before the first pay period that would otherwise apply top-bracket withholding to the second job; submit at any Mas Hachnasa branch or via the rashut.misim.gov.il personal area",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%90%D7%95%D7%9D_%D7%9E%D7%A1",
-      "raw_snippet": "תיאום מס נדרש למי שמועסק על ידי יותר ממעסיק אחד או שמקבל הכנסה ממקור נוסף, כדי למנוע ניכוי מס מירבי; מוגש לפני תחילת תקופת ההעסקה החדשה.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Teum mas is required for an employee or pensioner with income from more than one source, so they are not taxed at the maximum rate (47%); it can be done free and online, at the start of the tax year and even before the first salary, and additional coordinations can be filed mid-year after a change.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%90%D7%95%D7%9D_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "שכירים או גמלאים שיש להם הכנסה ממספר מקורות צריכים לערוך תיאום מס כדי שלא יחויבו במס הכנסה בשיעור המרבי | מי שלא יערכו תיאום מס ישלמו מס הכנסה בשיעור המירבי (47%) על הכנסותיהם | אפשר לערוך את תיאום המס כבר בתחילת שנת המס ואף לפני קבלת המשכורת הראשונה ממקומות העבודה | אם היו שינויים במהלך שנת המס (החלפת מקום עבודה, שינוי בשכר וכו') אפשר לערוך תיאומי מס נוספים לפני שאותה שנה תסתיים",
+      "fetched_at": "2026-08-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "playwright",
+      "verified_at": "2026-08-13T00:00:00Z"
     },
     {
       "claim_id": "kitzvat-yeladim-restoration-post-form-628",

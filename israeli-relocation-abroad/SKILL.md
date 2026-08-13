@@ -98,7 +98,7 @@ Two to three months before the flight is the right window for most of this.
 
 An Israeli who stays a tax resident must keep paying Bituach Leumi and health insurance (dmei briut) while abroad, even with zero income. This is how you keep continuous kupat cholim coverage and avoid a waiting period on return.
 
-- Contribution rates on reported income abroad: 7% National Insurance + 5% health insurance (on amounts above the reduced-rate ceiling, lower rates below)
+- Contribution rates on income reported abroad are set and updated by BL. Confirm at *6050
 - **Bituach Leumi minimums, effective 01.01.2026:**
   - Non-treaty country, no income: ₪266/month combined (NI + health)
   - Treaty country (USA, UK, most of EU, Canada), paying social security locally: ₪123/month (health only)
@@ -116,7 +116,7 @@ If you formally cut residency (nituk toshavut), you stop paying Bituach Leumi bu
 | Instrument | Options while abroad | What most people do |
 |-----------|---------------------|---------------------|
 | Comprehensive pension fund (pensia mekifa) | Freeze (no contributions), self-pay at minimum, withdraw (heavy tax penalty) | Freeze the fund. Contributions stop, accumulated balance keeps investing |
-| Keren hishtalmut | Continue via new Israeli employer contribution (rare abroad), freeze, or withdraw after 6 years | Freeze. Do not withdraw early -- triggers 47% tax |
+| Keren hishtalmut | Continue via new Israeli employer contribution (rare abroad), freeze, or withdraw after 6 years | Freeze. Early withdrawal costs 35% tax |
 | Kupat gemel / finance | Freeze | Same |
 
 For all three, confirm in writing with the fund that the policy is frozen, not cancelled. Ask whether management fees continue on the frozen balance (some funds charge, some don't).
@@ -214,7 +214,7 @@ Returning families with kids born abroad face a symmetric document drill to the 
 Three further return-planning areas have substantial mechanics summarized briefly here and detailed in `references/return-side-deep-topics.md`:
 
 - **Stock options earned abroad** (RSU / Section 102): split-period treatment, sourced by vesting-period work location, not grant date. Foreign-vesting portion exempt for vatik under Section 14; Israeli-vesting portion taxable at marginal rate. Largest "I didn't know I owed" surprise for returning tech workers. Full mechanics: sister skill `israeli-toshav-chozer-vatik-tax-planner`.
-- **Voluntary Bituach Leumi** (Bituach mi-Ratzon): self-employed abroad can preserve contribution history (relevant for unemployment eligibility on return, which needs 12 of last 18 months). Check Kol-Zchut or call *6050.
+- **Voluntary Bituach Leumi** (Bituach mi-Ratzon): self-employed abroad may preserve contribution history (relevant for unemployment eligibility on return, needing 12 of last 18 months). Confirm at *6050.
 - **Estate planning while abroad**: dual-jurisdiction wills, host-country inheritance tax (US estate tax above $60K for non-resident-alien decedents, UK IHT, French succession), apostilled POAs. Important for relocations exceeding 5 years.
 
 **Kupat cholim waiting period:**
@@ -235,7 +235,7 @@ Actions:
 1. Gather situation: destination USA (treaty country), duration 4 years, family of 4, Israeli-owned 4-room apartment in Ramat Gan, pension fund at Menora Mivtachim
 2. Residency decision: 4 years is borderline. Since kids are with them and there is no clear Israeli home, recommend considering formal nituk toshavut and documenting it (will qualify as regular toshav chozer on return at year 6+). Flag the Form 1348 option if they keep ties
 3. Generate pre-move checklist: Bituach Leumi continuation via standing order if staying resident, or formal exit if cutting; apartment rental with 10% landlord tax track; apostille on marriage and children's birth certificates
-4. Pension fund: freeze the comprehensive fund and keren hishtalmut, do not withdraw (withdrawal triggers ~47% tax)
+4. Pension fund: freeze the comprehensive fund and keren hishtalmut (early withdrawal costs 35% tax)
 5. School records: apostille teudat gmar for kids in case of re-enrollment abroad
 6. Budget for relocation: apostille stamps (one per document -- marriage, both birth certificates, diploma), an international driving permit, and property management fees on the Israeli apartment. Get current prices from the court secretariat, MEMSI/Israeli automobile club, and the managing agency -- do not quote figures from memory
 
@@ -304,15 +304,15 @@ All three MCPs are optional -- this skill works without them, but pairing gives 
 | Source | URL | What to check |
 |--------|-----|----------------|
 | Bituach Leumi -- contribution rates for non-workers | https://www.btl.gov.il/Insurance/Rates/Pages/default.aspx | Minimum national insurance and health insurance amounts (the Living_abroad landing page carries no figures) |
-| Kol-Zchut -- National insurance while abroad | https://www.kolzchut.org.il/he/דמי_ביטוח_לאומי_ודמי_ביטוח_בריאות_לתושב_ישראל_השוהה_בחו"ל | Payment procedure and treaty country exemptions |
+| Kol-Zchut -- National insurance while abroad | Kol-Zchut: "דמי ביטוח לאומי ודמי ביטוח בריאות לתושב ישראל השוהה בחו"ל" | Payment procedure and treaty country exemptions |
 | Kol-Zchut -- Returning resident benefits | https://www.kolzchut.org.il/he/תושבים_חוזרים | Toshav chozer and toshav chozer vatik eligibility and rights |
 | PwC Tax Summaries -- Israel tax administration | https://taxsummaries.pwc.com/israel/individual/tax-administration | Annual filing process, who must file, and the top marginal rate |
 | PwC Tax Summaries -- Israel individual residence | https://taxsummaries.pwc.com/israel/individual/residence | Days test and center-of-life test details |
 | hltaxes -- Israeli exit tax overview | https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat | Section 100A deemed-sale mechanics, rates, deferral option |
-| Kol-Zchut -- Reserve duty deferral due to going abroad | https://www.kolzchut.org.il/he/קיצור,_דחייה_או_שחרור_משירות_מילואים_עקב_יציאה_לחו"ל | Form 58 vs Valtam, timing, appeal route |
+| Kol-Zchut -- Reserve duty deferral due to going abroad | Kol-Zchut: "קיצור, דחייה או שחרור משירות מילואים עקב יציאה לחו"ל" | Form 58 vs Valtam, timing, appeal route |
 | Kol-Zchut -- Vehicle import for returning residents | https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | Vehicle age limits and 9-month import window |
 | Shivat Zion -- Returning Israelis knowledge base (Misrad HaAliyah operational guide) | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Step-by-step Toshav Chozer process, customs, employment, healthcare on return |
-| Kol-Zchut -- Voluntary Bituach Leumi (Bituach mi-Ratzon) | https://www.kolzchut.org.il/he/ביטוח_לאומי_מרצון | Voluntary continuation rules and eligibility |
+| Bituach Leumi -- payments abroad | https://www.btl.gov.il/ | Voluntary continuation; call *6050 |
 | PwC Tax Summaries -- Israel income determination | https://taxsummaries.pwc.com/israel/individual/income-determination | Section 100A rate granularity (25% / 30% / 23% corporate) |
 
 ## Troubleshooting

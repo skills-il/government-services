@@ -438,11 +438,13 @@
     },
     {
       "claim_id": "SECTION_14_TAX_PLANNER_HANDOFF",
-      "claim": "Section 14 / סעיף 14 of the Income Tax Ordinance is the source of the toshav chozer vatik 10-year tax exemption, handled by the sister tax-planner skill, not this customs skill",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%98%D7%91%D7%95%D7%AA_%D7%91%D7%9E%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
+      "claim": "Section 14(a) of the Income Tax Ordinance is the source of the toshav chozer vatik 10-year exemption on foreign-source income, handled by the sister tax-planner skill, not this customs skill.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
       "source_label": "kolzchut - tax benefits for returning residents",
-      "raw_snippet": "סעיף 14 לפקודת מס הכנסה",
-      "verified_via": "Cross-reference to israeli-toshav-chozer-vatik-tax-planner sister skill"
+      "raw_snippet": "14. (א) יחיד שהיה לתושב ישראל לראשונה ותושב חוזר ותיק יהיו פטורים ממס במשך עשר שנים מהמועד שהיו לתושבי ישראל כאמור, על הכנסותיהם מכל המקורות המנויים בסעיפים 2, 2א ו-3, שהופקו או שנצמחו מחוץ לישראל או שמקורן בנכסים מחוץ לישראל",
+      "verified_via": "playwright",
+      "fetched_at": "2026-08-13T00:00:00Z",
+      "verified_at": "2026-08-13T00:00:00Z"
     },
     {
       "claim_id": "SECTION_9_AML_LAW",
@@ -606,10 +608,12 @@
     {
       "claim_id": "KOLZCHUT_HOUSEHOLD_URL_PARTIAL",
       "claim": "kolzchut household-goods customs page referenced via partial URL form",
-      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A7%D7%A0%D7%99%D7%94%2C_%D7%9E%D7%A2%22%D7%9E_%D7%95%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%9E%D7%9B%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%95%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98_%D7%97%D7%95%D7%96%D7%A8_%D7%91%D7%99%D7%99%D7%91%D7%95%D7%90_%D7%97%D7%A4%D7%A6%D7%99_%D7%91%D7%99%D7%AA",
       "source_label": "kolzchut household-goods customs page (URL-prefix match)",
       "raw_snippet": "kolzchut household-goods customs page for returnees; full URL contains a quote character that confuses simple URL extractors",
-      "verified_via": "Manual cross-reference, 2026-05-23"
+      "verified_via": "playwright",
+      "verified_at": "2026-08-13T00:00:00Z",
+      "fetched_at": "2026-08-13T00:00:00Z"
     },
     {
       "claim_id": "VEHICLE_BAALUT_REMOVAL_PROCEDURE",

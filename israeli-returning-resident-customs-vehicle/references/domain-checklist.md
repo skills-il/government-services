@@ -49,7 +49,7 @@ Last research date: 2026-05-23. The gov.il customs guide for returning residents
    - Apply online via the gov.il service "בקשת זכאות לפטור לתושבים חוזרים" at https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student . Exact pathway: fill טופס קביעת מעמד תושב חוזר ושליחתו באמצעות האינטרנט ([gov.il customs guide ch. "תנאים נוספים"](https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=9)).
    - System opens the file automatically. If automated approval fails, the returnee visits a Meches office with: their Israeli ID + passport, spouse's ID + passport, and the תעודת תושב חוזר from Misrad HaAliyah if available (same chapter).
    - Returning students bring institutional certification (2 years full-time enrollment, or degree certificate).
-   - Deposit / bond: on entry the returnee may need to deposit a bond equal to 6 months of the applicable taxes; refunded if the entitlement file is approved within 9 months ([kolzchut customs exemption for returnee](https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע"מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית), updated 02.03.2025).
+   - Deposit / bond: on entry the returnee may need to deposit a bond equal to 6 months of the applicable taxes; refunded if the entitlement file is approved within 9 months ([kolzchut customs exemption for returnee](Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית"), updated 02.03.2025).
 
 8. **Currency declaration (anti-money-laundering, separate from customs benefits but in the same arrival flow)**
    - **50,000 NIS threshold at air/sea border**, **12,000 NIS at land borders**. Section 9 of the Anti-Money-Laundering Law requires declaration above the threshold; family members traveling together cannot pool to skirt the cap; failure to declare triggers seizure, fine, or up to 6 months imprisonment ([gov.il customs guide ch. "חובת דיווח על הכנסת כספים"](https://www.gov.il/he/pages/customs-guide-for-returning-residents?chapterIndex=10), updated 18.05.2026).
@@ -87,7 +87,7 @@ Last research date: 2026-05-23. The gov.il customs guide for returning residents
 | https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student | Regulator (Israel Tax Authority - service page) | he | 2026-05-23 (WebSearch confirmation; in active gov.il service catalog) |
 | https://www.gov.il/he/pages/personal_import_of_vehicles_guide | Regulator (Israel Tax Authority - vehicle import guide) | he | 2026-05-23 (WebSearch confirmation) |
 | https://www.gov.il/he/departments/guides/personal_import_of_vehicles | Regulator (Misrad HaTachbura - personal vehicle import) | he | 2026-05-23 (WebSearch confirmation) |
-| https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע"מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית | Public-rights wiki | he | 2026-05-23 (page last updated 02.03.2025) |
+| Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | Public-rights wiki | he | 2026-05-23 (page last updated 02.03.2025) |
 | https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | Public-rights wiki (vehicle) | he | 2026-05-23 (page last updated 10.12.2025) |
 | https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/ | Israeli CPA firm (Amnon Ben-Shoshan) | he | 2026-05-23 |
 

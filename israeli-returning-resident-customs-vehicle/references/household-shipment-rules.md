@@ -100,5 +100,5 @@ Exact text: "בכל שנת היעדרות מהארץ אתם יכולים לבק�
 ## Citations
 
 - [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), updated 18.05.2026. Chapters: תושבים חוזרים, חפצי בית המיובאים מחוץ לארץ, יבוא חפצים בחבילות דואר, תנאים נוספים לאישור הזכויות.
-- [kolzchut, customs exemption for returnee household goods](https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע"מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית), updated 02.03.2025.
+- [kolzchut, customs exemption for returnee household goods](Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית"), updated 02.03.2025.
 - [bshcpa - Customs Rights for Returning Residents](https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/).

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3 - 2026-08-13
+
+Repointed the Section 14 handoff citation from a dead Kol-Zchut page to the Income Tax Ordinance itself, and replaced three raw Kol-Zchut URLs containing a gershayim with the page titles, since the quote character truncated them into dead links.
+
 ## 1.2.2 - 2026-08-13
 
 Four corrections against the official personal-import page. US federal and Canadian standards are explicitly accepted, so the claim that US-spec vehicles are rejected for lacking EURO 6d certification is removed. Inspection is at a מכון רישוי under Takana 309 (registration conditioned by Takana 282), not a מכון לבטיחות בדרכים. ESP is verified from the technical spec and dashboard lamp; there is no 'takan 124'. The Tax Authority line is *4954, not 1299.

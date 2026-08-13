@@ -19,7 +19,7 @@ Self-employed Israelis abroad can opt into voluntary continuation of specific BL
 
 The main use case is a returnee who plans to need unemployment benefits on re-entry. Eligibility for unemployment benefits depends on a qualifying contribution history (12 of the last 18 months for full eligibility), so voluntary contributions while abroad can preserve that window.
 
-Check the Kol-Zchut "ביטוח לאומי מרצון" page or call BL *6050 before assuming you are covered. Rates change annually with the BL minimums.
+Call BL at *6050 or check btl.gov.il before assuming you are covered; we could not verify the current branch list against a primary source. Rates change annually with the BL minimums.
 
 ## Estate planning while abroad
 
