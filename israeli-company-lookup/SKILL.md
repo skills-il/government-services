@@ -23,7 +23,7 @@ Search the Israel Corporations Authority (rashut hatagidim):
 - URL: `https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8`
 - Search by: Company name (Hebrew or English) or company number
 - Free basic info: company number, name, type, limited/unlimited, legal status, registered address, purpose, annual-fee debts, and whether the company has been declared "in breach of law" (mufrat hok)
-- Paid full extract (nesach chevra): submit at `https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract`. Approximately 15 EUR / 53 NIS per extract (2026; verify on the request form)
+- Paid full extract (nesach chevra): submit at `https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract`. The fee is stated on the request form itself (it changes annually, so we do not reproduce it here)
 - For amutot (NPOs) and CHL"Tz, use GuideStar instead: `https://www.guidestar.org.il` (free; consolidated Ministry of Justice portal)
 - For partnerships (shutfut), use `https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract`
 - Status values (2026): pe'ila (active), be-piruq (in liquidation), nimekhqa (struck off), mufrat hok (in breach of law -- e.g. unpaid annual fees, missing reports)
@@ -86,17 +86,17 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | Companies Registrar (ICA / rashut hatagidim) | https://ica.justice.gov.il | Company search, status, filings, ownership |
-| Free company snapshot | https://www.gov.il/en/service/company_extract | Basic info free; full extract paid (approximately 53 NIS / 15 EUR, 2026) |
+| Free company snapshot | https://www.gov.il/en/service/company_extract | Basic info free; full extract paid (fee shown on the request form) |
 | GuideStar (Amutot + CHL"Tz) | https://www.guidestar.org.il | Consolidated MoJ portal for NPOs and public-benefit companies. Free extracts |
 | Partnership extract | https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract | Nesach shutfut from Rasham HaShutfuyot |
 | data.gov.il - ica_companies | https://data.gov.il/dataset/ica_companies | Bulk dump of companies registrar (CKAN API available) |
 | Reshumot - Yalkut HaPirsumim | https://www.gov.il/he/Departments/DynamicCollectors/gazette-official | Official gazette: liquidation notices, dissolution petitions, creditor calls |
 | Insolvency Commissioner (post-2019 cases) | https://insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx | Searchable case list under Insolvency and Economic Rehabilitation Law 2018 |
-| Apotropos Klali (legacy pre-2019 files + general guardianship) | https://www.gov.il/he/departments/the_official_receiver | Older psikat regel files, kintus nechasim |
+| Apotropos Klali (legacy pre-2019 files + general guardianship) | https://www.gov.il/he/departments/agor_ministry_of_justice | Older psikat regel files, kintus nechasim |
 | Israel Tax Authority | https://www.gov.il/he/departments/israel_tax_authority | Verify business TIN (mispar osek) separately |
 | NBCTF sanctions designations | https://nbctf.mod.gov.il/en/Minister%20Sanctions/Designation/Pages/downloads.aspx | Counter-Terrorism Law 2016 designations of sanctioned individuals and entities. Critical for due-diligence on Israeli counterparties post-Iron-Swords. |
 | Israel Securities Authority (ISA) licensed entities | https://www.isa.gov.il | Portfolio managers, investment advisors, marketers (public licensed list) |
-| Capital Market Authority (CMA) registries | https://www.gov.il/he/departments/capital_markets_insurance_savings_authority | Licensed insurers, pension funds, kupot gemel, investment houses |
+| Capital Market Authority (CMA) registries | https://www.gov.il/he/departments/units/department_cma | Licensed insurers, pension funds, kupot gemel, investment houses |
 
 ## Troubleshooting
 

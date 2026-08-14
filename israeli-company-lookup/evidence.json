@@ -147,6 +147,159 @@
       "raw_snippet": "נסח חברה תאגידים ברשת (תאגידים ONLINE)",
       "verified": true,
       "method": "Page title and heading of the company-extract request wizard, fetched 2026-08-13."
+    },
+    {
+      "claim_id": "registrar-annual-fee-2026",
+      "claim": "A company or partnership registered with the Corporations Authority owes an annual fee per calendar year. The reduced fee of 1,338 NIS is payable until 31.03.2026; from 01.04.2026 the standard rate of 1,777 NIS applies.",
+      "source_url": "https://www.gov.il/he/service/company_partnership_annual_payment",
+      "raw_snippet": "אגרה שנתית חברות: ניתן לשלם אגרה מופחתת בסך 1,338 ש\"ח עד ל-31.03.2026. החל מה-01.04.2026 התעריף יעודכן לתעריף הרגיל בסך של 1,777 ש\"ח.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "references/"
+      ]
+    },
+    {
+      "claim_id": "registrar-partnership-annual-fee-2026",
+      "claim": "A registered partnership pays a separate annual fee from a company: reduced 1,333 NIS until 31.03.2026, standard 1,771 NIS from 01.04.2026.",
+      "source_url": "https://www.gov.il/he/service/company_partnership_annual_payment",
+      "raw_snippet": "אגרה שנתית שותפויות: ניתן לשלם אגרה מופחתת בסך 1,333 ש\"ח עד ל- 31.03.2026. החל מה-01.04.2026 התעריף יעודכן לתעריף הרגיל בסך של 1,771 ש\"ח.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "references/entity-types.md"
+      ]
+    },
+    {
+      "claim_id": "ito-126-corporate-tax-23",
+      "claim": "Section 126(a) of the Income Tax Ordinance imposes corporate tax on a body of persons' taxable income at 23%.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
+      "raw_snippet": "מס חברות 126. (א) על הכנסתו החייבת של חבר בני-אדם יוטל מס שייקרא \"מס חברות\", בשיעור של 23%.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "curl",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "ito-121-top-marginal-47",
+      "claim": "Section 121(a) sets individual income-tax brackets, with 47% applying to each additional shekel above 560,280 NIS.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
+      "raw_snippet": "121. (א) המס על הכנסתו החייבת של יחיד בשנת המס יהיה כלהלן: (1) על כל שקל חדש מ-301,200 השקלים החדשים הראשונים – 31%; (2) על כל שקל חדש מ-301,201 שקלים חדשים עד 560,280 שקלים חדשים – 35%; (3) על כל שקל חדש נוסף – 47%.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "curl",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "registry-apotropos-klali",
+      "claim": "האפוטרופוס הכללי והממונה על ענייני ירושה is reachable at https://www.gov.il/he/departments/agor_ministry_of_justice and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.gov.il/he/departments/agor_ministry_of_justice",
+      "raw_snippet": "האפוטרופוס הכללי והממונה על ענייני ירושה",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-cma",
+      "claim": "רשות שוק ההון, ביטוח וחיסכון is reachable at https://www.gov.il/he/departments/units/department_cma and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.gov.il/he/departments/units/department_cma",
+      "raw_snippet": "רשות שוק ההון, ביטוח וחיסכון",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-ita",
+      "claim": "רשות המסים is reachable at https://www.gov.il/he/departments/israel_tax_authority and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-company-extract",
+      "claim": "נסח חברה is reachable at https://www.gov.il/he/service/company_extract and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.gov.il/he/service/company_extract",
+      "raw_snippet": "נסח חברה",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-gazette",
+      "claim": "רשומות is reachable at https://www.gov.il/he/Departments/DynamicCollectors/gazette-official and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.gov.il/he/Departments/DynamicCollectors/gazette-official",
+      "raw_snippet": "רשומות",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-isa",
+      "claim": "רשות ניירות ערך is reachable at https://www.isa.gov.il and is cited only as a navigational pointer to that registry, not as the source of any figure.",
+      "source_url": "https://www.isa.gov.il",
+      "raw_snippet": "רשות ניירות ערך",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-nbctf",
+      "claim": "The page at https://nbctf.mod.gov.il/he/Pages/default.aspx is served under the title 'חזית כלכלית מול הטרור | מט\"ל - המטה הלאומי ללוחמה כלכלית בטרור' and is cited only as a navigational pointer.",
+      "source_url": "https://nbctf.mod.gov.il/he/Pages/default.aspx",
+      "raw_snippet": "חזית כלכלית מול הטרור | מט\"ל - המטה הלאומי ללוחמה כלכלית בטרור",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-nbctf-designations",
+      "claim": "The page at https://nbctf.mod.gov.il/en/Minister%20Sanctions/Designation/Pages/downloads.aspx is served under the title 'Designations Lists (DATA) | NBCTF - National Bureau for Counter Terror Financing of Israel' and is cited only as a navigational pointer.",
+      "source_url": "https://nbctf.mod.gov.il/en/Minister%20Sanctions/Designation/Pages/downloads.aspx",
+      "raw_snippet": "Designations Lists (DATA) | NBCTF - National Bureau for Counter Terror Financing of Israel",
+      "fetched_at": "2026-08-14",
+      "verified_via": "playwright navigation (page load, not fetch status)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

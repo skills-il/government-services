@@ -15,7 +15,7 @@
 - כתובת: `https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8`
 - חיפוש לפי: שם חברה (עברית או אנגלית) או מספר חברה
 - מידע בסיסי בחינם: מספר חברה, שם, סוג, מוגבלת/לא מוגבלת, סטטוס, כתובת רשומה, מטרות, חובות אגרה שנתית והאם החברה הוכרזה "מפרת חוק"
-- נסח חברה מלא בתשלום: בבקשה ב-`https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract`. כ-53 ש"ח / 15 יורו לנסח (2026; יש לוודא בטופס הבקשה)
+- נסח חברה מלא בתשלום: בבקשה ב-`https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract`. האגרה מופיעה בטופס הבקשה עצמו (היא מתעדכנת מדי שנה, ולכן איננו מציינים אותה כאן)
 - לעמותות וחל"צ - תשתמשו ב-גיידסטאר: `https://www.guidestar.org.il` (בחינם; הפורטל המאוחד של משרד המשפטים)
 - לשותפויות: `https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract`
 - סטטוסים אפשריים (2026): פעילה, בפירוק, נמחקה, מפרת חוק (למשל אגרה שלא שולמה או דוח שנתי שלא הוגש)
@@ -72,17 +72,17 @@
 | מקור | כתובת | מה לבדוק |
 |------|-------|----------|
 | רשם החברות (רשות התאגידים) | https://ica.justice.gov.il | חיפוש חברות, סטטוס, דיווחים ובעלות |
-| מידע בסיסי / נסח חברה | https://www.gov.il/he/service/company_extract | מידע בסיסי בחינם, נסח מלא בתשלום (כ-53 ש"ח / 15 יורו, 2026) |
+| מידע בסיסי / נסח חברה | https://www.gov.il/he/service/company_extract | מידע בסיסי בחינם, נסח מלא בתשלום (האגרה מופיעה בטופס הבקשה) |
 | גיידסטאר (עמותות וחל"צ) | https://www.guidestar.org.il | פורטל מאוחד של משרד המשפטים. נסחים חינם |
 | נסח שותפות | https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract | נסח רשמי מרשם השותפויות |
 | data.gov.il - ica_companies | https://data.gov.il/dataset/ica_companies | מאגר נתונים בולק של רשם החברות (CKAN API) |
 | רשומות - ילקוט הפרסומים | https://www.gov.il/he/Departments/DynamicCollectors/gazette-official | עיתון רשמי: הודעות פירוק, בקשות פירוק, קריאות לנושים |
 | הממונה על חדלות פירעון (תיקים מ-2019 ואילך) | https://insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx | רשימת תיקים לחיפוש לפי חוק חדלות פירעון 2018 |
-| אפוטרופוס כללי (תיקים ישנים מלפני 2019, אפוטרופסות כללית) | https://www.gov.il/he/departments/the_official_receiver | תיקי פשיטת רגל ישנים, כינוס נכסים |
+| אפוטרופוס כללי (תיקים ישנים מלפני 2019, אפוטרופסות כללית) | https://www.gov.il/he/departments/agor_ministry_of_justice | תיקי פשיטת רגל ישנים, כינוס נכסים |
 | רשות המסים | https://www.gov.il/he/departments/israel_tax_authority | אימות מספר עוסק בנפרד |
-| הכרזות NBCTF (סנקציות) | https://nbctf.mod.gov.il/he | הכרזות לפי חוק המאבק בטרור 2016. קריטי לבדיקת נאותות אחרי חרבות ברזל. |
+| הכרזות NBCTF (סנקציות) | https://nbctf.mod.gov.il/he/Pages/default.aspx | הכרזות לפי חוק המאבק בטרור 2016. קריטי לבדיקת נאותות אחרי חרבות ברזל. |
 | רשות ניירות ערך (ISA) | https://www.isa.gov.il | רשימת מנהלי תיקים, יועצים, משווקים מורשים |
-| רשות שוק ההון, ביטוח וחיסכון | https://www.gov.il/he/departments/capital_markets_insurance_savings_authority | מבטחים מורשים, קרנות פנסיה, קופות גמל, בתי השקעות |
+| רשות שוק ההון, ביטוח וחיסכון | https://www.gov.il/he/departments/units/department_cma | מבטחים מורשים, קרנות פנסיה, קופות גמל, בתי השקעות |
 
 ## פתרון בעיות
 

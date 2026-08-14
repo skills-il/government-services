@@ -25,7 +25,7 @@
 - Chevra Baam incorporation: 2,559 NIS online / 3,123 NIS paper
 - Annual fee (chevra pratit): 1,338 NIS until 31 March / 1,777 NIS from 1 April
 - Partnership annual fee: 1,333 NIS until 31 March / 1,771 NIS from 1 April
-- Full company extract (nesach chevra): approximately 53 NIS / 15 EUR
+- Full company extract (nesach chevra): fee stated on the request form
 - Basic snapshot on the public search page: free
 
 ## Key Registries
