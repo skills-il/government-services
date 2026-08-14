@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 - 2026-08-13
+
+Moved the Examples section to references/ to bring SKILL.md under the 5,000-word validator cap, which it had been exceeding. No content was removed.
+
 All notable changes to this skill are documented here.
 
 ## [1.2.0] - 2026-08-09
