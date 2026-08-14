@@ -141,7 +141,7 @@ This reference provides a detailed month-by-month breakdown of the first year af
 
 ### Ulpan Completion
 
-- Complete Ulpan Aleph (500 hours)
+- Complete Ulpan Aleph (attend at least 80% of lessons to get full reimbursement)
 - Consider continuing to Ulpan Bet for further improvement
 - Practice Hebrew in daily life and at work
 - Read Israeli news in Hebrew (even partially)

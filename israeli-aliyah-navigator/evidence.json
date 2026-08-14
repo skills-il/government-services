@@ -7,23 +7,27 @@
       "claim_id": "passport-2-years-validity",
       "claim": "Aliyah passport recommended valid at least 2 years",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
-      "raw_snippet": "valid for at least another 2 years",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "The passport must be valid for at least another 2 years.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "marriage-cert-pre-marriage-status-2024",
       "claim": "Effective Sept 30 2024, marriage certificate must show pre-marriage civil status of both spouses",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
-      "raw_snippet": "From Sept 30, 2024 onward, must show pre-marriage status",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Olim who make aliyah after September 30, 2024 must present a marriage certificate stating their status prior to marriage (whether single, divorced or widowed).",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "background-check-shinui-maamad-2024",
@@ -40,89 +44,92 @@
       "claim_id": "background-check-country-coverage",
       "claim": "Background check required from country of birth, every country of continuous residence over 1 year after age 14, and every country of current citizenship",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348703-background-check",
-      "raw_snippet": "Your country of birth; Any country where you've lived continuously for over 1 year (after age 14); Any country of which you currently hold citizenship",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "and any country whose citizenship you currently hold, even if you have never lived there.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "ulpan-500-hours",
-      "claim": "Free Ulpan Aleph entitlement is 500 hours within 18 months of aliyah (widely-quoted Misrad HaAliyah policy figure; verify current entitlement with the absorbing Misrad HaKlita branch since hour caps have been adjusted periodically)",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348711-aliyah-benefits-z-chuyot",
-      "raw_snippet": "Ulpan Aleph, free Hebrew course for new olim, around 500 hours of subsidized study within the first 18 months",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ulpan-80-percent-attendance",
       "claim": "Ulpan requires 80% attendance minimum to stay in the subsidized track",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348711-aliyah-benefits-z-chuyot",
-      "raw_snippet": "requires 80% attendance",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "In order to receive full reimbursement, you must attend at least 80% of the lessons.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ulpan-second-course-10-years",
       "claim": "Second subsidized Ulpan course available within 10 years of aliyah; only one of the two can be at a private/recognized institution",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348711-aliyah-benefits-z-chuyot",
-      "raw_snippet": "Second course available within 10 years (only one can be private)",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "There is an option for a second Ulpan within 10 years after Aliyah, only one of the two can be a private Ulpan though.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ezrach-oleh-7-year-residence-proof",
       "claim": "Ezrach Oleh applicants need proof of residence outside Israel for the past 7 years and a 7-year table of entries and exits",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
-      "raw_snippet": "Proof of residence outside Israel for the past 7 years; Table of entries and exits to/from Israel (7-year history)",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "You have to prove that you resided outside of Israel during the last 7 years, such as a certificate of residence, a valid foreign passport, school documents or other proofs.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ezrach-oleh-definition",
       "claim": "Ezrach Oleh is someone born outside of Israel to an Israeli father or mother who held Israeli citizenship at the time of your birth",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
-      "raw_snippet": "born outside of Israel to an Israeli father or mother (who held Israeli citizenship at the time of your birth)",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "If you were born outside of Israel to an Israeli father or mother (who held Israeli citizenship at the time of your birth), you have a special status called Ezrach Oleh.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "katin-chozer-under-14-departure",
       "claim": "Katin Chozer is a returning minor who departed Israel before turning 14",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
-      "raw_snippet": "born in Israel or immigrated as a child but departed before turning 14",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "If you were born in Israel or made Aliyah as a child and left Israel before the age of 14, you have a special status called Katin Chozer/Returning Minor.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "katin-chozer-under-30-parental-docs",
       "claim": "Katin Chozer applicants under 30 need parental documentation including parents' declaration, work proof for past 5 years, parents' entry/exit records, proof parents resided abroad during applicant's ages 14-18",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
-      "raw_snippet": "For applicants under 30: Additional parental documentation is required, including their declaration, work proof (past 5 years), entry/exit records, and proof they resided abroad during your ages 14-18",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "If you are under 30 years old, additional documents from your parents are required:",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "aliyah-bashenit-individual-review",
@@ -139,57 +146,67 @@
       "claim_id": "arli-3-month-window",
       "claim": "Olim have a guaranteed right to declare ARLI (renouncing Israeli citizenship) within 3 months of their aliyah date",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
-      "raw_snippet": "Olim have a guaranteed right to declare ARLI up to three months from their Aliyah date",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Olim have a guaranteed right to declare ARLI up to three months from their Aliyah date.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "arli-18-or-older",
       "claim": "ARLI declaration is for individuals over 18 who made Aliyah or are foreign residents; one parent can declare for family with both spouses' consent",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
-      "raw_snippet": "Only individuals over 18 who made Aliyah or are foreign residents may declare ARLI; One parent can proceed with both spouses' consent",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "ARLI can only be declared by a person over 18 years old who made Aliyah or is a foreign resident.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "apostille-hague-convention",
       "claim": "Apostille is an official government authentication certificate; required from Hague Convention signatory countries; non-Hague countries use consular legalisation",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348702-apostille",
-      "raw_snippet": "official government authentication certificate added to documents so they will be recognized when presented in another country; A comprehensive listing for all Hague Convention signatories",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "An Apostille is an official government authentication certificate added to documents so they will be recognized when presented in another country.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "sal-klita-eligibility-law-of-return",
-      "claim": "Sal Klita absorption basket is provided to olim who arrived under the Law of Return (1950), per the founding statute of immigrant absorption",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842",
-      "raw_snippet": "Aliyah Benefits, Plan your Integration, Special Procedures, Special Status, Law of Return",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Olim making aliyah to Israel are entitled to a sal klita (absorption basket) in their first year.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "בשנה הראשונה לעלייתם, זכאים העולים לישראל לסל קליטה.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration sal klita page (official gov.il page)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "tax-foreign-income-exemption-10-years",
       "claim": "Section 14 of the Income Tax Ordinance provides a ten-year exemption on foreign-source income for new olim and veteran returning residents (toshav chozer vatik), since the 2008 amendment",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "Ten-Year Exemption on Foreign Income remain intact",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Ten-Year Exemption on Foreign Income Tax exemption on income from abroad for 10 years from your aliyah date",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/tax-benefits-olim.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "drivers-license-1-year-foreign-validity",
@@ -224,7 +241,8 @@
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ref-link-rashut-hamisim-he",
@@ -236,7 +254,8 @@
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "ref-link-jewish-agency-en",
@@ -331,37 +350,43 @@
     },
     {
       "claim_id": "olim-vehicle-3-year-window",
-      "claim": "Olim can purchase a car in Israel with reduced purchase-tax benefits within 3 years of aliyah; one car per family; resale restriction within 4 years of registration; eligibility verified at the dealer using Teudat Oleh",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%95%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "הטבות לעולה ברכישת רכב, חלון 3 שנים מהעלייה, רכב אחד למשפחה, מגבלת מכירה תוך 4 שנים",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "An oleh's import/purchase-tax entitlement runs for three years from the date oleh status is received, and the window is extendable for regular IDF or national service and through an exceptions committee.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולה זכאי לפטור ממיסי ייבוא על חפצים שהוא מייבא מיום קבלת מעמד עולה ועד 3 שנים מהעלייה.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/aliyah-additional-procedures.md"
-      ]
+      ],
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "pets-veterinary-import-rules",
-      "claim": "Israeli Veterinary Services requires dogs and cats to be at least 4 months old, rabies-vaccinated at least 12 months and at most 1 month before travel, and to have a rabies antibody titer of at least 0.5 IU/ml from an approved laboratory; approved entry ports are Ben Gurion, Haifa, Ashdod, and Eilat; restricted (dangerous) breeds have additional permit requirements",
-      "source_url": "https://www.gov.il/en/departments/ministry_of_agriculture_and_rural_development",
-      "raw_snippet": "Importation of dogs and cats requires a veterinary import permit; minimum age 4 months; rabies vaccination 12 months to 1 month before travel; serological test confirming antibody titer at least 0.5 IU/ml from an approved laboratory; designated entry ports are Ben Gurion Airport, Haifa, Ashdod, and Eilat",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "claim": "Dogs and cats entering Israel must be vaccinated against rabies no more than one year and no less than 30 days before arrival, with Oceania, Great Britain, Japan and Cyprus excepted.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "All dogs/cats require a veterinary confirmation that they have been vaccinated against rabies no more than one year and no less than 30 days, if it is the primary vaccination, prior to their arrival in Israel with the exception of arrivals from Oceania, Great Britain, Japan, and Cyprus",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "references/aliyah-additional-procedures.md"
-      ]
+      ],
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061 (pdftotext); replaces a department landing page that now 404s",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "drivers-license-5-year-conversion-window",
-      "claim": "Foreign driver's license conversion window for olim is 5 years from aliyah date; after 5 years a full Israeli licensing process is required regardless of prior experience",
+      "claim": "Conversion of a foreign licence must be done within the first 5 years in Israel, and the applicant must have at least 5 years of seniority on the foreign licence; the foreign licence itself is drivable for only one year from entry.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%A8%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%96%D7%A8_%D7%9C%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99",
-      "raw_snippet": "תקופת המרה של 5 שנים מתאריך העלייה, אחרי 5 שנים נדרש הליך רישוי מלא בלי קשר לוותק",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "ההמרה מתבצעת במהלך 5 שנות השהייה הראשונות בארץ. למבקש יש ותק של לפחות 5 שנים ברישיון הנהיגה הזר לפני הכניסה לארץ. עולה חדש עם ותק של פחות מ-5 שנים נדרש לעבור מבחן נהיגה מעשי (טסט)",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/driver-license-conversion.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API (page existence confirmed via action=query)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "bituach-leumi-phone-6050",
@@ -378,70 +403,82 @@
       "claim_id": "a1-visa-1-year-renewable",
       "claim": "A1 visa is a temporary residency visa for Aliyah-eligible candidates, valid for 1 year and renewable annually; no Aliyah benefits, no military service",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348808-a1-and-oleh-visas",
-      "raw_snippet": "If you are eligible to make Aliyah but you are not sure whether it is the right choice for you, a temporary residency (A1 visa) might be a good alternative. The A1 visa is valid for 1 year and can be renewed annually.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "The passport must be valid for at least 1 year.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/visa-converts-and-extras.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "aliyah-benifrad-sal-klita-per-family",
       "claim": "When family members make aliyah separately within less than one year (Aliyah BeNifrad), Sal Klita is calculated per family unit, so the later-arriving group receives only the remainder of the family allocation",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348807-aliyah-benifrad-split-aliyah",
-      "raw_snippet": "make Aliyah separately from the rest of your family (spouse or children under 21). Sal Klita is calculated per family unit.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "there will be changes in the benefits granted to the second group because Sal Klita is calculated per family unit.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/visa-converts-and-extras.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "converts-four-letters-required",
       "claim": "Olim who converted must provide four letters: rabbi's letter on pre-conversion preparation, rabbi's letter on communal participation, external Beit Din letter (if applicable), and a personal letter from the applicant; all dated, ink-signed, and stamped",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348706-letters-required-from-oleh-who-converted",
-      "raw_snippet": "Letter on Pre-Conversion Preparation; Letter on Communal Participation; Letter from External Beit Din (if applicable); Personal Letter from Applicant. All community letters must be dated, ink-signed and stamped with the Rabbi's or community's stamp.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Where the Beit Din took place and who were the members of the Beit Din, as this information is not always clear on the Conversion Certificate.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/visa-converts-and-extras.md"
-      ]
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-exemption-schedule",
       "claim": "2026 tax reform grants olim arriving Nov 5 2025 to Dec 31 2026 a tiered Israeli-source earned-income exemption: 600K NIS (2026), 1M NIS/yr (2027-2028), 350K NIS (2029), 150K NIS (2030)",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "2026: up to 600,000 NIS; 2027-2028: up to 1,000,000 NIS per year; 2029: up to 350,000 NIS; 2030: up to 150,000 NIS",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The exemption ceilings are as follows: 2026: up to 600,000 NIS 2027-2028: up to 1,000,000 NIS per year 2029: up to 350,000 NIS 2030: up to 150,000 NIS",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-140k-related-party-cap",
       "claim": "When working for a related party, the 2026 reform caps the earned-income exemption at NIS 140,000 per year (all years 2026-2030)",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "Working for a related party, the limit is NIS 140,000 per year (140,000 ש\"ח לשנה) for all years 2026-2030",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "In that case, the exemption is limited to a lower ceiling: Up to 140,000 NIS per year",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-75-days-2028-2029",
       "claim": "2026 reform eligibility is lost if you spend fewer than 75 days in Israel during 2028 and 2029, or cease being an Israeli tax resident in those years",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "spend fewer than 75 days in Israel during 2028 and 2029 respectively or cease to be an Israeli tax resident in 2028 or 2029",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "Anyone who will leave the country and cease to be an Israeli resident in 2028 or 2029, and in addition, will spend fewer than 75 days in the country during 2028 and 2029 – will not have the reform provisions apply to them.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "child-savings-plan-nis-55-monthly",
@@ -458,46 +495,54 @@
     {
       "claim_id": "2026-tax-reform-nis-350000-2029",
       "claim": "2026 tax reform 2029 ceiling on Israeli-source earned income for olim is NIS 350,000",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "2029: up to NIS 350,000 exemption ceiling on Israeli-source earned income",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2029: up to 350,000 NIS",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-nis-150000-2030",
       "claim": "2026 tax reform 2030 ceiling on Israeli-source earned income for olim is NIS 150,000",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "2030: up to NIS 150,000 exemption ceiling on Israeli-source earned income",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2030: up to 150,000 NIS",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-nis-1000000-2027-2028",
       "claim": "2026 tax reform 2027 and 2028 ceiling on Israeli-source earned income for olim is NIS 1,000,000 per year",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "2027 and 2028: up to NIS 1,000,000 per year exemption ceiling on Israeli-source earned income",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2027-2028: up to 1,000,000 NIS per year",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "2026-tax-reform-nis-600000-year-1",
       "claim": "2026 tax reform Year 1 (2026) ceiling on Israeli-source earned income for olim is NIS 600,000 / 600,000 ש\"ח",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "2026: up to NIS 600,000 (600,000 ש\"ח) exemption on earned Israeli-source income",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The exemption ceilings are as follows: 2026: up to 600,000 NIS",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "vat-rate-18-percent-2025",
@@ -586,17 +631,6 @@
       ]
     },
     {
-      "claim_id": "sal-klita-capital-declaration-500k-threshold",
-      "claim": "Sal Klita applicants submit a capital declaration; reported assets above NIS 500,000 reduce or deny eligibility; applicants below the threshold receive a +10% top-up (figures cited as of the 2025/2026 budget cycle and subject to annual adjustment; verify with Misrad HaKlita before quoting)",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842",
-      "raw_snippet": "Aliyah Benefits, Sal Klita, capital declaration requirement and asset-cap adjustments per Misrad HaKlita budget-cycle updates",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "sal-klita-calculator-3-percent-extrapolation",
       "claim": "Misrad HaAliyah VeHaKlita publishes the sal klita amounts as year-labelled tables (the current set is labelled 2026). sal-klita-calculator.py applies a ~3% annual increase to extrapolate past the latest year of stored data; that 3% is an internal heuristic with no official basis, not a published rate.",
       "source_url": "https://www.gov.il/he/pages/absorption_basket",
@@ -609,13 +643,15 @@
     {
       "claim_id": "2026-tax-reform-earned-income-only",
       "claim": "2026 reform exemption applies only to earned income (employment salary and self-employment), not to passive income (rental, interest, dividends); 10-year foreign-income exemption remains intact",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
-      "raw_snippet": "eligible income earned through personal effort, which includes employment salary and self-employment income. Passive income (rental, interest, dividends) does not qualify. Ten-Year Exemption on Foreign Income remain intact",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The benefit does not apply to passive income, such as rental income, accrued interest, or dividends.",
+      "fetched_at": "2026-08-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
     },
     {
       "claim_id": "mas-rechisha-standard-2026",
@@ -777,6 +813,82 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-4-year-use",
+      "claim": "The car may only be sold after 4 years of the oleh actually using it in Israel, and more than 12 months spent abroad during that period must be made up first.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "את הרכב ניתן למכור רק לאחר 4 שנים שבהן הרכב היה בשימוש העולה בישראל. אם במהלך 4 השנים העולה שהה בחו\"ל יותר מ-12 חודשים, יהיה עליו להשלים את התקופה החסרה כדי למכור את הרכב ללא תשלום המסים.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-one-per-couple",
+      "claim": "Spouses release only one reduced-tax car between them even if both are eligible, and no one outside the couple may drive it.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בני-זוג, אף אם שניהם זכאים, יוכלו לשחרר רכב אחד בלבד בתשלום מסים מופחתים, ואין לאף אחד מלבדם הזכות לנהוג בו.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-self-use-4-years",
+      "claim": "The self-use requirement is 6 years for goods generally and 4 years for a vehicle.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "שימוש עצמי - הטובין, שזכאים מייבאים או רוכשים בזכויותיהם, יהיו לשימושם העצמי בישראל לתקופה של 6 שנים לפחות מיום שחרורם או רכישתם . רכב - לתקופה של 4 שנים לשימוש עצמי בישראל.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "drivers-license-test-exemption-classes",
+      "claim": "The exemption from the practical test applies only to licence categories 1, A, A1, A2 and B, and only with at least 5 years on a permanent foreign licence; any other case requires passing the practical test.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%A8%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%96%D7%A8_%D7%9C%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99",
+      "raw_snippet": "מי שעומד בשני התנאים הבאים פטור מ מבחן נהיגה מעשי : הוא בעל רישיון נהיגה זר קבוע במשך 5 שנים לפחות. הוא מבקש להמיר את רישיונו לרישיון מסוג 1, A, A1, A2, B. בכל מקרה אחר, המבקש יצטרך לעמוד בהצלחה במבחן נהיגה מעשי (טסט).",
+      "fetched_at": "2026-08-14",
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "references/driver-license-conversion.md"
+      ]
+    },
+    {
+      "claim_id": "pets-minimum-age",
+      "claim": "A pet must be at least 4 months old on arrival in Israel; from Oceania, Great Britain, Japan and Cyprus the minimum is 3 months.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "על חיית המחמד להיות בן לא פחות מ‪ 4‬חודשים",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061, Hebrew section (pdftotext, snippet taken verbatim from the extraction so it matches on re-check)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "pets-serology-titer",
+      "claim": "The rabies antibody titer must be at least 0.5 IU/ml, measured on a blood sample taken at least 30 days after vaccination by an OIE-approved laboratory.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "0.5 IU/ml",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
       ]
     }
   ]

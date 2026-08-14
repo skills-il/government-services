@@ -195,7 +195,12 @@ One credit point is worth **242 NIS a month / 2,904 a year (2026)**, per the Tax
 
 Returning Israelis can elect a one-year "Acclimatization Year" (shnat hatzharat tochnit) before the Section 14 ten-year clock starts. New olim (under the Law of Return) do NOT have this election; their 10-year clock starts on the aliyah date as recorded on the Teudat Oleh. The Acclimatization Year is a returning-resident tool, NOT an oleh tool, and confusing the two leads to wrong residency-start advice. For toshav chozer cases, route the user to `israeli-toshav-chozer-vatik-tax-planner`.
 
-**Buying a car with olim benefits (3-year window):** olim can purchase a car in Israel with reduced purchase-tax benefits within 3 years of aliyah. One car per family, M1 passenger class. The car cannot be sold within 4 years of registration without paying back the discount. See `references/aliyah-additional-procedures.md` for conditions.
+**Buying a car with olim benefits (3-year window):** olim can buy a car at reduced purchase tax within 3 years of receiving oleh status. Three conditions people get wrong:
+- The 4-year lock runs on *use of the car in Israel*, not on the registration date. Time the oleh spends abroad beyond 12 months during those years does not count, and the missing months have to be made up before the car can be sold tax-free.
+- A couple gets one discounted car between them even if both are individually eligible, and nobody outside the couple may drive it.
+- The 3-year window can be extended, for regular IDF or national service (the service period is not counted), and in exceptional cases through the Tax Authority's exceptions committee. Do not tell an oleh who missed the window that the benefit is simply gone.
+
+See `references/aliyah-additional-procedures.md` for conditions.
 
 **No asset or income test on sal klita.** The ministry states the entitlement does not depend on income ("הזכאות לסל קליטה אינה תלויה בגובה ההכנסה"), and its sal klita page sets out no capital declaration (hatzharat hon) and no asset ceiling. Do not tell an oleh that savings above some threshold will cut their basket.
 
@@ -224,7 +229,7 @@ Conversion is based on driving experience, not country of origin (the country-ba
 
 | Driving Experience | Process |
 |---|---|
-| 5+ years consecutive | Administrative conversion only (medical certificate + documents, no tests) |
+| 5+ years consecutive | Administrative conversion only (medical certificate + documents, no tests), for licence categories 1, A, A1, A2 and B; anything else still requires the practical test |
 | 2-5 years | Short practical test (mivchan shlita); no theory test |
 | Less than 2 years | Full theory + practical testing, typically ~28 lessons |
 
