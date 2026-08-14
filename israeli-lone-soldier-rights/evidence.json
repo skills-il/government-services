@@ -146,16 +146,19 @@
     },
     {
       "id": "law-of-citizenship-1952",
-      "claim": "Under the Citizenship Law 5712-1952, every oleh under the Law of Return 5710-1950 becomes an Israeli citizen by virtue of return (mikoach shvut), acquired from the day of his aliyah for someone who made aliyah after the founding of the state.",
+      "claim": "Law of Return 5710-1950, section 1: every Jew is entitled to immigrate to Israel. Under the Citizenship Law 5712-1952, every oleh under the Law of Return 5710-1950 becomes an Israeli citizen by virtue of return (mikoach shvut), acquired from the day of his aliya",
       "claim_type": "law",
-      "source_url": "https://www.nevo.co.il/law_html/law01/011_001.htm",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%91%D7%95%D7%AA",
       "source_fetched_at": "2026-08-09T00:00:00Z",
-      "raw_snippet": "כל עולה לפי חוק השבות, תש\"י-1950, יהיה לאזרח ישראלי מכוח שבות, זולת אם הוקנתה לו אזרחות ישראלית מכוח לידה לפי סעיף 4 או מכוח אימוץ לפי סעיף 4ב",
+      "raw_snippet": "1. הזכות לעליה כל יהודי זכאי לעלות ארצה.",
       "confidence": "medium",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "fetched_at": "2026-08-13",
+      "verified_via": "curl",
+      "verified_at": "2026-08-13"
     },
     {
       "id": "status-change-immediate",

@@ -338,10 +338,13 @@
     },
     {
       "id": "sec-100a-102-he",
-      "claim": "מס יציאה: סעיף 100א לפקודת מס הכנסה קובע מכירה רעיונית של נכסים ביום ניתוק התושבות. סעיף 102 לפקודה חל על אופציות ומניות לעובדים.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/P182K1_001.htm",
-      "raw_snippet": "סעיף 100א",
-      "fetched_on": "2026-07-14"
+      "claim": "Income Tax Ordinance [New Version]. NOTE: the previously cited nevo URL served חוק העמותות (the Associations Law), a different statute, under HTTP 200. מס יציאה: סעיף 100א לפקודת מס הכנסה קובע מכירה רעיונית של נכסים ביום ניתוק התושבות. סעיף 102 לפקודה חל על אופציות ומניות לעובדים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
+      "raw_snippet": "פקודת מס הכנסה [נוסח חדש]",
+      "fetched_on": "2026-07-14",
+      "fetched_at": "2026-08-13",
+      "verified_via": "curl",
+      "verified_at": "2026-08-13"
     },
     {
       "id": "kz-dmei-bituach-abroad",
