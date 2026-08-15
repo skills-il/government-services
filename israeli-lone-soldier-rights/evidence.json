@@ -275,10 +275,12 @@
       "id": "law-of-return-citizenship",
       "claim": "Olim lone soldiers receive Israeli citizenship automatically under Chok HaShvut (Law of Return, 1950). The aliyah absorption package (sal klita) from Misrad HaKlita interacts with IDF service but is administered separately.",
       "claim_type": "law",
-      "source_url": "https://www.kolzchut.org.il/he/חוק_השבות",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
       "source_fetched_at": "2026-05-18T14:00:00Z",
       "raw_snippet": "חוק השבות, התש\"י-1950 מקנה לכל יהודי את הזכות לעלות לישראל ולקבל אזרחות ישראלית באופן אוטומטי",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "Kol Zchut has no page for the Law of Return itself; its olim page is the live topical equivalent; successor located via the Kol Zchut search API and existence-confirmed",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "base-monthly-grant-601",
