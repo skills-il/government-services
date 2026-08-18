@@ -110,7 +110,7 @@ Source: https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20מש
 
 ## Income test for a widower (מבחן הכנסות)
 
-- A widower (male) can be entitled if his total income is up to 7,848 NIS a month (from 01.01.2026). Bituach Leumi states the condition for a widower without carving out those with children.
+- A widower with a child meeting the orphan definition is NOT income-tested at all. A widower without such a child can be entitled if his total income is up to 7,848 NIS a month (from 01.01.2026).
 - Income is measured over the 12 months before the month of the wife's death (including that month), or over the calendar year of her death.
 - From income from work (employee or self-employed), pension, or a monthly income first paid at
   retirement age, deduct 2,093 NIS (from 01.01.2026) before the test.

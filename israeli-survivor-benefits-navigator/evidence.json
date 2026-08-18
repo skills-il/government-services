@@ -924,6 +924,15 @@
       "source_fetched_at": "2026-08-18T00:00:00Z",
       "raw_snippet": "ולא היה מבוטח בביטוח שאירים, בגלל שעלה לארץ לראשונה לאחר גיל 60 - 62, בהתאם לחודש לידתו",
       "confidence": "high"
+    },
+    {
+      "id": "widower-income-test-child-carveout",
+      "claim": "No income test is carried out for a widower who has a child meeting the orphan definition; the 7,848 NIS ceiling applies only to a widower without such a child.",
+      "claim_type": "eligibility",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/nimneEmSherim/Pages/alman.aspx",
+      "source_fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "אם לאלמן יש ילד העונה על הגדרת יתום , לא תיערך בדיקת הכנסות.",
+      "confidence": "high"
     }
   ]
 }

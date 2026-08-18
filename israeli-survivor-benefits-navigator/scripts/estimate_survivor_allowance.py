@@ -108,7 +108,7 @@ def estimate_ordinary(age, orphans, seniority_years, exception_eligible=False):
     total = base + seniority_amount
 
     caveats.append(
-        "A widower (male) is subject to an income test "
+        "A widower (male) with no qualifying child is subject to an income test "
         "(ceiling 7,848 NIS, minus a 2,093 NIS deduction, from 01.01.2026); the allowance "
         "may be reduced or denied. A widow is not income-tested.")
     caveats.append(
@@ -132,7 +132,9 @@ def estimate_ordinary(age, orphans, seniority_years, exception_eligible=False):
         "age (a widow pregnant at the death: 60% until the birth, then 80%). See SKILL.md Step 4.")
     caveats.append(
         "A survivor entitled to another National Insurance allowance that is not the old-age "
-        "pension (general disability, work-disability, dependents') must CHOOSE one, not both.")
+        "pension (general disability, work-disability, dependents') must CHOOSE one, not both. "
+        "The children keep the survivor's allowance either way and are always paid the higher "
+        "amount, and the survivor's allowance can revive at retirement age.")
 
     breakdown = [
         ("Base (%s)" % basis, base),
