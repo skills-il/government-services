@@ -118,7 +118,7 @@
       "claim_id": "electoral-threshold-3-25",
       "claim": "The electoral threshold is 3.25% of valid votes since the March 2014 amendment; was 2% before.",
       "source_url": "https://en.idi.org.il/articles/64020",
-      "raw_snippet": "int list passes the electoral threshold (i.e., the minimum percentage of the vote needed in order to have seats in Knesset, which is 3.25% of the valid votes), the Members of Knesset elected on its behalf form a single joint parliamentary faction, but they may also easily split into several factions, according to the parties that composed the list. It should be noted that running on joint lists is very common in Israeli politics. When is there electoral justification for running on a joint list?",
+      "raw_snippet": "list passes the electoral threshold (i.e., the minimum percentage of the vote needed in order to have seats in Knesset, which is 3.25% of the valid votes), the Members of Knesset elected on its behalf form a single joint parliamentary faction, but they may also easily split into several factions, according to the parties that composed the list. It should be noted that running on joint lists is very common in Israeli politics. When is there electoral justification for running on a joint list?",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
@@ -215,7 +215,7 @@
       "claim_id": "election-2022-coalition-split",
       "claim": "Coalition / opposition split after the 2022 election: 64 vs 56.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "t Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections. [ 13 ] [ 14 ] In March 2020, these resulted in the formation of a unity government , the thirty-fifth government of Israel , between Netanyahu and Gantz, [ 15 ] which collapsed in December following a budgetary dispute, leading to another election in March 2021.",
+      "raw_snippet": "Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections. [ 13 ] [ 14 ] In March 2020, these resulted in the formation of a unity government , the thirty-fifth government of Israel , between Netanyahu and Gantz, [ 15 ] which collapsed in December following a budgetary dispute, leading to another election in March 2021.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",

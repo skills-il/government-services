@@ -7,7 +7,7 @@
       "id": "days-test-183",
       "claim": "Israeli tax residency is presumed if the individual spends 183 or more days in Israel during the tax year.",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
-      "raw_snippet": "g the determination of an individual’s ‘centre of life’: Any individual who has been present in Israel during a certain tax year for 183 days or more shall be presumed to have their centre of life in Israel (and consequently be an Israeli tax resident) in such tax year. Any individual who has been present in Israel during a tax year for 30 days or more, and a total of 425 days or more during such tax year and the two previous tax years (on aggregate), shall be presumed to have their centre of life in Israel in such tax year.",
+      "raw_snippet": "the determination of an individual’s ‘centre of life’: Any individual who has been present in Israel during a certain tax year for 183 days or more shall be presumed to have their centre of life in Israel (and consequently be an Israeli tax resident) in such tax year. Any individual who has been present in Israel during a tax year for 30 days or more, and a total of 425 days or more during such tax year and the two previous tax years (on aggregate), shall be presumed to have their centre of life in Israel in such tax year.",
       "fetched_on": "2026-05-26",
       "verified_via": "cited page fetched and confirmed to contain \"183\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18",
