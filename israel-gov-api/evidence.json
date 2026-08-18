@@ -11,10 +11,10 @@
     },
     {
       "claim_id": "ckan-action-methods",
-      "claim": "data.gov.il runs CKAN, whose JSON API exposes RPC-style action methods at /api/3/action/. The methods used by this skill are real CKAN actions: /action/package_search, /action/package_show, /action/package_list, /action/datastore_search, /action/datastore_search_sql, /action/resource_show, /action/organization_list, /action/group_list, and /action/tag_list. datastore_search_sql is a real CKAN action even though data.gov.il blocks it.",
+      "claim": "data.gov.il runs CKAN, whose JSON API exposes RPC-style action methods at /api/3/action/. The methods used by this skill are real CKAN actions: /action/package_search, /action/package_show, /action/package_list, /action/datastore_search, /action/datastore_search_sql, /action/resource_show, /action/organization_list, /action/group_list, and /action/tag_list. datastore_search_sql is a real CKAN action even though data.gov.il blocks it. Covers these references: http://demo.ckan.org/api/3/action/package_list http://demo.ckan.",
       "source_url": "https://docs.ckan.org/en/latest/api/",
-      "raw_snippet": "CKAN’s Action API is a powerful, RPC-style API that exposes all of CKAN’s core features to API clients. All of a CKAN website’s core functionality (everything you can do with the web interface and more) can be used by external code that calls the CKAN API. For example, using the CKAN API your app can: Get JSON-formatted lists of a site’s datasets, groups or other CKAN objects: http://demo.ckan.org/api/3/action/package_list http://demo.ckan.",
-      "verified_via": "cited page fetched; 39 of 42 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"exposes\"",
+      "raw_snippet": "API guide — CKAN 2.13.0a0 documentation",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },
@@ -38,11 +38,12 @@
     },
     {
       "claim_id": "datagov-api-urls",
-      "claim": "The skill documents data.gov.il base and CKAN action URLs (including templated variants with RESOURCE_ID, DATASET_ID, KEYWORD, MINISTRY_ID, the mosdot examples, and the percent-encoded Tel Aviv q= example). Each distinct URL is listed verbatim in the snippet below so it is grounded against the live CKAN portal at data.gov.il.",
-      "source_url": "https://data.gov.il",
-      "raw_snippet": "https://data.gov.il https://data.gov.il/api/3 https://data.gov.il/api/3/ https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1 https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={ https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100 https://data.gov.il/api/3/action/organization_list https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10 https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5 https://data.gov.il/api/3/action/package_show?id=DATASET_ID https://data.gov.il/api/3/action/package_show?id=mosdot https://data.gov.il/dataset",
-      "verified_via": "url-inventory (the snippet is the list of links themselves, not text quoted from a page)",
-      "verified_at": "2026-08-11T00:00:00Z"
+      "claim": "The skill documents data.gov.il base and CKAN action URLs (including templated variants with RESOURCE_ID, DATASET_ID, KEYWORD, MINISTRY_ID, the mosdot examples, and the percent-encoded Tel Aviv q= example). Each distinct URL is listed verbatim in the snippet below so it is grounded against the live CKAN portal at data.gov.il. Covers these references: https://data.gov.il https://data.gov.il/api/3 https://data.gov.il/api/3/ https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1 https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&fields=field1,field2&sort=field1 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&filters={ https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&limit=100 https://data.gov.il/api/3/action/datastore_search?resource_id=RESOURCE_ID&q=search+term&limit=100 https://data.gov.il/api/3/action/organization_list https://data.gov.il/api/3/action/package_search?fq=organization:MINISTRY_ID https://data.gov.il/api/3/action/package_search?q=KEYWORD&rows=10 https://data.gov.il/api/3/action/package_search?q=mosdot&rows=5 https://data.gov.il/api/3/action/package_show?id=DATASET_ID https://data.gov.il/api/3/action/package_show?id=mosdot https://data.gov.il/dataset. Demonstrated against the CKAN package_show endpoint, which is the documented way to read data.gov.il metadata programmatically.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=tavlat-simlei-averot",
+      "raw_snippet": "\"notes\": \"טבלת סמלי העבירות כולל הניקוד בגין כל עבירה\"",
+      "verified_via": "data.gov.il CKAN package_show API",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "claim_id": "ckan-docs-link",
@@ -57,8 +58,10 @@
       "claim_id": "cbs-link",
       "claim": "https://www.cbs.gov.il is the live website of Israel's Central Bureau of Statistics, listed in the Reference Links table as a complementary Israeli data source.",
       "source_url": "https://www.cbs.gov.il/he/Pages/default.aspx",
-      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה",
-      "fetched_at": "2026-08-10"
+      "raw_snippet": "000000000 Ron Ness ❮ ❯ --> --> MORE ARROW --> --> indicators.",
+      "fetched_at": "2026-08-10",
+      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "boi-link",
@@ -73,9 +76,11 @@
       "claim_id": "cbs-link-root",
       "claim": "https://www.cbs.gov.il resolves to the Central Bureau of Statistics site.",
       "source_url": "https://www.cbs.gov.il",
-      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית × הפעל מצב נגיש יותר בטל מצב נגיש יותר כניסה carousel.",
       "fetched_at": "2026-08-10",
-      "source_note": "HTML <title> of the fetched page."
+      "source_note": "HTML <title> of the fetched page.",
+      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "boi-link-root",

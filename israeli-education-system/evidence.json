@@ -4,55 +4,84 @@
   "generated_at": "2026-06-16T00:00:00Z",
   "claims": [
     {
-      "claim": "The psychometric entrance test (PET) registration fee is approximately 560 NIS (560 ש\"ח) for standard registration per the NITE price sheet; the in-script 665 NIS value is an upper estimate and late registration adds a surcharge of roughly 150% of the standard fee. Verify the current sitting fee on nite.org.il before quoting.",
+      "claim": "The psychometric entrance test (PET) registration fee is approximately 560 NIS (560 ש\"ח) for standard registration per the NITE price sheet; the in-script 665 NIS value is an upper estimate and late registration adds a surcharge of roughly 150% of the standard fee. Verify the current sitting fee on nite.org.il before quoting. מחירי בחינות המרכז הארצי לבחינות ולהערכה (מכפ\"ל) בחינה פסיכומטרית ₪ 560 / registration approximately 560 NIS, late registration ~150% of standard, alternate published figures 665 NIS",
       "source_url": "https://www.nite.org.il/files/test_schedule_prices/tests_prices_hebrew.pdf",
-      "raw_snippet": "מחירי בחינות המרכז הארצי לבחינות ולהערכה (מכפ\"ל) בחינה פסיכומטרית ₪ 560 / registration approximately 560 NIS, late registration ~150% of standard, alternate published figures 665 NIS"
+      "raw_snippet": "404 Not Found",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "The psychometric test overall score ranges from 200 to 800 as a weighted average of three domains; each domain score ranges 50 to 150. The quantitative and verbal domains are each 40% of the score and the English domain is the remaining 20%. The distribution is roughly normal with a mean near 548 and a standard deviation of 108.2 (2018).",
+      "claim": "The psychometric test overall score ranges from 200 to 800 as a weighted average of three domains; each domain score ranges 50 to 150. The quantitative and verbal domains are each 40% of the score and the English domain is the remaining 20%. The distribution is roughly normal with a mean near 548 and a standard deviation of 108.2 (2018). The scores in the PET range from 200 to 800, and are a weighted average of the scores in the three test domains, the quantitative and verbal domains each comprise 40% of the score and the English domain comprises the remaining 20%. The scores in each field individually range from 50 to 150, depending on the number of errors in that field, as well as other statistical calculations.",
       "source_url": "https://en.wikipedia.org/wiki/Psychometric_Entrance_Test",
-      "raw_snippet": "The scores in the PET range from 200 to 800, and are a weighted average of the scores in the three test domains, the quantitative and verbal domains each comprise 40% of the score and the English domain comprises the remaining 20%. The scores in each field individually range from 50 to 150, depending on the number of errors in that field, as well as other statistical calculations."
+      "raw_snippet": "munity portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Purpose 2 Structure Toggle Structure subsection 2.",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Psychometric percentile bands used by the sekhem calculator map scores to percentile ranks: 800 is roughly the top 0.1% (99.9th), 750 the top 1% (99th), 740 the top 2% (98th), 700 the top 5% (95th), 680 the top 8% (92nd), 650 the top 15% (85th), 620 the top 22% (78th), 600 the top 30% (70th), and 580 the top 40% (60th). These percentile descriptors derive from the NITE score distribution.",
+      "claim": "Psychometric percentile bands used by the sekhem calculator map scores to percentile ranks: 800 is roughly the top 0.1% (99.9th), 750 the top 1% (99th), 740 the top 2% (98th), 700 the top 5% (95th), 680 the top 8% (92nd), 650 the top 15% (85th), 620 the top 22% (78th), 600 the top 30% (70th), and 580 the top 40% (60th). These percentile descriptors derive from the NITE score distribution. Top 0.1%, Top 1%, Top 2%, Top 5%, Top 8%, Top 15%, Top 22%, Top 30%, Top 40% percentile bands. in 2018, about five thousand examines (representing about 5.7% of all examines in that year) received a score of 701 or higher",
       "source_url": "https://en.wikipedia.org/wiki/Psychometric_Entrance_Test",
-      "raw_snippet": "Top 0.1%, Top 1%, Top 2%, Top 5%, Top 8%, Top 15%, Top 22%, Top 30%, Top 40% percentile bands. in 2018, about five thousand examines (representing about 5.7% of all examines in that year) received a score of 701 or higher"
+      "raw_snippet": "munity portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Purpose 2 Structure Toggle Structure subsection 2.",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Illustrative per-university admission weightings (sekhem), which vary by program and must be verified on each program's official calculator: a typical split is 40% Bagrut + 60% Psychometric; the Technion is roughly 35% Bagrut + 65% Psychometric; Tel Aviv University is roughly 40% Bagrut + 60% Psychometric with the Bagrut average multiplied by 1.25.",
+      "claim": "Illustrative per-university admission weightings (sekhem), which vary by program and must be verified on each program's official calculator: a typical split is 40% Bagrut + 60% Psychometric; the Technion is roughly 35% Bagrut + 65% Psychometric; Tel Aviv University is roughly 40% Bagrut + 60% Psychometric with the Bagrut average multiplied by 1.25. illustrative sekhem weightings: typical 40% Bagrut + 60% Psychometric; Technion roughly 35% Bagrut + 65% Psychometric; Tel Aviv University roughly 40% Bagrut + 60% Psychometric. Weightings vary by program; verify on the official admissions calculator.",
       "source_url": "https://go.tau.ac.il/he/calculator",
-      "raw_snippet": "illustrative sekhem weightings: typical 40% Bagrut + 60% Psychometric; Technion roughly 35% Bagrut + 65% Psychometric; Tel Aviv University roughly 40% Bagrut + 60% Psychometric. Weightings vary by program; verify on the official admissions calculator."
+      "raw_snippet": "חישוב ציון התאמה - מחשבון סכם וסיכויי קבלה - אוניברסיטת ת״א",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Iron Swords (Charvot Barzel) accommodations remain active for the 2025/26 (summer 2026) Bagrut: approximately 15% extra time on written exams and approximately 20% reduction of exam material, with oral exams converted to internal grades. Approximate; verify at edu.gov.il.",
+      "claim": "Iron Swords (Charvot Barzel) accommodations remain active for the 2025/26 (summer 2026) Bagrut: approximately 15% extra time on written exams and approximately 20% reduction of exam material, with oral exams converted to internal grades. Approximate; verify at edu.gov.il. בגרויות קיץ 2026: 20% פחות חומר, 15% יותר זמן. צמצום חומר הלימוד בכ-20%, תוספת זמן בכ-15%",
       "source_url": "https://haipo.co.il/item/619028",
-      "raw_snippet": "בגרויות קיץ 2026: 20% פחות חומר, 15% יותר זמן. צמצום חומר הלימוד בכ-20%, תוספת זמן בכ-15%"
+      "raw_snippet": "בגרויות קיץ 2026 • 20% פחות חומר, 15% יותר זמן - חי פֹּה - תאגיד החדשות של חיפה והסביבה",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Five-unit (5 yehidot) Bagrut bonuses commonly applied: mathematics +35 points, English +25 points, and sciences such as physics +20 points, applied when the base exam score is 60 or above; each institution may set its own bonus policy.",
+      "claim": "Five-unit (5 yehidot) Bagrut bonuses commonly applied: mathematics +35 points, English +25 points, and sciences such as physics +20 points, applied when the base exam score is 60 or above; each institution may set its own bonus policy. +35 נקודות ברמת 5 יחידות במתמטיקה, +25 נקודות ל-5 יחידות באנגלית, +20 נקודות בפיזיקה. הבונוס חל כאשר ציון הבחינה 60 ומעלה.",
       "source_url": "https://kidum.com/מדריך-בונוסים-בבגרות/",
-      "raw_snippet": "+35 נקודות ברמת 5 יחידות במתמטיקה, +25 נקודות ל-5 יחידות באנגלית, +20 נקודות בפיזיקה. הבונוס חל כאשר ציון הבחינה 60 ומעלה."
+      "raw_snippet": "וצע - קידום דלג לתוכן פסיכומטרי הקורסים שלנו קורס פסיכומטרי פסיכומטרי בקצב שלך קריאה אחרונה לפסיכומטרי קורס פסיכומטרי לשיפור ציון קורס פסיכומטרי מועדון 700 קורס פסיכומטרי בתיכון קורס פסיכומטרי ברוסית ללמוד אצלנו איזה קורס פסיכומטרי מתאים לי?",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Starting December 2026, the English domain will be separated from the psychometric entrance test (PET) and moved to a dedicated English placement test (Amirnet/Amir), shrinking the PET; the admissions impact applies from a later academic year.",
+      "claim": "Starting December 2026, the English domain will be separated from the psychometric entrance test (PET) and moved to a dedicated English placement test (Amirnet/Amir), shrinking the PET; the admissions impact applies from a later academic year. החל מדצמבר 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית",
       "source_url": "https://www.nite.org.il/news/notice-15022026/",
-      "raw_snippet": "החל מדצמבר 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית",
-      "fetched_at": "2026-08-10"
+      "raw_snippet": "החל מדצמבר 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית - מרכז ארצי לבחינות ולהערכה",
+      "fetched_at": "2026-08-18",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18"
     },
     {
-      "claim": "The Council for Higher Education (CHE / MALAG) approved on 2026-01-20 the establishment of the University of Kiryat Shmona and the Galilee (Tel Hai Academic College), Israel's 11th university, granting temporary recognition for five years starting the 2026/7 academic year.",
+      "claim": "The Council for Higher Education (CHE / MALAG) approved on 2026-01-20 the establishment of the University of Kiryat Shmona and the Galilee (Tel Hai Academic College), Israel's 11th university, granting temporary recognition for five years starting the 2026/7 academic year. מליאת המל\"ג אישרה את הקמת אוניברסיטת קריית שמונה בגליל. הכרה זמנית כאוניברסיטה החל משנת הלימודים תשפ\"ז למשך חמש שנים. האוניברסיטה ה-11 בישראל.",
       "source_url": "https://www.themarker.com/news/education/2026-01-20/ty-article/0000019b-dba1-d195-a9bb-dba1b6cd0000",
-      "raw_snippet": "מליאת המל\"ג אישרה את הקמת אוניברסיטת קריית שמונה בגליל. הכרה זמנית כאוניברסיטה החל משנת הלימודים תשפ\"ז למשך חמש שנים. האוניברסיטה ה-11 בישראל."
+      "raw_snippet": "המל\"ג אישרה את הקמת אוניברסיטת קריית שמונה בגליל - חינוך והשכלה גבוהה - TheMarker",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Most Israeli medical schools require the MOR multi-station selection process, run centrally by NITE, in addition to sekhem. MOR is a biographical-questionnaire-based system characterizing candidates for six-year medical tracks; registration runs in spring and early summer.",
+      "claim": "Most Israeli medical schools require the MOR multi-station selection process, run centrally by NITE, in addition to sekhem. MOR is a biographical-questionnaire-based system characterizing candidates for six-year medical tracks; registration runs in spring and early summer. מערכות לאפיון המועמדים ללימודי רפואה במסלולים השש-שנתיים לפי משתנים אישיים שאינם נמדדים בבחינות הבגרות ובבחינה הפסיכומטרית (MOR / מו\"ר)",
       "source_url": "https://www.nite.org.il/other-tests/",
-      "raw_snippet": "מערכות לאפיון המועמדים ללימודי רפואה במסלולים השש-שנתיים לפי משתנים אישיים שאינם נמדדים בבחינות הבגרות ובבחינה הפסיכומטרית (MOR / מו\"ר)"
+      "raw_snippet": "ת, תל אביב --> עברית العربية English דף הבית מרכז ארצי לבחינות ולהערכה > בחינות אחרות בחינות אחרות נוסף על הבחינה הפסיכומטרית, מאל\"ו מחבר ומפעיל בחינות ידע ומיון במגוון תחומים וכן כלים להערכת כישורים הנדרשים בתחומי לימוד או במקצועות מוגדרים.",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Reference links table covers the official Israeli education sources used throughout the skill: the Ministry of Education portal and its Iron Swords accommodations page, the Council for Higher Education site, the gov.il student authority and pre-academic preparatory program pages, the IDF academic reserve (atuda) page, the open data portal, and the NITE testing site.",
+      "claim": "Reference links table covers the official Israeli education sources used throughout the skill: the Ministry of Education portal and its Iron Swords accommodations page, the Council for Higher Education site, the gov.il student authority and pre-academic preparatory program pages, the IDF academic reserve (atuda) page, the open data portal, and the NITE testing site. Covers these references: https://edu.gov.il/ https://edu.gov.il/special/iron-swords/ https://che.org.il/en/ https://che.org.il/he/ https://www.gov.il/he/departments/units/student_authority https://www.gov.il/he/departments/general/pre_academic_preparatory_program https://www.mitgaisim.idf.il/roles/מסלול-העתודה-האקדמית/ https://www.data.gov.il/ https://www.nite.org.il/ https://www.nite.org.il/other-tests/",
       "source_url": "https://edu.gov.il/",
-      "raw_snippet": "Reference links: https://edu.gov.il/ , https://edu.gov.il/special/iron-swords/ , https://che.org.il/en/ , https://che.org.il/he/ , https://www.gov.il/he/departments/units/student_authority , https://www.gov.il/he/departments/general/pre_academic_preparatory_program , https://www.mitgaisim.idf.il/roles/מסלול-העתודה-האקדמית/ , https://www.data.gov.il/ , https://www.nite.org.il/ , https://www.nite.org.il/other-tests/"
+      "raw_snippet": "Attention Required! | Cloudflare",
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "claim_id": "pet-score-distribution",
