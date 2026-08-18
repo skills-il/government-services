@@ -151,23 +151,27 @@
       "claim_id": "shnat-histaglut-benefit-name",
       "claim": "Acclimatization Year (Shnat Histaglut) is among the benefits flagged by the toshav chozer certificate",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
-      "raw_snippet": "Acclimatization Year (Shnat Histaglut)",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "folder - Child of an Israeli - Ezrach Oleh Returning Minor - Katin Chozer Returning Resident - Toshav Chozer You may like to read - Acclimatization Year 2026 Tax Reform Benefits for New Olim and Returning Residents Conversion of a Foreign Teacher's License Aliyah BaShenit X 0 of 0 Terms & Privacy Policy © Shivat Zion 2026. All rights reserved.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 8 of 10 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"acclimatization\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "el-al-returnee-airfare-benefit",
       "claim": "Toshav Chozer benefit basket includes reduced El Al airfares with expanded luggage allowance",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
-      "raw_snippet": "Reduced El Al airfares with expanded luggage",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "This includes expanded luggage allocation. Important Notes We recommend that a Toshav Chozer book an appointment with a personal Misrad HaKlita absorption counselor ahead of time, at least six months before returning to Israel. Click here to see a list of Misrad HaKlita branches in Israel.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 7 of 10 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"includes\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "shnat-histaglut-form-1130-90-days",
@@ -268,23 +272,27 @@
       "claim_id": "lone-soldier-returnee-basket",
       "claim": "Returnee Lone Soldier (Chayal Boded) basket: additional monthly IDF grant for compulsory service; separate monthly grant from Misrad HaAliyah if conscription occurs within 5 years of return; 21 days annual leave for overseas parents with IDF-covered travel; IDF Special Fund for exceptional hardship; family payments for those meeting income thresholds",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Monthly IDF grant (compulsory service roles); Separate monthly grant from Ministry of Aliyah if conscription within 5 years of return; 21 days annual leave for overseas parents; IDF covers travel; IDF Special Fund for exceptional hardship; Family payments for those meeting income thresholds.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Grants for Lone Soldiers Lone soldiers ( C h ayal Boded ) serving in compulsory roles are entitled to a monthly grant from the IDF, supplementing their standard salary. Additionally, the Ministry of Aliyah and Integration offers a separate monthly grant, provided the soldier’s conscription occurs within 5 years of their return date.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 32 of 38 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"boded\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ministry-vatik-tier-vocab",
       "claim": "Misrad HaAliyah distinguishes Short-Term Toshav Chozer (less than 6 years abroad, limited benefits, earlier tax obligations) from Long-Term Toshav Chozer (more than 6 years abroad, substantial benefits including the 10-year foreign-source income exemption); this ministry tier vocabulary is distinct from the Mas Hachnasa tax code's 6-10 vs 10+ years distinction",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Short-term: <6 years abroad - limited benefits, earlier tax obligations. Long-term: >6 years abroad - substantial benefits including 10-year foreign-source income exemption. Senior Toshav Chozer (tax code): Lived continuously outside Israel, returned 10 years after ceasing residency.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "short-term Toshav Chozer refers to Israeli citizens who have lived abroad for less than 6 years and may receive limited benefits and earlier tax obligations due to presumed stronger ties to Israel. In contrast, a long-term Toshav Chozer, those who have lived abroad for more than 6 years , are eligible for more substantial benefits and tax concessions, including significant tax breaks similar to those granted to new Olim, such as exemptions from reporting overseas income and assets for up to 10 years.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 28 of 35 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"earlier\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "katin-chozer-subtype",
@@ -303,23 +311,27 @@
       "claim_id": "scientists-age-37-cap",
       "claim": "Returning Scientist Research Scholarship program for returning residents has an age cap of 37; applies to those with no more than 1 year back in Israel",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "up to age 37. Applies to Research Scholarship program for returning residents (no more than 1 year back in Israel).",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "status Always consult with the nearest office of the Ministry of Aliyah and Integration (link above) to confirm that the information applies to your specific situation. A comprehensive list of approved courses and study areas eligible for the Costs of Professional Training (vouchers) program is available here (in Hebrew) for those who qualify.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 10 of 10 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"applies\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "artists-track-misrad-haaliyah",
       "claim": "Misrad HaAliyah Artists track: ages 17+ for Toshav Chozer (18+ for children of Toshav Chozer); process is consult employment counselor, complete Application Form to the Professional Committees, submit CV, education certificates, recommendations, employment certificate, and consent form allowing employer contact",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Must be age 17+ (Toshav Chozer) or age 18+ (children of Toshav Chozer). Process: Consult employment counselor, complete Application Form to the Professional Committees, submit CV, education certs, recommendations, employment certificate, consent form allowing employer contact.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "accompanied by a series of documents, including a certificate of employment abroad, a CV abstract in Hebrew or English, educational certificates in your art field, recommendations, and publications. Additionally, applicants are required to sign a consent form (in Hebrew) allowing the sharing of their personal information with potential employers.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 24 of 27 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"certificates\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "education-reinforcement-4-year-threshold",

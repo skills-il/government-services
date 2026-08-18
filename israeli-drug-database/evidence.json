@@ -88,12 +88,14 @@
       "claim_id": "atc-who",
       "claim": "The WHO ATC/DDD index provides the anatomical therapeutic chemical classification used to cross-reference active ingredients.",
       "source_url": "https://www.whocc.no/atc_ddd_index/",
-      "raw_snippet": "The WHO Collaborating Centre for Drug Statistics Methodology maintains the ATC/DDD index.",
-      "fetched_at": "2026-06-21T00:00:00Z",
+      "raw_snippet": "In your search result you may choose to show or hide the text from the Guidelines for ATC classification and DDD assignment linked to the ATC level. The text in the Guidelines will give information related to the background for the ATC and DDD assignment. Search query or containing query starting with query ATC code All ATC levels are searchable. A search will result in showing the exact substance/level and all ATC levels above (up to 1st ATC level).",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 9 of 15 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"classification\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "drug-index-service",

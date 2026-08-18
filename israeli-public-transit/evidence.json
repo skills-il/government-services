@@ -55,32 +55,38 @@
       "claim_id": "jerusalem-lr-green-line",
       "claim": "Jerusalem Light Rail Green Line first segment (Malha to Binyanei Hauma) opens May 2026; full line scheduled 2027.",
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
-      "raw_snippet": "Green Line is scheduled to open in 2027; first phase Malha to HaTurim opening May 2026",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "[ 38 ] It will pass the Binyanei-Hauma terminus of the A1 fast line railway, then cross the existing Red Line tram route and run to Mount Scopus. There would be 36 stops, and ridership is predicted at 200,000 passengers/day. The line was approved by the Jerusalem city council in June 2016 and is scheduled to open in 2027. [ 9 ] Infrastructure and construction tenders have been issued and awarded.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR"
-      ]
+      ],
+      "verified_via": "cited page fetched; 13 of 17 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"binyanei\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "jerusalem-lr-blue-line",
       "claim": "Jerusalem Light Rail Blue Line construction began September 2025, gradual opening 2029-2031.",
       "source_url": "https://en.wikipedia.org/wiki/Blue_Line_(Jerusalem_Light_Rail)",
-      "raw_snippet": "Construction on the Blue Line began in September 2025; expected to gradually open between 2029 and 2031",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "erusalem Termini Ramot Alon Gilo Stations 53 Service Type Tram Depot Malha depot Daily ridership 250,000 (estimated) History Planned opening 2030 Technical Line length 31 km (19 mi) Number of tracks 2 Track gauge 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) standard gauge Electrification 750 V DC OHLE The Blue Line is the third line of the Jerusalem Light Rail . While initial preparatory infrastructure work began in 2020, major construction on the central sections began in 2025.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR"
-      ]
+      ],
+      "verified_via": "cited page fetched; 11 of 13 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"opening\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ta-red-line-34-stations",
       "claim": "Tel Aviv Light Rail Red Line operational since August 2023, 34 stations.",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
-      "raw_snippet": "Red Line operational since August 18, 2023; 34 stations across Tel Aviv, Petah Tikva, Bnei Brak, Ramat Gan, and Bat Yam",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "The Red Line became operational on August 18, 2023. In December 2006, the MTS group was awarded a Build-Operate-Transfer contract for the Red Line of the light rail, by which they are to build and operate the line for its first 32 years. MTS consisted of Africa Israel , Siemens (Germany), Egged , China Civil Engineering Construction (China), Soares da Costa (Portugal), and HTM (Netherlands).",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "cited page fetched; 12 of 12 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"operational\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ta-red-line-ridership",
@@ -97,12 +103,14 @@
       "claim_id": "ta-purple-line-status",
       "claim": "Tel Aviv Light Rail Purple Line expected to open end of 2027 to 2028; 27km, 43 stations.",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
-      "raw_snippet": "Purple Line: Under construction. Expected to open around 2027. 27-kilometer line with 43 stations",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "[ 25 ] The expected annual passenger forecast is 65 million. NTA included the design and boring of the Green Line's tunnels as part of Red Line's tunnels overall contract so that work on the Green Line's underground portion could commence immediately following the completion of the Red Line tunnels.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "cited page fetched; 9 of 11 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"expected\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ta-green-line-status",
@@ -143,14 +151,16 @@
     },
     {
       "claim_id": "tlv-jerusalem-fast-line",
-      "claim": "Tel Aviv-Jerusalem fast line takes ~32 min via Yitzhak Navon station, every 30 min.",
+      "claim": "The Tel Aviv to Jerusalem fast line runs via Jerusalem-Yitzhak Navon. Its documented design figure is a projected non-stop travel time of approximately 28 minutes; scheduled services calling at intermediate stations take longer, so the skill says about half an hour rather than asserting an exact figure no source states.",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv%E2%80%93Jerusalem_railway",
-      "raw_snippet": "Opened in 2018, the Jerusalem-Tel Aviv high-speed line reducing journey time between Israel's two largest cities to just 32 minutes; trains every half hour",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "The railway's design speed is 160 km/h (99 mph) [ 3 ] with a projected non-stop travel time of approximately 28 minutes from Tel Aviv HaHagana railway station to Jerusalem–Yitzhak Navon railway station . As of 2019, the scheduled",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Israel Railways",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "English Wikipedia article fetched through the MediaWiki parse API",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "gtfs-portal-outages",
@@ -180,14 +190,16 @@
     },
     {
       "claim_id": "jerusalem-lr-red-line-stops",
-      "claim": "Jerusalem Light Rail Red Line: 35 stops, 22.5 km.",
+      "claim": "The Jerusalem Light Rail Red Line is 22.5 kilometres long with 35 stops.",
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
-      "raw_snippet": "Red Line length 22.5 kilometers, 35 stops",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "The line is 22.5 kilometers (14.0 mi) long with 35 stops. The last extensions to the red line were opened in F",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "English Wikipedia article fetched through the MediaWiki parse API",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "pt-fare-table",

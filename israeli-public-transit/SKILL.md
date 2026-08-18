@@ -59,7 +59,7 @@ Check live arrival times at a stop:
 
 **Israel Railways (Rakevet Yisrael)**
 - National rail network, ~70 stations
-- Key corridors: Tel Aviv-Haifa, Tel Aviv-Jerusalem (fast line, ~32 min via Yitzhak Navon), Tel Aviv-Beer Sheva, Nahariya-Ben Gurion Airport-Modi'in
+- Key corridors: Tel Aviv-Haifa, Tel Aviv-Jerusalem (fast line, about half an hour via Yitzhak Navon), Tel Aviv-Beer Sheva, Nahariya-Ben Gurion Airport-Modi'in
 - Schedule: Official Israel Railways website for timetables. A new schedule launched January 17, 2026 added over 40,000 daily seats, introduced bi-level trains on the Emek (Beit Shean-Atlit) and Carmel lines, and extended hours in the south after Ofakim-Beer Sheva electrification finished.
 - Eastern Railway (Hadera-Lod, 65km, 4 new stations including Shoham/Tira-Taibe/Airport City): partial opening in 2026, full operation expected 2026-2027. Will relieve the coastal main line.
 - Frequency: 10-30 min on main lines during peak hours; Tel Aviv-Jerusalem fast line runs roughly every 30 min off-peak.

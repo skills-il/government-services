@@ -128,12 +128,14 @@
       "claim_id": "leasehold-49-or-98",
       "claim": "Israeli state land leases are typically 49 or 98 years (canonical lease lengths, not a free range).",
       "source_url": "https://semerenkogroup.com/how-does-land-ownership-work-in-israel/",
-      "raw_snippet": "This land is leased long-term, usually 49 or 98 years, rather than sold outright.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "When you “buy” an apartment, you’re often not buying the land itself. This sounds strange, but in practice, it works seamlessly. The vast majority of land in Israel—around 93%—is owned by the state. This is managed by the Israel Land Authority (ILA) . When a developer builds an apartment project on this land, they don’t buy it outright. Instead, they get a long-term lease, typically for 49 years, with an option to extend for another 49 years.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 12 of 17 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"range\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "state-land-93-percent",
