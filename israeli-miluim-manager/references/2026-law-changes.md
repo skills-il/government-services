@@ -15,7 +15,7 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Aspect | Wartime (Temporary) | Current Law (2026, Permanent) |
 |--------|---------------------|-------------------------------|
 | Duration (under 60 days served) | 30 days | 30 days (unchanged) |
-| Duration (60+ days served) | 60 days (temporary order) | Reported as 60 days, UNVERIFIED: not in the consolidated text of Section 41A |
+| Duration (60+ days served) | 60 days (temporary order) | 60 days total. The first 30 are Section 41A(b); days 31-60 come from a collective-agreement EXTENSION ORDER, not the statute, which is why they are absent from the consolidated text |
 | Applies to | All employers, all reservists | All employers, all reservists |
 | Legal basis | Hora'at Sha'a (temporary provision) | Made permanent via 2026 legislation |
 
@@ -84,7 +84,7 @@ These protections are part of permanent law and remain fully in effect.
 | Job preservation during service | Employer must hold the reservist's position | Reserve Duty Compensation Law |
 | Same role upon return | Must return to same position, same terms, same pay | Reserve Duty Compensation Law |
 | 30-day post-service dismissal ban (under 60 days served) | Cannot be fired within 30 days of return | Reserve Duty Compensation Law |
-| 60-day post-service dismissal ban (60+ days served) | Cannot be fired within 60 days of return | Permanent law from 2026 |
+| 60-day post-service dismissal ban (60+ days served) | Cannot be fired within 60 days of return. Days 1-30 need a ועדת התעסוקה permit (Defence); days 31-60 need a ועדת פיקוח permit (Labour) | Section 41A(b) plus a collective-agreement extension order, carried forward by the 29.04.2026 order |
 | Pre-service dismissal ban | Cannot be fired because of an upcoming call-up | Reserve Duty Compensation Law |
 | Seniority accrual | Service period counts toward work seniority | Reserve Duty Compensation Law |
 | Pension contributions | Employer must continue pension deposits during service | Reserve Duty Compensation Law |
@@ -308,7 +308,7 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 | Provision | Wartime | 2026 Status |
 |-----------|---------|-------------|
 | Post-service dismissal ban (under 60 days) | 30 days | 30 days (permanent law) |
-| Post-service dismissal ban (60+ days served) | 60 days (temporary) | 60 days (made permanent) |
+| Post-service dismissal ban (60+ days served) | 60 days (temporary) | 60 days, split across two instruments and two committees (30 statutory + 30 by extension order), made permanent by the 29.04.2026 order |
 | 20% employer social contribution compensation | Active (temporary) | Active (anchored permanently April 27, 2026; private employers only) |
 | Supplementary employer compensation (temp replacements) | Active | Expired |
 | Spouse 1-hour paid absence | Active | Active (made permanent) |
@@ -337,16 +337,16 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 3. **Use accumulated wartime vacation days** before end of 2027
 4. **Verify pension contributions**: Ensure employer continued deposits during any 2025-2026 service
 5. **Self-employed**: File compensation claims promptly with Bituach Leumi
-6. **If terminated within protection period**: Document everything. Protection is 30 days (under 60 days served) or 60 days (60+ days served)
+6. **If terminated within protection period**: Document everything. Protection is 30 days (under 60 days served) or 60 days (60+ days served, requiring 7 consecutive). Apply to the RIGHT body: ועדת התעסוקה at the Ministry of Defence for the first 30 days, ועדת פיקוח at the Ministry of Labour for days 31-60. You may also be entitled to MoD-funded legal representation
 
 ## What Employers Should Do in 2026
 
-1. **Update HR policies**: Reflect the tiered dismissal protection (30 days for under 60 days served, 60 days for 60+ days served)
+1. **Update HR policies**: Reflect the tiered dismissal protection (30 days for under 60 days served; 60 days for 60+ days served in the calendar year including 7 consecutive). Note the permit for days 31-60 comes from ועדת פיקוח at the Ministry of Labour, not from ועדת התעסוקה
 2. **Claim 20% social contribution compensation**: This is now permanent for private employers. File with Bituach Leumi
 3. **Process Bituach Leumi reimbursements**: File salary reimbursement claims promptly after employee returns
 4. **Apply correct tax credits**: Use the new 15-tier combat credit system under Amendment 283
 5. **Track service dates**: Maintain accurate records of employees' service periods using Form 3010
-6. **Respect spouse protections**: 1-hour paid absence per day during service, plus a post-service dismissal ban whose length is unresolved between sources (verify before acting)
+6. **Respect spouse protections**: 1-hour paid absence per day during service; a permanent ban under s.41A2(b) on dismissing an employee BECAUSE of a spouse's reserve service (no day window, dismissal void); and, from 29.04.2026, a conditional 14-day post-service window covering dismissal and unpaid leave for a spouse with a child, permit-gated by ועדת התעסוקה. Check the temporary provision is still live
 
 ## The three IDF payments in full
 

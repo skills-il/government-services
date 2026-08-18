@@ -87,7 +87,16 @@ An additional 25% on top of the tagmul, but the combined daily total may never e
 
 > סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי
 
-Clamp AFTER adding both the 40% supplement and the 25%, not before.
+State the sequence once, and in this order:
+
+1. Compute the daily basis for the situation (section 1 above).
+2. Add the self-employed 25% to that DAILY figure, if applicable.
+3. Cap the resulting daily figure at the ceiling (1,730.33), and floor it at 328.76.
+4. Multiply by the paid-day count, which is the service days PLUS the remainder supplement from section 3.
+
+The 40% supplement is a DAY COUNT, not a rate, so it never sits inside the daily
+clamp. The cap binds the combined daily total of tagmul plus the 25% compensation,
+which is what BTL means by `סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי`.
 
 ## 6. Tax, contributions and debt offset
 

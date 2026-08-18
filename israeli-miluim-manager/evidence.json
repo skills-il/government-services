@@ -1548,6 +1548,18 @@
       "appears_in": [
         "references/btl-payment-rules.md"
       ]
+    },
+    {
+      "claim_id": "he-takana-1b",
+      "claim": "Regulation 1(b) of the National Insurance (Deadlines for Filing Suits) Regulations sets the 12-month deadline for filing with the Labour Court.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_(%D7%9E%D7%95%D7%A2%D7%93%D7%99%D7%9D_%D7%9C%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%95%D7%91%D7%A2%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "תובענה של מעביד, בשם עובד או התלוי בו, לגמלה לפי פרק ה׳ לחוק, כאמור בסעיף 393 לחוק, תוגש לבית הדין לעבודה בתוך שניים עשר חודשים מתום המועד להגשת התובענה על ידי העובד או התלויים כאמור בתקנה 1(ב)",
+      "fetched_at": "2026-08-18T19:52:36.587350+00:00",
+      "source_fetched_at": "2026-08-18T19:52:36.587350+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
+      "appears_in": [
+        "references/troubleshooting.md"
+      ]
     }
   ],
   "pending_verification": [

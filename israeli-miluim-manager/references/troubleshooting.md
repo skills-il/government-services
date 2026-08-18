@@ -9,11 +9,11 @@ Solution:
 4. File complaint with the Labor Court (Beit Din LaAvoda). Filing fee is 1% of claim, minimum NIS 168 (many common labor claims are exempt from fees)
 
 ### Error: "Bituach Leumi rejected compensation claim"
-Cause: Missing or incorrect Form 3010, income documentation gaps, BL arrears blocking payout, or filing deadline exceeded.
+Cause: Missing or incorrect Form 3010, or income documentation gaps. Note that BL arrears are NOT a cause: BTL does not offset a debt against reserve pay unless the recipient asks it to, or filing deadline exceeded.
 Solution:
 1. Verify Form 3010 dates match actual service period
 2. Ensure income documentation covers the 3 months before service (or longer if Amendment 253 fixed-base applies)
-3. Check for BL arrears that may be offsetting the payout; resolve by paying or arranging a payment plan
+3. Do NOT chase BL arrears as an explanation. Offset happens only on the recipient's own request, so a debt is not why the payment is missing
 4. If the claim was rejected, the operative remedy is a filing with the **regional Labour Court within 12 months of the day the decision was delivered** (reg. 1(b), תקנות הביטוח הלאומי (מועדים להגשת תובענות)). A request to **ועדת תביעות** to re-examine may be made within 6 months, but that committee can only RECOMMEND reconsideration and does **not** pause the 12-month clock. Free Ministry of Justice legal aid is available with no means test
 5. Contact Bituach Leumi service center at *6050 for the specific rejection reason
 
@@ -47,12 +47,12 @@ Solution: chase them at the IDF hotline **1111 ext. 4**, never *6050, and confir
 4. הגשת תלונה לבית הדין לעבודה. אגרת הגשה: 1% מהתביעה, מינימום 168 ש"ח (תביעות שכר רגילות פטורות מאגרה)
 
 ### שגיאה: "ביטוח לאומי דחה תביעת תגמולים"
-סיבה: טופס 3010 חסר או שגוי, פערים בתיעוד הכנסות, חוב לביטוח לאומי שמקזז את התשלום, או חריגה ממועד ההגשה.
+סיבה: טופס 3010 חסר או שגוי, או פערים בתיעוד הכנסות. שימו לב שחוב לביטוח לאומי אינו סיבה: התשלום מקוזז רק אם מקבל התשלום ביקש זאת. או חריגה ממועד ההגשה.
 פתרון:
 1. אימות שתאריכי טופס 3010 תואמים את תקופת השירות בפועל
 2. וידוא שתיעוד ההכנסות מכסה את 3 החודשים שלפני השירות (או יותר, אם תיקון 253 חל)
-3. בדיקת חוב לביטוח לאומי שעלול לקזז את התשלום. מומלץ להסדיר אותו או לסגור הסדר תשלומים.
-4. אם חלף המועד, הגשת ערעור לביטוח לאומי תוך 6 חודשים
+3. אל תחפשו חוב לביטוח לאומי כהסבר. הקיזוז נעשה רק לבקשת מקבל התשלום, ולכן חוב אינו הסיבה לכך שהכסף לא הגיע.
+4. אם התביעה נדחתה, הסעד המעשי הוא הגשת תובענה ל**בית הדין האזורי לעבודה תוך 12 חודשים** מיום שנמסרה ההחלטה (תקנה 1(ב) לתקנות הביטוח הלאומי (מועדים להגשת תובענות)). אפשר לבקש מ**ועדת תביעות** לבחון מחדש תוך 6 חודשים, אבל היא רק ממליצה ואינה עוצרת את מרוץ 12 החודשים. יש סיוע משפטי חינם ממשרד המשפטים, ללא מבחן הכנסה
 5. פנייה למרכז השירות של ביטוח לאומי (*6050) לסיבת הדחייה הספציפית
 
 ### שגיאה: "רשות המסים דחתה זיכוי לוחם לפי תיקון 283"
@@ -85,7 +85,7 @@ Solution: chase them at the IDF hotline **1111 ext. 4**, never *6050, and confir
 1. הסבר חובת הקדמת שכר במהלך השירות (השכר הקובע = שכר טרום-שירות)
 2. פירוט דרישות המשכיות פנסיה וקרן השתלמות
 3. ציון שהמדינה מחזירה 20% מהשכר עבור הפרשות סוציאליות (מעסיקים פרטיים בלבד. קבוע מ-2026, עוגן בתיקון לחוק הביטוח הלאומי שאושר ב-27.4.26)
-4. הסבר איסור פיטורים: 30 יום אחרי השירות לפי סעיף 41א(ב); הגנה של 60 יום ל-60+ ימי שירות מדווחת אבל לא מאומתת
+4. הסבר איסור פיטורים: 30 יום אחרי השירות לפי סעיף 41א(ב), בהיתר ועדת התעסוקה; והימים 31 עד 60, למי ששירת 60 ימים ומעלה בשנה מתוכם 7 רצופים, מכוח צו הרחבה ובהיתר ועדת פיקוח במשרד העבודה
 5. ציון הגנות לבן/בת הזוג: שעת היעדרות בתשלום ליום במהלך שירות של 5+ ימים, עד 8 ימי חופשה לבן/בת זוג עם ילד עד גיל 14
 6. הדרכה לתהליך החזר דרך פורטל המעסיקים של ביטוח לאומי
 7. אם המעסיק במגזר הציבורי, ציון שהחזר ה-20% לא חל
@@ -97,7 +97,7 @@ Solution: chase them at the IDF hotline **1111 ext. 4**, never *6050, and confir
 1. זיהוי דרגת זיכוי גבוהה ביותר: 110+ ימי לחימה = 4.0 נקודות זיכוי = 11,616 ש"ח, שיינתנו בשנת המס שאחרי שנת השירות
 2. אישור שצריך שני אישורים: אישור שירות + אישור לוחם
 3. בדיקת רמת הכנסה לזכאות להשלמה לרצפת פיצוי מינימלית (מתחת ל-9,863 ש"ח לחודש) ולתקרה (מעל 51,910 ש"ח לחודש)
-4. אישור זכאות לתגמול מיוחד (הזכאות מתחילה מהיום ה-61 של שמ"פ מצטבר)
+4. אישור זכאות לתגמול מיוחד בשתי השכבות: 133.33 ש"ח ליום על הימים 32 עד 60, ומעבר ליום ה-60 תעריף שנקבע לפי שנת השירות
 5. אישור זכאות למענקי אכ"א (מענק משפחה מוגדל אם 40+ ימים עם ילד עד גיל 14)
 6. הגשת טופס 101 למעסיק או הגשה ישירה לרשות המסים
 7. אם עצמאי, בדיקת חלון הגשה למענק נזק עקיף

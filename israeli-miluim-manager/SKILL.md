@@ -73,7 +73,7 @@ Reservists are paid through four distinct tracks. **Only the first is a Bituach 
 
 Never route a user to the BTL portal or *6050 for the three IDF payments: they go to the **IDF hotline 1111 ext. 4** (then 1 for unit tiers).
 
-**Rates are re-set yearly by army order.** Section 18(a) delegates the qualifying period and rates to `פקודות הצבא`, and Section 30 obliges the IDF to publish them online, so miluim.idf.il is the legally canonical source. Check it rather than trusting any hard-coded rate, including these.
+**Rates are re-set yearly by army order.** Section 18(a) delegates the qualifying period and rates to `פקודות הצבא`, and Section 30 obliges the IDF to publish them online, making miluim.idf.il the legally canonical source. Check it rather than any hard-coded rate, including these.
 
 **Salary-reimbursement basis (Bituach Leumi).** Employee: 3-month gross liable wage / 90 (choose 3 of the last 6 months if under 60 days were worked). Self-employed: reported advances / 90, recomputed on final assessment. Clamped to the 2026 floor and ceiling, **NIS 328.76 and NIS 1,730.33 per day**. Four situations take a DIFFERENT basis and are routinely missed: someone **not working** (including students) gets the flat floor; someone who **stopped salaried or self-employed work within 60 days** of call-up is assessed on that former income, not the floor; someone **discharged from keva within 60 days** may be paid at the keva salary; and someone on **unemployment benefit above the floor** is paid at the unemployment rate. Full table in `references/btl-payment-rules.md`.
 
@@ -214,7 +214,7 @@ User says: "I received a tsav kriah for 45 days of miluim as a combat reservist.
 Actions:
 1. Confirm employer must hold position and continue salary during 45-day service
 2. Explain employer claims salary reimbursement from Bituach Leumi, plus 20% state compensation for social contributions
-3. Note 30-day post-service dismissal protection upon return (under 60 days served); spouse protection exists but verify its length
+3. Note 30-day post-service dismissal protection on return; spouse protection is a permanent causal ban under s.41A2(b), plus a conditional 14-day window from 29.04.2026
 4. Amendment 283 credit: 40-49 day tier = 0.75 points = NIS 2,178/year, only with the ishur lochem, and credited in the tax year AFTER the service year
 5. Note Tagmul Nosaf is an IDF payment due by 1 May next year (its 2026 day-threshold needs verifying)
 6. Note digital wallet eligibility (accrues from day 10) and check miluim.idf.il for Aka grants

@@ -31,7 +31,7 @@ reserve service does NOT qualify for an Amendment 283 credit (0). The universal 
 resident credit points apply to everyone regardless of service.
 
 Additionally, reservists earning below NIS 9,863/month receive a
-top-up from Bituach Leumi to reach that minimum compensation floor.
+reserve-pay floor. This script does NOT estimate reserve pay itself.
 
 Usage:
     python scripts/miluim-tax-credit-calculator.py --days 45 --monthly-income 15000
@@ -122,14 +122,28 @@ def calculate_credits(days: int, monthly_income: float, is_combat: bool = True) 
             result["annual_credit_value"] = tier["points"] * CREDIT_POINT_ANNUAL
             result["monthly_credit_value"] = tier["points"] * CREDIT_POINT_MONTHLY
 
-    # Check minimum compensation floor
+    # Flag, do NOT quantify, the tagmul floor.
+    # MIN_COMPENSATION_MONTHLY is a floor on the DAILY TAGMUL BASIS, not a monthly
+    # income top-up, and it applies only in the situations enumerated in
+    # references/btl-payment-rules.md section 1 (not working, ceased work within 60
+    # days of call-up, recent keva discharge, unemployment benefit above the floor).
+    # An earlier version multiplied the gap by the service months and added the
+    # product to the credit value. That produced a shekel figure that does not exist,
+    # and summed a next-tax-year credit with a this-year pay estimate. Removed.
     if 0 < monthly_income < MIN_COMPENSATION_MONTHLY:
         result["below_compensation_floor"] = True
-        result["estimated_monthly_topup"] = MIN_COMPENSATION_MONTHLY - monthly_income
+        result["floor_note"] = (
+            "Reported income is below the tagmul floor. The floor may raise the daily "
+            "tagmul BASIS, but only in specific situations. This script does not "
+            "estimate reserve pay. See references/btl-payment-rules.md section 1."
+        )
 
-    service_months = days / 30.0
-    total_topup = result["estimated_monthly_topup"] * service_months if result["below_compensation_floor"] else 0
-    result["total_annual_benefit"] = result["annual_credit_value"] + total_topup
+    # Deliberately no combined total: the Amendment 283 credit lands in the tax year
+    # AFTER the service year, while reserve pay is paid during or shortly after the
+    # service. Summing them into one headline figure misrepresents both.
+    result["annual_credit_value_note"] = (
+        "Credit applies in the tax year following the service year."
+    )
 
     return result
 
@@ -243,31 +257,27 @@ def main():
     print(f"  Annual credit value: {result['annual_credit_value']:,.0f} NIS")
     print(f"  Monthly credit value: {result['monthly_credit_value']:,.0f} NIS")
 
-    # Compensation floor check
-    print(f"\n  Minimum Compensation Check:")
+    # Tagmul floor: flag only, never quantify.
+    print(f"\n  Reserve-Pay Floor (informational, NOT calculated here):")
     print(f"  {'=' * 50}")
-    print(f"  Bituach Leumi floor: {MIN_COMPENSATION_MONTHLY:,} NIS/month ({MIN_COMPENSATION_DAILY} NIS/day)")
-
+    print(f"  Bituach Leumi daily floor: {MIN_COMPENSATION_DAILY} NIS/day ({MIN_COMPENSATION_MONTHLY:,} NIS/month)")
     if result["below_compensation_floor"]:
-        service_months = result["days"] / 30.0
-        print(f"  Status: BELOW FLOOR (income below {MIN_COMPENSATION_MONTHLY:,} NIS/month)")
-        print(f"  Estimated monthly top-up: {result['estimated_monthly_topup']:,.0f} NIS")
-        print(f"  Estimated service months: {service_months:.1f}")
-        print(f"  Total estimated top-up: {result['estimated_monthly_topup'] * service_months:,.0f} NIS")
-    elif result["monthly_income"] == 0:
-        print(f"  Status: NO INCOME (full floor amount applies)")
+        print(f"  Reported income is below that floor.")
+        print(f"  The floor may raise your daily tagmul BASIS, but it applies only in")
+        print(f"  specific situations (not working, ceased work within 60 days of the")
+        print(f"  call-up, recent keva discharge, or unemployment benefit above the floor).")
+        print(f"  This script does NOT estimate reserve pay. See")
+        print(f"  references/btl-payment-rules.md section 1 to work out the right basis.")
     else:
-        print(f"  Status: ABOVE FLOOR (no top-up needed)")
+        print(f"  Reported income is at or above the floor.")
 
-    # Total benefit summary
-    print(f"\n  Total Estimated Annual Benefit:")
+    # Amendment 283 credit only. Deliberately NOT summed with reserve pay:
+    # the credit lands in the tax year AFTER the service year, whereas reserve
+    # pay arrives during or shortly after the service. They are not commensurable.
+    print(f"\n  Amendment 283 Credit (this is the ONLY figure this script computes):")
     print(f"  {'=' * 50}")
-    print(f"  Tax credit:                          {result['annual_credit_value']:,.0f} NIS")
-    if result["below_compensation_floor"]:
-        service_months = result["days"] / 30.0
-        total_topup = result["estimated_monthly_topup"] * service_months
-        print(f"  Compensation top-up:                 {total_topup:,.0f} NIS")
-    print(f"  Total benefit:                       {result['total_annual_benefit']:,.0f} NIS")
+    print(f"  Annual credit value:                 {result['annual_credit_value']:,.0f} NIS")
+    print(f"  Applies in the tax year AFTER the service year.")
 
     # Next tier info (combat only)
     if is_combat and result["tier"] is not None and result["tier"]["max_days"] is not None:

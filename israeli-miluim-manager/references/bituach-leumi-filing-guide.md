@@ -2,7 +2,7 @@
 
 A step-by-step guide for filing all three reserve-duty payment tracks (only the first is a Bituach Leumi payment) (ביטוח לאומי, National Insurance Institute), plus the joint Tax Authority and IDF Manak Nezek Akif grant for self-employed reservists. Covers both employees and self-employed workers.
 
-## The Three Reserve-Duty Payment Tracks
+## The Four Reserve-Duty Payment Tracks
 
 Only the first is a Bituach Leumi payment. Tagmul Nosaf and Tagmul Meyuchad are IDF payments, chased at 1111 ext. 4 and never at *6050.
 
@@ -10,7 +10,7 @@ Only the first is a Bituach Leumi payment. Tagmul Nosaf and Tagmul Meyuchad are 
 |-------|--------|-----------|-----------|
 | Salary reimbursement (Bituach Leumi) | תגמולי מילואים | Replaces lost income during service | Monthly during/after service |
 | Tagmul Nosaf (IDF) | תגמול נוסף | Annual payment; **10+ cumulative shamap days** in a calendar year (Reserve Service Law s.19) | By 1 May of the following year |
-| Tagmul Meyuchad (IDF) | תגמול מיוחד | From the 61st cumulative shamap day inclusive; rate banded by unit tier | 2026 payment on 01.05.2027 by Mofet |
+| Tagmul Meyuchad (IDF) | תגמול מיוחד | Two layers: flat 133.33/day for days 32-60, then a year-specific rate beyond day 60; rate banded by unit tier | 2026 payment on 01.05.2027 by Mofet |
 
 A reservist may be entitled to all three. Conflating them is the leading cause of believing a payment is missing when only one track has been processed.
 
@@ -189,7 +189,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 | Filing deadline exceeded | חריגה ממועד ההגשה | File with the Labour Court within 12 months of the decision being delivered; a 6-month ועדת תביעות request is optional and non-tolling |
 | Incorrect bank details | פרטי בנק שגויים | Update bank details and resubmit |
 | Missing service confirmation | חסר אישור שירות | Contact IDF Personnel Directorate for replacement |
-| Bituach Leumi payment arrears | חוב לביטוח לאומי | Pay arrears or arrange payment plan; arrears may reduce compensation |
+| Bituach Leumi payment arrears | חוב לביטוח לאומי | NOT a cause of a withheld payment. BTL does not offset a debt against reserve pay unless the recipient asks it to: `מתשלום מילואים לא ינוכה חוב לביטוח הלאומי, אלא אם מקבל התשלום מבקש זאת`. Do not send the reservist to settle a debt to release the money |
 
 ## Special Situations
 
@@ -232,7 +232,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 
 An annual payment separate from salary reimbursement, **paid by the IDF, not by Bituach Leumi**.
 
-**Verify before quoting a threshold:** the 2026 IDF policy page does not restate the terms of tagmul nosaf, so the 10-qualifying-day rule below is carried over from earlier years and is currently UNVERIFIED for 2026.
+**Verify before quoting a threshold:** the 2026 IDF policy page does not restate the terms of tagmul nosaf, so the 10-qualifying-day rule is set by section 19 of the Reserve Service Law with the qualifying period in Supreme Command Orders.
 
 | Aspect | Detail |
 |--------|--------|
@@ -244,11 +244,11 @@ An annual payment separate from salary reimbursement, **paid by the IDF, not by 
 
 ## Tagmul Meyuchad (Special Wartime Payment)
 
-**Paid by the IDF (Mofet), NOT by Bituach Leumi.** Entitlement begins from the **61st** cumulative shamap day inclusive in 2026, in any order type. Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60. The daily rate is banded by the unit's activity tier (א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS). The 2026 payment is made on 01.05.2027.
+**Paid by the IDF (Mofet), NOT by Bituach Leumi.** Entitlement has **two layers**: a flat 133.33 NIS/day for days **32-60**, then a rate beyond day 60 that depends on the SERVICE YEAR (2024 flat 133 and 2025 133/60/40, both tzav 8 only; 2026 six activity-tier bands, any order type) in 2026, in any order type. Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60. The daily rate is banded by the unit's activity tier (א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS). The 2026 payment is made on 01.05.2027.
 
 | Aspect | Detail |
 |--------|--------|
-| Eligibility | From the 61st cumulative shamap day inclusive; pre-2026 Section 8 days count toward the 60 |
+| Eligibility | Days 32-60 pay a flat 133.33/day; beyond day 60 the rate depends on the service year. Pre-2026 Section 8 days count toward the 60 |
 | How to chase it | IDF miluim hotline **1111 ext. 4** (then 1 for unit-tier questions). Never the BTL portal or *6050 |
 | Payment | Automatic by Mofet to the bank account registered with the unit; 2026 payment on 01.05.2027 |
 
@@ -272,7 +272,7 @@ A cash grant program (NOT a tax deduction) jointly run by the Tax Authority's Pr
 1. **Photograph Form 3010** immediately upon receiving it (in case the original is lost)
 2. **File as soon as possible** after service ends; do not wait until the deadline approaches
 3. **Keep all income documentation** organized by month for the 3 months before service
-4. **Check for Bituach Leumi payment arrears** before filing; outstanding debts can delay compensation
+4. **Do NOT treat Bituach Leumi arrears as a blocker.** BTL offsets a debt against reserve pay only if the recipient asks it to, so arrears are not why a payment is missing
 5. **Save the confirmation number** after submitting your claim online
 6. **Follow up** if you have not received payment within 30 days of filing
 7. **If rejected**, read the rejection reason carefully; most rejections are due to missing documents that can be resubmitted
@@ -319,7 +319,7 @@ Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim
 |-------|---------|
 | Direct salary reimbursement | File via **Form 502** with Bituach Leumi (no employer intermediary); income basis = the gross advances (מקדמות) reported to BTL for the 3 months before service / 90, subject to Amendment 253 |
 | Tagmul Nosaf | Annual IDF payment, automatic; 10+ cumulative shamap days in a calendar year |
-| Tagmul Meyuchad | IDF payment from the **61st** cumulative shamap day inclusive (pre-2026 Section 8 days count toward the 60); rate banded by unit tier; 2026 payment on 01.05.2027 |
+| Tagmul Meyuchad | IDF payment in two layers: flat 133.33/day for days 32-60, then a year-specific rate beyond day 60 (pre-2026 Section 8 days count toward the 60); rate banded by unit tier; 2026 payment on 01.05.2027 |
 | Manak Nezek Akif | Cash grant program for income loss tied to reserve service |
 | Tax credits | Same Amendment 283 combat tiers as employees (if serving in combat role) |
 | Minimum compensation | NIS 9,863/month floor, topped up by Bituach Leumi if income is below this |
