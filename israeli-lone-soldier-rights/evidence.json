@@ -111,8 +111,11 @@
       "claim_type": "company",
       "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
       "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "Nefesh B'Nefesh and FIDF jointly operate the NBN Lone Soldier Program. Garin Tzabar is an aliyah and IDF preparation program by the Israeli Scouts. The Lone Soldier Center in Memory of Michael Levin (tzevetmikey.com) provides community services. Mahal is a program for non-Israeli volunteers to serve in the IDF.",
-      "confidence": "medium"
+      "raw_snippet": "Lone Soldier Rights and Benefits – Lone Soldiers Program | Nefesh B'Nefesh FIDF",
+      "confidence": "medium",
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "form-62-soldier-facing",

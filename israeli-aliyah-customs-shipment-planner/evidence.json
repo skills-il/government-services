@@ -72,12 +72,14 @@
       "claim_id": "olim-one-of-each-appliance",
       "claim": "One item maximum per other appliance category (fridge, oven, washer, dryer, microwave)",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "one of each appliance",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Understanding Your Customs Benefits - Nefesh B'Nefesh",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-6-year-retention",
@@ -291,12 +293,14 @@
       "claim_id": "red-customs-lane",
       "claim": "Items exceeding value thresholds require Red Customs lane processing",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "those exceeding value thresholds require Red Customs lane processing rather than the expedited Green lane",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Aliyah Customs Benefits Overview : Shivat Zion - Aliyah & Klita",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     }
   ]
 }

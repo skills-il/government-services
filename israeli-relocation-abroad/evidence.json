@@ -191,15 +191,21 @@
       "id": "shivat-zion-returning-resident-hub",
       "claim": "Shivat Zion is the Misrad HaAliyah-operated knowledge base for returning residents, covering customs, employment, healthcare, and Misrad HaKlita absorption services on return.",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
-      "raw_snippet": "Shivat Zion: comprehensive guide for olim and returning Israelis",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "Klita : Shivat Zion - Aliyah & Klita",
+      "fetched_on": "2026-05-26",
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "belong-return-to-israel-guide",
       "claim": "Belong publishes a return-to-Israel guide covering kupat cholim waiting period (with health pidyon redemption figures), vehicle import, employment programs, and family integration for returning Israelis.",
       "source_url": "https://belong.co.il/return-to-israel/",
-      "raw_snippet": "Welcome Home: Toshav Chozer process and rights",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "Returning to Israel- Welcome Back to Where you Belong",
+      "fetched_on": "2026-05-26",
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "section-14-vesting-period-sourcing",

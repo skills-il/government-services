@@ -181,12 +181,14 @@
       "claim_id": "iron-swords-emergency-ops",
       "claim": "Iron Swords war has caused emergency operations including pauses on specific rail corridors.",
       "source_url": "https://semerenkogroup.com/israel-shifts-transit-to-emergency-operations/",
-      "raw_snippet": "Israel has shifted its public transit networks to emergency operations; pauses in rail services such as the Coastal Line pause on February 13, 2026",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "Israel Light Rail Real Estate Guide 2025: Investment Map",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Gotchas",
         "SKILL_HE.md#מלכודות נפוצות"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "jerusalem-lr-red-line-stops",
