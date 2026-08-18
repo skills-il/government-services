@@ -66,6 +66,19 @@
         "CARRY: commanders are entitled to tagmul meyuchad beyond day 60, but no source states the RATE for those days. Entitlement documented, rate deliberately omitted.",
         "CARRY: 'yom lochem' may not be IDF-portal vocabulary at all; the portal uses 'madreg peilut'. A site search found nothing, but the search may not honour the query parameter, so this is unverified rather than a negative."
       ]
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-18",
+      "lessons": [
+        "THE BIG ONE THIS CYCLE: I treated all 12 'unreachable' results from verify-evidence.py --check-sources as bot-blocks, because kolzchut and gov.il genuinely do block curl. The Judge browser-checked them individually and found several were real 404s, including the Bank of Israel page that was the sole support for five financial figures. Unreachable is not one category. Distinguish a bot-block (page renders in a browser) from a dead page (404 in a browser too) before accepting either.",
+        "A PARTIALLY_VERIFIED research finding was written into the skill as settled fact. The 29.04.2026 extension order was reported by an agent as corroborated only by secondary sources, and the agent said so plainly. I encoded it anyway, and the whole days-31-60 protection rested on it. When a research report says PARTIALLY_VERIFIED, the skill text must carry that hedge, not resolve it.",
+        "The evidence gate passed the entire time this was wrong. Self-consistency and even --check-sources report 0 FAILED when an entry's snippet is a bare URL, because a URL trivially 'appears' in its own page. Bare-URL and HTML-title snippets are the gate's blind spot; the quality check caught some but not the pointer entries.",
+        "Four review passes were needed and each found real defects the previous missed: Expert found the reference layer, the re-review found the YAML and worked examples, the consistency audit found three residual contradictions, and the Judge found the dead sources. No single reviewer would have been enough, and the failure classes were disjoint.",
+        "CARRY: the 29.04.2026 extension order and its Yalkut HaPirsumim number are still unverified from primary text. Until they are, the days 31-60 layer stays hedged. This is the highest-value open item.",
+        "CARRY: a cluster of procedural numbers has no evidence entry (Form 101 part het section 16, Form 58's 10-day answer, BTL processing windows, the 30-day second-instance appeal, the IDF 8-hours-per-day rule, the Manak Nezek Akif filing window, the vacation end-2027 date, the spouse paid hour and 8 leave days, and the exemption-age profession roster). None is a headline figure but each is quotable.",
+        "CARRY: the 'no means test' qualifier on Ministry of Justice legal aid is unsourced. Section 397 only empowers regulations; it says nothing about means."
+      ]
     }
   ]
 }

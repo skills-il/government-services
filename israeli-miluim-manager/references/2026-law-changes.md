@@ -267,11 +267,7 @@ Bank Israel maintains a periodically renewed relief framework for reservists. Ve
 
 | Relief | Detail |
 |--------|--------|
-| Mortgage payment deferral | Up to 3 months interest-free |
-| Consumer loan deferral | Up to NIS 100,000 |
-| Business loan deferral | Up to NIS 2,000,000 |
-| Overdraft discount (employees) | 1% for reservists with salary transfer at major banks |
-| Overdraft for self-employed | Automatic NIS 30,000 interest-free |
+| Bank of Israel reservist relief | The specific ceilings and percentages previously listed here were sourced to a Bank of Israel page that no longer resolves, so they have been REMOVED rather than restated. Do not quote a deferral ceiling or an overdraft figure. Send the user to their own bank and to bankisrael.org.il for the terms in force |
 
 ## Student Tuition Support (tashpa"u)
 

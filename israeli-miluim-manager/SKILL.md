@@ -33,30 +33,32 @@ A form submitted to an authority is a document whose contents are your responsib
 
 **Call-up:** a Tsav Kriah or Tsav 8 arrives by mail, phone or IDF systems; on release the reservist gets **Form 3010** confirming service dates. Combat reservists also need an **Ishur Lochem** for the Amendment 283 tiers.
 
-**Changing or deferring a call-up.** Orders of **6+ days** on economic or study grounds go to **ולת"ם**: file up to 30 days ahead, appeal within **72 hours** or it is rejected outright. Orders of **5 days or fewer**, and personal grounds, go to the unit via **Form 58** on miluim.idf.il; the unit answers within 10 days, and an appeal exists only if the call-up exceeds 3 days with 14+ days still to run. Both are army-order mechanisms with **no statutory basis**, so present them as IDF procedure, not law.
+**Changing or deferring a call-up.** Orders of **6+ days** on economic or study grounds go to **ולת"ם**: file up to 30 days ahead, appeal within **72 hours** or it is rejected outright. Orders of **5 days or fewer**, and personal grounds, go to the unit via **Form 58**; an appeal exists only if the call-up exceeds 3 days with 14+ days still to run. Both are army-order mechanisms with **no statutory basis**, so present them as IDF procedure, not law.
 
 ### Step 2: Employment Protections
 
 | Protection | Details (2026) |
 |------------|----------------|
-| Causal dismissal ban | Section 41A(a1): dismissal **because of** reserve service, a call-up, or expected service (including its frequency or duration) is **void** (`בטלים הפיטורים`). Not permittable |
-| During service + 30 days after | Section 41A(b): no dismissal **and no cut to job scope or income** without a permit from **ועדת התעסוקה** (Ministry of Defence). Applies to service over two consecutive days |
+| Causal dismissal ban | Section 41A(a1): dismissal **because of** reserve service, a call-up, or expected service (including its frequency or duration) is **void** (`בטלים הפיטורים`). No permit possible |
+| During service + 30 days after | Section 41A(b): no dismissal **and no cut to job scope or income** without a **ועדת התעסוקה** permit (Defence). Service over two consecutive days |
 | Days 31 to 60 after service | A collective-agreement **extension order**, not the statute, for 60+ days served. Waived only by **ועדת פיקוח** (Ministry of Labour), deciding within 14 days |
 | Notice period | Section 41A(c): the protected periods are **excluded** from the count of prior-notice days |
 | Burden of proof | Section 41A(d): on the EMPLOYER, before ועדת התעסוקה |
-| Non-renewal | Section 41A(e): not renewing a fixed-term contract of 12 months or more counts as dismissal |
+| Non-renewal | Section 41A(e): not renewing a fixed-term contract of 12+ months counts as dismissal |
 | Spouse | Section 41A2(b): a permanent ban on dismissing someone **because of a spouse's** reserve service; dismissal void. No day window attaches to this limb |
-| Remedies | Section 21: reinstatement, damages, or both. Damages default to 5x monthly wage, or for 41A/41A2 dismissals the HIGHER of that or 5x the average wage. This is a **floor the committee may depart from**, not a cap |
+| Remedies | Section 21: reinstatement, damages, or both. Damages default to 5x monthly wage, or for 41A/41A2 dismissals the higher of that or 5x the average wage. A **floor the committee may depart from**, not a cap |
 | Seniority, pension, keren hishtalmut | Preserved; deposits continue on the pre-service salary (sechar kove'a) |
 | 20% social contribution compensation | 20% of the 3-month wage base / 90. All employers except public ones |
 
 **Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח). The wrong one wastes the window. The extension requires 60+ reserve days in the calendar year, including 7 consecutive.
 
-**The 2026 instrument.** A new collective agreement and extension order published **29.04.2026**, applying retroactively from 01.01.2026 for an unlimited period, carries the 30+30 structure forward permanently. The 20% employer indemnity is a **separate** instrument, an amendment to the National Insurance Law published the same day, not a term of the extension order. Do not merge the two.
+**Check the days 31-60 layer before relying on it.** The extension order in evidence (י"פ 12159) fixes its own term at 07.10.2023 to 31.12.2024, so on its face it covers only service in that window. Kol Zchut describes a currently-operative 60-day rule with a 7-consecutive-day condition the 2024 order lacks, which implies a successor exists; a successor reportedly published 29.04.2026 could not be confirmed from primary text. Treat the first 30 days as solid and the 31-60 extension as probable but unconfirmed, and tell the user to petition ועדת פיקוח anyway: it costs nothing and the window closes while they wait.
+
+The 20% employer indemnity is a **separate** instrument, an amendment to the National Insurance Law, not a term of the extension order. Do not merge the two.
 
 **Spouse, temporary layer.** A הוראת שעה in force from 29.04.2026 adds, for a spouse **who has a child** with the reservist, a ban on dismissal **and on חל"ת** during the service and for **14 days** after, permit-gated by ועדת התעסוקה. It applies only where the service is under Section 8 emergency conditions or lasts (or is expected to last) 21+ consecutive days, and the employee must notify the employer in writing within 3 working days of being told of the intent. It expires 30 days after the מצב מיוחד בעורף declaration lapses, so **check it is still live before relying on it**.
 
-**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Conditions: more than 3 consecutive miluim days, harm inside the protection window, causal link. It carries an undertaking to **repay the cost** if the harm proves unrelated, court fees stay with the applicant, and it covers **employees only**. Apply on miluim.idf.il with Form 3010.
+**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Reported conditions, which the user should confirm on the portal: more than 3 consecutive miluim days, harm inside the protection window, a causal link, an undertaking to **repay the cost** if the harm proves unrelated, court fees on the applicant, and **employees only**. Apply on miluim.idf.il.
 
 **Filing a complaint:** violations go to the Labor Court. The fee is 1% of the claim, minimum NIS 168 (NIS 84 expedited), and common wage claims are fee-exempt.
 
@@ -173,20 +175,9 @@ Reserve service does NOT consume vacation days, and an employer may not force a 
 
 ### Step 9: Bank Israel Relief and Practical Accommodations
 
-Bank Israel maintains a relief framework for reservists, renewed periodically.
+The Bank of Israel runs a periodically renewed reservist relief framework (mortgage and loan deferrals, overdraft concessions). **Never quote a ceiling or percentage for it:** the figures this skill used to carry rested on a Bank of Israel page that no longer resolves and were removed rather than restated. Send the user to their bank and to bankisrael.org.il, with Form 3010, asking for sherut lakuchot miluim.
 
-| Relief | Details |
-|--------|---------|
-| Mortgage payment deferral | Up to 3 months interest-free |
-| Consumer loan deferral | Up to NIS 100,000 |
-| Business loan deferral | Up to NIS 2,000,000 |
-| Overdraft discount (employees) | 1% for reservists with salary transfer at major banks |
-| Overdraft for self-employed | Automatic NIS 30,000 interest-free |
-| Driver's license renewal | Misrad HaRishui accommodations during service |
-
-**How to claim:** contact the bank during or after service with Form 3010 and ask for sherut lakuchot miluim. Verify current terms on bankisrael.org.il.
-
-**Travel** is reimbursed: pick rav-kav, fuel reimbursement, or waiver on miluim.idf.il up to **two days** before reporting. Missing that forfeits nothing (update via the hotline or the unit's ק.משא"ן on arrival, and fuel is claimable **retroactively**). Capped at NIS 66/day.
+**Travel** is reimbursed: pick rav-kav, fuel, or waiver on miluim.idf.il up to **two days** before reporting. Missing that forfeits nothing, and fuel is claimable **retroactively**. Cap NIS 66/day.
 
 ### Step 10: Students in Higher Education
 

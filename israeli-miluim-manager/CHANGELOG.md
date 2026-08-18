@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.0.1 - 2026-08-18
+
+Hotfix from the Independent Judge pass, which verified 111 of 120 claims but found nine broken citations and a set of figures whose only source was dead.
+
+### Fixed
+
+- **The days 31-60 dismissal layer was asserted on an instrument that expired on its face.** The extension order in evidence (י"פ 12159) fixes its own term at 07.10.2023 to 31.12.2024. A successor reportedly published 29.04.2026 was corroborated only by secondary sources and could not be confirmed from primary text, so the earlier release stated it as settled fact. It is now explicitly marked probable but unconfirmed, with the first 30 days (s.41A(b)) still stated as solid, and users are told to petition the supervision committee anyway because applying costs nothing and the window closes while they wait.
+- **Removed five Bank of Israel figures** (a 3-month mortgage deferral, NIS 100,000 consumer and NIS 2,000,000 business loan deferrals, a 1% overdraft discount and an automatic NIS 30,000 self-employed overdraft). Their only citation was a Bank of Israel page that no longer resolves. A reservist would have quoted them to a bank.
+- **Removed the *5266 lone-soldier number**, which appears on none of the pages checked and is uncorroborated.
+- **Re-cited the 8944 hotline** to shikum.mod.gov.il after the original IDF unit page went dead.
+- Repaired four evidence entries whose snippet was a bare URL or an HTML title rather than page text, and one that had a fragment from a different source spliced into it.
+- Hedged the state-funded legal representation conditions as reported rather than verified, since the four-part eligibility test and its repayment undertaking are not in the evidence file.
+
 ## 2.0.0 - 2026-08-18
 
 Major correction cycle. Four payment tracks, not three, and several claims that were shipped as facts turned out to be wrong.

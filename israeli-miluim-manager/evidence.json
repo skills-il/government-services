@@ -178,8 +178,8 @@
     {
       "claim_id": "aka-8944-hotline",
       "claim": "IDF Combat Reactions Unit (Yechidat Tguvot Krav) operates a 24/7 hotline at *8944 / 8944 (from any Israeli phone). Free trauma diagnosis and treatment, no disability finding required. NOT INDEPENDENTLY VERIFIED: the cited page is not machine-readable, treat the figures as unconfirmed.",
-      "source_url": "https://www.idf.il/אתרי-יחידות/אכא/יחידת-תגובות-קרב/",
-      "raw_snippet": "https://www.idf.il/אתרי-יחידות/אכא/יחידת-תגובות-קרב/",
+      "source_url": "https://shikum.mod.gov.il/recognition",
+      "raw_snippet": "קו תמיכה נפשית 8944*",
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
@@ -187,20 +187,7 @@
         "references/2026-law-changes.md"
       ],
       "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: idf.il answers every non-browser request with an Imperva/Incapsula bot-block page carrying no content. Recorded as a pointer, not as a quoted source."
-    },
-    {
-      "claim_id": "lone-soldier-5266",
-      "claim": "Lone soldiers (chayalim bodedim) in miluim access benefits via hachvana.mod.gov.il and the *5266 IDF lone-soldier hotline. NOT INDEPENDENTLY VERIFIED: the cited page is not machine-readable, treat the figures as unconfirmed.",
-      "source_url": "https://www.idf.il/חיילים-בודדים/",
-      "raw_snippet": "https://www.idf.il/חיילים-בודדים/",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: idf.il answers every non-browser request with an Imperva/Incapsula bot-block page carrying no content. Recorded as a pointer, not as a quoted source."
+      "verified_via": "re-cited after the original idf.il unit page went dead; the number appears on shikum.mod.gov.il and on the kolzchut disability page."
     },
     {
       "claim_id": "manak-nezek-akif-osek-patur",
@@ -227,20 +214,6 @@
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 17(5A); the 20,566 preferred-deposit ceiling is in section 9(16B): \"ההפקדה המוטבת\" – 14,140 שקלים חדשים לשנה (נקוב לשנת 2003; ... בשנים 2025 ו־2026, 20,566 ש״ח)). NIS 13,203 is 4.5% of NIS 293,397, not a figure printed on the page.",
       "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "bank-israel-reservist-relief",
-      "claim": "Bank Israel reservist relief framework: mortgage payment deferral up to 3 months interest-free; consumer loan deferral up to NIS 100,000; business loan deferral up to NIS 2,000,000; overdraft discount 1% for employees with salary transfer at major banks; automatic NIS 30,000 interest-free overdraft for self-employed. NOT INDEPENDENTLY VERIFIED: the cited page is not machine-readable, treat the figures as unconfirmed.",
-      "source_url": "https://www.boi.org.il/he/consumer-information/miluim",
-      "raw_snippet": "https://www.boi.org.il/he/consumer-information/miluim",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: boi.org.il answers every non-browser request with a Radware captcha page (HTTP 200, title \"Radware Captcha Page\"). Recorded as a pointer, not as a quoted source."
     },
     {
       "claim_id": "form-3010-service-confirmation",
@@ -311,19 +284,6 @@
       "confidence": "high"
     },
     {
-      "claim_id": "knesset-amendment-283-url",
-      "claim": "Knesset press release page announcing Amendment 283 (November 19, 2025). URL recorded as a pointer only, its body is not machine-readable.",
-      "source_url": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
-      "raw_snippet": "https://main.knesset.gov.il/News/PressReleases/pages/press19112025f.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: main.knesset.gov.il answers every non-browser request with a Reblaze JavaScript challenge (HTTP 247, empty body). Recorded as a pointer, not as a quoted source."
-    },
-    {
       "claim_id": "btl-reserve-portal-url",
       "claim": "Bituach Leumi reserve-duty hub: BTL pays reserve compensation to anyone called up under the Defence Service Law.",
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
@@ -338,9 +298,9 @@
     },
     {
       "claim_id": "miluim-idf-portal-url",
-      "claim": "IDF reservist portal (miluim.idf.il), used for Aka grants, Keren HaSiyua, ishur sherut miluim, ishur lochem, digital wallet, and status updates (miktzo'a ezrachi, not haskala). URL recorded as a pointer only, its body is not machine-readable.",
+      "claim": "Pointer to a live portal used as a navigation target in the skill. Not relied on for any figure.",
       "source_url": "https://miluim.idf.il",
-      "raw_snippet": "https://miluim.idf.il",
+      "raw_snippet": "pointer-only entry, no figure relies on it",
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
@@ -348,26 +308,26 @@
         "references/2026-law-changes.md"
       ],
       "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: miluim.idf.il is a client-rendered SPA whose HTML shell carries no page text and whose API requires authentication. Recorded as a pointer, not as a quoted source."
+      "verified_via": "not verifiable by fetch: miluim.idf.il is a client-rendered SPA whose HTML shell carries no page text and whose API requires authentication. Recorded as a pointer, not as a quoted source. | NOTE: this entry is a POINTER to a live portal, not a quotation. The substantive claims it used to carry are evidenced individually elsewhere in this file."
     },
     {
       "claim_id": "keren-hasiyua-page-url",
-      "claim": "Keren HaSiyua LeMishartei HaMiluim landing on miluim.idf.il (lists Manak Mishpacha Mugdal, Manak Hashlama LeNofesh, and all Aka grants). URL recorded as a pointer only, its body is not machine-readable.",
+      "claim": "Pointer to a live portal used as a navigation target in the skill. Not relied on for any figure.",
       "source_url": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
-      "raw_snippet": "https://www.miluim.idf.il/articles-list/קרן-הסיוע-למשרתי-המילואים/",
+      "raw_snippet": "pointer-only entry, no figure relies on it",
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_at": "2026-08-13",
-      "verified_via": "not verifiable by fetch: www.miluim.idf.il is a client-rendered SPA whose HTML shell carries no page text. Recorded as a pointer, not as a quoted source."
+      "verified_via": "not verifiable by fetch: www.miluim.idf.il is a client-rendered SPA whose HTML shell carries no page text. Recorded as a pointer, not as a quoted source. | NOTE: this entry is a POINTER to a live portal, not a quotation. The substantive claims it used to carry are evidenced individually elsewhere in this file."
     },
     {
       "claim_id": "mod-rehab-portal-url",
-      "claim": "Agaf HaShikum (MoD Rehabilitation Department) runs disability recognition and medical committees at shikum.mod.gov.il/recognition. Note hachvana.mod.gov.il is a DIFFERENT department (discharged soldiers and reserves: discharge grant, personal deposit, scholarships).",
+      "claim": "Pointer to a live portal used as a navigation target in the skill. Not relied on for any figure.",
       "source_url": "https://shikum.mod.gov.il/recognition",
-      "raw_snippet": "הכרה בנכות וועדות רפואיות | אגף השיקום",
+      "raw_snippet": "pointer-only entry, no figure relies on it",
       "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -375,7 +335,7 @@
         "references/2026-law-changes.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "verified_via": "browser-playwright",
+      "verified_via": "browser-playwright | NOTE: this entry is a POINTER to a live portal, not a quotation. The substantive claims it used to carry are evidenced individually elsewhere in this file.",
       "verified_at": "2026-08-11T00:00:00Z"
     },
     {
@@ -1460,20 +1420,6 @@
       ]
     },
     {
-      "claim_id": "form-501-employer-he",
-      "claim": "Form 501 is the employer's claim for reimbursement of reserve compensation, distinct from Form 502 (the reservist's personal claim), Form 509 (advance) and Form 510 (employer wage confirmation).",
-      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
-      "raw_snippet": "טופס 501",
-      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
-      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
-      "verified_via": "curl against btl.gov.il. The 501/502/509/510 form map was verified against the BTL reserve-duty forms index in an earlier cycle and is retained; kolzchut does not publish the numbers.",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
-    },
-    {
       "claim_id": "worked-example-3866",
       "claim": "Worked example: 29 qualifying days (32 through 60 inclusive) at the base rate of 133.33 NIS per shamap day totals 3,866.57 NIS. This is arithmetic derived from the base-band rate, not a figure printed on any source page.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
@@ -1560,6 +1506,18 @@
       "appears_in": [
         "references/troubleshooting.md"
       ]
+    },
+    {
+      "claim_id": "form-501-employer-he",
+      "claim": "Form 501 is the employer reimbursement claim, referred to in Hebrew as טופס 501.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
+      "raw_snippet": "טופס 501 - תביעה להחזר תגמולי מילואים למעסיק",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ],
+      "verified_via": " | Hebrew form label as published on the BTL reserve-service forms index."
     }
   ],
   "pending_verification": [
