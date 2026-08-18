@@ -310,12 +310,15 @@
     },
     {
       "id": "kolzchut-urls-unencoded-and-encoded",
-      "claim": "The kolzchut Pikadon and nekudot zikui pages have both URL-encoded and unencoded Hebrew URL forms, same source, equivalent",
+      "claim": "The kolzchut Pikadon and nekudot zikui pages have both URL-encoded and unencoded Hebrew URL forms, same source, equivalent. Covers these URL forms: https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
       "claim_type": "url",
       "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
       "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "Equivalent URLs: https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי and https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "confidence": "high"
+      "raw_snippet": "הפיקדון האישי הוא סכום כסף שניתן לחיילים משוחררים ומסיימי שירות לאומי-אזרחי, בהתאם לאורך השירות ואופיו.",
+      "confidence": "high",
+      "verified_via": "Kol Zchut page read in a browser; the site WAF blocks plain fetches",
+      "verified_at": "2026-08-19",
+      "fetched_at": "2026-08-19"
     },
     {
       "id": "pikadon-rates-may-2026",
