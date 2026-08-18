@@ -51,9 +51,9 @@ the Housing Ministry registration site, not the RMI tender portal.
 ### Dira BeHanacha sub-tracks (as of 2026)
 | Sub-track | Hebrew | Discount cap | Grant | Audience |
 |-----------|--------|--------------|-------|----------|
-| General Mechir Lamishtaken | מחיר למשתכן כללי | no cap | varies by location | first-time buyers (chasrey dira) |
-| Mehir Matara (Target Price) | מחיר מטרה | 20% off market or 500,000 NIS (lower of two) | 40,000 NIS uniform via mortgage bank | first-time buyers AND dwelling upgraders (mishaprey diur) |
-| Mehir Muphchat (Reduced Price) | מחיר מופחת | varies | 40,000 NIS uniform | first-time buyers |
+| General Mechir Lamishtaken | מחיר למשתכן כללי | land subsidised to the developer, no fixed buyer cap | periphery grant 40,000 or 60,000 NIS by locality | first-time buyers, and upgraders for units left one year after the first lottery |
+| Mehir Matara (Target Price) | מחיר מטרה | capped percentage off market price, ceiling set per round (published summaries differ), read the round terms | periphery grant 40,000 NIS | first-time buyers AND dwelling upgraders (mishaprey diur) |
+| Mehir Muphchat (Reduced Price) | מחיר מופחת | maximum price fixed per tender with a mandated build specification | periphery grant 40,000 NIS | first-time buyers |
 | Dira Lehaskir (Rent) | דירה להשכיר | long-term subsidized rental, not for sale | n/a | first-time buyers |
 
 ### Resale lockup
@@ -64,12 +64,10 @@ Cannot sell or rent the unit for **5 years from Form 4 (Tofes 4 / occupancy appr
 - Cost: around 200 NIS for the online application
 - Required before registering for any lottery round
 
-### Lottery 11 (April 2026)
-- Registration opened: 15 April 2026
-- Deadline for issuing eligibility certificates for this round: 30 April 2026
-- Roughly 7,000 units across approximately 16 cities (Ashdod, Rehovot, Hadera, Ma'ale Adumim, Kiryat Gat, Nahariya, Eilat, Yehud, Rishon LeZion, Kfar Saba, Bet Dagan, Kadima-Tzoran, Rekhasim, Bnei Ayish, Kfar Manda, Bat Hefer, and more depending on source)
-- Up to 50% of units reserved for active reservists (miluimnikim), about 25% of those for reserve combat soldiers
-- Registrants can choose up to 3 cities and enter all lotteries in those cities
+### Lottery rounds (verify before quoting)
+- Rounds open and close on their own calendar. Lottery 11 registration opened on 15 April 2026 with more than 7,000 units and has since closed.
+- Reservist quotas, the eligibility-certificate deadline for the round, and the list of localities are set per round and reported inconsistently in the press. Read them off the Housing Ministry round page rather than from any summary, including this one.
+- In the first series of lotteries a registrant may pick projects in at most 3 localities; in continuation series there is no locality limit.
 
 ## Official RMI URLs
 - Department page: https://www.gov.il/he/departments/israel_land_authority

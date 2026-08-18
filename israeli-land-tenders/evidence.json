@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-land-tenders",
-  "generated_at": "2026-05-20T00:00:00Z",
+  "generated_at": "2026-08-18T00:00:00Z",
   "claims": [
     {
       "claim_id": "dira-behanacha-umbrella",
@@ -17,112 +17,81 @@
       ]
     },
     {
-      "claim_id": "mehir-matara-cap",
-      "claim": "Mechir Matara caps the discount at 20% off market or 500,000 NIS (lower of two). Hebrew rendering used in the skill body: 500,000 ש\"ח.",
-      "source_url": "https://www.maariv.co.il/economy/israel/article-928738",
-      "raw_snippet": "במסלול מחיר מטרה ההנחה מוגבלת ל-20% ממחיר הדירה או ל-500,000 ₪, הנמוך מבין השניים.",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
-    },
-    {
       "claim_id": "mehir-matara-upgraders",
-      "claim": "Mechir Matara is open to dwelling upgraders (mishaprey diur), not only first-time buyers.",
-      "source_url": "https://www.evensapir.co.il/mechir-matara/",
-      "raw_snippet": "Target Price is a new program... that enables first-time homebuyers and housing improvers to purchase apartments at prices lower than market prices.",
-      "fetched_at": "2026-05-20",
+      "claim": "Units unsold to first-time buyers one year after a project first lottery are sold on winning terms to upgraders, who must sell their property within 12 months of Tofes 4.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אם בתום שנה מההגרלה הראשונה נשארו בפרויקט דירות שלא רכשו אותן חסרי דירה",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "mehir-matara-grant-40k",
-      "claim": "Mechir Matara and Mechir Muphchat include a uniform 40,000 NIS buyer grant via the mortgage bank. Hebrew rendering used in the skill body: 40,000 ש\"ח.",
-      "source_url": "https://www.maariv.co.il/economy/israel/article-928738",
-      "raw_snippet": "במסלול מחיר מטרה ומחיר מופחת ניתן מענק אחיד בגובה 40,000 ₪.",
-      "fetched_at": "2026-05-20",
+      "claim": "Periphery conditional grant: 40,000 or 60,000 NIS in Mechir Lamishtaken depending on locality, 40,000 NIS in Mechir Mufchat, 40,000 NIS in Mechir Matara, paid via the mortgage bank.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "במסלול מחיר למשתכן המענק יהיה בגובה 40,000 ₪ או 60,000 ₪, בהתאם ליישוב. במסלול מחיר מופחת המענק יהיה בגובה 40,000 ₪. במסלול מחיר מטרה המענק יהיה בגובה 40,000 ₪.",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "lockup-5-from-form4-or-7-from-lottery",
       "claim": "Resale lockup: cannot sell for 5 years from Form 4 (Tofes 4) OR 7 years from the lottery win, whichever comes first. Hebrew rendering used in the skill body: טופס 4.",
-      "source_url": "https://www.bizportal.co.il/realestates/news/article/831453",
-      "raw_snippet": "purchasers of apartments in the program are prohibited from selling the apartment for 5 years from the day of receiving Form 4, or for 7 years from the date of the lottery in which they won (whichever comes first).",
-      "fetched_at": "2026-05-20",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אסור למכור אותה במשך 5 שנים מקבלת טופס 4 או 7 שנים ממועד ההגרלה שבה זכו (לפי המוקדם מביניהם)",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/rmi-system-guide.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "lottery-11-april-2026",
-      "claim": "Lottery 11 of Dira BeHanacha registration opened 15 April 2026 with about 7,000 units across roughly 16 cities.",
-      "source_url": "https://www.mako.co.il/finances-real-estate/Article-7ff6f8021952d91026.htm",
-      "raw_snippet": "ב-15 באפריל 2026 תיפתח הרשמה להגרלה ה-11 של תוכנית דירה בהנחה, במסגרתה יוצעו יותר מ-7,000 יחידות דיור.",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
-    },
-    {
-      "claim_id": "lottery-11-cities",
-      "claim": "Lottery 11 cities include Ashdod, Rehovot, Hadera, Ma'ale Adumim, Kiryat Gat, Nahariya, Eilat, Yehud, Rishon LeZion, Kfar Saba, and others.",
+      "claim": "Dira BeHanacha Lottery 11 registration opened on 15 April 2026 with more than 7,000 units, and is no longer open as of August 2026.",
       "source_url": "https://klikatnadlan.co.il/housinglottery15april26/",
-      "raw_snippet": "בין הערים שבהן ישווקו דירות: אשדוד, רחובות, חדרה, מעלה אדומים, קדימה-צורן, רכסים, בית דגן, בני עי\"ש, כפר מנדא, קריית גת, נהריה, אילת, יהוד, ראשון לציון, בת חפר וכפר סבא.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "ההרשמה תיפתח ביום רביעי, 15 באפריל 2026",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
-    },
-    {
-      "claim_id": "reservist-50-percent",
-      "claim": "Up to 50% of Dira BeHanacha lottery 11 units reserved for active reservists; about 25% of those for reserve combat soldiers.",
-      "source_url": "https://www.inn.co.il/news/694458",
-      "raw_snippet": "עד 50% מהדירות יופנו למשרתי מילואים פעילים, ומתוכן כ-25% ללוחמי מילואים.",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
+        "SKILL_HE.md"
       ]
     },
     {
       "claim_id": "eligibility-certificate-200-nis",
-      "claim": "Eligibility certificate (teudat zakaut) costs around 200 NIS for the online application. Hebrew rendering used in the skill body: 200 ש\"ח.",
-      "source_url": "https://www.immoisrael.com/blog/israel-housing-lottery-2026",
-      "raw_snippet": "עלות הוצאת אישור זכאות מקוונת הינו 200 ₪.",
-      "fetched_at": "2026-05-20",
+      "claim": "Eligibility certificate is issued by a registration company and is valid one year; a new certificate costs 200 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "יהיה צורך להוציא אישור חדש (בעלות של 200 ₪) בסניף חברת ההרשמה",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "three-city-cap",
-      "claim": "Each registrant can choose up to 3 cities and enter all lotteries in those cities.",
-      "source_url": "https://klikatnadlan.co.il/housinglottery15april26/",
-      "raw_snippet": "ניתן יהיה להירשם לשלוש ערים שונות ולכלל ההגרלות בערים אלו.",
-      "fetched_at": "2026-05-20",
+      "claim": "In the first series of lotteries a registrant may choose projects in at most 3 localities; in continuation series there is no locality limit.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "בסדרת ההגרלות הראשונות ניתן להירשם לפרויקטים בלא יותר מ-3 יישובים",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/rmi-system-guide.md"
-      ]
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "leasehold-49-or-98",
@@ -141,8 +110,8 @@
       "claim_id": "state-land-93-percent",
       "claim": "Approximately 93% of Israel's land is state-owned and administered by the Israel Land Authority. The remaining share, roughly 7%, is privately owned and registered in the Tabu.",
       "source_url": "https://jewishvirtuallibrary.org/israel-lands-privatization-or-national-ownership",
-      "raw_snippet": "Approximately 93 percent of Israel's land is classified as Israel lands, owned collectively by the State, the Development Authority, and the JNF, and administered by the Israel Land Authority.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "An estimated 93 percent of the country’s total land area",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "references/rmi-system-guide.md"
       ]
@@ -163,14 +132,16 @@
     {
       "claim_id": "housing-ministry-runs-lottery",
       "claim": "Dira BeHanacha is administered by the Ministry of Construction and Housing at dira.moch.gov.il, not by RMI directly; RMI tenders the land and the Housing Ministry runs eligibility, registration and the drawing.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "תוכנית דירה בהנחה (לשעבר מחיר למשתכן) מופעלת על ידי משרד הבינוי והשיכון. הזכאות, הרישום וההגרלה מתבצעים באתר dira.moch.gov.il.",
-      "fetched_at": "2026-05-20",
+      "source_url": "https://dira.moch.gov.il/",
+      "raw_snippet": "משרד הבינוי והשיכון",
+      "fetched_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/rmi-system-guide.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
     },
     {
       "claim_id": "rmi-department-page",
@@ -211,9 +182,544 @@
       "claim_id": "dira-behanacha-portal",
       "claim": "dira.moch.gov.il is the registration site for the 'דירה בהנחה' housing lotteries.",
       "source_url": "https://dira.moch.gov.il/",
-      "raw_snippet": "אתר ההרשמה להגרלות \"דירה בהנחה\"",
-      "fetched_at": "2026-08-10",
-      "source_note": "HTML <title> of the fetched page."
+      "raw_snippet": "אתר ההרשמה להגרלות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "source_note": "HTML <title> of the fetched page.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim_id": "cert-renewal-50",
+      "claim": "Renewing the eligibility certificate costs 50 NIS within 60 days of the reminder.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אפשר לחדש את האישור באופן מקוון או באמצעות פנייה לחברות ההרשמה בעלות של 50 ₪",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cert-60-day-window",
+      "claim": "The renewal window is 60 days from the reminder, after which the certificate is cancelled.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "בתוך 60 ימים מקבלת התזכורת",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-singles-35",
+      "claim": "Singles, divorced or widowed aged 35 and over are an eligible population.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "יחידים (רווקים, גרושים או אלמנים) בני 35 ומעלה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-parent-21",
+      "claim": "A parent of at least one child under 21 is eligible, and a pregnant woman counts as a parent from the fifth month.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הורים עם לפחות ילד אחד מתחת לגיל 21",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-disability-75",
+      "claim": "Individuals aged 21 and over with at least 75% medical disability determined by the National Insurance Institute are eligible.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "נקבעה להם נכות רפואית בשיעור 75% לפחות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-disability-50",
+      "claim": "A 50% disability with mobility allowance and special services benefit also qualifies an individual.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הם זכאים לגמלת ניידות ולקצבת שירותים מיוחדים עם נכות רפואית בשיעור 50% לפחות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-marry-3-months",
+      "claim": "Couples marrying within 3 months of the application are eligible.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "זוגות העומדים להינשא עד 3 חודשים מיום הגשת הבקשה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "chasrey-dira-third",
+      "claim": "Chasrey dira means holding no apartment or more than one third of one in the 3 years before the certificate.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הם לא היו הבעלים של דירה או מעל ל-1/3 דירה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "upgrader-12-months",
+      "claim": "An upgrader must sell the owned property no later than 12 months after occupancy approval (Tofes 4).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הנכס יימכר לא יאוחר מ-12 חודשים אחרי שיקבלו אישור לאכלוס הדירה (טופס 4)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registration-8-days",
+      "claim": "Registration for a project opens for at least 8 days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "תיפתח ההרשמה להגרלה של אותו פרויקט למשך 8 ימים לפחות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "draw-within-10-days",
+      "claim": "The draw is held within 10 days of registration closing.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "בתוך 10 ימים מסגירת ההרשמה תיערך הגרלה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "win-cancels-others",
+      "claim": "Winning one lottery automatically cancels the registrant other registrations.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "למי שנרשמו במקביל למספר הגרלות וזכו באחת מהן תבוטל אוטומטית ההרשמה לשאר ההגרלות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bnei-hamakom-priority",
+      "claim": "Local-resident priority applies to those living in the authority for the last 3 years or 4 of the last 10.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "מי שמתגוררים ב-3 השנים האחרונות או ב-4 מתוך 10 השנים האחרונות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nechim-retukim-1-in-30",
+      "claim": "In Mechir Matara draws one apartment per 30 is allocated to wheelchair-bound applicants with a 100% disability confirmation.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "תוקצה לנכים רתוקים דירה אחת על כל 30 דירות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "apartment-choice-45-min",
+      "claim": "Winners are given about 45 minutes to choose an apartment.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הם יתבקשו לבחור דירה בתוך 45 דקות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "advance-2000-nis",
+      "claim": "An advance of 2,000 NIS or another amount set at registration may be required and is not refunded if the win is cancelled after an apartment was chosen.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "מקדמה על חשבון התשלום לדירה (2,000 ₪",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-discount-area-a",
+      "claim": "Reservist land-price discount is 35% in national-priority area A.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אזור עדיפות לאומית א' 35%",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-discount-area-b",
+      "claim": "Reservist land-price discount is 20% in national-priority area B.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אזור עדיפות לאומית ב' 20%",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-discount-other",
+      "claim": "Reservist land-price discount is 10% outside national-priority areas.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אזורים שאינם אזורי עדיפות לאומית 10%",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-caps-100k-150k",
+      "claim": "Reservist discount cap is 100,000 NIS for an active reservist and 150,000 NIS for a combat reservist, excluding VAT.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "לא יעלה על 100,000 ₪ (לא כולל מע\"מ) למשרת מילואים פעיל או 150,000 ₪",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-tender-15-percent",
+      "claim": "A reservist winning a public tender gets 15% off the price bid, applied after the winner is determined.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "על ידי הפחתת 15% לאחר קביעת הזוכה במכרז",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-amuta-15-percent",
+      "claim": "A reservist buying through an association that won a public tender receives a 15% refund on the member share.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "יוכל לקבל החזר של 15%",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-lease-fee-a",
+      "claim": "In priority area A a qualifying reservist pays 16% of the lease fee instead of 31%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "באזורי עדיפות לאומית א': ישלמו 16% מדמי החכירה (במקום 31%)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-lease-fee-b",
+      "claim": "In priority area B a qualifying reservist pays 36% of the lease fee instead of 51%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "באזורי עדיפות לאומית ב': ישלמו 36% מדמי החכירה (במקום 51%)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-lease-fee-chasar-diur",
+      "claim": "A reservist holding a chasar diur certificate pays 11% instead of 26% in area A and 31% instead of 46% in area B.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "באזור עדיפות לאומית א': 11% מדמי החכירה (במקום 26%)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-couple-300k",
+      "claim": "If both spouses qualify the discount rates double and the ceiling is capped at 300,000 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "שיעורי ההנחה יוכפלו ותקרת ההנחה תוגבל לסכום של עד- 300,000 ₪",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-six-year-cert",
+      "claim": "A six-year active-reservist certificate qualifies, valid up to 3 years from discharge from reserve duty.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אישור שש-שנתי תקף עד 3 שנים מיום היציאה לפטור ממילואים",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-80-days",
+      "claim": "Accumulating 80 reserve days over up to 6 calendar years qualifies, valid up to 6 years from discharge.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "הם צברו 80 ימי מילואים במשך עד 6 שנים קלנדריות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-45-days-war",
+      "claim": "More than 45 reserve days between 07.10.2023 and the declared end of the Iron Swords war qualifies.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "הם שירתו למעלה מ-45 ימי מילואים בתקופה שבין 07.10.2023",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-phone-rmi",
+      "claim": "RMI enquiries are on 03-9533333 or *5575, Sunday to Thursday 08:00 to 17:00.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "רשות מקרקעי ישראל: 03-9533333, *5575",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-phone-idf",
+      "claim": "IDF reserve centre for the required confirmations is 1111 extension 4.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "למוקד המילואים של צה\"ל בטלפון 1111 (שלוחה 4)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-legal-basis",
+      "claim": "The reservist land discounts sit in Sign B of Chapter 4 of the Israel Land Council decisions.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "סימן ב' לפרק 4 (הנחות בהקצאת קרקע לחיילי מילואים)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-form-3010",
+      "claim": "Claiming requires a lawyer-signed reserve-service declaration with an IDF confirmation such as form 3010.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אישור על תקופת שירות מילואים פעיל (טופס 3010)",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tender-30-days-booklet",
+      "claim": "Bids can usually be submitted within about 30 days of the tender booklet being distributed and booklets download free.",
+      "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
+      "raw_snippet": "בדרך כלל ניתן לגשת למכרז בתוך",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tender-original-booklet",
+      "claim": "Some tenders require bids on the original booklet supplied at RMI regional offices.",
+      "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
+      "raw_snippet": "במכרזים שבהם נדרש לצרף את החוברת המקורית",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tender-newspaper",
+      "claim": "Tenders are advertised in at least one daily newspaper in Hebrew or Arabic as well as on the website.",
+      "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
+      "raw_snippet": "הודעות על המכרזים מתפרסמות לפחות בעיתון יומי אחד",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-support-5574",
+      "claim": "The Israel Land Authority call centre for bid submission is *5574, Sunday to Thursday 08:00 to 17:00.",
+      "source_url": "https://www.gov.il/en/service/tenders-online",
+      "raw_snippet": "The Israel Land Authority Call Center: *5574 on Sunday to Thursday from 8:00 to 17:00",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-tech-support",
+      "claim": "Technical support for online bids is 073-3429900, 09:00 to 14:00, answered until 10:00 on the closing day.",
+      "source_url": "https://www.gov.il/en/service/tenders-online",
+      "raw_snippet": "call: 073-3429900 on Sundays to Thursdays from 9:00 to 14:00. On the last date to submit bids, calls will be answered until 10:00 only",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-replaces-previous",
+      "claim": "A later online bid replaces the previous one and only the last bid is considered.",
+      "source_url": "https://www.gov.il/en/service/tenders-online",
+      "raw_snippet": "The previous bid will be cancelled and the last bid submitted by that user shall be the only bid to be discussed by the tender committee",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-free",
+      "claim": "The online bid submission service is offered free of charge.",
+      "source_url": "https://www.gov.il/en/service/tenders-online",
+      "raw_snippet": "This service is offered free of charge",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-digital-guarantee",
+      "claim": "Online tender bids deposit a digital guarantee.",
+      "source_url": "https://www.gov.il/en/service/tenders-online",
+      "raw_snippet": "Depositing a Digital Guarantee",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

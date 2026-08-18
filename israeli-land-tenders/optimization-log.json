@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Expert MAJOR deferred: the Housing Ministry portal advertises a second-hand purchase grant track (מענקי יד שנייה) that this skill does not cover. Source it and decide in scope or out next cycle.",
+        "Expert MAJOR deferred: the Mechir Larocheish section is legacy and vague (population list and 5-10 year lockup are unsourced). Either source it per current RMI policy or mark it historical.",
+        "Legal Tier-B deferred: verify_legal.py warns that a standard notice is recommended (applies a rule to the user's facts in a regulated domain). Adding the appraisal description prefix would also drag in the Phase 5.7 holdout gate, so it was not done late in this cycle. Do it as a planned description change next cycle.",
+        "Mechir Matara discount ceiling is reported inconsistently (20% / 300,000 NIS in one industry summary citing the Housing Ministry, a higher ceiling elsewhere). The skill now routes to the round terms rather than quoting a figure. Re-check whether the ministry publishes a canonical figure.",
+        "Percent-encoded Hebrew URLs in the body create phantom percentage claims in verify-evidence.py. Reference-link tables now use literal Hebrew URLs; keep it that way.",
+        "verify_legal.py false positive: a Hebrew NEGATION using מפיקה next to an existing טופס 4 mention fires form_emit and flips the skill to blocking. Phrase disclaimers without production verbs."
+      ]
+    }
+  ]
+}
