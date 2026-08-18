@@ -55,12 +55,14 @@
       "claim_id": "fda-pllr-2015",
       "claim": "The FDA retired the A/B/C/D/X pregnancy letter categories in 2015 (PLLR) in favor of narrative pregnancy and lactation labeling; many Israeli leaflets still reference the legacy letters.",
       "source_url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-drugs-final-rule",
-      "raw_snippet": "The Pregnancy and Lactation Labeling Rule (PLLR), effective June 30, 2015, removed the A/B/C/D/X letter categories in favor of narrative labeling.",
-      "fetched_at": "2026-06-21T00:00:00Z",
+      "raw_snippet": "Pregnancy and Lactation Labeling Resources | FDA",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "copay-generic-approximate",

@@ -420,12 +420,14 @@
       "claim_id": "ref-data-gov-il-25th-csv",
       "claim": "The 25th Knesset per-locality CSV resource is listed in the votes-knesset package as https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv (154,331 bytes). The download endpoint itself is behind a JS bot challenge and returns HTML to a plain client.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
-      "raw_snippet": "\"size\": 154331, \"state\": \"active\", \"task_created\": \"2024-09-25 15:04:20.750447\", \"url\": \"https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv\", \"url_type\": \"upload\"",
-      "fetched_at": "2026-08-11",
+      "raw_snippet": "uthor\": null, \"author_email\": \"bard@knesset.gov.il\", \"creator_user_id\": \"e01f2a18-b401-4758-9533-db0a713d1d6c\", \"id\": \"26f9fa06-fcd7-4173-8df5-65797b63e857\", \"isopen\": true, \"license_id\": \"other-open\", \"license_title\": \"Other (Open)\", \"mail_box\": \"bard@knesset.gov.il\", \"maintainer\": null, \"maintainer_email\": null, \"metadata_created\": \"2021-03-22T20:08:28.874738\", \"metadata_modified\": \"2024-11-27T08:00:40.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"4173\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-idi",

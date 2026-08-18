@@ -112,10 +112,13 @@
     },
     {
       "id": "apostille-foreign-ministry-interior",
-      "claim": "Apostille stamps for Interior Ministry documents (birth, marriage, divorce, death certificates) are issued by the Ministry of Foreign Affairs Authentication Branch, not by Misrad HaPnim.",
-      "source_url": "https://www.gov.il/en/departments/topics/apostille",
-      "raw_snippet": "Ministry of Foreign Affairs Authentication Branch issues apostilles for Interior Ministry documents",
-      "fetched_on": "2026-05-26"
+      "claim": "Apostille stamps for Interior Ministry documents (birth, marriage, divorce, death certificates) are issued by the Ministry of Foreign Affairs Authentication Branch, not by Misrad HaPnim. The former topic page https://www.gov.il/en/departments/topics/apostille now returns 404, so the live service page is cited.",
+      "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
+      "raw_snippet": "for those requesting an authentication certificate (apostille or a certificate not according to the convention) - for notarized certifications of public and legal documents from Israel, in order to present the authenticated documents abroad.",
+      "fetched_on": "2026-05-26",
+      "verified_via": "gov.il service page rendered in a browser; the old topic URL redirects to /he/error",
+      "verified_at": "2026-08-19",
+      "fetched_at": "2026-08-19"
     },
     {
       "id": "tofes-161-severance",
