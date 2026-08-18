@@ -26,7 +26,7 @@ https://www.btl.gov.il/טפסים%20ואישורים/forms/sheerim/Pages/default
 
 | Benefit | Where to file | Notes |
 |---|---|---|
-| Survivor's pension (פנסיית שאירים) | The deceased's pension fund directly | Typically ~60% of the deceased's salary/pension to the spouse for life, ~40% to orphans until 21 in a new comprehensive fund. Exact rates and eligible survivors are set by the fund's takanon, request the survivor-benefit application from the fund. Use "הר הביטוח" (Har HaBituach, Capital Market Authority, https://harb.cma.gov.il/) to locate all of the deceased's insurance policies and pension products, and "הר הכסף" (Har HaKesef, https://itur.mof.gov.il/) to trace lost or dormant pension savings, life-insurance policies, and bank accounts. |
+| Survivor's pension (פנסיית שאירים) | The deceased's pension fund directly | Rates are set by each fund's takanon, not by statute; in the veteran Amitim funds the published split is 60% of the pension to the spouse, 20% to an orphan, 40% to an orphan of both parents and 15% to a dependent parent, capped at 100% in total, and other funds differ. FIRST confirm the deceased was still depositing at the date of death: in a new comprehensive fund the survivors' cover is risk insurance that lapses a short time after deposits stop unless a risk arrangement was made, and the chosen insurance track can carry reduced or no survivors' cover. Never quote a percentage before the fund confirms the cover was live. Request the survivor-benefit application from the fund. Use "הר הביטוח" (Har HaBituach, Capital Market Authority, https://harb.cma.gov.il/) to locate all of the deceased's insurance policies and pension products, and "הר הכסף" (Har HaKesef, https://itur.mof.gov.il/) to trace lost or dormant pension savings, life-insurance policies, and bank accounts. |
 
 ## Provident fund / life insurance (קופת גמל, ביטוח חיים)
 
@@ -34,8 +34,19 @@ https://www.btl.gov.il/טפסים%20ואישורים/forms/sheerim/Pages/default
 |---|---|---|
 | Beneficiary payout (מוטבים) | The provident fund manager / insurer directly | Under section 147 of the Inheritance Law these sums are outside the estate and go to the registered beneficiaries in the policy, overriding the will. If no beneficiary is registered, the money falls to the estate and needs a succession/probate order (out of scope, route to the wills/inheritance skill). |
 
-## Adjacent benefits to check (mention + route)
-- Study grant for single-parent families, bar/bat-mitzvah grant (Bituach Leumi, survivors section). The marriage grant on remarriage is covered in the form 408 row above.
-- Vocational training + living allowance for widow(er)s (Bituach Leumi rehabilitation)
-- Arnona (municipal property tax) discount and local-authority help → the local municipality
-- Mourning leave and severance-to-survivors → the deceased's employer
+## Insurance-side limitation period
+
+Section 31 of the Insurance Contract Law: an insurance-benefit claim prescribes 3 years after the
+insured event, and 5 years for life, illness-and-hospitalisation, and long-term-care policies where
+the contract was made or renewed from 25.11.2020 (older contracts keep 3 years). This is separate
+from, and longer than, the Bituach Leumi 12-month filing rule, and it matters most for a policy
+found late through Har HaBituach or Har HaKesef.
+
+## Adjacent benefits to check (deliver, do not merely mention)
+- Bar/bat mitzvah grant (7,009 NIS, automatic, no form) and the annual study grant (automatic each August)
+- Vocational rehabilitation + monthly training living allowance for widow(er)s: apply to the branch's rehabilitation department, not on form 410
+- Arnona discount: discretionary per local authority (rate and capped floor area vary), never automatic, claimed at the municipality with the Bituach Leumi entitlement letter
+- Mourning leave, and severance to survivors under section 5 of the Severance Pay Law (paid by the employer, with its own she'er definition)
+- Budgetary pension (state, IDF, police, local authority): survivors' pension comes from the paying body, not a pension fund
+- Hostile-action death: Bituach Leumi, but a different track and a different law, NOT form 410
+- Death in IDF service: Ministry of Defence rehabilitation department, outside Bituach Leumi

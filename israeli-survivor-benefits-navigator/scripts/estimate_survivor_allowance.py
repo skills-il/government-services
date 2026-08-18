@@ -108,9 +108,14 @@ def estimate_ordinary(age, orphans, seniority_years, exception_eligible=False):
     total = base + seniority_amount
 
     caveats.append(
-        "A widower without dependent children is subject to an income test "
+        "A widower (male) is subject to an income test "
         "(ceiling 7,848 NIS, minus a 2,093 NIS deduction, from 01.01.2026); the allowance "
         "may be reduced or denied. A widow is not income-tested.")
+    caveats.append(
+        "This is the BASE allowance only. A family with little other income may instead be paid "
+        "the allowance WITH the income supplement, 4,375 to 8,563 NIS a month by age band and "
+        "family composition (from 01.01.2026), claimed on form 430. Check that before quoting "
+        "the base figure.")
     caveats.append(
         "A widow(er) already drawing an old-age (vatik) pension is paid the old-age pension IN "
         "FULL PLUS half of the survivor's allowance. 919 NIS (from 01.01.2026) is only half of "
@@ -118,7 +123,16 @@ def estimate_ordinary(age, orphans, seniority_years, exception_eligible=False):
         "rate. Check the applicable base.")
     caveats.append(
         "File the survivor's-allowance claim within 12 months of the death; later filing caps "
-        "back-payment at the last 12 months.")
+        "back-payment at the last 12 months. If the claim is rejected, an appeal to the regional "
+        "labour court must be filed within 12 months of receiving the written decision.")
+    caveats.append(
+        "This estimator covers only the ordinary widow(er) rows. The work-related (dependents') "
+        "track also has an orphans-alone table (60/80/90/100%) and an other-dependants table "
+        "(50/75/90/100%), and a childless widow(er) who cannot support herself is paid 60% at any "
+        "age (a widow pregnant at the death: 60% until the birth, then 80%). See SKILL.md Step 4.")
+    caveats.append(
+        "A survivor entitled to another National Insurance allowance that is not the old-age "
+        "pension (general disability, work-disability, dependents') must CHOOSE one, not both.")
 
     breakdown = [
         ("Base (%s)" % basis, base),

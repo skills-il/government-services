@@ -55,9 +55,50 @@ Separate monthly payment, on top of the allowance, for an orphan studying at lea
 | Family is NOT paid a survivor's allowance | 946 |
 | Orphan of both parents (two allowances) | paid twice |
 
-Income test: full dmei michya up to 15,697 NIS gross/month for a parent with one qualifying orphan, +964 per additional child.
+Income test: full dmei michya up to 15,696 NIS gross/month for a parent with one qualifying orphan, +964 per additional child.
 
 Source: kolzchut.org.il "דמי מחיה ליתומים (שאירים)", btl.gov.il survivors section. Effective 2026.
+
+## Income supplement (תוספת השלמת הכנסה), total monthly allowance including the supplement
+
+Source: https://www.btl.gov.il/benefits/Survivors_%20Insurance/shiuraihakizba/Pages/HslmTHcnsaSeirim.aspx
+Effective 01.01.2026. Claim on form 430 (income declaration on 412).
+
+| Family | Under 70 | 70 to 79 | 80+ |
+|---|---|---|---|
+| Widow(er) with no children | 4,375 | 4,418 | 4,460 |
+| Widow(er) with one child | 7,305 | 7,374 | 7,442 |
+| Widow(er) with two children or more | 8,426 | 8,496 | 8,563 |
+
+These replace the base rows above; they are not added to them.
+
+## Bar/bat mitzvah grant (מענק בר-מצווה), one-time
+
+- 7,009 NIS (from 01.01.2026), at age 12 for a girl and 13 for a boy, for an orphan drawing a survivor's allowance.
+- Paid automatically, no form. An orphan of both parents drawing two allowances receives it twice.
+- Source: https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/מענק%20בר-מצווה.aspx
+
+## Dependents' allowance (work-related death), the sub-tables beyond widow(er)+children
+
+Source: https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20משפחה%20של%20נפטר%20מפגיעה%20בעבודה/Pages/שיעורי%20הגמלה.aspx
+
+| Orphans on their own | % of full work-disability pension |
+|---|---|
+| 1 child | 60% |
+| 2 children | 80% |
+| 3 children | 90% |
+| 4 or more | 100% |
+
+| Other dependants (dependent parent, sibling) | % of full work-disability pension |
+|---|---|
+| 1 dependant | 50% |
+| 2 dependants | 75% |
+| 3 dependants | 90% |
+| 4 dependants | 100% |
+
+- A childless widow(er) under 50 who cannot support herself is paid 60% at any age.
+- A widow pregnant at the death is paid 60% until the birth, then 80%.
+- Maximum full work-disability pension: 39,428 NIS (from 01.01.2026).
 
 ## Seniority increment (תוספת ותק)
 
@@ -69,7 +110,8 @@ Source: kolzchut.org.il "דמי מחיה ליתומים (שאירים)", btl.gov
 
 ## Income test for a widower (מבחן הכנסות)
 
-- A widower can be entitled if his total income is up to 7,848 NIS (from 01.01.2026).
+- A widower (male) can be entitled if his total income is up to 7,848 NIS a month (from 01.01.2026). Bituach Leumi states the condition for a widower without carving out those with children.
+- Income is measured over the 12 months before the month of the wife's death (including that month), or over the calendar year of her death.
 - From income from work (employee or self-employed), pension, or a monthly income first paid at
   retirement age, deduct 2,093 NIS (from 01.01.2026) before the test.
 - To apply the test, deduct the 2,093 NIS from qualifying income (work, pension, or a monthly

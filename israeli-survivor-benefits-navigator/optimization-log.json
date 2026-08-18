@@ -1,0 +1,23 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Rate-table completeness: the 01.01.2026 widow(er) table (7 rows) was correct, but three whole official tables were missing from the skill: the income-supplement totals (9 cells), and the dependents'-allowance orphans-alone and other-dependants sub-tables. A skill can carry a verified table and still be silent on the tables beside it.",
+        "The domain-checklist had [x] ticks for the bar-mitzvah grant, the study grant and vocational rehabilitation while the body named none of them. Treat a checklist tick as a claim to verify against the body, not as evidence of coverage.",
+        "Deferred (verified but not encoded this cycle): rules for a survivor living abroad (3-month review, annual life certificate), clawback of allowances deposited after the date of death and transfer of child allowance to the surviving parent, tax treatment (the Bituach Leumi allowance is exempt while a pension-fund survivors' pension is taxable), income-support allowance for an orphan child (קצבת הבטחת הכנסה לילד יתום), and the 'חיסכון לכל ילד' account after a parent's death.",
+        "Deferred: the estimator script still computes only the base allowance. It could take an --income-supplement flag and select from the age-band table, which is the largest single amount the skill now carries.",
+        "Unverified, do NOT encode without a primary source: an aggregator snippet claiming survivor-allowance concessions were extended to 31.12.2030. Not found on btl.gov.il or Kol Zchut.",
+        "Arnona discount: the 25% / 100 sqm figures asserted by the expert review were dropped from the body because no primary source was opened for them this cycle. The discount itself is stated without numbers. Source and restore the figures next cycle.",
+        "Legal gate advisory: the frozen notice names only an authorised National Insurance representative, while the skill now spans a limitation-period topic and a pension-fund-cover topic. If the notice is ever reopened, add עורך דין and יועץ פנסיוני additively to that limb; never reword the existing sentences.",
+        "Method note: btl.gov.il rate pages DO serve real HTML tables to a plain fetch, so extracting <table> rows beats WebFetch, which mangles them. Kol Zchut, harb.cma.gov.il and itur.mof.gov.il need a browser. One Playwright read this cycle returned another agent's page under the requested URL; the location.href assertion caught it.",
+        "Expert CRITICALs found post-edit and fixed in-cycle: (a) the only multi-allowance rule stated was the old-age full-plus-half one, while every OTHER National Insurance allowance is a CHOICE; (b) nothing told a family what to do with a rejection letter, and the labour-court appeal expires 12 months after the written decision.",
+        "Deferred: encode the income supplement and the dependents' orphans-alone / other-dependants sub-tables into estimate_survivor_allowance.py. Both are only caveats in the script today, so the printed number can understate a supplement-eligible family by roughly 2.4x.",
+        "Deferred: SKILL.md and SKILL_HE.md frontmatter descriptions do not open with the short legal clause even though metadata.json display_description does. Fixing it drags in the Phase 5.7 holdout gate, so it was not touched this cycle.",
+        "Deferred: SKILL_HE.md mixes the impersonal present (שואלים, מגישים) with second-person imperatives (תשאלו, אל תסגרו). Pick one register next cycle.",
+        "Judge caught three evidence defects a self-check would not: an invented itur.mof.gov.il snippet, and two orphan-cutoff claim texts still asserting the superseded 21 cutoff while carrying correct 24-year snippets. Stale CLAIM text beside a correct snippet is a real failure mode of a repointed entry."
+      ]
+    }
+  ]
+}
