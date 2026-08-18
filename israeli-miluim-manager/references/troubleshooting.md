@@ -14,7 +14,7 @@ Solution:
 1. Verify Form 3010 dates match actual service period
 2. Ensure income documentation covers the 3 months before service (or longer if Amendment 253 fixed-base applies)
 3. Check for BL arrears that may be offsetting the payout; resolve by paying or arranging a payment plan
-4. If deadline passed, file an appeal (erur, ערעור) with Bituach Leumi within 6 months
+4. If the claim was rejected, the operative remedy is a filing with the **regional Labour Court within 12 months of the day the decision was delivered** (reg. 1(b), תקנות הביטוח הלאומי (מועדים להגשת תובענות)). A request to **ועדת תביעות** to re-examine may be made within 6 months, but that committee can only RECOMMEND reconsideration and does **not** pause the 12-month clock. Free Ministry of Justice legal aid is available with no means test
 5. Contact Bituach Leumi service center at *6050 for the specific rejection reason
 
 ### Error: "Tax Authority rejected Amendment 283 combat credit"
@@ -25,7 +25,7 @@ Solution:
 3. Resubmit with both documents attached to Form 101 or annual filing
 
 ### Error: "Employer terminated reservist within protection period"
-Cause: dismissal inside the 30-day protected window (the reported 60-day window is unverified).
+Cause: dismissal inside a protected window. 30 days comes from Section 41A(b) and is waived only by ועדת התעסוקה (Ministry of Defence); days 31-60, for 60+ days served in the calendar year including 7 consecutive, come from a collective-agreement extension order and are waived only by ועדת פיקוח (Ministry of Labour). Route the case to the right committee.
 Solution: the dismissal is void by law. File with the Labor Court; see `references/2026-law-changes.md` for the tiered protection and the spouse extension.
 
 ### Error: "I served combat miluim but received no Tagmul Nosaf"

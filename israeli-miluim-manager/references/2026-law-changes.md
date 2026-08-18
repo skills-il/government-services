@@ -40,10 +40,10 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Aspect | Wartime (Temporary) | Current Law (2026, Permanent) |
 |--------|---------------------|-------------------------------|
 | 1-hour paid absence per day | Available during wartime | Permanent: for spouses of reservists serving 5+ consecutive days |
-| Spouse dismissal protection | Passed December 2024 | Permanent. **UNRESOLVED:** an earlier cycle recorded a flat 14 days here, while the skill body states it scales with the reservist's own protection (up to 60 days). Neither figure is currently sourced. Verify against the statute before advising, and do not quote a number with confidence |
+| Spouse dismissal protection | Passed May 2024 (תיקון 19) | **Two layers, both now sourced.** Permanent: s.41A2(b) bars dismissing an employee **because of** a spouse's (or their child's other parent's) reserve service, its call-up, or its frequency or duration; dismissal is void (`בטלים הפיטורים`). No day window attaches. Temporary: the s.41A2(e)-(j) הוראת שעה in force **from 29.04.2026** adds, for a spouse **with a child**, a ban on dismissal **and on חל"ת** during the service and for **14 days** after, permit-gated by ועדת התעסוקה, only where the service is under s.8 emergency conditions or lasts (or is expected to last) 21+ consecutive days, and only if the employee notified the employer in writing within 3 working days. It expires **30 days after the מצב מיוחד בעורף declaration lapses**, with no fixed calendar date |
 | Broad unpaid leave entitlement | Available during wartime | Expired (December 31, 2025) |
 
-**Impact**: Spouses retain two key permanent protections: the daily paid absence hour and a post-service dismissal ban whose length is unresolved between sources (see the row above). The broader wartime unpaid leave option has expired.
+**Impact**: Spouses hold one permanent protection (the s.41A2(b) causal ban, with no day window) plus the daily paid absence hour, and a temporary 14-day post-service window that is condition-gated and time-limited. Always check the הוראת שעה is still live before relying on the 14 days. The broader wartime unpaid leave option has expired.
 
 ## Expired Wartime Provisions
 
@@ -94,13 +94,14 @@ These protections are part of permanent law and remain fully in effect.
 
 ### Compensation Through Bituach Leumi
 
-Reservists are paid through three distinct tracks, only the first of which is a Bituach Leumi payment:
+Reservists are paid through **four** distinct tracks, only the first of which is a Bituach Leumi payment:
 
 | Track | Hebrew | What | Filing |
 |-------|--------|------|--------|
 | Salary reimbursement | תגמולי מילואים | Replaces lost income during service | Employer-mediated for employees (employer files 501). The self-employed are usually paid automatically from IDF data; **Form 502** is the reservist's own claim and is also the route when an employer refuses to advance salary. Form 510 is the EMPLOYER's wage confirmation and only they can file it |
-| Tagmul Nosaf | תגמול נוסף | Annual IDF payment; the 10-qualifying-day rule is unverified for 2026 | Automatic, by 1 May of the following year; chase at 1111 ext. 4, never *6050 |
-| Tagmul Meyuchad | תגמול מיוחד | IDF payment from the **61st** cumulative shamap day inclusive, banded by activity tier | Automatic via Mofet on 01.05.2027 for 2026; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. NOT a BTL payment |
+| Tagmul Nosaf | תגמול נוסף | Annual IDF payment; **10+ cumulative shamap days** in a calendar year (s.19) | Automatic, by 1 May of the following year; chase at 1111 ext. 4, never *6050 |
+| Tagmul Meyuchad | תגמול מיוחד | IDF payment in **two layers**: a flat 133.33/day base band for days **32-60**, plus a year-specific banded rate beyond day 60 | Automatic via Mofet on 01.05.2027 for 2026; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. NOT a BTL payment |
+| Over-age tagmul | תגמול למוחרגי גיל | IDF payment of 133.33/day (66.67 half-day) **in addition to** tagmul meyuchad, for soldiers 40+/officers 45+ obliged to serve longer by role. אל"ם and above excluded | Automatic; same 1 May cycle |
 
 | Component | Details | Status |
 |-----------|---------|--------|
@@ -312,13 +313,13 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 | Supplementary employer compensation (temp replacements) | Active | Expired |
 | Spouse 1-hour paid absence | Active | Active (made permanent) |
 | Spouse paid leave days (graduated) | Active | Up to 8 days based on reservist's accumulated days and child age (under 14) |
-| Spouse dismissal protection | Active | Length UNRESOLVED between sources (see the spouse row above); do not quote a number with confidence |
+| Spouse dismissal protection | Active | Permanent causal ban under s.41A2(b) with no day window, plus a condition-gated 14-day הוראת שעה window from 29.04.2026 (see the spouse row above) |
 | Broad spouse unpaid leave | Active | Expired (Dec 31, 2025) |
 | Job preservation during service | Active | Active (permanent) |
 | Pension and keren hishtalmut continuity | Active | Active (permanent) |
 | Bituach Leumi salary reimbursement | Active | Active (permanent) + Amendment 253 income basis fix (May 2025) |
-| Tagmul Nosaf (annual, IDF) | Active | Active; paid by 1 May of the following year. The 10-qualifying-day rule is unverified for 2026 |
-| Tagmul Meyuchad (from the 61st cumulative shamap day) | Active | Active; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. IDF payment, not BTL |
+| Tagmul Nosaf (annual, IDF) | Active | Active; 10+ cumulative shamap days in a calendar year, paid by 1 May of the following year. Carries a special 25% tax under s.19(e)(1) and confers NO credit points |
+| Tagmul Meyuchad (base band days 32-60, plus a year-specific rate beyond 60) | Active | Active; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. IDF payment, not BTL |
 | Tax credits | Wartime special credits | New 15-tier system for combat (Amendment 283); 2028 threshold drops to 20 days |
 | Minimum compensation (floor) | Active | NIS 9,863/month (NIS 328.76/day, 2026) |
 | Maximum compensation (ceiling) | Active | NIS 51,910/month (NIS 1,730.33/day, 2026) |
@@ -346,3 +347,175 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 4. **Apply correct tax credits**: Use the new 15-tier combat credit system under Amendment 283
 5. **Track service dates**: Maintain accurate records of employees' service periods using Form 3010
 6. **Respect spouse protections**: 1-hour paid absence per day during service, plus a post-service dismissal ban whose length is unresolved between sources (verify before acting)
+
+## The three IDF payments in full
+
+Rates here are re-set every year by army order. Section 18(a) of the Reserve Service Law delegates
+the qualifying period and the rates for tagmul meyuchad to `פקודות הצבא`, and Section 30 obliges the
+IDF to publish them on its website, which makes miluim.idf.il the legally canonical source. Check it
+before quoting any figure below.
+
+### Tagmul Nosaf (תגמול נוסף)
+
+Statutory basis: Section 19 of the Reserve Service Law. The qualifying period, rate and review
+procedures are set in `הוראות הפיקוד העליון`, subject to a statutory ceiling of two credit points a
+year (s.19(c)). Threshold: **10+ cumulative shamap days in a calendar year**.
+
+> בהתאם לסעיף 19 לחוק שירות המילואים, חיילי מילואים שביצעו במצטבר 10 ימי שמ"פ ומעלה בשנה קלנדרית
+> (מה-1 בינואר עד ל-31 בדצמבר), זכאים לתגמול נוסף.
+
+Bands for days served in 2025, paid May 2026:
+
+| Cumulative shamap days | Credit points | Amount |
+|---|---|---|
+| 10 to 14.5 | 0.5 | NIS 1,452 |
+| 15 to 19.5 | 1.0 | NIS 2,904 |
+| 20 to 36.5 | 1.5 | NIS 4,356 |
+| 37 and above | 2.0 | NIS 5,808 |
+
+Note the half-day band edges (14.5, 19.5, 36.5), which a whole-day model cannot represent.
+
+**Two cautions.**
+
+1. **Tax.** Section 19(e)(1) imposes a special income tax of **25%** on the tagmul nosaf, withheld at
+   source, `בלא זכות לניכוי, לקיזוז, לפטור או להפחתה כלשהם`. The published band table is captioned
+   `לאחר ניכוי מס` while the same page also states `לא ייגבה מס הכנסה על התגמול`. Those two
+   statements sit uneasily together. Tell the user to check the actual deposit rather than promising
+   a figure, and do not assert a gross-to-net relationship the source does not state.
+2. **Payer.** Section 19(b) says the payment `יתבצע על ידי רשות המסים בישראל`, while the operational
+   guidance routes bank-detail changes to `מנהל התשלומים בצה"ל` and discrepancies to the IDF hotline
+   1111 ext. 4. State the practical route; do not assert the payer as a legal fact.
+
+**It confers no credit points**, despite being priced as a multiple of the credit-point value. Never
+double-count it against the Amendment 283 combat credit.
+
+### Tagmul Meyuchad (תגמול מיוחד): two stacked layers
+
+Quoting only one layer under-pays the user. This was a real defect in this skill: an earlier cycle
+carried only the day-61 rule and silently dropped the base band.
+
+**Layer 1, the base band, days 32 to 60**, flat NIS 133.33 per shamap day:
+
+> חיילי מילואים שביצעו בין 32 ל-60 ימי מילואים במצטבר בשנה קלנדרית (מ-1 בינואר עד 31 בדצמבר)
+> זכאים לתגמול מיוחד, בגין ימים אלו. סכום התגמול: 133.33 ₪ על כל יום שמ"פ.
+
+Over-age reservists (מוחרגי גיל) receive the special tagmul from the **first** shamap day instead:
+`חיילי מילואים מוחרגי גיל זכאים לתגמול המיוחד החל מיום השמ"פ הראשון`.
+
+**Layer 2, beyond day 60, selected by SERVICE YEAR.** This is chosen by the date the service was
+performed, not by today's date, so a question asked in 2026 about 2025 service takes the 2025 row.
+
+| Service year | Order types covered | Rate beyond day 60 |
+|---|---|---|
+| 2024 | צו 8 only | Flat NIS 133/day, to end-2024 |
+| 2025 | צו 8 only, to expiry of the order | 133 מערך הלוחם / 60 הגמ"ר / 40 יתר היחידות |
+| 2026 | **Any order type** | מדרג א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 |
+
+For 2026, days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60-day
+qualifying tally, so heavy wartime service can cross the threshold early in the year. Payment for
+2026 is made on 01.05.2027 by Mofet. Unit tier lookup: 1111, extension 4, then 1.
+
+Three distinctions that are easy to lose: 2024 and 2025 are צו 8 only while 2026 covers any order
+type; the 2026 rate keys off the unit's **מדרג פעילות**, not a לוחם/הגמ"ר role split; and the base
+band is 133.**33** while every beyond-60 rate is a round integer.
+
+**Worked example.** 70 shamap days in a מדרג א'+ unit during 2026: days 32-60 pay 29 x 133.33 =
+**NIS 3,866.57**, and days 61-70 pay 10 x 133 on top. Quoting only the day-61 rule loses NIS 3,866.57.
+
+**Commanders** are entitled to tagmul meyuchad for days beyond 60 as such
+(`מפקדים במילואים זכאים לתגמול מיוחד גם על מעבר ל-60 ימי שמ"פ שביצעו בשנה`). The source states the
+entitlement without a rate for those days, so do not quote one.
+
+### Tagmul for over-age reservists (תגמול למוחרגי גיל)
+
+A fourth, separate track, paid **in addition to** tagmul meyuchad:
+
+> סכום התגמול: 133.33 ₪ על כל יום שמ"פ ו-66.67 ₪ על שירות מילואים חצי יומי.
+> חייל מילואים מוחרג גיל זכאי לתגמול למוחרגי גיל בנוסף על התגמול המיוחד.
+> חיילים בני 40 ומעלה וקצינים בני 45 ומעלה שחייבים בשירות מילואים ארוך מהקבוע בחוק בגלל תפקידם או
+> מקצועם. קצינים בדרגת אל"מ ומעלה אינם זכאים לתגמול מוחרגי גיל.
+
+**Do NOT cite Section 36A of the Defence Service Law for this payment.** Section 36A is the age
+**exemption** provision (40 for non-officers, 45 for officers, with a listed-professions variant at
+49) and contains no payment language whatsoever. Section 36A**1** did carry a payment, but it was a
+הוראת שעה that ran only 01.03.2024 to 30.06.2024 and its window is closed.
+
+The three IDF tagmulim are stated by the IDF to carry no income tax, in contrast to the BTL tagmul,
+which is paid net of tax. See `btl-payment-rules.md`.
+
+## Keren HaSiyua 2026 grants, full table
+
+| Grant | Threshold (2026) | Amount (top tier to bottom) |
+|-------|------------------|------------------------------|
+| מענק משפחה מוגדל | 40+ days, child up to 14 | Daily from day 41: 83 / 71 / 60 / 60 / 33 / 21 |
+| מענק הוצאות אישיות | 40+ days | Daily from day 41: 46 / 39 / 31 / 31 / 18 / 11 |
+| מענק כלכלת הבית מוגדל | 45+ shamap days, א'+/א'/ב' | 1,250 / 1,065 / 815, paid September |
+| מענק שנתי למפקדים | 54 shamap days (40 if student), א'+/א', command role | Magad 20,000 / Samgad, Mem-Pey 10,000 / Samap, Mem-Mem 5,000 |
+| מענק משפחה מיוחדת | 45+ days, special-needs child | 2,000 one-off |
+| ארנק דיגיטלי (פייטר) | 10+ days, א'+/א'/ב' | Day-banded, capped 5,000 / 4,250 / 3,250 |
+| שובר נופש | 45+ days | 605 to 4,500, by tier and child under 14 |
+| סיוע במעבר דירה | 45+ shamap days, א'+/א'/ב' | 2,500 |
+| מענק חופשת לידה | 45+ shamap days, partner off work 21+ extra days | Up to 10,700 per birth |
+| קייטנות | 20+ days incl. 3 in a camp period, א'+/א'/ב' | 500 first child, 250 each extra; cap 2,000 or 1,300 |
+| סיוע נפשי | 50+ days, א'+/א'/ב' | 80% up to 240/session; caps 2,400 to 6,000 |
+
+Separately from the 2026 one-off `מענק כלכלת הבית מוגדל` above, there is a standing annual
+`מענק כלכלת בית` of NIS 1,250 gated on **משרת מילואים פעיל** status. Do not merge the two.
+
+## משרת מילואים פעיל (משמ"פ): the status behind the thresholds
+
+Many grant thresholds are expressed in shamap days AND gated on this status, so a reservist cannot
+apply the tables without knowing whether they hold it.
+
+> מעמד "משרת מילואים פעיל" ניתן למשרת מילואים הנמנה במערך המילואים בצה"ל וביצע 20 ימי מילואים לפחות
+> בתקופה של 3 שנים רצופות או חלק מהן. במידה והמשרת משתייך למערך הלוחם יוכל להנות ממעמד "משרת מילואים
+> פעיל" לאחר ביצוע 75% ממכסת ימי המילואים שהוצגה מעלה, דהיינו, 15 ימי מילואים במשך 3 שנים רצופות.
+
+- General: 20 miluim days over 3 consecutive years (or part).
+- Combat array: 15 days over 3 years.
+- Discharged under 3 years ago: 14 days over 2 consecutive years.
+- Entitlement runs 3 years, opening 1 May or 1 November depending on when the threshold was met.
+- **Six-year variant** (`משרת מילואים פעיל שש-שנתי`): held the status at least 6 cumulative years;
+  confers mortgage and land-rights benefits. The combat array needs 60 days over 6 consecutive years.
+
+## Changing or deferring a call-up: ולת"ם and Form 58
+
+Both are **army-order mechanisms with no statutory basis**. The Reserve Service Law contains no
+ולת"ם section, no deferral or shortening procedure and no statutory deadline: s.11(a) delegates all
+of it to `פקודות הצבא`, which are not published in Rashumot. Present these as IDF procedure, never
+as law, and treat any day figure as an army-order practice that can change.
+
+| | ולת"ם | Form 58 |
+|---|---|---|
+| Scope | Orders of **6+ days**, economic or study grounds | Orders of **5 days or fewer**, and personal-grounds requests |
+| Decided by | A 3-member committee (chair from משרד הביטחון or משרד העבודה, a second ministry rep, an IDF סא"ל) | The reservist's own unit |
+| Application types | עצמאיים / מעסיקים / סטודנטים (the employee route runs through the employer) | Filed by the reservist through miluim.idf.il |
+| Filing deadline | Up to **30 days** before the shamap starts. Late filings are escalated for approval, not automatically rejected | Any time; the unit answers within 10 days, or by the day before the call-up |
+| Appeal | **72 hours** from the decision. `בקשות/ערעורים שיוגשו באיחור - יידחו` | One appeal only, and **only** where the call-up exceeds 3 days and 14+ days remain before it starts |
+| Powers | דחייה / קבלה / קיצור / פיצול; decisions valid 60 days | Change, cancel, or reject |
+| Basis | פקודת מטכ"ל 31.0603 | נוהל בקשת 58 |
+
+Do not confuse Form 58 with Form 55 (unit transfer or exit to פטור) or Form 445 (consent to a
+call-up that breaches the call-up rules).
+
+## Travel reimbursement
+
+Choose one of three options on miluim.idf.il up to **two days** before reporting: rav-kav funding,
+fuel reimbursement, or waiver.
+
+> בחירה באחת מ-3 השיטות תעשה באתר המילואים עד יומיים לפני מועד הזימון.
+> ניתן לקבל החזר הוצאות נסיעה בדלק באופן רטרואקטיבי.
+
+Missing the window **forfeits nothing**: update through the miluim hotline inside the two days, or
+with the unit's ק.משא"ן on arrival, and fuel reimbursement can be claimed retroactively. Capped at
+NIS 66 per day. A reservist with no civilian driving licence is placed on rav-kav automatically.
+
+## Escalation channels
+
+- **נציב קבילות החיילים** is a statutory, independent body. A reservist may file whether or not
+  currently serving, so long as the complaint concerns their reserve service. Written complaints
+  only: NAKHAL@MOD.GOV.IL, or ת.ד. 7052 תל אביב 6473424, or military mail. Phone 03-6977374.
+- **קמל"ר** (קצין המילואים הראשי) is a **command appointment**, not a complaints route. Do not send
+  users there to complain.
+- **Activity-tier (מדרג) disputes** go first to the miluim hotline, 1111 extension 4 then 1; the tier
+  is set by רמ"ח מילואים באגף כוח האדם. A קבילה to the Commissioner remains available afterwards.

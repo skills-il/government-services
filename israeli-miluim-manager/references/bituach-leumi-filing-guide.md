@@ -9,7 +9,7 @@ Only the first is a Bituach Leumi payment. Tagmul Nosaf and Tagmul Meyuchad are 
 | Track | Hebrew | What It Is | When Paid |
 |-------|--------|-----------|-----------|
 | Salary reimbursement (Bituach Leumi) | תגמולי מילואים | Replaces lost income during service | Monthly during/after service |
-| Tagmul Nosaf (IDF) | תגמול נוסף | Annual payment; the 10-qualifying-day rule is unverified for 2026 | By 1 May of the following year |
+| Tagmul Nosaf (IDF) | תגמול נוסף | Annual payment; **10+ cumulative shamap days** in a calendar year (Reserve Service Law s.19) | By 1 May of the following year |
 | Tagmul Meyuchad (IDF) | תגמול מיוחד | From the 61st cumulative shamap day inclusive; rate banded by unit tier | 2026 payment on 01.05.2027 by Mofet |
 
 A reservist may be entitled to all three. Conflating them is the leading cause of believing a payment is missing when only one track has been processed.
@@ -176,7 +176,8 @@ Gross compensation: 400 x 21 = NIS 8,400
 |-----------|----------|-------|
 | Employee: employer files | No strict deadline, but should file promptly | Delays reduce employer cash flow |
 | Self-employed: direct claim | Within 12 months of service end | After 12 months, claim may be rejected |
-| Late filing appeal | Within 6 months of rejection | Must explain reason for late filing |
+| Rejected claim, court route | **12 months** from delivery of the decision, to the regional Labour Court | Reg. 1(b), תקנות הביטוח הלאומי (מועדים להגשת תובענות). This is the deadline that forfeits the right |
+| Rejected claim, committee route | Within 6 months, to ועדת תביעות | Recommendation only; does NOT pause the 12-month court clock |
 | Tax credit claim | During tax year or in annual filing | Can retroactively claim for past years |
 
 ## Common Rejection Reasons and Solutions
@@ -185,7 +186,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 |-----------------|--------|----------|
 | Form 3010 dates mismatch | אי-התאמה בתאריכי טופס 3010 | Request corrected Form 3010 from IDF |
 | Insufficient income documentation | תיעוד הכנסות לא מספק | Provide additional months of invoices or tax returns |
-| Filing deadline exceeded | חריגה ממועד ההגשה | File an appeal within 6 months explaining the delay |
+| Filing deadline exceeded | חריגה ממועד ההגשה | File with the Labour Court within 12 months of the decision being delivered; a 6-month ועדת תביעות request is optional and non-tolling |
 | Incorrect bank details | פרטי בנק שגויים | Update bank details and resubmit |
 | Missing service confirmation | חסר אישור שירות | Contact IDF Personnel Directorate for replacement |
 | Bituach Leumi payment arrears | חוב לביטוח לאומי | Pay arrears or arrange payment plan; arrears may reduce compensation |
@@ -235,7 +236,7 @@ An annual payment separate from salary reimbursement, **paid by the IDF, not by 
 
 | Aspect | Detail |
 |--------|--------|
-| Eligibility | Historically any year with 10+ qualifying reserve days (unverified for 2026) |
+| Eligibility | 10+ cumulative shamap days in a calendar year (Reserve Service Law s.19, qualifying period set in הוראות הפיקוד העליון) |
 | Payer | The IDF, to the bank account registered with the unit |
 | When paid | By 1 May of the year following the qualifying year (NOT at end of service) |
 | How to claim | Automatic; no claim needed if the unit holds correct bank details |
@@ -317,7 +318,7 @@ Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim
 | Right | Details |
 |-------|---------|
 | Direct salary reimbursement | File via **Form 502** with Bituach Leumi (no employer intermediary); income basis = the gross advances (מקדמות) reported to BTL for the 3 months before service / 90, subject to Amendment 253 |
-| Tagmul Nosaf | Annual IDF payment, automatic; the 10-qualifying-day rule is unverified for 2026 |
+| Tagmul Nosaf | Annual IDF payment, automatic; 10+ cumulative shamap days in a calendar year |
 | Tagmul Meyuchad | IDF payment from the **61st** cumulative shamap day inclusive (pre-2026 Section 8 days count toward the 60); rate banded by unit tier; 2026 payment on 01.05.2027 |
 | Manak Nezek Akif | Cash grant program for income loss tied to reserve service |
 | Tax credits | Same Amendment 283 combat tiers as employees (if serving in combat role) |
