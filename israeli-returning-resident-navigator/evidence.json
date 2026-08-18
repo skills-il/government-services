@@ -5,14 +5,16 @@
   "claims": [
     {
       "claim_id": "ref-link-nbn-hub",
-      "claim": "Nefesh B'Nefesh is the leading nonprofit for English-speaking olim and returnees, with plain-English resources on returning-resident rights, vehicle import, kupat cholim, banking, license conversion",
+      "claim": "Nefesh B'Nefesh is the leading nonprofit for English-speaking olim and returnees, with plain-English resources on returning-resident rights, vehicle import, kupat cholim, banking, license conversion. Covered references: Nefesh B'Nefesh: aliyah and life in Israel resources for English-speaking olim and returning residents.",
       "source_url": "https://www.nbn.org.il/",
-      "raw_snippet": "Nefesh B'Nefesh: aliyah and life in Israel resources for English-speaking olim and returning residents.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Nefesh B'Nefesh | Aliyah: It's your move! Move to Israel. --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content Toggle Navigation ISRAEL JOB BOARD LOGIN TO MY APPLICATION Toggle Navigation MAKING ALIYAH What is Aliyah?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim": "Misrad HaAliyah VeHaKlita definition of a returning resident: an Israeli citizen, aged 17 or over at the time of return, who was a resident of Israel in the past and lived abroad for at least two years.",
@@ -180,14 +182,16 @@
     },
     {
       "claim_id": "ref-shivat-zion-toshav-chozer",
-      "claim": "Shivat Zion publishes an English-language overview of the Toshav Chozer status",
+      "claim": "Shivat Zion publishes an English-language overview of the Toshav Chozer status. Covered references: Toshav Chozer (Returning Resident) Overview",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348813-returning-resident-toshav-chozer",
-      "raw_snippet": "Toshav Chozer (Returning Resident) Overview",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Returning Resident - Toshav Chozer Guide : Shivat Zion - Aliyah & Klita About Us Aliyah Information Hub Find me a Professional HelpDesk EN EN PT NL IT ES DE Donate EN PT NL IT ES DE How can we assist you today?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-shivat-zion-acclimatization",
@@ -226,33 +230,39 @@
       "claim_id": "pidyon-14520-nis-feb-2024-cross-ref",
       "claim": "Belong reported the Toshav Chozer health-insurance waiting-period pidyon at NIS 14,520 as of February 2024; the figure has since risen and the current Kol Zchut 2026 figure of NIS 16,860 supersedes it",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "the Toshav Chozer can redeem the waiting period by making a special payment (14,520 NIS / 14,520 ש\"ח) to the National Insurance Institute as of today, February, 2024",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Alternatively, the Toshav Chozer can redeem the waiting period by making a special payment (14,520 NIS) to the National Insurance Institute as of today, February, 2024. A second option is to pay for private insurance during the 6 month waiting period.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "havtachat-hachnasa-thresholds-2024",
       "claim": "Guaranteed Income Support thresholds for returning residents: NIS 2,680 individual, NIS 3,694 couple, NIS 4,106 family of 3, NIS 4,836 family of 4+; available up to 3 months within the first year, extendable through year-end if employed below minimum wage with salary slip",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Individual: 2,680 NIS / 2,680 ש\"ח; Couple: 3,694 NIS / 3,694 ש\"ח; Family of 3: 4,106 NIS / 4,106 ש\"ח; Family of 4+: 4,836 NIS / 4,836 ש\"ח. Available up to 3 months within first year; extends through end of year if employed below minimum wage with salary slip.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "a Toshav Chozer (Hebrew website) Threshold for Receiving Income Assistance For an individual Toshav Chozer, the income cap is set at 2,680 NIS. A household of 2 can receive assistance if their combined income does not exceed 3,694 NIS. For a family of 3, the threshold is 4,106 NIS; for families of 4 or more, the income limit increases to 4,836 NIS as of 2024.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"2,680\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "vocational-training-salary-assistance-maalot",
       "claim": "Misrad HaAliyah returnee employment basket includes: Vocational Training Vouchers (Ulpan Aleph required, subject to district budget); Salary Assistance up to 24 months from Toshav Chozer status, ages 18 through retirement; Ma'alot Innovation Program with 5 business centers nationwide and a NIS 250 business-model fee (other services free); eligibility splits at April 1, 2020: pre-March-31-2020 returnees need 3+ years abroad in a 2-year window, post-April-1-2020 returnees need 5+ years abroad in a 2-year window",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Vocational Training Vouchers: Covers professional/vocational training costs, requires Hebrew Ulpan Aleph level. Salary Assistance: Up to 24 months from Toshav Chozer status date, for ages 18 through retirement age. Innovation Program (Ma'alot): 5 business centers nationwide, NIS 250 / 250 ש\"ח fee for business model creation; Pre-March 31, 2020 returnees: 2-year window, 3+ years abroad required; Post-April 1, 2020 returnees: 2-year window, 5+ years abroad required.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Additionally, it offers professional workshops across various sectors. While creating a business model requires a fee of 250 NIS, all other services within the program are available at no cost. The aid is granted through 5 Ma’alot centers (business centers for Olim and Toshavim Chozerim) across the country. Who is Eligible for the Innovation Promotion Program? For a Toshav Chozer aged 21 and over, eligibility for certain benefits depends on the date of their return to Israel and the duration of their stay abroad.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"250\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "lone-soldier-returnee-basket",
@@ -280,12 +290,14 @@
       "claim_id": "katin-chozer-subtype",
       "claim": "Katin Chozer (Returning Minor) is a distinct named status for someone who left Israel as a minor (typically before age 14) and returns; it confers a separate benefit track via Misrad HaPnim (Population Authority) and BL with shorter residency-determination paths, not the standard Toshav Chozer basket",
       "source_url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/kviattoshavut.aspx",
-      "raw_snippet": "אם אתה זכאי לתעודת 'קטין חוזר' או תעודת 'אזרח עולה', תוכל להגיש בקשה לתושבות במסלול מקוצר במשרד העלייה והקליטה. (If you are eligible for a Katin Chozer certificate or an Ezrach Oleh certificate, you can apply for residency through Misrad HaAliyah on a shorter track.)",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "ל להסדיר את התושבות לאחר ההגעה לישראל, באחת מהאפשרויות הבאות: מסלול מקוצר באמצעות משרד העלייה והקליטה אם שהית בחו\"ל 5 שנים ומעלה, או אם אתה זכאי לתעודת 'קטין חוזר' או תעודת 'אזרח עולה', תוכל להגיש בקשה לתושבות במסלול מקוצר במשרד העלייה והקליטה. מידע נוסף ניתן למצוא באתר של משרד העלייה והקליטה . מסלול רגיל לאחר ההגעה לישראל עליך למלא שאלון לקביעת תושבות לחוזר מחו\"ל ולהגישו לביטוח הלאומי.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "scientists-age-37-cap",
@@ -313,35 +325,41 @@
       "claim_id": "education-reinforcement-4-year-threshold",
       "claim": "Returnee children matriculation reinforcement: eligible for additional weekly reinforcement sessions and potential matriculation exam accommodations if they were previously a citizen and completed a minimum of 4 years of academic studies outside Israel",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "qualified as someone who was previously a citizen and has completed a minimum of 4 years of academic studies outside of Israel. Eligible for additional weekly reinforcement sessions (subject allocation) plus potential matriculation exam accommodations.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "A Toshav Chozer According to the Ministry of Education A Toshav Chozer, whether originally from Israel or born overseas, qualifies as someone who was previously a citizen and has completed a minimum of 4 years of academic studies outside of Israel. The Department for Admissions plays a crucial role in facilitating the smooth transition of students into the educational, social, and cultural life of Israel.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "national-service-natalie-furman",
       "claim": "Returnee National Service (Sherut Leumi) grant: eligibility requires service to start within 2 years of Toshav Chozer status with parents living abroad; required documents are acceptance confirmation, valid ID, and bank account details; coordinator is Natalie Furman at the National Soldiers Coordinator at Misrad HaAliyah, main line 03-9733333",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Service must start within 2 years of Toshav Chozer status, parents abroad. Required documents: Acceptance confirmation, valid ID, bank account details. Coordinator: Natalie Furman at the National Soldiers Coordinator at the Ministry of Aliyah and Integration. Main line: 03-9733333.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "For more information, contact Natalie Furman at the National Soldiers Coordinator at the Ministry of Aliyah and Integration: [email protected] Or reach out to the Ministry’s information center at 03-9733333 Taxation Taxation Benefits A Toshav Chozer who has lived abroad for an extended period and then returned to Israel enjoy specific tax benefits aimed at easing their reintegration.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "bilateral-pension-convention-states",
       "claim": "Returnees who lived in countries with bilateral social-security agreements (convention states) with Israel can qualify for additional benefits, including spousal benefits under the Old-Age Pension Law; specific bilateral pension entitlements depend on the agreement with each country and should be verified with the BL international branch",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "Individuals residing in nations that have an agreement with Israel can qualify for additional benefits for their spouses under the Old-Age Pension Law. Reference to convention state exists for spousal benefits.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Individuals residing in nations that have an agreement with Israel can qualify for additional benefits for their spouses under the Old-Age Pension Law, even if these spouses do not hold Israeli residency, provided they meet the law’s spousal criteria.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/first-90-days-checklist.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "teum-mas-tax-coordination",
@@ -413,14 +431,16 @@
     },
     {
       "claim_id": "ref-shivat-zion-returning-israelis-hub",
-      "claim": "Shivat Zion maintains a returning-Israelis knowledge-base root organized by category",
+      "claim": "Shivat Zion maintains a returning-Israelis knowledge-base root organized by category. Covered references: Aliyah Tips, Book an Appointment, Education, Emergency, Employment, Finances, First Steps in Israel, Government Offices, Health and Medical, Housing and Community, Integration Rights, Military and National Service, Transportation",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548",
-      "raw_snippet": "Aliyah Tips, Book an Appointment, Education, Emergency, Employment, Finances, First Steps in Israel, Government Offices, Health and Medical, Housing and Community, Integration Rights, Military and National Service, Transportation",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Klita : Shivat Zion - Aliyah & Klita About Us Aliyah Information Hub Find me a Professional HelpDesk EN EN PT NL IT ES DE Donate EN PT NL IT ES DE How can we assist you today?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "returning-resident-visits-four-months",

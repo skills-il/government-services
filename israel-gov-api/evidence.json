@@ -19,7 +19,10 @@
       "claim_id": "ckan-datastore-actions",
       "claim": "CKAN DataStore search actions: /action/datastore_search returns up to 100 rows by default, and /action/datastore_search_sql executes SQL queries against the DataStore using the PostgreSQL engine. datastore_search_sql must be explicitly enabled and is commonly disabled on public portals.",
       "source_url": "https://docs.ckan.org/en/latest/maintaining/datastore.html",
-      "raw_snippet": "datastore_search endpoint /api/3/action/datastore_search: Search a DataStore resource. By default 100 rows are returned, see the limit parameter for more info. datastore_search_sql endpoint /api/3/action/datastore_search_sql: Execute SQL queries on the DataStore. The underlying SQL engine is the PostgreSQL engine. It requires explicit enablement via the ckan.datastore.sqlsearch.enabled configuration setting."
+      "raw_snippet": "The datastore_search action allows you to search data in a resource. By default 100 rows are returned - see the limit parameter for more info. A DataStore resource that belongs to a private CKAN resource can only be read by you if you have access to the CKAN resource and send the appropriate authorization.",
+      "verified_via": "cited page fetched and confirmed to contain \"100\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "claim_id": "datagov-live-portal",

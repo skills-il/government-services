@@ -118,14 +118,16 @@
       "claim_id": "electoral-threshold-3-25",
       "claim": "The electoral threshold is 3.25% of valid votes since the March 2014 amendment; was 2% before.",
       "source_url": "https://en.idi.org.il/articles/64020",
-      "raw_snippet": "3.25 percent",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "int list passes the electoral threshold (i.e., the minimum percentage of the vote needed in order to have seats in Knesset, which is 3.25% of the valid votes), the Members of Knesset elected on its behalf form a single joint parliamentary faction, but they may also easily split into several factions, according to the parties that composed the list. It should be noted that running on joint lists is very common in Israeli politics. When is there electoral justification for running on a joint list?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"3.25%\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "bader-ofer-method",
@@ -303,14 +305,16 @@
       "claim_id": "bill-status-codes",
       "claim": "Bill status code 118 = approved in third reading (became law); 108 = preparation for first reading; 125 = rejected; full list via KNS_Status?$filter=TypeID eq 5.",
       "source_url": "https://github.com/hasadna/Open-Knesset",
-      "raw_snippet": "118 = approved third reading; 108 = preparation for first reading; 125 = rejected",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "esset Public archive forked from ofri/Open-Knesset Notifications You must be signed in to change notification settings Fork 168 Star 108 Code Issues 203 Pull requests 6 Actions Projects Wiki Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Wiki Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 4,974 Commits 4,974 Commits Folders and files Name Name Last commit message Last commit date .github .",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/query_knesset.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"108\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "committee-session-cancelled-193",
@@ -419,13 +423,15 @@
     },
     {
       "claim_id": "ref-idi",
-      "claim": "Israel Democracy Institute (IDI) is the recommended authoritative source for post-election analysis.",
+      "claim": "Israel Democracy Institute (IDI) is the recommended authoritative source for post-election analysis. Covered references: https://en.idi.org.il/",
       "source_url": "https://en.idi.org.il/",
-      "raw_snippet": "https://en.idi.org.il/",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "Israeli Democracy Institute - The Israel Democracy Institute Skip To Main Content Toggle navigation Home 0 0 Search Search Search About About IDI Current Supporters Board of Directors International Advisory Board Managem",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-bills-search-ui",

@@ -28,12 +28,14 @@
       "claim_id": "ev-purchase-tax-2026",
       "claim": "EV purchase tax (mas knisa) rose to 48% effective January 1, 2026 (compromise after Treasury proposed 52%); previously 45%. Tax-benefit ceiling lowered to approximately NIS 22,000 / 22,000 שקל / 22,000 ש\"ח, down from NIS 30,000 / 30,000 שקל / 30,000 ש\"ח in 2025.",
       "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
-      "raw_snippet": "Treasury compromised on raising the purchase tax on EVs to 48% from January 1, 2026, instead of the 52% originally proposed (previously 45%). The 2026 tax benefit ceiling was set at approximately NIS 22,000 (22,000 שקל / 22,000 ש\"ח), reduced from NIS 30,000 (30,000 שקל / 30,000 ש\"ח) in 2025.",
-      "fetched_at": "2026-05-18T01:00:00Z",
+      "raw_snippet": "l Green Line to launch Friday 29 Dec, 2025 15:24 Dubi Ben-Gedalyahu Purchase tax on electric cars from January will rise from 45% to 48%, instead of 52%, as the Ministry of Finance initially wanted. Israel’s Ministry of Finance and the Knesset Finance Committee have reached a compromise on the level of purchase tax for electric cars starting January 2026. Under the terms of the compromise, purchase tax on electric cars will rise from 45% to 48% instead of 52% as the Ministry of Finance initially wanted.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"48%\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "april-2026-license-hike",
@@ -182,12 +184,14 @@
       "claim_id": "ev-tax-ceiling-2026-detail",
       "claim": "EV purchase-tax benefit ceiling for 2026 is approximately 22,000 NIS / 22,000 שקל / 22,000 ש\"ח. Tax rate rose to 48% (was 45%; Treasury initially proposed 52%).",
       "source_url": "https://en.globes.co.il/en/article-treasury-compromises-on-electric-car-tax-hike-1001530508",
-      "raw_snippet": "EV tax-benefit ceiling approximately 22,000 NIS / 22,000 שקל / 22,000 ש\"ח effective January 2026; rate 48%.",
-      "fetched_at": "2026-05-18T01:15:00Z",
+      "raw_snippet": "ver, at the same time, the maximum amount of the tax benefit in shekels has \"shrunk\" by an additional NIS 8,000 and will be only NIS 22,000 shekels instead of NIS 30,000 according to the original plan of the Ministry of Finance. RELATED ARTICLES Chinese cars increase market share in Israel in 2025 Sources at the Ministry of Finance claim that the compromise will encourage the import of cheaper electric vehicles \"at the expense\" of luxury electric vehicles, for which the tax benefit becomes negligible.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"22,000\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ev-test-cost",

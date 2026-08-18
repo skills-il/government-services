@@ -7,15 +7,21 @@
       "id": "days-test-183",
       "claim": "Israeli tax residency is presumed if the individual spends 183 or more days in Israel during the tax year.",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
-      "raw_snippet": "An individual is presumed to be an Israeli resident if 183 days or more are spent in Israel during the tax year",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "g the determination of an individual’s ‘centre of life’: Any individual who has been present in Israel during a certain tax year for 183 days or more shall be presumed to have their centre of life in Israel (and consequently be an Israeli tax resident) in such tax year. Any individual who has been present in Israel during a tax year for 30 days or more, and a total of 425 days or more during such tax year and the two previous tax years (on aggregate), shall be presumed to have their centre of life in Israel in such tax year.",
+      "fetched_on": "2026-05-26",
+      "verified_via": "cited page fetched and confirmed to contain \"183\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "days-test-30-425",
       "claim": "Israeli tax residency is also presumed if the individual spends 30 or more days in Israel during the tax year AND 425 or more days total in that year combined with the two preceding years.",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/residence",
-      "raw_snippet": "30 days or more in the tax year and 425 days or more in that year and the two preceding years",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "Any individual who has been present in Israel during a tax year for 30 days or more, and a total of 425 days or more during such tax year and the two previous tax years (on aggregate), shall be presumed to have their centre of life in Israel in such tax year. It should be emphasised that the main defining test under the ITO remains the ‘centre of life’ test. The presumptions mentioned above (regarding the length of stay in Israel) will merely assist in reaching a conclusion.",
+      "fetched_on": "2026-05-26",
+      "verified_via": "cited page fetched and confirmed to contain \"425\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "center-of-life-test",
@@ -43,8 +49,11 @@
       "id": "section-100a-rate-25-substantial",
       "claim": "Section 100A applies the 25% individual capital-gains rate for regular shareholders, 30% for substantial shareholders (10%+ ownership), and the 23% corporate rate for company-held assets.",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/income-determination",
-      "raw_snippet": "Capital gains are taxed at 25% for individuals, increased to 30% for substantial shareholders (10% or greater holding)",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "reafter The real gain, if any, realised upon the sale of shares purchased on or after 1 January 2003 is generally taxed at a rate of 25% for individuals. This rate is increased to 30% where the seller was a 10% or more shareholder at the date of sale or during any of the 12 months preceding the sale; detailed definitional rules apply (hereinafter ‘10% or more shareholder’).",
+      "fetched_on": "2026-05-26",
+      "verified_via": "cited page fetched and confirmed to contain \"25%\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "section-100a-deferral-option",

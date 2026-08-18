@@ -7,23 +7,27 @@
       "claim_id": "fare-urban-single-2025",
       "claim": "Urban single-ride fare is 8 NIS, raised from 6 NIS on April 25, 2025.",
       "source_url": "https://en.globes.co.il/en/article-public-transport-fare-reform-wont-improve-public-transport-1001508298",
-      "raw_snippet": "as of the reform implementation date (Friday, April 25, 2025), the fare for a single bus trip will also increase by NIS 2",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "Now, the fare for a single bus trip will also increase by NIS 2, and other travel will rise by similar percentages, so that a free monthly ticket for urban travel, for example, will cost NIS 315, up from NIS 236 today. By how much is the government subsidizing public transport? The government insists that it must increase fares to raise overall revenue from passengers top ease the government subsidy.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "fare-june-2026-hike-contested",
       "claim": "A ~12% hike to ~9 NIS was announced for June 2026 but is contested and may be deferred.",
       "source_url": "https://www.jpost.com/israel-news/article-876493",
-      "raw_snippet": "'It will not happen': Regev opposes potential public transport price hikes; fares expected to rise by up to 12% in June, with single bus fare from 8 NIS to approximately 9 NIS",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "ADVERTISE WITH US TERMS OF USE PRIVACY POLICY CONTACT US CANCEL SUBSCRIPTION CUSTOMER SERVICE ABOUT US Jerusalem Post / Israel News 'It will not happen': Regev opposes potential public transport price hikes - KAN News “It will not happen under any circumstances, even if a budget is not passed,” Regev’s office said, insisting she will block any additional burden on riders without parallel service improvements.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "monthly-pass-nationwide-315",
@@ -104,12 +108,14 @@
       "claim_id": "ta-green-line-status",
       "claim": "Tel Aviv Light Rail Green Line southern segment 2028, northern terminus Herzliya 2030; 39km / 62 stops. Egged won operator tender.",
       "source_url": "https://en.globes.co.il/en/article-egged-wins-tender-to-operate-ta-light-rail-purple-green-lines-1001504636",
-      "raw_snippet": "Egged wins tender to operate TA light rail Purple, Green Lines; Green Line southern segment Holon-Rishon LeZion now scheduled to open in 2028, full opening Herzliya planned for 2030; 39 kilometers, 62 stops",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "Egged wins tender to operate TA light rail Purple, Green Lines - Globes \" /> \" /> \" /> \" /> search G Front News Comment Features MARKET ECONOMY ENERGY HEALTHCARE TECH REAL ESTATE START UPS Zacks Investment Research AEROSPACE & DEFENSE CHEMICALS & PLASTICS FINANCIAL SERVICES MERGERS & ACQUISITIONS POLITICS TELECOMS, MEDIA & MARKETING TOURISM TRANSPORT & INFRASTRUCTURE Front > News Egged wins tender",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "israel-railways-jan-2026-schedule",
@@ -126,12 +132,14 @@
       "claim_id": "eastern-railway-2026",
       "claim": "Eastern Railway (Hadera-Lod, 65km, 4 new stations) partial opening 2026, full 2026-2027.",
       "source_url": "https://grokipedia.com/page/eastern_railway_israel",
-      "raw_snippet": "65 kilometers from Lod to Hadera, doubling tracks over 50 kilometers, four passenger stations; partial operations expected by 2025 and full opening in 2026",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "Modern Route and Infrastructure The revived Eastern Railway, a national project since 2019, spans 65 kilometers from Lod to Hadera, doubling tracks over 50 kilometers, adding new segments, and constructing four passenger stations to relieve coastal congestion. The route follows the historical alignment inland parallel to Highway 6, with standard gauge (1,435 mm) tracks enabling speeds up to 160 km/h.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Israel Railways",
         "SKILL_HE.md#שלב 4"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "tlv-jerusalem-fast-line",

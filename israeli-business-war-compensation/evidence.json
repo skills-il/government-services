@@ -604,12 +604,14 @@
       "claim_id": "form-100-employer-halat-authorization",
       "claim": "Form 100 (טופס 100) is the employer's halat authorization document for Bituach Leumi purposes; filed with exact halat start and end dates to authorize the leave",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
-      "raw_snippet": "Form 100 / טופס 100",
-      "fetched_at": "2026-05-18T19:00:00Z",
+      "raw_snippet": "אות יש לוודא כי שלחת לביטוח הלאומי: הגשת בקשה לחל\"ת - נדרש רק ממי שמובטל או יצא לחל\"ת לראשונה בשנה האחרונה הרשמה בשירות התעסוקה טופס 100 מהמעסיק (כולל תאריך הפסקת וחזרה מעבודה וסיבת הפסקת עבודה) סכום דמי האבטלה סכום דמי האבטלה י קבע בהתאם לגובה השכר, לטבלת הסכומים לחצו כאן (הסכומים ינועו בין 30 ל-70 אחוז מהשכר) תנאי הזכאות מי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה (מ-28.2.2026 או מ-1.3.2026) והיה בחל\"ת למשך חמישה ימים או יותר , (עד ה-4/5.3.2026 לפחות) שימו לב שתנאי זכאות זה נכנס לתוקף החל מ-5.5.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"100\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "section-29-general-property-tax-appeals",

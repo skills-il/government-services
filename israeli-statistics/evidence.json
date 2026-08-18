@@ -60,14 +60,16 @@
       "claim_id": "unemployment_feb_2026",
       "claim": "Seasonally adjusted unemployment rate was 2.7% in February 2026",
       "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
-      "raw_snippet": "Israel's seasonally adjusted unemployment rate declined to 2.7% in February 2026 from 3.1% in the previous month.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "t Israel Unemployment Rate Summary Stats Forecast Calendar Alerts Download Israel’s seasonally adjusted unemployment rate climbed to 3.1% in July 2026 from 2.9% in June, reaching its highest reading since January. The number of unemployed people increased by 20.2 thousand from the previous month and by 5.7 thousand from a year earlier to 148.2 thousand. Meanwhile, employment rose by 11.1 thousand month-on-month and 42.2 thousand year-on-year to 4.399 million. The labor force participation rate edged up to 62.2% from 62.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב",
         "SKILL.md Example 3",
         "SKILL_HE.md דוגמה 3"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"3.1%\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "lfpr_feb_2026",
@@ -141,23 +143,27 @@
       "claim_id": "apt_price_q1_2026",
       "claim": "National average apartment price in Q1 2026 was approximately NIS 2.33 million (down 1.6% from Q4 2025 average of NIS 2.37M)",
       "source_url": "https://www.buyitinisrael.com/news/israel-home-prices-rise-again-in-2026",
-      "raw_snippet": "The national average apartment price in Q1 2026 stood at approximately NIS 2.33 million per apartment, a decline of 1.6% compared to the fourth quarter of 2025, when the average was NIS 2.37 million.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "The national average stood at approximately NIS 2.33 million per apartment — a decline of 1.6% compared to the fourth quarter of 2025, when the average was NIS 2.37 million. The data also covered average apartment prices across Israel’s 18 largest cities. The three most expensive cities are Tel Aviv, where the average price stands at approximately NIS 4.59 million, Herzliya at approximately NIS 3.85 million, and Jerusalem at approximately NIS 3.1 million.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "housing_yoy_change",
       "claim": "Israeli home prices fell approximately 1.7% over the trailing 12 months as of early 2026",
       "source_url": "https://www.timesofisrael.com/housing-snapshot-april-2026-home-prices-continue-slide-bringing-yearly-drop-to-1-7/",
-      "raw_snippet": "The average price of homes has fallen 10 out of the last 12 months, leading to a 1.7% decline over the last year.",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "The average price of homes has fallen 10 out of the last 12 months, leading to a 1.7% decline over the last year, CBS said. Israel’s housing market has slowed over the past year, partially in reaction to the multifront war Israel has been engaged in since Hamas invaded southern Israel on October 7, 2023.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "cbs_api_cpi_code",
@@ -176,14 +182,16 @@
       "claim_id": "cbs_api_base",
       "claim": "CBS Price Indices API base URL is api.cbs.gov.il/index with /catalog/catalog and /data/price endpoints",
       "source_url": "https://www.cbs.gov.il/en/Pages/Api-interface.aspx",
-      "raw_snippet": "The API is an application that the public uses to retrieve data from the CBS databases automatically ... endpoints include api.cbs.gov.il/Index/Catalog/Catalog and api.cbs.gov.il/index/data/price",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "toResource }} {{ level5.Label }} CBS Site > API interface שתפו: share: API interface תקציר Application Programming Interface (API) – an application that the public uses to retrieve data from the CBS databases automatically, conveniently, and formatted as needed. ​ תוכן דף Instructions for using the API interface: To retrieve data from the API, you must define an appropriate URL address in your browser so that the requested data are displayed in the desired format.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md Step 6",
         "SKILL_HE.md שלב 6",
         "references/cbs-data-guide.md",
         "scripts/fetch_cbs_data.py"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "boi_rate_4pct_january",

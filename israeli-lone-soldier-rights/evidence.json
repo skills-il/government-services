@@ -221,8 +221,11 @@
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
       "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "1,000 ש\"ח לחודש / 1,000 NIS per month, 12,000 ש\"ח / 12,000 NIS שנה ראשונה. שתי פעימות של עד 6,000 ש\"ח (6,000 NIS) כל אחת.",
-      "confidence": "high"
+      "raw_snippet": "• סיוע בשכר דירה בסכום של עד 12,000 ₪ בשנה הראשונה לשחרורכם משירות חובה, לפי הפירוט הבא: עד 1,000 ₪ לחודש, לתקופה של עד 12 חודשי שכירות. • אם שכר הדירה שאתם משלמים הוא פחות מ- 1,000 ₪ לחודש, תקבלו החזר בגובה הסכום שאתם משלמים בפועל. • תנאי ההטבה עשויים להשתנות בהתאם להחלטות הנהלת הקרן לקליטת חיילים משוחררים. שימו לב! הסיוע ניתן עבור עלות שכר הדירה בלבד, ולא כולל חשבונות: ארנונה, חשמל, גז, ועד בית וכו'. מתי ניתן להירשם להטבה?",
+      "confidence": "high",
+      "verified_via": "cited page fetched and confirmed to contain \"1,000\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "food-and-holiday-vouchers",
@@ -264,12 +267,15 @@
     },
     {
       "id": "diaspora-orgs-urls",
-      "claim": "URLs for the diaspora and Israeli NGO directory referenced in this skill: Nefesh B'Nefesh Lone Soldier Program at https://www.nbn.org.il/nbnlsp/, Friends of the IDF lone soldier support at https://www.fidf.org/lone-soldier-support/, Garin Tzabar at https://garintzabar.org/, Lone Soldier Center in Memory of Michael Levin at https://www.lonesoldiercenter.com/ (NOTE: tzevetmikey.com is a SEPARATE org, Tzevet Mikey / Lone Soldier Empowerment Foundation, not the Michael Levin center), Mahal program at http://www.mahal-idf-volunteers.org/, Hebrew Wikipedia lone-soldier overview at https://he.wikipedia.org/wiki/חייל_בודד",
+      "claim": "URLs for the diaspora and Israeli NGO directory referenced in this skill: Nefesh B'Nefesh Lone Soldier Program at https://www.nbn.org.il/nbnlsp/, Friends of the IDF lone soldier support at https://www.fidf.org/lone-soldier-support/, Garin Tzabar at https://garintzabar.org/, Lone Soldier Center in Memory of Michael Levin at https://www.lonesoldiercenter.com/ (NOTE: tzevetmikey.com is a SEPARATE org, Tzevet Mikey / Lone Soldier Empowerment Foundation, not the Michael Levin center), Mahal program at http://www.mahal-idf-volunteers.org/, Hebrew Wikipedia lone-soldier overview at https://he.wikipedia.org/wiki/חייל_בודד. Covered references: Diaspora orgs supporting lone soldiers: https://www.nbn.org.il/nbnlsp/, https://www.fidf.org/lone-soldier-support/, https://garintzabar.org/, https://www.lonesoldiercenter.com/, https://tzevetmikey.com/, http://www.mahal-idf-volunteers.org/, https://he.wikipedia.org/wiki/חייל_בודד",
       "claim_type": "url",
       "source_url": "https://www.nbn.org.il/nbnlsp/",
       "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "Diaspora orgs supporting lone soldiers: https://www.nbn.org.il/nbnlsp/, https://www.fidf.org/lone-soldier-support/, https://garintzabar.org/, https://www.lonesoldiercenter.com/, https://tzevetmikey.com/, http://www.mahal-idf-volunteers.org/, https://he.wikipedia.org/wiki/חייל_בודד",
-      "confidence": "high"
+      "raw_snippet": "Lone Soldiers Program | Nefesh B'Nefesh FIDF --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> -->",
+      "confidence": "high",
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "law-of-return-citizenship",

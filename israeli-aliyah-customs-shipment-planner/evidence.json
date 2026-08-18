@@ -18,12 +18,14 @@
       "claim_id": "hand-luggage-under-200-usd",
       "claim": "Personal belongings in hand luggage are tax-free up to USD 200 per person",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Clothing, toiletries, and items valued under $200 USD per person",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"200\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "hand-luggage-alcohol-cap",
@@ -40,12 +42,14 @@
       "claim_id": "hand-luggage-tobacco-cap",
       "claim": "Tobacco allowance in hand luggage: 250 grams or 200 cigarettes for age 18+",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Tobacco: max 250 grams or 200 cigarettes",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "raw_snippet": "Cosmetics with alcohol content (perfumes), up to 1/4 liter (250 ml) – for each entrant. Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"250\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-3-tvs-3-computers-per-family",
@@ -107,13 +111,15 @@
       "claim_id": "olim-vehicle-3-year-window",
       "claim": "Olim have 3 years from aliyah date to use the vehicle customs benefit; the car must arrive and clear customs (not just be purchased) before the end of the third year",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
-      "raw_snippet": "Olim are entitled to buy cars in Israel at a reduced tax rate, within three years after making Aliyah. The car must have arrived in Israel and cleared customs before the end of the third year.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "in Israel Home Life in Israel Government Services Rights and Benefits Buying a Vehicle in Israel Buying a New Car from a Car Dealer Olim are entitled to buy cars in Israel at a reduced tax rate, within three years after making Aliyah. Please note: the car must have arrived in Israel and cleared customs before the end of the third year, it is not enough to have purchased it by that date.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/allowed-items-list.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-hand-tools-1650-usd-cap",
@@ -154,12 +160,14 @@
       "claim_id": "olim-extension-military-study-5-year-ceiling",
       "claim": "The 3-year customs window can be extended for IDF service (clock pauses during service) and full-time study (+1 year from end of studies), with an overall 5-year ceiling on the eligibility period (longer for medicine and law)",
       "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "IDF service: time frozen during duty. Full-time studies: +1 year upon completion; maximum 5-year study period (longer for medicine/law). The eligibility period extends by 1 year from the end of their studies.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "The eligibility period extends by 1 year from the end of their studies. This extension is neither frozen nor prolonged, even if the student leaves Israel immediately after graduation. Extended Stays Abroad – If an Oleh spends over 6 consecutive months abroad during their eligibility period, they can apply for an extension.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-postal-clothing-window",
@@ -176,24 +184,28 @@
       "claim_id": "olim-perfume-250ml-gifts-200-usd",
       "claim": "Hand-luggage sub-caps for olim entering Israel: perfume up to 250 ml (1/4 liter) per person; items for personal use or as gifts up to USD 200 per entrant",
       "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "Up to 1/4 liter (250 ml/8.45 fl. oz.) is permitted per person. Items for personal use or as gifts, valued at under $200 USD per entrant.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "o Products – The limit is set at 250 grams/8.81 oz., which equates to about 200 cigarettes or one carton Other Miscellaneous Items – Items for personal use or as gifts, valued at under $200 USD per entrant aged 2 and above, are allowed. Within this $200 limit, you can include up to 3 kilograms (6.61 pounds) of food, with each food type not exceeding 1 kilogram (2.20 pounds).",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-carpet-25-percent-nbn",
       "claim": "NBN states the carpet allowance is up to 25% of the area of the Oleh's home in Israel; the more detailed tenure-aware split (70% wall-to-wall for owners, area-rugs alternative, ~30 sqm flat for renters) is conventional broker practice and should be confirmed with a licensed customs broker rather than treated as NBN-published",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "Carpeting for up to 25% of the area of the Oleh's home in Israel.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "nly, i.e., not office or manufacturing equipment Three computers per family Three televisions per family Five cell phones per family Carpeting for up to 25% of the area of the Oleh’s home in Israel Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel Importing Goods by Postal Packages As an Oleh who is entitled to customs benefits, you may consider a postal package containing household items only as one of the 3 shipments exempted from taxes.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/allowed-items-list.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "olim-ev-48-percent-22000-nis-cap-2026",
@@ -207,14 +219,16 @@
     },
     {
       "claim_id": "ref-link-nbn-rights-hub",
-      "claim": "Nefesh B'Nefesh maintains a comprehensive rights and benefits hub for English-speaking olim covering banking, tax, license conversion, customs, and vehicle benefits",
+      "claim": "Nefesh B'Nefesh maintains a comprehensive rights and benefits hub for English-speaking olim covering banking, tax, license conversion, customs, and vehicle benefits. Covered references: Rights and Benefits hub: customs, banking, tax, license conversion, vehicle import.",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/",
-      "raw_snippet": "Rights and Benefits hub: customs, banking, tax, license conversion, vehicle import.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Aliyah Rights and Benefits - Nefesh B'Nefesh --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content Toggle Navigation ISRAEL JOB BOARD LOGIN TO MY APPLICATION Toggle Navigation MAKING ALIYAH What is Aliyah?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-link-meches-israel-tax-authority",
@@ -229,14 +243,16 @@
     },
     {
       "claim_id": "ref-link-misrad-haklita-customs",
-      "claim": "Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) issues the Teudat Oleh which gates customs benefits",
+      "claim": "Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) issues the Teudat Oleh which gates customs benefits. Covered references: Ministry of Aliyah and Integration issues Teudat Oleh.",
       "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
-      "raw_snippet": "Ministry of Aliyah and Integration issues Teudat Oleh.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access www.gov.il Why have I been blocked?",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-link-kolzchut-customs",
@@ -253,13 +269,15 @@
       "claim_id": "olim-quantity-caps-3-tvs-3-pcs-1-of-each-belong",
       "claim": "Belong (toshav chozer rights basket and shipping-importation pages) authoritatively documents: up to 3 televisions and 3 personal computers per family, plus 1 item per category for other appliances/furniture; these caps are now treated as confirmed rather than over-hedged",
       "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "eligible families can bring a maximum of 3 television sets and 3 personal computers. For other electronic devices, appliances, and major furniture pieces, eligible families may import 1 item per category.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Eligible families can bring a maximum of 3 television sets and 3 personal computers One-Per-Category Rule – For other electronic devices, appliances, and major furniture pieces, eligible families may import 1 item per category Release and Handling of Goods – The release of imported goods can be managed directly by eligible individuals or through customs agents who have been legally authorized via a power of attorney Please keep in mind that these items cannot be lent, given, or sold to others, temporari",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/allowed-items-list.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "red-customs-lane",
