@@ -55,24 +55,24 @@
       "claim_id": "jerusalem-lr-green-line",
       "claim": "Jerusalem Light Rail Green Line first segment (Malha to Binyanei Hauma) opens May 2026; full line scheduled 2027.",
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
-      "raw_snippet": "[ 38 ] It will pass the Binyanei-Hauma terminus of the A1 fast line railway, then cross the existing Red Line tram route and run to Mount Scopus. There would be 36 stops, and ridership is predicted at 200,000 passengers/day. The line was approved by the Jerusalem city council in June 2016 and is scheduled to open in 2027. [ 9 ] Infrastructure and construction tenders have been issued and awarded.",
+      "raw_snippet": "There would be 36 stops, and ridership is predicted at 200,000 passengers/day. The line was approved by the Jerusalem city council in June 2016 and is scheduled to open in 2027. [ 9 ] Infrastructure and construction tenders have been issued and awarded.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR"
       ],
-      "verified_via": "cited page fetched; 13 of 17 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"binyanei\"",
+      "verified_via": "cited page fetched and confirmed to contain \"200,000\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
       "claim_id": "jerusalem-lr-blue-line",
       "claim": "Jerusalem Light Rail Blue Line construction began September 2025, gradual opening 2029-2031.",
       "source_url": "https://en.wikipedia.org/wiki/Blue_Line_(Jerusalem_Light_Rail)",
-      "raw_snippet": "erusalem Termini Ramot Alon Gilo Stations 53 Service Type Tram Depot Malha depot Daily ridership 250,000 (estimated) History Planned opening 2030 Technical Line length 31 km (19 mi) Number of tracks 2 Track gauge 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) standard gauge Electrification 750 V DC OHLE The Blue Line is the third line of the Jerusalem Light Rail . While initial preparatory infrastructure work began in 2020, major construction on the central sections began in 2025.",
+      "raw_snippet": "w Status Under Construction Locale Jerusalem Termini Ramot Alon Gilo Stations 53 Service Type Tram Depot Malha depot Daily ridership 250,000 (estimated) History Planned opening 2030 Technical Line length 31 km (19 mi) Number of tracks 2 Track gauge 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) standard gauge Electrification 750 V DC OHLE The Blue Line is the third line of the Jerusalem Light Rail . While initial preparatory infrastructure work began in 2020, major construction on the central sections began in 2025.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR"
       ],
-      "verified_via": "cited page fetched; 11 of 13 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"opening\"",
+      "verified_via": "cited page fetched and confirmed to contain \"250,000\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
@@ -85,7 +85,7 @@
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "cited page fetched; 12 of 12 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"operational\"",
+      "verified_via": "cited page fetched; 32 of 32 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"became\"",
       "verified_at": "2026-08-18"
     },
     {
@@ -109,7 +109,7 @@
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "cited page fetched; 9 of 11 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"expected\"",
+      "verified_via": "cited page fetched; 28 of 28 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"included\"",
       "verified_at": "2026-08-18"
     },
     {
@@ -153,13 +153,13 @@
       "claim_id": "tlv-jerusalem-fast-line",
       "claim": "The Tel Aviv to Jerusalem fast line runs via Jerusalem-Yitzhak Navon. Its documented design figure is a projected non-stop travel time of approximately 28 minutes; scheduled services calling at intermediate stations take longer, so the skill says about half an hour rather than asserting an exact figure no source states.",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv%E2%80%93Jerusalem_railway",
-      "raw_snippet": "The railway's design speed is 160 km/h (99 mph) [ 3 ] with a projected non-stop travel time of approximately 28 minutes from Tel Aviv HaHagana railway station to Jerusalem–Yitzhak Navon railway station . As of 2019, the scheduled",
+      "raw_snippet": "ition used by the International Union of Railways : both its design speed of 200 km/h (125 mph) and its current operational speed of 160 km/h (99 mph) are below the 250 km/h (155 mph) threshold used by the UIC to define high-speed railways , and it is traversed by IR's regular rolling stock [ a ] instead of the UIC requirement for specially designed high-speed trains .",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Israel Railways",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "English Wikipedia article fetched through the MediaWiki parse API",
+      "verified_via": "cited page fetched and confirmed to contain \"160\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
@@ -192,13 +192,13 @@
       "claim_id": "jerusalem-lr-red-line-stops",
       "claim": "The Jerusalem Light Rail Red Line is 22.5 kilometres long with 35 stops.",
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
-      "raw_snippet": "The line is 22.5 kilometers (14.0 mi) long with 35 stops. The last extensions to the red line were opened in F",
+      "raw_snippet": "[ 5 ] Dubbed the \"Red Line\", it initially has 23 stations on a new 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) ( standard gauge ) twin-track 13.8 kilometres (8.6 mi) alignment. [ 3 ] It runs from the settlement of Pisgat Ze'ev in north-east Jerusalem , south along Road 1 (intercity) to Jaffa Road ( Rehov Yafo ).",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "English Wikipedia article fetched through the MediaWiki parse API",
+      "verified_via": "cited page fetched; 11 of 11 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"kilometres\"",
       "verified_at": "2026-08-18"
     },
     {

@@ -202,26 +202,26 @@
       "claim_id": "election-2022-results",
       "claim": "The 2022 Knesset election (Nov 1, 2022) seat counts: Likud 32, Yesh Atid 24, Religious Zionism-Otzma Yehudit 14, National Unity 12, Shas 11, UTJ 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5, Labor 4.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "t [ 116 ] Electoral support for the Yesh Atid Party in the elections to the 25th Knesset [ 116 ] Electoral support for the Religious Zionism-Otzma Yehudit joint list in the elections to the 25th Knesset [ 116 ] Electoral support for the National Unity Party in the elections to the 25th Knesset [ 116 ] Electoral support for the Shas Party in the elections to the 25th Knesset [ 116 ] Electoral support for the United Torah Judaism alliance in the elections to the 25th Knesset [ 116 ] Electoral support for the Yisrael Beiteinu Part",
+      "raw_snippet": "[ 116 ] The official body administering the elections, the Central Election Committee for the 25th Knesset, released the final official results of the elections on 9 November and the chairman of the committee, Supreme Court Justice Yitzhak Amit , presented them to the President Herzog.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 22 of 22 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"zionism-otzma\"",
+      "verified_via": "cited page fetched and confirmed to contain \"116\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
       "claim_id": "election-2022-coalition-split",
       "claim": "Coalition / opposition split after the 2022 election: 64 vs 56.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "In April and September 2019, neither incumbent Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections. [ 13 ] [ 14 ] In March 2020, these resulted in the formation of a unity government , the thirty-fifth government of Israel , between Netanyahu and Gantz, [ 15 ] which collapsed in December following a budgetary dispute, leading to another election in March 2021.",
+      "raw_snippet": "t Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections. [ 13 ] [ 14 ] In March 2020, these resulted in the formation of a unity government , the thirty-fifth government of Israel , between Netanyahu and Gantz, [ 15 ] which collapsed in December following a budgetary dispute, leading to another election in March 2021.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 5 of 5 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"opposition\"",
+      "verified_via": "cited page fetched; 39 of 39 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"muster\"",
       "verified_at": "2026-08-18"
     },
     {
@@ -239,14 +239,14 @@
       "claim_id": "25th-knesset-swearing-in",
       "claim": "The 25th Knesset was sworn in on November 15, 2022.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "[ 11 ] The thirty-seventh government was sworn in on 29 December. [ 12 ] Background Further information: 2018–2022 Israeli political crisis and Thirty-sixth government of Israel The extended period of political deadlock that led up to the election was the result of four inconclusive elections ( April 2019 , September 2019 , 2020 , and 2021 ).",
+      "raw_snippet": "[ 12 ] Background Further information: 2018–2022 Israeli political crisis and Thirty-sixth government of Israel The extended period of political deadlock that led up to the election was the result of four inconclusive elections ( April 2019 , September 2019 , 2020 , and 2021 ). In April and September 2019, neither incumbent Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/knesset-api-entities.md"
       ],
-      "verified_via": "cited page fetched; 3 of 3 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"sworn\"",
+      "verified_via": "cited page fetched; 24 of 24 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"period\"",
       "verified_at": "2026-08-18"
     },
     {

@@ -14,7 +14,7 @@
       "claim": "data.gov.il runs CKAN, whose JSON API exposes RPC-style action methods at /api/3/action/. The methods used by this skill are real CKAN actions: /action/package_search, /action/package_show, /action/package_list, /action/datastore_search, /action/datastore_search_sql, /action/resource_show, /action/organization_list, /action/group_list, and /action/tag_list. datastore_search_sql is a real CKAN action even though data.gov.il blocks it.",
       "source_url": "https://docs.ckan.org/en/latest/api/",
       "raw_snippet": "CKAN’s Action API is a powerful, RPC-style API that exposes all of CKAN’s core features to API clients. All of a CKAN website’s core functionality (everything you can do with the web interface and more) can be used by external code that calls the CKAN API. For example, using the CKAN API your app can: Get JSON-formatted lists of a site’s datasets, groups or other CKAN objects: http://demo.ckan.org/api/3/action/package_list http://demo.ckan.",
-      "verified_via": "cited page fetched; 37 of 43 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"exposes\"",
+      "verified_via": "cited page fetched; 39 of 42 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"exposes\"",
       "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },
@@ -49,7 +49,7 @@
       "claim": "The CKAN API reference at https://docs.ckan.org/en/latest/api/ is the authoritative documentation for the action API used throughout this skill, and is referenced in the Reference Links section.",
       "source_url": "https://docs.ckan.org/en/latest/api/",
       "raw_snippet": "_all() activity_delete() Extending guide Theming guide Contributing guide Changelog CKAN API guide View page source API guide  This section documents CKAN APIs, for developers who want to write code that interacts with CKAN sites and their data. CKAN’s Action API is a powerful, RPC-style API that exposes all of CKAN’s core features to API clients. All of a CKAN website’s core functionality (everything you can do with the web interface and more) can be used by external code that calls the CKAN API.",
-      "verified_via": "cited page fetched; 16 of 22 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"section\"",
+      "verified_via": "cited page fetched; 41 of 45 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"section\"",
       "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },

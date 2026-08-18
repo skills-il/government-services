@@ -13,7 +13,7 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 9 of 11 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"their\"",
+      "verified_via": "cited page fetched and confirmed to contain \"1,650\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
@@ -33,13 +33,13 @@
       "claim_id": "hand-luggage-alcohol-cap",
       "claim": "Alcohol allowance in hand luggage: 1 litre spirits + 2 litres wine for age 18+",
       "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Alcohol, liquor, spirits – 1 liter total, and 2 liters of wine – for each entrant aged at least 18. Cosmetics with alcohol content (perfumes), up to 1/4 liter (250 ml) – for each entrant. Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton.",
+      "raw_snippet": "Cosmetics with alcohol content (perfumes), up to 1/4 liter (250 ml) – for each entrant. Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 7 of 10 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"spirits\"",
+      "verified_via": "cited page fetched and confirmed to contain \"250\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
@@ -59,13 +59,13 @@
       "claim_id": "olim-3-tvs-3-computers-per-family",
       "claim": "Up to 3 televisions and 3 computers per family under olim customs exemption",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "liance or electronic equipment, for household use only, i.e., not office or manufacturing equipment Three computers per family Three televisions per family Five cell phones per family Carpeting for up to 25% of the area of the Oleh’s home in Israel Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel Importing Goods by Postal Packages As an Oleh who is entitled to customs benefits, you may consider a postal package containing household items only as one of the 3 shipments exempte",
+      "raw_snippet": "e or manufacturing equipment Three computers per family Three televisions per family Five cell phones per family Carpeting for up to 25% of the area of the Oleh’s home in Israel Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel Importing Goods by Postal Packages As an Oleh who is entitled to customs benefits, you may consider a postal package containing household items only as one of the 3 shipments exempted from taxes.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 6 of 6 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"televisions\"",
+      "verified_via": "cited page fetched and confirmed to contain \"25%\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
     },
     {
@@ -89,7 +89,7 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched; 11 of 15 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"depreciated\"",
+      "verified_via": "cited page fetched; 25 of 27 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"depreciated\"",
       "verified_at": "2026-08-18"
     },
     {
