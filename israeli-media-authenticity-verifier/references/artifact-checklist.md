@@ -10,6 +10,23 @@ Modern generators fixed these, so a clean result proves nothing:
 - Hands and fingers: largely correct now. A normal hand is not evidence of authenticity.
 - Latin-script text and captions: often rendered correctly now.
 - General sharpness and resolution: high quality is trivial to produce.
+- **Lip-sync, and by the same reasoning blink cadence (video).** These were the classic
+  deepfake tells and they no longer hold as a class. The cited source below speaks directly
+  to audio and lip motion; the blink half is our inference from the same mechanism (a fully
+  generated clip renders the eyes too, so there is no face-swap seam), not a sourced finding. Current video generators produce speech and picture jointly rather
+  than pasting a face onto a clip: Google says of Veo that it "lets you add sound effects,
+  ambient noise, and even dialogue to your creations - generating all audio natively"
+  (https://deepmind.google/models/veo/). Correct lips and normal blinking are therefore the
+  expected output of a good generator, not a sign of a real recording. The narrow residue
+  Google itself still concedes is that "creating videos with natural and consistent spoken
+  audio, particularly for shorter speech segments, remains an area of active development",
+  so incoherent or glitching speech in a SHORT segment is a weak lean-synthetic signal, and
+  its absence means nothing.
+
+**Consequence for video: there may be NO visual tell at all.** For a modern text-to-video
+generation of a talking person, the vision pass can legitimately return zero signal on an
+entirely synthetic clip. When that happens the verdict must rest on provenance and on
+earliest-copy tracing, not on "it looked fine."
 
 If you catch yourself concluding "real" because the hands look fine, stop.
 
@@ -32,9 +49,11 @@ For images:
 For video (extract frames with `scripts/extract_frames.py`):
 - Temporal flicker. Details that pop in and out between frames (teeth, jewelry, freckles).
 - Identity drift. A face subtly changing shape or features across frames (per-frame swaps).
-- Blink cadence. Absent, too-rare, or mechanical blinking.
-- Lip-sync drift. Mute the audio and watch the mouth; then listen and check alignment.
 - Motion warping. Background or limbs warping as the subject moves.
+- Incoherent or glitching speech in a SHORT segment, which is the one narrow audio-video
+  weakness the generators' own documentation still concedes. Weak signal, and its absence
+  means nothing. Blink cadence and lip-sync belong in the UNRELIABLE list above; do not
+  re-add them here.
 
 ## How to weight the visual layer
 

@@ -1,52 +1,68 @@
 {
   "skill_slug": "israeli-media-authenticity-verifier",
   "schemaVersion": "1.0",
-  "generated_at": "2026-06-05",
+  "generated_at": "2026-08-18T20:10:00Z",
   "claims": [
     {
       "id": "c2patool-install",
       "claim": "c2patool installs on macOS via 'brew install c2patool'",
       "claim_type": "cli-command",
-      "source_url": "https://opensource.contentauthenticity.org/docs/c2patool/",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
-      "raw_snippet": "Homebrew (macOS): brew install c2patool",
-      "confidence": "high"
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "raw_snippet": "Install C2PA Tool: brew install c2patool",
+      "confidence": "high",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "claim_id": "c2patool-install",
+      "fetched_at": "2026-08-18T19:30:00Z"
     },
     {
       "id": "c2patool-read",
-      "claim": "Running c2patool against an asset prints a summary JSON report of its C2PA manifests; the -d / --detailed flag prints the detailed manifest data",
+      "claim": "Running c2patool against an asset prints the manifest JSON to stdout; the -d option prints a detailed report of the internal C2PA format",
       "claim_type": "cli-command",
-      "source_url": "https://opensource.contentauthenticity.org/docs/c2patool/",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
-      "raw_snippet": "-d, --detailed  Display detailed C2PA-formatted manifest data",
-      "confidence": "high"
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/docs/usage",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "raw_snippet": "Use the -d option to display a detailed report describing the internal C2PA format of manifests contained in the asset",
+      "confidence": "high",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "claim_id": "c2patool-read",
+      "fetched_at": "2026-08-18T19:30:00Z"
     },
     {
       "id": "c2patool-brew-formula",
       "claim": "c2patool is available as a Homebrew formula (CLI for working with C2PA manifests and media assets)",
       "claim_type": "feature",
-      "source_url": "https://formulae.brew.sh/formula/c2patool",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
-      "raw_snippet": "c2patool: stable 0.26.62 (bottled), HEAD - CLI for working with C2PA manifests and media assets",
-      "confidence": "high"
+      "source_url": "https://formulae.brew.sh/api/formula/c2patool.json",
+      "source_fetched_at": "2026-08-18T20:30:00Z",
+      "raw_snippet": "CLI for working with C2PA manifests and media assets",
+      "confidence": "high",
+      "verified_at": "2026-08-18T20:30:00Z",
+      "claim_id": "c2patool-brew-formula",
+      "fetched_at": "2026-08-18T20:30:00Z"
     },
     {
       "id": "exiftool-install",
-      "claim": "ExifTool installs on macOS via 'brew install exiftool'",
+      "claim": "ExifTool is available as a Homebrew formula (Perl lib for reading and writing EXIF metadata) and installs on macOS via 'brew install exiftool'",
       "claim_type": "cli-command",
-      "source_url": "https://formulae.brew.sh/formula/exiftool",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
-      "raw_snippet": "exiftool: stable 13.55 (bottled) - Perl lib for reading and writing EXIF metadata",
-      "confidence": "high"
+      "source_url": "https://formulae.brew.sh/api/formula/exiftool.json",
+      "source_fetched_at": "2026-08-18T20:30:00Z",
+      "raw_snippet": "Perl lib for reading and writing EXIF metadata",
+      "confidence": "high",
+      "verified_at": "2026-08-18T20:30:00Z",
+      "claim_id": "exiftool-install",
+      "fetched_at": "2026-08-18T20:30:00Z"
     },
     {
       "id": "content-credentials-verify-tool",
-      "claim": "Content Credentials provides a free web Verify tool where you can inspect an image's provenance, hosted at contentcredentials.org",
+      "claim": "Content Credentials provides a free web Verify tool for inspecting a file's provenance, now hosted at verify.contentauthenticity.org",
       "claim_type": "url",
-      "source_url": "https://contentcredentials.org/verify",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
-      "raw_snippet": "contentcredentials.org/verify redirects (301 Moved Permanently) to the Content Authenticity Initiative Verify tool at verify.contentauthenticity.org",
-      "confidence": "high"
+      "source_url": "https://verify.contentauthenticity.org/",
+      "source_fetched_at": "2026-08-18T20:30:00Z",
+      "raw_snippet": "Drag content into Verify to inspect its Content Credentials in detail and see how it has changed over time.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z",
+      "claim_id": "content-credentials-verify-tool",
+      "fetched_at": "2026-08-18T20:30:00Z"
     },
     {
       "id": "newsguard-detector-unreliable",
@@ -55,7 +71,9 @@
       "source_url": "https://www.newsguardtech.com/special-reports/leading-ai-image-detection-tools-mislead-online-users-often-declaring-authentic-content-fake/",
       "source_fetched_at": "2026-06-05T17:30:00Z",
       "raw_snippet": "The tools collectively declared authentic images to be AI-generated 13.33 percent of the time, and one tool got it wrong 40 percent of the time.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "newsguard-detector-unreliable",
+      "fetched_at": "2026-06-05T17:30:00Z"
     },
     {
       "id": "iran-israel-genai-battlefield",
@@ -64,7 +82,9 @@
       "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
       "source_fetched_at": "2026-06-05T18:30:00Z",
       "raw_snippet": "According to the BBC, game clips and AI-generated content are being “passed off as real events” across social media. This marks what experts call the first major conflict where generative AI is shaping the information battlefield.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "iran-israel-genai-battlefield",
+      "fetched_at": "2026-06-05T18:30:00Z"
     },
     {
       "id": "iran-israel-recycled-footage",
@@ -73,7 +93,9 @@
       "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
       "source_fetched_at": "2026-06-05T18:30:00Z",
       "raw_snippet": "verification group Geoconfirmed flagged a surge of misleading media, including recycled strike footage, video game clips, deepfakes, and “AI-generated content being passed off as real events.”",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "iran-israel-recycled-footage",
+      "fetched_at": "2026-06-05T18:30:00Z"
     },
     {
       "id": "iran-israel-flightsim-21m",
@@ -82,7 +104,9 @@
       "source_url": "https://www.eweek.com/news/ai-deepfake-surge-iran-israel-footage/",
       "source_fetched_at": "2026-06-05T18:30:00Z",
       "raw_snippet": "pro-Iran TikTok accounts shared flight simulator clips as real airstrikes, reaching over 21 million views before removal. Fake videos showing missile damage in Tel Aviv and Ben Gurion Airport were shared, with some traced to Iran-linked sources.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "iran-israel-flightsim-21m",
+      "fetched_at": "2026-06-05T18:30:00Z"
     },
     {
       "id": "poynter-old-footage",
@@ -91,7 +115,9 @@
       "source_url": "https://www.poynter.org/fact-checking/2026/fake-images-iran-war-how-spot-them/",
       "source_fetched_at": "2026-06-05T18:15:00Z",
       "raw_snippet": "Much of that viral imagery doesn't show real or current events. Often, it's generated with artificial intelligence or else it's old footage misrepresented as if it's new.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "poynter-old-footage",
+      "fetched_at": "2026-06-05T18:15:00Z"
     },
     {
       "id": "carnegie-industrial-level",
@@ -100,7 +126,9 @@
       "source_url": "https://carnegieendowment.org/research/2025/07/iran-israel-ai-war-propaganda-is-a-warning-to-the-world?lang=en",
       "source_fetched_at": "2026-06-05T18:00:00Z",
       "raw_snippet": "AI-generated content related to the Iran-Israel conflict has taken disinformation to an industrial level",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "carnegie-industrial-level",
+      "fetched_at": "2026-06-05T18:00:00Z"
     },
     {
       "id": "channel14-gallant-deepfake",
@@ -110,16 +138,22 @@
       "source_fetched_at": "2026-08-10",
       "raw_snippet": "These are not Gallant’s words but AI trying to insert messages about the U.S. and the Houthis,” said anchor Sarah Beck live on air.",
       "confidence": "high",
-      "source_note": "The longer on-air quote as published contains a typographic ellipsis inside the source text itself; this entry quotes the contiguous second half."
+      "source_note": "The longer on-air quote as published contains a typographic ellipsis inside the source text itself; this entry quotes the contiguous second half.",
+      "claim_id": "channel14-gallant-deepfake",
+      "fetched_at": "2026-08-10"
     },
     {
       "id": "boi-impersonation-warning",
       "claim": "The Bank of Israel warns the public about fraud by criminals impersonating representatives of banks, credit card companies, the Bank of Israel, and the Israel Police",
       "claim_type": "feature",
       "source_url": "https://www.boi.org.il/en/information-and-service-to-the-public/consumer-enquiries-and-inspections/warning-to-the-public-with-regard-to-fraud-by-impersonating-the-bank-of-israel-or-commercial-banks/",
-      "source_fetched_at": "2026-06-05T18:05:00Z",
-      "raw_snippet": "Criminal elements are trying to conduct fraudulent activity with the aim of misappropriating funds from customers by impersonating representatives of banks, credit card companies, the Bank of Israel, and the Israel Police among others.",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-18T20:55:00Z",
+      "raw_snippet": "criminal elements are trying to conduct fraudulent activity with the aim of misappropriating funds from customers by impersonating representatives of banks, credit card companies, the Bank of Israel, and the Israel Police among others",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:55:00Z",
+      "claim_id": "boi-impersonation-warning",
+      "fetched_at": "2026-08-18T20:55:00Z"
     },
     {
       "id": "police-105-bureau",
@@ -128,7 +162,9 @@
       "source_url": "https://www.gov.il/en/departments/units/105_call_center",
       "source_fetched_at": "2026-06-05T18:20:00Z",
       "raw_snippet": "The 105 hotline is a unique national call center that accepts queries and reports from the public and provides professional responses to harm, violence, and crime aimed at children and adolescents in cyberspace.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "police-105-bureau",
+      "fetched_at": "2026-06-05T18:20:00Z"
     },
     {
       "id": "cyber-119-hotline",
@@ -137,32 +173,33 @@
       "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
       "source_fetched_at": "2026-08-10",
       "raw_snippet": "The initiative is part of the national CERT — Computer Emergency Response Team — that is based in Beersheba. The hotline was officially launched last month after being in operation somewhat under the radar for about a year, and is a 24/7 free service where anyone can report a cyberattack or suspicion of attack and get immediate help.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "cyber-119-hotline",
+      "fetched_at": "2026-08-10"
     },
     {
       "id": "elevenlabs-speech-classifier",
-      "claim": "ElevenLabs offers a free AI Speech Classifier that detects whether an audio clip was created using ElevenLabs and reports the probability it is AI-generated",
+      "claim": "ElevenLabs offers a free AI Speech Classifier that estimates whether an audio sample was generated with ElevenLabs, but it does not reliably classify audio from the Eleven v3 model and cannot detect other providers",
       "claim_type": "feature",
       "source_url": "https://elevenlabs.io/ai-speech-classifier",
-      "source_fetched_at": "2026-06-05T19:30:00Z",
-      "raw_snippet": "Our AI Speech Classifier lets you detect whether an audio clip was created using ElevenLabs. Upload your sample and understand the probability of it being AI generated.",
-      "confidence": "high"
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "raw_snippet": "Does not reliably classify audio generated with the Eleven v3 model.",
+      "confidence": "high",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "claim_id": "elevenlabs-speech-classifier",
+      "fetched_at": "2026-08-18T19:30:00Z"
     },
     {
       "id": "synthid-watermark",
       "claim": "Google SynthID embeds an imperceptible watermark into AI-generated images, audio, and video produced by Google AI models",
       "claim_type": "feature",
       "source_url": "https://deepmind.google/science/synthid/",
-      "source_fetched_at": "2026-06-05T18:00:00Z",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
       "raw_snippet": "SynthID embeds digital watermarks directly into AI-generated images, audio, text or video.",
-      "confidence": "high"
-    },
-    {
-      "claim_id": "cyber-119-hotline-number",
-      "claim": "119 is Israel's cybersecurity hotline, which Israelis can call if they believe they are under cyberattack.",
-      "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
-      "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline.",
-      "source_fetched_at": "2026-08-10"
+      "confidence": "high",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "claim_id": "synthid-watermark",
+      "fetched_at": "2026-08-18T19:30:00Z"
     },
     {
       "id": "cyber-119-hotline-number",
@@ -171,7 +208,477 @@
       "source_url": "https://www.timesofisrael.com/dial-119-for-hacker-alert/",
       "raw_snippet": "119 — yes, 911 backwards — is the cybersecurity hotline Israelis can now call if they are concerned that they are under cyberattack, making Israel possibly one of the first countries in the world to set up such a hotline.",
       "source_fetched_at": "2026-08-10",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "cyber-119-hotline-number",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "id": "synthid-gemini-check",
+      "claim_id": "synthid-gemini-check",
+      "claim": "A consumer can check for a SynthID watermark by uploading the image, video or audio clip into the Gemini app and asking whether it was created or altered by Google AI",
+      "claim_type": "feature",
+      "source_url": "https://deepmind.google/science/synthid/",
+      "raw_snippet": "Simply upload the image, video or audio clip to your chat, and ask if it's been created or altered by Google AI. Gemini will check for a SynthID watermark, and let you know if it finds one.",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "openai-synthid-partnership",
+      "claim_id": "openai-synthid-partnership",
+      "claim": "SynthID is no longer exclusive to Google models: OpenAI adds SynthID watermarking to images generated with its tools through a partnership with Google, so a SynthID hit does not imply a Google model",
+      "claim_type": "feature",
+      "source_url": "https://openai.com/index/advancing-content-provenance/",
+      "raw_snippet": "adding durable cross-platform SynthID watermarking to images through a partnership with Google",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_via": "browser",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "openai-verify-tool",
+      "claim_id": "openai-verify-tool",
+      "claim": "OpenAI Verify is a public tool that checks whether an uploaded file carries OpenAI provenance signals (C2PA Content Credentials and SynthID); it covers content generated with ChatGPT, the OpenAI API or Codex only, and draws no conclusion when no signal is found",
+      "claim_type": "feature",
+      "source_url": "https://openai.com/index/advancing-content-provenance/",
+      "raw_snippet": "We are now previewing a public verification tool⁠ that will help people verify whether an uploaded image was generated on ChatGPT, the OpenAI API, or Codex, by checking if it contains provenance signals, including Content Credentials and SynthID.",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_via": "browser",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "openai-verify-audio",
+      "claim_id": "openai-verify-audio",
+      "claim": "Since 31 July 2026 OpenAI Verify also verifies supported audio files, and supported audio generated with OpenAI tools carries SynthID watermarking",
+      "claim_type": "feature",
+      "source_url": "https://openai.com/index/advancing-content-provenance/",
+      "raw_snippet": "Update July 31, 2026: We’re expanding this work beyond images. Supported audio generated with OpenAI tools, including through ChatGPT and the OpenAI API, now includes SynthID watermarking. Our public verification tool will now allow for verification of supported audio files in addition to images.",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_via": "browser",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "il-election-deepfake-labelling",
+      "claim_id": "il-election-deepfake-labelling",
+      "claim": "Israeli law requires election campaign propaganda containing digitally created content presented as original to be marked clearly and prominently, under the Elections Law for the Twenty-Sixth Knesset (Special Provisions and Legislative Amendments), 5786-2026",
+      "claim_type": "legal-reference",
+      "source_url": "https://www.law.co.il/news/2026/07/20/deep-fake-election/",
+      "raw_snippet": "אדם המפרסם תעמולת בחירות הכוללת תוכן שנוצר באמצעי דיגיטלי ונחזה להיות מקורי, חייב לציין באופן ברור ובולט שהתוכן לא תועד במקור",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "il-election-label-rules",
+      "claim_id": "il-election-label-rules",
+      "claim": "The Elections Committee chair published rules, in force from 26 July 2026, specifying the disclosure: either a statement that the content was digitally created and not originally documented, or a logo bearing 'AI' with that wording",
+      "claim_type": "legal-reference",
+      "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
+      "raw_snippet": "לוגו שצורתו מפורטת בתוספת לכללים, הכולל את הסימון \"AI\" ואת הביטוי \"התוכן נוצר באמצעי דיגיטלי ולא תועד במקור\"",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "eu-ai-act-art50",
+      "claim_id": "eu-ai-act-art50",
+      "claim": "EU AI Act Article 50 transparency obligations apply from 2 August 2026 and require deployers to disclose deepfake content to a person upon first exposure at the latest",
+      "claim_type": "legal-reference",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "raw_snippet": "Article 50 of the AI Act applies as from 2 August 2026.",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "cai-verify-url",
+      "claim_id": "cai-verify-url",
+      "claim": "The no-code Content Credentials Verify tool now lives at verify.contentauthenticity.org; the old contentcredentials.org/verify address permanently redirects there",
+      "claim_type": "feature",
+      "source_url": "https://verify.contentauthenticity.org/",
+      "raw_snippet": "Drag content into Verify to inspect its Content Credentials in detail and see how it has changed over time.",
+      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "fetched_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_via": "browser",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "veo-native-audio",
+      "claim_id": "veo-native-audio",
+      "claim": "Current video generators produce audio and dialogue natively together with the picture, which is why lip-sync is no longer a usable deepfake tell",
+      "claim_type": "feature",
+      "source_url": "https://deepmind.google/models/veo/",
+      "raw_snippet": "Veo 3 lets you add sound effects, ambient noise, and even dialogue to your creations - generating all audio natively.",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T21:20:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/artifact-checklist.md"
+      ]
+    },
+    {
+      "id": "no-reverse-video-search",
+      "claim_id": "no-reverse-video-search",
+      "claim": "There is no freely available reverse-video search; reverse-searching keyframes and thumbnails is the substitute",
+      "claim_type": "feature",
+      "source_url": "https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/",
+      "raw_snippet": "Currently, there are no freely available tools that allow you to reverse search an entire video clip the same way we can with image files, but we can do the next best thing by reverse image searching thumbnails and screenshots.",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "tineye-match-not-similar",
+      "claim_id": "tineye-match-not-similar",
+      "claim": "TinEye finds image matches including cropped, edited or resized copies rather than merely similar images, which is what makes it the tool for earliest appearance",
+      "claim_type": "feature",
+      "source_url": "https://help.tineye.com/article/233-how-does-tineye-work",
+      "raw_snippet": "TinEye does not typically find similar images (that is, a different image with the same subject); it finds image matches including those that have been cropped, edited or resized.",
+      "source_fetched_at": "2026-08-18T20:40:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:40:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "invid-plugin",
+      "claim_id": "invid-plugin",
+      "claim": "The InVID/WeVerify browser plugin fragments videos from social platforms into keyframes and performs reverse image search on those keyframes",
+      "claim_type": "feature",
+      "source_url": "https://github.com/AFP-Medialab/invid-verification-plugin",
+      "raw_snippet": "to fragment videos from various platforms (Facebook, Instagram, YouTube, Twitter, Daily Motion) into keyframes",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "invid-registration-scope",
+      "claim_id": "invid-registration-scope",
+      "claim": "The InVID/WeVerify plugin has more than 57k weekly active users, and only some advanced tools require registration reserved for journalists, fact-checkers and researchers",
+      "claim_type": "feature",
+      "source_url": "https://weverify.eu/verification-plugin/",
+      "raw_snippet": "some of the advanced tools (Twitter SNA, CheckGIF and GIF export on Forensic) are only accessible on registration and are reserved for journalists, fact-checkers and researchers working on disinformation",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "suncalc",
+      "claim_id": "suncalc",
+      "claim": "SunCalc shows the sun's movement and sunlight phase for a given day and place, which is the tool for chronolocation from shadows",
+      "claim_type": "feature",
+      "source_url": "https://www.suncalc.org/",
+      "raw_snippet": "SunCalc shows the movement of the sun and sunlight-phase for a certain day at a certain place.",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "google-earth-history",
+      "claim_id": "google-earth-history",
+      "claim": "Google Earth Pro can show past versions of a map on a timeline, which is how a frame is checked against what existed on the claimed date",
+      "claim_type": "feature",
+      "source_url": "https://support.google.com/earth/answer/148094",
+      "raw_snippet": "The lines on the timeline indicate the dates when images of your map are available.",
+      "source_fetched_at": "2026-08-18T20:40:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:40:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "overpass-turbo",
+      "claim_id": "overpass-turbo",
+      "claim": "Overpass turbo is a web based data mining tool for OpenStreetMap that runs Overpass API queries and shows results on an interactive map, usable to match a visible feature combination",
+      "claim_type": "feature",
+      "source_url": "https://overpass-turbo.eu/",
+      "raw_snippet": "Overpass turbo is a web based data mining tool for OpenStreetMap.",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-tracing.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "bellingcat-geolocation",
+      "claim_id": "bellingcat-geolocation",
+      "claim": "Geolocation is a verification method comparing landmarks and features visible in a photo or video against other imagery to confirm where it was recorded",
+      "claim_type": "feature",
+      "source_url": "https://www.bellingcat.com/resources/how-tos/2015/07/25/searching-the-earth-essential-geolocation-tools-for-verification/",
+      "raw_snippet": "Geolocation is a verification method where landmarks and features visible in photographs or videos can be compared to other images, frequently satellite imagery, to confirm the location an image was recorded.",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "pikud-haoref-telegram",
+      "claim_id": "pikud-haoref-telegram",
+      "claim": "The Home Front Command runs a verified Telegram channel @PikudHaOref_all that publishes alerts and is readable in a browser without an account",
+      "claim_type": "feature",
+      "source_url": "https://t.me/s/PikudHaOref_all",
+      "raw_snippet": "פיקוד העורף",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/israeli-context.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "hamashrokit-ifcn",
+      "claim_id": "hamashrokit-ifcn",
+      "claim": "המשרוקית is Globes' independent fact-checking unit and has been a member of the IFCN code of principles since 2018",
+      "claim_type": "feature",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "raw_snippet": "בה היא חברה משנת 2018",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "stopncii-adult-synthetic",
+      "claim_id": "stopncii-adult-synthetic",
+      "claim": "StopNCII covers deepfake and synthetic nude imagery of an adult, and hashes the image on the user's own device so the image is never uploaded",
+      "claim_type": "feature",
+      "source_url": "https://stopncii.org/faq/",
+      "raw_snippet": "If the 'deepfake' or synthetic image is of you, you have access to the image and it is nude/semi nude, then you can hash it.",
+      "source_fetched_at": "2026-08-18T20:40:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:40:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/israeli-context.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "isoc-preserve-evidence",
+      "claim_id": "isoc-preserve-evidence",
+      "claim": "Israeli guidance for online sexual-extortion victims is to capture documentation before acting, for use in a police complaint",
+      "claim_type": "feature",
+      "source_url": "https://www.isoc.org.il/digital-literacy/cybersafe/sextortion",
+      "raw_snippet": "צלמו מסך (שיהיה תיעוד לאירוע במידה ותגישו תלונה במשטרה)",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "isoc-helpline",
+      "claim_id": "isoc-helpline",
+      "claim": "ISOC-IL runs a safe-internet reporting and guidance helpline for online harm",
+      "claim_type": "feature",
+      "source_url": "https://www.isoc.org.il/digital-literacy/report",
+      "raw_snippet": "קו הסיוע לאינטרנט בטוח",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/israeli-context.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "openai-verify-url",
+      "claim_id": "openai-verify-url",
+      "claim": "OpenAI's public verification tool is reachable at openai.com/research/verify",
+      "claim_type": "feature",
+      "source_url": "https://openai.com/research/verify/",
+      "raw_snippet": "Verify",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "iptc-digitalsourcetype",
+      "claim_id": "iptc-digitalsourcetype",
+      "claim": "The IPTC DigitalSourceType NewsCode value trainedAlgorithmicMedia denotes media created algorithmically by a generative AI model, and compositeSynthetic denotes a composite including generative AI elements",
+      "claim_type": "feature",
+      "source_url": "https://cv.iptc.org/newscodes/digitalsourcetype/",
+      "raw_snippet": "Digital media created algorithmically using an Artificial Intelligence model trained on captured content",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "scripts/dump_metadata.py",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2patool-certs",
+      "claim_id": "c2patool-certs",
+      "claim": "c2patool's --certs option extracts and prints the PEM certificate chain from the active manifest's signature, which is how a signer is inspected",
+      "claim_type": "cli-command",
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/docs/usage",
+      "raw_snippet": "Use the --certs option to extract the PEM certificate chain from the active manifest's signature and print it to standard output (stdout).",
+      "source_fetched_at": "2026-08-18T20:10:00Z",
+      "fetched_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-08-18T20:10:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "veo-speech-limitation",
+      "claim_id": "veo-speech-limitation",
+      "claim": "Google concedes a narrow remaining weakness: consistent spoken audio, particularly for shorter speech segments, is still an area of active development",
+      "claim_type": "feature",
+      "source_url": "https://deepmind.google/models/veo/",
+      "raw_snippet": "creating videos with natural and consistent spoken audio, particularly for shorter speech segments, remains an area of active development",
+      "source_fetched_at": "2026-08-18T21:20:00Z",
+      "fetched_at": "2026-08-18T21:20:00Z",
+      "verified_at": "2026-08-18T21:20:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "references/artifact-checklist.md"
+      ]
+    },
+    {
+      "id": "cec-ai-video-takedown",
+      "claim_id": "cec-ai-video-takedown",
+      "claim": "Enforcement of the Israeli election AI-labelling regime is live: the Central Elections Committee has ordered an AI-generated campaign video taken down",
+      "claim_type": "feature",
+      "source_url": "https://www.timesofisrael.com/liveblog_entry/elections-panel-orders-eisenkot-to-take-down-ai-campaign-video-showing-idf-soldiers/",
+      "raw_snippet": "The Central Elections Committee orders Gadi Eisenkot, chair of the Yashar party, to take down a campaign video featuring AI-generated images of IDF soldiers",
+      "source_fetched_at": "2026-08-18T21:20:00Z",
+      "fetched_at": "2026-08-18T21:20:00Z",
+      "verified_at": "2026-08-18T21:30:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-context.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "privacy-biometric-special-sensitivity",
+      "claim_id": "privacy-biometric-special-sensitivity",
+      "claim": "Israel's Privacy Protection Law classifies personal data that is a biometric identifier used, or intended to be used, to identify a person or verify their identity by computerised means as 'מידע בעל רגישות מיוחדת'",
+      "claim_type": "legal-reference",
+      "source_url": "https://www.nevo.co.il/law_html/law01/087_001.htm",
+      "raw_snippet": "מידע אישי שהוא מזהה ביומטרי המשמש או המיועד לשמש לזיהוי אדם או לאימות זהותו באופן ממוחשב",
+      "source_fetched_at": "2026-08-18T21:20:00Z",
+      "fetched_at": "2026-08-18T21:20:00Z",
+      "verified_at": "2026-08-18T21:20:00Z",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-context.md"
+      ]
     }
   ]
 }

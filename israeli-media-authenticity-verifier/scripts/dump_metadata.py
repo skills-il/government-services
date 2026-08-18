@@ -32,6 +32,13 @@ KEY_TAGS = [
     "-GPSLatitude",
     "-GPSLongitude",
     "-Software",
+    # IPTC digital-source-type: the field that DECLARES AI origin. A value of
+    # trainedAlgorithmicMedia ("Created using Generative AI") or compositeSynthetic
+    # ("Composite including generative AI elements") is a strong positive, and it often
+    # survives when a C2PA manifest does not. Absence remains a null, as always.
+    "-XMP-iptcExt:DigitalSourceType",
+    "-CreatorTool",
+    "-Credit",
     "-MIMEType",
     "-FileType",
     "-ImageWidth",
@@ -61,6 +68,8 @@ def run_exiftool(path: str, all_tags: bool) -> int:
     print(
         "\nReminder: stripped or missing fields are normal for forwarded media."
         "\nA Software field naming a generator/editor is a real signal; absence is not."
+        "\nDigitalSourceType = trainedAlgorithmicMedia or compositeSynthetic is a declared"
+        "\nAI origin (IPTC NewsCode). Absence of the field is still a null, not a clearance."
     )
     return 0
 
