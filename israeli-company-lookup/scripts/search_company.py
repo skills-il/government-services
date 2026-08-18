@@ -59,7 +59,7 @@ ENTITY_TYPES = {
         "registration_fee": "Free",
         "annual_filing": "Simplified tax returns",
         "min_directors": "N/A",
-        "best_for": "Very small businesses (under ~120K NIS/year revenue)",
+        "best_for": "Very small businesses (turnover under 122,833 NIS/year, 2026 ceiling)",
     },
     "amuta": {
         "name": "Amuta (Non-profit)",
@@ -146,8 +146,10 @@ def show_registration_steps() -> None:
         print(f"    {description}")
         print()
 
-    print("Search companies at: https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation")
-    print("Company number format: 51-XXXXXXX (8-9 digits)")
+    print("Search companies at: https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8")
+    print("Programmatic lookup (open registrar dataset):")
+    print("  https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&q=<name-or-number>")
+    print("Company number format: 51-XXXXXXX (9 digits)")
 
 
 def main():

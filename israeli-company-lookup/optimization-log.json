@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Phase 5.7 skipped this cycle: the description and the metadata display_description were not touched, so the holdout gate did not apply.",
+        "Deferred (Expert MINOR): the Reference Links row for data.gov.il still points at the human dataset page, which is bot-protected and returns 403/202 to any non-browser client. The operative path is now the CKAN API documented in Step 2b. Consider replacing the row outright next cycle.",
+        "Deferred (discretionary, Phase 4.1 cap): Example 2's 'switch to a company above ~400K NIS revenue' is an unsourced rule of thumb. It should either be tied to the corporate-vs-marginal-rate crossover with a citation, or reframed as an explicitly heuristic threshold.",
+        "Carry forward: the registrar open dataset exposes 'מפרה' and 'שנה אחרונה של דוח שנתי' but the skill does not yet give a rule for how stale a last-report year has to be before it is worth flagging. Needs a sourced norm, not an invented one.",
+        "Environment note for the next cycle: data.gov.il returns HTTP 200/202/403 with a near-empty or S3 AccessDenied body for its HTML pages, while the /api/3/action/* endpoints answer normally. Always assert on the response body here; a status code proves nothing on this host. A bogus resource_id returns 403 AccessDenied, which makes a usable negative control."
+      ]
+    }
+  ]
+}

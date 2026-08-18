@@ -28,6 +28,36 @@ Search the Israel Corporations Authority (rashut hatagidim):
 - For partnerships (shutfut), use `https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract`
 - Status values (2026): pe'ila (active), be-piruq (in liquidation), nimekhqa (struck off), mufrat hok (in breach of law -- e.g. unpaid annual fees, missing reports)
 
+### Step 2b: Programmatic Lookup (the route an agent can actually execute)
+The ICA search page in Step 2 is a human web form. For an agent, use the Ministry of Justice's
+open registrar dump on data.gov.il instead. It is free, needs no key, and covers every registered
+company, not only the one you can type into a form.
+
+- Dataset metadata: `https://data.gov.il/api/3/action/package_show?id=ica_companies`
+- Companies resource id: `f004176c-b85f-4542-8901-7b3176f9a054`
+- Free-text search:
+  `https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&q=MONDAY.COM&limit=5`
+- Exact lookup by company number (URL-encode the Hebrew field name):
+  `https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters={"מספר חברה":514744887}`
+
+Fields worth reading on each record: `מספר חברה` (company number), `שם חברה` (Hebrew name),
+`שם באנגלית` (English name, often populated), `סוג תאגיד` (private / public / foreign),
+`סטטוס חברה` (status), `מפרה` (breach flag), `שנה אחרונה של דוח שנתי (שהוגש)` (last filed annual
+report year -- a stale year is a red flag even before the company is formally flagged), and the
+registered-address fields.
+
+Confirm you are reading real data, not an error page: a successful response is JSON with
+`"success": true` and a non-empty `records` array. A wrong or non-existent `resource_id` on this
+host returns an S3 `AccessDenied` XML body with HTTP 403, and the human-facing
+`data.gov.il/dataset/...` pages are bot-protected, so never judge this API by an HTTP status
+alone. Read the body.
+
+Two limits a due-diligence user must know: this resource is the COMPANIES register only, so
+partnerships (55-), amutot (58-) and cooperatives (57-) are not in it and still need their own
+registry from Step 2. And the dump is a periodic snapshot, not the live register, so for any
+legally operative decision (signing, lending, litigating) confirm the status on the official ICA
+search or a paid extract rather than relying on the dataset alone.
+
 ### Step 3: Entity Type Comparison
 | Factor | Chevra Baam (Ltd) | Osek Morsheh | Amuta |
 |--------|-------------------|-------------|-------|
@@ -52,7 +82,7 @@ Search the Israel Corporations Authority (rashut hatagidim):
 
 ### Example 1: Company Lookup
 User says: "Look up the company Monday.com"
-Result: Monday.com Ltd, Company No. 51-530820-1, Status: Active, Type: Public Company (listed on NASDAQ)
+Result: monday.com Ltd (registrar Hebrew name "מנדיי. קום בע"מ"), Company No. 514744887, Status: Active (pe'ila), Type: Israeli public company, incorporated 13/03/2012, registered at Yitzhak Sadeh 6, Tel Aviv-Yafo. Verified via the open registrar dataset in Step 2b, not from memory: company numbers are the single most fabrication-prone field in this domain, so always resolve one before quoting it.
 
 ### Example 2: Choose Entity Type
 User says: "I'm a freelance developer, what business structure should I use?"
@@ -71,14 +101,15 @@ Result: Side-by-side comparison table with recommendation based on expected annu
 
 ### References
 - `references/entity-types.md` - Comprehensive table of all 8 Israeli business entity types with their registries, liability structures, tax rates, and company number format prefixes (51- for companies, 58- for non-profits, 55- for partnerships). Consult when advising users on entity type selection or interpreting company registration numbers.
+- `references/domain-checklist.md` - Coverage contract for this skill: which registries, statuses, fees and identifiers a complete Israeli entity lookup must handle, and what is explicitly out of scope (credit scoring, litigation history, foreign registries).
 
 ## Gotchas
 - Israeli company registration numbers (mispar chevra) are 9 digits, not the same as the tax ID (mispar osek). Agents may confuse these two identifiers or use one when the other is required.
-- The Companies Registrar (Rasham HaChavarot) database contains Hebrew-only company names. Agents may search using English company names, which will return no results.
+- The registrar stores a Hebrew name for every company and an English name for many of them (field `שם באנגלית` in the open dataset), but the English field is inconsistently populated and often spelled differently from the trading name. An English-only search can therefore return nothing for a company that exists. Search the Hebrew name or the company number before concluding a company is not registered.
 - Company status in the registrar has four values: "active" (pe'ila), "in liquidation" (be-piruq), "struck off" (nimekhqa), and "in breach of law" (mufrat hok). Agents that only check for "active" miss the "in breach" case, which is common (unpaid annual fees, late reports) and is a significant due-diligence red flag.
 - Israeli business types include Chevra Baam (Ltd.), Shutafut (Partnership), Amuta (NPO), and Aguda Shitufit (Cooperative). Each has different registration systems. Agents may search for a partnership in the company registrar, which only lists Ltd. companies.
 - Amutot and CHL"Tz (Public-Benefit Companies) live on GuideStar (`guidestar.org.il`), the Ministry of Justice's consolidated NPO portal -- not on the main `ica.justice.gov.il` search. Both extracts are free.
-- Israel's UBO (Ultimate Beneficial Owner) registry is NOT yet operational. A Ministry of Justice memorandum was published for public consultation on 2025-06-26 (consultation closed 2025-07-17); the law is still pre-enactment as of May 2026, and when enacted the registry will NOT be publicly accessible (regulated entities and authorities only). Do not promise public UBO lookup until enactment + a public-access tier exists.
+- Israel's UBO (Ultimate Beneficial Owner) registry is NOT yet operational. A Ministry of Justice memorandum was published for public consultation on 2025-06-26 (consultation closed 2025-07-17); the law is still pre-enactment as of August 2026, and when enacted the registry will NOT be publicly accessible (regulated entities and authorities only). Do not promise public UBO lookup until enactment + a public-access tier exists.
 - "Apotropos Klali" (Official Receiver) was renamed to "ha-memuneh al chadlut pira'on ve-shikum kalkali" (Insolvency and Economic Rehabilitation Commissioner) when the Insolvency and Economic Rehabilitation Law 2018 took effect on 2019-09-15. For cases opened on or after that date, the searchable docket lives at `insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx`. Older "psikat regel" files predating 2019 are still under the legacy Apotropos Klali system.
 
 ## Reference Links
@@ -118,4 +149,4 @@ Solution: Search on GuideStar (`https://www.guidestar.org.il`) instead. It is th
 
 ### Error: "User asks for beneficial owner / UBO lookup"
 Cause: User assumes Israel has a public UBO registry (similar to UK Companies House PSC register)
-Solution: As of May 2026, Israel has NO operational UBO registry. The MoJ memorandum was published 2025-06-26 for public comment (closed 2025-07-17); the law is still pre-enactment and, when enacted, the registry will NOT be publicly accessible. For now, the closest signals are: directors and shareholders listed on a paid full company extract, the company's filed annual report (dorech shanati), and (for public companies only) ISA disclosures on Maya at `maya.tase.co.il`.
+Solution: As of August 2026, Israel has NO operational UBO registry. The MoJ memorandum was published 2025-06-26 for public comment (closed 2025-07-17); the law is still pre-enactment and, when enacted, the registry will NOT be publicly accessible. For now, the closest signals are: directors and shareholders listed on a paid full company extract, the company's filed annual report (dorech shanati), and (for public companies only) ISA disclosures on Maya at `maya.tase.co.il`.
