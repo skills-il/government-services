@@ -1,0 +1,107 @@
+{
+  "display_name": {
+    "he": "פיצוי לעסקים על נזקי מלחמה",
+    "en": "Israeli Business War Compensation"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ מס. מחשבון ומדריך הגשה למענקי נזק עקיף של רשות המסים לעסקים, עמותות (25%+ הכנסות מפעילות) ומעונות יום שנפגעו מהמלחמה. מתווה שאגת הארי (מרץ-אפריל 2026) ומתווה חרבות ברזל המתמשך. מחשב זכאות לפי ירידה במחזור (25% ומעלה בתקופת מרץ-אפריל 2026, למדווחי חודשי ודו-חודשי כאחד), מענק השתתפות בשכר (75% × ירידה × שכר טופס 102 × 1.25 עלות מעביד, מוגבל לעובד ב-13,773 × 1.25), מענק המשכיות עסקית לעסקים קטנים לפי טבלת אוצר (1,864-14,940 ש\"ח לתקופת הנזק, מחזור עד 300,000 ש\"ח), מסלולי 100% ליישובי קו העימות צפון (מחזורים, אדום, חקלאות), ומקדמה חלקית לפני הגשת התביעה (פורטל ארצי ופורטל קו העימות). מציף את כלל החל\"ת המפוצל (5/10 ימים) ואת חלונות ההגשה החיים לכל מסלול (ארצי עד 17.08.2026, צפון עד 24.09.2026) ומתריע על חבות המס שעל המענק עצמו. השתמשו כשבעל עסק, מנהל עמותה או מפעיל מעון שואל על פיצוי מלחמה, נזק עקיף, חל\"ת לעובדים, או הגשה לרשות המסים. אל תשתמשו לנזק רכוש ישיר (israeli-war-damage-claims), הגשת דמי אבטלה אישית של עובד (israeli-unemployment-benefits-navigator), או פיצוי אישי למילואים (israeli-miluim-manager).",
+    "en": "Not tax advice. Calculator and filing guide for the Israeli Tax Authority's indirect-damage business compensation under both the Shaagat HaAri (March-April 2026) and Iron Swords (October 2023 onward) frameworks. Covers businesses, NPOs (≥25% activity income), and daycare operators (private/supervised maon, mishpachton). Computes eligibility by turnover decline (≥25% over the March-April 2026 period for monthly and bi-monthly filers alike), wage participation grant (75% × decline × Form-102 wages × 1.25 employer-cost, capped per employee at 13,773 × 1.25 × employees), small business continuity grant for turnover up to 300,000 NIS via the Treasury table (1,864-14,940 NIS per damage period), 100% northern-border tracks (Mahzorim, Red, Agriculture), and a partial pre-claim advance (nationwide and border portals). Surfaces the bifurcated 5/10-day חל\"ת rule, the live per-track filing windows (nationwide to 17.08.2026, north to 24.09.2026), routes across all mutually exclusive tracks, builds the document checklist, and surfaces the tax bill on the grant itself. Use when a business owner, NPO administrator, or daycare operator asks about war compensation, indirect damage, employee חל\"ת, or how to file with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), the employee-side dmei avtala filing (israeli-unemployment-benefits-navigator), or personal reservist compensation (israeli-miluim-manager)."
+  },
+  "tags": {
+    "he": [
+      "פיצוי-עסקים",
+      "נזק-עקיף",
+      "שאגת-הארי",
+      "חרבות-ברזל",
+      "מס-רכוש",
+      "קרן-פיצויים",
+      "חלת",
+      "השתתפות-בשכר",
+      "מענק-המשכיות-עסקית",
+      "עמותות",
+      "מעונות-יום",
+      "ישראל"
+    ],
+    "en": [
+      "business-compensation",
+      "indirect-damage",
+      "shaagat-haari",
+      "iron-swords",
+      "tax-authority",
+      "compensation-fund",
+      "halat",
+      "wage-participation-grant",
+      "business-continuity-grant",
+      "nonprofits",
+      "daycare",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.5.0",
+  "category": "government-services",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.gov.il/he/pages/press_11032026",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/sa040526-2",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/compensation-indirect-damage",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/departments/ministry_of_finance",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il",
+      "type": "knowledge-base",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 3
+}

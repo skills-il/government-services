@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-bureaucracy-decoder",
+  "generated_at": "2026-06-16T00:00:00Z",
+  "claims": [
+    {
+      "claim": "An objection (השגה) to an income tax assessment must be filed in writing within 30 days under Section 150 of the Income Tax Ordinance (סעיף 150 לפקודת מס הכנסה).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "150. זכות השגה לפני פקיד השומה [תיקון: תשל״ה־2, תשנ״ז־3, תשס״ג־4] (א) היה אדם חולק על השומה, רשאי הוא לבקש מאת פקיד השומה, בהודעת השגה, בכתב, לחזור ולעיין ולשנות את השומה; בקשה כאמור תפרש בדיוק את הנימוקים להשגה על השומה ותוגש תוך שלושים יום מיום המצאת הודעת השומה",
+      "fetched_at": "2026-08-10",
+      "source_note": "Statute text of the Income Tax Ordinance on he.wikisource; gov.il and nevo returned 403/404 to non-browser fetchers."
+    },
+    {
+      "claim": "Section 147 (סעיף 147) of the Income Tax Ordinance is a distinct provision under which the Director (המנהל) issues a decision - separate from the objection provision, Section 150 (סעיף 150). Neither number is a form number.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
+      "raw_snippet": "האמור בסעיפים קטנים (ג) עד (ו) יחול גם על החלטת המנהל לפי סעיף 147.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "ITA Form 150 (טופס 150) is a declaration of holdings in shares of a company abroad, filed with the annual income tax return. It is unrelated to tax objections (which are filed under Section 150 of the Ordinance, a section number, not a form).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 150 - הצהרה על החזקה במניות של חברה בחו\"ל",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "Reserve duty (מילואים) minimum daily tagmul is 328.76 ש\"ח / 328.76 NIS effective 01.01.2026, legal basis Section 272 (סעיף 272) of the National Insurance Law; worked example in the skill body: 328.76 times 15 days equals 4,931.40 NIS / 4,931.40 ש\"ח. Hebrew rendering used in SKILL_HE.md: 328.76 שקל, 4,931.40 שקל.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "תלמיד במוסד להשכלה גבוהה, מי שאינו עובד ומי שעובד ושכרו החודשי מתחת למינימום – השכר היומי מחושב לפי 328.76 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "claim": "Freedom of Information: the request fee is 24 NIS; the public body must give its decision within 30 days and, for a complex request, may extend the answer up to 120 days; benefit recipients are exempt from the request fee and from payment for 7 hours of production work. NOT SUPPORTED by this page and flagged for removal from references/government-bodies-guide.md: the claim that the 24 NIS covers 'the first 3 hours of processing' and that a handling charge of about 36 NIS / 36 ₪ per hour applies from the 4th hour.",
+      "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
+      "raw_snippet": "ככלל הגשת בקשה למידע כרוכה בתשלום אגרה על סך 24 שקלים",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "VAT (מע\"מ) is charged at a fixed rate of the transaction price; as of January 2026 the rate is 18%. (The skill's glossary additionally notes it was raised from 17% on 1 January 2025 - a documented change, but not stated on this page.)",
+      "source_url": "https://www.gov.il/he/pages/vat-to-the-new-dealer",
+      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה (נכון לינואר 2026 שיעור המע״מ הוא 18%).",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "Municipalities may grant arnona discounts under law and offer bi-monthly payment arrangements. Illustrative worked example used in the skill body (not a published rate): a 25% arnona discount leaving a balance of 8,400 NIS / 8,400 ש\"ח payable in 6 installments. Hebrew rendering used in SKILL_HE.md: 8,400 שקל.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94",
+      "raw_snippet": "הרשויות המקומיות רשאיות לאפשר לתושביהן הסדרי תשלום שונים (כגון תשלום בהוראת קבע או תשלום דו-חודשי), לתת הנחות בהתאם להוראות הדין, וכן למחוק חובות ארנונה.",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "claim": "Small claims ceiling is 39,900 ₪ / 39,900 NIS as of January 2026. Illustrative worked example in the skill body: a claim for 12,000 NIS / 12,000 ש\"ח. Hebrew rendering used in SKILL_HE.md: 12,000 שקל.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "דף זה עוסק באפשרות הקיימת לכל אדם להגיש לבית משפט לתביעות קטנות תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "claim": "Income-tax forms attached to the gov.il 2025 annual-return service page, with their official titles: טופס 135 short annual return; טופס 1301 annual income return; טופס 150 declaration of shareholdings in a company abroad; טופס 119 credit for completing academic/vocational studies; טופס 134 computations following excess employer payments to keren hishtalmut and gemel funds; טופס 1325 aid form for aggregating securities sales by tax rate. Also referenced by the skill but NOT listed on this page and still needing their own sources: טופס 101, טופס 106, טופס 1214, טופס 1227 (and the same numbers written star-prefixed in the skill's table as *1214, *1227, *1301, *1325, which are form numbers, not phone lines).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 135 - דין וחשבון שנתי מקוצר לשנת המס 2025; טופס 1301 - דו\"ח הכנסות 2025; טופס 150 - הצהרה על החזקה במניות של חברה בחו\"ל; טופס 119 - זיכוי עבור סיום לימודים אקדמאים ולימודים מקצועיים 2025; טופס 134 - חישובים בעקבות תשלומים עודפים של מעביד לקרן השתלמות וקופות גמל לשנת 2025; טופס 1325 - טופס עזר לריכוז מכירות של ניירות ערך על פי שיעורי המס 2025",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "טופס 821 (Form 821) is the VAT REGISTRATION form filed when opening a VAT file (for a partnership or company, 821 combined with 821א). NOT supported by any source found in this pass and flagged for re-verification: the skill's descriptions of טופס 821 as the periodic VAT return, טופס 852 as the annual VAT summary, and טופס 874 as the VAT registration form.",
+      "source_url": "https://www.gov.il/he/pages/vat-to-the-new-dealer",
+      "raw_snippet": "טופס רישום מלא וחתום על כל פרטיו ( טופס 821 ) תעודת זהות. חוזה קנייה/שכירות של מקום העסק.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "Bituach Leumi national call centre is *6050 or 04-8812345.",
+      "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "claim": "The Israel Tax Authority gov.il department page is the skill's primary tax reference portal: it unifies the income tax, real-estate taxation, VAT, purchase tax, customs and stamp duty divisions. Every other portal the skill links to is verified in its own entry below.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
+      "fetched_at": "2026-08-11",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "small-claims-defence-30-days",
+      "claim": "The defendant must file a written defence (כתב הגנה) within 30 days of receiving the statement of claim.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "על הנתבע להגיש כתב הגנה תוך 30 יום מקבלת כתב התביעה.",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "claim_id": "eca-portal-moved",
+      "claim": "The Enforcement and Collection Authority (רשות האכיפה והגבייה) gov.il page is now at /he/departments/law_enforcement_and_collection_system_authority; it was established in January 2009 as a unit of the Ministry of Justice and comprises the Execution Office (הוצאה לפועל) system and the Fines Collection Center.",
+      "source_url": "https://www.gov.il/he/departments/law_enforcement_and_collection_system_authority",
+      "raw_snippet": "רשות האכיפה והגבייה הוקמה בינואר 2009 כיחידת סמך במשרד המשפטים. הרשות מופקדת על אכיפת החלטות שיפוטיות, על גביית חובות שונים בין גופים פרטיים וכן על גביית קנסות, חובות ותשלומים. הרשות מורכבת משתי יחידות: מערכת ההוצאה לפועל והמרכז לגביית קנסות אגרות והוצאות.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ito-section-150-objection",
+      "claim": "Section 150 of the Income Tax Ordinance is the objection (השגה) provision.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
+      "raw_snippet": "הגשת ערר לפי סעיף זה איננה באה במקום השגה על פי סעיף 150.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "foi-response-window",
+      "claim": "Freedom of Information: the public body must give its decision within 30 days; for a complex request it may extend the answer up to 120 days.",
+      "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
+      "raw_snippet": "על הרשות להודיע לכם על החלטתה תוך 30 יום לכל היותר. אם מדובר בקשה מורכבת, רשאית הרשות להאריך את מועד מתן התשובה עד ל-120 ימים.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "foi-benefit-recipient-exemption",
+      "claim": "Benefit recipients are exempt from the FOI request fee and from payment for 7 hours of production work.",
+      "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
+      "raw_snippet": "לאזרחים המקבלים קצבה יש פטור מתשלום אגרת בקשה ופטור מתשלום עבור 7 שעות עבודה של הפקת המידע המבוקש.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-judicial-authority-he",
+      "claim": "gov.il Judicial Authority (הרשות השופטת) portal, live 2026-08-11.",
+      "source_url": "https://www.gov.il/he/departments/the_judicial_authority",
+      "raw_snippet": "סמכויות השפיטה בישראל נתונות בידי הרשות השופטת. הרשות השופטת מורכבת ממערכת בתי המשפט בישראל שבראשה עומד בית המשפט העליון, וכן מבתי הדין.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-judicial-authority-en",
+      "claim": "gov.il Judicial Authority portal (English), live 2026-08-11.",
+      "source_url": "https://www.gov.il/en/departments/the_judicial_authority",
+      "raw_snippet": "Judicial powers in Israel are vested in the Judicial Authority. The Judicial Authority consists of the Israeli court system headed by the Supreme Court, as well as the Labor Courts.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-tax-authority-en",
+      "claim": "gov.il Israel Tax Authority portal (English), live 2026-08-11.",
+      "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+      "raw_snippet": "The Israel Tax Authority consolidates the various tax divisions: income tax, real estate taxation, VAT, purchase tax, customs and stamp duty.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-btl",
+      "claim": "Bituach Leumi (btl.gov.il) is the skill's reference portal for national-insurance rights; its homepage was live when checked.",
+      "source_url": "https://www.btl.gov.il",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-kolzchut",
+      "claim": "Kol Zchut (kolzchut.org.il) is the skill's reference rights portal; its homepage was live when checked in a browser (it blocks plain fetches).",
+      "source_url": "https://www.kolzchut.org.il",
+      "raw_snippet": "\"כל זכות\" - אתר הזכויות של ישראל",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-knesset-legislation",
+      "claim": "Knesset legislation portal, live 2026-08-11 (blocks plain fetches; read in a browser).",
+      "source_url": "https://main.knesset.gov.il/Activity/Legislation",
+      "raw_snippet": "תפקידה העיקרי של הכנסת הוא לחוקק חוקים.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-eca-dead-he",
+      "claim": "DEAD LINK: this URL now serves gov.il's 404 error page. The Enforcement and Collection Authority moved to /he/departments/law_enforcement_and_collection_system_authority. The skill still cites the dead URL.",
+      "source_url": "https://www.gov.il/he/departments/enforcement_and_collection_authority",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "portal-eca-dead-en",
+      "claim": "DEAD LINK: the English variant of the Enforcement and Collection Authority URL redirects to the same gov.il error page. The skill still cites it.",
+      "source_url": "https://www.gov.il/en/departments/enforcement_and_collection_authority",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "foi-120-day-complex-extension",
+      "claim": "A public body must answer a Freedom of Information request within 30 days at most; for a complex request it may extend the response deadline up to 120 days, notifying the applicant in writing with reasons.",
+      "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
+      "raw_snippet": "על הרשות להודיע לכם על החלטתה תוך 30 יום לכל היותר. אם מדובר בקשה מורכבת, רשאית הרשות להאריך את מועד מתן התשובה עד ל-120 ימים.",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-119-is-study-credit",
+      "claim": "ITA Form 119 is a request for a tax benefit for completing an academic degree or vocational qualification, not a request for an advance tax ruling.",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "tax-coordination-uses-form-116",
+      "claim": "Tax coordination (tium mas) is filed through the ITA online service attaching a completed Form 116; pensioners whose income is pension only may use the shorter Form 101ג.",
+      "source_url": "https://www.gov.il/he/service/tax-coordination",
+      "raw_snippet": "מזינים פרטים אישיים, מצרפים טופס 116 מלא ומסמכים מאמתים",
+      "fetched_at": "2026-08-12",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    }
+  ]
+}

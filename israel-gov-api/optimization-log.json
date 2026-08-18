@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.2",
+      "date": "2026-06-16",
+      "lessons": [
+        "CRITICAL fixed this cycle: the skill recommended _id keyset/cursor paging via filters={\"_id\":\">LAST_ID\"}, which does NOT work on data.gov.il. Live test confirmed `filters={\"_id\":\">N\"}` returns success:false (CKAN filters are exact-match only, no > comparison). Rewrote all guidance to: page with limit+offset (follow the response _links.next or increment offset), and download the resource CSV (records_format=csv / resources[].url) for bulk extraction. Fixed in SKILL.md (Pagination bullets, Example 3, Gotcha), SKILL_HE.md (4 spots), references/ckan-api-reference.md, and metadata.json HE display_description. The script was already offset-based and correct.",
+        "Fixed this cycle: the overstated '~32,000 hard offset cap that returns errors' was wrong. Live test: offset up to 1,000,000 succeeded. Reframed as performance degradation (deep offsets are slower, no hard cap).",
+        "Fixed this cycle: Example 1 step 4 filtered the mosdot resource by `סמל_ישוב` (city code), which does NOT exist on that resource. The mosdot resource has `שם ישוב` (city NAME text); the numeric CBS locality code (Tel Aviv 5000, Haifa 4000, Jerusalem 3000) lives in the CBS localities dataset (resource 5c78e9fa-...). Example now filters by city name / q= and points to the localities dataset for codes.",
+        "Verified live 2026-06-16: all 4 resource IDs resolve with matching counts (vehicles 4.13M, public-transport 65.6k, mosdot 119.8k, amutot 75.2k), all 7 org IDs resolve, datastore_search_sql is WAF-blocked (403 Security Violation). Updated the in-skill verification date.",
+        "Note on the evidence gate: this skill's example URLs contain percent-encoded Hebrew (q=%D7%AA%D7%9C ...). verify-evidence.py reads byte pairs like %94% as phantom percentages (0%-99%); grounded them via a single percent-encoding-artifacts evidence claim rather than removing the (necessary) encoded URLs.",
+        "Expert MINOR deferred: metadata.json HE display_description states the no-keyset rule tersely (without the explicit success:false detail the body carries). Acceptable for a description field; optionally expand next cycle."
+      ]
+    }
+  ]
+}

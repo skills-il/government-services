@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-address-autocomplete",
+  "generated_at": "2026-05-31T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "cbs-city-codes",
+      "claim": "CBS/Interior settlement (semel yishuv) codes from the data.gov.il \"רשימת ישובים בישראל\" dataset: Jerusalem 3000, Tel Aviv - Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin-Maccabim-Reut 1200, Nazareth 7300, Eilat 2600. The dataset lists 1,310 localities.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1400",
+      "raw_snippet": "\"סמל_ישוב\":\"3000 \",\"שם_ישוב\":\"ירושלים \"; \"סמל_ישוב\":\"5000 \",\"שם_ישוב\":\"תל אביב - יפו \"; \"סמל_ישוב\":\"4000 \",\"שם_ישוב\":\"חיפה \"; \"סמל_ישוב\":\"8300 \",\"שם_ישוב\":\"ראשון לציון \"; \"סמל_ישוב\":\"7900 \",\"שם_ישוב\":\"פתח תקווה \"; \"סמל_ישוב\":\"70 \",\"שם_ישוב\":\"אשדוד \"; \"סמל_ישוב\":\"7400 \",\"שם_ישוב\":\"נתניה \"; \"סמל_ישוב\":\"9000 \",\"שם_ישוב\":\"באר שבע \"; \"סמל_ישוב\":\"8600 \",\"שם_ישוב\":\"רמת גן \"; \"סמל_ישוב\":\"1200 \",\"שם_ישוב\":\"מודיעין-מכבים-רעות \"; \"סמל_ישוב\":\"7300 \",\"שם_ישוב\":\"נצרת \"; \"סמל_ישוב\":\"2600 \",\"שם_ישוב\":\"אילת \"; \"total\": 1310",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md",
+        "scripts/lookup_address.py"
+      ],
+      "source_note": "Each listed code was queried individually against the same CKAN datastore resource; total record count returned by the API was 1310.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "postal-code-format",
+      "claim": "The Israeli postal code (mikud) is looked up per address through the Israel Post lookup form; there is no official public API.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "The page is client-rendered; read in Playwright with location.href asserted."
+    },
+    {
+      "claim_id": "israel-post-mikud",
+      "claim": "Israel Post's mikud lookup is a web form at doar.israelpost.co.il/locatezip; there is no official public mikud-by-address API. The bennymeg/IsraelPostalServiceAPI library is a shipping-price calculator, not a mikud lookup.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "מיקוד",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govmap-api",
+      "claim": "GovMap publishes an official API documentation site at api.govmap.gov.il covering URL parameters, HTML embedding and JavaScript functions, including advanced search functions that work without an embedded map; the national map portal itself is at govmap.gov.il.",
+      "source_url": "https://api.govmap.gov.il/docs/intro",
+      "raw_snippet": "פורטל המפות הממשלתי, GovMap, מספק יכולות שיתו",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "mapi-parcel-tool",
+      "claim": "The Survey of Israel block/parcel-by-address (gush/helka) tool is at gov.il/apps/mapi/parcel_address/parcel_address.html; the old mapi.gov.il/Pages/LotAddressLocator.aspx path was retired and now redirects to a generic landing page.",
+      "source_url": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
+      "raw_snippet": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
+      "fetched_at": "2026-05-31T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "data-gov-il",
+      "claim": "data.gov.il hosts the street dataset \"רשימת רחובות ישראל\" and the locality dataset \"רשימת ישובים בישראל\", queryable through the CKAN datastore_search API. The record fields are the Hebrew names סמל_ישוב, שם_ישוב and שם_ישוב_לועזי (there are no city_code / city_name_he / city_name_en fields).",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=321",
+      "raw_snippet": "\"title\": \"\\u05e8\\u05e9\\u05d9\\u05de\\u05ea \\u05e8\\u05d7\\u05d5\\u05d1\\u05d5\\u05ea \\u05d9\\u05e9\\u05e8\\u05d0\\u05dc\"",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "cbs-directory",
+      "claim": "The Israel Central Bureau of Statistics (CBS / Lamas) is the statistical authority behind the settlement and locality code list; its media releases are published at cbs.gov.il.",
+      "source_url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2025/422/01_25_422b.pdf",
+      "raw_snippet": "על פי אומדני הלשכה המרכזית לסטטיסטיקה",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/city-codes.md"
+      ]
+    },
+    {
+      "claim_id": "illustrative-figures",
+      "claim": "Illustrative example only (not a verified address record): Rothschild 42, Tel Aviv-Yafo, mikud 6688312, CBS code 5000; example block/parcel 6213/250. The Tel Aviv-Yafo code 5000 is the one verified figure here.",
+      "source_url": "https://doar.israelpost.co.il/locatezip",
+      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "The mikud and block/parcel numbers in this example were NOT re-verified against Israel Post; they are illustrative and the skill body presents them as an example."
+    },
+    {
+      "claim_id": "govmap-api-site",
+      "claim": "api.govmap.gov.il is the GovMap API documentation site.",
+      "source_url": "https://api.govmap.gov.il",
+      "raw_snippet": "<title data-rh=\"true\">Govmap API</title>",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "govmap-portal",
+      "claim": "govmap.gov.il is the official state map portal of Israel, offering address and block/parcel search and map layers.",
+      "source_url": "https://www.govmap.gov.il",
+      "raw_snippet": "אתר המפות הרשמי של מדינת ישראל. מאפשר: חיפושים שונים כגון כתובת, גוש/חלקה, צפייה בשכבות מידע במגוון נושאים",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-dataset-url-dead",
+      "claim": "DEAD LINK: https://data.gov.il/dataset redirects to /he/dataset and serves the site's not-found page. The live dataset catalogue is https://data.gov.il/datasets. The skill's reference table still links the dead URL.",
+      "source_url": "https://data.gov.il/dataset",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-11",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "cbs-homepage",
+      "claim": "cbs.gov.il is the site of the Israel Central Bureau of Statistics (הלשכה המרכזית לסטטיסטיקה).",
+      "source_url": "https://www.cbs.gov.il",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה Central Bureau of Statistics",
+      "fetched_at": "2026-08-11",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "data-gov-il-datasets-url",
+      "claim": "The data.gov.il catalogue lives at /datasets. The older /dataset path redirects to /he/dataset and returns HTTP 404 with 'מצטערים, העמוד שחיפשת לא נמצא'; a plain fetch cannot see this because the site is client-rendered and serves a 200 shell.",
+      "source_url": "https://data.gov.il/datasets",
+      "raw_snippet": "מאגרי המידע הממשלתיים | מאגרי מידע",
+      "fetched_at": "2026-08-12",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-12",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+---
+name: israeli-vehicle-manager
+description: "Manage vehicle ownership in Israel: annual test (test/טסט), registration renewal (chidush rishayon rechev), used car purchase checks, insurance requirements, and transfer of ownership. Use when a user asks about their vehicle test date, how to renew their car registration, what to check before buying a used car in Israel, or understanding Israeli car insurance types. Prevents costly surprises like failed tests, expired registrations, and liens on purchased vehicles."
+license: MIT
+---
+
+# Israeli Vehicle Manager
+
+## Problem
+
+Owning a car in Israel means dealing with annual vehicle tests, registration renewals, insurance requirements, and complex paperwork. The process involves multiple government agencies, strict deadlines, and penalties that escalate quickly. Approximately one-third of all vehicles fail the annual test, registration fees vary widely by vehicle group, and used car buyers risk purchasing vehicles with hidden liens. This skill guides users through every aspect of vehicle management in Israel.
+
+## Instructions
+
+### Step 1: Identify What the User Needs
+
+Israeli vehicle management falls into these categories:
+
+| Need | Hebrew Term | Key Deadline |
+|------|-------------|-------------|
+| Annual vehicle test | טסט (test) | Before registration expiry |
+| Registration renewal | חידוש רישיון רכב | Pay up to 60 days before expiry |
+| Used car purchase | קניית רכב יד שנייה | Transfer immediately after the sale |
+| Insurance | ביטוח רכב | Must be active before driving |
+| Ownership transfer | העברת בעלות | Immediately after the sale |
+
+### Step 2: Annual Vehicle Test (טסט)
+
+**Who needs a test:**
+- All vehicles registered in Israel, annually
+- **New private cars are exempt for the first 3 years** from initial registration
+- New rental/leased vehicles are exempt for the first 2 years only
+- Cars 15+ years old must have braking system checked at a licensed garage BEFORE the test
+
+**Where to go:**
+- Authorized Vehicle Inspection Stations (מכוני רישוי) across Israel
+- Technotest is one of the largest national operators with branches across Israel
+- Station locator: gov.il vehicle inspection service page
+- TesTime appointment system sends SMS with scheduling link near the test due date
+
+**What is checked:**
+
+| System | What They Test |
+|--------|---------------|
+| Brakes | Front/rear braking force (left/right), emergency brake, brake lines |
+| Steering | Excessive play in steering system |
+| Lights | Headlamp alignment and intensity, signals, brake lights, plate illumination |
+| Tires | Tread depth (min 1.6mm), pressure, cracks, bulges |
+| Emissions | Tailpipe hydrocarbons and carbon monoxide |
+| Suspension | Undercarriage play and condition |
+| Safety equipment | Safety vest, inflated spare tire, warning triangle, tool kit |
+| Windshield | Wipers condition, cracks |
+| Undercarriage | Oil and water leaks |
+
+**Common failure reasons (approximately one-third of vehicles fail; specific breakdown varies year to year, see gov.il statistics):**
+- Minor defects: burned-out lights, missing safety equipment, worn wipers
+- Tire issues: wrong size, age, insufficient tread depth
+- Emissions failures or serious safety defects (brakes, steering, undercarriage)
+
+**Costs:**
+- Private car: approximately 126 NIS
+- Electric vehicle: approximately 106 NIS
+- Motorcycle: approximately 80 NIS
+- Optional pre-test at private garage (varies by garage; widely advertised in the low-hundreds-of-NIS range; recommended for older vehicles)
+
+### Step 3: Registration Renewal (חידוש רישיון רכב)
+
+**Process:**
+1. Renewal notice arrives by mail several weeks before expiration (typical lead time, but exact timing varies)
+2. Pay the annual license fee (can pay up to 60 days before expiry)
+3. Take vehicle to authorized inspection station (unless exempt)
+4. New license issued upon passing
+
+**Payment channels:**
+
+| Channel | Details |
+|---------|---------|
+| Online (gov.il) | Israeli credit card, up to 12 installments, immediate update |
+| Post office | Any Israel Post branch |
+| Bank | Via designated account |
+| Rishumit kiosks | Self-service terminals throughout the country |
+
+**Annual license fees:**
+Fees are determined by vehicle type, age, engine volume, and weight. There are 7 price groups based on new purchase price. Fees are updated every April per CPI.
+
+**April 2026 update:** The CPI-linked annual hike added between 22 NIS and 132 NIS per vehicle (depending on price group and model year) effective April 1, 2026. Users renewing after that date should expect higher invoices than 2025.
+
+**Rashut HaShidur (Broadcasting Authority) fee:** Approximately 135 NIS is bundled automatically into the annual registration invoice. It is collected with the agra and shows up as a single line item, which often surprises first-time renewers.
+
+**EV note (2026):** From January 2026 the EV-specific discount on the annual registration fee was equalized with benzin vehicles. EVs still pay a lower annual test (mivchan rishyon) fee of approximately 106 NIS, but the registration agra is now the standard rate.
+
+Note: Fee amounts change annually. Always check the official fee table on gov.il for current amounts. Do NOT rely on fixed numbers here.
+
+**Insurance requirement:** Must have valid mandatory insurance (bituach chova) certificate to renew.
+
+**Penalties for late renewal:**
+
+| Delay | Consequence |
+|-------|------------|
+| Driving without a valid test | 250 NIS + 6 points (up to 4 months expired); 1,000 NIS + 6 points (4 months to 1 year); court summons (over 1 year) |
+| After 3 months | Vehicle blocked in system, cannot transfer ownership |
+| Significant delay | Renewal may require visiting the Penalties Collection Center in person rather than online |
+
+### Step 4: Used Car Purchase Checks
+
+Before buying a used car in Israel, verify these items:
+
+**1. Vehicle history report:**
+- Gov.il vehicle ownership report service
+- Shows: model, transmission, AC, ABS, airbags, doors, ownership history
+- Third-party services (Autoboom, CheckCar): mileage from last test, recall campaigns, structure changes
+
+**2. Check for liens and encumbrances (עיקולים):**
+- This is the buyer's sole responsibility
+- The Ministry of Transport system does NOT show all liens
+- Check with the **Registrar of Pledges (רשם המשכונות)** at the Ministry of Justice
+- A post office may allow transfer even with a lien, so always check independently
+
+**3. Pre-purchase inspection:**
+- Available at authorized inspection stations
+- Includes: brake/steering assessment, emissions, body/assembly visual inspection, electronics scan, chassis diagnostics
+- Output: detailed report with findings and repair recommendations
+
+**4. Estimate the value (מחירון / שווי רכב):**
+
+Before you negotiate a used-car price, check the market value:
+- Ministry of Transport official pricelist (free): https://carlistprice.mot.gov.il/ - the ministry's own reference price, used to compute the ownership-transfer fee. It is a conservative official figure and typically runs lower than the commercial price.
+- מחירון לוי יצחק (levi-itzhak.co.il) - the commercial benchmark most dealers, insurers, and banks price against. It is a paid product, though some banks' and insurers' car-value pages surface a free single lookup.
+
+Both give a BASE price for the model, year, and trim. The real value moves up or down from that base with:
+- Ownership type: a private-hand (יד פרטית) car is worth more than an ex-company, rental, lease, driving-school, or taxi car.
+- Number of previous owners: more owners lowers the value.
+- Kilometrage relative to the average for the car's age: above-average km lowers it, below-average raises it.
+- Structural change (שינוי מבנה): a non-original structural modification lowers value noticeably.
+- Import path: a parallel or personal import (יבוא מקביל / יבוא אישי) is worth less than an official-importer car of the same model, year, and trim.
+- Condition, and any accident or lien history (use the vehicle-history report and the Registrar of Pledges check above).
+
+The exact adjustment percentages are part of the (proprietary) מחירון, so use the tools above for the number rather than a formula. This is an estimate to anchor a negotiation, not an official appraisal.
+
+**5. Transfer of ownership (העברת בעלות):**
+
+| Method | Cost | Requirements |
+|--------|------|-------------|
+| Online (gov.il) | 235 NIS | Both parties must be Israeli citizens with gov.il accounts |
+| Post office | 257 NIS | Both parties present in person with IDs |
+| Licensing bureau | Varies | If one/both parties are not Israeli citizens |
+
+**Deadline:** Register the transfer as soon as possible, ideally the same day. Published figures for a statutory grace window disagree with each other and we could not verify any of them against a primary source, so do not rely on one: the seller stays legally liable for the vehicle (fines, tolls) until the transfer is actually recorded.
+
+**Online-transfer footgun:** The Mygov online flow requires both parties to confirm AND payment to complete within roughly 10 minutes from the start of the form. If you exceed this window the entire transfer resets and you have to begin again. Have credit-card details ready before opening the form.
+
+**Required documents:** Current vehicle license, IDs of buyer and seller, signed sale agreement.
+
+### Step 5: Israeli Car Insurance
+
+**Three main types:**
+
+| Type | Hebrew | What It Covers | Required? |
+|------|--------|----------------|-----------|
+| Mandatory (bituach chova) | ביטוח חובה | Bodily injury to driver, passengers, pedestrians, and other road users | Yes, by law |
+| Comprehensive (bituach makif) | ביטוח מקיף | Theft, fire, accident damage to your own vehicle, plus mandatory coverage | No (recommended) |
+| Third party (tsad gimel) | ביטוח צד ג' | Damage to other vehicles/property, plus mandatory coverage | No |
+
+**Mandatory insurance is required:**
+- Must be active before driving
+- Required for registration renewal
+- Covers bodily injuries only (not property damage to your own vehicle)
+- Provided by all insurance companies in Israel
+
+**Tips for comparing insurance:**
+- Get quotes from multiple insurers (direct and through agents)
+- Check the Insurance, Pension & Capital Market Authority website for price comparison data
+- Consider deductible amounts (hashtatfut atzmit) when comparing prices
+- No-claims discount (heenachot) accumulates over claim-free years
+
+## Gotchas
+
+1. **New car exemption is 3 years, not 2.** Private passenger vehicles are exempt from the annual test for the first 3 years from initial registration. Rental and leased vehicles are exempt for only 2 years. Agents often confuse these.
+
+2. **Registration fees vary dramatically.** The annual license fee ranges from approximately 850 NIS to over 5,300 NIS depending on vehicle group (April-2026 table). Do not state a fixed fee without knowing the vehicle's price group. **EV purchase tax (mas knisa) rose to 48% from January 1, 2026** (compromise after the Treasury proposed 52%; was 45% prior). The EV tax-benefit ceiling was lowered to approximately NIS 22,000 (down from NIS 30,000 in 2025). Verify current figures at gov.il/taxes.gov.il since the ceiling and rate are politically sensitive and can shift mid-year.
+
+3. **Liens are the buyer's problem, not the seller's.** The Ministry of Transport system does NOT show all liens on a vehicle. Always direct used car buyers to check with the Registrar of Pledges (רשם המשכונות) at the Ministry of Justice before completing a purchase.
+
+4. **Do not delay the ownership transfer.** Register it the same day if you can. The seller remains legally responsible for the vehicle (fines, tolls, and liability) until the transfer is actually recorded, so a delay is the seller's risk, not the buyer's.
+
+5. **Cars 15+ years old have extra requirements.** Before the annual test, these vehicles must have their braking system checked at a licensed garage and present confirmation at the inspection station.
+
+6. **Light-electric-vehicle (kalanoit / e-scooter / e-bike) registration is mandatory since August 1, 2024.** E-bikes and e-scooters require registration with the Ministry of Transport plus a personal license plate (~70 NIS). The plate is tied to the rider, not the vehicle. Minimum age is 16. Helmets are mandatory. Riding an unregistered light-electric vehicle on public roads is now a finable offense.
+
+7. **Driver-license medical-exam threshold (Tofes 16) raised to age 75.** Since the April 2024 reform, private drivers must obtain a medical exam (אישור רפואי / טופס ירוק) starting at **age 75** (raised from age 70). After 75, license is valid up to age 80, then renewed every 2 years. Professional drivers (taxi, truck, bus) require a medical exam from age 60.
+
+8. **Taxi-app market 2026.** As of early 2026, Minister of Transport Regev approved Uber's re-entry to the Israeli market (Uber exited in 2023). Current incumbents: Gett and Yango. Confirm current ride-hailing options before recommending one.
+
+9. **Iron Swords reservist (miluim) protections.** During the active war-period (late 2023 through early 2024) the Ministry of Transport granted blanket deferrals on vehicle test and registration deadlines for reservists serving under Order 8. Outside that one-time window there is no standing automatic deferral by length of service, reservists who hit a deadline mid-call-up should still contact the Ministry of Transport service line because case-by-case extensions are sometimes granted, but should not assume automatic relief.
+
+## Bundled Resources
+
+### references/
+
+- `test-preparation.md` -- Checklist for passing the annual vehicle test
+- `ownership-transfer.md` -- Step-by-step guide for buying/selling a car in Israel
+
+### scripts/
+
+- `test-reminder.py` -- Calculate days until next vehicle test based on registration date
+
+## Troubleshooting
+
+### "My car failed the test (טסט)"
+Approximately one-third of vehicles fail. Get the failure report, fix the listed issues at any garage, and return for a retest. Common quick fixes: replace burned bulbs, add safety equipment, inflate spare tire, replace worn wipers.
+
+### "I bought a car and discovered it has a lien"
+If you completed the transfer without checking for liens, consult a lawyer. The lien attaches to the vehicle, not the owner, so the creditor can seize the car regardless of the new owner. Prevention is key: always check with the Registrar of Pledges before buying.
+
+### "My registration expired and I got fined"
+Pay the fine and renew as soon as possible. The penalty is graduated: up to 4 months expired = 250 NIS + 6 license points; 4 months to 1 year = 1,000 NIS + 6 points; over 1 year = a court summons (which can carry a higher fine and license suspension). There is no official grace period, even one day expired is an offense. If the vehicle is blocked in the system, visit the Penalties Collection Center.
+
+### "I want to sell my car but the buyer is not Israeli"
+If one or both parties are not Israeli citizens, the transfer must be done at a licensing bureau (misrad harishui), not online or at the post office. Bring both IDs and the current vehicle license.

@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-07-20",
+      "lessons": [
+        "COVERAGE (CRITICAL): the skill covered heitel hashbacha (municipal betterment levy) but had NO mas shevach (seller-side 25% land-appreciation capital-gains tax) coverage, the biggest tax a home seller faces. Added a Step 5b: 25% on the real gain, the pre-2014 linear exemption (phased out from 2030), and the Section 49b(2) single-residence exemption with the 5,008,000 NIS ceiling frozen to 15.1.2028. Added an explicit 'do not confuse the two taxes' note.",
+        "COVERAGE (MAJOR): added the Regulation 11 reduced purchase-tax track (disabled/blind/terror-victim/bereaved: 0.5%/5% on a single home, up to twice in a lifetime) that the checker subtitle promised but the body never delivered. Routed the CPI-linked threshold to ITA verification rather than asserting a number.",
+        "COVERAGE (MAJOR): surfaced in the SKILL prose (not just the checker caveat) that the additional-home 8%/10% rates are a temporary order in force only through 31 December 2026, using 16-Jan-2024 frozen tiers, and are due for re-legislation.",
+        "FACTS CONFIRMED CURRENT 2026: purchase-tax brackets frozen (no 16-Jan-2026 CPI update; dira yehida 0/3.5/5/8/10 at 1,978,745/2,347,040/6,055,070/20,183,565; dira nosefet 8%/10% at 6,055,070; oleh Reg 12a 0/0.5/8 with the >20,183,565 ceiling). Checker mas-rechisha already matches these exactly, NO regeneration needed.",
+        "Deferred (MINOR): substantive Tama 38 / urban-renewal tax treatment; Fair Rent Law (2022) detail; the Python script does not encode the oleh Reg-12a track (the checker does)."
+      ]
+    }
+  ]
+}

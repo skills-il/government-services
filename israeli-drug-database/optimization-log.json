@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-21",
+      "lessons": [
+        "CRITICAL fix: documented the actual live registry API. The skill promised 'query the MoH drug registry' but never named an endpoint and its field table used invented transliterations (shem miskhari, chomer peeil...). Added the real IDRServer API (israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName + GetSpecificDrug / SearchGenericByDragRegNum / SearchByPackageBarcode) with the real JSON field names (dragHebName, dragRegNum, health=basket, customerPrice, activeComponentsCompareName, prescription, iscanceled). The israel-drugs MCP wraps this same API.",
+        "Factual fixes: 'Yellow Card system' was the UK MHRA scheme, not Israel's -> replaced with the MoH Side Effects Reporting Form (טופס דיווח על תופעות לוואי). Removed the false claim that data.gov.il hosts a machine-readable drug registry + price list (it does not -- the org has ~10 unrelated datasets; the registry lives only on the israeldrugs backend) and repointed the reference to the IDRServer API. Fixed the 'Price information unavailable' troubleshooting (the API DOES return customerPrice/packagesPrices). Added the generic-lookup endpoint to Step 4. Deduped the duplicate 'תרופות' tag.",
+        "VERIFIED clean (kept): dipyrone/Optalgin OTC in Israel; FDA PLLR retired A-X categories 2015; sal briut annual January cycle.",
+        "Round 2: clarified (Step 3, EN+HE) that the registry returns only health (bool) + customerPrice; copay tier/amount come from the kupot, not the registry (resolved a mild contradiction with the new API section). Judge verified the documented API against the LIVE endpoint (real acamol record: dragRegNum 020 16 20534 00, customerPrice 14.12, TEVA).",
+        "Deferred (MAJOR, next cycle): document search-by-registration-number format and the SearchByPackageBarcode (EAN) workflow as first-class patient/pharmacist steps; clarify the basket copay tiers come from the kupot, not the registry (the registry only returns health true/false + customerPrice); point pregnancy info at the per-drug עלון לצרכן rather than leading with the deprecated A-X table. Deferred (MINOR): rate-limit/fair-use note for the undocumented IDRServer backend."
+      ]
+    }
+  ]
+}

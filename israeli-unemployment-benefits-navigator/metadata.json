@@ -1,0 +1,44 @@
+{
+  "author": "skills-il",
+  "version": "1.6.2",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "דמי-אבטלה",
+      "ביטוח-לאומי",
+      "שירות-התעסוקה",
+      "תקופת-אכשרה",
+      "פיטורין",
+      "חלת",
+      "שאגת-הארי",
+      "ישראל"
+    ],
+    "en": [
+      "unemployment",
+      "dmei-avtala",
+      "bituach-leumi",
+      "benefits",
+      "job-loss",
+      "chalat",
+      "shaagat-haarie",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מלווה דמי אבטלה",
+    "en": "Israeli Unemployment Benefits Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי או מיסויי. מלווה בתהליך תביעת דמי אבטלה מביטוח לאומי מקצה לקצה: בודק זכאות (12 חודשי אכשרה מתוך 18, או 6 מתוך 18 בחל\"ת שאגת הארי, מסלול שנסגר ב-14.5.2026), מחשב את סכום הקצבה לפי מדרגות 2026, מיפוי מקסימום ימי הזכאות (50 עד 300 יום), מזהיר על 90 ימי המתנה במקרה של התפטרות, חושף הטבות מצטברות (השלמת הכנסה, מילגת הכשרה מקצועית), משפיע פיצויי פיטורין, ומייצר רשימת צעדים לרישום בשירות התעסוקה והגשה בביטוח לאומי. משתמשים בזה כשמישהו פוטר, יצא לחל\"ת או שוקל התפטרות ורוצה לדעת כמה אבטלה מגיע לו ואיך לגשת. לא מתאים לתוכניות ביטוח לאומי אחרות, חישובי שכר נטו, תגמולי מילואים, או בדיקת חוזה העסקה.",
+    "en": "Not legal or tax advice. Walk a user through Israeli dmei avtala (unemployment benefits) from eligibility to application: verifies the 12-of-18 months qualifying period (tkufat akhshara, or 6-of-18 under the 2026 Shaagat HaAri chal\"t emergency track, a window that closed on 14.5.2026), calculates benefit amount with the 2026 progressive tier formula, maps max days by age and dependents (50 to 300 days), warns about the 90-day resignation waiting period, surfaces stackable benefits (hashlamat hachnasa, hachshara miktzoit), and generates a personalized Sherut HaTaasuka and Bituach Leumi checklist. Use when a user is fired, laid off, placed on chal\"t, or considering resignation and needs to know how much avtala they are entitled to and how to claim it. Prevents thousands of shekels left on the table from late registration, miscounted qualifying months, or unclaimed stackable benefits. Do NOT use for other Bituach Leumi programs, net salary calculations, reservist compensation, or employment contract review."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

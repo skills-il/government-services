@@ -1,0 +1,20 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-07-06",
+      "lessons": [
+        "CRITICAL fixed: the special-leave section stated the 30 abroad-visit days were a ONE-TIME entitlement across full service; kolzchut confirms they are per service year (annual). Only the funded flight is once-in-service. Inverted claim corrected in EN + HE + checklist.",
+        "MAJOR fixed: combat/combat-support boded supplements were guessed (~422/~370); official IDF figures are 467.2 (combat, level א'+) / 233.7 (combat-support, level א') NIS/month. Added base grant 601.2 NIS/month.",
+        "MAJOR added: Aliyah-Ministry monthly grant for olim bodedim = 100% of a private base salary (150% for Ethiopian olim within 10y), STACKS on the IDF grant (kolzchut) - a high-value benefit the skill omitted.",
+        "MAJOR added: Step 5.5 with often-missed benefits (psychometric-course funding, private-work permit, subsidized אל\"ח/'יחד למען החייל' apartments, קרן הישג/קרן גרוס scholarships, כנפיים program).",
+        "META-LESSON on flights: the first research pass could NOT source the '1 non-combat / 2 combat / after 8 months' framing and I wrongly softened it to 'once during service' AND wrongly stated medical insurance is the soldier's responsibility. The Judge caught it: kolzchut מימון טיסה confirms non-combat=1, combat=2 (not same year), after 8 months, and the funding COVERS ticket + port fees + medical insurance (soldier pays only passport + entry visas). Restored the correct sourced facts across body, metadata, checklist, evidence. Lesson: an absent source from ONE research pass is not disproof; verify against the dedicated kolzchut page before softening a specific claim.",
+        "MAJOR fixed HE parity gaps present since creation: HE was missing Step 8.5 entirely (arnona/electricity/bank-account/pre-discharge interview), the HE Step 2 form flow presented Form 7304 as the pre-enlistment soldier form (wrong; Form 62 is the soldier-facing form for both phases), and HE Step 3 omitted the combat supplement.",
+        "Rent doc list updated for the 01.07.2026 process change (submission = declaration form; bank details updated separately).",
+        "[CARRY] The 30-day miluim/special-service floor is a temporary provision for 2025-2026 service; for 2027 service the floor drops to 20 days and the schedule shifts. Review before the 2027 service year.",
+        "[CARRY] The exact statutory subsection for the 10-year Pikadon window (cited as Chok Klitat Chayalim Meshuchrarim §3(ב)) could not be pinned to the nevo full text; the 10-vs-5 substance and the §7(א)/§7א reference are verified. Verify the subsection label next cycle.",
+        "[CARRY] Holiday-voucher amount has no fixed official figure (IDF page says it varies year to year); kept hedged, do not assert a number."
+      ]
+    }
+  ]
+}

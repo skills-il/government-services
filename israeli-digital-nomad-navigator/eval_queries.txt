@@ -1,0 +1,22 @@
+# Eval queries for israeli-digital-nomad-navigator
+# Format: category | query
+# Categories: positive (should trigger), negative (should NOT), edge (ambiguous)
+
+positive | אני חושב לעבור לתאילנד DTV לשנה לעבוד מרחוק לסטארט-אפ ישראלי - מה אני צריך מבחינה ישראלית
+positive | I'm an Israeli software engineer thinking of working remotely from Lisbon for 6 months on Portugal D8, what's the Israeli compliance side
+positive | עצמאית עוסקת מורשה עם לקוחות בארה״ב, איך אני מוציאה חשבונית מע״מ אפס לפי סעיף 30
+positive | I'm an Israeli freelancer in Bangkok on a Thailand DTV, do I need to report my Wise account to the Israeli tax authority
+positive | רציתי לדעת איך לשמור על קופת חולים אם אני בחו״ל שנתיים על וויזת נווד דיגיטלי
+positive | Working from abroad on tlush maskoret for an Israeli employer — do I need a Form A1 totalization certificate
+positive | Spain DNV vs Portugal D8 for an Israeli passport holder, which has lower income requirement
+positive | How does the 2026 abolition of the 10-year reporting exemption affect Israeli digital nomads
+positive | טופס 1348 הצהרת תושבות לישראלי שעובד מחו״ל
+positive | Israeli digital nomad insurance options that actually cover remote work — SafetyWing or Genki vs Israeli policies
+negative | How do I make aliyah to Israel from the US
+negative | What is sal klita and how much do new olim receive
+negative | I'm relocating permanently from Israel to Toronto, never coming back, how do I handle Form 161
+negative | Best coworking spaces in Tel Aviv for an Israeli freelancer working from home
+negative | I'm a foreign citizen wanting to come to Israel as a digital nomad
+edge | Should an Israeli software engineer staying 14 months in Bali apply for B211A or another visa
+edge | I'm thinking of formally cutting Israeli tax residency to qualify as toshav chozer in 7 years — what's the math
+edge | I'm an Israeli employee on Israeli payroll planning to work from Mexico City — is Mexico on the totalization treaty list

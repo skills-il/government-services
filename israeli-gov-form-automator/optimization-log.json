@@ -1,0 +1,18 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.2",
+      "date": "2026-06-16",
+      "lessons": [
+        "Resolved this cycle: PyPDF2 is deprecated; switched the recommended import to `from pypdf import PdfReader, PdfWriter` (PyPDF2 noted only as the deprecated former name). pikepdf and update_page_form_field_values remain correct/current.",
+        "Resolved this cycle: the Israel Post mikud lookup URL israelpost.co.il/zip_data.nsf/SearchZip is dead (redirects to homepage); replaced with the current mypost.israelpost.co.il/zipcodesearch (bot-protected, must be driven with a real browser).",
+        "Resolved this cycle: wrong mobile-carrier attributions (057=Pelephone, 056=HOT/Cellcom) removed. 057 was retired in 2014 (merged into 053); 056 is a Palestinian-territories prefix; 050=Pelephone. Number portability makes prefix->carrier unreliable, so the skill now lists the currently-allocated prefix set and frames validation as a format check.",
+        "Resolved this cycle: digital-signature URL gov.il/he/departments/policies/digital_signature 302-redirects; switched to the canonical /he/pages/digital_signature.",
+        "Resolved this cycle (Expert MAJOR): the phone validator's prose (curated prefix set) diverged from the script regex `^05[0-9]{8}$` (accepts all 05X). Reconciled by documenting in both the code and prose that it is a format-level check (any 05X mobile structure), not a carrier/geographic-existence check.",
+        "Resolved this cycle: removed a shipped 'TODO: verify exact threshold' marker from references/gov-portals.md (annual-return paper-filing threshold) by pointing to the source for the current figure.",
+        "Confirmed correct (no change): Tofes 101 digital since 2022, Tofes 1301 online mandatory since 2019, Teudat-Zehut Luhn validator (rejects 000000000), IBAN mod-97, and all Playwright Python API calls.",
+        "Expert MINOR deferred: the landline regex 0[2-9] labels 07X non-geographic/VoIP numbers as 'landline'; acceptable for a format check, but could be split out next cycle. Also: portals table could add the 'new Form 161 mandatory since 2024' note."
+      ]
+    }
+  ]
+}
