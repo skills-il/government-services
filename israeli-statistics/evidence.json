@@ -1,46 +1,24 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-statistics",
-  "generated_at": "2026-05-20T00:00:00Z",
+  "generated_at": "2026-08-18T20:30:00Z",
   "claims": [
     {
-      "claim_id": "cpi_annual_april_2026",
-      "claim": "Israel CPI annual inflation was 1.9% in April 2026 (CBS series 120010). NOTE: this is no longer the latest reading - see cpi-latest-june-2026.",
-      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
-      "raw_snippet": "{\"year\": 2026, \"percent\": 1.2, \"percentYear\": 1.9, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 105.1}, \"prevBase\": null, \"month\": 4, \"monthDesc\": \"אפריל\"}",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב",
-        "SKILL.md Example 3",
-        "SKILL_HE.md דוגמה 3"
-      ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "cpi_monthly_april_2026",
-      "claim": "Israel CPI rose 1.2% in April 2026 versus March 2026 (CBS series 120010). NOTE: the June 2026 monthly change is 0.0% - see cpi-latest-june-2026.",
-      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
-      "raw_snippet": "{\"year\": 2026, \"percent\": 1.2, \"percentYear\": 1.9, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 105.1}, \"prevBase\": null, \"month\": 4, \"monthDesc\": \"אפריל\"}",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב"
-      ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
-    },
-    {
       "claim_id": "cpi_release_schedule",
-      "claim": "CPI is published on the 15th of the following month at 18:30 Israel time",
+      "claim": "All CBS price indices are published on the 15th of the month at 18:30 (6:30 PM). If the 15th falls on a Friday, the eve of a holiday, a Saturday or a holiday, the release moves to the Friday / holiday eve at 14:00 (2 PM).",
       "source_url": "https://www.cbs.gov.il/en/Pages/Main%20Price%20Indices.aspx",
-      "raw_snippet": "indices are published on the 15th of the month at 6:30 PM",
-      "fetched_at": "2026-05-20",
+      "raw_snippet": "All the price indices are published on the 15th of the month at 6:30 PM. If the 15th of the month falls on Friday or the eve of a holiday, or on Saturday or a holiday, the releases are published on Friday / eve of the holiday at 2 PM.",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "appears_in": [
         "SKILL.md Critical Note",
-        "SKILL_HE.md שימו לב"
-      ]
+        "SKILL_HE.md שימו לב",
+        "SKILL.md Troubleshooting",
+        "SKILL_HE.md פתרון בעיות",
+        "references/cbs-data-guide.md",
+        "scripts/fetch_cbs_data.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "boi_rate_35pct",
@@ -54,44 +32,8 @@
         "SKILL.md Example 3",
         "SKILL_HE.md דוגמה 3"
       ],
-      "verified_via": "browser"
-    },
-    {
-      "claim_id": "unemployment_feb_2026",
-      "claim": "Seasonally adjusted unemployment rate was 2.7% in February 2026",
-      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
-      "raw_snippet": "t Israel Unemployment Rate Summary Stats Forecast Calendar Alerts Download Israel’s seasonally adjusted unemployment rate climbed to 3.1% in July 2026 from 2.9% in June, reaching its highest reading since January. The number of unemployed people increased by 20.2 thousand from the previous month and by 5.7 thousand from a year earlier to 148.2 thousand. Meanwhile, employment rose by 11.1 thousand month-on-month and 42.2 thousand year-on-year to 4.399 million. The labor force participation rate edged up to 62.2% from 62.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב",
-        "SKILL.md Example 3",
-        "SKILL_HE.md דוגמה 3"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"3.1%\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "lfpr_feb_2026",
-      "claim": "Labor force participation rate was 62.5% in February 2026",
-      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
-      "raw_snippet": "The labor force participation rate edged slightly lower to 62.5% from 62.7%, while the employment rate remained unchanged at 60.8%.",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב"
-      ]
-    },
-    {
-      "claim_id": "avg_wage_oct_2025",
-      "claim": "Average gross monthly wage was approximately NIS 13,623 in October 2025 (latest CBS data)",
-      "source_url": "https://tradingeconomics.com/israel/wages",
-      "raw_snippet": "In October 2025, according to original data, the average salary for a salaried position in Israel at current prices was 13,623 Shekels per month",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב"
-      ]
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "minimum_wage_april_2026",
@@ -106,16 +48,18 @@
     },
     {
       "claim_id": "gdp_growth_2025",
-      "claim": "Israel GDP grew 3.0% in 2025",
-      "source_url": "https://www.focus-economics.com/countries/israel/news/gdp/israel-national-accounts-16-02-2026-economic-growth-eases-in-the-fourth-quarter-of-2025/",
-      "raw_snippet": "Israel's economy grew 3.0% in 2025 as a whole, the best reading since 2022, before the war with Hamas broke out.",
-      "fetched_at": "2026-05-20",
+      "claim": "Israel full-year GDP growth for 2025 was 2.9%, revised down from an initial estimate of 3.1% (CBS national accounts).",
+      "source_url": "https://tradingeconomics.com/israel/gdp-growth-annual",
+      "raw_snippet": "Full Year GDP Growth\t2.90\t1.00\tpercent\tDec 2025",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "appears_in": [
-        "SKILL.md Current Snapshot",
-        "SKILL_HE.md תמונת מצב",
+        "SKILL.md Reference Snapshot",
+        "SKILL_HE.md תמונת ייחוס",
         "SKILL.md Example 3",
         "SKILL_HE.md דוגמה 3"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "population_jan_2026",
@@ -166,19 +110,6 @@
       "verified_at": "2026-08-18"
     },
     {
-      "claim_id": "cbs_api_cpi_code",
-      "claim": "CBS Price Indices API code for the general CPI is 120010 (the catalog endpoint returns chapter 'מדד המחירים לצרכן' with mainCode 120010); series are then fetched at api.cbs.gov.il/index/data/price?id=120010.",
-      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
-      "raw_snippet": "{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\",\"chapterOrder\":1,\"mainCode\":120010,\"subject\":null}",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md Step 6",
-        "SKILL_HE.md שלב 6",
-        "scripts/fetch_cbs_data.py",
-        "references/cbs-data-guide.md"
-      ]
-    },
-    {
       "claim_id": "cbs_api_base",
       "claim": "CBS Price Indices API base URL is api.cbs.gov.il/index with /catalog/catalog and /data/price endpoints",
       "source_url": "https://www.cbs.gov.il/en/Pages/Api-interface.aspx",
@@ -203,7 +134,8 @@
       "appears_in": [
         "SKILL.md Current Snapshot",
         "SKILL_HE.md תמונת מצב"
-      ]
+      ],
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "cbs-price-indices-api-catalog",
@@ -233,21 +165,24 @@
       "raw_snippet": "בנק ישראל - הבנק המרכזי של ישראל",
       "fetched_at": "2026-08-10",
       "verified_via": "browser",
-      "source_note": "boi.org.il serves a Radware bot-check to curl; title read in Playwright with location.href asserted."
+      "source_note": "boi.org.il serves a Radware bot-check to curl; title read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "datagov-lamas-org",
       "claim": "data.gov.il hosts the CBS datasets under the organization slug 'lamas' (display name הלשכה המרכזית לסטטיסטיקה).",
       "source_url": "https://data.gov.il/api/3/action/organization_show?id=lamas",
       "raw_snippet": "\"name\": \"lamas\", \"notes\"",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-18T20:30:00Z"
     },
     {
       "claim_id": "minimum-wage-2026-04",
       "claim": "From 01.04.2026 the minimum wage is 6,443.85 ש\"ח (6,443.85 NIS) per month for a full-time post and 35.40 ש\"ח per hour.",
       "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
       "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-18T20:37:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:37:00Z"
     },
     {
       "claim_id": "cbs-en-default-page",
@@ -258,24 +193,12 @@
       "source_note": "HTML <title> of the fetched page."
     },
     {
-      "claim_id": "cpi-latest-june-2026",
-      "claim": "Latest published CPI (general index, code 120010) at the time of this check: June 2026, index 104.8 on the 2024 average base, monthly change 0.0%, annual change 1.6%. The skill's snapshot table still shows the April 2026 figures (1.9% annual, +1.2% monthly).",
-      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&last=14",
-      "raw_snippet": "{\"year\": 2026, \"percent\": 0.0, \"percentYear\": 1.6, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 104.8}, \"prevBase\": null, \"month\": 6, \"monthDesc\": \"יוני\"}",
-      "fetched_at": "2026-08-11",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md"
-      ]
-    },
-    {
       "claim_id": "cbs-api-base",
       "claim": "The CBS Price Indices API is served under api.cbs.gov.il/index; its catalog path returns the list of index chapters.",
-      "source_url": "https://api.cbs.gov.il/index",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
       "raw_snippet": "{\"chapters\":[{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\"",
       "source_note": "Snippet is the body returned by <base>/catalog/catalog?format=json, read with curl. The gate's fetch() misroutes api.cbs.gov.il URLs through the gov.il content API and returns unrelated pages, so this entry is marked curl-verified.",
-      "fetched_at": "2026-08-11",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "verified_via": "curl",
       "verified_at": "2026-08-11",
       "appears_in": [
@@ -287,10 +210,10 @@
     {
       "claim_id": "cbs-api-host",
       "claim": "api.cbs.gov.il is the CBS API host used by the skill's fetch script; content is served under its /index paths rather than at the bare host root.",
-      "source_url": "https://api.cbs.gov.il",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
       "raw_snippet": "{\"chapters\":[{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\"",
       "source_note": "Same body as cbs-api-base; the bare host root returns no response, the /index paths do.",
-      "fetched_at": "2026-08-11",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "verified_via": "curl",
       "verified_at": "2026-08-11",
       "appears_in": [
@@ -299,30 +222,233 @@
       ]
     },
     {
-      "claim_id": "datagov-lamas-org-page",
-      "claim": "The data.gov.il CKAN organization page for the CBS uses the slug lamas.",
+      "claim_id": "cpi_july_2026",
+      "claim": "Latest published CPI (general index, code 120010) as of 2026-08-18: July 2026, index 105.1 on the 2024 average base, +0.3% on the month, +1.5% year-on-year.",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&last=4",
+      "raw_snippet": "{\"year\":2026,\"percent\":0.3,\"percentYear\":1.5,\"currBase\":{\"baseDesc\":\"2024 ממוצע\",\"value\":105.1},\"prevBase\":null,\"month\":7,\"monthDesc\":\"יולי\"}",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Reference Snapshot",
+        "SKILL_HE.md תמונת ייחוס",
+        "SKILL.md Example 3",
+        "SKILL_HE.md דוגמה 3"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-18T20:30:00Z"
+    },
+    {
+      "claim_id": "housing_yoy_may_2026",
+      "claim": "The CBS apartment price index (code 40010) stood at -1.5% year-on-year for May 2026, index value 593.6 on the 1993 average base; May 2026 was the latest published month as of 2026-08-18.",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=40010&format=json&last=3",
+      "raw_snippet": "{\"year\":2026,\"percent\":0.1,\"percentYear\":-1.5,\"currBase\":{\"baseDesc\":\"1993 ממוצע\",\"value\":593.6},\"prevBase\":null,\"month\":5,\"monthDesc\":\"מאי\"}",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Reference Snapshot",
+        "SKILL_HE.md תמונת ייחוס",
+        "SKILL.md Troubleshooting",
+        "references/cbs-data-guide.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-18T20:30:00Z"
+    },
+    {
+      "claim_id": "unemployment_july_2026",
+      "claim": "Seasonally adjusted unemployment rate was 3.1% in July 2026, up from 2.9% in June 2026 (CBS Labour Force Survey, released 2026-08-17).",
+      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
+      "raw_snippet": "seasonally adjusted unemployment rate climbed to 3.1% in July 2026 from 2.9% in June",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Reference Snapshot",
+        "SKILL_HE.md תמונת ייחוס",
+        "SKILL.md Example 3",
+        "SKILL_HE.md דוגמה 3"
+      ]
+    },
+    {
+      "claim_id": "lfpr_july_2026",
+      "claim": "Labor force participation rate was 62.2% in July 2026, up from 62.0% in June 2026.",
+      "source_url": "https://tradingeconomics.com/israel/unemployment-rate",
+      "raw_snippet": "The labor force participation rate edged up to 62.2% from 62.0%",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Reference Snapshot",
+        "SKILL_HE.md תמונת ייחוס"
+      ]
+    },
+    {
+      "claim_id": "cbs_july_2026_release_date",
+      "claim": "The CBS media release for the Consumer Price Index, July 2026 was published on 14/08/2026, one day before the 15th, because 15 August 2026 fell on a Saturday.",
+      "source_url": "https://www.cbs.gov.il/en/Pages/Main%20Price%20Indices.aspx",
+      "raw_snippet": "Consumer Price Index,July 2026\n14/08/2026",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Critical Note",
+        "SKILL_HE.md שימו לב"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
+    },
+    {
+      "claim_id": "cbs_code_120010",
+      "claim": "CBS Price Indices API index code 120010 is the Consumer Price Index (general) index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד המחירים לצרכן\",\"chapterOrder\":1,\"mainCode\":120010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_40010",
+      "claim": "CBS Price Indices API index code 40010 is the apartment prices index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד ומחירים ממוצעים משוק הדירות\",\"chapterOrder\":2,\"mainCode\":40010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_170030",
+      "claim": "CBS Price Indices API index code 170030 is the producer prices, industrial output for local destinations index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד מחירי יצרן - תפוקת התעשייה ליעדים מקומיים\",\"chapterOrder\":3,\"mainCode\":170030",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_200010",
+      "claim": "CBS Price Indices API index code 200010 is the residential building input costs index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד מחירי תשומה בבנייה למגורים\",\"chapterOrder\":6,\"mainCode\":200010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_800010",
+      "claim": "CBS Price Indices API index code 800010 is the commercial and office building input costs index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד מחירי תשומה בבנייה למסחר ולמשרדים\",\"chapterOrder\":7,\"mainCode\":800010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_240010",
+      "claim": "CBS Price Indices API index code 240010 is the paving and bridging input costs index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד מחירי תשומה בסלילה וגישור\",\"chapterOrder\":8,\"mainCode\":240010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_code_260010",
+      "claim": "CBS Price Indices API index code 260010 is the agricultural input costs index, per the live catalog endpoint.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "\"chapterName\":\"מדד מחירי תשומה בחקלאות\",\"chapterOrder\":9,\"mainCode\":260010",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "cbs_catalog_no_weights",
+      "claim": "The CBS Price Indices API catalog endpoint returns only index chapters (chapterId, chapterName, chapterOrder, mainCode, subject). It carries no CPI component weights.",
+      "source_url": "https://api.cbs.gov.il/index/catalog/catalog?format=json",
+      "raw_snippet": "{\"chapterId\":\"a\",\"chapterName\":\"מדד המחירים לצרכן\",\"chapterOrder\":1,\"mainCode\":120010,\"subject\":null}",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL_HE.md שלב 2",
+        "scripts/fetch_cbs_data.py",
+        "references/cbs-data-guide.md"
+      ]
+    },
+    {
+      "claim_id": "datagov_lamas_14_datasets",
+      "claim": "data.gov.il hosts 14 CBS datasets under the organization slug lamas, including the 2022 Population and Housing Census, the Israeli localities file, master code lists and the injury-accident public-use files.",
+      "source_url": "https://data.gov.il/api/3/action/package_search?fq=organization:lamas",
+      "raw_snippet": "\"count\": 14",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md קישורי עזר"
+      ]
+    },
+    {
+      "claim_id": "cbs_api_index_base_not_fetchable",
+      "claim": "The CBS Price Indices API base path api.cbs.gov.il/index is a path prefix, not a fetchable endpoint: requesting it directly returns the CBS error page. Only its sub-paths /catalog/catalog and /data/price return data.",
+      "source_url": "https://api.cbs.gov.il/index",
+      "raw_snippet": "Oops, Something is wrong",
+      "fetched_at": "2026-08-18T20:30:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "references/cbs-data-guide.md",
+        "scripts/fetch_cbs_data.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
+    },
+    {
+      "claim_id": "datagov_org_browse_accessdenied",
+      "claim": "The data.gov.il human browse routes under /organization/ and /dataset?organization= return an S3 AccessDenied error, in curl and in a real browser alike, while the CKAN API path still serves the data.",
       "source_url": "https://data.gov.il/organization/lamas",
-      "raw_snippet": "\"name\": \"lamas\"",
-      "source_note": "The HTML page is behind an anti-bot JS challenge; the same organization record is returned by the CKAN API entry datagov-lamas-org.",
-      "fetched_at": "2026-08-11",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11",
+      "raw_snippet": "<Error> <Code>AccessDenied</Code> <Message>Access Denied</Message>",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "appears_in": [
-        "SKILL.md"
-      ]
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md קישורי עזר"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
     },
     {
-      "claim_id": "cpi-june-2026",
-      "claim": "Latest published CPI at the time of writing: June 2026, annual 1.6%, monthly 0.0%, index 104.8 on the 2024 average base. April 2026 was 1.9% annual and +1.2% monthly, and May 2026 was 1.9% annual and -0.3% monthly.",
-      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&last=16",
-      "raw_snippet": "{\"year\": 2026, \"percent\": 0.0, \"percentYear\": 1.6, \"currBase\": {\"baseDesc\": \"2024 ממוצע\", \"value\": 104.8}, \"prevBase\": null, \"month\": 6, \"monthDesc\": \"יוני\"}",
-      "fetched_at": "2026-08-11",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11",
+      "claim_id": "cbs_linkage_calculator_page",
+      "claim": "CBS publishes an official Linkage Calculations tool at cbs.gov.il/en/Pages/Linkage-calculations.aspx for computing an indexed amount between two dates.",
+      "source_url": "https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx",
+      "raw_snippet": "Linkage calculations",
+      "fetched_at": "2026-08-18T20:30:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL.md Step 6",
+        "SKILL_HE.md שלב 6",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md קישורי עזר"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T20:30:00Z"
     }
   ]
 }

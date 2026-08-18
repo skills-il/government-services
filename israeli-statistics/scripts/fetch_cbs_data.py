@@ -122,10 +122,15 @@ def fetch_cpi_info() -> None:
     print("  housing (diyur), transportation (tachburah), food (mazon),")
     print("  education & culture, health (briut), furniture & household,")
     print("  clothing & footwear, miscellaneous")
-    print("  Fetch current weights from the catalog endpoint; do not quote from memory.")
+    print("  NOTE: the API does NOT serve component weights. The catalog endpoint")
+    print("  returns only chapter names and index codes. Take current weights from")
+    print("  https://www.cbs.gov.il/en/Pages/Main%20Price%20Indices.aspx")
+    print("  Do not quote a weight from memory.")
 
     print()
-    print("Publication: Monthly, ~15th of following month")
+    print("Publication: 15th of the month at 18:30 Israel time; moved to 14:00 on")
+    print("the preceding Friday / holiday eve when the 15th falls on a Friday,")
+    print("Saturday, holiday, or holiday eve.")
     print("Source: CBS Price Indices API (api.cbs.gov.il), index code 120010")
 
 
@@ -155,15 +160,21 @@ def calculate_rent_adjustment(old_cpi: float, new_cpi: float, rent: float) -> No
         print("The landlord may increase rent by the CPI change percentage")
         print("if the rental contract includes a madad adjustment clause.")
     elif change_percent < 0:
-        print("The CPI has decreased. If the contract includes a madad clause,")
-        print("the rent should decrease accordingly.")
+        print("The CPI has decreased. Whether the rent actually falls depends on")
+        print("the contract: many Israeli rental contracts include a floor clause")
+        print("barring a drop below the base index. Read that clause before")
+        print("telling anyone their rent goes down.")
     else:
         print("No change in CPI -- rent remains the same.")
 
     print()
     print("NOTE: Verify CPI values at api.cbs.gov.il (index code 120010) or")
     print("cbs.gov.il. Adjustments are typically annual, not monthly. Check")
-    print("your specific contract terms.")
+    print("your specific contract terms: which index is the base index (often")
+    print("the index KNOWN at signing, i.e. the previous month), whether a")
+    print("floor clause bars a decrease, and whether both values share a base")
+    print("period. For a disputed amount, prefer the official CBS calculator:")
+    print("https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx")
 
 
 def show_indicators() -> None:
@@ -178,7 +189,10 @@ def show_indicators() -> None:
         ("CPI / Inflation", "Monthly", "api.cbs.gov.il, code 120010"),
         ("Housing Price Index", "Monthly", "api.cbs.gov.il, code 40010"),
         ("Producer Prices (PPI)", "Monthly", "api.cbs.gov.il, code 170030"),
-        ("Building input costs", "Monthly", "api.cbs.gov.il, code 200010"),
+        ("Building input (residential)", "Monthly", "api.cbs.gov.il, code 200010"),
+        ("Building input (commercial)", "Monthly", "api.cbs.gov.il, code 800010"),
+        ("Paving & bridging input", "Monthly", "api.cbs.gov.il, code 240010"),
+        ("Agricultural input", "Monthly", "api.cbs.gov.il, code 260010"),
         ("GDP Growth", "Quarterly", "cbs.gov.il National Accounts tables"),
         ("Unemployment Rate", "Monthly", "cbs.gov.il Labour Force Survey"),
         ("Population", "Annual", "cbs.gov.il Population tables"),
@@ -202,7 +216,7 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
 
     # CPI info
-    subparsers.add_parser("cpi", help="CPI latest data and component weights")
+    subparsers.add_parser("cpi", help="CPI latest published values and component group names")
 
     # Rent calculator
     rent_parser = subparsers.add_parser("rent-calc", help="Rent adjustment calculator")

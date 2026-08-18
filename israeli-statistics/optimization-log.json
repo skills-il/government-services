@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Structural: the snapshot table was converted from embedded volatile values to fetch-always rows for the four API-served price series. The remaining numbered rows (BoI rate, unemployment, LFPR, GDP, population, minimum wage) have no public JSON API and still need a manual refresh each cycle. If an API for the Labour Force Survey appears, convert those too.",
+        "Evidence drift is bidirectional: the unemployment evidence snippet already read 3.1% / July 2026 while the SKILL.md body still said 2.7% / February 2026. A prior cycle refreshed evidence.json without propagating into the body. Next cycle, diff every evidence raw_snippet against the body value it backs, not only the reverse.",
+        "The CBS media-release pages (cbs.gov.il/en/mediarelease/.../Consumer-Price-Index-July-2026.aspx) render a title but an empty text body, so they cannot be used as an evidence source URL even though they exist and return 200. Cite the Main Price Indices hub instead.",
+        "Expert MINOR deferred: Step 4 still lists 'Average wage by sector (published quarterly)' with no code or table number to reach it; the wage series has no API path. Consider adding the CBS wage table number next cycle.",
+        "Deferred over the Phase 4.1 discretionary cap: the Gotchas section does not warn that the apartment price index (40010) sits on a 1993 average base while the CPI (120010) sits on a 2024 average base, so the two index values are not comparable in level. The base-mismatch Troubleshooting row covers the general case but not this specific pairing.",
+        "Deferred: no Gotcha covers the case where a script runs behind an SSL-intercepting proxy. The bundled script exits with a bare certificate-verify error, which reads as a CBS outage. Observed during this cycle's own script run."
+      ]
+    }
+  ]
+}
