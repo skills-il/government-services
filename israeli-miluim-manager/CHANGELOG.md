@@ -1,5 +1,37 @@
 # Changelog
 
+## 2.0.0 - 2026-08-18
+
+Major correction cycle. Four payment tracks, not three, and several claims that were shipped as facts turned out to be wrong.
+
+### Fixed (user-harm)
+
+- **Tagmul meyuchad is two layers, and the base one was missing.** v1.5.0 replaced the day-32 rule with the day-61 rule. Both are real: days 32-60 pay a flat 133.33 NIS per shamap day, and only the rate BEYOND day 60 is year-specific. A 70-day reservist was being under-told by 3,866.57 NIS, and anyone with 32-60 days was told they get nothing.
+- **The beyond-60 rate is selected by service year.** The skill carried only the 2026 table. 2024 (flat 133) and 2025 (133/60/40) are tzav 8 only and still govern the cohort being paid in May 2026, which is the commonest live question.
+- **The appeal deadline was the wrong body and the wrong clock.** references/troubleshooting.md said "file an appeal with Bituach Leumi within 6 months". The operative remedy is a filing with the regional Labour Court within 12 months of delivery of the decision (reg. 1(b), Moadim LeHagashat Tovanot). The 6-month window belongs to Vaadat Tviot, which can only recommend reconsideration and expressly does not pause the court clock.
+- **The debt-offset instruction was inverted.** The skill told users arrears may be blocking their payout and to settle them. Bituach Leumi does not offset a debt unless the recipient asks it to.
+- **Section 36A of the Defence Service Law was about to be cited for a payment.** It is the age-exemption provision with no payment language. The over-age tagmul is real and now documented, but that anchor is not.
+
+### Added
+
+- Fourth payment track: tagmul for over-age reservists, 133.33/day and 66.67/half-day, in addition to tagmul meyuchad, with the alouf mishne exclusion.
+- Tagmul nosaf is no longer flagged unverified: 10+ cumulative shamap days under s.19, four bands to 5,808 NIS, the special 25% tax under s.19(e)(1), and the tension between the statutory payer (Tax Authority) and the operational route (IDF).
+- Four Bituach Leumi income-basis rows that were missing entirely: non-workers, those who stopped work within 60 days of call-up, recent keva dischargees, and unemployment-benefit recipients.
+- Employment protection rewritten around the right instruments: the void causal ban in s.41A(a1), the permit regime in s.41A(b) that also covers job scope and income, the notice-period exclusion in s.41A(c), the employer's burden in s.41A(d), and the s.21 remedies (a damages floor, not a cap).
+- The 30 vs 31-60 day split now names both committees: Vaadat HaTaasuka (Defence) and Vaadat Pikuach (Labour).
+- Spouse protection resolved into its two real layers: the permanent causal ban in s.41A2(b) with no day window, and a conditional 14-day temporary provision in force from 29.04.2026.
+- State-funded legal representation for dismissal, shimua or unpaid leave over reserve service, including its repayment undertaking and the employees-only limit.
+- Valtam and Form 58 routes for deferring or shortening a call-up, marked as army-order mechanisms with no statutory basis.
+- Travel reimbursement, active-reservist (mashmap) status definition, BTL tax withholding, multi-employer rules, and escalation channels.
+- New reference file `references/btl-payment-rules.md`.
+
+### Changed
+
+- SKILL_HE.md was never covered by the validator, which rejects any file not named SKILL.md. It was 6,762 words against a 5,000-word cap, still carried the Troubleshooting section that v1.6.2 moved out of the English file, and had two untranslated headings. Hebrew and English are now structurally aligned at 22 headings each.
+- Travel deadline corrected from a reported 4 days to 2, and it forfeits nothing (fuel is claimable retroactively). The valtam appeal window is 72 hours, not the reported 7 days.
+
+All notable changes to this skill are documented here.
+
 ## 1.6.2 - 2026-08-13
 
 Moved the Troubleshooting section to references/ to bring SKILL.md under the 5,000-word validator cap, which it had been exceeding. No content was removed.

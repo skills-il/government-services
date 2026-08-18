@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-miluim-manager",
-  "generated_at": "2026-07-14T00:00:00Z",
+  "generated_at": "2026-08-18T19:40:19.708822+00:00",
   "claims": [
     {
       "claim_id": "bl-max-daily-2026",
@@ -836,6 +836,718 @@
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "raw_snippet": "אישור המעסיק על עבודה ושכר",
       "confidence": "medium"
+    },
+    {
+      "claim_id": "tagmul-meyuchad-base-32-60",
+      "claim": "Tagmul Meyuchad base band: 32 to 60 cumulative shamap days in a calendar year pay a flat NIS 133.33 per shamap day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "חיילי מילואים שביצעו בין 32 ל-60 ימי מילואים במצטבר בשנה קלנדרית (מ-1 בינואר עד 31 בדצמבר) זכאים לתגמול מיוחד, בגין ימים אלו.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read; kolzchut Cloudflare-blocks curl)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-base-rate",
+      "claim": "The base-band Tagmul Meyuchad rate is 133.33 NIS per shamap day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-2024-2025-tables",
+      "claim": "Beyond day 60 the Tagmul Meyuchad rate is year-specific: 2024 (tzav 8 only) flat 133 NIS/day to end-2024; 2025 (tzav 8 only) 133 combat / 60 HAGMAR / 40 other units.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "מי ששירת במילואים בצו 8 בשנת 2024 יקבל תגמול מיוחד גם עבור שירות מעבר ל-60 הימים עד לסוף שנת 2024 - בסכום של 133 ש\"ח ליום שמ\"פ.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-2025-bands",
+      "claim": "For 2025 tzav 8 service beyond day 60 the daily rate is 133 for the combat array, 60 for HAGMAR and 40 for other units.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "133 ₪ ליום למשרתים במערך הלוחם",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-meyuchad-commanders",
+      "claim": "Commanders are entitled to Tagmul Meyuchad also for shamap days beyond 60 performed in the year. The source states the entitlement but no rate for those days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "מפקדים במילואים זכאים לתגמול מיוחד גם על מעבר ל-60 ימי שמ\"פ שביצעו בשנה.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-moharegei-gil",
+      "claim": "A separate over-age tagmul pays 133.33 NIS per shamap day and 66.67 NIS per half-day, in addition to Tagmul Meyuchad.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9E%D7%95%D7%97%D7%A8%D7%92%D7%99_%D7%92%D7%99%D7%9C",
+      "raw_snippet": "חייל מילואים מוחרג גיל זכאי לתגמול למוחרגי גיל בנוסף על התגמול המיוחד.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "moharegei-gil-eligibility",
+      "claim": "Over-age tagmul covers soldiers aged 40+ and officers aged 45+ obliged to serve longer by role or profession. Officers ranked alouf mishne and above are not entitled.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9E%D7%95%D7%97%D7%A8%D7%92%D7%99_%D7%92%D7%99%D7%9C",
+      "raw_snippet": "קצינים בדרגת אל\"מ ומעלה אינם זכאים לתגמול מוחרגי גיל.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-nosaf-10-days",
+      "claim": "Tagmul Nosaf requires 10 or more cumulative shamap days in a calendar year, under section 19 of the Reserve Service Law.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%A0%D7%95%D7%A1%D7%A3_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "בהתאם לסעיף 19 לחוק שירות המילואים, חיילי מילואים שביצעו במצטבר 10 ימי שמ\"פ ומעלה בשנה קלנדרית (מה-1 בינואר עד ל-31 בדצמבר), זכאים לתגמול נוסף.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-nosaf-25pct-tax",
+      "claim": "Section 19(e)(1) of the Reserve Service Law imposes a special 25% income tax on Tagmul Nosaf, with no right to deduction, offset, exemption or reduction.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "מקבל התגמול הנוסף חייב במס הכנסה בשיעור של 25% (בסעיף זה – המס המיוחד), בלא זכות לניכוי, לקיזוז, לפטור או להפחתה כלשהם.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-nosaf-payer-statute",
+      "claim": "Section 19(b) assigns execution of the Tagmul Nosaf payment to the Israel Tax Authority, which sits in tension with the operational guidance routing it through the IDF.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "תשלום התגמול הנוסף יתבצע על ידי רשות המסים בישראל בדרך שקבע השר בהסכמת שר האוצר.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-nosaf-two-point-cap",
+      "claim": "Section 19(c) delegates the Tagmul Nosaf qualifying period and rate to Supreme Command Orders, capped at the value of two tax credit points per year.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "תנאי הזכאות לתגמול הנוסף, לרבות משך תקופת שירות המילואים המזכה, שיעור התגמול, וכן הליכי בקרה ובירור, ייקבעו בהוראות הפיקוד העליון, ובלבד שהזכאות לתשלום לחייל מילואים בכל שנה לא תעלה על סכום השווה לשתי נקודות זיכוי",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tagmul-nosaf-bands",
+      "claim": "Tagmul Nosaf bands for 2025 service paid May 2026: 10 to 14.5 days = 1,452 NIS; 15 to 19.5 = 2,904; 20 to 36.5 = 4,356; 37 and above = 5,808.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%A0%D7%95%D7%A1%D7%A3_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "10-14.5 0.5 נקודת זיכוי 1,452 ₪",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s18-delegation",
+      "claim": "Section 18(a) of the Reserve Service Law delegates the Tagmul Meyuchad eligibility conditions, qualifying service period, rates and payment methods to army orders, so no day threshold is statutory.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "תנאי הזכאות לתגמול המיוחד, לרבות משך תקופת שירות המילואים המזכה, וכן שיעוריו ודרכי ביצוע התשלום, ייקבעו בפקודות הצבא.",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s30-idf-publication-duty",
+      "claim": "Section 30 of the Reserve Service Law obliges the IDF to publish reserve-service rules on its website, including the eligibility conditions, qualifying period, rate and payment method for both the special and the additional tagmul.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "באתר האינטרנט של צבא הגנה לישראל יפורסם מידע בדבר הכללים לעניין שירות מילואים",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s11a-army-order-delegation",
+      "claim": "Section 11(a) delegates all reserve-service rules, including advance-notice rules and the reservist's rights and duties, to army orders. The Act establishes no valtam committee and no statutory deferral deadline.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "כללים לעניין שירות מילואים לפי חוק זה, לרבות לעניין מתן הודעה מראש על קריאה לשירות מילואים, ייקבעו בפקודות הצבא",
+      "fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s41a-b-permit-and-scope",
+      "claim": "Section 41A(b) bars dismissal during reserve service without a permit from the Employment Committee, and for service exceeding two consecutive days also bars dismissal or impairment of job scope or income for 30 days after service ends.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "ולענין שירות מילואים העולה על יומיים רצופים, לא יפטרו ולא יפגע בהיקף המשרה או בהכנסה שלו בלא היתר כאמור גם בתקופה של שלושים ימים לאחר תום שירות המילואים",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "s41a-c-notice-exclusion",
+      "claim": "Section 41A(c) excludes the protected periods from the count of prior-notice days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "במניין ימי ההודעה המוקדמת לפיטורים, לא יבואו התקופות המפורטות בסעיף קטן (ב).",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s21-damages-floor",
+      "claim": "Section 21(c)(2) sets damages at five times the monthly wage, or for dismissal contrary to sections 41A or 41A2 the higher of that or five times the average wage, and expressly permits the committee to award a different sum for special recorded reasons. It is a default, not a cap.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "ואולם רשאית הועדה להחליט, מטעמים מיוחדים שיירשמו, לפסוק פיצויים בסכום אחר שתקבע",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s41a2-b-spouse-permanent",
+      "claim": "Section 41A2(b) permanently bars dismissing an employee because of the reserve service of their spouse or their child's other parent, including because of its frequency or duration, and such dismissal is void.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_4483019.pdf",
+      "raw_snippet": "לא יפטר מעסיק עובד בשל שירותו במילואים של בן זוגו או הורהו האחר של ילדו, בשל קריאתו לשירות מילואים או בשל שירותו הצפוי בשירות מילואים, לרבות בשל תדירות שירות המילואים או משכו, ואם פיטרו - בטלים הפיטורים",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "pdf (Rashumot, Sefer HaChukim 3216, fetched with curl and read with pdftotext)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s41a2-e-spouse-temporary",
+      "claim": "A temporary provision in force from 29.04.2026 bars dismissal and unpaid leave for a spouse with a child during the reserve service and for 14 days after, subject to an Employment Committee permit, where the service is under section 8 emergency conditions or lasts or is expected to last at least 21 consecutive days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "לא יפטר מעסיק עובד שעימו ילד ולא יוציא לחופשה ללא תשלום עובד כאמור בתקופת שירותו במילואים של בן זוגו או הורהו האחר של ילדו או בתקופה של 14 ימים לאחר תום שירות המילואים אלא בהיתר מאת ועדת התעסוקה",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-harchava-31-60",
+      "claim": "An extension order provides that an employer of an employee absent for 60 or more days of reserve service may not dismiss them during the 30 days following the statutory 30 days, except with the approval of a Supervision Committee, which decides within 14 days.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/ooahuywl/%D7%A6%D7%95-%D7%94%D7%A8%D7%97%D7%91%D7%94-%D7%AA%D7%A2%D7%A1%D7%95%D7%A7%D7%AA%D7%99.pdf",
+      "raw_snippet": "מעסיק של עובד שנעדר בשל שירות מילואים במשך 60 ימים או יותר במהלך תקופת ההסכם, לא יפטרו גם בתקופה של 30 הימים העוקבים ל–30 הימים שלאחר תום שירות המילואים",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "pdf (extension order, Yalkut HaPirsumim 12159, fetched with curl and read with pdftotext)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "btl-appeal-12-months",
+      "claim": "Where the Institute has decided a claim and notice was delivered, a suit must be filed with the Labour Court within twelve months of delivery of the notice.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_(%D7%9E%D7%95%D7%A2%D7%93%D7%99%D7%9D_%D7%9C%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%95%D7%91%D7%A2%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "החליט המוסד בתביעה ונמסרה לתובע הודעה על כך, תוגש תובענה לבית הדין לעבודה תוך שניים עשר חודשים מיום מסירת ההודעה לתובע",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "btl-suit-earliest-30-days",
+      "claim": "A suit against the Institute may be filed with the Labour Court at the earliest thirty days after the claim was submitted to the Institute, unless the Institute decided sooner.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_(%D7%9E%D7%95%D7%A2%D7%93%D7%99%D7%9D_%D7%9C%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%95%D7%91%D7%A2%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "תובענה נגד המוסד תוגש לבית הדין לעבודה לכל המוקדם בתום שלושים יום מהיום שבו הוגשה התביעה למוסד עצמו",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
+      "appears_in": [
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "vaadat-tviot-non-tolling",
+      "claim": "A referral to the Claims Committee does not postpone the statutory deadline for appealing to the Labour Court, and the committee may only recommend that the claims officer reconsider.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "הפנייה לוועדת התביעות לא דוחה את המועד הקבוע בחוק להגשת ערעור לבית הדין לעבודה",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "browser (Playwright, href asserted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "btl-legal-aid-397",
+      "claim": "Section 397 of the National Insurance Law provides for regulations granting legal aid to any non-corporate applicant in Labour Court proceedings to which the Institute is a party.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "יתקין תקנות בדבר מתן סיוע משפטי לכל מבקש, שאינו חבר־בני־אדם, בהליכים בבית הדין לעבודה שהמוסד הוא צד בהם",
+      "fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-nonworker-flat",
+      "claim": "A reservist not working before call-up receives a flat 328.76 NIS per day, 9,863 NIS per month (2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%9E%D7%99_%D7%A9%D7%9C%D7%90_%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "סכום התשלום למי שלא עבדו לפני שנקראו למילואים (נכון ל-2026): 328.76 ₪ ליום",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-60day-former-income",
+      "claim": "A reservist called up within 60 days of ceasing salaried or self-employed work is assessed on that former employment income rather than the floor.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%9E%D7%99_%D7%A9%D7%9C%D7%90_%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "למי שנקראו למילואים בתוך 60 ימים אחרי שהפסיקו לעבוד כשכירים או כעצמאים התשלום יחושב לפי ההכנסה שהייתה להם מעבודה.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-keva-discharge-basis",
+      "claim": "A reservist called up within 60 days of discharge from career service may be paid at the career-service salary.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%9E%D7%99_%D7%A9%D7%9C%D7%90_%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "מי שנקראו למילואים בתוך 60 ימים אחרי שהשתחררו מקבע עשויים לקבל תשלום בגובה השכר שקיבלו בשירות הקבע.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-unemployment-basis",
+      "claim": "A reservist receiving unemployment benefit above 328.76 NIS per day is paid at the unemployment rate, if still entitled during the service.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%9E%D7%99_%D7%A9%D7%9C%D7%90_%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "למי שנקראו למילואים בתקופה שקיבלו דמי אבטלה בסכום גבוה יותר מ-328.76 ₪ ליום, התשלום עבור המילואים יהיה בגובה דמי האבטלה",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-multi-employer",
+      "claim": "With more than one employer, the main employer's wage portion is paid through that employer and the rest requires a personal claim attaching payslips from all workplaces including the main one.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "את התשלום על השכר שמשלם המעסיק הראשי מקבלים דרך אותו מעסיק. על השכר משאר המעסיקים צריכים להגיש תביעה אישית ולצרף תלושי שכר מכל מקומות העבודה (כולל מהמעסיק הראשי).",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-single-and-half-day",
+      "claim": "Single-day and half-day reserve service both qualify for compensation, and training under the Emergency Labour Service Law also qualifies.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "הם נקראו לשירות מילואים, כולל שירות חד-יומי וחצי יומי.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-half-day-half-value",
+      "claim": "For Bituach Leumi purposes a half-day of reserve service counts as 0.5 of a day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "שירות חצי יומי\t0.5 יום",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-excluded-forces",
+      "claim": "Police officers, prison-service staff and Knesset guards who serve reserve duty are paid by the Ministry of Finance rather than by Bituach Leumi.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "שוטרים, סוהרים ואנשי משמר הכנסת ששירתו במילואים לא מקבלים את התשלום מהביטוח הלאומי, אלא ממשרד האוצר.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-income-tax-withheld",
+      "claim": "Bituach Leumi transfers the reserve payment after deducting income tax from it.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "המוסד לביטוח לאומי מעביר את התשלום אחרי שהוא מפחית ממנו מס הכנסה.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-debt-offset-opt-in",
+      "claim": "Bituach Leumi does not deduct a debt owed to it from the reserve payment unless the recipient requests it.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "מתשלום מילואים לא ינוכה חוב לביטוח הלאומי, אלא אם מקבל התשלום מבקש זאת.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "btl-paid-during-absence",
+      "claim": "The reserve payment is made for the whole service period including days the reservist was absent due to illness, leave or injury.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "התשלום ניתן לאורך כל תקופת המילואים, כולל בימים שבהם משרתי המילואים נעדרו מהשירות בגלל מחלה, חופשה או פציעה.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "btl-personal-claim-health-only",
+      "claim": "On a personal claim Bituach Leumi deducts only health-insurance contributions, and the reservist must contact the branch collections department to settle national-insurance contributions.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%9C%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "המוסד לביטוח לאומי מפחית מהתשלום רק דמי ביטוח בריאות.",
+      "fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "mashmap-status-days",
+      "claim": "Active reservist status requires 20 miluim days over 3 consecutive years, or 75% of that (15 days) for the combat array.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A9%D7%A8%D7%AA-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A4%D7%A2%D7%99%D7%9C/",
+      "raw_snippet": "במידה והמשרת משתייך למערך הלוחם יוכל להנות ממעמד \"משרת מילואים פעיל\" לאחר ביצוע 75% ממכסת ימי המילואים שהוצגה מעלה - דהיינו, 15 ימי מילואים במשך 3 שנים רצופות או חלק מהן.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "manak-kalkalat-bait-status",
+      "claim": "The household-economy grant is an annual 1,250 NIS grant gated on active reservist status.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A9%D7%A8%D7%AA-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A4%D7%A2%D7%99%D7%9C/",
+      "raw_snippet": "מענק שנתי בגובה 1,250 שח לטובת תשלומי משק בית (כגון: ארנונה, חשמל)",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "travel-66-cap",
+      "claim": "Travel expense reimbursement for reserve service is capped at 66 NIS per day.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%94%D7%97%D7%96%D7%A8-%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA-%D7%A0%D7%A1%D7%99%D7%A2%D7%94/",
+      "raw_snippet": "החזרי הוצאות הנסיעה מוגבלים בתקרה יומית של 66 ש\"ח.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "travel-two-day-deadline",
+      "claim": "The travel method is chosen on the miluim site up to two days before the call-up date, and fuel reimbursement may be claimed retroactively.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%94%D7%97%D7%96%D7%A8-%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA-%D7%A0%D7%A1%D7%99%D7%A2%D7%94/",
+      "raw_snippet": "בחירה באחת מ-3 השיטות תעשה באתר המילואים עד יומיים לפני מועד הזימון.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "form-58-title",
+      "claim": "Form 58 is the request form for release, shortening or deferral of reserve service, filed by the reservist through the miluim site and decided by the unit.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%91%D7%A7%D7%A9%D7%95%D7%AA-%D7%A4%D7%A8%D7%98/",
+      "raw_snippet": "מהו טופס 58? טופס בקשה לשחרור/קיצור/דחייה של שירות מילואים.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "form-58-appeal-gate",
+      "claim": "An appeal against the unit's decision on a Form 58 request may be filed once only, and only where the call-up exceeds three days and at least fourteen days remain before it begins.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%91%D7%A7%D7%A9%D7%95%D7%AA-%D7%A4%D7%A8%D7%98/",
+      "raw_snippet": "לחייל המילואים יש אפשרות להגיש פעם אחת בלבד ערעור על ההחלטה",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "valtam-72-hour-appeal",
+      "claim": "An appeal against a reserve coordination committee decision must be filed within 72 hours of the decision, and late requests or appeals are rejected.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%95%D7%A2%D7%93%D7%94-%D7%9C%D7%AA%D7%99%D7%90%D7%95%D7%9D-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%95%D7%9C%D7%AA%D7%9D/",
+      "raw_snippet": "יש להגיש ערעור תוך 72 שעות מיום ההחלטה. בקשות/ערעורים שיוגשו באיחור - יידחו.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "valtam-30-day-filing",
+      "claim": "Requests to the reserve coordination committee are filed up to 30 days before the start of the reserve service, and the committee hears only call-up orders of six days or more.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%95%D7%A2%D7%93%D7%94-%D7%9C%D7%AA%D7%99%D7%90%D7%95%D7%9D-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%95%D7%9C%D7%AA%D7%9D/",
+      "raw_snippet": "הולת\"ם דנה אך ורק בצו מילואים שמשכו שישה ימים ויותר. בקשות על צווים שמשכם חמישה ימים או פחות או בקשות שחרור מסיבות אישיות, יש להפנות למפקד היחידה בנוהל בקשת 58.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "form-501-employer-he",
+      "claim": "Form 501 is the employer's claim for reimbursement of reserve compensation, distinct from Form 502 (the reservist's personal claim), Form 509 (advance) and Form 510 (employer wage confirmation).",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/default.aspx",
+      "raw_snippet": "טופס 501",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "curl against btl.gov.il. The 501/502/509/510 form map was verified against the BTL reserve-duty forms index in an earlier cycle and is retained; kolzchut does not publish the numbers.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "worked-example-3866",
+      "claim": "Worked example: 29 qualifying days (32 through 60 inclusive) at the base rate of 133.33 NIS per shamap day totals 3,866.57 NIS. This is arithmetic derived from the base-band rate, not a figure printed on any source page.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "derived arithmetic from the evidenced base rate (29 x 133.33), stated as such",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "he-sec-18",
+      "claim": "Section 18 of the Reserve Service Law governs the special tagmul and delegates its conditions and rates to army orders.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "(ד) הוראות סעיף 18(ג) ו־(ד) יחולו, בשינויים המחויבים, על התגמול הנוסף.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "he-sec-30",
+      "claim": "Section 30 of the Reserve Service Law is the internet-publication duty.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "במידע הנמסר לחיילים בשירות מילואים בדבר זכויותיהם לפי סעיף 11(ב) לחוק שירות המילואים ובמידע המפורסם באתר האינטרנט של צבא הגנה לישראל לפי סעיף 30 לחוק האמור",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "he-sec-21",
+      "claim": "Section 21 of the Discharged Soldiers (Return to Work) Law governs applications to the Employment Committee and the remedies it may order.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_(%D7%94%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94)",
+      "raw_snippet": "כל מי שהיה צד להליך לפי סעיף 21 ואינו המערער יהיה משיב בערעור",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "he-sec-36a",
+      "claim": "Section 36A of the Defence Service Law is the age-exemption provision (40 for non-officers, 45 for officers) and contains no payment provision.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F",
+      "raw_snippet": "אזרח ישראלי או תושב קבוע שמלאו לו שמונה עשרה שנים וטרם קיבל פטור משירות ביטחון מחמת גיל לפי סעיף 36א",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "sec-396-enabling-only",
+      "claim": "Section 396 of the National Insurance Law empowers the Minister of Justice to set deadlines by regulation; it sets no period itself.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "שר המשפטים, בהתייעצות עם השר, רשאי לקבוע הוראות בדבר מועדים להגשת תובענות וערעורים לענין חוק זה לפני בית הדין לעבודה.",
+      "fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
+      "appears_in": [
+        "references/btl-payment-rules.md"
+      ]
     }
   ],
   "pending_verification": [

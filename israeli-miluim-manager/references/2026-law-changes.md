@@ -495,9 +495,6 @@ as law, and treat any day figure as an army-order practice that can change.
 | Powers | דחייה / קבלה / קיצור / פיצול; decisions valid 60 days | Change, cancel, or reject |
 | Basis | פקודת מטכ"ל 31.0603 | נוהל בקשת 58 |
 
-Do not confuse Form 58 with Form 55 (unit transfer or exit to פטור) or Form 445 (consent to a
-call-up that breaches the call-up rules).
-
 ## Travel reimbursement
 
 Choose one of three options on miluim.idf.il up to **two days** before reporting: rav-kav funding,

@@ -33,7 +33,7 @@ A form submitted to an authority is a document whose contents are your responsib
 
 **Call-up:** a Tsav Kriah or Tsav 8 arrives by mail, phone or IDF systems; on release the reservist gets **Form 3010** confirming service dates. Combat reservists also need an **Ishur Lochem** for the Amendment 283 tiers.
 
-**Changing or deferring a call-up.** Orders of **6+ days** on economic or study grounds go to **ולת"ם**: file up to 30 days ahead, appeal within **72 hours** of the decision or it is rejected outright. Orders of **5 days or fewer**, and personal-grounds requests, go to the unit via **Form 58** (`טופס בקשה לשחרור/קיצור/דחייה של שירות מילואים`) on miluim.idf.il; the unit answers within 10 days, and an appeal exists only if the call-up exceeds 3 days with 14+ days still to run. Both are army-order mechanisms with **no statutory basis**, so present them as IDF procedure, not law.
+**Changing or deferring a call-up.** Orders of **6+ days** on economic or study grounds go to **ולת"ם**: file up to 30 days ahead, appeal within **72 hours** or it is rejected outright. Orders of **5 days or fewer**, and personal grounds, go to the unit via **Form 58** on miluim.idf.il; the unit answers within 10 days, and an appeal exists only if the call-up exceeds 3 days with 14+ days still to run. Both are army-order mechanisms with **no statutory basis**, so present them as IDF procedure, not law.
 
 ### Step 2: Employment Protections
 
@@ -95,7 +95,7 @@ Those 60-day windows are unrecoverable once missed: ask when the person last wor
 
 **Do not confuse the forms:** **502** = the reservist's personal claim, **501** = the employer's reimbursement claim, **509** = advance request, **510** = the EMPLOYER's confirmation of work and wages. If an employer refuses to advance salary the reservist files **502** and is paid directly (alongside, not instead of, a Beit Din LaAvoda complaint). Telling them to "file 510" sends them to a form only that employer can complete. Step-by-step in `references/bituach-leumi-filing-guide.md`.
 
-**The three IDF payments, in brief.** Full tables, statutory anchors and tax caveats in `references/2026-law-changes.md`; read it before quoting a figure.
+**The three IDF payments, in brief.** Full tables and statutory anchors in `references/2026-law-changes.md`; read it before quoting a figure.
 
 *Tagmul Nosaf* (Section 19): **10+ cumulative shamap days** in a calendar year, banded NIS 1,452 (10-14.5 days) to NIS 5,808 (37+), capped at two credit points, paid by 1 May of the following year. Section 19(e)(1) imposes a **special 25% tax** at source, which sits awkwardly with the published claim that no income tax is levied, so tell the user to check the actual deposit rather than promising a figure. It **confers no credit points**: never double-count it against the Amendment 283 credit.
 
@@ -186,7 +186,7 @@ Bank Israel maintains a relief framework for reservists, renewed periodically.
 
 **How to claim:** contact the bank during or after service with Form 3010 and ask for sherut lakuchot miluim. Verify current terms on bankisrael.org.il.
 
-**Travel to and from service** is reimbursed: choose rav-kav funding, fuel reimbursement, or waiver on miluim.idf.il up to **two days** before reporting. Missing that window forfeits nothing, you can update through the miluim hotline or with the unit's ק.משא"ן on arrival, and fuel reimbursement can be claimed **retroactively**. Capped at NIS 66/day.
+**Travel** is reimbursed: pick rav-kav, fuel reimbursement, or waiver on miluim.idf.il up to **two days** before reporting. Missing that forfeits nothing (update via the hotline or the unit's ק.משא"ן on arrival, and fuel is claimable **retroactively**). Capped at NIS 66/day.
 
 ### Step 10: Students in Higher Education
 
@@ -201,7 +201,7 @@ For tashpa"u (academic year 2025-26): a student who served **50+ qualifying sham
 | ד' | 30% |
 | ה' | 22% |
 
-A reservist already holding a state-funded scholarship gets this only for the uncovered remainder, with no double funding. Tiers א'+/א'/ב' with 50+ days who do NOT qualify get vocational-training and employment-guidance vouchers via the Ministry of Labor. Tier א'+ undergraduates in defined STEM subjects also get tutoring.
+A reservist already on a state-funded scholarship gets this only for the uncovered remainder. Tiers א'+/א'/ב' with 50+ days who do NOT qualify get vocational-training vouchers via the Ministry of Labor instead. Tier א'+ STEM undergraduates also get tutoring.
 
 Do NOT quote an academic-credit ("nekudot zikui limudiot") reduction table: none appears in the 2026 policy.
 
@@ -235,8 +235,10 @@ Result: Freelancer files claim, receives compensation directly from Bituach Leum
 ## Bundled Resources
 
 ### References
-- `references/2026-law-changes.md` -- every 2026 change: the permanent 20% employer compensation, tiered 30/60-day dismissal protection, the full 15-tier Amendment 283 table, Amendment 253 income-basis rules, and the complete tier-banded Keren HaSiyua grant tables. Consult for any grant amount, any tier band, or "what changed in 2026".
-- `references/bituach-leumi-filing-guide.md` -- step-by-step filing for all three payment tracks plus Manak Nezek Akif, the 501/502/509/510 form map, common rejection reasons, and Amendment 253 basis adjustments. Consult when filing or troubleshooting a rejected claim.
+- `references/2026-law-changes.md` -- every 2026 change, the three IDF payments in full (nosaf bands and its 25% tax, the two-layer meyuchad with its year-by-year table, the over-age track), the tier-banded Keren HaSiyua grants, משמ"פ status, ולת"ם and Form 58, travel, and escalation channels.
+- `references/btl-payment-rules.md` -- the BTL track: daily basis by situation, the 40% remainder rule, BTL-vs-IDF day counting, tax and contributions, the opt-in debt offset, and the 12-month Labour Court deadline.
+- `references/bituach-leumi-filing-guide.md` -- step-by-step filing, the 501/502/509/510 form map, rejection reasons, Amendment 253 basis adjustments.
+- `references/troubleshooting.md` -- full error scenarios: employer refusing salary, rejected BTL claim, rejected combat credit, dismissal in the protected window.
 
 ### Scripts
 - `scripts/miluim-tax-credit-calculator.py` -- estimates Amendment 283 combat credits for 2026-2027 from combat days and monthly income, using the 15-tier system, and flags the 2028 threshold drop. Run: `python scripts/miluim-tax-credit-calculator.py --help`

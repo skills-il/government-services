@@ -46,6 +46,26 @@
         "CARRY: 26 of 67 evidence entries still carry restated summaries rather than verbatim quotations, mostly because their source URLs are bot-blocked (gov.il 403, knesset 247) or JS-rendered. They do not mislead a user but they are not real verification; work them down in future cycles.",
         "CARRY: tool_manifests/miluim-daily-pay still has a stale sources note about a flat supplement from day 32. It does not reach the formula (the tool computes BTL tagmul only), so no user got a wrong number, but regenerate the checker to correct it."
       ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "RESOLVED CARRY (tagmul nosaf): the 10-day rule is real and statutory (s.19 + Supreme Command Orders), with four published bands. It had been flagged 'unverified for 2026' for three cycles because the 2026 IDF policy page does not restate it. The threshold does not live on that page at all; it lives in the statute and on kolzchut. Absence from the page a previous cycle happened to read is not evidence of absence.",
+        "RESOLVED CARRY (60-day dismissal ban): real, but NOT in s.41A. It is a collective-agreement extension order (Y.P. 12159 cl. 5.1), waived by a DIFFERENT ministry's committee. Three cycles searched the statute, failed to find it, and hedged. The lesson: when a widely-reported rule is absent from the statute, look for a collective agreement or extension order before calling it unverified.",
+        "RESOLVED CARRY (spouse protection): both prior figures were wrong in different ways. '14 days' was real but attached to the wrong limb (it is a conditional temporary provision from 29.04.2026 covering dismissal AND unpaid leave for a spouse with a child); 'scales up to 60' was invented. The permanent limb, s.41A2(b), has no day window at all.",
+        "THE BIG ONE: a previous cycle 'corrected' the tagmul meyuchad threshold from 32 to 61 and deleted the base band. Both rules were true, for different layers. Section 18(a) delegates everything to army orders, so there is no statutory threshold to adjudicate between them, and a source that states one is not denying the other. When two sources give different thresholds for the same benefit, test whether they are STACKED layers or rival claims before deleting either.",
+        "TEMPORAL COVERAGE: the beyond-60 rate has a different table per service year, selected by service date. The skill carried only the current year, so it answered the commonest live question (last year's service, paid this May) with the wrong table. Phase 3g.1 step 5 exists for exactly this and was not run in prior cycles.",
+        "THREE OF THE AUDIT'S OWN CRITICAL FINDINGS WERE WRONG: a 7-day valtam appeal (actually 72 hours), a 4-day travel deadline that forfeits the entitlement (actually 2 days and forfeits nothing), and s.36A as the anchor for the over-age payment (it is the exemption section, no payment language). Writing them would have introduced three fresh errors. Reviewer findings are leads, never text.",
+        "TWO RESEARCH AGENTS REPORTED THE OPPOSITE OF THE STATUTE on tagmul nosaf: one said it is untaxed (s.19(e)(1) imposes a special 25%), and both said the IDF pays it (s.19(b) assigns execution to the Tax Authority). Tax-free is true of tagmul meyuchad under s.18(c); they transposed the two sections.",
+        "SKILL_HE.md IS NEVER VALIDATED. validate-skill.sh hard-rejects any file not named exactly SKILL.md, so the word cap, structure and heading checks only ever ran on English. Hebrew had drifted to 6,762 words, kept a section the English file had moved to references, and carried two English headings, on the site's DEFAULT locale. Worth raising as a repo-wide gate gap, not just a fix here.",
+        "THE PLAYWRIGHT HIJACK IS REAL AND FREQUENT: across three concurrent agents the location.href assertion caught at least five hijacked reads, one of which would have reported an entire evidence set as absent. Every agent that reads a JS-rendered page must assert the URL before touching the DOM.",
+        "CARRY: the gov.il civil-service reservist page (csc-reservists-rights) is Cloudflare-blocked to scripted fetches and was never read. The public-sector benefit set is therefore still undocumented. Read it in a browser next cycle.",
+        "CARRY: the 2026 extension order's Yalkut HaPirsumim number could not be obtained from any primary text. It is cited by date (29.04.2026), corroborated by the statute's own temporary-provision dates. Find the number next cycle.",
+        "CARRY: whether the published tagmul nosaf band figures are gross or net of the 25% special tax is genuinely unresolved. The source page says both 'after tax deduction' and 'no income tax will be levied'. The skill tells users to check the actual deposit rather than promising a figure.",
+        "CARRY: commanders are entitled to tagmul meyuchad beyond day 60, but no source states the RATE for those days. Entitlement documented, rate deliberately omitted.",
+        "CARRY: 'yom lochem' may not be IDF-portal vocabulary at all; the portal uses 'madreg peilut'. A site search found nothing, but the search may not honour the query parameter, so this is unverified rather than a negative."
+      ]
     }
   ]
 }
