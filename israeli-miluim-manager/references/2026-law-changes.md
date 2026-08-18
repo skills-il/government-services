@@ -27,7 +27,6 @@ The following wartime temporary provisions were enshrined in permanent law start
 |--------|---------------------|-------------------------------|
 | What it covers | 20% of salary for pension, national insurance, and other social contributions during miluim | Same (now permanent) |
 | Paid by | Government (via Bituach Leumi) | Government (via Bituach Leumi) |
-| Effective date | Was temporary emergency order | Anchored by a statutory amendment; Bituach Leumi is paying it retroactively for service periods since the start of the war. The exact plenum date could not be verified |
 | Eligible employers | Private employers only | Private employers only (public employers explicitly excluded) |
 | Estimated annual cost | Part of emergency budget | Not published in an official source; do not quote a figure |
 
@@ -126,7 +125,7 @@ Effective May 1, 2025. Fixes the income basis calculation for reservists who ser
 
 ## Tax Credit Tiers for Combat Reservists (Amendment 283)
 
-Amendment 283 to the Income Tax Ordinance (Section 39B), passed by the Knesset on November 19, 2025, introduced a graduated tax credit system for **combat reservists** based on days of combat service. This applies to tax years 2026-2027.
+Amendment 283 to the Income Tax Ordinance (Section 39B), published in Sefer HaChukim as amendment תשפ"ו to the Income Tax Ordinance (the Knesset plenum date could not be sourced, as the Knesset site is unreadable to any automated fetch), introduced a graduated tax credit system for **combat reservists** based on days of combat service. This applies to tax years 2026-2027.
 
 **Important:** These tiers apply only to combat service days (yamei lochem) and start at 30 days. Service under 30 combat days, and non-combat reserve service, do NOT qualify for any Amendment 283 credit. There is no separate 'standard reservist' credit point (every resident already gets the universal 2.25 base points; the combat credit is added on top of those for 30+ confirmed combat days, per kolzchut).
 
@@ -309,7 +308,7 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 |-----------|---------|-------------|
 | Post-service dismissal ban (under 60 days) | 30 days | 30 days (permanent law) |
 | Post-service dismissal ban (60+ days served) | 60 days (temporary) | 60 days, split across two instruments and two committees (30 statutory + 30 by extension order), made permanent by the 29.04.2026 order |
-| 20% employer social contribution compensation | Active (temporary) | Active (anchored permanently April 27, 2026; private employers only) |
+| 20% employer social contribution compensation | Active (temporary) | Active (anchored permanently by a National Insurance Law amendment published 29.04.2026; private employers only) |
 | Supplementary employer compensation (temp replacements) | Active | Expired |
 | Spouse 1-hour paid absence | Active | Active (made permanent) |
 | Spouse paid leave days (graduated) | Active | Up to 8 days based on reservist's accumulated days and child age (under 14) |

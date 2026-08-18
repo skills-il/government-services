@@ -93,7 +93,7 @@ If your employer fails to advance your salary during miluim:
 2. **Point out** that Bituach Leumi reimburses the employer for the full salary cost
 3. **Form 502 fallback (most important)**: file **Form 502**, the reservist's own personal claim, directly with Bituach Leumi and be paid straight to your bank account. Do NOT try to file Form 510: that is the employer's wage confirmation and only the employer can complete it. This is independent of any complaint against the employer; you do not have to wait for the dispute to resolve.
 4. **File a complaint** with the Labor Court (Beit Din LaAvoda) for any wages owed beyond what BL covers, plus penalties
-5. **Note for the employer**: The state reimburses 20% of salary for social contributions (private employers only; permanent since January 2026, anchored by NII Law amendment April 27, 2026), reducing the employer's financial burden
+5. **Note for the employer**: The state reimburses 20% of salary for social contributions (private employers only; permanent since January 2026, anchored by a National Insurance Law amendment published 29.04.2026), reducing the employer's financial burden
 
 ## For Self-Employed (Atzma'im, עצמאיים)
 
@@ -198,7 +198,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 
 | Situation | How It Works |
 |-----------|-------------|
-| Two or more employers | Each employer files separately for their portion of salary |
+| Two or more employers | The MAIN employer's portion comes through that employer. For every other employer's wages the reservist files a PERSONAL claim (Form 502) attaching payslips from all workplaces, including the main one |
 | Part-time + self-employed | Employer files for salary portion; you file directly for self-employed income |
 | Changed jobs during 3-month period | Compensation based on total income from all sources |
 

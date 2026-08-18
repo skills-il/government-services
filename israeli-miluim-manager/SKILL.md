@@ -50,13 +50,13 @@ A form submitted to an authority is a document whose contents are your responsib
 | Seniority, pension, keren hishtalmut | Preserved; deposits continue on the pre-service salary (sechar kove'a) |
 | 20% social contribution compensation | 20% of the 3-month wage base / 90. All employers except public ones |
 
-**Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח). The wrong one wastes the window. The 31-60 extension requires 60+ reserve days in the calendar year, including 7 consecutive.
+**Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח). The wrong one wastes the window. The extension requires 60+ reserve days in the calendar year, including 7 consecutive.
 
 **The 2026 instrument.** A new collective agreement and extension order published **29.04.2026**, applying retroactively from 01.01.2026 for an unlimited period, carries the 30+30 structure forward permanently. The 20% employer indemnity is a **separate** instrument, an amendment to the National Insurance Law published the same day, not a term of the extension order. Do not merge the two.
 
 **Spouse, temporary layer.** A הוראת שעה in force from 29.04.2026 adds, for a spouse **who has a child** with the reservist, a ban on dismissal **and on חל"ת** during the service and for **14 days** after, permit-gated by ועדת התעסוקה. It applies only where the service is under Section 8 emergency conditions or lasts (or is expected to last) 21+ consecutive days, and the employee must notify the employer in writing within 3 working days of being told of the intent. It expires 30 days after the מצב מיוחד בעורף declaration lapses, so **check it is still live before relying on it**.
 
-**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Conditions: more than 3 consecutive miluim days, harm inside the protection window, causal link. It carries an undertaking to **repay the full cost** if the harm proves unrelated, court fees stay with the applicant, and it covers **employees only, not freelancers**. Apply on miluim.idf.il with Form 3010.
+**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Conditions: more than 3 consecutive miluim days, harm inside the protection window, causal link. It carries an undertaking to **repay the cost** if the harm proves unrelated, court fees stay with the applicant, and it covers **employees only**. Apply on miluim.idf.il with Form 3010.
 
 **Filing a complaint:** violations go to the Labor Court. The fee is 1% of the claim, minimum NIS 168 (NIS 84 expedited), and common wage claims are fee-exempt.
 
@@ -97,15 +97,15 @@ Those 60-day windows are unrecoverable once missed: ask when the person last wor
 
 **The three IDF payments, in brief.** Full tables and statutory anchors in `references/2026-law-changes.md`; read it before quoting a figure.
 
-*Tagmul Nosaf* (Section 19): **10+ cumulative shamap days** in a calendar year, banded NIS 1,452 (10-14.5 days) to NIS 5,808 (37+), capped at two credit points, paid by 1 May of the following year. Section 19(e)(1) imposes a **special 25% tax** at source, which sits awkwardly with the published claim that no income tax is levied, so tell the user to check the actual deposit rather than promising a figure. It **confers no credit points**: never double-count it against the Amendment 283 credit.
+*Tagmul Nosaf* (Section 19): **10+ cumulative shamap days** in a calendar year, banded NIS 1,452 (10-14.5 days) to NIS 5,808 (37+), paid by 1 May of the following year. The statute caps it at the value of two credit points, and the bands are priced in those units, but it **confers no actual credit points**: never double-count it against the Amendment 283 credit. Section 19(e)(1) imposes a **special 25% tax** at source, which sits awkwardly with the published claim that no income tax is levied, so tell the user to check the actual deposit rather than promising a figure.
 
 *Tagmul Meyuchad* is **two stacked layers**, and quoting only one under-pays the user:
 - **Days 32-60**: flat **NIS 133.33 per shamap day**. Over-age reservists get it from the **first** day.
 - **Beyond day 60**: the rate depends on the **service year**, selected by service date and not by today's date. 2024 (צו 8 only) flat 133; 2025 (צו 8 only) 133 לוחם / 60 הגמ"ר / 40 other; 2026 (any order type) banded by unit tier א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30. For 2026, Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. Paid 01.05.2027 by Mofet. Unit tier: **1111 ext. 4, then 1**.
 
-Worked example: 70 shamap days in a מדרג א'+ unit in 2026 earns days 32-60 (29 x 133.33 = **NIS 3,866.57**) PLUS the banded rate for days 61-70. The day-61 rule alone loses the first figure. **Commanders** are entitled beyond day 60 as such, but the source gives no rate for those days, so do not quote one.
+Worked example: 70 shamap days in a מדרג א'+ unit in 2026 earns days 32-60 (29 x 133.33 = **NIS 3,866.57**) PLUS the banded rate for days 61-70. **Commanders** are entitled beyond day 60 as such, but no source gives a rate for those days, so do not quote one.
 
-*Tagmul for over-age reservists*: NIS 133.33/day, NIS 66.67/half-day, **in addition to** Tagmul Meyuchad, for soldiers 40+/officers 45+ obliged to serve longer by role. **אל"ם and above excluded.** Do NOT cite Section 36A of the Defence Service Law: it is the age-exemption provision with no payment language (36A1 carried one, but its window closed 30.06.2024).
+*Tagmul for over-age reservists*: NIS 133.33/day, NIS 66.67/half-day, **in addition to** Tagmul Meyuchad, for soldiers 40+/officers 45+ obliged to serve longer by role. **אל"ם and above excluded.** Do NOT cite Section 36A of the Defence Service Law: it is the age-exemption provision with no payment language.
 
 The three IDF tagmulim are stated by the IDF to be free of income tax, in contrast to the BTL tagmul above.
 
