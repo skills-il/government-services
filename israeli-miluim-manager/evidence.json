@@ -1640,6 +1640,121 @@
         "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
+    },
+    {
+      "claim_id": "form-58-ten-day-answer",
+      "claim": "The unit must deliver its decision on a Form 58 request within ten days, or by the day before the call-up date, whichever is earlier.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%91%D7%A7%D7%A9%D7%95%D7%AA-%D7%A4%D7%A8%D7%98/",
+      "raw_snippet": "על היחידה למסור את ההחלטה תוך עשרה ימים, ו/או עד יום לפני מועד הזימון (לפי המוקדם מביניהם).",
+      "fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "idf-eight-hour-day-rule",
+      "claim": "For computing service length the IDF counts every eight hours of shamap under the hours-accrual procedure as one reserve day, travel time included.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/ooahuywl/%D7%94%D7%A7%D7%90-%D7%A9%D7%9E%D7%A4-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F-25124.pdf",
+      "raw_snippet": "לצורך חישוב משך השירות, יחושבו כל שמונה שעות שמ\"פ בנוהל צבירת שעות כיום מילואים אחד. במניין זה יבואו גם זמני הנסיעות ממקום השירות ואליו.",
+      "fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "verified_via": "pdf (הוראת קבע אכ\"א 31-08-01, linked from miluim.idf.il, fetched with curl and read with pdftotext, 246,309 chars)",
+      "appears_in": [
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "mod-legal-rep-employees-only",
+      "claim": "Ministry of Defence funded legal representation for reservists covers employees only, not freelancers.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%99%D7%99%D7%A6%D7%95%D7%92-%D7%9E%D7%A9%D7%A4%D7%98%D7%99/",
+      "raw_snippet": "אני פרילנסר ואיבדתי עבודות בעקבות שירות מילואים – האם אני זכאי לייצוג משפטי? הייצוג המשפטי ניתן לשכירים בלבד.",
+      "fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "mod-legal-rep-repayment",
+      "claim": "An applicant for MoD-funded legal representation undertakes to repay the full cost of the assistance if it emerges that their rights were not harmed because of the reserve service.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%99%D7%99%D7%A6%D7%95%D7%92-%D7%9E%D7%A9%D7%A4%D7%98%D7%99/",
+      "raw_snippet": "הנני מתחייב, כי אם יתברר שזכויותיי לא נפגעו בשל שירות המילואים, אחזיר למערכת הביטחון את מלוא עלות הסיוע המשפטי שיינתן לי.",
+      "fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "verified_via": "pdf (הוראת משרד הביטחון 62.03, updated 01/04/2025, linked from miluim.idf.il, curl + pdftotext, 8,102 chars)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "mod-legal-rep-fees-on-applicant",
+      "claim": "Court fees and other payments imposed by the court remain the applicant's responsibility under the MoD legal-representation scheme, save in exceptional approved cases.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%99%D7%99%D7%A6%D7%95%D7%92-%D7%9E%D7%A9%D7%A4%D7%98%D7%99/",
+      "raw_snippet": "ידוע לי, כי כל האגרות והתשלומים האחרים המוטלים על ידי בית המשפט, אם יידרשו, חלים עלי, ואין מערכת הביטחון משלמת עבורם, אלא במקרים חריגים שיאושרו.",
+      "fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
+      "verified_via": "pdf (הוראת משרד הביטחון 62.03, curl + pdftotext)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-leave-carry",
+      "claim": "Accrued annual leave may be carried, without the employer's agreement, and joined to leave given in the following two work years, where in a calendar year the employer gave no leave during a declared emergency or the employee was absent on reserve service for at least ten consecutive days.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "על אף האמור בכל דין, עובד רשאי לצבור את יתרת ימי החופשה השנתית העומדת לרשותו גם בלא הסכמת המעסיק ולצרפה לחופשה שתינתן בשתי שנות העבודה הבאות",
+      "fetched_at": "2026-08-18T23:48:46.724943+00:00",
+      "source_fetched_at": "2026-08-18T23:48:46.724943+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498 clause 14, curl + pdftotext -layout)",
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-leave-ten-days",
+      "claim": "One trigger for the leave carry is absence on reserve service of at least ten consecutive days.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "העובד נעדר בשל שירות מילואים לפי חוק שירות המילואים, התשס\"ח - 2008 לפחות עשרה ימים רצופים.",
+      "fetched_at": "2026-08-18T23:48:46.724943+00:00",
+      "source_fetched_at": "2026-08-18T23:48:46.724943+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498 clause 14.2, curl + pdftotext -layout)",
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-committee-scope",
+      "claim": "The supervision committee resolves disputes about clauses 5 and 6 that arose on or after the date the order was published.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "ותשמש גוף ליישוב חילוקי דעות לעניין סעיפים 5 ו–6 לתוספת שהתעוררו ביום פרסום צו זה או לאחריו.",
+      "fetched_at": "2026-08-18T23:49:44.866789+00:00",
+      "source_fetched_at": "2026-08-18T23:49:44.866789+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-preserves-other-routes",
+      "claim": "The order preserves the employee's right to apply to the employment committee under the Discharged Soldiers Law, or to the regional Labour Court including under the equal-opportunity and disability-equality laws, or to complain to the labour-law enforcement administration.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "אין בהקמת ועדת הפיקוח או באמור בצו זה כדי לגרוע מזכותו של עובד שחלים עליו סעיפים 5, 6 או 8 לתוספת ורואה עצמו נפגע לפנות בעניינם לוועדת התעסוקה לפי חוק החיילים המשוחררים (החזרה לעבודה), התש\"ט-1949, או לבית הדין האזורי לעבודה",
+      "fetched_at": "2026-08-18T23:49:44.866789+00:00",
+      "source_fetched_at": "2026-08-18T23:49:44.866789+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
     }
   ],
   "pending_verification": [

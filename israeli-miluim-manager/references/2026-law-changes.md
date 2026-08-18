@@ -292,8 +292,8 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 
 | Rule | Details |
 |------|---------|
-| Wartime-accumulated vacation days | Must be used by end of 2027 |
-| Standard vacation accrual during miluim | Continues per labor law (12-16 days/year based on tenure) |
+| Accrued annual leave | Accrued annual leave may be carried and joined to leave given in the **following two work years**, without the employer's agreement, where in a calendar year the employer gave no leave during one of four declared emergencies, or the employee was absent on reserve service for **at least ten consecutive days** (the "צבירת חופשה שנתית" clause of the 2026 order). It is a rolling two-year carry, NOT a fixed end date |
+| Standard vacation accrual during miluim | Continues per the Annual Leave Law; the per-year entitlement depends on tenure, so do not quote a range without checking the current schedule |
 | Forced vacation during miluim | Employers CANNOT require reservists to use vacation days during service |
 | Sick day accrual | Continues during service |
 | Convalescence pay (dmey havra'a) | Continues to accrue during service |
@@ -322,14 +322,14 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 | Manak Nezek Akif (self-employed) | Active | Active (joint Tax Authority + Aka program; rolling filing windows) |
 | Bank Israel relief | Active | Active (mortgage/loan/overdraft accommodations) |
 | Student tuition support | Active | Active (50+ days is the gate; the share is banded by tier, 100/85/65/30/30/22 percent) |
-| Wartime vacation accumulation | Active | Use by end of 2027 |
+| Accrued annual leave carry | Active | Joinable to leave in the following two work years (the leave-accrual clause, י"פ 14498). Not a fixed end date |
 | Enhanced family services | Active | Standard services + Aka 8944 PTSD hotline |
 
 ## What Reservists Should Do in 2026
 
 1. **Check your tax credit tier**: Based on combat days served, ensure your employer is applying the correct credit under Amendment 283
 2. **File Form 101** with your employer or directly with Rashut HaMisim
-3. **Use accumulated wartime vacation days** before end of 2027
+3. **Accrued annual leave** can be joined to leave in the following two work years, where the leave-accrual triggers apply (ten or more consecutive reserve days is one of them)
 4. **Verify pension contributions**: Ensure employer continued deposits during any 2025-2026 service
 5. **Self-employed**: File compensation claims promptly with Bituach Leumi
 6. **If terminated within protection period**: Document everything. Protection is 30 days (under 60 days served) or 60 days (60+ days served, requiring 7 consecutive). Apply to the RIGHT body: ועדת התעסוקה at the Ministry of Defence for the first 30 days, ועדת פיקוח at the Ministry of Labour for days 31-60. You may also be entitled to MoD-funded legal representation
@@ -556,6 +556,15 @@ the service, and the employee consents; or the employee wants it and both agree.
 - 7.4: an employer who has also applied to ועדת התעסוקה under the Law must attach that committee's decision.
 - 7.6: if the committee finds there is no dispute, it does not hear the matter and notifies both sides
   **within 5 days**.
+
+**The committee's own scope reinforces the prospective reading.** The order says the supervision committee
+resolves disputes about clauses 5 and 6 `שהתעוררו ביום פרסום צו זה או לאחריו`, i.e. arising on or after
+29.04.2026. That is a second, independent indication that this layer does not reach backwards.
+
+**It does not close other doors.** The order expressly preserves the employee's right to go to ועדת התעסוקה
+under the Discharged Soldiers Law, or to the regional Labour Court, including under חוק שוויון ההזדמנויות
+בעבודה and חוק שוויון זכויות לאנשים עם מוגבלות, or to complain to the labour-law enforcement administration.
+Setting up the supervision committee takes nothing away from those routes.
 
 **Carve-out:** employers and employees covered by the public-sector collective agreement signed 26.03.2026
 between the Government of Israel and the Histadrut are excluded from this order.
