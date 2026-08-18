@@ -1,5 +1,23 @@
 # Changelog
 
+## 2.0.2 - 2026-08-18
+
+The 2026 extension order was located in Rashumot and read, so the v2.0.1 hedge is replaced with sourced text. Two things in the order change the answer.
+
+### Verified
+
+- The successor instrument is **ילקוט הפרסומים 14498 of 29.04.2026, pages 5826-5830**, extending general collective agreement **7004/2026** signed 23.02.2026, signed by the Minister of Labour on 28.04.2026. The procedural chain is also in Rashumot: intent notice 03.03.2026 (י"פ 14321 p.4478), urgency notice 26.03.2026 (י"פ 14410), objection deadline 27.03.2026.
+- Clause 3: `החל מיום 1 ינואר 2026 לתקופה בלתי קצובה`.
+- Clause 5 carries the 30-plus-30 protection and DOES require seven consecutive days alongside 60 cumulative days, confirming a condition the superseded 2024 order did not contain.
+- Clause 7: the supervision committee decides within 14 days, and closes the file within 5 days if it finds no dispute.
+
+### Fixed
+
+- **The protection is not retroactive, despite the order running from 01.01.2026.** Clause 5 ends `תוקפו של סעיף זה מיום פרסום צו זה ואילך`, and footnote 8 records that the Minister changed the agreement's original `מיום חתימת ההסכם` to say so. A dismissal before 29.04.2026 falls outside it. The earlier text would have told those users they were protected.
+- **The 60 days are not calendar-year days.** Clause 2.4 defines the term to include prior-year days where the service ran continuously into the year, with continuity covering refresher service and gaps of up to five days. A reservist just short of 60 on calendar-year days alone may still qualify, and the earlier text would have turned them away.
+- Public-sector employees are carved out, covered instead by the Government and Histadrut agreement of 26.03.2026.
+- The spouse paid-absence table is now sourced (none up to 30 days, 2 for 31-60, 4 for 61-90, 6 for 91-120, 8 for 121+), closing one of the unevidenced clusters flagged in 2.0.1.
+
 ## 2.0.1 - 2026-08-18
 
 Hotfix from the Independent Judge pass, which verified 111 of 120 claims but found nine broken citations and a set of figures whose only source was dead.

@@ -1518,6 +1518,128 @@
         "references/bituach-leumi-filing-guide.md"
       ],
       "verified_via": " | Hebrew form label as published on the BTL reserve-service forms index."
+    },
+    {
+      "claim_id": "tzav-14498-term",
+      "claim": "The 2026 extension order runs from 1 January 2026 for an unlimited period.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "תקופת הצו החל מיום 1 ינואר 2026 לתקופה בלתי קצובה.",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-clause5",
+      "claim": "Clause 5 bars dismissal for a further 30 days beyond the statutory 30, where the employee served 60 or more cumulative reserve days in a calendar year AND at least seven consecutive days, and it takes effect from the date the order was published.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "מעסיק של עובד שנעדר בשל שירות מילואים (להלן - משרת המילואים) במשך 60 \"ימי מילואים מצטברים בשנה קלנדרית\" או יותר ושירת במילואים שבעה ימים רצופים לפחות, לא יפטרו גם בתקופה של 30 הימים העוקבים ל־30 הימים שלאחר תום שירות המילואים לפי סעיף 41א(ב) בחוק החיילים המשוחררים (החזרה לעבודה), התש\"ט-1949 (להלן - החוק) אלא אם מתקיימים טעמים מיוחדים ואם הפיטורים המבוקשים אינם בשל שירות המילואים. תוקפו של סעיף זה מיום פרסום צו זה ואילך.",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-cumulative-def",
+      "claim": "Cumulative reserve days in a calendar year also include prior-year days where the service ran continuously into the calendar year, with continuity covering refresher service and gaps of up to five days.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "\"ימי מילואים מצטברים בשנה קלנדרית\" - ימי מילואים שבוצעו במהלך שנה קלנדרית, וכן ימי מילואים אותם ביצע משרת המילואים במהלך השנה הקודמת לשנה הקלנדרית ובתנאי שהמילואים נמשכים ברצף לשנה הקלנדרית. \"ברצף\" לעניין זה - לרבות תקופת שירות מילואים פעיל בהתרעננות, וכן הפסקות של עד 5 ימים בין שירות מילואים פעיל אחד למשנהו.",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-vaadat-pikuach",
+      "claim": "An employer seeking to dismiss or impose unpaid leave in the clause 5 or 6 period must apply to the supervision committee, which decides within 14 days after seeking the employee's response, and notifies both sides within 5 days if it finds no dispute.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "ועדת הפיקוח תכריע בכך בתוך 14 יום מהגשת הבקשה, לאחר שפנתה לקבל את תגובת העובד משרת המילואים.",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-public-sector-carveout",
+      "claim": "Employers and employees covered by the public-sector collective agreement signed 26.03.2026 between the Government of Israel and the Histadrut are excluded from the order.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "למעט על המעסיקים והעובדים שעליהם יחולו הוראות הסכם קיבוצי במגזר הציבורי שנחתם ביום ח' בניסן התשפ\"ו (26 במרץ 2026) בין ממשלת ישראל להסתדרות העובדים הכללית החדשה",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-chalat",
+      "claim": "Clause 6 applies the same 30-plus-30 bar to placing a reservist on unpaid leave, subject to special reasons, the leave not being because of the service, and the employee's consent.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "מעסיק של עובד שנעדר בשל שירות מילואים לא יוציאו לחל\"ת גם בתקופה של 30 הימים העוקבים ל–30 הימים שלאחר תום שירות המילואים לפי סעיף 41א(ב) לחוק",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-spouse-absence-days",
+      "claim": "The order's table tiers additional paid absence days for a reservist's spouse by cumulative reserve days: none up to 30, 2 days for 31-60, 4 for 61-90, 6 for 91-120, and 8 for 121 or more.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "לעניין ימי מילואים מצטברים שבין 31 לבין 60 ימים בטבלה שבסעיף 12.1 שלהלן, ובתנאי שימי המילואים שיבואו במניין יהיו 5 ימים רצופים לפחות.",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "yp14410-urgency-notice",
+      "claim": "The Minister of Labour published a notice of urgency on 26.03.2026 to extend the reservist collective agreement, citing the intent notice published 03.03.2026 at Yalkut HaPirsumim 14321 page 4478.",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/2026-001452/he/mirsham_2026-001452.pdf",
+      "raw_snippet": "אני מודיע כי שוכנעתי שיש דחיפות להרחיב את היקף תחולתו של הסכם קיבוצי כללי בעניין משרתי המילואים ובני זוגם וצבירת חופשה שנתית לעובדים מסוימים",
+      "fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14410 of 26.03.2026, fetched with curl and read with pdftotext)",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "tzav-14498-sec5-sec6-refs",
+      "claim": "Clause 7.1 of the order refers to disputes about dismissal under clause 5 or unpaid leave under clause 6, which is why the skill cites those clause numbers in Hebrew.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/order14498/he/workers-rights_order14498.pdf",
+      "raw_snippet": "תוקם ועדת פיקוח אשר תדון בחילוקי דעות ככל שיתעוררו בקשר לפיטורים לפי סעיף 5 לעיל או הוצאה לחל\"ת לפי סעיף 6 לעיל.",
+      "fetched_at": "2026-08-18T20:42:13.314837+00:00",
+      "source_fetched_at": "2026-08-18T20:42:13.314837+00:00",
+      "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     }
   ],
   "pending_verification": [

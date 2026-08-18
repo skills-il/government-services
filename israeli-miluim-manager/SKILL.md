@@ -41,7 +41,7 @@ A form submitted to an authority is a document whose contents are your responsib
 |------------|----------------|
 | Causal dismissal ban | Section 41A(a1): dismissal **because of** reserve service, a call-up, or expected service (including its frequency or duration) is **void** (`בטלים הפיטורים`). No permit possible |
 | During service + 30 days after | Section 41A(b): no dismissal **and no cut to job scope or income** without a **ועדת התעסוקה** permit (Defence). Service over two consecutive days |
-| Days 31 to 60 after service | A collective-agreement **extension order**, not the statute, for 60+ days served. Waived only by **ועדת פיקוח** (Ministry of Labour), deciding within 14 days |
+| Days 31 to 60 after service | An **extension order**, not the statute (י"פ 14498). Waived only by **ועדת פיקוח** (Labour) |
 | Notice period | Section 41A(c): the protected periods are **excluded** from the count of prior-notice days |
 | Burden of proof | Section 41A(d): on the EMPLOYER, before ועדת התעסוקה |
 | Non-renewal | Section 41A(e): not renewing a fixed-term contract of 12+ months counts as dismissal |
@@ -50,11 +50,15 @@ A form submitted to an authority is a document whose contents are your responsib
 | Seniority, pension, keren hishtalmut | Preserved; deposits continue on the pre-service salary (sechar kove'a) |
 | 20% social contribution compensation | 20% of the 3-month wage base / 90. All employers except public ones |
 
-**Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח). The wrong one wastes the window. The extension requires 60+ reserve days in the calendar year, including 7 consecutive.
+**Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח), deciding within 14 days. The wrong one wastes the window.
 
-**Check the days 31-60 layer before relying on it.** The extension order in evidence (י"פ 12159) fixes its own term at 07.10.2023 to 31.12.2024, so on its face it covers only service in that window. Kol Zchut describes a currently-operative 60-day rule with a 7-consecutive-day condition the 2024 order lacks, which implies a successor exists; a successor reportedly published 29.04.2026 could not be confirmed from primary text. Treat the first 30 days as solid and the 31-60 extension as probable but unconfirmed, and tell the user to petition ועדת פיקוח anyway: it costs nothing and the window closes while they wait.
+**The days 31-60 layer comes from י"פ 14498 of 29.04.2026**, extending collective agreement 7004/2026, running `החל מיום 1 ינואר 2026 לתקופה בלתי קצובה`. Clause 5 requires **60 cumulative reserve days in a calendar year AND at least seven consecutive days**; clause 6 applies the same bar to חל"ת.
 
-The 20% employer indemnity is a **separate** instrument, an amendment to the National Insurance Law, not a term of the extension order. Do not merge the two.
+**Two traps** (detail in `references/2026-law-changes.md`): clause 5 is **prospective from 29.04.2026** (`תוקפו של סעיף זה מיום פרסום צו זה ואילך`), so it does not reach a dismissal before that date even though the order runs from 01.01.2026; and `ימי מילואים מצטברים בשנה קלנדרית` also counts prior-year days where the service ran continuously into the year.
+
+**Public-sector employees are carved out**, covered instead by the Government/Histadrut agreement of 26.03.2026.
+
+The 20% employer indemnity is a **separate** instrument, a National Insurance Law amendment, not a term of the extension order.
 
 **Spouse, temporary layer.** A הוראת שעה in force from 29.04.2026 adds, for a spouse **who has a child** with the reservist, a ban on dismissal **and on חל"ת** during the service and for **14 days** after, permit-gated by ועדת התעסוקה. It applies only where the service is under Section 8 emergency conditions or lasts (or is expected to last) 21+ consecutive days, and the employee must notify the employer in writing within 3 working days of being told of the intent. It expires 30 days after the מצב מיוחד בעורף declaration lapses, so **check it is still live before relying on it**.
 

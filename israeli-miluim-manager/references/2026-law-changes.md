@@ -511,3 +511,55 @@ NIS 66 per day. A reservist with no civilian driving licence is placed on rav-ka
   users there to complain.
 - **Activity-tier (מדרג) disputes** go first to the miluim hotline, 1111 extension 4 then 1; the tier
   is set by רמ"ח מילואים באגף כוח האדם. A קבילה to the Commissioner remains available afterwards.
+
+## The 2026 extension order (י"פ 14498), in full
+
+Primary source: ילקוט הפרסומים 14498, י"ב באייר התשפ"ו, 29.04.2026, pages 5826-5830. It extends general
+collective agreement **7004/2026**, signed 23.02.2026 between נשיאות המגזר העסקי and הסתדרות העובדים
+הכללית החדשה. Signed by the Minister of Labour, יריב לוין, on 28.04.2026. It supersedes the 2024 order
+(י"פ 12159), whose own clause 3 limited it to service between 07.10.2023 and 31.12.2024.
+
+Procedural chain, all in Rashumot: notice of intent 03.03.2026 (י"פ 14321, p. 4478), notice of urgency
+26.03.2026 (י"פ 14410) with an objection deadline of 27.03.2026, then the order itself on 29.04.2026.
+
+**Clause 3, term:** `החל מיום 1 ינואר 2026 לתקופה בלתי קצובה`.
+
+**Clause 5, the 30+30 dismissal protection:**
+
+> מעסיק של עובד שנעדר בשל שירות מילואים (להלן - משרת המילואים) במשך 60 "ימי מילואים מצטברים בשנה קלנדרית"
+> או יותר ושירת במילואים שבעה ימים רצופים לפחות, לא יפטרו גם בתקופה של 30 הימים העוקבים ל־30 הימים שלאחר
+> תום שירות המילואים לפי סעיף 41א(ב) בחוק החיילים המשוחררים (החזרה לעבודה), התש"ט-1949 (להלן - החוק) אלא אם
+> מתקיימים טעמים מיוחדים ואם הפיטורים המבוקשים אינם בשל שירות המילואים. תוקפו של סעיף זה מיום פרסום צו זה ואילך.
+
+**Trap 1, it is prospective.** The final sentence limits clause 5 to `מיום פרסום צו זה ואילך`, i.e. 29.04.2026.
+Footnote 8 of the order records that the original agreement said `מיום חתימת ההסכם` and the Minister changed it.
+So the order runs from 01.01.2026 but the dismissal protection does NOT reach back: a dismissal before
+29.04.2026 falls outside it, and telling a user otherwise overstates their position.
+
+**Trap 2, the 60 days are not calendar-year days.** Clause 2.4 defines the term:
+
+> "ימי מילואים מצטברים בשנה קלנדרית" - ימי מילואים שבוצעו במהלך שנה קלנדרית, וכן ימי מילואים אותם ביצע משרת
+> המילואים במהלך השנה הקודמת לשנה הקלנדרית ובתנאי שהמילואים נמשכים ברצף לשנה הקלנדרית. "ברצף" לעניין זה -
+> לרבות תקופת שירות מילואים פעיל בהתרעננות, וכן הפסקות של עד 5 ימים בין שירות מילואים פעיל אחד למשנהו.
+
+Prior-year days count where the service ran continuously into the year, and `ברצף` tolerates התרעננות and
+gaps of up to 5 days. A reservist just short of 60 on calendar-year days alone may still qualify.
+
+**Clause 6** applies the same 30+30 bar to חל"ת, unless there are special reasons, the חל"ת is not because of
+the service, and the employee consents; or the employee wants it and both agree.
+
+**Clause 7, ועדת פיקוח** (under s.33א of חוק הסכמים קיבוציים):
+
+- 7.2: an employer wanting to dismiss or impose חל"ת in the clause 5 or 6 period must apply to the committee,
+  and where there is a dispute it decides **within 14 days**, after seeking the employee's response.
+- 7.3: applications go by email, published on the Ministry of Labour site (VaadatPikuachMiluim@labor.gov.il).
+- 7.4: an employer who has also applied to ועדת התעסוקה under the Law must attach that committee's decision.
+- 7.6: if the committee finds there is no dispute, it does not hear the matter and notifies both sides
+  **within 5 days**.
+
+**Carve-out:** employers and employees covered by the public-sector collective agreement signed 26.03.2026
+between the Government of Israel and the Histadrut are excluded from this order.
+
+**Spouse paid absence days** are set by the order's table (clause 12.1), tiered by the reservist's cumulative
+days: up to 30 days gives none, 31-60 gives 2 days, 61-90 gives 4, 91-120 gives 6, and 121+ gives 8. For the
+31-60 band the counted reserve days must run at least 5 consecutive days.
