@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Rate-table completeness was the whole story here. The published fare table has six distance rings by three contract types by two mode groups; the skill carried five cells of it (yellow bus/train, green bus, light-blue bus, national monthly) and no daily-pass amount at all. Any future cycle must re-diff bus.gov.il/FaresDistance row by row, not spot-check the yellow ring.",
+        "The discount surface is 13 separate authority profile pages. Before this cycle the skill listed six. Re-enumerate the profile links on bus.gov.il/discounts each cycle; the authority adds profiles without changing the summary table.",
+        "scripts/check_transit.py had drifted to a fabricated '9 NIS raised from 8 NIS on Jan 1, 2026' single fare while SKILL.md said 8. Scripts are the surface nobody re-reads. Grep every hardcoded amount in scripts/ against the body on every cycle.",
+        "Deferred, no verified source read this cycle: sherut (monit sherut) fares on Shabbat, which the Shabbat section recommends as an alternative without any price guidance.",
+        "Deferred: Rav-Kav accrued-balance refunds after the reform (Dan's fares page mentions a refund of the remaining stored value). Needs an authority source before it goes in the body.",
+        "Deferred discretionary: the Jerusalem Red Line central section closure and operator-performance disputes reported in mid-2026 could justify a service-reliability gotcha, but no authoritative source was read this cycle.",
+        "Reference Links carried https://pti.org.il/derekh-shava/eng/, which returns HTTP 200 while redirecting to the Hebrew authority home page. Link checks that assert only on status will keep missing this class; assert on extracted text."
+      ]
+    }
+  ]
+}

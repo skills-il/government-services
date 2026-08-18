@@ -7,7 +7,7 @@ and get Rav-Kav fare information.
 
 Usage:
     python check_transit.py operators
-    python check_transit.py stop 21345
+    python check_transit.py stop 40001
     python check_transit.py fares
     python check_transit.py shabbat
 """
@@ -46,7 +46,7 @@ OPERATORS = {
         "hebrew": "kavim",
         "modes": ["Bus"],
         "region": "Central Israel, Jerusalem area",
-        "website": "https://www.kavim-t.co.il",
+        "website": "https://www.kavim-t.com",
     },
     "superbus": {
         "name": "Superbus",
@@ -108,7 +108,7 @@ def check_stop(stop_code: str) -> None:
     except urllib.error.HTTPError as e:
         if e.code == 404:
             print(f"Stop {stop_code} not found.")
-            print("Stop codes are typically 5-digit numbers displayed at the physical stop.")
+            print("Stop codes are the Ministry of Transport codes on the stop sign, 1 to 6 digits.")
         else:
             print(f"HTTP error {e.code}: {e.reason}")
     except urllib.error.URLError as e:
@@ -123,36 +123,66 @@ def check_stop(stop_code: str) -> None:
 
 
 def show_fares() -> None:
-    """Display Rav-Kav fare information."""
+    """Display the official Rav-Kav fare table and discount profiles."""
     print("=== Rav-Kav Fare System ===\n")
+    print("Source: National Public Transport Authority, https://bus.gov.il/FaresDistance")
+    print("Fares depend on the distance ring, not on the city or the operator.")
+    print("'Bus' covers buses, both light rail systems, Metronit, Rakevelit and Carmelit.")
+    print("'Combined' adds Israel Railways.\n")
 
-    print("Fare structure (updated January 2026; base reform = 'Transport Justice' April 2025):")
-    print("  - Single ride (urban, 0-15km): 9 NIS (raised from 8 NIS on Jan 1, 2026)")
-    print("  - Daily cap: Maximum daily charge regardless of trips")
-    print("  - Transfers: Free within 90 minutes of first boarding (same zone)")
+    rings = [
+        ("Yellow  0-15 km", "8", "11.5", "17.5", "23", "315", "323"),
+        ("Green   15-40 km", "14.5", "21", "29", "32.5", "315", "323"),
+        ("L.blue  40-75 km", "19", "27", "37.5", "42", "315", "464"),
+        ("Blue    75-120 km", "19", "30.5", "37.5", "47", "315", "684"),
+        ("Purple  120-225 km", "30.5", "52.5", "60.5", "80.5", "315", "684"),
+        ("Grey    over 225 km", "74", "-", "79.5", "-", "-", "684"),
+    ]
+    hdr = ("Ring", "Single bus", "Single train", "Daily bus", "Daily comb.", "Monthly bus", "Monthly comb.")
+    print(f"  {hdr[0]:<20}{hdr[1]:>12}{hdr[2]:>14}{hdr[3]:>11}{hdr[4]:>13}{hdr[5]:>13}{hdr[6]:>15}")
+    print("  " + "-" * 98)
+    for r in rings:
+        print(f"  {r[0]:<20}{r[1]:>12}{r[2]:>14}{r[3]:>11}{r[4]:>13}{r[5]:>13}{r[6]:>15}")
+    print("  (all amounts in NIS)")
+    print()
+    print("Monthly passes: nationwide bus 315 NIS (excludes Israel Railways, Eilat, and rides over")
+    print("  225 km); combined-rail 323 / 464 / 684 NIS by rail range; regional 'Area 1' 139 NIS")
+    print("  (up to 40 km). The weekly pass was abolished; the daily pass remains.")
+    print("Transfers: unlimited and free for 90 minutes from first validation, on single rides up")
+    print("  to 15 km (yellow ring) only.")
     print()
 
-    print("Discount and free-ride profiles:")
+    print("Discount and free-ride profiles (Transport Justice reform, second phase):")
     profiles = [
-        ("Senior 67+ (zahav kav)", "Free", "Rav-Kav with senior profile"),
-        ("Soldier (chayal)", "Free on most routes", "Active IDF service"),
-        ("Youth 5-18 (naar)", "50%", "Age verification"),
-        ("Student (talmid)", "33% (up to 50%)", "Valid student card"),
-        ("Disabled (nacheh)", "50%", "Disability certificate"),
-        ("Children under 5", "Free", "1 per paying adult"),
+        ("Children under 5", "Free", "-"),
+        ("Youth 5-18", "50%", "Age verification"),
+        ("Young adults 18-26", "33% on monthly passes", "Age verification"),
+        ("Students", "33% singles; semester/annual pass", "Study confirmation + student ID"),
+        ("Soldiers / security forces", "Free", "Service ID"),
+        ("National / civil service", "Free", "Service confirmation"),
+        ("Discharged soldiers", "Free for 1 year", "Apply within 2 months of discharge"),
+        ("Senior women 62-67", "50%", "ID"),
+        ("Age 67+ (zahav kav)", "Free", "ID, zahav-kav profile"),
+        ("Geographic profile", "50% on monthly passes", "ID + proof of address"),
+        ("Riders with a disability", "50%", "Disability certificate"),
+        ("Bituach Leumi recipients", "50%", "Benefit confirmation"),
+        ("Blind / visually impaired", "Free", "Certificate"),
     ]
-
-    print(f"  {'Profile':<30} {'Discount':<25} {'Requirement'}")
-    print("  " + "-" * 70)
+    print(f"  {'Profile':<30} {'Entitlement':<36} {'Requirement'}")
+    print("  " + "-" * 92)
     for profile, discount, req in profiles:
-        print(f"  {profile:<30} {discount:<25} {req}")
+        print(f"  {profile:<30} {discount:<36} {req}")
 
+    print()
+    print("No stacking: the single highest entitlement is applied automatically.")
+    print("Validation is mandatory on every boarding, including free rides and pass holders.")
     print()
     print("Rav-Kav types:")
     print("  - Personal (ishi): Linked to ID, supports discount profiles")
     print("  - Anonymous (anonimi): No ID required, no discounts")
     print()
     print("Balance check: https://ravkavonline.co.il/")
+    print("Discount profiles: https://bus.gov.il/discounts")
 
 
 def show_shabbat_info() -> None:
@@ -188,7 +218,7 @@ def main():
     subparsers.add_parser("operators", help="List transit operators")
 
     stop_parser = subparsers.add_parser("stop", help="Check arrivals at stop")
-    stop_parser.add_argument("code", help="Stop code (5-digit number)")
+    stop_parser.add_argument("code", help="Ministry of Transport stop code (1-6 digits, as printed on the stop sign)")
 
     subparsers.add_parser("fares", help="Rav-Kav fare information")
     subparsers.add_parser("shabbat", help="Shabbat transit info")

@@ -39,8 +39,8 @@ For route planning between two points:
 
 ### Step 3: Real-Time Arrivals
 Check live arrival times at a stop:
-- **curlbus:** Query by stop code for real-time arrivals
-- **Stop codes:** 5-digit numbers, displayed at physical stops
+- **curlbus:** Query by stop code for real-time arrivals (`https://curlbus.app/<stop_code>`, JSON with `Accept: application/json`)
+- **Stop codes:** the Ministry of Transport stop code printed on the stop sign. Length varies (1 to 6 digits), it is NOT always 5 digits. Codes are not contiguous, so a plausible-looking number is often unassigned and curlbus answers `{"errors": ["Invalid stop code ..."]}`
 - **SIRI feed:** Ministry of Transportation real-time data
 - Returns: Line number, destination, estimated minutes to arrival
 
@@ -67,7 +67,7 @@ Check live arrival times at a stop:
 
 **Jerusalem Light Rail**
 - Red Line: Operational, 35 stops, 22.5km. Extended in February 2025 northward to Neve Yaakov and southward to Hadassah Ein Kerem hospital.
-- Green Line: First section (Malha to Binyanei Hauma) opening May 2026. Full line expected 2027, serving 35 stops.
+- Green Line: the Jerusalem light rail authority announced on August 18, 2026 that the first phase (section L3, Turim station on Jaffa Road to Malha, via the Central Bus Station / Yitzhak Navon, Hebrew University Givat Ram and Teddy Stadium) starts operating that Friday, August 21, 2026, ten years behind schedule. It adds 12 new stations plus the existing Turim interchange with the Red Line. Section L2 south to Gilo is due later in 2026, and the full line in 2027.
 - Blue Line: Under construction, expected 2028-2030. Will add 40 stations across 24km.
 - Frequency: Every 5-10 minutes during peak
 - Operator: Cfir (CAF + Shapir Engineering consortium, took over April 2021)
@@ -75,29 +75,82 @@ Check live arrival times at a stop:
 
 **Tel Aviv Light Rail**
 - Red Line: Operational since August 2023. 34 stations, Petah Tikva to Bat Yam through central Tel Aviv. Operator: Tevel Metro (Egged-led consortium, run under NTA). Daily ridership in 2026 is around 110-120k (below original 238k forecast).
-- Purple Line: Under construction, expected end of 2027 to 2028. Sheba Hospital through Ramat Gan to Arlozorov/Savidor area. 27km, 43 stations.
+- Purple Line: Under construction, opening expected 2028 (vehicle deliveries began June 2026). Sheba Medical Centre through Ramat Gan to the Arlozorov/Savidor area, 43 stations. Built by a CAF and Shafir joint venture; NTA describes it as a 29km line, older sources say 27km, so do not quote a precise length.
 - Green Line: Under construction. Southern segment (Holon to Rishon LeZion) targeted for 2028, full opening to Herzliya pushed to 2030. 39km / 62 stops, partially underground. Operator tender awarded to Egged.
 - Integration: Connects with Dan bus network and Israel Railways
 
 ### Step 5: Rav-Kav Fare System
-- **Single ride:** Zone-based pricing. Urban ride (yellow zone, 0-15km): bus 8 NIS, train 11.5 NIS, per the National Public Transport Authority fare table (checked 2026-08-10; the increase that had been floated for June 2026 is not in the published table). Longer zones cost more: green 15-40km bus 14.5 NIS, light-blue 40-75km bus 19 NIS.
-- **Daily cap:** Maximum daily charge regardless of trips. A nationwide monthly pass (excluding Israel Railways, up to 225km) is around 315 NIS.
-- **Transfers:** Free transfer within 90 minutes of first boarding (same zone)
-- **Discount and free-ride profiles** (updated April 2025, "Transport Justice" reform):
-  | Profile | Hebrew | Discount |
-  |---------|--------|----------|
-  | Senior (67+) | ezrach vatik / zahav kav | Free on all public transit |
-  | Soldier | chayal | Free on most routes |
-  | Youth (5-18) | naar | 50% |
-  | Student | talmid/student | 33% (up to 50% with semester/annual pass) |
-  | Disabled | nacheh | 50% |
-  | Children under 5 | -- | Free (1 per paying adult) |
 
-**Paying without a physical Rav-Kav card:** As of 2026 the physical Rav-Kav card is supplemented by phone-based payment. The Ministry of Transport (PTI / Rashut Artzit l'Tachbura Tziburit) approves five payment apps that work uniformly across operators: Rav-Pass (HopOn), Moovit, Pango, Cellopark, and egg. Typical flow: scan a QR sticker by the bus doors, pick a destination or distance, confirm. App payment is charged retroactively at month-end with applicable discounts applied automatically. App payment now also works on Israel Railways and the Haifa Carmelit. NFC-equipped phones can also top up a physical card via these apps. Contactless EMV bank-card tap-to-pay is being piloted but is not yet universal. A physical Rav-Kav is still the most reliable option for tourists and for discount profiles that must be loaded onto a card.
+Fares are set by the National Public Transport Authority and depend on **distance ring**, not on
+city or operator. "Bus" covers buses, both light rail systems (Dankal and Jerusalem), the Metronit,
+the Rakevelit and the Carmelit. "Combined rail" adds Israel Railways.
+
+**Full fare table (checked against the authority's published table, August 2026). Never quote the
+yellow-ring fare as if it were the whole table -- most intercity questions land in a higher ring.**
+
+| Ring | Distance | Single, bus | Single, train | Daily pass, bus | Daily pass, combined rail | Monthly, bus | Monthly, combined rail |
+|---|---|---|---|---|---|---|---|
+| Yellow (tzahov) | 0-15 km | 8 NIS | 11.5 NIS | 17.5 NIS | 23 NIS | 315 NIS | 323 NIS |
+| Green (yarok) | 15-40 km | 14.5 NIS | 21 NIS | 29 NIS | 32.5 NIS | 315 NIS | 323 NIS |
+| Light blue (tchelet) | 40-75 km | 19 NIS | 27 NIS | 37.5 NIS | 42 NIS | 315 NIS | 464 NIS |
+| Blue (kachol) | 75-120 km | 19 NIS | 30.5 NIS | 37.5 NIS | 47 NIS | 315 NIS | 684 NIS |
+| Purple (sagol) | 120-225 km | 30.5 NIS | 52.5 NIS | 60.5 NIS | 80.5 NIS | 315 NIS | 684 NIS |
+| Grey (afor) | over 225 km | 74 NIS | -- | 79.5 NIS | -- | -- | 684 NIS |
+
+- **Transfers:** on single rides **up to 15 km (yellow ring only)** you may transfer freely, with no
+  limit on the number of transfers, for 90 minutes from the first validation. Longer rides do not
+  carry this allowance.
+- **Monthly passes (chofshi chodshi):** the nationwide bus pass is 315 NIS and covers every mode
+  except Israel Railways, capped at 225 km per ride and excluding Eilat. Combined-rail passes are
+  priced by how far you travel *by train* (323 / 464 / 684 NIS). There is also a cheap regional
+  "Area 1" pass at 139 NIS for travel up to 40 km. The **weekly** pass was abolished; the daily
+  pass (chofshi yomi) remains.
+
+**Discount and free-ride profiles** (the "Transport Justice" reform, second phase). The authority publishes a separate
+profile page for each row below; quoting only the common ones is the usual way to under-state an entitlement.
+
+| Profile | Hebrew | Entitlement |
+|---|---|---|
+| Children under 5 | yeladim | Free |
+| Youth 5-18 | noar | 50% |
+| Young adults 18-26 | tze'irim | 33% on monthly passes |
+| Students | studentim | 33% on single rides; a semester or annual pass on a Rav-Kav card gives free travel in range plus 50% off singles outside it |
+| Serving soldiers and security forces | chayalim | Free |
+| National / civil service, shnat sherut, kadatz | sherut leumi | Free |
+| Discharged soldiers and national-service graduates | meshuchrarim | Free for one year from discharge |
+| Senior women 62-67 | ezrachiyot vatikot | 50% |
+| Age 67 and over | zahav kav | Free |
+| Geographic profile | profil geographi | 50% on all monthly passes |
+| Riders with a disability | nosim im mugbalut | 50% |
+| Bituach Leumi benefit recipients (including income support) | zaka'ei Bituach Leumi | 50% |
+| Blind and visually impaired | ivrim ve'lekuyei re'iya | Free |
+
+Discounted monthly-pass prices follow directly from the pass price: 315 NIS becomes 157.5 at 50%
+and 210 at 33%; the 139 NIS Area 1 pass becomes 69.5 / 92.66; the rail passes 323 / 464 / 684
+become 161.5 / 232 / 342 at 50% and 215.33 / 309.33 / 456 at 33%.
+
+**Rules that decide the answer more often than the rate does:**
+- **No stacking.** A rider entitled to several discounts gets the single highest one, applied
+  automatically. Do not add percentages together.
+- **Validation is mandatory even when the ride is free**, on every boarding, for pass holders and
+  free-profile holders alike.
+- **Discharged soldiers must apply within two months of discharge.** The profile then runs one year
+  from the application, and at most one year and two months from discharge. Missing that window is
+  the most common way this entitlement is lost.
+- **Geographic profile** covers residents of areas in socio-economic clusters 1-5 and peripheral
+  local authorities (excluding statistical areas in clusters 9-10), needs an ID plus a recent proof
+  of address, and is valid two years.
+- **Student profile via the payment apps gives 33% on single rides only.** The semester and annual
+  passes exist only on a physical Rav-Kav card, so an app-only student loses the pass benefit.
+- Profiles are set in the payment apps, in the Rav-Kav apps and websites, or at an "Al HaKav"
+  service centre. They cannot be issued at kiosks or top-up machines.
+
+**Paying without a physical Rav-Kav card:** As of 2026 the physical Rav-Kav card is supplemented by phone-based payment. The Ministry of Transport (PTI / Rashut Artzit l'Tachbura Tziburit) approves five payment apps that work uniformly across operators: Moovit, HopOn Rav-Pass, Pango, Cello (Cellopark) and egg. Typical flow: scan a QR sticker by the bus doors, pick a destination or distance, confirm. App payment is charged retroactively at month-end with applicable discounts applied automatically. App payment now also works on Israel Railways and the Haifa Carmelit. NFC-equipped phones can also top up a physical card via these apps. Contactless EMV bank-card tap-to-pay is being piloted but is not yet universal. A physical Rav-Kav is still the most reliable option for tourists and for discount profiles that must be loaded onto a card.
 
 ### Step 6: Shabbat and Holiday Considerations
 - **Shabbat:** Most public transit stops Friday afternoon (~2-4 PM) through Saturday evening (~30 min after sunset)
 - **Exceptions:** Some shared taxi routes (sherut/monit sherut) operate on Shabbat on popular routes
+- **Night lines:** the authority publishes a national night-line list (`https://bus.gov.il/nightlines`) covering the north, centre, Jerusalem area, south and Sharon, on lines such as Jerusalem 102/103/106/107/108, Haifa 200/205/208, Tel Aviv 273/296/425/489 and Eilat 10/11. Check that list before telling a user there is nothing after midnight.
 - **Holidays:** Reduced or no service on Jewish holidays (Rosh Hashana, Yom Kippur, etc.)
 - **Yom Kippur:** No public transit nationwide (roads closed in most areas)
 
@@ -130,8 +183,8 @@ User says: "How do I get from Tel Aviv Savidor station to the Kotel in Jerusalem
 Result: Option 1 -- Train from Tel Aviv Savidor to Jerusalem Yitzhak Navon (~30 min), then Light Rail Red Line to City Hall (~12 min), then walk (~15 min). Option 2 -- Egged bus 405 from Tel Aviv Central Bus Station to Jerusalem Central (~1 hr), then bus to Old City area.
 
 ### Example 2: Real-Time Arrivals
-User says: "When is the next bus at stop 21345?"
-Result: Query curlbus for stop 21345, return next 3-5 arrivals with line numbers, destinations, and estimated minutes.
+User says: "When is the next bus at stop 40001?"
+Result: Query `https://curlbus.app/40001` (stop 40001 is Amphitheatre, Caesarea) and return the next 3-5 arrivals with line numbers, destinations, and estimated minutes. An empty `visits` array means no scheduled arrivals right now (common at night and on Shabbat), which is different from an invalid code.
 
 ### Example 3: Shabbat Travel
 User says: "Can I take a bus from Haifa to Tel Aviv on Saturday?"
@@ -155,12 +208,13 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 ## Reference Links
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Ministry of Transport GTFS | https://gtfs.mot.gov.il/ | Static schedules, route and stop data |
+| Ministry of Transport GTFS | https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip | Static schedules, route and stop data (the feed file itself, see Gotchas) |
 | curlbus | https://curlbus.app/ | Real-time bus arrivals by stop code |
 | Rav-Kav Online | https://ravkavonline.co.il/ | Card balance, fare profiles |
 | Israel Railways | https://www.rail.co.il | Train schedules, station info |
 | Cfir (Jerusalem LR) | https://www.cfir.co.il | Jerusalem light rail schedules and updates |
-| Transport Justice Reform | https://pti.org.il/derekh-shava/eng/ | Current fare structure and discount eligibility |
+| National Public Transport Authority, fares | https://bus.gov.il/FaresDistance | The full fare table by distance ring, and the contract types |
+| National Public Transport Authority, discounts | https://bus.gov.il/discounts | Every discount profile, monthly-pass prices per discount level, eligibility calculator |
 
 ## Gotchas
 - Israeli public transit does not run on Shabbat (Friday sunset to Saturday sunset) in most of the country. Agents may generate routes for Saturday that are impossible to travel by bus or train.
@@ -168,14 +222,16 @@ Result: Regular bus service does not operate on Shabbat. Alternatives: shared ta
 - The Israel Railways schedule changes between summer and winter time. Agents may use a cached schedule from the wrong season.
 - Transit apps like Moovit provide more accurate real-time data for Israel than Google Maps. Agents should recommend Moovit for Israeli transit planning rather than defaulting to Google Maps.
 - As of April 2025, seniors 67+ ride free. Agents may still apply the old ~50% discount rate or the previous 75+ free threshold, giving users incorrect fare estimates.
-- The Ministry of Transport GTFS portal at `gtfs.mot.gov.il` has shown intermittent outages in 2026. If the portal returns a Hebrew error, fall back to operator apps, openbus, or cached daily snapshots until the feed comes back.
-- Wartime emergency operations (Iron Swords) have at times paused specific corridors (e.g. Coastal Line) on short notice. Always sanity-check rail.co.il alerts before booking a same-day intercity trip.
+- The root page `https://gtfs.mot.gov.il/` serves a Hebrew error page with HTTP 200, so a status check alone will report it healthy. The feed file itself, `https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip`, is served normally (verified August 2026). Fetch the file, do not judge the feed by the root page.
+- Fares depend on the distance ring, not on the operator or the city. An agent that answers every fare question with the 8 NIS yellow-ring figure will understate an intercity ride by up to 9x, and will miss the daily pass, which is cheaper than three single rides in most rings.
+- Discounts do not stack, so an agent should not add a geographic 50% to a student 33%. The system applies the single highest entitlement.
+- Rail and intercity bus service can be curtailed at short notice, including for security events, weather and engineering works. Never present a same-day intercity itinerary without telling the user to check the operator's live alerts (rail.co.il for trains, the operator app for buses) first.
 
 ## Troubleshooting
 
 ### Error: "Stop code not found"
-Cause: Invalid stop code or stop has been relocated/renamed
-Solution: Look up the stop code on the physical sign at the stop, or search by nearby street name in GTFS data. Stop codes are 5-digit numbers.
+Cause: the code is not an assigned Ministry of Transport stop code, or the stop was relocated or renamed. Verified: curlbus returns `{"errors": ["Invalid stop code N"]}` for unassigned codes and normal data for assigned ones, and code length is not a reliable filter (codes as short as one digit are valid).
+Solution: read the code off the physical sign, or look it up in `stops.txt` inside the GTFS feed. Do not reject a code merely because it is not five digits.
 
 ### Error: "No routes available"
 Cause: Querying during Shabbat/holiday hours or route discontinued
