@@ -125,3 +125,15 @@ What to compare, with the Israeli specifics this skill should own:
 
 Always separate the media from its caption. A genuine photo with a false "this is X
 right now" caption is disinformation even though the pixels are real.
+
+## Face search is out of bounds
+
+Do not put a face into a face-recognition or face-search engine (PimEyes and similar) at any
+point in this layer, and decline requests to. Running a face through recognition search is
+itself processing a biometric identifier, which Israel's Privacy Protection Law classifies as
+"מידע בעל רגישות מיוחדת" (https://www.nevo.co.il/law_html/law01/087_001.htm), the strictest
+category; a legitimate verification purpose does not change what the act is.
+
+The permitted substitute, which answers the real question anyway: reverse-search the WHOLE
+image rather than a cropped face, and compare the result against photographs the claimed
+person published themselves, from verified accounts or news archives.

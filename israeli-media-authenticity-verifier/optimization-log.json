@@ -1,9 +1,9 @@
 {
   "cycles": [
     {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "date": "2026-08-18",
-      "note": "First review since publication (2026-06-05). Whole skill treated as the diff. Phase 5.7 ran on a narrow Hebrew-only description change: the legal gate's F1 remedy replaced 'פסק דין מנומק' with 'מסקנת אימות מנומקת' ('פסק דין' reads as a judicial ruling). No trigger surface was added or removed and the English description is byte-identical to HEAD.",
+      "note": "First review since publication (2026-06-05). Whole skill treated as the diff. Phase 5.7 ran on a narrow Hebrew-only description change: the legal gate's F1 remedy replaced 'פסק דין מנומק' with 'מסקנת אימות מנומקת' ('פסק דין' reads as a judicial ruling). No trigger surface was added or removed and the English description is byte-identical to HEAD. Shipped as 1.1.1: the legal gate's R4 (face-search prohibition) was applied after the 1.1.0 tag was cut, and the Sigstore attestation is keyed by file digest, so the content was re-tagged rather than left attesting a stale digest.",
       "lessons": [
         "Expert MAJOR deferred: add scripts/extract_audio.py (ffmpeg to WAV + ffprobe container/codec dump + optional spectrogram). The audio lane is the fastest-growing attack and is the only lane with no runnable support; all three scripts serve the image/video lane.",
         "Expert MINOR deferred: extract_frames.py still uses the deprecated -vsync vfr (should be -fps_mode vfr), hardcodes gt(scene,0.4) with no --scene-threshold flag, and has no I-frame-only mode (-skip_frame nokey), which is usually the better first pass on a heavily recompressed WhatsApp forward.",

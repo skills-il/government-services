@@ -155,12 +155,16 @@ systems degrade badly on those. Treat it as convict-only: failing the probe is a
 signal, passing it proves nothing, because these systems can still blink, smile, turn and
 speak on command. Interception, recording, and any real-time classifier remain out of scope.
 
-## Face search: verification only, never identification
+## Face search: do not run a face through a recognition engine
 
-Reverse-searching a face is permitted here for ONE purpose: checking a claimed KNOWN
-identity, for example finding the original published photo of a public figure to compare
-against. Never use it to identify an unknown person from their picture, and decline
-PimEyes-style requests. This is not only etiquette: under Israel's Privacy Protection Law
+Do not use a face-recognition or face-search engine at all (PimEyes and similar), and decline
+requests to. Purpose does not cure this one: running a face through recognition search is
+itself the regulated act, whoever the subject is and whatever you meant to establish.
+
+To verify a CLAIMED KNOWN identity, use the permitted route instead: reverse-search the WHOLE
+image rather than a cropped face, and compare it against photographs the person themselves
+published, from verified accounts or news archives. That answers "is this the picture they
+say it is" without ever performing biometric identification. This is not only etiquette: under Israel's Privacy Protection Law
 as amended, a biometric identifier used to identify a person or verify their identity by
 computerised means is "מידע בעל רגישות מיוחדת", the strictest category
 (https://www.nevo.co.il/law_html/law01/087_001.htm), so running a stranger's face through
