@@ -76,10 +76,10 @@
       "fetched_at": "2026-08-18"
     },
     {
-      "claim": "Reference links table covers the official Israeli education sources used throughout the skill: the Ministry of Education portal and its Iron Swords accommodations page, the Council for Higher Education site, the gov.il student authority and pre-academic preparatory program pages, the IDF academic reserve (atuda) page, the open data portal, and the NITE testing site. Covers these references: https://edu.gov.il/ https://edu.gov.il/special/iron-swords/ https://che.org.il/en/ https://che.org.il/he/ https://www.gov.il/he/departments/units/student_authority https://www.gov.il/he/departments/general/pre_academic_preparatory_program https://www.mitgaisim.idf.il/roles/מסלול-העתודה-האקדמית/ https://www.data.gov.il/ https://www.nite.org.il/ https://www.nite.org.il/other-tests/",
-      "source_url": "https://edu.gov.il/",
-      "raw_snippet": "Attention Required! | Cloudflare",
-      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "claim": "Reference links table covers the official Israeli education sources used throughout the skill: the Ministry of Education portal and its Iron Swords accommodations page, the Council for Higher Education site, the gov.il student authority and pre-academic preparatory program pages, the IDF academic reserve (atuda) page, the open data portal, and the NITE testing site. Covers these references: https://edu.gov.il/ https://edu.gov.il/special/iron-swords/ https://che.org.il/en/ https://che.org.il/he/ https://www.gov.il/he/departments/units/student_authority https://www.gov.il/he/departments/general/pre_academic_preparatory_program https://www.mitgaisim.idf.il/roles/מסלול-העתודה-האקדמית/ https://www.data.gov.il/ https://www.nite.org.il/ https://www.nite.org.il/other-tests/. edu.gov.il now redirects to this gov.il landing page.",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education/govil-landing-page",
+      "raw_snippet": "לשימושכם, מידע בנושאים נפוצים הנוגעים לפתיחת שנת הלימודים תשפ\"ז",
+      "verified_via": "edu.gov.il followed in a browser to its gov.il landing page",
       "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },
