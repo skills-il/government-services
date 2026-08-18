@@ -1,6 +1,6 @@
 ---
 name: israeli-miluim-manager
-description: Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, employer obligations, IDF Aka grants, Ministry of Defense disability track, and family support. Use when a reservist, employer, or family member needs help understanding miluim entitlements, filing for reserve compensation (Bituach Leumi salary reimbursement, plus tagmul nosaf and tagmul meyuchad from the IDF), claiming Keren HaSiyua grants (Manak Mishpacha Mugdal, Shover Nofesh, Fighter digital wallet), recognizing service-connected injury or PTSD via Misrad HaBitachon (Aka 8944), navigating Amendment 283 combat tax credits (15 tiers, up to 4.0 credit points), Amendment 253 BL income basis fixes, Bank Israel mortgage and loan relief, student tuition refunds, or post-service employment protections (tiered 30 or 60-day dismissal ban, permanent 20% employer compensation). Do NOT use for active-duty (sherut sadir) conscription, draft deferral policy, or career military (keva) matters.
+description: Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, employer obligations, IDF grants and the Ministry of Defence disability track. Use when a reservist, employer or family member needs help with the four payment tracks, where only salary reimbursement comes from Bituach Leumi and tagmul nosaf, tagmul meyuchad and the over-age tagmul are all paid by the IDF; the two-layer tagmul meyuchad (flat 133.33/day for days 32-60, then a rate set by the service year); Keren HaSiyua grants banded by activity tier; Amendment 283 combat tax credits, granted the tax year after service; employment protection and its two different committees; state-funded legal representation; deferring or shortening a call-up; or appealing a rejected Bituach Leumi claim within 12 months to the Labour Court. Do NOT use for active-duty conscription, draft deferral policy, or career military matters.
 license: MIT
 compatibility: Requires Claude Code or compatible AI coding agent
 ---
@@ -56,7 +56,7 @@ A form submitted to an authority is a document whose contents are your responsib
 
 **Spouse, temporary layer.** A הוראת שעה in force from 29.04.2026 adds, for a spouse **who has a child** with the reservist, a ban on dismissal **and on חל"ת** during the service and for **14 days** after, permit-gated by ועדת התעסוקה. It applies only where the service is under Section 8 emergency conditions or lasts (or is expected to last) 21+ consecutive days, and the employee must notify the employer in writing within 3 working days of being told of the intent. It expires 30 days after the מצב מיוחד בעורף declaration lapses, so **check it is still live before relying on it**.
 
-**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Conditions: 3+ consecutive miluim days, harm inside the protection window, causal link. It carries an undertaking to **repay the full cost** if the harm proves unrelated, court fees stay with the applicant, and it covers **employees only, not freelancers**. Apply on miluim.idf.il with Form 3010.
+**State-funded legal representation.** A reservist (or qualifying spouse) dismissed, summoned to a שימוע, or pushed onto חל"ת over reserve service may get a labour-law attorney **funded by the Ministry of Defence**. Never present self-funded litigation as the only remedy. Conditions: more than 3 consecutive miluim days, harm inside the protection window, causal link. It carries an undertaking to **repay the full cost** if the harm proves unrelated, court fees stay with the applicant, and it covers **employees only, not freelancers**. Apply on miluim.idf.il with Form 3010.
 
 **Filing a complaint:** violations go to the Labor Court. The fee is 1% of the claim, minimum NIS 168 (NIS 84 expedited), and common wage claims are fee-exempt.
 
@@ -216,7 +216,7 @@ Actions:
 2. Explain employer claims salary reimbursement from Bituach Leumi, plus 20% state compensation for social contributions
 3. Note 30-day post-service dismissal protection on return; spouse protection is a permanent causal ban under s.41A2(b), plus a conditional 14-day window from 29.04.2026
 4. Amendment 283 credit: 40-49 day tier = 0.75 points = NIS 2,178/year, only with the ishur lochem, and credited in the tax year AFTER the service year
-5. Note Tagmul Nosaf is an IDF payment due by 1 May next year (its 2026 day-threshold needs verifying)
+5. Note Tagmul Nosaf is an IDF payment due by 1 May next year
 6. Note digital wallet eligibility (accrues from day 10) and check miluim.idf.il for Aka grants
 Result: Employee understands full rights, employer obligations, exact tax credit value, and Aka grant access path.
 
@@ -227,7 +227,7 @@ Actions:
 2. BTL usually pays the self-employed automatically from IDF data; only if nothing arrives within 3 weeks, file Form 502 with Form 3010. Never Form 510, which only an employer can complete
 3. Calculate expected compensation based on 3-month average income (note Amendment 253 if this is a repeat service)
 4. Check if income is below NIS 9,863/month floor for automatic top-up
-5. Check Tagmul Nosaf with the IDF (automatic by 1 May; the 2026 day-threshold needs verifying)
+5. Check Tagmul Nosaf with the IDF (automatic by 1 May; 10+ cumulative shamap days in the calendar year qualify)
 6. Check Manak Nezek Akif filing window for the relevant period at gov.il
 7. Confirm self-funded keren hishtalmut deposit if maintaining the 6-year clock
 Result: Freelancer files claim, receives compensation directly from Bituach Leumi, captures Manak Nezek Akif and Tagmul Nosaf.

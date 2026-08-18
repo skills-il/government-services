@@ -19,7 +19,7 @@ The following wartime temporary provisions were enshrined in permanent law start
 | Applies to | All employers, all reservists | All employers, all reservists |
 | Legal basis | Hora'at Sha'a (temporary provision) | Made permanent via 2026 legislation |
 
-**Impact**: Section 41A(b) gives 30 days of post-service dismissal protection for reserve service exceeding two consecutive days. The tiered 60-day protection for 60+ days of service is widely reported but does not appear in the consolidated statute, so do not quote it as settled.
+**Impact**: Section 41A(b) gives 30 days of post-service dismissal protection for reserve service exceeding two consecutive days. The tiered 60-day protection is real, but it is split across two instruments: the first 30 days are Section 41A(b) of the Discharged Soldiers (Return to Work) Law, and days 31-60 come from a collective-agreement extension order, which is why they are absent from the consolidated statute. The permits come from different bodies: ועדת התעסוקה (Ministry of Defence) for the first 30 days, ועדת פיקוח (Ministry of Labour) for days 31-60.
 
 ### 2. Employer Compensation for Social Contributions (20%)
 
@@ -83,7 +83,7 @@ These protections are part of permanent law and remain fully in effect.
 |-----------|---------|-------------|
 | Job preservation during service | Employer must hold the reservist's position | Reserve Duty Compensation Law |
 | Same role upon return | Must return to same position, same terms, same pay | Reserve Duty Compensation Law |
-| 30-day post-service dismissal ban (under 60 days served) | Cannot be fired within 30 days of return | Reserve Duty Compensation Law |
+| 30-day post-service dismissal ban (under 60 days served) | Cannot be fired within 30 days of return, and job scope and income may not be cut either | Section 41A(b), Discharged Soldiers (Return to Work) Law |
 | 60-day post-service dismissal ban (60+ days served) | Cannot be fired within 60 days of return. Days 1-30 need a ועדת התעסוקה permit (Defence); days 31-60 need a ועדת פיקוח permit (Labour) | Section 41A(b) plus a collective-agreement extension order, carried forward by the 29.04.2026 order |
 | Pre-service dismissal ban | Cannot be fired because of an upcoming call-up | Reserve Duty Compensation Law |
 | Seniority accrual | Service period counts toward work seniority | Reserve Duty Compensation Law |

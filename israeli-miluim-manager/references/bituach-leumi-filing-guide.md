@@ -1,18 +1,19 @@
 # Bituach Leumi Reserve Duty Compensation Filing Guide
 
-A step-by-step guide for filing all three reserve-duty payment tracks (only the first is a Bituach Leumi payment) (ביטוח לאומי, National Insurance Institute), plus the joint Tax Authority and IDF Manak Nezek Akif grant for self-employed reservists. Covers both employees and self-employed workers.
+A step-by-step guide for filing all four reserve-duty payment tracks (only the first is a Bituach Leumi payment) (ביטוח לאומי, National Insurance Institute), plus the joint Tax Authority and IDF Manak Nezek Akif grant for self-employed reservists. Covers both employees and self-employed workers.
 
 ## The Four Reserve-Duty Payment Tracks
 
-Only the first is a Bituach Leumi payment. Tagmul Nosaf and Tagmul Meyuchad are IDF payments, chased at 1111 ext. 4 and never at *6050.
+Only the first is a Bituach Leumi payment. Tagmul Nosaf, Tagmul Meyuchad and the over-age tagmul are IDF payments, chased at 1111 ext. 4 and never at *6050.
 
 | Track | Hebrew | What It Is | When Paid |
 |-------|--------|-----------|-----------|
 | Salary reimbursement (Bituach Leumi) | תגמולי מילואים | Replaces lost income during service | Monthly during/after service |
 | Tagmul Nosaf (IDF) | תגמול נוסף | Annual payment; **10+ cumulative shamap days** in a calendar year (Reserve Service Law s.19) | By 1 May of the following year |
 | Tagmul Meyuchad (IDF) | תגמול מיוחד | Two layers: flat 133.33/day for days 32-60, then a year-specific rate beyond day 60; rate banded by unit tier | 2026 payment on 01.05.2027 by Mofet |
+| Over-age tagmul (IDF) | תגמול למוחרגי גיל | 133.33/day and 66.67/half-day, paid **in addition to** Tagmul Meyuchad, for soldiers 40+ and officers 45+ obliged to serve longer by role or profession. **אל"ם and above are not entitled.** Over-age reservists also receive Tagmul Meyuchad from the FIRST shamap day | Same annual cycle, by 1 May |
 
-A reservist may be entitled to all three. Conflating them is the leading cause of believing a payment is missing when only one track has been processed.
+A reservist may be entitled to all four. Conflating them is the leading cause of believing a payment is missing when only one track has been processed. Always ask the reservist's age and rank: an enlisted reservist over 40, or an officer over 45, serving beyond the statutory exemption age because of their role, is owed the over-age tagmul on top of everything else and almost never knows to ask.
 
 ## Overview
 
@@ -232,7 +233,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 
 An annual payment separate from salary reimbursement, **paid by the IDF, not by Bituach Leumi**.
 
-**Verify before quoting a threshold:** the 2026 IDF policy page does not restate the terms of tagmul nosaf, so the 10-qualifying-day rule is set by section 19 of the Reserve Service Law with the qualifying period in Supreme Command Orders.
+**The threshold is 10+ cumulative shamap days in a calendar year (Reserve Service Law s.19):** the 2026 IDF policy page does not restate the terms of tagmul nosaf, so the 10-qualifying-day rule is set by section 19 of the Reserve Service Law with the qualifying period in Supreme Command Orders.
 
 | Aspect | Detail |
 |--------|--------|
@@ -244,7 +245,7 @@ An annual payment separate from salary reimbursement, **paid by the IDF, not by 
 
 ## Tagmul Meyuchad (Special Wartime Payment)
 
-**Paid by the IDF (Mofet), NOT by Bituach Leumi.** Entitlement has **two layers**: a flat 133.33 NIS/day for days **32-60**, then a rate beyond day 60 that depends on the SERVICE YEAR (2024 flat 133 and 2025 133/60/40, both tzav 8 only; 2026 six activity-tier bands, any order type) in 2026, in any order type. Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60. The daily rate is banded by the unit's activity tier (א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS). The 2026 payment is made on 01.05.2027.
+**Paid by the IDF (Mofet), NOT by Bituach Leumi.** Entitlement has **two layers**: a flat 133.33 NIS/day for days **32-60**, then a rate beyond day 60 that depends on the SERVICE YEAR (2024 flat 133 and 2025 133/60/40, both tzav 8 only; 2026 six activity-tier bands, any order type). Days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60. The daily rate is banded by the unit's activity tier (א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 NIS). The 2026 payment is made on 01.05.2027.
 
 | Aspect | Detail |
 |--------|--------|
