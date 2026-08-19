@@ -1,0 +1,25 @@
+# eval_queries.txt - israeli-municipal-audit-report
+# 6 positive / 3 negative / 2 edge = 11
+# TRAIN = P1-P4, N1-N2, E1 | HOLDOUT = P5-P6, N3, E2
+
+[POSITIVE]
+P1  אני מבקר העירייה, מתי אני חייב להגיש את הדוח השנתי?
+P2  ראש הרשות לא החזיר הערות על דוח הביקורת, מה הוועדה יכולה לעשות?
+P3  מה חייב להיכלל בדוח מבקר של רשות מקומית לפי החוק?
+P4  I am the internal auditor of an Israeli municipality, what is my reporting timeline?
+P5  האם מותר לי לפרסם ממצא מדוח הביקורת לפני הדיון במועצה?
+P6  האם תאגיד עירוני נכנס לתחום הביקורת שלי?
+
+[NEGATIVE]
+N1  איך מגישים תלונה נגד העירייה על שירות גרוע
+    -> public complaints / ombudsman, a separate statutory role
+N2  אני רוצה לערער על חיוב ארנונה
+    -> israeli-arnona-optimizer, ratepayer side not audit side
+N3  צריך ביקורת פנימית לחברה פרטית שלי
+    -> private-sector internal audit, different statutory regime entirely
+
+[EDGE]
+E1  מבקר המדינה פרסם דוח על העירייה שלנו, מה עושים
+    -> State Comptroller is a different body; in scope only for the 21A(b) correction team link
+E2  אני היועץ המשפטי של העירייה וקיבלתי טיוטת דוח ביקורת
+    -> in scope for the publication restriction, but note 170C(g) if the advisor is a subject

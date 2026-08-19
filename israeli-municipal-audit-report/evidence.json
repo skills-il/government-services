@@ -1,0 +1,206 @@
+{
+  "skill_slug": "israeli-municipal-audit-report",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-19",
+  "note": "Statutory text read from the Wikisource text layer of פקודת העיריות via the MediaWiki API, which returns raw wikitext.",
+  "claims": [
+    {
+      "id": "report-1-april",
+      "claim": "The auditor submits the annual report to the mayor once a year, not later than 1 April of the year following the audited year",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "הדו״ח יוגש אחת לשנה, לא יאוחר מ־1 באפריל של השנה שלאחר השנה שלגביה הוגש הדוח",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "report-contents",
+      "claim": "The report summarises the auditor's actions, details the deficiencies found, and recommends their correction and the prevention of recurrence",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "בדוח יסכם המבקר את פעולותיו, יפרט את הליקויים שמצא וימליץ על תיקון הליקויים ומניעת הישנותם בעתיד",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "report-copy-committee",
+      "claim": "On submitting the report the auditor delivers a copy to the audit committee",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "בעת הגשת הדוח לפי סעיף קטן זה, ימציא המבקר העתק ממנו לועדה לעניני ביקורת",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "mayor-3-months",
+      "claim": "Within three months of receiving the report the mayor submits comments to the audit committee and gives every council member a copy of the report with the comments",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "תוך שלושה חדשים מיום קבלת דו״ח המבקר יגיש ראש העיריה לועדה לעניני ביקורת את הערותיו על הדו״ח וימציא לכל חברי המועצה העתק מהדו״ח בצירוף הערותיו.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "committee-2-months",
+      "claim": "The committee submits its conclusions and proposals to the council within two months of receiving the mayor's comments",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "תגיש למועצה לאישור את סיכומיה והצעותיה תוך חדשיים מיום שנמסרו לה הערות ראש העיריה",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "committee-5-months",
+      "claim": "If the mayor does not comment in time the committee acts within five months of the auditor's delivery to it",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "לא הגיש ראש העיריה את הערותיו על הדוח עד תום התקופה האמורה, תדון הועדה בדוח המבקר ותגיש למועצה לאישור את סיכומיה והצעותיה עד תום חמישה חודשים ממועד המצאתו על ידי מבקר העיריה לועדה",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "council-2-months",
+      "claim": "The council holds a special discussion within two months of the committee's submission",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "תוך חדשיים מן היום שהגישה הועדה את סיכומיה והצעותיה תקיים המועצה דיון מיוחד בהם ובדוח המבקר",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "council-7-months",
+      "claim": "On the fallback branch the council discusses the report not later than seven months from its submission to the mayor",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "ימציא המבקר עותק הדוח לכל חברי המועצה והמועצה תדון בדוח ובהמלצותיו לא יאוחר משבעה חודשים ממועד הגשתו לראש העיריה",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "publication-ban",
+      "claim": "No person may publish the report, any part of it or its contents before the date set for its submission to the council, nor publish an audit finding; the auditor or mayor may permit publication with the committee's approval",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "לא יפרסם אדם דו״ח מן האמורים בסעיף זה או חלק ממנו או תכנו, לפני שחלף המועד שנקבע להגשתו למועצה, ולא יפרסם ממצא בקורת של מבקר העיריה, ואולם מבקר העיריה או ראש העיריה רשאי, באישור הועדה, להתיר פרסום כאמור.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "not-evidence",
+      "claim": "The auditor's reports, opinions or any document produced in the role are not admissible as evidence in legal proceedings, but are not disqualified as evidence in disciplinary proceedings",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "דוחות המבקר, חוות דעת או כל מסמך אחר שהוציא או שהכין מבקר העיריה במילוי תפקידו, לא ישמשו ראיה בכל הליך משפטי, אך לא יהיו פסולים בשל כך לשמש ראיה בהליך משמעתי.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "bribery-referral",
+      "claim": "Where the auditor has grounds to believe the mayor or the legal advisor is party to an offence under Chapter E Article B of the Penal Law, the matter goes directly to the State Comptroller",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "היה למבקר העיריה יסוד להניח שראש העיריה או היועץ המשפטי של העיריה, הוא צד לעשיית עבירה לפי הוראות",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "duties-legality",
+      "claim": "The auditor checks whether municipal actions were lawful, by the authorised person, preserving purity of morals and the principles of efficiency and economy",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "לפי סעיף 170א(א) המבקר בודק אם פעולות העיריה נעשו כדין, בידי המוסמך לעשותם, תוך שמירת טוהר המידות ועקרונות היעילות והחסכון",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "audited-body",
+      "claim": "The audit extends to the religious council and to any body in whose annual budget the municipality participates by more than one tenth, or in whose management it participates, called an audited municipal body",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "וכן לגבי כל תאגיד, מפעל, מוסד, קרן או גוף אשר העיריה משתתפת בתקציבם השנתי כדי יותר מעשירית לגבי אותה שנת תקציב או משתתפת במינוי הנהלתם; למי שעומד לבקורת לפי סעיף קטן זה ייקרא להלן ”גוף עירוני מבוקר“.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "workplan-sources",
+      "claim": "The work plan is set by the auditor's discretion, the mayor's demand, or the audit committee's demand limited to two topics per work year",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "על פי דרישת הועדה לעניני ביקורת, ובלבד שמספר הנושאים לביקורת לא יעלה על שני נושאים לשנת עבודה.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "correction-team",
+      "claim": "A deficiency-correction team appointed under section 21A(b) of the State Comptroller Law discusses the ways and dates for correcting deficiencies found in the report",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "עובדי העיריה החברים בצוות לתיקון ליקויים, שמונה לפי הוראות סעיף 21א(ב) לחוק מבקר המדינה, התשי״ח–1958 [נוסח משולב]",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "comptroller-law-21a",
+      "claim": "Section 21A of the State Comptroller Law governs the audited body head's response and the deficiency-correction team",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "source_fetched_at": "2026-08-19T15:55:00Z",
+      "raw_snippet": "ראש הגוף המבוקר כהגדרתו בסעיף 21א, בגופים מבוקרים אחרים, ימסור למבקר, בתוך עשרה שבועות מהיום שבו קיבל לידיו את הדין וחשבון, במלואו או חלק ממנו, את הערותיו לדין וחשבון לגבי כל ליקוי או פגיעה שפורטו בו.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "auditor-office-regs",
+      "claim": "The regulations on standards and annual budget for the municipal auditor's office are made under section 170A(e) of the Ordinance",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "source_fetched_at": "2026-08-19T15:55:00Z",
+      "raw_snippet": "בתוקף סמכותי לפי סעיף 170(ה), 170א(ה) ו־347 לפקודת העיריות ובאישור הוועדה לביקורת המדינה של הכנסת, אני מתקין תקנות אלה:",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "budget-floor",
+      "claim": "The auditor's budget proposal may not fall below a percentage of the authority's annual budget set by the minister",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "source_fetched_at": "2026-08-19T15:55:00Z",
+      "raw_snippet": "היקף הצעת התקציב לא יפחת משיעור קבוע באחוזים מהתקציב השנתי של העיריה, כפי שיקבע השר בהתחשב במספר התושבים בתחומה של העיריה ובגודל תקציבה השנתי.",
+      "verified_via": "text",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    }
+  ]
+}
