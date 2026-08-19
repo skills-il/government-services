@@ -25,21 +25,34 @@ All figures effective 01.01.2026 unless noted.
 | Controlling shareholder, closely-held company (בעל שליטה) | **4.25%** | **11.96%** | 4.46% | 7.38% |
 | Under 18 | **0%** | **0%** | 0.61% | 2.12% |
 | Receiving old-age pension, any age | **0%** | **0%** | 0.61% | 2.12% |
-| Reached retirement age, under 70, NOT receiving old-age pension | 0.61% + 3.23% = **3.93%** | 4.86% + 5.17% = **10.03%** | 4.13% | 6.96% |
+| Aged 67 to 70, NOT receiving old-age pension | 3.23% health + the NI balance = **3.93%** | 4.86% NI + 5.17% health = **10.03%** | 4.13% | 6.96% |
 | Woman between her retirement age and 67, NOT receiving old-age pension | **3.95%** | **10.24%** | 4.17% | 7.12% |
 | Receiving work-injury or general-disability pension (with annual BTL confirmation) | 0% NI + 3.23% health = **3.23%** | 0% + 5.17% = **5.17%** | 0.61% | 2.12% |
 | Soldier in regular service, organ donor, treaty-country foreign resident | 1.04% NI only (health exempt) | 7.0% NI only | 4.51% | 7.60% |
+
+
+**On the 67-70 row:** BTL publishes the employee TOTAL (3.93% reduced, 10.03% full) and the employer columns, not a reduced-band NI/health split, so the reduced NI component is the residual above the 3.23% health rate. An earlier version of this file wrote that residual as 0.61%, which is the EMPLOYER rate for a minor and does not add up to 3.93%. Quote the total, not a split.
+
+### Controlling-shareholder variants of the reduced rows
+
+A controlling shareholder in a closely-held company pays a marginally lower employer rate on every reduced row too, not only on the standard row. The employee rate is unchanged from the matching ordinary row.
+
+| Category (controlling shareholder) | Employee, reduced | Employee, full | Employer, reduced | Employer, full |
+|---|---|---|---|---|
+| Under 18, old-age-pension recipient, disability-pension recipient, over the absolute eligibility age | same as the ordinary row | same as the ordinary row | **0.6%** | **2.06%** |
+| Aged 67 to 70, NOT receiving old-age pension | **3.93%** | **10.03%** | **4.12%** | **6.9%** |
+| Soldier in regular service, organ donor, treaty-country foreign resident | **1.02%** | **6.79%** | 4.46% | 7.38% |
 
 The employer share changes too, and it is NOT always 4.51% / 7.60%: for a minor, an old-age-pension recipient, or a disability-pension recipient the employer pays a reduced 0.61% / 2.12%, and for an employee aged 67-70 (or a woman between her retirement age and 67) who is not drawing a pension the employer pays 4.13% / 6.96% (4.17% / 7.12% respectively). Read the employer columns above, do not assume the standard rate.
 
 ### First became an Israeli resident over age 62 (naturalized late)
 
-| Category | Employee, reduced | Employee, full |
-|---|---|---|
-| Under retirement age | **3.6%** | **7.45%** |
-| Woman between her retirement age and 67 | **3.28%** | **5.52%** |
-| Between men's retirement age and the absolute eligibility age | **3.26%** | **5.31%** |
-| Above the absolute eligibility age | **3.23%** | **5.17%** |
+| Category | Employee, reduced | Employee, full | Employer, reduced | Employer, full |
+|---|---|---|---|---|
+| Under retirement age | **3.6%** | **7.45%** | **1.04%** | **2.95%** |
+| Woman between her retirement age and 67 | **3.28%** | **5.52%** | **0.7%** | **2.47%** |
+| Between men's retirement age and the absolute eligibility age | **3.26%** | **5.31%** | **0.66%** | **2.31%** |
+| Above the absolute eligibility age | **3.23%** | **5.17%** | **0.61%** | **2.12%** |
 
 Source: `btl.gov.il/Insurance/Rates/Pages/לעובדים שכירים.aspx`.
 

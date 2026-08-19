@@ -75,6 +75,23 @@
           "אני עצמאי שמקבל קצבת זקנה, איזה אחוז אני משלם על ההכנסה? (routed before and after)"
         ]
       }
+    },
+    {
+      "version": "1.7.2",
+      "date": "2026-08-19",
+      "type": "remediation",
+      "lessons": [
+        "RESOLVED the deferred 67-70 arithmetic. The official btl.gov.il employee table publishes only the employee TOTAL for that row (3.93% reduced, 10.03% full) plus the employer columns, no reduced-band NI/health split. The file's '0.61% + 3.23% = 3.93%' was wrong twice over: it does not add up, and 0.61% is the employer rate for a minor. Quote the published total, do not reconstruct a split the source does not publish. The disputed 3.37 / 3.84 / 3.93 candidates resolve to 3.93%.",
+        "The June 2026 remediation fixed the DOCUMENT and left the TOOL. references/contribution-rates.md carried all 8 employee categories while the published checker still had a single 4.27/12.17 employee path, so a working disability-pension recipient was charged 4.27 instead of 3.23 (over-charged 32% on the reduced band and 135% on the full band). A prose fix is not done until the frozen manifest built from that prose is regenerated.",
+        "The old manifest branched on numeric age and a receivesPension boolean, which cannot express the official table: age>=67 was applied to both sexes (a woman is 62-66), never released at 70, and had no disability, controlling-shareholder, or naturalized-over-62 path. Replaced with a single 20-row 'who are you?' select taken verbatim from the table rows, which makes the invalid combinations unrepresentable and gives every category a golden.",
+        "btl.gov.il rate pages DO serve real <table> markup to a plain curl. Extract the rows from the HTML rather than using WebFetch, which returned contradictory employee rates on three consecutive tries on this exact page.",
+        "A per-component max() for the non-worker 266 floor made the breakdown lines disagree with the headline in the 5,508 to 5,821 income band. BTL applies the minimum to the TOTAL, so branch on the crossover income (266 / 0.1209 + 3,442 = 5,641.34) instead."
+      ],
+      "checker": {
+        "slug": "bituach-leumi-contributions",
+        "goldens": 25,
+        "categories": 20
+      }
     }
   ]
 }

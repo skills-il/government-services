@@ -201,11 +201,11 @@ Each employer applies the reduced bracket to the salary IT pays, so someone with
 
 Real entitlements people miss. Route here when the question fits none of the 13 above. Eligibility in `references/benefit-programs.md`, forms in `references/forms.md`.
 
-- **Alimony (mezonot), 5400** — a court alimony judgment the ex-partner is not paying: BTL pays, then collects from the debtor.
-- **Personal-accident benefit (dmei te'una), 2201** — injured at home / on holiday / in leisure and unable to function, up to 90 days. NOT work or road accidents. Widely unknown, so it goes unclaimed.
-- **Vocational rehabilitation, 270** — retraining and a stipend when earning capacity drops, or for a widow/widower.
-- **Burial grant (460, exceptional cases)** and **death grant (416)** — the latter a one-off to the family of someone drawing an old-age, survivors, disability, or work-injury pension.
-- **Study grant, discharged-soldier preferred-work grant, volunteer injury** — see the reference.
+- **Alimony (mezonot), 5400**: a court alimony judgment the ex-partner is not paying. BTL pays, then collects from the debtor.
+- **Personal-accident benefit (dmei te'una), 2201**: injured at home / on holiday / in leisure and unable to function, up to 90 days. NOT work or road accidents. Widely unknown, so it goes unclaimed.
+- **Vocational rehabilitation, 270**: retraining and a stipend when earning capacity drops, or for a widow/widower.
+- **Burial grant (460, exceptional cases)** and **death grant (416)**. The latter is a one-off to the family of someone drawing an old-age, survivors, disability, or work-injury pension.
+- **Study grant, discharged-soldier preferred-work grant, volunteer injury**: see the reference.
 
 Do NOT confuse **ma'anak avoda (מענק עבודה, the EITC)** with a BTL grant: it is paid by the **Tax Authority**. **Sick pay** is paid by the **employer**, not BTL.
 

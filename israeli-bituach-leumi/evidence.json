@@ -2929,6 +2929,46 @@
       ],
       "fetched_at": "2026-08-09T15:52:12.319301+00:00",
       "note": "Personal-area portal is a JS-rendered Angular app behind login; curl returns a shell. Not text-verifiable by the gate; the URL itself resolves HTTP 200. Duplicate entry op-ps (source_url 'https://ps.btl.gov.il**') removed 2026-08-10 - it existed only because the URL extractor swallowed markdown bold markers, now fixed in verify-evidence.py."
+    },
+    {
+      "claim_id": "pct-cs-er-0-6",
+      "claim": "controlling-shareholder employer rate, reduced band, on the zero-employee rows (minor, old-age-pension recipient, disability-pension recipient): 0.6% (2026)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "חל ב- 01.01.2025) 7.29% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) 2.12% (החל ב- 01.01.2021) בעל שליטה בחברת מעטים 3.83% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) 0.6% (החל ב- 01.01.2025) 7.23% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) 2.06% (החל ב- 01.01.2019) אישה וגבר מתחת ​לגיל פרישה ",
+      "fetched_at": "2026-08-19T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "pct-cs-er-2-06",
+      "claim": "controlling-shareholder employer rate, full band, on the zero-employee rows: 2.06% (2026)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": "החל ב- 01.01.2021) בעל שליטה בחברת מעטים 3.83% (החל ב- 01.01.2025) 3.23% (החל ב- 01.01.2025) 0.6% (החל ב- 01.01.2025) 7.23% (החל ב- 01.02.2025) 5.17% (החל ב- 01.02.2025) 2.06% (החל ב- 01.01.2019) אישה וגבר מתחת ​לגיל פרישה שנעשו לראשונה תושב/ת ישראל מעל גיל 62 4.64% (החל ב- 01.01.2025) 3.6% (החל ב- ",
+      "fetched_at": "2026-08-19T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "pct-cs-er-4-12",
+      "claim": "controlling-shareholder employer rate, reduced band, aged 67 to 70 not drawing an old-age pension: 4.12% (2026)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": " ב- 01.01.2025) 16.99% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.96% (החל ב- 01.01.2021) בעל שליטה בחברת מעטים 8.05% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.12% (החל ב- 01.01.2025) 16.93% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.9% (החל ב- 01.01.2019) מי שטרם מלאו לו 18 שנה 0.",
+      "fetched_at": "2026-08-19T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "pct-cs-er-6-9",
+      "claim": "controlling-shareholder employer rate, full band, aged 67 to 70 not drawing an old-age pension: 6.9% (2026)",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D.aspx",
+      "raw_snippet": " ב- 01.01.2021) בעל שליטה בחברת מעטים 8.05% (החל ב- 01.01.2025) 3.93% (החל ב- 01.01.2025) 4.12% (החל ב- 01.01.2025) 16.93% (החל ב- 01.02.2025) 10.03% (החל ב- 01.02.2025) 6.9% (החל ב- 01.01.2019) מי שטרם מלאו לו 18 שנה 0.61% (החל ב- 01.01.2025) -- 0.61% (החל ב- 01.01.2025) 2.12% (החל ב- 01.01.2019) -",
+      "fetched_at": "2026-08-19T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
     }
   ]
 }
