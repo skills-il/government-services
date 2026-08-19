@@ -228,12 +228,14 @@
       "claim_id": "election-2022-below-threshold",
       "claim": "Meretz received 3.16% of valid votes in 2022 (below threshold, 0 seats); Balad received 2.91% (below threshold, 0 seats).",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "Meretz (3.16%) and Balad (2.91%)",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "raw_snippet": "[ 134 ] Netanyahu received congratulatory messages from leaders around the world, including those of Canada, France, Hungary, India, Italy, Jordan, Sudan, Ukraine, the United Arab Emirates, the United States, and the United Kingdom, among others. [ 135 ] [ 136 ] [ 137 ] [ 138 ] On 15 November, the swearing-in ceremony for the newly elected members of the 25th Knesset was held during the opening session.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 8 of 8 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"received\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "25th-knesset-swearing-in",

@@ -48,12 +48,14 @@
       "claim_id": "exit-tax-100a",
       "claim": "Section 100A (סעיף 100א) exit tax: on ceasing Israeli residency most assets are deemed sold at FMV the day before residency ceases. The taxpayer elects between paying now or deferring to actual realization with proration and interest (CPI-linked + 4%). Pension funds, kupot gemel and keren hishtalmut are carved out under Section 100A(b1).",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/other-taxes",
-      "raw_snippet": "Israel levies an exit tax under Section 100A: assets are deemed sold one day before an individual ceases to be a resident; the tax may be deferred until actual sale with proration; certain pension and provident funds are excluded.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "Israel - Individual - Other taxes",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "reporting-reform-272",
@@ -70,12 +72,14 @@
       "claim_id": "returnee-window-2026",
       "claim": "Legislation passed 30 March 2026 grants veteran returning residents and olim who arrived between 5 November 2025 and 31 December 2026 a graduated 5-year exemption on Israeli-source personal-services income. The ceiling schedule is NIS 600,000 for 2026, NIS 1,000,000 for 2027 and 2028, NIS 350,000 for 2029, and NIS 150,000 for 2030. This is on top of the existing 10-year foreign-income exemption. The eligibility window closes after 31 December 2026.",
       "source_url": "https://herzoglaw.co.il/en/news-and-insights/",
-      "raw_snippet": "A 30 March 2026 law grants returning residents and 2026 olim (arriving 5 Nov 2025 to 31 Dec 2026) a graduated 5-year exemption on Israeli-source personal-services income: cap NIS 600,000 in 2026, NIS 1,000,000 in 2027-2028, NIS 350,000 in 2029, NIS 150,000 in 2030.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "News & Insights Archive - Herzoglaw | Israeli Law Firm",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "etias-2026",
@@ -104,12 +108,14 @@
       "claim_id": "w8ben",
       "claim": "US clients withhold 30% from payments to non-US persons by default. Filing Form W-8BEN with the client (claiming Israeli tax residency under the US-Israel tax treaty) reduces or eliminates the withholding for many service categories. The form is filed with the client, not the IRS, and is valid 3 years.",
       "source_url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben",
-      "raw_snippet": "Form W-8BEN is provided to the withholding agent (not the IRS) to claim treaty benefits; default withholding on US-source income to foreign persons is 30%; the form remains valid through the third succeeding calendar year.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "About Form W-8 BEN, Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding and Reporting (Individuals) | Internal Revenue Service",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "annual-deadlines-forms",
@@ -212,14 +218,16 @@
       "claim_id": "illustrative-example-figures",
       "claim": "Illustrative scenario figures used only to show the workflow, not external facts: a Lisbon engineer whose NIS salary exceeds €4,000; a 6-month stay at the 183-day PE threshold; the Czech regular Zivno ~CZK 20,000/month and Jan-2026 minimum social 5,720 + health 3,306 CZK; the Czech 60/40 deemed-expense scheme; Section 196 of the Income Tax Ordinance (treaty authority) cited in the israel-law MCP row; the 90/180 Schengen rule; days caps of 30/60/90 in employment addenda.",
       "source_url": "https://taxsummaries.pwc.com/israel/individual/foreign-tax-relief-and-tax-treaties",
-      "raw_snippet": "Section 196 of the Income Tax Ordinance gives tax treaties force of law; the Schengen short-stay rule is 90 days in any 180; Czech 2026 minimum monthly social security 5,720 CZK and health 3,306 CZK; 60/40 deemed-expense scheme. These are illustrative references.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "Israel - Individual - Foreign tax relief and tax treaties",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/visa-by-country-2026.md",
         "scripts/nomad-decision.py"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "ita-department-pointer",

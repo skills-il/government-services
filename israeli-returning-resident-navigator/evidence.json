@@ -293,12 +293,14 @@
       "claim_id": "t627-vs-t628-form-distinction",
       "claim": "T627 is the National Insurance residency questionnaire for returnees abroad less than 5 years (submitted to BL before arrival); T628 is the residency questionnaire for returnees abroad 5 years or more, registered at Misrad HaAliyah V'HaKlita office",
       "source_url": "https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/",
-      "raw_snippet": "T627: Initial residency determination form for those abroad less than 5 years. Submit to National Insurance Institute before arrival. T628: Residency questionnaire required for those abroad more than 5 years. Register in health fund at Ministry of Aliyah and Integration office.",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Applications can also be submitted online through a “ Personal Account ” portal. Applicants are required to provide: A detailed cost proposal from the educational institution The study program outline Approval or recognition of the study program by an authorized professional body or a commitment to professional guidance post-completion for non-recognized institutions For convenience, visit this link to schedule an appoint",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 22 of 26 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"submitted\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "pidyon-14520-nis-feb-2024-cross-ref",

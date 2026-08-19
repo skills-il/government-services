@@ -45,8 +45,11 @@
       "id": "section-100a-deemed-sale",
       "claim": "Section 100A of the Income Tax Ordinance treats all of a person's worldwide assets as deemed sold one day before residency severance, subjecting unrealized gains to capital gains tax.",
       "source_url": "https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat",
-      "raw_snippet": "Section 100A treats all worldwide assets as if they were sold one day before the day residency was severed",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "Israeli Exit Tax – A Glance on Its Challenges, Mitigation Options, and New Expected Legislation",
+      "fetched_on": "2026-05-26",
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19",
+      "fetched_at": "2026-08-19"
     },
     {
       "id": "section-100a-rate-25-substantial",
@@ -62,8 +65,11 @@
       "id": "section-100a-deferral-option",
       "claim": "The default option under Section 100A is to defer payment until the asset is actually sold, with Israel taxing only the Israeli-period pro-rata portion of the gain.",
       "source_url": "https://www.hltaxes.com/post/israeli-exit-tax-a-glance-on-its-challenges-mitigation-options-and-new-expected-legislat",
-      "raw_snippet": "default option to defer payment until actual sale; Israeli portion of gain calculated pro-rata",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "Israeli Exit Tax – A Glance on Its Challenges, Mitigation Options, and New Expected Legislation",
+      "fetched_on": "2026-05-26",
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19",
+      "fetched_at": "2026-08-19"
     },
     {
       "id": "form-58-miluim-deferral",
@@ -214,8 +220,11 @@
       "id": "section-14-vesting-period-sourcing",
       "claim": "Equity compensation (RSU, options) for a returning resident is sourced by where the work was performed during the vesting period, not by grant date. The foreign-vesting portion is exempt under Section 14 for vatik returnees; the Israeli-vesting portion is Israeli-source ordinary income.",
       "source_url": "https://s-horowitz.com/taxation-of-stock-options-for-employees-who-became-israeli-residents/",
-      "raw_snippet": "Sourcing of equity compensation by vesting-period work location, not by grant date",
-      "fetched_on": "2026-05-26"
+      "raw_snippet": "The place of production of income in this case will be determined according to the place where the work was performed during the vesting period of the options (i.e., part of the income may be classified as “Israeli” and the balance as income produced abroad).",
+      "fetched_on": "2026-05-26",
+      "verified_via": "cited page fetched; 15 of 25 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"performed\"",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18"
     },
     {
       "id": "misrad-haklita-returning-resident-track",
