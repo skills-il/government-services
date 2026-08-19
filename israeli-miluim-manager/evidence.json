@@ -1755,6 +1755,101 @@
       "appears_in": [
         "references/2026-law-changes.md"
       ]
+    },
+    {
+      "claim_id": "form-101-part-het-16",
+      "claim": "Form 101 carries the combat reserve credit at part het, item 16, where the employee states the number of reserve days served as a combat soldier in the previous tax year and attaches the IDF certificate.",
+      "source_url": "https://tofes101.co.il/assets/forms/tofes-101.pdf",
+      "raw_snippet": "16 שירתתי כלוחם/לוחמת מילואים סה\"כ ____ימי מילואים בשנת המס הקודמת. מצורף אישור מצה\"ל על זכאות בעד שירות מילואים כלוחם.",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "pdf (Form 101 for 2026, PDF metadata author רשות המסים בישראל, updated 11.2025, read with pdftotext, 18,266 chars). gov.il's own copy 404s to scripted fetch and its HTML page is Cloudflare-403, so a mirror carrying the Tax Authority's own PDF was used.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-30-days-regional-to-national",
+      "claim": "An appeal against a regional Labour Court judgment must be filed within thirty days of pronouncement, or of service where the judgment was given in the parties' absence, unless another statute sets a different period.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%99%D7%AA_%D7%94%D7%93%D7%99%D7%9F_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94_(%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F)",
+      "raw_snippet": "המועד להגשת ערעור על פסק דין של בית דין אזורי הוא שלושים ימים מיום השימוע, או מהיום שבו הומצא למערער פסק הדין אם ניתן בהעדר הצדדים",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text (תקנות בית הדין לעבודה (סדרי דין), תקנה 73), fetched with curl",
+      "appears_in": [
+        "references/btl-payment-rules.md"
+      ]
+    },
+    {
+      "claim_id": "legal-aid-no-means-test",
+      "claim": "Regulation 4(b) disapplies the Legal Aid Law's economic limits for this legal service, so there is no means test.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_(%D7%A1%D7%99%D7%95%D7%A2_%D7%9E%D7%A9%D7%A4%D7%98%D7%99)",
+      "raw_snippet": "בשיקולים לגבי מתן שירות משפטי על פי תקנות אלה לא יובאו בחשבון ההגבלות בדבר יכולתו של המבקש לשאת בהוצאות השירות המשפטי כאמור בסעיפים 2 ו־3 לחוק הסיוע המשפטי ובתקנות הסיוע המשפטי.",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text (תקנות הביטוח הלאומי (סיוע משפטי), תקנה 4(ב)), fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "legal-aid-scope-boundary",
+      "claim": "The legal service is defined as aid in Labour Court proceedings to which the Institute is a party, and expressly excludes proceedings for insurance contributions or a claim against an employer.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_(%D7%A1%D7%99%D7%95%D7%A2_%D7%9E%D7%A9%D7%A4%D7%98%D7%99)",
+      "raw_snippet": "\"שירות משפטי\" - סיוע משפטי בהליכים בבית הדין לעבודה שהמוסד הוא צד בהם, בעניינים הנובעים מהחוק או מכל חיקוק אחר שהמוסד משלם תשלומים על פיו, למעט הליכים שענינם תביעה לתשלום דמי ביטוח או תביעה נגד מעביד לפי סעיף 185 לחוק",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "he.wikisource.org consolidated regulations text (תקנות הביטוח הלאומי (סיוע משפטי), תקנה 1), fetched with curl",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "nezek-akif-windows-2026",
+      "claim": "Filing windows for the indirect-damage grant open on staggered dates but every eligibility period from November-December 2024 onward closes on 31.12.2026; the November-December 2025 window runs 28.01.2026 to 31.12.2026.",
+      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
+      "raw_snippet": "הגשת בקשה למענק נובמבר דצמבר 2025 תתאפשר החל מיום 28 בינואר 2026 ועד 31 בדצמבר 2026",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "gov.il HTML is Cloudflare-403 to curl and WebFetch; read through the r.jina.ai text renderer, 9,348 chars, and cross-checked against the neighbouring window rows in the same table",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "exemption-age-order-no3",
+      "claim": "The temporary order runs from 09.08.2024 to 30.06.2027 and sets per-role exemption ages of 45 or 49 across a schedule of 43 entries, 24 of which are at 49, with two entries splitting by rank.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/229428.htm",
+      "raw_snippet": "תחילתו של צו זה ביום ה' באב התשפ\"ד (9 באוגוסט 2024), והוא יעמוד בתוקפו עד יום כ\"ה בסיוון התשפ\"ז (30 ביוני 2027).",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "nevo.co.il HTML text of צו שירות ביטחון (קביעת מקצועות ותפקידים לעניין פטור משירות ביטחון מחמת גיל) (הוראת שעה) (מס' 3), התשפ\"ד-2024, schedule read in full (3,228 chars)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "annual-leave-accrual-ladder",
+      "claim": "Statutory annual leave is 16 days for each of the first five years, 18 in the sixth, 21 in the seventh, then one more per year up to 28.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%A9%D7%A0%D7%AA%D7%99%D7%AA",
+      "raw_snippet": "בעד השנה השביעית – 21 יום",
+      "fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
+      "verified_via": "he.wikisource.org consolidated statute text (חוק חופשה שנתית, סעיף 3(א)), fetched with curl",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
     }
   ],
   "pending_verification": [

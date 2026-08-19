@@ -259,7 +259,7 @@ Joint program of the Tax Authority's Property Tax Compensation Fund and IDF Kere
 | Osek patur | Bimonthly payments NIS 2,000-9,000 based on reserve days and reported income |
 | Osek murshe | Turnover-decline tracks (different filing windows) |
 
-**Filing windows are short and rolling.** Example: for service in Nov-Dec 2025, the filing window was Jan 28 to May 31, 2026. Missing the window forfeits the grant. File at gov.il in the "Manak LeMishartei Miluim" service.
+**Filing windows open on staggered dates but nearly all close together.** Every eligibility period from November-December 2024 onward closes on **31.12.2026**, so they are not short or rolling. Only the 2024 periods expire earlier (January-February and March-April 2024 closed 31.05.2026; May-June 2024 closes 31.07.2026; July-August 30.09.2026; September-October 30.11.2026). For November-December 2025 the window is **28.01.2026 to 31.12.2026**. The page also states a general rule that a request is filed `תוך 3 חודשים מסיום תקופת הזכאות`. Check the current table on the gov.il service page before quoting any date.
 
 ## Bank Israel Relief Framework
 
@@ -319,7 +319,7 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 | Minimum compensation (floor) | Active | NIS 9,863/month (NIS 328.76/day, 2026) |
 | Maximum compensation (ceiling) | Active | NIS 51,910/month (NIS 1,730.33/day, 2026) |
 | Keren HaSiyua grant set (tier-banded) | N/A | Active per Government Resolution Jan 25, 2026, most grants pending a dedicated procedure |
-| Manak Nezek Akif (self-employed) | Active | Active (joint Tax Authority + Aka program; rolling filing windows) |
+| Manak Nezek Akif (self-employed) | Active | Active (joint Tax Authority + Aka program; windows open on staggered dates, nearly all closing 31.12.2026) |
 | Bank Israel relief | Active | Active (mortgage/loan/overdraft accommodations) |
 | Student tuition support | Active | Active (50+ days is the gate; the share is banded by tier, 100/85/65/30/30/22 percent) |
 | Accrued annual leave carry | Active | Joinable to leave in the following two work years (the leave-accrual clause, י"פ 14498). Not a fixed end date |
@@ -572,3 +572,36 @@ between the Government of Israel and the Histadrut are excluded from this order.
 **Spouse paid absence days** are set by the order's table (clause 12.1), tiered by the reservist's cumulative
 days: up to 30 days gives none, 31-60 gives 2 days, 61-90 gives 4, 91-120 gives 6, and 121+ gives 8. For the
 31-60 band the counted reserve days must run at least 5 consecutive days.
+
+## Exemption age by role: the temporary order
+
+צו שירות ביטחון (קביעת מקצועות ותפקידים לעניין פטור משירות ביטחון מחמת גיל) (הוראת שעה) (מס' 3), התשפ"ד-2024,
+made under s.36A(c) of the Defence Service Law. Its clause 4 sets the term:
+
+> תחילתו של צו זה ביום ה' באב התשפ"ד (9 באוגוסט 2024), והוא יעמוד בתוקפו עד יום כ"ה בסיוון התשפ"ז (30 ביוני 2027).
+
+The schedule has three columns (role, unit designation, exemption age) and **43 entries**, of which **24 sit at 49**.
+Do not present a short list as "the roles at 49". Entries at 49 include טייס, נווט, מכונן, קצין מדעי ההתנהגות,
+בעלי תפקידים במערך ההגנה המרחבית, קצין מכונאי מוטס, קצין הובלה, רופא לוחם, קצין רפואה, קצין בריאות הנפש,
+קצין רפואה פסיכיאטרית, רב צבאי, קצין זיהוי וקבורה, קצין חקירות ביחידה 5410, קצין מנהל אזרחי, and the driver
+categories נהג מפעיל מנוף, נהג חילוץ, נהג רכב כיבוי אש, מפקד שאינו קצין תנועה והובלה, נהג משא כבד, נהג רכב מוביל
+and נהג תדלוק ביחידות חיל האוויר. Entries at 45 include פרמדיק, נהג אמבולנס, מזהה חללים and a long run of
+maintenance trades.
+
+**Two entries split by rank**, so rank decides the age:
+
+- מפעיל כלי טיס מאויש מרחוק: **49 if an officer**, 45 if not.
+- Unit 5410: קצין חקירות is **49**, while חוקר שבויים is **45**.
+
+The unit-designation column further qualifies several rows. Look the role up rather than quoting an age, and do
+not confuse this order with the earlier מס' 2, which ran only 27.07.2024 to 08.08.2024 with a different table.
+
+## Statutory annual leave, for the carry rule above
+
+חוק חופשה שנתית s.3(a):
+
+> (1) בעד כל אחת מ־5 השנים הראשונות - 16 יום; (3) בעד השנה השישית - 18 יום; (4) בעד השנה השביעית - 21 יום;
+> (5) בעד השנה השמינית ואילך - יום נוסף לכל שנת עבודה עד לחופשה של 28 יום
+
+These are gross days including the weekly rest, so a 5-day week converts 16 gross to 12 working days. Quote the
+ladder, not a bare "12 to 16" range, which misstates the statute and hides the 18 / 21 / up-to-28 steps.

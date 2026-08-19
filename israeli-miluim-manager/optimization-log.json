@@ -1,13 +1,6 @@
 {
   "cycles": [
     {
-      "version": "1.3.1",
-      "date": "2026-06-13",
-      "lessons": [
-        "CORRECTED an error from v1.3.0 (caught when re-checking tool accuracy): self-employed reservists do NOT get 25% INSTEAD of the 40% tosefet, they get the tagmul (incl. 40%) PLUS an additional 25% (verified btl.gov.il: לעובד עצמאי משולם בנוסף לתגמול גם פיצוי בשיעור 25%). Fixed SKILL+HE+gotcha. miluim-daily-pay tool got an employee/self-employed field (was computing employee-only, so self-employed got a wrong, too-low number)."
-      ]
-    },
-    {
       "version": "1.4.0",
       "date": "2026-07-14",
       "lessons": [
@@ -90,6 +83,18 @@
         "The predecessor order really had expired on its face (07.10.2023 to 31.12.2024), so the Judge's alarm was correct even though the conclusion it implied, that the protection had lapsed, was wrong. An expired instrument plus a well-attested successor is not the same as no protection, but you cannot tell which you have without finding the successor.",
         "CARRY: the remaining unevidenced procedural cluster from 2.0.1 (Form 101 part het section 16, Form 58's 10-day answer, BTL processing windows, the 30-day second-instance appeal, the IDF 8-hours-per-day rule, the Manak Nezek Akif filing window, the vacation end-2027 date, the exemption-age profession roster). The spouse absence days are now sourced and can come off that list.",
         "CARRY: the 'no means test' qualifier on Ministry of Justice legal aid is still unsourced."
+      ]
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-19",
+      "lessons": [
+        "Of seven claims that had shipped for cycles with no evidence entry, three were wrong and one was unsupported anywhere. The unevidenced cluster was not low-risk background detail, it was a 43 percent error rate hiding behind the fact that nothing in the pipeline extracts prose claims. The evidence gate only pattern-matches currency, percentages, sections, forms and phone numbers, so a sentence like 'reimbursed in 30-60 days' passes untouched forever.",
+        "A wrong deadline can be wrong by ATTACHMENT rather than by value. The 31.05.2026 date in the skill was a real date from the official table, attached to the wrong eligibility period. Checking that a figure exists on the source page is not the same as checking it belongs to the row you put it in.",
+        "A correct entitlement stated without its scope boundary is a trap. The no-means-test legal aid is real but excludes claims against an employer, and this skill spends most of Step 2 on employer disputes. Whenever a benefit is verified, also read the definition clause for what it excludes, because the exclusion is usually where the user actually is.",
+        "'The roles at 49' was a subset presented as a list. When a source publishes a SCHEDULE, either reproduce it, or say it is a schedule and tell the reader to look their row up. Naming six of 24 rows reads as exhaustive and silently excludes the other eighteen, and it erased two rank-dependent splits.",
+        "METHOD: gov.il HTML is Cloudflare-403 to curl AND to WebFetch, but the r.jina.ai text renderer reads it reliably, and BlobFolder PDFs fetch fine with plain curl. Between those two routes gov.il is fully reachable; the earlier conclusion that it was unreadable was a tooling gap, not a real block.",
+        "CARRY: the gate reports 'Durations without evidence (advisory): 1' as a bare count with no itemisation, so I could not identify which duration it means. Worth teaching the script to name it."
       ]
     }
   ]

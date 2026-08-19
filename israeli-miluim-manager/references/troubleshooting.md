@@ -14,7 +14,7 @@ Solution:
 1. Verify Form 3010 dates match actual service period
 2. Ensure income documentation covers the 3 months before service (or longer if Amendment 253 fixed-base applies)
 3. Do NOT chase BL arrears as an explanation. Offset happens only on the recipient's own request, so a debt is not why the payment is missing
-4. If the claim was rejected, the operative remedy is a filing with the **regional Labour Court within 12 months of the day the decision was delivered** (reg. 1(b), תקנות הביטוח הלאומי (מועדים להגשת תובענות)). A request to **ועדת תביעות** to re-examine may be made within 6 months, but that committee can only RECOMMEND reconsideration and does **not** pause the 12-month clock. Free Ministry of Justice legal aid is available with no means test
+4. If the claim was rejected, the operative remedy is a filing with the **regional Labour Court within 12 months of the day the decision was delivered** (reg. 1(b), תקנות הביטוח הלאומי (מועדים להגשת תובענות)). A request to **ועדת תביעות** to re-examine may be made within 6 months, but that committee can only RECOMMEND reconsideration and does **not** pause the 12-month clock. Free Ministry of Justice legal aid is available with no means test. That track covers Labour Court proceedings **where the Institute is a party**, and expressly excludes a claim for insurance contributions or a claim **against an employer**, so a reservist suing their EMPLOYER over withheld reserve pay falls outside it and back onto the ordinary income test.
 5. Contact Bituach Leumi service center at *6050 for the specific rejection reason
 
 ### Error: "Tax Authority rejected Amendment 283 combat credit"
@@ -52,7 +52,7 @@ Solution: chase them at the IDF hotline **1111 ext. 4**, never *6050, and confir
 1. אימות שתאריכי טופס 3010 תואמים את תקופת השירות בפועל
 2. וידוא שתיעוד ההכנסות מכסה את 3 החודשים שלפני השירות (או יותר, אם תיקון 253 חל)
 3. אל תחפשו חוב לביטוח לאומי כהסבר. הקיזוז נעשה רק לבקשת מקבל התשלום, ולכן חוב אינו הסיבה לכך שהכסף לא הגיע.
-4. אם התביעה נדחתה, הסעד המעשי הוא הגשת תובענה ל**בית הדין האזורי לעבודה תוך 12 חודשים** מיום שנמסרה ההחלטה (תקנה 1(ב) לתקנות הביטוח הלאומי (מועדים להגשת תובענות)). אפשר לבקש מ**ועדת תביעות** לבחון מחדש תוך 6 חודשים, אבל היא רק ממליצה ואינה עוצרת את מרוץ 12 החודשים. יש סיוע משפטי חינם ממשרד המשפטים, ללא מבחן הכנסה
+4. אם התביעה נדחתה, הסעד המעשי הוא הגשת תובענה ל**בית הדין האזורי לעבודה תוך 12 חודשים** מיום שנמסרה ההחלטה (תקנה 1(ב) לתקנות הביטוח הלאומי (מועדים להגשת תובענות)). אפשר לבקש מ**ועדת תביעות** לבחון מחדש תוך 6 חודשים, אבל היא רק ממליצה ואינה עוצרת את מרוץ 12 החודשים. יש סיוע משפטי חינם ממשרד המשפטים, ללא מבחן הכנסה. המסלול הזה חל על הליכים בבית הדין לעבודה **שביטוח לאומי צד בהם**, ומוציא במפורש תביעה לתשלום דמי ביטוח או תביעה **נגד מעביד**. משרת מילואים שתובע את **המעסיק** על תגמולים שלא שולמו נמצא מחוץ למסלול הזה וחוזר למבחן ההכנסה הרגיל.
 5. פנייה למרכז השירות של ביטוח לאומי (*6050) לסיבת הדחייה הספציפית
 
 ### שגיאה: "רשות המסים דחתה זיכוי לוחם לפי תיקון 283"

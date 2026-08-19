@@ -50,7 +50,7 @@ Employees do not file directly with Bituach Leumi. The employer handles the clai
 | 2 | Reservist | Give Form 3010 to employer | Within days of return |
 | 3 | Employer | Continue paying regular salary during service | Monthly payroll cycle |
 | 4 | Employer | Submit reimbursement claim to Bituach Leumi | After service ends |
-| 5 | Bituach Leumi | Process claim and reimburse employer | 30-60 days |
+| 5 | Bituach Leumi | Process claim and reimburse employer | **BTL publishes no processing time.** Its employer page says only to send the claim `מוקדם ככול האפשר`. Do not quote a number |
 | 6 | Employee | Verify payslip reflects full salary | Monthly |
 
 ### Step-by-Step for Employees
@@ -107,7 +107,7 @@ Self-employed workers file directly with Bituach Leumi and receive compensation 
 | 2 | Log in to Bituach Leumi personal portal | After service |
 | 3 | Fill out compensation claim form (tvia letagmulei miluim) | Within 12 months of service |
 | 4 | Upload Form 3010 and income documentation | With the claim |
-| 5 | Bituach Leumi processes claim | 14-30 days |
+| 5 | Bituach Leumi processes claim | No published processing time. Do not quote a number |
 | 6 | Compensation deposited to bank account | After approval |
 
 ### Step-by-Step for Self-Employed
@@ -158,7 +158,7 @@ Gross compensation: 400 x 21 = NIS 8,400
 |--------|---------|--------|
 | Received (hitkabal) | Claim is in the queue | Wait |
 | Under review (b'tipul) | Being processed | Wait; may receive calls for clarification |
-| Approved (ushar) | Claim approved, payment pending | Payment within 5-10 business days |
+| Approved (ushar) | Claim approved, payment pending | No published payment time. The only timings BTL publishes are the thresholds for filing a personal claim when nothing has arrived: 3 weeks after service ends for the self-employed, 2 weeks after discharge for someone on unemployment benefit |
 | Rejected (nidhah) | Claim denied | Review rejection reason, appeal if applicable |
 | Returned for correction (huchzar l'tikun) | Missing or incorrect information | Correct and resubmit promptly |
 
@@ -262,7 +262,7 @@ A cash grant program (NOT a tax deduction) jointly run by the Tax Authority's Pr
 | Osek patur | Bimonthly payments NIS 2,000-9,000 based on reserve days and reported income |
 | Osek murshe | Turnover-decline tracks (different filing windows and qualification thresholds) |
 | Where to file | gov.il, "Manak LeMishartei Miluim" service |
-| Filing window | Short and rolling. Example: for service in Nov-Dec 2025, the window was Jan 28 to May 31, 2026. Check gov.il for the current window. |
+| Filing window | Staggered opening dates, but every period from Nov-Dec 2024 onward closes 31.12.2026. Nov-Dec 2025 runs 28.01.2026 to 31.12.2026 |
 | Documents needed | Form 3010, tax returns or VAT reports for affected period, business income documentation |
 | Co-administration | Tax Authority issues payment, eligibility computed jointly with IDF Keren HaSiyua |
 
@@ -329,7 +329,7 @@ Self-employed reservists (atzma'im, עצמאיים) and freelancers (frilanserim
 - Run jointly by the Tax Authority's Property Tax Compensation Fund (Keren Pitzuyim Mas Rechush) and IDF Keren HaSiyua
 - For osek patur: bimonthly payments of NIS 2,000-9,000 based on reserve days and reported income
 - For osek murshe: turnover-decline tracks (different filing windows)
-- Filing windows are short and rolling. Example window: for service in Nov-Dec 2025, filing was open Jan 28 to May 31, 2026
+- Filing windows open on staggered dates; every period from Nov-Dec 2024 onward closes 31.12.2026. Nov-Dec 2025 runs 28.01.2026 to 31.12.2026. Check the current gov.il table before quoting a date.
 - File at gov.il in the "Manak LeMishartei Miluim" service
 
 **Keren hishtalmut continuity for self-employed:** Unlike employees, self-employed reservists have NO automatic continuity right for keren hishtalmut deposits during service. Self-funding required to keep the 6-year tax-free withdrawal clock from breaking. 2026 caps: NIS 13,203 deductible / NIS 20,566 deposit ceiling.

@@ -148,6 +148,13 @@ time-barred when 4 months of remedy remain.
 Related: regulation 1(a) allows a filing at the earliest **30 days** after the claim went to BTL if
 BTL has not decided, which is the answer to "BTL has gone silent". An employer may file on an
 employee's behalf within 12 months (regulation 2). Free Ministry of Justice legal aid is available
-for the appeal with **no means test**, and section 397 of the National Insurance Law provides for
-legal aid in Labour Court proceedings to which the Institute is a party. Second instance: 30 days to
+for the appeal with **no means test**: regulation 4(b) of תקנות הביטוח הלאומי (סיוע משפטי), תשל"ח-1978
+disapplies the economic limits of the Legal Aid Law, `בשיקולים לגבי מתן שירות משפטי על פי תקנות אלה לא יובאו
+בחשבון ההגבלות בדבר יכולתו של המבקש לשאת בהוצאות השירות המשפטי`.
+
+**But read the scope boundary.** Regulation 1 defines the service as aid in Labour Court proceedings
+`שהמוסד הוא צד בהם`, and expressly excludes `הליכים שענינם תביעה לתשלום דמי ביטוח או תביעה נגד מעביד`.
+So the no-means-test track is for fighting Bituach Leumi, NOT for suing an employer. A reservist whose
+employer withheld reserve pay is outside it and falls back on the ordinary income test. Do not tell an
+employer-dispute user they get free representation on this basis. Second instance: 30 days to
 בית הדין הארצי.

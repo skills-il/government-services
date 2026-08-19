@@ -29,7 +29,7 @@ A form submitted to an authority is a document whose contents are your responsib
 | Aka | אכ"א | IDF Personnel Directorate |
 | Ishur Lochem | אישור לוחם | Combat confirmation (required for Amendment 283 credit) |
 
-**Who serves.** The statutory exemption age is **40 for enlisted (chugrim), 45 for officers**. A **temporary order running 09.08.2024 to 30.06.2027** then sets a per-role exemption age of **45 or 49** for listed professions (pilots, navigators, combat physicians, medical and mental-health officers, military rabbis, heavy-vehicle drivers sit at 49). Women in roles covered by the volunteer-service regulations have the same age as men. Medical, religious-study, and single-parent exemptions also exist. The age depends on the role, so look it up in the order's table instead of quoting one number.
+**Who serves.** The statutory exemption age is **40 for enlisted, 45 for officers**. A **temporary order running 09.08.2024 to 30.06.2027** then sets a per-role age of **45 or 49** across 43 entries, 24 of them at 49, with two split by RANK (a remotely-piloted-aircraft operator is 49 only if an officer; in unit 5410 an investigations officer is 49, a prisoner interrogator 45). Never recite a short list as the whole schedule: look the role up in the table in `references/2026-law-changes.md`. Medical, religious-study and single-parent exemptions also exist.
 
 **Call-up:** a Tsav Kriah or Tsav 8 arrives by mail, phone or IDF systems; on release the reservist gets **Form 3010** confirming service dates. Combat reservists also need an **Ishur Lochem** for the Amendment 283 tiers.
 
@@ -41,7 +41,7 @@ A form submitted to an authority is a document whose contents are your responsib
 |------------|----------------|
 | Causal dismissal ban | Section 41A(a1): dismissal **because of** reserve service, a call-up, or expected service (including its frequency or duration) is **void** (`בטלים הפיטורים`). No permit possible |
 | During service + 30 days after | Section 41A(b): no dismissal **and no cut to job scope or income** without a **ועדת התעסוקה** permit (Defence). Service over two consecutive days |
-| Days 31 to 60 after service | An **extension order**, not the statute (י"פ 14498). Waived only by **ועדת פיקוח** (Labour) |
+| Days 31 to 60 after service | An **extension order**, not statute (י"פ 14498). Waived only by **ועדת פיקוח** (Labour) |
 | Notice period | Section 41A(c): the protected periods are **excluded** from the count of prior-notice days |
 | Burden of proof | Section 41A(d): on the EMPLOYER, before ועדת התעסוקה |
 | Non-renewal | Section 41A(e): not renewing a fixed-term contract of 12+ months counts as dismissal |
@@ -52,11 +52,11 @@ A form submitted to an authority is a document whose contents are your responsib
 
 **Two committees, not one.** The 30-day window is Defence (ועדת התעסוקה); days 31-60 are Labour (ועדת פיקוח), deciding within 14 days. The wrong one wastes the window.
 
-**The days 31-60 layer comes from י"פ 14498 of 29.04.2026**, extending collective agreement 7004/2026, running `החל מיום 1 ינואר 2026 לתקופה בלתי קצובה`. Clause 5 requires **60 cumulative reserve days in a calendar year AND at least seven consecutive days**; clause 6 applies the same bar to חל"ת.
+**The days 31-60 layer comes from י"פ 14498 of 29.04.2026** (collective agreement 7004/2026), running from 01.01.2026 for an unlimited period. It requires **60 cumulative reserve days in a calendar year AND at least seven consecutive days**, and the same bar covers חל"ת.
 
-**Two traps** (detail in `references/2026-law-changes.md`): clause 5 is **prospective from 29.04.2026** (`תוקפו של סעיף זה מיום פרסום צו זה ואילך`), so it does not reach a dismissal before that date even though the order runs from 01.01.2026; and `ימי מילואים מצטברים בשנה קלנדרית` also counts prior-year days where the service ran continuously into the year.
+**Two traps** (detail in `references/2026-law-changes.md`): clause 5 is **prospective from 29.04.2026**, so it does not reach a dismissal before that date even though the order runs from 01.01.2026; and `ימי מילואים מצטברים בשנה קלנדרית` also counts prior-year days where service ran continuously into the year.
 
-**Public-sector employees are carved out**, covered instead by the Government/Histadrut agreement of 26.03.2026.
+**Public-sector employees are carved out**, covered by the Government/Histadrut agreement of 26.03.2026.
 
 The 20% employer indemnity is a **separate** instrument, a National Insurance Law amendment, not a term of the extension order.
 
@@ -83,21 +83,21 @@ Never route a user to the BTL portal or *6050 for the three IDF payments: they g
 
 **Salary-reimbursement basis (Bituach Leumi).** Employee: 3-month gross liable wage / 90 (choose 3 of the last 6 months if under 60 days were worked). Self-employed: reported advances / 90, recomputed on final assessment. Clamped to the 2026 floor and ceiling, **NIS 328.76 and NIS 1,730.33 per day**. Four situations take a DIFFERENT basis and are routinely missed: someone **not working** (including students) gets the flat floor; someone who **stopped salaried or self-employed work within 60 days** of call-up is assessed on that former income, not the floor; someone **discharged from keva within 60 days** may be paid at the keva salary; and someone on **unemployment benefit above the floor** is paid at the unemployment rate. Full table in `references/btl-payment-rules.md`.
 
-Those 60-day windows are unrecoverable once missed: ask when the person last worked before assuming the minimum applies.
+Those 60-day windows are unrecoverable once missed: ask when the person last worked before assuming the minimum.
 
-**Two or more employers:** the main employer's portion comes through that employer; for the rest, a personal claim with payslips from **all** workplaces. Employed **and** self-employed: wage plus self-employment income, recomputed by the rise if either grew 20%+.
+**Two or more employers:** the main employer's portion comes through them; for the rest, a personal claim with payslips from **all** workplaces. Employed **and** self-employed: wage plus self-employment income, recomputed if either grew 20%+.
 
 **The 40% supplement is a REMAINDER rule, not a flat uplift.** `total = clamp(basis, 328.76, 1730.33) x paidDays`, where BTL divides service days by 7 and pays the supplement only on the remainder: 0 = none, 1 = +0.4 day, 2 = +0.8, 3 = +1.2, 4 = +1.6, 5 = +2.0, 6 = **+1 full day**. So 20 days pays **21**, and 21 days pays exactly **21** (remainder 0, nothing added). Multiplying every day by 1.4 overstates a 21-day call-up by 40%. Source: btl.gov.il "סכום התגמול".
 
-**Single-day, half-day and מל"ח** all qualify for BTL tagmul; a half-day counts as **0.5 day** for BTL. Do NOT carry that 0.5 into IDF shamap thresholds, where the IDF counts whole days and rounds short service UP. The same day can be 0.5 for BTL pay and 1 for an IDF grant. Police, prison-service and Knesset-guard reservists are paid by the Ministry of Finance, not BTL.
+**Single-day, half-day and מל"ח** all qualify for BTL tagmul; a half-day counts as **0.5 day**. Do NOT carry that 0.5 into IDF shamap thresholds, where the IDF counts whole days and rounds UP: the same day can be 0.5 for BTL pay and 1 for an IDF grant. Police, prison-service and Knesset-guard reservists are paid by the Ministry of Finance.
 
 **Self-employed:** an additional 25% compensation on top of the tagmul, but **the combined daily total may never exceed the maximum tagmul** (1,730.33/day). BTL: "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי".
 
 **Amendment 253** (from 01.05.2025) breaks the plain 3-month average for repeat reservists: prior miluim pay is excluded from the next basis, a "fixed base" is locked in, and Section 279 lets the reservist pick the better basis when the gap is under 60 days. The minister may disapply Section 279 in an emergency period, so confirm it was in force for the dates in question.
 
-**Tax, contributions and debt offset.** BTL pays the tagmul **net of income tax**, which is the commonest reason a deposit looks short against a gross formula. BL and health contributions then settle differently depending on whether the claim ran through an employer or was personal. And BTL does **NOT** offset an existing BL debt against reserve pay unless the recipient asks it to (`מתשלום מילואים לא ינוכה חוב לביטוח הלאומי, אלא אם מקבל התשלום מבקש זאת`), so never tell a reservist that clearing arrears will release a withheld payout. Tagmul is paid for the whole period **including days absent through illness, leave or injury**. Full rules in `references/btl-payment-rules.md`.
+**Tax, contributions and debt offset.** BTL pays the tagmul **net of income tax**, the commonest reason a deposit looks short against a gross formula, and BL/health contributions settle differently depending on the claim route. BTL does **NOT** offset an existing debt unless the recipient asks (`מתשלום מילואים לא ינוכה חוב לביטוח הלאומי, אלא אם מקבל התשלום מבקש זאת`), so never say arrears are blocking a payout. Tagmul is paid for the whole period **including days absent through illness, leave or injury**. Full rules in `references/btl-payment-rules.md`.
 
-**Filing:** employers claim via the BTL employer portal (Form 501 + Form 3010), reimbursed in 30-60 days while the employee keeps drawing salary. The self-employed are **usually paid automatically** from IDF data; file personally only if nothing arrives within 3 weeks.
+**Filing:** employers claim via the BTL employer portal (Form 501 + Form 3010) while the employee keeps drawing salary. **BTL publishes no processing time**, only that the claim should be sent `מוקדם ככול האפשר`, so never quote one. The self-employed are **usually paid automatically** from IDF data; file personally only if nothing arrives within 3 weeks.
 
 **Do not confuse the forms:** **502** = the reservist's personal claim, **501** = the employer's reimbursement claim, **509** = advance request, **510** = the EMPLOYER's confirmation of work and wages. If an employer refuses to advance salary the reservist files **502** and is paid directly (alongside, not instead of, a Beit Din LaAvoda complaint). Telling them to "file 510" sends them to a form only that employer can complete. Step-by-step in `references/bituach-leumi-filing-guide.md`.
 
@@ -266,16 +266,16 @@ Result: Freelancer files claim, receives compensation directly from Bituach Leum
 - **The beyond-60 rate is selected by SERVICE YEAR, not today's date.** 2024 flat 133 and 2025 three bands are both צו 8 only; 2026 is six tier-bands, any order. In 2026 the commonest live question is 2025 service, which takes the 2025 table.
 - **The 40% supplement is a REMAINDER rule, not a flat uplift.** Divide service days by 7; only the remainder earns it (0 = nothing, so 7 / 14 / 21 days earn none; 6 = +1 day). Self-employed get an ADDITIONAL 25%, capped so the combined daily total never exceeds 1,730.33.
 - **BTL does NOT offset an existing debt against reserve pay** unless the recipient asks it to. Never tell a reservist arrears are blocking their payout and that clearing them will release it. Tagmul is also paid for days absent through illness, leave or injury.
-- **The BTL tagmul is paid net of income tax**, and BL/health contributions settle differently by claim route. That is usually why a deposit looks short. The IDF tagmulim are a different payer with different treatment.
-- **A rejected BTL claim goes to the Labour Court within 12 months of delivery of the decision.** The 6-month window belongs to ועדת תביעות, which only RECOMMENDS reconsideration and does NOT pause the clock. Free MoJ legal aid, no means test.
+- **The BTL tagmul is paid net of income tax**, and BL/health contributions settle differently by claim route. That is usually why a deposit looks short.
+- **A rejected BTL claim goes to the Labour Court within 12 months of delivery of the decision.** The 6-month window belongs to ועדת תביעות, which only RECOMMENDS reconsideration and does NOT pause the clock. Free MoJ legal aid, no means test. That no-means-test track covers Labour Court proceedings **where Bituach Leumi is a party**, and expressly excludes a claim for insurance contributions or a claim **against an employer**. A reservist suing their EMPLOYER over withheld reserve pay falls outside it and back onto the ordinary income test.
 - Service-connected injury and PTSD go to Agaf HaShikum at **shikum.mod.gov.il**, NOT BTL and NOT hachvana.mod.gov.il (the discharged-soldiers department). Wrong-agency filing is the top cause of denied claims. Hotline Aka **8944**.
-- **Dismissal protection is two instruments with two committees.** 30 days = Section 41A(b), waived by ועדת התעסוקה (Defence). Days 31-60, for 60+ days served, = a collective-agreement extension order, waived by ועדת פיקוח (Labour). The wrong committee wastes the window. Section 41A also bans cutting scope or income, and excludes the period from the notice count.
+- **Dismissal protection is two instruments with two committees.** 30 days = s.41A(b), waived by ועדת התעסוקה (Defence). Days 31-60, for 60+ days served incl. 7 consecutive, = an extension order, waived by ועדת פיקוח (Labour). The wrong committee wastes the window. s.41A also bans cutting scope or income, and excludes the period from the notice count.
 - **MoD-funded legal representation exists** for dismissal, שימוע or חל"ת over reserve service. Never present self-funded litigation as the only remedy. Employees only, and it carries a repayment undertaking if the harm proves unrelated.
 - Amendment 283 combat tax credit tiers require **ishur lochem**, not just **ishur sherut miluim**, and the credit lands in the tax year AFTER the service year.
 - **Most 2026 Keren HaSiyua grants are tier-banded.** A single figure quoted without a מדרג is almost always the top-tier value. Confirm at 1111 ext. 4 then 1; the package is budget-conditional.
 - **Form 510 is the EMPLOYER's wage confirmation.** The reservist's personal claim is Form 502.
 - The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
-- Manak Nezek Akif (self-employed) has short rolling filing windows; missing one forfeits the grant. It is a cash grant, not a tax deduction.
+- Manak Nezek Akif (self-employed): windows OPEN on staggered dates but nearly all CLOSE on 31.12.2026, so "short rolling windows" overstates the urgency. Only 2024 periods expire earlier. A cash grant, not a tax deduction.
 - Tagmul Nosaf is paid in May of the FOLLOWING year, carries a special 25% tax, and confers NO credit points despite being priced in them. The 2028 combat-tier threshold drops from 30 to 20 days.
 
 ## Troubleshooting

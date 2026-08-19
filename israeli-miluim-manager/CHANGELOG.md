@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.0.3 - 2026-08-19
+
+Closed the unevidenced procedural cluster carried since 2.0.1. Seven claims were checked against primary sources: two stood, one stood with a boundary the skill was missing, three were wrong, and one was unsupported anywhere.
+
+### Fixed
+
+- **Removed three Bituach Leumi processing windows that BTL does not publish** (30-60 days for employer reimbursement, 14-30 days, and 5-10 business days to payment). Its employer page says only to file `מוקדם ככול האפשר`. The only timings BTL actually publishes are the thresholds for filing a personal claim when nothing has arrived: 3 weeks after service for the self-employed, 2 weeks after discharge for someone on unemployment benefit. A nearby 14-day figure belongs to the indirect-damage grant and must not be imported.
+- **Corrected the Manak Nezek Akif filing windows.** They are not short and rolling: every eligibility period from November-December 2024 onward closes on 31.12.2026. The November-December 2025 window runs 28.01.2026 to 31.12.2026, not to 31.05.2026. That May date belongs to the January-February and March-April 2024 periods and had been attached to the wrong period.
+- **Corrected the exemption-age roster.** The dates and the two ages were right, but the six named roles were presented as "the roles at 49" when the order's schedule has 43 entries with 24 at 49. Two entries also split by RANK, which the earlier text erased: a remotely-piloted-aircraft operator is 49 only if an officer, and in unit 5410 an investigations officer is 49 while a prisoner interrogator is 45.
+- **Added the boundary on Ministry of Justice legal aid.** The no-means-test track is real (regulation 4(b) disapplies the Legal Aid Law's economic limits) but regulation 1 scopes it to Labour Court proceedings `שהמוסד הוא צד בהם` and expressly excludes a claim `נגד מעביד`. A reservist suing their EMPLOYER over withheld pay is outside it. The skill discusses employer disputes heavily, so stating the aid without the boundary invited exactly the wrong inference.
+- Replaced the bare "12 to 16 days a year" leave range with the statutory ladder: 16 days for each of the first five years, 18 in the sixth, 21 in the seventh, then one more per year up to 28.
+
+### Verified and kept
+
+- Form 101 carries the combat credit at part het, item 16.
+- The appeal from a regional Labour Court runs 30 days, under regulation 73, from pronouncement, or from service where judgment was given in the parties' absence.
+
 ## 2.0.2 - 2026-08-18
 
 The 2026 extension order was located in Rashumot and read, so the v2.0.1 hedge is replaced with sourced text. Two things in the order change the answer.
