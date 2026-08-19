@@ -28,7 +28,7 @@ The output must not be presented as a certified appraisal, must not be relied on
 | Land tender | Query RMI tender data |
 
 ### Step 2: Purchase Tax (Mas Rechisha) Calculator
-For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brackets are frozen until Jan 15, 2028; verify annually at the Israel Tax Authority):
+For apartment purchases. Purchase-tax bracket amounts are normally CPI-updated every 16 January, but these ones are NOT: the 2025 Arrangements Law froze them, and ITA purchase-tax circular 1/2026 (18 January 2026) republishes the same amounts for 16.1.2025 to 15.1.2028. So the figures below are the frozen 16.1.2025 vintage and are the live 2026 figures. Re-verify after 15 January 2028, and re-verify the additional-home ladder after 31 December 2026 (see the temporary-order note below):
 
 **First apartment buyer (dira yechida):**
 | Price Range (NIS) | Tax Rate |
@@ -52,15 +52,31 @@ For apartment purchases (2026 rates, frozen at 2025 levels; first-apartment brac
 | 1,978,746 - 6,055,070 | 0.5% |
 | 6,055,071 - 20,183,565 | 8% |
 
-**The relief has a value ceiling.** If the home is worth MORE than 20,183,565 NIS, Regulation 12a does not apply at all: the purchase is taxed under the ordinary brackets (the first-home or additional-home ladder above, as applicable) on the FULL price, not under the oleh ladder with a 10% top band. ITA purchase-tax circular 1/2026, footnote 1: "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול". Do not tell an oleh buying a 21M NIS home that they still get the 0% and 0.5% steps, they get none of them.
+**The relief has a value ceiling.** If the home is worth MORE than 20,183,565 NIS, Regulation 12a does not apply at all: the purchase is taxed under the ordinary brackets (the first-home or additional-home ladder above, as applicable) on the FULL price, not under the oleh ladder with a 10% top band. ITA purchase-tax circular 1/2026 (18 January 2026), footnote 1 to the Regulation 12a table: "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול". Do not tell an oleh buying a 21M NIS home that they still get the 0% and 0.5% steps, they get none of them.
 
 The oleh benefit is granted once only, applies only to a single residential home (not an investment apartment), and is available from one year before aliyah to seven years after. The reformed track no longer requires the home to be the oleh's actual residence.
 
 Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
 
-**The 8%/10% additional-home rates are a temporary order (hora'at sha'a) in force through 31 December 2026**, using tier amounts frozen at 16 January 2024. They are due for re-legislation. If you are buying an additional home in late 2026 or in 2027, re-check whether the temporary order was extended before relying on the 8%-from-the-first-shekel rate.
+**The 8%/10% additional-home rates are a temporary order (hora'at sha'a) under section 9(c1f), in force through 31 December 2026**, using tier amounts frozen at the 16 January 2025 level. As of 19 August 2026 the temporary order has NOT been extended: circular 1/2026 still gives 31 December 2026 as its end date. They are due for re-legislation. If you are buying an additional home in late 2026 or in 2027, re-check whether the temporary order was extended before relying on the 8%-from-the-first-shekel rate.
 
-**Reduced rate for people with disabilities, the blind, terror/hostility victims, and bereaved families:** these buyers get a reduced purchase-tax track. For a single home bought from 06.12.2016 whose value is up to 2,500,000 NIS, no purchase tax is due on the value up to 1,978,745 NIS (that threshold runs from 16.01.2024 to 15.01.2028) and 0.5% applies to the remainder. In every other case (a home that is not a single home, or a single home worth more than 2,500,000 NIS) the reduced rate is 0.5% of the home's value. The thresholds are updated periodically, so verify the current figure and the eligibility conditions with the Israel Tax Authority before quoting a number.
+**Reduced rate for people with disabilities, the blind, terror/hostility victims, and bereaved families:** Purchase Tax Regulation 11 gives a reduced purchase-tax track to a person with a qualifying disability (nacheh), a blind person, a victim of hostile action (nifga), and a family member of a soldier who fell in action. Two cases:
+
+| Case | Tax |
+|------|-----|
+| A qualifying single home (dira yechida) worth up to 2,500,000 NIS | 0% on the value up to 1,978,745 NIS, then 0.5% on the remainder |
+| Anything else (not a single home, or a single home worth more than 2,500,000 NIS) | 0.5% of the WHOLE value, from the first shekel |
+
+The relief is given for a home bought "for their housing" (le-shem shikunam), so it is not available on an investment purchase. Where a couple buys together and only ONE of them qualifies, Regulation 11(b) extends the 0.5% charge to BOTH spouses.
+
+Three things people get wrong here:
+- The 2,500,000 NIS line is a cliff, not a bracket edge. At exactly 2,500,000 NIS only the part above 1,978,745 NIS is taxed at 0.5%. One shekel more and the 0.5% applies to the whole value, which is roughly five times the tax.
+- The 0.5% track is granted to one person **at most twice in a lifetime** (Regulation 11(a)).
+- The reduced rate is not automatic. You file a request for a partial purchase-tax exemption with the Israel Tax Authority, and several of the eligibility routes require a Bituach Leumi medical committee first.
+
+The 1,978,745 NIS figure is the section 9(c1c)(3)(a) amount, frozen to 15.1.2028. Verify the eligibility conditions with the Israel Tax Authority before quoting a number.
+
+**Trading up (mishaprei diyur): you are still on the single-home ladder.** A buyer who already owns one home but is replacing it is taxed at the SINGLE-home rates, not the additional-home rates, provided the old home is sold within the statutory window: 18 months if the replacement was bought between 01.06.2023 and 31.05.2025, otherwise 24 months, and 12 months from the contractual handover date when buying new from a developer. You must declare the intention to sell when you report the purchase. Do not quote an upgrader the 8%-from-the-first-shekel rate.
 
 ### Step 3: Buying Process Checklist
 1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank. Bank of Israel caps the loan-to-value (LTV): up to 75% for a first/sole home, 70% for a replacement home (selling your existing one), and 50% for an investment/additional property. Plan the down payment accordingly.
@@ -101,7 +117,7 @@ Do NOT confuse betterment tax (heitel hashbacha, a municipal levy on a planning-
 When you SELL Israeli real estate, the seller (not the buyer) may owe mas shevach, the land-appreciation (capital-gains) tax, on the real gain between purchase and sale. This is the biggest tax a seller faces and is separate from the buyer's purchase tax and from betterment tax.
 - **Rate:** 25% on the real gain (the gain after deducting the CPI-linked inflation component and allowable expenses such as purchase tax, agent and lawyer fees, and improvements).
 - **Linear exemption for pre-2014 holdings:** for a residential home bought before 1 January 2014, the portion of the gain attributable to the period before that date is exempt, and only the portion from 1 January 2014 onward is taxed at 25% (the "linear" split by holding period). This linear benefit is legislated to be phased out from 2030, verify the current rule for sales in 2030 and later.
-- **Single-residence exemption:** a seller of a qualifying residential home that was their only home and was held at least 18 months before the sale can be fully exempt on the sale, subject to a value ceiling of 5,008,000 NIS (for 2024-2027). The part of the value above the ceiling is taxed. Legal source: Land Taxation Law sections 49a(a1) and 49b.
+- **Single-residence exemption:** a seller of a qualifying residential home that was their only home and was held at least 18 months before the sale can be fully exempt on the sale, subject to a value ceiling of 5,008,000 NIS (1.1.2025 to 31.12.2027, per ITA circular 1/2026). The part of the value above the ceiling is taxed. Legal source: Land Taxation Law sections 49a(a1) and 49b.
 - File the mas shevach declaration with the Israel Tax Authority within 30 days of the sale. Because the exemptions and expense deductions are technical, route a real seller to a CPA or real-estate lawyer before quoting a net figure.
 
 ### Step 6: Rental Agreement Key Terms
@@ -140,7 +156,7 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 ## Bundled Resources
 
 ### Scripts
-- `scripts/calculate_mas_rechisha.py` - Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for both first apartment (dira yechida) and non-first apartment buyers, including effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
+- `scripts/calculate_mas_rechisha.py` - Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for all four documented tracks: first apartment (dira yechida), non-first apartment, new immigrant single home (Regulation 12a, including the 20,183,565 NIS relief ceiling), and the Regulation 11 reduced track for people with disabilities, the blind, hostility victims and bereaved families. Includes effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
 
 ### References
 - `references/transaction-guide.md` - Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.

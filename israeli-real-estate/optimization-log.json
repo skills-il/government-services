@@ -10,6 +10,18 @@
         "FACTS CONFIRMED CURRENT 2026: purchase-tax brackets frozen (no 16-Jan-2026 CPI update; dira yehida 0/3.5/5/8/10 at 1,978,745/2,347,040/6,055,070/20,183,565; dira nosefet 8%/10% at 6,055,070; oleh Reg 12a 0/0.5/8 with the >20,183,565 ceiling). Checker mas-rechisha already matches these exactly, NO regeneration needed.",
         "Deferred (MINOR): substantive Tama 38 / urban-renewal tax treatment; Fair Rent Law (2022) detail; the Python script does not encode the oleh Reg-12a track (the checker does)."
       ]
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-08-19",
+      "lessons": [
+        "CHECKER (CRITICAL): the mas-rechisha manifest had no reduced buyer class, so a disabled / blind / terror-victim / bereaved-family buyer selecting 'single home' was quoted the FULL ladder. The subtitle's 'talk to the skill about these discounts' was masking an over-charge, not mitigating it. A tool subtitle is never a substitute for a missing branch.",
+        "CHECKER (MAJOR): the manifest's explanation text said the oleh track is 'then 8% and 10%'. Regulation 12a has no 10% band at all; above 20,183,565 the relief switches OFF. The COMPUTE graph was already right, so the defect was invisible to the golden tests. Prose inside a manifest needs the same fact-check as prose in SKILL.md.",
+        "CITATIONS: two gov.il pages that were live in the previous cycle now 404 (tax-purchase-1-2026, legalInfo/purchase-tax-additional-apartment). gov.il retires /pages/ slugs; the BlobFolder PDF for a numbered circular is the durable target.",
+        "SCRIPT/PROSE DRIFT: the same defect class as the checker. calculate_mas_rechisha.py encoded 2 of the 4 tracks the skill documents. Deferred as MINOR in the 1.5.0 cycle; it should not have been. If a bundled script implements a subset of a documented rate table, that is CRITICAL, because the script is what an agent actually runs.",
+        "VINTAGE: purchase-tax bands are CPI-updated every 16 January by default. These are frozen by the 2025 Arrangements Law to 15.1.2028, and the additional-home band separately expires 31.12.2026. Two different clocks on one page, so state both.",
+        "Deferred (MINOR): substantive Tama 38 / urban-renewal tax treatment; Fair Rent Law (2022) detail; the reduced-track twice-in-a-lifetime cap is not modelled in the checker (it cannot be, the form cannot know prior use)."
+      ]
     }
   ]
 }

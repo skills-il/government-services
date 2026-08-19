@@ -13,7 +13,7 @@
 9. Attorney registers transfer in Tabu
 10. Key handover per contract
 
-## Purchase Tax Brackets (2026, frozen at 2025 levels)
+## Purchase Tax Brackets (frozen 16.1.2025 to 15.1.2028, ITA circular 1/2026)
 
 ### First Apartment (brackets frozen until Jan 15, 2028)
 | Range (NIS) | Rate |
@@ -29,6 +29,8 @@
 |-------------|------|
 | 0 - 6,055,070 | 8% |
 | 6,055,071+ | 10% |
+
+The additional-home 8%/10% rates are a temporary order in force only through 31 December 2026. Regulation 12a (new immigrant, single home) and Regulation 11 (disability, blindness, victims of hostile action, families of soldiers who fell in action) are separate reduced tracks: see Step 2 of SKILL.md.
 
 ## Tabu Extract Sections
 1. Property description (gush, chelka)

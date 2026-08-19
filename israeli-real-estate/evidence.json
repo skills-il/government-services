@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-real-estate",
-  "generated_at": "2026-06-13T18:35:27.515173+00:00",
+  "generated_at": "2026-08-19T00:00:00Z",
   "claims": [
     {
       "claim_id": "mas-rechisha-first",
@@ -15,7 +15,7 @@
         "references/transaction-guide.md",
         "scripts/calculate_mas_rechisha.py"
       ],
-      "notes": "SECONDARY SOURCE, flagged. The figures are statutory amounts published by רשות המסים, not values this commercial page originates, and they are corroborated independently by Kol Zchut and by several law-firm publications. An authoritative re-source is currently BLOCKED: gov.il returns 403 to plain fetches and serves an interstitial to a headless browser, so the Tax Authority page could not be read first-hand. Re-source it the moment gov.il becomes readable. DRIFT: LOW until 2028-01-15. The first-home brackets are frozen by the Arrangements Law and the cited page states the same window (16.01.2024 to 15.01.2028). Re-verify on or before that date."
+      "notes": "SECONDARY SOURCE, flagged. The figures are statutory amounts published by רשות המסים, not values this commercial page originates, and they are corroborated independently by Kol Zchut and by several law-firm publications. An authoritative re-source is currently BLOCKED: gov.il returns 403 to plain fetches and serves an interstitial to a headless browser, so the Tax Authority page could not be read first-hand. Re-source it the moment gov.il becomes readable. DRIFT: LOW until 2028-01-15. The first-home brackets are frozen by the Arrangements Law and the cited page states the same window (16.01.2024 to 15.01.2028). Re-verify on or before that date. אומת מול הוראת ביצוע מיסוי מקרקעין 1/2026 (18.1.2026): המדרגות מוקפאות מ-16.1.2025 עד 15.1.2028 לפי חוק ההסדרים לשנת 2025, ולכן לא עודכנו במדד ב-16.1.2026."
     },
     {
       "claim_id": "mas-rechisha-additional",
@@ -34,13 +34,16 @@
     {
       "claim_id": "mas-rechisha-oleh",
       "claim": "New immigrant (oleh) single-home purchase tax under reformed Regulation 12a (תקנה 12א, from 15.8.2024): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565. The relief has a VALUE CEILING: if the home is worth more than 20,183,565 NIS, Regulation 12a does not apply at all and the ordinary brackets tax the full price. Once only, single residential home, from one year before to seven years after aliyah.",
-      "source_url": "https://www.gov.il/he/pages/tax-purchase-1-2026",
-      "raw_snippet": "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
+      "raw_snippet": "ברכישת דירת מגורים יחידה - תקנה 12א: על חלק השווי שעד 1,978,745 - לא ישולם מס. על חלק השווי העולה על 1,978,745 ועד 6,055,070 - 0.5%. על חלק השווי העולה על 6,055,070 ועד 20,183,565 - 8%. בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול.",
       "fetched_at": "2026-07-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "notes": "הוראת ביצוע מיסוי מקרקעין 1/2026 מיום 18.1.2026, סעיף 2.ג והערת שוליים 1. תחליף ל-gov.il/he/pages/tax-purchase-1-2026 שהוסרה (404 ב-19.8.2026)."
     },
     {
       "claim_id": "mas-rechisha-example",
@@ -70,12 +73,15 @@
       "claim_id": "betterment-tax",
       "claim": "Betterment tax (heitel hashbacha) under the Third Schedule of the Planning and Building Law is 50% of the rise in property value caused by a planning action; the local authority may reduce it to 25% or grant a full exemption in defined cases (urban renewal, Tama 38, rehabilitation neighborhoods).",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%94%D7%99%D7%98%D7%9C_%D7%94%D7%A9%D7%91%D7%97%D7%94",
-      "raw_snippet": "גובה היטל ההשבחה הוא מחצית (50%) מעליית שווי המקרקעין",
+      "raw_snippet": "גובה ההיטל הוא מחצית (50%) מעליית השווי של המקרקעין בעקבות אישור התוכנית, ובמועד אישור התוכנית.",
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "notes": "אומת ב-Playwright ב-19.8.2026. הטקסט הקודם היה פרפרזה שלא הופיעה בעמוד."
     },
     {
       "claim_id": "attorney-fee",
@@ -172,13 +178,16 @@
     {
       "claim_id": "mas-shevach-rate",
       "claim": "Mas shevach (land-appreciation / capital-gains tax) on the sale of Israeli real estate is 25% on the real gain, after deducting the CPI-linked inflation component and allowable expenses (purchase tax, agent and lawyer fees, improvements).",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A9%D7%91%D7%97",
-      "raw_snippet": "מס שבח מקרקעין מוטל בשיעור 25% על השבח הריאלי במכירת זכות במקרקעין, לאחר ניכוי מרכיב האינפלציה וההוצאות המותרות.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1_%D7%A9%D7%91%D7%97",
+      "raw_snippet": "גובה המס עומד על 25% מתוך השבח הריאלי נטו (ההפרש בין המחירים בניכוי הוצאות מוכרות לניכוי בעת חישוב מס שבח) שנוצר בעת מכירת הדירה.",
       "fetched_at": "2026-07-20T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "notes": "הועבר מעמוד הפורטל \"מס שבח\" (שם המשפט לא מופיע) לעמוד \"חישוב מס שבח\". אומת ב-Playwright ב-19.8.2026."
     },
     {
       "claim_id": "mas-shevach-linear-exemption",
@@ -208,14 +217,17 @@
     },
     {
       "claim_id": "mas-rechisha-additional-temp-order",
-      "claim": "The 8%/10% additional-home purchase-tax rates are a temporary order (hora'at sha'a) in force through 31 December 2026, using tier amounts frozen at 16 January 2024, and are due for re-legislation.",
-      "source_url": "https://www.gov.il/he/departments/legalInfo/purchase-tax-additional-apartment",
-      "raw_snippet": "מס רכישה על דירה נוספת בשיעור 8% ו-10% נקבע בהוראת שעה שבתוקף עד 31 בדצמבר 2026.",
+      "claim": "The 8%/10% additional-home purchase-tax rates are a temporary order (hora'at sha'a) in force through 31 December 2026, using tier amounts frozen at 16 January 2025, and are due for re-legislation.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
+      "raw_snippet": "דירת מגורים (שאינה דירה יחידה): בהתאם להוראות סעיף 9(ג1ו), הוראת שעה שבתוקף עד ליום כ\"א בטבת התשפ\"ז (31.12.2026).",
       "fetched_at": "2026-07-20T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "notes": "הוראת ביצוע 1/2026 מיום 18.1.2026 עדיין נוקבת ב-31.12.2026, כלומר הוראת השעה לא הוארכה נכון ל-19.8.2026."
     },
     {
       "claim_id": "mas-rechisha-reg11-reduced",
@@ -265,6 +277,108 @@
       ],
       "verified_via": "playwright",
       "verified_at": "2026-08-13T00:00:00Z"
+    },
+    {
+      "claim_id": "mas-rechisha-first-ita-2026",
+      "claim": "ITA circular 1/2026 (18.1.2026) freezes the single-home purchase-tax ladder from 16.1.2025 to 15.1.2028: 0 up to 1,978,745; 3.5% to 2,347,040; 5% to 6,055,070; 8% to 20,183,565; 10% above.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
+      "raw_snippet": "דירת מגורים יחידה: יחיד תושב ישראל הרוכש דירת מגורים יחידה מיום 16.1.25 עד יום 15.1.2028 יחויב במס רכישה לפי המדרגות הבאות: על חלק השווי שעד 1,978,745 - לא ישולם מס. על חלק השווי העולה על 1,978,745 ועד 2,347,040 - 3.5%. על חלק השווי העולה על 2,347,040 ועד 6,055,070 - 5%. על חלק השווי העולה על 6,055,070 ועד 20,183,565 - 8%. על חלק השווי העולה על 20,183,565 - 10%.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ],
+      "notes": "הוראת ביצוע מיסוי מקרקעין 1/2026, סעיף 2.א. סכומים מוקפאים, לא מעודכני מדד לשנת 2026."
+    },
+    {
+      "claim_id": "mas-rechisha-additional-ita-2026",
+      "claim": "ITA circular 1/2026: additional (non-single) home purchase tax is 8% up to 6,055,070 and 10% above, for purchases from 16.1.2025 to 31.12.2026.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
+      "raw_snippet": "הרוכש דירת מגורים (שאינה דירת מגורים יחידה) מיום 16.1.2025 עד יום 31.12.2026 יחויב במס רכישה לפי המדרגות הבאות: על חלק השווי שעד 6,055,070 - 8%. על חלק השווי העולה על 6,055,070 - 10%.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ],
+      "notes": "הוראת ביצוע מיסוי מקרקעין 1/2026, סעיף 2.ב."
+    },
+    {
+      "claim_id": "mas-rechisha-reg11-statute",
+      "claim": "תקנה 11 לתקנות מס רכישה. Purchase Tax Regulation 11 grants the reduced track to a disabled person (nechе), a blind person, a terror-hostilities victim (nifga), and a family member of a soldier who fell in action, at 0.5%; for a qualifying single home worth up to 2,500,000 no tax is due on the first bracket and 0.5% on the remainder; the 0.5% charge is granted to one person at most twice.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "מכירת זכות במקרקעין לנכה, לעיוור, לנפגע או לבן משפחה של חייל שנספה במערכה לשם שיכונם חייבת במס רכישה בשיעור של 0.5%, ואם התקיים לגביו האמור באחת מפסקאות (א) עד (ג) בסעיף 9(ג1ג)(2) לחוק יהיו שיעורי מס הרכישה כמפורט להלן, ובלבד שחיוב במס רכישה בשיעור של 0.5% לפי תקנת משנה זו, לא יינתן לאדם אחד אלא שתי פעמים בלבד",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calculate_mas_rechisha.py"
+      ],
+      "notes": "תקנה 11 לתקנות מיסוי מקרקעין (שבח ורכישה) (מס רכישה), התשל\"ה-1974. נקרא ב-Playwright מוויקיטקסט ב-19.8.2026."
+    },
+    {
+      "claim_id": "mas-rechisha-reg11-brackets",
+      "claim": "תקנה 11(א)(1)-(2). Regulation 11(a)(1)-(2): value up to 2,500,000 -> no tax up to the section 9(c1c)(3)(a) amount and 0.5% on the remainder up to 2,500,000; value above 2,500,000 -> 0.5% on the whole value.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "אם שווי הזכות הנמכרת הוא עד 2,500,000 שקלים חדשים, ישולם מס רכישה בשיעור משווי הזכות הנמכרת כמפורט להלן - על חלק השווי שעד לסכום הנקוב בסעיף 9(ג1ג)(3)(א) לחוק - לא ישולם מס. על חלק השווי העולה על הסכום האמור בפסקת משנה (א) ועד לסכום של 2,500,000 שקלים חדשים - 0.5%. אם שווי הזכות הנמכרת עולה על 2,500,000 שקלים חדשים - ישולם מס רכישה בשיעור 0.5%.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calculate_mas_rechisha.py"
+      ],
+      "notes": "הסכום הנקוב בסעיף 9(ג1ג)(3)(א) הוא 1,978,745 ש\"ח לפי הוראת ביצוע 1/2026."
+    },
+    {
+      "claim_id": "mas-shevach-ceiling-ita-2026",
+      "claim": "ITA circular 1/2026: the section 49a(a1) chapter-five-1 exemption ceiling is 5,008,000 NIS for 1.1.2025 to 31.12.2027.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
+      "raw_snippet": "סעיף 49א(א1) - תקרת פטור לפי פרק חמישי 1 לחוק. להלן סכום תקרת הפטור לתקופה שמיום 1.1.2025 עד יום 31.12.2027: 5,008,000 ש\"ח.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "notes": "הוראת ביצוע מיסוי מקרקעין 1/2026, סעיף 2.ד."
+    },
+    {
+      "claim_id": "mas-rechisha-reg11-spouse",
+      "claim": "תקנה 11(ב): במכירה במשותף לבני זוג שאחד מהם נכה, עיוור, נפגע או בן משפחה של חייל שנספה, חיוב ה-0.5% מוענק לשני בני הזוג. ההקלה ניתנת לשם שיכונם.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "מכירת זכות במקרקעין במשותף לבני זוג שאחד מהם הוא נכה או עיוור כאמור בתקנת משנה (א), נפגע או בן משפחה של חייל שנספה במערכה, יוענק החיוב במס רכישה בשיעור של 0.5% לפי תקנת משנה (א) לשני בני הזוג",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-mishaprei-diyur",
+      "claim": "Replacement-home buyers (mishaprei diyur) are taxed at single-home purchase-tax rates if the previous home is sold within 18 months (replacement bought 01.06.2023-31.05.2025), otherwise 24 months, and 12 months from contractual handover when buying from a developer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%9E%D7%A1_%D7%A8%D7%9B%D7%99%D7%A9%D7%94_%D7%9C%D7%A0%D7%9B%D7%99%D7%9D",
+      "raw_snippet": "לרוכשי דירה שכבר יש בבעלותם דירה אחת, יחושב מס הרכישה של הדירה בהתאם למדרגות המס שנקבעו לדירה יחידה, בתנאי שימכרו את הדירה הקודמת בתוך התקופה שנקבעה לכך: אם הדירה החלופית נרכשה בין 01.06.2023 ל-31.05.2025, יש למכור את הדירה הקודמת בתוך 18 חודשים מהיום שנרכשה הדירה החלופית. בשאר המקרים יש למכור את הדירה הקודמת בתוך 24 חודשים מיום רכישת הדירה החלופית. מי שרוכשים דירה חדשה מקבלן או יזם צריכים למכור את הדירה הקודמת בתוך 12 חודשים",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
