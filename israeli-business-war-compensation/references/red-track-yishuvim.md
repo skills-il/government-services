@@ -57,3 +57,22 @@ If a user asks "am I on the red track?", do NOT rely on memory or this file. Tel
 4. If still ambiguous, call the Tax Authority hotline at *4954 with their business address
 
 Filing under the wrong track (red vs. nationwide) is a costly error. The red track's no-cap and no-floor benefits don't transfer to the nationwide track, so misclassification typically under-pays a true red-track business by 50%+ of the deserved grant.
+
+
+## Northern 100% tracks (moved out of SKILL.md 2026-08-19)
+
+Three 100% tracks are available, mutually exclusive:
+- **מסלול מחזורים (turnover track)** - compensation reflects lost profit from the full turnover decline; covers 100% of the lost profit.
+- **מסלול אדום (red track)** - owner must prove specific income that would have been earned absent the war and gets full reimbursement of that proven amount.
+- **מסלול חקלאות (agriculture track)** - a dedicated north sub-track for farming operations, paying 13,615 ₪ per worker employed in agricultural land in the special area (capped at 5M ₪ per farmer for the whole eligibility period); route agricultural callers here rather than the general turnover track.
+
+Walk through the applicable tracks with the caller and pick the higher-yielding option. Salaried employees in these yishuvim get 100% of their wage (not 75%). Note: the request-for-dvance-dealers-shaagat-haari advance portal is for nationwide businesses EXCEPT קו העימות settlements, so a border business does NOT use it - border settlements have a separate frontier advance portal (pay-advances-to-business-owners-in-frontier-roaring-lion), on top of their uncapped red/turnover compensation. The north tracks have later filing windows than the nationwide track (red ~31.08.2026; turnover/wage/agriculture ~24.09.2026) - verify the live date on the track's gov.il page.
+
+## מסלולי 100% בצפון (הועבר מ-SKILL_HE.md ב-19.08.2026)
+
+שלושה מסלולי 100% זמינים, בלעדיים זה לזה:
+- **מסלול מחזורים** - הפיצוי משקף את הרווח שנמנע מהירידה המלאה במחזור; מכסה 100% מהרווח שאבד.
+- **מסלול אדום** - בעל העסק חייב להוכיח הכנסה ספציפית שהיתה אמורה להיכנס אילולא המלחמה ומקבל החזר מלא על הסכום המוכח.
+- **מסלול חקלאות** - מסלול צפוני ייעודי לעסקים חקלאיים, פיצוי של 13,615 ש"ח לכל עובד המועסק בשטחים חקלאיים באזור המיוחד (עד תקרה של 5 מיליון ש"ח לחקלאי לכל תקופת הזכאות); לנתב מתקשרים חקלאיים לכאן ולא למסלול המחזורים הכללי.
+
+לעבור על המסלולים הרלוונטיים עם המתקשר ולבחור את התשואה הגבוהה. שכירים ביישובים האלה מקבלים 100% מהשכר (לא 75%). לתשומת לב: פורטל המקדמה request-for-dvance-dealers-shaagat-haari הוא לעוסקים בכל הארץ מלבד יישובי קו העימות, ולכן עסק בגבול אינו משתמש בו - ליישובי קו העימות יש פורטל מקדמה נפרד (pay-advances-to-business-owners-in-frontier-roaring-lion), נוסף על הפיצוי המלא ללא תקרה במסלול האדום/מחזורים. חלונות ההגשה בצפון מאוחרים מהמסלול הארצי (אדום ~31.08.2026; מחזורים/שכר/חקלאות ~24.09.2026) - לאמת את התאריך החי בדף gov.il של המסלול.

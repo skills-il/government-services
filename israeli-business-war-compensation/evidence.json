@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-business-war-compensation",
-  "generated_at": "2026-07-14T00:00:00Z",
+  "generated_at": "2026-08-19T00:00:00Z",
   "claims": [
     {
       "claim_id": "turnover-band-12000-400m",
@@ -691,7 +691,7 @@
     },
     {
       "claim_id": "law-wage-part-definition",
-      "claim": "The eligible wage part (חלק השכר המזכה) = wage expenses in the eligible period multiplied by the turnover-decline rate.",
+      "claim": "The eligible wage part (חלק השכר המזכה) = wage EXPENSES in the eligible period (itself the lower of the two statutory limbs) multiplied by the turnover-decline rate. The decline rate is applied once, after the lower-of.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
       "raw_snippet": "\"חלק השכר המזכה\" - סכום הוצאות השכר בתקופה המזכה לעניין שכר, מוכפל בשיעור הירידה במחזור העסקאות",
       "fetched_at": "2026-07-14T00:00:00Z",
@@ -808,13 +808,17 @@
     },
     {
       "claim_id": "legacy-75-percent",
-      "claim": "Legacy artifact: the \"75%\" wage multiplier appears only where the skill documents the OLD (wrong) formula it replaced, and in the kibbutz-specific rule of the statute (75% משכר העבודה לעובדים מזכים).",
+      "claim": "The 75% multiplier is live statutory law, not a legacy artifact: limb (a) of הוצאות השכר בתקופה המזכה לעניין שכר is 75% of eligible-employee wages, for the general claimant (paragraph (1)) as well as for a מוסד ציבורי זכאי and a קיבוץ.",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "raw_snippet": "הסכום הנמוך מבין (א) 75% משכר העבודה לעובדים מזכים",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "(א) 75%משכר העבודה לעובדים מזכים ששולם בעד התקופה המזכה לעניין שכר, כשהתוצאה המתקבלת מוכפלת ב־;1.25",
+      "fetched_at": "2026-08-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "metadata.json",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md",
+        "references/calculator-walkthrough.md"
       ]
     },
     {
@@ -855,6 +859,184 @@
       ],
       "verified_via": "gov.il content API (contentpage/compensation-indirect-damage)",
       "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "law-wage-expenses-lower-of-two-limbs",
+      "claim": "Wage expenses for a general claimant are the LOWER OF (a) 75% of eligible-employee wages paid for the wage qualifying period, x1.25, and (b) the s.2(b) average wage as known in March 2026 x the number of eligible employees paid for that month, x1.25.",
+      "raw_snippet": "( )1לעניין ניזוק שאינו מוסד ציבורי זכאי או קיבוץ - הסכום הנמוך מבין אלה:",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-npo-wage-limb-1325",
+      "claim": "For a מוסד ציבורי זכאי, wage-expense limb (a) is 75% of eligible-employee wages multiplied by the ratio of base-year income excluding supports and donations to base-year income including them (as reported under s.131 of the Ordinance), and the product is multiplied by 1.325.",
+      "raw_snippet": "ותוצאת המכפלה המתקבלת מוכפלת ב־;1.325",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-kibbutz-wage-limb",
+      "claim": "For a קיבוץ, wage-expense limb (a) counts only eligible employees who are not kibbutz members, or members working in industry, commerce, services, agriculture or tourism in the kibbutz, excluding members providing services to the kibbutz members themselves.",
+      "raw_snippet": "75%משכר העבודה לעובדים מזכים שאינם חברי הקיבוץ ,או לעובדים מזכים שהם חברי הקיבוץ העובדים בתעשייה ,במסחר, בשירותים ,בחקלאות או בתיירות בקיבוץ ,ולמעט חברי הקיבוץ העוסקים במתן שירותים לחברי הקיבוץ עצמם",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-fixed-expenses-npo-variant",
+      "claim": "For a מוסד ציבורי זכאי, fixed expenses are the previous year's total costs of selling services or products supplied on an ongoing basis during part of the year, divided by the claimant's number of active months in the previous year, multiplied by the fixed-cost coefficient and by 2.",
+      "raw_snippet": "שהוצאו בשנה הקודמת ,מחולק במספר חודשי הפעילות של הניזוק בשנה הקודמת ומוכפל במקדם ההוצאות הקבועות וב־;2",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-fixed-expenses-s56-variant",
+      "claim": "For a dealer registered as one עוסק with another under s.56 of the VAT Law, fixed expenses are the current inputs it would have reported for the previous year had it not been group-registered, divided by 6 and multiplied by the fixed-cost coefficient.",
+      "raw_snippet": "סך התשומות השוטפות שהיה מדווח לרשות המסים בישראל בשל השנה הקודמת אילולא היה רשום כעוסק אחד עם עוסק אחר ,מחולק ב־ 6ומוכפל במקדם ההוצאות הקבועות;",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-sector-factor-multiplies-tier",
+      "claim": "The sector factors (fuel x0.35, VAT s.33 exempt x0.19, קבלן ביצוע x0.68) MULTIPLY the tier rate that would otherwise apply under paragraph (1)(a)-(d); they do not replace it.",
+      "raw_snippet": "השיעור כאמור בסיפה של אותן פסקאות משנה ,לפי העניין ,מוכפל ב־;0.35",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-qualifying-period-cash-basis-may-june",
+      "claim": "The qualifying period (תקופת הזכאות) is March and April 2026 for a claimant that is not a cash-basis filer, and May and June 2026 for a cash-basis filer (עוסק המדווח על בסיס מזומן) and for a קבלן ביצוע.",
+      "raw_snippet": "( )2לעניין ניזוק שהוא עוסק המדווח על בסיס מזומן וכן לעניין קבלן ביצוע -חודשים מאי ויוני ;2026",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-cash-basis-definition",
+      "claim": "A cash-basis filer must satisfy all three conditions: VAT liability arises on receipt of consideration under Chapter F of the VAT Law; it receives the bulk of its ongoing business receipts in the month following the month of the transaction, or it is a מוסד חינוך; and its turnover decline in the reporting period containing the determining period was below 40%.",
+      "raw_snippet": "( )3שיעור הירידה במחזור העסקאות שלו בתקופת הדיווח הכולל את התקופה הקובעת היה נמוך מ־;40%",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-opening-cliff-before-1-march-2026",
+      "claim": "Eligibility requires that the claimant opened its business BEFORE 1 March 2026, and notified the Tax Authority of the opening by 28 February 2026 (§38לז(א)(4)).",
+      "raw_snippet": "( )4הוא פתח את עסקו לפני יום י\"ב באדר התשפ\"ו ( 1במרץ ,)2026והכול ובלבד שהודיע לרשות המסים בישראל על פתיחת עסקו עד יום י\"א באדר התשפ\"ו ( 28בפברואר ;)2026",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-inactive-before-1-march-exclusion",
+      "claim": "A claimant is excluded if its business was not active before 1 March 2026; inactivity is presumed if it failed to file two of the last three VAT returns due for the period before that date, and the presumption is rebuttable to the Director's satisfaction.",
+      "raw_snippet": "( )11מי שעסקו לא היה פעיל לפני יום י\"ב באדר התשפ\"ו ( 1במרץ ;)2026לעניין זה ,יראו עוסק כמי שעסקו לא היה פעיל אם הוא לא הגיש לרשות המסים בישראל שניים מתוך שלושת הדוחות האחרונים שהיה חייב בהגשתם לפי חוק מס ערך מוסף",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calc_grant.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "derived-sector-and-limb-arithmetic",
+      "claim": "Derived arithmetic used illustratively in the skill, not independent statutory figures: a fuel retailer at a 50% decline takes the 11% tier times the 0.35 sector factor = 3.85%, and NOT 35% (which is what treating 0.35 as a replacement coefficient would produce); and omitting the 0.75 limb-(a) factor inflates the wage component by 1/0.9375 - 1 = 6.67%.",
+      "raw_snippet": "השיעור כאמור בסיפה של אותן פסקאות משנה ,לפי העניין ,מוכפל ב־;0.35",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-section-131-ordinance",
+      "claim": "Section 131 of the Income Tax Ordinance is the return in which a מוסד ציבורי זכאי reports the base-year income figures that produce its non-donation income ratio.",
+      "raw_snippet": "מחלוקת סכום הכנסתו של הניזוק בשנת הבסיס ,כפי שדווחה בדוח שהגיש לפי סעיף 131לפקודה ,שאינה הכנסה מתמיכות ותרומות",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-section-56-vat-group",
+      "claim": "Section 56 of the VAT Law is the group-registration provision that triggers the third fixed-expenses variant.",
+      "raw_snippet": "( )3לעניין ניזוק שהוא עוסק הרשום כעוסק אחד עם עוסק אחר לפי הוראות סעיף 56לחוק מס ערך מוסף",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "law-nizok-exclusion-list",
+      "claim": "The definition of ניזוק excludes 12 classes, including the State, budgeted bodies and health corporations under s.21 of the Budget Foundations Law, kupot cholim, public institutions that are not a מוסד ציבורי זכאי, statutory corporations, financial institutions, real-estate trading-stock dealers, businesses with over 50% long-project work in 2024 or 2025 (except a קבלן ביצוע), businesses that closed or were inactive or reported zero turnover before 01.03.2026, and anyone whose occupation is agriculture.",
+      "raw_snippet": "\"ניזוק\" -עוסק ,למעט כל אחד מאלה ,שנגרם לו נזק עקיף: ()1 המדינה; ( )2גוף מתוקצב או תאגיד בריאות כהגדרתם בסעיף 21לחוק יסודות התקציב ,התשמ\"ה1985-",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ],
   "pending_verification": [
