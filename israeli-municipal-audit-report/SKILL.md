@@ -18,6 +18,21 @@ The internal auditor of an Israeli local authority works to a statutory timetabl
 
 ## Instructions
 
+### Step 0: Establish which authority type you are, because the rules are not identical
+
+The Municipalities Ordinance is written for a municipality (iriya). For a local council and a regional council it applies only through section 13E of the Local Councils Ordinance, which imports a NAMED SUBSET, mutatis mutandis. Two differences change real answers:
+
+| Provision | Municipality | Local council | Regional council |
+|---|---|---|---|
+| 170A(a) to (d), duties and work plan | Applies | Applies | Applies |
+| 170A(e) to (f), the budget-proposal floor | Applies | **Not imported**, the founding order governs instead | **Not imported** |
+| 170B, 170C, 170C1, the timeline and the evidence rule | Applies | Applies | Applies |
+| 170C1A, the deficiency-correction team | Applies | Applies | **Excluded by name** |
+
+Two further points apply only outside a municipality. The minister may provide in the founding order that a local council auditor serves **part time**, having regard to the number of residents and settlements and the size of the budget. And such an auditor may complete a full-time post by also serving as public-complaints or employee-complaints commissioner, if the council approved it on the audit committee's recommendation after finding it will not impair the audit role.
+
+Settle this first. Everything below is stated for a municipality unless flagged.
+
 ### Step 1: Confirm what is in scope for the audit
 
 Under section 170A(a) the auditor examines whether the authority's actions, including actions under the Planning and Building Law, were lawful, taken by the person authorised to take them, and taken while preserving purity of morals (tohar hamidot) and the principles of efficiency and economy. The role also covers the actions of the authority's employees, whether the internal control arrangements and procedures secure compliance with every law, and the bookkeeping together with the safekeeping of the authority's funds and property.
@@ -79,7 +94,7 @@ This cuts both ways and is worth stating plainly to anyone who asks the office f
 ### Step 7: Route the two matters that leave the ordinary chain
 
 - **Suspected bribery involving the mayor or the legal advisor.** Where the auditor has grounds to believe that the mayor or the authority's legal advisor is party to an offence under Chapter E, Article B of the Penal Law, the matter goes **directly to the State Comptroller**, not through the mayor or the committee.
-- **Correcting deficiencies.** A deficiency-correction team appointed under section 21A(b) of the State Comptroller Law discusses the ways and the dates for correcting deficiencies found in the report once the council has dealt with it, and the ways to prevent recurrence.
+- **Correcting deficiencies.** A deficiency-correction team appointed under section 21A(b) of the State Comptroller Law discusses the ways and the dates for correcting deficiencies found in the report once the council has dealt with it, and the ways to prevent recurrence. **This does not apply to a regional council**, which is excluded from section 170C1A by name.
 
 ### Step 8: Produce the dated schedule
 
@@ -94,14 +109,15 @@ Agent failure modes specific to this domain:
 - **Describing a finding as a legal determination.** The statute makes these documents inadmissible in legal proceedings while expressly preserving them for disciplinary ones. Both halves matter.
 - **Assuming the audit stops at the authority's own departments.** The more-than-one-tenth budget test and the management-appointment test pull in corporations, funds and institutions, and the answer is per budget year.
 - **Accepting an unlimited committee work-plan list.** The committee's demand is capped at two topics per work year.
-- **Confusing this role with the public-complaints role or with the State Comptroller.** They are separate statutory functions even where one person holds more than one of them.
+- **Confusing this role with the public-complaints role or with the State Comptroller.** They are separate statutory functions even where one person holds more than one of them, which is expressly permitted for a local council auditor completing a full-time post.
+- **Applying the municipality rules wholesale to a local or regional council.** Only a named subset is imported. The budget-proposal floor is not among it, and the deficiency-correction team excludes regional councils by name.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |---|---|---|
 | Municipalities Ordinance, sections 170A to 170C1A | https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA | The duties, the timeline chain, the publication ban and the evidence rule |
-| Municipalities Regulations, auditor office standards and budget | https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29 | The minimum budget and staffing percentages for the auditor's office |
+| Municipalities Regulations, auditor office standards and budget | https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_(%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94) | The minimum budget and staffing percentages for the auditor's office |
 | State Comptroller Law | https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94 | Section 21A on the deficiency-correction team |
 
 ## Troubleshooting
