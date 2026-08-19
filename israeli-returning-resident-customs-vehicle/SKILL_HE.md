@@ -163,7 +163,7 @@ Hand the user `references/customs-timeline.md` or compute it inline. Anchor ever
 - People still abroad planning to leave Israel → `israeli-relocation-abroad`.
 - Actual filing of the customs declaration, HS codes, equipment-level vehicle refund, dispute with a customs commissioner → licensed customs broker (סוכן מכס). This skill is a planning aid, not a substitute for a broker.
 
-## Examples
+## דוגמאות
 
 ### Example 1: Two-shipment family with one TV too many
 
@@ -197,7 +197,7 @@ Response framework:
 3. If user sold/gave away the original: tax payback + interest, computed at Meches.
 4. The re-claim window opens at year 6 from entry, not from sale date.
 
-## Bundled Resources
+## משאבים מצורפים
 
 - `references/domain-checklist.md`: authoritative sources, must-cover and should-cover facts, last-verified dates.
 - `references/vehicle-import-benefit.md`: eligibility, age window, lack of purchase-tax exemption, citations.
@@ -205,11 +205,11 @@ Response framework:
 - `references/customs-timeline.md`: day-by-day from entry to year 6.
 - `scripts/vehicle-decision.py`: side-by-side ship-vs-sell worksheet.
 
-## Recommended MCP Servers
+## שרתי MCP מומלצים
 
 None directly applicable.
 
-## Gotchas
+## מלכודות נפוצות
 
 1. **Returnees are NOT olim.** Returnees get 2 shipments, not 3.
 2. **No purchase-tax exemption on vehicles for returnees.** Combined tax ~116% of CIF for FTA-origin passenger cars (gov.il personal_import_of_vehicles_guide ch. 3). The 48-month age window is the only benefit.
@@ -227,7 +227,7 @@ None directly applicable.
 14. **Restricted-permit items** (drones, comm gear, weapons, lasers, e-scooters, plants, pets) need a separate import permit from the relevant ministry before shipping.
 15. **Inheritance items** travel under their own customs basket, not the 2-shipment household cap.
 
-## Reference Links
+## קישורי עזר
 
 | URL | Topic |
 |---|---|
@@ -242,7 +242,7 @@ None directly applicable.
 | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Shivat Zion knowledge base for returning Israelis |
 | https://belong.co.il/living/shipping-importation/ | Belong, shipping and importation overview (general aliyah-track facts; Belong's 50% car-tax discount applies to olim, NOT to toshav chozer) |
 
-## Troubleshooting
+## פתרון תקלות
 
 - **gov.il URLs return 403 to scrapers**: they load fine in a browser; use kolzchut mirrors as fallback.
 - **Meches clerk insists on the certificate**: escalate via the Rashut HaMisim centre *4954.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.4 - 2026-08-19
+
+### Fixed
+
+- Translated section headings that had been left in English in SKILL_HE.md, where they rendered as-is on the Hebrew page. Hebrew is the site's default locale, and the skill validator never checked the Hebrew file, so these went unnoticed.
+
 ## 1.2.3 - 2026-08-13
 
 Repointed the Section 14 handoff citation from a dead Kol-Zchut page to the Income Tax Ordinance itself, and replaced three raw Kol-Zchut URLs containing a gershayim with the page titles, since the quote character truncated them into dead links.
