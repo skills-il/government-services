@@ -31,7 +31,7 @@ compatibility: Requires network access for Knesset API and data.gov.il. No API k
 
 **Base URL:** `https://knesset.gov.il/OdataV4/ParliamentInfo/`
 
-OData v4. The root URL returns the entity list. As of May 2026 the service exposes all `KNS_`-prefixed entities listed in Step 1 plus the document and lookup tables documented in `references/knesset-api-entities.md`.
+OData v4. The root URL returns the entity list. As of August 2026 the service exposes all `KNS_`-prefixed entities listed in Step 1 plus the document and lookup tables documented in `references/knesset-api-entities.md`.
 
 **Legacy v3 fallback:** the older endpoint at `https://knesset.gov.il/Odata/ParliamentInfo.svc/` is still live. Code written against it keeps working, but v4 is the current API and exposes vote tables (`KNS_PlenumVote`, `KNS_PlenumVoteResult`) that v3 does not. New work should target v4.
 
@@ -95,7 +95,7 @@ Field is `MkId`, NOT `PersonID`. Read `ResultDesc` ("בעד" / "נגד" / "נמ�
 
 For aggregate "did the bill pass" status without per-MK detail, query `KNS_Bill.StatusID` (Step 4).
 
-**Historical / archival vote data** before public v4 access: the `hasadna/knesset-data` community ETL at `https://github.com/hasadna/knesset-data` still mirrors Knesset internal databases to CSV/parquet, useful for academic analysis and bulk back-fills.
+**Historical / archival vote data** before public v4 access: the `hasadna/knesset-data` community ETL at `https://github.com/hasadna/knesset-data` mirrored Knesset internal databases to CSV/parquet. **It is unmaintained**, last commit 29 April 2018, so treat it as a frozen historical archive rather than a live feed. Anything from Knesset 20 onward should come from the v4 API instead.
 
 ### Step 4: Track Legislation
 
@@ -104,12 +104,14 @@ For aggregate "did the bill pass" status without per-MK detail, query `KNS_Bill.
 GET .../KNS_Bill?$filter=KnessetNum eq 25 and contains(Name,'דיור')&$orderby=PublicationDate desc&$top=50
 ```
 
-**Bill status codes (key values):**
-- 108 = Preparation for first reading
-- 118 = Approved in third reading (became law)
-- 125 = Rejected
+**Bill status codes (key values, verified against the live table):**
+- 108 = `הכנה לקריאה ראשונה`, preparation for first reading
+- 118 = `התקבלה בקריאה שלישית`, approved in third reading (became law)
+- 177 = `נעצרה`, halted
 
-For the full list: `KNS_Status?$filter=TypeID eq 5`.
+There is **no status 125**, and there is no single "rejected" status. A bill that fails is usually halted (177), merged into another bill (122), or converted to an agenda item (124). Do not infer rejection from the absence of 118.
+
+For the full list: `KNS_Status?$filter=TypeID eq 2` (35 rows). **`TypeID` 2 is bills**; `TypeID eq 5` returns plenum-session statuses (3 rows) and is a common wrong turn.
 
 **Bill initiators, documents, related committee items:**
 ```
@@ -135,18 +137,26 @@ The Central Elections Committee publishes results on **data.gov.il** under the d
 - Catalog page: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 - CKAN API: `https://data.gov.il/api/3/action/package_show?id=votes-knesset`
 
-Each Knesset election (16th through 25th) has two CSV files:
-- **By locality** (`לפי יישובים`), aggregated turnout and vote counts per city/town.
-- **By ballot box** (`לפי קלפיות`), raw per-ballot results, granular enough for analysis at individual-station resolution.
+The package holds **17 resources**, not two per election:
+- **By ballot box** (`לפי קלפיות`), raw per-ballot results, for Knessets **16 through 25**.
+- **By locality** (`לפי יישובים`), aggregated turnout and vote counts per city/town, for Knessets **19 through 25 only**. Knessets 16, 17 and 18 have no per-locality file; aggregate the ballot file yourself for those years.
 
-Example URL for 25th Knesset by locality:
+**Use the CKAN datastore, not the CSV download.** All 17 resources have `datastore_active: true`, and `datastore_search` returns clean UTF-8 JSON:
 ```
-https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv
+GET https://data.gov.il/api/3/action/datastore_search?resource_id={resource_id}&limit=1000&offset=0
 ```
+Page with `limit` / `offset` until `records` comes back empty. Records are keyed by Hebrew column names, and the per-party columns are **ballot letter symbols** (`אמת`, `ב`, `ג`, `מחל`, `שס` ...) rather than party names. Example resource IDs for the 25th Knesset: `b392b8ee-ba45-4ea0-bfed-f03a1a36e99c` (by locality), `cc223336-07bc-485d-b160-62df92967c0a` (by ballot).
+
+**The raw CSV download is not programmatically retrievable.** As observed on 24 August 2026, the `aws-e.data.gov.il/.../download/-25-.csv` URLs sit behind an AWS load-balancer Google-OAuth gate: a plain fetch returns 403, and a browser-like fetch returns HTTP 200 carrying roughly 1.2 MB of a Google sign-in page instead of the file. Re-probe before relying on the CSV route. That failure is **silent**, the response looks like a successful download. Treat the CSV route as browser-and-human only, and never feed its response to a CSV parser.
+**Do not match resource names literally.** The publisher spells the per-locality files `לפי יישובים` (two yods) for Knessets 21-25 but `לפי ישובים` (one yod) for 19-20. Match on the Knesset number plus a yod-insensitive stem, or select by position in the resource list.
 
 Find the latest resource IDs via the CKAN API call above.
 
-**Note on `votes.gov.il`:** older documentation cites `votes.gov.il` as the results site. That hostname no longer resolves; the canonical site is now `https://www.bechirot.gov.il/` (Central Elections Committee, may be in maintenance between election cycles) and the canonical data is on data.gov.il.
+**Coverage stops at the 25th Knesset.** The dataset carries Knessets 16 through 25 only. Results for the 26th Knesset (election scheduled 27 October 2026, see Step 6) will not appear here until the Central Elections Committee certifies the count after election day. If a user asks for 26th-Knesset results before then, tell them the data does not exist yet instead of searching for it.
+
+**Per-cycle results subdomains.** Certified results for each election live on a `votesNN.bechirot.gov.il` subdomain (`https://votes25.bechirot.gov.il/` for 2022, with `/nationalresults`, `/cityresults` and `/ballotresults` paths). `votes26.bechirot.gov.il` returns **404 today** and is expected to appear around election night. A 404 there before 27 October 2026 is a calendar fact, not a broken link, so do not report the canonical results host as dead.
+
+**Note on `votes.gov.il`:** older documentation cites `votes.gov.il` as the results site. That hostname no longer resolves; the canonical site is now `https://www.bechirot.gov.il/` (Central Elections Committee, live and currently running the 26th Knesset election cycle) and the canonical data is on data.gov.il.
 
 ### Step 6: Electoral System Facts
 
@@ -155,7 +165,17 @@ Find the latest resource IDs via the CKAN API call above.
 - **Electoral threshold:** **3.25%** of valid votes since the March 2014 amendment to the Knesset Elections Law (חוק הבחירות לכנסת). Was 2% before that.
 - **Seat allocation:** Modified D'Hondt, named **Bader-Ofer** in Israel (after MKs Yohanan Bader and Avraham Ofer). Internationally equivalent to the Hagenbach-Bischoff method. Two-phase allocation: (1) integer share of valid votes among parties that crossed the threshold, (2) "leftover seats" via D'Hondt highest-averages.
 - **Surplus-vote agreements (`heskemei odafim`):** Two parties may sign a pre-election pact to be treated as one bloc for the leftover-seat round only.
-- **Election schedule:** No fixed cycle. Knesset term is up to 4 years but can be dissolved earlier. The next election (26th Knesset) must be held no later than **27 October 2026** under current legislation.
+- **Election schedule:** No fixed cycle. Knesset term is up to 4 years but can be dissolved earlier.
+
+**Current status (verified 24 August 2026): Israel is in an active election period.** The 25th Knesset formally dissolved on **17 July 2026** after completing its full four-year term. Elections to the **26th Knesset** are scheduled for **27 October 2026**, which is now a formally set date rather than merely the statutory outer limit. What this means for any query about "the current Knesset" or "the current coalition":
+
+- The 26th Knesset does not exist yet. No MK list, faction list, or seat count for it exists in any source.
+- **The outgoing Knesset remains in office until the incoming one convenes** (Basic Law: The Knesset, continuity rule). This is why `KNS_PersonToPosition` still returns 120 sitting MKs with `IsCurrent` true weeks after dissolution. That data is correct, not stale, but it does NOT mean the Knesset is sitting in the ordinary sense. Say which it is.
+- The 37th government continues in a caretaker capacity until a new government is formed.
+- **After election day**, results must be certified and published before the new Knesset convenes (scheduled 10 November 2026), after which the president assigns a government-formation mandate. Until a new government is sworn in, the outgoing one continues.
+- Most `KNS_*` entities filtered on `KnessetNum eq 26` return empty (`KNS_Faction`, `KNS_Bill`, `KNS_PersonToPosition`, `KNS_PlenumSession`, `KNS_CommitteeSession` all return `@odata.count` 0). Use `KnessetNum eq 25` for the outgoing Knesset's records.
+- **`KNS_KnessetDates` is the exception, and it is the one to query.** It already carries a Knesset 26 row with the scheduled first sitting: `KNS_KnessetDates?$filter=KnessetNum eq 26` returns `PlenumStart` **2026-11-10**. This is the API's own answer to "when does the new Knesset convene". `KNS_KnessetDates?$filter=IsCurrent eq true` returns the Knesset 25 row whose `PlenumFinish` is 2026-07-17. **`PlenumFinish` is the end of that sitting period (מושב), not a dissolution date** (Knesset 25's earlier sessions end 2023-07-30, 2024-07-28, 2025-07-27, all ordinary summer recesses), and the Knesset still recorded 35 plenum votes on and after 2026-07-17, 22 of them after that day, the latest on 2026-07-28. It happens to coincide with the dissolution this cycle. Take the dissolution date from the Central Elections Committee or the press, not by reading `PlenumFinish`.
+- The Central Elections Committee publishes the official cycle timeline (voter-roll corrections, ballot-area allocation, candidate-list filing, disqualification petitions) at `https://www.bechirot.gov.il/`. Candidate lists are due to the committee on 7-8 September 2026. The committee's own timeline is authoritative on these dates.
 
 ### Step 7: 2022 Election Results (25th Knesset)
 
@@ -184,19 +204,19 @@ Municipal elections (`bechirot reshuyot mekomiyot`) are normally held every five
 - **November 2024**, separate round for 11 northern and southern localities that were evacuated due to the Gaza/Lebanon wars and could not vote in February.
 - Turnout in 2024 was lower than in 2018 but higher than in 2003, 2008 and 2013 (Israel Democracy Institute). Do not quote a single national turnout percentage -- the IDI analysis publishes it only as a chart.
 
-Municipal results live on `https://www.bechirot.gov.il/local2024/Pages/default.aspx` and were eventually mirrored to `data.gov.il`. Each city publishes its own breakdown via the Ministry of Interior (`https://www.gov.il/he/departments/ministry_of_interior`).
+Municipal results were published on a per-cycle Central Elections Committee site. **The 2024 municipal site has been retired**: `bechirot.gov.il/local2024/Pages/default.aspx` now redirects to `maintenance.gov.il`. There is **no national machine-readable municipal results dataset**: the `votes-knesset` package on data.gov.il is Knesset-only (all 17 resources). Start from the committee's historical-information section at `https://www.bechirot.gov.il/`, or pull results per authority via the Ministry of Interior. Each city publishes its own breakdown via the Ministry of Interior (`https://www.gov.il/he/departments/ministry_of_interior`).
 
 ### Step 9: Coalition, Government, and Auxiliary Data
 
 | Topic | Source |
 |-------|--------|
-| Coalition agreements (full text, Hebrew) | `https://www.gov.il/he/Departments/policies` and PMO publications |
+| Coalition agreements (full text, Hebrew) | Tabled with the Knesset and published by the PMO. `https://www.gov.il/he/Departments/policies` redirects to a generic all-ministry procedures collector and is NOT a coalition-agreement index, so search the Knesset site or PMO publications directly. |
 | Government composition (current ministers) | `KNS_PersonToPosition` filtered to `PositionID eq 39` (male) / `57` (female) / `45` (PM) |
 | Knesset committee composition | `KNS_PersonToPosition` filtered to `PositionID eq 41` (chair) / `42` (member) |
 | Faction membership (separate from MK role) | `KNS_PersonToPosition` filtered to `PositionID eq 54` (see Gotchas) |
 | Knesset speaker | `PositionID eq 122` (male) / `123` (female) |
 | Party financing reports | State Comptroller (`mevaker hamedina`): `https://www.mevaker.gov.il/` |
-| Voter eligibility / registration check | Ministry of Interior: `https://www.gov.il/he/service/check_voter_registration` |
+| Voter roll (registration check, correction deadlines) | Central Elections Committee cycle timeline: `https://www.bechirot.gov.il/`. The Ministry of Interior operates the online check; its deep link moves between cycles, so navigate from the committee site rather than hardcoding a URL. |
 | Population context (per-locality demographics) | Central Bureau of Statistics: `https://www.cbs.gov.il/` |
 
 ### Israeli Political Terminology
@@ -244,18 +264,19 @@ Actions:
 ### Example 3: Election Analysis by Locality
 User says: "Show me the 25th Knesset results for Haifa."
 Actions:
-1. Resolve the latest `votes-knesset` per-locality CSV via the CKAN API: `GET data.gov.il/api/3/action/package_show?id=votes-knesset`, pick the resource named `תוצאות האמת של הבחירות לכנסת ה-25 לפי ייישובים`.
-2. Download the CSV (`-25-.csv`).
+1. Resolve the latest `votes-knesset` per-locality CSV via the CKAN API: `GET data.gov.il/api/3/action/package_show?id=votes-knesset`, pick the per-locality resource for Knesset 25 (spelled `לפי יישובים`, but match yod-insensitively per Step 5).
+2. Pull the records via `datastore_search` (see Step 5). Do NOT use the CSV download URL.
 3. Filter by locality code or Hebrew name (`חיפה`).
-4. Aggregate by faction column.
+4. Aggregate by party column. **The columns are ballot letter symbols, not party names** (`אמת`, `ב`, `ג`, `מחל`, `שס` ...), alongside `שם ישוב`, `בזב` (eligible voters), `מצביעים`, `כשרים`, `פסולים`. Letters are re-assigned by lottery each cycle, so resolve them against the candidate-list letters for that specific election before naming any party.
 5. Compare to national results from Step 7.
 
 ### Example 4: Coalition Composition
 User says: "Which factions are in the current coalition?"
 Actions:
-1. Query `KNS_Faction?$filter=KnessetNum eq 25` to list all factions.
-2. Match against the canonical Step 7 table (Likud, Religious Zionism, Shas, UTJ are coalition).
-3. Note that coalition composition can shift mid-term, always confirm against current Knesset/Government news.
+1. **Check the electoral calendar first (Step 6).** As of August 2026 the Knesset is dissolved and the 37th government is a caretaker government pending the 27 October 2026 election. Say so before answering, because "the current coalition" means something different during an election period.
+2. Query `KNS_Faction?$filter=KnessetNum eq 25` to list the outgoing Knesset's factions.
+3. Do NOT read coalition membership off the Step 7 table. That table is the November 2022 election-night result, and factions split, merged and renamed across the term, so the live `KNS_Faction` list for Knesset 25 will not match it.
+4. For authoritative membership at a given moment, use `KNS_PersonToPosition` with `FinishDate eq null`, and confirm against current Knesset and government publications.
 
 ### Example 5: Per-MK Vote Lookup (v4 only)
 User says: "Did MK Gafni vote in favor of the budget?"
@@ -287,6 +308,10 @@ When the `knesset` MCP is available, use its tools for live legislative data ins
 ## Gotchas
 - Israeli elections use a single national-list proportional representation system with a 3.25% electoral threshold. There are no districts. Agents may incorrectly describe Israeli elections using US congressional-district terminology.
 - Israel has no fixed election schedule. Elections can be called at any time if the Knesset dissolves. Do not assume a 4-year cycle.
+- **Israel is in an active election period as of August 2026** (Knesset dissolved 17 July 2026, election 27 October 2026). Any answer about "the current Knesset", "the current government" or "the current coalition" has to say so. `KnessetNum eq 26` returns empty everywhere until the new Knesset is sworn in.
+- **`FinishDate eq null` does NOT mean "the Knesset is sitting".** It means the position has not been formally ended, and under the continuity rule the outgoing MKs' positions stay open until the new Knesset convenes. Five weeks after the 17 July 2026 dissolution the filter still returns all 120 MKs with `IsCurrent` true. Pair it with the calendar from `KNS_KnessetDates`, never read it as a live-Knesset signal on its own.
+- **A Knesset's faction list drifts away from its election-night result.** The Step 7 table is the November 2022 result. Factions split, merge and rename mid-term, so `KNS_Faction?$filter=KnessetNum eq 25` returns the live picture and will not match the election table. Use the API for "who is in which faction now", the table only for "what did the election return".
+- **`main.knesset.gov.il` is bot-protected.** It answers plain automated requests with a non-standard HTTP `247` and a JavaScript interstitial, and a headless browser may get the same. The pages work normally for a human in a real browser, so do not report them as dead. Use the OData API for anything programmatic.
 - Israeli political party names change frequently due to mergers, splits, and rebranding (Likud-Beytenu, Blue and White, Yamina, National Unity, etc.). Agents may reference party names that no longer exist or conflate different parties across cycles.
 - Central Elections Committee results are published in Hebrew. Party letter symbols (`otiyot`) are used alongside names and change every election (the letters are assigned by lottery before each cycle).
 - **v4 is the current API; v3 is legacy.** v4 uses `contains(Field,'text')` for substring matching; v3 used `substringof('text', Field)`. The v3 endpoint at `https://knesset.gov.il/Odata/ParliamentInfo.svc/` is still up but does NOT expose vote tables, prefer v4 for new code.
@@ -295,9 +320,8 @@ When the `knesset` MCP is available, use its tools for live legislative data ins
 - **`KNS_PlenumVote.VoteTitle`, not `ItemTitle`.** `ItemTitle` does not exist on this entity and returns a 400 error.
 - **`KNS_PlenumVoteResult.MkId`, not `PersonID`.** Use `ResultDesc` for the outcome ("בעד" / "נגד" / "נמנע"); `ResultCode` integers do not follow a simple 1/2/3 mapping (the live value for "בעד" on the first row is 7, not 1).
 - **`KNS_Query` stores `GovMinistryID` (integer), not `GovMinistryName`.** Resolve names via `KNS_GovMinistry?$filter=contains(Name,'משפטים')&$select=Id,Name` first, then filter `KNS_Query` by `GovMinistryID in (<ids>)`.
-- **PositionID 54 records faction membership** (a separate "חבר/ת סיעה" designation), NOT MK status. To list MKs by faction, filter `KNS_PersonToPosition` to `PositionID eq 43 or PositionID eq 61` (MK roles) AND `FactionID eq {id}`, not `PositionID eq 54`.
+- **PositionID 54 records faction membership; PositionID 43/61 record the MK role. You need BOTH.** `FactionID` and `FactionName` are `null` on every 43/61 row (`KnessetNum eq 25 and PositionID eq 43 and FactionID ne null` returns 0), and are populated only on PositionID 54 rows (193 for Knesset 25). So to list MKs by faction: take the PersonIDs from the 43/61 rows for the MK role, then join to that same person's PositionID 54 row for the faction. Filtering 43/61 by `FactionID` returns an empty set every time.
 - **`KNS_IsraelLawClassificiation` is misspelled in the upstream API** (double 'i'). Do not "fix" it, the correctly-spelled name returns 404.
-- **`KNS_PlmSessionItem` Ordinal sorting is broken** in the public API (known bug). Don't rely on `$orderby=Ordinal` for plenum-session item ordering.
 - **`KNS_CommitteeSession` StatusID 193 = cancelled.** Always filter with `StatusID ne 193` unless cancelled sessions are explicitly wanted.
 - **Knesset 0 = Provisional State Council** (מועצת המדינה הזמנית, 1948-49). Data quality improves materially from Knesset 17 onward; older records may have gaps.
 - **Datetime format** in v4: ISO 8601, no quotes. Use `VoteDateTime gt 2024-01-01T00:00:00Z`, not `datetime'2024-01-01'` (the v3 form).
@@ -310,9 +334,11 @@ When the `knesset` MCP is available, use its tools for live legislative data ins
 | Knesset OData v4 root | https://knesset.gov.il/OdataV4/ParliamentInfo/ | Live entity list |
 | Knesset OData v4 metadata | https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata | Full schema: field names, types, relationships |
 | Knesset databases portal | https://knesset.gov.il/OdataV4/ParliamentInfo/ | Dataset announcements, API status |
-| Bills search (web UI) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx | Cross-check bill data |
-| Plenum votes (web UI) | https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx | Cross-check vote data |
+| Bills search (web UI) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch.aspx | Cross-check bill data (bot-protected, open in a browser) |
+| Plenum votes (web UI) | https://main.knesset.gov.il/activity/plenum/votes/pages/default.aspx | Cross-check vote data (bot-protected, open in a browser) |
 | data.gov.il votes-knesset | https://data.gov.il/api/3/action/package_show?id=votes-knesset | Per-locality and per-ballot CSV results |
+| Central Elections Committee | https://www.bechirot.gov.il/ | Official 26th Knesset election-cycle timeline, procedures, candidate lists |
+| 25th Knesset official results | https://votes25.bechirot.gov.il/ | Certified national, per-locality and per-ballot results for the 2022 election |
 | OData v4 spec | https://www.odata.org/documentation/ | Filter / expand / paging syntax reference |
 
 ## Troubleshooting
@@ -346,8 +372,12 @@ Cause: `KNS_Query` stores `GovMinistryID` (integer), no name column.
 Solution: Resolve the ID first via `KNS_GovMinistry?$filter=contains(Name,'משפטים')&$select=Id,Name`, then filter `KNS_Query` by `GovMinistryID in (<ids>)`.
 
 ### Error: Listing MKs by faction returns the wrong people
-Cause: Filtering `KNS_PersonToPosition` by `PositionID eq 54` returns faction-membership records, which is a separate concept from the MK role itself.
-Solution: Filter by `PositionID eq 43 or PositionID eq 61` (the MK roles) AND `FactionID eq {id}` AND `FinishDate eq null` (currently serving).
+Cause: The MK role (PositionID 43/61) and faction membership (PositionID 54) are separate records, and `FactionID` is `null` on every 43/61 row. Filtering 43/61 by `FactionID` therefore returns nothing at all.
+Solution: Two steps. Get the MK PersonIDs with `PositionID eq 43 or PositionID eq 61`, then get faction with `PositionID eq 54` for the same `KnessetNum` and join on `PersonID`. Note that `FinishDate eq null` means "position not formally ended", not "the Knesset is sitting": during a dissolution it still returns the full outgoing 120.
+
+### Error: `KnessetNum eq 26` returns an empty result set
+Cause: The 26th Knesset has not convened. The 25th Knesset dissolved on 17 July 2026 and the election is scheduled for 27 October 2026, so `KNS_Faction`, `KNS_Bill`, `KNS_PersonToPosition`, `KNS_PlenumSession` and `KNS_CommitteeSession` all return zero rows for Knesset 26.
+Solution: Do not treat the empty response as an API fault or a filter-syntax error. Query `KnessetNum eq 25` for the outgoing Knesset's records. For the 26th Knesset itself, query `KNS_KnessetDates?$filter=KnessetNum eq 26`, which DOES return a row and gives the scheduled first sitting (`PlenumStart` 2026-11-10).
 
 ### Error: "Data returned in Hebrew"
 Cause: Knesset data values are primarily in Hebrew.
@@ -359,4 +389,4 @@ Solution: Use `https://www.bechirot.gov.il/` for the live Central Elections Comm
 
 ### Error: "data.gov.il CSV is in legacy Hebrew encoding"
 Cause: `votes-knesset` CSVs are not all in the same character encoding, and the publisher does not document which file uses which.
-Solution: Detect the encoding per file (`chardet`) rather than assuming. If detection is inconclusive, try `utf-8-sig` and then `cp1255`.
+Solution: This applies only if you obtained the raw CSV through a browser. Detect the encoding per file (`chardet`) rather than assuming; if detection is inconclusive, try `utf-8-sig` and then `cp1255`. The `datastore_search` API route (Step 5) returns UTF-8 JSON and needs no encoding detection, so prefer it.

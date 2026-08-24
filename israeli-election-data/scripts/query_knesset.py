@@ -49,14 +49,22 @@ def odata_get(entity: str, filters: str = "", top: int = 50,
         url += "?" + urllib.parse.urlencode(params)
 
     req = urllib.request.Request(url)
-    req.add_header("User-Agent", "israeli-election-data-skill/1.2")
+    req.add_header("User-Agent", "israeli-election-data-skill/1.3")
     req.add_header("Accept", "application/json")
 
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            # OData v4 returns results in `value`.
-            return data.get("value", [])
+        out = []
+        next_url = url
+        # OData v4 returns results in `value` and paginates via @odata.nextLink.
+        while next_url and len(out) < top:
+            page_req = urllib.request.Request(next_url)
+            page_req.add_header("User-Agent", "israeli-election-data-skill/1.3")
+            page_req.add_header("Accept", "application/json")
+            with urllib.request.urlopen(page_req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            out.extend(data.get("value", []))
+            next_url = data.get("@odata.nextLink")
+        return out[:top]
     except urllib.error.HTTPError as e:
         print(f"HTTP error {e.code}: {e.reason}", file=sys.stderr)
         if e.code == 404:
@@ -74,6 +82,29 @@ def odata_get(entity: str, filters: str = "", top: int = 50,
         sys.exit(1)
 
 
+def report_missing_knesset(knesset_num: int) -> None:
+    """Explain an empty KnessetNum result instead of blaming the user.
+
+    Most KNS_* entities return zero rows for a Knesset that has not convened,
+    but KNS_KnessetDates already carries a row for it with the scheduled
+    first sitting. Query that before reporting 'not found'.
+    """
+    dates = odata_get(
+        entity="KNS_KnessetDates",
+        filters=f"KnessetNum eq {knesset_num}",
+        top=10,
+    )
+    if dates:
+        start = dates[0].get("PlenumStart")
+        print(f"Knesset {knesset_num} has not convened yet. "
+              f"Scheduled first sitting: {start}.")
+        print("No MK, faction, bill or session records exist for it until "
+              "it is sworn in. This is a calendar fact, not an API error.")
+    else:
+        print(f"No records for Knesset {knesset_num}, and KNS_KnessetDates "
+              f"has no row for it either. Check the Knesset number.")
+
+
 def get_mks(knesset_num: int) -> None:
     """Get all MKs for a Knesset session (PositionID 43=male, 61=female)."""
     print(f"=== Members of the {knesset_num}th Knesset ===\n")
@@ -84,18 +115,46 @@ def get_mks(knesset_num: int) -> None:
             f"KnessetNum eq {knesset_num} and "
             f"(PositionID eq 43 or PositionID eq 61)"
         ),
-        top=120,
+        top=1000,
     )
 
     if not results:
-        print("No MKs found. Check Knesset number.")
+        report_missing_knesset(knesset_num)
         return
 
-    print(f"Found {len(results)} MK records:\n")
+    # FactionID/FactionName are NULL on PositionID 43/61 rows. Faction lives
+    # only on the person's PositionID 54 ("faction member") row, so join.
+    faction_rows = odata_get(
+        entity="KNS_PersonToPosition",
+        filters=f"KnessetNum eq {knesset_num} and PositionID eq 54",
+        top=1000,
+    )
+    faction_by_person = {
+        r.get("PersonID"): r.get("FactionName")
+        for r in faction_rows if r.get("FactionName")
+    }
+
+    # KNS_PersonToPosition carries no name column, so join KNS_Person.
+    people = odata_get(
+        entity="KNS_Person",
+        select="Id,FirstName,LastName",
+        top=3000,
+    )
+    name_by_id = {
+        r.get("Id"): f"{r.get('FirstName','')} {r.get('LastName','')}".strip()
+        for r in people
+    }
+
+    print(f"Found {len(results)} MK records "
+          f"(includes replacements and mid-term entries):\n")
     for mk in results:
         person_id = mk.get("PersonID", "")
-        faction = mk.get("FactionName", "Unknown")
-        print(f"  PersonID={person_id}  Faction={faction}")
+        name = name_by_id.get(person_id, f"PersonID={person_id}")
+        faction = faction_by_person.get(person_id, "Unknown")
+        serving = "current" if mk.get("FinishDate") is None else "ended"
+        print(f"  {name}  |  {faction}  [{serving}]")
+    print("\nNote: '[current]' means the position was never formally ended. "
+          "During a dissolution the outgoing MKs still show as current.")
 
 
 def search_mk(name: str) -> None:
@@ -151,10 +210,16 @@ def search_bills(knesset_num: int, keyword: str, limit: int) -> None:
         print("No bills found. Try Hebrew keywords.")
         return
 
+    # Verified against KNS_Status?$filter=TypeID eq 2 (bills). There is no
+    # status 125 and no single "rejected" status.
     status_map = {
         108: "In preparation for first reading",
+        113: "In preparation for second and third reading",
         118: "Approved in third reading (law)",
-        125: "Rejected",
+        122: "Merged into another bill",
+        124: "Converted to an agenda item",
+        141: "Tabled for first reading",
+        177: "Halted",
     }
 
     print(f"Found {len(results)} bills:\n")
@@ -230,7 +295,7 @@ def get_factions(knesset_num: int) -> None:
     )
 
     if not results:
-        print("No factions found.")
+        report_missing_knesset(knesset_num)
         return
 
     print(f"Found {len(results)} factions:\n")
@@ -246,7 +311,7 @@ def list_entities() -> None:
 
     # In v4, GET on the service root returns a service document with entity sets.
     req = urllib.request.Request(KNESSET_BASE + "/")
-    req.add_header("User-Agent", "israeli-election-data-skill/1.2")
+    req.add_header("User-Agent", "israeli-election-data-skill/1.3")
     req.add_header("Accept", "application/json")
 
     try:

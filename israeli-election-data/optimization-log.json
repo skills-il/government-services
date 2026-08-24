@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-24",
+      "lessons": [
+        "Expert MINOR deferred: query_knesset.py search_bills hardcodes 7 of the 35 TypeID-2 bill statuses; loading KNS_Status once would remove the 'Status 150' raw-number fallback.",
+        "Expert MINOR deferred: add a one-line note to the script about CERTIFICATE_VERIFY_FAILED on machines whose Python trust store differs from curl's (set SSL_CERT_FILE to certifi), so a local trust issue is not misread as 'the Knesset API is down'.",
+        "Expert MINOR deferred: references/knesset-api-entities.md heading 'Position IDs (PositionID values)' implies a PositionID column on KNS_Position; the PK there is Id and PositionID is only the FK name on KNS_PersonToPosition.",
+        "Discretionary deferred over the Phase 4.1 batch cap: SKILL.md body is now close to the 5,000-word validator cap. Next cycle should move the terminology table or the entity table to references/ before adding material.",
+        "Known non-issue, do not 'fix': four en-dashes in references/knesset-api-entities.md are verbatim KNS_Position.Description values (יושב–ראש הכנסת). The live API really returns the en-dash, so normalising them to hyphens would break string matching. Confirmed against KNS_Position 2026-08-24.",
+        "Election-cycle watch item: this skill is time-sensitive until the 26th Knesset is seated. After the 27 October 2026 election, votes26.bechirot.gov.il should come up, data.gov.il should gain 26th-Knesset resources, and KNS_KnessetDates IsCurrent should move to Knesset 26 around the 10 November 2026 first sitting. Re-run this skill then, do not wait for the normal staleness cadence.",
+        "Method lesson for the next cycle: three of this cycle's most serious defects (the fabricated bill status 125, the inverted faction-ID guidance, and the Google-OAuth-gated CSV download) had survived multiple prior cycles because every gate verified the values the skill STATED rather than executing the routes it PRESCRIBES. For an API skill, run the skill's own queries and its bundled script against the live service before declaring a pass."
+      ]
+    }
+  ]
+}

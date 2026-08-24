@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-election-data",
-  "generated_at": "2026-05-21T00:00:00Z",
+  "generated_at": "2026-08-24T21:00:00Z",
   "claims": [
     {
       "claim_id": "v4-base-url",
@@ -104,9 +104,9 @@
     {
       "claim_id": "knesset-size-120",
       "claim": "The Knesset has 120 seats, unchanged since 1949.",
-      "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
-      "raw_snippet": "120 members",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "All 120 seats in the Knesset",
+      "fetched_at": "2026-08-24T18:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -132,9 +132,9 @@
     {
       "claim_id": "bader-ofer-method",
       "claim": "Seat allocation uses the Bader-Ofer method (modified D'Hondt, equivalent to Hagenbach-Bischoff).",
-      "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
-      "raw_snippet": "Bader-Ofer",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "If the alliance receives leftover seats, the Bader",
+      "fetched_at": "2026-08-24T21:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -202,8 +202,8 @@
       "claim_id": "election-2022-results",
       "claim": "The 2022 Knesset election (Nov 1, 2022) seat counts: Likud 32, Yesh Atid 24, Religious Zionism-Otzma Yehudit 14, National Unity 12, Shas 11, UTJ 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5, Labor 4.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "[ 116 ] The official body administering the elections, the Central Election Committee for the 25th Knesset, released the final official results of the elections on 9 November and the chairman of the committee, Supreme Court Justice Yitzhak Amit , presented them to the President Herzog.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Party Votes % Seats +/– Likud 1,115,336 23.41 32 +2 Yesh Atid 847,435 17.79 24 +7 Religious Zionism - Otzma Yehudit 516,470 10.84 14 +8 National Unity 432,482 9.08 12 –2 Shas 392,964 8.25 11 +2 United Torah Judaism 280,194 5.88 7 0 Yisrael Beiteinu 213,687 4.48 6 –1",
+      "fetched_at": "2026-08-24T20:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -215,8 +215,8 @@
       "claim_id": "election-2022-coalition-split",
       "claim": "Coalition / opposition split after the 2022 election: 64 vs 56.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections. [ 13 ] [ 14 ] In March 2020, these resulted in the formation of a unity government , the thirty-fifth government of Israel , between Netanyahu and Gantz, [ 15 ] which collapsed in December following a budgetary dispute, leading to another election in March 2021.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Netanyahu's bloc went on to win 64 seats, while the coalition led by the incumbent prime minister Yair Lapid won 51 seats.",
+      "fetched_at": "2026-08-24T20:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -228,8 +228,8 @@
       "claim_id": "election-2022-below-threshold",
       "claim": "Meretz received 3.16% of valid votes in 2022 (below threshold, 0 seats); Balad received 2.91% (below threshold, 0 seats).",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "[ 134 ] Netanyahu received congratulatory messages from leaders around the world, including those of Canada, France, Hungary, India, Italy, Jordan, Sudan, Ukraine, the United Arab Emirates, the United States, and the United Kingdom, among others. [ 135 ] [ 136 ] [ 137 ] [ 138 ] On 15 November, the swearing-in ceremony for the newly elected members of the 25th Knesset was held during the opening session.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Meretz 150,793 3.16 0 –6 Balad 138,617 2.91 0 –1",
+      "fetched_at": "2026-08-24T20:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -241,8 +241,8 @@
       "claim_id": "25th-knesset-swearing-in",
       "claim": "The 25th Knesset was sworn in on November 15, 2022.",
       "source_url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
-      "raw_snippet": "[ 12 ] Background Further information: 2018–2022 Israeli political crisis and Thirty-sixth government of Israel The extended period of political deadlock that led up to the election was the result of four inconclusive elections ( April 2019 , September 2019 , 2020 , and 2021 ). In April and September 2019, neither incumbent Prime Minister of Israel , Benjamin Netanyahu , nor leader of the main opposition party Blue and White , Benny Gantz , was able to muster a 61-seat governing majority, leading to fresh elections.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "On 15 November, the swearing-in ceremony for the newly elected members of the 25th Knesset was held during the opening session.",
+      "fetched_at": "2026-08-24T20:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -253,10 +253,10 @@
     },
     {
       "claim_id": "next-election-deadline-2026-10-27",
-      "claim": "The next Knesset election (26th Knesset) must be held no later than 27 October 2026.",
-      "source_url": "https://www.timesofisrael.com/judge-sets-date-for-next-scheduled-elections-for-october-2026/",
-      "raw_snippet": "October 27, 2026",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "27 October 2026 was set as the date for the next Knesset election; it is now the formally scheduled date rather than only a statutory outer limit.",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "Legislative elections are scheduled to be held in Israel on 27 October 2026",
+      "fetched_at": "2026-08-24T18:55:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -308,21 +308,6 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
-    },
-    {
-      "claim_id": "bill-status-codes",
-      "claim": "Bill status code 118 = approved in third reading (became law); 108 = preparation for first reading; 125 = rejected; full list via KNS_Status?$filter=TypeID eq 5.",
-      "source_url": "https://github.com/hasadna/Open-Knesset",
-      "raw_snippet": "esset Public archive forked from ofri/Open-Knesset Notifications You must be signed in to change notification settings Fork 168 Star 108 Code Issues 203 Pull requests 6 Actions Projects Wiki Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Wiki Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 4,974 Commits 4,974 Commits Folders and files Name Name Last commit message Last commit date .github .",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "scripts/query_knesset.py",
-        "references/domain-checklist.md"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"108\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "committee-session-cancelled-193",
@@ -388,9 +373,9 @@
     {
       "claim_id": "surplus-vote-agreements",
       "claim": "Surplus-vote agreements (heskemei odafim) allow two parties to be treated as one bloc for the leftover-seat allocation round only.",
-      "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
-      "raw_snippet": "Surplus Votes Agreement",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "Two parties can sign a surplus vote agreement that allows them to compete for leftover seats as if they were running together on the same list.",
+      "fetched_at": "2026-08-24T21:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -420,10 +405,10 @@
     },
     {
       "claim_id": "ref-data-gov-il-25th-csv",
-      "claim": "The 25th Knesset per-locality CSV resource is listed in the votes-knesset package as https://e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv (154,331 bytes). The download endpoint itself is behind a JS bot challenge and returns HTML to a plain client.",
+      "claim": "The 25th Knesset per-locality CSV is served from aws-e.data.gov.il at the resource download path listed in the CKAN package.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
-      "raw_snippet": "uthor\": null, \"author_email\": \"bard@knesset.gov.il\", \"creator_user_id\": \"e01f2a18-b401-4758-9533-db0a713d1d6c\", \"id\": \"26f9fa06-fcd7-4173-8df5-65797b63e857\", \"isopen\": true, \"license_id\": \"other-open\", \"license_title\": \"Other (Open)\", \"mail_box\": \"bard@knesset.gov.il\", \"maintainer\": null, \"maintainer_email\": null, \"metadata_created\": \"2021-03-22T20:08:28.874738\", \"metadata_modified\": \"2024-11-27T08:00:40.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "https://aws-e.data.gov.il/dataset/26f9fa06-fcd7-4173-8df5-65797b63e857/resource/b392b8ee-ba45-4ea0-bfed-f03a1a36e99c/download/-25-.csv",
+      "fetched_at": "2026-08-24T19:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -493,7 +478,7 @@
     },
     {
       "claim_id": "ref-gov-policies",
-      "claim": "Coalition agreements (full Hebrew text) live on gov.il/he/Departments/policies and in PMO publications.",
+      "claim": "gov.il/he/Departments/policies redirects to a generic all-ministry procedures collector and is not a coalition-agreement index.",
       "source_url": "https://www.gov.il/he/Departments/policies",
       "raw_snippet": "https://www.gov.il/he/Departments/policies",
       "fetched_at": "2026-05-21T00:00:00Z",
@@ -515,14 +500,16 @@
     },
     {
       "claim_id": "ref-voter-registration-check",
-      "claim": "Voter registration check service provided by the Ministry of Interior.",
-      "source_url": "https://www.gov.il/he/service/check_voter_registration",
-      "raw_snippet": "https://www.gov.il/he/service/check_voter_registration",
-      "fetched_at": "2026-05-21T00:00:00Z",
+      "claim": "The Central Elections Committee cycle timeline is the navigation point for voter-roll checks and correction deadlines; the Ministry of Interior deep link moves between cycles.",
+      "source_url": "https://www.bechirot.gov.il/home/",
+      "raw_snippet": "ציר הזמן לבחירות לכנסת ה-26",
+      "fetched_at": "2026-08-24T19:40:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T19:40:00Z"
     },
     {
       "claim_id": "ref-mevaker",
@@ -558,6 +545,225 @@
       "appears_in": [
         "SKILL.md",
         "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "knesset-25-dissolved-2026-07-17",
+      "claim": "The 25th Knesset formally dissolved on 17 July 2026.",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "The Knesset formally dissolved on 17 July 2026.",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "election-26th-knesset-2026-10-27",
+      "claim": "Elections to the 26th Knesset are scheduled for 27 October 2026, to elect all 120 members, succeeding the 37th government.",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "raw_snippet": "Legislative elections are scheduled to be held in Israel on 27 October 2026, to elect all 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cec-26th-knesset-cycle-timeline",
+      "claim": "The Central Elections Committee site is live and running the 26th Knesset election cycle, publishing the official timeline; candidate lists were filed with the committee on 7-8 September 2026.",
+      "source_url": "https://www.bechirot.gov.il/home/",
+      "raw_snippet": "ציר הזמן לבחירות לכנסת ה-26",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cec-candidate-lists-sept-2026",
+      "claim": "Candidate lists were due to the Central Elections Committee on 7 and 8 September 2026.",
+      "source_url": "https://www.bechirot.gov.il/home/",
+      "raw_snippet": "08/09/2026 הגשת רשימות המועמדים לוועדה המרכזית - יום 2",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hasadna-unmaintained-2018",
+      "claim": "hasadna/knesset-data is unmaintained; its last commit is 29 April 2018.",
+      "source_url": "https://api.github.com/repos/hasadna/knesset-data/commits?per_page=1",
+      "raw_snippet": "\"name\": \"Ori Hoch\",\n        \"email\": \"ori@uumpa.com\",\n        \"date\": \"2018-04-29T08:23:07Z\"",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "local2024-site-retired",
+      "claim": "bechirot.gov.il/local2024/Pages/default.aspx has been retired and now redirects to maintenance.gov.il.",
+      "source_url": "https://www.bechirot.gov.il/local2024/Pages/default.aspx",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "main-knesset-bot-protected-247",
+      "claim": "main.knesset.gov.il answers plain automated requests with a non-standard HTTP 247 and a JavaScript bot-protection interstitial; a headless browser may get the same.",
+      "source_url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx",
+      "raw_snippet": "<script type=\"text/javascript\" src=\"/kramericaindustries.ac_v2.lib.js\"></script>",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "votes25-official-results-site",
+      "claim": "https://votes25.bechirot.gov.il/ is the live official Central Elections Committee results site for the 25th Knesset (2022) election, publishing certified national, per-locality and per-ballot results.",
+      "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "raw_snippet": "ועדת הבחירות המרכזית לכנסת ה-25",
+      "fetched_at": "2026-08-24T18:55:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T18:55:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bill-status-typeid-2-no-125",
+      "claim": "Bill statuses are KNS_Status TypeID 2 (35 rows). 108 = הכנה לקריאה ראשונה, 118 = התקבלה בקריאה שלישית, 177 = נעצרה. There is no status 125. TypeID 5 returns plenum-session statuses (3 rows).",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Status?$filter=TypeID%20eq%202&$top=50",
+      "raw_snippet": "\"Id\":118,\"Desc\":\"התקבלה בקריאה שלישית\",\"TypeID\":2,\"TypeDesc\":\"הצעת חוק\"",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bill-status-108-177",
+      "claim": "Status 108 is הכנה לקריאה ראשונה and status 177 is נעצרה, both TypeID 2.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Status?$filter=TypeID%20eq%202&$top=50",
+      "raw_snippet": "\"Id\":177,\"Desc\":\"נעצרה\",\"TypeID\":2,\"TypeDesc\":\"הצעת חוק\"",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py"
+      ]
+    },
+    {
+      "claim_id": "knessetdates-k26-plenumstart",
+      "claim": "KNS_KnessetDates carries a Knesset 26 row whose PlenumStart is 2026-11-10, the scheduled first sitting.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_KnessetDates?$filter=KnessetNum%20eq%2026",
+      "raw_snippet": "\"KnessetNum\":26,\"Name\":\"העשרים ושש\",\"Assembly\":1,\"Plenum\":1,\"PlenumStart\":\"2026-11-10T00:00:00+02:00\"",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py",
+        "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "knessetdates-iscurrent-plenumfinish-dissolution",
+      "claim": "KNS_KnessetDates?$filter=IsCurrent eq true returns one row, Knesset 25, Assembly 2 Plenum 4, whose PlenumFinish is 2026-07-17. PlenumFinish marks the end of a sitting period, not a dissolution. Fields are PlenumStart/PlenumFinish, not StartDate/FinishDate.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_KnessetDates?$filter=IsCurrent%20eq%20true",
+      "raw_snippet": "\"KnessetNum\":25,\"Name\":\"העשרים וחמש\",\"Assembly\":2,\"Plenum\":4,\"PlenumStart\":\"2025-10-19T00:00:00+03:00\",\"PlenumFinish\":\"2026-07-17T00:00:00+03:00\"",
+      "fetched_at": "2026-08-24T20:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "factionid-null-on-mk-rows",
+      "claim": "FactionID and FactionName are null on PositionID 43/61 rows and populated only on PositionID 54 rows (193 for Knesset 25), so listing MKs by faction requires joining both on PersonID.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PersonToPosition?$filter=KnessetNum%20eq%2025%20and%20PositionID%20eq%2054&$top=1",
+      "raw_snippet": "\"FactionID\":1095,\"FactionName\":\"התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יו",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py",
+        "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "finishdate-null-returns-120-during-dissolution",
+      "claim": "KnessetNum eq 25 and (PositionID eq 43 or 61) and FinishDate eq null returns 120 rows with IsCurrent true weeks after the 17 July 2026 dissolution; the full 43/61 set for Knesset 25 is 166 rows.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PersonToPosition?$filter=KnessetNum%20eq%2025%20and%20(PositionID%20eq%2043%20or%20PositionID%20eq%2061)%20and%20FinishDate%20eq%20null&$expand=KNS_Person($select=LastName,FirstName)&$top=200&$count=true",
+      "raw_snippet": "\"IsCurrent\":true,\"LastUpdatedDate\":\"2022-11-10T11:16:44.73+02:00\",\"KNS_Person\":{\"LastName\":\"דרעי\",\"FirstName\":\"אריה מכלוף\"}",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/query_knesset.py",
+        "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "votes-knesset-17-resources-locality-19-25",
+      "claim": "The votes-knesset package holds 17 resources: per-ballot files for Knessets 16-25 and per-locality files for 19-25 only. Downloads are hosted on aws-e.data.gov.il. Per-locality names are spelled לפי יישובים for 21-25 and לפי ישובים for 19-20.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=votes-knesset",
+      "raw_snippet": "תוצאות האמת של הבחירות לכנסת ה-20 לפי ישובים",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "v4-documentquerie-spelling",
+      "claim": "The v4 service document advertises KNS_DocumentQuerie but that route returns 404; the working route is KNS_DocumentQuery, which answers with a legacy bare JSON array. KNS_DocumentLaw does not exist in v4.",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/$metadata",
+      "raw_snippet": "<EntitySet Name=\"KNS_DocumentQuerie\" EntityType=\"OdataService.DAL.ParliamentInfo.KNS_DocumentQuery\"",
+      "fetched_at": "2026-08-24T20:10:00Z",
+      "appears_in": [
+        "references/knesset-api-entities.md"
+      ]
+    },
+    {
+      "claim_id": "votes25-result-paths",
+      "claim": "The votes25.bechirot.gov.il results site exposes /nationalresults, /cityresults and /ballotresults paths.",
+      "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "raw_snippet": "תוצאות ארציות תוצאות לפי ישובים תוצאות לפי קלפיות",
+      "fetched_at": "2026-08-24T19:40:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T19:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datastore-search-is-the-working-route",
+      "claim": "All votes-knesset resources are datastore_active and datastore_search returns clean UTF-8 JSON keyed by Hebrew column names, with per-party columns as ballot letter symbols.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=b392b8ee-ba45-4ea0-bfed-f03a1a36e99c&limit=1",
+      "raw_snippet": "\"records\": [{\"_id\":1,\"סמל ועדה\":18,\"שם ישוב\":\"אבו גווייעד שבט\"",
+      "fetched_at": "2026-08-24T20:10:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]

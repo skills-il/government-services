@@ -53,7 +53,7 @@ Committees:
 
 Plenum + votes:
 - `KNS_PlenumSession`, plenum sessions.
-- `KNS_PlmSessionItem`, items on plenum agendas. `Ordinal` sorting is broken (known API bug).
+- `KNS_PlmSessionItem`, items on plenum agendas.
 - `KNS_PlenumVote`, **plenum votes (v4-only, exposed publicly)**. One row per vote: `Id`, `VoteDateTime`, `SessionID`, `ItemID`, `Ordinal`, `VoteMethodID`, `VoteMethodDesc`, `VoteStatusCode`, `VoteStatusDesc`, `VoteTitle`, `VoteSubject`, `IsNoConfidenceInGov`, `LastUpdatedDate`, `ForOptionID`, `ForOptionDesc`, `AgainstOptionID`, `AgainstOptionDesc`. **Field is `VoteTitle`, not `ItemTitle`**.
 - `KNS_PlenumVoteResult`, **per-MK vote results (v4-only)**. One row per MK per vote: `Id`, `MkId`, `VoteID`, `VoteDate`, `ResultCode`, `ResultDesc` ("בעד" / "נגד" / "נמנע"), `LastUpdatedDate`, `LastName`, `FirstName`, `SessionID`, `ItemID`. **Field is `MkId`, not `PersonID`. Use `ResultDesc` for the outcome; `ResultCode` integers do not follow a simple 1/2/3 mapping.**
 
@@ -66,12 +66,12 @@ Documents:
 - `KNS_DocumentBill`, bill documents.
 - `KNS_DocumentCommitteeSession`, committee session documents.
 - `KNS_DocumentIsraelLaw`, Israeli law documents.
-- `KNS_DocumentLaw`, Knesset law documents.
+- `KNS_DocumentSecondaryLaw`, secondary-legislation documents. (There is **no** `KNS_DocumentLaw` in v4; that name is v3-only and returns 404.)
 - `KNS_DocumentPlenumSession`, plenum session documents.
-- `KNS_DocumentQuery`, parliamentary query documents.
+- `KNS_DocumentQuery`, parliamentary query documents. **The service document advertises the entity set as `KNS_DocumentQuerie`, but that route returns 404; the working route is `KNS_DocumentQuery`.** Note also that it answers with a bare JSON array using camelCase keys (`id`, `queryID`, `groupTypeDesc`) and no `@odata.context`, i.e. a legacy response shape.
 
 Lookups and metadata:
-- `KNS_KnessetDates`, start and end dates of each Knesset. **Knesset 0 = Provisional State Council** (מועצת המדינה הזמנית, 1948-49).
+- `KNS_KnessetDates`, assembly/plenum session dates. **One row per assembly-plenum period, not one per Knesset.** **Knesset 0 = Provisional State Council** (מועצת המדינה הזמנית, 1948-49).
 - `KNS_GovMinistry`, government ministries (used to resolve `GovMinistryID` -> name).
 - `KNS_Status`, status code lookup (bill statuses, session statuses, etc.).
 - `KNS_ItemType`, item type lookup.
@@ -86,10 +86,12 @@ Lookups and metadata:
 - `Id`, `FirstName`, `LastName`, `GenderID`, `GenderDesc`, `Email`, `LastUpdatedDate`
 
 ### KNS_PersonToPosition
-- `Id`, `PersonID`, `PositionID`, `KnessetNum`, `FactionID`, `FactionName`, `GovernmentNum`, `StartDate`, `FinishDate`
+- `Id`, `PersonID`, `PositionID`, `KnessetNum`, `FactionID`, `FactionName`, `GovernmentNum`, `StartDate`, `FinishDate`, `IsCurrent`, `DutyDesc`, `GovMinistryID`, `GovMinistryName`, `CommitteeID`, `CommitteeName`, `LastUpdatedDate`
+- **`FactionID` / `FactionName` are `null` on PositionID 43/61 rows.** Faction is carried only on the person's PositionID 54 row. Join on `PersonID` within the same `KnessetNum`; filtering 43/61 by `FactionID` returns nothing.
+- **`FinishDate eq null` means "position not formally ended", not "the Knesset is sitting".** During a dissolution it still returns the full outgoing 120 with `IsCurrent` true.
 
 ### KNS_Faction
-- `Id`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`
+- `Id`, `Name`, `KnessetNum`, `StartDate`, `FinishDate`, `IsCurrent`, `LastUpdatedDate`
 
 ### KNS_Bill
 - `Id`, `Name`, `KnessetNum`, `StatusID`, `SubTypeID`, `PublicationDate`, `LastUpdatedDate`
@@ -110,7 +112,10 @@ Lookups and metadata:
 - `Id`, `MkId`, `VoteID`, `VoteDate`, `ResultCode`, `ResultDesc`, `LastUpdatedDate`, `LastName`, `FirstName`, `SessionID`, `ItemID`
 
 ### KNS_KnessetDates
-- `Id`, `KnessetNum`, `Name`, `StartDate`, `FinishDate`, `IsCurrent`. Prefer filtering by `KnessetNum eq <n>` over `IsCurrent eq true` for reliability (the boolean is computed from FinishDate).
+- `Id`, `KnessetNum`, `Name`, `Assembly`, `Plenum`, `PlenumStart`, `PlenumFinish`, `IsCurrent`, `LastUpdatedDate`.
+- **There is no `StartDate` / `FinishDate` on this entity**; using them returns HTTP 400 (`Could not find a property named StartDate`). The date fields are `PlenumStart` / `PlenumFinish`.
+- `IsCurrent eq true` returns exactly one row and is the reliable "where are we now" query. As of August 2026 it returns the Knesset 25 row whose `PlenumFinish` is the 2026-07-17 dissolution.
+- A Knesset that has not convened still gets a row: `KnessetNum eq 26` returns `PlenumStart` 2026-11-10. This is the correct source for "when does the new Knesset convene".
 
 ## Position IDs (PositionID values)
 
@@ -193,7 +198,7 @@ $expand=KNS_Person&$orderby=KNS_Person/LastName
 
 ## Useful Constants
 
-- Current Knesset (2026-05): **25** (sworn in 2022-11-15, next election no later than 2026-10-27).
+- Electoral status (2026-08-24): the **25th** Knesset (sworn in 2022-11-15) dissolved on **2026-07-17** and continues in office under the continuity rule until the 26th convenes. Election **2026-10-27**; 26th Knesset first sitting scheduled **2026-11-10**. Do not hardcode a "current Knesset" number: derive it from `KNS_KnessetDates?$filter=IsCurrent eq true`.
 - Knesset size: 120.
 - Electoral threshold: 3.25% (since 2014).
 - Allocation formula: Bader-Ofer (modified D'Hondt / Hagenbach-Bischoff equivalent).

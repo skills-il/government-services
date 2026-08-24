@@ -8,16 +8,21 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 - v4 filter syntax (`contains`, `in`, ISO 8601 datetimes, no `datetime'...'` wrapper). Source: OData v4 spec at `https://www.odata.org/documentation/`.
 - v3 fallback callout (legacy endpoint at `/Odata/ParliamentInfo.svc/` still up but does not expose vote tables). Source: live API.
 - The two vote entities `KNS_PlenumVote` and `KNS_PlenumVoteResult` with `VoteTitle`, `MkId`, `ResultDesc` fields. Source: live API metadata + sample rows.
-- PositionID lexicon at minimum: 43 (MK male), 61 (MK female), 45 (PM), 39/57 (Minister), 41 (Committee Chair), 42 (Committee Member), 122/123 (Knesset Speaker), 54 (faction member, with the explicit note that 54 ≠ MK role).
-- Bill status codes for the common transitions: 108 (prep for 1st reading), 118 (approved 3rd reading = became law), 125 (rejected). Source: hasadna/knesset-data status_id mapping + live KNS_Status table.
+- PositionID lexicon at minimum: 43 (MK male), 61 (MK female), 45 (PM), 39/57 (Minister), 41 (Committee Chair), 42 (Committee Member), 122/123 (Knesset Speaker), 54 (faction member, with the explicit note that 54 ≠ MK role). **Must state that `FactionID`/`FactionName` are null on 43/61 rows and populated only on 54, so listing MKs by faction requires joining both on `PersonID`.** Source: live API (verified 2026-08-24).
+- Bill status codes for the common transitions: 108 (prep for 1st reading), 118 (approved 3rd reading = became law), 177 (halted). **Bill statuses are `TypeID eq 2` (35 rows); `TypeID eq 5` is plenum sessions. There is no status 125 and no single "rejected" status.** Source: live `KNS_Status?$filter=TypeID eq 2` (verified 2026-08-24).
 - Electoral threshold = 3.25% since the March 2014 amendment (was 2% before). Source: Knesset Lexicon, IDI.
 - Knesset size = 120 (unchanged since 1949). Source: Basic Law: The Knesset §3.
 - Seat allocation = Bader-Ofer (modified D'Hondt). Source: Knesset Lexicon.
 - 2022 election (25th Knesset) seat distribution. Source: Wikipedia 2022 Israeli legislative election, cross-confirmed with IDI.
-- data.gov.il `votes-knesset` dataset for per-locality / per-ballot CSVs (Knessets 16-25). Source: data.gov.il CKAN package_show.
+- data.gov.il `votes-knesset` dataset: 17 resources, per-ballot for Knessets 16-25 and per-locality for 19-25 only. **Retrieval must use CKAN `datastore_search`**; the `aws-e.data.gov.il` CSV download sits behind a Google-OAuth gate and silently returns a sign-in page. Per-party columns are ballot letter symbols, not party names. Source: data.gov.il CKAN package_show + datastore_search (verified 2026-08-24).
 - 2024 municipal elections summary (Feb 27 + March 10 second round + Nov 2024 evacuated-localities round; no national turnout percentage is asserted, the IDI analysis publishes it only as a chart). Source: IDI 2024 local elections analysis, Knesset RIC fact sheet.
 - `votes.gov.il` is dead; canonical Central Elections Committee site is `bechirot.gov.il`. Source: direct DNS probe.
-- Hebrew-encoding caveat for older `votes-knesset` CSVs (Windows-1255 for Knessets 16-20, UTF-8 with BOM for 21+). Source: empirical observation.
+- **`KNS_KnessetDates` as the calendar entity**: field names `PlenumStart`/`PlenumFinish` (not `StartDate`/`FinishDate`, which return HTTP 400), one row per assembly-plenum, `IsCurrent eq true` for "where are we now", and a row existing for a Knesset that has not yet convened. Source: live API.
+- **The continuity rule**: the outgoing Knesset stays in office until the incoming one convenes, which is why `FinishDate eq null` returns the full outgoing 120 during a dissolution. Source: Basic Law: The Knesset.
+- **Current electoral-calendar status.** Which Knesset is sitting, whether the Knesset is dissolved, whether a government is a caretaker government, and the date of the next scheduled election. A data skill that answers "the current coalition" from a stale election-night table is wrong in exactly the way users notice. Re-verify on every update cycle. Source: `https://www.bechirot.gov.il/` official cycle timeline; Wikipedia/IDI for the dissolution and election date.
+- **The gap between an election-night seat table and a Knesset's live faction list.** Factions split, merge and rename mid-term, so `KNS_Faction` diverges from the election result. Source: live API vs. the 2022 result table.
+- **Per-cycle Central Elections Committee result subdomains** (`votes25.bechirot.gov.il` and siblings) carry the certified national / per-locality / per-ballot results, and retired per-cycle sites redirect to `maintenance.gov.il`. Source: direct probe.
+- Hebrew-encoding caveat for `votes-knesset` CSVs: the publisher does not document which file uses which encoding, so the agent must DETECT per file (`chardet`, then try `utf-8-sig` and `cp1255`). Do not assert a per-Knesset encoding mapping; the previously stated 16-20 / 21+ split was never sourced.
 
 ## Should cover (advanced)
 
@@ -28,12 +33,11 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 - `$expand` syntax with nested ordering and nested filters (for bill -> initiators, vote -> session, etc.). Source: OData v4 spec.
 - Pagination via `@odata.nextLink` and the `$count=true` + `$top=0` count-only pattern. Source: OData v4 spec.
 - `KNS_CommitteeSession.StatusID = 193` cancelled-session filter. Source: live API.
-- `KNS_PlmSessionItem.Ordinal` sorting is broken (known API bug). Source: hasadna/knesset-data community notes.
 - Knesset 0 = Provisional State Council; data quality improves from Knesset 17+. Source: Knesset databases portal.
 - Government composition queries via `KNS_PersonToPosition` with `PositionID eq 39/57/45`. Source: live API.
-- Coalition agreements at `gov.il/he/Departments/policies` and PMO publications. Source: gov.il navigation.
+- Coalition agreements: tabled with the Knesset and published by the PMO. **`gov.il/he/Departments/policies` is NOT a coalition-agreement index**, it 302s to a generic all-ministry procedures collector. Source: direct probe 2026-08-24.
 - Party financing reports at `mevaker.gov.il`. Source: State Comptroller site.
-- Voter registration check at `gov.il/he/service/check_voter_registration`. Source: Ministry of Interior site.
+- Voter-roll check and correction deadlines. Navigate from the Central Elections Committee cycle timeline at `bechirot.gov.il`; the Ministry of Interior operates the online check but its deep link moves between cycles, so do not hardcode one. Source: CEC cycle timeline.
 - Surplus-vote agreements (`heskemei odafim`) mechanic. Source: Times of Israel "How Bader-Ofer Really Works", Knesset Lexicon.
 
 ## Out of scope (explicit)
@@ -42,7 +46,7 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 - Non-Israeli elections. Different system, different sources.
 - Pre-1949 elections (the State of Israel did not exist).
 - Knesset member personal opinions, social-media content, or private statements. Skill covers official records only.
-- Real-time results during election night, the official feeds are operational only after the Central Elections Committee certifies counts.
+- Real-time results during election night, the official feeds are operational only after the Central Elections Committee certifies counts. **Re-litigated 2026-08-24 and kept out of scope:** the skill is now inside a live election cycle (election 27 October 2026), so this row was re-examined. It stays out of scope because no official machine-readable live feed exists before certification; the skill instead tells the agent that 26th-Knesset data does not exist yet, which is the answerable form of the question.
 - Litigation around election integrity (Bagatz petitions, etc.). Adjacent and important but handled by Bagatz/legal-research skills, not this one.
 - Coalition negotiation drafts or unofficial leaks, only published agreements live here.
 
@@ -53,7 +57,9 @@ Coverage anchor for the expert-review pipeline. The skill should be evaluated ag
 - `https://knesset.gov.il/OdataV4/ParliamentInfo/` (Knesset OData v4 service root)
 - `https://main.knesset.gov.il/EN/About/Lexicon/Pages/seats.aspx` (Bader-Ofer, threshold, seat math)
 - `https://data.gov.il/api/3/action/package_show?id=votes-knesset` (Central Elections Committee CSVs, CKAN API)
-- `https://www.bechirot.gov.il/` (Central Elections Committee live site)
+- `https://www.bechirot.gov.il/` (Central Elections Committee live site, 26th Knesset cycle timeline)
+- `https://votes25.bechirot.gov.il/nationalresults` (certified 25th Knesset results)
+- `https://en.wikipedia.org/wiki/2026_Israeli_legislative_election` (dissolution date, scheduled election date)
 - `https://en.idi.org.il/` (Israel Democracy Institute, post-election analysis)
 - `https://github.com/hasadna/knesset-data` (community ETL of internal Knesset DBs)
 - `https://www.odata.org/documentation/` (OData v4 spec)
