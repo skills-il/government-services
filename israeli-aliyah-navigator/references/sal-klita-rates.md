@@ -1,6 +1,6 @@
 # Sal Klita rate tables (2026)
 
-Transcribed verbatim from the Ministry of Aliyah and Integration, "סל קליטה": https://www.gov.il/he/pages/absorption_basket (page updated 11.06.2026). Do not index or estimate these amounts; re-read the page when the year changes.
+Transcribed verbatim from the Ministry of Aliyah and Integration, "סל קליטה": https://www.gov.il/he/pages/absorption_basket (page updated 27.07.2026). Do not index or estimate these amounts; re-read the page when the year changes.
 
 Every track has the same three parts: a payment loaded onto a prepaid card at Ben Gurion, a one-time bank top-up (השלמה לחשבון בנק) into the Israeli account, and SIX monthly instalments. There is no seventh payment.
 
@@ -50,9 +50,12 @@ Two of the ministry's own totals are a few shekels off their component sum (the 
 
 ## Rules that travel with the amounts
 
+- **Presence test:** no more than 24 months in Israel, consecutive or cumulative, in the 3 years before receiving oleh status. Ezrach Oleh and Katin Chozer applicants meeting the same rules are also entitled.
 - Eligibility window: register within one year of receiving oleh status.
 - The basket is NOT income-tested.
 - Leaving the country stops the payments; they resume only if you return within the first aliyah year.
 - The bank top-up needs an Israeli account, and a couple must open a JOINT account and give the details to the ministry.
 - After month 6 the oleh is checked for income support (havtachat hachnasa), not a further basket payment.
 - Rent assistance is a SEPARATE benefit and is not part of these totals.
+- The six instalments are paid as living costs (דמי מחיה) for the ulpan period.
+- The ministry publishes its own eligibility calculator on the same page; prefer it to an estimate. An overpayment is recovered via a promissory note (הסדרת חוב) issued by the oleh's personal adviser.

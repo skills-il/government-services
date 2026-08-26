@@ -35,7 +35,7 @@ Typical timeline: 1-2 years for physicians; shorter for nurses if Hebrew is alre
 - Exam administered by the Council of CPAs (moetzet roei cheshbon)
 - Some subjects may be exempted based on prior qualifications
 - Must demonstrate proficiency in Israeli tax law and accounting standards
-- **"New Oleh Accountant" license:** available for olim with 2+ years professional experience abroad. Streamlined process with reduced exam requirements; verify current eligibility with the Council.
+- **"New Oleh Accountant" license:** a streamlined track with reduced exam requirements exists for olim with prior professional experience abroad. The exact experience threshold is not published in a source we could verify, so do not quote a number: confirm the current eligibility rule with the Council of CPAs.
 
 ## Teaching
 
@@ -70,5 +70,5 @@ Typical timeline: 1-2 years for physicians; shorter for nurses if Hebrew is alre
 | Medical (physician, dentist, nurse, pharmacist, psychologist) | Misrad HaBriut (Ministry of Health) | 1-2 years for physicians (credential review + Hebrew exam + stazh) |
 | Engineering | MAHAT or the relevant engineering union | Months; pre-approval from abroad possible |
 | Law | Israel Bar Association | 2-3 years (Hebrew bar exam + stazh) |
-| Accounting | Council of CPAs (moetzet roei cheshbon) | Months; "New Oleh Accountant" streamlined track for 2+ years experience |
+| Accounting | Council of CPAs (moetzet roei cheshbon) | Months; "New Oleh Accountant" streamlined track for olim with prior experience (threshold unpublished, confirm with the Council) |
 | Teaching | Misrad HaChinuch (Ministry of Education) | Months; Hebrew at Ulpan Bet+ required |

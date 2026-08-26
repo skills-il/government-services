@@ -103,7 +103,7 @@ Regular IDF service and post-secondary study do NOT count toward the 54 months: 
 
 ### Total Benefit
 
-Full use of the post-2022 ladder is worth about NIS 24,700 of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242, at the 2026 credit-point value). The legacy 42-month ladder is worth about NIS 21,800. These oleh points are on top of the 2.25 resident points.
+Full use of the post-2022 ladder is worth about NIS 24,700 of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242, at the 2026 credit-point value). The legacy 42-month ladder is worth about NIS 21,800. These oleh points are on top of the resident credit points: 2.25 for a resident, and 2.75 for a woman resident, since every woman gets half a point more. Never present 2.25 as the base for a female oleh.
 
 ## Customs and Import Benefits
 
@@ -148,14 +148,18 @@ Olim buying a single residential home in Israel get a reduced mas rechisha (purc
 | 1,978,745 - 2,347,040 | 3.5% | 0.5% |
 | 2,347,040 - 6,055,070 | 5% | 0.5% |
 | 6,055,070 - 20,183,565 | 8% | 8% |
-| 20,183,565+ | 10% | 10% |
 
-The reform lowered the whole 1,978,745 to 6,055,070 band to 0.5% for olim (the older track charged 5% on the part above 2,347,040). The tax is tiered: each rate applies only to the portion of the price inside its band, not to the entire value.
+**There is no oleh bracket above 20,183,565 NIS.** The oleh single-home track applies only where the price does NOT exceed that figure; above it the oleh benefit is unavailable and the purchase is taxed on the ordinary track (10% on the top band). An earlier version of this file showed a "20,183,565+ / 10%" oleh row, which wrongly implied the benefit continued.
+
+**Second track (business premises):** 0.5% up to 1,988,090 NIS and 5% above it. Olim who made aliyah BEFORE 15.08.2024 may elect this track for a DWELLING as well, including one that is not their only dwelling, and with no price ceiling.
+
+
+The reform lowered the whole 1,978,745 to 6,055,070 band to 0.5% for olim. The older track (still electable by anyone who made aliyah before 15.08.2024) charges 0.5% only up to 1,988,090 and 5% on everything above that. The tax is tiered: each rate applies only to the portion of the price inside its band, not to the entire value.
 
 ### Eligibility
 
 - Granted once only, and only for a single residential home (not an investment apartment)
-- Eligibility window: from one year before aliyah to seven years after the aliyah date
+- Eligibility window: from one year before aliyah to seven years after the aliyah date (3 years before, for a purchase off-plan). Regular IDF or national service does not count toward the seven years. The benefit can be used once for a dwelling and once for business premises.
 - The reformed track no longer requires the home to be the oleh's actual residence
 - Exact thresholds are updated periodically by the Israel Tax Authority; verify before relying on them
 
@@ -248,8 +252,8 @@ A new tax incentive grants olim and toshavim chozrim vatikim who establish Israe
 | 2029 | up to NIS 350,000 |
 | 2030 | up to NIS 150,000 |
 
-- **Related-party cap:** when working for a related party (own company, family business), the exemption is capped at NIS 140,000 per year for all years 2026-2030.
-- **75-day residency requirement:** eligibility is lost if you spend fewer than 75 days in Israel during 2028 or 2029, or cease being an Israeli tax resident in those years.
+- **Related-party cap:** when working for a related party (own company, family business), the exemption is capped at NIS 140,000 per year. The ministry's page states the cap without a year range; do not assert that it runs through 2030 (secondary sources put it at 2026 to 2029). Confirm the applicable years with a tax adviser before relying on a specific one.
+- **Anti-abuse clause, two CUMULATIVE limbs:** eligibility is lost only by someone who BOTH ceases to be an Israeli resident during 2028 or 2029 AND spends fewer than 75 days in Israel in those years. The statute joins the limbs with "and", not "or", so an oleh who merely travelled a lot but stayed resident keeps the benefit.
 - **Earned income only:** rental, interest, dividends do NOT qualify. The standard Section 14 ten-year foreign-income exemption remains intact.
 - Olim arriving outside the November 5, 2025 - December 31, 2026 window do NOT receive this incentive, only the standard Section 14 benefits.
 

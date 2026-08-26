@@ -27,15 +27,25 @@ PROFESSIONS = ["medical", "engineering", "law", "accounting", "teaching",
 # Countries with Nefesh B'Nefesh support
 NBN_COUNTRIES = {"usa", "canada", "uk"}
 
-# Countries with recognized driver's licenses (experience-based system)
-# With 5+ years experience from these countries: no test needed
-# With 2-5 years: short practical test only
-# Less than 2 years: full testing
-RECOGNIZED_LICENSE_COUNTRIES = {"usa", "canada", "uk", "france", "australia",
-                                "germany", "italy", "spain", "netherlands", "belgium",
-                                "sweden", "norway", "denmark", "finland", "austria",
-                                "switzerland", "ireland", "portugal", "greece",
-                                "south-africa", "russia", "ukraine"}
+# Driver's licence conversion does NOT depend on the country of issue. That
+# system was replaced in August 2017 by an experience-based rule, so this script
+# deliberately keeps no country list: an oleh from Ethiopia or Brazil with 8
+# years' seniority has exactly the same entitlement as one from the USA.
+#
+# The rule (kolzchut "המרת רישיון נהיגה זר לרישיון נהיגה ישראלי"):
+#   5+ years on the foreign licence AND target category 1/A/A1/A2/B
+#       -> administrative conversion, no test
+#   under 5 years, or any other category
+#       -> full practical driving test (test). Theory only after failing twice.
+#   under 2 years
+#       -> also classified nahag chadash (new driver)
+# The conversion window is 5 years in Israel. Separately, the foreign licence
+# may be used to drive for 1 year from the date of entry. Two different clocks.
+LICENSE_RULE = (
+    "conversion depends on YEARS OF EXPERIENCE and licence category, not on "
+    "country of issue; 5+ years and category 1/A/A1/A2/B = no test, "
+    "otherwise a full practical test"
+)
 
 
 def get_pre_arrival_checklist(family: str, country: str, profession: str) -> list:
@@ -44,7 +54,7 @@ def get_pre_arrival_checklist(family: str, country: str, profession: str) -> lis
         ("HIGH", "Open file with Jewish Agency (Sochnut)"),
         ("HIGH", "Schedule appointment at Israeli consulate"),
         ("HIGH", "Gather proof of Jewish identity documents"),
-        ("HIGH", "Ensure passport is valid for 6+ months"),
+        ("HIGH", "Ensure passport has at least 2 years of validity left"),
         ("HIGH", "Obtain police clearance from country of origin"),
         ("HIGH", "Get apostille on professional diplomas and transcripts"),
         ("MED", "Obtain certified translations of key documents (Hebrew or English)"),
@@ -97,7 +107,7 @@ def get_first_week_checklist(family: str, country: str, profession: str) -> list
     """Generate first-week tasks."""
     tasks = [
         ("HIGH", "At Ben Gurion: Visit Misrad HaKlita desk, receive Teudat Oleh"),
-        ("HIGH", "Collect initial sal klita cash payment at airport"),
+        ("HIGH", "Collect the first sal klita payment at the airport (a prepaid card; the cash component is larger during strikes, chagim and emergencies)"),
         ("HIGH", "Get free SIM card at airport"),
         ("HIGH", "Register at Misrad HaPnim (Interior Ministry) for Teudat Zehut"),
         ("HIGH", "Open Israeli bank account (Leumi, Hapoalim, Discount, or Mizrahi)"),
@@ -126,7 +136,7 @@ def get_first_month_checklist(family: str, country: str, profession: str) -> lis
     tasks = [
         ("HIGH", "Begin Ulpan classes"),
         ("HIGH", "Set up standing orders (horaot keva) for rent and utilities"),
-        ("HIGH", "Apply for arnona discount at municipality (up to 90% for olim)"),
+        ("HIGH", "Apply for arnona discount at municipality (up to 90% on 100 sq m, for 12 of the first 24 months)"),
         ("MED", "Verify sal klita payments are arriving in bank account"),
         ("MED", "Explore employment options or register with Misrad HaKlita employment counseling"),
         ("MED", "Get familiar with public transportation (Rav-Kav card)"),
@@ -140,12 +150,10 @@ def get_first_month_checklist(family: str, country: str, profession: str) -> lis
         tasks.append(("MED", "Begin any required Israeli professional exams preparation"))
 
     # Driver's license tasks
-    if country.lower() in RECOGNIZED_LICENSE_COUNTRIES:
-        tasks.append(("MED", "Begin driver's license conversion (5+ years experience = no test needed)"))
-        tasks.append(("MED", "Get medical fitness certificate for license conversion"))
-    else:
-        tasks.append(("MED", "Begin driver's license conversion process (may require tests)"))
-        tasks.append(("MED", "Get medical fitness certificate for license conversion"))
+    tasks.append(("MED", "Begin driver's licence conversion: with 5+ years on the "
+                         "foreign licence AND category 1/A/A1/A2/B it is administrative, "
+                         "otherwise book the full practical test"))
+    tasks.append(("MED", "Get medical fitness certificate for licence conversion"))
 
     if family == "family":
         tasks.append(("MED", "Ensure children are settling into school/gan"))
@@ -157,8 +165,8 @@ def get_first_month_checklist(family: str, country: str, profession: str) -> lis
 def get_first_year_checklist(family: str, country: str, profession: str) -> list:
     """Generate first-year tasks."""
     tasks = [
-        ("HIGH", "Complete Ulpan Aleph (500 hours)"),
-        ("HIGH", "Complete driver's license conversion (before 1-year deadline)"),
+        ("HIGH", "Complete Ulpan Aleph (420-450 funded hours)"),
+        ("HIGH", "Convert the driving licence (window is 5 YEARS in Israel; the separate 1-year clock is how long you may keep DRIVING on the foreign licence, counted from date of entry)"),
         ("HIGH", "File annual tax return if income exceeds threshold"),
         ("MED", "Consider Ulpan Bet for continued Hebrew improvement"),
         ("MED", "Evaluate housing: renew lease or consider buying"),
@@ -312,10 +320,7 @@ Professions: medical, engineering, law, accounting, teaching, tech, trades,
     if args.country in NBN_COUNTRIES:
         print(f"  Note: Nefesh B'Nefesh support available for {args.country.upper()} olim")
 
-    if args.country.lower() in RECOGNIZED_LICENSE_COUNTRIES:
-        print(f"  License: Recognized country (5+ years exp = no test, 2-5 years = practical only)")
-    else:
-        print(f"  License: May require testing (depends on driving experience)")
+    print(f"  Licence: {LICENSE_RULE}")
 
     if args.all_stages:
         for stage in STAGES:

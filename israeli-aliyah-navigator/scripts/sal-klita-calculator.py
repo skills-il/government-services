@@ -3,7 +3,7 @@
 Sal Klita (absorption basket) calculator, 2026 rates.
 
 Source of every number below: Ministry of Aliyah and Integration, "סל קליטה"
-(https://www.gov.il/he/pages/absorption_basket), page updated 11.06.2026,
+(https://www.gov.il/he/pages/absorption_basket), page updated 27.07.2026,
 tables "לוח סיוע כספי בסל הקליטה" (three tracks) and "לוח תוספות לסל קליטה".
 The tables are transcribed verbatim. Do NOT interpolate, index, or "estimate"
 these amounts: if the year changes, re-read the page and replace the table.
@@ -35,7 +35,7 @@ import argparse
 import sys
 
 YEAR = 2026
-SOURCE = "https://www.gov.il/he/pages/absorption_basket (updated 11.06.2026)"
+SOURCE = "https://www.gov.il/he/pages/absorption_basket (updated 27.07.2026)"
 
 # track -> status -> (airport, bank_top_up, monthly, published_total)
 BASKET = {
@@ -146,12 +146,22 @@ def report(r: dict) -> None:
     print(f"  TOTAL over the 6-month basket:        {r['total']:,} NIS")
     print()
     print("Notes:")
-    print("  * There is NO 7th payment. After month 6, check eligibility for income")
-    print("    support (havtachat hachnasa) instead.")
+    print("  * There is NO 7th payment for anyone. Month 7 is where the post-basket")
+    print("    entitlements begin (rent assistance, havtachat kiyum), not another")
+    print("    instalment.")
     print("  * The bank top-up requires an Israeli account (a JOINT account for a couple);")
     print("    give the account details to Misrad HaAliyah VeHaKlita.")
     print("  * The basket is NOT income-tested.")
     print("  * Register within one year of receiving oleh status.")
+    print("  * This covers the SIX-MONTH basket only. Rent assistance (from month 7),")
+    print("    havtachat kiyum, the special old-age pension and the daycare subsidy")
+    print("    are separate and are NOT in this total. See")
+    print("    references/post-basket-entitlements.md.")
+    print("  * A child crossing a band (4 or 18) during the six months is not")
+    print("    modelled here; check the month the band changes.")
+    print("  * Aliyah BeNifrad (family arriving at different times within a year) is")
+    print("    not modelled: the basket is per FAMILY unit and later arrivals receive")
+    print("    only the remainder.")
     print("  * Leaving Israel STOPS the payments; they resume only if you return within")
     print("    the first aliyah year.")
     print("  * The track is set by the STATUTORY retirement age, not by age 65.")
@@ -190,7 +200,30 @@ def main() -> int:
         report(calculate("couple", "standard", [3, 9], None))
         return 0
 
-    ages = [int(x) for x in a.child_ages.split(",") if x.strip()]
+    ages = []
+    for raw in a.child_ages.split(","):
+        raw = raw.strip()
+        if not raw:
+            continue
+        try:
+            age = int(raw)
+        except ValueError:
+            p.error(
+                f"--child-ages expects whole years separated by commas; got {raw!r}. "
+                "Use digits only (for example: 3,9,17)."
+            )
+        if age < 0:
+            p.error(f"--child-ages got a negative age ({age}). Ages start at 0.")
+        ages.append(age)
+
+    if ages and a.status == "single":
+        p.error(
+            "--status single with --child-ages: a lone adult with a child is a "
+            "single-parent household (הורה עצמאי) and belongs on the "
+            "'single-parent' track, which pays a different and substantially "
+            "larger basket. Re-run with --status single-parent, or drop "
+            "--child-ages if the children are not in the household."
+        )
     report(calculate(a.status, a.track, ages, a.household_size))
     return 0
 
