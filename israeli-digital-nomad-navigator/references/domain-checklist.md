@@ -9,8 +9,8 @@ Scope: Israeli citizens going digital-nomad abroad while keeping an Israeli foot
 - **Social-security totalization:** the 20-country + Canada bilateral list, US excluded, Certificate of Coverage procedure. Source: btl.gov.il.
 - **Employee-branch compliance:** working-from-abroad contract addendum, permanent-establishment risk, Section 14 severance / keren hishtalmut / pension continuity, Employer-of-Record freeze.
 - **Freelancer-branch compliance:** VAT Section 30(a)(5) export-of-services zero-rate (3 conditions), periodic VAT Form 836, W-8BEN for US clients.
-- **Healthcare continuity:** kupat cholim does not cover care abroad (Section 58 waiting period on return, 2 months/year capped at 6), separate health-tax contribution, the 5-year BTL residency presumption, and the travel-vs-nomad insurance work-coverage trap.
-- **Annual cycle:** Form 1301 + 1322 + 1325, foreign tax credit (Sections 199-210), Form 5329 foreign-asset disclosure (Section 131A) covering Wise/Revolut/Payoneer, correct current-year deadline (30 June online / 29 May paper for TY2025).
+- **Healthcare continuity:** kupat cholim does not cover care abroad. Waiting period on return is triggered ONLY by 18+ consecutive months abroad AND 12+ months of unpaid health contributions (or loss of resident status); length is one month per year of absence, min 2 max 6. BTL minimum contribution NIS 266/month and the NIS 16,860 redemption payment (both as of 1.1.2026). Also the travel-vs-nomad insurance work-coverage trap.
+- **Annual cycle:** Form 1301 + 1322 + 1325, foreign tax credit (Sections 199-210), Form 5329 foreign-asset disclosure (Section 131A) covering Wise/Revolut/Payoneer, and the current year's deadline read off the ITA notice rather than quoted from memory.
 - **2026 reporting reform (Amendment 272):** abolition of the 10-year reporting exemption for residents from 1 Jan 2026 (substantive exemption stays; pre-2026 olim keep the window).
 - **Section 100A exit tax** for residency cuts, and the **2026 returnee tax window** (30 March 2026 law, arrivals 5 Nov 2025 to 31 Dec 2026).
 
@@ -32,5 +32,5 @@ Scope: Israeli citizens going digital-nomad abroad while keeping an Israeli foot
 
 ## Authoritative sources
 
-- Income Tax Ordinance: residency definition, Sections 14, 100A, 100A(b1), 131A, 196, 199-210; Severance Pay Law 5723-1963 Section 14; VAT Law Section 30(a)(5); National Health Insurance Law Section 58 + Health Regulations 5755-1995; Amendment 272 (2026 reporting reform); 30 March 2026 returnee-incentive law.
+- Income Tax Ordinance: residency definition, Sections 14, 100A (subsections (a)-(e) only, there is NO 100A(b1)), 131A, 196, 199-210; Severance Pay Law 5723-1963 Section 14; VAT Law Section 30(a)(5); National Health Insurance Law + Health Regulations 5755-1995 (the waiting-period section number is unverified, do not cite one); Amendment 272 (2026 reporting reform); 30 March 2026 returnee-incentive law.
 - btl.gov.il (totalization list, health insurance, residency presumption); gov.il / mas.gov.il (forms, deadlines, Form 5329); boi.org.il (representative rates); destination-country official immigration sites; OECD/EU ETIAS portal.

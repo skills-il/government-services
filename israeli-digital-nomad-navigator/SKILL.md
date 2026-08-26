@@ -38,21 +38,16 @@ Once these are known, branch on employment shape. Israeli-payroll employees and 
 
 Israeli passport holders can access most digital-nomad visa programs; the right pick balances income proof against stay length and tax exposure.
 
-**Verified 2026 options for Israeli passport holders** (full per-country detail in `references/visa-by-country-2026.md`):
+**2026 candidate routes for Israeli passport holders.** Only the Croatian row is sourced to the issuing authority; the rest come from law-firm and agency write-ups and move with local minimum wages. Treat every figure as a starting point to confirm, not the requirement (detail in `references/visa-by-country-2026.md`):
 
 | Country | Program | Monthly income proof (2026) | Validity |
 |---|---|---|---|
-| Thailand | DTV | ฿500,000 liquid funds for last 3 months + 6 months salary slips; 350 EUR fee at Tel Aviv embassy | 5-year multi-entry, 180 days per entry |
-| Spain | DNV | €2,849/month (200% of 2026 SMI) | 1-yr abroad / 3-yr from inside |
-| Portugal | D8 | €3,680/month + €11,040 savings (12× min wage) | 1-yr or 2-yr renewable for 3 |
-| Estonia | Type D Digital Nomad | €4,500/month gross | 1 year |
-| Croatia | Digital Nomad Residence | €3,622.50/month (raised early 2026), foreign income exempt from Croatian tax | Up to 18 months, non-renewable consecutively |
-| Czech Republic | Zivno | Trade license + ~€5,500 funds | 1 year, renewable |
-| Mexico | Residente Temporal | ~$4,300/month for prior 6 months OR ~$74,000 savings | 1-year, renewable up to 4 total |
-| Costa Rica | Estancia para Trabajadores Remotos (the digital-nomad visa, distinct from the separate Rentista visa) | $3,000/month individual or $4,000/month family | 2 years, 180-day presence to renew |
-| Georgia | Remotely from Georgia | $2,000/month or $24,000 savings; from 1 Mar 2026 paid work requires Right-to-Labour-Activity permit | 365-day visa-free + permit |
-| UAE | Dubai Virtual Working Programme | $5,000/month + foreign employer (raised Apr 2026 from $3,500) | 1 year, renewable |
-| Indonesia (Bali) | **BARRED** for Israelis: Israel is on Indonesia's explicit E33G remote-worker exclusion list; other routes need Jakarta calling-visa pre-approval that is not granted | n/a | n/a |
+| Thailand | DTV | Spain | DNV (200% of SMI) | Portugal | D8 | Estonia | Type D | Croatia | Digital Nomad Residence |
+| Czech Republic | Zivno | Mexico | Residente Temporal | Costa Rica | Estancia para Trabajadores Remotos | Georgia | Remotely from Georgia | UAE | Dubai Virtual Working |
+
+**Per-country income thresholds, fees, validity and Israeli-embassy notes are in `references/visa-by-country-2026.md`.** Read them from there rather than from memory, and confirm each figure with the issuing authority before the user commits money or dates.
+
+**Indonesia (Bali): treat as unavailable on an Israeli passport.** No diplomatic relations, and Israeli applications go to Jakarta-level "calling visa" pre-approval that is not granted in practice. We could not source a published exclusion list naming Israel, so do not claim one exists.
 
 **Decision rule of thumb:**
 - Income too low for Spain/Portugal → Thailand DTV, Mexico Temporal, Georgia (Bali is barred).
@@ -79,11 +74,15 @@ If income comes via an Israeli employer, the employer carries half the complianc
 
 Without this addendum, the employee's protections under Israeli labor law are still attached (Israeli employment contracts follow the employee), but enforceability in disputes around days-abroad and equipment is weak.
 
-**Permanent-establishment risk:** If the employee stays in one country long enough, the foreign jurisdiction can deem the Israeli employer to have a "permanent establishment" (PE) there and demand corporate tax + payroll registration. The 183-day threshold is the most common trigger but several countries are stricter (Spain treats client-facing activity as PE-creating from day 1). Practical guardrails:
+**183 days matters TWICE, for two different taxpayers.**
+
+**(a) The EMPLOYER's exposure (permanent establishment):** the foreign jurisdiction can deem the Israeli employer to have a PE there and demand corporate tax + payroll registration. 183 days is the usual trigger; some countries are stricter (Spain treats client-facing activity as PE-creating from day 1). Guardrails:
 - Track total days per country with calendar evidence.
 - No client meetings in the foreign country, no signing authority used there.
 - Do not rent commercial office space in the employer's name.
 - Avoid building a local team or hiring contractors abroad.
+
+**(b) The EMPLOYEE's exposure (their own wages):** under the dependent-personal-services article of Israel's treaties, employment income is taxable where the work is PERFORMED once the threshold is crossed, whoever pays it. That can create a host-country personal filing and a matching Israeli foreign tax credit (Step 9). Never conclude "no foreign income to report, it all comes from the Israeli employer" from the payer alone.
 
 **Bituach Leumi on Israeli payroll abroad:** continues via standard payroll deduction. If the destination is on the totalization list (Step 4), file the Israeli **Certificate of Coverage** (Israeli bilateral equivalent of EU Form A1; Israel is not in EU Regulation 883/2004) with BTL to exempt the same income from the host country's social-security charges. Note: paying bituach leumi keeps kupat cholim MEMBERSHIP active but does NOT extend coverage geographically - see Step 6.
 
@@ -131,9 +130,19 @@ Two distinct rules - keep them separate:
 
 **Rule 1 (geographic): Kupat cholim does NOT cover medical care abroad.** Standard sal briut coverage ends when you board the plane, regardless of bituach leumi payment. Narrow carve-out (National Health Insurance Law + Health Regulations 5755-1995) covers only specific cases where treatment is unavailable in Israel (organ transplants, certain congenital conditions, specific tumors, cardiovascular/neurocerebral diseases) - pre-approval required. A nomad who breaks a leg in Bangkok with active membership is NOT covered. **Buy separate insurance for medical care abroad - see policy options below.**
 
-**Rule 2 (membership/continuity):** Sec. 58 of חוק ביטוח בריאות ממלכתי sets a "תקופת המתנה" on return after a continuous absence of 2+ years: 2 months per year abroad, capped at 6 months. Continuous bituach leumi payment alone does NOT eliminate this - דמי ביטוח בריאות is a separate contribution category, and reactivation paperwork on return is required. The kupot cholim charge **דמי ויתור** to keep supplementary tiers (Mushlam, Sheli, Si, Gold) active. To minimize waiting-period risk: stay an Israeli resident, pay both bituach leumi + health-insurance components via standing order, notify the kupah of the foreign address, pay dmei vitoor on supplementary tiers, file reactivation forms within 30 days of return. Verify current minimum-payment figures on the BTL self-service portal - they change annually.
+**Rule 2 (waiting period on return, תקופת המתנה):** get this exactly right, because paying is what prevents it. Bituach Leumi states the trigger is conjunctive: "If you have lived abroad for **18 consecutive months or more, and did not pay health insurance contributions for at least 12 months**, or if you lost your status of Israeli resident". So a nomad who keeps paying health contributions does NOT accrue a waiting period, however long they are away. Length, if it is triggered: "For every year of absence from Israel, you will be subject to a waiting period of **one month**, being precised that the minimum waiting period is two months and the maximum waiting period six months" (a year of absence = 12 months in which at least 182 days were spent abroad).
 
-**Bituach Leumi 5-year residency presumption:** BTL treats you as Israeli resident for the first 5 years abroad by default; after 5 years you must affirmatively prove the stay is still temporary or BTL reclassifies you as non-resident. Anyone planning a continuous 5+ year stretch should check in with BTL near year 4. Also file the "הודעה על שהייה בחו״ל" form when leaving for a long stretch, or contributions accrue without health entitlement.
+**The numbers a nomad actually needs (BTL, as of 1 January 2026):**
+
+| Item | Amount |
+|---|---|
+| Minimum monthly insurance contribution for a person abroad without income | **NIS 266/month** |
+| Special payment to redeem an already-accrued waiting period | **NIS 16,860**, payable in one payment or up to 6 equal installments |
+| Resident insured in a convention country and paying there | Owes **health-insurance contributions alone** |
+
+So the whole waiting-period problem is avoidable for NIS 266 a month. To minimize risk: stay an Israeli resident, pay via standing order, notify the kupah of the foreign address, keep supplementary-tier membership current with the kupah under its own rules, and file reactivation paperwork on return. Re-check the figures on the BTL portal, they are updated annually.
+
+**BTL residency review on a long stay:** BTL decides residency on its own centre-of-life criteria ("Israel is your permanent place of residence, where your family resides, where your children go to school, your primary place of work, or where you are studying") and can reclassify someone who stays away. We could NOT source a fixed five-year presumption, so do not quote one; tell anyone planning a multi-year stretch to check their status with BTL directly. Also file the "הודעה על שהייה בחו״ל" form when leaving, or contributions accrue without health entitlement.
 
 **Travel insurance vs nomad insurance, the work-coverage trap:** standard Israeli "ביטוח נסיעות לחו״ל" policies (Harel, Migdal, Phoenix, Clal) are written for tourist trips and routinely exclude both long-term stays AND work activity, so a nomad's claim can be denied on either ground. Two setups that DO cover remote work:
 - **Israeli extended-stay policies with a working-abroad rider** (Harel, Migdal, Phoenix, Clal): verify the policy explicitly says כיסוי לעבודה מרחוק; the standard tourist tier does not.
@@ -161,6 +170,8 @@ The most consequential decision. Tested independently of citizenship.
 
 **Days presumption:** 183+ days in Israel in the tax year, OR 30+ days that year AND 425+ days total over that year + the two preceding. **Center-of-life test (rebuttable):** the Tax Authority weighs where the family, primary home, work, social ties, and economic interests are. The days presumption can be rebutted via center-of-life evidence in either direction.
 
+**A day-count reform has circulated since mid-2025 and is NOT law.** A Finance Ministry memorandum would replace the rebuttable presumptions with CONCLUSIVE numeric bands. It was never introduced to the Knesset, has no enacted text or effective date, and contemplated applying only from the tax year after enactment. Blogs claiming Israel "adopted firmer day-count rules effective 2026" are wrong. Quote the current law and do not give the proposed numbers as if they governed.
+
 **Treaty tie-breaker (dual residency):** when both Israel and the host country claim the user as resident (e.g. Thailand at 180+ days), the bilateral tax treaty's tie-breaker rule, not the Israeli days test alone, decides where they actually pay: permanent home, then centre of vital interests, then habitual abode, then nationality. Resolve residency through the treaty for anyone over the host-country threshold.
 
 **Form 1348 (Residency Declaration):** if the user meets the days test but claims center of life is abroad (or vice versa), file Form 1348 with the annual return. A pre-issued Tax Authority ruling (החלטת מיסוי) prevents disputes years later - recommended for stays >2 years.
@@ -168,32 +179,39 @@ The most consequential decision. Tested independently of citizenship.
 | Strategy | Fits | Implication |
 |---|---|---|
 | Stay an Israeli tax resident | Short nomad period (<3 years), plan to return, easy to maintain Israeli ties | Report worldwide income in Israel, claim foreign tax credit, keep kupat cholim alive |
-| Cut residency (nituk toshavut) | Open-ended move, family moves with you, willing to lose Israeli ties to come back later as **toshav chozer** (6+ years out - partial benefits: 5-year exemption on passive foreign income, 1-year exemption on certain interest/dividends per ITO sec. 14) or **toshav chozer vatik** (10+ years out - full 10-year tax exemption on foreign income, same regime as olim chadashim, now subject to the 2026 reporting reform) | No Israeli tax on foreign income, but kupat cholim lapses and waiting period on return |
+| Cut residency (nituk toshavut) | Open-ended move, family moves with you, willing to lose Israeli ties to come back later as **toshav chozer** (6+ years as a FOREIGN RESIDENT, not merely 6 years abroad - partial benefits: 5-year exemption on passive foreign income, 1-year exemption on certain interest/dividends per ITO sec. 14) or **toshav chozer vatik** (10+ years as a FOREIGN RESIDENT - full 10-year tax exemption on foreign income, same regime as olim chadashim, now subject to the 2026 reporting reform) | No Israeli tax on foreign income, but kupat cholim lapses and waiting period on return |
 
 **Rebutting the days presumption:** Form 1348 alone is not enough; the Tax Authority requires supporting evidence (foreign rental, foreign tax-residency certificate, children's school enrollment abroad, foreign employment contract). Conversely, a primary apartment in Israel (even rented out), Israeli school enrollment, an Israeli spouse staying behind, or active Israeli business ties are anchors that routinely defeat 1348 declarations.
 
 For stays clearly under 2-3 years, default to staying resident. Cutting residency for a planned 18-month nomad period rarely pencils out.
 
-**Section 100A exit tax (cut residency only):** most assets are deemed sold at FMV the day before residency ceases. The taxpayer ELECTS between (a) deemed-sale + full payment now, or (b) deferral until actual realization with proration AND **interest accruing on the deferred tax** (CPI-linked + 4%). Catches non-trustee ESOP/RSUs, private-company holdings, securities. **Carved out** under sec. 100A(b1): pension funds, kupot gemel, keren hishtalmut. Trustee-track 102 options need a separate tax ruling before exit. Model Section 100A before filing nituk toshavut - the deemed-sale bill on vested startup equity can be very large.
+**Section 100A exit tax (cut residency only):** an asset of a person who ceases to be an Israeli resident "ייחשב כנמכר ביום שלפני היום שבו חדל להיות תושב ישראל" (s.100A(a)). Three points the skill previously got wrong, all read off the statute:
+
+- **Deferral is not an election, it is what happens by default if you do not pay.** s.100A(b): a person "שלא שילם את המס במועד שבו חדל להיות תושב ישראל, **יראו אותו כאילו ביקש** לדחות את תשלום המס למועד מימוש הנכס". At realization the tax is computed on the proportionate gain (חלק הרווח החייב, s.100A(d)).
+- **No interest accrues during the deferral.** s.100A(b) closes: "ואולם הפרשי הצמדה וריבית, כהגדרתם בסעיף 159א **ייווספו רק החל במועד המימוש** ועד לתשלום המס בפועל". Do not tell a user interest is running on the deferred tax.
+- **There is no s.100A(b1).** The section runs (a) to (e) only. Any pension / kupot gemel / keren hishtalmut treatment must be sourced elsewhere, and this skill does not assert one. What the statute DOES say is that "נכס" includes options and rights granted under sections 3(i) and 102 (s.100A(d)).
+
+Trustee-track 102 options need a separate tax ruling before exit. Model Section 100A before filing nituk toshavut, the deemed-sale bill on vested startup equity can be very large.
 
 ### Step 9: Annual cycle while abroad
 
 For Israelis who stay tax resident, the annual cycle is:
 
-**Filing deadline (tax year 2025, filed in 2026): 30 June 2026 for online filers, 29 May 2026 for paper.** The bare statutory date is 30 April, but online filers (the vast majority) always get the extension and the ITA posts the year's deadlines on gov.il. Returns via a certified accountant get further extensions:
+**Filing deadline: look it up for the year in question, do not quote a remembered date.** The bare statutory date is 30 April, but the ITA defers it almost every year (online filers get the longer extension) and it has issued further security-related deferrals. For tax year 2025 the online deadline was deferred to 30 June 2026; the paper date moved more than once, so check the ITA's published notice rather than repeating a figure. Returns via a certified accountant get further extensions:
 
 - **Form 1301** - the base annual income-tax return for individuals (יחיד), reporting worldwide income in NIS. This is the comprehensive form covering every income type and tax benefit.
 - **Form 1322** - supplement attached to Form 1301 for capital gains from marketable securities (concentration of capital gains).
 - **Form 1325** - supplement attached to Form 1301 for capital gains by tax rate (used by individuals with business or investment activity).
-- **Foreign tax credit (זיכוי מס זר)** under **Sections 199-210 of the Income Tax Ordinance** (Part J, Chapter 3) and any applicable bilateral tax treaty: reduces the Israeli tax bill by foreign tax actually paid on the same income, capped at the Israeli tax rate that would have applied to that income. Israel uses an income-source basket system (dividends, business, salary, etc.) with excess credits carrying forward up to 5 years per basket. Foreign tax paid in basket A cannot offset Israeli tax on basket B income.
+- **Periodic obligations, not just the annual return.** An osek murshe files the bi-monthly VAT return (Form 836) and pays advance payments (מקדמות) set from prior-year turnover, with interest on underpayment. When the client mix flips to foreign zero-rated work, apply to REDUCE the advances instead of overpaying all year. On the employee side, seek withholding coordination (תיאום מס) where a treaty allocates wages to the host country but the Israeli employer withholds in full.
+- **Foreign tax credit (זיכוי מס זר)** under **Sections 199-210 of the Income Tax Ordinance** (Part J, Chapter 3) and any applicable bilateral tax treaty: reduces the Israeli tax bill by foreign tax actually paid on the same income, capped at the Israeli tax rate that would have applied to that income. Israel uses an income-source basket system (dividends, business, salary, etc.) with a limited carryforward of excess credits per basket; confirm the current carryforward period with a CPA rather than quoting a number. Foreign tax paid in basket A cannot offset Israeli tax on basket B income.
 - **Form 5329** (foreign-income-and-assets disclosure) - Israelis required to file an annual return must complete this when triggered by ITO sec. 131A thresholds. The exact threshold varies by year and category (foreign income, foreign asset balance, trust beneficiary status); confirm the current-year figure on gov.il/en/service/itc5329b before filing. Wise, Revolut, and Payoneer accounts count as foreign accounts for this purpose; report balances and account institutions.
 - **Periodic VAT report (Form 836)** for osek murshe - filed monthly or bi-monthly via the Tax Authority's שע״מ e-filing portal. Zero-rated export-of-services revenue is reported in the 0%-rate row; input VAT on related expenses is still recoverable. There is no separate annual VAT return for osek murshe - the annual income-tax filing (Form 1301 + supplements) captures the year-end picture.
 
-**2026 reporting reform (Amendment 272), important:** the 10-year exemption from REPORTING foreign income and assets (for new olim and toshav chozer vatik) was abolished for anyone becoming an Israeli resident from 1 January 2026 onward; they must report foreign income and assets from day one. The substantive tax exemption itself stays. Pre-2026 olim keep their original 10-year window.
+**2026 reporting reform (Amendment 272), important:** the 10-year exemption from REPORTING foreign income and assets (for new olim and toshav chozer vatik) was abolished for anyone becoming an Israeli resident from 1 January 2026 onward; they must report foreign income and assets from day one. The substantive tax exemption itself stays. Pre-2026 olim keep their original 10-year window. An oleh who elects an adjustment year (שנת הסתגלות) under section 14(b) is not treated as an Israeli resident for that year, which pushes the first reporting obligation out correspondingly, so ask whether the election was made before telling someone they must report from day one.
 
 ### Step 10: Return-to-Israel handoff
 
-If the user is moving toward a permanent return, switch to `israeli-relocation-abroad` for the full reactivation playbook (kupat cholim, toshav-chozer vehicle import, ulpan, pension). Brief flag: returning after 2+ years abroad with continuously-paid bituach leumi resumes kupat cholim immediately; a residency gap triggers a waiting period.
+If the user is planning a permanent RETURN, route them to `israeli-returning-resident-navigator`; use `israeli-relocation-abroad` for the outbound residency cut. Brief flag on health: continuously-paid health contributions mean no waiting period at all, per the conjunctive trigger in Step 6 (18+ consecutive months abroad AND 12+ months unpaid, or loss of resident status). Do not restate that rule with a different number.
 
 **2026 returnee tax window (time-limited):** legislation passed 30 March 2026 grants veteran returning residents and olim who arrived between 5 November 2025 and 31 December 2026 a graduated 5-year exemption on Israeli-source personal-services income (cap NIS 600K for 2026, NIS 1M for 2027-28, then NIS 350K in 2029 and NIS 150K in 2030), on top of the existing 10-year foreign-income exemption (subject to the Step 9 reporting reform). A return timed into this window locks in benefits unavailable before. After 31 December 2026 the window closes and the standard toshav chozer / vatik regime applies.
 
@@ -224,11 +242,12 @@ These are agent failure modes specific to this domain:
 
 1. **Confusing relocation with nomading.** Defaulting to `israeli-relocation-abroad` advice (cut residency, file 161, freeze pension) for a 6-month workation gives the wrong answer. Nomads typically stay tax-resident and keep paying bituach leumi. Confirm intent before applying relocation logic.
 2. **Assuming USA is on the totalization list.** It is not. The 20-country list does not include the United States. Telling an Israeli employee in NYC that Form A1 will exempt them from US Social Security is wrong; there is no US-Israel totalization treaty.
-3. **Quoting last year's visa-income thresholds.** Spain DNV (200% of SMI), Portugal D8 (4× minimum wage), and Estonia DNV thresholds change annually with the underlying minimum wage. Always verify the current year before committing.
+3. **Quoting the visa table as if it were authoritative.** Only the Croatian row is sourced to the issuing authority (mup.gov.hr); the rest comes from law-firm and agency write-ups, because the issuing authorities block automated access or publish nothing machine-readable, and several thresholds move annually with the local minimum wage. Give the row as a starting point, name the issuing authority, and have the user confirm there before committing money or dates.
 4. **Treating tourist travel insurance as nomad coverage.** Standard Israeli ביטוח נסיעות לחו״ל policies (Harel/Migdal/Phoenix/Clal default tier) exclude both long-term stays AND work activity. A claim from a nomad on a tourist policy is routinely denied on either ground. Verify the policy explicitly covers working remotely.
 5. **Assuming working remotely on a tourist visa is fine.** Many destinations technically prohibit any work, including remote work for foreign clients, on a tourist visa. The DTV exists precisely because Thailand wanted to legitimize this. For destinations without a nomad visa, the user is in a gray zone - flag the legal risk, do not pretend it isn't there.
-6. **Forgetting the 2026 reporting-exemption reform.** Pre-2026 olim still have their 10-year exemption. Olim and toshav chozer vatik becoming resident from 1 Jan 2026 onward do NOT. Apply the right rule for the user's residency-start date.
-7. **Suggesting Bali to an Israeli.** Israel is on Indonesia's explicit E33G remote-worker exclusion list, and the other Indonesian routes (B211A, KITAS, Second Home Visa) need Jakarta-level "calling visa" pre-approval that is not granted to Israelis (no diplomatic relations). Bali ranks high on generic nomad lists but is categorically barred for an Israeli passport holder, not merely hard. Flag and route to Thailand or Georgia instead.
+6. **Telling a nomad their years abroad build a toshav-chozer clock.** They do not, unless residency was actually CUT: the Ordinance counts years as a תושב חוץ ("שש שנים רצופות לפחות", ten for vatik). This skill's own default is to stay resident under two to three years, so someone who follows it and stays away seven years accrues nothing. The clock starts at the cut, not at the flight.
+7. **Forgetting the 2026 reporting-exemption reform.** Pre-2026 olim still have their 10-year exemption. Olim and toshav chozer vatik becoming resident from 1 Jan 2026 onward do NOT. Apply the right rule for the user's residency-start date.
+8. **Suggesting Bali to an Israeli.** A dead end on an Israeli passport: no diplomatic relations, and Indonesian routes go to Jakarta-level "calling visa" pre-approval not granted in practice. State it as a practical bar and route to Thailand or Georgia. Do NOT claim Israel appears on a published exclusion list; we could not source that.
 
 ## Reference Links
 
@@ -247,6 +266,6 @@ These are agent failure modes specific to this domain:
 
 **"The user is asking for binding tax advice."** Refuse and route to a Roeh Cheshbon. The skill is a navigator, not a CPA. Form 1348, foreign tax credit math, and Section 30 documentation should be reviewed by a licensed advisor before filing.
 
-**"The user already filed Form 1348 incorrectly."** Direct them to the Tax Authority's amendment process (תיקון דוח). A self-correction within 4 years of the original filing is generally allowed.
+**"The user already filed Form 1348 incorrectly."** Direct them to the Tax Authority's amendment process (תיקון דוח). Do not quote an amendment window; ask the ITA or a CPA what applies to that filing year.
 
 **"The destination country is not in the visa table."** The table covers the most common Israeli-nomad destinations. For others (Malta, Cyprus, Greece, Argentina, Colombia, Vietnam), instruct the user to check the destination's official immigration site and confirm the income threshold and stay validity, then apply the same compliance branches (Step 3 or 5).

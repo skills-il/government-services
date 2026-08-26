@@ -10,6 +10,26 @@
         "Phantom-percentage artifact: the percent-encoded Hebrew cpa-dray reference URL produces fake 90%/91%/etc. matches in the evidence verifier (see feedback_evidence_gate_encoded_urls). Covered in evidence; next cycle consider swapping it for a non-encoded English source for the 2026 reform.",
         "Stripped 123 pre-existing em-dashes across all files (skill was authored with em-dashes before the ban)."
       ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "CRITICAL fixed: the skill asserted a Section 100A(b1) carve-out for pension/gemel/hishtalmut. Reading the statute on nevo, s.100A runs (a)-(e) and there is no (b1). It also said the taxpayer ELECTS deferral (the statute deems it for anyone who does not pay) and that interest accrues on the deferred tax (it accrues only from realization). Three fabricated/inverted claims in one paragraph, all now quoted from the section itself.",
+        "CRITICAL fixed: the kupat cholim waiting-period rule was stated backwards. BTL's trigger is conjunctive (18+ consecutive months abroad AND 12+ months of unpaid health contributions, or loss of resident status), so continuous payment PREVENTS it; the skill said payment does not eliminate it. Length was also wrong (one month per year of absence, min 2 max 6, not two per year).",
+        "CRITICAL fixed: toshav chozer / vatik clocks were stated as years physically abroad. The Ordinance definitions count years as a תושב חוץ. Since the skill's own default is to stay resident on short stays, the old wording promised a benefit that would never accrue.",
+        "CRITICAL fixed: 183 days was answered only as the employer's PE exposure. Added the employee's own limb (dependent personal services), and corrected examples.md Example 1, which told a Lisbon engineer at exactly six months that he had 'no foreign income to report'.",
+        "SCRIPT: four defects. (1) `if intent == 'stay' or duration_months < 24` short-circuited so anyone cutting residency under 24 months got the stay-resident plan. (2) shapes `mixed` and `no_income` had no branch at all, so the most compliance-loaded shape got the least guidance. (3) the cut branch printed the resident annual cycle. (4) the script quoted a five-year BTL presumption that SKILL.md expressly forbids quoting. Also added destination aliases (holland/uk/czechia previously fell through to 'no convention', the dangerous direction) and graceful --duration parsing.",
+        "EVIDENCE: several snippets were authored Hebrew prose rather than page text, including the two that carried the 100A and waiting-period claims, and btl-health-residency cited a URL that 404s. All replaced with text copied from live pages; --check-sources now 17 verified, 0 failed.",
+        "Croatia savings thresholds were two revisions stale (39,540/59,310 vs the current 43,470/65,205 on mup.gov.hr).",
+        "Removed a Hebrew-only citation of ע\"א 4862/13 (ספיר) that attributed the OPPOSITE of the case's outcome, plus two unverified tax rulings. HE and EN now agree on rebuttal evidence without citing case law neither could source.",
+        "[CARRY] The visa table is 9 of 10 rows sourced to law-firm and visa-agency blogs because the issuing authorities block automated access. Only Croatia is authoritative. Next cycle, try to source Spain (BOE/inclusion.gob.es), Portugal (DRE/AIMA) and Estonia (politsei.ee) properly, or move the table behind a stronger caveat still.",
+        "[CARRY] Czech minimum social-security advance changes per half-year and could not be verified from here; the figure was removed rather than swapped for an unverified one. Verify on cssz.cz next cycle.",
+        "[CARRY] Expert MAJORs deferred: EES (Schengen electronic enforcement) is a Should-cover checklist item still absent; W-8BEN vs W-8BEN-E and the US-source-vs-treaty distinction; the osek murshe's own registration status while abroad; and a pre-departure action to reconstruct the prior two years' Israeli day count for the 425-day limb.",
+        "[CARRY] Sibling-collision surfaces not diffed this cycle (could not read israeli-relocation-abroad or israeli-returning-resident-navigator): the customs window, whether either sibling repeats the unenacted day-count reform as law, and the kupat cholim resumption claim. Both siblings were updated the same day, so diff them next cycle.",
+        "[CARRY from 1.1.0, still open] The percent-encoded Hebrew cpa-dray URL produces phantom percentage matches in the evidence verifier; consider swapping for a non-encoded source.",
+        "[CARRY from 1.1.0, RESOLVED] The Mexico threshold hedge and the EES one-liner: Mexico is now behind the general 'confirm with the issuing authority' caveat; EES remains open."
+      ]
     }
   ]
 }

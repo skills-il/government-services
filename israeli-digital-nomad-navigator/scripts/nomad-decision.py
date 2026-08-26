@@ -31,7 +31,9 @@ TOTALIZATION_FULL = {
 }
 TOTALIZATION_LIMITED = {"canada"}  # excluding Quebec
 
-# 2026 visa data - verified per references/visa-by-country-2026.md.
+# 2026 visa data. Only the Croatian row is sourced to the issuing authority (mup.gov.hr);
+# every other row comes from law-firm or visa-agency write-ups and moves with local minimum
+# wages. Treat these as starting points to confirm, not as requirements.
 VISA_DATA: dict[str, dict[str, str]] = {
     "thailand": {
         "program": "DTV (Destination Thailand Visa)",
@@ -63,7 +65,7 @@ VISA_DATA: dict[str, dict[str, str]] = {
     },
     "croatia": {
         "program": "Digital Nomad Residence",
-        "income": "€3,622.50/month or €39,540 savings (12-mo) / €59,310 (18-mo); +10% per family member",
+        "income": "€3,622.50/month or €43,470 savings (12-mo) / €65,205 (18-mo); +10% per family member",
         "fee": "Consular fee",
         "validity": "Up to 18 months, non-renewable consecutively (6-month gap to reapply); foreign income exempt from Croatian tax",
         "available": "yes",
@@ -71,7 +73,7 @@ VISA_DATA: dict[str, dict[str, str]] = {
     "czech_republic": {
         "program": "Zivno (zivnostensky list - freelance/digital-nomad track)",
         "income": "~CZK 69,836/month for IT/marketing nomad track, or ~CZK 20,000/month for regular Zivno",
-        "fee": "Consular fee + monthly social-security 5,720 CZK + health 3,306 CZK from Jan 2026",
+        "fee": "Consular fee + monthly health advance 3,306 CZK; the minimum social-security advance is set per half-year and changed during 2026, read the current figure off cssz.cz",
         "validity": "1 year, renewable",
         "available": "yes",
     },
@@ -108,14 +110,14 @@ VISA_DATA: dict[str, dict[str, str]] = {
         "income": "-",
         "fee": "-",
         "validity": "-",
-        "available": "no - Israeli citizens explicitly barred as of 2026",
+        "available": "no - treat as unavailable on an Israeli passport (no diplomatic relations; Jakarta calling-visa pre-approval not granted in practice). No published exclusion list naming Israel could be sourced, do not claim one exists.",
     },
     "bali": {
         "program": "B211A / E33G / KITAS / Second Home",
         "income": "-",
         "fee": "-",
         "validity": "-",
-        "available": "no - Israeli citizens explicitly barred as of 2026",
+        "available": "no - treat as unavailable on an Israeli passport (no diplomatic relations; Jakarta calling-visa pre-approval not granted in practice). No published exclusion list naming Israel could be sourced, do not claim one exists.",
     },
     "usa": {
         "program": "No dedicated digital-nomad visa",
@@ -139,8 +141,21 @@ class Plan:
     flags: list[str] = field(default_factory=list)
 
 
+# Aliases matter here because an unrecognised destination falls through to
+# "no convention", which is the dangerous direction for the error to run.
+DESTINATION_ALIASES = {
+    "holland": "netherlands", "the_netherlands": "netherlands", "nl": "netherlands",
+    "uk": "united_kingdom", "great_britain": "united_kingdom", "britain": "united_kingdom",
+    "england": "united_kingdom", "gb": "united_kingdom",
+    "czechia": "czech_republic", "czech": "czech_republic",
+    "bali": "indonesia", "uae": "uae", "dubai": "uae", "emirates": "uae",
+    "deutschland": "germany", "espana": "spain", "portugal_pt": "portugal",
+}
+
+
 def normalize_destination(dest: str) -> str:
-    return dest.lower().strip().replace(" ", "_").replace("-", "_")
+    n = dest.lower().strip().replace(" ", "_").replace("-", "_")
+    return DESTINATION_ALIASES.get(n, n)
 
 
 def parse_duration(s: str) -> int:
@@ -186,7 +201,9 @@ def build_plan(
     if is_full_treaty:
         plan.treaty_status = (
             f"{destination.title()} HAS a full bilateral social-security convention with Israel. "
-            "File Form A1 / Certificate of Coverage with Bituach Leumi BEFORE departure."
+            "File Form A1 / Certificate of Coverage with Bituach Leumi BEFORE departure. If you are self-employed "
+            "rather than a posted employee, ask BTL international affairs which certificate track applies to you: "
+            "do not assume the posted-worker procedure is the only one."
         )
     elif is_limited_treaty:
         plan.treaty_status = (
@@ -196,64 +213,99 @@ def build_plan(
     else:
         plan.treaty_status = (
             f"{destination.title()} has NO bilateral social-security convention with Israel. "
-            "An Israeli employee on Israeli payroll faces double social-security exposure here. "
-            "An Israeli freelancer is unaffected (no employer to register)."
+            "Neither shape has relief here. An Israeli employee on Israeli payroll faces double social-security "
+            "exposure, and an Israeli freelancer has no certificate to obtain either, so their exposure is personal "
+            "and unmitigated. Do not tell a freelancer a treaty gap is a non-issue for them."
         )
 
     # Residency strategy
-    if intent == "stay" or duration_months < 24:
+    # intent is the primary discriminator. An earlier version short-circuited on
+    # `intent == "stay" or duration_months < 24`, so anyone cutting residency for
+    # under 24 months was told to stay resident and keep paying bituach leumi,
+    # i.e. the exact opposite of what they asked for. Do not reintroduce that.
+    if intent == "stay":
         plan.residency_strategy = (
             "Default: stay an Israeli tax resident. Continue paying bituach leumi to keep "
-            "kupat cholim active. File Form 1301 (base annual return) annually with worldwide income; add 1322/1325 only for capital gains."
+            "kupat cholim active (minimum NIS 266/month as of 1 Jan 2026). File Form 1301 (base annual return) "
+            "annually with worldwide income; add 1322/1325 only for capital gains."
         )
     elif intent == "cut":
         plan.residency_strategy = (
             "Cutting residency (nituk toshavut). MODEL Section 100A exit tax FIRST - "
-            "deemed sale of all assets at FMV the day before residency ceases. "
-            "Lose kupat cholim continuity; toshav chozer benefits require 6+ years out, "
-            "toshav chozer vatik 10+ years out."
+            "the asset is deemed sold the day before residency ceases (s.100A(a)); if you do not pay then, "
+            "you are DEEMED to have asked to defer to realization (s.100A(b)) and linkage+interest run only "
+            "from realization, not during the deferral. File Form 1348. Lose kupat cholim continuity; "
+            "toshav chozer benefits require 6+ years out, toshav chozer vatik 10+ years out."
         )
     else:
         plan.residency_strategy = (
-            "Undecided. For stays under 3 years, default to staying resident is almost always better. "
+            "Undecided. For stays under 3 years, defaulting to staying resident is almost always better, and "
+            "for under 24 months it is very hard to justify anything else. "
             "For 5+ year commitments, model Section 100A and toshav chozer benefits before deciding."
         )
 
     # Pre-departure actions
     plan.actions_pre_departure.extend([
         "Apply for the destination visa per the table above. Get apostille on civil documents at MFA / my.gov.il e-apostille.",
-        "If staying tax resident: set up bituach leumi standing order (horaat keva) for the minimum monthly payment to keep kupat cholim alive.",
+        "If staying tax resident: set up a bituach leumi standing order (horaat keva) for the minimum monthly payment "
+        "(NIS 266/month as of 1 Jan 2026) to keep kupat cholim alive. Paying health contributions is what prevents the "
+        "waiting period on return: it is triggered only by 18+ consecutive months abroad AND 12+ months unpaid.",
         "File 'הודעה על שהייה בחו״ל' notification with Bituach Leumi.",
         "Buy a long-stay insurance policy that explicitly covers REMOTE WORK (SafetyWing, Genki, or an Israeli policy with working-abroad rider). Standard travel insurance excludes work activity and long stays.",
         "Open a Wise multi-currency account if not already; consider Payoneer if clients pay via marketplaces; keep at least one Israeli credit card active for gov.il portal payments.",
         "ETIAS pre-authorization for any Schengen application travel (€20, valid 3 years).",
     ])
 
+    # `mixed` is an employee AND a freelancer, so it must receive BOTH compliance
+    # branches. An earlier version tested `shape == "employee"` / `shape == "freelancer"`
+    # only, which silently gave the most compliance-loaded shape the least guidance.
+    is_employee = shape in ("employee", "mixed")
+    is_freelancer = shape in ("freelancer", "mixed")
+
+    if shape == "no_income":
+        plan.flags.append(
+            "No current income. You still owe the BTL minimum contribution (NIS 266/month as of 1 Jan 2026) to keep "
+            "health entitlement alive, and you are still subject to the Israeli residency tests, so a long stay can "
+            "still move your tax residency even with nothing coming in."
+        )
+
     # Employee branch
-    if shape == "employee":
+    if is_employee:
         if is_full_treaty:
             plan.actions_pre_departure.insert(
                 1,
                 "REQUIRED: file Form A1 / Certificate of Coverage with Bituach Leumi to exempt the Israeli employer from foreign social-security charges on the same wages."
             )
+            if duration_months > 24:
+                plan.flags.append(
+                    "Certificate of Coverage validity for posted workers is typically capped around 24 months and your "
+                    "stay is longer. Diarise the renewal now: a lapsed certificate leaves a gap the foreign authority "
+                    "can charge for retroactively."
+                )
         plan.actions_pre_departure.append(
             "Negotiate a written 'working from abroad' addendum to the Israeli employment contract: "
             "days-cap, equipment, data security, sick days, return obligations, dismissal protections, "
             "tax equalization or gross-up clause, reservist call-up handling."
         )
         plan.actions_living_abroad.append(
-            "Track days per country to stay under the 183-day permanent-establishment threshold "
-            "(some countries are stricter). Keep a calendar log of arrival/departure dates."
+            "Track days per country. 183 days matters TWICE and for different people: it is the usual trigger for "
+            "the employer's permanent establishment, AND, under the dependent-personal-services article of Israel's "
+            "tax treaties, your own wages become taxable where the work is performed once you cross it. Crossing it "
+            "can create a host-country personal filing and a matching Israeli foreign tax credit. Keep a calendar log "
+            "of arrival and departure dates, and raise the personal-tax side with a CPA before you cross."
         )
         plan.actions_living_abroad.append(
             "No client meetings in the host country, no signing authority used there, no commercial office in the employer's name, no local hires."
         )
         plan.flags.append(
-            "Section 14, keren hishtalmut, and pension contributions all CONTINUE on Israeli payroll - they do not pause while abroad."
+            "Section 14, keren hishtalmut, and pension contributions continue while you remain on ISRAELI payroll. "
+            "They do not survive a conversion to an Employer of Record, which is common beyond about 6 months to cut "
+            "the employer's permanent-establishment risk: on EOR conversion Israeli pension stops and the keren "
+            "hishtalmut balance freezes. Confirm which payroll you will actually be on."
         )
 
     # Freelancer branch
-    if shape == "freelancer":
+    if is_freelancer:
         plan.actions_pre_departure.extend([
             "Issue VAT Section 30(a)(5) zero-rated invoices to foreign clients. Document the foreign-resident nature of each client (incorporation cert, foreign address, payment from foreign bank) in your VAT books.",
             "File W-8BEN with each US client to claim US-Israel treaty benefits and reduce 30% default withholding to the treaty rate. Form goes to the client, not the IRS; valid 3 years.",
@@ -269,19 +321,40 @@ def build_plan(
         "no surprise local-tax-residency triggers in the host country."
     )
 
-    # Annual cycle
-    plan.actions_annual.extend([
-        "Annual return deadline (tax year 2025, filed 2026): 30 June 2026 for online filers, 29 May 2026 for paper (the bare statutory date is 30 April but online filers get the extension; the ITA posts each year's dates). File Form 1301 (main individual return) with Form 1322 and Form 1325 supplements as needed.",
-        "Apply foreign tax credit (זיכוי מס זר) under Sections 199-210 of the Income Tax Ordinance and any applicable bilateral treaty. Use the income-source basket system; excess credits carry forward up to 5 years per basket.",
-        "If foreign income/assets cross the ITO sec. 131A trigger thresholds (verify current year on gov.il/en/service/itc5329b before filing): file Form 5329 disclosure listing each foreign account (Wise, Revolut, Payoneer, foreign bank).",
-        "Convert all amounts to NIS at BOI שער יציג (representative rate) on the date of receipt for business income.",
-    ])
+    # Annual cycle. The resident cycle is NOT the cut-residency cycle: an earlier
+    # version printed the resident obligations to someone who asked to cut, which is
+    # the wrong plan for the wrong outcome.
+    if intent == "cut":
+        plan.actions_annual.extend([
+            "Year of cessation: the deemed sale under s.100A(a) has to be REPORTED in the annual return for the year "
+            "residency ceased. Not paying is a deferral election by operation of s.100A(b); it is not a reason to skip filing.",
+            "File the return for the year of departure covering the resident part of that year.",
+            "Terminate residency with Bituach Leumi as a status change, which is a different act from the "
+            "'הודעה על שהייה בחו״ל' stay-abroad notice. Losing resident status is an independent trigger for the "
+            "health waiting period, with no 12-month non-payment needed.",
+            "If you hold an osek murshe: deal with the VAT and income-tax files (closure or status change) as part of "
+            "the exit, not afterwards.",
+            "102 trustee-track options need their tax ruling BEFORE the cessation date, not after.",
+            "After the cut, the toshav chozer clock runs on years as a FOREIGN RESIDENT (6 years) and toshav chozer "
+            "vatik on ten, per the s.1 definitions. Time spent abroad while still an Israeli resident does not count.",
+        ])
+    else:
+        plan.actions_annual.extend([
+            "Annual return deadline: read it off the ITA's published notice for the year in question. This script deliberately does not print a date, because the ITA defers the deadline in most years and a stale one causes a missed filing. File Form 1301 (main individual return) with Form 1322 and Form 1325 supplements as needed.",
+            "Apply foreign tax credit (זיכוי מס זר) under Sections 199-210 of the Income Tax Ordinance and any applicable bilateral treaty. Use the income-source basket system; excess credits carry forward per basket for a limited period, confirm the current period with a CPA.",
+            "If foreign income/assets cross the ITO sec. 131A trigger thresholds (verify current year on gov.il/en/service/itc5329b before filing): file Form 5329 disclosure listing each foreign account (Wise, Revolut, Payoneer, foreign bank).",
+            "Convert all amounts to NIS at BOI שער יציג (representative rate) on the date of receipt for business income.",
+            "If you are an osek murshe: the bi-monthly VAT return (Form 836) and the income-tax advance payments (מקדמות) continue while you are abroad. If your client mix has flipped to foreign zero-rated work, apply to reduce the advances rather than overpaying all year.",
+        ])
 
     # Flags
     if duration_months >= 60:
+        # SKILL.md Step 6 forbids quoting a fixed five-year BTL presumption because it
+        # could not be sourced. Do not reintroduce one here.
         plan.flags.append(
-            "Stay exceeds 5 years → BTL re-classifies you as non-resident unless you actively prove temporary stay. "
-            "Schedule a year-4 BTL check-in to keep status."
+            "Multi-year stay. BTL decides residency on its own centre-of-life criteria and can reclassify you; "
+            "there is no sourced fixed-year presumption, so check your status with BTL directly rather than assuming "
+            "it holds. Losing resident status is an independent trigger for the health waiting period on return."
         )
     if duration_months >= 12 and shape == "employee" and not is_full_treaty:
         plan.flags.append(
@@ -391,7 +464,10 @@ def main() -> None:
     else:
         shape = args.shape
         destination = args.destination
-        duration_months = parse_duration(args.duration)
+        try:
+            duration_months = parse_duration(args.duration)
+        except ValueError as exc:
+            p.error(f"--duration: {exc}")
         intent = args.intent
 
     plan = build_plan(shape, destination, duration_months, intent)

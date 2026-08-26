@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-digital-nomad-navigator",
-  "generated_at": "2026-06-07T00:00:00Z",
+  "generated_at": "2026-08-26T20:12:11.974554+00:00",
   "claims": [
     {
       "claim_id": "visa-thresholds-2026",
-      "claim": "Verified 2026 digital-nomad visa income thresholds for Israeli passport holders: Thailand DTV ฿500,000 liquid funds (3 months) + 350 EUR fee at the Tel Aviv embassy, 5-year multi-entry / 180 days per entry; Spain DNV €2,849/month (200% of the 2026 SMI €1,221); Portugal D8 €3,680/month + €11,040 savings (4x the €920 minimum wage); Estonia Type D €4,500/month gross; Croatia €3,622.50/month (raised early 2026 from €2,870) or €39,540 / €59,310 savings; Czech Zivno ~CZK 69,836/month; Mexico Residente Temporal ~$4,300/month or ~$74,000 savings; Costa Rica Estancia para Trabajadores Remotos $3,000/month individual or $4,000/month family; Georgia Remotely from Georgia $2,000/month or $24,000 savings plus a Right to Labour Activity permit from 1 March 2026; UAE Dubai Virtual Working Programme $5,000/month (raised April 2026 from $3,500) + $611 fee.",
-      "source_url": "https://citizenremote.com/digital-nomad-visas/",
-      "raw_snippet": "2026 thresholds: Spain DNV ~EUR 2,849/mo (200% SMI); Portugal D8 EUR 3,680/mo + EUR 11,040 savings; Estonia EUR 4,500/mo; Croatia EUR 3,622.50/mo; Mexico ~USD 4,300/mo or ~USD 74,000; Costa Rica USD 3,000/USD 4,000; Georgia USD 2,000/mo + Right to Labour Activity permit from 1 Mar 2026; UAE Dubai USD 5,000/mo from Apr 2026; Thailand DTV THB 500,000.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "claim": "Destination visa thresholds vary by country and move with local minimum wages. Only the Croatian row is sourced to the issuing authority (mup.gov.hr): EUR 3,622.50 per month, or savings of EUR 43,470 (12 months) / EUR 65,205 (18 months). The skill instructs the reader to confirm every other row with the issuing authority before relying on it. The Spanish DNV threshold is expressed as 200% of the Spanish minimum wage (SMI) and moves with it, which is why the skill routes the reader to the issuing authority rather than fixing a number.",
+      "source_url": "https://mup.gov.hr/en/aliens-281621/stay-and-work/temporary-stay-of-digital-nomads/286833",
+      "raw_snippet": "Currently, the amount required on a monthly basis is a minimum of 3.622,50 EUR",
+      "fetched_at": "2026-08-26T19:54:02.600512+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -18,16 +18,18 @@
     },
     {
       "claim_id": "indonesia-bali-barred",
-      "claim": "Israel is on Indonesia's explicit E33G remote-worker visa exclusion list, and the other Indonesian routes (B211A, KITAS, Second Home Visa) require Jakarta calling-visa pre-approval that is not granted to Israelis (no diplomatic relations). Bali is categorically barred for an Israeli passport holder.",
-      "source_url": "https://citizenremote.com/digital-nomad-visas/indonesia-digital-nomad-visa/",
-      "raw_snippet": "Indonesia's E33G remote-worker visa excludes certain nationalities including Israel; other routes require Jakarta-level calling-visa approval not granted to Israeli passport holders.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "claim": "Indonesia is treated as unavailable for an Israeli passport on the practical ground that Israel and Indonesia have no diplomatic relations and Israeli applications require Jakarta-level calling-visa pre-approval that is not granted. NO published exclusion list naming Israel could be found, and the skill explicitly tells the reader not to claim one exists.",
+      "source_url": "https://www.mfa.gov.il/mfa/abouttheministry/pages/israel-s%20diplomatic%20missions%20abroad.aspx",
+      "raw_snippet": "Israel's Diplomatic Missions Abroad",
+      "fetched_at": "2026-08-26T19:54:02.600512+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/visa-by-country-2026.md",
         "scripts/nomad-decision.py"
-      ]
+      ],
+      "verified_via": "negative claim: the skill asserts only the absence of a workable route, and states in-line that no exclusion list could be sourced",
+      "verified_at": "2026-08-26"
     },
     {
       "claim_id": "totalization-20-countries",
@@ -46,16 +48,14 @@
     },
     {
       "claim_id": "exit-tax-100a",
-      "claim": "Section 100A (סעיף 100א) exit tax: on ceasing Israeli residency most assets are deemed sold at FMV the day before residency ceases. The taxpayer elects between paying now or deferring to actual realization with proration and interest (CPI-linked + 4%). Pension funds, kupot gemel and keren hishtalmut are carved out under Section 100A(b1).",
-      "source_url": "https://taxsummaries.pwc.com/israel/individual/other-taxes",
-      "raw_snippet": "Israel - Individual - Other taxes",
-      "fetched_at": "2026-08-19",
+      "claim": "Section 100A of the Income Tax Ordinance: an asset of a person who ceases to be an Israeli resident is deemed sold the day before residency ceases. Deferral to realization is a deeming rule applied to anyone who does not pay at that point, not an election. The section runs (a) to (e); there is NO subsection (b1).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "100א. (א) נכס של אדם תושב ישראל שחדל להיות תושב ישראל, ייחשב כנמכר ביום שלפני היום שבו חדל להיות תושב ישראל. (ב) אדם כאמור בסעיף קטן (א) שלא שילם את המס במועד שבו חדל להיות תושב ישראל, יראו אותו כאילו ביקש לדחות את תשלום המס למועד מימוש הנכס",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
+      ]
     },
     {
       "claim_id": "reporting-reform-272",
@@ -90,7 +90,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "EU travel portal is a JS-rendered SPA; the skill states the ETIAS launch timing as expected rather than fixed and instructs the reader to check the portal",
+      "verified_at": "2026-08-26"
     },
     {
       "claim_id": "vat-section-30",
@@ -119,10 +121,10 @@
     },
     {
       "claim_id": "annual-deadlines-forms",
-      "claim": "Tax year 2025 annual return deadlines (filed 2026): 30 June 2026 online, 29 May 2026 paper (statutory base date 30 April, routinely extended for online filers). Filed on Form 1301 with Form 1322 (capital gains from marketable securities) and Form 1325 (capital gains by tax rate). Form 1348 is the residency declaration. Form 5329 is the foreign-income-and-assets disclosure triggered under ITO Section 131A. Foreign tax credit under Sections 199-210 (basket system, 5-year carryforward).",
-      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
-      "raw_snippet": "המועד להגשת הדוח השנתי 2025: 30 ביוני 2026 מקוון, 29 במאי 2026 בנייר. טופס 1301 עם נספחים 1322 ו-1325; טופס 1348 הצהרת תושבות; טופס 5329 גילוי נכסים והכנסות בחו\"ל לפי סעיף 131א; זיכוי מס זר לפי סעיפים 199-210.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "claim": "The annual return is filed on Form 1301 (טופס 1301) with Form 1322 (capital gains from marketable securities) and Form 1325 (capital gains by tax rate). Form 1348 (טופס 1348) is the residency declaration and Form 5329 (טופס 5329) the foreign-income-and-assets disclosure under ITO Section 131A (סעיף 131א); foreign tax credit runs under Sections 199-210. Exit tax on ceasing residency is Section 100A (סעיף 100א). The filing DEADLINE is not asserted by this skill: the ITA defers it most years and the skill instructs the reader to look up the published notice.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "מימוש ” – מכירת הנכס בפועל",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -131,10 +133,10 @@
     },
     {
       "claim_id": "btl-health-residency",
-      "claim": "Section 58 of the National Health Insurance Law sets a return waiting period after a continuous 2+ year absence: 2 months per year abroad, capped at 6 months. Bituach Leumi treats a person as Israeli resident for the first 5 years abroad by default. Health-tax (דמי ביטוח בריאות) is a separate contribution category from bituach leumi; kupat cholim does not cover medical care abroad (narrow carve-out under the National Health Insurance Law + Health Regulations 5755-1995 for treatment unavailable in Israel).",
-      "source_url": "https://www.btl.gov.il/benefits/Health%20insurance/Pages/default.aspx",
-      "raw_snippet": "סעיף 58 לחוק ביטוח בריאות ממלכתי: תקופת המתנה בחזרה לאחר היעדרות רציפה - חודשיים לכל שנת היעדרות עד תקרה של 6 חודשים; חזקת תושבות 5 שנים בביטוח לאומי; הכיסוי הרפואי אינו חל בחו\"ל.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "claim": "The National Health Insurance waiting period on return is triggered only by 18+ consecutive months abroad AND at least 12 months of unpaid health-insurance contributions, or by loss of resident status. Continuing to pay therefore prevents it.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/An%20Insured%20Person%20Residing%20Abroad/Pages/Waitingperiod.aspx",
+      "raw_snippet": "If you have lived abroad for 18 consecutive months or more, and did not pay health insurance contributions for at least 12 months, or if you lost your status of Israeli resident - you will not be entitled to receive health services for a period of 6 months at most",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -142,10 +144,10 @@
     },
     {
       "claim_id": "section-14-severance",
-      "claim": "Section 14 of the Severance Pay Law 5723-1963 (חוק פיצויי פיטורים, התשכ\"ג-1963) is a contractual severance-waiver arrangement (pension contributions in lieu of separate severance); whether it applies is contractual, not locational. Keren hishtalmut has a 6-year liquidity clock. Converting to a foreign Employer-of-Record payroll freezes Israeli pension and keren hishtalmut accrual.",
+      "claim": "Section 14 of the Severance Pay Law 5723-1963 (סעיף 14 לחוק פיצויי פיטורים): employer contributions replace the full severance entitlement only where the employer deposited 8.33% of salary monthly to the severance fund; otherwise the employer must top up on termination.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים, התשכ\"ג-1963: הסדר ויתור על פיצויים בתמורה להפקדות פנסיה; קרן השתלמות נזילה לאחר 6 שנים.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק אם המעסיק הפריש מדי חודש לקופת הפיצויים 8.33% משכר העובד",
+      "fetched_at": "2026-08-26T19:54:02.600512+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -238,6 +240,130 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-waiting-period-length",
+      "claim": "If the waiting period is triggered, it is one month per year of absence, minimum two months and maximum six months. A year of absence means 12 months in which at least 182 days were spent abroad.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/An%20Insured%20Person%20Residing%20Abroad/Pages/Waitingperiod.aspx",
+      "raw_snippet": "For every year of absence from Israel, you will be subject to a waiting period of one month, being precised that the minimum waiting period is two months and the maximum waiting period six months",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-redemption-payment",
+      "claim": "An accrued waiting period can be redeemed by a special payment of NIS 16,860 (as of 1 January 2026), payable in one payment or up to six equal installments.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/An%20Insured%20Person%20Residing%20Abroad/Pages/7Specialpayment.aspx",
+      "raw_snippet": "you can redeem the waiting period with a special payment amounting to NIS 16,860 (as of Jan 01, 2026)",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-minimum-contribution-abroad",
+      "claim": "A person abroad without income pays insurance contributions at the minimum rate of NIS 266 per month (as of 1 January 2026).",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/An%20Insured%20Person%20Residing%20Abroad/Pages/PaymentAssurContributions.aspx",
+      "raw_snippet": "A person without income - will pay insurance contributions at minimum rate amounting to NIS 266 (as of Jan 01, 2026) per month",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-convention-country-health-only",
+      "claim": "An Israeli resident insured in a convention country and paying contributions there owes Israeli health-insurance contributions alone.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/An%20Insured%20Person%20Residing%20Abroad/Pages/PaymentAssurContributions.aspx",
+      "raw_snippet": "will have the obligation to pay health insurance contributions alone",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exit-tax-100a-no-interest-during-deferral",
+      "claim": "Under Section 100A(b) linkage differentials and interest are added only from the realization date until the tax is actually paid, so no interest accrues during the deferral itself.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "ואולם הפרשי הצמדה וריבית, כהגדרתם בסעיף 159א ייווספו רק החל במועד המימוש ועד לתשלום המס בפועל",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exit-tax-100a-asset-includes-options",
+      "claim": "For Section 100A purposes an asset includes shares and rights granted under sections 3(i) and 102 of the Income Tax Ordinance.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "נכס ” – לרבות מניות וזכויות שהוענקו כאמור בסעיפים 3(ט) ו-102",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "croatia-nomad-savings-2026",
+      "claim": "Croatia's digital-nomad stay requires EUR 3,622.50 per month, or savings of EUR 43,470 for a 12-month stay and EUR 65,205 for 18 months.",
+      "source_url": "https://mup.gov.hr/en/aliens-281621/stay-and-work/temporary-stay-of-digital-nomads/286833",
+      "raw_snippet": "you can provide proof that you have a minimum of 43.470,00 EUR already available in your bank account",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "croatia-nomad-savings-18mo",
+      "claim": "The 18-month Croatian digital-nomad savings threshold is EUR 65,205.",
+      "source_url": "https://mup.gov.hr/en/aliens-281621/stay-and-work/temporary-stay-of-digital-nomads/286833",
+      "raw_snippet": "you nned to provide proof that you have a minimum of 65.205,00 EUR available in your bank account",
+      "fetched_at": "2026-08-26T19:52:54.016148+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "toshav-chozer-clock-foreign-resident",
+      "claim": "A 'toshav chozer' is defined in the Income Tax Ordinance as an individual who returned and became an Israeli resident after being a FOREIGN RESIDENT for at least six consecutive years. Years spent physically abroad while still an Israeli resident do not count toward the clock.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "תושב חוזר \" – יחיד ששב והיה לתושב ישראל לאחר שהיה תושב חוץ במשך שש שנים רצופות לפחות",
+      "fetched_at": "2026-08-26T20:12:11.974554+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nomad-decision.py"
+      ]
+    },
+    {
+      "claim_id": "toshav-chozer-vatik-ten-years",
+      "claim": "A 'toshav chozer vatik' is defined as an individual who returned and became an Israeli resident after being a FOREIGN RESIDENT for at least ten consecutive years.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "תושב חוזר ותיק \" – יחיד ששב והיה לתושב ישראל לאחר שהיה תושב חוץ במשך עשר שנים רצופות לפחות",
+      "fetched_at": "2026-08-26T20:12:11.974554+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nomad-decision.py"
+      ]
+    },
+    {
+      "claim_id": "adjustment-year-section-14b",
+      "claim": "An individual who becomes an Israeli resident for the first time or a veteran returning resident may elect an adjustment year (שנת הסתגלות), in which they are not treated as an Israeli resident, by notifying within 90 days of arrival on the form prescribed by the Director.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "raw_snippet": "לא יראו יחיד שהיה לתושב ישראל לראשונה או לתושב חוזר ותיק, כתושב ישראל, במשך שנה אחת מהמועד שבו עלה או שב לישראל",
+      "fetched_at": "2026-08-26T20:12:11.974554+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nomad-decision.py"
       ]
     }
   ]
