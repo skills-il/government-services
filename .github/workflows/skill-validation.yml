@@ -84,8 +84,14 @@ jobs:
         if: steps.changed.outputs.files != ''
         run: |
           chmod +x scripts/validate-skill.sh
-          # shellcheck disable=SC2086
-          ./scripts/validate-skill.sh ${{ steps.changed.outputs.files }}
+          # `files` is a NEWLINE-separated list. Interpolating it directly into the
+          # command line meant that with 2+ changed skills every line after the first
+          # was executed as its own command ("Permission denied", exit 126), so the
+          # second and later skills in a batch push were never validated at all.
+          # Feed it through xargs so all paths land as arguments to one invocation.
+          printf '%s\n' "${{ steps.changed.outputs.files }}" \
+            | sed '/^$/d' \
+            | xargs -r ./scripts/validate-skill.sh
 
       - name: Check evidence.json present for touched skill folders
         if: steps.changed.outputs.files != ''
