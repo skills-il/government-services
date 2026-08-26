@@ -1,5 +1,37 @@
 # Changelog
 
+## 1.4.1 - 2026-08-26
+
+Documents the programmatic route to a postal code, which 1.4.0 said did not exist in a usable
+form. It does exist, undocumented, and the honest description of it is worth more than silence:
+an agent told only "use the web form" will either give up or invent a mikud.
+
+- The Israel Post site is backed by an undocumented JSON API. It is now documented as a
+  best-effort route alongside the web form, which remains the supported and documented one.
+- **The key derivation is the instruction, not the key.** A hardcoded subscription key breaks
+  silently the day it rotates and every installed copy is wrong at once, so the skill teaches
+  how to pull the current key out of the live client bundle, including the two things that make
+  that fail: the page is bot-protected against a plain fetch, and the bundle carries stray NUL
+  bytes that make a plain grep return nothing. The observed key is recorded with its
+  verification date only so a reader can tell a rotation from a bug.
+- **Terms of use are recorded as NOT established.** Israel Post's published terms govern the
+  customer portal and say nothing about programmatic access, so the skill does not claim
+  automated use is permitted and tells anyone planning volume use to ask Israel Post.
+- No evasion guidance: the API is verified to accept the subscription key alone, with no
+  Origin, Referer or User-Agent header, so no forged headers are documented. The skill
+  explicitly forbids retry storms, rotating identities and working around a block.
+- **HTTP 401 means the key is stale, not that the address is unknown.** Reporting a 401 as
+  "address not found" is a confidently wrong answer, so that mapping is now stated in the body.
+- `divided: false` localities carry their whole answer in the city record's own zip field
+  (דגניה א' 1512000, כפר קאסם 4881000, נהלל 1060000); the street call must not run for them.
+- Branch on `msgtype`: `address`, `unitedtown` (bad house number in a locality that does have
+  streets) and `notfound` are three different outcomes.
+- Passing the semel yishuv where Israel Post's internal CityID is expected returns HTTP 200
+  with an empty array and no error, verified against the same call with the correct id.
+
+The 6688310 postal code corrected in 1.4.0 is now confirmed a second way, by a reverse lookup
+that round-trips back to שדרות רוטשילד 42.
+
 ## 1.4.0 - 2026-08-26
 
 Corrections, each of which produced a confidently wrong answer rather than an error:

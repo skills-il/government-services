@@ -61,13 +61,66 @@ it rather than the HTML catalogue, which no longer exists. Both datasets are pub
 A bad `resource_id` returns an HTML error page rather than JSON, so parse the response as JSON
 and treat a parse failure as a bad request, not as an empty result set.
 
-**Postal code (mikud): there is no keyless public API.** The Israel Post site is backed by a
-JSON API on `apimftprd.israelpost.co.il` that requires a subscription key the site injects;
-called without one it returns HTTP 401 `Access denied due to missing subscription key`. Do not
-scrape that key. The supported route is the web form at
-<https://doar.israelpost.co.il/locatezip>, which resolves in three steps: locality, then street
-within that locality, then house number. **Do not use `bennymeg/IsraelPostalServiceAPI` for
-mikud**, that library is a shipping-price calculator, not an address-to-mikud lookup.
+**Postal code (mikud): the documented route is the web form; there is an undocumented API.**
+
+The supported, documented route is the web form at <https://doar.israelpost.co.il/locatezip>,
+which resolves in three steps: locality, then street within that locality, then house number.
+Use it for one-off lookups and treat it as the compliant option.
+
+Behind that form is an undocumented JSON API on `apimftprd.israelpost.co.il`, gated by a
+subscription key that the site's own client bundle carries. It is usable, and it is the only way
+to resolve a mikud programmatically, but treat it as **best-effort, not a contract**:
+
+| | |
+|---|---|
+| Terms of use | **Not established.** Israel Post's published terms at `/content/term-of-use/` govern the customer portal (registration, tracking, chat) and say nothing about programmatic access to this endpoint. Do not tell a user that automated use is permitted. If they intend volume use, tell them to ask Israel Post. |
+| Stability | Undocumented and unversioned. The key can rotate without notice and the paths can change. |
+| Rate limits | Unknown and unpublished. Keep volume low and sequential. **Never** work around a block: no retry storms, no rotating identities, no forged headers. If you are blocked, stop and tell the user. |
+
+**Derive the key; do not hardcode it.** A hardcoded key breaks silently the day it rotates, and
+every installed copy is wrong at once. The derivation is the durable instruction:
+
+1. Load <https://doar.israelpost.co.il/locatezip> and read the script tag matching
+   `/assets/index-<HASH>.js`. **This page is bot-protected and returns a redirect to a block
+   page for a plain fetch**, so this step generally needs a real browser session.
+2. Fetch that bundle and search it for `Ocp-Apim-Subscription-Key`. It sits next to
+   `baseURL:"https://apimftprd.israelpost.co.il"`.
+3. **The bundle contains stray NUL bytes**, so a plain `grep` can return nothing on a file that
+   does contain the key. Strip `\x00` before matching.
+
+Observed implementation detail, verified 2026-08-26 and recorded so a reader can tell a rotation
+from a bug: the key in the bundle was `5ccb5b137e7444d885be752eda7f767a`, and the API accepts the
+key **alone**, with no `Origin`, `Referer` or `User-Agent` header. Do not send forged headers.
+
+The three calls, then the reverse lookup that round-trips the answer:
+
+```
+GET /mypost-zip/getcities-lang?CityStartsWith=<name>&Lang=he
+    -> {"id":"1212","sym":"5000","n":"תל אביב - יפו","divided":true,"zip":"0000000"}
+GET /mypost-zip/GetStreets-lang?CityID=1212&CityName=&SearchMode=ID-StartsWith&StartsWith=<street>&Lang=he
+    -> {"id":"101482","sym":"1103","n":"שדרות רוטשילד"}
+GET /mypost-zip/SearchZip-Lang?CityID=1212&StreetID=101482&House=42&Entry=&Lang=he&ByMaanimID=true
+    -> {"zip":"6688310","msgtype":"address"}
+GET /mypost-zip/searchaddressbyzip-lang?Zip=6688310&Lang=he     (reverse, use it to self-check)
+    -> {"cityname":"תל אביב - יפו","streetname":"שדרות רוטשילד","houseNum":"42"}
+```
+
+**Three ways this fails silently, and how to tell them apart:**
+
+- **HTTP 401 means the key is stale, NOT that the address is unknown.** Re-derive the key and
+  retry once. Never report a 401 as "address not found"; that is a confidently wrong answer.
+- **`divided: false` means the locality has no streets.** The city record then carries the whole
+  answer in its own `zip` field (דגניה א' 1512000, כפר קאסם 4881000, נהלל 1060000). Stop there;
+  do not run the street call.
+- **Branch on `msgtype`.** `address` is a real hit, `unitedtown` means the house number does not
+  exist in a locality that does have streets, `notfound` means no such mikud. Collapsing these
+  into "not found" loses the distinction the user needs.
+
+Passing the semel yishuv (5000) where `CityID` (1212) is expected returns `"Result":[]` with
+HTTP 200 and no error. See the id-space table below.
+
+**Do not use `bennymeg/IsraelPostalServiceAPI` for mikud**, that library is a shipping-price
+calculator, not an address-to-mikud lookup.
 
 - **No street:** Suggest closest matching streets from the street dataset above.
 

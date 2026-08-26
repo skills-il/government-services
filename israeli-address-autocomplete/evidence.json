@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-address-autocomplete",
-  "generated_at": "2026-08-26T17:28:40Z",
+  "generated_at": "2026-08-26T17:59:49Z",
   "claims": [
     {
       "claim_id": "cbs-city-codes",
@@ -36,7 +36,7 @@
     },
     {
       "claim_id": "israel-post-mikud",
-      "claim": "Israel Post's mikud lookup is the web form at doar.israelpost.co.il/locatezip. The site is backed by a JSON API on apimftprd.israelpost.co.il that requires a subscription key: calling it without one returns HTTP 401 with the message that the subscription key is missing, while an undefined sibling path on the same host returns HTTP 404, so the host discriminates and the 401 is a real auth gate rather than a dead endpoint. There is therefore no keyless public mikud-by-address API.",
+      "claim": "Israel Post's documented mikud route is the web form at doar.israelpost.co.il/locatezip. Behind it is an undocumented JSON API on apimftprd.israelpost.co.il gated by a subscription key carried in the site's client bundle. Called without a key it returns HTTP 401 'Access denied due to missing subscription key'; an undefined sibling path returns HTTP 404 'Resource not found', so the host discriminates and the 401 is a real auth gate rather than a dead endpoint. The API accepts the subscription key alone, with no Origin, Referer or User-Agent header. The key observed on 2026-08-26 was 5ccb5b137e7444d885be752eda7f767a; it is undocumented and may rotate.",
       "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/getcities-lang?Lang=he",
       "raw_snippet": "{ \"statusCode\": 401, \"message\": \"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API.\" }",
       "fetched_at": "2026-08-26T17:10:02Z",
@@ -45,8 +45,8 @@
         "SKILL_HE.md",
         "scripts/lookup_address.py"
       ],
-      "verified_via": "curl, with an undefined sibling path returning 404 as a negative control",
-      "verified_at": "2026-08-26T17:10:02Z"
+      "verified_via": "curl, key-only with no forged headers; negative controls run in the same session: no key -> 401, undefined sibling path -> 404",
+      "verified_at": "2026-08-26T17:59:49Z"
     },
     {
       "claim_id": "govmap-api",
@@ -246,6 +246,71 @@
       "verified_via": "curl with a filters query; total 1310 returned against a dataset total of 63571, and the sampled rows show שם_רחוב equal to שם_ישוב",
       "fetched_at": "2026-08-26T17:28:40Z",
       "verified_at": "2026-08-26T17:28:40Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-mikud-6688310-roundtrip",
+      "claim": "The mikud for שדרות רוטשילד 42, תל אביב - יפו is 6688310. Forward: SearchZip-Lang with CityID=1212, StreetID=101482, House=42 returns zip 6688310 with msgtype 'address'. Reverse: searchaddressbyzip-lang with Zip=6688310 returns תל אביב - יפו, שדרות רוטשילד, houseNum 42. The two round-trip, which is the strongest available check that 6688312 (the value this skill previously carried) is wrong.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/searchaddressbyzip-lang?Zip=6688310&Lang=he",
+      "raw_snippet": "{\"zip\":null,\"cityid\":\"1212\",\"cityname\":\"תל אביב - יפו\",\"streetid\":\"101482\",\"streetname\":\"שדרות רוטשילד\",\"msgtype\":\"address\",\"messageResult\":\"תל אביב - יפו, שדרות רוטשילד 42\"",
+      "verified_via": "curl round-trip, key-only, no forged headers; independently corroborates the earlier read of the rendered web form",
+      "fetched_at": "2026-08-26T17:59:49Z",
+      "verified_at": "2026-08-26T17:59:49Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-divided-false-citywide-zip",
+      "claim": "A locality with divided:false carries one locality-wide mikud in the zip field of its own city record, so the street call must not be run for it: דגניה א' 1512000, כפר קאסם 4881000, נהלל 1060000. A divided:true locality such as תל אביב - יפו returns the placeholder zip 0000000 on the city record and requires the street and house calls.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/getcities-lang?CityStartsWith=%D7%93%D7%92%D7%A0%D7%99%D7%94%20%D7%90&Lang=he",
+      "raw_snippet": "\"n\":\"דגניה א'\",\"divided\":false,\"zip\":\"1512000\"",
+      "verified_via": "curl, key-only; three localities queried and all three returned divided false with a non-placeholder city-wide zip",
+      "fetched_at": "2026-08-26T17:59:49Z",
+      "verified_at": "2026-08-26T17:59:49Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-semel-as-cityid-silent-empty",
+      "claim": "Passing the semel yishuv 5000 where Israel Post's internal CityID 1212 is expected returns HTTP 200 with an empty Result array and no error, so the failure is silent and reads as 'street not found'.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/GetStreets-lang?CityID=5000&CityName=&SearchMode=ID-StartsWith&StartsWith=%D7%A8%D7%95%D7%98%D7%A9%D7%99%D7%9C%D7%93&Lang=he",
+      "raw_snippet": "{\"ReturnCode\": 0, \"ErrorMessage\": null, \"Result\": []}  (for CityID=5000, versus  \"Result\": [{\"id\":\"101482\",\"sym\":\"1103\",\"n\":\"שדרות רוטשילד\",\"syn\":\"רוטשילד\",\"cityID\":\"1212\"}]  for CityID=1212)",
+      "verified_via": "curl, key-only; the same call with CityID=1212 returns the street row, so the empty array is attributable to the id space and not to the query",
+      "fetched_at": "2026-08-26T17:59:49Z",
+      "verified_at": "2026-08-26T17:59:49Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-msgtype-unitedtown",
+      "claim": "A house number that does not exist in a divided locality returns an empty zip with msgtype 'unitedtown', which is distinct from 'notfound'. Branching on msgtype is how an agent tells a bad house number from a locality with no street-level mikud.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/SearchZip-Lang?CityID=1212&StreetID=101482&House=99999&Lang=he&ByMaanimID=true",
+      "raw_snippet": "\"msgtype\":\"unitedtown\"",
+      "verified_via": "curl, key-only; House=42 on the same street returns msgtype address, so the difference is attributable to the house number",
+      "fetched_at": "2026-08-26T17:59:49Z",
+      "verified_at": "2026-08-26T17:59:49Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-terms-of-use-silent",
+      "claim": "Israel Post's published terms of use at doar.israelpost.co.il/content/term-of-use/ are titled תנאי שימוש and govern the CUSTOMER PORTAL: registration, tracked-item status, ordering services, payment and chat with representatives. They contain no provision addressing programmatic access, crawling, scraping or automated querying. Whether automated use of the mikud endpoint is permitted is therefore NOT established and must not be asserted.",
+      "source_url": "https://doar.israelpost.co.il/content/term-of-use/",
+      "raw_snippet": "פורטל הלקוחות של דואר ישראל מתוכנן לאפשר ללקוחות ניהול מכלול הפעילויות שלהם מול דואר ישראל",
+      "verified_via": "browser, 2937 characters read with location.href asserted INSIDE the same evaluate call that extracted the text; a search for רובוט, אוטומט, crawler, scrap, מסחרי, איסוף and כריית returned no provision on programmatic access",
+      "fetched_at": "2026-08-26T17:59:49Z",
+      "verified_at": "2026-08-26T17:59:49Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
