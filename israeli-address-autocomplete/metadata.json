@@ -5,20 +5,19 @@
   "tags": {
     "he": [
       "כתובת",
-      "גאוקודינג",
       "מיקוד",
+      "דואר-ישראל",
       "ישראל",
       "סמל-יישוב",
-      "נתונים-פתוחים"
+      "טפסים"
     ],
     "en": [
       "address",
-      "geocoding",
       "postal-code",
       "mikud",
       "israel",
       "semel-yishuv",
-      "data-gov-il"
+      "forms"
     ]
   },
   "display_name": {
