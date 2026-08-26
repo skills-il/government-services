@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-address-autocomplete",
-  "generated_at": "2026-05-31T00:00:00Z",
+  "generated_at": "2026-08-26T17:28:40Z",
   "claims": [
     {
       "claim_id": "cbs-city-codes",
-      "claim": "CBS/Interior settlement (semel yishuv) codes from the data.gov.il \"רשימת ישובים בישראל\" dataset: Jerusalem 3000, Tel Aviv - Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Ramat Gan 8600, Modiin-Maccabim-Reut 1200, Nazareth 7300, Eilat 2600. The dataset lists 1,310 localities.",
-      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1400",
-      "raw_snippet": "\"סמל_ישוב\":\"3000 \",\"שם_ישוב\":\"ירושלים \"; \"סמל_ישוב\":\"5000 \",\"שם_ישוב\":\"תל אביב - יפו \"; \"סמל_ישוב\":\"4000 \",\"שם_ישוב\":\"חיפה \"; \"סמל_ישוב\":\"8300 \",\"שם_ישוב\":\"ראשון לציון \"; \"סמל_ישוב\":\"7900 \",\"שם_ישוב\":\"פתח תקווה \"; \"סמל_ישוב\":\"70 \",\"שם_ישוב\":\"אשדוד \"; \"סמל_ישוב\":\"7400 \",\"שם_ישוב\":\"נתניה \"; \"סמל_ישוב\":\"9000 \",\"שם_ישוב\":\"באר שבע \"; \"סמל_ישוב\":\"8600 \",\"שם_ישוב\":\"רמת גן \"; \"סמל_ישוב\":\"1200 \",\"שם_ישוב\":\"מודיעין-מכבים-רעות \"; \"סמל_ישוב\":\"7300 \",\"שם_ישוב\":\"נצרת \"; \"סמל_ישוב\":\"2600 \",\"שם_ישוב\":\"אילת \"; \"total\": 1310",
-      "fetched_at": "2026-08-11",
+      "claim": "Settlement (semel yishuv) codes verified against the full 1,310-record authoritative list on data.gov.il, all 30 rows of references/city-codes.md enumerated rather than spot-checked: Jerusalem 3000, Tel Aviv-Yafo 5000, Haifa 4000, Rishon LeZion 8300, Petah Tikva 7900, Ashdod 70, Netanya 7400, Beer Sheva 9000, Holon 6600, Bnei Brak 6100, Ramat Gan 8600, Bat Yam 6200, Rehovot 8400, Ashkelon 7100, Herzliya 6400, Kfar Saba 6900, Raanana 8700, Modiin 1200, Nazareth 7300, Lod 7000, Ramla 8500, Givatayim 6300, Eilat 2600, Tiberias 6700, Karmiel 1139, Afula 7700, Hadera 6500, and the three corrected this cycle: Bet Shemesh 2610 (was wrongly 3730, which is Givat Zeev), Acre 7600 (was wrongly 4100, which is Katzrin), Nahariya 9100 (was wrongly 7500, which is Sakhnin). The list is published by רשות האוכלוסין וההגירה, not by the CBS.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1500",
+      "raw_snippet": "\"סמל_ישוב\": \"2610 \"",
+      "fetched_at": "2026-08-26T17:10:02Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -16,70 +16,77 @@
         "scripts/lookup_address.py"
       ],
       "source_note": "Each listed code was queried individually against the same CKAN datastore resource; total record count returned by the API was 1310.",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
+      "verified_via": "curl, full 1310-record enumeration diffed against every row of the reference table",
+      "verified_at": "2026-08-26T17:10:02Z"
     },
     {
       "claim_id": "postal-code-format",
-      "claim": "The Israeli postal code (mikud) is looked up per address through the Israel Post lookup form; there is no official public API.",
+      "claim": "The Israeli postal code (mikud) is 7 digits and is resolved per address, not per city, through the Israel Post lookup form. The form asks for locality, then street within that locality, then house number. There is no keyless public API: see the israel-post-mikud claim for the 401-versus-404 test that establishes the backing endpoint is auth-gated rather than dead.",
       "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
-      "fetched_at": "2026-08-10",
+      "raw_snippet": "איתור המיקוד לפי: כתובת ת.ד יישוב",
+      "fetched_at": "2026-08-26T17:19:37Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/city-codes.md"
       ],
-      "verified_via": "browser",
-      "source_note": "The page is client-rendered; read in Playwright with location.href asserted."
+      "verified_via": "browser, page text read with location.href asserted; the site is Radware bot-gated so curl returns an undifferentiated SPA shell and is not a valid check for this host",
+      "source_note": "The page is client-rendered; read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-26T17:19:37Z"
     },
     {
       "claim_id": "israel-post-mikud",
-      "claim": "Israel Post's mikud lookup is a web form at doar.israelpost.co.il/locatezip; there is no official public mikud-by-address API. The bennymeg/IsraelPostalServiceAPI library is a shipping-price calculator, not a mikud lookup.",
-      "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "מיקוד",
-      "fetched_at": "2026-05-31T00:00:00Z",
+      "claim": "Israel Post's mikud lookup is the web form at doar.israelpost.co.il/locatezip. The site is backed by a JSON API on apimftprd.israelpost.co.il that requires a subscription key: calling it without one returns HTTP 401 with the message that the subscription key is missing, while an undefined sibling path on the same host returns HTTP 404, so the host discriminates and the 401 is a real auth gate rather than a dead endpoint. There is therefore no keyless public mikud-by-address API.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/getcities-lang?Lang=he",
+      "raw_snippet": "{ \"statusCode\": 401, \"message\": \"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API.\" }",
+      "fetched_at": "2026-08-26T17:10:02Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL_HE.md",
+        "scripts/lookup_address.py"
+      ],
+      "verified_via": "curl, with an undefined sibling path returning 404 as a negative control",
+      "verified_at": "2026-08-26T17:10:02Z"
     },
     {
       "claim_id": "govmap-api",
-      "claim": "GovMap publishes an official API documentation site at api.govmap.gov.il covering URL parameters, HTML embedding and JavaScript functions, including advanced search functions that work without an embedded map; the national map portal itself is at govmap.gov.il.",
-      "source_url": "https://api.govmap.gov.il/docs/intro",
-      "raw_snippet": "פורטל המפות הממשלתי, GovMap, מספק יכולות שיתו",
-      "fetched_at": "2026-08-11",
+      "claim": "api.govmap.gov.il serves a developer DOCUMENTATION site, not a callable REST endpoint. GovMap is delivered as a JavaScript SDK (govmap.api.js), and its functions require a valid API key sent from an APPROVED DOMAIN on every call, so it cannot be driven from a CLI or a server-side agent. The documentation entry point is https://api.govmap.gov.il/docs/intro and the standalone-usage page carrying the API-key requirement is https://api.govmap.gov.il/docs/intro/standalone.",
+      "source_url": "https://api.govmap.gov.il/docs/intro/standalone",
+      "raw_snippet": "השימוש בפונקציות אינו מחייב יצירת מפה, אך מחייב שליחת מפתח API תקף, מהדומיין המאושר, בכל קריאה",
+      "fetched_at": "2026-08-26T17:10:02Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:19:37Z"
     },
     {
       "claim_id": "mapi-parcel-tool",
-      "claim": "The Survey of Israel block/parcel-by-address (gush/helka) tool is at gov.il/apps/mapi/parcel_address/parcel_address.html; the old mapi.gov.il/Pages/LotAddressLocator.aspx path was retired and now redirects to a generic landing page.",
+      "claim": "The Survey of Israel block/parcel-by-address (gush/helka) tool is at gov.il/apps/mapi/parcel_address/parcel_address.html. The host is Cloudflare-protected and returns HTTP 403 to curl, and the 403 body is identical for a nonsense sibling path, so curl cannot confirm the specific page. It renders for a human in a browser. Treat this as a human-facing tool, not an agent-callable endpoint.",
       "source_url": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
-      "raw_snippet": "https://www.gov.il/apps/mapi/parcel_address/parcel_address.html",
-      "fetched_at": "2026-05-31T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "data-gov-il",
-      "claim": "data.gov.il hosts the street dataset \"רשימת רחובות ישראל\" and the locality dataset \"רשימת ישובים בישראל\", queryable through the CKAN datastore_search API. The record fields are the Hebrew names סמל_ישוב, שם_ישוב and שם_ישוב_לועזי (there are no city_code / city_name_he / city_name_en fields).",
-      "source_url": "https://data.gov.il/api/3/action/package_show?id=321",
-      "raw_snippet": "\"title\": \"\\u05e8\\u05e9\\u05d9\\u05de\\u05ea \\u05e8\\u05d7\\u05d5\\u05d1\\u05d5\\u05ea \\u05d9\\u05e9\\u05e8\\u05d0\\u05dc\"",
-      "fetched_at": "2026-08-11",
+      "raw_snippet": "איתור גוש, חלקה וכתובת",
+      "fetched_at": "2026-08-26T17:19:37Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
+      "verified_via": "browser render; curl returns an undifferentiated 403 Cloudflare block whose body is byte-identical for a nonsense sibling path, so curl is not a valid check for this host",
+      "verified_at": "2026-08-26T17:19:37Z"
+    },
+    {
+      "claim_id": "data-gov-il",
+      "claim": "data.gov.il exposes a keyless public CKAN API. The settlements dataset resource_id is 5c78e9fa-c2e2-4771-93ff-7f400a12f7ba and holds 1,310 records with fields סמל_ישוב, שם_ישוב and שם_נפה. The streets dataset resource_id is 9ad3862c-8391-4b2f-84a4-2d4c68625f4b with fields סמל_ישוב, שם_ישוב, סמל_רחוב and שם_רחוב. Both datasets are published by רשות האוכלוסין וההגירה. A bad resource_id returns an HTML error page rather than JSON.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-26T17:10:02Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/lookup_address.py"
+      ],
+      "verified_via": "curl, 1310 records returned, bogus resource_id returns HTTP 404 as a negative control",
+      "verified_at": "2026-08-26T17:10:02Z"
     },
     {
       "claim_id": "cbs-directory",
@@ -95,16 +102,16 @@
     },
     {
       "claim_id": "illustrative-figures",
-      "claim": "Illustrative example only (not a verified address record): Rothschild 42, Tel Aviv-Yafo, mikud 6688312, CBS code 5000; example block/parcel 6213/250. The Tel Aviv-Yafo code 5000 is the one verified figure here.",
+      "claim": "Verified against the Israel Post mikud lookup form: the postal code (mikud) for שדרות רוטשילד 42, תל אביב - יפו is 6688310. The form resolves it in three steps, locality then street then house number. An earlier version of this skill carried 6688312, which is not the code that address returns.",
       "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "איתור מיקוד איתור המיקוד לפי: כתובת ת.ד יישוב",
-      "fetched_at": "2026-08-10",
+      "raw_snippet": "המיקוד לכתובת הינו: 6688310",
+      "fetched_at": "2026-08-26T17:10:02Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "source_note": "The mikud and block/parcel numbers in this example were NOT re-verified against Israel Post; they are illustrative and the skill body presents them as an example."
+      "verified_via": "browser: navigated https://doar.israelpost.co.il/locatezip, asserted location.href, selected יישוב='תל אביב - יפו' and רחוב='שדרות רוטשילד', entered house number 42, submitted, and read the rendered result text. The site is Radware bot-gated, so this is reproducible only from a real browser session and a later curl or a fresh navigation may be blocked. The form's own network trace showed the three-call chain getcities-lang, GetStreets-lang, SearchZip-Lang.",
+      "verified_at": "2026-08-26T17:19:37Z"
     },
     {
       "claim_id": "govmap-api-site",
@@ -131,18 +138,6 @@
       ]
     },
     {
-      "claim_id": "datagov-dataset-url-dead",
-      "claim": "DEAD LINK: https://data.gov.il/dataset redirects to /he/dataset and serves the site's not-found page. The live dataset catalogue is https://data.gov.il/datasets. The skill's reference table still links the dead URL.",
-      "source_url": "https://data.gov.il/dataset",
-      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
-      "fetched_at": "2026-08-11",
-      "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md"
-      ]
-    },
-    {
       "claim_id": "cbs-homepage",
       "claim": "cbs.gov.il is the site of the Israel Central Bureau of Statistics (הלשכה המרכזית לסטטיסטיקה).",
       "source_url": "https://www.cbs.gov.il",
@@ -156,16 +151,104 @@
     },
     {
       "claim_id": "data-gov-il-datasets-url",
-      "claim": "The data.gov.il catalogue lives at /datasets. The older /dataset path redirects to /he/dataset and returns HTTP 404 with 'מצטערים, העמוד שחיפשת לא נמצא'; a plain fetch cannot see this because the site is client-rendered and serves a 200 shell.",
+      "claim": "DEAD LINK: https://data.gov.il/datasets now returns HTTP 404 and a 76-character Hebrew error page. The CKAN API on the same host is healthy and is the correct access path.",
       "source_url": "https://data.gov.il/datasets",
-      "raw_snippet": "מאגרי המידע הממשלתיים | מאגרי מידע",
-      "fetched_at": "2026-08-12",
-      "verified_via": "browser-playwright",
-      "verified_at": "2026-08-12",
+      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
+      "fetched_at": "2026-08-26T17:10:02Z",
+      "verified_via": "curl, HTTP 404, 76 visible characters",
+      "verified_at": "2026-08-26T17:10:02Z",
+      "appears_in": []
+    },
+    {
+      "claim_id": "israelpost-no-address-list",
+      "claim": "Israel Post publishes an authoritative list of localities with no delivery address or with mixed delivery (ישובים ללא כתובת חלוקה מעורבת). These are the localities that are not divided into streets and carry a single locality-wide mikud.",
+      "source_url": "https://doar.israelpost.co.il/content/no-address",
+      "raw_snippet": "ישובים ללא כתובת חלוקה מעורבת",
+      "fetched_at": "2026-08-26T17:10:02Z",
+      "verified_via": "browser, link read from the footer of the live locatezip page with location.href asserted",
+      "verified_at": "2026-08-26T17:10:02Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israelpost-city-id-distinct-from-semel",
+      "claim": "Israel Post's lookup form addresses localities and streets by internal ids that are NOT the semel yishuv or the semel rechov. After selecting תל אביב - יפו in the locality field, the form's own requests carry CityID=1212, while the semel yishuv for that locality is 5000. The internal ids are only observable from the form's network traffic, because the endpoint itself is subscription-key gated. Passing a semel yishuv where the internal city id is expected returns an empty result with no error.",
+      "source_url": "https://apimftprd.israelpost.co.il/mypost-zip/GetStreets-lang?CityID=1212&CityName=&SearchMode=ID-StartsWith&StartsWith=%D7%A8%D7%95%D7%98%D7%A9%D7%99%D7%9C%D7%93&Lang=he",
+      "raw_snippet": "GET https://apimftprd.israelpost.co.il/mypost-zip/GetStreets-lang?CityID=1212&CityName=&SearchMode=ID-StartsWith&StartsWith=רוטשילד&Lang=he",
+      "fetched_at": "2026-08-26T17:10:02Z",
+      "verified_via": "browser: observed in the live network trace of doar.israelpost.co.il/locatezip with location.href asserted, after selecting תל אביב - יפו. The endpoint returns HTTP 401 without the site's subscription key, so the value cannot be re-checked by a direct call; the evidence is the request the site itself issues.",
+      "verified_at": "2026-08-26T17:19:37Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-ckan-datastore-endpoint",
+      "claim": "The data.gov.il CKAN datastore_search endpoint is https://data.gov.il/api/3/action/datastore_search and the dataset discovery endpoint is https://data.gov.il/api/3/action/package_search. Both are keyless.",
+      "source_url": "https://data.gov.il/api/3/action/package_search?q=%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA",
+      "raw_snippet": "\"success\": true, \"result\": {\"count\":",
+      "fetched_at": "2026-08-26T17:10:24Z",
+      "verified_via": "curl, JSON returned with success true; a nonsense action path returns an HTML error page as a negative control",
+      "verified_at": "2026-08-26T17:10:24Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/domain-checklist.md"
+        "scripts/lookup_address.py"
+      ]
+    },
+    {
+      "claim_id": "datagov-trailing-whitespace",
+      "claim": "Every one of the 1,310 שם_ישוב values in the data.gov.il settlements dataset carries trailing whitespace, so an exact-match join on the raw field returns nothing.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1500",
+      "raw_snippet": "\"שם_ישוב\":\"אבו גוש \"",
+      "verified_via": "curl, full 1310-record enumeration; 1310 of 1310 values differ from their stripped form",
+      "fetched_at": "2026-08-26T17:28:40Z",
+      "verified_at": "2026-08-26T17:28:40Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-bedouin-shevet-yishuv-pairs",
+      "claim": "Bedouin localities appear twice in the settlements dataset, once as (שבט) and once as (יישוב), sharing a Latin name across different settlement codes: ABU QUREINAT is אבו קורינאת (שבט) 968 and אבו קרינאת (יישוב) 1342, with the Hebrew spellings also differing; KHAWALED is 986 and 1321; TARABIN AS-SANI is 970 and 1346.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1500",
+      "raw_snippet": "\"שם_ישוב\":\"אבו קורינאת (שבט) \"",
+      "verified_via": "curl, full 1310-record enumeration; the three duplicate Latin values and their differing codes were listed programmatically",
+      "fetched_at": "2026-08-26T17:28:40Z",
+      "verified_at": "2026-08-26T17:28:40Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-latin-name-truncated",
+      "claim": "The settlements dataset's Latin name field שם_ישוב_לועזי is hard-truncated at 20 characters on 15 rows, including MODI'IN-MAKKABBIM-RE and ASHDOT YA'AQOV(ME'UH, and is empty on rows including חברון 3400 and סנסנה 3777. It is not usable as a join key.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1500",
+      "raw_snippet": "\"סמל_ישוב\": \"1200 \", \"שם_ישוב\": \"מודיעין-מכבים-רעות \", \"שם_ישוב_לועזי\": \"MODI'IN-MAKKABBIM-RE\"",
+      "verified_via": "curl, full 1310-record enumeration; 15 values measured at exactly 20 characters and 4 measured empty",
+      "fetched_at": "2026-08-26T17:28:40Z",
+      "verified_at": "2026-08-26T17:28:40Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "datagov-street-self-row-9000",
+      "claim": "Every locality has a self-row in the data.gov.il streets dataset with סמל_רחוב = 9000 whose שם_רחוב equals the locality name. Filtering the streets dataset on סמל_רחוב = 9000 returns exactly 1,310 rows out of 63,571 total, one per locality. A locality whose only street row is this sentinel has no named streets.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=9ad3862c-8391-4b2f-84a4-2d4c68625f4b&filters=%7B%22%D7%A1%D7%9E%D7%9C_%D7%A8%D7%97%D7%95%D7%91%22%3A9000%7D",
+      "raw_snippet": "\"סמל_ישוב\": 472, \"שם_ישוב\": \"אבו גוש \", \"סמל_רחוב\": 9000, \"שם_רחוב\": \"אבו גוש\"",
+      "verified_via": "curl with a filters query; total 1310 returned against a dataset total of 63571, and the sampled rows show שם_רחוב equal to שם_ישוב",
+      "fetched_at": "2026-08-26T17:28:40Z",
+      "verified_at": "2026-08-26T17:28:40Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]
