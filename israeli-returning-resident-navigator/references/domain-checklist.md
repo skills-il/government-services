@@ -2,7 +2,7 @@
 
 Scope: end-to-end process navigator for Israelis returning to Israel after years abroad. Helps disambiguate eligibility tracks (regular toshav chozer / toshav chozer vatik / shorter Misrad HaAliyah track) and walks through the first 90 days of re-entry. Process-level only, not tax math and not customs/vehicle.
 
-Last research date: 2026-05-23.
+Last research date: 2026-08-26.
 
 ## Must cover (core process - agent must surface these in any meaningful answer)
 
@@ -30,7 +30,8 @@ Last research date: 2026-05-23.
    - Anyone who didn't pay BL while abroad: BL may demand back-payment to maintain insurance continuity ("רצף ביטוחי"); confirm exposure with the BL branch before submitting Form 628.
 
 5. **Kupat cholim re-enrollment + waiting period**
-   - Waiting period: **1 month per year of absence**, minimum **2 months (חודשיים)** for those abroad 12+ months, maximum **6 months** ([kolzchut - joining kupat cholim as returning resident](https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA), updated 15.01.2026).
+   - Waiting period TRIGGER: applies only to someone abroad **18 consecutive months or more** who also went **12+ months without paying health contributions**, or who ceased to be an Israeli resident. Someone who kept paying has no waiting period at all.
+   - Waiting period LENGTH: **1 month per year of absence**, maximum **6 months**, with **no statutory minimum** (the "two months" figure is a worked example on the source page, not a floor) ([kolzchut - joining kupat cholim as returning resident](https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA), updated 15.01.2026).
    - "Year of absence" = 12-month period with 183+ days outside Israel (kolzchut page above).
    - "Waiting month" = 25 consecutive days of residence in Israel; trips abroad shorter than 25 days don't count toward completing the waiting period (kolzchut page above).
    - Pidyon (waiting-period redemption): **16,860 NIS in 2026**, one-time or up to 6 equal installments (kolzchut page above).

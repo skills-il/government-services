@@ -88,9 +88,10 @@
     {
       "id": "bl-2026-minimum-non-treaty",
       "claim": "Bituach Leumi 2026 minimum for an Israeli abroad in a non-treaty country with no income is approximately 266 NIS/month combined (national insurance + health insurance).",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
-      "raw_snippet": "מינימום דמי ביטוח לאומי ובריאות לתושב ישראלי השוהה בחו\"ל",
-      "fetched_on": "2026-05-26"
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש",
+      "fetched_on": "2026-05-26",
+      "verified_at": "2026-08-26T13:22:44+00:00"
     },
     {
       "id": "bl-2026-minimum-treaty",
@@ -149,10 +150,13 @@
     },
     {
       "id": "amendment-272-effective-2026",
-      "claim": "Amendment 272 to the Income Tax Ordinance cancels the 10-year reporting exemption for olim and Toshav Chozer Vatik becoming Israeli residents from 1 January 2026 onwards. The tax exemption itself is unchanged.",
-      "source_url": "https://arnontl.com/he/news/%D7%91%D7%99%D7%98%D7%95%D7%9C-%D7%94%D7%A4%D7%98%D7%95%D7%A8-%D7%9E%D7%93%D7%99%D7%95%D7%95%D7%97-%D7%A2%D7%9C-%D7%94%D7%9B%D7%A0%D7%A1%D7%95%D7%AA-%D7%A4%D7%98%D7%95%D7%A8%D7%95%D7%AA-%D7%9C%D7%A2%D7%95/",
-      "raw_snippet": "תיקון 272 לפקודת מס הכנסה, ביטול הפטור מדיווח על הכנסות פטורות לעולים חדשים ולתושבים חוזרים ותיקים, החל מ-1.1.2026",
-      "fetched_on": "2026-05-26"
+      "claim": "Amendment 272 to the Income Tax Ordinance removes the reporting exemption for olim and toshav chozer vatik. The reporting duty applies only to those becoming Israeli residents from 2026 onward; those who returned earlier keep the existing exemption, and the tax exemption itself is unchanged.",
+      "source_url": "https://www.bshcpa.co.il/%D7%AA%D7%99%D7%A7%D7%95%D7%9F-272-%D7%AA%D7%95%D7%A9%D7%91-%D7%97%D7%95%D7%96%D7%A8-%D7%95%D7%AA%D7%99%D7%A7/",
+      "raw_snippet": "חובת הדיווח תחול רק על תושבים שחוזרים לישראל החל מ-2026",
+      "fetched_on": "2026-05-26",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:23:40+00:00",
+      "fetched_at": "2026-08-26T13:23:40+00:00"
     },
     {
       "id": "vehicle-import-48-months",
@@ -166,34 +170,6 @@
       "claim": "There is no purchase-tax or VAT exemption on the vehicle itself for a Toshav Chozer; full purchase tax and VAT are paid. The benefit is only the relaxed manufacture-age window.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%D7%A9%D7%9C_%D7%A8%D7%9B%D7%91_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%95%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
       "raw_snippet": "אין פטור ממיסי קנייה או ממ\"מ על הרכב, רק חלון גיל הייצור מורחב",
-      "fetched_on": "2026-05-26"
-    },
-    {
-      "id": "vehicle-6-year-prerequisite",
-      "claim": "Toshav Chozer status (and the vehicle-import age relaxation) requires 6 or more consecutive years of foreign residency. A returnee abroad fewer than 6 years cannot use the 48-month window and imports under regular-resident rules (24-month cap).",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "תנאי לזכאות תושב חוזר, 6 שנים רצופות לפחות בחו\"ל כתושב חוץ",
-      "fetched_on": "2026-05-26"
-    },
-    {
-      "id": "kupat-cholim-2-year-trigger",
-      "claim": "The kupat cholim waiting period on return applies when the returnee was abroad 2 or more consecutive years without paying Israeli Bituach Leumi.",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
-      "raw_snippet": "תקופת המתנה לקופת חולים, חלה על תושב חוזר ששהה בחו\"ל שנתיים רצופות או יותר ולא שילם דמי ביטוח",
-      "fetched_on": "2026-05-26"
-    },
-    {
-      "id": "kupat-cholim-2-months-per-year",
-      "claim": "The kupat cholim waiting period is 2 months per year of absence, capped at 6 months maximum.",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
-      "raw_snippet": "חודשיים המתנה לכל שנת היעדרות, עד מקסימום של 6 חודשים",
-      "fetched_on": "2026-05-26"
-    },
-    {
-      "id": "kupat-cholim-pidyon-formula",
-      "claim": "The kupat cholim redemption (pidyon) payment to cancel the waiting period equals 12 minimum monthly health insurance contributions for the year of return.",
-      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
-      "raw_snippet": "פדיון תקופת המתנה, תשלום חד-פעמי השווה ל-12 תשלומי מינימום של דמי בריאות",
       "fetched_on": "2026-05-26"
     },
     {
@@ -300,15 +276,17 @@
       "id": "min-total-266",
       "claim": "A resident abroad with no income pays a minimum of 266 ש\"ח per month (National Insurance + health), from 01.01.2026.",
       "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "מי שאין לו הכנסות - ישלם דמי ביטוח מינימליים בסך 266 ש\"ח",
-      "fetched_on": "2026-07-14"
+      "raw_snippet": "דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש",
+      "fetched_on": "2026-07-14",
+      "verified_at": "2026-08-26T13:22:44+00:00"
     },
     {
       "id": "annual-cost-1476-3192",
       "claim": "Keeping Bituach Leumi current while abroad therefore costs roughly 1,476 NIS a year (treaty country, 123/month) to 3,192 NIS / 3,192 ש\"ח a year (non-treaty, 266/month) -- far less than the 16,860 pidyon.",
-      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%d7%9e%d7%99%20%d7%a9%d7%90%d7%99%d7%a0%d7%9d%20%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d%20%d7%95%d7%91%d7%a2%d7%9c%d7%99%20%d7%94%d7%9b%d7%a0%d7%a1%d7%94%20%d7%a9%d7%9c%d7%90%20%d7%9e%d7%a2%d7%91%d7%95%d7%93%d7%94.aspx",
-      "raw_snippet": "בסך הכל, מי שאינו עובד ואין לו הכנסות ישלם 266 ש\"ח בחודש.",
-      "fetched_on": "2026-08-09"
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש",
+      "fetched_on": "2026-08-09",
+      "verified_at": "2026-08-26T13:22:44+00:00"
     },
     {
       "id": "health-only-123",
@@ -321,8 +299,9 @@
       "id": "min-266-shekel-sign",
       "claim": "Minimum monthly contribution for a resident abroad with no income: ₪266 (266 NIS), from 01.01.2026.",
       "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
-      "raw_snippet": "מי שאין לו הכנסות - ישלם דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש.",
-      "fetched_on": "2026-08-09"
+      "raw_snippet": "דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש",
+      "fetched_on": "2026-08-09",
+      "verified_at": "2026-08-26T13:22:44+00:00"
     },
     {
       "id": "form-1301",
@@ -406,9 +385,157 @@
     {
       "id": "btl-rates-hub",
       "claim": "The Bituach Leumi contribution-rate hub page links the per-status rate pages; the 'לא עובד' / 'למי שאינם עובדים ולבעלי הכנסה שלא מעבודה' page under it carries the minimum NI (143) and health (123) amounts, total 266 per month. The deep page URL is percent-encoded Hebrew, so the skill body links the hub instead.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/tashlumdmeibituah.aspx",
+      "raw_snippet": "דמי ביטוח מינימליים בסך 266 ש\"ח (החל ב- 01.01.2026) לחודש",
+      "fetched_on": "2026-08-09",
+      "verified_at": "2026-08-26T13:22:44+00:00"
+    },
+    {
+      "id": "encouragement-law-2026-window",
+      "claim": "The Encouragement of Aliyah and Return to Israel Law (temporary provision), 5786-2026 applies to an oleh who first became an Israeli resident, and a toshav chozer vatik who again became an Israeli resident, between 5 November 2025 and the end of tax year 2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עולה שהיה לתושב ישראל לראשונה בתקופה החל ביום י\"ד בחשוון התשפ\"ו (5 בנובמבר 2025) ועד תום שנת המס 2026 ותושב חוזר ותיק שהיה לתושב ישראל בתקופה האמורה",
+      "fetched_at": "2026-08-26T12:54:10+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/relocation-checklist.py"
+      ]
+    },
+    {
+      "id": "encouragement-law-2026-75-days",
+      "claim": "The 2026 temporary provision does not apply to an individual who ceased to be an Israeli resident during tax year 2028 or 2029 AND spent fewer than 75 days in Israel in one of those years. The two limbs are conjunctive.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "יחיד אשר חדל להיות תושב ישראל במהלך אחת משנות המס 2028 או 2029 ושהה בישראל פחות מ-75 ימים באחת מאותן השנים",
+      "fetched_at": "2026-08-26T12:54:10+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "kupat-cholim-waiting-length-no-floor",
+      "claim": "The health-services waiting period is one waiting month for each year of absence, with a maximum of 6 months. The source states no minimum floor.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "עבור כל שנה של היעדרות מהארץ, תחושב תקופת המתנה של חודש אחד, כאשר תקופת ההמתנה המירבית היא 6 חודשים",
+      "fetched_at": "2026-08-26T12:54:10+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/relocation-checklist.py",
+        "scripts/residency-check.py"
+      ]
+    },
+    {
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "fetched_at": "2026-08-26T12:54:21+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:21+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "id": "encouragement-law-2026-ceiling-2026",
+      "claim": "The exempt Israeli-source earned-income ceiling under the 2026 temporary provision is 600,000 NIS for tax year 2026.",
+      "raw_snippet": "עד לתקרת הכנסה של 600,000 שקלים חדשים"
+    },
+    {
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "fetched_at": "2026-08-26T12:54:21+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:21+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "id": "encouragement-law-2026-ceiling-2027-2028",
+      "claim": "The exempt ceiling under the 2026 temporary provision is one million NIS for each of tax years 2027 and 2028.",
+      "raw_snippet": "עד לתקרת הכנסה של מיליון שקלים חדשים, לכל שנה"
+    },
+    {
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "fetched_at": "2026-08-26T12:54:21+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:21+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "id": "encouragement-law-2026-ceiling-2029",
+      "claim": "The exempt ceiling under the 2026 temporary provision is 350,000 NIS for tax year 2029.",
+      "raw_snippet": "עד לתקרת הכנסה של 350,000 שקלים חדשים"
+    },
+    {
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "fetched_at": "2026-08-26T12:54:21+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T12:54:21+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "id": "encouragement-law-2026-ceiling-2030",
+      "claim": "The exempt ceiling under the 2026 temporary provision is 150,000 NIS for tax year 2030.",
+      "raw_snippet": "עד לתקרת הכנסה של 150,000 שקלים חדשים"
+    },
+    {
+      "id": "encouragement-2026-relative-ceiling",
+      "claim": "Where the qualifying income comes from a relative (karov), the exempt ceiling under the 2026 temporary provision is 140,000 NIS per year for tax years 2026 to 2029.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של 140,000 שקלים חדשים, לכל שנה",
+      "fetched_at": "2026-08-26T13:22:44+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "encouragement-2026-prorated",
+      "claim": "The 2026 exempt-income ceiling is granted in proportion to the individual's period of residency in Israel during that year.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "באופן יחסי לתקופת תושבותם בישראל",
+      "fetched_at": "2026-08-26T13:22:44+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "btl-living-abroad-hub",
+      "claim": "Bituach Leumi maintains a contributions section for Israeli residents staying abroad, used in this skill's Reference Links as the navigation entry point.",
+      "source_url": "https://www.btl.gov.il/Insurance/Living_abroad/Pages/default.aspx",
+      "raw_snippet": "דמי ביטוח | ביטוח לאומי",
+      "fetched_at": "2026-08-26T13:24:08+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:24:08+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "btl-rates-hub-page",
+      "claim": "Bituach Leumi publishes a contribution-rates hub that links the per-status rate pages, cited in this skill's Reference Links for the current minimum amounts.",
       "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/default.aspx",
-      "raw_snippet": "שיעורי דמי ביטוח והסכומים דרכים לדיווח ולתשלום דמי ביטוח תיאום דמי ביטוח חוב בדמי ביטוח תושב ישראל השוהה בחו\"ל",
-      "fetched_on": "2026-08-09"
+      "raw_snippet": "דמי ביטוח - דמי ביטוח | ביטוח לאומי",
+      "fetched_at": "2026-08-26T13:24:08+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:24:08+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
-  ]
+  ],
+  "generated_at": "2026-08-26T13:24:08+00:00"
 }

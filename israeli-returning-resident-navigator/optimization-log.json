@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "Expert MAJOR deferred: moia_track() treats the emissary and prior-assistance cooldowns as permanent bars; add --years-since-* inputs or downgrade to CHECK.",
+        "Expert MAJOR deferred: 6 declared hosts (chatgpt, claude-ai, claude-desktop, manus, antigravity, openclaw) cannot run the bundled script; Step 2 should lead with the decision tree and treat the script as the local-only option.",
+        "Expert MAJOR deferred: the 31.12.2026 hora'at sha'a window is body prose only; promote to Gotchas and to a worked Example.",
+        "Expert MINOR deferred: --visited-over-4mo-any-year help text hard-codes a 2-year window while the code relabels it 3 or 5 years by profession.",
+        "Judge: Form 627/628 numbering rests on belong.co.il alone; no official BL or Kol Zchut page uses the number. Re-source or drop the numbering next cycle.",
+        "Judge: several legacy evidence snippets are paraphrases or page boilerplate rather than quoted text; re-quote from source.",
+        "Judge: the boi.org.il FATCA citation is a 404; Form 5329 guidance needs a live source."
+      ]
+    }
+  ]
+}

@@ -71,7 +71,7 @@ The script prints one paragraph per agency and links to the source page for each
 
 1. Apply online at https://www.gov.il/he/service/application_for_recognition_as_returning_resident . Two paths: "זכאות עקרונית" (principle check) or "מעמד תושב חוזר" (status request).
 2. Outcome: a "תעודת תושב חוזר" certificate. The local Misrad HaAliyah office (find via gov.il branch finder) issues it after reviewing passport entry/exit stamps and Misrad HaPnim records.
-3. Phone the service center on \*2994 or 03-9733333 (Sun-Thu 8:00-18:00, languages: Hebrew, Russian, English, French, Spanish, Amharic). WhatsApp: https://wa.me/972733972114 .
+3. Phone the service center on \*2994 or 03-9733333 (Sun-Thu 8:00-18:00; the ministry page lists Hebrew and Russian as the answering languages, so do not promise service in another language without checking). WhatsApp: https://wa.me/972733972114 .
 4. Windows that start the day the user returns to Israel: ministry assistance = 24 months; assured income (havtachat hachnasa) = 12 months; customs = 9 months (see sister customs skill).
 5. Benefit basket flagged by the certificate (eligibility per category is confirmed at the local Misrad HaAliyah office). Detailed breakdown follows; see `references/employment-and-benefits-basket.md` for the full Ma'alot / Vocational / Lone Soldier procedure detail.
 
@@ -101,7 +101,7 @@ The Acclimatization Year is a coordinated tax-residency election (Section 14(b) 
 
 ### Step 3.5: Children born abroad, register at Misrad HaPnim and obtain Israeli travel documents BEFORE flying
 
-**Pre-flight (at the Israeli consulate abroad):** Israeli citizens (including children born abroad to at least one Israeli parent) must enter Israel on an Israeli passport (Darkon) OR a Teudat Ma'avar (one-year travel document). Boarding on a foreign passport alone is routinely refused at check-in by airlines and can trigger a hold at Ben Gurion. The standard pre-flight sequence is:
+**Pre-flight (at the Israeli consulate abroad):** the baseline rule is that an Israeli citizen (including a child born abroad to at least one Israeli parent) enters Israel on an Israeli passport (Darkon) or a Teudat Ma'avar. **That rule is currently relaxed and the relaxation has an expiry date:** the Population and Immigration Authority has extended, until **30.09.2026**, the arrangement letting Israelis enter and leave Israel on a valid FOREIGN passport. An Israeli passport is still expected at airline check-in even if it has expired. Check whether the arrangement has been extended again before quoting either rule, since it is explicitly temporary and the date has already moved more than once. Either way the consular sequence below is still the right preparation, because it is what makes the child registrable in Israel:
 1. Lidat Chutz (consular birth registration) for any child born abroad, filed at the Israeli consulate. This generates the Israeli ID number.
 2. Apply at the consulate for the child's Israeli passport or a fast-track Teudat Ma'avar. Allow 2-8 weeks; the fast-track Teudat Ma'avar is usually available in days for olim/returnees.
 
@@ -114,7 +114,7 @@ The Acclimatization Year is a coordinated tax-residency election (Section 14(b) 
 3. If the user did not pay BL contributions while abroad, BL may demand back-payment ("רצף ביטוחי" continuity); have the user ask explicitly at the branch before submitting.
 4. After recognition, the following benefits are NOT available on day one and only kick in after accumulated work periods: maternity allowance, unemployment (dmei avtala), employer insolvency. Source: kolzchut "דמי ביטוח לאומי לתושבים חוזרים" (updated 03.03.2025).
 5. BL phone: \*6050 (Israel) or 04-8812345 (landing page). The international-callers line is +972-8-936-9669, Sun-Thu 8:00-15:00, service in Hebrew, English, and Russian (source: https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx).
-6. **Kitzvat Yeladim (Child Allowance) restoration**: Child allowance stops when BL deregisters the returnee and only restarts after Form 628 recognition. BL does NOT auto-resume payment; the returning parent must (a) confirm residency recognition is processed, (b) register the Israeli bank account at BL via the personal area or branch, and (c) request retroactive payment from the residency-effective date (the window is narrow, typically 12 months). If only one parent is recognized (e.g., the other is still abroad finishing a contract), kitzvat yeladim is paid to the recognized parent. If the second parent is a non-Israeli citizen, see Step 7 below for the foreign-spouse status track.
+6. **Kitzvat Yeladim (Child Allowance) restoration**: Child allowance stops when BL deregisters the returnee and only restarts after Form 628 recognition. BL does NOT auto-resume payment; the returning parent must (a) confirm residency recognition is processed, (b) register the Israeli bank account at BL via the personal area or branch, and (c) request retroactive payment from the residency-effective date. Retroactive payment of BL allowances is time-limited by statute, so ask BL at the branch what the current limit is for your case rather than assuming a figure. If only one parent is recognized (e.g., the other is still abroad finishing a contract), kitzvat yeladim is paid to the recognized parent. If the second parent is a non-Israeli citizen, see Step 7 below for the foreign-spouse status track.
 
 ### Step 4.5: Tax coordination and money at the border
 
@@ -125,10 +125,11 @@ The Acclimatization Year is a coordinated tax-residency election (Section 14(b) 
 ### Step 5: Kupat cholim re-enrollment and the waiting period
 
 1. The choice of kupah (Clalit / Maccabi / Meuhedet / Leumit) is made on the BL registration form, together with residency determination.
-2. Waiting period for health services = 1 month per year of absence, minimum 2 months (חודשיים) for anyone abroad 12+ months, maximum 6 months (source: kolzchut "הצטרפות תושב חוזר לביטוח בריאות", updated 15.01.2026).
-3. Definitions to quote precisely: "year of absence" = 12-month period with 183+ days outside Israel; "waiting month" = 25 consecutive days of residence in Israel (trips abroad shorter than 25 days don't count toward completing the waiting period).
-4. **Pidyon** (waiting-period redemption): NIS 16,860 in 2026 (Kol Zchut, updated January 2026), one-time or up to 6 equal installments. The figure rises annually with CPI; Belong's older snapshot (NIS 14,520, February 2024) is now stale and superseded by the 2026 number. Even during the waiting period the returnee pays health insurance premiums based on income.
-5. If the returnee has urgent medical needs in month 1, the pidyon usually pays for itself fast; if not, riding out the waiting period and carrying private travel medical insurance for the gap is the cheaper path.
+2. **Trigger first, length second.** The waiting period applies only to someone who was abroad **18 consecutive months or more AND did not pay health contributions for at least 12 months**, or who ceased to be an Israeli resident. A returnee who kept paying contributions throughout has NO waiting period, however long they were away, so establish payment history before quoting any number.
+3. Length once triggered = **one waiting month per year of absence, capped at 6 months**. There is no statutory minimum: one year of absence gives one waiting month. (The "two months" figure circulating online is a worked example on the Kol Zchut page, not a floor.) Source: kolzchut "הצטרפות תושב חוזר לביטוח בריאות", updated 15.01.2026.
+4. Definitions to quote precisely: "year of absence" = 12-month period with 183+ days outside Israel; "waiting month" = 25 consecutive days of residence in Israel (trips abroad shorter than 25 days don't count toward completing the waiting period).
+5. **Pidyon** (waiting-period redemption): NIS 16,860 in 2026 (Kol Zchut, updated January 2026), one-time or up to 6 equal installments. The figure rises annually with CPI; Belong's older snapshot (NIS 14,520, February 2024) is now stale and superseded by the 2026 number. Even during the waiting period the returnee pays health insurance premiums based on income.
+6. If the returnee has urgent medical needs in month 1, the pidyon usually pays for itself fast; if not, riding out the waiting period and carrying private travel medical insurance for the gap is the cheaper path.
 
 ### Step 6: Driver's license
 
@@ -152,6 +153,10 @@ The Acclimatization Year is a coordinated tax-residency election (Section 14(b) 
 ### Step 9: Hand off the tax math
 
 If the user starts asking about Section 14, Form 1348, the 10-year exemption, or the 2026 reporting-obligation change for vatikim: STOP and hand off to `israeli-toshav-chozer-vatik-tax-planner`. This skill flags which tax track they're in; it does not compute the tax.
+
+**One time-critical flag to raise before handing off.** The Encouragement of Aliyah and Return to Israel Law (temporary provision), 5786-2026, passed in March 2026, gives an oleh or a **toshav chozer vatik** who became an Israeli resident between 05.11.2025 and the end of tax year 2026 an exemption on earned income (yegia ishit) earned **inside Israel**, on top of the Section 14 exemption on foreign income. Ceilings: 600,000 NIS for 2026, one million NIS for each of 2027 and 2028, 350,000 NIS for 2029, 150,000 NIS for 2030. It is forfeited only if the person BOTH ceases to be an Israeli resident during 2028 or 2029 AND spent under 75 days in Israel in one of those years (the statute joins the limbs with "and", not "or"). Also quote two limits alongside the ceilings: income from a relative (karov) is capped at 140,000 NIS per year for 2026 to 2029, and the 2026 ceiling is pro-rated by the part of the year the person was resident.
+
+Why this belongs in a routing skill rather than only in the tax skill: **the eligibility window closes at the end of tax year 2026**, and it is keyed to the date the user becomes an Israeli resident, which is exactly the date this skill helps them plan. A user on the vatik track (10+ years abroad) who is still deciding when to land should be told to price this with a CPA now, not after the move. A regular toshav chozer does NOT qualify, so check the tier before raising it.
 
 ### Step 10: Hand off customs / vehicle
 
@@ -216,7 +221,7 @@ None currently in the directory map cleanly to this domain. Misrad HaAliyah and 
 2. **Quoting "5 years" for the vatik tax exemption.** Vatik is 10 years, not 5. The 5-year figure is the regular returnee exemption on foreign passive income from assets bought while abroad. Different bracket, different math.
 3. **Skipping the foreign-tax-resident requirement.** Mas Hachnasa benefits depend on having been a foreign *tax resident*, not just physically abroad. Someone who lived abroad but kept Israel as their center of life may not qualify for any tax basket.
 4. **Promising children's Sal Klita.** Returnee children get partial absorption support (gan fee reduction in some municipalities, "דע עברית", absorption counselling) but NOT the olim grant set. Don't quote oleh figures.
-5. **Forgetting Form 628 isn't automatic.** BL doesn't reclassify the returnee just because Misrad HaPnim updated the address. The Form 628 step is independent and gates the kupat cholim waiting-period clock.
+5. **Forgetting the BL residency questionnaire isn't automatic.** (Official BL and Kol Zchut pages call it "שאלון לקביעת תושבות" rather than by number, so confirm the form label at the branch.) BL doesn't reclassify the returnee just because Misrad HaPnim updated the address. The Form 628 step is independent and gates the kupat cholim waiting-period clock.
 6. **Missing the customs 9-month window.** It starts on the date of return. Even if the user came back to "look around", that's day zero. Hand off to `israeli-returning-resident-customs-vehicle` early.
 7. **Quoting unverified phone hours or office addresses.** Always confirm against gov.il and btl.gov.il at answer time. Service-center hours change.
 8. **Forgetting Meitav for returnees aged 17-28.** Anyone who left Israel as a minor must clear their IDF/Meitav status on return. An open obligation can block license issuance, passport renewal, and travel. Send them to Meitav before they walk into Misrad HaRishui.
@@ -235,7 +240,7 @@ None currently in the directory map cleanly to this domain. Misrad HaAliyah and 
 | Shivat Zion, Acclimatization Year (EN) | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348784 |
 | Shivat Zion, Returning Israelis knowledge base root | https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 |
 | Belong, Toshav Chozer rights & benefits (EN, Feb 2024 / updated 2025) | https://belong.co.il/living/returning-residents-toshav-chozer-rights-benefits/ |
-| Nefesh B'Nefesh, English-speaking olim and returnee resources | https://www.nbn.org.il/ |
+| Nefesh B'Nefesh, benefits for toshavim chozrim (returning residents) | https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ |
 
 ## Troubleshooting
 

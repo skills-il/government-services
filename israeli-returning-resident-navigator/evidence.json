@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-returning-resident-navigator",
-  "generated_at": "2026-05-26",
+  "generated_at": "2026-08-26T13:22:44+00:00",
   "claims": [
     {
       "claim_id": "ref-link-nbn-hub",
@@ -22,7 +22,8 @@
       "raw_snippet": "In some cases, a returning resident is a child or spouse who meets the definition of a returning minor, immigrant citizen, or new immigrant.",
       "fetched_at": "2026-08-18",
       "verified_via": "gov.il page rendered in a browser; the SPA returns an empty shell to a plain fetch",
-      "verified_at": "2026-08-18"
+      "verified_at": "2026-08-18",
+      "claim_id": "legacy-claim-001"
     },
     {
       "claim": "Misrad HaAliyah ministry-assistance eligibility window is 24 months from date of return; assured income (havtachat hachnasa) is 12 months; customs concessions window is 9 months. The period of eligibility for a returning resident for the purposes of services and assistance from the Ministry of Aliyah and Integration is 24 months from the date of return to Israel, except for assured income, which is for 12 months from the date of return to Israel. Customs - The period of eligibility for Customs concessions is for nine months only, commencing from the date of return to Israel.",
@@ -30,7 +31,8 @@
       "raw_snippet": "In some cases, a returning resident is a child or spouse who meets the definition of a returning minor, immigrant citizen, or new immigrant.",
       "verified_via": "gov.il page rendered in a browser; the SPA returns an empty shell to a plain fetch",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-002"
     },
     {
       "claim": "Returning scientist and business entrepreneur tracks: both require at least 5 years residence abroad; the visits-test window extends to 5 years for scientists and 3 years for entrepreneurs (versus 2 years for the standard track). A \"returning scientist\" is eligible for assistance from the Center for Integration in Science following residence abroad of at least five years. A \"business entrepreneur\" is eligible for assistance following residence abroad of at least 5 years. Visits to Israel – Visits to Israel, whether consecutive or cumulative, of no more than four months during each year of absence (during the last two years before return to Israel, or three years for entrepreneurs and five years for scientists).",
@@ -39,7 +41,8 @@
       "verified_via": "gov.il page rendered in a browser; the SPA returns an empty shell to a plain fetch",
       "fetched_at": "2026-08-18",
       "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
-      "verified_at": "2026-08-18"
+      "verified_at": "2026-08-18",
+      "claim_id": "legacy-claim-003"
     },
     {
       "claim": "Misrad HaAliyah V'HaKlita online application page for returning-resident status at gov.il. בדיקת זכאות לקבלת מעמד תושב חוזר. שירות מקוון. מה תרצו לקבל? זכאות עקרונית / מעמד תושב חוזר. דף זה עודכן לאחרונה בתאריך 24.07.2025.",
@@ -47,7 +50,8 @@
       "raw_snippet": "עלייה וקליטה סיוע לעולים ולתושבים חוזרים בדיקת זכאות לקבלת מעמד תושב חוזר",
       "verified_via": "gov.il page read through a browser session, which holds the Cloudflare clearance a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-004"
     },
     {
       "claim": "Misrad HaAliyah service center phone is *2994 or 03-9733333, Sunday through Thursday 8:00 to 18:00, with multilingual support; WhatsApp number 972733972114. Covers these references: https://wa.me/972733972114",
@@ -55,7 +59,8 @@
       "raw_snippet": "עלייה וקליטה סיוע לעולים ולתושבים חוזרים בדיקת זכאות לקבלת מעמד תושב חוזר",
       "verified_via": "gov.il page read through a browser session, which holds the Cloudflare clearance a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-005"
     },
     {
       "claim": "The Bituach Leumi national call centre is *6050 or 04-8812345. מוקד טלפוני ארצי *6050 או 04-8812345",
@@ -63,7 +68,8 @@
       "raw_snippet": "תושבים חוזרים - מדריכים לקהלי יעד | ביטוח לאומי",
       "fetched_at": "2026-08-18",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
-      "verified_at": "2026-08-18"
+      "verified_at": "2026-08-18",
+      "claim_id": "legacy-claim-006"
     },
     {
       "claim": "Bituach Leumi international-callers center: phone 972-8-9369669, Sunday-Thursday 8:00-15:00, service in Hebrew, English, and Russian. לרשות המתקשרים מחו\"ל עומד מוקד טלפוני שמספרו: 972-8-9369669. השירות ניתן בימים א' - ה' בין השעות 8:00 עד 15:00. המענה הטלפוני ניתן בשלוש שפות: עברית, אנגלית ורוסית.",
@@ -71,7 +77,8 @@
       "raw_snippet": "מוקד טלפוני למתקשרים מחו\"ל - מוקדים טלפוניים | ביטוח לאומי",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-007"
     },
     {
       "claim": "BL kviattoshavut page documents the shorter (מקוצר) Misrad HaAliyah residency-determination track for users abroad 5 years or more. מסלול מקוצר באמצעות משרד העלייה והקליטה. אם שהית בחו\"ל 5 שנים ומעלה, או אם אתה זכאי לתעודת 'קטין חוזר' או תעודת 'אזרח עולה', תוכל להגיש בקשה לתושבות במסלול מקוצר במשרד העלייה והקליטה.",
@@ -79,7 +86,8 @@
       "raw_snippet": "קביעת תושבות לתושב חוזר - תושבים חוזרים | ביטוח לאומי",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-008"
     },
     {
       "claim": "Kol Zchut tax-benefits pages define the returning-resident tiers: 6 consecutive years abroad for regular toshav chozer (kolzchut tax-benefits 6-10 page), 10 years abroad for toshav chozer vatik (kolzchut tax-benefits 10+ page). Form 628 is the BL residency questionnaire (kolzchut joining-kupat-cholim page). תושבים חוזרים ששהו מחוץ לישראל בין 6 ל-10 שנים רצופות. ותיק = 10 שנים ומעלה. טופס 628 שאלון לקביעת תושבות במסלול הצטרפות תושב חוזר לביטוח בריאות.",
@@ -87,15 +95,8 @@
       "raw_snippet": "תושבים חוזרים שחזרו לישראל אחרי ששהו בחו\"ל לפחות 6 שנים רצופות זכאים להטבות מס שיפורטו בהמשך",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
-    },
-    {
-      "claim": "Kol Zchut kupat cholim waiting period for returning residents: 1 month per year of absence, minimum 2 months for anyone abroad 12+ months, maximum 6 months. Year of absence = 12-month period with 183+ days outside Israel. Waiting month = 25 consecutive days of residence in Israel. Pidyon redemption is 16,860 NIS in 2026, one-time or up to 6 installments. תקופת המתנה לקבלת שירותי בריאות. עבור כל שנה שנעדרת מהארץ, תהיה לך תקופת המתנה של חודש אחד, כאשר תקופת ההמתנה המינימלית היא חודשיים ותקופת ההמתנה המרבית היא 6 חודשים. A year of absence = 12-month period with 183+ days outside Israel (non-consecutive). A waiting month = 25 consecutive days of residence in Israel. Pidyon 2026: ₪16,860 as a one-time payment, or up to 6 equal installments. Last Update: January 15, 2026.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
-      "raw_snippet": "בקשת עובד שכיר לחישוב תקופת המתנה, בקשת עובד עצמאי לחישוב תקופת המתנה, ותשלום עבור פדיון תקופת ההמתנה.",
-      "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
-      "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-009"
     },
     {
       "claim": "Kol Zchut on dmei bituach leumi for returning residents: Form 628 required, benefits not available initially include maternity (dmei leida), unemployment (dmei avtala), employer insolvency. BL phone *6050. Returning residents aged 18+ recognized as Israeli residents are required to pay national insurance contributions based on their employment and non-employment income. Form 628: Questionnaire for determining residency status of returning residents. Returning residents cannot initially claim benefits tied to lost work income, including maternity allowance, unemployment benefits, or employer bankruptcy compensation. National Insurance Institute phone: *6050. International line: 972-8-9369669. Last Update: March 3, 2025.",
@@ -103,7 +104,8 @@
       "raw_snippet": "בהתאם להכנסותיו של התושב החוזר מעבודה ושלא מעבודה, ובהתאם למעמד הביטוחי שנקבע לו",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-010"
     },
     {
       "claim": "Israeli driver license conversion for returning residents: window is 5 years from date of return; foreign license must be a permanent license issued at least 6 months before entering Israel AND holder must have at least 5 years of driving experience on it. ההמרה מתבצעת במהלך 5 שנות השהייה הראשונות בארץ. למבקש יש ותק של לפחות 5 שנים ברישיון הנהיגה הזר לפני הכניסה לארץ. לתושב חוזר יומר רק רישיון זר קבוע שהוצא לפחות 6 חודשים לפני הכניסה לארץ.",
@@ -111,7 +113,8 @@
       "raw_snippet": "ניתן לנהוג בארץ באמצעות הרישיון הזר במשך שנה בלבד מיום הכניסה לארץ",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-011"
     },
     {
       "claim": "Nefesh B'Nefesh returnee benefits page: retroactive benefits may be claimed up to 15 months after receiving toshav chozer status. Benefits for Toshavim Chozrim (Returning Residents). Retroactive Benefits: Benefits may be received retroactively, up to 15 months (one year and three months) after receiving Toshav Chozer status.",
@@ -119,7 +122,8 @@
       "raw_snippet": "Benefits for Toshavim Chozrim (Returning Residents) - Nefesh B'Nefesh",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-012"
     },
     {
       "claim": "2026 tax change for toshav chozer vatik: from 01.01.2026 the reporting exemption is abolished; tax exemption remains but full reporting of foreign assets and income to Mas Hachnasa is required for returns on or after that date. תושב חוזר ותיק 2026. החל מ-1 בינואר 2026, הפטור מדיווח צפוי להתבטל. המשמעות היא שתושבים חוזרים ותיקים שיגיעו לישראל לאחר תאריך זה עדיין ייהנו מהפטור מתשלום המס, אך יאבדו את הדיסקרטיות ויחויבו לדווח לרשות המיסים בישראל על כלל נכסיהם והכנסותיהם בחו\"ל.",
@@ -127,7 +131,8 @@
       "raw_snippet": "תושב חוזר ותיק 2026: הגדרות, הטבות מס ו-11 טיפים שחייבים להכיר",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-013"
     },
     {
       "claim": "Section 14 of the Income Tax Ordinance underlies the toshav chozer vatik ten-year exemption. לעניין הוראת השעה, תושב חוזר ותיק נדרש לעמוד בהגדרת סעיף 14(א) לפקודה, וכן להחזיק בתעודת תושב חוזר שהונפקה על ידי משרד העלייה והקליטה.",
@@ -135,7 +140,8 @@
       "raw_snippet": "תושב חוזר ותיק 2026: הגדרות, הטבות מס ו-11 טיפים שחייבים להכיר",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-014"
     },
     {
       "claim": "Regular returning-resident tax track (6-10 years abroad): 5 years exemption on passive foreign income from assets bought abroad; 10 years exemption on capital gains on those assets; 5 years exemption on interest from foreign-currency deposits in Israel under conditions. תושבים חוזרים ששהו מחוץ לישראל בין 6 ל-10 שנים רצופות זכאים להטבות המס הבאות: במשך 5 שנים מחזרתם לארץ הם זכאים לפטור ממס על הכנסות פסיביות שנובעות מנכסים מחוץ לישראל שרכשו בתקופת שהותם בחו\"ל. רווחי הון ממכירת אותם נכסים יהיו פטורים ממס לתקופה של 10 שנים.",
@@ -143,7 +149,8 @@
       "raw_snippet": "תושבים חוזרים שחזרו לישראל אחרי ששהו בחו\"ל לפחות 6 שנים רצופות זכאים להטבות מס שיפורטו בהמשך",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-015"
     },
     {
       "claim": "Kol Zchut returning residents landing page with benefit categories including childcare/gan support, ulpan/Hebrew programs, employment counselling, customs window. תושבים חוזרים. Welfare State Reintegration: National insurance contributions, Health insurance enrollment. Tax, Customs & Financial Assistance: Tax benefits for those abroad 6-10 years, Tax benefits for those abroad 10+ years. Education: Daycare/family center funding for returning parent families. Employment & Business: Professional training funding, Employment centers for returning residents. Last update: 8 במאי 2026.",
@@ -151,7 +158,8 @@
       "raw_snippet": "ממשלת ישראל ומשרד העלייה והקליטה מעודדים את שיבתם של ישראלים לארץ על ידי הפעולות הבאות: מתן הקלות כספיות וסיוע בקליטה מחדש בישראל.",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-016"
     },
     {
       "claim": "Government central call center phone number 1299. לחצו לחיוג למוקד מענה ממשלתי מרכזי שמספרו 1 2 9 9. tel:1299",
@@ -159,7 +167,8 @@
       "raw_snippet": "עלייה וקליטה סיוע לעולים ולתושבים חוזרים בדיקת זכאות לקבלת מעמד תושב חוזר",
       "verified_via": "gov.il page read through a browser session, which holds the Cloudflare clearance a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-017"
     },
     {
       "claim": "Misrad HaAliyah V'HaKlita branch finder on gov.il, used by the skill to send users to the local office. Find a Ministry of Aliyah and Integration reception point. officeId=27db3169-ab0e-490c-af70-6d03133cb1f3. The branch locator itself is at https://www.gov.il/he/government-service-branches/?officeId=27db3169-ab0e-490c-af70-6d03133cb1f3, which is an interactive map with no prose to quote.",
@@ -167,7 +176,8 @@
       "raw_snippet": "On Sunday, 23/08/2026, the ministry branch offices will be closed to the public.",
       "verified_via": "gov.il ministry page rendered in a browser; the branch-locator URL was opened and confirmed to render, but carries no quotable text",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-018"
     },
     {
       "claim": "Kol Zchut detailed page on tax benefits for returnees abroad 10+ years (vatik); cites 10-year full exemption on foreign-source income. הטבות במס לתושבים חוזרים ששהו בחו\"ל מעל 10 שנים. תושב חוזר ותיק זכאי לפטור מלא ממס על הכנסות שמקורן בחו\"ל למשך 10 שנים.",
@@ -175,7 +185,8 @@
       "raw_snippet": "תושבים חוזרים ששהו מחוץ לישראל לפחות 10 שנים רצופות זכאים להטבות מס שיפורטו בהמשך",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-019"
     },
     {
       "claim": "Nevo legal portal hosting the Income Tax Ordinance and pension-related statutes; referenced only as a general legal-source pointer. פקודת מס הכנסה [נוסח חדש]. Nevo legal database hosts the consolidated Income Tax Ordinance and related Israeli statutes.",
@@ -183,7 +194,8 @@
       "raw_snippet": "פקודת מס הכנסה [נוסח חדש] נוסח עדכני נכון ליום: 08-06-2026 פקודת מס הכנסה [נוסח חדש] חלק א': פרשנות הגדרות 1.",
       "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-020"
     },
     {
       "claim": "Hebrew form-628 reference and Hebrew pidyon amount (16,860 ש\"ח) are the same facts as Form 628 and 16,860 NIS, just in Hebrew script. טופס 628 - שאלון לקביעת תושבות. פדיון תקופת המתנה: 16,860 ש\"ח (נכון ל-2026), בתשלום אחד או עד 6 תשלומים שווים.",
@@ -191,7 +203,8 @@
       "raw_snippet": "בקשת עובד שכיר לחישוב תקופת המתנה, בקשת עובד עצמאי לחישוב תקופת המתנה, ותשלום עבור פדיון תקופת ההמתנה.",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-021"
     },
     {
       "claim": "Form 1348 (טופס 1348) is the Israel Tax Authority residency-declaration form for taxpayers leaving or returning to Israel; this skill only references it as a handoff pointer to the sister tax-planner skill, with no substantive claims about its fields or filing mechanics. תושב חוזר ותיק. הצהרת תושבות לצרכי מס בישראל בעת עזיבה או חזרה. טופס 1348 (Form 1348) הוא טופס הצהרת תושבות שמטופל בסקיל האחות israeli-toshav-chozer-vatik-tax-planner. Referenced here only as a handoff pointer to the sister tax skill; no fields, deadlines, or filing rules claimed.",
@@ -199,7 +212,8 @@
       "raw_snippet": "תושב חוזר ותיק 2026: הגדרות, הטבות מס ו-11 טיפים שחייבים להכיר",
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-022"
     },
     {
       "claim": "Customs is administered by the Israel Tax Authority. Section 17 of the Customs Ordinance, which governs personal-effects exemptions for olim and returning residents, is referenced in this skill only as a handoff pointer to the sister customs/vehicle skill; no quota or eligibility figures are asserted here. רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
@@ -207,7 +221,8 @@
       "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
       "fetched_at": "2026-08-18",
       "verified_via": "gov.il department page rendered in a browser; the SPA returns an empty shell to a plain fetch, so only navigation shows its text",
-      "verified_at": "2026-08-18"
+      "verified_at": "2026-08-18",
+      "claim_id": "legacy-claim-023"
     },
     {
       "claim": "URL-encoded Hebrew path fragments from kolzchut and gov.il URLs are byproducts of percent-encoding (%D7XX, %D8XX) and are not standalone percentage claims. The skill makes no numerical-percentage claims. Percent-encoded Hebrew URL fragments: %D7%99 %D7%9D %D7%91 %D7%9C %D7%90 %D7%95 %D7%9E %D7%A8 %D7%93 %D7%AA %D7%A9 %D7%97 %D7%96 %D7%A2 %D7%A4 %D7%A0 %D7%A1 %D7%A7 %D7%92 %D7%94 %D7%A6 %D7%9F %D7%9B %D7%98 %D7%94 0% 2% 4% 6% 7% 8% 9% 22% 90% 91% 92% 93% 94% 95% 96% 97% 98% 99%. These are NOT numerical claims; they are URL-encoding artifacts.",
@@ -215,7 +230,8 @@
       "raw_snippet": "בלחיצה תועברו למסך של Google בו תוכלו לסמן ליד כתובת האתר של \"כל זכות\" על מנת להגדירו כמקור מידע מועדף על מנועי החיפוש של Google.",
       "verified_via": "Kol Zchut page read through the site's MediaWiki API from inside a loaded page, which passes the WAF a plain fetch does not",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "legacy-claim-024"
     },
     {
       "claim_id": "shnat-histaglut-benefit-name",
@@ -532,6 +548,138 @@
       "source_url": "https://www.gov.il/en/pages/returning_residents_whois",
       "raw_snippet": "Visits to Israel - Visits to Israel, whether consecutive or cumulative, of no more than four months during each year of absence (during the last two years before return to Israel, or three years for entrepreneurs and five years for scientists).",
       "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "waiting-period-trigger",
+      "claim": "The health-services waiting period applies to an Israeli resident who was abroad 18 consecutive months or more and did not pay health contributions for at least 12 months, or who ceased to be an Israeli resident.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "תושב ישראל ששהה בחו\"ל במשך 18 חודשים רצופים או יותר ולא שילם דמי ביטוח בריאות למוסד לביטוח לאומי בארץ עבור תקופה של 12 חודשים לפחות, או שחדל להיות תושב ישראל",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check-eligibility.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "waiting-period-length-no-floor",
+      "claim": "The waiting period is one month for each year of absence, with a maximum of 6 months. No statutory minimum is stated.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A6%D7%98%D7%A8%D7%A4%D7%95%D7%AA_%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "עבור כל שנה של היעדרות מהארץ, תחושב תקופת המתנה של חודש אחד, כאשר תקופת ההמתנה המירבית היא 6 חודשים",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check-eligibility.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-law-2026-window-rrn",
+      "claim": "The 2026 temporary provision applies to an oleh who first became an Israeli resident, and a toshav chozer vatik who again became an Israeli resident, between 5 November 2025 and the end of tax year 2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עולה שהיה לתושב ישראל לראשונה בתקופה החל ביום י\"ד בחשוון התשפ\"ו (5 בנובמבר 2025) ועד תום שנת המס 2026 ותושב חוזר ותיק שהיה לתושב ישראל בתקופה האמורה",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-ceil-2026",
+      "claim": "The exempt Israeli-source earned-income ceiling under the 2026 temporary provision is 600,000 NIS for tax year 2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של 600,000 שקלים חדשים",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-ceil-2027-8",
+      "claim": "The exempt ceiling is one million NIS for each of tax years 2027 and 2028.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של מיליון שקלים חדשים, לכל שנה",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-ceil-2029",
+      "claim": "The exempt ceiling is 350,000 NIS for tax year 2029.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של 350,000 שקלים חדשים",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-ceil-2030",
+      "claim": "The exempt ceiling is 150,000 NIS for tax year 2030.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של 150,000 שקלים חדשים",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:03:57+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-75-days-rrn",
+      "claim": "The 2026 temporary provision does not apply to an individual who ceased to be an Israeli resident during tax year 2028 or 2029 AND spent fewer than 75 days in Israel in one of those years. The two limbs are conjunctive.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "יחיד אשר חדל להיות תושב ישראל במהלך אחת משנות המס 2028 או 2029 ושהה בישראל פחות מ-75 ימים באחת מאותן השנים",
+      "fetched_at": "2026-08-26T13:03:57+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00"
+    },
+    {
+      "claim_id": "encouragement-2026-relative-ceiling-rrn",
+      "claim": "Where the qualifying income comes from a relative (karov), the exempt ceiling is 140,000 NIS per year for tax years 2026 to 2029.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "עד לתקרת הכנסה של 140,000 שקלים חדשים, לכל שנה",
+      "fetched_at": "2026-08-26T13:22:44+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "encouragement-2026-prorated-rrn",
+      "claim": "The 2026 exempt-income ceiling is granted in proportion to the individual's period of residency in Israel during that year.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241397.htm",
+      "raw_snippet": "באופן יחסי לתקופת תושבותם בישראל",
+      "fetched_at": "2026-08-26T13:22:44+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T13:22:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

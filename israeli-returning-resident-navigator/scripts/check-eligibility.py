@@ -107,23 +107,43 @@ def mas_hachnasa_track(args: argparse.Namespace) -> str:
             "(need ≥ 6 for partial, ≥ 10 for vatik).\n"
             f"  Source: {SOURCES['kolzchut_term']}"
         )
-    return (
+    out = (
         f"Mas Hachnasa track: {bracket}\n"
         "  HAND OFF the tax math to israeli-toshav-chozer-vatik-tax-planner (Form 1348, Section 14 mechanics).\n"
         f"  Source: {SOURCES['kolzchut_term']}\n"
         "  Note (2026): vatik basket retains tax exemption but now requires full reporting to Mas Hachnasa for returns on or after 01.01.2026."
     )
+    if args.years_abroad >= 10:
+        # Time-limited: the 2026 hora'at sha'a window closes at the end of tax year 2026.
+        out += (
+            "\n  TIME-CRITICAL, raise this before handing off: under the Encouragement of Aliyah and\n"
+            "  Return to Israel Law (temporary provision), 5786-2026, a toshav chozer VATIK who became\n"
+            "  an Israeli resident between 05.11.2025 and the END OF TAX YEAR 2026 also gets an exemption\n"
+            "  on ISRAELI-source earned income: 600,000 NIS for 2026, one million for each of 2027-2028,\n"
+            "  350,000 for 2029, 150,000 for 2030 (140,000/yr where the income comes from a relative;\n"
+            "  the 2026 ceiling is pro-rated by the residency period). If the user has not yet become a\n"
+            "  resident, the window is the decision. A regular toshav chozer does NOT qualify."
+        )
+    return out
 
 
 def bl_track(args: argparse.Namespace) -> str:
-    # Waiting period: 1 month per year abroad, MIN 2 months, MAX 6 (kolzchut kupah source).
-    waiting_months = min(6, max(2, args.years_abroad))
+    # Waiting period: 1 month per year abroad, MAX 6, no statutory minimum (kolzchut kupah source).
+    # One waiting month per year of absence, capped at 6. There is NO statutory
+    # minimum: the "two months" figure often quoted is a worked example on the
+    # Kol Zchut page, not a floor. And the period only applies at all to someone
+    # abroad 18+ consecutive months who also went 12+ months without paying
+    # health contributions (or who lost residency), so this is an upper bound.
+    waiting_months = min(6, args.years_abroad)
     pidyon_2026 = "16,860 NIS (one shot, or up to 6 installments)"
     return dedent(
         f"""
         Bituach Leumi: file Form 628 ("שאלון לקביעת תושבות לתושב חוזר") at any BL branch
         or via the online personal area. BL decides residency by center of life, not by year count.
-          Likely health-services waiting period: ~{waiting_months} month(s) (1 month per year abroad, min 2, max 6).
+          Maximum health-services waiting period: ~{waiting_months} month(s) (1 month per year abroad, max 6, no minimum).
+  This applies ONLY if you were abroad 18+ consecutive months AND did not pay health
+  contributions for 12+ months (or ceased to be a resident). If you kept paying throughout,
+  there is no waiting period at all. Confirm your payment history with BL before assuming one.
           Pidyon (redemption) in 2026: {pidyon_2026}.
           Source: {SOURCES['kolzchut_dmei_bl']}
           Source: {SOURCES['kolzchut_kupah']}
@@ -165,6 +185,13 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"Inputs: years_abroad={args.years_abroad}, foreign_tax_resident={args.foreign_tax_resident}, "
           f"citizen={args.israeli_citizen}, age_at_return={args.age_at_return}, profession={args.profession}\n")
+
+    print(
+        "NOTE BEFORE YOU READ THE RESULT: this is a routing aid, not legal or tax advice. It does\n"
+        "not examine your full circumstances, no tax adviser or accountant has reviewed its output,\n"
+        "and an automated tool may err, omit data, or reach a wrong conclusion. Each agency decides\n"
+        "your case itself. Verify every threshold against the cited sources.\n"
+    )
 
     print("Branch 1 - Misrad HaAliyah V'HaKlita")
     print(f"  {moia_track(args)}\n")

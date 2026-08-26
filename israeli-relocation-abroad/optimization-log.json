@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "Expert MAJOR deferred: the customs window may vary by Misrad HaAliyah tier (this skill states a flat 9 months); reconcile with israeli-returning-resident-navigator next cycle.",
+        "Expert MINOR deferred: --stage abroad emits no return_prep even at 9 years; consider an abbreviated list once parsed duration is 5+.",
+        "Expert MINOR deferred: the sub-2-year duration note omits the 18-month returning-student customs exception.",
+        "Expert MINOR deferred: residency-check.py exit-tax warning quotes only the 25%/30% rows, not the 23% corporate route or the marginal-rate edge cases.",
+        "Expert MAJOR deferred: the 31.12.2026 hora'at sha'a window is body prose only; promote to Gotchas and to a worked Example while the window is still open.",
+        "Judge: several legacy evidence snippets are authored paraphrases rather than page text (hltaxes Section 100A rows, belong.co.il). Re-quote from source next cycle.",
+        "Judge unjustified, deferred: the 8-day Form 58 filing window, the 5% health-contribution rate in references/bituach-leumi-abroad.md, and the $60K US non-resident estate-tax threshold are uncited."
+      ]
+    }
+  ]
+}

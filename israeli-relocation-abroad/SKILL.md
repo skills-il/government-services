@@ -139,7 +139,7 @@ For any Israeli public document you may need abroad (marriage certificate, birth
 | Notarized translations | Court secretariat | Any court in Israel |
 | University diplomas | First notarize and translate, then court secretariat for the notarization | Any court |
 
-Court-issued apostille stamps carry a per-stamp court fee. Confirm the current fee with the court secretariat before budgeting, and allow for one stamp per language per document (translations often need their own apostille).
+Court-issued apostille stamps carry a per-stamp fee. Confirm it with the court secretariat, and allow one stamp per language per document (translations often need their own).
 
 **Driver's license:** Apply for an International Driving Permit (IDP, rishayon binleumi) at a MEMSI office before leaving. It is valid for 1 year and is required on top of your Israeli license in most countries.
 
@@ -147,7 +147,7 @@ Court-issued apostille stamps carry a per-stamp court fee. Confirm the current f
 
 | Situation | Main considerations |
 |-----------|---------------------|
-| Own an apartment, decide to rent it out | Choose Israeli landlord tax track: the 10% flat-rate track (mislul 10%) with no deductions, or the ordinary progressive track with deductions. Most expats pick the 10% track for simplicity. Sign a property management agreement (revenue-only or full management) |
+| Own an apartment, decide to rent it out | Three Israeli landlord tax tracks, not two: (1) the **exemption track** for residential rent up to a monthly exemption ceiling, with a partial-exemption formula above it, so rent under the ceiling can be taxed at zero; (2) the 10% flat-rate track (mislul 10%) with no deductions; (3) the ordinary progressive track with deductions. **Check the exemption track FIRST**, since an expat whose rent falls under the ceiling who defaults to the 10% track pays 10% of gross for nothing, every year. Confirm the current monthly exemption ceiling at mas.gov.il, it is index-updated annually. Then sign a property management agreement (revenue-only or full management) |
 | Own and decide to sell | Get a mas shevach (betterment tax) estimate before listing; expat sellers may still qualify for single-home exemption |
 | Rent from a landlord and leave mid-lease | Check the lease for early-exit clause. Standard Israeli leases allow a mofe (substitute tenant) but require landlord approval |
 
@@ -159,11 +159,11 @@ Court-issued apostille stamps carry a per-stamp court fee. Confirm the current f
 
 ### Step 5: First-Year Abroad
 
-**Tax year one (most complex year):** In the first calendar year abroad, you are usually a tax resident of both countries for part of the year. File in both, use tie-breaker rules in the relevant tax treaty, and claim the foreign tax credit to avoid double taxation. Start with a dual-qualified accountant before you sign anything.
+**Tax year one (most complex year):** in the first calendar year abroad you are usually a part-year tax resident of both countries. File in both, apply the treaty tie-breaker rules, and claim the foreign tax credit. Use a dual-qualified accountant before signing anything.
 
-**Bituach Leumi payment rhythm:** Log in quarterly at btl.gov.il to confirm payments went through. A missed year is not the end of the world, but requires catch-up payments and produces a "hole" in coverage.
+**Bituach Leumi payment rhythm:** log in quarterly at btl.gov.il to confirm payments cleared. A missed year needs catch-up payments and leaves a coverage hole.
 
-**Israeli voting:** Israel does not offer absentee voting for regular citizens abroad. You must be in Israel on election day to vote (with very narrow exceptions for diplomatic staff). Plan accordingly around Knesset elections.
+**Israeli voting:** there is no absentee voting for ordinary citizens abroad. You must be in Israel on election day (narrow exceptions for diplomatic staff).
 
 **Stay reachable to Israeli government systems:**
 - Keep an active Israeli phone number on a cheap prepaid plan. Many .gov.il portals send OTP codes to Israeli mobile numbers only
@@ -181,41 +181,32 @@ If you stayed out long enough and did not maintain Israeli tax residency, Israel
 | Toshav Chozer (regular) | Foreign resident 6+ consecutive years | 5-year exemption from tax on foreign-source passive income (interest, dividends, royalties, pensions) and 10 years on specific foreign financial assets |
 | Toshav Chozer Vatik (veteran) | Foreign resident 10+ consecutive years | 10-year exemption from Israeli tax on all foreign-source income and gains from foreign assets -- under Section 14 of the Income Tax Ordinance. Same treatment as a new immigrant |
 
-**Reporting change from 2026:** The reporting exemption was repealed by Amendment 272 to the Income Tax Ordinance (published April 2025, applies to anyone becoming an Israeli resident from January 1, 2026 onward). The 10-year exemption from reporting foreign income and assets is gone. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing the worldwide income as exempt income. People who became residents before January 1, 2026 keep both exemptions.
+**Time-limited 2026 exemption on Israeli-source earned income (new):** the Encouragement of Aliyah and Return to Israel Law (temporary provision), 5786-2026, passed March 2026, gives an oleh or a **toshav chozer vatik** who became an Israeli resident between 05.11.2025 and the end of tax year 2026 an exemption on earned income (yegia ishit) earned **inside Israel**, on top of the Section 14 foreign-income exemption. Ceilings: 600,000 NIS for 2026, one million NIS for each of 2027 and 2028, 350,000 NIS for 2029, 150,000 NIS for 2030. It is lost only if the person BOTH ceases to be an Israeli resident during 2028 or 2029 AND spent under 75 days in Israel in one of those years (the statute joins the two limbs with "and", not "or"). Two limits to quote with the ceilings: income from a relative (karov) is capped at 140,000 NIS per year for 2026 to 2029, and the 2026 ceiling is pro-rated by the part of the year the person was resident. **The eligibility window closes at the end of tax year 2026.** A returnee who would qualify as vatik should ask a CPA whether bringing the residency-start date forward is worth it. Regular toshav chozer status does not qualify, only olim and vatikim.
+
+**Reporting change from 2026:** The reporting exemption was repealed by Amendment 272 to the Income Tax Ordinance, which applies to anyone becoming an Israeli resident from 2026 onward. The 10-year exemption from reporting foreign income and assets is gone. The tax exemption itself is unchanged -- you still pay no Israeli tax on foreign income during the 10 years -- but you must now file an annual return disclosing the worldwide income as exempt income. People who became residents before January 1, 2026 keep both exemptions.
+
+**Bituach Leumi residency on return (do this, nothing else activates without it):** BL does not reclassify you as a resident just because Misrad HaPnim updated your address. You must file the BL residency questionnaire ("שאלון לקביעת תושבות", which official BL pages label by name rather than by number) at a branch or through the personal online area, with passport entry/exit stamps and evidence of center of life. This filing is what starts the kupat cholim waiting-period clock and what restores kitzvat yeladim, which BL does not resume automatically. The sister skill `israeli-returning-resident-navigator` carries the full first-90-days sequence.
 
 **Customs and belongings:**
-- Household goods and personal effects can be imported duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
+- Household goods and personal effects: duty-free as a returning resident, subject to "personal use, not commercial" quantity limits
 - **Vehicle:** A toshav chozer may personally import a vehicle manufactured up to 48 months before import (regular residents are capped at 24 months), within 9 months of entering Israel. There is no tax exemption on the vehicle itself -- you pay full purchase tax and VAT, only the age limit is relaxed. **The customs prerequisite is TWO years abroad, not six** (a returning student needs 18 months). The 6-year figure is the income-tax tier and does not govern customs. A returnee abroad 2-4 years DOES get the 48-month window -- telling them they get "none of this" costs them the benefit.
-- Consult `references/toshav-chozer-customs.md` for the full quantity rules and the sister skill `israeli-returning-resident-customs-vehicle` for the deep mechanics
+- Full quantity rules: `references/toshav-chozer-customs.md`; deep mechanics: `israeli-returning-resident-customs-vehicle`
 
-**Misrad HaKlita returning-resident track (separate from tax benefits):**
-
-The Ministry of Aliyah and Integration (Misrad HaKlita) operates an absorption program for returning residents, parallel to but smaller than the new-immigrant program:
-- **There is no oleh-style sal klita cash basket for a returning resident.** The ministry's returnee package is employment/retraining assistance, customs help, and ulpan -- not the new-immigrant absorption basket. (The sal klita page lists only olim, ezrach oleh and katin chozer as eligible.) Do not promise a returnee a sal klita grant.
-- Hebrew refresher Ulpan (free or subsidized) for the returnee and the spouse if needed
-- Employment counseling and job-search support for the first 12 months back
-- **Eligibility threshold: TWO years abroad** (five years for returning scientists and business entrepreneurs), an Israeli citizen aged 17+ at return who was previously an Israeli resident, with visits to Israel of no more than 4 months in each year of absence. The 6-year figure is the Income Tax Ordinance's TAX tier for a regular toshav chozer -- it does not govern the ministry track.
-
-This track is administrative (Misrad HaKlita certificate) and is separate from the Tax Authority's section-14 determination. The certificate helps with absorption services and customs paperwork but does NOT grant the tax benefit by itself.
+**Misrad HaKlita returning-resident track (separate from tax benefits):** the ministry runs an absorption program for returnees, parallel to but smaller than the oleh program: Hebrew refresher ulpan, employment counselling and retraining for the first 12 months back, and customs help. **There is no oleh-style sal klita cash basket for a returning resident**, so never promise one. Eligibility is TWO years abroad (five for returning scientists and business entrepreneurs), an Israeli citizen aged 17+ at return who was previously an Israeli resident, with visits to Israel of no more than 4 months per year over the last 2 years before return. The 6-year figure is the Income Tax Ordinance's TAX tier and does not govern this track. The certificate is administrative and does NOT grant the section 14 tax benefit by itself. Full basket: `references/return-side-deep-topics.md` and the sister skill.
 
 Reference: see the sister skill `israeli-returning-resident-navigator` for the full Toshav Chozer benefits basket (grant amounts, employment programs, Ma'alot business centers, lone-soldier provisions for kids drafting into the IDF after the return).
 
-**Children's status on return:**
+**Children's status on return:** returning families with kids born abroad face a document drill mirroring the one done on departure: consular registration and Israeli passports, teudat zehut on first entry, and Ministry of Education recognition of foreign schooling (Hakara BeLimudim) for grades feeding into Bagrut. Full sequence and lead times: `references/return-side-deep-topics.md`.
 
-Returning families with kids born abroad face a symmetric document drill to the one done on departure:
-
-- **Israeli passports:** Kids born abroad to an Israeli parent are Israeli citizens by descent, but their Israeli passport is issued only after registration at an Israeli consulate (forms + apostilled foreign birth certificate). Allow 6-12 weeks for issuance from a consulate abroad. Faster to do this BEFORE the move back than to scramble after.
-- **Teudat zehut:** A child's Israeli ID number is assigned automatically on first physical entry to Israel (or earlier if registered at a consulate). Bring the foreign birth certificate (apostilled) to the Misrad HaPnim appointment.
-- **School records and re-enrollment:** For kids returning to the Israeli school system after attending foreign schools, the Ministry of Education's "Hakara BeLimudim" (recognition of foreign studies) process is required, especially for high-school grades that feed into Bagrut. Bring apostilled report cards and the school's official transcript. Allow 4-8 weeks for recognition.
-- **Hebrew gap for the kids:** Misrad HaKlita's returning-resident track includes Hebrew reinforcement for school-age returnees who studied abroad for 4+ years. Check eligibility with the local Misrad HaKlita office before the school year starts.
+**Time-critical passport note:** the Population and Immigration Authority arrangement letting Israelis enter and leave on a valid FOREIGN passport runs only until **30.09.2026**, and an Israeli passport is expected at airline check-in even when expired. Consular issuance takes 6-12 weeks, so a family flying home after that date needs to start now. Confirm whether the arrangement has been extended again before relying on either rule.
 
 **Stock options, voluntary Bituach Leumi, and estate planning (return-side deep topics):**
 
-Three further return-planning areas have substantial mechanics summarized briefly here and detailed in `references/return-side-deep-topics.md`:
+Three further return-planning areas, detailed in `references/return-side-deep-topics.md`:
 
-- **Stock options earned abroad** (RSU / Section 102): split-period treatment, sourced by vesting-period work location, not grant date. Foreign-vesting portion exempt for vatik under Section 14; Israeli-vesting portion taxable at marginal rate. Largest "I didn't know I owed" surprise for returning tech workers. Full mechanics: sister skill `israeli-toshav-chozer-vatik-tax-planner`.
-- **Voluntary Bituach Leumi** (Bituach mi-Ratzon): self-employed abroad may preserve contribution history (relevant for unemployment eligibility on return, needing 12 of last 18 months). Confirm at *6050.
-- **Estate planning while abroad**: dual-jurisdiction wills, host-country inheritance tax (US estate tax above $60K for non-resident-alien decedents, UK IHT, French succession), apostilled POAs. Important for relocations exceeding 5 years.
+- **Stock options earned abroad** (RSU / Section 102): split-period treatment, sourced by vesting-period work location, not grant date. Foreign-vesting portion exempt for vatik under Section 14; Israeli-vesting portion taxable at marginal rate. Full mechanics: `israeli-toshav-chozer-vatik-tax-planner`.
+- **Voluntary Bituach Leumi** (Bituach mi-Ratzon): self-employed abroad may preserve contribution history (unemployment on return needs 12 of the last 18 months). Confirm at *6050.
+- **Estate planning while abroad**: dual-jurisdiction wills, host-country inheritance tax (US estate tax above $60K for non-resident-alien decedents, UK IHT), apostilled POAs. Matters past 5 years.
 
 **Kupat cholim waiting period:**
 
@@ -262,7 +253,7 @@ Actions:
 1. Confirm 6+ consecutive years abroad = regular toshav chozer (not yet vatik which needs 10+ years)
 2. Explain 5-year exemption on foreign passive income (dividends, interest, royalties) and 10-year exemption on gains from specific foreign assets held prior to return
 3. Customs: personal effects duty-free, vehicle import window 9 months from entry, vehicle may be up to 48 months old from manufacturing
-4. **Critical:** if Bituach Leumi payments were stopped, plan the kupat cholim return. Compare two paths: (a) wait up to 6 months uninsured, with private bridge insurance, or (b) pay the redemption (pidyon) equal to 12 minimum contributions and get immediate coverage
+4. **Critical:** if Bituach Leumi payments were stopped, plan the kupat cholim return. Compare two paths: (a) wait out the waiting period (one month per year of absence, capped at 6 months) uninsured, with private bridge insurance, or (b) pay the redemption (pidyon), a fixed 16,860 NIS in 2026, and get immediate coverage
 5. Tax residency restart: file as Israeli resident from day of physical return. The 2026 reporting rule applies if the return date is January 1, 2026 or later
 6. Schedule a session with a CPA who specializes in toshav chozer 2-3 months before return to claim benefits correctly
 

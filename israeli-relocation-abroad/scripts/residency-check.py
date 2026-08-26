@@ -69,6 +69,21 @@ def recommend(presumed: bool, col_score: int) -> str:
     )
 
 
+EXIT_TAX_WARNING = (
+    "EXIT TAX (mas yetzia, Section 100A): severing Israeli tax residency is not free. Section 100A treats "
+    "your worldwide assets as sold the day before residency ended, and taxes the unrealized gain (25% "
+    "regular capital gains, 30% for a substantial shareholder holding 10% or more). Payment can usually be "
+    "deferred until the asset is actually sold. Model this with a tax adviser BEFORE severing."
+)
+
+KUPAT_CHOLIM_WARNING = (
+    "KUPAT CHOLIM: stopping health contributions can trigger a waiting period on return. It applies to "
+    "someone abroad 18 consecutive months or more who did not pay health contributions for at least 12 "
+    "months, or who ceased to be a resident. Length is one waiting month per year of absence, capped at 6. "
+    "Redeeming it later costs a fixed 16,860 NIS (2026), far more than keeping contributions current."
+)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--days_this_year", type=int, required=True, help="Days physically in Israel this tax year")
@@ -100,9 +115,22 @@ def main() -> int:
         print(f"  {r}")
     print(f"  Center-of-life score toward Israel: {col_score} / 5")
     print()
-    print("Recommendation:")
-    print(f"  {recommend(presumed, col_score)}")
+    rec = recommend(presumed, col_score)
+    print(
+        "NOTE BEFORE YOU READ THE RESULT: this script is a guidance tool only. Israeli tax "
+        "residency is a fact-based determination by the Tax Authority. No tax adviser or "
+        "accountant has reviewed this output, and an automated tool may err or omit data."
+    )
     print()
+    print("Recommendation:")
+    print(f"  {rec}")
+    print()
+    if rec.startswith("LIKELY NOT AN ISRAELI TAX RESIDENT") or rec.startswith("AMBIGUOUS. Days test triggered"):
+        print("Before you sever:")
+        print(f"  {EXIT_TAX_WARNING}")
+        print()
+        print(f"  {KUPAT_CHOLIM_WARNING}")
+        print()
     print(
         "IMPORTANT: This script is a guidance tool only. Israeli tax residency is a fact-based "
         "determination by the Tax Authority. For any real decision, consult a qualified Israeli "

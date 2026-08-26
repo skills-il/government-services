@@ -32,3 +32,43 @@ Israelis with assets in both Israel and the host country face dual-jurisdiction 
 - Power of attorney (yipui koach) drafted in Israel may need apostille and translation to be honored in the host country, and vice versa.
 
 This is real planning, not deferrable hygiene, for relocations exceeding 5 years.
+
+---
+
+## Children's status on return (moved from SKILL.md)
+
+**Children's status on return:**
+
+Returning families with kids born abroad face a symmetric document drill to the one done on departure:
+
+- **Israeli passports:** Kids born abroad to an Israeli parent are Israeli citizens by descent, but their Israeli passport is issued only after registration at an Israeli consulate (forms + apostilled foreign birth certificate). Allow 6-12 weeks for issuance from a consulate abroad. Faster to do this BEFORE the move back than to scramble after. **Time-critical:** the Population and Immigration Authority arrangement letting Israelis enter and leave on a valid FOREIGN passport runs only until **30.09.2026**, and an Israeli passport is expected at airline check-in even when expired. Given the 6-12 week consular lead time, a family flying home after that date needs to start now. Confirm whether the arrangement has been extended again before relying on either rule.
+- **Teudat zehut:** A child's Israeli ID number is assigned automatically on first physical entry to Israel (or earlier if registered at a consulate). Bring the foreign birth certificate (apostilled) to the Misrad HaPnim appointment.
+- **School records and re-enrollment:** For kids returning to the Israeli school system after attending foreign schools, the Ministry of Education's "Hakara BeLimudim" (recognition of foreign studies) process is required, especially for high-school grades that feed into Bagrut. Bring apostilled report cards and the school's official transcript. Allow 4-8 weeks for recognition.
+- **Hebrew gap for the kids:** Misrad HaKlita's returning-resident track includes Hebrew reinforcement for school-age returnees who studied abroad for 4+ years. Check eligibility with the local Misrad HaKlita office before the school year starts.
+
+---
+
+## Misrad HaKlita returning-resident track (moved from SKILL.md)
+
+**Misrad HaKlita returning-resident track (separate from tax benefits):**
+
+The Ministry of Aliyah and Integration (Misrad HaKlita) operates an absorption program for returning residents, parallel to but smaller than the new-immigrant program:
+- **There is no oleh-style sal klita cash basket for a returning resident.** The ministry's returnee package is employment/retraining assistance, customs help, and ulpan -- not the new-immigrant absorption basket. (The sal klita page lists only olim, ezrach oleh and katin chozer as eligible.) Do not promise a returnee a sal klita grant.
+- Hebrew refresher Ulpan (free or subsidized) for the returnee and the spouse if needed
+- Employment counseling and job-search support for the first 12 months back
+- **Eligibility threshold: TWO years abroad** (five years for returning scientists and business entrepreneurs), an Israeli citizen aged 17+ at return who was previously an Israeli resident, with visits to Israel of no more than 4 months per year, the test being applied over the last 2 years before return (3 years for business entrepreneurs, 5 for returning scientists). The 6-year figure is the Income Tax Ordinance's TAX tier for a regular toshav chozer -- it does not govern the ministry track.
+
+This track is administrative (Misrad HaKlita certificate) and is separate from the Tax Authority's section-14 determination. The certificate helps with absorption services and customs paperwork but does NOT grant the tax benefit by itself.
+
+---
+
+## מצב הילדים בחזרה (הועבר מ-SKILL_HE.md)
+
+**מצב הילדים בחזרה:**
+
+משפחות שחוזרות עם ילדים שנולדו בחו"ל עוברות מסלול ניירת סימטרי לזה שעשו ביציאה:
+
+- **דרכון ישראלי:** ילדים שנולדו בחו"ל להורה ישראלי הם אזרחים ישראלים אוטומטית, אבל הדרכון הישראלי מונפק רק אחרי רישום בקונסוליה ישראלית (טפסים + תעודת לידה זרה עם אפוסטיל). לוקח 6-12 שבועות בקונסוליה בחו"ל. עדיף לטפל בזה לפני המעבר חזרה ולא להידחק אחריו.
+- **תעודת זהות:** מספר תעודת הזהות של הילד מוקצה אוטומטית בכניסה הפיזית הראשונה לישראל (או מוקדם יותר אם נרשם בקונסוליה). לפגישה במשרד הפנים להביא תעודת לידה זרה עם אפוסטיל.
+- **תעודות לימודים ושיבוץ בחזרה:** לילדים שחוזרים למערכת החינוך הישראלית אחרי בית ספר זר, צריך לעבור הליך "הכרה בלימודים" של משרד החינוך, במיוחד לכיתות תיכון שמובילות לבגרות. להביא תעודות שנתיות עם אפוסטיל ותמליל רשמי של בית הספר. לוקח 4-8 שבועות.
+- **פער עברית לילדים:** מסלול הקליטה לתושב חוזר כולל חיזוק עברית לתלמידי בית ספר שלמדו בחו"ל 4 שנים ומעלה. כדאי לבדוק זכאות מול לשכת הקליטה המקומית לפני תחילת שנת הלימודים.

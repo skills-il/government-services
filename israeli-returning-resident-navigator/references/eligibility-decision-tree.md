@@ -67,7 +67,7 @@ Filed Form 628 at a BL branch (or via personal online area)?
 Source: https://www.btl.gov.il/Audience/toshavChozer/Pages/default.aspx ; https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%97%D7%95%D7%96%D7%A8%D7%99%D7%9D.
 
 Once recognized:
-- Health-services waiting period = 1 month per year of absence (minimum 2 months for anyone abroad 12+ months, maximum 6 months).
+- Health-services waiting period = 1 month per year of absence, maximum 6 months, no statutory minimum. It applies only if the returnee was abroad 18 consecutive months or more AND went 12+ months without paying health contributions (or ceased to be a resident); someone who kept paying has none.
 - Pidyon (redemption) = 16,860 NIS in 2026, payable in one shot or up to 6 installments.
 - Benefits unavailable on day one: maternity allowance, unemployment (dmei avtala), employer insolvency. These need accumulated work periods after recognition.
 
