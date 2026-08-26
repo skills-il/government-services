@@ -38,18 +38,18 @@ The governing IDF order is **Pkudat Matkal 35.0808** ("חיילים בודדים
 
 > Source quote (kolzchut): "כדי להיות מוכר כחייל בודד, יש להגיש בקשה ללשכת הגיוס האזורית"
 
-**The soldier-facing form is Form 62** (שאלון הכרה לחייל בודד, submitted in duplicate), the same form in BOTH pre-enlistment and during-service phases. Form 7304 is an internal routing document the Rakezet Tash initiates and the soldier completes AFTER status is raised at the Lishkat HaGiyus interview. Do not ask for "Form 7304" at the counter; ask for the **שאלון הכרה לחייל בודד (Form 62)**.
+**Two different forms, one per phase, do not swap them.** Kol Zchut: a pre-enlistment candidate raises boded status at the initial Lishkat HaGiyus interview and then, at the Rakezet Tash's initiative, **fills Form 7304** ("לאחר מכן, וביוזמת רכזת הת\"ש, עליו למלא טופס 7304"). A soldier ALREADY serving fills **Form 62** in two copies before an officer or Mashak Tash in the unit ("ימלא 'שאלון הכרה לחייל בודד' (טופס 62) ב-2 העתקים"). Form 7304 is not internal-only; a pre-enlistment candidate should expect to fill it.
 
 | Phase | What to do | Where |
 |---|---|---|
-| Pre-enlistment (gibush / Lishkat HaGiyus interview) | Raise lone-soldier status verbally with the MLSh"B at the initial interview; Rakezet Tash initiates Form 7304 internally; soldier also fills Form 62 | Regional recruitment office (lishkat hagiyus haezorit) |
-| Already in service | Submit Form 62 (in duplicate) | Unit officer or Mashak Tash |
+| Pre-enlistment (Lishkat HaGiyus interview) | Raise lone-soldier status at the initial interview, then fill **Form 7304** at the Rakezet Tash's initiative. She forwards it to the office HQ for approval, exceptional cases go to the recognition committee at Maktzar. Approval is mailed home, and the boded certificate is issued on enlistment day. | Regional recruitment office (lishkat hagiyus haezorit) |
+| Already in service | Submit **Form 62** (שאלון הכרה לחייל בודד) in two copies | Unit officer or Mashak Tash |
 
 | Step | Detail |
 |---|---|
 | 1 | Submit the appropriate form per above |
 | 2 | Required documents depend on track: oleh = Teudat Oleh + family documentation showing parents abroad; estranged Israeli = social worker assessment; orphan = parental death certificates |
-| 3 | Decision by recognition committee, typically within ~1 month, response via Mashak Tash |
+| 3 | Decision via the recruitment-office HQ, or the Maktzar committee in exceptional cases. No processing time is published; ask the Rakezet Tash. |
 | 4 | If rejected: appeal back through Mashak Tash; the appeals committee decision is final unless circumstances change materially |
 | 5 | Hotlines: IDF general line and Soldiers' Ombudsman (numbers on the IDF site), NBN+FIDF 24/7 |
 
@@ -59,11 +59,11 @@ The governing IDF order is **Pkudat Matkal 35.0808** ("חיילים בודדים
 
 > Source quote (kolzchut מענק חודשי): "מענק חודשי קבוע, ששיעורו 100% משכר היסוד של טוראי בשירות חובה. המענק החודשי ישולם יחד עם תשלום שכר החובה"
 
-The recognized lone soldier receives a **fixed monthly grant equal to 100% of the base salary of a private (turai) in mandatory service**, paid together with the regular salary payment. This effectively doubles the cash income vs. a non-boded soldier of equivalent rank/service-type, the base salary is paid AS USUAL, and the grant is added on top.
+The recognized lone soldier receives a **fixed monthly grant equal to 100% of the base salary of a private (turai) in mandatory service**, paid together with the regular salary payment. The base salary is paid as usual and the grant is added on top.
 
-The grant accrues automatically upon recognition, no separate application needed each month. The base monthly boded grant is fixed at 100% of the private's base salary regardless of the soldier's actual rank or service-tier (currently **₪601.2/month** per the official IDF lone-soldier economic-benefits page).
+The grant accrues automatically upon recognition, no separate application needed each month. The base monthly boded grant is fixed at 100% of the private's base salary regardless of the soldier's actual rank or service-tier. Kol Zchut publishes the mechanic (100% of a private's base salary) with **no NIS figure**; the IDF benefits page separately publishes **₪601.2/month**. No source equates the two, so do not present them as the same amount. Give the mechanic and have the user confirm the figure with Mashak Tash.
 
-**Important: combat and combat-support lone soldiers get an ADDITIONAL boded-specific supplement on top of the base monthly grant.** Per the official IDF lone-soldier economic-benefits page: combat lone soldiers at level א'+ (lochem) get **₪467.2/month** extra; combat-support at level א' (tomech lechima) get **₪233.7/month** extra. These boded-only uplifts STACK on the universal combat/tomech differentials every soldier gets. The figures are updated periodically, confirm with Mashak Tash or the IDF benefits page.
+**Important: combat and combat-support lone soldiers get an ADDITIONAL boded-specific supplement on top of the base monthly grant.** Per the official IDF lone-soldier economic-benefits page: combat lone soldiers at level א'+ (lochem) get **₪467.2/month** extra; combat-support at level א' (tomech lechima) get **₪233.7/month** extra. These boded-only uplifts STACK on the universal combat/tomech differentials every soldier gets. **All three shekel figures come from the IDF benefits page, which does not render outside a real browser session, so we cannot re-verify them each cycle.** Treat them as indicative and confirm with Mashak Tash.
 
 **Oleh lone soldiers get a SECOND monthly grant from the Aliyah Ministry that STACKS on the IDF grant.** A lone soldier (or lone national-service volunteer) who made aliyah in the 5 years before service is entitled to a grant from משרד העלייה והקליטה equal to **100% of a private's base salary**, paid IN ADDITION to the IDF monthly grant above. Ethiopian-origin lone soldiers who immigrated within the prior 10 years get a higher grant of **150%**. This is a separate application: contact משרד העלייה והקליטה at one of its service bureaus (hotline 03-9733333). Estranged-track Israeli lone soldiers are not olim and do NOT get this grant.
 
@@ -86,26 +86,15 @@ Note: this is operationally DIFFERENT from the post-discharge rent assistance in
 
 | Benefit | Detail | Source |
 |---|---|---|
-| Free flights home, "מתגעגעים הביתה" | Available after **8 months** of service. Non-combat lone soldier: **1 funded flight** during service; combat lone soldier (truly boded, parents abroad): **2 funded flights** (not in the same year). The funding (Aguda LeMaan HaChayal + FIDF) **covers the ticket, port/airport fees, AND medical insurance**; the soldier pays only passport + entry visas. Request via Mashak Tash or the `prat.idf.il` personal portal. | Pkudat Matkal 35.0808 Appendix A + kolzchut |
+| Free flights home, "מתגעגעים הביתה" | **Gated on being a lone soldier "מובהק"**: Kol Zchut conditions the benefit on parents living abroad permanently, having emigrated, or being on shlichut for at least six months. An estrangement-track soldier with family in Israel does not reach it at all. Available after **8 months** of service. Non-combat lone soldier: **1 funded flight** during service; combat lone soldier (truly boded, parents abroad): **2 funded flights** (not in the same year). The funding (Aguda LeMaan HaChayal + FIDF) **covers the ticket, port/airport fees, AND medical insurance**; the soldier pays only passport + entry visas. Request via Mashak Tash or the `prat.idf.il` personal portal. | Pkudat Matkal 35.0808 Appendix A + kolzchut |
 | Marriage grant supplement | A lone soldier who marries during mandatory service is entitled to a special one-time grant ON TOP of the regular IDF marriage grant | Pkudat Matkal 35.0808 |
-| Special leave (chufsha meyuchedet) | Up to **60 special-leave days per service year**, of which **30 are reserved for visiting parents abroad, also per service year** (kolzchut: "לא יעלו על 60 יום בשנת שירות, כאשר 30 מתוכם... ביקור הורים בחו\"ל"). The leave is annual, NOT a one-time entitlement, a multi-year boded gets it each service year. What is capped across service is the FUNDED flight (1 for non-combat, 2 for combat, see the flights row), not the leave itself. The first 5 days of each chufsha are deducted from the regular leave bank. | Pkudat Matkal 35.0808 |
-| Beit HaChayal lodging | Free lodging on weekends, holidays, and extended weekends across the Aguda LeMaan HaChayal Beit HaChayal chain (multiple branches across Israel). Meals + laundry included. Requires lone-soldier certificate + military ID + leave authorization. See the UFIS directory for current branch list. | Aguda LeMaan HaChayal |
-| Food vouchers / holiday vouchers | Monthly food vouchers of **₪150/month** (redeemable at Shufersal, Kovoret, Yesh Chesed, Yeinot Beitan, Mega, per the IDF benefits page) plus periodic holiday vouchers for Rosh Hashanah and Pesach (the holiday-voucher amount varies year to year, verify the current amount with Mashak Tash). Bodedim in subsidized "יחד למען החייל" apartments get a higher monthly food allotment instead. | Aguda LeMaan HaChayal + Garin Tzabar |
+| Special leave (chufsha meyuchedet) | The 30 abroad-visit days presuppose parents abroad, so like the flight they only help a "מובהק" soldier. Up to **60 special-leave days per service year**, of which **30 are reserved for visiting parents abroad, also per service year** (kolzchut: "לא יעלו על 60 יום בשנת שירות, כאשר 30 מתוכם... ביקור הורים בחו\"ל"). The leave is annual, NOT a one-time entitlement, a multi-year boded gets it each service year. What is capped across service is the FUNDED flight (1 for non-combat, 2 for combat, see the flights row), not the leave itself. The first 5 days of each chufsha are deducted from the regular leave bank. | Pkudat Matkal 35.0808 |
+| Beit HaChayal lodging | Free lodging on weekends, holidays, and extended weekends across the Aguda LeMaan HaChayal Beit HaChayal chain (multiple branches across Israel). Meals + laundry included. Requires lone-soldier certificate + military ID + leave authorization. | Aguda LeMaan HaChayal |
+| Food vouchers / holiday vouchers | Monthly food vouchers of **₪150/month** (redeemable at Shufersal, Kovoret, Yesh Chesed, Yeinot Beitan, Mega, per the IDF benefits page) plus periodic holiday vouchers for Rosh Hashanah and Pesach (the holiday-voucher amount varies year to year, verify the current amount with Mashak Tash). Residents of subsidized "יחד למען החייל" apartments are reported to get a different allotment in place of the standard one; verify with Mashak Tash. | Aguda LeMaan HaChayal + Garin Tzabar |
 
 ### Step 5.5: Additional Benefits Many Lone Soldiers Miss
 
-Named entitlements on the kolzchut חיילים בודדים hub that are easy to overlook:
-
-| Benefit | What it is |
-|---|---|
-| Aliyah-Ministry monthly grant | Second monthly grant for olim bodedim (see Step 3), stacks on the IDF grant. |
-| Psychometric-course funding (מימון קורס פסיכומטרי) | IDF funding for a psychometric prep course; apply via Mashak Tash. |
-| Private-work permit (אישור לעבודה פרטית) | Approval to work privately during service, a financial lifeline; request via the unit. |
-| Subsidized lone-soldier apartments (דירות אל"ח / "יחד למען החייל") | Residential apartments for bodedim (residents get a higher monthly food-voucher allotment instead of the standard ₪150); distinct from Beit HaChayal weekend lodging. |
-| Post-discharge boded scholarships (קרן הישג, קרן גרוס) | Named scholarship funds specifically for discharged lone soldiers, beyond the generic Mimadim / Pikadon tracks. |
-| כנפיים program (Jewish Agency + Keren Miraj) | Flights / scholarship program for lone soldiers. |
-
-Route the user to the kolzchut חיילים בודדים hub and to NBN / FIDF / the Lone Soldier Center for current application details and amounts.
+Routinely overlooked entitlements on the Kol Zchut hub: the Aliyah-Ministry second grant (Step 3), psychometric-course funding, a private-work permit, subsidized lone-soldier apartments, boded scholarships (קרן הישג, קרן גרוס) and the כנפיים program. Full table: `references/additional-benefits.md`.
 
 ### Step 6: Post-Discharge, 12-Month Rent Assistance via hachvana
 
@@ -115,7 +104,7 @@ This is the single most valuable post-discharge benefit a lone soldier should cl
 
 | Aspect | Detail |
 |---|---|
-| Amount | Up to 1,000 NIS per month |
+| Amount | Up to 1,000 NIS per month. **If the actual rent is below 1,000 NIS per month, the reimbursement is the amount actually paid, not the cap** (hachvana: "אם שכר הדירה שאתם משלמים הוא פחות מ- 1,000 ₪ לחודש, תקבלו החזר בגובה הסכום שאתם משלמים בפועל"). |
 | Duration | Up to 12 months of rent |
 | Annual cap | 12,000 NIS in the first year post-discharge |
 | Payment structure | Two installments: first up to 6,000 NIS covers 6 months; second up to 6,000 NIS submitted within 4 months after the first period ends |
@@ -123,20 +112,25 @@ This is the single most valuable post-discharge benefit a lone soldier should cl
 | Required documents | As of the **01.07.2026 process update**, the submission is a **declaration form (טופס הצהרה)** signed by the soldier + landlord; bank details are updated separately in the personal area (the older separate lease-copy + bank-authorization artifacts are no longer the submission documents). Keep the signed lease on hand in case of review. |
 | Eligibility | Must have been formally recognized as a lone soldier (per Step 2) during the service period |
 | Window | First year (12 months) after end of mandatory service. Late applications past the first year are not eligible. |
+| Payment timing | Uploaded declaration is checked within **7 business days** (excluding Fridays and holidays); once approved by SMS the money reaches the bank account within **14 business days**. If it does not, call the hotline. |
+| Terms may change | hachvana states the benefit terms may be varied by decisions of the Fund for the Absorption of Discharged Soldiers board ("תנאי ההטבה עשויים להשתנות בהתאם להחלטות הנהלת הקרן לקליטת חיילים משוחררים"). Re-check the page before relying on an amount. |
 | Hotline | hachvana `*5266` |
 
 This is independent of the active-duty rent assistance, the active-duty one stops on discharge day, this one starts on discharge day.
+
+**24-hour lone-soldier hotline: `03-7375200`** (Kol Zchut: "מוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200").
 
 ### Step 7: Lone-Soldier Pikadon + Extended 10-Year Window
 
 The Pikadon a lone soldier accrues during service follows the SAME per-month amounts and the SAME 6 permitted purposes as the regular discharged-soldier stack, there is no separate "Pikadon Mugdal" with higher monthly accrual (a common misconception). Lone soldiers get the same per-tier amounts (lochem / tomech lechima / acher / SLE), these are covered in `israeli-discharged-soldier-navigator`.
 
-**Critical, and easy to get backwards: the 10-year window covers the §7 / §7א BENEFITS, not the Pikadon.** Per the official hachvana (MoD) law page, a recognized lone discharged soldier (and an active reservist) receives the section 7 and 7א benefits for 10 years instead of 5. The **Pikadon window is 5 years for everyone, lone soldier included**: the restricted-purpose window ends at year 5 and the unused balance is then released to the bank account with no restrictions. There is no 10-year restricted Pikadon window, and telling a lone soldier to "wait, you have until year 10" is wrong on both halves (the restriction is already gone, and the money is already theirs).
+**Critical, and easy to get backwards: the 10-year window covers the §7 / §7א BENEFITS, not the Pikadon.** Per the official hachvana (MoD) law page, a recognized lone discharged soldier (and an active reservist) receives the section 7 and 7א benefits for 10 years instead of 5. The **restricted-purpose Pikadon window is 5 years for everyone, lone soldier included**: after year 5 the unused balance is released with no purpose restriction. But there IS still an outer deadline, and the skill must not imply otherwise: the same hachvana page states the realization window for the personal Pikadon was extended from 7 to **10 years from discharge, for ALL soldiers discharged after 12.7.2007** ("הוארכה הזכאות למימוש הפיקדון האישי מ-7 ל-10 שנים מיום השחרור, לכלל החיילים המשוחררים שהשתחררו לאחר 12.7.2007"). That 10-year figure is universal and is NOT the lone-soldier benefit; the lone-soldier-specific extension is the §7 / §7א window below.
 
 | Window | Regular discharged soldier | Lone soldier |
 |---|---|---|
 | Pikadon restricted to the 6 permitted purposes | 0-5 years post-discharge | 0-5 years post-discharge (**the same**) |
-| Pikadon unrestricted (auto-transfer to bank) | After year 5 | After year 5 (**the same**) |
+| Pikadon unrestricted (no purpose restriction) | After year 5 | After year 5 (**the same**) |
+| Outer deadline to realize the Pikadon at all | 10 years from discharge (7 if discharged before 12.7.2007) | 10 years (**the same, not a boded benefit**) |
 | Section 7 / 7א benefits: academic counseling, tuition assistance, scholarships, mentorship | 5 years | **10 years** |
 | Hachvana career programs | 5 years | **10 years** |
 
@@ -144,32 +138,15 @@ The Pikadon a lone soldier accrues during service follows the SAME per-month amo
 
 > Source: hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx (Chok Klitat Chayalim Meshuchrarim, §7 / §7א per §1)
 
-The 6 permitted pre-window purposes (same as regular):
+The six permitted purposes during the restricted window (studies, vocational training, marriage, starting a business, driving lessons, apartment purchase, NOT rental) are the same as for any discharged soldier.
 
-| # | Purpose |
-|---|---|
-| 1 | Academic studies |
-| 2 | Professional / vocational training |
-| 3 | Marriage |
-| 4 | Starting a business |
-| 5 | Driving lessons |
-| 6 | Apartment purchase (NOT rental) |
-
-For the full Pikadon mechanics (per-tier amounts, tax exemption Section 9(27), withdrawal flow), route the user to `israeli-discharged-soldier-navigator`. This skill ONLY documents the lone-soldier-specific layer: the doubled withdrawal window.
+For the full Pikadon mechanics (per-tier amounts, the tax treatment, withdrawal flow), route the user to `israeli-discharged-soldier-navigator`. This skill ONLY documents the lone-soldier-specific layer: the doubled section 7 / 7א window. The Pikadon windows are the same as for anyone else.
 
 ### Step 8: Diaspora and Israeli NGO Support
 
-These organizations operate independently of the IDF / MoD and provide social, financial, and logistical support:
+Nefesh B'Nefesh + FIDF, Garin Tzabar, the Lone Soldier Center in Memory of Michael Levin and the Mahal program operate independently of the IDF and MoD. They fill gaps the official package does not cover: furnished apartments for olim, holiday hosting, emergency grants, equipment and career mentorship. Route every lone soldier to them ALONGSIDE the official applications, not instead of them. **Mahal alumni are a special case: their post-discharge package differs and they should not assume the hachvana rent benefit applies, see the directory.**
 
-| Organization | What they offer |
-|---|---|
-| **Nefesh B'Nefesh (NBN) + FIDF** | Joint Lone Soldier Program: pre-aliyah and pre-enlistment guidance for olim, financial grants, ongoing support during service, post-discharge transition help. Operates from both Israel and North America. |
-| **Friends of the IDF (FIDF)** | Direct financial grants and welfare support to lone soldiers; equipment, vacations, family-visit-to-Israel programs |
-| **Garin Tzabar** | Aliyah-and-IDF preparation program from the Israeli Scouts (Tzofim). Places groups of olim on kibbutzim for pre-army adaptation; alumni support continues post-discharge |
-| **Lone Soldier Center in Memory of Michael Levin** | Community center providing social events, holiday hosting, emergency assistance, post-discharge programs. Site: lonesoldiercenter.com |
-| **Mahal program** | For non-Israeli Jews serving without making aliyah, a different track from boded oleh. Service length varies (about 18 months minimum is commonly cited); verify with Mahal coordinators |
-
-When to route to NGOs: any lone soldier (especially olim) should be aware of these, they fill gaps the IDF/MoD don't cover (e.g., furnished apartments for olim, holiday family-hosting, post-discharge career mentorship).
+Full directory with per-organization programs, eligibility and contact routes: `references/diaspora-orgs-directory.md`.
 
 ### Step 8.5: Operational Gotchas, Pre-Discharge Interview, Arnona, Electricity, Bank Account
 
@@ -177,9 +154,9 @@ These items are missing from many lone-soldier checklists but materially affect 
 
 | Item | Detail |
 |---|---|
-| **Pre-discharge HKK interview** | Every recognized lone soldier should attend the dedicated pre-discharge interview (60-90 days before tashlum) with HKK / Mashak Tash. Skipping this interview is the #1 reason bodedim miss the 12-month post-discharge rent window. |
-| **Arnona discount (post-discharge)** | Bodedim renting their own apartment can apply for a municipal arnona discount via the local iriya. Discount range varies by municipality. Apply with the lone-soldier recognition certificate. |
-| **Electricity discount** | Recognized bodedim are eligible for a Chevrat HaChashmal electricity discount via the Ministry of Energy hanacha track (separate from the active-duty utility coverage paid by Mashak Tash). Continues post-discharge. |
+| **Pre-discharge HKK interview** | Every recognized lone soldier should attend the pre-discharge interview with HKK / Mashak Tash, ideally a couple of months before discharge. Treat the exact lead time as unverified, ask the unit. Its practical value is that it is where the post-discharge benefits, including the 12-month rent window, get explained. |
+| **Arnona relief** | Kol Zchut lists an arnona exemption as an ACTIVE-DUTY lone-soldier benefit. No source says it continues after discharge, so check with the municipality rather than promising continuity. |
+| **Electricity discount** | Listed by Kol Zchut as a separate benefit, not part of the Mashak Tash housing participation. Route to Mashak Tash for the application; do not assert a post-discharge continuation. |
 | **Israeli bank account (blocker for olim)** | The monthly grant, rent assistance, and Pikadon withdrawals all pay only to an Israeli bank account in the soldier's name. NBN + FIDF walk olim through bank opening, surface this BEFORE the soldier expects a deposit. |
 | **Re-recognition during reserve duty** | A boded who continues to qualify (parents still abroad / deceased) keeps lone-soldier protections during miluim under Pkudat 35.0808 sections that survive discharge. Cross-reference `israeli-miluim-manager`. |
 | **Ezrach Karov (designated next-of-kin)** | Estranged-track bodedim can nominate an Israeli adult as a designated next-of-kin / emergency contact for the IDF. Unlocks emergency furlough and hospital visiting rights. |
@@ -192,19 +169,13 @@ An oleh under Chok HaShvut (Law of Return, 5710-1950) has the right of return; t
 |---|---|
 | Do I need to be a citizen to enlist as a lone soldier? | Olim are typically citizens at enlistment via Chok HaShvut. Non-citizen volunteers go through the Mahal program. |
 | Does the sal klita continue during service? | Yes, Misrad HaKlita benefits run on their own timeline; check with NBN for current rules |
-| Can I claim discharge / post-discharge benefits if I return abroad? | Most can be claimed in the first 5 years (Pikadon) and 1 year (rent assistance) windows; some require Israeli bank account. Coordinate via NBN. |
+| Can I claim discharge / post-discharge benefits if I return abroad? | Yes, inside their own windows (rent assistance: the first year; Pikadon and the section 7 / 7א benefits: see Step 7). Some require an Israeli bank account. Coordinate via NBN. |
 
 For full aliyah / Misrad HaKlita rules, route to `israeli-bituach-leumi` (general benefits) and future aliyah-specific skills. This skill ONLY surfaces the lone-soldier-specific intersections.
 
 ### Step 10: Required Documents Checklist
 
-| Phase | Required documents |
-|---|---|
-| Aka recognition (Step 2) | Application form (Bakshat Hakara b'Bededut), Teudat Zehut, Teudat Oleh (if relevant), parents' documentation (foreign passport / death certificate / estrangement social worker letter) |
-| Active-duty rent (Step 4) | Recognition letter from Aka, signed lease, bank account, ID |
-| Active-duty flights (Step 5) | Mashak Tash coordination form, travel dates, family invitation if relevant |
-| Post-discharge rent (Step 6) | Teudat Shichrur, lone-soldier recognition status, and (per the 01.07.2026 process) a declaration form signed by soldier + landlord; bank details are updated separately in the personal area. Keep the signed lease on hand for review. |
-| Pikadon withdrawal (Step 7) | Teudat Shichrur, purpose-specific evidence (per the 6 categories) |
+Per-benefit document lists are in `references/documents-checklist.md`. Every application needs the lone-soldier recognition certificate, so tell the user to keep several copies.
 
 ## Examples
 
@@ -232,17 +203,6 @@ Actions:
 3. She gets the regular discharged-soldier stack (Pikadon, manak shichrur, nekudot zikui), route to `israeli-discharged-soldier-navigator`.
 4. NGOs that help estrangement-track lone soldiers specifically: Lone Soldier Center in Memory of Michael Levin (community + emergency assistance), some FIDF programs.
 
-### Example 3: Garin Tzabar alumnus 2 years post-discharge
-
-User says: "I came through Garin Tzabar, served as a lone soldier, discharged 2 years ago. Thinking of staying long-term, what programs are still available?"
-
-Actions:
-1. The 12-month post-discharge rent assistance window has closed (he is 2y past discharge).
-2. Pikadon remains available within the 5-year window for the 6 permitted purposes (Step 7).
-3. Garin Tzabar alumni programs continue, career mentorship, networking, social events. Direct him to the Garin Tzabar alumni network.
-4. NBN / FIDF post-discharge career programs run beyond the official IDF/MoD windows, these are ongoing.
-5. For long-term life-in-Israel planning (mortgage, kosherut, employment): route to general Israeli-life skills.
-
 ### Example 4: Active-service lone soldier wants to use the IDF flight benefit
 
 User says: "I'm a lone soldier 14 months into service, planning a trip home to my parents, how do I use the IDF flight benefit?"
@@ -251,7 +211,7 @@ Actions:
 1. Reference IDF Order 35.0808 Appendix A for the flight policy.
 2. Practical flow: coordinate with the unit's Mashak Tash 30+ days before the planned travel dates. Flights subject to availability.
 3. Documents: travel dates, family invitation or proof of residence abroad, valid passport.
-4. Note: this is the IDF Air Force flight benefit, NGOs (FIDF, NBN) sometimes offer additional commercial-flight grants for those who can't time-coordinate IDF flights.
+4. Note: this funds a normal commercial ticket (Kol Zchut: the funding covers the ticket cost, port taxes and medical insurance; the soldier pays passport and entry visas). It is requested through Mashak Tash, it is not a military flight. NGOs (FIDF, NBN) sometimes offer additional flight grants on top.
 
 ### Example 5: New oleh planning to enlist as lone soldier
 
@@ -290,27 +250,30 @@ No public MCP server exists for hachvana.mod.gov.il or IDF systems. Aka recognit
 
 ## Gotchas
 
+- **Apply the moment you are eligible: no source publishes a backdating rule.** Neither Kol Zchut nor hachvana says whether the active-duty rent participation or the Aliyah-Ministry grant can be backdated, or only runs forward from approval. Do not answer either way. Say the safe version: every month of delay may be unrecoverable, so file with Mashak Tash (rent) and the Aliyah Ministry (olim grant) as soon as the entitlement exists. The one published deadline is the post-discharge rent benefit, first year only.
+- **The flight cap caps ONE program, not all travel abroad.** The 1-or-2 funded flights are the מתגעגעים הביתה entitlement. A soldier who has used them and then faces a parent's death or critical illness abroad goes straight to Mashak Tash and the Aguda, and must not be told nothing remains. Emergency travel sits outside this program and this skill does not document it.
 - **Recognition (Aka acknowledgment) is the gate for EVERY benefit on this skill.** No formal recognition = no grant, no rent, no flights, no post-discharge rent. If a soldier "lives like a boded" (alone, far from family) but never filed Bakshat Hakara b'Bededut, they get nothing on the lone-soldier package. Verify recognition status before computing entitlements.
-- **There is NO "Pikadon Mugdal" with a higher per-month accrual specific to lone soldiers.** A common misconception is that lone soldiers get an enhanced per-month Pikadon tier. They don't, they get the same per-tier monthly accrual as everyone else (the actual NIS amounts per service tier are CPI-indexed monthly; see `israeli-discharged-soldier-navigator` for current figures, do not hardcode here). What IS lone-soldier-specific is the **doubled benefits window**: 10 years (vs 5) for the section 7 / 7א entitlements, which are the study, scholarship and career benefits. It does NOT extend the Pikadon: the Pikadon's restricted-purpose window is 5 years for a lone soldier exactly as for anyone else, and the balance is released unrestricted after year 5.
-- **The active-duty rent assistance and the post-discharge rent assistance are TWO DIFFERENT benefits.** The active-duty one (rent + utilities, applied via Mashak Tash) ends on discharge day. The post-discharge 12,000 NIS one starts on discharge day and is independent, apply separately via hachvana personal area within the first 12 months.
-- **Smart-card login is deprecated.** The personal area at hachvana.mod.gov.il uses the government identifier (מזהה ממשלתי) or the MoD mobile app push. Skip any documentation that says smart-card.
+- **There is NO "Pikadon Mugdal" specific to lone soldiers.** They accrue the same per-tier monthly amounts as everyone else (see `israeli-discharged-soldier-navigator` for current figures, do not hardcode them here). What IS lone-soldier-specific is the 10-year (vs 5) window for the section 7 / 7א study and career benefits, per Step 7.
+- **Do not hardcode the hachvana login method.** The personal area sign-in at hachvana.mod.gov.il has changed more than once and the current page does not document it. Send the user to the site's own sign-in screen and follow whatever it offers rather than asserting a method.
 - **The 12-month post-discharge rent assistance is "first year", it does not carry over.** If the user does not apply within the 12 months following discharge, the benefit is lost. Set an explicit reminder for olim returning to family abroad temporarily.
 - **The monthly grant during service = 100% of a PRIVATE'S base salary, NOT 100% of the soldier's actual salary.** A combat lone soldier still earns the combat tier rate + the private-scale boded grant on top. The grant is fixed to the turai scale, not the soldier's rank or service tier.
-- **Estrangement-track Israeli lone soldiers get the SAME IDF / hachvana benefits as olim lone soldiers, but NOT the diaspora / aliyah-side benefits.** The IDF financial package (monthly grant, rent, flights, post-discharge rent assistance) is identical regardless of recognition track. But the differentiating layers DO differ: Misrad HaKlita sal klita is zero for estranged Israelis (they are not olim); NBN serves olim primarily and routes estranged Israelis to the Lone Soldier Center in Memory of Michael Levin or directly to Aguda; the abroad-flight allotment is moot for estranged Israelis whose family is in Israel (no destination to fly to). The recognition criterion is "no parental support in Israel", but the practical benefits stack diverges based on whether the soldier has overseas family + immigrant status.
-- **Mahal is NOT the boded oleh track.** Mahal soldiers are non-Israeli volunteers serving without making aliyah; their service length (Regular Mahal about 18 months, Mahal Hesder longer) and placement differ from oleh lone soldiers. Don't conflate them.
-- **For everything in the regular discharged-soldier package, route to israeli-discharged-soldier-navigator.** Pikadon by service tier, manak shichrur, nekudot zikui Section 39a, Iron Swords Mimadim 100% tuition (under Tikkun 25, Dec 20 2023), that's the OTHER skill. This skill ONLY adds the supplemental lone-soldier layer on top.
+- **Estrangement-track Israeli lone soldiers get the SAME IDF / hachvana benefits as olim lone soldiers, but NOT the diaspora / aliyah-side ones.** The IDF financial package (monthly grant, rent, flights, post-discharge rent) is identical whatever the recognition track. What differs: no sal klita and no Aliyah-Ministry grant (they are not olim); NBN serves olim primarily and routes estranged Israelis to the Lone Soldier Center or Aguda; the abroad-flight allotment is moot when the family is in Israel.
+- **Mahal is NOT the boded oleh track.** Mahal soldiers are non-Israeli volunteers serving without making aliyah; service length and placement differ. Don't conflate them.
+- **For everything in the regular discharged-soldier package, route to israeli-discharged-soldier-navigator.** Pikadon by service tier, manak shichrur, nekudot zikui Section 39a, the Iron Swords Mimadim tuition track, that's the OTHER skill. This skill ONLY adds the supplemental lone-soldier layer on top.
 
 ## Bundled Resources
 
 ### Scripts
 
-- `scripts/post-discharge-rent-estimator.py`, Compute the maximum post-discharge rent assistance the soldier can claim under the 12,000 NIS / 12-month cap based on planned rental dates. Run: `python scripts/post-discharge-rent-estimator.py --discharge-date 2026-03-15 --rent-start 2026-04-01 --rent-monthly 5000`
+- `scripts/post-discharge-rent-estimator.py`, Estimate the post-discharge rent assistance under the 12,000 NIS / 12-month cap. Run: `python scripts/post-discharge-rent-estimator.py --discharge-date 2026-03-15 --rent-start 2026-04-01 --rent-monthly 5000 --rent-months 12`. Pass `--rent-months` from the lease; without it the output is an upper bound, not an entitlement.
 
 ### References
 
-- `references/domain-checklist.md`, Canonical coverage list (Must / Should / Out-of-scope / Sources) for future update-skill runs to detect gaps.
-- `references/recognition-process.md`, Step-by-step IDF Aka recognition flow: form, documents per track (oleh vs estranged Israeli), social worker assessment, appeal process.
-- `references/diaspora-orgs-directory.md`, Quick reference for the major diaspora and Israeli NGOs supporting lone soldiers: NBN, FIDF, Garin Tzabar, Lone Soldier Center, Mahal.
+- `references/domain-checklist.md`, Canonical coverage list for future update runs.
+- `references/recognition-process.md`, The Aka recognition flow: forms per phase, documents per track, social-worker assessment, appeal.
+- `references/diaspora-orgs-directory.md`, The major diaspora and Israeli NGOs: NBN, FIDF, Garin Tzabar, Lone Soldier Center, Mahal.
+- `references/additional-benefits.md`, The easily-missed named entitlements from the Kol Zchut hub (Step 5.5).
+- `references/documents-checklist.md`, Required documents per benefit (Step 10).
 
 ## Troubleshooting
 
@@ -320,15 +283,15 @@ Solution: If still within a reasonable post-discharge window, contact the unit's
 
 ### Error: "Discharged 14 months ago, missed the rent application"
 Cause: The 12-month post-discharge rent assistance window has closed.
-Solution: That specific benefit is gone, no extension exists. The user should focus on the still-available Pikadon (5-year window per `israeli-discharged-soldier-navigator`), nekudot zikui retroactive via Tofes 135 (6-year window), and any NGO programs (Lone Soldier Center, FIDF) that may help.
+Solution: That specific benefit is gone, no extension exists. The user should focus on the still-available Pikadon (see Step 7 for the windows, and `israeli-discharged-soldier-navigator` for the mechanics), nekudot zikui retroactive via Tofes 135 (6-year window), and any NGO programs (Lone Soldier Center, FIDF) that may help.
 
 ### Error: "Active-duty rent benefit denied because parents recently moved to Israel"
 Cause: Eligibility revoked when the parental-support condition changed mid-service. If parents moved to Israel, the soldier is no longer a chayal boded.
 Solution: Status review, if the move is temporary or the soldier has no actual family support, the case can be re-presented to Mashak Tash. Otherwise the benefits stop from the date of status change.
 
-### Error: "Trying to log in to hachvana personal area, smart-card not accepted"
-Cause: Smart-card login is deprecated.
-Solution: Use the government identifier (מזהה ממשלתי) or the MoD mobile app push notification.
+### Error: "Trying to log in to hachvana personal area, the login method I was told to use is not accepted"
+Cause: the sign-in method for the MoD personal area has changed more than once and is not documented on the benefit page.
+Solution: open the sign-in screen at hachvana.mod.gov.il and use whichever method it currently offers. Do not rely on a method quoted from older documentation. If sign-in still fails, call `*5266`.
 
 ### Error: "Aka recognition request rejected despite living alone in Israel"
 Cause: Without documented parental absence / death / estrangement, "living alone" is not enough.

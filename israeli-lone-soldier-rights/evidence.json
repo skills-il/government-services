@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-lone-soldier-rights",
   "schemaVersion": "1.0",
-  "generated_at": "2026-05-18",
+  "generated_at": "2026-08-26T19:08:57.193948+00:00",
   "claims": [
     {
       "id": "lone-soldier-definition",
@@ -41,11 +41,11 @@
     },
     {
       "id": "rent-assistance-during-service",
-      "claim": "During active service, a recognized lone soldier is entitled to participation in rental costs AND apartment maintenance expenses (electricity, gas, water, building committee). Applied via Mashak Tash (welfare NCO) of the unit OR via the IDF digital system.",
+      "claim": "The IDF housing participation for a recognized lone soldier covers rent plus apartment-maintenance costs such as water, gas and vaad bayit. The arnona exemption and the electricity-bill discount are listed as ADDITIONAL, separate benefits, not part of that participation.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "השתתפות בדמי שכירות והוצאות שונות עבור אחזקת הדירה כגון: מים, גז ועד בית. על החייל להגיש בקשה באמצעות סגל הת\"ש ביחידתו",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
+      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
+      "raw_snippet": "חיילים בודדים זכאים לקבל מצה\"ל השתתפות בדמי שכירות והוצאות עבור אחזקת הדירה כגון: מים, גז וועד בית. בנוסף לכך, הם זכאים להטבות הבאות הקשורות בתשלומים השוטפים: פטור מתשלום הארנונה . הנחה בחשבון החשמל",
       "confidence": "high"
     },
     {
@@ -80,50 +80,48 @@
     },
     {
       "id": "pikadon-same-six-purposes",
-      "claim": "The Pikadon for discharged lone soldiers follows the same 6 permitted pre-5y withdrawal purposes as for regular discharged soldiers: academic studies, professional training, marriage, starting a business, driving lessons, purchasing an apartment / house / land for building a house. The 5-year auto-transfer rule and tax-exempt status (Section 9(27)) apply identically.",
+      "claim": "Lone soldiers accrue the same Pikadon as any discharged soldier; what is lone-soldier specific is the benefits window (10 years instead of 5 for the section 7 / 7a benefits). The permitted-purpose mechanics live in the companion israeli-discharged-soldier-navigator skill.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/חיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "במהלך 5 השנים הראשונות לסיום שירות החובה, אפשר לממש את הפיקדון האישי ללימודים אקדמיים, הכשרה מקצועית, לימודי נהיגה, פתיחת עסק, רכישת דירה או נישואין. לאחר 5 שנים אפשר להשתמש בפיקדון לכל מטרה.",
+      "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "משך הזכאות של חייל משוחרר להטבות הקבועות בחוק הינה עד 5 שנים מסיום השירות הסדיר או השירות הלאומי-אזרחי (ועד 10 שנים לבודדים משוחררים ומשרתי מילואים פעילים)",
       "confidence": "high"
     },
     {
       "id": "hachvana-personal-area-url",
-      "claim": "The personal area for post-discharge lone-soldier benefits, including rent assistance application, is at hachvana.mod.gov.il. Login is via the government identifier (מזהה ממשלתי) or the MoD mobile app push.",
+      "claim": "Applications for the post-discharge rent benefit are submitted through the personal area on the hachvana (MoD) site. The page does not document the sign-in method, so no login mechanism may be asserted.",
       "claim_type": "url",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "להגשת בקשה לסיוע בשכר דירה, יש להיכנס לאזור האישי באתר האגף לחיילים משוחררים hachvana.mod.gov.il",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "היכנסו לאזור האישי",
       "confidence": "high"
     },
     {
       "id": "discharged-soldier-navigator-boundary",
-      "claim": "The full base discharged-soldier benefits stack (regular Pikadon by service tier, manak shichrur, nekudot zikui Section 39a, Iron Swords Mimadim) is covered in the companion skill israeli-discharged-soldier-navigator. This lone-soldier skill covers only the additional / supplemental lone-soldier-specific layer.",
+      "claim": "Discharge-grant and personal-Pikadon amounts are set by length and type of service (combat, combat support, or \"other\"), identically for lone soldiers. Those amounts are covered in the companion israeli-discharged-soldier-navigator skill, not here.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/חיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "חייל בודד זכאי גם להטבות הניתנות לכל חייל משוחרר. חיילים בודדים מקבלים בנוסף לזכויות הרגילות סיוע נוסף לאחר השחרור.",
+      "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "סכומי מענקי השחרור והפיקדון האישי נקבעים על פי משך השירות וסוג השירות: לוחמים, תומכי לחימה או \"אחר\"",
       "confidence": "high"
     },
     {
       "id": "lone-soldier-diaspora-orgs",
-      "claim": "Diaspora and Israeli NGOs that support lone soldiers operationally include: Nefesh B'Nefesh (NBN, with FIDF as a partner), Friends of the IDF (FIDF), Garin Tzabar (an aliyah-and-IDF preparation program by the Israeli Scouts that places groups on kibbutzim), the Lone Soldier Center in Memory of Michael Levin (tzevetmikey.com), and the Mahal program (for non-Israeli volunteers). They provide social, financial, and logistical support beyond what IDF Order 35.0808 covers.",
+      "claim": "Nefesh B'Nefesh runs a Lone Soldiers Program jointly with FIDF at nbn.org.il/nbnlsp/. This entry evidences that page only. Per-organisation programme details in references/diaspora-orgs-directory.md are pointers to each organisation's own site and are not evidenced entitlement claims.",
       "claim_type": "company",
-      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "Lone Soldier Rights and Benefits – Lone Soldiers Program | Nefesh B'Nefesh FIDF",
+      "source_url": "https://www.nbn.org.il/nbnlsp/",
+      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
+      "raw_snippet": "Lone Soldiers Program",
       "confidence": "medium",
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },
     {
       "id": "form-62-soldier-facing",
-      "claim": "Form 62 (טופס 62, שאלון הכרה לחייל בודד) is the soldier-facing lone-soldier recognition questionnaire, submitted in duplicate, used in BOTH pre-enlistment and during-service phases. Form 7304 is an internal Tash desk intake/routing document filled by the Rakezet Tash AFTER the candidate raises status at the Lishkat HaGiyus interview, NOT a form the soldier asks for at the counter.",
+      "claim": "A soldier already serving fills the lone-soldier recognition questionnaire, Form 62, in two copies before an officer or the unit Rakezet Tash. A pre-enlistment candidate instead fills Form 7304 at the Rakezet Tash's initiative after raising the status at the Lishkat HaGiyus interview.",
       "claim_type": "form-number",
-      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
-      "source_fetched_at": "2026-05-18T15:00:00Z",
-      "raw_snippet": "טופס 62 - שאלון הכרה לחייל בודד הוא הטופס שהחייל ממלא בעצמו, בשני עותקים, בשני שלבים: לפני הגיוס ובמהלך השירות. טופס 7304 הוא טופס פנימי שרכזת ת\"ש ממלאת לאחר שהמועמד מעלה סטטוס בלשכת הגיוס.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "הגשת הבקשה ביחידה חייל המבקש שיכירו בו כ\"חייל בודד\", ימלא \"שאלון הכרה לחייל בודד\" (טופס 62) ב-2 העתקים, בפני קצין או רכזת ת\"ש ביחידתו",
       "confidence": "medium"
     },
     {
@@ -149,54 +147,52 @@
     },
     {
       "id": "law-of-citizenship-1952",
-      "claim": "Law of Return 5710-1950, section 1: every Jew is entitled to immigrate to Israel. Under the Citizenship Law 5712-1952, every oleh under the Law of Return 5710-1950 becomes an Israeli citizen by virtue of return (mikoach shvut), acquired from the day of his aliya",
+      "claim": "The Law of Return section 1 provides that every Jew is entitled to make aliyah. The skill routes the citizenship-acquisition mechanics to the Interior Ministry rather than asserting an acquisition rule of its own.",
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%91%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-09T00:00:00Z",
-      "raw_snippet": "1. הזכות לעליה כל יהודי זכאי לעלות ארצה.",
+      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
+      "raw_snippet": "כל יהודי זכאי לעלות ארצה",
       "confidence": "medium",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "fetched_at": "2026-08-13",
-      "verified_via": "curl",
-      "verified_at": "2026-08-13"
+      "fetched_at": "2026-08-13"
     },
     {
       "id": "status-change-immediate",
-      "claim": "Status changes (marriage, parent making aliyah, soldier moving in with family in Israel, estranged Israeli reconnecting with parents) must be reported to Mashak Tash IMMEDIATELY / without delay, per Pkudat 35.0808. There is no statutory 30-day grace period. Continuing to receive boded benefits after a disqualifying event creates retroactive liability from the date of the event.",
+      "claim": "Recognition decisions are made by the recruitment-office HQ, and in exceptional cases by the lone-soldier recognition committee at Maktzar. Changes in circumstances must be reported to the unit Rakezet Tash so the status can be re-decided.",
       "claim_type": "law",
-      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
-      "source_fetched_at": "2026-05-18T15:00:00Z",
-      "raw_snippet": "שינוי סטטוס בודד יש לדווח למשק ת\"ש מיד / ללא דיחוי לפי פקודת מטכ\"ל 35.0808. אין תקופת חסד סטטוטורית של 30 ימים.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "רכזת הת\"ש תעביר את המסמך שמולא ודוחות רלוונטיים אחרים למפקדת הלשכה לשם אישור הבקשה, ובמקרים חריגים - להחלטת הוועדה להכרה בחיילים בודדים במקשל\"ר",
       "confidence": "medium"
     },
     {
       "id": "flights-non-combat-1-combat-2",
-      "claim": "Free flights home ('מתגעגעים הביתה' program): non-combat lone soldier 1 flight during full service, combat lone soldier 2 flights (in different years). Minimum 8 months served before eligibility. IDF covers ticket + airport fees + medical insurance. Funded jointly with Aguda LeMaan HaChayal and FIDF. Request via Mashak Tash or prat.idf.il personal portal.",
+      "claim": "Combat lone soldiers get two funded flights during service, in different years; non-combat get one. All become eligible after 8 months of service. The eligibility gate is being a \"muvhak\" lone soldier whose parents live abroad.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו%22ל",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "טיסה אחת לחייל בודד לא לוחם ושתי טיסות לחייל בודד לוחם (בשנים שונות) במשך השירות, לאחר 8 חודשי שירות מינימום. מימון משותף של צה\"ל, האגודה למען החייל, וידידי צה\"ל. תוכנית 'מתגעגעים הביתה'.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%98%D7%99%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D_%D7%9C%D7%91%D7%99%D7%A7%D7%95%D7%A8_%D7%94%D7%95%D7%A8%D7%99%D7%94%D7%9D_%D7%91%D7%97%D7%95%22%D7%9C",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "חיילים קרביים זכאים לקבל מימון פעמיים במהלך השירות, עבור טיסות שלא מתרחשות באותה השנה. חיילים שאינם קרביים זכאים לקבל מימון פעם אחת במהלך השירות. כל החיילים זכאים למימון לאחר 8 חודשי שירות צבאי",
       "confidence": "medium"
     },
     {
       "id": "special-leave-60-30",
-      "claim": "Special leave (chufsha meyuchedet) for recognized lone soldiers: up to 60 special-leave days per service year, of which 30 days are reserved for visiting parents abroad. The first 5 days are deducted from the regular leave bank. Includes 1 'yom sidurim' (errands day) per month.",
+      "claim": "Special leave for a lone soldier is capped at 60 days per service year, of which 30 are reserved for visiting parents abroad. This is an annual cap, not a once-in-service entitlement.",
       "claim_type": "threshold",
-      "source_url": "https://www.kolzchut.org.il/he/חופשה_מיוחדת_לחיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "עד 60 ימי חופשה מיוחדת לשנת שירות, מתוכם 30 ימים מיועדים לביקור הורים בחו\"ל. חמשת הימים הראשונים מנוכים ממכסת חופשה הרגילה. כולל יום סידורים אחד בחודש.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "סך כל ימי החופשה המיוחדת לא יעלו על 60 יום בשנת שירות",
       "confidence": "medium"
     },
     {
       "id": "beit-hachayal-lodging",
-      "claim": "Beit HaChayal lodging chain (operated by Aguda LeMaan HaChayal) provides free lodging on weekends, holidays, and extended weekends for recognized lone soldiers across Kiryat Shmona, Tveriya, Yerushalayim, Haifa, Tel Aviv, Ramat Gan, and Be'er Sheva. Meals and laundry are included. Requires lone-soldier certificate, military ID, and leave authorization.",
+      "claim": "Beit HaChayal lodging for lone soldiers is a separate Kol Zchut entitlement linked from the housing-assistance page (alongside kibbutz lodging). No source we could reach publishes a branch list, so no city list may be asserted.",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "לינה חינם בבית החייל בסופי שבוע, חגים, וסופי שבוע מורחבים בכל הסניפים: קריית שמונה, טבריה, ירושלים, חיפה, תל אביב, רמת גן, באר שבע. ארוחות וכביסה כלולים. נדרשת תעודת חייל בודד, תעודה צבאית, ואישור חופשה.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
+      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
+      "raw_snippet": "ראו גם חיילים בודדים לינה בקיבוצים לחיילים בודדים לינה בבית החייל לחיילים בודדים",
       "confidence": "medium"
     },
     {
@@ -211,11 +207,11 @@
     },
     {
       "id": "ombudsman-1111",
-      "claim": "IDF hotlines for lone-soldier issues: IDF general 1111, Soldiers' Ombudsman 03-6977374. NBN+FIDF Lone Soldier Program operates a 24/7 hotline.",
+      "claim": "The 24-hour hotline published for lone soldiers is the IDF lone-soldier centre on 03-7375200. It is not an NBN line.",
       "claim_type": "phone-star",
-      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "טלפונים: צה\"ל 1111, נציב תלונות החיילים 03-6977374, מוקד נפש בנפש ל-LSP פועל 24/7",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "מוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200",
       "confidence": "medium"
     },
     {
@@ -252,44 +248,40 @@
     },
     {
       "id": "tofes-135-cross-reference",
-      "claim": "Form 135 (טופס 135) is the retroactive tax refund form for salaried employees, used to claim missed discharged-soldier credit points up to 6 years back. The mechanics for lone soldiers are identical to regular discharged soldiers and are fully covered in the companion israeli-discharged-soldier-navigator skill.",
+      "claim": "Form 135 (טופס 135) is the manual income-tax refund form filed for the tax year being reclaimed. Retroactive credit-point mechanics for lone soldiers are identical to regular discharged soldiers and are covered in the companion israeli-discharged-soldier-navigator skill.",
       "claim_type": "form-number",
       "source_url": "https://www.kolzchut.org.il/he/החזר_מס_הכנסה",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "טופס 135 הוא טופס החזר מס הכנסה לשכירים לתביעה רטרואקטיבית עד 6 שנים. למשוחררים בודדים המנגנון זהה לחייל משוחרר רגיל ומכוסה ב-israeli-discharged-soldier-navigator.",
+      "source_fetched_at": "2026-08-26T18:43:29.621292+00:00",
+      "raw_snippet": "הגשת בקשה ידנית להחזר מס יש להדפיס את טופס 135 של שנת המס עבורה מבקשים החזר",
       "confidence": "high"
     },
     {
       "id": "section-39a-hebrew-notation",
-      "claim": "Section 39a (סעיף 39א) of the Income Tax Ordinance is the legal basis for discharged-soldier credit points, covered in the companion israeli-discharged-soldier-navigator skill. Lone soldiers get the same credit points under the same section.",
+      "claim": "Section 39a (סעיף 39א) of the Income Tax Ordinance is the legal basis Kol Zchut cites for discharged-soldier credit points, alongside section 1 of the Discharged Soldiers Absorption Law. Lone soldiers get the same credit points under the same section; the mechanics live in israeli-discharged-soldier-navigator.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "סעיף 39א לפקודת מס הכנסה הוא הבסיס החוקי לנקודות זיכוי לחייל משוחרר. חיילים בודדים מקבלים אותן נקודות לפי אותו סעיף.",
+      "source_fetched_at": "2026-08-26T18:43:29.621292+00:00",
+      "raw_snippet": "פקודת מס הכנסה - סעיף 39א. חוק קליטת חיילים משוחררים - סעיף 1.",
       "confidence": "high"
     },
     {
       "id": "diaspora-orgs-urls",
-      "claim": "URLs for the diaspora and Israeli NGO directory referenced in this skill: Nefesh B'Nefesh Lone Soldier Program at https://www.nbn.org.il/nbnlsp/, Friends of the IDF lone soldier support at https://www.fidf.org/lone-soldier-support/, Garin Tzabar at https://garintzabar.org/, Lone Soldier Center in Memory of Michael Levin at https://www.lonesoldiercenter.com/ (NOTE: tzevetmikey.com is a SEPARATE org, Tzevet Mikey / Lone Soldier Empowerment Foundation, not the Michael Levin center), Mahal program at http://www.mahal-idf-volunteers.org/, Hebrew Wikipedia lone-soldier overview at https://he.wikipedia.org/wiki/חייל_בודד. Covered references: Diaspora orgs supporting lone soldiers: https://www.nbn.org.il/nbnlsp/, https://www.fidf.org/lone-soldier-support/, https://garintzabar.org/, https://www.lonesoldiercenter.com/, https://tzevetmikey.com/, http://www.mahal-idf-volunteers.org/, https://he.wikipedia.org/wiki/חייל_בודד",
+      "claim": "Nefesh B'Nefesh runs a Lone Soldiers Program at nbn.org.il/nbnlsp/. Organisation URLs in references/diaspora-orgs-directory.md are navigational pointers only and carry no factual entitlement claims.",
       "claim_type": "url",
       "source_url": "https://www.nbn.org.il/nbnlsp/",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "Lone Soldiers Program | Nefesh B'Nefesh FIDF --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> -->",
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "Lone Soldiers Program",
       "confidence": "high",
-      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
-      "verified_at": "2026-08-18",
       "fetched_at": "2026-08-18"
     },
     {
       "id": "law-of-return-citizenship",
-      "claim": "Olim lone soldiers receive Israeli citizenship automatically under Chok HaShvut (Law of Return, 1950). The aliyah absorption package (sal klita) from Misrad HaKlita interacts with IDF service but is administered separately.",
+      "claim": "An oleh is defined by the Law of Return; the citizenship mechanics are evidenced separately against the statute text (claim law-of-citizenship-1952).",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "חוק השבות, התש\"י-1950 מקנה לכל יהודי את הזכות לעלות לישראל ולקבל אזרחות ישראלית באופן אוטומטי",
-      "confidence": "high",
-      "verified_via": "Kol Zchut has no page for the Law of Return itself; its olim page is the live topical equivalent; successor located via the Kol Zchut search API and existence-confirmed",
-      "verified_at": "2026-08-15"
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "raw_snippet": "עולה מוגדר לפי חוק השבות",
+      "confidence": "high"
     },
     {
       "claim_id": "base-monthly-grant-601",
@@ -304,14 +296,15 @@
     },
     {
       "claim_id": "aliyah-ministry-boded-grant",
-      "claim": "Olim lone soldiers who made aliyah in the 5 years before service get a SEPARATE monthly grant from the Aliyah Ministry equal to 100% of a private base salary (150% for Ethiopian-origin olim who immigrated within 10 years), paid IN ADDITION to the IDF monthly grant. Apply via Misrad HaAliyah VeHaKlita (hotline 03-9733333).",
+      "claim": "The Aliyah Ministry pays a lone-soldier grant of 100% of a private's base salary, rising to 150% for lone soldiers of Ethiopian origin who made aliyah in the ten years preceding service.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%9E%D7%98%D7%A2%D7%9D_%D7%9E%D7%A9%D7%A8%D7%93_%D7%94%D7%A2%D7%9C%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%A7%D7%9C%D7%99%D7%98%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93_%D7%90%D7%95_%D7%9E%D7%AA%D7%A0%D7%93%D7%91_%D7%91%D7%95%D7%93%D7%93_%D7%91%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
-      "raw_snippet": "גובה המענק הוא בשיעור 100% משכר היסוד של טוראי בשירות חובה, והוא ניתן בנוסף למענק חודשי לחיילים בודדים מצה\"ל... לצעירים בודדים יוצאי אתיופיה, אשר עלו לארץ בעשר השנים שקדמו לשירות יינתן מענק גבוה יותר, בשיעור 150%.",
+      "raw_snippet": "לצעירים בודדים יוצאי אתיופיה, אשר עלו לארץ בעשר השנים שקדמו לשירות יינתן מענק גבוה יותר, בשיעור 150% משכר היסוד של טוראי בשירות חובה",
       "fetched_at": "2026-07-06T11:49:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00"
     },
     {
       "claim_id": "special-leave-60-annual",
@@ -323,6 +316,114 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "id": "rent-below-cap-actual",
+      "claim": "If actual post-discharge rent is below 1,000 NIS/month, the reimbursement equals the amount actually paid, not the 1,000 NIS cap",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
+      "raw_snippet": "אם שכר הדירה שאתם משלמים הוא פחות מ- 1,000 ₪ לחודש, תקבלו החזר בגובה הסכום שאתם משלמים בפועל",
+      "confidence": "high"
+    },
+    {
+      "id": "rent-payment-timing",
+      "claim": "Post-discharge rent declaration is checked within 7 business days and the money reaches the bank account within 14 business days of the approving SMS",
+      "claim_type": "process",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
+      "raw_snippet": "הכסף יועבר לחשבון הבנק שלכם, תוך 14 ימי עסקים ממועד קבלת אישור במסרון (SMS) על תקי​נות הבקשה",
+      "confidence": "high"
+    },
+    {
+      "id": "rent-terms-may-change",
+      "claim": "hachvana states the post-discharge rent benefit terms may change per decisions of the Fund for the Absorption of Discharged Soldiers board",
+      "claim_type": "process",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
+      "raw_snippet": "תנאי ההטבה עשויים להשתנות בהתאם להחלטות הנהלת הקרן לקליטת חיילים משוחררים",
+      "confidence": "high"
+    },
+    {
+      "id": "lone-soldier-24h-hotline",
+      "claim": "A 24-hour lone-soldier hotline operates at 03-7375200",
+      "claim_type": "phone",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
+      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
+      "raw_snippet": "מוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200",
+      "confidence": "high"
+    },
+    {
+      "id": "form-7304-preenlistment",
+      "claim": "A pre-enlistment candidate fills Form 7304 at the Rakezet Tash's initiative after raising lone-soldier status at the Lishkat HaGiyus interview",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "לאחר מכן, וביוזמת רכזת הת\"ש, עליו למלא טופס 7304",
+      "confidence": "high"
+    },
+    {
+      "id": "kolzchut-boded-hub",
+      "claim": "The Kol Zchut lone-soldiers portal is the hub page collecting lone-soldier rights and benefits, used in Step 5.5 as the routing target for named entitlements.",
+      "claim_type": "navigational",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "פורטל זה מרכז מידע בנושא חיילים בודדים, זכויותיהם והטבות שונות הניתנות להם",
+      "confidence": "high"
+    },
+    {
+      "id": "kolzchut-housing-assistance",
+      "claim": "Kol Zchut's housing-assistance page for lone soldiers is the source for the active-duty rent and utilities participation",
+      "claim_type": "navigational",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "סיוע בהוצאות דיור לחיילים בודדים",
+      "confidence": "high"
+    },
+    {
+      "id": "org-lonesoldiercenter",
+      "claim": "The Lone Soldier Center in Memory of Michael Levin operates at lonesoldiercenter.com",
+      "claim_type": "navigational",
+      "source_url": "https://www.lonesoldiercenter.com/",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "Lone Soldier",
+      "confidence": "high"
+    },
+    {
+      "id": "org-fidf",
+      "claim": "Friends of the IDF runs a lone-soldier support programme at fidf.org",
+      "claim_type": "navigational",
+      "source_url": "https://www.fidf.org/lone-soldier-support/",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "Lone Soldier",
+      "confidence": "high"
+    },
+    {
+      "id": "org-garintzabar",
+      "claim": "Garin Tzabar operates at garintzabar.org",
+      "claim_type": "navigational",
+      "source_url": "https://garintzabar.org/",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "Garin Tzabar",
+      "confidence": "high"
+    },
+    {
+      "id": "org-mahal",
+      "claim": "The Mahal volunteer programme's site is mahal-idf-volunteers.org",
+      "claim_type": "navigational",
+      "source_url": "http://www.mahal-idf-volunteers.org/",
+      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "raw_snippet": "Mahal",
+      "confidence": "high"
+    },
+    {
+      "id": "nbn-lone-soldier-benefits-page",
+      "claim": "Nefesh B'Nefesh publishes a lone-soldier rights and benefits page at nbn.org.il/nbnlsp/lone-soldier-benefits/, cited as a routing destination for olim, not as a source of entitlement figures.",
+      "claim_type": "navigational",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "source_fetched_at": "2026-08-26T19:08:57.193948+00:00",
+      "raw_snippet": "Lone Soldier Rights and Benefits",
+      "confidence": "high"
     }
   ]
 }

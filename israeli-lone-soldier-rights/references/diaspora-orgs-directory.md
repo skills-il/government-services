@@ -7,7 +7,7 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
 - URL: https://www.nbn.org.il/nbnlsp/
 - Operating model: joint program of Nefesh B'Nefesh and Friends of the IDF
 - What they offer (verify current programs on the NBN site):
-  - 24/7 hotline for lone soldier issues
+  - support hotline for lone-soldier issues (the 24-hour line published by Kol Zchut is the IDF's own מוקד בודדים, 03-7375200, not an NBN line)
   - Pre-aliyah and pre-enlistment guidance for olim
   - Advocacy with government agencies (Mas Hachnasa, Bituach Leumi, hachvana)
   - Errands Day events
@@ -35,8 +35,8 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
   - Pre-aliyah seminars across multiple regions (North America, Latin America, Western Europe, South Africa, Australia, Russian-speaking countries, current region list on the Garin Tzabar site)
   - Full-board kibbutz accommodation + ulpan during pre-army adaptation
   - Assigned mentor + host family
-  - "Family for Life" alumni network (operating since 1991, multiple thousands of alumni)
-- Eligibility: ages 18-24, high-school graduate, aliyah-eligible
+  - "Family for Life" alumni network (programme history and alumni numbers are the organisation's own claims; verify on garintzabar.org)
+- Eligibility: aliyah-eligible young adults; the exact age range and schooling requirement change between cohorts, check the current intake page on garintzabar.org
 - Best for: structured cohort experience before enlistment, lasting alumni network
 
 ## Lone Soldier Center in Memory of Michael Levin
@@ -57,7 +57,7 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
 - URL: http://www.mahal-idf-volunteers.org/
 - Operating model: IDF program for non-Israeli Jewish volunteers
 - What they offer (verify exact service-length and placement rates on current Mahal materials):
-  - Tracks: Mahal Regular (commonly cited around 18 months), Mahal Hesder (religious-track, longer), Mahal Haredi (Netzach Yehuda combat)
+  - Tracks: Mahal Regular (service length varies and is not published by any source cited here; confirm with Mahal coordinators), Mahal Hesder (religious-track, longer), Mahal Haredi (Netzach Yehuda combat)
   - Foreign-volunteer / tourist-status track (not olim)
   - Combat placement varies by track (Mahal Regular places across a wide range of positions; Mahal Haredi is mostly combat)
 - Important distinction: Mahal soldiers are automatically recognized as lone soldiers during service, but their post-discharge package differs from oleh-track lone soldiers (no Israeli citizenship by default, no post-discharge benefits from hachvana the same way)
@@ -67,7 +67,7 @@ These organizations operate independently of the IDF / MoD and fill gaps that th
 
 - Operating model: large Israeli NGO operating Beit HaChayal lodging network + ancillary services
 - What they offer:
-  - Free Beit HaChayal lodging on weekends, holidays, extended weekends across 7 cities (Kiryat Shmona, Tveriya, Yerushalayim, Haifa, Tel Aviv, Ramat Gan, Be'er Sheva)
+  - Free Beit HaChayal lodging on weekends, holidays, extended weekends at branches across the country (Kol Zchut says only "בתי החייל הפרוסים ברחבי הארץ", it publishes no branch list)
   - Co-funder of the "מתגעגעים הביתה" free-flights program
   - Food vouchers and holiday vouchers
   - Subsidized dental + glasses + therapy not covered by Kupat Cholim

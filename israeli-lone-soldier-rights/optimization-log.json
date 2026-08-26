@@ -15,6 +15,26 @@
         "[CARRY] The exact statutory subsection for the 10-year Pikadon window (cited as Chok Klitat Chayalim Meshuchrarim §3(ב)) could not be pinned to the nevo full text; the 10-vs-5 substance and the §7(א)/§7א reference are verified. Verify the subsection label next cycle.",
         "[CARRY] Holiday-voucher amount has no fixed official figure (IDF page says it varies year to year); kept hedged, do not assert a number."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "CRITICAL fixed: Form 62 and Form 7304 were assigned to the WRONG phases since the 1.1.0 cycle. Kolzchut הגשת בקשה להכרה כחייל בודד is explicit: a pre-enlistment candidate fills 7304 at the Rakezet Tash's initiative; a serving soldier fills 62 in the unit. The old text also told users NOT to ask for 7304 at the counter, which is the exact opposite of the process. Corrected in EN, HE, recognition-process.md and domain-checklist.md.",
+        "CRITICAL fixed: the skill implied there is no outer deadline on the Pikadon once the 5-year restricted phase ends. hachvana states the realization window was extended from 7 to 10 years from discharge for ALL soldiers discharged after 12.7.2007. Added, and flagged as universal rather than a boded benefit.",
+        "CRITICAL fixed: the funded-flight and 30-abroad-visit-day benefits are gated on being a boded 'מובהק' (parents abroad / emigrated / on shlichut >= 6 months). The skill presented one flat package to all three recognition tracks, so an estrangement-track soldier would have been told they get flights they cannot get.",
+        "CRITICAL fixed: the flight cap was stated as if it capped all travel abroad. Added an explicit carve-out routing a bereavement or critical-illness case to Mashak Tash and the Aguda rather than answering 'nothing remains'.",
+        "CRITICAL treated: neither the active-duty rent participation nor the Aliyah-Ministry grant has a published backdating rule or application deadline. Rather than invent one, the skill now instructs the agent to refuse to answer either way and to give the safe operational version (file as soon as the entitlement exists).",
+        "SCRIPT BUGS fixed (three): negative/zero rent produced a negative entitlement; the first-installment line printed 6,000 NIS while the total was 0 when fewer than 6 months were eligible; and the 30-day-month approximation undercounted, so the example command in SKILL.md returned 11 months against the skill's own stated 12. Now validated input, clamped installments, exact calendar-month arithmetic, and a new --rent-months flag so a short lease is not overstated.",
+        "EVIDENCE: 15 of 43 citations were authored paraphrases or pointed at pages that did not contain the text (two cited a kolzchut portal page with zero occurrences of the topic). All repaired with text copied from the live pages; --check-sources now reports 33 verified, 0 failed.",
+        "HE/EN contradiction fixed: SKILL_HE.md said the estrangement track gets the same package as an oleh, which its own Step 3 refuted (no sal klita, no Aliyah-Ministry grant). Also removed the HE-only claim that the grant 'doubles' income, which the EN Gotchas explicitly refute for a lochem.",
+        "UNVERIFIABLE SOURCE: www.idf.il serves an ~840-byte JS shell to curl, returns an IDENTICAL shell for a deliberately bogus sibling path, and renders an empty body in headless Playwright. The three figures sourced there (601.2 / 467.2 / 233.7) are now hedged as indicative. Do NOT let a later cycle re-harden them without rendering the page in a real browser session.",
+        "[CARRY] The research pass reported several idf.il-only items the skill does not carry (a כוכבים equipment-credit table, a ~1,080 NIS marriage-grant amount plus 3 months of התארגנות, a 400 NIS figure for 'יחד למען החייל' residents, a 60-day voucher redemption window, a בן שליחים flight exclusion, a 6-month passport precondition). None could be independently verified because idf.il does not render. Re-attempt with a real browser session next cycle.",
+        "[CARRY] Expert MAJORs deferred: no number for the Soldiers' Ombudsman appeal route; no expiry rule on the funded flight at discharge; no claim window on the marriage-grant supplement; tax stacking (oleh credit points x boded grant); re-enlistment to keva and which clock then starts; Aguda dental/supplementary health; and whether bodedot in sherut leumi are in scope at all.",
+        "[CARRY, from 1.1.0, still open] The 30-day miluim/special-service floor is temporary for 2025-2026 service; for 2027 the floor drops to 20 days. Review before the 2027 service year.",
+        "[CARRY, from 1.1.0, RESOLVED-ADJACENT] The 10-year Pikadon subsection could not be pinned to nevo. This cycle sourced the substance directly from the hachvana law page instead, including the 12.7.2007 cutoff; the subsection label remains unpinned.",
+        "[CARRY, from 1.1.0, still open] Holiday-voucher amount has no fixed official figure; kept hedged, do not assert a number."
+      ]
     }
   ]
 }
