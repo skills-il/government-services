@@ -102,7 +102,13 @@ jobs:
           # See /he/guides/how-we-validate Layer 2 + .claude/skills/update-skill/SKILL.md.
           set -e
           MISSING=""
-          for dir in ${{ steps.changed.outputs.dirs }}; do
+          # `dirs` is newline-separated and Actions pastes it into the script SOURCE,
+          # so inlining it here made `for dir in a<newline>b; do` a bash SYNTAX ERROR
+          # (exit 2) whenever a push touched 2+ skills, silently skipping this gate on
+          # exactly the pushes most likely to need it. Assign first, then word-split at
+          # runtime via an unquoted expansion.
+          DIRS="${{ steps.changed.outputs.dirs }}"
+          for dir in $DIRS; do
             if [ -f "$dir/SKILL.md" ] && [ ! -f "$dir/evidence.json" ]; then
               MISSING="$MISSING\n  - $dir/evidence.json"
             fi
