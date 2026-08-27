@@ -20,6 +20,21 @@
         "CARRY: age bands in the max-days prose overlap at the boundaries (20-25 / 25-28 / 28-35 ...), so someone exactly 28 matches two rows. The calculator resolves this correctly with half-open intervals; only the prose is ambiguous.",
         "Confirmed correct and not to be re-litigated: the 2026 brackets (80/50/45/30 for 28+, reduced set under 28), the 550.76 and 367.17 daily ceilings with the step-down at day 126, the wage divisor of 150, and the women 57-67 300-day track including the 201.03 day-176 cap that applies to ages 57-60 but not 60-67. Both worked examples recompute exactly."
       ]
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "This cycle's defects were all COVERAGE, not wrong values: every figure the skill stated was correct, and what was missing were rows. Enumerating each BTL table in full is what found them; spot-checking the stated values would have passed cleanly.",
+        "references/application-forms.md is the file this skill's corrections keep missing. In 1.6.2 the '75% of the part-time gross' factor and the '25% of prior wage / 60-minute commute' suitability test were retracted in the CHANGELOG and fixed in two files but left live in that one for a full version. Both reviewers found it again this cycle. Read that file FIRST next time, before touching SKILL.md.",
+        "Two prior cycles' retractions were also still live elsewhere: the Sefer HaChukim 3525 citation in benefit-calculation-tables.md and the s.174 postponement rule inside the same file that elsewhere said s.174 is NOT that rule. Grep the CHANGELOG's own retraction list against the tree at the START of a cycle.",
+        "The calculator carried a note stating the 90-day resignation clock runs from the REGISTRATION date, the exact opposite of the skill body, the reference file and BTL's wording. Prose-vs-code drift in an 'evergreen' deterministic script.",
+        "Expert MAJOR resolved this cycle, not deferred: hefreshim (retroactive differentials) was absent from all six files despite sitting at the bottom of hisuv.aspx, the page the skill cites for its own formula. Read the WHOLE cited page, not the section you came for.",
+        "The unemployment-branch treaty is only Austria, the Netherlands and Sweden. The skill (and the research subagent's first draft) carried the 15-country GENERAL social-security treaty list. A returning Israeli from the US would have been routed to a guaranteed refusal. Branch scope is not treaty scope.",
+        "Deferred, MINOR: estimate_net() applies an invented 0/5/10% income-tax step function by daily-gross thresholds of 400 and 500, disclosed only by the generic 'estimates' footer while the health component gets an explicit NET CAVEAT. Either caveat the tax ladder the same way or flatten it to 0 with a 'consult your marginal rate' note.",
+        "Deferred, MINOR: 'refused-offer' is modelled as a termination reason, so a claimant who was laid off AND later refused an offer cannot express both. It is a mid-claim event and wants its own repeatable flag.",
+        "Deferred, MINOR: evidence.json has no per-claim verified flag; unverifiable items are segregated into a separate array, so a claim dropping out of both arrays would be invisible."
+      ]
     }
   ]
 }

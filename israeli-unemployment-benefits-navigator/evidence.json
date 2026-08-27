@@ -1,21 +1,21 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-unemployment-benefits-navigator",
-  "generated_at": "2026-05-18T17:00:00Z",
+  "generated_at": "2026-08-27T00:00:00Z",
   "claims": [
     {
       "claim_id": "progressive-brackets-2026",
-      "claim": "The 2026 progressive avtala formula uses daily wage breakpoints at ₪207.50, ₪311, and ₪415, with rates 60%/40%/35%/25% for claimants under 28 and 80%/50%/45%/30% for claimants aged 28 and over. The ₪415 'basic daily amount' (סכום היומי בסיסי לחישוב קצבאות) was set effective 01.01.2026.",
+      "claim": "The 2026 progressive avtala formula is keyed to the basic daily amount for computing benefits (הסכום היומי הבסיסי) of 415 ILS from 01.01.2026. The bands are half, three quarters, the full basic amount, and 5 times the basic amount, giving shekel cut-points of 207.50, 311.25, 415 and 2,075, with rates 60/40/35/25 percent under 28 and 80/50/45/30 percent from 28.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
-      "raw_snippet": "השכר היומי הממוצע של המובטל",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "הסכום היומי הבסיסי לחישוב קצבאות -\n415 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-08-27T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/benefit-calculation-tables.md",
         "scripts/avtala_calculator.py"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-08-27T00:00:00Z"
     },
     {
       "claim_id": "daily-ceilings-2026",
@@ -183,19 +183,6 @@
       "source_fetched_at": "2026-07-26T00:00:00Z"
     },
     {
-      "claim_id": "age-eligibility-20-67",
-      "claim": "Age eligibility for dmei avtala: between 20 and 67. Under 20 not eligible; 67+ should claim kiztavat zikna (old age pension) instead.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
-      "raw_snippet": "מלאו לך 20 שנה, ועדיין לא הגעת לגיל 67",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md",
-        "scripts/avtala_calculator.py"
-      ]
-    },
-    {
       "claim_id": "in-person-14-days",
       "claim": "After online registration at Sherut HaTaasuka, claimant must appear in person at the local branch within 14 days. Online registration alone is not valid.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
@@ -352,7 +339,7 @@
     },
     {
       "claim_id": "form-5040-bank-details",
-      "claim": "Form 5040 (פרטי חשבון בנק) is the Bituach Leumi bank-details form for routing benefit deposits. NOT VERIFIED: no reachable Bituach Leumi page names a form 5040; BTL asks for bank details in the online claim without a form number.",
+      "claim": "NOT VERIFIED. Form 5040 is widely repeated as the Bituach Leumi bank-details form, but no reachable BTL page names Form 5040; BTL asks for bank details inside the online claim with no form number at all. references/application-forms.md labels it UNVERIFIED and tells the agent not to quote a form number.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "fetched_at": "2026-08-13",
@@ -377,7 +364,7 @@
     },
     {
       "claim_id": "form-bl-627-treaty",
-      "claim": "Form בל/627 is the Bituach Leumi form used to count foreign work months toward tkufat akhshara under bilateral social-security treaties (US, UK, Germany, France, Canada, Switzerland, Belgium, Netherlands, Czech Republic, Bulgaria, Sweden, Austria, Finland, Romania, Uruguay, others). NOT VERIFIED: no reachable Bituach Leumi page names form בל/627.",
+      "claim": "Form בל/627 is widely described as the Bituach Leumi form used to count foreign work months toward tkufat akhshara under a social-security treaty. NOT VERIFIED: no reachable Bituach Leumi page names form בל/627, so the skill no longer quotes a form number anywhere, including in the required-documents list of references/application-forms.md. Separately, the country list usually given with it is wrong for this purpose: BL's own qualifying-period page says aggregation applies only to a country with which Israel has a treaty IN THE UNEMPLOYMENT BRANCH, namely Austria, the Netherlands and Sweden. Israel's general social-security treaties with the US, the UK, Germany, France, Canada, Switzerland and others do not cover unemployment.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "fetched_at": "2026-08-13",
@@ -457,7 +444,7 @@
     },
     {
       "claim_id": "phone-gov-info-2496-3450",
-      "claim": "Government info center hotlines (sometimes confused with kolzchut): *2496 and *3450, standard government hours. NOT VERIFIED: no reachable government page carries the numbers *2496 or *3450.",
+      "claim": "NOT VERIFIED. The numbers *2496 and *3450 are widely repeated for a government information centre but appear on no reachable government page. references/application-forms.md now labels them UNVERIFIED and routes the user to *6050 (Bituach Leumi) or *9687 (Sherut HaTaasuka) instead.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "fetched_at": "2026-08-13",
@@ -469,7 +456,7 @@
     },
     {
       "claim_id": "appeal-windows-6mo-12mo-60days",
-      "claim": "Appeal windows for BL avtala decisions: informal va'adat tvi'ot review = 6 months; formal Beit Din Ezorit L'Avoda appeal = 12 months from the original decision; appeal of a Va'adat Ararim ruling specifically = 60 days from that Va'adat Ararim decision (much shorter window). NOT VERIFIED: section 396 of the National Insurance Law leaves these deadlines to regulations, and the relevant regulations were not reachable.",
+      "claim": "NOT VERIFIED, and the skill no longer asserts these deadlines. The 6-month informal review, 12-month labour-court appeal and 60-day Va'adat Ararim windows are widely repeated, but s.396 of the National Insurance Law leaves the deadlines to regulations that were not reachable, and no Bituach Leumi page publishes them. SKILL.md, SKILL_HE.md and references/application-forms.md now all tell the user to read the deadline off their own decision letter or call *6050 rather than relying on a quoted window.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "fetched_at": "2026-08-13",
@@ -525,82 +512,8 @@
       "verified_at": "2026-08-13"
     },
     {
-      "claim_id": "part-time-deduction-75pct",
-      "claim": "Income from employment, self-employment or a pension during the unemployment period is deducted from the dmei avtala. Section 176 deducts the average daily income from the daily benefit; there is no 75% factor. In Hebrew: סעיף 176 לחוק הביטוח הלאומי.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
-      "raw_snippet": "הכנסות בתקופת אבטלה אם בתקופת האבטלה יש לך הכנסות מעבודה כשכיר, כעצמאי או מפנסיה - ינוכו ההכנסות האלו מדמי האבטלה המגיעים לך.",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md",
-        "references/application-forms.md",
-        "references/benefit-calculation-tables.md"
-      ],
-      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); section 176(a) of the National Insurance Law reads \"תנוכה ההכנסה הממוצעת היומית מהעבודה או ממשלח היד מדמי האבטלה המגיעים לו ליום\". The previous ~75% figure was removed from the skill.",
-      "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "nechut-block-75pct",
-      "claim": "Receiving full kiztavat nechut klalit (75%+ disability) blocks avtala. Partial disability under 75% sometimes allows partial avtala, evaluated case by case. NOT VERIFIED: no reachable Bituach Leumi page states a 75% disability block on dmei avtala.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md",
-        "references/application-forms.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page states a 75% disability block on dmei avtala. Recorded as an unverified assertion, not as a quoted source."
-    },
-    {
-      "claim_id": "bl-chozer-1287-family-employment",
-      "claim": "Per BL חוזר אבטלה 1287, working for a family member (spouse, parent, child, sibling) is disqualified unless arms-length employment is proven via all 5: dated employment contract, payslips dated 12+ months pre-dispute, bank-transfer wage trail (no cash), third-party witness to actual work, employer paid tax+BL+pension on time. NOT VERIFIED: Bituach Leumi unemployment circular 1287 is not published at any reachable URL.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "searched but not verifiable: Bituach Leumi unemployment circular 1287 is not published at any reachable URL. Recorded as an unverified assertion, not as a quoted source."
-    },
-    {
-      "claim_id": "bl-chozer-1342-form-1514-substitute",
-      "claim": "Per BL חוזר אבטלה 1342, when the employer refuses to fill Form 1514, the claimant can substitute with a tatzhir + 3 payslips + bank statements showing wage transfers. NOT VERIFIED: Bituach Leumi unemployment circular 1342 is not published at any reachable URL.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md",
-        "references/application-forms.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "searched but not verifiable: Bituach Leumi unemployment circular 1342 is not published at any reachable URL. Recorded as an unverified assertion, not as a quoted source."
-    },
-    {
-      "claim_id": "tikkun-232-2023-harassment",
-      "claim": "Tikkun 232 of 2023 (תיקון 232 משנת 2023) shifted some of the documentation burden onto Bituach Leumi for sexual harassment and wage-delay cases, helping resigners claim hitpatrut b'din mefuteret without the 90-day wait. NOT VERIFIED: no reachable source carries a 2023 amendment 232 shifting the burden of proof to Bituach Leumi.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "searched but not verifiable: no reachable source carries a 2023 amendment 232 shifting the burden of proof to Bituach Leumi. Recorded as an unverified assertion, not as a quoted source."
-    },
-    {
       "claim_id": "health-tax-3pct",
-      "claim": "Income tax, national insurance contributions at the minimum rate of NIS 48, and health insurance contributions computed on the benefit amount are deducted from dmei avtala. Bituach Leumi publishes no percentage for the health component on this page.",
+      "claim": "Deductions from the unemployment benefit are income tax withheld at source, national insurance at the minimum rate of 48 ILS, and health insurance contributions computed on the amount of the benefit. Bituach Leumi publishes NO percentage for the health component on dmei avtala, only that it is charged on the benefit amount. The 3.1% used in scripts/avtala_calculator.py is therefore an approximation, is labelled as such in the code, and the calculator now prints an explicit caveat with every net figure.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/sum.aspx",
       "raw_snippet": "דמי ביטוח לאומי וביטוח בריאות - מדמי האבטלה מנוכים דמי ביטוח לאומי לפי שיעור המינימום לדמי ביטוח לאומי 48 ש\"ח , ודמי ביטוח בריאות לפי סכום דמי האבטלה.",
       "fetched_at": "2026-08-13",
@@ -609,22 +522,6 @@
       ],
       "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). The 3.1% rate used by scripts/avtala_calculator.py is an approximation and is now labelled as unverified in the script.",
       "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "hashlamat-supplementation-typical-range",
-      "claim": "Typical hashlamat hachnasa supplementation for low-earner avtala claimants with dependents (especially single parents, families with 3+ children) is ₪1,500 to ₪2,000 per month. NOT VERIFIED: no reachable Bituach Leumi page publishes a typical hashlamat hachnasa range for unemployment claimants.",
-      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/eligibility-rules.md",
-        "references/application-forms.md",
-        "references/benefit-calculation-tables.md"
-      ],
-      "verified_at": "2026-08-13",
-      "verified_via": "searched but not verifiable: no reachable Bituach Leumi page publishes a typical hashlamat hachnasa range for unemployment claimants. Recorded as an unverified assertion, not as a quoted source."
     },
     {
       "claim_id": "iron-swords-context",
@@ -727,7 +624,7 @@
     },
     {
       "claim_id": "women-57-60-cap",
-      "claim": "On the women's 300-day track, the 201.03 NIS / 201.03 ש\"ח daily maximum from day 176 applies ONLY to women aged 57 to 60 (born 1.1.1960 or later). Women aged 60 to 67 on the same 300-day track have no day-176 cap. Refusing vocational training in the first 175 days costs a woman aged 57-60 a 90-day disqualification plus 30 days off her entitlement, leaving 270 days. Applying the 201.03 cap to a woman aged 60-67 understates a full 300-day entitlement by roughly 10,000 NIS / 10,000 ש\"ח / ₪10,000.",
+      "claim": "On the women's 300-day track the 201.03 ILS daily maximum from day 176 applies ONLY to women aged 57 to 60. A woman aged 60 to 67 on the same track has no day-176 cap and keeps the 367.17 ILS ceiling on her tail. A woman aged 57 to 60 who refuses vocational training in the first 175 days loses 90 days plus 30 days off the quota, leaving 270 days, and one who refuses from day 176 onward forfeits her entire remaining balance. DERIVED ARITHMETIC, not a quoted figure: the gap between the two ceilings is (367.17 minus 201.03) = 166.14 ILS for each of the 125 payment days from day 176 to day 300, so wrongly applying the 201.03 cap to a woman aged 60 to 67 understates her by up to 20,767.50 ILS if she is at or above the 367.17 ceiling, proportionally less at a lower daily rate, and nothing at all below 201.03 ILS a day.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
       "raw_snippet": "במהלך 175 הימים הראשונים - תישלל זכאותה לאבטלה במשך 90 ימים + יופחתו 30 ימים מימי הזכאות לדמי אבטלה (כלומר",
       "fetched_at": "2026-07-14T00:00:00Z",
@@ -768,49 +665,49 @@
       "source_fetched_at": "2026-07-26T00:00:00Z"
     },
     {
-      "id": "shaagat-hari-window-closed",
       "claim": "The Shaagat HaAri emergency chal\"t framework was in force only during the emergency period up to 14.4.2026, with a possible one-month government extension to 14.5.2026. It is therefore closed for any leave beginning after that date.",
       "claim_type": "law",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "source_fetched_at": "2026-07-26T00:00:00Z",
       "raw_snippet": "עד 14.4.2026. באם המצב הביטחוני יימשך, הממשלה תבחן את הארכת המתווה בחודש נוסף (עד ה-14.5.2026)",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "shaagat-hari-window-closed"
     },
     {
-      "id": "shaagat-hari-3-of-18",
       "claim": "Within the Shaagat HaAri defining period the qualifying period was cut to 3 months out of 18 for special populations: operation evacuees, people with disabilities receiving a BL or MoD allowance, spouses of reservists who served 90+ days in the preceding year, MoD-recognized hostile-action casualties and disabled IDF veterans since 7 October and their spouses, and soldiers discharged within the last year.",
       "claim_type": "law",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "source_fetched_at": "2026-07-26T00:00:00Z",
       "raw_snippet": "בני/בנות זוג של משרתי מילואים - ששרתו לפחות 90 ימים בשנה שקדמה לאבטלה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "shaagat-hari-3-of-18"
     },
     {
-      "id": "shaagat-hari-full-entitlement",
       "claim": "For these special populations entitlement is granted in full, without deducting the first 5 days, and also for those who did not use up vacation days.",
       "claim_type": "law",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "source_fetched_at": "2026-07-26T00:00:00Z",
       "raw_snippet": "הזכאות תינתן גם למי שלא ניצל ימי חופשה. הזכאות תינתן באופן מלא,",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "shaagat-hari-full-entitlement"
     },
     {
-      "id": "shaagat-hari-6-of-18",
       "claim": "Within the defining period the qualifying period was 6 months of work out of 18, instead of 12 out of 18.",
       "claim_type": "law",
       "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "source_fetched_at": "2026-07-26T00:00:00Z",
       "raw_snippet": "נצברה תקופת עבודה (אכשרה) של 6 חודשי עבודה מתוך 18 חודשים (במקום 12 חודשים מתוך 18)",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "shaagat-hari-6-of-18"
     },
     {
-      "id": "worked-examples-derived",
-      "claim": "DERIVED ARITHMETIC, not a quoted figure. The skill worked examples use a ₪15,000 / 15,000 ILS monthly salary and produce a ₪320.05 daily benefit, and describe roughly 85% replacement in the low bracket falling toward 15% at the top. These numbers are computed by applying the official bracket percentages and daily ceilings quoted in the entries above to a chosen example salary; they are not published by Bituach Leumi and must be recomputed if any bracket or ceiling changes. ₪0 appears as the benefit for a claimant who fails the qualifying period.",
+      "claim": "DERIVED ARITHMETIC, not a quoted figure. The skill worked examples use ₪15,000 / 15,000 ILS and ₪10,000 / 10,000 ILS monthly salaries and produce a ₪320.06 daily benefit (320.0625 before rounding), and describe roughly 85% replacement in the low bracket falling toward 15% at the top. These numbers are computed by applying the official bracket percentages and daily ceilings quoted in the entries above to a chosen example salary; they are not published by Bituach Leumi and must be recomputed if any bracket or ceiling changes. ₪0 appears as the benefit for a claimant who fails the qualifying period.",
       "claim_type": "derived",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
       "source_fetched_at": "2026-07-26T00:00:00Z",
       "raw_snippet": "מחלק השכר הגבוה מהסכום היומי הבסיסי עד ל-5 פעמים...סכום השווה לשכר היומי הממוצע במשק",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "worked-examples-derived"
     },
     {
       "claim_id": "shaagat-haarie-business-aid-approved",
@@ -846,6 +743,357 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "basic-daily-amount-415",
+      "claim": "The basic daily amount for computing benefits is 415 ILS from 01.01.2026, and the fourth bracket runs from it up to 5 times it.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "מחלק השכר הגבוה מהסכום היומי הבסיסי עד ל-5 פעמים הסכום היומי הבסיסי",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "first-5-unemployment-days-unpaid",
+      "claim": "No unemployment benefit is paid for the first 5 unemployment days in each 4 consecutive months of attendance, counted from the first attendance at the Employment Service, and those days are not deducted from the maximum-days quota.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "לא ישולמו לך דמי אבטלה עבור 5 ימי האבטלה הראשונים בכל 4 חודשי התייצבות רצופים, המתחילים בתאריך ההתייצבות הראשונה בשירות התעסוקה. ימים אלו לא מופחתים ממכסת ימי האבטלה שלהם אתה זכאי.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "not-insured-exclusion-list",
+      "claim": "The following are not insured for unemployment at all: a self-employed person; a controlling shareholder in a closely-held company, even when employed there as a salaried employee; a kibbutz or cooperative-moshav member unless employed outside the collective; a soldier in regular service and anyone in national or civil service during that service; and students and yeshiva students who are not salaried employees.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "בעל שליטה בחברת מעטים\n- לא זכאי לדמי אבטלה גם אם הוא עובד בה כשכיר.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "qualifying-months-age-18-to-67",
+      "claim": "Only work months between age 18 and age 67 are included in the qualifying period.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "בתקופת האכשרה יכללו רק חודשי עבודה מגיל 18 עד גיל 67.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "age-eligibility-20-67-with-exceptions",
+      "claim": "Eligibility requires having reached age 20 and not yet reached age 67. Under 20 is not an absolute bar: the Bituach Leumi eligibility page states expressly that someone under 20 may be entitled in certain cases.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "מלאו לך 20 שנה, ועדיין לא הגעת לגיל 67.\nמי שלא מלאו לו 20, יכול להיות זכאי לדמי אבטלה במקרים מסוימים",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "dependent-spouse-7848",
+      "claim": "A husband counts as a dependant if he is 70 or over, or 50 or over with income no higher than 57 percent of the average wage, 7,848 ILS from 01.01.2026. A wife counts if she has been his wife a year or bore him a child, is 45 or over or has his child with her, and her income is no higher than 7,848 ILS.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "הכנסתו אינה עולה על  57% מהשכר הממוצע -\n7,848 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "dependent-child-limbs",
+      "claim": "A child counts as a dependant if under 18; or under 20 completing upper-secondary studies or studying for a bagrut, or with a learning disability in a framework Bituach Leumi recognises; or under 20 as an IDF pre-military shocher; or under 21 volunteering for a public purpose for up to 12 months with military service deferred for it; or under 24 in regular IDF service; or under 24 volunteering in national service; or under 24 studying in atuda with regular service deferred. Stepchildren, adopted children and a grandchild wholly maintained by the insured are included; a married minor is excluded.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "*לא מלאו לו 24 שנים, והוא משרת שירות סדיר בצה\"ל  *לא מלאו לו 24 שנים, והוא משרת בשירות לאומי בהתנדבות *לא מלאו לו 24 שנים, והוא לומד בעתודה ושירותו הסדיר בצה\"ל נדחה עקב לימודיו.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "justified-cause-list-official",
+      "claim": "Bituach Leumi publishes the justified-cause grounds for resignation as: material worsening of employment conditions or circumstances making continuation impossible; the claimant's own health or that of a family member (spouse, parent, child, grandchild, brother, sister); a change of home or workplace where the distance exceeds 60 km, or 40 km for a mother of a child under 7; sexual harassment at the workplace; a holder of a professional certificate resigning to work in the trade; staying in a shelter for domestic-violence victims; resignation from a new job held up to 6 months; and resignation from a second job continued up to 3 months.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "שינוי מקום המגורים או שינוי מקום העבודה, אם המרחק בין מקום המגורים החדש לבין מקום העבודה עולה על 60 קילומטר, או 40 קילומטר עבור אם לילד שלא מלאו לו 7 שנים.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "self-initiated-chalat-disqualified",
+      "claim": "An employee who took unpaid leave on their own initiative is not entitled to unemployment benefit at all, even if the leave was justified. Employer-initiated unpaid leave of at least 30 days qualifies, with remaining vacation days set off first.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם יצאת לחל\"ת מיוזמתך (גם אם החל\"ת מוצדק) - לא תהיה זכאי לדמי אבטלה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "chalat-vacation-offset-day-21",
+      "claim": "Where an employee is placed on 50 days of unpaid leave with 20 vacation days remaining, unemployment benefit is payable from day 21 of the leave, after the vacation days are set off.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם הוצאת לחל\"ת של 50 יום ויש לך 20 ימי חופשה, תהיה זכאי לדמי אבטלה מהיום ה- 21 לחל\"ת",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "retirement-start-date",
+      "claim": "Retirement before pension age at the employer's initiative or under an early-retirement scheme entitles the claimant from the first day of attendance. Voluntary retirement is treated as resignation with a 90-day wait, and a woman who retires voluntarily after age 62 is likewise not paid for the first 90 days unless the retirement had justified cause.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אישה שפרשה לגמלאות מרצונה לאחר גיל 62 לא ישולמו לה דמי אבטלה ב-90 הימים הראשונים מיום הפרישה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "women-60-67-no-refusal-penalty",
+      "claim": "A woman aged 60 to 67 on the 300-day track who refuses work or vocational training continues to receive unemployment benefit as usual; the 90-day plus 30-day refusal penalty does not apply to her. A woman aged 57 to 60 who refuses training in the first 175 days loses 90 days and 30 days off the quota, leaving 270 days, and one who refuses from day 176 onward forfeits her entire remaining balance.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "מי שתסרב\nלקבל עבודה או\nלהשתתף בהכשרה מקצועית\n- תמשיך לקבל דמי אבטלה כרגיל.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "national-service-70-day-conditions",
+      "claim": "The discharged-soldier rules, including the 70-day maximum, apply to a national or civil service dischargee only if they served 24 months, or if a woman served at least 6 months and married within 30 days of actually stopping the service. A shorter service means the ordinary eligibility conditions apply.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "שירות של 24 חודשים בשירות לאומי או אזרחי\nאישה ששירתה בשירות לאומי או אזרחי 6 חודשים לפחות, ונישאה בתוך 30 ימים מהיום שבו הפסיקה בפועל את השירות",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "income-offset-per-day",
+      "claim": "Income during unemployment is offset per day, not by a flat percentage. Gross monthly wage divided by the number of days actually worked gives an average daily wage; if it is below the daily benefit the claimant receives the difference for those days, and if it is at or above it, nothing is paid for those days. Self-employed income is annual income divided by 12 then by 30, and a pension is the gross monthly pension divided by 30.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/incomes.aspx",
+      "raw_snippet": "חישוב השכר היומי הממוצע מעבודה - מחלקים את השכר הברוטו החודשי שלך במספר הימים שבהם עבדת. לדוגמה: אם בחודש שבו אתה מקבל דמי אבטלה עבדת 3 ימים בשכר של 300 ש\"ח, אזי השכר היומי הממוצע שלך הוא 100 ש\"ח.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md",
+        "references/application-forms.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "claim-form-t1500-12-months",
+      "claim": "The unemployment claim is filed on form T1500 within 12 months of first attendance; filing later pays only for the 12 months preceding the filing date.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "את התביעה והמסמכים עליך להגיש בתוך 12 חודשים, מהיום שבו התייצבת לראשונה בשירות התעסוקה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "payment-date-12th",
+      "claim": "Unemployment benefit is paid on or about the 12th of the month for the previous month's attendance days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "דמי אבטלה משולמים ב-12 לחודש או בסמוך לו, עבור ימי ההתייצבות בחודש הקודם.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-pay-and-notice-block-benefit",
+      "claim": "No unemployment benefit is paid for a period covered by vacation pay under the Annual Leave Law, a collective agreement or an employment contract, nor for a period covered by payment for failure to give prior notice, for at most one month.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "לא ישולמו לך דמי אבטלה עבור תקופה שבה קיבלת ממעסיקך תשלום עבור דמי חופשה, המשולמים לפי חוק חופשה שנתית, הסכם קיבוצי או חוזה עבודה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "progressive-rate-percentages-both-columns",
+      "claim": "Bituach Leumi publishes the four bracket rates for both age columns: 80% and 60% on the slice up to half the basic daily amount, 50% and 40% on the slice from half to three quarters, 45% and 35% on the slice from three quarters to the full basic amount, and 30% and 25% on the slice from the basic amount up to 5 times it.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "מחלק השכר שעד מחצית הסכום היומי הבסיסי\n80%\n60%\nמחלק השכר הגבוה ממחצית הסכום היומי הבסיסי עד לשלושה רבעים מהסכום היומי הבסיסי\n50%\n40%\nמחלק השכר הגבוה משלושה רבעים מהסכום היומי הבסיסי  עד למלוא הסכום היומי הבסיסי\n45%\n35%\nמחלק השכר הגבוה מהסכום היומי הבסיסי עד ל-5 פעמים הסכום היומי הבסיסי\n30%\n25%",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "bracket-cutpoints-derived",
+      "claim": "DERIVED ARITHMETIC, not quoted figures. Bituach Leumi publishes the bracket boundaries as fractions of the basic daily amount, not as shekel figures. Applying the published fractions to the published 2026 basic daily amount of 415 ILS gives cut-points of 207.50 ILS (half), 311.25 ILS (three quarters), 415 ILS (the full amount) and 2,075 ILS (five times the amount). BTL's own worked example on the same page is still built on an older basic daily amount, with slices of 196 / 98 / 98, so its shekel figures must never be copied forward.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "הסכום היומי הבסיסי לחישוב הקצבאות -\n415 ש\"ח (החל ב- 01.01.2026)",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "nechut-75-percent-unverified",
+      "claim": "UNVERIFIED, and flagged as such in the skill's own reference files. A 75% general-disability threshold is commonly cited as blocking unemployment benefit, and a partial disability under 75% is said to sometimes allow it. Neither the 75% figure nor the under-75% variant could be confirmed against any reachable Bituach Leumi page, so the reference files state expressly that the 75% threshold is unverified and tell the user to check with BL rather than relying on it. What IS published is that a loss-of-earning-capacity benefit which does not require retirement from work is not treated as a retirement pension and is not deducted.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/incomes.aspx",
+      "raw_snippet": "הכנסה מקצבת אובדן כושר עבודה (פנסיית נכות/ רפואית)",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md",
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-1514-employer-confirmation-unconfirmed",
+      "claim": "Form 1514 is referred to as the employer confirmation of employment details. Bituach Leumi's published document list for an unemployment claim asks instead for confirmation that the employer transmitted Form 100, failing which an employer certificate of the employment period and wages, or 12 payslips out of the last 18. The skill's reference file therefore records the Form 1514 substitute route as unconfirmed and directs the user to call *6050 rather than relying on it.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "פירוט שכר\n- עליך לוודא שהמעסיק שידר לנו טופס 100 (נתוני השכר שלך)",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ]
+    },
+    {
+      "claim_id": "unemployment-branch-treaty-three-countries",
+      "claim": "Work abroad counts toward the qualifying period only for an Israeli employer under a contract signed in Israel, or by aggregating periods from a country with which Israel has a treaty in the unemployment branch, which is only Austria, the Netherlands and Sweden.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/DaysHaxhsharaAvt.aspx",
+      "raw_snippet": "עבודה בחוץ לארץ\n- יכולה לשמש כתקופת אכשרה רק למי שעבד בחו\"ל אצל מעסיק ישראלי על פי חוזה שנחתם בישראל. עם זאת, מי שעבד\nבמדינה שעימה יש לישראל אמנה\nבענף אבטלה (אוסטריה, הולנד ושבדיה), יוכל בתנאים מסוימים לצרף את תקופות האכשרה שצבר במדינות אלה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md",
+        "references/application-forms.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "extra-qualifying-months-and-window-extensions",
+      "claim": "Months that are not work months but count toward the 12: up to 6 months of regular IDF service; up to 6 months of national or civil service on conditions; miluim; the first 2 full employer-insured months of unpaid leave; paid vacation and holiday days, but NOT pidyon chufsha paid on severance of the employment relationship; mourning days inside a period of employment even if unpaid; sick-leave periods carrying dmei machala entitlement; periods paid as dmei pgia, dmei leda or shmirat herayon; and periods paid as compensation for failure to give prior notice. The 18-month window itself extends for vocational training on Employment Service referral up to 12 months, illness or accident with no sick pay up to 6 months, maternity leave under s.6 of the Women's Employment Law with no dmei leda paid, shmirat herayon with no benefit paid, unpaid post-birth leave under s.7 up to about a quarter of the months worked and never more than 12 months from the birth, and absence for reasons outside the employee's control up to 1 month. The maternity-leave limbs are סעיף 6 and סעיף 7 of חוק עבודת נשים.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/DaysHaxhsharaAvt.aspx",
+      "raw_snippet": "חופשת לידה\n- לפי סעיף 6 לחוק עבודת נשים, אם לא שולמה עבורה דמי לידה.\nשמירת הריון\n- אם לא שולמה עבורה קצבה לשמירת היריון.\nחופשה ללא תשלום לאחר לידה לפי סעיף 7 לחוק עבודת נשים\n- הארכה של עד כרבע ממספר החודשים שבהם עבדת, אך לא יותר מ-12 חודשים מיום הלידה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "payable-days-exclude-shabbat",
+      "claim": "The number of days for which unemployment benefit is paid varies month to month according to the possible work days in that month, and those days do not include Shabbat.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "מספר הימים עבורם תקבל דמי אבטלה עשוי להשתנות מחודש לחודש בהתאם\nלמספר\nימי העבודה האפשריים\nשקיימים בכל חודש. ימים אלה אינם כוללים את ימי שבת.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "refused-offer-30-days-deducted",
+      "claim": "Refusing suitable work, training, hishtalmut or hasava miktzoit offered by the Employment Service costs 30 days off the maximum-days quota AND no benefit for the 90 days from the refusal, every time it happens.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "יופחתו לך 30 ימים ממספר הימים המגיעים לך, ולא ישולמו לך דמי אבטלה עבור 90 הימים שמיום הסירוב, בכל פעם שתסרב.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/application-forms.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "training-138-day-floor",
+      "claim": "A vocational-training participant with fewer than 12 years of schooling who is entitled to a period shorter than 138 days is paid unemployment benefit during the studies for up to 138 days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx",
+      "raw_snippet": "לומד בהכשרה מקצועית\n- שיש לו פחות מ-12 שנות לימוד והוא זכאי לדמי אבטלה לתקופה קצרה מ-138 ימים, ישולמו לו דמי אבטלה בזמן לימודיו לתקופה מרבית של 138 ימים.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "source_fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "references/application-forms.md",
+        "scripts/avtala_calculator.py"
       ]
     }
   ],
