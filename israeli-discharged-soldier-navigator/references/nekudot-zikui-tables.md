@@ -12,7 +12,7 @@ NOT Section 11 (which covers basic resident credit points for all Israeli reside
 | Female IDF / MAGAV / Police / SHABAS | 12 months | 22 months | Kolzchut + Section 39a |
 | Sherut Leumi-Ezrachi (any gender) | 12 months | 24 months | Kolzchut |
 
-If service < 12 months and discharge was for medical / training-injury reasons: still eligible at the level corresponding to length served (rare edge case, verify with hachvana).
+If service was under 12 months and the discharge was on health or disability grounds, the soldier is **deemed to have completed 12 months** for this benefit and receives 1 point per year, not a pro-rata fraction: "ייחשב כמי שהשלים 12 חודשי שירות לצורך קבלת ההטבה". Note the credit-point rule turns on מצב בריאותי או נכות; the training-injury limb belongs to the Pikadon, not here.
 
 ## Duration
 
@@ -65,7 +65,7 @@ If your employer did NOT apply the credit points for any of the 36 months (very 
 | "The basic-resident points section" | Wrong reference. The post-discharge bonus is **Section 39a**. |
 | "I only have 23 months service so I get 1 point" | Wrong. ≥23 months male = **2 points/year**. The threshold IS 23, inclusive. |
 | "Female soldiers need 23 months too" | Wrong. Female threshold for 2 points is **22 months**. |
-| "Combat soldiers get extra points" | Wrong. The post-discharge credit is the SAME for combat and non-combat. (Combat-only bonus = Amendment 283 miluim credit, a DIFFERENT track for reservists, NOT this one.) |
+| "Combat soldiers get extra points" | Wrong. The post-discharge credit under s.39a is the SAME for combat and non-combat; only service LENGTH moves it. Reservists have a separate miluim credit under the Income Tax Ordinance, which is a different track and is not this benefit. Do not cite an amendment number for it here, it has not been verified in this skill. |
 | "It's a cash payment" | Wrong. It reduces tax owed. Cash refund only via retroactive Tofes 135 if employer over-withheld. |
 | "I have 5 years to claim" | Mostly wrong. The 36-month window starts the month after discharge, you have 36 months to use the benefit. Retroactive refunds via Tofes 135 are separately allowed up to 6 years back. |
 
@@ -76,3 +76,44 @@ The post-discharge 1 or 2 points stack ON TOP of other credit points an Israeli 
 The miluim combat credit (a separate track for reservists) is governed by a different statute and handled by `israeli-miluim-manager`, do not confuse it with the post-discharge (sherut chova) credit covered here.
 
 For the specific values of other credit-point categories, consult the current Tax Authority annual guide or the kolzchut nekudot zikui hub page.
+
+
+## Populations the month-count alone gets wrong (added 2026-08-27)
+
+Source for all three: https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי
+
+### Keva
+
+The 36-month entitlement runs from the month after **sherut chova** ends, not from the day the
+soldier leaves keva. Keva salary is taxed, so the points are live and claimable on Tofes 101
+while the soldier is still serving. Kol Zchut's worked case: three years chova followed by two
+years keva gives 2 points during the two keva years, less the first month after chova ended, and
+"עם שחרורו מקבע, תהיה לו זכאות למשך 13 חודשים נוספים".
+
+Two consequences. A serving keva soldier should file Tofes 101 with the discharge certificate
+NOW rather than waiting. And a keva leaver who was never told this has usually lost two of the
+three years; the Tofes 135 retroactive route recovers them only inside the 6-year window, which
+is why the question is worth asking unprompted.
+
+### Hesder and SHLAT (unpaid service)
+
+Unpaid service does not accrue Pikadon, but it DOES count toward the credit-point threshold.
+A hesder soldier drafted into paid service for roughly 18 months and on SHLAT in the yeshiva for
+the remainder is entitled to 2 points "בהתאם לאורך השירות הכולל שלו מרגע החיול ועד השחרור",
+i.e. measured over total service from enlistment to discharge. Thresholding a hesder soldier on
+paid months alone gives 1 point (8,712 NIS) where the source gives 2 (17,424 NIS).
+
+The Pikadon rule and the credit-point rule differ here, and the skill's "unpaid service does not
+accrue" Gotcha is about the Pikadon only. Do not carry it across.
+
+### Early medical discharge
+
+Someone discharged early on health grounds before completing 12 months "ייחשב כמי שהשלים 12
+חודשי שירות לצורך קבלת ההטבה", so they receive 1 point per year rather than nothing.
+
+### Low or no tax liability
+
+The forward credit cannot exceed the tax actually owed. Where the annual value of the points
+exceeds the user's liability, only the part matching the liability is used and the rest is not
+paid out. Tofes 116 (תיאום מס) is the fix for a mid-year start or a second employer, since
+otherwise over-withholding swallows the benefit.

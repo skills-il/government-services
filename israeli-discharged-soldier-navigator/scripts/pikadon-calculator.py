@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Estimate the Pikadon and discharge grant for a recently-discharged Israeli soldier.
 
-Rates indexed to Feb 2026 values from hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5.
+Rates indexed to May 2026 values from hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5.
 THE RATES CHANGE MONTHLY WITH CPI. Always verify the personalized amount against the
 official calculator before any user makes financial plans.
 
@@ -47,6 +47,12 @@ TRAINING_RECLASSIFICATION = {
 
 ACCRUAL_CAP = {"male": 32, "female": 24}
 
+# A lochem or tomech lechima wounded during, or as a result of, training or
+# operational activity who then moved to another role keeps the HIGHER rate for
+# the whole service period. This script cannot detect that, so callers must pass
+# the pre-injury service type for such a case; the printed note says so.
+WOUNDED_KEEPS_HIGHER_RATE = True
+
 NEKUDOT_ZIKUI_VALUE_PER_POINT_PER_MONTH_2026 = 242
 
 
@@ -68,7 +74,9 @@ def accrue(rates: dict, service_type: str, effective_months: int) -> tuple[float
     return round(total, 2), breakdown
 
 
-def compute_pikadon(service_type: str, months: int, gender: str) -> dict:
+def compute_pikadon(service_type: str, months: int, gender: str,
+                    medical_discharge: bool = False,
+                    hesder_total_months: int | None = None) -> dict:
     if service_type not in PIKADON_RATES:
         raise ValueError(f"Unknown service-type {service_type!r}. Valid: {list(PIKADON_RATES)}")
     if gender not in ACCRUAL_CAP:
@@ -76,8 +84,11 @@ def compute_pikadon(service_type: str, months: int, gender: str) -> dict:
     if months < 0:
         raise ValueError("months must be non-negative")
 
-    cap = ACCRUAL_CAP[gender]
-    effective_months = min(months, cap)
+    # The 32/24 caps in s.11(a) are caps on SHERUT SADIR. They do not govern the
+    # national-service and civilian tracks, so don't silently truncate those.
+    civilian_track = service_type in ("sle", "ezrachi-beinayim", "ezrachi-mefutzal")
+    cap = None if civilian_track else ACCRUAL_CAP[gender]
+    effective_months = months if cap is None else min(months, cap)
     rate = PIKADON_RATES[service_type]
     pikadon, pikadon_breakdown = accrue(PIKADON_RATES, service_type, effective_months)
     grant, grant_breakdown = accrue(GRANT_RATES, service_type, effective_months)
@@ -86,12 +97,19 @@ def compute_pikadon(service_type: str, months: int, gender: str) -> dict:
     #   Male IDF/MAGAV/Police/SHABAS: ≥23 months => 2 points
     #   Female IDF/MAGAV/Police/SHABAS: ≥22 months => 2 points
     #   SLE (any gender): ≥24 months => 2 points
+    # Credit-point months are NOT the same quantity as Pikadon months:
+    #  - an early discharge on medical grounds is deemed to have completed 12
+    #  - hesder/SHLAT counts total service from enlistment, not paid months only
+    # Both are caller-declared because the script cannot infer either.
+    counted = 12 if (medical_discharge and months < 12) else months
+    if hesder_total_months is not None:
+        counted = hesder_total_months
     if service_type == "sle":
-        points_per_year = 2 if months >= 24 else (1 if months >= 12 else 0)
+        points_per_year = 2 if counted >= 24 else (1 if counted >= 12 else 0)
     elif gender == "male":
-        points_per_year = 2 if months >= 23 else (1 if months >= 12 else 0)
+        points_per_year = 2 if counted >= 23 else (1 if counted >= 12 else 0)
     else:
-        points_per_year = 2 if months >= 22 else (1 if months >= 12 else 0)
+        points_per_year = 2 if counted >= 22 else (1 if counted >= 12 else 0)
 
     monthly_credit = NEKUDOT_ZIKUI_VALUE_PER_POINT_PER_MONTH_2026 * points_per_year
     total_36_months = monthly_credit * 36
@@ -100,7 +118,7 @@ def compute_pikadon(service_type: str, months: int, gender: str) -> dict:
         "service_type": service_type,
         "months_input": months,
         "months_effective": effective_months,
-        "cap_applied": months > cap,
+        "cap_applied": cap is not None and months > cap,
         "rate_per_month_nis": rate,
         "pikadon_estimate_nis": pikadon,
         "pikadon_breakdown": pikadon_breakdown,
@@ -109,7 +127,7 @@ def compute_pikadon(service_type: str, months: int, gender: str) -> dict:
         "nekudot_zikui_points_per_year": points_per_year,
         "nekudot_zikui_monthly_credit_nis": monthly_credit,
         "nekudot_zikui_total_over_36_months_nis": total_36_months,
-        "note": "MoD rates as published May 2026, with the training reclassification applied. Verify on the hachvana.mod.gov.il official calculator before any financial decision.",
+        "note": "MoD rates as published May 2026, with the training reclassification applied. A soldier wounded in training or operational activity who moved to another role keeps the higher pre-injury rate for the whole service, so pass the pre-injury service type in that case. Verify on the hachvana.mod.gov.il official calculator before any financial decision.",
     }
 
 
@@ -118,17 +136,31 @@ def main():
     parser.add_argument("--service-type", required=True, choices=list(PIKADON_RATES.keys()))
     parser.add_argument("--months", required=True, type=int, help="Months of paid service")
     parser.add_argument("--gender", required=True, choices=["male", "female"])
+    parser.add_argument("--medical-discharge", action="store_true",
+                        help="Early discharge on health grounds: deemed to have completed 12 "
+                             "months for the credit-point threshold (does NOT change the Pikadon, "
+                             "which stays pro-rata on months actually served)")
+    parser.add_argument("--hesder-total-months", type=int, default=None,
+                        help="Hesder/SHLAT: total service months from enlistment to discharge. "
+                             "Unpaid service does not accrue Pikadon but DOES count toward the "
+                             "credit-point threshold, so pass paid months in --months and the "
+                             "total here")
     args = parser.parse_args()
 
     try:
-        result = compute_pikadon(args.service_type, args.months, args.gender)
+        result = compute_pikadon(args.service_type, args.months, args.gender,
+                                 medical_discharge=args.medical_discharge,
+                                 hesder_total_months=args.hesder_total_months)
     except ValueError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(2)
 
     print("Pikadon and discharge-grant estimate (MoD rates, May 2026):")
     print(f"  Service type:                       {result['service_type']}")
-    print(f"  Months input / effective:           {result['months_input']} / {result['months_effective']} (cap {ACCRUAL_CAP[args.gender]} for {args.gender})")
+    cap_note = (f"cap {ACCRUAL_CAP[args.gender]} for {args.gender}"
+                if args.service_type not in ("sle", "ezrachi-beinayim", "ezrachi-mefutzal")
+                else "no sherut-sadir cap on this track")
+    print(f"  Months input / effective:           {result['months_input']} / {result['months_effective']} ({cap_note})")
     if result["cap_applied"]:
         print(f"  NOTE: Months exceeded cap; extra service does not accrue Pikadon")
     print(f"  Rate per month (served role):       {result['rate_per_month_nis']} NIS")

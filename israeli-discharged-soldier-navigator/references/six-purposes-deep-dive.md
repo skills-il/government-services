@@ -6,20 +6,22 @@ Statutory source (verbatim from hachvana.mod.gov.il/GrantAndDeposit):
 
 Translation: "academic studies, vocational training, marriage, starting a business, driving lessons, and purchasing an apartment, house, or land for building a house"
 
-**Closed list.** Any purpose not in this list is rejected automatically by the hachvana system pre-5y. The most common rejection is rental, only purchase qualifies.
+**The current Schedule, not a permanently closed list.** Anything outside it is rejected pre-5y, and rental is the most common rejection since only purchase qualifies. But s.18א lets the Minister of Defence add purposes by order, which is how marriage (2001) and driving lessons (2015) got here. Re-check the Schedule rather than asserting the list can never change.
 
 ---
 
 ## Purpose 1: Academic Studies (לימודים אקדמיים)
 
-**Definition.** Tuition at a recognized academic institution. Verify recognition (e.g., for the Israeli higher-education framework) and for abroad studies verify with Mishrad HaChinuch before withdrawing.
+**Definition.** Tuition at a recognised institution **in Israel**. s.12 also funds bagrut completion, a pre-academic mechina, and psychometric preparation in their own right, so someone with no bagrut qualifies. Studies abroad do NOT qualify at all: "כספי הפיקדון ניתנים למימוש רק במדינת ישראל". There is nothing to verify with Mishrad HaChinuch, because recognition of a foreign institution cannot cure the territorial rule.
 
 **Evidence required:**
 - Acceptance letter (מכתב קבלה) from the institution
 - Tuition invoice (חשבון שכר לימוד) or proof of registration for the relevant academic year
-- For abroad studies: verify recognition status before submitting
+- Studies abroad: not eligible, do not submit. See the territorial rule above
 
-**Pikadon stacking with Mimadim LiLimudim scholarship.** If the user is also eligible for Mimadim (under Tikkun 25 December 2023, 100% tuition for lochem and special populations), the Pikadon can be used for living, dorm, and book expenses NOT covered by the scholarship.
+**Pikadon stacking with the Mimadim LiLimudim scholarship.** Mimadim sits in s.7א1, added by Amendment 24 (25.5.2022) and rewritten by Amendment 25 (21.12.2023), which is where the 85% / final-year top-up structure and the three-or-four study years come from.
+
+**Do NOT tell a Mimadim recipient the Pikadon covers "living, dorm and book expenses the scholarship doesn't".** It does not. ss.12 to 14 fund שכר לימוד only, and s.15(a) has the Fund pay that contribution direct to the institution, so there is no living-costs limb and no cash to the student. Where Mimadim already meets 100% of the CHE tuition there is no tuition balance left for the Pikadon either. What the Pikadon CAN still fund alongside it is a mechina, bagrut completion, or psychometric preparation under s.12, and the other five purposes.
 
 **Common rejection causes (verify with hachvana before assuming):**
 - Pre-academic preparation (mechina), kolzchut lists mechina kdam-akademit as eligible under purpose #1 when recognized; do not blanket-reject. Verify recognition for the specific mechina.
@@ -124,3 +126,18 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 | 6 | רכישת דירה/בית/קרקע | Real estate purchase | Signed purchase agreement | **Trying to use for rental** |
 
 If the user has a purpose NOT in this list, the options are: (a) wait for the 5-year auto-transfer (any use), (b) use the unrestricted discharge grant instead, or (c) re-frame the expense as one of the 6 (e.g., enrolling in studies to free other cash for the actual need).
+
+
+## The five mistakes users actually make (moved from SKILL.md 2026-08-27)
+
+| Mistake | Reality |
+|---|---|
+| "I can use Pikadon for rent on my first apartment" | No. Only purchase qualifies. s.17 originally covered rental too, but that limb was removed by Amendment 3 in 1997. For cash to rent: the discharge grant (unrestricted) or the year-5 auto-transfer. |
+| "I'll use it for my post-army trip" | No. Travel is not a permitted purpose. The grant can cover it; the Pikadon cannot pre-5y. |
+| "It's for my degree, but abroad" | No. Realisable inside Israel only: "כספי הפיקדון ניתנים למימוש רק במדינת ישראל". However recognised the institution, a degree abroad does not qualify. |
+| "Can my parents withdraw it for me?" | No. Personal and non-transferable; they must apply from their own account. |
+| "Use it as loan collateral" | No. Statutorily non-pledgeable (לא ניתן לשעבוד). |
+
+**And the mistake the skill itself used to invite:** treating an approved request as cash. For
+studies, training, a mechina (s.15(a)) and an apartment (s.17(b)) the Fund pays the institution
+or the seller directly. The soldier never handles the money.
