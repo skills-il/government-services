@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israel-gov-api",
-  "generated_at": "2026-06-16T00:00:00Z",
+  "generated_at": "2026-08-27T00:00:00Z",
   "claims": [
     {
       "claim_id": "percent-encoding-artifacts",
@@ -57,11 +57,11 @@
     {
       "claim_id": "cbs-link",
       "claim": "https://www.cbs.gov.il is the live website of Israel's Central Bureau of Statistics, listed in the Reference Links table as a complementary Israeli data source.",
-      "source_url": "https://www.cbs.gov.il/he/Pages/default.aspx",
-      "raw_snippet": "000000000 Ron Ness ❮ ❯ --> --> MORE ARROW --> --> indicators.",
-      "fetched_at": "2026-08-10",
-      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
-      "verified_at": "2026-08-18"
+      "source_url": "https://www.cbs.gov.il",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה Central Bureau of Statistics",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
     },
     {
       "claim_id": "boi-link",
@@ -76,11 +76,11 @@
       "claim_id": "cbs-link-root",
       "claim": "https://www.cbs.gov.il resolves to the Central Bureau of Statistics site.",
       "source_url": "https://www.cbs.gov.il",
-      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית × הפעל מצב נגיש יותר בטל מצב נגיש יותר כניסה carousel.",
-      "fetched_at": "2026-08-10",
+      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה Central Bureau of Statistics",
+      "fetched_at": "2026-08-27T00:00:00Z",
       "source_note": "HTML <title> of the fetched page.",
-      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
     },
     {
       "claim_id": "boi-link-root",
@@ -90,6 +90,255 @@
       "fetched_at": "2026-08-10",
       "verified_via": "browser",
       "source_note": "boi.org.il serves a Radware bot-check to curl; title read in Playwright with location.href asserted."
+    },
+    {
+      "claim_id": "datasets-list-url-plural",
+      "claim": "The live data.gov.il dataset list is at https://data.gov.il/datasets (plural); the singular /dataset serves a client-side 404 error page",
+      "source_url": "https://data.gov.il/datasets",
+      "raw_snippet": "1,199 מאגרי מידע נמצאו",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "datastore-sql-enabled-2026-08",
+      "claim": "datastore_search_sql on data.gov.il is NOT disabled: SELECT, WHERE, ORDER BY, GROUP BY, sum() and LIMIT all return HTTP 200 with success:true and real records (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT%20%2A%20FROM%20%22cf29862d-ca25-4691-84f6-1be60dcb4a1e%22%20LIMIT%201",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ckan-api-reference.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "datastore-sql-waf-count-blocked",
+      "claim": "The data.gov.il WAF blocks SQL containing injection-signature substrings (count(, 1=1, UNION) with an HTML 404 page of about 1.4 kB, not a JSON error and not a 403; sum(1) is the working substitute for count(*) and returns the same aggregate (live probe 2026-08-27: sum(1) over the public-transport resource = 65953, matching the datastore total)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT%20sum%281%29%20FROM%20%22cf29862d-ca25-4691-84f6-1be60dcb4a1e%22",
+      "raw_snippet": "\"sum\": 65953",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ckan-api-reference.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "datastore-search-total-counts-2026-08",
+      "claim": "Live row counts verified 2026-08-27 by asserting on the response body: vehicles 4168353, public-transport 65953, mosdot 119761, amutot 75680",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cf29862d-ca25-4691-84f6-1be60dcb4a1e&limit=1",
+      "raw_snippet": "\"total\": 65953",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "no-rate-limit-observed-2026-08",
+      "claim": "No rate limiting observed on data.gov.il: 25 rapid sequential datastore_search calls completed in 6.5 seconds, all returning HTTP 200, and about 60 calls across one session drew no throttling (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cf29862d-ca25-4691-84f6-1be60dcb4a1e&limit=1",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ckan-api-reference.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "organization-list-fields",
+      "claim": "data.gov.il's organization_list?all_fields=true returns name, title, image_url and resources_count, and does NOT return CKAN's display_name or package_count (both come back null), which is why the bundled script must read title/resources_count",
+      "source_url": "https://data.gov.il/api/3/action/organization_list?all_fields=true",
+      "raw_snippet": "\"title\"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "scripts/query_datagov.py"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "cbs-locality-codes",
+      "claim": "CBS locality codes: Tel Aviv-Yafo 5000, Haifa 4000, Jerusalem 3000, verified against the CBS localities resource 5c78e9fa-c2e2-4771-93ff-7f400a12f7ba on 2026-08-27",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=3&q=%D7%97%D7%99%D7%A4%D7%94",
+      "raw_snippet": "\"\\u05e1\\u05de\\u05dc_\\u05d9\\u05e9\\u05d5\\u05d1\": \"4000 \", \"\\u05e9\\u05dd_\\u05d9\\u05e9\\u05d5\\u05d1\": \"\\u05d7\\u05d9\\u05e4\\u05d4 \"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "deep-offset-no-hard-cap",
+      "claim": "Deep offset paging still works on data.gov.il: offset=500000 on the 4.17M-row vehicle resource returned HTTP 200 with a record (live probe 2026-08-27), so there is no hard offset cap",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=053cea08-09bc-40ec-8f7a-156f0677aff3&limit=1&offset=500000",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "text-columns-space-padded",
+      "claim": "CBS locality codes are stored as type text with a trailing space: filters={'סמל_ישוב':'4000'} returns success:true with total 0, while '4000 ' returns Haifa (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1",
+      "raw_snippet": "\"סמל_ישוב\", \"type\": \"text\"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "locality-name-three-spellings",
+      "claim": "The same locality is spelled three ways across the two resources the skill joins: localities has 'תל אביב - יפו ' with a trailing space, mosdot has 'תל אביב - יפו' in שם ישוב and 'תל אביב-יפו' in שם רשות (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=2&q=%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91",
+      "raw_snippet": "\"\\u05e9\\u05dd \\u05d9\\u05e9\\u05d5\\u05d1\"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mosdot-year-panel-2011-2015",
+      "claim": "The mosdot resource is a per-year panel covering only 2011 to 2015 (21474 / 23419 / 23583 / 25046 / 26239 rows per year), so its 119,761 total is five years of the same institutions and it holds nothing after 2015 (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&limit=1",
+      "raw_snippet": "_id\", \"type\": \"int\"}, {\"id\": \"\\u05e9\\u05e0\\u05d4\", \"type\": \"numeric\"}, {\"id\": \"\\u05e1\\u05de\\u05dc \\u05de\\u05d5\\u05e1\\u05",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "date-columns-are-text",
+      "claim": "Date columns in the amutot resource are type text in DD/MM/YYYY, so sort=<date> desc is lexicographic and returns 31/12/2025 above any January 2026 row (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&limit=1",
+      "raw_snippet": "\"type\": \"text\"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "not-on-ckan-nadlan-gtfs-lamas",
+      "claim": "Real-estate transactions, GTFS and most CBS series are not on data.gov.il: q=nadlan returns count 0, fq=organization:taxes-authority returns 4 customs datasets, q=gtfs returns 2 unrelated datasets, and fq=organization:lamas returns 14 datasets with no population table (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/package_search?q=nadlan&rows=3",
+      "raw_snippet": "\"count\": 0",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sql-error-is-json-409",
+      "claim": "A genuine SQL error returns JSON with HTTP 409 and a psycopg2 message, distinguishing it from the 1376-byte HTML 404 generic error page, which is shared by a WAF match, an undefined action name and a non-existent resource_id (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT%20no_such_col%20FROM%20%22be5b7935-3922-45d4-9638-08871b17ec95%22%20LIMIT%201",
+      "raw_snippet": "rror\": {\"query\": [\"(psycopg2.errors.UndefinedColumn) column \\\"no_such_col\\\" does not exist\\nLINE 1: ...LAIN (VERBOS",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "records-format-csv-headerless",
+      "claim": "records_format=csv returns result.records as a headerless CSV string; the column names live only in result.fields, in order (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cf29862d-ca25-4691-84f6-1be60dcb4a1e&limit=1&records_format=csv",
+      "raw_snippet": "\"records_format\": \"csv\"",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "datastore-active-independent-of-format",
+      "claim": "datastore_active is independent of format: the mosdot resource is XLSX and still datastore_active true (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/resource_show?id=5548fd63-5868-4053-ad81-98caddc5e232",
+      "raw_snippet": "\"datastore_active\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mosdot-2015-year-filter-example",
+      "claim": "Filtering the mosdot resource to a single year through datastore_search filters works and returns total 26239 for 2015, matching the GROUP BY per-year breakdown (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=5548fd63-5868-4053-ad81-98caddc5e232&filters=%7B%22%D7%A9%D7%A0%D7%94%22%3A%222015%22%7D&limit=1",
+      "raw_snippet": "\"total\": 26239",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "waf-blocks-hebrew-column-predicates",
+      "claim": "The data.gov.il WAF blocks datastore_search_sql that references a Hebrew-named column in a predicate or a function (WHERE \"שנה\"=2015 and WHERE TRIM(\"סמל_ישוב\")='4000' both return the HTML 404), while SELECT, GROUP BY and ORDER BY to_date on the same Hebrew columns return 200, and WHERE on a Latin column or on _id returns 200 (live probes 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT%20%22%D7%A9%D7%A0%D7%94%22%2C%20sum%281%29%20AS%20n%20FROM%20%225548fd63-5868-4053-ad81-98caddc5e232%22%20GROUP%20BY%20%22%D7%A9%D7%A0%D7%94%22",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "to-date-order-by-works",
+      "claim": "ORDER BY to_date(\"תאריך רישום עמותה\",'DD/MM/YYYY') DESC on the amutot resource returns 26/08/2026 at the top, so casting text dates in ORDER BY works even on a Hebrew-named column (live probe 2026-08-27)",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search_sql?sql=SELECT%20%22%D7%AA%D7%90%D7%A8%D7%99%D7%9A%20%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%20FROM%20%22be5b7935-3922-45d4-9638-08871b17ec95%22%20ORDER%20BY%20to_date%28%22%D7%AA%D7%90%D7%A8%D7%99%D7%9A%20%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%2C%27DD/MM/YYYY%27%29%20DESC%20LIMIT%202",
+      "raw_snippet": "\"success\": true",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "live-api-probe",
+      "verified_at": "2026-08-27T00:00:00Z"
     }
   ]
 }

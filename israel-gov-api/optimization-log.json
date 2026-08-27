@@ -11,6 +11,22 @@
         "Note on the evidence gate: this skill's example URLs contain percent-encoded Hebrew (q=%D7%AA%D7%9C ...). verify-evidence.py reads byte pairs like %94% as phantom percentages (0%-99%); grounded them via a single percent-encoding-artifacts evidence claim rather than removing the (necessary) encoded URLs.",
         "Expert MINOR deferred: metadata.json HE display_description states the no-keyset rule tersely (without the explicit success:false detail the body carries). Acceptable for a description field; optionally expand next cycle."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "RESOLVED the 1.3.2 CARRY: filters={'_id':'>N'} still returns success:false (re-verified live), so the offset-paging guidance stays correct. But the CARRY was incomplete: SQL keyset paging via datastore_search_sql WHERE _id > N DOES work and was never mentioned, because the previous cycle recorded datastore_search_sql as WAF-blocked and stopped testing it.",
+        "Lesson for next cycle: a blanket 'endpoint is disabled' verdict must be re-probed with SEVERAL query shapes, not one. The June 2026 cycle tested an aggregate query, hit the count( WAF rule, and generalised to 'SQL is disabled', which suppressed a working and materially better bulk-extraction path for two versions.",
+        "Expert MINOR carried from 1.3.2 and now RESOLVED: the metadata HE display_description no longer asserts the Security Violation 403 or a blanket no-keyset rule.",
+        "Unresolved: whether the 403 'Security Violation' response still occurs under any condition. It could not be reproduced on 2026-08-27 across roughly 60 calls including deliberate WAF triggers, which all returned HTML 404 instead. The skill now records it as observed-in-June, not-reproducible-in-August rather than deleting it.",
+        "Not tested this cycle: whether the count( WAF rule can be evaded with whitespace or comments (SELECT count (*)). Deliberately not probed, since deliberately probing a government WAF for bypasses is out of scope.",
+        "Structural lesson from this cycle: verifying the TRANSPORT layer (do the IDs resolve, do the parameters work) says nothing about the DATA layer (do the documented queries return the right rows). Five silent-wrong-answer paths survived a pass that confirmed all four resource IDs and every parameter. Next cycle, run each worked example end to end and sanity-check the NUMBER it produces, not just that it produces one.",
+        "New WAF rule discovered and documented: SQL referencing a Hebrew-named column in a predicate or function is blocked; SELECT/GROUP BY/ORDER BY to_date on the same column is not. This is why the corrected Example 1 uses filters rather than SQL for the year restriction.",
+        "Expert MAJOR partially deferred: references/ckan-api-reference.md still lists group_list / tag_list / package_list / resource_show without saying when discovery by tag or group beats package_search.",
+        "Expert MINOR deferred: datastore_info 404s on data.gov.il (confirmed live) and the skill never says so, so an agent that knows CKAN will try it and land on the generic HTML 404.",
+        "Not re-tested: hospital-quality and air-quality datasets, named in an earlier version of the 'other domains' line. They were dropped from that sentence rather than verified; confirm next cycle whether they are on the portal."
+      ]
     }
   ]
 }

@@ -34,17 +34,17 @@ None required (public API).
 ### Datastore Query Parameters
 - `resource_id` -- Resource ID (required)
 - `limit` -- Maximum records per page (default 100). There is no hard ceiling, but deep `offset` paging gets progressively slower.
-- `offset` -- Record offset; the response also returns `_links.next` for the next page. `filters` is exact-match only, so there is no `_id` keyset paging; use offset, or download the resource CSV for full extractions.
+- `offset` -- Record offset; the response also returns `_links.next` for the next page. `filters` is exact-match only, so there is no `_id` keyset paging THROUGH `filters`. For a full extraction use `datastore_search_sql` with `WHERE _id > N ORDER BY _id`, which is true keyset paging and does not degrade with depth, or pull `records_format=csv`.
 - `fields` -- Comma-separated field names
 - `filters` -- JSON object of field:value pairs
 - `q` -- Full-text search within resource
 - `sort` -- Sort field and order (e.g. `sort=_id asc` for a stable ordering across offset pages)
 - `records_format` -- One of `objects` (default), `lists`, `csv`, `tsv`. `lists` and `csv` are noticeably faster for large pulls.
 
-### Deprecated Endpoints
+### Endpoint status notes
 | Endpoint | Status | Notes |
 |----------|--------|-------|
-| `/action/datastore_search_sql` | 403 Forbidden | SQL queries disabled by data.gov.il. Use `datastore_search` with `filters`, `fields`, `sort`, and `q` parameters instead. |
+| `/action/datastore_search_sql` | 200 for most queries | NOT disabled (re-verified 2026-08-27). `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `sum()` and `LIMIT` all work. The WAF blocks injection-signature substrings (`count(`, `1=1`, `UNION`) with an HTML 404, not a JSON error. Use `sum(1)` instead of `count(*)`, and take plain row counts from `datastore_search`'s `total`. |
 
 ## Common Organization IDs
 
@@ -79,4 +79,4 @@ All responses return JSON with:
 The `result.total` field reports the full record count of the resource (not the page); use it to plan pagination.
 
 ## Rate Limits
-Undocumented and enforced by a WAF. A "Security Violation" / 403 response is distinct from a permissions 403: the WAF terminates the session and discards cookies. Recover by backing off exponentially, dropping any session cookies, and retrying with a fresh `User-Agent`. Implement reasonable delays (1-2 seconds) for bulk queries.
+Undocumented, and measured lighter than previously described: on 2026-08-27, 25 rapid sequential `datastore_search` calls in 6.5 seconds all returned 200, and about 60 calls in one session drew no throttling. What does block is the SQL-pattern WAF, which answers an injection-signature substring (`count(`, `1=1`, `UNION`) with an HTML 404 rather than a 403; rephrasing the query clears it and backing off does not. A 403 with the body "Security Violation" was recorded in June 2026 but could not be reproduced on 2026-08-27. If one does appear, treat it as a session block: drop cookies, use a fresh `User-Agent`, back off exponentially. Modest delays on bulk pulls remain good manners.
