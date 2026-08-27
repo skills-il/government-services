@@ -13,6 +13,22 @@
         "Expert MINOR deferred: the 5-unit bonus stacking rule (math + two science => +30 each) is specifically the Technion Madatech cluster rule, stated as 'most universities'; it is followed by a verify-the-program caveat. Next cycle: attribute it to Technion specifically.",
         "Expert MINOR deferred: the sekhem estimator's bagrut-to-psychometric normalization (bagrut * 8) is a crude approximation; it is an illustrative estimate with a verify-on-official-calculator caveat. Next cycle: consider a more faithful normalization or label outputs more explicitly as rough estimates."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "STRUCTURAL: the 1.4.1 cycle changed the PET fee 665 -> 560 and cited a PDF that 404s, with '404 Not Found' literally sitting in the raw_snippet field. The evidence gate passed because the default pass only checks self-consistency. Any cycle that CHANGES a number must run --check-sources on that specific claim, not just the suite.",
+        "STRUCTURAL: a price read off a multi-row table must be attributed to its ROW. 665 is the September sitting's price and NITE publishes no price for the December sitting; quoting either as 'the fee' is the same class of error as the 560.",
+        "STRUCTURAL: this skill is date-sensitive and was written as a retrospective. Every cycle should re-read the deadline table against TODAY and fix the tense; a future deadline described as closed is worse than no deadline at all.",
+        "Expert MAJOR deferred: mועד ב' and שיפור ציון mechanics, external and adult bagrut, תעודת גמר and the 12-year certificate, and track transfers are named in Step 9 but not covered in depth. Consider a references/bagrut-mechanics.md next cycle.",
+        "Expert MAJOR deferred: colleges (מכללות) are now named as a route but have no thresholds, no admission mechanics and no institution list, while most Israeli undergraduates study at one. The skill remains university-shaped.",
+        "Expert MAJOR deferred: התאמות בדרכי היבחנות for learning disabilities is routed to parents.education.gov.il but not documented; it is far more common than the wartime accommodations that get a full step.",
+        "Unresolved: the Bagrut pass mark (55 vs 56) and the 21-unit minimum could not be confirmed against a ministry page. Both are hedged in all four surfaces rather than flipped. Resolve with a primary source next cycle.",
+        "Unresolved: the Technion registration dates for תשפ\"ז sit behind Expand accordions that did not yield their content this cycle, so Step 9 states the STRUCTURE (per-track windows, no late registration for medicine and architecture) without asserting specific dates.",
+        "Unresolved: Open University 120 credit points still has no evidence entry; it was changed from 108 on an uncited basis in 1.4.1 and remains uncited.",
+        "Unresolved: the mean 548 / SD 108 figures are a 2018 Wikipedia number now labelled as indicative. Replace with a NITE-published figure if one becomes reachable."
+      ]
     }
   ]
 }

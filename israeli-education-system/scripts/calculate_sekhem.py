@@ -17,41 +17,80 @@ import json
 import sys
 
 
-# 5-unit bonus points for university admissions (canonical 2026 cycle).
-# Math gets +35; everything else gets +25. Some universities apply a stacking
-# rule (math 5yl + two science 5yl => +30 per science instead of +25);
-# this script applies the base table only. Verify with the program's official
-# bonus table for the authoritative number.
+# Bagrut bonus table, transcribed from the Technion's published table
+# (admissions.technion.ac.il/calculation-of-the-median-grade, read 2026-08-27).
+#
+# The Technion is used because it is the only Israeli university that publishes
+# a complete, readable bonus table. Tel Aviv and the Hebrew University expose
+# only JavaScript calculators. The widely-quoted "+35 for 5-unit maths" comes
+# from commercial prep companies, not from a university, and an earlier version
+# of this script hardcoded it. The Technion's published maths bonus is +30.
+#
+# Two Technion rules this script DOES model: the >= 60 grade condition, and the
+# mitzraf cluster bonus. One it does NOT: the double-weighting of maths units
+# (5 units counted as 10) applied to every track except architecture, which
+# moves a Technion sekhem more than the bonus does. Run the program's own
+# calculator before quoting a number to a student.
 FIVE_UNIT_BONUSES = {
-    "Mathematics": 35,
-    "Math": 35,
+    "Mathematics": 30,
+    "Math": 30,
     "English": 25,
     "Physics": 25,
     "Chemistry": 25,
     "Biology": 25,
     "Computer Science": 25,
     "Arabic": 25,
-    "French": 25,
     "Literature": 25,
     "Bible": 25,
     "History": 25,
+    # French is NOT on the Technion's +25 language list; it falls to the
+    # "additional subjects" tier.
+    "French": 20,
 }
 
-# Psychometric score percentile mapping
-PSYCHOMETRIC_PERCENTILES = {
-    800: ("99.9th", "Top 0.1%"),
-    750: ("99th", "Top 1%"),
-    740: ("98th", "Top 2%"),
-    700: ("95th", "Top 5%"),
-    680: ("92nd", "Top 8%"),
-    650: ("85th", "Top 15%"),
-    620: ("78th", "Top 22%"),
-    600: ("70th", "Top 30%"),
-    580: ("60th", "Top 40%"),
-    550: ("50th", "Median"),
-    530: ("45th", "Average"),
-    500: ("35th", "Below average"),
-    450: ("20th", "Lower quintile"),
+# 4-unit subjects earn a real bonus, and omitting the tier silently scores a
+# 4-unit student at zero (which an earlier version of this script did). But be
+# careful how far this generalises: the Technion publishes +10 at 4 units for
+# the "additional subjects" tables and for a gemer project, and does NOT
+# publish a 4-unit rate for maths, the sciences, English or the recognized
+# languages. Applying +10 to those is an extrapolation, so the script prints a
+# warning whenever it does so.
+FOUR_UNIT_BONUS = 10
+FOUR_UNIT_UNPUBLISHED = {
+    "Mathematics", "Math", "English", "Physics", "Chemistry", "Biology",
+    "Computer Science", "Arabic",
+}
+
+# Subjects that count toward the mitzraf (cluster) bonus, which raises maths
+# AND the qualifying partners to 30 each when 5-unit maths is combined with
+# either two sciences or one science plus one technological subject.
+MITZRAF_SCIENCES = {"Physics", "Chemistry", "Biology"}
+MITZRAF_TECHNOLOGICAL = {
+    "Computer Science", "Machine Control", "Electronics and Computers",
+    "Engineering Sciences", "Biotechnology",
+}
+MITZRAF_BONUS = 30
+
+# Rough standing by score. These are NOT official NITE percentiles: NITE does
+# not publish a score-to-percentile table we could verify, and an earlier
+# version of this script printed precise percentile ranks that contradicted the
+# ones in SKILL.md. What IS published is the shape of the distribution, roughly
+# normal with a mean near 548 and a standard deviation near 108, so the bands
+# below are derived from that shape and described qualitatively on purpose.
+PSYCHOMETRIC_STANDING = {
+    800: "far above the mean (about 2.3 SD)",
+    750: "well above the mean (about 1.9 SD)",
+    740: "well above the mean (about 1.8 SD)",
+    700: "above the mean (about 1.4 SD)",
+    680: "above the mean (about 1.2 SD)",
+    650: "above the mean (about 0.9 SD)",
+    620: "somewhat above the mean (about 0.7 SD)",
+    600: "somewhat above the mean (about 0.5 SD)",
+    580: "slightly above the mean",
+    550: "around the mean",
+    530: "slightly below the mean",
+    500: "below the mean (about 0.4 SD)",
+    450: "well below the mean (about 0.9 SD)",
 }
 
 # Approximate admission thresholds
@@ -99,6 +138,34 @@ def calculate_bagrut_average(subjects_json: str) -> None:
     total_units = 0
     total_bonus = 0
 
+    # Decide the mitzraf (cluster) bonus BEFORE scoring, because it changes the
+    # maths bonus as well as the partners'. It needs 5-unit maths at >= 60 plus
+    # either two qualifying sciences or one science and one technological
+    # subject, all at 5 units and >= 60. A gemer project never qualifies.
+    def _eligible(names):
+        return {
+            n for n in names
+            if subjects.get(n, {}).get("units") == 5
+            and subjects.get(n, {}).get("grade", 0) >= 60
+        }
+
+    maths_names = {"Mathematics", "Math"}
+    has_maths = bool(_eligible(maths_names))
+    sciences = _eligible(MITZRAF_SCIENCES)
+    technological = _eligible(MITZRAF_TECHNOLOGICAL)
+    mitzraf_partners = set()
+    if has_maths:
+        if len(sciences) >= 2:
+            mitzraf_partners = sciences
+        elif len(sciences) >= 1 and len(technological) >= 1:
+            mitzraf_partners = sciences | technological
+    mitzraf_active = bool(mitzraf_partners)
+    mitzraf_members = (
+        (_eligible(maths_names) | mitzraf_partners) if mitzraf_active else set()
+    )
+
+    four_unit_extrapolated = set()
+
     print(f"{'Subject':<25} {'Units':>5} {'Grade':>5} {'Bonus':>5}")
     print("-" * 45)
 
@@ -107,10 +174,16 @@ def calculate_bagrut_average(subjects_json: str) -> None:
         grade = data.get("grade", 0)
         bonus = 0
 
-        # A 5-unit bonus applies only to an eligible subject taken at 5 units
-        # with a final grade of at least 60.
-        if units == 5 and name in FIVE_UNIT_BONUSES and grade >= 60:
-            bonus = FIVE_UNIT_BONUSES[name]
+        # A bonus applies only from a final grade of 60 and up.
+        if grade >= 60:
+            if name in mitzraf_members:
+                bonus = MITZRAF_BONUS
+            elif units == 5 and name in FIVE_UNIT_BONUSES:
+                bonus = FIVE_UNIT_BONUSES[name]
+            elif units == 4 and name in FIVE_UNIT_BONUSES:
+                bonus = FOUR_UNIT_BONUS
+                if name in FOUR_UNIT_UNPUBLISHED:
+                    four_unit_extrapolated.add(name)
             total_bonus += bonus
 
         # Canonical Israeli method: add the bonus to the subject grade, then take
@@ -131,13 +204,32 @@ def calculate_bagrut_average(subjects_json: str) -> None:
     boosted_average = total_boosted_weighted / total_units
 
     print(f"\nTotal units: {total_units}")
-    print(f"Meets minimum (21 units): {'Yes' if total_units >= 21 else 'No'}")
+    print(f"Reaches the commonly-cited 21-unit floor: "
+          f"{'Yes' if total_units >= 21 else 'No'} "
+          "(the 21 figure is widely quoted but was not confirmed against a "
+          "ministry page this cycle, so do not treat a No as a verdict)")
     print(f"Raw average: {raw_average:.1f}")
-    print(f"5-unit bonus points: {total_bonus}")
+    if mitzraf_active:
+        print(
+            "Mitzraf (cluster) bonus applied: 5-unit maths plus "
+            f"{', '.join(sorted(mitzraf_partners))} each scored at +{MITZRAF_BONUS}."
+        )
+    if four_unit_extrapolated:
+        print(
+            "WARNING: applied a +10 four-unit bonus to "
+            f"{', '.join(sorted(four_unit_extrapolated))}, which the Technion does "
+            "NOT publish a four-unit rate for. Treat those as estimates and check "
+            "the program's own calculator."
+        )
+    print(f"Total bonus points: {total_bonus}")
     print(f"Boosted (bonus-weighted) average: {boosted_average:.1f}")
     print()
-    print("NOTE: Bonus applies only to a 5-unit subject with a final grade of 60+.")
-    print("Exact bonus tables and caps vary by university; verify on the program calculator.")
+    print("NOTE: A bonus needs a final grade of 60+. 5-unit subjects take the\n      table value; 4-unit subjects on the same list take +10.")
+    print("Bonus table is the Technion's published one (read 2026-08-27). Other")
+    print("universities publish only calculators, so verify on the program's own.")
+    print("NOT modelled here: the Technion double-weights maths UNITS (5 -> 10) in")
+    print("the average for every track except architecture, which moves the result")
+    print("more than the bonus does.")
 
 
 def estimate_sekhem(bagrut_avg: float, psychometric: int,
@@ -147,7 +239,13 @@ def estimate_sekhem(bagrut_avg: float, psychometric: int,
 
     weights = UNIVERSITY_WEIGHTS.get(university, UNIVERSITY_WEIGHTS["general"])
 
-    # Normalize Bagrut to similar scale as psychometric (roughly x8)
+    # NOT ANY UNIVERSITY'S FORMULA. The x8 factor is an arbitrary rescaling with
+    # no published basis, and the per-university weights below are unsourced:
+    # no Israeli university we could reach publishes a readable weighting table
+    # (Tel Aviv exposes only a JavaScript calculator). A bonus-inflated Bagrut
+    # average routinely exceeds 100, so the Bagrut leg can exceed 800 on its own
+    # and outweigh a perfect psychometric. Treat the output as a rough relative
+    # indicator only, never as an admission chance.
     bagrut_normalized = bagrut_avg * 8
     sekhem = (bagrut_normalized * weights["bagrut"]) + (psychometric * weights["psychometric"])
 
@@ -159,29 +257,18 @@ def estimate_sekhem(bagrut_avg: float, psychometric: int,
     print()
     print(f"Bagrut component: {bagrut_normalized * weights['bagrut']:.1f}")
     print(f"Psychometric component: {psychometric * weights['psychometric']:.1f}")
-    print(f"Estimated sekhem: {sekhem:.1f}")
+    print(f"Indicative composite: {sekhem:.1f}")
     print()
-
-    # Find matching programs
-    print("Potentially eligible programs (approximate):")
-    eligible = [(prog, thresh) for prog, thresh in ADMISSION_THRESHOLDS.items()
-                if sekhem >= thresh]
-    borderline = [(prog, thresh) for prog, thresh in ADMISSION_THRESHOLDS.items()
-                  if thresh - 20 <= sekhem < thresh]
-
-    if eligible:
-        for prog, thresh in sorted(eligible, key=lambda x: -x[1]):
-            margin = sekhem - thresh
-            print(f"  [OK]  {prog} (threshold ~{thresh}, margin +{margin:.0f})")
-
-    if borderline:
-        print("\nBorderline (within 20 points):")
-        for prog, thresh in sorted(borderline, key=lambda x: -x[1]):
-            gap = thresh - sekhem
-            print(f"  [??]  {prog} (threshold ~{thresh}, gap -{gap:.0f})")
-
+    print("THIS IS NOT A UNIVERSITY'S SEKHEM AND NOT AN ADMISSION CHANCE.")
+    print("The Bagrut-to-psychometric rescaling here has no published basis, and no")
+    print("Israeli university publishes a readable weighting table, so the weights")
+    print("above are estimates. Run the target program's own calculator.")
     print()
-    print("NOTE: Actual thresholds change yearly. Check specific program requirements.")
+    print("This tool deliberately does NOT print an eligibility verdict per program.")
+    print("An earlier version listed '[OK] Medicine', which was wrong twice over: the")
+    print("thresholds were unsourced, and medicine admission is gated by a NITE")
+    print("selection system (MOR / MIRKAM / MERAV) and by the institution's own")
+    print("registration deadline, neither of which any composite score can satisfy.")
 
 
 def interpret_psychometric(score: int) -> None:
@@ -191,14 +278,16 @@ def interpret_psychometric(score: int) -> None:
 
     # Find percentile
     closest = None
-    for threshold in sorted(PSYCHOMETRIC_PERCENTILES.keys(), reverse=True):
+    for threshold in sorted(PSYCHOMETRIC_STANDING.keys(), reverse=True):
         if score >= threshold:
             closest = threshold
             break
 
     if closest:
-        percentile, description = PSYCHOMETRIC_PERCENTILES[closest]
-        print(f"Approximate percentile: {percentile} ({description})")
+        standing = PSYCHOMETRIC_STANDING[closest]
+        print(f"Rough standing: {standing}")
+        print("This is NOT an official percentile. NITE publishes no score-to-percentile")
+        print("table we could verify; the mean is about 548 with an SD of about 108.")
     else:
         print("Score below reference range.")
 
@@ -220,12 +309,18 @@ def interpret_psychometric(score: int) -> None:
     print(f"Assessment: {assessment}")
     print()
 
-    print("Maximum attempts: unlimited (NITE removed the prior 8-attempt cap; highest score counts)")
-    print("Available in: Hebrew, Arabic, Russian, French, Spanish")
-    print("Cost: approximately 560 NIS standard registration (2026); verify the current fee on nite.org.il")
+    print("The highest score counts. The current retake-limit position is not stated on")
+    print("any NITE page we could read, so do not assume there is no cap: check nite.org.il.")
+    print("Languages vary BY SITTING: Sept 2026 was Hebrew and Arabic only;")
+    print("April and July 2027 add a combined/English form, Russian and French.")
+    print("Spanish is not offered. Check the sitting, not the exam.")
+    print("Cost: 665 NIS standard registration (nite.org.il dates-and-prices,\n      read 2026-08-27); late registration adds a surcharge. Re-verify before quoting.")
     print()
-    print("From December 2026: English moves to a separate computerized test (Amirnett);")
-    print("the main PET shrinks to 2 sections (Verbal + Quantitative). Verify on nite.org.il.")
+    print("From December 2026 the PET drops English, covering two domains across five")
+    print("multiple-choice sections plus a writing task, one hour shorter than before.")
+    print("English moves to Amirnet, which already exists and is live now (315 NIS,")
+    print("35-day minimum between sittings). Admissions impact starts from academic")
+    print("year 5788 (October 2027). Verify on nite.org.il.")
     print()
     print("Popular prep courses: Kidum, High-Q, Yoel Geva, Psagot")
     print("Free practice: nite.org.il")
