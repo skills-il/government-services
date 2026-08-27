@@ -1,6 +1,28 @@
 {
   "cycles": [
     {
+      "version": "1.3.0",
+      "date": "2026-08-27",
+      "trigger": "Full update-skill cycle on a safety-critical skill carrying trust score 98. Domain audit plus an Independent Judge round. Both found substantial defects; the judge round then found six more in the fixes.",
+      "lessons": [
+        "Trust score 98 measured provenance, not currency. The score reflected signed releases and repo hygiene while two of the four documented API endpoints did not exist. A high trust score on a skill that wraps a live API is evidence about the repository, never about the API.",
+        "The only way to establish an endpoint exists is to call it WITH a fabricated control. This host answers a made-up path with HTTP 200 and an HTML error page, and answers a real endpoint under load with HTTP 502. Status, and even response size, carry no signal. Two fabricated endpoint names had survived multiple cycles because nobody had called them.",
+        "A wrong PARAMETER name fails exactly like a wrong PATH here. The documented `prefix` on SearchByName produced the same HTML error page as a fabricated endpoint, which is why the whole call looked broken rather than merely mis-parameterised. The client-side JS the site serves (`serverConnection.js`) was the authoritative answer for both names and payload shapes, and reading it took less effort than guessing.",
+        "Assuming one schema across an API was the deepest error. SearchByName and GetSpecificDrug share a domain and almost no field names. The skill's single field table was right for one endpoint and wrong for the other, so an agent following it would read `customerPrice` off a response that has `maxPrice`.",
+        "The two endpoints CONTRADICT each other on a safety-relevant field. GetSpecificDrug reports Keytruda as isPrescription=false while SearchByName reports prescription=true. An internally inconsistent upstream cannot be papered over: the skill has to name which field to trust and why.",
+        "The worst defect was an UNDER-claim, not an over-claim. Saying the API 'returns only whether a drug is in the basket' hid salList, which for Keytruda holds 101 separate indications each with its own conditions. Understating a source's capability produced a confident yes/no answer to a question whose real answer is 'only for your specific diagnosis'.",
+        "Invented numbers survive because they are plausible. 'Generic 10-20 NIS, brand 30-50 NIS' reads like something someone looked up. No kupah charges that way at all: the structure is a banded percentage with a floor, and the quarterly ceiling for chronic patients is over 1,100 NIS, three orders of magnitude away from the framing. When a figure has no source, the fix is the mechanism, not a better figure.",
+        "Printing a retired lookup table with a footnote calling it retired is not a mitigation. The A/B/C/D/X pregnancy categories were removed by the FDA in 2015; leaving the five-row table in place and annotating it invites the exact answer the skill exists to prevent. Deleting it and naming the Israeli teratology service is the only version that changes behaviour.",
+        "A refusal rule at the top does not disarm an instruction in the middle. After the hard rules were added, the Step 1 routing table still told the agent to 'retrieve pregnancy category' and Step 5 still gave a method for cross-referencing interactions. The judge found both. Adding a prohibition means auditing every place that previously assumed the opposite.",
+        "Refusing correctly is only half the job: the substitute has to be right. The rewritten script returned brochure[0] labelled 'read this for dosing', and brochure[0] turned out to be a leaflet AMENDMENT notice from 2017 while the actual consumer leaflet was from 2026. A safe refusal that hands over a nine-year-old wrong document is not safe. Filter on type, sort by date, pick the language, and resolve the bare filename against the host that serves it.",
+        "A frozen clinical table in a script is a liability with no upside. COMMON_DRUGS recorded Glucophage as in the basket (all three registrations return health=false) and split Ibufen OTC/Rx at 400 mg (IBUFEN 400 is OTC, IBUFEN 600 is not). Basket and prescription status are properties of a registration number; a per-brand table cannot be correct even in principle.",
+        "Ten results is a page, not an answer. Pagination was undocumented, so an agent listing generics would return the first 10 of 34 and call it complete. For a lookup skill this is a correctness bug, not a nicety.",
+        "'Byte for byte identical' was my own overclaim and the judge caught it. The fabricated and mis-named endpoint responses are the same 3,438-byte page but differ in an incident number, so the hashes differ. It mattered because the phrase was written as an instruction for building a control: a reader comparing hashes would have concluded the endpoints were real.",
+        "English and Hebrew drifted asymmetrically again, in the same direction as the previous skill this session: one blurb was corrected in Hebrew and left stale in English. Heading count was 24/24 throughout, so parity has to be checked per changed passage.",
+        "A local TLS failure looked like a service failure. urllib rejected the certificate on a Python install without a usable CA bundle, on every host including google.com, while curl worked. The script now falls back to certifi and says so explicitly rather than reporting the registry as down, and never disables verification: for drug data an unauthenticated answer is worse than no answer."
+      ]
+    },
+    {
       "version": "1.2.0",
       "date": "2026-06-21",
       "lessons": [

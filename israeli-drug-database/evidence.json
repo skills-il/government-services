@@ -1,129 +1,437 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-drug-database",
-  "generated_at": "2026-06-21T00:00:00Z",
+  "generated_at": "2026-08-27T00:00:00Z",
   "claims": [
     {
-      "claim_id": "idr-api",
-      "claim": "The machine-readable Israel Drug Registry is the Ministry of Health backend at israeldrugs.health.gov.il/GovServiceList/IDRServer/. A live POST to SearchByName on 2026-08-11 returned JSON carrying dragRegNum, dragHebName, dragEnName, dosageForm, iscanceled, prescription, activeComponents[].componentName, activeComponentsCompareName, dragRegOwner, health (in-basket flag), customerPrice, packagesPrices, barcodes and indications. GetSpecificDrug answers on the same base path.",
+      "claim_id": "idr-endpoint-list",
+      "claim": "The registry app's own client declares the real endpoint names: SearchByName, GetSpecificDrug, SearchByBarcode, SearchGeneric, SearchByAdv, SearchBySymptom, GetAtcList, GetMatanList, GetPackageList.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "action: \"SearchByName\",",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idr-searchbyname-payload",
+      "claim": "SearchByName takes val, prescription, healthServices, pageIndex and orderBy. There is no prefix parameter.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "searchByName: function (val, prescription, healthServices, pageIndex, orderBy) {",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idr-searchbybarcode-real-name",
+      "claim": "The barcode endpoint is named SearchByBarcode and takes barcode and prescription, not SearchByPackageBarcode.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "action: \"SearchByBarcode\",",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idr-searchgeneric-real-name",
+      "claim": "The generic-search endpoint is named SearchGeneric and takes val, name, matanId, packageId, atcId, pageIndex and orderBy. There is no SearchGenericByDragRegNum.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "searchGeneric: function (val, name, matanId, packageId, atcId, pageIndex, orderBy) {",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idr-isgsl-filter",
+      "claim": "The registry exposes a GSL flag as a search filter on SearchByAdv, so GSL is a real category in the Israeli system alongside OTC and prescription.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "searchByAdv: function (searchStr, veterinary, cytotoxic, isOTC, isGSL, isHealthBasket, isPeopleMedication,",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idr-base-path",
+      "claim": "The API base path is /GovServiceList/IDRServer/ and all calls are POST with Content-Type application/json.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "connection.url = \"/GovServiceList/IDRServer/\";",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "acamol-live-record",
+      "claim": "A live SearchByName for acamol on 2026-08-27 returned registration 020 16 20534 00, ACAMOL, paracetamol 500 mg, holder TEVA ISRAEL LTD, not prescription-only, in the health basket, regulated consumer price 14.12 NIS.",
       "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "{\"dbVersiob\":\"5.14\",\"dragRegNum\":\"020 16 20534 00\",\"dragRegDate\":\"31.07.2024\",\"dragHebName\":\"אקמול\",\"dosageForm\":\"טבליה\",\"bitulDate\":\"01/01/1900\",\"iscanceled\":false,\"prescription\":false,\"usageForm\":\"פומי\",\"usageList\":[\"פומי\"],\"dragEnName\":\"ACAMOL\",\"activeComponents\":[{\"componentName\":\"PARACETAMOL 500  MG \"}]",
-      "fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "\"dragRegNum\": \"020 16 20534 00\", \"dragRegDate\": \"31.07.2024\", \"dragHebName\": \"אקמול\", \"dosageForm\": \"טבליה\"",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-11T00:00:00Z"
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
     },
     {
-      "claim_id": "idr-searchbyname-endpoint",
-      "claim": "A POST to the IDRServer SearchByName endpoint with a val field returns matching drug records as JSON, including the regulated consumer price and the health-basket flag.",
+      "claim_id": "basket-status-per-registration",
+      "claim": "Basket and prescription status are properties of a registration number, not of a brand: LOSEC 20 MG returns health false and prescription false while LOSEC 20 MG RX returns health true and prescription true.",
       "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "\"health\":true,\"route\":\"פומי\",\"pages\":2,\"results\":13,\"dragRegOwner\":\"TEVA ISRAEL LTD\",\"barcodes\":\"7290000800028\"",
-      "fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "\"dragEnName\": \"LOSEC 20 MG RX\"",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-11T00:00:00Z"
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
     },
     {
-      "claim_id": "side-effects-form-not-yellow-card",
-      "claim": "Adverse effects from taking a medicine can be reported to the Israeli Ministry of Health through its side-effects reporting form (טופס דיווח תופעות לוואי), as stated on the ministry's own drug-registry service page.",
-      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
-      "raw_snippet": "ניתן לדווח למשרד הבריאות על תופעות לוואי שהתרחשו כתוצאה מנטילת תרופות, באמצעות טופס דיווח תופעות לוואי",
-      "fetched_at": "2026-08-11T00:00:00Z",
+      "claim_id": "keytruda-per-indication-basket",
+      "claim": "GetSpecificDrug returns per-indication basket entitlement, not just a boolean. Keytruda (154 38 34448 00) returns 101 salList entries plus frameworkOfInclusion conditions and a specialist-only limitations string.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
+      "raw_snippet": "תרופה מוגבלת לרישום ע'י רופא מומחה או הגבלה אחרת",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "keytruda-prescription-contradiction",
+      "claim": "GetSpecificDrug's isPrescription contradicts SearchByName's prescription for the same product: Keytruda returns prescription true from SearchByName and isPrescription false from GetSpecificDrug.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
+      "raw_snippet": "\"isPrescription\": false",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "registry-pagination",
+      "claim": "Registry search results are paginated at 10 per page, with a pages count carried on each result.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
+      "raw_snippet": "\"pages\": 2",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "kupot-copay-rules-differ",
+      "claim": "Each kupat cholim sets its own copay collection rules, and the amount charged for the same drug can be higher or lower between kupot.",
+      "source_url": "https://www.kolzchut.org.il/he/תרופות_בסל_הבריאות",
+      "raw_snippet": "סדרי הגבייה של קופות החולים אינם זהים ודמי ההשתתפות שקופה אחת גובה עבור תרופה או שירות עשוים להיות גבוהים או נמוכים מדמי השתתפות הנגבים בקופה אחרת עבור שירות זהה.",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
       ]
     },
     {
-      "claim_id": "sal-annual-cycle",
-      "claim": "The national health basket (sal briut) is updated once a year; a public committee reviews candidates and the new list takes effect in January.",
-      "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
-      "raw_snippet": "The health basket (sal ha-briut) is updated annually; the committee's recommendations and the year's additions take effect in January.",
-      "fetched_at": "2026-06-21T00:00:00Z",
+      "claim_id": "basket-list-closed-and-annual",
+      "claim": "The list of drugs in the health basket is a closed list, set out in the National Health Insurance order, and updated once a year.",
+      "source_url": "https://www.kolzchut.org.il/he/תרופות_בסל_הבריאות",
+      "raw_snippet": "רשימת התרופות הנכללות בסל היא רשימה סגורה שמתעדכנת כל שנה.",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
       ]
     },
     {
-      "claim_id": "fda-pllr-2015",
-      "claim": "The FDA retired the A/B/C/D/X pregnancy letter categories in 2015 (PLLR) in favor of narrative pregnancy and lactation labeling; many Israeli leaflets still reference the legacy letters.",
+      "claim_id": "chronic-quarterly-ceiling",
+      "claim": "Chronic patients have a quarterly payment ceiling above which basket drugs are supplied without further charge. As of May 2026 Clalit is 1,190 NIS per quarter and Maccabi 1,137 NIS per quarter.",
+      "source_url": "https://www.kolzchut.org.il/he/תקרת_תשלום_ברכישת_תרופות_לחולים_כרוניים",
+      "raw_snippet": "שירותי בריאות כללית] || 1,190 ₪ לרבעון",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-banded-copay",
+      "claim": "Copay is a banded percentage with a floor, not a fixed amount per package. Leumit charges the consumer price up to 20.80 NIS, then 20.80 up to 156.30, then 15% above that where no generic exists; where a generic exists it charges 10% of the price or 20.80, whichever is higher.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "תרופה שיש לה חלופה גנרית בקופה: תרופה שמחירה עד 20.80 ש\"ח - מחיר התרופה לצרכן תרופה שמחירה מעל 20.80 ש\"ח- 10% ממחיר התרופה או 20.80 ש\"ח הגבוה מבינם.",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "off-basket-exceptions-committee",
+      "claim": "For a drug or indication outside the basket, the documented routes are the kupah's exceptions committee and a request to add the drug to the basket, not supplementary insurance.",
+      "source_url": "https://www.kolzchut.org.il/he/סל_הבריאות",
+      "raw_snippet": "ועדת חריגים לתרופות מחוץ לסל הבריאות",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "fda-pllr-removed-letter-categories",
+      "claim": "The FDA's Pregnancy and Lactation Labeling Rule removed the A, B, C, D and X pregnancy letter categories, with labeling changes effective 30 June 2015.",
       "source_url": "https://www.fda.gov/drugs/labeling-information-drug-products/pregnancy-and-lactation-labeling-drugs-final-rule",
-      "raw_snippet": "Pregnancy and Lactation Labeling Resources | FDA",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "copay-generic-approximate",
-      "claim": "Approximate, kupah-dependent figures used as ballpark guidance (not fixed regulated values): a generic drug copay is roughly 10-20 NIS / 20 ש\"ח per package and a brand-name copay (where a generic exists) roughly 30-50 NIS / 50 ש\"ח; generics typically run 40-60% cheaper than the brand. Actual copays are set per kupat cholim, so the skill tells users to confirm with their kupah.",
-      "source_url": "https://www.gov.il/he/departments/topics/health_basket_drugs",
-      "raw_snippet": "Copay amounts for subsidized drugs are set by each kupat cholim and vary; generic drugs are substantially cheaper than originator brands. These are approximate ranges, not fixed national prices.",
-      "fetched_at": "2026-06-21T00:00:00Z",
+      "raw_snippet": "The PLLR removes pregnancy letter categories – A, B, C, D and X.",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "ema-metamizole-restrictions",
+      "claim": "In 2018 the EMA reviewed metamizole-containing medicines and recommended harmonising the maximum daily dose and the contraindications in pregnancy and breastfeeding, noting the medicine may occasionally cause severe effects on the blood.",
+      "source_url": "https://www.ema.europa.eu/en/medicines/human/referrals/metamizole-containing-medicinal-products",
+      "raw_snippet": "it is known the medicine may occasionally cause severe side effects, such as effects on the blood",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "registry-service-page",
+      "claim": "The Ministry of Health publishes the national drug index as a gov.il service page, which is the primary entry point to the registry.",
+      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
+      "raw_snippet": "חיפוש במאגר התרופות | משרד הבריאות",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
+    },
+    {
+      "claim_id": "teratology-referral",
+      "claim": "The Ministry of Health's drug-index service page routes medication-in-pregnancy questions to the national teratology information service.",
+      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
+      "raw_snippet": "לגבי נטילת תרופות בזמן היריון, יש לפנות למרכז הארצי לייעוץ טרטולוגי",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
+    },
+    {
+      "claim_id": "adverse-event-form",
+      "claim": "Adverse drug reactions are reported to the Ministry of Health through its side-effects reporting portal.",
+      "source_url": "https://sideeffects.health.gov.il/",
+      "raw_snippet": "משרד הבריאות",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "Fetched directly on a non-www.gov.il host; returned HTTP 200 with the Ministry of Health title."
+    },
+    {
+      "claim_id": "adverse-event-service-page",
+      "claim": "The Ministry of Health service page for reporting side effects and unusual drug-related events.",
+      "source_url": "https://www.gov.il/he/service/adverse_effects_reports",
+      "raw_snippet": "דיווח על תופעות לוואי ואירועים חריגים הקשורים בתרופות",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
+    },
+    {
+      "claim_id": "drug-recall-collection",
+      "claim": "The Ministry of Health collects drug warnings, recalls and marketing-discontinuation notices in a dedicated gov.il collection.",
+      "source_url": "https://www.gov.il/he/departments/topics/drugs-recall/govil-landing-page",
+      "raw_snippet": "אזהרות בנושא תרופות",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
     },
     {
       "claim_id": "moh-pharma-division",
-      "claim": "The MoH Pharmaceutical Division publishes the drug registry entry points and safety alerts on gov.il.",
+      "claim": "The Ministry of Health's Pharmaceutical Division landing page.",
       "source_url": "https://www.gov.il/he/departments/units/pharmaceuticals/govil-landing-page",
-      "raw_snippet": "The Pharmaceutical Division of the Israeli Ministry of Health manages drug registration and publishes safety information.",
-      "fetched_at": "2026-06-21T00:00:00Z",
+      "raw_snippet": "אגף הרוקחות",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "atc-who",
-      "claim": "The WHO ATC/DDD index provides the anatomical therapeutic chemical classification used to cross-reference active ingredients.",
-      "source_url": "https://www.whocc.no/atc_ddd_index/",
-      "raw_snippet": "In your search result you may choose to show or hide the text from the Guidelines for ATC classification and DDD assignment linked to the ATC level. The text in the Guidelines will give information related to the background for the ATC and DDD assignment. Search query or containing query starting with query ATC code All ATC levels are searchable. A search will result in showing the exact substance/level and all ATC levels above (up to 1st ATC level).",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
       ],
-      "verified_via": "cited page fetched; 29 of 34 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"classification\"",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
     },
     {
-      "claim_id": "drug-index-service",
-      "claim": "The gov.il \"חיפוש במאגר התרופות\" service page is the official entry point to the national drug registry, which is managed by the Pharmacy Division of the Ministry of Health.",
-      "source_url": "https://www.gov.il/he/service/israeli-drug-index",
-      "raw_snippet": "שירות זה מאפשר חיפוש מידע על תרופות הרשומות במאגר התרופות המנוהל על ידי אגף הרוקחות במשרד הבריאות.",
-      "fetched_at": "2026-08-11T00:00:00Z",
+      "claim_id": "who-atc-index",
+      "claim": "The WHO Collaborating Centre publishes the ATC/DDD index used for cross-referencing active ingredients internationally.",
+      "source_url": "https://www.whocc.no/atc_ddd_index/",
+      "raw_snippet": "ATCDDD - ATC/DDD Index",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "Fetched directly; HTTP 200 with that page title."
     },
     {
-      "id": "idr-public-search-ui",
-      "claim": "The public search UI for the Israel Drug Registry is served at https://israeldrugs.health.gov.il/, titled \"מאגר התרופות\"; it redirects to the #!/byDrug search view.",
-      "claim_type": "source",
+      "claim_id": "registry-api-base-reachable",
+      "claim": "The IDRServer base path is live. Requesting the bare base path returns the server's generic HTML error page, which is the same response a fabricated endpoint name produces, confirming that a 200 from this host is not evidence a path exists.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/",
+      "raw_snippet": "<TITLE> Error </TITLE>",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "registry-search-ui",
+      "claim": "The public drug-registry search interface.",
       "source_url": "https://israeldrugs.health.gov.il/",
       "raw_snippet": "מאגר התרופות",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-11T00:00:00Z",
-      "confidence": "high",
+      "fetched_at": "2026-08-27",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27",
+      "note": "Fetched directly; HTTP 200 with that page title."
+    },
+    {
+      "claim_id": "paracetamol-price-spread",
+      "claim": "A single live SearchByName page of paracetamol registrations on 2026-08-27 returned regulated consumer prices ranging from 12.10 to 28.60 NIS, so no single percentage saving describes the generic market.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
+      "raw_snippet": "\"dragEnName\": \"ABROL TABLETS\"",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "registry-client-file",
+      "claim": "The registry app serves its own API client at /scripts/services/serverConnection.js, which is where the endpoint names and payload shapes in this skill were read from.",
+      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
+      "raw_snippet": "//version 4.11",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27"
+    },
+    {
+      "claim_id": "registry-api-base-no-slash",
+      "claim": "The registry API base, written without a trailing slash, is https://israeldrugs.health.gov.il/GovServiceList/IDRServer.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer",
+      "raw_snippet": "<TITLE> Error </TITLE>",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27",
+      "note": "The bare base path returns the server's generic HTML error page under HTTP 200; that is the point of the claim, not a failed fetch."
+    },
+    {
+      "claim_id": "consumer-leaflet-resolution",
+      "claim": "GetSpecificDrug's brochure[] is dominated by leaflet amendment notices (type 'החמרה לעלון'); the consumer leaflet is type 'עלון לצרכן' with a language in lng. The url field is a bare filename that resolves against https://mohpublic.health.gov.il/IsraelDrugs/.",
+      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
+      "raw_snippet": "\"type\": \"עלון לצרכן\"",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27",
+      "note": "Resolver confirmed separately: https://mohpublic.health.gov.il/IsraelDrugs/Rishum02_3_394198726.pdf returns HTTP 200 with Content-Type application/pdf."
+    },
+    {
+      "claim_id": "brochure-host",
+      "claim": "Registry leaflet PDFs are served from https://mohpublic.health.gov.il/IsraelDrugs/.",
+      "source_url": "https://mohpublic.health.gov.il/IsraelDrugs/Rishum02_3_394198726.pdf",
+      "raw_snippet": "%PDF",
+      "fetched_at": "2026-08-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-08-27",
+      "note": "HEAD returned HTTP 200, Content-Type application/pdf."
     }
   ]
 }
