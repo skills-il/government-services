@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.1 (2026-08-27)
+
+- Narrows the declared tool privileges from a bare `Bash` to `Bash(python:*) Bash(curl:*)`, which is
+  what the skill actually needs (run the bundled script, POST to the registry) and matches the
+  convention used across this repo. 1.3.0 had corrected the previously wrong `WebFetch`-only
+  declaration, since WebFetch cannot issue the POST requests the registry requires, but declared
+  more than necessary in doing so.
+
 ## 1.3.0 (2026-08-27)
 
 Every API claim in this release was verified by calling the endpoint live, with a deliberately

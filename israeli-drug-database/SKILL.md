@@ -2,7 +2,7 @@
 name: israeli-drug-database
 description: Query the Israeli pharmaceutical database for drug information, health basket coverage, generic alternatives, and pricing. Use when user asks about Israeli medications, "trufot", drug names, "sal briut" drug coverage, generic drugs, drug prices in Israel, prescription requirements, or medication safety info. Enhances the israel-drugs MCP server with health basket context and patient-facing guidance. Do NOT use for medical advice, dosage recommendations, or diagnosis. Do NOT use for non-Israeli drug registries.
 license: MIT
-allowed-tools: WebFetch, Bash
+allowed-tools: Bash(python:*) Bash(curl:*) WebFetch
 compatibility: >-
   The registry API is POST-only, which WebFetch cannot issue on its own, so a shell (curl) or the
   israel-drugs MCP server is needed for live lookups. Without either, the skill still explains the
