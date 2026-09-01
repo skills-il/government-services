@@ -4,8 +4,8 @@
     "en": "Israeli Vehicle Manager"
   },
   "display_description": {
-    "he": "ניהול בעלות על רכב בישראל. מלווה בטסט שנתי, חידוש רישיון רכב, בדיקות לקניית רכב יד שנייה, העברת בעלות וביטוח. השתמשו כשצריכים לדעת מתי הטסט, איך לחדש רישיון, מה לבדוק לפני קניית רכב משומש, או להבין את סוגי הביטוח בישראל. מונע כישלון בטסט, קנסות על רישיון שפג תוקף, ורכישת רכב עם עיקולים נסתרים. לא מתאים לתאונות דרכים, תביעות ביטוח, או רישיון נהיגה.",
-    "en": "Manage vehicle ownership in Israel. Guides through the annual vehicle test (test), registration renewal (chidush rishayon rechev), used car purchase checks, ownership transfer, and insurance. Use when you need to know when your test is due, how to renew your registration, what to check before buying a used car, or understand Israeli car insurance types. Prevents test failures, fines for expired registration, and purchasing vehicles with hidden liens. Do NOT use for car accidents, insurance claims, or driver license issues."
+    "he": "מידע כללי בלבד. אינו ייעוץ משפטי ואינו שומת רכב. ניהול בעלות על רכב בישראל. מלווה בטסט שנתי, חידוש רישיון רכב, בדיקות לקניית רכב יד שנייה, העברת בעלות וביטוח. השתמשו כשצריכים לדעת מתי הטסט, איך לחדש רישיון, מה לבדוק לפני קניית רכב משומש, או להבין את סוגי הביטוח בישראל. מונע כישלון בטסט, קנסות על רישיון שפג תוקף, ורכישת רכב עם עיקולים נסתרים. לא מתאים לתאונות דרכים, תביעות ביטוח, או רישיון נהיגה.",
+    "en": "General information only. Not legal advice and not a vehicle appraisal. Manage vehicle ownership in Israel. Guides through the annual vehicle test (test), registration renewal (chidush rishayon rechev), used car purchase checks, ownership transfer, and insurance. Use when you need to know when your test is due, how to renew your registration, what to check before buying a used car, or understand Israeli car insurance types. Prevents test failures, fines for expired registration, and purchasing vehicles with hidden liens. Do NOT use for car accidents, insurance claims, or driver license issues."
   },
   "tags": {
     "he": [
@@ -26,7 +26,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

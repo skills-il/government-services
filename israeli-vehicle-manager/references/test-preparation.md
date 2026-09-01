@@ -20,7 +20,8 @@
 
 ### Pre-Test for Older Vehicles
 - For vehicles **15+ years old**: get braking system checked at a licensed garage BEFORE the test. Bring the confirmation certificate
-- Consider a pre-test inspection at a private garage (varies by garage, typically in the low-hundreds-of-NIS range) to catch issues early
+- Consider a pre-test inspection at a private garage to catch issues early. It is not a regulated tariff, so ask each garage for a quote
+- The test itself costs 126.19 NIS for a private car and 106.32 NIS for an electric one. See `license-fee-table.md` for the full tariff by vehicle type
 
 ## At the Test Station
 
@@ -43,7 +44,7 @@
 ### If You Fail
 - You receive a detailed report listing all defects
 - Fix the issues at any garage of your choice
-- Return for a retest (partial fee may apply)
+- Return for a retest. The retest is a separate, much cheaper tariff: 29.86 NIS for a private car, 26.83 NIS for an electric one, 24.70 NIS for a motorcycle (price-controlled order effective 1 June 2026)
 - Some stations offer same-day retests for minor fixes
 
 ## Common Failure Reasons
