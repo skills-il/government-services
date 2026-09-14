@@ -374,8 +374,8 @@
       "claim_id": "surplus-vote-agreements",
       "claim": "Surplus-vote agreements (heskemei odafim) allow two parties to be treated as one bloc for the leftover-seat allocation round only.",
       "source_url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
-      "raw_snippet": "Two parties can sign a surplus vote agreement that allows them to compete for leftover seats as if they were running together on the same list.",
-      "fetched_at": "2026-08-24T21:00:00Z",
+      "raw_snippet": "Two parties can sign a surplus-vote agreement that allows them to compete for leftover seats as if they were running together on the same list.",
+      "fetched_at": "2026-09-14T13:25:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -437,7 +437,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "Navigational reference. curl gets HTTP 247 (bot block). Rendered in Playwright 2026-09-14: redirects to https://main.knesset.gov.il/apps/legislation/main/bills?KNS=25, title 'מאגר החקיקה הלאומי - הצעות חוק', a working bills search."
     },
     {
       "claim_id": "ref-plenum-votes-ui",
@@ -448,7 +451,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "Navigational reference. curl gets HTTP 247 (bot block). Rendered in Playwright 2026-09-14 at the same URL, title 'הצבעות במליאה'."
     },
     {
       "claim_id": "ref-local2024",
@@ -485,7 +491,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "curl gets HTTP 403. Rendered in Playwright 2026-09-14: redirects to https://www.gov.il/he/collectors/policies, title 'מדיניות ונהלים', a generic all-ministry procedures collector, consistent with the claim."
     },
     {
       "claim_id": "ref-moi",
