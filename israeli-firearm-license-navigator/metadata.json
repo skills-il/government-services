@@ -1,0 +1,42 @@
+{
+  "author": "shlomi-builds",
+  "version": "1.0.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "רישיון-נשק",
+      "רישיון-כלי-ירייה",
+      "אישור-מותנה",
+      "המשרד-לביטחון-לאומי",
+      "חידוש-רישיון",
+      "בירוקרטיה",
+      "ישראל"
+    ],
+    "en": [
+      "firearm-license",
+      "gun-license",
+      "conditional-approval",
+      "ministry-of-national-security",
+      "license-renewal",
+      "bureaucracy",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מנווט רישיון נשק פרטי",
+    "en": "Israeli Firearm License Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מלווה אזרחים לאורך כל תהליך רישיון כלי הירייה הפרטי: בדיקת זכאות ותבחינים, הגשת בקשה, אישור מותנה, הכשרה במטווח, רכישה, כרטיס הרישיון, הכשרת ריענון, חידוש, איחור בחידוש, אובדן או גניבה, החלפה, דרישות כספת, וערר על סירוב או ביטול. השתמשו כששואלים על רישיון נשק, רישיון מותנה, תבחין, ריענון, חידוש רישיון נשק, כספת לנשק, או מה השלב הבא. ממקם את המשתמש על מפת השלבים, מחשב מועדים בסקריפטים מצורפים, ומחזיר פעולה אחת קונקרטית עם המקור הרשמי ב-gov.il. אל תשתמשו לרישיון ארגוני או למאבטחים, לרישיון ציד, לייעוץ טקטי, או לעקיפת תבחינים.",
+    "en": "Not legal advice. Navigate the Israeli private firearm license process end to end, from eligibility through the conditional approval (ishur mutne), range training, purchase, the 3-year license, refresher training, renewal, late renewal, loss or theft, replacement, home storage rules, and appeals against refusal or cancellation. Use when user asks about rishayon neshek, ishur mutne, tavchin, hachsharat rianun, chidush rishayon neshek, kasefet le-neshek, or what the next step is. Places the user on a stage map, computes deadlines with bundled scripts, and returns one concrete next action with the official gov.il source. Do NOT use for organizational or security-guard licenses, hunting permits, tactical shooting advice, or for helping anyone misrepresent facts to the licensing authority."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}
