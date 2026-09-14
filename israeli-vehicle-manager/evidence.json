@@ -70,39 +70,39 @@
     {
       "claim_id": "ebike-registration-aug-2024",
       "claim": "Light electric vehicle (e-bike, e-scooter / kalanoit) registration with Ministry of Transport became mandatory on August 1, 2024; license plate is tied to rider, minimum age 16, helmets mandatory. Minimum rider age is 16. There is no licence-plate fee line on the Ministry of Transport vehicle fee board.",
-      "source_url": "https://www.gov.il/he/service/kalanoit-registration",
-      "raw_snippet": "רישום קלנועיות וקורקינטים חשמליים החל מ-1.8.2024",
-      "fetched_at": "2026-09-02T00:00:00Z",
+      "source_url": "https://ask.ralbad.org.il/license-plates-for-e-scooters-and-e-bikes-what-to-know/",
+      "raw_snippet": "כניסת החוק לתוקף- 1.8.2024",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_note": "CITED URL IS DEAD: browser-verified 2026-09-02, redirects to gov.il/he/error. The claim is retained because it is corroborated elsewhere, but a live replacement URL has not been located. Re-source next cycle."
+      "source_note": "Re-cited 2026-09-14 to the National Road Safety Authority (הרלב\"ד). The old gov.il URL service/kalanoit-registration redirects to gov.il/he/error in a real browser. The live Ministry of Transport service page is https://www.gov.il/he/service/bicycle-and-scooter-registration (browser-verified 2026-09-14), but it does not state the start date."
     },
     {
       "claim_id": "iron-swords-reservist-deferrals",
-      "claim": "Iron Swords reservist deferrals on vehicle test and registration deadlines: blanket extensions were granted during the active war-period (late 2023 through early 2024). Outside that one-time window there is no standing automatic deferral by length of service; mid-call-up reservists hitting a deadline should contact the Ministry of Transport service line for a case-by-case extension.",
-      "source_url": "https://www.gov.il/he/service/reservist-rights-iron-swords",
-      "raw_snippet": "דחיית מועדי טסט ורישוי לחיילי מילואים — תקופת חרבות ברזל הוקצו ארכות גורפות; מחוץ לחלון אין דחייה אוטומטית לפי משך השירות",
-      "fetched_at": "2026-09-02T00:00:00Z",
+      "claim": "Wartime licence extensions (Iron Swords, then the operations against Iran) were automatic orders covering licences that expired within specific published windows, with lengths varying per period; some applied to all vehicle owners and some extra time only to security-forces personnel, evacuees and spouses. None of the published windows is a standing deferral keyed to reservist service.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A7%D7%9C%D7%95%D7%AA_%D7%9C%D7%A0%D7%94%D7%92%D7%99%D7%9D_%D7%95%D7%94%D7%90%D7%A8%D7%9B%D7%AA_%D7%AA%D7%95%D7%A7%D7%A3_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA_%D7%A8%D7%9B%D7%91_%D7%95%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%95%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
+      "raw_snippet": "רישיון רכב שתוקפו פג בין 07.10.2023 - 06.12.2023 הוארך אוטומטית ב-60 יום, עבור כלל בעלי הרכבים.",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_note": "CITED URL IS DEAD: browser-verified 2026-09-02, redirects to gov.il/he/error. The claim is retained because it is corroborated elsewhere, but a live replacement URL has not been located. Re-source next cycle. NOTE: the raw_snippet is a synthesized summary rather than a verbatim quotation, so it cannot be source-verified even once a live URL is found; rewrite the snippet from the replacement page."
+      "source_note": "Replaced 2026-09-14. The previous gov.il URL (service/reservist-rights-iron-swords) redirects to gov.il/he/error in a real browser, and the previous snippet was a synthesized summary. The old gotcha wrongly described a one-time reservist-only window; Kol Zchut lists several windows, including extensions for all vehicle owners."
     },
     {
       "claim_id": "registrar-of-pledges",
       "claim": "Liens (ikulim) on vehicles must be checked via the Registrar of Pledges (Rasham HaMishkonot) at the Ministry of Justice; the Ministry of Transport vehicle history report does NOT show all liens",
-      "source_url": "https://www.gov.il/he/service/pledges-registry-inquiry",
-      "raw_snippet": "בירור משכונות ברשם המשכונות במשרד המשפטים",
-      "fetched_at": "2026-09-02T00:00:00Z",
+      "source_url": "https://www.colmobil.co.il/car_guide/trade_in_guide_pledge/",
+      "raw_snippet": "ייתכן כי הרישום כאמור יהיה מדווח לרשם המשכונות או לרשם החברות ולא ידווח למשרד הרישוי. לכן, ייתכן שמחשבי משרד הרישוי לא יהיו מעודכנים בכך",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ownership-transfer.md"
       ],
-      "source_note": "CITED URL IS DEAD: browser-verified 2026-09-02, redirects to gov.il/he/error. The claim is retained because it is corroborated elsewhere, but a live replacement URL has not been located. Re-source next cycle."
+      "source_note": "Re-cited 2026-09-14. The old gov.il URL service/pledges-registry-inquiry, and the candidate gov.il/he/service/pawn_perusal, returned Cloudflare 403 to both curl and a headless browser, so neither could be read. Colmobil's buyer guide states verbatim that a pledge can be registered at the Registrar of Pledges without reaching the licensing office's records. The Registrar sits within the Ministry of Justice (ynet 14.11.07, https://www.ynet.co.il/articles/0,7340,L-3471369,00.html: 'שירות חדש של משרד המשפטים חוסך את ההליכה לרשם המשכונות')."
     },
     {
       "claim_id": "late-test-fine-tiers",
@@ -129,16 +129,6 @@
       ],
       "verified_via": "cited page fetched and confirmed to contain \"22,000\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "openclaw-install-url",
-      "claim": "OpenClaw install URL for this skill (used by the openclaw runtime to fetch the skill bundle)",
-      "source_url": "https://openclaw.com/skills/skills-il/government-services/israeli-vehicle-manager",
-      "raw_snippet": "OpenClaw install URL for skills-il/government-services/israeli-vehicle-manager",
-      "fetched_at": "2026-05-18T01:15:00Z",
-      "appears_in": [
-        "metadata.json"
-      ]
     },
     {
       "claim_id": "mot-car-pricelist-url",
