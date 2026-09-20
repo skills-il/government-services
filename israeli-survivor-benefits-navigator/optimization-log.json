@@ -18,6 +18,19 @@
         "Deferred: SKILL_HE.md mixes the impersonal present (שואלים, מגישים) with second-person imperatives (תשאלו, אל תסגרו). Pick one register next cycle.",
         "Judge caught three evidence defects a self-check would not: an invented itur.mof.gov.il snippet, and two orphan-cutoff claim texts still asserting the superseded 21 cutoff while carrying correct 24-year snippets. Stale CLAIM text beside a correct snippet is a real failure mode of a repointed entry."
       ]
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-09-20",
+      "lessons": [
+        "Checker defect, not a rate defect: every figure in the skill and every constant in the survivor-allowance-estimator manifest was confirmed current against the 01.01.2026 BTL tables, yet the tool was still wrong. Its seniority input was labelled 'insurance years BEYOND the qualifying period' in both languages, and sources[4] repeated it, while BTL has counted 2% from the FIRST insurance year with no threshold since January 2019. A user obeying the label subtracts the qualifying period and understates his own allowance, the worst direction for a survivors benefit.",
+        "The skill body was already correct on this rule, so the drift was one-sided: SKILL.md said 'from the first year' while the published calculator said the opposite. A skill and its checker can disagree with no gate catching it, because the checker verify-script only recomputes the formula and the 8 golden test cases, none of which touch a label. Label and helper text need reading against the skill body, not just the constants.",
+        "Fix applied to the input label (he+en), the step-1 helper text (he+en) and the sources note, leaving every constant and the formula untouched; all 8 test cases still recompute exactly (1838, 1381, 3562, 4424, 2205.6, 1941, 2757, 0). Dev DB only; prod not written.",
+        "A matching sentence was added at the seniority paragraph in SKILL.md and SKILL_HE.md stating the from-first-year rule and the January 2019 change explicitly, so the two artefacts cannot silently drift apart again.",
+        "Verified this cycle against btl.gov.il, previously unverified: the marriage grant (36 monthly allowances, two instalments with the second at the end of two years, reinstatement on divorce proceedings within 10 years of the remarriage); the under-40 childless survivor grant of 36 monthly allowances; and the special survivors allowance on form 4506 for a resident who immigrated after the set age, with the 60 to 62 band. The exact 18 + 18 split of the marriage grant is consistent with a 36-total paid in two instalments but was not stated verbatim on the page.",
+        "Still unverified: the claim that a widower with a qualifying child is not income-tested at all. The bdikatHachnasot page states the 7,848 ceiling and the 2,093 deduction but says nothing about a child exemption in either fetch. Content left as is rather than deleted, per the do-not-delete-on-fetch-failure rule, and carried forward.",
+        "Still unverified and carried forward from 1.3.0: harb.cma.gov.il and itur.mof.gov.il return 403 to automated fetches and need a browser check, and the Amitim 60/20/40/15 pension-fund split is not a BTL rate and needs the fund takanon."
+      ]
     }
   ]
 }
