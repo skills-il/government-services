@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.8.1 - 2026-09-26
+
+Corrected the unemployment waiting days. The skill said the 5-day waiting period "applies only to
+terminations". BTL's payment page says the first 5 days of unemployment in each run of 4
+consecutive reporting months are unpaid for every claimant, and are not deducted from the benefit
+quota. The 90-day wait after an unjustified resignation is a separate rule. Fixed in SKILL.md,
+SKILL_HE.md and benefit-programs.md, with a new evidence entry.
+
+Corrected unemployment eligibility. The skill said the job had to end "by termination, not
+resignation". BTL's eligibility page includes anyone who was dismissed, resigned, or was put on
+unpaid leave by the employer; the reason only affects when payment starts. Added the 20-67 age
+condition and the 12-of-18 qualifying rule with its source. Fixed in SKILL.md, SKILL_HE.md and
+benefit-programs.md.
+
+Corrected the justified-cause list for resigning, in SKILL.md, SKILL_HE.md (instructions, Gotcha
+and troubleshooting) and references/troubleshooting.md, and added BTL's full list to
+benefit-programs.md. Relocation is a distance test (more than 60 km between the new home and the
+workplace, or 40 km for a mother of a child under 7), not "following a spouse". The health ground
+covers the claimant or a spouse, parent, child, grandchild or sibling, not generic "family care".
+The end of a fixed-term contract is not a resignation: BTL pays it from the first reporting day.
+The 90-day rule is now described as a delay to the start of payment, not a disqualification.
+
+Added evidence entries for the 90-day wait, the 12-of-18 qualifying period, the age condition,
+each justified cause, and the two training rules for women aged 57-60 (100% but no more than
+201.03 a day; refusing training from day 176 forfeits the remaining days).
+
 ## 1.8.0 - 2026-09-25
 
 Fixed the survivors qualifying period, which read "12 of the last 18, OR 24 of the last 60, OR

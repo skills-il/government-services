@@ -3273,6 +3273,187 @@
         "references/benefit-programs.md",
         "references/troubleshooting.md"
       ]
+    },
+    {
+      "claim_id": "unemployment-5-waiting-days-all-claimants",
+      "claim": "Every unemployment claimant, fired or resigned, is unpaid for the first 5 days of unemployment in each run of 4 consecutive reporting months; the days are not deducted from the benefit quota.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "לא ישולמו לך דמי אבטלה עבור 5 ימי האבטלה הראשונים בכל 4 חודשי התייצבות רצופים",
+      "fetched_at": "2026-09-25T21:41:18+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-age-20-67",
+      "claim": "Unemployment eligibility requires age 20 to 67.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "מלאו לך 20 שנה, ועדיין לא הגעת לגיל 67.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-qualifying-12-of-18",
+      "claim": "Qualifying period: at least 12 months of work as an employee in the 18 months before first registering at the employment service; only months from 18 to 67 count; a partial month counts as a full month.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "צברת תקופת אכשרה של לפחות 12 חודשי עבודה כשכיר מתוך 18 החודשים האחרונים לפני שנרשמת לראשונה בשירות התעסוקה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-resigned-qualifies",
+      "claim": "A person who was dismissed, left work voluntarily, or was put on unpaid leave by the employer can qualify; the reason affects when payment starts.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "אתה עשוי להיות זכאי לדמי אבטלה אם פוטרת, הפסקת לעבוד מרצונך או הוצאת לחופשה ללא תשלום (חל\"ת) ע\"י המעסיק.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-own-chalat-excluded",
+      "claim": "Unpaid leave taken at the employee's own initiative, even if justified, does not qualify.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx",
+      "raw_snippet": "מי שיצא לחל\"ת מיוזמתו (גם אם החל\"ת מוצדק) - לא יהיה זכאי לדמי אבטלה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-resignation-90-days",
+      "claim": "After a voluntary resignation, unemployment is paid only once 90 days have passed from leaving work.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם הפסקת לעבוד מרצונך תוכל להתחיל לקבל דמי אבטלה רק לאחר שחלפו 90 יום מיום הפסקת העבודה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-justified-from-day-one",
+      "claim": "A resignation for a justified cause is paid from the first registration day.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם הפסקת לעבוד מרצונך מסיבה מוצדקת, תוכל להתחיל לקבל דמי אבטלה מהיום הראשון לרישום בשירות התעסוקה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-contract-end-day-one",
+      "claim": "When an employment contract ends, unemployment is paid from the first reporting day.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם חוזה ההעסקה שלך עם מעסיקך הסתיים, והתייצבת כדורש עבודה בשירות התעסוקה, תוכל להיות זכאי לדמי אבטלה מהיום הראשון להתייצבותך.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-justified-distance",
+      "claim": "Justified cause: a new home or workplace more than 60 km apart, or 40 km for a mother of a child under 7.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "אם המרחק בין מקום המגורים החדש לבין מקום העבודה עולה על 60 קילומטר, או 40 קילומטר עבור אם לילד שלא מלאו לו 7 שנים.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-justified-health",
+      "claim": "Justified cause: the claimant's health or that of a spouse, parent, child, grandchild or sibling.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "התפטרת בגלל המצב הבריאותי שלך או של בן משפחתך (בן או בת זוג, הורה, ילד, נכד, אח או אחות).",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-justified-other",
+      "claim": "Other justified causes: tangible deterioration of working conditions, sexual harassment, a domestic-violence shelter, leaving to work in one's certified profession, a new job held up to 6 months, a second job within 3 months.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "התפטרות מעבודה שנייה – אם עבדת ב-2 עבודות בהיקף משרה דומה, התפטרת בנסיבות מוצדקות מעבודה אחת והמשכת לעבוד בעבודה השנייה תקופה של עד 3 חודשים",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-justified-new-job-6m",
+      "claim": "Resigning a new job held for up to 6 months, without having used the entitlement, is justified.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
+      "raw_snippet": "מכיוון שעבדת בעבודה חדשה לתקופה של עד 6 חודשים, התפטרותך ממקום העבודה החדש תהיה מוצדקת.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-women-57-60-training-100",
+      "claim": "Women 57-60 (born from 1.1.1960) in vocational training get 100% of the unemployment benefit but no more than 201.03 NIS/day.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "מי שתשתתף בהכשרה מקצועית- תקבל דמי אבטלה בשיעור של 100%  אך לא יותר מ- 201.03 ש\"ח (החל ב- 01.01.2026) ליום.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "unemp-women-57-60-refuse-first-175",
+      "claim": "Refusing training in the first 175 days: 90 days' disqualification plus 30 days off the entitlement (270 left).",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "מי שתסרב להשתתף בהכשרה מקצועית במהלך 175 הימים הראשונים - תישלל זכאותה לאבטלה במשך 90 ימים + יופחתו 30 ימים מימי הזכאות לדמי אבטלה",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calculate_benefits.py"
+      ]
+    },
+    {
+      "claim_id": "unemp-women-57-60-refuse-from-176",
+      "claim": "Refusing training from day 176 forfeits the remaining days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "מי שתסרב להשתתף בהכשרה מקצועית מהיום ה-176 ואילך- תישלל זכאותה לדמי אבטלה ליתרת הימים שנותרו לה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ]
     }
   ]
 }

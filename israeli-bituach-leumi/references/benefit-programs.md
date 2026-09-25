@@ -25,7 +25,7 @@ Amounts are reissued each 1 January. Individual benefit tables are occasionally 
 | General Disability | נכות כללית | Resident 18 to retirement age; medical incapacity 60%+; 12 months NI | 7801 |
 | Special Services (SHRM) | שירותים מיוחדים | Severely disabled needing daily care | 7849 |
 | Disabled Child | ילד נכה | Parent of disabled child | 7821 |
-| Unemployment | דמי אבטלה | 12 of 18 months as employee, terminated (not resigned) | 1500 |
+| Unemployment | דמי אבטלה | Aged 20-67; 12 of the 18 months before first registering as an employee; dismissed, resigned, or put on unpaid leave by the employer | 1500 |
 | Maternity | דמי לידה | 6-15 months employed | 355 |
 | Birth Grant | מענק לידה | Every birth in Israel | (auto, 300) |
 | Child Allowance | קצבת ילדים | All residents with children under 18 | (auto, 5025) |
@@ -96,8 +96,10 @@ The spouse supplement also requires the spouse's gross income to be at most 7,84
 | Days 1-125 | 550.76 NIS (average wage 13,769 ÷ 25 working days) |
 | Days 126+ | 367.17 NIS (2/3 of daily average wage) |
 
-- **Waiting period:** 5 working days for terminations.
-- **Resignation penalty:** 90-day disqualification unless resigning for justified cause.
+- **Waiting days:** the first 5 days of unemployment in each run of 4 consecutive reporting months are unpaid, for every claimant whatever the reason the job ended; they are not deducted from the benefit quota.
+- **Eligibility:** resident, aged 20 to 67, registered at the employment service, and 12 months of work as an employee in the 18 months before first registering (months from age 18 to 67; a partial month counts as a full month; not necessarily consecutive or with one employer). Someone who was dismissed, resigned, or was put on unpaid leave (chalat) by the employer can qualify; the reason only affects when payment starts. Chalat taken at the employee's own initiative, even justified, does not qualify. Controlling shareholders, kibbutz members working inside the kibbutz, soldiers in service, and non-working students are not insured. Source: btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx.
+- **When payment starts, by the reason the job ended:** dismissal, the end of an employment contract, or employer-imposed chalat: from the first reporting day. Resignation without a justified cause: only after 90 days from leaving work. Resignation for a justified cause: from the first registration day, with documents proving the cause.
+- **Justified causes BTL lists:** a tangible deterioration of working conditions or circumstances at work that made continuing impossible; the claimant's health, or that of a spouse, parent, child, grandchild or sibling; a move of home or workplace leaving more than 60 km between them (40 km for a mother of a child under 7); sexual harassment at work; a stay in a domestic-violence shelter; a certified professional leaving work outside the profession to work in it; resigning a new job held up to 6 months without having used the entitlement; resigning the second of two similar jobs within 3 months of justifiably leaving the first. Voluntary early retirement counts as a resignation (90 days) unless justified. Source: btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx.
 - **Duration:** 50 to 175 days by age and dependants (3+ family members); 175 unconditional from age 45; women 57-67 born 1960 or later get 300 days over 18 months. Full table below.
 
 ### Maternity (Dmei Leida)

@@ -126,6 +126,13 @@ def calculate_unemployment(salary: float, age: int, months_employed: int,
     """
     print("=== Unemployment Benefits (Dmei Avtala) Estimate, 2026 rates ===\n")
 
+    if age < 20 or age >= 67:
+        print(f"Age {age}: unemployment is paid from 20 to 67 (under 20 only in special "
+              "cases, see btl.gov.il/benefits/Unemployment/Pages/under20.aspx).")
+        if age >= 67:
+            return
+        print()
+
     if months_employed < 12:
         print(f"Months employed: {months_employed}")
         print("NOT ELIGIBLE: Minimum 12 months of employment in last 18 months required.")
@@ -226,8 +233,9 @@ def calculate_unemployment(salary: float, age: int, months_employed: int,
     print(f"Has dependents: {'Yes' if has_dependents else 'No'}")
     print(f"Months employed: {months_employed}")
     print()
-    print(f"Waiting period: {waiting_days} working days (terminations only; "
-          "resignation triggers 90-day disqualification unless justified cause)")
+    print(f"Waiting days: the first {waiting_days} days of unemployment in each run of 4 "
+          "consecutive reporting months are unpaid, for every claimant (not deducted from "
+          "the quota). Separately, an unjustified resignation delays payment by 90 days.")
     print(f"Benefit duration: {duration_days} days")
     if is_woman_57_67_born_1960_plus:
         print("      (women 57-67 born 1960+: 300 days, usable over 18 months, not 12)")
