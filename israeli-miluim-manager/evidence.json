@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-miluim-manager",
-  "generated_at": "2026-08-18T19:40:19.708822+00:00",
+  "generated_at": "2026-09-25T21:45:34.505580+00:00",
   "claims": [
     {
       "claim_id": "bl-max-daily-2026",
@@ -12,8 +12,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
+        "references/2026-law-changes.md",
         "references/bituach-leumi-filing-guide.md",
-        "references/2026-law-changes.md"
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
     },
@@ -26,8 +28,11 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
+        "references/2026-law-changes.md",
         "references/bituach-leumi-filing-guide.md",
-        "references/2026-law-changes.md"
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
     },
@@ -40,7 +45,8 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 33A definitions)",
       "verified_at": "2026-08-13"
@@ -54,10 +60,15 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "amendment-283-tier-40-49",
@@ -67,10 +78,16 @@
       "fetched_at": "2026-05-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "amendment-283-max-tier",
@@ -81,7 +98,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 39B; the 4-point cap is in paragraph (4): \"ובלבד שסך נקודות הזיכוי לפי סעיף זה לא יעלה על 4 נקודות זיכוי\"). The NIS 11,616 figure is 4 x the NIS 2,904 credit-point value quoted in the credit-point-value-2026 entry, not a figure printed on the page.",
       "verified_at": "2026-08-13"
@@ -93,8 +112,6 @@
       "raw_snippet": "39ב. זיכוי בעד שירות מילואים כלוחם  [תיקון: תשפ״ו]",
       "fetched_at": "2026-08-13",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 39B). The Knesset press release carrying the exact plenum and Sefer HaChukim dates could not be read: main.knesset.gov.il answers every non-browser request with a Reblaze JavaScript challenge (HTTP 247, empty body), so those dates were removed from the skill rather than left unsourced.",
@@ -110,7 +127,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ],
       "claim_type": "law",
       "source_fetched_at": "2026-07-25T00:00:00Z",
@@ -126,10 +145,7 @@
       "raw_snippet": "סכום הפיצוי היומי שווה ל- 20% מהסכום המחושב לפי שכרו של העובד ב-3 החודשים שקדמו לשירות המילואים, לחלק ל-90.",
       "fetched_at": "2026-08-13",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/2026-law-changes.md"
       ],
       "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); the same page states \"כל המעסיקים למעט מעסיקים ציבוריים\". The exact Knesset plenum date of 27 April 2026 could not be verified (main.knesset.gov.il is behind a JavaScript bot challenge) and was removed from the skill.",
       "verified_at": "2026-08-13"
@@ -142,8 +158,12 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Discharged Soldiers (Return to Work) Law, section 41A). The consolidated text carries no 60-day tier for service of 60 days or more; the skill was changed to present that tier as unverified.",
       "verified_at": "2026-08-13"
@@ -156,7 +176,8 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/troubleshooting.md"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Labour Court (Fees) Regulations, First Schedule, \"הסכומים מעודכנים לשנת 2026\"). The schedule states \"סכום מזערי בדיון מהיר 84\" but no 0.5% rate, so the 0.5% figure was removed from the skill.",
       "verified_at": "2026-08-13"
@@ -170,7 +191,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ],
       "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML). The previously cited URL About/Pages/CallCenter.aspx returns HTTP 404 and was replaced.",
       "verified_at": "2026-08-13"
@@ -184,7 +207,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ],
       "verified_at": "2026-08-13",
       "verified_via": "re-cited after the original idf.il unit page went dead; the number appears on shikum.mod.gov.il and on the kolzchut disability page."
@@ -210,7 +235,9 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 17(5A); the 20,566 preferred-deposit ceiling is in section 9(16B): \"ההפקדה המוטבת\" – 14,140 שקלים חדשים לשנה (נקוב לשנת 2003; ... בשנים 2025 ו־2026, 20,566 ש״ח)). NIS 13,203 is 4.5% of NIS 293,397, not a figure printed on the page.",
       "verified_at": "2026-08-13"
@@ -224,10 +251,14 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "form-101-tax-credit",
@@ -238,8 +269,11 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
+        "references/2026-law-changes.md",
         "references/bituach-leumi-filing-guide.md",
-        "references/2026-law-changes.md"
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax (Deduction from Salary and Wages) Regulations, regulation 2). The previously cited gov.il/he/service/income-tax-form-101 does not resolve in the gov.il content API.",
       "verified_at": "2026-08-13"
@@ -264,8 +298,11 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl (Income Tax Ordinance, section 39B)",
       "verified_at": "2026-08-13"
@@ -278,10 +315,13 @@
       "fetched_at": "2026-05-18T16:55:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; both snippet fragments matched in page text)",
+      "verified_at": "2026-09-25T21:09:34.701053+00:00"
     },
     {
       "claim_id": "btl-reserve-portal-url",
@@ -304,7 +344,6 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ],
       "verified_at": "2026-08-13",
@@ -318,7 +357,7 @@
       "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md"
       ],
       "verified_at": "2026-08-13",
       "verified_via": "not verifiable by fetch: www.miluim.idf.il is a client-rendered SPA whose HTML shell carries no page text. Recorded as a pointer, not as a quoted source. | NOTE: this entry is a POINTER to a live portal, not a quotation. The substantive claims it used to carry are evidenced individually elsewhere in this file."
@@ -331,7 +370,6 @@
       "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
@@ -357,10 +395,17 @@
       "fetched_at": "2026-05-19T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-tosefet-40",
@@ -369,8 +414,6 @@
       "raw_snippet": "כולל את השכר היומי ותוספת 40%",
       "fetched_at": "2026-06-13T00:01:10.022283+00:00",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -381,8 +424,6 @@
       "raw_snippet": "סכום תגמול המילואים כולל את השכר היומי ותוספת 40%.   לעובד עצמאי משולם פיצוי  בנוסף לתגמול.",
       "fetched_at": "2026-08-09",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
@@ -396,8 +437,13 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "supplement-remainder-rule",
@@ -407,7 +453,11 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
     },
@@ -418,8 +468,7 @@
       "raw_snippet": "התוספת אינה משולמת עבור כל ימי השירות ותלויה במספר ימי השירות בפועל",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z"
     },
@@ -430,8 +479,7 @@
       "raw_snippet": "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md"
       ]
     },
     {
@@ -442,7 +490,10 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -453,7 +504,10 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -464,8 +518,14 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-paid-by-idf",
@@ -475,8 +535,13 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "form-he-502",
@@ -486,7 +551,10 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -497,7 +565,10 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
       ],
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "verified_via": "browser",
@@ -511,8 +582,14 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "worked-example-8400",
@@ -522,7 +599,11 @@
       "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -533,11 +614,13 @@
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
       ]
     },
     {
-      "id": "miluim-2026-tier-model",
+      "claim_id": "miluim-2026-tier-model",
       "claim": "In 2026 most reservist benefits are granted on a tiered (מדרג פעילות) model and also for tzav shagra service, not only tzav 8.",
       "claim_type": "policy",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -546,10 +629,18 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
-      "id": "miluim-2026-tiers",
+      "claim_id": "miluim-2026-tiers",
       "claim": "The activity tiers are א'+, א', ב', ג', ד', ה' in descending order, illustratively mapped to combat battalions, brigades, divisions, HAGMAR, training and security units, and commands and staffs.",
       "claim_type": "policy",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -558,10 +649,17 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "id": "tagmul-meyuchad-61",
+      "claim_id": "tagmul-meyuchad-61",
       "claim": "Tagmul Meyuchad entitlement in 2026 begins from the 61st shamap day inclusive; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. Daily rate banded 133/113/86/60/40/30. Paid 01.05.2027 by Mofet.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -570,10 +668,19 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
-      "id": "manak-mishpacha-mugdal",
+      "claim_id": "manak-mishpacha-mugdal",
       "claim": "Enlarged family grant: 40+ days, child up to 14, paid daily from day 41, banded 83/71/60/60/33/21 NIS.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -582,10 +689,15 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "manak-hotzaot-ishiot",
+      "claim_id": "manak-hotzaot-ishiot",
       "claim": "Personal expenses grant: 40+ days, paid daily from day 41, banded 46/39/31/31/18/11 NIS, all-or-nothing.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -594,10 +706,18 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "id": "manak-kalkalat-habait",
+      "claim_id": "manak-kalkalat-habait",
       "claim": "Enlarged household grant: 45+ shamap days, tiers א'+/א'/ב', 1,250/1,065/815 NIS, paid September.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -606,10 +726,16 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "manak-mefakdim",
+      "claim_id": "manak-mefakdim",
       "claim": "Annual commanders grant: 54 shamap days (40 if a student), tiers א'+/א', command role. Magad 20,000 / Samgad and Mem-Pey 10,000 / Samap and Mem-Mem 5,000 NIS.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -618,10 +744,16 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "manak-mishpacha-meyuchedet",
+      "claim_id": "manak-mishpacha-meyuchedet",
       "claim": "Special-needs family grant: 2,000 NIS one-off, 45+ days, parent of a special-education pupil or disabled-child allowance recipient.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -630,10 +762,17 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
     },
     {
-      "id": "arnak-digitali",
+      "claim_id": "arnak-digitali",
       "claim": "Fighter digital wallet: 10+ days; א'+ 45/120/70 capped 5,000; א' 40/100/60 capped 4,250; ב' 30/80/45 capped 3,250 NIS.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -642,10 +781,19 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
     },
     {
-      "id": "shover-nofesh",
+      "claim_id": "shover-nofesh",
       "claim": "Vacation voucher: 45+ days, banded by tier and by having a child under 14, from 605 up to 4,500 NIS with a per-day top-up for days 46-60.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -654,10 +802,18 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
-      "id": "siyua-maavar-dira",
+      "claim_id": "siyua-maavar-dira",
       "claim": "Relocation assistance: 2,500 NIS, 45+ shamap days, tiers א'+/א'/ב'.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -666,10 +822,16 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "manak-chufshat-leda",
+      "claim_id": "manak-chufshat-leda",
       "claim": "Maternity-leave grant: up to 10,700 NIS per birth, 45+ shamap days, partner off work 21+ extra days.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -678,10 +840,16 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "kaytanot",
+      "claim_id": "kaytanot",
       "claim": "Children camps: tiers א'+/א'/ב', 20+ days incl. 3 in a camp period or 21 summer days, child under 16; 500 NIS first child, 250 each additional; caps 2,000 or 1,300 NIS.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -690,10 +858,18 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
     },
     {
-      "id": "siyua-nafshi",
+      "claim_id": "siyua-nafshi",
       "claim": "Mental-health support: 50+ days, tiers א'+/א'/ב', 80% of cost up to 240 NIS per session, caps 2,400 to 6,000 NIS by tier and children.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -702,10 +878,16 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
     },
     {
-      "id": "student-tuition-bands",
+      "claim_id": "student-tuition-bands",
       "claim": "Student tuition help: 50+ qualifying shamap days between 23.10.2025 and 30.9.2026; share of tuition banded 100/85/65/30/30/22 percent by tier.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -714,11 +896,19 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
     },
     {
-      "id": "grants-pending",
-      "claim": "Most 2026 grants are announced but require a dedicated procedure before claims open; the full 2026 Keren HaSiyua regulations are not yet published and the package is conditional on the 2026 budget law.",
+      "claim_id": "grants-pending",
+      "claim": "The IDF 2026 policy page says each grant opens only after a dedicated procedure, that the full 2026 Keren HaSiyua regulations would be published later, and that the package is conditional on the 2026 budget law. The last two conditions have since been met (see keren-regs-2026-published and budget-law-2026-passed); the page text itself was not revised.",
       "claim_type": "policy",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
       "source_fetched_at": "2026-07-25T00:00:00Z",
@@ -726,10 +916,17 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded."
+      "fetch_note": "Page is JS-rendered and returns a near-empty body to plain fetchers; read on 2026-07-25 via headless Chromium with all accordions expanded.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "id": "miluim-2026-amounts-normalized",
+      "claim_id": "miluim-2026-amounts-normalized",
       "claim": "Normalized restatement, in the skill's own ASCII-quote notation, of 2026 grant amounts already evidenced above: personal-expenses bottom bands 11 and 21 NIS, enlarged-household bottom band 815 NIS, Fighter wallet ב' cap 3,250 NIS, mental-health 240 NIS per session and 6,000 NIS top cap, maternity-leave 10,700 NIS. Also restates the Amendment 283 40-49 day tier value of 2,178 NIS, which kolzchut prints with the shekel sign rather than the ש\"ח abbreviation.",
       "claim_type": "amount",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -738,46 +935,89 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "Same figures as the per-grant entries above; the IDF page renders the shekel abbreviation with gershayim (U+05F4) while the skill files use an ASCII quote, so this entry restates them in the skill's notation. No new claim is introduced."
+      "fetch_note": "Same figures as the per-grant entries above; the IDF page renders the shekel abbreviation with gershayim (U+05F4) while the skill files use an ASCII quote, so this entry restates them in the skill's notation. No new claim is introduced.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
     },
     {
-      "id": "amendment-283-following-year",
+      "claim_id": "amendment-283-following-year",
       "claim": "The Amendment 283 credit is granted in the tax year following the service year: 30+ days in 2025 gives the credit in tax year 2026, 30+ days in 2026 gives it in 2027, and from 2027 service the threshold drops to 20 days with the credit again in the following tax year.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "raw_snippet": "30 ימים לפחות בשנת 2025 (הזכאות תינתן בשנת המס 2026). 30 ימים לפחות בשנת 2026 (הזכאות תינתן בשנת המס 2027). 20 ימים לפחות משנת 2027 ואילך (הזכאות תינתן בשנת המס העוקבת)",
-      "confidence": "high"
+      "confidence": "high",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
-      "id": "shikum-offduty-20pct",
+      "claim_id": "shikum-offduty-20pct",
       "claim": "If the injury occurred while not performing duty, Agaf HaShikum rights are granted only to those assessed at 20% disability or more.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/הכרה_בנכות_לחיילי_חובה_ומילואים_בצה%22ל_ובכוחות_הביטחון",
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "raw_snippet": "אם הפגיעה קרתה שלא בעת מילוי תפקיד, הזכויות מטעם אגף השיקום יינתנו רק למי שייקבעו להם לפחות 20% נכות",
-      "confidence": "high"
+      "confidence": "high",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
-      "id": "shikum-recognition-process",
+      "claim_id": "shikum-recognition-process",
       "claim": "Recognition is decided by the Ktzin HaTagmulim at Agaf HaShikum; a medical committee then sets the disability percentage, which determines entitlement to payments and benefits, with appeal to a higher medical committee.",
       "claim_type": "process",
       "source_url": "https://www.kolzchut.org.il/he/הכרה_בנכות_לחיילי_חובה_ומילואים_בצה%22ל_ובכוחות_הביטחון",
       "source_fetched_at": "2026-07-25T00:00:00Z",
-      "raw_snippet": "מי שהוכרה להם נכות על-ידי קצין התגמולים באגף השיקום יופנו ל וועדה רפואית . הוועדה תקבע את אחוזי הנכות וסוגי הליקויים ובהתאם לכך תיקבע זכאותם לתגמולים ולהטבות נוספות",
-      "confidence": "high"
+      "raw_snippet": "מי שהוכרה להם נכות על-ידי קצין התגמולים באגף השיקום יופנו לוועדה רפואית. הוועדה תקבע את אחוזי הנכות וסוגי הליקויים ובהתאם לכך תיקבע זכאותם לתגמולים ולהטבות נוספות",
+      "confidence": "high",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
-      "id": "hachvana-discharged-dept",
+      "claim_id": "hachvana-discharged-dept",
       "claim": "hachvana.mod.gov.il is the MoD Department for Discharged Soldiers and Reserves, covering the discharge grant, the personal deposit (pikadon), and study scholarships. It is NOT Agaf HaShikum.",
       "claim_type": "url",
       "source_url": "https://www.hachvana.mod.gov.il",
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "raw_snippet": "האגף לחיילים משוחררים ומילואים",
-      "confidence": "high"
+      "confidence": "high",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "id": "tagmul-nosaf-idf",
+      "claim_id": "tagmul-nosaf-idf",
       "claim": "Tagmul Nosaf and Tagmul Meyuchad are IDF payments, not Bituach Leumi ones, and are chased at the IDF reserve hotline 1111 extension 4 (then 1). The 2026 IDF policy page restates the tiered (מדרגי פעילות) model and that routine-order (צו שגרה) service now counts, but it does NOT restate a qualifying-day threshold for Tagmul Nosaf, so the skill flags that threshold as needing verification rather than quoting one.",
       "claim_type": "benefit",
       "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
@@ -786,72 +1026,104 @@
       "confidence": "low",
       "verified_via": "browser",
       "verified_at": "2026-07-25T00:00:00Z",
-      "fetch_note": "UNVERIFIED FOR 2026: tagmul nosaf does not appear anywhere in the 2026 IDF policy page read on 2026-07-25. The 10-day / 1 May framing is carried over from earlier cycles and must be re-sourced before the next release."
+      "fetch_note": "UNVERIFIED FOR 2026: tagmul nosaf does not appear anywhere in the 2026 IDF policy page read on 2026-07-25. The 10-day / 1 May framing is carried over from earlier cycles and must be re-sourced before the next release.",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
-      "id": "form-510-employer",
+      "claim_id": "form-510-employer",
       "claim": "Form 510 is the EMPLOYER confirmation of work and wages; only the employer can file it. The reservist personal claim is Form 502. In Hebrew: טופס 510 = אישור המעסיק על עבודה ושכר; טופס 502 = תביעה אישית לתגמולי מילואים.",
       "claim_type": "form",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/forms/Reserve_Service_forms/Pages/default.aspx",
       "source_fetched_at": "2026-07-25T00:00:00Z",
       "raw_snippet": "אישור המעסיק על עבודה ושכר",
-      "confidence": "medium"
+      "confidence": "medium",
+      "fetched_at": "2026-07-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
       "claim_id": "tagmul-meyuchad-base-32-60",
       "claim": "Tagmul Meyuchad base band: 32 to 60 cumulative shamap days in a calendar year pay a flat NIS 133.33 per shamap day.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "חיילי מילואים שביצעו בין 32 ל-60 ימי מילואים במצטבר בשנה קלנדרית (מ-1 בינואר עד 31 בדצמבר) זכאים לתגמול מיוחד, בגין ימים אלו.",
+      "raw_snippet": "חיילי מילואים שביצעו מעל 31 ימי מילואים במצטבר בשנה קלנדרית (מ-1 בינואר עד 31 בדצמבר) זכאים לתגמול מיוחד, עבור ימי המילואים שביצעו בין הימים 60-32.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read; kolzchut Cloudflare-blocks curl)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-meyuchad-base-rate",
       "claim": "The base-band Tagmul Meyuchad rate is 133.33 NIS per shamap day.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ.",
+      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ ו-66.67 ₪ על שירות מילואים חצי יומי",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-meyuchad-2024-2025-tables",
-      "claim": "Beyond day 60 the Tagmul Meyuchad rate is year-specific: 2024 (tzav 8 only) flat 133 NIS/day to end-2024; 2025 (tzav 8 only) 133 combat / 60 HAGMAR / 40 other units.",
+      "claim": "Beyond day 60 the Tagmul Meyuchad rate is year-specific: 2024 (tzav 8 only) flat 133 NIS/day to end-2024; 2025 (tzav 8 only) 133.33 combat / 60 HAGMAR / 40 other units.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
       "raw_snippet": "מי ששירת במילואים בצו 8 בשנת 2024 יקבל תגמול מיוחד גם עבור שירות מעבר ל-60 הימים עד לסוף שנת 2024 - בסכום של 133 ש\"ח ליום שמ\"פ.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-meyuchad-2025-bands",
-      "claim": "For 2025 tzav 8 service beyond day 60 the daily rate is 133 for the combat array, 60 for HAGMAR and 40 for other units.",
+      "claim": "For 2025 tzav 8 service beyond day 60 the daily rate is 133.33 for the combat array, 60 for HAGMAR and 40 for other units.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "133 ₪ ליום למשרתים במערך הלוחם",
+      "raw_snippet": "133.33 ₪ ליום למשרתים במערך הלוחם",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-meyuchad-commanders",
@@ -860,12 +1132,17 @@
       "raw_snippet": "מפקדים במילואים זכאים לתגמול מיוחד גם על מעבר ל-60 ימי שמ\"פ שביצעו בשנה.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-moharegei-gil",
@@ -874,12 +1151,16 @@
       "raw_snippet": "חייל מילואים מוחרג גיל זכאי לתגמול למוחרגי גיל בנוסף על התגמול המיוחד.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "moharegei-gil-eligibility",
@@ -888,12 +1169,15 @@
       "raw_snippet": "קצינים בדרגת אל\"מ ומעלה אינם זכאים לתגמול מוחרגי גיל.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-nosaf-10-days",
@@ -902,13 +1186,17 @@
       "raw_snippet": "בהתאם לסעיף 19 לחוק שירות המילואים, חיילי מילואים שביצעו במצטבר 10 ימי שמ\"פ ומעלה בשנה קלנדרית (מה-1 בינואר עד ל-31 בדצמבר), זכאים לתגמול נוסף.",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "tagmul-nosaf-25pct-tax",
@@ -919,8 +1207,6 @@
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -933,8 +1219,6 @@
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -947,7 +1231,13 @@
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -957,12 +1247,14 @@
       "raw_snippet": "10-14.5 0.5 נקודת זיכוי 1,452 ₪",
       "fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "s18-delegation",
@@ -975,7 +1267,8 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -987,8 +1280,6 @@
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -1001,8 +1292,6 @@
       "source_fetched_at": "2026-08-18T19:36:39.536924+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -1015,9 +1304,7 @@
       "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/troubleshooting.md"
+        "references/2026-law-changes.md"
       ]
     },
     {
@@ -1030,7 +1317,11 @@
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1043,7 +1334,12 @@
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1056,8 +1352,12 @@
       "verified_via": "pdf (Rashumot, Sefer HaChukim 3216, fetched with curl and read with pdftotext)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1071,7 +1371,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1084,9 +1387,12 @@
       "verified_via": "pdf (extension order, Yalkut HaPirsumim 12159, fetched with curl and read with pdftotext)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md",
-        "references/troubleshooting.md"
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1099,10 +1405,11 @@
       "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
         "references/btl-payment-rules.md",
-        "references/troubleshooting.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1114,7 +1421,11 @@
       "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
       "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
       "appears_in": [
-        "references/btl-payment-rules.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1124,13 +1435,16 @@
       "raw_snippet": "הפנייה לוועדת התביעות לא דוחה את המועד הקבוע בחוק להגשת ערעור לבית הדין לעבודה",
       "fetched_at": "2026-08-18T19:37:40.953075+00:00",
       "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
-      "verified_via": "browser (Playwright, href asserted)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
         "references/btl-payment-rules.md",
-        "references/bituach-leumi-filing-guide.md"
-      ]
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-legal-aid-397",
@@ -1141,9 +1455,7 @@
       "source_fetched_at": "2026-08-18T19:37:40.953075+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/btl-payment-rules.md"
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1153,12 +1465,17 @@
       "raw_snippet": "סכום התשלום למי שלא עבדו לפני שנקראו למילואים (נכון ל-2026): 328.76 ₪ ליום",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-60day-former-income",
@@ -1167,12 +1484,17 @@
       "raw_snippet": "למי שנקראו למילואים בתוך 60 ימים אחרי שהפסיקו לעבוד כשכירים או כעצמאים התשלום יחושב לפי ההכנסה שהייתה להם מעבודה.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-keva-discharge-basis",
@@ -1181,12 +1503,11 @@
       "raw_snippet": "מי שנקראו למילואים בתוך 60 ימים אחרי שהשתחררו מקבע עשויים לקבל תשלום בגובה השכר שקיבלו בשירות הקבע.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-unemployment-basis",
@@ -1195,12 +1516,16 @@
       "raw_snippet": "למי שנקראו למילואים בתקופה שקיבלו דמי אבטלה בסכום גבוה יותר מ-328.76 ₪ ליום, התשלום עבור המילואים יהיה בגובה דמי האבטלה",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-multi-employer",
@@ -1209,12 +1534,17 @@
       "raw_snippet": "את התשלום על השכר שמשלם המעסיק הראשי מקבלים דרך אותו מעסיק. על השכר משאר המעסיקים צריכים להגיש תביעה אישית ולצרף תלושי שכר מכל מקומות העבודה (כולל מהמעסיק הראשי).",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-single-and-half-day",
@@ -1223,12 +1553,13 @@
       "raw_snippet": "הם נקראו לשירות מילואים, כולל שירות חד-יומי וחצי יומי.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/btl-payment-rules.md"
-      ]
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-half-day-half-value",
@@ -1237,12 +1568,15 @@
       "raw_snippet": "שירות חצי יומי\t0.5 יום",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/btl-payment-rules.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-excluded-forces",
@@ -1251,12 +1585,15 @@
       "raw_snippet": "שוטרים, סוהרים ואנשי משמר הכנסת ששירתו במילואים לא מקבלים את התשלום מהביטוח הלאומי, אלא ממשרד האוצר.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/btl-payment-rules.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-income-tax-withheld",
@@ -1265,12 +1602,13 @@
       "raw_snippet": "המוסד לביטוח לאומי מעביר את התשלום אחרי שהוא מפחית ממנו מס הכנסה.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/btl-payment-rules.md"
-      ]
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-debt-offset-opt-in",
@@ -1279,13 +1617,14 @@
       "raw_snippet": "מתשלום מילואים לא ינוכה חוב לביטוח הלאומי, אלא אם מקבל התשלום מבקש זאת.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/btl-payment-rules.md",
         "references/troubleshooting.md"
-      ]
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-paid-during-absence",
@@ -1294,12 +1633,13 @@
       "raw_snippet": "התשלום ניתן לאורך כל תקופת המילואים, כולל בימים שבהם משרתי המילואים נעדרו מהשירות בגלל מחלה, חופשה או פציעה.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/btl-payment-rules.md"
-      ]
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "btl-personal-claim-health-only",
@@ -1308,10 +1648,16 @@
       "raw_snippet": "המוסד לביטוח לאומי מפחית מהתשלום רק דמי ביטוח בריאות.",
       "fetched_at": "2026-08-18T19:38:23.540031+00:00",
       "source_fetched_at": "2026-08-18T19:38:23.540031+00:00",
-      "verified_via": "browser (Playwright, location.href asserted before DOM read)",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
-        "references/btl-payment-rules.md"
-      ]
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "mashmap-status-days",
@@ -1334,6 +1680,8 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -1348,7 +1696,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1361,8 +1711,11 @@
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1376,7 +1729,8 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1388,7 +1742,11 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1401,8 +1759,11 @@
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1414,8 +1775,6 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -1423,15 +1782,19 @@
       "claim_id": "worked-example-3866",
       "claim": "Worked example: 29 qualifying days (32 through 60 inclusive) at the base rate of 133.33 NIS per shamap day totals 3,866.57 NIS. This is arithmetic derived from the base-band rate, not a figure printed on any source page.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%92%D7%9E%D7%95%D7%9C_%D7%9E%D7%99%D7%95%D7%97%D7%93_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ.",
+      "raw_snippet": "סכום התגמול: 133.33 ₪ על כל יום שמ\"פ ו-66.67 ₪ על שירות מילואים חצי יומי",
       "fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
-      "verified_via": "derived arithmetic from the evidenced base rate (29 x 133.33), stated as such",
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text)",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
-      ]
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
     },
     {
       "claim_id": "he-sec-18",
@@ -1442,7 +1805,10 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL_HE.md"
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1454,7 +1820,7 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL_HE.md"
+        "references/2026-law-changes.md"
       ]
     },
     {
@@ -1466,7 +1832,12 @@
       "source_fetched_at": "2026-08-18T19:39:31.629028+00:00",
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
-        "SKILL_HE.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1479,8 +1850,12 @@
       "verified_via": "he.wikisource.org consolidated statute text, fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1504,6 +1879,11 @@
       "source_fetched_at": "2026-08-18T19:52:36.587350+00:00",
       "verified_via": "he.wikisource.org consolidated regulations text, fetched with curl",
       "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
         "references/troubleshooting.md"
       ]
     },
@@ -1514,7 +1894,9 @@
       "raw_snippet": "טופס 501 - תביעה להחזר תגמולי מילואים למעסיק",
       "fetched_at": "2026-07-14T00:00:00Z",
       "appears_in": [
+        "SKILL.md",
         "SKILL_HE.md",
+        "references/2026-law-changes.md",
         "references/bituach-leumi-filing-guide.md"
       ],
       "verified_via": " | Hebrew form label as published on the BTL reserve-service forms index."
@@ -1529,8 +1911,10 @@
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1543,9 +1927,10 @@
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
         "references/2026-law-changes.md",
-        "references/troubleshooting.md"
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1572,8 +1957,8 @@
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1600,8 +1985,11 @@
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1613,7 +2001,10 @@
       "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, fetched with curl and read with pdftotext -layout, 36,019 chars extracted)",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/btl-payment-rules.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1625,6 +2016,8 @@
       "source_fetched_at": "2026-08-18T20:41:58.641480+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14410 of 26.03.2026, fetched with curl and read with pdftotext)",
       "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
         "references/2026-law-changes.md"
       ]
     },
@@ -1637,8 +2030,10 @@
       "source_fetched_at": "2026-08-18T20:42:13.314837+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
       "appears_in": [
+        "SKILL.md",
         "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
       ]
     },
     {
@@ -1650,7 +2045,12 @@
       "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1662,7 +2062,12 @@
       "source_fetched_at": "2026-08-18T23:47:31.555650+00:00",
       "verified_via": "pdf (הוראת קבע אכ\"א 31-08-01, linked from miluim.idf.il, fetched with curl and read with pdftotext, 246,309 chars)",
       "appears_in": [
-        "references/btl-payment-rules.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1675,7 +2080,9 @@
       "verified_via": "browser (Playwright, location.href asserted before DOM read)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
         "references/troubleshooting.md"
       ]
     },
@@ -1689,8 +2096,7 @@
       "verified_via": "pdf (הוראת משרד הביטחון 62.03, updated 01/04/2025, linked from miluim.idf.il, curl + pdftotext, 8,102 chars)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/troubleshooting.md"
+        "references/2026-law-changes.md"
       ]
     },
     {
@@ -1703,7 +2109,10 @@
       "verified_via": "pdf (הוראת משרד הביטחון 62.03, curl + pdftotext)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1715,8 +2124,12 @@
       "source_fetched_at": "2026-08-18T23:48:46.724943+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498 clause 14, curl + pdftotext -layout)",
       "appears_in": [
-        "SKILL_HE.md",
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1741,7 +2154,10 @@
       "source_fetched_at": "2026-08-18T23:49:44.866789+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md"
       ]
     },
     {
@@ -1753,7 +2169,12 @@
       "source_fetched_at": "2026-08-18T23:49:44.866789+00:00",
       "verified_via": "pdf (Rashumot, Yalkut HaPirsumim 14498, curl + pdftotext -layout)",
       "appears_in": [
-        "references/2026-law-changes.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1766,7 +2187,12 @@
       "verified_via": "pdf (Form 101 for 2026, PDF metadata author רשות המסים בישראל, updated 11.2025, read with pdftotext, 18,266 chars). gov.il's own copy 404s to scripted fetch and its HTML page is Cloudflare-403, so a mirror carrying the Tax Authority's own PDF was used.",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     },
     {
@@ -1778,7 +2204,12 @@
       "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
       "verified_via": "he.wikisource.org consolidated regulations text (תקנות בית הדין לעבודה (סדרי דין), תקנה 73), fetched with curl",
       "appears_in": [
-        "references/btl-payment-rules.md"
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "references/troubleshooting.md"
       ]
     },
     {
@@ -1791,9 +2222,9 @@
       "verified_via": "he.wikisource.org consolidated regulations text (תקנות הביטוח הלאומי (סיוע משפטי), תקנה 4(ב)), fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
+        "references/2026-law-changes.md",
         "references/btl-payment-rules.md",
-        "references/troubleshooting.md"
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1806,8 +2237,10 @@
       "verified_via": "he.wikisource.org consolidated regulations text (תקנות הביטוח הלאומי (סיוע משפטי), תקנה 1), fetched with curl",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md",
         "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
         "references/troubleshooting.md"
       ]
     },
@@ -1823,7 +2256,8 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/2026-law-changes.md",
-        "references/bituach-leumi-filing-guide.md"
+        "references/bituach-leumi-filing-guide.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1836,7 +2270,8 @@
       "verified_via": "nevo.co.il HTML text of צו שירות ביטחון (קביעת מקצועות ותפקידים לעניין פטור משירות ביטחון מחמת גיל) (הוראת שעה) (מס' 3), התשפ\"ד-2024, schedule read in full (3,228 chars)",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
       ]
     },
     {
@@ -1848,7 +2283,441 @@
       "source_fetched_at": "2026-08-18T23:59:46.482419+00:00",
       "verified_via": "he.wikisource.org consolidated statute text (חוק חופשה שנתית, סעיף 3(א)), fetched with curl",
       "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "references/bituach-leumi-filing-guide.md"
+      ]
+    },
+    {
+      "claim_id": "s39b-temporary-2026-2027",
+      "claim": "The 30-day combat credit table in Section 39B is a temporary provision for tax years 2026 and 2027, i.e. for service in 2025 and 2026.",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "(הוראת שעה בשנים 2026 ו־2027)",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "s39b-permanent-20-days",
+      "claim": "Permanent rule, Section 39B(a)(1): 0.75 credit point for 20 or more combat reserve days in the previous tax year (applies from tax year 2028, i.e. service from 2027).",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "נקודת זיכוי – אם שירת שירות מילואים כלוחם 20 ימים ומעלה בשנת המס הקודמת",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "s39b-permanent-increment-cap",
+      "claim": "Permanent rule, Section 39B(a)(2): +0.25 point per further five combat days beyond 20, capped at 4 points, so the cap is reached at 85 days (0.75 + 13 x 0.25) and 50 days gives 2.25 points. The 85-day and 2.25-point figures and the 20-24 to 85+ table rows are arithmetic from this text.",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "מעבר ל־20 הימים האמורים בפסקה (1), ובלבד שסך נקודות הזיכוי לפי סעיף זה לא יעלה על 4 נקודות זיכוי",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "credit-point-frozen-2024-2027",
+      "claim": "The credit point value is 2,904 NIS a year for 2024 to 2027; no value is yet set for 2028.",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "בשנים 2024–2027, 2,904 ש״ח",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "keren-regs-2026-published",
+      "claim": "The 2026 Keren HaSiyua regulations (first published 26.04.2026) are current in the version dated 5/7/2026, which adds Annex A (second-track complement) and Annex B (transition provision); they rest on Government Resolution 3812 of 25/01/2026.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "עדכני ליום 5/7/2026",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
         "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (pdftotext maps the letter נ to ð in this PDF's text layer; snippet confirmed after substituting ð->נ, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-filing-deadline",
+      "claim": "Keren HaSiyua regulation 1.8: requests for entitlement periods between 07/10/23 and 31/12/25 may be filed until 31/12/26; for periods starting 1/1/2026, within a year of the event.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "משרת מילואים יוכל להגיש בקשה לקרן הסיוע...עד תאריך .31/12/26...להגיש את בקשתו עד שנה ממועד האירוע",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-review-21-days",
+      "claim": "Standard Keren HaSiyua review time is 21 business days.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "יעמדו על 21 ימי עסקים",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "budget-law-2026-passed",
+      "claim": "The 2026 Budget Law has been enacted (ס\"ח תשפ\"ו 658).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_התקציב_לשנת_הכספים_2026",
+      "raw_snippet": "חוק התקציב לשנת הכספים 2026",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "idf-mental-aid-not-open",
+      "claim": "The IDF 2026 policy says mental-health aid requests cannot yet be filed.",
+      "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
+      "raw_snippet": "טרם ניתן להגיש בקשות בפועל",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "browser (r.jina.ai rendered text of the JS page, read 2026-09-25)",
+      "verified_at": "2026-09-25T21:08:57.995274+00:00"
+    },
+    {
+      "claim_id": "nezek-akif-may-june-2024-closed",
+      "claim": "The May-June 2024 indirect-damage grant window closed 31.07.2026.",
+      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
+      "raw_snippet": "הגשת בקשה למענק מאי יוני 2024 תתאפשר החל מיום 28 ביולי 2024 עד 31 ביולי 2026",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "nezek-akif-2026-periods",
+      "claim": "2026 indirect-damage grant periods (e.g. May-June 2026, from 28.07.2026) close 31.12.2026.",
+      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
+      "raw_snippet": "הגשת בקשה למענק מאי יוני 2026 תתאפשר החל מיום 28 ביולי 2026 ועד 31 בדצמבר 2026",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "nezek-akif-2026-track-21",
+      "claim": "From 01.01.2026 a further track covers service under any shamap call-up of at least 21 consecutive days.",
+      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
+      "raw_snippet": "משרת המילואים ביצע שמ\"פ של לפחות 21 ימים ברצף",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "nezek-akif-2026-track-30",
+      "claim": "Or at least 30 non-consecutive days within a two-month period ending in an even month.",
+      "source_url": "https://www.gov.il/he/service/grant-for-reservists",
+      "raw_snippet": "לפחות 30 ימים שאינם רצופים, וזאת בתקופה של חודשיים המסתיימת בחודש זוגי",
+      "fetched_at": "2026-09-25T20:57:31.255578+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-partner-income-loss",
+      "claim": "Keren HaSiyua regulation 3.3.5 compensates the income a reservist's partner lost because of the service.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "אובדן הכנסה של בן/בת הזוג של משרת המילואים",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-partner-bands",
+      "claim": "Partner income-loss compensation is banded by tier: up to 100% (א'+), 90% (א'), 75% (ב'), 50% (ג' to ה') of the computed loss.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "עד 100% מערך הפגיעה המחושב...עד 90% מערך הפגיעה המחושב...עד 75% מערך הפגיעה המחושב...עד 50% מערך הפגיעה המחושב",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-partner-10-days",
+      "claim": "Partner income-loss compensation requires full overlap with the service and at least 10 consecutive shamap days in the calendar year.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "בחפיפה מלאה לשירות מילואים...ובלבד ובוצעו לפחות 10 ימי שמ\"פ רצופים",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-partner-cap-tax",
+      "claim": "Partner income-loss compensation is capped at NIS 10,000 a month and NIS 40,000 a year, and is taxable.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "פיצוי מקסימלי עד ₪ 10,000 בחודש ועד תקרה שנתית בסך...40,000 פיצוי זה מחויב במס",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-no-double-comp",
+      "claim": "Unemployment benefit and Property Tax compensation take precedence over Keren HaSiyua compensation.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "דמי אבטלה ופיצויים ממס רכוש קודמים למתן פיצוי מקרן הסיוע",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-4500-reservist",
+      "claim": "One-off NIS 4,500 grant to a released reservist with 45+ consecutive shamap days (regulation 3.11.1), paid without the 25% tax.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "מענק חד פעמי בגובה 4,500 ש\"ח למשרת מילואים זכאי ששירת 45 ימים לפחות ברצף...פעילות הקרן הורחבה לטובת מתן...ללא מיסוי של",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-4500-partner",
+      "claim": "One-off NIS 4,500 grant to the non-working partner of a reservist with 45+ consecutive days (regulation 3.11.2).",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "מענק חד פעמי בגובה 4,500 ש\"ח לבן/בת הזוג של משרת מילואים זכאי",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "pdf (5/7/2026 version; text layer maps נ to ð, snippet confirmed after substitution, 2026-09-26)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-transition-7b",
+      "claim": "Annex B s.7(b): a request filed from 26.04.2026 for service between 7/10/2023 and 31/12/2025 is governed by the PREVIOUS regulations, provided it is filed by 31/12/2026.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "בגין שירות מילואים שבוצע מיום 7/10/2023...יחולו הוראות התקנון הקודם...יוגשו עד ליום",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "keren-transition-prev-regs-date",
+      "claim": "The 2026 regulations replaced the previous Keren regulations published 23/7/2025.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "אשר החליף את תקנון...קרן הסיוע הקודם שפורסם ביום...23/7/2025",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-transition-7a",
+      "claim": "Annex B s.7(a): requests for service in the transition period fall under the previous regulations only if filed by 15/8/2026.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "ובלבד שבקשה לפי סעיף זה תוגש עד ליום...15/8/2026",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-transition-routine-order",
+      "claim": "Annex B s.4: requests for routine-order service are examined under the new regulations only.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "בקשות שהגישו משרתי מילואים ששירתו בצו שגרה יבחנו רק לפי התקנון החדש",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "keren-transition-s5-s8",
+      "claim": "Annex B s.5: a one-off entitlement received in the transition period cannot be received again under the new regulations until the end of 2026; s.8: tiers A+, A and B in the transition period count as the combat array for the previous regulations.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "לא יוכלו לקבל זכאות נוספת מכח התקנון החדש עד סוף...ייחשב כשירות ב-...מערך לוחם",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "s39b-commencement-2026",
+      "claim": "The amending law introducing s.39B commences 1 January 2026, and the first credit is for tax year 2026 (service in 2025); service in 2024 or earlier earns no s.39B credit.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/employers-info161225-1/he/IncomeTax_employers-info161225-1.pdf",
+      "raw_snippet": "תחילתו של חוק זה מיום...בינואר",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "s39b-2025-service-first",
+      "claim": "Kol Zchut: combat reservists with 30+ days in 2025 get the credit in tax year 2026.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
+      "raw_snippet": "30 ימים לפחות בשנת 2025 (הזכאות תינתן בשנת המס 2026)",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text, 2026-09-25)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "form-101-refund-routes",
+      "claim": "Employees claim the credit on Form 101 given to the employer with the IDF confirmation; once the tax year has ended, through an online refund request (up to 6 years back); the self-employed through the annual return.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_ללוחמי_מילואים",
+      "raw_snippet": "שכירים: יש למלא בתחילת שנת המס טופס 101 ולמסור אותו למעסיק בצירוף האישור מצה\"ל...אם שנת המס הסתיימה אפשר להגיש בקשה להחזר מס באופן מקוון או בלשכת פקיד השומה שמשתייכים אליה (אפשרי עד 6 שנים אחורה)",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "browser (kolzchut.org.il rendered via same-origin fetch in Playwright; location.href asserted; snippet matched in page text, 2026-09-25)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "btl-floor-all-bases",
+      "claim": "BTL applies the daily floor to every basis: monthly, daily and hourly employees and the self-employed are paid no less than 328.76 per day.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/TagmulZacay.aspx",
+      "raw_snippet": "לא פחות ממינימום = 328.76 ש\"ח ליום",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/btl-payment-rules.md",
+        "scripts/miluim-tax-credit-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "worked-example-2026-70-days",
+      "claim": "Worked example (arithmetic): 70 shamap days in tier A+ in 2026: 29 x 133.33 = NIS 3,866.57 plus 10 x 133 = NIS 1,330 for days 61-70, total NIS 5,196.57. The 133 is the IDF 2026 tier A+ rate.",
+      "source_url": "https://www.miluim.idf.il/articles-list/מדיניות-2026/",
+      "raw_snippet": "מדרג א׳+ – 133 ש״ח",
+      "fetched_at": "2026-09-25T21:26:16.840502+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ],
+      "verified_via": "browser (r.jina.ai rendered text of the JS page, read 2026-09-25)",
+      "verified_at": "2026-09-25T21:26:16.840502+00:00"
+    },
+    {
+      "claim_id": "keren-prev-regs-2025",
+      "claim": "The previous Keren regulations are current to 23/07/2025; they cover reservists called up under tzav 8 from 7/10/2023 for war-related activity, for a qualifying period of at least eight days.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/mr4jv0re/%D7%9C%D7%94%D7%A4%D7%A6%D7%94-%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%94%D7%A7%D7%A8%D7%9F-%D7%9C%D7%A1%D7%99%D7%95%D7%A2-%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95-%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-1.pdf",
+      "raw_snippet": "עדכני ליום 23/07/2025...שגויס בתקופת מלחמת \"חרבות ברזל\"...שמונה ימים לפחות",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-prev-partner-loss",
+      "claim": "Previous regulations: partner income-loss compensation, maximum NIS 10,000 a month, a higher amount goes to the exceptions committee; no activity-tier bands; clause e extends it to another relative where both partners serve or for a single parent.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/mr4jv0re/%D7%9C%D7%94%D7%A4%D7%A6%D7%94-%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%94%D7%A7%D7%A8%D7%9F-%D7%9C%D7%A1%D7%99%D7%95%D7%A2-%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95-%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-1.pdf",
+      "raw_snippet": "אובדן הכנסה של בן/בת הזוג של משרת המילואים...פיצוי מקסימלי עד ₪ 10,000 בחודש...ככלל שיידרש פיצוי גבוה מכך יידון בוועדת חריגים...בני זוג במאמץ המלחמתי",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "keren-prev-4500-reservist",
+      "claim": "Previous regulations s.2.11(a): NIS 4,500 to a reservist released after 45+ consecutive days who, on the release day, was not entitled to unemployment benefit and was on unpaid leave, not employed or not self-employed; paid without the 25% tax.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/mr4jv0re/%D7%9C%D7%94%D7%A4%D7%A6%D7%94-%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%94%D7%A7%D7%A8%D7%9F-%D7%9C%D7%A1%D7%99%D7%95%D7%A2-%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95-%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-1.pdf",
+      "raw_snippet": "ברצף ושוחרר ובלבד שביום השחרור התקיימו בו כל אלה...הוא עובד המצוי בחל\"ת...ללא מיסוי של",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-prev-4500-partner",
+      "claim": "Previous regulations s.2.11(b): NIS 4,500 to the partner of a reservist with 45+ days (no consecutive requirement), shared child under 14, where for 21+ days of the qualifying service the partner met the status test.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/mr4jv0re/%D7%9C%D7%94%D7%A4%D7%A6%D7%94-%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%94%D7%A7%D7%A8%D7%9F-%D7%9C%D7%A1%D7%99%D7%95%D7%A2-%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95-%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-1.pdf",
+      "raw_snippet": "45 ימים לפחות אשר לו ולמשרת המילואים לפחות ילד אחד משותף מתחת לגיל...ובלבד שבמשך 21 ימים לפחות בתקופת השירות המזכה התקיימו לגבי",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "keren-prev-10700-120",
+      "claim": "Previous regulations: NIS 10,700 to a partner who extended maternity leave (not with the NIS 4,500 partner grant), and a further NIS 4,500 to the partner of a combat reservist with 120+ days under tzav 8.",
+      "source_url": "https://api.miluim.idf.il/api/v1/Media/mr4jv0re/%D7%9C%D7%94%D7%A4%D7%A6%D7%94-%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%94%D7%A7%D7%A8%D7%9F-%D7%9C%D7%A1%D7%99%D7%95%D7%A2-%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D-%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95-%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA-%D7%9E%D7%9C%D7%97%D7%9E%D7%94-1.pdf",
+      "raw_snippet": "מענק חד פעמי בגובה 10,700...חייל המילואים שירת לפחות 120 ימים בצו 8 במערך הלוחם",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/2026-law-changes.md"
+      ]
+    },
+    {
+      "claim_id": "btl-working-youth-floor",
+      "claim": "The minimum daily payment for a working youth is 25% of the average wage divided by 30: NIS 114.73 from 01.01.2026.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "מינימום ההענקה ליום לנער עובד יהיה 25% מהשכר הממוצע במשק מחולק ב-30. הסכום הוא: 114.73",
+      "fetched_at": "2026-09-25T21:45:34.505580+00:00",
+      "appears_in": [
+        "references/btl-payment-rules.md",
+        "references/domain-checklist.md",
+        "scripts/miluim-tax-credit-calculator.py"
       ]
     }
   ],

@@ -26,17 +26,26 @@ combat reservists (lochamim) for tax years 2026-2027:
   - 105-109 days: 3.75 credit points
   - 110+ days:   4.00 credit points
 
+From tax year 2028 (that is, for combat service in 2027 onward) the
+permanent rule in Section 39B(a)(1)-(2) applies instead: 20+ days = 0.75
+points, plus 0.25 per additional 5 days beyond 20, capped at 4 points
+(reached at 85 days). The table is selected by the SERVICE year: service
+in year Y is credited in tax year Y+1. Service in 2024 or earlier earns no
+Section 39B credit, because the section first applies to tax year 2026.
+
 IMPORTANT: These tiers apply to COMBAT service days only. Non-combat
 reserve service does NOT qualify for an Amendment 283 credit (0). The universal 2.25
 resident credit points apply to everyone regardless of service.
 
-Additionally, reservists earning below NIS 9,863/month receive a
-reserve-pay floor. This script does NOT estimate reserve pay itself.
+Separately, Bituach Leumi never pays reserve tagmul below its daily floor
+(NIS 328.76/day in 2026, about NIS 9,863/month), so a low earner's daily
+tagmul is lifted to the floor. This script does NOT estimate reserve pay itself.
 
 Usage:
     python scripts/miluim-tax-credit-calculator.py --days 45 --monthly-income 15000
     python scripts/miluim-tax-credit-calculator.py --days 120 --monthly-income 8000
     python scripts/miluim-tax-credit-calculator.py --days 25 --monthly-income 20000
+    python scripts/miluim-tax-credit-calculator.py --days 25 --monthly-income 20000 --service-year 2027
 
 Note: Tax credit point values are based on 2026 rates (frozen through
 2027). Consult Rashut HaMisim (Tax Authority) for exact values.
@@ -55,10 +64,12 @@ CREDIT_POINT_ANNUAL = CREDIT_POINT_MONTHLY * 12
 # Minimum compensation floor (Bituach Leumi)
 MIN_COMPENSATION_DAILY = 328.76
 MIN_COMPENSATION_MONTHLY = 9863
+# Lower minimum for a working youth (נער עובד): 25% of the average wage / 30
+MIN_COMPENSATION_DAILY_WORKING_YOUTH = 114.73
 
 # Amendment 283 combat credit tiers (Section 39B)
-# For tax years 2026-2027, minimum qualifying days is 30
-# From 2028, minimum drops to 20 days
+# Temporary table: tax years 2026-2027 (service 2025-2026), minimum 30 days
+# From tax year 2028 (service 2027+) the permanent 20-day rule applies instead
 COMBAT_CREDIT_TIERS = [
     {"min_days": 110, "max_days": None, "points": 4.00, "name": "Maximum", "hebrew": "מקסימלי"},
     {"min_days": 105, "max_days": 109, "points": 3.75, "name": "Tier 15", "hebrew": "דרגה 15"},
@@ -77,6 +88,17 @@ COMBAT_CREDIT_TIERS = [
     {"min_days": 30, "max_days": 39, "points": 0.50, "name": "Tier 2", "hebrew": "דרגה 2"},
 ]
 
+# Permanent rule, Section 39B(a)(1)-(2), from tax year 2028 (service year 2027+):
+# 20+ days = 0.75 point, +0.25 per additional 5 days beyond 20, capped at 4.
+PERMANENT_MIN_DAYS = 20
+PERMANENT_BASE_POINTS = 0.75
+MAX_POINTS = 4.0
+
+# Service years whose credit falls in a tax year covered by the 2026-2027
+# temporary table (service 2025 -> tax 2026, service 2026 -> tax 2027).
+TEMPORARY_SERVICE_YEARS = (2025, 2026)
+FIRST_SERVICE_YEAR = 2025  # Section 39B first applies to tax year 2026
+
 # No Amendment 283 credit for non-combat or under 30 combat days (the credit starts at 30
 # combat days; the universal 2.25 resident points are separate and not modeled here).
 STANDARD_CREDIT_POINTS = 0.0
@@ -94,7 +116,22 @@ def get_combat_credit_tier(days: int) -> dict:
     return None
 
 
-def calculate_credits(days: int, monthly_income: float, is_combat: bool = True) -> dict:
+def permanent_rule_tier(days: int) -> dict:
+    """Section 39B permanent rule (tax year 2028 onward, i.e. service year 2027+)."""
+    if days < PERMANENT_MIN_DAYS:
+        return None
+    extra_blocks = (days - PERMANENT_MIN_DAYS) // 5
+    points = min(MAX_POINTS, PERMANENT_BASE_POINTS + 0.25 * extra_blocks)
+    if points >= MAX_POINTS:
+        return {"min_days": 85, "max_days": None, "points": MAX_POINTS,
+                "name": "Maximum (permanent rule)", "hebrew": "מקסימלי (הסדר הקבע)"}
+    low = PERMANENT_MIN_DAYS + 5 * extra_blocks
+    return {"min_days": low, "max_days": low + 4, "points": points,
+            "name": "Permanent rule", "hebrew": "הסדר הקבע"}
+
+
+def calculate_credits(days: int, monthly_income: float, is_combat: bool = True,
+                      service_year: int = 2026) -> dict:
     """
     Calculate tax credits and compensation eligibility.
 
@@ -105,6 +142,9 @@ def calculate_credits(days: int, monthly_income: float, is_combat: bool = True) 
         "monthly_income": monthly_income,
         "annual_income": monthly_income * 12,
         "is_combat": is_combat,
+        "service_year": service_year,
+        "tax_year": service_year + 1,
+        "rule": None,
         "tier": None,
         "credit_points": STANDARD_CREDIT_POINTS,
         "annual_credit_value": STANDARD_CREDIT_POINTS * CREDIT_POINT_ANNUAL,
@@ -114,28 +154,44 @@ def calculate_credits(days: int, monthly_income: float, is_combat: bool = True) 
         "total_annual_benefit": STANDARD_CREDIT_POINTS * CREDIT_POINT_ANNUAL,
     }
 
-    if is_combat and days >= 30:
+    if service_year < FIRST_SERVICE_YEAR:
+        result["rule"] = "none"
+    elif service_year in TEMPORARY_SERVICE_YEARS:
+        result["rule"] = "temporary"
+    else:
+        result["rule"] = "permanent"
+
+    tier = None
+    if is_combat and result["rule"] == "temporary" and days >= 30:
         tier = get_combat_credit_tier(days)
-        if tier:
-            result["tier"] = tier
-            result["credit_points"] = tier["points"]
-            result["annual_credit_value"] = tier["points"] * CREDIT_POINT_ANNUAL
-            result["monthly_credit_value"] = tier["points"] * CREDIT_POINT_MONTHLY
+    elif is_combat and result["rule"] == "permanent":
+        tier = permanent_rule_tier(days)
+    if tier:
+        result["tier"] = tier
+        result["credit_points"] = tier["points"]
+        result["annual_credit_value"] = tier["points"] * CREDIT_POINT_ANNUAL
+        result["monthly_credit_value"] = tier["points"] * CREDIT_POINT_MONTHLY
 
     # Flag, do NOT quantify, the tagmul floor.
-    # MIN_COMPENSATION_MONTHLY is a floor on the DAILY TAGMUL BASIS, not a monthly
-    # income top-up, and it applies only in the situations enumerated in
-    # references/btl-payment-rules.md section 1 (not working, ceased work within 60
-    # days of call-up, recent keva discharge, unemployment benefit above the floor).
+    # The floor is on the DAILY TAGMUL, not a monthly income top-up. BTL applies it
+    # to every basis ("לא פחות ממינימום = 328.76 ש"ח ליום" for monthly, daily and
+    # hourly employees alike), so a working low earner is lifted to it, and someone
+    # not working gets it directly. See references/btl-payment-rules.md section 1.
     # An earlier version multiplied the gap by the service months and added the
     # product to the credit value. That produced a shekel figure that does not exist,
     # and summed a next-tax-year credit with a this-year pay estimate. Removed.
-    if 0 < monthly_income < MIN_COMPENSATION_MONTHLY:
+    if monthly_income == 0:
+        result["no_income"] = True
+        result["floor_note"] = (
+            "No reported income: someone not working (including a student) is paid the "
+            "daily floor directly. This script does not estimate reserve pay."
+        )
+    elif monthly_income < MIN_COMPENSATION_MONTHLY:
         result["below_compensation_floor"] = True
         result["floor_note"] = (
-            "Reported income is below the tagmul floor. The floor may raise the daily "
-            "tagmul BASIS, but only in specific situations. This script does not "
-            "estimate reserve pay. See references/btl-payment-rules.md section 1."
+            "Reported income is below the tagmul floor, so BTL would pay the daily "
+            "tagmul at the floor rather than at the lower wage basis. This script does "
+            "not estimate reserve pay. See references/btl-payment-rules.md section 1."
         )
 
     # Deliberately no combined total: the Amendment 283 credit lands in the tax year
@@ -164,8 +220,9 @@ def main():
     parser = argparse.ArgumentParser(
         description=(
             "Calculate estimated miluim (reserve duty) tax credits based on "
-            "combat days served and monthly income for the 2026-2027 tax years. "
-            "Uses the 15-tier Amendment 283 system (Section 39B)."
+            "combat days served and monthly income. Uses the 15-tier Amendment 283 "
+            "temporary table (Section 39B) for service in 2025-2026, and the "
+            "permanent 20-day rule for service from 2027."
         ),
         epilog=(
             "Examples:\n"
@@ -173,6 +230,7 @@ def main():
             "  python miluim-tax-credit-calculator.py --days 120 --monthly-income 8000\n"
             "  python miluim-tax-credit-calculator.py --days 25 --monthly-income 20000\n"
             "  python miluim-tax-credit-calculator.py --days 60 --monthly-income 12000 --non-combat\n"
+            "  python miluim-tax-credit-calculator.py --days 25 --monthly-income 15000 --service-year 2027\n"
             "\n"
             "Note: Values are approximate. Consult Rashut HaMisim for exact rates.\n"
             "Combat credit tiers apply only to combat service days (yamei lochem)."
@@ -184,13 +242,24 @@ def main():
         "--days",
         type=int,
         required=True,
-        help="Number of reserve duty days served in the tax year",
+        help="Number of combat reserve days served in the service year (see --service-year)",
     )
     parser.add_argument(
         "--monthly-income",
         type=float,
         required=True,
         help="Average monthly gross income in NIS",
+    )
+    parser.add_argument(
+        "--service-year",
+        type=int,
+        default=2026,
+        help=(
+            "Calendar year in which the combat days were served (default 2026). "
+            "The credit lands in the FOLLOWING tax year. 2025-2026 use the "
+            "30-day temporary table; 2027 onward use the permanent 20-day rule; "
+            "2024 or earlier earn no Section 39B credit."
+        ),
     )
     parser.add_argument(
         "--non-combat",
@@ -203,6 +272,8 @@ def main():
 
     # Validate
     errors = validate_inputs(args.days, args.monthly_income)
+    if args.service_year < 2000 or args.service_year > 2100:
+        errors.append("Service year must be a calendar year such as 2026.")
     if errors:
         print("Input validation errors:")
         for error in errors:
@@ -210,17 +281,19 @@ def main():
         sys.exit(1)
 
     # Calculate
-    result = calculate_credits(args.days, args.monthly_income, is_combat)
+    result = calculate_credits(args.days, args.monthly_income, is_combat, args.service_year)
 
     # Display results
     print("\n" + "=" * 60)
-    print("  Miluim Tax Credit Calculator (2026-2027)")
-    print("  מחשבון זיכוי מס מילואים (2026-2027)")
+    print("  Miluim Tax Credit Calculator")
+    print("  מחשבון זיכוי מס מילואים")
     print("  Amendment 283 / תיקון 283")
     print("=" * 60)
 
     print(f"\n  Input:")
     print(f"  Days served (ימי שירות):            {result['days']}")
+    print(f"  Service year (שנת השירות):          {result['service_year']}")
+    print(f"  Credited in tax year (שנת הזיכוי):  {result['tax_year']}")
     print(f"  Service type (סוג שירות):           {'Combat (לוחם)' if is_combat else 'Non-combat (לא לוחם)'}")
     print(f"  Monthly income (הכנסה חודשית):      {result['monthly_income']:,.0f} NIS")
     print(f"  Annual income (הכנסה שנתית):        {result['annual_income']:,.0f} NIS")
@@ -229,15 +302,21 @@ def main():
     print(f"\n  Credit Tier Information:")
     print(f"  {'=' * 50}")
 
-    if not is_combat:
+    if result["rule"] == "none":
+        print(f"  Service in {result['service_year']} earns NO Section 39B credit:")
+        print(f"  the section first applies to tax year 2026 (service in 2025).")
+    elif not is_combat:
         print(f"  Non-combat service: standard credit of {STANDARD_CREDIT_POINTS} point(s)")
         print(f"  Annual credit value: {STANDARD_CREDIT_POINTS * CREDIT_POINT_ANNUAL:,.0f} NIS")
+    elif result["tier"] is None and result["rule"] == "permanent":
+        print(f"  Combat days: {result['days']}")
+        print(f"  Below the 20-day threshold of the permanent rule (service 2027+)")
     elif result["tier"] is None:
         print(f"  Combat days: {result['days']}")
         if result["days"] < 30:
-            print(f"  Below 30-day threshold for combat credit tiers (2026-2027)")
-            print(f"  Standard credit of {STANDARD_CREDIT_POINTS} point(s) applies")
-            print(f"  Note: From 2028, threshold drops to 20 days")
+            print(f"  Below 30-day threshold of the temporary table (service 2025-2026)")
+            print(f"  No Section 39B credit (there is no 'standard reservist' point)")
+            print(f"  Note: for service from 2027 (tax year 2028) the threshold is 20 days")
         print(f"\n  All combat credit tiers (Amendment 283):")
         for tier in reversed(COMBAT_CREDIT_TIERS):
             max_str = f"-{tier['max_days']}" if tier['max_days'] else "+"
@@ -254,6 +333,10 @@ def main():
     print(f"  Credit points: {result['credit_points']}")
     print(f"  Point value (monthly): {CREDIT_POINT_MONTHLY} NIS")
     print(f"  Point value (annual): {CREDIT_POINT_ANNUAL:,} NIS")
+    if result["tax_year"] >= 2028:
+        print(f"  NOTE: {CREDIT_POINT_ANNUAL:,} is the value frozen for 2024-2027. The")
+        print(f"        tax-year {result['tax_year']} point value is not yet published, so")
+        print(f"        the shekel figures below are an estimate at the 2027 value.")
     print(f"  Annual credit value: {result['annual_credit_value']:,.0f} NIS")
     print(f"  Monthly credit value: {result['monthly_credit_value']:,.0f} NIS")
 
@@ -261,15 +344,19 @@ def main():
     print(f"\n  Reserve-Pay Floor (informational, NOT calculated here):")
     print(f"  {'=' * 50}")
     print(f"  Bituach Leumi daily floor: {MIN_COMPENSATION_DAILY} NIS/day ({MIN_COMPENSATION_MONTHLY:,} NIS/month)")
-    if result["below_compensation_floor"]:
-        print(f"  Reported income is below that floor.")
-        print(f"  The floor may raise your daily tagmul BASIS, but it applies only in")
-        print(f"  specific situations (not working, ceased work within 60 days of the")
-        print(f"  call-up, recent keva discharge, or unemployment benefit above the floor).")
-        print(f"  This script does NOT estimate reserve pay. See")
-        print(f"  references/btl-payment-rules.md section 1 to work out the right basis.")
+    if result.get("no_income"):
+        print(f"  No income reported. Someone not working, including a student, is")
+        print(f"  paid the floor of {MIN_COMPENSATION_DAILY} NIS/day directly.")
+    elif result["below_compensation_floor"]:
+        print(f"  Reported income is below that floor. BTL pays the daily tagmul")
+        print(f"  at no less than the floor, for employees and the self-employed alike,")
+        print(f"  so the wage-based figure is lifted to {MIN_COMPENSATION_DAILY} NIS/day.")
+        print(f"  Exceptions that use a DIFFERENT basis (stopped work or left keva within")
+        print(f"  60 days, unemployment benefit above the floor) are in")
+        print(f"  references/btl-payment-rules.md section 1. This script does NOT estimate reserve pay.")
     else:
         print(f"  Reported income is at or above the floor.")
+    print(f"  (A working youth, נער עובד, has a lower minimum of {MIN_COMPENSATION_DAILY_WORKING_YOUTH} NIS/day.)")
 
     # Amendment 283 credit only. Deliberately NOT summed with reserve pay:
     # the credit lands in the tax year AFTER the service year, whereas reserve
@@ -280,7 +367,8 @@ def main():
     print(f"  Applies in the tax year AFTER the service year.")
 
     # Next tier info (combat only)
-    if is_combat and result["tier"] is not None and result["tier"]["max_days"] is not None:
+    if (is_combat and result["rule"] == "temporary" and result["tier"] is not None
+            and result["tier"]["max_days"] is not None):
         current_idx = COMBAT_CREDIT_TIERS.index(result["tier"])
         if current_idx > 0:
             next_tier = COMBAT_CREDIT_TIERS[current_idx - 1]
@@ -296,7 +384,7 @@ def main():
     print(f"\n  How to Claim:")
     print(f"  {'=' * 50}")
     print(f"  NOTE: the credit is given in the tax year AFTER the service year.")
-    print(f"        Service in 2026 credits in 2027, not in 2026.")
+    print(f"        Service in {result['service_year']} credits in {result['tax_year']}.")
     print(f"  1. Obtain BOTH the service confirmation (ishur sherut miluim)")
     print(f"     AND the combat confirmation (ishur lochem) from the IDF.")
     print(f"     A claim without the ishur lochem is rejected.")
@@ -306,7 +394,7 @@ def main():
     print(f"  4. Self-employed: claim through annual tax filing")
 
     print(f"\n  DISCLAIMER (הערה חשובה):")
-    print(f"  These calculations are estimates based on 2026 rates (frozen")
+    print(f"  These calculations are estimates at the 2026 point value (frozen")
     print(f"  through 2027). Combat credit tiers apply ONLY to combat service")
     print(f"  days (yamei lochem) under Amendment 283 (Section 39B).")
     print("  Non-combat reserve service earns NO Amendment 283 credit (0 points).")

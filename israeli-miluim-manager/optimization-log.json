@@ -1,20 +1,6 @@
 {
   "cycles": [
     {
-      "version": "1.4.0",
-      "date": "2026-07-14",
-      "lessons": [
-        "THE 40% SUPPLEMENT IS A REMAINDER RULE, not a flat uplift. BTL divides the service days by 7 and pays the supplement only on the remainder (0 -> nothing, 6 -> +1 full day). 7/14/21 days therefore earn NO supplement at all. The skill (and the live /tools calculator) multiplied every day by 1.4, overstating a 21-day call-up by 40% (11,760 instead of 8,400). The skill's OWN reference file carried the correct worked example (400/day x 21 = 8,400) while the Gotchas section branded that same arithmetic as a ~40% under-estimate. An internal contradiction between a reference file and the body is a free bug detector.",
-        "BTL's own examples table has one row (120 -> 122) that contradicts the rule stated three lines above it (120 mod 7 = 1 -> 120.4). The stated rule reproduces 19 of their 20 rows, so the rule was encoded and the outlier row treated as a typo, and that decision is documented in the checker's sources. When a source disagrees with itself, follow the normative rule text, not a single table cell, and say so.",
-        "WRONG PAYING AGENCY: Tagmul Nosaf and Tagmul Meyuchad are IDF payments (automatic, by 1 May, to the account registered with the unit; chased at 1111 ext. 4), not Bituach Leumi ones. The skill routed users to the BTL portal and *6050 -- the exact 'wrong agency' failure the skill itself warns about elsewhere.",
-        "Tagmul Meyuchad starts at 32 cumulative shamap days, not 60 (the skill said 60 in six places), and its daily rate is BANDED by unit activity tier (133/113/86/60/40/30), not a flat top-band rate. Same banded-amount-quoted-flat disease as the bituach-leumi skill.",
-        "FORM 510 IS THE EMPLOYER'S WAGE CONFIRMATION. The reservist's personal claim is 502. The skill's 'employer refuses to pay -> file 510' fallback sent the reservist to a form only that employer can complete. Verified against the BTL reserve-duty forms index: 501 employer claim, 502 personal claim, 509 advance, 510 employer wage confirmation.",
-        "The self-employed cap was breached in two different directions at once: the prose clamped before the +40% and the checker clamped after it and then added 25%. BTL: 'סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי'.",
-        "CARRY: the IDF Aka / Keren HaSiyua grant table in references/2026-law-changes.md still does not match the 2026 תקנון (the student tutoring grant is a 3-tier banded amount with a 21-day minimum, and several named grants in the skill do not appear in the regulations under those names). Not fixed this cycle.",
-        "CARRY: Amendment 283 credits are granted in the tax year FOLLOWING the service year; SKILL.md still implies same-year credit in Example 4."
-      ]
-    },
-    {
       "version": "1.5.0",
       "date": "2026-07-25",
       "lessons": [
@@ -95,6 +81,30 @@
         "'The roles at 49' was a subset presented as a list. When a source publishes a SCHEDULE, either reproduce it, or say it is a schedule and tell the reader to look their row up. Naming six of 24 rows reads as exhaustive and silently excludes the other eighteen, and it erased two rank-dependent splits.",
         "METHOD: gov.il HTML is Cloudflare-403 to curl AND to WebFetch, but the r.jina.ai text renderer reads it reliably, and BlobFolder PDFs fetch fine with plain curl. Between those two routes gov.il is fully reachable; the earlier conclusion that it was unreadable was a tooling gap, not a real block.",
         "CARRY: the gate reports 'Durations without evidence (advisory): 1' as a bare count with no itemisation, so I could not identify which duration it means. Worth teaching the script to name it."
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-25",
+      "lessons": [
+        "TEMPORAL: a statute that carries a הוראת שעה table on top of a permanent one is keyed to TAX year, while the reader thinks in SERVICE year. 'From 2028' read naturally as 'service in 2028' and hid that 2027 service already takes the permanent 20-day table. When a credit lands in the year after the event, restate every date boundary in the event's year.",
+        "A caveat that says a condition is PENDING (regulations unpublished, budget not passed) is itself a dated fact and goes stale silently. The IDF page never removed its own caveat; only the Keren PDF header (עדכני ליום 26/04/2026) and the budget law on wikisource showed both conditions were met.",
+        "Kol Zchut is Cloudflare-blocked to curl, WebFetch and r.jina.ai, but a same-origin fetch() from a Playwright page already on kolzchut.org.il returns every article. Five snippets had drifted with page edits; re-slice rather than mark unreachable.",
+        "Secondary sources misstate caps: Kol Zchut gives partner income loss as 'up to 10,000'; the Keren regulations say 10,000 a MONTH with a 40,000 annual cap. Always read the regulation PDF.",
+        "DEFERRED (coverage audit, MAJOR, needs primary-source verification and SKILL.md is at the 5,000-word cap): the 5-9 day personal-expenses tagmul (Kol Zchut: 266 NIS a period) which would make the 'four tracks' framing incomplete; pre-2026 grants still claimable to 31.12.2026 (מענק משפחה 2,000, מענק לחימה/התמדה 2025, home repairs, flight refunds, equipment); arnona discount and mortgage supplement for משמ\"פ holders; company-car benefit relief; protection of grants from attachment; IDF disability-income top-up; Form 58 family release grounds; the 2 academic credit points for 10+ days per academic year (the skill's 'do not quote an academic-credit table' line may be read as denying they exist).",
+        "DEFERRED: MoD-funded legal representation threshold. The skill says 'more than 3 consecutive days' (hedged as reported); Kol Zchut says 'מעל יומיים רצופים', matching s.41A(b). Verify against the MoD portal before changing.",
+        "UNVERIFIED on a primary source: the over-age tagmul (133.33/day). The statutory basis found (Defence Service Law s.36A1) covers only 01.01-30.06.2024; the current figure rests on Kol Zchut, which still states it.",
+        "SKILL_HE.md is 6,825 words against the 5,000 cap (warning, pre-existing). Next cycle should move the IDF-grant and employment detail to references/ in both languages.",
+        "The 'Durations without evidence (advisory): 1' count is still not itemised by the gate.",
+        "FIX ROUND 1: a benefit regulation can be superseded in place under the same title. The Keren PDF 'current to 26.04.2026' was replaced by a 05.07.2026 version whose Annex B routes every 2023-2025 claim to the PREVIOUS (23.07.2025) regulations. Quoting the current regulation's bands for the claims the deadline protects was wrong. Always read the transition clause of a replacement regulation before applying it to past periods.",
+        "The 05.07.2026 Keren PDF's text layer maps the letter נ to ð, so any snippet containing נ fails --check-sources. Verify by substitution and record verified_via pdf; prefer נ-free fragments where possible.",
+        "The Judge said the 2026 worked example should use 133.33; the IDF 2026 policy page gives א'+ = 133. Kept at 133 because the source wins over the brief. Only the 2025 combat rate is 133.33.",
+        "Expert minors deferred: 2.25 resident points are 2.75 for women (s.36A); the script shows no 'next tier' hint under the permanent rule.",
+        "FIX ROUND 2: the 23.07.2025 Keren regulations are online (api.miluim.idf.il Media mr4jv0re, filename starting להפצה-תקנון-הקרן). A search for the title returned only older versions; the right PDF was found by URL from the panel. Old and new regulations differ materially: no tiers, a monthly cap the exceptions committee can raise, no tax statement, and looser 4,500-grant conditions (release-day status, חל\"ת included). Never describe past-period claims with the current regulation's conditions.",
+        "A branch guarded by `0 < x` silently misreports x == 0. Test every numeric script input at 0.",
+        "Panel minor (Expert iter 3): the --monthly-income 0 branch should also point to the exceptions (stopped work within 60 days of call-up is paid on former wage; ex-keva and unemployment-benefit recipients have a different base), as the below-floor message already does.",
+        "Panel minor (Expert iter 3 + Judge r3): the both-partners-serving / single-parent clause (clause ה) says 'up to NIS 10,000' without 'per month'; the skill's 'same cap' wording implies a monthly cap. Match the regulation text exactly.",
+        "Checker miluim-tax-credit: correct for service 2025-2026 only; must be regenerated (service-year input, permanent table from service 2027) before 01.01.2027."
       ]
     }
   ]

@@ -28,7 +28,7 @@ The following wartime temporary provisions were enshrined in permanent law start
 | What it covers | 20% of salary for pension, national insurance, and other social contributions during miluim | Same (now permanent) |
 | Paid by | Government (via Bituach Leumi) | Government (via Bituach Leumi) |
 | Eligible employers | Private employers only | Private employers only (public employers explicitly excluded) |
-| Estimated annual cost | Part of emergency budget | Not published in an official source; do not quote a figure |
+| Estimated annual cost | Part of emergency budget | No government figure found; do not quote one |
 
 **Impact**: Private employers continue to receive 20% reimbursement of the reservist employee's salary for social contributions during service. This is no longer a temporary wartime benefit but a permanent entitlement.
 
@@ -125,11 +125,11 @@ Effective May 1, 2025. Fixes the income basis calculation for reservists who ser
 
 ## Tax Credit Tiers for Combat Reservists (Amendment 283)
 
-Amendment 283 to the Income Tax Ordinance (Section 39B), published in Sefer HaChukim as amendment תשפ"ו to the Income Tax Ordinance (the Knesset plenum date could not be sourced, as the Knesset site is unreadable to any automated fetch), introduced a graduated tax credit system for **combat reservists** based on days of combat service. This applies to tax years 2026-2027.
+Amendment 283 to the Income Tax Ordinance (Section 39B), published in Sefer HaChukim as amendment תשפ"ו to the Income Tax Ordinance (the Knesset plenum date could not be sourced, as the Knesset site is unreadable to any automated fetch), introduced a graduated tax credit system for **combat reservists** based on days of combat service. The 30-day table below is a temporary provision (`הוראת שעה בשנים 2026 ו־2027`) for tax years 2026-2027, that is, for service in 2025 and 2026. A permanent 20-day rule (below the table) governs tax year 2028 onward, that is, service from 2027.
 
 **Important:** These tiers apply only to combat service days (yamei lochem) and start at 30 days. Service under 30 combat days, and non-combat reserve service, do NOT qualify for any Amendment 283 credit. There is no separate 'standard reservist' credit point (every resident already gets the universal 2.25 base points; the combat credit is added on top of those for 30+ confirmed combat days, per kolzchut).
 
-| Combat Days Served Per Year | Credit Points | Annual Value (NIS) | Notes |
+| Combat Days Served in 2025 or 2026 | Credit Points | Annual Value (NIS) | Notes |
 |-----------------------------|---------------|--------------------| ------|
 | Under 30 days, or non-combat | none | 0 | No Amendment 283 credit |
 | 30-39 days | 0.50 | 1,452 | |
@@ -151,9 +151,33 @@ Amendment 283 to the Income Tax Ordinance (Section 39B), published in Sefer HaCh
 One credit point (nekudat zikui) = NIS 242/month = NIS 2,904/year (2026 value, frozen through 2027).
 
 **Key points:**
-- The minimum qualifying threshold for combat credit tiers is 30 days for 2026-2027 (drops to 20 days from 2028)
+- The minimum qualifying threshold is 30 combat days for service in 2025-2026 (tax years 2026-2027), and 20 days for service from 2027 (tax year 2028 onward)
 - Credits are claimed through the employer (Form 101) or annual tax filing with Rashut HaMisim
 - This entire graduated system is new legislation created in response to extended reserve duty since October 2023
+
+### Permanent rule: service from 2027 (tax year 2028 onward)
+
+Section 39B(a)(1)-(2): `3⁄4 נקודת זיכוי – אם שירת שירות מילואים כלוחם 20 ימים ומעלה בשנת המס הקודמת`, plus 0.25 point for each further five days beyond 20, capped at 4 points.
+
+| Combat Days Served in 2027 or later | Credit Points |
+|-------------------------------------|---------------|
+| Under 20 days, or non-combat | 0 |
+| 20-24 | 0.75 |
+| 25-29 | 1.00 |
+| 30-34 | 1.25 |
+| 35-39 | 1.50 |
+| 40-44 | 1.75 |
+| 45-49 | 2.00 |
+| 50-54 | 2.25 |
+| 55-59 | 2.50 |
+| 60-64 | 2.75 |
+| 65-69 | 3.00 |
+| 70-74 | 3.25 |
+| 75-79 | 3.50 |
+| 80-84 | 3.75 |
+| 85+ | 4.00 |
+
+The permanent table is more generous than the temporary one at every day count from 20 to 109, and the two meet at 4 points from 110. For example 50 days = 2.25 points against 1.00, so applying the 2026-2027 table to 2027 service under-states the credit. The 2,904 NIS point value is frozen only through 2027; the tax-year 2028 point value is not yet published, so express 2027-service credits in points, or as an estimate at the 2027 value. Service in 2024 or earlier earns no Section 39B credit: the amending law commences 01.01.2026 (`תחילתו של חוק זה מיום 1 בינואר 2026`, Tax Authority employer circular of 16.12.2025) and the first credit is for tax year 2026, i.e. 2025 service.
 
 **The credit is given in the tax year AFTER the service year** (Section 39B: `בשנת המס שקדמה לה`). Combat service in 2025 credits in 2026; 2026 service credits in 2027. The claim is never automatic: it requires the IDF combat confirmation (ishur lochem) attached to tofes 101, which was amended for this credit at part ח', section 16. A claim filed with only the general service confirmation is rejected.
 
@@ -231,7 +255,53 @@ There is NO published academic-credit-reduction table for 2026. Do not reproduce
 2. Eligible grants appear under "Manakim VeHatavot".
 3. Some are paid automatically by Mofet to the bank account registered in the IDF system; others need a request with documents.
 
-**Most 2026 grants are announced but not yet open.** The policy repeats `מימוש הזכאות לאחר הפצת מדיניות ייעודית בנושא` for grant after grant, the Fighter card and vacation voucher are expected to be implemented during summer 2026, the full 2026 Keren HaSiyua regulations are explicitly **not yet published** (`תקנון קרן הסיוע המלא והמעודכן לשנת 2026 יפורסם בהמשך`), and the package is conditional on the 2026 budget law. Always tell a reservist what they are expected to be entitled to and to watch miluim.idf.il, never that they can claim today.
+**Check a grant is open before telling a reservist to claim it.** The IDF 2026 policy page, as read on 25.09.2026, still repeats `מימוש הזכאות לאחר הפצת מדיניות ייעודית בנושא` for several grants, and for סיוע נפשי says outright `טרם ניתן להגיש בקשות בפועל`. Two conditions the page still mentions are now met: the 2026 Keren HaSiyua regulations are published (`תקנון קרן הסיוע למשרתי המילואים - שנת העבודה 2026`; first published 26.04.2026, current version `עדכני ליום 5/7/2026`, which adds Annex A on the second Manak Nezek Akif track and Annex B, the transition provision), and the 2026 budget law has passed (ס"ח תשפ"ו 658).
+
+**Keren HaSiyua filing deadline (regulation 1.8).** A request for a grant or compensation whose entitlement period falls between 07.10.2023 and 31.12.2025 must be filed by **31.12.2026**. For an entitlement period starting on or after 01.01.2026, the request is filed within one year of the event. Standard review time is 21 business days.
+
+**Which regulations govern which service (Annex B, transition provision).** The 2026 regulations replaced the previous regulations published 23.07.2025, and they apply to requests filed from their publication (26.04.2026). Three exceptions decide most real cases:
+
+| Service | Request filed | Rules that apply |
+|---------|---------------|------------------|
+| 07.10.2023 to 31.12.2025 | from 26.04.2026, by **31.12.2026** | The **previous** (23.07.2025) regulations, s.7(ב) |
+| Service in the transition period (early 2026, before 26.04.2026) | by 15.08.2026 (now passed) | The previous regulations, s.7(א); after 15.08.2026 the new ones apply |
+| Routine-order (צו שגרה) service | any | The new regulations only, s.4 |
+
+Service in tiers א'+, א' and ב' during the transition period counts as `מערך לוחם` or `ייעוד קדמי` for the previous regulations (s.8). A one-off entitlement received during the transition period cannot be received again under the new regulations before the end of 2026 (s.5). **So never quote the 2026 tier bands below for a 2023-2025 claim.** The previous regulations (`תקנון עדכני ליום 23/07/2025`) are the rules that govern a 2023-2025 claim, and they differ from the 2026 ones:
+
+- **Who qualifies.** A reservist called up under צו 8 from 07.10.2023 for activity connected with the war, for a qualifying service period of at least eight days (one day for a cancelled flight or holiday).
+- **Partner income loss (clause ד).** A partner whose income was harmed by the service, with at least one child under 14 or a special-needs child, or a former partner with a shared child. Three payslips, or a contract for future lost income. **No activity-tier bands.** The cap is `פיצוי מקסימלי עד ₪ 10,000 בחודש`, and a higher amount goes to the exceptions committee (`ככלל שיידרש פיצוי גבוה מכך יידון בוועדת חריגים`). The previous regulations say nothing about taxing this compensation, so do not state it either way for a 2023-2025 claim.
+- **Both partners serving, or a single parent (clause ה).** Another relative's lost income, same cap and exceptions route.
+
+**Partner income loss (regulation 3.3.5), for service under the 2026 regulations.** The fund compensates the income a working partner lost because of the reservist's service, as a share of the computed loss set by the unit's activity tier:
+
+| Tier | Share of computed loss |
+|------|------------------------|
+| א'+ | up to 100% |
+| א' | up to 90% |
+| ב' | up to 75% |
+| ג' to ה' | up to 50% |
+
+Conditions: the loss must fully overlap the service (`בחפיפה מלאה לשירות מילואים`), with at least 10 consecutive shamap days in the calendar year; the couple (or a former partner) has a child under 14, or a special-needs child under 21. An employed partner shows three months of payslips before the service and the payslips for the affected period; a self-employed partner goes through a turnover comparison with an accountant's confirmation. Sick and vacation days lost are not compensated, nor are pension or keren hishtalmut components. Unemployment benefit and Property Tax compensation come first, with no double compensation. A partner who resigned or was dismissed because of the service and draws unemployment benefit gets the gap between her representative wage (average gross of the 3 months before the service) and the unemployment benefit, until that entitlement ends (3.3.5(ט)). Cap: NIS 10,000 a month and NIS 40,000 a year, and the payment is taxable (`פיצוי זה מחויב במס`). Regulation 3.3.6 extends the same bands to another relative's lost income where both partners serve, or for a single parent.
+
+**Older Keren claims still inside the 31.12.2026 cutoff.** For service up to 31.12.2025 these are judged under the previous regulations, section 2.11, whose conditions are looser than the 2026 restatement. All are paid without the 25% tax:
+
+- **NIS 4,500 to the reservist**, after 45+ consecutive days of service and release, where ON THE RELEASE DAY they were not entitled to unemployment benefit and were on unpaid leave (חל"ת), not employed, or not self-employed. The request opens a month after release.
+- **NIS 4,500 to the partner** of a reservist with 45+ days of service (no consecutive-days requirement), with a shared child under 14, where for at least 21 days of the qualifying service the partner was not entitled to unemployment benefit and was on חל"ת, not employed, or not self-employed.
+- **NIS 10,700 to the partner of a reservist with 45+ days of service** who did not return to work for 21+ days beyond the paid maternity-leave period, at least 21 of them while the reservist was in qualifying service (also paid where the birth fell during צו 8 service and the extended leave overlaps the 30 days after release). Not combined with the NIS 4,500 partner grant.
+- **A further NIS 4,500 to the partner of a combat reservist** with 120+ days under צו 8, for a separate 21-day period that does not overlap the one counted above.
+
+### Deadlines to check before the end of 2026 (as of 25.09.2026)
+
+| Date | What closes or is due |
+|------|-----------------------|
+| 30.09.2026 | Student tuition window: 50+ days between 23.10.2025 and 30.09.2026 |
+| 30.09.2026 | Manak Nezek Akif, July-August 2024 period |
+| 30.11.2026 | Manak Nezek Akif, September-October 2024 period |
+| During tax year 2026 | Employees: Form 101 part ח' item 16 with the IDF confirmation, for 2025 combat days. Once the year has ended: an online refund request, up to 6 years back. Self-employed: the annual return |
+| 31.12.2026 | Keren HaSiyua requests for entitlement periods 07.10.2023 to 31.12.2025 (judged under the 23.07.2025 regulations) |
+| 31.12.2026 | Manak Nezek Akif, every period from November-December 2024 to May-June 2026 |
+| 01.05.2027 | Payment date for 2026 Tagmul Nosaf and Tagmul Meyuchad (nothing to file) |
 
 ## Service-Connected Injury and PTSD: Misrad HaBitachon Track
 
@@ -259,7 +329,7 @@ Joint program of the Tax Authority's Property Tax Compensation Fund and IDF Kere
 | Osek patur | Bimonthly payments NIS 2,000-9,000 based on reserve days and reported income |
 | Osek murshe | Turnover-decline tracks (different filing windows) |
 
-**Filing windows open on staggered dates but nearly all close together.** Every eligibility period from November-December 2024 onward closes on **31.12.2026**, so they are not short or rolling. Only the 2024 periods expire earlier (January-February and March-April 2024 closed 31.05.2026; May-June 2024 closes 31.07.2026; July-August 30.09.2026; September-October 30.11.2026). For November-December 2025 the window is **28.01.2026 to 31.12.2026**. The page also states a general rule that a request is filed `תוך 3 חודשים מסיום תקופת הזכאות`. Check the current table on the gov.il service page before quoting any date.
+**Filing windows open on staggered dates but nearly all close together.** Every eligibility period from November-December 2024 onward closes on **31.12.2026**, so they are not short or rolling. Only January-October 2024 periods expire earlier: January-February and March-April 2024 closed 31.05.2026, May-June 2024 closed 31.07.2026, July-August 2024 closes 30.09.2026 and September-October 2024 closes 30.11.2026. For November-December 2025 the window is **28.01.2026 to 31.12.2026**, and the 2026 periods published so far (January-February, March-April, May-June 2026) also close 31.12.2026. From 01.01.2026 a further track covers service under any shamap call-up of at least 21 consecutive days, or 30 non-consecutive days within a two-month period ending in an even month (`תוספת למתווה שני`). Table checked 25.09.2026. The page also states a general rule that a request is filed `תוך 3 חודשים מסיום תקופת הזכאות`. Check the current table on the gov.il service page before quoting any date.
 
 ## Bank Israel Relief Framework
 
@@ -315,7 +385,7 @@ To activate: update the IDF portal under "miktzo'a ezrachi" (NOT "haskala") with
 | Bituach Leumi salary reimbursement | Active | Active (permanent) + Amendment 253 income basis fix (May 2025) |
 | Tagmul Nosaf (annual, IDF) | Active | Active; 10+ cumulative shamap days in a calendar year, paid by 1 May of the following year. Carries a special 25% tax under s.19(e)(1) and confers NO credit points |
 | Tagmul Meyuchad (base band days 32-60, plus a year-specific rate beyond 60) | Active | Active; Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. IDF payment, not BTL |
-| Tax credits | Wartime special credits | New 15-tier system for combat (Amendment 283); 2028 threshold drops to 20 days |
+| Tax credits | Wartime special credits | New 15-tier system for combat (Amendment 283); service from 2027 takes the permanent 20-day table |
 | Minimum compensation (floor) | Active | NIS 9,863/month (NIS 328.76/day, 2026) |
 | Maximum compensation (ceiling) | Active | NIS 51,910/month (NIS 1,730.33/day, 2026) |
 | Keren HaSiyua grant set (tier-banded) | N/A | Active per Government Resolution Jan 25, 2026, most grants pending a dedicated procedure |
@@ -403,7 +473,7 @@ performed, not by today's date, so a question asked in 2026 about 2025 service t
 | Service year | Order types covered | Rate beyond day 60 |
 |---|---|---|
 | 2024 | צו 8 only | Flat NIS 133/day, to end-2024 |
-| 2025 | צו 8 only, to expiry of the order | 133 מערך הלוחם / 60 הגמ"ר / 40 יתר היחידות |
+| 2025 | צו 8 only, to expiry of the order | 133.33 מערך הלוחם / 60 הגמ"ר / 40 יתר היחידות |
 | 2026 | **Any order type** | מדרג א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30 |
 
 For 2026, days served under Section 8 between 07.10.2023 and 31.12.2025 count toward the 60-day
@@ -412,10 +482,10 @@ qualifying tally, so heavy wartime service can cross the threshold early in the 
 
 Three distinctions that are easy to lose: 2024 and 2025 are צו 8 only while 2026 covers any order
 type; the 2026 rate keys off the unit's **מדרג פעילות**, not a לוחם/הגמ"ר role split; and the base
-band is 133.**33** while every beyond-60 rate is a round integer.
+band is 133.**33**, while the 2026 beyond-60 rates are round integers (א'+ is 133, not 133.33; the 2025 combat rate is 133.33).
 
 **Worked example.** 70 shamap days in a מדרג א'+ unit during 2026: days 32-60 pay 29 x 133.33 =
-**NIS 3,866.57**, and days 61-70 pay 10 x 133 on top. Quoting only the day-61 rule loses NIS 3,866.57.
+**NIS 3,866.57**, and days 61-70 pay 10 x 133 = NIS 1,330 on top (the 2026 א'+ rate on the IDF policy page is 133), NIS 5,196.57 in all. Quoting only the day-61 rule loses NIS 3,866.57.
 
 **Commanders** are entitled to tagmul meyuchad for days beyond 60 as such
 (`מפקדים במילואים זכאים לתגמול מיוחד גם על מעבר ל-60 ימי שמ"פ שביצעו בשנה`). The source states the

@@ -1,5 +1,42 @@
 # Changelog
 
+## 2.1.0 - 2026-09-25
+
+Temporal pass on the combat tax credit, the 2026 Keren HaSiyua regulations, and deadlines falling before the end of 2026.
+
+### Fixed
+
+- **The permanent Section 39B table was missing, and the calculator applied the wrong table to 2027 service.** The 30-day table is a temporary provision for tax years 2026 and 2027 (`הוראת שעה בשנים 2026 ו־2027`), which means service in 2025 and 2026. From tax year 2028, that is for combat service from 2027, the permanent rule applies: 20 days = 0.75 point, +0.25 per further five days, capped at 4 points at 85 days. The skill previously framed this as "from 2028" and "planning service across 2027-2028", and the script had no year input, so a reservist with 50 combat days in 2027 would have been told 1.00 point instead of 2.25, and 20-29 days would have been told nothing. The script now takes `--service-year`, applies the right table, returns no credit for 2024 or earlier service, and flags that the 2028 point value is not yet published.
+- **The Keren HaSiyua timing caveat was stale.** The 2026 regulations are published (current to 26.04.2026) and the 2026 budget law has passed; the skill still said neither had happened. Only the per-grant "dedicated policy" condition remains, and the skill now says to check a grant is open rather than that the package is pending.
+- Manak Nezek Akif windows: the January-June 2024 periods have closed, and 2026 periods plus a new 21 / 30-day track from 01.01.2026 are now listed.
+
+### Added
+
+- **Keren HaSiyua filing deadline** (regulation 1.8): entitlement periods from 07.10.2023 to 31.12.2025 must be filed by 31.12.2026; from 2026, within a year of the event.
+- **Partner income-loss compensation** (regulation 3.3.5): tier-banded 100 / 90 / 75 / 50%, 10+ consecutive shamap days, child under 14, NIS 10,000 a month and 40,000 a year, taxable.
+- A prompt to ask about the previous year's combat days, since 2025 service is credited through Form 101 in 2026.
+- A deadlines-before-end-of-2026 table in `references/2026-law-changes.md`.
+- `allowed-tools: Bash(python:*)` in the frontmatter, declaring the one tool the bundled script needs.
+
+### Fix round 1 (verification panel)
+
+- Keren HaSiyua regulations re-cited to the current version of 05.07.2026, which adds Annex B, the transition provision. **Claims for service between 07.10.2023 and 31.12.2025, filed by 31.12.2026, are judged under the PREVIOUS regulations of 23.07.2025** (Annex B s.7(ב)). The 2026 partner income-loss tier bands are now scoped to 2026 service. A table in references sets out which rules govern which service.
+- 2025 combat-array Tagmul Meyuchad beyond day 60 is 133.33, not 133. 2024 (flat 133) and the 2026 א'+ rate (133) are unchanged. The worked example now totals NIS 5,196.57.
+- The Form 101 route is now sourced: file it with the employer during the year; once the year has ended, use an online refund request up to 6 years back. The unsourced "before the December payroll" wording is removed.
+- "Service in 2024 or earlier earns no credit" is now sourced to the amending law's 01.01.2026 commencement (Tax Authority circular 16.12.2025).
+- Script: the floor note now says what BTL says. The daily tagmul is never below NIS 328.76 for any employee or self-employed person, so a low earner is lifted to the floor. Below 30 days it no longer implies a "standard credit".
+- Added references/domain-checklist.md, and a low-earner row in btl-payment-rules.md.
+
+### Fix round 2 (verification panel)
+
+- The 2023-2025 Keren rules are now sourced from the previous regulations themselves (`עדכני ליום 23/07/2025`), replacing a Kol Zchut summary. Those rules: partner income loss with no tiers, NIS 10,000 a month, and a higher amount through the exceptions committee. Nothing about tax is stated for that track. The NIS 4,500 grants now carry their OLD conditions: a status test on the release day, unpaid leave included, and no consecutive-days requirement for the partner. The NIS 10,700 grant and the 120-day combat-partner grant are listed.
+- Script: zero income is now reported as "paid the floor directly", not as "above the floor". The working-youth minimum of NIS 114.73/day is noted, and the same row is added to btl-payment-rules.md.
+
+### Evidence
+
+- 23 legacy entries normalised to the canonical schema (`id` to `claim_id`, `fetched_at`, `appears_in`).
+- 13 Kol Zchut entries that were unreachable to plain fetches were re-read in a browser; five snippets had drifted with page edits and were re-sliced to the current text.
+
 ## 2.0.3 - 2026-08-19
 
 Closed the unevidenced procedural cluster carried since 2.0.1. Seven claims were checked against primary sources: two stood, one stood with a boundary the skill was missing, three were wrong, and one was unsupported anywhere.

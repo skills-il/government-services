@@ -3,6 +3,7 @@ name: israeli-miluim-manager
 description: Comprehensive guide to Israeli reserve duty (miluim) rights, compensation, tax benefits, employer obligations, IDF grants and the Ministry of Defence disability track. Use when a reservist, employer or family member needs help with the four payment tracks, where only salary reimbursement comes from Bituach Leumi and tagmul nosaf, tagmul meyuchad and the over-age tagmul are all paid by the IDF; the two-layer tagmul meyuchad (flat 133.33/day for days 32-60, then a rate set by the service year); Keren HaSiyua grants banded by activity tier; Amendment 283 combat tax credits, granted the tax year after service; employment protection and its two different committees; state-funded legal representation; deferring or shortening a call-up; or appealing a rejected Bituach Leumi claim within 12 months to the Labour Court. Do NOT use for active-duty conscription, draft deferral policy, or career military matters.
 license: MIT
 compatibility: Requires Claude Code or compatible AI coding agent
+allowed-tools: Bash(python:*)
 ---
 
 
@@ -24,7 +25,6 @@ A form submitted to an authority is a document whose contents are your responsib
 | Miluim | מילואים | Reserve duty service |
 | Tsav 8 | צו 8 | Emergency call-up order |
 | Tsav Kriah | צו קריאה | Routine call-up notice |
-| Keva | קבע | Career military (not miluim) |
 | Mashak Tash | משק ת"ש | Welfare NCO (handles hardship requests) |
 | Aka | אכ"א | IDF Personnel Directorate |
 | Ishur Lochem | אישור לוחם | Combat confirmation (required for Amendment 283 credit) |
@@ -107,7 +107,7 @@ Those 60-day windows are unrecoverable once missed: ask when the person last wor
 
 *Tagmul Meyuchad* is **two stacked layers**, and quoting only one under-pays the user:
 - **Days 32-60**: flat **NIS 133.33 per shamap day**. Over-age reservists get it from the **first** day.
-- **Beyond day 60**: the rate depends on the **service year**, selected by service date and not by today's date. 2024 (צו 8 only) flat 133; 2025 (צו 8 only) 133 לוחם / 60 הגמ"ר / 40 other; 2026 (any order type) banded by unit tier א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30. For 2026, Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. Paid 01.05.2027 by Mofet. Unit tier: **1111 ext. 4, then 1**.
+- **Beyond day 60**: the rate depends on the **service year**, selected by service date and not by today's date. 2024 (צו 8 only) flat 133; 2025 (צו 8 only) 133.33 לוחם / 60 הגמ"ר / 40 other; 2026 (any order type) banded by unit tier א'+ 133 / א' 113 / ב' 86 / ג' 60 / ד' 40 / ה' 30. For 2026, Section 8 days from 07.10.2023 to 31.12.2025 count toward the 60. Paid 01.05.2027 by Mofet. Unit tier: **1111 ext. 4, then 1**.
 
 Worked example: 70 shamap days in a מדרג א'+ unit in 2026 earns days 32-60 (29 x 133.33 = **NIS 3,866.57**) PLUS the banded rate for days 61-70. **Commanders** are entitled beyond day 60 as such, but no source gives a rate for those days, so do not quote one.
 
@@ -117,17 +117,19 @@ The three IDF tagmulim are stated by the IDF to be free of income tax, in contra
 
 ### Step 4: 2026 Tax Benefits for Combat Reservists
 
-Amendment 283 to the Income Tax Ordinance (Section 39B, marked in the consolidated text as amendment תשפ"ו) introduced a graduated tax credit system for **combat reservists** based on days served. These apply to tax years 2026-2027 and are managed through the Israel Tax Authority (Rashut HaMisim, רשות המסים).
+Amendment 283 to the Income Tax Ordinance (Section 39B, marked in the consolidated text as amendment תשפ"ו) introduced a graduated tax credit system for **combat reservists** based on days served. The 30-day table below is a temporary provision for tax years 2026-2027 (service in 2025-2026); a permanent 20-day rule follows it. Managed through the Israel Tax Authority (Rashut HaMisim, רשות המסים).
 
-**The credit is given in the tax year AFTER the service year.** Section 39B opens `בחישוב המס לשנת המס של יחיד ששירת שירות מילואים כלוחם בשנת המס שקדמה לה`, so combat service in 2025 produces a credit in 2026, and 2026 service produces a credit in 2027. Never tell a reservist their current-year service reduces their current-year tax.
+**The credit is given in the tax year AFTER the service year.** Section 39B opens `בחישוב המס לשנת המס של יחיד ששירת שירות מילואים כלוחם בשנת המס שקדמה לה`, so combat service in 2025 produces a credit in 2026, and 2026 service produces a credit in 2027. Current-year service never reduces current-year tax.
 
-**Important:** These credits apply ONLY to **combat days** (yamei lochem), starting at 30. Under 30 combat days, and non-combat service, get NO Amendment 283 credit, and there is no separate "standard reservist" point (every resident already gets 2.25 base points; the combat credit is added on top, only for 30+ confirmed combat days with ishur lochem).
+**Important:** These credits apply ONLY to **combat days** (yamei lochem), starting at 30 (20 for service from 2027). Below that, and for non-combat service, there is NO Amendment 283 credit and no "standard reservist" point (every resident already has 2.25 base points; this credit is added on top, only with ishur lochem).
 
-The credit scales 0.25 points per 5 combat days: 30-39 days = 0.50, 50-54 = 1.00, 70-74 = 2.00, 90-94 = 3.00, 110+ = 4.00 (max). Under 30 combat days, and all non-combat service, earn nothing. Full 15-row table in `references/2026-law-changes.md`.
+The 2025-2026 service table scales 0.25 points per 5 combat days: 30-39 days = 0.50, 50-54 = 1.00, 70-74 = 2.00, 90-94 = 3.00, 110+ = 4.00 (max). Full 15-row table in `references/2026-law-changes.md`.
 
 One credit point (nekudat zikui) = NIS 242/month = NIS 2,904/year (2026 value, frozen through 2027).
 
-**From tax year 2028:** The minimum qualifying threshold drops from 30 days to **20 days** (20 days = 0.75 credit points, +0.25 per additional 5 days, max 4 points). Reservists planning service across 2027-2028 should account for this when projecting credits.
+**Ask about LAST year's combat days too.** 2025 combat service is credited in tax year 2026: employees file Form 101 with the IDF confirmation, or after year-end an online refund request (up to 6 years back).
+
+**Service from 2027 (tax year 2028 on):** the permanent rule in Section 39B(a)(1)-(2) applies: **20 days = 0.75 points**, +0.25 per further 5 days, max 4 (reached at 85 days). So 50 days served in 2027 earns 2.25 points, not 1.00. Pick the table by SERVICE year (script: `--service-year`). Service in 2024 or earlier earns no Section 39B credit.
 
 **How to claim:**
 1. Download **both** confirmations from miluim.idf.il: the service confirmation (אישור שירות מילואים) and the combat confirmation (אישור לוחם). The Tax Authority rejects tier claims without the lochem confirmation even when the days qualify
@@ -146,7 +148,9 @@ The 2026 grants, with thresholds and top-tier amounts: מענק משפחה מו�
 
 Full band-by-band tables, including every שובר נופש and סיוע נפשי combination, are in `references/2026-law-changes.md`.
 
-**Timing caveat, state it whenever you quote these:** most 2026 grants are announced but not yet open, the full קרן הסיוע regulations are **not yet published**, and the package depends on the 2026 budget law. Say what a reservist will be entitled to, not that they can claim today.
+**Timing caveat, state it whenever you quote these:** the 2026 קרן הסיוע regulations are published (current version 05.07.2026) and the 2026 budget law has passed, but some grants (e.g. סיוע נפשי) open only once a dedicated policy is issued. Check a grant is open before saying the reservist can claim it. **Keren deadline:** requests for entitlement periods 07.10.2023-31.12.2025 close **31.12.2026** and are judged under the PREVIOUS (23.07.2025) regulations; from 2026, within a year of the event.
+
+**Partner income loss** (Keren regulation 3.3.5, for 2026 service): a working partner's income lost during the service is compensated by tier (א'+ up to 100%, א' 90%, ב' 75%, ג'-ה' 50% of the computed loss). It needs 10+ consecutive shamap days in the calendar year and a child under 14 (special-needs child under 21), is capped at NIS 10,000 a month and 40,000 a year, and taxable (2023-2025 claims: see references).
 
 **How to claim:** log in to miluim.idf.il, update personal status (married, children, location, education under "miktzo'a ezrachi", NOT "haskala") since eligibility computes from it, then check the "Manakim VeHatavot" tab. Some grants pay automatically via Mofet; others need a request.
 
@@ -179,22 +183,13 @@ Reserve service does NOT consume vacation days, and an employer may not force a 
 
 ### Step 9: Bank Israel Relief and Practical Accommodations
 
-The Bank of Israel runs a periodically renewed reservist relief framework (mortgage and loan deferrals, overdraft concessions). **Never quote a ceiling or percentage for it:** the figures this skill used to carry rested on a Bank of Israel page that no longer resolves and were removed rather than restated. Send the user to their bank and to bankisrael.org.il, with Form 3010, asking for sherut lakuchot miluim.
+The Bank of Israel runs a periodically renewed reservist relief framework (mortgage and loan deferrals, overdraft concessions). **Never quote a ceiling or percentage for it**: none could be sourced. Send the user to their bank and to bankisrael.org.il, with Form 3010, asking for sherut lakuchot miluim.
 
 **Travel** is reimbursed: pick rav-kav, fuel, or waiver on miluim.idf.il up to **two days** before reporting. Missing that forfeits nothing, and fuel is claimable **retroactively**. Cap NIS 66/day.
 
 ### Step 10: Students in Higher Education
 
-For tashpa"u (academic year 2025-26): a student who served **50+ qualifying shamap days between 23.10.2025 and 30.09.2026** gets help with tuition at a recognized higher-education, arts, or MAHAT technological institution. The 50 days are only the gate. **The share of tuition covered is then banded by מדרג, and 100% is the top tier only:**
-
-| מדרג | Share of tuition covered |
-|------|--------------------------|
-| א'+ | 100% |
-| א' | 85% |
-| ב' | 65% |
-| ג' | 30% |
-| ד' | 30% |
-| ה' | 22% |
+For tashpa"u (academic year 2025-26): a student who served **50+ qualifying shamap days between 23.10.2025 and 30.09.2026** gets help with tuition at a recognized higher-education, arts, or MAHAT technological institution. The 50 days are only the gate. **The share of tuition covered is then banded by מדרג, and 100% is the top tier only:** א'+ 100%, א' 85%, ב' 65%, ג' 30%, ד' 30%, ה' 22%.
 
 A reservist already on a state-funded scholarship gets this only for the uncovered remainder. Tiers א'+/א'/ב' with 50+ days who do NOT qualify get vocational-training vouchers via the Ministry of Labor instead. Tier א'+ STEM undergraduates also get tutoring.
 
@@ -213,7 +208,7 @@ Actions:
 4. Amendment 283 credit: 40-49 day tier = 0.75 points = NIS 2,178/year, only with the ishur lochem, and credited in the tax year AFTER the service year
 5. Note Tagmul Nosaf is an IDF payment due by 1 May next year
 6. Note digital wallet eligibility (accrues from day 10) and check miluim.idf.il for Aka grants
-Result: Employee understands full rights, employer obligations, exact tax credit value, and Aka grant access path.
+Result: full work rights, the tax credit value, and the Aka grant path.
 
 ### Example 2: Self-Employed Reservist Filing for Compensation
 User says: "I am a freelancer and just finished 3 weeks of miluim. How do I get compensated?"
@@ -236,14 +231,14 @@ Result: Freelancer files claim, receives compensation directly from Bituach Leum
 - `references/troubleshooting.md` -- full error scenarios: employer refusing salary, rejected BTL claim, rejected combat credit, dismissal in the protected window.
 
 ### Scripts
-- `scripts/miluim-tax-credit-calculator.py` -- estimates Amendment 283 combat credits for 2026-2027 from combat days and monthly income, using the 15-tier system, and flags the 2028 threshold drop. Run: `python scripts/miluim-tax-credit-calculator.py --help`
+- `scripts/miluim-tax-credit-calculator.py` -- estimates Amendment 283 combat credits from combat days, income and `--service-year` (15-tier table for 2025-2026 service, permanent 20-day rule from 2027). Run: `python scripts/miluim-tax-credit-calculator.py --help`
 
 ## Recommended MCP Servers
 
 | MCP | What It Adds |
 |-----|--------------|
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Direct access to Israel's authoritative rights and entitlements knowledge base; covers tagmul nosaf, tagmul meyuchad, miluim taxation, and all benefits referenced here |
-| [Data.gov.il Advanced](https://agentskills.co.il/he/mcp/data-gov-il) | Access to Israeli government datasets including Bituach Leumi reference data; useful for cross-checking benefit amounts and eligibility tables |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Kol Zchut rights pages: tagmul nosaf, tagmul meyuchad, miluim taxation |
+| [Data.gov.il Advanced](https://agentskills.co.il/he/mcp/data-gov-il) | Government datasets, including Bituach Leumi reference data |
 
 ## Reference Links
 
@@ -265,18 +260,15 @@ Result: Freelancer files claim, receives compensation directly from Bituach Leum
 - **Tagmul Meyuchad is two layers.** Days 32-60 pay a flat 133.33/day; only the rate BEYOND day 60 is year-specific and tier-banded. Quoting the day-61 rule alone silently drops up to NIS 3,866.57 from a long call-up, and tells anyone with 32-60 days they get nothing.
 - **The beyond-60 rate is selected by SERVICE YEAR, not today's date.** 2024 flat 133 and 2025 three bands are both צו 8 only; 2026 is six tier-bands, any order. In 2026 the commonest live question is 2025 service, which takes the 2025 table.
 - **The 40% supplement is a REMAINDER rule, not a flat uplift.** Divide service days by 7; only the remainder earns it (0 = nothing, so 7 / 14 / 21 days earn none; 6 = +1 day). Self-employed get an ADDITIONAL 25%, capped so the combined daily total never exceeds 1,730.33.
-- **BTL does NOT offset an existing debt against reserve pay** unless the recipient asks it to. Never tell a reservist arrears are blocking their payout and that clearing them will release it. Tagmul is also paid for days absent through illness, leave or injury.
 - **The BTL tagmul is paid net of income tax**, and BL/health contributions settle differently by claim route. That is usually why a deposit looks short.
 - **A rejected BTL claim goes to the Labour Court within 12 months of delivery of the decision.** The 6-month window belongs to ועדת תביעות, which only RECOMMENDS reconsideration and does NOT pause the clock. Free MoJ legal aid, no means test. That no-means-test track covers Labour Court proceedings **where Bituach Leumi is a party**, and expressly excludes a claim for insurance contributions or a claim **against an employer**. A reservist suing their EMPLOYER over withheld reserve pay falls outside it and back onto the ordinary income test.
 - Service-connected injury and PTSD go to Agaf HaShikum at **shikum.mod.gov.il**, NOT BTL and NOT hachvana.mod.gov.il (the discharged-soldiers department). Wrong-agency filing is the top cause of denied claims. Hotline Aka **8944**.
 - **Dismissal protection is two instruments with two committees.** 30 days = s.41A(b), waived by ועדת התעסוקה (Defence). Days 31-60, for 60+ days served incl. 7 consecutive, = an extension order, waived by ועדת פיקוח (Labour). The wrong committee wastes the window. s.41A also bans cutting scope or income, and excludes the period from the notice count.
 - **MoD-funded legal representation exists** for dismissal, שימוע or חל"ת over reserve service. Never present self-funded litigation as the only remedy. Employees only, and it carries a repayment undertaking if the harm proves unrelated.
 - Amendment 283 combat tax credit tiers require **ishur lochem**, not just **ishur sherut miluim**, and the credit lands in the tax year AFTER the service year.
-- **Most 2026 Keren HaSiyua grants are tier-banded.** A single figure quoted without a מדרג is almost always the top-tier value. Confirm at 1111 ext. 4 then 1; the package is budget-conditional.
-- **Form 510 is the EMPLOYER's wage confirmation.** The reservist's personal claim is Form 502.
-- The 20% employer social contribution refund applies to PRIVATE employers only (public sector excluded).
-- Manak Nezek Akif (self-employed): windows OPEN on staggered dates but nearly all CLOSE on 31.12.2026, so "short rolling windows" overstates the urgency. Only 2024 periods expire earlier. A cash grant, not a tax deduction.
-- Tagmul Nosaf is paid in May of the FOLLOWING year, carries a special 25% tax, and confers NO credit points despite being priced in them. The 2028 combat-tier threshold drops from 30 to 20 days.
+- **Most 2026 Keren HaSiyua grants are tier-banded.** A single figure quoted without a מדרג is almost always the top-tier value. Confirm at 1111 ext. 4 then 1, and check the grant is open.
+- Manak Nezek Akif (self-employed): windows OPEN on staggered dates but nearly all CLOSE on 31.12.2026, so "short rolling windows" overstates the urgency. Only January-October 2024 periods expire earlier, most already closed. A cash grant, not a tax deduction.
+- Tagmul Nosaf is paid in May of the FOLLOWING year, carries a special 25% tax, and confers NO credit points despite being priced in them. Combat service from 2027 (tax year 2028) takes the permanent 20-day table.
 
 ## Troubleshooting
 

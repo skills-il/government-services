@@ -9,6 +9,7 @@ payer with different rules, and are documented in `2026-law-changes.md`.
 | Situation | Daily basis |
 |-----------|-------------|
 | Employee | 3-month gross liable wage / 90, clamped to floor and ceiling |
+| **Working, but that wage basis is below NIS 328.76/day** | Lifted to the floor. BTL states `לא פחות ממינימום = 328.76 ש"ח ליום` for monthly, daily and hourly employees and for the self-employed |
 | Under 60 days worked in those 3 months | Choose 3 of the last 6 months |
 | Self-employed | Reported advances (מקדמות) / 90, recomputed on final assessment |
 | **Not working, incl. students** | Flat NIS 328.76/day (NIS 9,863/month) |
@@ -16,6 +17,7 @@ payer with different rules, and are documented in `2026-law-changes.md`.
 | **Discharged from keva within 60 days** | May be paid at the keva salary |
 | **On unemployment benefit above NIS 328.76/day** | Tagmul equals the unemployment rate, if still entitled during service |
 | 2026 floor / ceiling | NIS 328.76 / NIS 1,730.33 per day (NIS 9,863 / NIS 51,910 per month) |
+| Working youth (נער עובד) | Lower minimum: NIS 114.73/day (25% of the average wage / 30) |
 
 Source (non-workers, keva and unemployment rows), verbatim:
 
