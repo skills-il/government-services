@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-survivor-benefits-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-18T00:00:00Z",
+  "generated_at": "2026-09-25T00:00:00Z",
   "claims": [
     {
       "id": "widow-40-50-no-children-a",
@@ -735,8 +735,8 @@
       "source_fetched_at": "2026-08-18T00:00:00Z",
       "raw_snippet": "סכומי קצבת שאירים חודשית עם תוספת השלמת הכנסה (החל מ- 01.01.2026)",
       "verified_via": "browser",
-      "verified_at": "2026-08-18",
-      "verified_note": "The nine amounts were read from the three rendered HTML tables on this page (rows: 4,375 / 7,305 / 8,426 for under 70; 4,418 / 7,374 / 8,496 for 70-79; 4,460 / 7,442 / 8,563 for 80+).",
+      "verified_at": "2026-09-25",
+      "verified_note": "The nine amounts were read from the three rendered HTML tables on this page (rows: 4,375 / 7,305 / 8,426 for under 70; 4,418 / 7,374 / 8,496 for 70-79; 4,460 / 7,442 / 8,563 for 80+). Re-read 2026-09-25 in Playwright (the URL now redirects to t.hvtachat.hachnasa/Pages/schumimTosefetHH.aspx); all nine amounts unchanged.",
       "confidence": "high"
     },
     {
@@ -801,17 +801,17 @@
       "source_fetched_at": "2026-08-18T00:00:00Z",
       "raw_snippet": "שיעור הקצבה באחוזים מקצבת נכות מלאה מעבודה",
       "verified_via": "browser",
-      "verified_at": "2026-08-18",
-      "verified_note": "Read from the four rendered HTML rate tables on this page; the orphans-alone table gives 60/80/90/100 and the other-dependants table gives 50/75/90/100.",
+      "verified_at": "2026-09-25",
+      "verified_note": "Read from the four rendered HTML rate tables on this page; the orphans-alone table gives 60/80/90/100 and the other-dependants table gives 50/75/90/100. Re-read 2026-09-25 by plain fetch; the page serves these tables as text, values unchanged.",
       "confidence": "high"
     },
     {
       "id": "dependents-60-percent-any-age",
-      "claim": "A childless widow(er) under 50 who cannot support herself is paid a monthly dependents' allowance of 60% of a full work-disability pension at any age; a widow who was pregnant at the death is paid 60% until the birth and 80% afterwards.",
+      "claim": "A childless widow(er) under 50 is paid a monthly dependents' allowance of 60% of a full work-disability pension, at any age, if unable to support themselves from work shortly before the death or within one year of it; a one-time grant already paid is set off against the allowance. A widow who was pregnant at the death is paid 60% until the birth and 80% afterwards.",
       "claim_type": "rate",
       "source_url": "https://www.btl.gov.il/benefits/Work_Injury/%d7%96%d7%9b%d7%95%d7%99%d7%95%d7%aa%20%d7%91%d7%a0%d7%99%20%d7%9e%d7%a9%d7%a4%d7%97%d7%94%20%d7%a9%d7%9c%20%d7%a0%d7%a4%d7%98%d7%a8%20%d7%9e%d7%a4%d7%92%d7%99%d7%a2%d7%94%20%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%94/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
-      "source_fetched_at": "2026-08-18T00:00:00Z",
-      "raw_snippet": "במקרים הבאים יהיו זכאים אלמנה או אלמן שאין עמם ילדים לקצבת תלויים חודשית בשיעור 60% מקצבת נכות מלאה מעבודה, אף אם אינם בני 50 שנה:",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "האלמן/ה לא היו מסוגלים לכלכל את עצמם מעבודה סמוך לפני הפטירה או בתוך שנה מיום הפטירה של המבוטח. אם כבר שולם להם מענק חד פעמי, ייזקף המענק (יהפוך לחוב) על חשבון הקצבה המגיעה להם.",
       "confidence": "high"
     },
     {
@@ -891,8 +891,8 @@
       "source_fetched_at": "2026-08-18T00:00:00Z",
       "raw_snippet": "את התביעה לקצבת שאירים יש להגיש לא יאוחר מ-12 חודשים מיום הפטירה",
       "verified_via": "browser",
-      "verified_at": "2026-08-18",
-      "verified_note": "Kol Zchut returns HTTP 403 to plain fetches. Rendered in Playwright on 2026-08-18 with location.href asserted as the requested page and title \"קצבת שאירים (זכות) - כל-זכות\"; the snippet appears verbatim in the page lead.",
+      "verified_at": "2026-09-25",
+      "verified_note": "Kol Zchut returns HTTP 403 to plain fetches. Rendered in Playwright on 2026-08-18 with location.href asserted as the requested page and title \"קצבת שאירים (זכות) - כל-זכות\"; the snippet appears verbatim in the page lead. Re-confirmed 2026-09-25 in the Playwright MCP browser with location.href asserted; the snippet is present.",
       "confidence": "high"
     },
     {
@@ -932,6 +932,162 @@
       "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/nimneEmSherim/Pages/alman.aspx",
       "source_fetched_at": "2026-08-18T00:00:00Z",
       "raw_snippet": "אם לאלמן יש ילד העונה על הגדרת יתום , לא תיערך בדיקת הכנסות.",
+      "confidence": "high"
+    },
+    {
+      "id": "abroad-3-months",
+      "claim": "A survivor staying abroad is paid the survivor's allowance for up to 3 months, into the Israeli bank account; a stay beyond 3 months must be reported to the branch.",
+      "claim_type": "procedure",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%d7%a9%d7%94%d7%99%d7%99%d7%94%20%d7%91%d7%97%d7%95%d7%9c.aspx",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "תשולם לך קצבת השאירים בחו\"ל לתקופה של עד 3 חודשים",
+      "confidence": "high"
+    },
+    {
+      "id": "abroad-life-certificate",
+      "claim": "A survivor abroad who receives the allowance must send a signed life certificate once a year.",
+      "claim_type": "procedure",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%d7%a9%d7%94%d7%99%d7%99%d7%94%20%d7%91%d7%97%d7%95%d7%9c.aspx",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "נדרשים פעם בשנה להמציא טופס \"אישור חיים\"",
+      "confidence": "high"
+    },
+    {
+      "id": "abroad-income-supplement",
+      "claim": "An income-supplement recipient below retirement age is not paid the supplement for any full calendar month abroad; from the second trip in a calendar year, it is also withheld for the months of departure and return.",
+      "claim_type": "procedure",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%d7%a9%d7%94%d7%99%d7%99%d7%94%20%d7%91%d7%97%d7%95%d7%9c.aspx",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "ביציאתך השנייה לחו\"ל וביציאות הבאות לחו\"ל - לא תשולם לך תוספת השלמת ההכנסה בעבור החודש שבו יצאת לחו\"ל וגם בעבור החודש שבו חזרת מחו\"ל",
+      "confidence": "high"
+    },
+    {
+      "id": "abroad-special-allowance",
+      "claim": "The special survivors' allowance continues on a temporary stay abroad for only one calendar month after a month from departure, and stops from the month of departure on a long stay.",
+      "claim_type": "procedure",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/Pages/%d7%a9%d7%94%d7%99%d7%99%d7%94%20%d7%91%d7%97%d7%95%d7%9c.aspx",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "היא תמשיך לקבל את הגמלה המיוחדת במשך חודש קלאנדרי אחד בלבד",
+      "confidence": "high"
+    },
+    {
+      "id": "tax-btl-survivors-exempt",
+      "claim": "Under section 9(6ג) of the Income Tax Ordinance the Bituach Leumi survivor's allowance (chapter 11) and the dependents' allowance are exempt from income tax.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "קצבת אזרח ותיק וקצבת שאירים המשתלמות לפי פרק י\"א לחוק האמור, וקצבת תלויים",
+      "confidence": "high"
+    },
+    {
+      "id": "tax-fund-survivors-ceiling",
+      "claim": "Under section 9(6ו)(ב) a survivors' pension from a provident fund, an insurance plan or a budgetary pension, not derived from exempt payments, is exempt only up to the qualifying-pension ceiling.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "והכל בסכום שאינו עולה על תקרת הקצבה המזכה",
+      "confidence": "high"
+    },
+    {
+      "id": "budgetary-remarriage-2026",
+      "claim": "The Survivors' Pensions of Permanent-Service and State-Service Members Law (Legislative Amendments), 2026, passed 14 January 2026 and in force from 01.02.2026 (the first of the month after publication on 18.1.2026), deletes the words \"as long as he has not remarried\" from the budgetary survivors' pension provisions, so remarriage no longer ends it. Payments run only from commencement, including for deaths before it (s.3(ב)); a newly entitled survivor whose cause of claim arose at least two years earlier must claim within two years of commencement (s.3(ו)). Section 3(ג): a spouse who was already paid a grant (half or full) under s.27 of the Permanent Service Pensions Law or s.31 of the State Service Pensions Law is paid from commencement if 18 or 36 months have passed since the half-grant payment, and otherwise from the end of those 18 or 36 months, with the difference paid for the interim months.",
+      "claim_type": "law",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_10912219.pdf",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "המילים \"כל עוד לא נישא\" - יימחקו",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-26",
+      "verified_note": "Read from the Reshumot Sefer HaChukim 3484 PDF (18 January 2026) via pdftotext: section 1 amends the IDF Permanent Service (Pensions) Law (No. 38) and section 2 the State Service (Pensions) Law (No. 68), deleting \"כל עוד לא נישא\" in several provisions; the footnote states it passed the Knesset on 14 January 2026; section 3 sets commencement on the 1st of the month after publication. Section 3(ב) (read 2026-09-26 via pdftotext -raw): the Act also applies to survivors of those who died before commencement, but payments are made only from commencement. Section 3(ו): for a survivor newly entitled under the new law, the limitation in s.57 / s.50 reads \"בתום שנתיים מיום התחילה\", provided at least two years passed from when the cause of claim arose. Section 3(ג)(1)-(3) read 2026-09-26 via pdftotext -raw."
+    },
+    {
+      "id": "dependents-widow-child-aged-out",
+      "claim": "In the dependents' track, a childless widow (not a widower) is paid 60% even under 50 if at the death she had an entitled child who is no longer entitled.",
+      "claim_type": "eligibility",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/%d7%96%d7%9b%d7%95%d7%99%d7%95%d7%aa%20%d7%91%d7%a0%d7%99%20%d7%9e%d7%a9%d7%a4%d7%97%d7%94%20%d7%a9%d7%9c%20%d7%a0%d7%a4%d7%98%d7%a8%20%d7%9e%d7%a4%d7%92%d7%99%d7%a2%d7%94%20%d7%91%d7%a2%d7%91%d7%95%d7%93%d7%94/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%92%d7%9e%d7%9c%d7%94.aspx",
+      "source_fetched_at": "2026-09-25T00:00:00Z",
+      "raw_snippet": "אם בזמן פטירת המבוטח היה עמה ילד שהיה זכאי לקצבה, ועתה אינו זכאי יותר",
+      "confidence": "high"
+    },
+    {
+      "id": "tax-survivors-from-exempt-payments",
+      "claim": "Under section 9(6ו)(א) of the Income Tax Ordinance a survivors' pension derived from exempt payments is exempt in full.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "קצבת שאירים הנובעת מתשלומים פטורים",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-256a-age-80-addition",
+      "claim": "National Insurance Law s.256A: a widow(er) who has reached 80 is paid, in addition to the allowance, the difference between 18.7% and the s.252(a) rate, with or without children. At 2026 amounts this is the published 80+ row minus the 50+ row: 1,941 - 1,838 = 103 NIS / 103 ₪, so a widow(er) of 80+ with one child gets 2,700 + 103 = 2,803.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "תשולם להם, נוסף על קצבתם, תוספת בשיעור ההפרש שבין 18.7% לבין השיעור האמור בסעיף 252(א)",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-255a-grant-rate",
+      "claim": "National Insurance Law s.255(a): the survivor grant equals the allowance at the s.252(a)(1) rate (17.7%, the 1,838 row) times 36, i.e. 36 x 1,838 = 66,168 NIS / 66,168 ₪ in 2026, plus the s.257 seniority increment.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "ישלם לה המוסד מענק בסכום השווה לקצבת שאירים לפי שיעור הקצבה כאמור בסעיף 252(א)(1) כפול שלושים ושש",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-252c2-no-parent",
+      "claim": "National Insurance Law s.252(c)(2): where the orphans have no parent, or the parent lives abroad permanently, each child is paid 11% of the basic amount (the 1,142 single-child rate).",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "אם אין לילדים הורה, או שההורה גר דרך קבע בחוץ לארץ, תשולם הקצבה בעד כל ילד מהילדים בשיעור של 11% מהסכום הבסיסי",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-256-aged-out-widow",
+      "claim": "National Insurance Law s.256: a widow entitled to the survivor's allowance who had a child with her who is no longer with her is paid as if she were 50.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "אלמנה הזכאית לקצבת שאירים, שהיה עמה ילד ואינו עמה עוד, תשולם לה קצבה כאילו היא בת 50 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-257-seniority-conditions",
+      "claim": "National Insurance Law s.257: the seniority increment is paid only if the deceased was an insured worker and all contributions were paid, 2% for each insurance year for which contributions were paid, capped at 50%.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "ושולמו כל דמי הביטוח",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-130a5-widower-dependant",
+      "claim": "National Insurance Law s.130(a)(5): in the work-injury dependants' track a husband is a dependant (widower) only while a child is with him, or he cannot support himself, or his income does not exceed Table 9.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "כל עוד יש עמו ילד או אינו מסוגל לכלכל עצמו או הכנסתו אינה עולה על האמור בלוח ט׳",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-132-3-4-as-if-50",
+      "claim": "National Insurance Law s.132(3) and (4): in the dependants' track a widow unable to support herself from work on the eve of the death, and a widow whose children are no longer with her, are paid as if aged 50.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "לאלמנה שהיו עמה ילדים ואינם עמה עוד – קצבה כאילו מלאו לה 50 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "nil-260-1-posthumous",
+      "claim": "National Insurance Law s.260(1): a widow who bears the deceased's child after his death is entitled to the allowance from the date of death, and a grant already paid is set off against it.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "source_fetched_at": "2026-09-26T00:00:00Z",
+      "raw_snippet": "אלמנה שילדה לו ילד אחרי מותו תהיה זכאית לקצבה החל ביום פטירתו של המבוטח",
       "confidence": "high"
     }
   ]

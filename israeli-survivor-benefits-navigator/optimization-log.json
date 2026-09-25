@@ -31,6 +31,30 @@
         "Still unverified: the claim that a widower with a qualifying child is not income-tested at all. The bdikatHachnasot page states the 7,848 ceiling and the 2,093 deduction but says nothing about a child exemption in either fetch. Content left as is rather than deleted, per the do-not-delete-on-fetch-failure rule, and carried forward.",
         "Still unverified and carried forward from 1.3.0: harb.cma.gov.il and itur.mof.gov.il return 403 to automated fetches and need a browser check, and the Amitim 60/20/40/15 pension-fund split is not a BTL rate and needs the fund takanon."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-09-25",
+      "lessons": [
+        "Resolved CARRY: the widower qualifying-child carve-out IS on btl.gov.il (alman.aspx: 'אם לאלמן יש ילד העונה על הגדרת יתום, לא תיערך בדיקת הכנסות'). The 1.3.1 lesson looked at bdikatHachnasot.aspx, the wrong sub-page. Checker caveat still says only 'a widower has an income test'; the orchestrator should correct it (text only, no constant).",
+        "Resolved CARRY from 1.3.0: rules for a survivor abroad and income-tax treatment now live in references/after-the-claim.md. Correction to the 1.3.0 note: a pension-fund survivors' pension is NOT simply taxable; s.9(6ו)(ב) exempts it up to the qualifying-pension ceiling.",
+        "Resolved CARRY from 1.3.0: frontmatter descriptions now open with the legal clause; this changed the description, so Phase 5.7 must run.",
+        "Temporal finding: the 2026 budgetary survivors' pension law (Reshumot 3484, in force 01.02.2026) removed the remarriage bar for career-army and state-service survivors. Only the remarriage limb was encoded; the under-35 childless change has a transition scheme (30-month grant period, age-35 payment) that was not read in full, so it was NOT encoded. Read s.3 of the law before adding it.",
+        "Still deferred (1.3.0 CARRY, re-logged): clawback of allowances deposited after death, child-allowance transfer to the surviving parent, income-support for an orphan child, and the 'savings for every child' account after a parent's death. No primary source opened this cycle; Kol Zchut is Cloudflare-blocked to Playwright headless.",
+        "Still deferred: script does not compute the income supplement or the orphans-alone / other-dependants sub-tables (caveats only).",
+        "Still deferred: SKILL_HE.md register mix (impersonal present vs second-person imperatives); arnona 25%/100 sqm figures unsourced; Amitim 60/20/40/15 split needs the fund takanon; harb.cma.gov.il and itur.mof.gov.il still carried as browser-verified from 2026-08-18, not re-read this cycle.",
+        "Method: 2026 BL indexation was 2.4% for survivors (CPI-linked) per multiple secondary sources; the BTL circular page hozerkizba2026 is JS-only to curl.",
+        "Arithmetic Expert FAIL (F1-F9) fixed in-cycle, all verified against the NI Law text on he.wikisource (s.130(a)(5), 132(3)-(4), 133, 134, 252(c)(2), 255(a), 256, 256A, 257, 260(1)). Root cause: the script collapsed three different tracks' exception rules into one --exception-eligible flag, and the ordinary track imported the work-track 'as if 50' rule. Keep ordinary-track and work-track exceptions as separate flags.",
+        "Published checker survivor-allowance-estimator still freezes F4 (no s.256A 80+ addition with children: 2,700 instead of 2,803 for an 80+ widow(er) with one child) and F6 (no aged-out-child path: a 45-year-old such widow gets 1,381 instead of 1,838; a 37-year-old gets 0). Its seniority label also lacks the s.257 insured-worker/paid-contributions condition. Regenerate in Phase 9.2.",
+        "Deferred: the marriage-grant bullet says '36 monthly allowances'; s.255(b) computes each half at the s.252(a)(1) rate (1,838 row) x 18. Same ambiguity as the survivor grant; clarify next cycle.",
+        "Inference to re-check: s.3(ג) of the 2026 budgetary law refers to grants under s.27 (Permanent Service) / s.31 (State Service); the skill describes these as remarriage grants. Confirm from the principal laws' section headings.",
+        "Arithmetic iteration 2 (PASS) minors: N1, FIX NEXT CYCLE: `--widower --posthumous-child` (ordinary track) silently prints 2,700, but s.260(1) covers only a widow who bears the deceased's child, so the combination is impossible and the script must refuse it.",
+        "Arithmetic iteration 2, N2: `--orphans-alone` silently ignores --age, --widower, --child-aged-out, --posthumous-child and the work flags. The number is right for orphans-alone, but a contradictory surviving-spouse signal should print an ignored-argument note.",
+        "Arithmetic iteration 2, N3: in the work track, `--widower --pregnant` is ignored without a note (the number is still correct). Add a note.",
+        "Arithmetic iteration 2, N4: the ordinary track prints 1,838 plus an income-test caveat for a childless widower, while the work track refuses without an opt-in flag. Consider the same opt-in in the ordinary track (s.238 'אלמן'). The caveat 'above it he is paid a grant' is unsourced for a widower over the ceiling AT the death (under s.238 he is not an אלמן, and the s.255 grant presumes an entitled widower). SKILL.md line 37 covers only the 'income later rises' case. Hedge or source it.",
+        "Judge note: Step 3 lists 'no surviving parent: 1,142 per child' and 'orphan of both parents: 2,284 per child' as separate cases, but they describe the same family (1,142 per insured deceased parent, so 2,284 when both parents were insured). Clarify next cycle.",
+        "Eval E2: 'a confusing Bituach Leumi letter after a death' is ambiguous between this skill and israeli-bureaucracy-decoder. Revisit the trigger boundary next cycle."
+      ]
     }
   ]
 }

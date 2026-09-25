@@ -23,8 +23,12 @@ Effective date on the page: החל מ- 01.01.2026
 
 Notes:
 - There is no cap on the number of eligible children ("אין הגבלה במספר הילדים הזכאים").
-- The "with children" rows already fold in the child portion, so they do not depend on the
-  widow(er)'s age band the way the childless rows do.
+- The "with children" rows already fold in the child portion, so the 40-50 / 50+ age bands do
+  not apply to them. The age-80 addition DOES: under s.256A a widow(er) who has reached 80 is paid
+  the addition (1,941 minus 1,838 = 103 NIS) on top of the allowance, with or without children.
+  A widower of 82 with one child: 2,700 + 103 = 2,803, plus seniority.
+- A widow (not a widower) who had a child with her who is no longer with her is paid as if aged
+  50 (1,838), at any age, including under 40 (s.256).
 - A widow is entitled by law without an income test. A widower without dependent children is
   subject to an income test (see below).
 - Old-age (vatik) pension interaction: a widow(er) entitled to both an old-age pension and a
@@ -43,7 +47,8 @@ A stand-alone orphan allowance is paid in these cases:
 |---|---|
 | Orphan whose parent is not entitled, single child | 1,142 |
 | Orphan whose parent is not entitled, each, when more than one | 862 |
-| Orphan of both parents, per child | 2,284 |
+| No surviving parent, or the parent lives abroad permanently, per child (s.252(c)(2)) | 1,142 |
+| Orphan of both parents, per child (an allowance from each insured parent) | 2,284 |
 
 ## Orphan subsistence allowance (דמי מחיה)
 
@@ -107,6 +112,9 @@ Source: https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20מש
 - Maximum increment: 50% of the base allowance.
 - A full insurance year = 12 insurance months (consecutive or not).
 - Applies to the widow(er) base and to orphan-of-both-parents / parent-not-entitled orphan bases.
+- Conditions (s.257): the deceased was an insured worker (employee or self-employed) and all
+  contributions were paid; only years for which contributions were paid count. Years as a
+  non-working spouse do not count, and there is no increment while contributions are in arrears.
 
 ## Income test for a widower (מבחן הכנסות)
 
@@ -127,12 +135,16 @@ Source: https://www.btl.gov.il/benefits/Work_Injury/זכויות%20בני%20מש
 ## Survivor grant (מענק שאירים), one-time
 
 - For a widow(er) under 40 with no children (and certain income cases).
-- Amount: 36 monthly survivor's allowances.
+- Amount: 36 allowances at the s.252(a)(1) rate, the 1,838 row (66,168 NIS in 2026), plus the
+  seniority increment (s.255(a), s.257). Not 36 x 1,381.
+- Work-related-death track: 60% x 36 of the full work-disability pension (s.133(a)).
 - Exception (monthly allowance instead of the grant): an under-40 childless widow(er) still gets
   the monthly allowance if she is pregnant with or later bears the deceased's child (treated as a
-  widow(er) with a child, entitled from the date of death), and, in the work-related-death
-  (dependents') track, if she was unable to support herself from work at the time of death (paid
-  as if she were 50, regardless of age).
+  widow(er) with a child, entitled from the date of death, s.260(1)); if a widow had a child with
+  her who has since aged out (s.256); and, in the work-related-death (dependents') track only, if
+  she could not support herself from work shortly before the death or within a year of it (paid
+  as if she were 50, regardless of age, s.132(3), s.134). Inability to work does NOT create a
+  monthly allowance in the ordinary track.
 
 ## Marriage grant (מענק נישואים) on remarriage, one-time
 

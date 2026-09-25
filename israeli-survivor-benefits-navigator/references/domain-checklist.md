@@ -33,7 +33,7 @@ Because this skill computes an amount, each categorical row of the rate table is
 
 ### Other death-triggered benefits
 - [x] Death grant (מענק פטירה), one-time 10,514 NIS, automatic, covered by form 410
-- [x] Survivor grant (מענק שאירים), one-time = 36 monthly allowances, widow(er) under 40 no children / income cases
+- [x] Survivor grant (מענק שאירים), one-time = 36 allowances at the 1,838 rate plus seniority (s.255(a)), widow(er) under 40 no children / income cases
 - [x] Special survivors' allowance (גמלת שאירים מיוחדת), non-insured olim, form 4506
 - [x] Income supplement (תוספת השלמת הכנסה), form 430 plus income declaration 412, WITH the full 3-age-band x 3-family-composition amount table (4,375 to 8,563), added v1.3.0
 - [x] Separated widow: the four alternative conditions (separation under 36 months, cohabitation in the last year, maintenance paid or owed, an increment paid for her in his pension), added v1.3.0
