@@ -139,7 +139,16 @@ After 91 days, permanent disability determined by medical committee.
 | Daily cap | 1,730.33 NIS/day (max insurable income 51,910 ÷ 30) |
 | Daily minimum | 328.76 NIS/day |
 | Calculation | 100% of last 3 months avg daily wage (gross ÷ 90) |
+| Self-employed | Reported advances in the 3 months before service ÷ 90, recomputed once the final tax assessment arrives, PLUS a separate 25% compensation for a registered self-employed person who paid contributions regularly; reward and compensation together are capped at the maximum reward. The 25% is computed on the SELF-EMPLOYED income only (the minimum reward if that income is below it), also for someone who is both salaried and self-employed. For service in 2023-2024 BTL pays on the final assessment or the advance base, whichever is higher (advances reported by 31.10.2024); for 2025, on the highest of the advances reported by 31.10.2024, the 2024 assessment and the 2025 assessment, so a recalculation for those years should not create a debt |
 | Claim window | 7 years from end of service |
+
+**Partial-week supplement (the "40% supplement").** It is not paid on every day. Divide the service days by 7; the remainder adds paid days: remainder 1 adds 0.4 day, 2 adds 0.8, 3 adds 1.2, 4 adds 1.6, 5 adds 2, 6 adds 1, and 0 adds nothing. BTL's examples: 20 days pay 21, 22 pay 22.4, 33 pay 35, 60 pay 61.6. (BTL's printed table lists 120 -> 122, which contradicts its own rule, 120 -> 120.4; follow the rule.) It is computed PER STINT: two separate 10-day stints pay 11.2 + 11.2 = 22.4 days, not the 21 that one 20-day stint pays. In the Iron Swords period the service days are paid at the start of the next month, and the supplement about two months after the stint ends (at the end of the war for someone still serving), so an early shortfall is usually just the unpaid supplement. A salaried reservist gets it through the employer. BTL does not say whether the supplement counts toward the 51,910 monthly maximum. Sources: btl.gov.il/benefits/Reserve_Service/Pages/שיעורי הקצבה.aspx, btl.gov.il/HaravotBarzel1/KizbeotHB/MiloeimHB/Pages/MsrtimMiloeim.aspx.
+
+**Salaried reservists.** BTL pays the reward to the employer and the employee keeps receiving salary. If the reward paid to the employer is higher than the salary for the period, the employer must pass the difference on to the employee (BTL: "וגם ההפרש הזה צריך להיות משולם לך"). With several employers the main employer claims, and the reservist claims the rest personally.
+
+**War-time wage-change rule (employees called up again from 1.5.25, emergency period only).** It applies to an employee (or non-worker) called to further service within 3 months (the Iron Swords hub says 90 days) of a previous stint whose gross pay in the 3 months before the current stint differs by 20% or more from the 3 months before an earlier stint. If current pay fell, BTL pays on the earlier, higher pay. If it rose by 20% or more, BTL pays the earlier pay plus 20%; if the rise comes from work alone (not from reserve pay), the employer, or the reservist on a personal claim, can file separately for the rest of the difference. Someone whose first war-time stint was already paid on carried-over pay is excepted. A rise under 20% is paid on current pay as usual. During the emergency the 60-day "wage carry-over" is not available. Source: btl.gov.il/benefits/Reserve_Service/Pages/HisovTAGMOLSatHIROM.aspx.
+
+**Employer compensation (following an amendment to the National Insurance Law).** Private employers (not public bodies) are compensated for the pension and provident contributions and the National Insurance contributions they paid for an employee during reserve service: 20% of the employee's pay in the 3 months before the service ÷ 90, times the service days (for an employee with only one or two months' employment, that month or two ÷ 30 or 60; for a new employee with none, the pay in the service month). It is paid to the employer, not the employee, together with the reserve-pay claim, and retroactively for service since the start of the war. Source: btl.gov.il/benefits/Reserve_Service/Pages/PizoyLmasik.aspx.
 
 ### Long-term Care (Siyud)
 
@@ -191,7 +200,7 @@ Ages 20 to 24: single 1,661 if registering with the employment service, 2,076 if
 | Work injury (dmei pgi'a) | None (covered from day 1 of employment) |
 | General disability | 12 months of NI residency |
 | Old-age pension | 60-144 months by age-at-immigration table |
-| Survivors | 12 of 18 OR 24 of 60 OR 60 total months |
+| Survivors | 12 insured months in the year before death, OR 24 in the last 5 years, OR 60 in the last 10 years, OR 144 in total, OR 60 since first becoming a resident (uninsured months not exceeding insured ones). No qualifying period at all if the deceased was an insured worker (עובד מבוטח) on the eve of death and died within a year of becoming a resident, or before 19, or was the main breadwinner of the spouse or children, or (a woman) died within a year of divorce or widowhood |
 | Reserve duty | 1 day of qualifying NI status |
 | Income support | None (asset + employment tests apply) |
 | Long-term care | None (medical determination only) |
@@ -216,11 +225,18 @@ Ages 20 to 24: single 1,661 if registering with the employment service, 2,076 if
 
 | Decision type | Venue | Deadline |
 |---|---|---|
-| Medical (disability degree, ADL) | Medical Appeals Committee (ועדה רפואית לעררים) | 60 days |
-| Non-medical (eligibility, amount) | Internal Review (ועדת ערר) | 60 days |
-| Final post-appeal | Regional Labor Court (בית הדין האזורי לעבודה) | 12 months |
+| Any decision of the claims officer | Regional Labour Court (בית הדין האזורי לעבודה), nearest the claimant's home | 12 months from receiving the written decision |
+| Non-medical rejection, in certain topics | Claims committee (ועדת תביעות); it can only recommend reconsideration | 6 months from the rejection; does NOT extend the 12-month court deadline |
+| Medical committee decision on disability | Medical appeals committee (ועדה רפואית לעררים) | 60 days from receiving the decision |
+| Medical appeals committee decision | Regional Labour Court, on questions of law only | 60 days from receiving it |
+| Incapacity degree (general disability) | ערר filed at the branch, to the appeals committee | 60 days from the written notice; then the labour court within 60 days, law only |
+| Siyud (functional level) | Advisory committee (ועדה מייעצת) | 60 days; then the labour court |
+| Mobility limitation (medical committee) | Appeals committee at the mobility unit | 60 days from the protocol; then the district court |
+| Regional Labour Court judgment | National Labour Court | 30 days |
 
-Free legal aid available through הסיוע המשפטי for low-income claimants.
+Form 7810 is the ערר form for a medical diagnosis, incapacity degree or dependence (siyud) level; it is not a general appeal form.
+
+Free legal aid from the Ministry of Justice legal aid offices for appeals against Bituach Leumi, with no economic criteria. Source: kolzchut.org.il/he/ערעור_על_החלטת_המוסד_לביטוח_לאומי.
 
 ## Form Quick Lookup
 
@@ -260,7 +276,7 @@ Free legal aid available through הסיוע המשפטי for low-income claimant
 | Adjust self-employed advances | 672 |
 | Update personal details (address, bank, marital status) | 900 |
 | Cancel a Form 100 employer-outreach opt-out | 101 |
-| Appeal a BTL decision (general) | 7810 |
+| Appeal (ערר) of a medical diagnosis, incapacity degree or dependence level | 7810 |
 | Appeal a work-injury medical-committee decision | 247 |
 | Refer a case to claims committee | 910 |
 

@@ -777,8 +777,8 @@
       "claim_id": "form-480",
       "claim": "Bituach Leumi claim/notice form: טופס 480 / Form 480",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T480.pdf",
-      "raw_snippet": "לצפייה בסרטון הסבר על המוסד לביטוח לאומי בל480 / מילוי הטופס ולמיצוי זכויות, מנהל הגמלאות יש לסרוק את הברקוד אגף קצבאות אזרחים ותיקים ושאירים תביעה לקצבת אזרח ותיק כולל תביעה להשלמת הכנסה על מנת ",
-      "fetched_at": "2026-08-09T15:45:34.315027+00:00",
+      "raw_snippet": "לצפייה בסרטון הסבר על מילוי הטופס ולמיצוי זכויות, יש לסרוק את הברקוד בל480 / תביעה לקצבת אזרח ותיק",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -2968,6 +2968,310 @@
       "fetched_at": "2026-08-19T00:00:00+00:00",
       "appears_in": [
         "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "surv-akhshara",
+      "claim": "Survivors qualifying period: 12 insured months before death, OR 24 in the last 5 years, OR 60 in the last 10 years, OR 144 in total, OR 60 since first becoming a resident (uninsured months not exceeding insured months).",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/Pages/achshra.aspx",
+      "raw_snippet": "הנפטר צבר אחת מתקופות הביטוח האלה, שבהן היו מבוטחים בביטוח שאירים: 12 חודשים שלפני יום הפטירה 24 חודשים, רצופים או לא רצופים, ב-5 השנים שלפני הפטירה 60 חודשים (5 שנים), רצופים או לא רצופים, ב-10 השנים שלפני הפטירה 144 חודשים (12 שנים) רצופים או לא רצופים 60 חודשים, רצופים או לא רצופים, מיום שנעשו לראשונה תושבי ישראל",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "surv-widower-child-no-income-test",
+      "claim": "A widower with a child who meets the orphan definition is not income-tested.",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/nimneEmSherim/Pages/alman.aspx",
+      "raw_snippet": "אם לאלמן יש ילד העונה על הגדרת יתום , לא תיערך בדיקת הכנסות.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-partial-week-supplement",
+      "claim": "Reserve pay adds paid days for a partial week: service days are divided by 7 and the remainder adds 0.4 / 0.8 / 1.2 / 1.6 / 2 / 1 days for remainders 1-6 (0 for none); 20 days pay 21, 22 pay 22.4, 33 pay 35, 60 pay 61.6.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "התוספת מחושבת כך: את ימי השירות המילואים מחלקים ב-7, ולפי השארית נקבע גובה התוספת.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. The page lists remainder 1: 0.4, 2: 0.8, 3: 1.2, 4: 1.6, 5: 2, 6: one day, and the worked table rows 20 -> 21, 22 -> 22.4, 33 -> 35, 60 -> 61.6."
+    },
+    {
+      "claim_id": "miluim-self-employed-base",
+      "claim": "A self-employed reservist is first paid on reported advances for the 3 months before service divided by 90, recomputed after the final assessment, and is also paid a 25% compensation.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "לעובד עצמאי משולם בנוסף לתגמול גם פיצוי בשיעור 25%.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. Same page: \"עובד עצמאי - בשלב הראשון הסכום מחושב לפי המקדמות ברוטו שמדווחות אצלנו ב- 3 החודשים שקדמו לשירות המילואים, לחלק ב-90.\""
+    },
+    {
+      "claim_id": "miluim-self-employed-comp-cap",
+      "claim": "The self-employed 25% compensation requires regular contributions, and reward plus compensation together may not exceed the maximum reward.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/hefreshimLeatzmayi.aspx",
+      "raw_snippet": "סכום התגמול והפיצוי יחד, לא יעלה על התגמול המקסימלי",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. The page also states the 25% is computed on the self-employed income only, and requires registration as self-employed with regular contributions."
+    },
+    {
+      "claim_id": "miluim-wage-change-1-5-25",
+      "claim": "From 1.5.25, during the emergency, an employee called up again within 3 months whose pay changed by 20% or more is paid on the earlier pay (plus 20% if pay rose); the rest of a rise is claimed separately.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/HisovTAGMOLSatHIROM.aspx",
+      "raw_snippet": "אם הכנסתך הנוכחית גבוהה ב- 20% ומעלה מההכנסה הקודמת - תקבל תגמול לפי הכנסתך הקודמת + תוספת אוטומטית של 20%.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. The page applies it to repeat call-ups from 1.5.25 where fewer than 3 months passed since the previous service, and suspends the 60-day wage carry-over during the emergency."
+    },
+    {
+      "claim_id": "miluim-employer-compensation-20",
+      "claim": "Private employers (not public bodies) are compensated for pension/provident and NI contributions paid during an employee's reserve service: 20% of the pay in the 3 months before service divided by 90, times service days, paid retroactively for service since the start of the war.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/PizoyLmasik.aspx",
+      "raw_snippet": "סכום הפיצוי היומי שווה ל- 20% מהסכום המחושב לפי שכרו של העובד ב-3 החודשים שקדמו לשירות המילואים, לחלק ל-90.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. The page also says \"כל המעסיקים למעט מעסיקים ציבוריים\" and \"נשלם למעסיקים רטרואקטיבית גם את הפיצוי עבור תקופות השירות מתחילת המלחמה\". It prints the compensation period as starting \"7.10.2026\", apparently a typo for the start of the war; that date is NOT repeated in the skill."
+    },
+    {
+      "claim_id": "household-js-abroad-3-6",
+      "claim": "Household-help employer of a worker resident in Judea and Samaria or abroad pays 3.6% only.",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "עובדים תושבי יהודה שומרון או תושבי חוץ לארץ - ישלם עבורם המעסיק בלבד דמי ביטוח בשיעור של 3.6% אחוז משכרם.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "household-disabled-4-6",
+      "claim": "Household-help employer of a worker with a permanent 100% work-disability pension or a general-disability pension of 75%+ (permanent, or temporary for a continuous year) pays 4.6%.",
+      "source_url": "https://www.btl.gov.il/Insurance/Rates/Pages/%D7%A2%D7%95%D7%91%D7%93%20%D7%9E%D7%A9%D7%A7%20%D7%91%D7%99%D7%AA.aspx",
+      "raw_snippet": "ישלם עבורם המעסיק דמי ביטוח בשיעור של 4.6% אחוז משכרם.",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/contribution-rates.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-40pct-name",
+      "claim": "BTL calls the partial-week supplement the \"40% supplement\" (תוספת 40%).",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "חישוב תוספת 40%",
+      "fetched_at": "2026-09-25T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Rendered in Playwright (headless Chromium, frontend workspace) on 2026-09-25; page.url() asserted equal to the requested URL before reading. The body is injected client-side, so a plain fetch returns only the page chrome. The page lists remainder 1: 0.4, 2: 0.8, 3: 1.2, 4: 1.6, 5: 2, 6: one day, and the worked table rows 20 -> 21, 22 -> 22.4, 33 -> 35, 60 -> 61.6."
+    },
+    {
+      "claim_id": "appeal-labour-court-12m",
+      "claim": "Any Bituach Leumi decision can be appealed to the regional labour court within 12 months of receiving the written decision; its judgment to the national labour court within 30 days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "את הערעור יש להגיש בתוך 12 חודשים מהיום שהתקבלה ההודעה הכתובה של המוסד לביטוח לאומי.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Kol Zchut returns 403 to plain fetches. Rendered in the Playwright MCP browser on 2026-09-25 with location.href asserted as the requested page, title \"ערעור על החלטת המוסד לביטוח לאומי (הליך) - כל-זכות\". Same page: \"על החלטה של בית הדין האזורי לעבודה ניתן לערער בפני בית הדין הארצי לעבודה, בתוך 30 יום\"."
+    },
+    {
+      "claim_id": "appeal-claims-committee-6m",
+      "claim": "A non-medical rejection in certain topics can go to a claims committee (ועדת תביעות) within 6 months; it only recommends, and does not extend the 12-month court deadline.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "ניתן לפנות לוועדת התביעות בתוך 6 חודשים מדחיית התביעה.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Kol Zchut returns 403 to plain fetches. Rendered in the Playwright MCP browser on 2026-09-25 with location.href asserted as the requested page, title \"ערעור על החלטת המוסד לביטוח לאומי (הליך) - כל-זכות\". Same page: \"הפנייה לוועדת התביעות לא דוחה את המועד הקבוע בחוק להגשת ערעור לבית הדין לעבודה\"."
+    },
+    {
+      "claim_id": "appeal-medical-60-60",
+      "claim": "A medical committee decision on disability is appealed to the medical appeals committee within 60 days; its decision to the regional labour court within 60 days, on questions of law only.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "על החלטת ועדת העררים הרפואית ניתן לערער בפני בית הדין האזורי לעבודה בתוך 60 יום מקבלת החלטתה, בשאלות משפטיות בלבד.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Kol Zchut returns 403 to plain fetches. Rendered in the Playwright MCP browser on 2026-09-25 with location.href asserted as the requested page, title \"ערעור על החלטת המוסד לביטוח לאומי (הליך) - כל-זכות\". Same page: \"יש להגיש את הערר לוועדה הרפואית לעררים בתוך 60 יום מקבלת ההחלטה של הוועדה הרפואית\"; also the incapacity (60 days at the branch), siyud advisory committee (60 days) and mobility (60 days, then district court) tracks, and free legal aid with no economic criteria."
+    },
+    {
+      "claim_id": "appeal-legal-aid-no-means-test",
+      "claim": "Free legal aid for appeals against Bituach Leumi has no economic criteria.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%9E%D7%95%D7%A1%D7%93_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "הפונים אינם נדרשים לעמוד בקריטריונים כלכליים כלשהם לצורך קבלת הסיוע המשפטי.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25",
+      "verified_note": "Kol Zchut returns 403 to plain fetches. Rendered in the Playwright MCP browser on 2026-09-25 with location.href asserted as the requested page, title \"ערעור על החלטת המוסד לביטוח לאומי (הליך) - כל-זכות\"."
+    },
+    {
+      "claim_id": "form-7810-scope",
+      "claim": "Form 7810 is the ערר form on a medical diagnosis, incapacity degree or dependence level, not a general appeal form.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7810.pdf",
+      "raw_snippet": "כתב ערר על ההחלטה של המוסד לביטוח לאומי",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "references/troubleshooting.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-supplement-timing",
+      "claim": "Iron Swords: service days are paid at the start of the next month; the partial-week supplement about two months after the stint ends, or at the end of the war for someone still serving; a salaried reservist gets it through the employer.",
+      "source_url": "https://www.btl.gov.il/HaravotBarzel1/KizbeotHB/MiloeimHB/Pages/MsrtimMiloeim.aspx",
+      "raw_snippet": "למי שסיים את שירות המילואים - נשלם את התוספת לאחר חודשיים מהשירות.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading. Same page: \"בתחילת כל חודש תקבלו תשלום על ימי השירות שעשיתם בחודש הקודם\", \"למי שעדיין משרת במילואים ... נשלם את התוספת בסיום המלחמה\", \"עובד שכיר יקבל את התוספת באמצעות המעסיק\", and the April/August 20+20 example showing the supplement is computed per stint."
+    },
+    {
+      "claim_id": "miluim-salaried-excess-to-employee",
+      "claim": "If BTL pays the employer a reward higher than the salary, the difference must be paid to the employee.",
+      "source_url": "https://www.btl.gov.il/HaravotBarzel1/KizbeotHB/MiloeimHB/Pages/MsrtimMiloeim.aspx",
+      "raw_snippet": "לפעמים אנחנו משלמים למעסיק הפרש לתגמול שגבוה יותר מהשכר שלך, וגם ההפרש הזה צריך להיות משולם לך.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading."
+    },
+    {
+      "claim_id": "miluim-se-war-higher-of",
+      "claim": "For service in 2023-2025 a self-employed reservist is paid on the higher base (2023-2024: final assessment or the advance base, advances reported by 31.10.2024; 2025: highest of advances reported by 31.10.2024, the 2024 and 2025 assessments).",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "עבור תקופות מילואים בשנים 2023 - 2024: התגמול יחושב לפי השומה הסופית של השנה או לפי ההכנסה ששימשה בסיס לתשלום מקדמות - הגבוהה מביניהן",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading."
+    },
+    {
+      "claim_id": "miluim-se-comp-own-income",
+      "claim": "The self-employed 25% compensation is computed on the self-employed income only, also for a reservist who is both salaried and self-employed, and on the minimum reward when that income is below it.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/hefreshimLeatzmayi.aspx",
+      "raw_snippet": "אם המשרת במילואים הוא גם שכיר וגם עצמאי או שהוא מקבל תגמול לפי הכנסות קודמות - הפיצוי יחושב לפי הכנסתו כעצמאי בלבד.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "scripts/calculate_benefits.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading. Same page: \"כאשר ההכנסה כעצמאי נמוכה מהתגמול המינימלי - הפיצוי יחושב לפי התגמול המינימלי\"."
+    },
+    {
+      "claim_id": "miluim-war-rule-work-only",
+      "claim": "Under the 1.5.25 rule the difference above +20% can be claimed only if the rise comes from work alone (not reserve pay).",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/HisovTAGMOLSatHIROM.aspx",
+      "raw_snippet": "אם העלייה בשכר נובעת מעבודה בלבד (ללא תגמולי מילואים) - המעסיק שלך יכול להגיש לנו באתר בקשה לקבל את הפרשי השכר שמגיעים לך",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading."
+    },
+    {
+      "claim_id": "miluim-employer-comp-proration",
+      "claim": "Employer compensation for an employee with fewer than 3 months of work is computed on 1 or 2 months (÷30 or ÷60), and for a new employee on the pay in the service month.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/PizoyLmasik.aspx",
+      "raw_snippet": "אם העובד עבד פחת משלושה חודשים - נחשב את סכום הפיצוי היומי לפי תקופת עבודתו",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-26",
+      "verified_note": "Rendered in Playwright (headless Chromium) on 2026-09-26; page.url() asserted equal to the requested URL before reading."
+    },
+    {
+      "claim_id": "surv-akhshara-waivers",
+      "claim": "No survivors qualifying period is required if the deceased was an insured worker on the eve of death and died within a year of becoming a resident, before 19, was the main breadwinner, or (a woman) died within a year of divorce or widowhood.",
+      "source_url": "https://www.btl.gov.il/benefits/Survivors_%20Insurance/tnaaiZakaut/Pages/achshra.aspx",
+      "raw_snippet": "הוא/היא היה/הייתה המפרנס/ת העיקרי/ת של בן הזוג או של הילדים.",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md"
+      ]
+    },
+    {
+      "claim_id": "form-7810-subjects",
+      "claim": "Form 7810 covers a ערר on a medical diagnosis, an incapacity degree or a dependence level.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/Documents/T7810.pdf",
+      "raw_snippet": "אבחון רפואי ❑ דרגת אי כושר ❑ רמת התלות",
+      "fetched_at": "2026-09-26T00:00:00+00:00",
+      "appears_in": [
+        "references/benefit-programs.md",
+        "references/troubleshooting.md"
       ]
     }
   ]

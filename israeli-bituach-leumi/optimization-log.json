@@ -92,6 +92,30 @@
         "goldens": 25,
         "categories": 20
       }
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-09-25",
+      "lessons": [
+        "Rate-table completeness (3g.1) re-run against btl.gov.il by plain curl <table> extraction: employee table 20 rows, self-employed 4 categories, early pension, non-worker, all match 01.01.2026 and the published bituach-leumi-contributions manifest (all 25 golden cases recomputed by hand). Household-help had 2 missing rows (3.6% Judea/Samaria or abroad; 4.6% disabled worker), now added to the reference; the checker has no household-employer path, which is acceptable because it answers 'who are you', not 'who do you employ'.",
+        "The survivors qualifying period was wrong in the body since at least 1.7.x (12/18, 24/60, 60 total); no evidence entry covered it because the verifier treats month counts as advisory durations. Month-count rules need an explicit evidence entry or they are never checked.",
+        "Miluim section was silent on four BTL rules (partial-week supplement, self-employed 25% compensation with combined cap, 1.5.25 repeat-call-up wage rule, 2026 employer compensation). The script under-paid every non-multiple-of-7 stint. These BTL reserve pages are client-rendered: curl returns only chrome, use a browser.",
+        "The BTL employer-compensation page prints the period start as 7.10.2026, apparently a typo for the war start; not encoded. The amendment number (reported as 265, 29.4.2026, by malam/hashavim) was not confirmed in Reshumot and is not stated.",
+        "Deferred: SKILL_HE.md body is 6,295 words (was 6,230 at HEAD; validator warns, cap 5,000) and has 4 inline troubleshooting subsections that EN moved to references/troubleshooting.md (EN=42 vs HE=46 sections). Next cycle: move HE troubleshooting and the long siyud/income-support prose to references to restore parity.",
+        "Deferred: SKILL.md body is 4,965 words, 35 under the cap. Any further addition must move content to references first.",
+        "Kol Zchut blocks curl and headless Chromium from the frontend workspace, but the Playwright MCP browser renders it; all 13 Kol Zchut snippets were confirmed there on 2026-09-25 with location.href asserted.",
+        "Resolved in fix round 1: the Appeals table was wrong (a non-existent 60-day non-medical 'ועדת ערר', and '12 months post-appeal'). The correct routes are: labour court within 12 months; claims committee within 6 months, advisory only; medical appeals committee within 60 days, then the labour court within 60 days on law only. Form 7810 is the medical/incapacity/dependence ערר form, not a general appeal and not for unemployment resignation. A pre-existing unsourced deadline is exactly what a Judge 'unjustified' catches; do not defer it.",
+        "Miluim script lesson: the partial-week supplement is per stint and is paid about two months after the stint, and the 25% self-employed compensation is on self-employed income only. A single-total output hid all three facts; print the components separately.",
+        "Expert minor (iteration 2): the miluim monthly-maximum note blames only the separately paid supplement, but a 31-day stint at the cap reaches 53,640 from service days alone, and the maximum is per calendar month, not per stint. Reword to 'above the 51,910 monthly maximum; a month's payment may be capped'.",
+        "Expert minor: in mixed salaried-and-self-employed mode, the script prints only the self-employed filing text (form 502). Also print the salaried text: the employer claims for the salaried share and must pass on any excess, and BTL tops up the self-employed share (TagmulZacay row 'עובד שכיר שהוא גם עובד עצמאי').",
+        "Expert minor: miluim accepts a negative --salary and floors it to the minimum reward. Reject it, as the other inputs are.",
+        "Expert minor: the survivors qualifying-period waivers and residency proviso are in benefit-programs.md. The SKILL.md/SKILL_HE.md survivors line now carries only a pointer ('proviso and waivers: references/benefit-programs.md'). Consider naming the waivers inline if word budget allows.",
+        "Expert minor, carried: BTL's printed supplement table lists 120 -> 122, which contradicts its own remainder rule (120.4). The script follows the rule and the reference notes the discrepancy; re-check whether BTL corrects the table.",
+        "Expert minor, carried: the 'a 2026 amendment' label for employer compensation was unsourced. It was dropped in fix round 1 ('following an amendment to the National Insurance Law'); source the amendment number and date from Reshumot before adding them back.",
+        "Expert minor, carried: half-day service (paid at half the reward, up to 6 hours including travel, per שיעורי הקצבה.aspx) cannot be entered in the miluim calculator. Add a --half-days input.",
+        "Deferred (Legal panel): the SKILL.md and SKILL_HE.md frontmatter descriptions do not open with the legal clause (metadata.json display_description does). Adding it changes the description and triggers the Phase 5.7 eval; do it next cycle.",
+        "Deferred: the SKILL_HE.md body is 6,312 words, over the 5,000 cap (warn-only; 6,230 at HEAD), and has 4 inline troubleshooting subsections the English file moved to references/troubleshooting.md (EN=42 vs HE=46 sections). Next cycle, move the HE troubleshooting and the long siyud and income-support prose to references to restore parity and the cap."
+      ]
     }
   ]
 }

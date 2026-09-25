@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.8.0 - 2026-09-25
+
+Fixed the survivors qualifying period, which read "12 of the last 18, OR 24 of the last 60, OR
+60 months total". BTL's rule is 12 insured months in the year before death, OR 24 in the last 5
+years, OR 60 in the last 10 years, OR 144 in total, OR 60 since first becoming a resident.
+Corrected in SKILL.md, SKILL_HE.md and the qualifying-period table in benefit-programs.md. The
+same line also said a widow qualifies with "reduced earning capacity" (a dependents'-track rule);
+it now states the 40+ or with-a-child rule and the widower income-test carve-out.
+
+Reserve duty: added the partial-week ("40%") supplement (service days divided by 7, the remainder
+adds 0.4 to 2 paid days), the self-employed base (reported advances, recomputed on the final
+assessment) and the separate 25% self-employed compensation capped with the reward at the daily
+maximum, the war-time wage-change rule for repeat call-ups from 1.5.25, and the employer
+compensation of 20% of pay for pension and NI contributions during service. The calculator's
+miluim estimate now applies the supplement (20 days pay 21, as in BTL's example) and the capped
+25% compensation, and rejects a zero day count.
+
+Household-help employers: added the two missing BTL rows, 3.6% for a worker resident in Judea and
+Samaria or abroad, and 4.6% for a worker with a 100% work-disability or 75%+ general-disability
+pension.
+
+Evidence: repointed the form 480 snippet (the form was reissued 09.2026) and re-checked the
+Kol Zchut entries in a browser.
+
 ## 1.7.2 - 2026-08-19
 
 Fixed the reduced-band NI/health split written for the 67-70 non-pensioner row. The file said

@@ -31,7 +31,7 @@ Use `scripts/calculate_benefits.py` for old-age pension, unemployment, maternity
 Identify the form (`## Forms`) and the filing channel (`## Digital Channels`). Most claims are filed through the personal area at https://ps.btl.gov.il, which auto-generates the form-PDF.
 
 ### Step 5: Track and Appeal
-Three appeal tracks (medical, non-medical, labor court). See `## Appeals` for deadlines and the right venue per decision type.
+See `## Appeals` for venues and deadlines.
 
 ## Key Programs Detail
 
@@ -89,7 +89,7 @@ All amounts are **2026 official rates** (effective 01.01.2026 unless a different
 
 ### Reserve Duty (Miluim)
 - **Eligibility:** Any IDF reservist, covered from day 1. Claim window: 7 years from end of service.
-- **Daily amount:** 100% of the last 3 months' average daily wage (gross ÷ 90; self-employed: prior-year assessment ÷ 90), capped at 1,730.33 NIS/day (2026, = 51,910 ÷ 30), minimum 328.76 NIS/day.
+- **Daily amount:** 100% of the last 3 months' average daily wage (gross ÷ 90; self-employed: reported advances ÷ 90, recomputed on the final assessment, plus a 25% compensation), capped at 1,730.33 NIS/day (2026, = 51,910 ÷ 30), minimum 328.76 NIS/day. A partial week adds up to 2 paid days (days ÷ 7 remainder; 20 days pay 21). War-time wage-change rule, employer compensation: `references/benefit-programs.md`.
 - **Annual bonus tiers (Iron Swords-era):** additional grants scale with cumulative reserve days per year. The tier table changes often, so look up the current one at btl.gov.il rather than quoting a figure.
 - **Salaried employees:** Employer pays salary as usual; BTL refunds the employer via form 501. The employee receives the full salary.
 - **Self-employed and sub-cap salaried:** File personal claim form **502**. Form **509** for advance payment.
@@ -108,7 +108,7 @@ All amounts are **2026 official rates** (effective 01.01.2026 unless a different
 - **Claim form:** **5619** (תביעה לגמלת הבטחת הכנסה). Form **5521** for employer attachment if the claimant works part-time.
 
 ### Survivors Pension (Sheerim)
-- **Eligibility:** Widow/widower of an insured person who had 12 months of NI in the last 18, OR 24 of the last 60, OR 60 months total. A widow qualifies at 40+, or with children, or with reduced earning capacity.
+- **Eligibility:** Widow/widower of an insured person who had 12 insured months in the year before death, OR 24 in the last 5 years, OR 60 in the last 10 years, OR 144 in total, or 60 since first residency (proviso and waivers: `references/benefit-programs.md`). A widow(er) aged 40+ or with a child gets a monthly pension; a widower is income-tested unless he has a child who counts as an orphan.
 - **Monthly amount (2026) is banded by age and children, and these are BASE amounts: BTL pays a seniority supplement (and, for orphans, a subsistence supplement) ON TOP, so each figure is a floor, not the final answer.** Do NOT quote a flat 1,838. Widow/widower aged 40-50 with no children: **1,381 NIS**. Aged 50+ with no children: 1,838 NIS. Aged 80+: 1,941 NIS. With 1 child: 2,700 NIS. With 2 children: 3,562 NIS, plus 862 NIS for each additional child. A widow/widower who also draws an old-age pension and is entitled to half a survivors pension gets 919 NIS.
 
 - **A widow/widower under 40 with no children gets NO monthly pension, but is not left with nothing:** a one-time **survivors grant (מענק שאירים)** worth **36 monthly survivors pensions** is paid instead. It also goes to a widower whose income later rises above the maximum, or whose child stops qualifying. A widower who was married to a non-working spouse (עקרת בית) is not entitled to the grant. Never tell such a claimant they have no claim.
@@ -230,11 +230,11 @@ Every benefit runs through insured-resident status and a clean contributions rec
 
 | Decision type | Venue | Statutory deadline |
 |---|---|---|
-| Medical (disability degree, ADL test) | ועדה רפואית לעררים (medical appeals committee) | 60 days from decision |
-| Non-medical eligibility / amounts | ועדת ערר (internal review) | 60 days |
-| Final decisions (post-appeal) | בית הדין האזורי לעבודה (regional labor court) | 12 months from decision |
+| Any claims-officer decision | בית הדין האזורי לעבודה (regional labour court) | 12 months from the written decision |
+| Non-medical rejection, some topics | ועדת תביעות (claims committee, advisory only) | 6 months; does NOT extend the 12 months |
+| Medical committee (disability degree) | ועדה רפואית לעררים | 60 days, then labour court within 60 days, law only |
 
-Free legal aid: הסיוע המשפטי, for low-income claimants.
+Other tracks (incapacity, siyud, mobility) and free legal aid (no means test): `references/benefit-programs.md`.
 
 ## Examples
 
@@ -249,7 +249,7 @@ User says: "I have a chronic illness, how do I file a disability claim?"
 1. Distinguish general disability (nechut klalit) from work-related (nechut me'avoda): different programs, forms, and funding.
 2. File form 7801 at the personal area. The medical committee sets the incapacity degree (60% / 65% / 74% / 75-100%), paying 2,718 / 2,894 / 3,211 / 4,711 NIS per month in 2026.
 3. If daily personal-care help is needed, also file 7849 for special services (SHRM).
-4. Appeals: medical committee within 60 days for the degree; internal review for eligibility; labor court within 12 months.
+4. Appeals: medical appeals committee within 60 days; otherwise the labour court within 12 months.
 
 ## Bundled Resources
 
@@ -276,8 +276,6 @@ User says: "I have a chronic illness, how do I file a disability claim?"
 | Personal area (filing) | https://ps.btl.gov.il | Claims, forms, certificates |
 | Retirement-age calculator | https://www.btl.gov.il/benefits/old_age/Pages/RetirementCalculation.aspx | Per-cohort retirement age |
 | kolzchut BTL hub | https://www.kolzchut.org.il/he/המוסד_לביטוח_לאומי | Plain-Hebrew explanations |
-
-Individual benefit pages carry the CURRENT table (including mid-year reissues). Check the benefit's own page before quoting an amount.
 
 ## Gotchas
 - **7,703 is NOT 60% of the average wage.** It is a statutory amount (base 7,522, CPI-indexed each January through 2028). Deriving it as 0.6 x 13,769 gives 8,261 and mis-computes every payslip.

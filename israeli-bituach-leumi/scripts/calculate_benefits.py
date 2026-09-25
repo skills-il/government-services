@@ -333,38 +333,98 @@ def calculate_child_allowance(num_children: int) -> None:
     print("Filing: usually automatic from hospital. Manual claim: form 5025.")
 
 
-def calculate_miluim(salary: float, days: int, is_self_employed: bool = False) -> None:
-    """Estimate reserve-duty compensation (tashlumei miluim)."""
+def calculate_miluim(salary: float, days: int, is_self_employed: bool = False,
+                     self_employed_income: float = None) -> None:
+    """Estimate reserve-duty compensation (tagmul miluim) for ONE continuous stint."""
     print("=== Reserve Duty (Miluim) Compensation Estimate, 2026 rates ===\n")
 
     # 2026 caps and floors (miluim cap = max insurable 51,910 ÷ 30)
     daily_cap = 1730.33
     daily_min = 328.76
+    monthly_max = 51910
 
-    # Daily wage = last 3 months gross / 90 (or for self-employed, prior-year /90)
-    daily_wage = salary * 3 / 90  # if salary is monthly, this gives daily
+    if days < 1:
+        print("ERROR: --days must be at least 1.")
+        return
+    if self_employed_income is not None and not is_self_employed:
+        is_self_employed = True
+    if self_employed_income is not None and not 0 <= self_employed_income <= salary:
+        print("ERROR: --self-employed-income must be between 0 and --salary (the total).")
+        return
 
+    # Daily wage = last 3 months gross / 90 (self-employed: reported advances / 90,
+    # recomputed on the final assessment). --salary is the TOTAL monthly income.
+    daily_wage = salary * 3 / 90
     daily_compensation = min(max(daily_wage, daily_min), daily_cap)
-    total_compensation = daily_compensation * days
 
-    print(f"Monthly salary (or self-employed monthly equivalent): {salary:,.0f} NIS")
-    print(f"Days of miluim: {days}")
-    print(f"Status: {'Self-employed' if is_self_employed else 'Salaried (or below cap)'}")
+    # Partial-week supplement ("40% supplement"), computed PER STINT: divide the stint's
+    # days by 7 and add paid days by the remainder (1->0.4, 2->0.8, 3->1.2, 4->1.6, 5->2,
+    # 6->1, 0->0). BTL examples: 20 days pay 21, 33 pay 35, 60 pay 61.6. Two separate
+    # 10-day stints pay 11.2 + 11.2 = 22.4, NOT the 21 that --days 20 gives.
+    remainder_extra = {0: 0.0, 1: 0.4, 2: 0.8, 3: 1.2, 4: 1.6, 5: 2.0, 6: 1.0}
+    extra_days = remainder_extra[days % 7]
+    paid_days = days + extra_days
+    base_pay = daily_compensation * days
+    supplement_pay = daily_compensation * extra_days
+    total_compensation = base_pay + supplement_pay
+
+    # Self-employed 25% compensation: on the reward computed on the SELF-EMPLOYED income
+    # only (the minimum reward if that income is below it), and reward + compensation
+    # together capped at the maximum reward (hefreshimLeatzmayi.aspx).
+    self_employed_comp = 0.0
+    if is_self_employed:
+        se_income = salary if self_employed_income is None else self_employed_income
+        se_daily = min(max(se_income * 3 / 90, daily_min), daily_cap)
+        self_employed_comp = max(0.0, min(se_daily * paid_days * 0.25,
+                                          daily_cap * paid_days - total_compensation))
+
+    print(f"Total monthly income used (--salary): {salary:,.0f} NIS")
+    if self_employed_income is not None:
+        print(f"  of which self-employed: {self_employed_income:,.0f} NIS")
+    print(f"Days in this stint: {days} (paid as {paid_days:g} days)")
+    print(f"Status: {'Self-employed (or mixed)' if is_self_employed else 'Salaried'}")
     print()
-    print(f"Daily compensation: {daily_compensation:,.2f} NIS/day")
-    print(f"  Cap: {daily_cap:,.2f} NIS/day (2026)")
-    print(f"  Minimum: {daily_min:,.2f} NIS/day (2026)")
-    print(f"Total estimated compensation: {total_compensation:,.0f} NIS")
+    print(f"Daily reward: {daily_compensation:,.2f} NIS/day "
+          f"(cap {daily_cap:,.2f}, minimum {daily_min:,.2f}, 2026)")
+    print(f"Service days ({days}): {base_pay:,.0f} NIS")
+    print(f"Partial-week supplement ({extra_days:g} day(s)): {supplement_pay:,.0f} NIS")
+    print(f"Total estimated reward: {total_compensation:,.0f} NIS")
+    if is_self_employed:
+        print(f"Self-employed 25% compensation: {self_employed_comp:,.0f} NIS")
+        print(f"Total incl. compensation: {total_compensation + self_employed_comp:,.0f} NIS")
+    print()
+    print("--days is ONE continuous stint. For separate stints run once per stint and add")
+    print("the results: the supplement is computed per stint.")
+    print("Timing (Iron Swords): the service days are paid at the start of the next month;")
+    print("the supplement about two months after the stint ends (at the end of the war for")
+    print("someone still serving). A shortfall right after the stint is usually just that.")
+    if total_compensation + self_employed_comp > monthly_max and days <= 31:
+        print(f"NOTE: this exceeds the {monthly_max:,} monthly maximum. BTL does not say")
+        print("whether the separately paid supplement counts toward it; treat the amount")
+        print("above the maximum as uncertain.")
     print()
     if is_self_employed:
         print("Self-employed: file personal claim form 502.")
-        print("Calculation base: prior-year tax assessment ÷ 90.")
+        print("Calculation base: advances reported for the 3 months before service ÷ 90,")
+        print("recomputed once the final tax assessment for that year arrives. For service")
+        print("in 2023-2025 BTL pays on the HIGHER base (see references), so a recalculation")
+        print("for those years should not lower the reward.")
+        print("The 25% compensation is paid only to someone registered as self-employed who")
+        print("paid contributions regularly, and is computed on self-employed income only.")
+        if self_employed_income is None:
+            print("If you are ALSO salaried, re-run with --self-employed-income <self-employed")
+            print("share>; otherwise the 25% is overstated.")
     else:
-        print("Salaried: employer pays salary as usual; BTL refunds employer via "
-              "form 501. The reservist receives full salary, no separate BTL "
-              "payment.")
-        print("Below-cap salaried may file form 502 personally for any gap.")
+        print("Salaried: BTL pays the reward to the employer (form 501) and you keep")
+        print("receiving your salary. If the reward paid to your employer is higher than")
+        print("your salary for the period (e.g. with the supplement), the employer must")
+        print("pass the difference on to you.")
+        print("With several employers, the main employer claims; claim the rest personally")
+        print("(form 502).")
     print()
+    print("War-time rule (repeat call-ups from 1.5.25, emergency period): if pay changed")
+    print("by 20%+ since an earlier stint, BTL pays on the earlier pay (plus 20% if pay")
+    print("rose); a rise from work alone can be claimed separately. See references.")
     print("Iron Swords annual bonus tiers add a grant that scales with cumulative")
     print("miluim days in the year. The tier table changes often: look it up at")
     print("btl.gov.il rather than relying on any figure quoted here.")
@@ -456,11 +516,17 @@ def main():
     # Miluim
     miluim_parser = subparsers.add_parser("miluim", help="Reserve duty estimate")
     miluim_parser.add_argument("--salary", type=float, required=True,
-                               help="Monthly salary or self-employed monthly equivalent (NIS)")
+                               help="TOTAL monthly income (salary plus any self-employed "
+                                    "monthly equivalent), NIS")
     miluim_parser.add_argument("--days", type=int, required=True,
-                               help="Number of miluim days")
+                               help="Days in ONE continuous service stint. For separate "
+                                    "stints run once per stint and add the results.")
     miluim_parser.add_argument("--self-employed", action="store_true",
                                help="Self-employed reservist")
+    miluim_parser.add_argument("--self-employed-income", type=float, default=None,
+                               help="For a reservist who is both salaried and self-employed: "
+                                    "the self-employed share of --salary (the 25%% "
+                                    "compensation is computed on it only)")
 
     # Birth grant
     birth_parser = subparsers.add_parser("birth-grant", help="One-time birth grant estimate")
@@ -483,7 +549,8 @@ def main():
     elif args.command == "child-allowance":
         calculate_child_allowance(args.children)
     elif args.command == "miluim":
-        calculate_miluim(args.salary, args.days, args.self_employed)
+        calculate_miluim(args.salary, args.days, args.self_employed,
+                         args.self_employed_income)
     elif args.command == "birth-grant":
         calculate_birth_grant(args.child_position, args.babies)
     else:

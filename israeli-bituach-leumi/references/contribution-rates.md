@@ -85,6 +85,8 @@ A private individual employing a domestic worker (cleaner, nanny, caregiver, gar
 |---|---|---|---|
 | Aged 18 to retirement age | **6.05%** NI (0% health on the employer side) | **2.8%** (1.8% NI + 1% health) | **8.85%** |
 | Under 18 or receiving an old-age pension | **3.6%** | -- | 3.6% |
+| Resident of Judea and Samaria, or a resident abroad | **3.6%** | -- | 3.6% |
+| Receiving a permanent 100% work-disability pension, or a general-disability pension of 75% or more (permanent, or temporary for at least one continuous year) | **4.6%** | -- | 4.6% |
 
 Source: `btl.gov.il/Insurance/Rates/Pages/עובד משק בית.aspx`.
 

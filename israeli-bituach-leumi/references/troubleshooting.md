@@ -14,4 +14,4 @@ Solution: use the form-search at https://www.btl.gov.il/טפסים%20ואישו�
 
 ### Error: "I resigned and was denied unemployment"
 Cause: Voluntary resignation triggers a 90-day disqualification.
-Solution: If the resignation was for justified cause (relocation following spouse, family-care, hazardous-conditions, deterioration of work conditions, fixed-term contract end), file an appeal with form 7810 within 60 days. Document the cause carefully.
+Solution: If the resignation was for justified cause (relocation following spouse, family-care, hazardous-conditions, deterioration of work conditions, fixed-term contract end), appeal to the regional labour court within 12 months of the written decision (a request to a claims committee, where available, does not extend that deadline). Form 7810 is NOT this route: it is the ערר form for a medical diagnosis, incapacity degree or dependence level. Document the cause carefully.
