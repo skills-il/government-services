@@ -1,6 +1,6 @@
 # Refusal, Cancellation, and Appeal
 
-Sources: Firearms Law 5709-1949, section 12; gov.il "הגשת ערר על דחיית בקשה או ביטול לרישיון כלי ירייה"; department procedures 12.02.04 (application handling), 12.02.08 (cancellation or refusal), 12.01.30 (appeal), all version 1 of 1.4.2014; Knesset Research and Information Center review of 13.02.2024. Read on 14.09.2026.
+Sources: Firearms Law 5709-1949, section 12; gov.il "הגשת ערר על דחיית בקשה או ביטול לרישיון כלי ירייה"; department procedures 12.02.04 (application handling) and 12.02.08 (cancellation or refusal), both version 1 of 1.4.2014; Knesset Research and Information Center review of 13.02.2024. Read on 14.09.2026, updated 28.09.2026.
 
 ## Contents
 
@@ -33,11 +33,11 @@ From procedure 12.02.08 and 12.02.04:
 - Loss or theft of the firearm; failure in training or refresher.
 - Other reasons at the official's discretion.
 
-The Knesset review (2024) reports that the department checks all license holders monthly against the Health Ministry and police databases, and that in 2023 there were 187 cancellations for a criterion that ceased to apply.
+The Knesset review (2024) reports that once a month all license holders are checked against the Health Ministry and police databases, and that in 2023 there were 187 cancellations for a criterion that ceased to apply.
 
 ## 3. Refusal on a police recommendation
 
-Procedure 12.02.04: when the police answer "not recommended", the official sends a refusal notice that states the right to appeal under section 12(c1)(1) within 45 days of receipt. Procedure 12.01.30: an appeal against a police-based decision is forwarded through the department headquarters to the police for their response; the district supervisor then decides and records the decision.
+Procedure 12.02.04: when the police answer "not recommended", the official sends a refusal notice that states the right to appeal under section 12(c1)(1) within 45 days of receipt. Section 12(c1)(2) of the Law: when the decision was made on the determination of a police officer, the supervisor forwards the appeal for the response of a senior police officer appointed for this purpose by the Inspector General of the Israel Police.
 
 Implication for the appeal letter: address the police ground specifically. Typical grounds are a criminal record, open investigations, violence or domestic-violence complaints, restraining orders, and drug matters. Documents that show a case was closed, an order expired, or a conviction was expunged do more than character references.
 
@@ -49,7 +49,9 @@ The health declaration itself is a self-declaration plus a declaration by the fa
 
 ## 5. Cancellation of an existing license
 
-Procedure 12.02.08: the official sends a registered letter announcing the cancellation with an explicit instruction to deposit all firearms immediately at the nearest police station, stating the reason where possible; copies go to the police and, where relevant, the Health Ministry. If a recommendation arrived without adequate reasons, the official asks the recommending body for detailed reasons before cancelling, and cancels if none arrive within 30 days. If the deposit is not made within 30 days of the demand, the official asks the police to seize the firearm, with a copy to the holder.
+Procedure 12.02.08 (2014): the official sends a registered letter announcing the cancellation with an explicit instruction to deposit all firearms immediately at the police station nearest to the holder (the procedure's wording), stating the reason where possible; copies go to the police and, where relevant, the Health Ministry. If a recommendation arrived without adequate reasons, the official asks the recommending body for detailed reasons before cancelling, and cancels if none arrive within 30 days. If the deposit is not made within 30 days of the demand, the official asks the police to seize the firearm, with a copy to the holder.
+
+The criteria regulations set the outer limit: the firearm, the license and the ammunition are deposited within 72 hours of receiving the cancellation notice (regulation 9(a)), at the police station of residence or business, against a receipt (Law section 14).
 
 For the user: deposit first, appeal second. There is no route that lets a holder keep the firearm while contesting a cancellation, other than the courts.
 
@@ -64,11 +66,9 @@ gov.il appeal service page:
 - Cost: free.
 - Decision: the supervisor (ha-memuneh) decides within 45 days of receiving the appeal, on the documents attached. The decision is final; a further challenge goes to the courts.
 
-Procedure 12.01.30 adds the internal path: the official first checks whether the appeal contains new facts and may reverse their own decision; otherwise the appeal goes with the official's reasoning to the district supervisor, who chairs an appeal committee that may summon the appellant, records a protocol, and decides. A monthly appeals report goes to the department director. An appeal filed with the department director is passed to the district unless it concerns the district supervisor's own decision.
-
 ## 7. Court orders
 
-Procedure 12.01.30, section 4.4: when the cancellation rests on a court order, the official has no authority to hear an appeal; the holder must apply to the court to cancel the prohibition order and present the court's decision to the official.
+When the refusal or cancellation rests on a court order that prohibits carrying or holding a firearm, the practical route is back to the court that issued the order, with a lawyer (practical advice from this skill; the department's appeal page does not address it).
 
 ## 8. What to tell the user
 
@@ -76,6 +76,6 @@ Procedure 12.01.30, section 4.4: when the cancellation rests on a court order, t
 2. Deposit the firearm if the letter is a cancellation.
 3. Identify the route: threshold or criterion (fix the file or prove another criterion), police (documents on the specific ground), Health Ministry (examining physician first, then appeal), court order (court, not the department).
 4. Recommend a lawyer for any police or health ground and for any cancellation; the appeal form must in any case be signed by a lawyer.
-5. Offer a letter structure: facts and dates; the ground as stated by the department; why it does not apply or no longer applies; list of attached documents; the request (grant the license, or reinstate it).
+5. Do not produce a finished appeal letter or fill in the appeal form. Give the user the structure and the points to cover (facts and dates, the ground as stated, why it does not apply or no longer applies, documents to attach, and the request: grant the license or reinstate it) as raw material that the user and their lawyer write and sign themselves.
 
-Do not draft the appeal as a court document and do not promise an outcome. The supervisor's decision is discretionary and final at the administrative level.
+Do not promise an outcome. The supervisor's decision is discretionary and final at the administrative level.

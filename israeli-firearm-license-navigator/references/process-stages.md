@@ -36,7 +36,7 @@ gov.il: after the file is checked for completeness, the department examines elig
 
 The Knesset review (13.02.2024) adds that from May 2023 applicants under the security-forces-service criterion and the eligible-residence criterion are exempt from the interview, that the rest get a phone interview, and that the interviewing official may summon a frontal interview when something raises a flag. The Ministry described the call as a clarification of the application data rather than an interview.
 
-During the interview the licensing official can approve the shortened training track (see stage 5). A user who qualifies for it should raise it at this point, with the documents.
+gov.il lists who may take the shortened training track (see stage 5) but does not say at which stage it is approved. A user who qualifies should raise it early, with the documents, and ask the service center.
 
 ## 4. Stage 4: Conditional approval (ishur mutne) and the fee
 
@@ -51,7 +51,7 @@ Fee (gov.il fee table, updated 04.01.2026, based on the Firearms (License Fees) 
 | Replacement of a firearm | 71 | |
 | License copy | 71 | |
 
-Pay through the government payment service (voucher 388) or at the postal bank. The fee is computed per year of validity up to three years (gov.il private-sale page: "עלות רישיון כלי הירייה מחושבת לפי מספר שנות תוקף הרישיון (עד שלוש שנים)"), so a 3-year license is three times the annual fee; the voucher attached to the conditional approval shows the amount. The gov.il application page states that reservists get 50 percent off the license fee on presenting the eligibility card; the renewal page adds that on renewal the discount requires renewing by the set date.
+Pay through the government payment service or at the postal bank. The fee is computed per year of validity up to three years (gov.il private-sale page: "עלות רישיון כלי הירייה מחושבת לפי מספר שנות תוקף הרישיון (עד שלוש שנים)"), so a 3-year license is three times the annual fee; the voucher attached to the conditional approval shows the amount. The gov.il application page states that reservists get 50 percent off the license fee on presenting the eligibility card; the renewal page adds that on renewal the discount requires renewing by the set date.
 
 The range charges its own price for the training. gov.il does not publish it; the user should ask the range when booking.
 
@@ -67,7 +67,7 @@ Regular training (hachshara regila), gov.il:
 - A candidate who fails may take additional training.
 - The theory pass is valid for 3 months from the training date.
 
-Shortened training (hachshara mekutzeret), approved by the licensing official at the interview, for one of:
+Shortened training (hachshara mekutzeret), if approved, for one of:
 
 - Service in a security body, with a certificate of prior knowledge and training (form attached to the gov.il page).
 - Training at an authorised range in the 3 years before the application, reported to the authority; if not reported, ask the range for a certificate (form attached).
@@ -107,4 +107,4 @@ Published on gov.il:
 
 From the 2014 procedure 12.02.04, useful as a shape of the internal targets but not binding today: a refusal for missing threshold or criterion is sent within 30 days of submission; a reminder for missing documents after 30 days; approval within 30 days of the complete file; an interim letter when the police or the Health Ministry delay, with a further 45 days expected; the magnetic license within about two months of the temporary one.
 
-From the Knesset review: the conditional approval runs half a year, and the whole chain ends with a temporary license followed by a magnetic license valid for 3 years.
+From the Knesset review: the conditional approval runs half a year (read the date on the document, which prevails), and the whole chain ends with a temporary license followed by a magnetic license valid for 3 years.

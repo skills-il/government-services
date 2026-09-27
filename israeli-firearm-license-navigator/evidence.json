@@ -1,398 +1,2122 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-firearm-license-navigator",
-  "generated_at": "2026-09-14T00:00:00Z",
+  "generated_at": "2026-09-28T00:00:00Z",
   "claims": [
     {
       "claim_id": "criteria-list-closed",
       "claim": "The list of criteria (tavchinim) for a private firearm license is closed and exhaustive; no private license or permit is issued without meeting one of them.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
       "raw_snippet": "רשימת התבחינים המפורטים במסמך זה היא סגורה וממצה, ולא ניתן לקבל רישיון פרטי או הרשאה להחזקתו או לנשיאתו של כלי ירייה ללא עמידה באחד מתבחינים אלה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "gov.il criteria page, published 21.07.2025, updated 30.06.2026. gov.il returns HTTP 403 to non-browser fetchers; read in a browser.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/eligibility-criteria.md"]
+      "fetched_at": "2026-09-27",
+      "source_note": "gov.il criteria page, published 21.07.2025, updated 30.06.2026. On 27.09.2026 the URL redirects to https://www.gov.il/he/pages/criteria_for (same content).",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
     },
     {
       "claim_id": "threshold-residence-3-years",
       "claim": "Threshold condition: registered as a citizen or permanent resident and resident in Israel continuously for the three years before the application; an oleh with a teudat oleh may apply under the residence criterion only, with police approval.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
       "raw_snippet": "מי שרשום במשרד הפנים כאזרח או תושב קבע ובלבד ששהה בישראל באופן רציף במשך שלוש שנים שקדמו להגשת הבקשה. חריג - מי שניתנה לו תעודת עולה לפי חוק השבות, תש\"י, הגיד בקשה בתבחין \"מקום מגורים\" בלבד, משטרת ישראל אישרה את כשירותו ,והוא הוכיח עמידה ביתר תנאי הסף הקבועים בחוק ובתקנות.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/eligibility-criteria.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
     },
     {
       "claim_id": "threshold-health-declaration-every-renewal",
       "claim": "The health declaration signed by the applicant and a physician is also signed on every renewal.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
       "raw_snippet": "הוא המציא הצהרה המעידה על כשירותו הרפואית לשאת כלי ירייה, והחתומה בידו ובידי רופא. הצהרה והתחייבות כאמור ייחתמו גם בכל חידוש רישיון.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/eligibility-criteria.md", "references/renewal-and-refresher.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/renewal-and-refresher.md"
+      ]
     },
     {
-      "claim_id": "age-rules",
-      "claim": "Age rules: 18 after regular service; 21 after two years of civil service; for the residence and workplace criteria 21 after one year as a combat soldier or two years of regular service, and 21 for a woman after one year of regular or civil service; 27 for a citizen who did not serve; 45 for a permanent resident who is not a citizen and did not serve.",
+      "claim_id": "age-rules-regular-and-civil-service",
+      "claim": "Age rules (gov.il criteria page, section 2): 18 and up after completing regular service; 21 and up after two years of civil service.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
-      "raw_snippet": "(א) אם סיים שירות סדיר כהגדרתו בסעיף 11ג(ב) לחוק – גיל 18  שנים ומעלה; (א1) אם סיים שירות אזרחי של שנתיים –גיל 21 שנים ומעלה. ... (1) מי שהשלים שנת שירות סדיר כלוחם, או השלים שנתיים שירות סדיר – גיל 21 שנים ומעלה. (2) אישה שהשלימה שנת שירות סדיר או סיימה שנת שירות אזרחי – גיל 21 שנים ומעלה.; (ג) אם הוא אזרחי ישראלי שלא שירת כאמור–גיל 27 שנים ומעלה; (ד) אם הוא תושב קבע בישראל שאינו אזרח, שלא שירת כאמור –גיל 45 שנים ומעלה;",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/eligibility-criteria.md"]
+      "raw_snippet": "(א) אם סיים שירות סדיר כהגדרתו בסעיף 11ג(ב) לחוק – גיל 18  שנים ומעלה; (א1) אם סיים שירות אזרחי של שנתיים –גיל 21 שנים ומעלה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "age-rules-residence-work-27-45",
+      "claim": "Age rules continued: for the residence and workplace criteria, 21 after one year as a combat soldier or two years of regular service, 21 for a woman after one year of regular or civil service; 27 for a citizen who did not serve; 45 for a permanent resident who is not a citizen and did not serve.",
+      "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
+      "raw_snippet": "(1) מי שהשלים שנת שירות סדיר כלוחם, או השלים שנתיים שירות סדיר – גיל 21 שנים ומעלה. (2) אישה שהשלימה שנת שירות סדיר או סיימה שנת שירות אזרחי – גיל 21 שנים ומעלה.; (ג) אם הוא אזרחי ישראלי שלא שירת כאמור–גיל 27 שנים ומעלה; (ד) אם הוא תושב קבע בישראל שאינו אזרח, שלא שירת כאמור –גיל 45 שנים ומעלה;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
     },
     {
       "claim_id": "amendment-25-wounded-soldiers",
-      "claim": "Under Amendment 25 to the Firearms Law (5785-2025), soldiers who did not complete regular service because of an operational injury, and combat soldiers discharged for medical reasons, may apply from age 18, and the licensing official will require medical documents.",
+      "claim": "Under Amendment 25 to the Firearms Law (5785-2025), soldiers who did not complete regular service because of an operational injury, and combat soldiers discharged for medical reasons, may apply from age 18, and the licensing official will require medical documents. The gov.il summary omits the Law's medical-committee (unfit for service) condition and the authority's discretion; see law-s11c-b2-amendment-25-medical-committee.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
       "raw_snippet": "בהתאם לתיקון  מס' 25 לחוק כלי הירייה - התשפ\"ה 2025 רשאים להגיש גם מבקשים העומדים בתנאים הבאים : חייל בצבא הגנה לישראל, אשר קצין מוסמך בצה\"ל הודיע לאגף לרישוי כלי יריה, כי לא השלים את שירותו הצבאי הסדיר בשל פציעה בנסיבות מבצעיות- גילו- 18 שנים ומעלה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["references/eligibility-criteria.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
     },
     {
       "claim_id": "criterion-ceased-30-days-6-months",
       "claim": "When the licensing official learns the criterion no longer applies, the holder is notified in writing and may prove the criterion within 30 days; failing that the firearm and ammunition are deposited at a licensed dealer, and another criterion may be proven within up to 6 months from the first notice before the license is cancelled.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensing_criteria",
       "raw_snippet": "נודע לפקיד הרישוי שחדל להתקיים התבחין שבשלו ניתן הרישיון, יודיע לבעל הרישיון על כך בכתב. בעל הרישיון יהיה רשאי לבקש להוכיח תבחין בתוך 30 ימים מיום קבלת ההודעה. לא הוכיח את התבחין בתוך 30 ימים יידרש להפקיד את כלי הירייה והתחמושת בבית מסחר מורשה . ויוכל להוכיח את עמידתו בתבחין אחר בתוך תקופה שלא תעלה על 6 חודשים מיום קבלת ההודעה הראשונה",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/eligibility-criteria.md", "references/storage-ammunition-and-incidents.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
     },
     {
       "claim_id": "application-documents",
       "claim": "Documents to attach to the application: health declaration signed by a family physician, copy of ID card and appendix, confirmation of national or civil service or exemption, and supporting documents for the criterion.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
       "raw_snippet": "הצהרת בריאות חתומה על ידי רופא משפחה צילום תעודת זהות וספח אישור שירות לאומי או אזרחי או פטור משירות להזמנת אישורים באתר צה\"ל (באמצעות דפדפן כרום). מסמכים נוספים התומכים בנתוני הבקשה",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ]
     },
     {
       "claim_id": "interview-then-conditional-approval",
       "claim": "After the file check, eligibility for an interview exemption is examined or an SMS with a link to book a phone interview is sent; after the interview, eligibility for a conditional approval is examined.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
       "raw_snippet": "לאחר בדיקת תקינות הבקשה, תבחן זכאות לפטור מראיון או שישלח מסרון עם קישור לזימון תור לראיון אישי טלפוני.לאחר הריאיון, תיבחן זכאות לקבלת \"אישור מותנה\".",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
+      "fetched_at": "2026-09-27",
       "source_note": "Text of the collapsed section 'after applying' (collapseItem3) on the service page.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ]
     },
     {
       "claim_id": "conditional-approval-half-year",
       "claim": "The conditional approval (ishur mutne) is valid for half a year, during which the applicant pays the fee, completes training under the Firearms (Training) Regulations 2018, and buys the firearm; the license that follows is valid for three years.",
       "source_url": "https://fs.knesset.gov.il/25/Committees/25_cs_mmm_5856055.pdf",
       "raw_snippet": "לאחר שלבים אלו יקבל המבקש אישור מותנה שתוקפו חצי  שנה, במהלכה עליו לשלם אגרת רישוי, לבצע הכשרה כקבוע בתקנות כלי הירייה (הכשרה), התשע\"ח–2018  ולרכוש כלי ירייה. לאחר השלמת שלבים אלה, יקבל המבקש רישיון שתוקפו לשלוש שנים.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "pdf text extraction",
-      "verified_at": "2026-09-14",
+      "fetched_at": "2026-09-27",
       "source_note": "Knesset Research and Information Center, 'היבטים ברישוי כלי ירייה פרטי בישראל', 13.02.2024. gov.il service pages do not print the validity of the conditional approval; the 13.12.2023 gov.il notice shows it can be extended by temporary order.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "references/glossary.md", "scripts/calculate_license_dates.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "references/glossary.md",
+        "scripts/calculate_license_dates.py"
+      ]
     },
     {
       "claim_id": "interview-exemption-2023",
       "claim": "From May 2023 applicants under the security-forces-service criterion and the eligible-residence criterion are exempt from the interview; the rest have a phone interview.",
       "source_url": "https://fs.knesset.gov.il/25/Committees/25_cs_mmm_5856055.pdf",
-      "raw_snippet": "עוד לפני  המלחמה (במאי 2023) הוחלט לפטור מראיון מגישי בקשות על בסיס תבחין של שירות בכוחות ביטחון ומגורים ביישוב מזכה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "pdf text extraction",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md"]
+      "raw_snippet": "הוחלט לפטור מראיון מגישי בקשות על בסיס תבחין של שירות בכוחות ביטחון ומגורים",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ],
+      "source_note": "Knesset RIC review 13.02.2024; quote taken from inside one PDF text-layer line to avoid the RTL-reordered \"(במאי 2023)\" parenthesis. The May 2023 date is in the same sentence of the PDF."
     },
     {
       "claim_id": "training-regular-4-5-hours",
       "claim": "Regular initial training lasts 4.5 consecutive hours: theory with an exam (pass 70 percent), then 80 practice rounds and a 20-round qualification (pass 70 percent); failing the theory exam blocks the practical part; the theory pass is valid for three months from the training date.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
       "raw_snippet": "משך ההכשרה 4.5 שעות ברצף, והיא כוללת:הכשרה עיונית - בסיומה ייערך מבחן (ציון עובר - 70%).מי שלא עבר את המבחן העיוני בהצלחה לא יוכל לבצע אימון ירי, לרבות מבחן מעשיהכשרה מעשית - אימון ירי של 80 כדורים, שבסיומו ייערך מבחן הסמכה של 20 כדורים (ציון עובר - 70%).מי שלא יעמוד בדרישות תכנית ההכשרה רשאי לבצע הכשרה נוספת. האישור על מעבר בהצלחה של המבחן העיוני תקף לתקופה של שלושה חודשים מיום ביצוע ההכשרה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
-      "claim_id": "training-shortened-2-hours",
-      "claim": "A shortened training of two consecutive hours (theory exam, 20 practice rounds, 10-round qualification) is available to applicants with prior handgun knowledge from service in a security body or from training at an authorised range in the three years before the application.",
+      "claim_id": "training-shortened-eligibility",
+      "claim": "A shortened training track is available to an applicant with handgun knowledge who served in a security body (with a certificate) or trained at an authorised range in the three years before the application, reported to the authority.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
-      "raw_snippet": "הכשרה מקוצרת בעל ידע והכשרה בתפעול אקדח יכול לקבל אישור להכשרה מקוצרת, באחד מהמקרים הבאים:שירת בגוף בטחוני, יש להציג אישור על ידע והכשרה קודמים.עבר הכשרה במטווח קליעה מורשה בשלוש השנים שקדמו לבקשה, והכשרתו דווחה לרשות המוסמכת. ... משך ההכשרה שעתיים ברצף, והיא כוללת:הכשרה עיונית - בסיומה ייערך מבחן (ציון עובר - 70%).הכשרה מעשית - אימון ירי של 20 כדורים, שבסיומו ייערך מבחן הסמכה של 10 כדורים (ציון עובר - 70%).",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "הכשרה מקוצרת בעל ידע והכשרה בתפעול אקדח יכול לקבל אישור להכשרה מקוצרת, באחד מהמקרים הבאים:שירת בגוף בטחוני, יש להציג אישור על ידע והכשרה קודמים.עבר הכשרה במטווח קליעה מורשה בשלוש השנים שקדמו לבקשה, והכשרתו דווחה לרשות המוסמכת.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "training-shortened-content-2-hours",
+      "claim": "The shortened track lasts two consecutive hours: theory with an exam (pass 70 percent), 20 practice rounds and a 10-round qualification (pass 70 percent).",
+      "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
+      "raw_snippet": "משך ההכשרה שעתיים ברצף, והיא כוללת:הכשרה עיונית - בסיומה ייערך מבחן (ציון עובר - 70%).הכשרה מעשית - אימון ירי של 20 כדורים, שבסיומו ייערך מבחן הסמכה של 10 כדורים (ציון עובר - 70%).",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "range-visit-documents-and-identical-firearm",
       "claim": "The applicant goes to an authorised range with the payment confirmation, a copy of the health declaration and the conditional approval, and trains on a firearm identical to the one they intend to buy.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
       "raw_snippet": "יש לגשת למטווח מורשה עם אישור התשלום, העתק הצהרת הבריאות והאישור המותנה, ולבצע הכשרה על כלי הזהה לכלי הירייה שמבקשים לרכוש.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/build_stage_checklist.py"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "purchase-private-person-lawyer",
-      "claim": "Since the Iron Swords war the department accepts the bill of sale for a purchase from a private person at the service center without visiting a licensing official, provided the seller and buyer identified themselves before a lawyer; a home safe must be installed; the magnetic license is sent within 90 days of the ownership transfer.",
+      "claim": "Since the Iron Swords war the department accepts the bill of sale for a purchase from a private person at the service center without visiting a licensing official, provided seller and buyer identified themselves before a lawyer. Still stated on the page on 27.09.2026.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
-      "raw_snippet": "רכישת כלי ירייה מאדם פרטי - בעקבות מלחמת \"חרבות ברזל\", האגף יאפשר הגשת שטר מכר למוקד השירות, ללא צורך בהגעה לפקיד רישוי ובתנאי שהמוכר והקונה הזדהו בפני עורך דין. ... עליכם להתקין כספת ביתית ולאחסן בה את כלי הירייה. ... קבלת רישיון מגנטיבתוך 90 יום מביצוע העברת הבעלות, יישלח רישיון מגנטי, לכתובת הדואר המעודכנת באגף לרישוי כלי ירייה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/calculate_license_dates.py"]
+      "raw_snippet": "רכישת כלי ירייה מאדם פרטי - בעקבות מלחמת \"חרבות ברזל\", האגף יאפשר הגשת שטר מכר למוקד השירות, ללא צורך בהגעה לפקיד רישוי ובתנאי שהמוכר והקונה הזדהו בפני עורך דין.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "purchase-home-safe-required",
+      "claim": "The application page tells the buyer to install a home safe and store the firearm in it.",
+      "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
+      "raw_snippet": "כלי ירייה הוא כלי מסוכן. כדי לשמור על ביטחונכם ועל ביטחון הסובבים אתכם, עליכם להתקין כספת ביתית ולאחסן בה את כלי הירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "purchase-magnetic-license-90-days",
+      "claim": "The magnetic license is sent within 90 days of the ownership transfer to the postal address on file at the department.",
+      "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
+      "raw_snippet": "בתוך 90 יום מביצוע העברת הבעלות, יישלח רישיון מגנטי, לכתובת הדואר המעודכנת באגף לרישוי כלי ירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/calculate_license_dates.py"
+      ]
     },
     {
       "claim_id": "private-sale-documents",
-      "claim": "For a purchase from a private person the buyer brings the conditional approval, fee payment confirmation and training confirmation on the purchased firearm (same type and caliber); the seller brings a valid license card; the bill of sale is emailed to Tservice@mops.gov.il and must state the ammunition quantity transferred.",
+      "claim": "For a purchase from a private person the buyer brings the conditional approval, fee payment confirmation and training confirmation on the purchased firearm (same type and caliber); the seller brings a valid license card.",
       "source_url": "https://www.gov.il/he/service/sale_of_firearms",
-      "raw_snippet": "על הקונה להביא: אישור מותנה אישור תשלום אגרה אישור על ביצוע הכשרה במטווח מורשה על כלי הירייה שנרכש – אותו סוג ואותו קליבר על המוכר להביא – כרטיס רישיון בתוקף ... בעקבות מלחמת חרבות ברזל, יש לשלוח את שטר המכר לכתובת הדואר האלקטרוני Tservice@mops.gov.il, עד להודעה אחרת. ... יש למלא על גבי שטר המכר את כמות התחמושת שתועבר יחד עם כלי הירייה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["references/process-stages.md", "references/storage-ammunition-and-incidents.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "על הקונה להביא:אישור מותנהאישור תשלום אגרהאישור על ביצוע הכשרה במטווח מורשה על כלי הירייה שנרכש – אותו סוג ואותו קליברעל המוכר להביא – כרטיס רישיון בתוקף",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/process-stages.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "private-sale-email-bill-of-sale",
+      "claim": "Following the Iron Swords war the bill of sale is emailed to Tservice@mops.gov.il until further notice. Still stated on the page on 27.09.2026.",
+      "source_url": "https://www.gov.il/he/service/sale_of_firearms",
+      "raw_snippet": "בעקבות מלחמת חרבות ברזל, יש לשלוח את שטר המכר לכתובת הדואר האלקטרוני Tservice@mops.gov.il, עד להודעה אחרת.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/process-stages.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "private-sale-ammunition-quantity",
+      "claim": "The bill of sale must state the ammunition quantity transferred; if the seller has none, the buyer attaches a dealer bill of sale for the ammunition.",
+      "source_url": "https://www.gov.il/he/service/sale_of_firearms",
+      "raw_snippet": "יש למלא על גבי שטר המכר את כמות התחמושת שתועבר יחד עם כלי הירייה. אם אין ברשות המוכר תחמושת, על הקונה לצרף שטר מכר מבית מסחר ממנו מעוניין לרכוש את התחמושת המתאימה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/process-stages.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "fee-71-per-year",
-      "claim": "Fee for issue or renewal of a private carry license is 71 NIS per year or part of a year; replacement of a firearm 71 NIS; purchase by a private person 71 NIS per year; license copy 71 NIS. Table updated 04.01.2026 under the Firearms (License Fees) Regulations 5766-2005.",
+      "claim": "Fee table rows 1 to 3 (updated 04.01.2026): private carry license issue or renewal 71 NIS per year or part of a year; replacement of a firearm 71 NIS; purchase by a private person 71 NIS per year or part. Confirmed against the attached notice הודעת כלי הירייה (אגרות רישיון) התשפ\"ו-2026 (in force 1 January 2026), item (5)(א) = 71.",
       "source_url": "https://www.gov.il/he/pages/fa_license_fees",
-      "raw_snippet": "רישיון לנשיאת כלי ירייה פרטי – קבלה או חידוש (נשיאה, החזקה, מדריך ירי, מפקח מטווח, מאבטח) 71 התעריף הוא עבור שנה או חלק ממנה 2 החלפת כלי ירייה 71 3 רכישת כלי ירייה על ידי אדם פרטי 71 התעריף הוא עבור רישיון כלי הירייה, לשנה או לחלק ממנה ... 13 עותק רישיון 71",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "Page metadata: published 01.01.2017, updated 04.01.2026; attached file 'הודעת כלי הירייה (אגרות רישיון) התשפ\"ו-2026'.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "references/renewal-and-refresher.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "רישיון לנשיאת כלי ירייה פרטי – קבלה או חידוש (נשיאה, החזקה, מדריך ירי, מפקח מטווח, מאבטח) 71 התעריף הוא עבור שנה או חלק ממנה 2 החלפת כלי ירייה 71 3 רכישת כלי ירייה על ידי אדם פרטי 71 התעריף הוא עבור רישיון כלי הירייה, לשנה או לחלק ממנה",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "Page metadata: published 01.01.2017, updated 04.01.2026. The attached 2026 fee notice is a scanned PDF (no text layer); read as an image on 27.09.2026: item (5)(א) carry/holding license 71, item (8) license copy 71."
+    },
+    {
+      "claim_id": "fee-71-license-copy",
+      "claim": "Fee table row 13: license copy 71 NIS.",
+      "source_url": "https://www.gov.il/he/pages/fa_license_fees",
+      "raw_snippet": "13 עותק רישיון 71",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "late-renewal-surcharge-tiers",
-      "claim": "A holder who did not renew on time must deposit the firearm at the Israel Police immediately because holding a firearm without a valid license is a criminal offence; if renewal is approved a surcharge applies: up to 6 months late, one annual fee; 6 to 12 months, three annual fees; over 12 months, four annual fees for each year of delay or part of it.",
+      "claim": "A holder who did not renew on time must deposit the firearm at the Israel Police immediately (holding without a valid license is a criminal offence); if renewal is then approved a surcharge is added to the renewal fee: up to 6 months late, one annual fee; 6 to 12 months, three annual fees; over 12 months, four annual fees for each year of delay or part of it.",
       "source_url": "https://www.gov.il/he/pages/fa_license_fees",
-      "raw_snippet": "המחזיק כלי ירייה ולא חידש את רישיונו במועד, עליו להפקיד מיד את הכלי במשטרת ישראל, שכן החזקת כלי ירייה ללא רישיון בתוקף היא עבירה פלילית. ... איחור של עד שישה חודשים: סכום האגרה לשנה אחת עבור אותו רישיון איחור של שישה חודשים עד 12 חודשים: סכום האגרה לשלוש שנים עבור אותו רישיון איחור מעל 12 חודשים: לכל שנת איחור או חלק ממנה יחויב בסכום האגרה לארבע שנים עבור אותו רישיון",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/renewal-and-refresher.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "המחזיק כלי ירייה ולא חידש את רישיונו במועד, עליו להפקיד מיד את הכלי במשטרת ישראל, שכן החזקת כלי ירייה ללא רישיון בתוקף היא עבירה פלילית. לאחר שהפקיד את הכלי, אם יאושר לו לחדש את רישיונו יחויב בתוספת תשלום אגרה, בנוסף לאגרת החידוש, לפי מידת האיחור, כמובא להלן: איחור של עד שישה חודשים: סכום האגרה לשנה אחת עבור אותו רישיון איחור של שישה חודשים עד 12 חודשים: סכום האגרה לשלוש שנים עבור אותו רישיון איחור מעל 12 חודשים: לכל שנת איחור או חלק ממנה יחויב בסכום האגרה לארבע שנים עבור אותו רישיון",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
-      "claim_id": "license-3-years-renewal-year-3",
-      "claim": "The license is valid for 3 years; renewal happens in the third year; from 3 months before expiry a reminder is sent by mail and electronically; renewal is possible until expiry and is the holder's responsibility; after the renewal refresher a temporary license signed by the range is issued and the plastic license is mailed to the address registered with the Population Authority.",
+      "claim_id": "renewal-year-3-reminder-3-months",
+      "claim": "Renewal happens in the third year of the license; from 3 months before expiry a reminder is sent by Israel Post and electronically.",
       "source_url": "https://www.gov.il/he/service/private_firearm_license_renewal",
-      "raw_snippet": "חידוש הרישיון מתבצע בשנה השלישית לתקופת הרישיון. החל מ-3 חודשים לפני תום תוקף הרישיון תישלח לבעלי הרישיון הודעת תזכורת בדואר ישראל ובאמצעים אלקטרוניים על ביצוע הכשרת ריענון תקופתית. ... ניתן לחדש את הרישיון עד לסוף תוקף הרישיון. חידוש הרישיון הוא באחריות בעל הרישיון ... לאחר ביצוע הכשרת הריענון יתקבל רישיון זמני החתום בחתימת המטווח. הרישיון תקף ל3 שנים. רישיון קבוע מפלסטיק יישלח לכתובת הדואר המעודכנת ברשות האוכלוסין (כל עוד לא עודכנה כתובת אחרת).",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/renewal-and-refresher.md", "scripts/calculate_license_dates.py"]
+      "raw_snippet": "חידוש הרישיון מתבצע בשנה השלישית לתקופת הרישיון. החל מ-3 חודשים לפני תום תוקף הרישיון תישלח לבעלי הרישיון הודעת תזכורת בדואר ישראל ובאמצעים אלקטרוניים על ביצוע הכשרת ריענון תקופתית.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "renewal-until-expiry-holder-responsibility",
+      "claim": "Renewal is possible until the end of the license validity and is the holder's responsibility; it must be completed before expiry.",
+      "source_url": "https://www.gov.il/he/service/private_firearm_license_renewal",
+      "raw_snippet": "ניתן לחדש את הרישיון עד לסוף תוקף הרישיון. חידוש הרישיון הוא באחריות בעל הרישיון, יש לסיים את תהליך החידוש לפני תום תוקף הרישיון.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "license-3-years-temporary-and-plastic",
+      "claim": "After the renewal refresher a temporary license signed by the range is issued; the license is valid for 3 years; the plastic license is mailed to the address registered with the Population Authority unless another address was given.",
+      "source_url": "https://www.gov.il/he/service/private_firearm_license_renewal",
+      "raw_snippet": "לאחר ביצוע הכשרת הריענון יתקבל רישיון זמני החתום בחתימת המטווח. הרישיון תקף ל3 שנים. רישיון קבוע מפלסטיק יישלח לכתובת הדואר המעודכנת ברשות האוכלוסין (כל עוד לא עודכנה כתובת אחרת).",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
     },
     {
       "claim_id": "reservist-50-percent-discount",
       "claim": "Reservists holding an active-reservist card are entitled to a 50 percent discount on the license fee, on renewal only if renewed by the set date and on presenting the card.",
       "source_url": "https://www.gov.il/he/service/private_firearm_license_renewal",
       "raw_snippet": "חיילי מילואים בעלי תעודת 'משרת מילואים פעיל', זכאים להנחה של 50% מסך אגרת הרישיון בתנאי שחידוש הרישיון בוצע עד למועד שנקבע ובהצגת תעודה המקנה זכאות להנחה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "references/renewal-and-refresher.md", "scripts/build_stage_checklist.py"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
-      "claim_id": "refresher-year-2-content-72-hours",
-      "claim": "The periodic refresher takes place in the second year of the license (reminder at the start of year 2); content is theory plus 40 practice rounds and a 10-round qualification at 70 percent, with retakes within 30 days; a holder who missed it must deposit the firearm at a licensed dealer within 72 hours of the licensing official's notice, otherwise the license is cancelled and the firearm must be deposited immediately at a police station.",
+      "claim_id": "refresher-year-2-reminder",
+      "claim": "The periodic refresher takes place in the second year of the license period; a reminder is sent at the start of year 2 by Israel Post and electronically.",
       "source_url": "https://www.gov.il/he/service/refresher-training",
-      "raw_snippet": "ההכשרה מתבצעת בשנה השנייה לתקופת הרישיון. בתחילת השנה השנייה לתוקף הרישיון, תישלח לבעלי הרישיון הודעת תזכורת ... מי שלא ביצע את הכשרת הריענון בזמן, יידרש להפקיד את כלי הירייה אצל סוחר מורשה, תוך 72 שעות מיום קבלת הודעת פקיד רישוי על אי ביצוע הכשרת ריענון. מי שלא יפקיד את כלי הירייה, רישיונו יבוטל ועליו להפקיד מידית בתחנת המשטרה. ... הכשרה מעשית - אימון ירי של 40 כדורים, שבסיומו ייערך מבחן הסמכה של 10 כדורים (ציון עובר - 70%) מי שלא עמדו בדרישות הכשרת הריענון, יוכלו לבצע הכשרות ריענון נוספות, תוך 30 ימים מיום ביצוע הכשרת הריענון הראשונה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/renewal-and-refresher.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "ההכשרה מתבצעת בשנה השנייה לתקופת הרישיון. בתחילת השנה השנייה לתוקף הרישיון, תישלח לבעלי הרישיון הודעת תזכורת בדואר ישראל ובאמצעים אלקטרוניים על ביצוע הכשרת ריענון תקופתית.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "refresher-missed-72-hours",
+      "claim": "A holder who missed the refresher must deposit the firearm at a licensed dealer within 72 hours of the licensing official's notice; otherwise the license is cancelled and the firearm must be deposited immediately at a police station.",
+      "source_url": "https://www.gov.il/he/service/refresher-training",
+      "raw_snippet": "מי שלא ביצע את הכשרת הריענון בזמן, יידרש להפקיד את כלי הירייה אצל סוחר מורשה, תוך 72 שעות מיום קבלת הודעת פקיד רישוי על אי ביצוע הכשרת ריענון. מי שלא יפקיד את כלי הירייה, רישיונו יבוטל ועליו להפקיד מידית בתחנת המשטרה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "refresher-content-40-rounds-30-days",
+      "claim": "Refresher practical part: 40 practice rounds and a 10-round qualification at 70 percent; retakes within 30 days of the first refresher.",
+      "source_url": "https://www.gov.il/he/service/refresher-training",
+      "raw_snippet": "הכשרה מעשית - אימון ירי של 40 כדורים, שבסיומו ייערך מבחן הסמכה של 10 כדורים (ציון עובר - 70%) מי שלא עמדו בדרישות הכשרת הריענון, יוכלו לבצע הכשרות ריענון נוספות, תוך 30 ימים מיום ביצוע הכשרת הריענון הראשונה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "emergency-extension-april-2026",
       "claim": "On 23.04.2026 the Minister of National Security extended, by temporary order, refresher and renewal deadlines that fell on 31.3.2026, 30.4.2026 and 31.5.2026 to 30.6.2026, 31.7.2026 and 31.8.2026 respectively.",
       "source_url": "https://www.gov.il/he/pages/firearm_licensings",
       "raw_snippet": "הכשרת רענון: בעלי רישיון שהיו אמורים לבצע רענון עד ליום ה-31.3.2026, ה-30.4.2026 וה-31.5.2026 יוכלו לעשות זאת עד ליום ה-30.6.2026, ה-31.7.2026, וה-31.8.2026 בהתאמה. חידוש רישיון: בעלי רישיון שהיו אמורים לחדש עד ליום ה-31.3.2026, ה-30.4.2026 וה-31.5.2026 יוכלו לעשות זאת עד ליום ה-30.6.2026, ה-31.7.2026, וה-31.8.2026 בהתאמה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "gov.il news, published 23.04.2026, updated 26.04.2026.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/renewal-and-refresher.md", "scripts/calculate_license_dates.py"]
+      "fetched_at": "2026-09-27",
+      "source_note": "gov.il news, published 23.04.2026, updated 26.04.2026 (re-read 27.09.2026). All extended dates (30.6, 31.7, 31.8.2026) have now passed; no later extension notice found on this page.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
     },
     {
       "claim_id": "conditional-approval-extension-2023",
       "claim": "Conditional approvals issued June to December 2023 with an active application were extended by three months from their original expiry, showing the validity is a policy value that can be changed by temporary order.",
       "source_url": "https://www.gov.il/he/pages/news_131223",
       "raw_snippet": "מקבלי אישור המותנה שקיבלו את האישור בחודשים יוני- דצמבר 2023, ובקשתם עדיין פעילה, תוקפם יוארך בשלושה חודשים ממועד פקיעתו המקורי.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["references/process-stages.md", "references/renewal-and-refresher.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/process-stages.md",
+        "references/renewal-and-refresher.md"
+      ]
     },
     {
-      "claim_id": "storage-safe-specification",
-      "claim": "A private firearm and its ammunition are stored at home in a safe locked by a mechanical key mechanism (a code is allowed only if a key also opens it), minimum external size 25 x 35 x 25 cm, 4 mm steel body, double 4 mm door, at least 4 bolts, a double-bit safe lock, anchored with at least 4 anchors in two directions; never in a vehicle or a hotel safe; deposit with a dealer when away more than 48 hours with no adult at home.",
+      "claim_id": "storage-safe-mechanical-lock",
+      "claim": "The firearm and ammunition are stored in a safe locked by a mechanical key mechanism; a digital code or other identification is allowed only if the safe can also be opened with a key.",
       "source_url": "https://www.gov.il/he/pages/firearm_storage",
-      "raw_snippet": "כלי הירייה והתחמושת ( אקדח + מחסניות+ כדורים) יאוחסנו בכספת הננעלת במנגנון מכני (מפתח). ... גובה חיצוני 25 ס\"מ. רוחב חיצוני 35 ס\"מ. עומק 25 ס\"מ ... עובי גוף הכספת - פלדה בעובי 4 מ\"מ לפחות ... חל איסור להשאיר כלי ירייה ותחמושת ברכב בכל מקרה. חל איסור לאחסן את כלי הירייה בכספת של בית מלון ... במקרה בו בעל הרישיון לכלי הירייה  נעדר מביתו מעל 48 שעות, ואין  בבית שום נוכחות של יתר בני הבית (בגירים בלבד) בתקופה זו, יש להפקיד את כלי הירייה למשמורת אצל  סוחר נשק מורשה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "gov.il guide, published 06.03.2017, updated 16.07.2025.",
-      "appears_in": ["references/storage-ammunition-and-incidents.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "כלי הירייה והתחמושת ( אקדח + מחסניות+ כדורים) יאוחסנו בכספת הננעלת במנגנון מכני (מפתח). ניתן לאחסן בכספת עם קוד דיגיטלי או שיטת זיהוי אחרת ובתנאי כי ניתן יהיה לפתוח אותה באמצעי מכני (מפתח).",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-safe-minimum-size",
+      "claim": "Minimum external safe size: height 25 cm, width 35 cm, depth 25 cm.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "גובה חיצוני 25 ס\"מ.רוחב חיצוני 35 ס\"מ.עומק 25 ס\"מ",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-safe-steel-4mm-door-8mm",
+      "claim": "Safe body of steel at least 4 mm thick; door of two 4 mm steel plates welded together (8 mm total).",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "עובי גוף הכספת - פלדה בעובי 4 מ\"מ לפחות עם חיזוקים מתאימים באזור המשקוף.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-safe-door-two-plates",
+      "claim": "The safe door is built of two steel plates of 4 mm each (8 mm in total) welded together.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "הדלת תיבנה משתי פלטות פלדה בעובי 4 מ\"מ (סה\"כ 8 מ\"מ) לפחות אשר ירותכו יחדיו.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-safe-4-bolts-double-bit-lock",
+      "claim": "At least 4 bolts (2 fixed on the hinge side, 2 moving on the opposite side) and a double-bit safe lock.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "מנגנון הסגירה של הדלת יורכב מלפחות 4 בריחים: 2 בריחים קבועים בצד הצירים, 2 בריחים נעים בצד הנגדי ומופעלים על ידי ידית חיצונית.הנעילה תתבצע באמצעות מנעול כפול שיניים המיועד לנעילת כספת.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-safe-4-anchors-14mm",
+      "claim": "Anchoring with at least 4 anchors cast in concrete or massive bolts of at least 14 mm tightened from inside, in at least two directions.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "הכספת תעוגן לקיר לרצפה באמצעות 4 עוגנים לפחות שיהיו יצוקים בבטון או ברגים מאסיביים שיחוזקו מתוך הכספת  לפחות 14 מ\"מ. העיגון יהיה לשני כיוונים לפחות, כלומר לא כל ארבעת העיגונים יהיו לאותו קיר.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-no-vehicle-no-hotel-safe",
+      "claim": "Never leave a firearm or ammunition in a vehicle; never store it in a hotel safe.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "חל איסור להשאיר כלי ירייה ותחמושת ברכב בכל מקרה.חל איסור לאחסן את כלי הירייה בכספת של בית מלון, כספת זו אינה בשליטת בעל הרישיון ומאפשרת גישה גם לאחרים.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "storage-absence-48-hours",
+      "claim": "When the holder is away from home more than 48 hours and no adult household member is present, the firearm is deposited for safekeeping with a licensed dealer.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "במקרה בו בעל הרישיון לכלי הירייה  נעדר מביתו מעל 48 שעות, ואין  בבית שום נוכחות של יתר בני הבית (בגירים בלבד) בתקופה זו, יש להפקיד את כלי הירייה למשמורת אצל  סוחר נשק מורשה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "ammunition-50-rounds-handgun",
       "claim": "The gov.il ammunition guidance (published 17.06.2020) states that a private handgun license holder may hold 50 rounds under the license conditions, with a one-time top-up against a signed undertaking and a dealer's bill of sale; hunting rifle holders 700 rounds; active sport shooters 1,000 rounds per firearm. Press reports from late 2023 describe an increase to 100 for handguns; the skill tells users to read their own license conditions.",
       "source_url": "https://www.gov.il/he/pages/firearm-ammunition-regulations",
       "raw_snippet": "הכמות המותרת אותה רשאי בעל הרישיון להחזיק לפי תנאי הרישיון שניתן לו מהאגף לרישוי כלי ירייה היא 50 כדורים. במקרים בהם צרך בעל הרישיון חלק מהמכסה המותרת והוא מבקש להשלימה,  הוא רשאי לעשת זאת באופן חד פעמי",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "Page publication date 17.06.2020 with no later update date shown. Not verified on gov.il: the reported increase to 100 rounds (press, late 2023). Flagged in the skill's Gotchas as a value to confirm on the user's own license.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/storage-ammunition-and-incidents.md"]
+      "fetched_at": "2026-09-27",
+      "source_note": "Page publication date 17.06.2020 with no later update date shown (re-read 27.09.2026). Not verified on gov.il: the reported increase to 100 rounds (press, late 2023). Flagged in the skill's Gotchas as a value to confirm on the user's own license.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
     },
     {
       "claim_id": "appeal-45-days-lawyer-form",
-      "claim": "An appeal against refusal or cancellation is filed on a form completed and signed by a lawyer certifying the data, with an optional reasoned letter and supporting documents, sent to the department's service center within 45 days of receiving the refusal or cancellation notice; it is free; the supervisor decides within 45 days; the decision is final and further appeal is to the courts.",
+      "claim": "An appeal against refusal or cancellation is filed on a form completed and signed by a lawyer certifying the data, with an optional reasoned letter and supporting documents, sent to the department service center within 45 days of receiving the refusal or cancellation notice; it goes before the supervisor; it is free.",
       "source_url": "https://www.gov.il/he/service/firearm_license_appeal",
-      "raw_snippet": "טופס ערר ממולא כנדרש וחתום על-ידי עורך דין על נכונות הנתונים. ניתן לצרף מכתב מנומק אליו יצורפו תימוכין לטענות הפונים. יש לשלוח את הבקשה למרכז שירות ומידע של האגף לרישוי כלי ירייה עד 45 יום ממועד קבלת הדחייה או הודעת הביטול. הערר יועבר לדיון בפני הממונה. השירות ניתן ללא עלות ... החלטת הממונה תינתן בתוך 45 יום מיום קבלת הערר. החלטת הממונה היא סופית וערעור עליה יוגש לערכאות משפטיות.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/refusal-and-appeal.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "טופס ערר ממולא כנדרש וחתום על-ידי עורך דין על נכונות הנתונים.ניתן לצרף מכתב מנומק אליו יצורפו תימוכין לטענות הפונים.יש לשלוח את הבקשה למרכז שירות ומידע של האגף לרישוי כלי ירייה עד 45 יום ממועד קבלת הדחייה או הודעת הביטול. הערר יועבר לדיון בפני הממונה.השירות ניתן ללא עלות",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "appeal-decision-45-days-final",
+      "claim": "The supervisor decides within 45 days of receiving the appeal; the decision is final and further appeal is to the courts.",
+      "source_url": "https://www.gov.il/he/service/firearm_license_appeal",
+      "raw_snippet": "החלטת הממונה תינתן בתוך 45 יום מיום קבלת הערר. החלטת הממונה היא סופית וערעור עליה יוגש לערכאות משפטיות.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "law-s12-c1-appeal-45-days",
-      "claim": "Section 12(c1) of the Firearms Law, 1949: a person who considers themselves harmed by a decision of the competent authority may file a written appeal within 45 days of receiving it before the person the Minister appoints.",
+      "claim": "Section 12(c1)(1) of the Firearms Law, 1949 (סעיף 12(ג1) לחוק כלי הירייה; section 12, סעיף 12): a person harmed by a decision of the competent authority may file a written appeal within 45 days of receiving it before the person the Minister appoints.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
-      "raw_snippet": "הרואה עצמו נפגע מהחלטת רשות מוסמכת...רשאי להגיש עליה ערר בכתב, תוך 45 ימים ממועד קבלתה, בפני מי שהשר ימנה לענין זה",
-      "fetched_at": "2026-09-14",
-      "appears_in": ["references/refusal-and-appeal.md", "scripts/calculate_license_dates.py"]
+      "raw_snippet": "רשאי להגיש עליה ערר בכתב, תוך 45 ימים ממועד קבלתה, בפני מי שהשר ימנה לענין זה",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/refusal-and-appeal.md",
+        "scripts/calculate_license_dates.py",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "law-s12-c1-2-police-forwarded",
+      "claim": "Section 12(c1)(2) of the Firearms Law (סעיף 12(ג1)(2)): when the decision rests on a police officer's determination, the supervisor forwards the appeal to a senior police officer for a response; a Health or Welfare Ministry based decision is forwarded to that ministry's director.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "התקבלה ההחלטה על פי קביעת קצין משטרה, יעביר הממונה את הערר לתגובתו של קצין משטרה בכיר שימונה לענין זה על ידי המפקח הכללי של משטרת ישראל",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "law-s12-c1-3-decision-45-days",
+      "claim": "Section 12(c1)(3): the supervisor decides the appeal within 45 days of receiving it.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "(3) הממונה יחליט בערר תוך 45 ימים מהמועד שבו הגיע הערר לידיו.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md"
+      ]
     },
     {
       "claim_id": "law-s15-loss-48-hours",
-      "claim": "Section 15(a) of the Firearms Law requires a person whose firearm was lost, destroyed or stolen to notify the Israel Police as early as possible and no later than 48 hours.",
+      "claim": "Section 15(a) of the Firearms Law (סעיף 15(א) לחוק כלי הירייה; section 15, סעיף 15): a person whose firearm was lost, destroyed or stolen must notify the Israel Police as early as possible and no later than 48 hours (counted from the loss, destruction or theft itself; see law-s15a-48h-after-the-loss).",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
       "raw_snippet": "כלי הירייה או דמוי כלי הירייה אבד, נשמד או נגנב, חייב הוא להודיע על כך למשטרת ישראל ככל המוקדם, ולא יאוחר מארבעים ושמונה שעות",
-      "fetched_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/storage-ammunition-and-incidents.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
-      "claim_id": "procedure-lost-stolen-72-hours-cancellation",
-      "claim": "Department procedure 12.02.32 (version 1, 1.4.2014): the holder reports loss or theft to the police within 48 hours and to the licensing official within 72 hours; loss or theft leads to cancellation of the license; a license for a replacement firearm requires a new application under a currently valid criterion, and a grandfathered basis does not qualify.",
+      "claim_id": "procedure-lost-stolen-48-72-hours",
+      "claim": "Department procedure 12.02.32 (1.4.2014), section 3.1: the holder reports loss or theft to the police station no later than 48 hours from learning of it, and in parallel to the licensing official within 72 hours.",
       "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.32%20-firearm-licensing-dept-lost-stolen-firearm.pdf",
-      "raw_snippet": "בעל רישיון שכלי הירייה שברשותו אבד או נגנב, חייב להודיע על כך לתחנת המשטרה מוקדם ככל האפשר ולא יאוחר מ -48 שעות מהמועד בו נודע לו על האובדן או הגניבה. במקביל ידווח על הגניבה לפקיד הרישוי תוך 72 שעות ... 4.1 אובדן או גניבת כלי הירייה יביא לביטול הרישיון של בעל כלי הירייה. ... 5.2 לצורך קבלת רישיון חדש לכלי ירייה חלופי, יידרש המבקש להוכיח עמידה בעילה תקפה (לצורך זה \"תבחין משמר\" אינו מהווה תבחין מזכה).",
-      "fetched_at": "2026-09-14",
-      "verified_via": "pdf text extraction",
-      "verified_at": "2026-09-14",
-      "source_note": "Procedure dated 1.4.2014, published under freedom of information; predates the 2023 regulations. Used for the shape of the process; the current gov.il service pages prevail on numbers.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/storage-ammunition-and-incidents.md", "scripts/calculate_license_dates.py", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "בעל רישיון שכלי הירייה שברשותו אבד או נגנב, חייב להודיע על כך לתחנת המשטרה מוקדם ככל האפשר ולא יאוחר מ 48 - שעות מהמועד בו נודע לו על האובדן או הגניבה. במקביל ידווח על הגניבה לפקיד הרישוי תוך 72 שעות.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "Quoted from the PDF text layer, which renders the RTL \"מ-48\" as \"מ 48 -\". Procedure dated 1.4.2014, predates the 2023 regulations."
     },
     {
-      "claim_id": "procedure-health-ministry-examining-physician",
-      "claim": "Department procedure 12.02.04 (1.4.2014): when a refusal follows a Ministry of Health recommendation, the applicant may be examined by an examining physician authorised by the Minister of Health, and if that physician also recommends refusal the applicant may appeal within 45 days before the physician responsible for dangerousness assessment at the forensic psychiatry department.",
+      "claim_id": "procedure-lost-stolen-cancellation",
+      "claim": "Procedure 12.02.32 (1.4.2014) section 4.1: loss or theft of the firearm leads to cancellation of the license. The procedure predates the 2023 regulations; the skill attributes this to the procedure and tells the user to confirm the current handling.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.32%20-firearm-licensing-dept-lost-stolen-firearm.pdf",
+      "raw_snippet": "אובדן או גניבת כלי הירייה יביא לביטול הרישיון של בעל כלי הירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "procedure-lost-stolen-replacement-new-application",
+      "claim": "Procedure 12.02.32 section 5.2: a license for a replacement firearm requires proving a currently valid basis; a grandfathered (\"preserving\") criterion does not qualify.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.32%20-firearm-licensing-dept-lost-stolen-firearm.pdf",
+      "raw_snippet": "לצורך קבלת רישיון חדש לכלי ירייה חלופי, יידרש המבקש להוכיח עמידה בעילה תקפה (לצורך זה \"תבחין משמר\" אינו מהווה תבחין מזכה).",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "procedure-health-examining-physician",
+      "claim": "Department procedure 12.02.04 (1.4.2014), sections 8.3.1 and 8.3.2: after a Health Ministry based refusal the official tells the applicant they may be examined by an examining physician authorised by the Minister of Health and refers them.",
       "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
-      "raw_snippet": "8.3.1 פקיד הרישוי יודיע למבקשכי על פי רצונו יוכל להיבדק בפני רופא בודק. 8.3.2 פקיד הרישוי יפנה את מגיש הבקשה לרופא בודק שהוסמך ע ל ידי שר הבריאות לצורך זה. ... 8.3.6 היה והרופא הבודק ממ ליץ שלא לתת רישיון, תועבר הודעה על כך למבקש, אשר תעמוד לו הזכות להגיש ערר בפני פקיד הרישוי תוך 45 יום מקבלת ההחלטה, שיידון בפני רופא אחראי לאיתור מסוכנות, המחלקה לפסיכיאטריה משפטית, בריאות הנפש.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "pdf text extraction",
-      "verified_at": "2026-09-14",
-      "source_note": "Procedure dated 1.4.2014; predates the 2023 regulations.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/refusal-and-appeal.md"]
+      "raw_snippet": "8.3.1 פקיד הרישוי יודיע למבקשכי על פי רצונו יוכל להיבדק בפני רופא בודק. 8.3.2 פקיד הרישוי יפנה את מגיש הבקשה לרופא בודק שהוסמך ע ל ידי שר הבריאות לצורך זה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md"
+      ],
+      "source_note": "Quoted from the PDF text layer (missing and split spaces are as extracted). Procedure dated 1.4.2014, predates the 2023 regulations."
+    },
+    {
+      "claim_id": "procedure-health-appeal-45-days",
+      "claim": "Procedure 12.02.04 section 8.3.6: if the examining physician also recommends refusal, the applicant may appeal within 45 days, heard before the physician responsible for dangerousness assessment, forensic psychiatry.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "8.3.6 היה והרופא הבודק ממ ליץ שלא לתת רישיון, תועבר הודעה על כך למבקש, אשר תעמוד לו הזכות להגיש ערר בפני פקיד הרישוי תוך 45 יום מקבלת ההחלטה, שיידון בפני רופא אחראי לאיתור מסוכנות, המחלקה לפסיכיאטריה משפטית, בריאות הנפש.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/refusal-and-appeal.md"
+      ]
     },
     {
       "claim_id": "procedure-cancellation-deposit-police",
-      "claim": "Department procedure 12.02.08 (1.4.2014): on cancellation the official sends a registered letter with an explicit instruction to deposit all firearms immediately at the nearest police station; grounds include non-compliance with conditions, expiry of the basis, a court order, and recommendations from the police, the Health Ministry, the Welfare Ministry, or the Nature and Parks Authority; the list is not closed.",
+      "claim": "Department procedure 12.02.08 (1.4.2014): on cancellation the official sends a registered letter with an explicit instruction to deposit all firearms immediately at the nearest police station, stating the reason where possible.",
       "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.08%20-firearm-licensing-dept-cancelling-rejecting-license.pdf",
-      "raw_snippet": "א. לשלוח בדואר רשום הודעה על ביטול הרישיון ובה הוראה מפורשת להפקיד מיד כל כלי הירייה שברשותו בתחנת המשטרה הקרובה אליו , תוך ציון הנימוק (ככל שניתן לפרטו) לביטול הרישיון. ... 4.1.7 יודגש כי רשימת הסיבות דלעיל אינה בחזקת \"רשימה סגורה\" והחוק מאפשר לפקיד הרישוי שיקול דעת נרחב",
-      "fetched_at": "2026-09-14",
-      "verified_via": "pdf text extraction",
-      "verified_at": "2026-09-14",
-      "source_note": "Procedure dated 1.4.2014; predates the 2023 regulations.",
-      "appears_in": ["references/refusal-and-appeal.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "א. לשלוח בדואר רשום הודעה על ביטול הרישיון ובה הוראה מפורשת להפקיד מיד כל כלי הירייה שברשותו בתחנת המשטרה הקרובה אליו , תוך ציון הנימוק (ככל שניתן לפרטו) לביטול הרישיון.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/refusal-and-appeal.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "Procedure dated 1.4.2014; predates the 2023 regulations."
     },
     {
-      "claim_id": "contact-center-and-bureau-hours",
-      "claim": "Service center *8657 or 077-2324444, tservice@mops.gov.il, Sunday to Thursday 08:00 to 17:00, Friday and holiday eves 08:00 to 12:00; district bureaus receive the public Sunday, Tuesday and Wednesday 08:00 to 12:00, Monday 14:30 to 17:00, and not on Thursday; mailing address P.O. Box 8266, 4250549, Poleg industrial zone, Netanya.",
+      "claim_id": "procedure-cancellation-list-not-closed",
+      "claim": "Procedure 12.02.08 section 4.1.7: the list of cancellation grounds is not a closed list; the law gives the official wide discretion.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.08%20-firearm-licensing-dept-cancelling-rejecting-license.pdf",
+      "raw_snippet": "4.1.7 יודגש כי רשימת הסיבות דלעיל אינה בחזקת \"רשימה סגורה\" והחוק מאפשר לפקיד הרישוי שיקול דעת נרחב",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/refusal-and-appeal.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "contact-center-phone-hours",
+      "claim": "Service center *8657 or 077-2324444, tservice@mops.gov.il, Sunday to Thursday 8:00 to 17:00, Friday, holiday eves and chol hamoed 8:00 to 12:00.",
       "source_url": "https://www.gov.il/he/pages/firearm_contact_us",
-      "raw_snippet": "מרכז השירות והמידע - מענה טלפוני: 8657* 077-2324444 דואר אלקטרוני: tservice@mops.gov.il שעות מענה טלפוני: בימים א' עד ה' בין השעות 8:00-17:00 בימי ו', בערבי חג ובימי חול המועד בין השעות 8:00-12:00 ... שעות הפעילות בלשכות • ימים א', ג', ד – 8:00'  עד 12:00 • יום ב' – 14:30 עד 17:00 • יום ה' – לא תתקיים קבלת קהל",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "gov.il contact page, published 03.05.2021, updated 20.11.2025.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "מרכז השירות והמידע - מענה טלפוני:8657*077-2324444דואר אלקטרוני: tservice@mops.gov.ilשעות מענה טלפוני: בימים א' עד ה' בין השעות 8:00-17:00בימי ו', בערבי חג ובימי חול המועד בין השעות 8:00-12:00",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "gov.il contact page, published 03.05.2021, updated 20.11.2025; re-read 27.09.2026."
     },
     {
-      "claim_id": "license-copy-90-days-free-card",
-      "claim": "A license copy is available for a valid license that was stolen, lost, worn or never received; the permanent card is sent within 90 days of the request; if 90 days passed since the license was produced and it did not arrive, and less than 6 months passed and the address did not change, the service center can check eligibility for a free permanent card; a temporary paper license can be printed after applying.",
+      "claim_id": "contact-mailing-address",
+      "claim": "Mailing address: P.O. Box 8266, postal code 4250549, Poleg industrial zone, Netanya.",
+      "source_url": "https://www.gov.il/he/pages/firearm_contact_us",
+      "raw_snippet": "כתובת למשלוח דואר: ת\"ד 8266, מיקוד 4250549 א\"ת פולג, נתניה",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "contact-bureau-hours",
+      "claim": "District bureaus receive the public Sunday, Tuesday and Wednesday 8:00 to 12:00, Monday 14:30 to 17:00, no reception on Thursday.",
+      "source_url": "https://www.gov.il/he/pages/firearm_contact_us",
+      "raw_snippet": "שעות הפעילות בלשכות• ימים א', ג', ד – 8:00'  עד 12:00• יום ב' – 14:30 עד 17:00• יום ה' – לא תתקיים קבלת קהל",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "license-copy-free-card-90-days-6-months",
+      "claim": "If 90 days passed since the license was produced and it did not arrive (provided 6 months did not pass and the address did not change), the service center can check eligibility for a free permanent card.",
       "source_url": "https://www.gov.il/he/service/get_firearm_license_copy",
-      "raw_snippet": "לתשומת ליבכם, כשעברו 90 ימים מהפקת הרישיון והרישיון עדיין לא התקבל (ובלבד שלא חלפו 6 חודשים ולא שונתה הכתובת), ניתן לפנות למוקד השירות ולבחון זכאות לקבלת כרטיס רישיון קבוע ללא עלות. ... בתוך 90 ימים מהגשת הבקשה יישלח כרטיס רישיון קבוע לכתובת שמעודכנת באגף לרישוי כלי ירייה. ... עד לקבלת הרישיון הקבוע (מפלסטיק) יש להצטייד ברישיון זמני מנייר, ניתן להדפיסו לאחר הגשת הבקשה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["references/renewal-and-refresher.md", "scripts/build_stage_checklist.py"]
+      "raw_snippet": "לתשומת ליבכם, כשעברו 90 ימים מהפקת הרישיון והרישיון עדיין לא התקבל (ובלבד שלא חלפו 6 חודשים ולא שונתה הכתובת), ניתן לפנות למוקד השירות ולבחון זכאות לקבלת כרטיס רישיון קבוע ללא עלות.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
-      "claim_id": "regulation-7a-one-handgun-four-licenses",
-      "claim": "Regulation 7(a) of the 2023 regulations: for criteria 1 to 12 the private license covers one handgun and ammunition; no more than four private licenses are issued to one applicant even if several criteria apply; regulation 7(b): the licensing official sets the storage conditions.",
+      "claim_id": "license-copy-card-90-days",
+      "claim": "A permanent license card is sent within 90 days of the copy request to the address on file at the department.",
+      "source_url": "https://www.gov.il/he/service/get_firearm_license_copy",
+      "raw_snippet": "בתוך 90 ימים מהגשת הבקשה יישלח כרטיס רישיון קבוע לכתובת שמעודכנת באגף לרישוי כלי ירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "license-copy-temporary-paper",
+      "claim": "Until the plastic card arrives, print the temporary paper license after applying.",
+      "source_url": "https://www.gov.il/he/service/get_firearm_license_copy",
+      "raw_snippet": "עד לקבלת הרישיון הקבוע (מפלסטיק) יש להצטייד ברישיון זמני מנייר, ניתן להדפיסו לאחר הגשת הבקשה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "regulation-7a1-one-handgun",
+      "claim": "Regulation 7(a)(1) of the 2023 regulations (as amended through 5786): a private license under criteria 1 to 12 covers one handgun and ammunition as set by the licensing official.",
       "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
-      "raw_snippet": "לא יינתנו יותר מארבעה רישיונות פרטיים למבקש רישיון...גם אם התקיימו בו כמה תבחינים ... ברישיון פרטי...מהתבחינים (1) עד (12) – כלי ירייה אחד מסוג אקדח ותחמושת ... יקבע פקיד הרישוי את תנאי האחסון של כלי הירייה",
-      "fetched_at": "2026-09-14",
-      "appears_in": ["references/eligibility-criteria.md", "references/storage-ammunition-and-incidents.md"]
+      "raw_snippet": "(1) ברישיון פרטי שניתן בשל עמידה בתבחין מהתבחינים שבפרטים (1) עד (12) לתוספת – כלי ירייה אחד מסוג אקדח ותחמושת כפי שיקבע פקיד הרישוי ברישיון;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ],
+      "source_note": "Wikisource text of the regulations, page last edited 12 July 2026, amendments listed through ק\"ת תשפ\"ו 2350."
+    },
+    {
+      "claim_id": "regulation-7a2-one-license-criteria-1-12",
+      "claim": "Regulation 7(a)(2): no more than one private license is issued to an applicant under criteria 1 to 12, even if several of those criteria apply.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "(2) לא יינתן יותר מרישיון פרטי אחד למבקש רישיון לפי התבחינים שבפרטים (1) עד (12) לתוספת , גם אם מתקיימים במבקש הרישיון כמה תבחינים;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "regulation-7a6-four-licenses",
+      "claim": "Regulation 7(a)(6): no more than four private licenses are issued to one applicant across all criteria, even if several criteria apply.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "(6) לא יינתנו יותר מארבעה רישיונות פרטיים למבקש רישיון לפי התבחינים שבכלל הפרטים שבתוספת , גם אם התקיימו בו כמה תבחינים;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "regulation-7b-storage-conditions",
+      "claim": "Regulation 7(b): when a private license is issued, the licensing official sets the storage conditions of the firearm.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "(ב) ניתן רישיון פרטי כאמור, יקבע פקיד הרישוי את תנאי האחסון של כלי הירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
     },
     {
       "claim_id": "criterion-9-instructor-60-trainees",
-      "claim": "Criterion 9 (shooting instructor): an active licensed instructor with at least one year of seniority who trained at least 60 trainees; criterion 10 includes IDF officers from lieutenant with five years of career service; criterion 13 (sport shooter) requires two years of membership and four completed competitions.",
+      "claim": "Criterion 9 (shooting instructor): an active licensed instructor with at least one year of seniority who trained at least 60 trainees in the year before the application.",
       "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
-      "raw_snippet": "מדריך ירי מורשה פעיל, בעל ותק של שנה לפחות, שהדריך 60 מתאמנים לפחות ... קצין בצבא ההגנה לישראל בדרגת סגן ומעלה...ביצע שירות קבע למשך חמש שנים לפחות ... מי שרשום במשך שנתיים לפחות כחבר באיגוד הספורט...סיים בהצלחה ארבע תחרויות לפחות",
-      "fetched_at": "2026-09-14",
-      "appears_in": ["references/eligibility-criteria.md"]
+      "raw_snippet": "מדריך ירי מורשה פעיל, בעל ותק של שנה לפחות, שהדריך 60 מתאמנים לפחות, לפי תקנות כלי הירייה (הכשרה) או הדרכות מאושרות, בשנה שקדמה להגשת הבקשה לקבלת הרישיון;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-10a-officers-5-years",
+      "claim": "Criterion 10(a): IDF officer from lieutenant, or NCO from first sergeant (or KAM or professional officer rank), with five years of career service or 60 reserve days in total over six years.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "(א) קצין בצבא ההגנה לישראל בדרגת סגן ומעלה או נגד בצבא ההגנה לישראל בדרגת רב־סמל ראשון ומעלה או בדרגת קא״ם או בדרגת קצין מקצועי כהגדרתו בפקודות הצבא אשר ביצע שירות קבע למשך חמש שנים לפחות או אשר ביצע שירות מילואים של 60 ימים לפחות במצטבר למשך תקופה של שש שנים",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-13-olympic-shooting",
+      "claim": "Criterion 13 (sport shooter, Olympic shooting): registered at least two years as a member of the recognised association and completed at least four competitions in each sport season.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "מי שרשום במשך שנתיים לפחות כחבר באיגוד הספורט המוכר בתחום הירי האולימפי, לפי חוק הספורט, התשמ״ח–1988 , ובמשך תקופה זו סיים בהצלחה ארבע תחרויות לפחות המוכרות על ידי איגוד זה בכל עונת ספורט;",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
     },
     {
       "claim_id": "health-declaration-family-physician",
       "claim": "The health declaration contains a self-declaration and a declaration by the family physician from the health fund, including diagnoses and prescriptions; a physical or mental condition that may pose a risk in carrying a firearm is referred for medical consultation.",
       "source_url": "https://me.health.gov.il/mental-health/information-and-updates/prevention-of-suicide/legal-aspects/firearm-health-qualification/",
       "raw_snippet": "בכל הגשת בקשה למשרד לביטחון לאומי עבור רישיון לנשיאת כלי ירייה, על הפונה למלא הצהרת בריאות, המכילה הצהרה עצמית והצהרה של רופא או רופאת המשפחה מטעם קופת החולים.",
-      "fetched_at": "2026-09-14",
-      "appears_in": ["references/refusal-and-appeal.md"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
     },
     {
       "claim_id": "kolzchut-magnetic-license-90-days",
-      "claim": "Kol Zchut: within 90 days of the ownership transfer a magnetic license is sent to the postal address on file; the appeal is sent to the service center within 45 days of receiving the refusal; the license is issued for 3 years with two refresher trainings.",
+      "claim": "Kol Zchut: within 90 days of the ownership transfer a magnetic license is sent to the postal address on file at the department.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
-      "raw_snippet": "בתוך 90 יום מביצוע העברת הבעלות על כלי הירייה, יישלח רישיון מגנטי לכתובת הדואר המעודכנת באגף לרישוי כלי ירייה. ... את הבקשה לערעור יש לשלוח למרכז שירות ומידע של האגף לרישוי כלי ירייה עד 45 ימים ממועד קבלת הדחייה.",
-      "fetched_at": "2026-09-14",
-      "source_note": "Kol Zchut page last updated 1 February 2026 per the page footer as reported by the fetcher.",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "raw_snippet": "בתוך 90 יום מביצוע העברת הבעלות על כלי הירייה, יישלח רישיון מגנטי לכתובת הדואר המעודכנת באגף לרישוי כלי ירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_note": "Kol Zchut returns HTTP 403 to the verifier fetch. Read in Playwright (Chrome, he-IL, URL asserted) on 27.09.2026; page footer: last updated 1 February 2026.",
+      "verified_via": "browser",
+      "verified_at": "2026-09-27"
     },
     {
-      "claim_id": "contact-update-form-19",
-      "claim": "The department's contact-details update form is at auth.govforms.gov.il/mw/forms/form19@mops.gov.il, linked from the gov.il license-copy page as 'לעדכון פרטי התקשרות באגף לרישוי כלי ירייה'.",
-      "source_url": "https://www.gov.il/he/service/get_firearm_license_copy",
-      "raw_snippet": "לעדכון פרטי התקשרות באגף לרישוי כלי ירייה => https://auth.govforms.gov.il/mw/forms/form19@mops.gov.il",
-      "fetched_at": "2026-09-14",
+      "claim_id": "kolzchut-appeal-45-days",
+      "claim": "Kol Zchut: the appeal is sent to the department service center within 45 days of receiving the refusal.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "את הבקשה לערעור יש לשלוח למרכז שירות ומידע של האגף לרישוי כלי ירייה עד 45 ימים ממועד קבלת הדחייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "source_note": "Anchor text and href extracted from the page's article element in a browser; the form itself is behind the national identification login (HTTP 302 to login for unauthenticated requests).",
-      "appears_in": ["references/renewal-and-refresher.md", "scripts/build_stage_checklist.py", "SKILL.md", "SKILL_HE.md"]
+      "verified_at": "2026-09-27",
+      "source_note": "Kol Zchut returns HTTP 403 to the verifier fetch. Read in Playwright (Chrome, he-IL, URL asserted) on 27.09.2026; page footer: last updated 1 February 2026."
+    },
+    {
+      "claim_id": "kolzchut-3-years-two-refreshers",
+      "claim": "Kol Zchut: the license is issued for 3 years, with two refresher trainings, one in year 2 and one towards the end of the period for renewal.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "במהלך 3 השנים יש לבצע שתי הכשרות ריענון - אחת במהלך השנה השנייה לתוקפו של הרישיון והשנייה לקראת סוף תקופת הרישיון, לצורך חידוש הרישיון.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-27",
+      "source_note": "Kol Zchut returns HTTP 403 to the verifier fetch. Read in Playwright (Chrome, he-IL, URL asserted) on 27.09.2026; page footer: last updated 1 February 2026."
+    },
+    {
+      "claim_id": "contact-update-form-url",
+      "claim": "The department's contact-details update form is at auth.govforms.gov.il/mw/forms/form19@mops.gov.il, linked from the gov.il license-copy page under the anchor text 'לעדכון פרטי התקשרות באגף לרישוי כלי ירייה'. gov.il does not give the form a number in visible text.",
+      "source_url": "https://www.gov.il/he/service/get_firearm_license_copy",
+      "raw_snippet": "https://auth.govforms.gov.il/mw/forms/form19@mops.gov.il",
+      "fetched_at": "2026-09-27",
+      "source_note": "href of the anchor 'לעדכון פרטי התקשרות באגף לרישוי כלי ירייה' read from the rendered DOM (Playwright, Chrome) on 27.09.2026; the href is an attribute, not visible text, so a text match cannot confirm it. The form itself sits behind the national identification login.",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-27"
     },
     {
       "claim_id": "reservist-discount-at-first-issue",
       "claim": "The gov.il application page (section 'after applying') states that reservists are entitled to a 50 percent discount on the license fee on presenting the eligibility card, so the discount applies at first issue and not only at renewal.",
       "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
       "raw_snippet": "תשלום אגרהיש לבצע תשלום באמצעות שובר בשירות התשלומים הממשלתי או בבנק הדואר. ניתן להתעדכן בתעריפים ותשלומים - אגרות כל ירייה. חיילי מילואים זכאים להנחה של 50% מסך אגרת הרישיון, בהצגת תעודה המקנה להם זכאות להנחה.",
-      "fetched_at": "2026-09-14",
-      "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/build_stage_checklist.py"]
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ]
     },
     {
       "claim_id": "license-fee-per-year-up-to-three",
       "claim": "The firearm license cost is computed by the number of years of validity, up to three years, at the rate for each year or part of a year; a 3-year license is therefore three times the annual fee.",
       "source_url": "https://www.gov.il/he/service/sale_of_firearms",
       "raw_snippet": "עלות רישיון כלי הירייה מחושבת לפי מספר שנות תוקף הרישיון (עד שלוש שנים), בתעריף עבור כל שנה או חלק ממנה.",
-      "fetched_at": "2026-09-14",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "form-weaponlicense-url",
+      "claim": "The online application form \"טופס בקשה לקבלת רישיון כלי ירייה פרטי\" is at auth.govforms.gov.il/mw/forms/WeaponLicense@mops.gov.il, linked from the gov.il application page (\"להגשת הבקשה\").",
+      "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
+      "raw_snippet": "https://auth.govforms.gov.il/mw/forms/WeaponLicense@mops.gov.il",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "href of the anchors 'להגשת הבקשה' and 'טופס בקשה לקבלת רישיון כלי ירייה פרטי' read from the rendered DOM (Playwright, Chrome) on 27.09.2026; the href is an attribute, not visible text.",
       "verified_via": "browser",
-      "verified_at": "2026-09-14",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/process-stages.md", "scripts/build_stage_checklist.py"]
+      "verified_at": "2026-09-27"
+    },
+    {
+      "claim_id": "calculator-url",
+      "claim": "The official eligibility calculator at gov.il/apps/mops/firearm_license_calculator gives a preliminary check of eligibility for a private firearm license; the application page recommends using it before applying.",
+      "source_url": "https://www.gov.il/apps/mops/firearm_license_calculator/",
+      "raw_snippet": "לשימושכם מחשבון שבאמצעותו תוכלו לבדוק האם הנכם זכאים לקבל רישיון לכלי ירייה פרטי.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-27",
+      "source_note": "The calculator is a JavaScript app; the verifier fetch gets no rendered text. Read in Playwright (Chrome, he-IL, URL asserted) on 27.09.2026."
+    },
+    {
+      "claim_id": "calculator-recommended-before-applying",
+      "claim": "The gov.il application page recommends using the eligibility calculator before applying.",
+      "source_url": "https://www.gov.il/he/service/issue_firearms_license_to_a_private_individual",
+      "raw_snippet": "לפני הגשת הבקשה מומלץ להיעזר במחשבון הבודק את הזכאות לקבלת רישיון כלי ירייה.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ]
+    },
+    {
+      "claim_id": "firing-range-list-url",
+      "claim": "gov.il publishes the list of authorised shooting ranges with contact details and a national map. The old URL gov.il/he/Departments/publications/reports/firearm_firing_range redirects (27.09.2026) to gov.il/he/pages/firearm_firing_range_2025.",
+      "source_url": "https://www.gov.il/he/Departments/publications/reports/firearm_firing_range",
+      "raw_snippet": "רשימה ופרטי יצירת קשר של מטווחים ומפת פריסה ארצית",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "Final URL after redirect: https://www.gov.il/he/pages/firearm_firing_range_2025 (published 28.04.2025, updated 08.09.2026)."
+    },
+    {
+      "claim_id": "dealers-list-gunshops-listing",
+      "claim": "gov.il publishes the list of licensed firearm dealers with a national map at gov.il/he/pages/gunshops_listing. The URL the skill uses (gov.il/he/Departments/publications/reports/firearm_merchants) redirects to gov.il/he/error on 27.09.2026.",
+      "source_url": "https://www.gov.il/he/pages/gunshops_listing",
+      "raw_snippet": "לפניכם רשימת סוחרי כלי ירייה מורשים ומפת פרישה ארצית",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "scripts/build_stage_checklist.py"
+      ],
+      "source_note": "Published 24.02.2025, updated 08.09.2026. Recorded so the replacement URL is justified once the dead firearm_merchants link is swapped."
+    },
+    {
+      "claim_id": "changing-firearms-page",
+      "claim": "The gov.il replacement page gives information on replacing a firearm for private license holders, with a private person or with a dealer, and attaches a replacement request form and a private bill of sale.",
+      "source_url": "https://www.gov.il/he/service/changing_firearms",
+      "raw_snippet": "שירות זה נותן מידע על תהליך החלפת כלי ירייה – לבעלי רישיון לכלי ירייה פרטי, מול אדם פרטי ומול בית מסחר.",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-27",
+      "source_note": "gov.il returns HTTP 403 to the verifier fetch for this page. Read in Playwright (Chrome, he-IL, URL asserted) on 27.09.2026."
+    },
+    {
+      "claim_id": "knesset-187-cancellations-2023",
+      "claim": "Knesset RIC review (13.02.2024): in 2023 there were 187 license cancellations because the criterion ceased to apply.",
+      "source_url": "https://fs.knesset.gov.il/25/Committees/25_cs_mmm_5856055.pdf",
+      "raw_snippet": "היו 187 ביטולי רישיונות בגין תום",
+      "fetched_at": "2026-09-27",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "reg-3d-holder-must-report-criterion-ceased",
+      "claim": "Criteria regulations reg. 3(d): when the criterion under which the license was granted stops applying, the holder shall notify the licensing official without delay. (תקנה 3(ד), i.e. תקנה 3 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "חדל להתקיים בבעל הרישיון התבחין לקבלת הרישיון כאמור, יודיע על כך לפקיד הרישוי בלא דיחוי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md",
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-2c-holder-must-report-threshold-ceased",
+      "claim": "Criteria regulations reg. 2(c): a private-license holder who stops meeting threshold condition 2(a)(1) (status and residence) or 2(a)(3) (health declaration) shall notify the licensing official without delay.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "חדל בעל רישיון פרטי, בעל רישיון דרך עיסוק או בעל תעודת הרשאה לעמוד בתנאי המפורט בתקנה 2(א)(1) או (3), לפי העניין, יודיע על כך לפקיד הרישוי בלא דיחוי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-2a3-health-declaration-includes-history",
+      "claim": "Criteria regulations reg. 2(a)(3): the health declaration includes the applicant's medical history and a medical questionnaire completed by a physician.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "כולל היסטוריה רפואית וכן שאלון רפואי שימלא רופא בנוגע למבקש",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "validity-reg-4a-reservist-6-months",
+      "claim": "Validity-of-licenses regulations reg. 4A (added 5785): the license of a person who served 30 or more reserve days cumulatively in the 90 days before its expiry is extended once by six months from the end of its validity.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "במשך שלושים ימים לפחות במצטבר במהלך תשעים הימים שקדמו למועד פקיעת תוקפו של הרישיון, יוארך לתקופה אחת נוספת של שישה חודשים מתום תקופת תוקפו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "training-reg-3a-reservist-refresher-6-months",
+      "claim": "Firearms (Training) Regulations reg. 3A (added 5785): a refresher deadline is extended once by six months if the holder served 30 or more reserve days cumulatively in the 90 days before that deadline.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%94%D7%9B%D7%A9%D7%A8%D7%94)",
+      "raw_snippet": "במשך שלושים ימים לפחות במצטבר במהלך תשעים הימים שקדמו למועד האחרון כאמור, תוארך התקופה לביצועה לתקופה אחת של שישה חודשים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-reservist-automatic-extension",
+      "claim": "gov.il news 14.07.2025: a holder with at least 30 reserve days in the three months before the license expiry or the last day for the refresher gets an automatic six-month extension.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "בעל רישיון ששירת בשירות מילואים לפחות 30 ימים בשלושת החודשים שקדמו לפקיעת תוקף הרישיון או למועד האחרון לביצוע ריענון – יקבל הארכה אוטומטית של שישה חודשים להשלמת ההליכים.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-career-soldiers",
+      "claim": "gov.il news 14.07.2025: until the end of the 'special situation on the home front' declaration, career soldiers in a role at activity level A and above get the same reservist relief, which the page states for both the license renewal date and the refresher deadline.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "עד לסיום ההכרזה על מצב מיוחד בעורף – גם חיילי קבע בתפקיד המזכה ברמת פעילות א' ומעלה ייהנו מהקלות אלה.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/build_stage_checklist.py",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-sms",
+      "claim": "gov.il news 14.07.2025: notice of the extension is sent by SMS by the firearms licensing department.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "הודעה בדבר ההארכה תישלח במסרון על ידי אגף רישוי ופיקוח כלי ירייה.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-reservist-criteria-relief",
+      "claim": "gov.il news 14.07.2025 lists the July 2025 amendment giving reservists relief under the athlete and shooting-instructor criteria.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "הקלות למשרתי מילואים בתבחינים: ספורטאי ומדריך ירי, ושינויים בדרישות להוכחת תבחין ספורטאי.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-3g-reservist-criteria-9-13-one-year",
+      "claim": "Criteria regulations reg. 3(g)(1): a holder under criterion 9 or 13 with 30 or more reserve days in the 90 days before the original license expired may be renewed for one year only, even without proving the criterion, if the license was not extended under validity reg. 4A.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "רשאי פקיד הרישוי לחדש את רישיונו לתקופה של שנה אחת בלבד, גם אם בעל הרישיון לא הוכיח עמידה בהוראות התבחין, ובלבד שרישיונו לא הוארך בהתאם לתקנה 4א לתקנות תוקפם של רישיונות",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-3h-reservist-new-applicant-6-8-competitions",
+      "claim": "Criteria regulations reg. 3(h)(1): a new athlete applicant under the reservist relief needs 2 or 3 years of membership and six Olympic or eight practical-shooting competitions.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "וסיים בהצלחה במשך תקופה זו שש תחרויות לפחות בתחום הירי האולימפי – המוכרות באיגוד הספורט הנוגע לעניין, או שמונה תחרויות לפחות בתחום הירי המעשי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-am-kelavi-renewal-extension",
+      "claim": "gov.il news 14.07.2025: after operation 'Am KeLavi', holders due to renew by 30.6.2025 and 31.7.2025 were extended to 30.9.2025 and 31.10.2025.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "חידוש רישיון: בעלי רישיון שהיו אמורים לחדש עד 30.6.2025 ו-31.7.2025 – יקבלו הארכה עד 30.9.2025 ו-31.10.2025.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "govil-14-7-25-am-kelavi-refresher-extension",
+      "claim": "gov.il news 14.07.2025: refreshers due 30.6.2025 and 31.7.2025 could be done by 30.9.2025 and 31.10.2025.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "הכשרת ריענון: בעלי רישיון שהיו אמורים לבצע ריענון עד ליום 30.6.2025 ו-31.7.2025 – יוכלו לעשות זאת עד ליום 30.9.2025 ו-31.10.2025.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "govil-30-06-25-order-signed",
+      "claim": "gov.il news 30.06.2025: the Minister signed the Firearms (Validity of Licenses) (Iron Swords) (Temporary Order) Regulations 5785-2025 and the matching training regulations, extending renewal and refresher periods.",
+      "source_url": "https://www.gov.il/he/pages/30_06_25",
+      "raw_snippet": "בתאריך 29.6.2025 חתם השר לביטחון לאומי, איתמר בן גביר, על תקנות כלי הירייה (תוקפם של רישיונות) (חרבות ברזל) (הוראת שעה) התשפ\"ה-2025",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md"
+      ]
+    },
+    {
+      "claim_id": "govil-23-04-2026-renewal-extension",
+      "claim": "gov.il news 23.04.2026: holders due to renew by 31.3.2026, 30.4.2026 and 31.5.2026 could do so by 30.6.2026, 31.7.2026 and 31.8.2026 respectively (the last extended deadline, 31.8.2026, has passed).",
+      "source_url": "https://www.gov.il/he/pages/firearm_licensings",
+      "raw_snippet": "חידוש רישיון: בעלי רישיון שהיו אמורים לחדש עד ליום ה-31.3.2026, ה-30.4.2026 וה-31.5.2026 יוכלו לעשות זאת עד ליום ה-30.6.2026, ה-31.7.2026, וה-31.8.2026 בהתאמה.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "govil-topic-21-05-2024-30-day-extension",
+      "claim": "gov.il private-license topic page, news of 21.05.2024: holders whose license expired 31.5.24 could request a 30-day extension, no further extensions.",
+      "source_url": "https://www.gov.il/he/departments/topics/firearm-personal-license/govil-landing-page",
+      "raw_snippet": "הוחלט לאפשר להם להגיש בקשות להארכת תוקף הרשיון ב - 30 ימים נוספים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-28",
+      "source_note": "Read on 28.09.2026 in headed Chrome (Playwright), final URL asserted; news item dated 21/05/24 on the private-license topic page. gov.il returns HTTP 403 to the verifier for this URL."
+    },
+    {
+      "claim_id": "reg-8-post-expiry-request-is-new-application",
+      "claim": "Criteria regulations reg. 8: a request to renew a private license filed after it expired is treated as a request for a new license. (תקנה 8 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "או שבעל הרישיון הגיש בקשה לחידושו, לאחר שפג תוקף הרישיון תיחשב בקשתו כבקשה לרישיון חדש",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "references/eligibility-criteria.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-reg-5-renew-expired-within-30-days",
+      "claim": "Validity-of-licenses regulations reg. 5: the licensing official may renew an expired license if persuaded it is justified, provided the renewal request was filed no later than 30 days after expiry. (תקנה 5 לתקנות תוקפם של רישיונות)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "פקיד רישוי יהיה רשאי לחדש רישיון שפקע תוקפו או רישיון שתוקפו הוארך לפי תקנה 4 או תקנה 4א, אם שוכנע כי הדבר מוצדק בנסיבות העניין, ובלבד שבעל הרישיון הגיש בקשה לחידוש הרישיון לא יאוחר מ־30 ימים ממועד פקיעת תוקף הרישיון",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-9a-deposit-72-hours-after-expiry",
+      "claim": "Criteria regulations reg. 9(a): a person whose license expired or was cancelled deposits the firearm, the license and the ammunition under Law s.14 within 72 hours of expiry or of receiving the cancellation notice. (תקנה 9(א), i.e. תקנה 9 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "יפקיד את כלי הירייה, את הרישיון לכלי הירייה ואת התחמושת שברשותו בהתאם לסעיף 14 לחוק, בתוך 72 שעות מהיום שבו פג תוקף רישיונו או ממועד קבלת ההודעה על ביטול רישיונו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "references/refusal-and-appeal.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-9b-refuse-renewal-for-non-deposit",
+      "claim": "Criteria regulations reg. 9(b): if the firearm, license and ammunition were not deposited and a renewal request is filed, the licensing official may refuse it for that reason.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "יהיה רשאי פקיד הרישוי לדחות את הבקשה בשל אי־ההפקדה כאמור",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s14-deposit-station-receipt",
+      "claim": "Firearms Law s.14: a person whose permit lapsed must hand the firearm for safekeeping to the police station of their residence or business and receives a receipt.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "חייב למסור את כלי היריה או דמוי כלי הירייה למשמרת לתחנת המשטרה של מקום מגוריו או של מקום עסקיו, ויקבל אישור קבלה על כלי היריה או דמוי כלי הירייה שמסר",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/renewal-and-refresher.md",
+        "references/refusal-and-appeal.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s16a1-no-renewal-within-one-year",
+      "claim": "Firearms Law s.16(a)(1): breaching sections 4 or 5 only by not renewing the license within one year of expiry is punishable by six months' imprisonment. (Section 16(a)(1); סעיף 16(א)(1) לחוק)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "עובר על הוראות סעיפים 4 או 5 בשל כך בלבד שלא חידש את רישיונו או את תעודת הרשאתו בתוך שנה מיום שפג תוקפם של הרישיון או תעודת ההרשאה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s16a-six-months",
+      "claim": "Firearms Law s.16(a): the offences listed in that subsection carry six months' imprisonment, including breach of a license condition (16(a)(2)). (Section 16; סעיף 16 לחוק)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "העושה אחת מאלה, דינו – מאסר שישה חודשים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/eligibility-criteria.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "reg-10a-continuity-renewal-10-years",
+      "claim": "Criteria regulations reg. 10(a): a person who has held a pistol lawfully for at least 10 continuous years may be renewed even without meeting a criterion, provided the license is valid when the request is filed.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "מי שמחזיק אקדח ברישיון כדין, במשך 10 שנים רצופות לפחות, יהיה רשאי פקיד הרישוי לחדש את רישיונו אף אם אינו עומד בתבחין בעת הגשת הבקשה לחידוש הרישיון, ובלבד שהרישיון שבידו תקף במועד הגשת הבקשה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "references/glossary.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-10c-continuity-criteria-1-9",
+      "claim": "Criteria regulations reg. 10(c): the continuity route applies to licenses granted under criteria 1 to 9.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "האמור בתקנת משנה (א) יחול על רישיון שניתן על בסיס עמידה בתבחינים שבפרטים (1) עד (9) לתוספת",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-reg-4-extension-on-request-30-days",
+      "claim": "Validity-of-licenses regulations reg. 4(a): the licensing official may extend a license by up to 30 days on a reasoned request from the holder.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "לתקופה נוספת שלא תעלה על 30 ימים, על סמך בקשה מנומקת מבעל הרישיון",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-reg-4b-extension-total-45-days",
+      "claim": "Validity-of-licenses regulations reg. 4(b): further extensions of up to 30 days each are allowed, provided the total does not exceed 45 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "ובלבד שסך תקופות ההארכה לפי תקנה זו לא יעלה על 45 ימים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-5a-no-security-work",
+      "claim": "Criteria regulations reg. 5(a): a private license shall not be used for providing security services as an occupation. (תקנה 5 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "רישיון פרטי שניתן לפי תקנות אלה לא ישמש לביצוע שירותי אבטחה דרך עיסוק",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "reg-5b-criteria-13-16-professional-or-sport-only",
+      "claim": "Criteria regulations reg. 5(b): carrying under criteria 13 to 16 is allowed only for the professional or sporting use for which the license was granted.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "תותר לשם שימוש מקצועי או ספורטיבי בלבד, לפי העניין, שלצורכו ניתן רישיון כלי הירייה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md",
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "reg-12-memento-18-months",
+      "claim": "Criteria regulations reg. 12: a former holder may keep the firearm permanently deactivated as a memento if 18 months have not yet passed since the cancellation or expiry, whichever came first. (תקנה 12 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "טרם חלפו שמונה עשר חודשים ממועד ביטול הרישיון או פקיעת תוקף הרישיון, לפי המוקדם שבהם, ומעוניין להותירו בידיו מושבת לצורכי מזכרת בלבד",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reg-2a4-a2-combat-certificate-mission-chapter",
+      "claim": "Criteria regulations reg. 2(a)(4)(a2): a person who did not complete regular service but holds a combat certificate and is in a 'mission chapter' applies at the age set in s.11c(a) of the Law.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "אם לא סיים שירות סדיר כהגדרתו בסעיף 11ג(ב) לחוק, אך הוא מחזיק בתעודת לוחם כקבוע בהוראות צבא ההגנה לישראל, ונמצא בפרק משימה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "law-s11c-a-age-21",
+      "claim": "Firearms Law s.11c(a): no license is given to a person under 21.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "לא יינתן רישיון או רישיון מיוחד או תעודת הרשאה לפי חוק זה לאדם שטרם מלאו לו 21 שנים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "kz-dealer-deposit-custody-fees",
+      "claim": "Kol Zchut FAQ: a firearm can be deposited with a licensed dealer for a fixed period against custody fees.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "ניתן להפקיד את כלי הירייה אצל סוחר נשק מורשה לתקופה קצובה תוך תשלום דמי משמורת.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-28",
+      "source_note": "Read on 28.09.2026 in headed Chrome (Playwright), final URL asserted; Kol Zchut FAQ accordion \"מה עליי לעשות אם אני מתחרט\", page updated 1.2.2026. The site returns HTTP 403 to the verifier."
+    },
+    {
+      "claim_id": "kz-dealer-not-returned-while-expired",
+      "claim": "Kol Zchut FAQ: if the license expires while the firearm is at a dealer, it is not returned until the license is renewed.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "אם פג תוקף הרישיון כשהנשק מופקד אצל סוחר, הוא לא יוחזר לבעליו כל עוד לא חודש הרישיון.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-28",
+      "source_note": "Read on 28.09.2026 in headed Chrome (Playwright), final URL asserted; Kol Zchut FAQ accordion \"מה עליי לעשות אם אני מתחרט\", page updated 1.2.2026. The site returns HTTP 403 to the verifier."
+    },
+    {
+      "claim_id": "kz-dealer-may-sell-after-1-year",
+      "claim": "Kol Zchut FAQ: a year after the custody period ends the dealer may sell the firearm after a registered letter at least 14 days before the sale, paying the owner the proceeds; alternatively hand it to the police.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "לאחר שנה מתום תקופת המשמורת, סוחר הנשק רשאי למכור אותו לאחר שהודיעו לבעל הנשק על כוונתו במכתב דואר רשום לפחות 14 ימים לפני המכירה. הסוחר ישלם דמי פדיון מכר לבעל הנשק.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-28",
+      "source_note": "Read on 28.09.2026 in headed Chrome (Playwright), final URL asserted; Kol Zchut FAQ accordion \"מה עליי לעשות אם אני מתחרט\", page updated 1.2.2026. The site returns HTTP 403 to the verifier."
+    },
+    {
+      "claim_id": "kz-dealer-may-hand-to-police",
+      "claim": "Kol Zchut FAQ: instead of selling, the dealer may hand the firearm to the police a year after the custody period ends.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%9C%D7%A0%D7%A9%D7%99%D7%90%D7%AA_%D7%A0%D7%A9%D7%A7",
+      "raw_snippet": "לחילופין, במקום למכור את כלי הירייה, סוחר הנשק רשאי למסור אותו למשטרה, (לאחר שנה מתום תקופת המשמורת).",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-28",
+      "source_note": "Read on 28.09.2026 in headed Chrome (Playwright), final URL asserted; Kol Zchut FAQ accordion \"מה עליי לעשות אם אני מתחרט\", page updated 1.2.2026. The site returns HTTP 403 to the verifier."
+    },
+    {
+      "claim_id": "criterion-11c-active-police-volunteer",
+      "claim": "Appendix item 11(c): an active Israel Police volunteer, or a 15-year volunteer whose first request is filed within 10 years of ending, confirmed by the police.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "מתנדב פעיל במשטרת ישראל או מי שהתנדב במשטרת ישראל במשך 15 שנה, ושמשטרת ישראל אישרה את כשירותו לפי תבחין זה, ובלבד שהבקשה הראשונה לפי תבחין זה הוגשה בתוך 10 שנים לכל היותר מסיום ההתנדבות",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "govil-criteria-tab-active-volunteer",
+      "claim": "gov.il criteria tab lists 'active Israel Police volunteer' as its own row, proven by the approval of the head of the police volunteer department.",
+      "source_url": "https://www.gov.il/he/pages/criteria_for",
+      "raw_snippet": "יש לצרף: אישור ראש מחלקת מתנדבים במשטרה.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-10f-instructor-roles-closed-list",
+      "claim": "Appendix item 10(f) (added 5785): IDF graduate who served as artillery, armour, combat engineering, combat intelligence, infantry, air defence, search-and-rescue or marksmanship instructor, squad commander or observer.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "בוגר צבא ההגנה לישראל אשר שירת באחד מתפקידים אלה: מדריך תותחנים; מדריך שריון; מדריך הנדסה קרבית; מדריך איסוף קרבי; מדריך חי״ר; מדריך הגנה אווירית; מדריך חילוץ והצלה; מדריך קליעה; מפקד כיתה; תצפיתן",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-10a-kam-professional-officer",
+      "claim": "Appendix item 10(a) as amended: includes the rank of kam or professional officer, with a 5-year career-service or 60-reserve-day condition, excluding professional and representative officers.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "או בדרגת קא״ם או בדרגת קצין מקצועי כהגדרתו בפקודות הצבא אשר ביצע שירות קבע למשך חמש שנים לפחות או אשר ביצע שירות מילואים של 60 ימים לפחות במצטבר למשך תקופה של שש שנים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "govil-criteria-tab-10a",
+      "claim": "gov.il criteria tab summary of criterion 10(a): officer from lieutenant or NCO from rav-samal rishon and equivalents, excluding professional and representative officers (no service-length condition shown).",
+      "source_url": "https://www.gov.il/he/pages/criteria_for",
+      "raw_snippet": "קצין בצבא הגנה לישראל בדרגת סגן ומעלה או נגד בצבא הגנה לישראל בדרגת רב סמל ראשון ומעלה ומקביליהם בגופי הביטחון האחרים, למעט קצין מקצועי וקצין ייצוגי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-11f-police-roles",
+      "claim": "Appendix item 11 (lettered (f)): compulsory-service police graduate with 18 months as patrol officer; dispatcher or observer in a control center; scene investigator; hostile-terror investigator; UAV patrol operator; animal handler.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "סייר; מוקדן, משגר ותצפיתן במרכז שליטה; חוקר זירה; חוקר פעילות חבלנית עוינת; סייר מפעיל כלי טיס בלתי מאויש; מפעיל בעלי חיים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-4c-fire-authority-roles",
+      "claim": "Appendix item 4(c): Fire and Rescue Authority employees in named fire-protection, operations, control-room and fire-investigation roles with 2 years' seniority.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "עובדי משל״ט; חוקרי דליקות",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-4b-former-firefighter",
+      "claim": "Appendix item 4(b): a former firefighter who held a private license under this criterion for 2 years, if the first request is filed within 30 days of leaving or before the license expires.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "וכל עוד הבקשה הראשונה שהגיש לפי פרט משנה זה הוגשה בתוך 30 ימים מיום סיום עבודתו ברשות הארצית לכבאות והצלה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criterion-5-rescue-bodies",
+      "claim": "Appendix item 5: rescue bodies include ZAKA 'Rega shel Emet' disaster victim identification and a body the Minister declared under s.90A of the Police Ordinance.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "רגע של אמת זק״א – זיהוי קורבנות אסון",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-11-license-without-criterion",
+      "claim": "Criteria regulations reg. 11: the competent authority may grant a private license without a threshold condition or criterion if the police recommended it on grounds of public peace and safety (or at the Foreign Ministry's request for diplomatic security). (תקנה 11 לתקנות התבחינים)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "אם משטרת ישראל המליצה לתת לו רישיון מטעמים של שלום הציבור וביטחונו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-11-diplomatic-mission",
+      "claim": "Criteria regulations reg. 11(1): at the Foreign Ministry's request, a license may be given to a non-citizen for securing a foreign diplomatic mission.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "לבקשת משרד החוץ – למי שאינו אזרח ישראלי או תושב קבע בישראל, לשם אבטחת נציגות דיפלומטית זרה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-6-criterion-2-permit-holder",
+      "claim": "Criteria regulations reg. 6: an applicant under criterion 2 (place of work or study) who carries an unrestricted organisational permit may be refused.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "מי שהגיש בקשה לקבלת רישיון פרטי על סמך התבחין שבפרט (2) לתוספת והוא נושא תעודת הרשאה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "reg-7a8-continuity-counts-in-quota",
+      "claim": "Criteria regulations reg. 7(a)(8): a license renewed by continuity counts toward the license quota, except pistol licenses valid for 10 continuous years before the regulations were published.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "רישיון שחודש מכוח רציפות לפי תקנה 10(א), יימנה במכסת הרישיונות הפרטיים האמורה בתקנה זו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "criteria-regs-amendment-5786",
+      "claim": "The Wikisource text of the criteria regulations lists amendments up to ק\"ת תשפ\"ו, 2350.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%A0%D7%90%D7%99_%D7%A1%D7%A3_%D7%95%D7%AA%D7%91%D7%97%D7%99%D7%A0%D7%99%D7%9D_%D7%9C%D7%A7%D7%91%D7%9C%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A4%D7%A8%D7%98%D7%99_%D7%9C%D7%9B%D7%9C%D7%99_%D7%99%D7%A8%D7%99%D7%99%D7%94_%D7%95%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA)",
+      "raw_snippet": "תשפ״ו, 2350",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govil-criteria-for-url",
+      "claim": "The gov.il criteria page is at gov.il/he/pages/criteria_for (the older firearm_licensing_criteria URL redirects there).",
+      "source_url": "https://www.gov.il/he/pages/criteria_for",
+      "raw_snippet": "רשימת התבחינים המפורטים במסמך זה היא סגורה וממצה, ולא ניתן לקבל רישיון פרטי או הרשאה להחזקתו או לנשיאתו של כלי ירייה ללא עמידה באחד מתבחינים אלה.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "govil-firing-range-2025-url",
+      "claim": "gov.il publishes the authorised shooting-range list at gov.il/he/pages/firearm_firing_range_2025.",
+      "source_url": "https://www.gov.il/he/pages/firearm_firing_range_2025",
+      "raw_snippet": "לפניכם רשימה עם פרטי יצירת קשר של המטווחים הפתוחים לשירות הציבור.",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-regs-url",
+      "claim": "The Firearms (Validity of Licenses) Regulations 5783-2023 are published on Wikisource, amended in 5785 (including amendment no. 2).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_(%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA)",
+      "raw_snippet": "בתוקף סמכותי לפי סעיפים 12(ד) ו־21(ב) לחוק כלי הירייה, התש״ט–1949",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "reservist-news-url",
+      "claim": "The gov.il news page 14.07.2025 on firearm-law and criteria amendments.",
+      "source_url": "https://www.gov.il/he/pages/14_7_25",
+      "raw_snippet": "המשרד לביטחון לאומי מבקש לעדכן בדבר שינויים חשובים שנעשו בתבחינים, תקנות כלי הירייה ובחוק כלי הירייה:",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s15a-48h-after-the-loss",
+      "claim": "Firearms Law s.15(a) (סעיף 15(א) לחוק): the Israel Police must be notified as early as possible and no later than 48 hours after the loss, destruction or theft itself.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "חייב הוא להודיע על כך למשטרת ישראל ככל המוקדם, ולא יאוחר מארבעים ושמונה שעות לאחר האבידה, ההשמדה או הגניבה, לפי העניין",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s15a-defence-requires-both",
+      "claim": "Firearms Law s.15(a): a person charged under the subsection bears no criminal liability only if they prove both of two things.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "לא ישא עליה באחריות פלילית אם הוכיח שנים אלה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s15a1-report-within-48h-of-learning",
+      "claim": "Firearms Law s.15(a)(1): first limb of the defence, a report within 48 hours of the time the person learned of the loss, destruction or theft.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "תוך ארבעים ושמונה שעות מהמועד שבו נודע לו על האבידה, ההשמדה או הגניבה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s15a2-reasonable-holding-conditions",
+      "claim": "Firearms Law s.15(a)(2): second limb of the defence, the firearm was held in conditions reasonable in the circumstances.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "החזיק בכלי היריה בתנאים שהם סבירים בנסיבות הענין",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s15b-lost-license-document",
+      "claim": "Firearms Law s.15(b): a license holder whose license was lost or destroyed must tell the licensing official.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "בעל רשיון לפי חוק זה שאבד או נשמד רשיונו – חייב להודיע על כך לפקיד רישוי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s16c-fine-no-loss-report",
+      "claim": "Firearms Law s.16(c): not reporting a loss, destruction or theft contrary to the first part of s.15(a) is punishable by a fine.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "לא הודיע למשטרת ישראל על אובדנו, השמדתו או גניבתו בניגוד להוראות סעיף 15(א) רישה, דינו – קנס",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "law-s11c-b2-amendment-25-medical-committee",
+      "claim": "Firearms Law s.11c(b)(2)(a) (Amendment 25): the competent authority MAY license a person aged 18 who did not complete regular service, provided a medical committee found them unfit for service for medical reasons and an authorised IDF officer notified an operational injury or a combat soldier discharged for medical reasons.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "הרשות המוסמכת רשאית לתת רישוי כאמור בסעיף קטן (א) לאדם שמלאו לו 18 שנים, אף אם לא השלים את תקופת השירות הסדיר שהוא חייב בה, ובלבד שוועדה רפואית קבעה כי הוא בלתי כשר לשירות בשל מצבו הרפואי",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "law-s11c-b2-notice-and-documents",
+      "claim": "Firearms Law s.11c(b)(2)(b)-(c): the officer states whether the unfitness also had mental-health causes; the applicant attaches medical documents.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "בהודעת הקצין המוסמך לפי פסקה זו יצוין אם אי־הכשירות הרפואית נבעה גם מסיבות נפשיות",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/eligibility-criteria.md"
+      ]
+    },
+    {
+      "claim_id": "law-s14c-a-custody-fixed-period",
+      "claim": "Firearms Law s.14c(a) (Section 14c; סעיף 14ג לחוק): a holder may give a firearm into a licensed dealer's custody for any fixed period, provided they hold a license for it; custody fees set by order may be required in advance.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "בעל כלי יריה רשאי למסור את כלי היריה למשמורת אצל סוחר מורשה לכל תקופה קצובה שיודיע עליה, ובלבד שיש לו עליו רשיון",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s14c-b-no-return-without-license",
+      "claim": "Firearms Law s.14c(b): if the license lapses while the firearm is in a dealer's custody, it is returned only against a license.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "פקע תקפו של הרשיון לכלי היריה בהיותו במשמורת אצל סוחר מורשה, לא יוחזר כלי היריה לבעליו אלא אם הציג לסוחר רשיון להחזקתו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s14c-c-sale-after-one-year",
+      "claim": "Firearms Law s.14c(c): a year after the custody period ends the dealer may sell the firearm (paying the proceeds less custody fees and commission) or hand it to the police, after a registered letter at least 14 days before the sale.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "ארבעה עשר יום לפחות לפני המכירה עליו להודיע לבעל כלי היריה, במכתב בדואר רשום, על כוונתו למכרו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "law-s14c-c-one-year-after-custody",
+      "claim": "Firearms Law s.14c(c): the sale power arises when a year has passed from the end of the custody period and the owner did not claim the firearm back.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94",
+      "raw_snippet": "חלפה שנה מתום תקופת המשמורת ובעל כלי היריה לא תבעו בחזרה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "references/storage-ammunition-and-incidents.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "penal-s144-b1-non-renewal-excluded",
+      "claim": "Penal Law s.144(b1) (סעיף 144(ב1) לחוק העונשין): the general weapons offences in s.144(a) and (b) do not apply to a person whose offence consists only of not renewing the license under the Firearms Law.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%95%D7%A0%D7%A9%D7%99%D7%9F",
+      "raw_snippet": "לא יחולו על מי שעבר את העבירות בשל כך בלבד שלא חידש את רישיונו או את תעודת הרשאתו",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "penal-s144-a-seven-years",
+      "claim": "Penal Law s.144(a): holding a weapon without lawful authority is punishable by seven years' imprisonment; s.144(b), acquiring, carrying or transporting, ten years.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%95%D7%A0%D7%A9%D7%99%D7%9F",
+      "raw_snippet": "המחזיק נשק בלא רשות על פי דין להחזקתו, דינו – מאסר שבע שנים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2023-period",
+      "claim": "Validity temporary order 5784-2023 (26.10.2023), reg. 1(2): the extension covers licenses whose validity ends in the period starting on the day of publication (26.10.2023, per the Wikisource note) and ending 31.12.2023, \"as follows\".",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "תוקפו של רישיון אשר תקופת תוקפו מסתיימת בתקופה שמיום פרסומן של תקנות אלה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2023-dates",
+      "claim": "Validity temporary order 5784-2023, item (a): a license expiring 31.10.2023 is extended to 30.04.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום ט״ז בחשוון התשפ״ד (31 באוקטובר 2023) מוארך עד יום כ״ב בניסן התשפ״ד (30 באפריל 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2023-dec",
+      "claim": "Validity temporary order 5784-2023 reg. 1(2)(c): license expiring 31.12.2023 extended to 30.06.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום י״ט בטבת התשפ״ד (31 בדצמבר 2023) מוארך עד יום כ״ד בסיוון התשפ״ד (30 ביוני 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2024-period",
+      "claim": "Validity temporary order (no. 2) 5784-2024 (28.01.2024): the extension covers licenses whose validity ends from 31.01.2024 to 31.03.2024, \"as follows\".",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "תוקפו של רישיון אשר תקופת תוקפו מסתיימת בתקופה שמיום כ״א בשבט התשפ״ד (31 בינואר 2024) עד יום כ״א באדר ב׳ התשפ״ד (31 במרץ 2024), מוארך בזה כלהלן",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py",
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/build_stage_checklist.py"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2024-march",
+      "claim": "Validity temporary order (no. 2) 5784-2024, item (3): license expiring 31.03.2024 extended to 30.09.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום כ״א באדר ב׳ התשפ״ד (31 במרץ 2024) מוארך עד יום כ״ז באלול התשפ״ד (30 בספטמבר 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "training-temp-order-2023-period",
+      "claim": "Training temporary order 5784-2023 (31.10.2023): refresher deadlines falling from 31.10.2023 to 31.12.2023 are extended \"as follows\".",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%94%D7%9B%D7%A9%D7%A8%D7%94%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "בתקופה שמיום ז׳ בחשוון התשפ״ד (31 באוקטובר 2023) עד יום י״ט בטבת התשפ״ד (31 בדצמבר 2023), מוארכת בזה התקופה לביצועה כלהלן",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "training-temp-order-2024-period",
+      "claim": "Training temporary order (no. 2) 5784-2024 (30.01.2024): refresher deadlines falling from 01.01.2024 to 31.03.2024 are extended \"as follows\".",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%94%D7%9B%D7%A9%D7%A8%D7%94%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "בתקופה שמיום כ׳ בטבת התשפ״ד (1 בינואר 2024) עד יום כ״א באדר ב׳ התשפ״ד (31 במרץ 2024), מוארכת בזה התקופה לביצועה כלהלן",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-04-refusal-30-days",
+      "claim": "Procedure 12.02.04 (1.4.2014) s.5.1.2: a refusal for not meeting the threshold or a criterion is sent as soon as possible and no later than 30 days from submission.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "בהקדם האפשרי ולא יאוחר משלושים יום מיום הגשת הבקשה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md",
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-04-approval-30-days",
+      "claim": "Procedure 12.02.04 (1.4.2014) s.6.2.1: as a rule, handling the approval ends within 30 days of the complete file.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "את הטיפול באישור הבקשה יש לסיים תוך 30 יום ממועד השלמת",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-04-interim-45-days",
+      "claim": "Procedure 12.02.04 (1.4.2014): when the police or the Health Ministry delay their answer, an interim letter says handling may take about 45 days.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "הטיפול עשוי להימשך כ 45 - ימים",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/process-stages.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-04-reminder-30-days",
+      "claim": "Procedure 12.02.04 (1.4.2014): if documents are missing, the licensing official sends a reminder 30 days after the application was filed.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "ישלח אליו פקיד הרישוי כעבור 30 יום ממועד הגשת הבקשה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/process-stages.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-04-card-two-months",
+      "claim": "Procedure 12.02.04 (1.4.2014) s.7.8: the permanent magnetic license is mailed within two months of producing the temporary license.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.04%20-firearm-licensing-dept-personal-license-request.pdf",
+      "raw_snippet": "יישלח למגיש הבקשה בדואר , תוך חודשיים מהפקת",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/process-stages.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-08-recommender-silent-30-days",
+      "claim": "Procedure 12.02.08 (1.4.2014): if the recommending body gives no detailed reasons within 30 days, the license is cancelled.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.08%20-firearm-licensing-dept-cancelling-rejecting-license.pdf",
+      "raw_snippet": "במידה ותוך 30 יום לא התקבלה התייחסות מהגורם הממליץ",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-08-seizure-after-30-days",
+      "claim": "Procedure 12.02.08 (1.4.2014) s.5.4.1: if the deposit was not made within 30 days of the demand, the official asks the police to seize the firearm, with a copy to the holder.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.08%20-firearm-licensing-dept-cancelling-rejecting-license.pdf",
+      "raw_snippet": "עליו לפנות אל המשטרה בבקשה לתפוס את הנשק",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "procedure-12-02-08-health-cancellation-immediate",
+      "claim": "Procedure 12.02.08 (1.4.2014) s.5.6.1: a Health Ministry recommendation to cancel leads to immediate cancellation.",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/firearm-licensing-dept-regulations/he/publications_freedom_of_info_firearm-regulations_12.02.08%20-firearm-licensing-dept-cancelling-rejecting-license.pdf",
+      "raw_snippet": "במקרה בו משרד הבריאות המליץ לבטל רישיון ,יבוטל הרישיון",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "knesset-monthly-check-health-police",
+      "claim": "Knesset RIC review (13.02.2024): once a month all license holders are checked against the Health Ministry and police databases.",
+      "source_url": "https://fs.knesset.gov.il/25/Committees/25_cs_mmm_5856055.pdf",
+      "raw_snippet": "אחת לחודש נבדקים כלל מחזיקי הרישיונות במאגרי משרד הבריאות והמשטרה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/refusal-and-appeal.md"
+      ]
+    },
+    {
+      "claim_id": "storage-lock-brands",
+      "claim": "gov.il storage page: locking by a double-bit safe lock (\"Kromer\", \"Kaba\", \"Mauer\" or equivalent) that locks the bolt system.",
+      "source_url": "https://www.gov.il/he/pages/firearm_storage",
+      "raw_snippet": "(\"קרומר\", \"קאבה\", \"מאוור\" או שווה ערך)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "ammo-hunting-700-all-licenses-once-a-year",
+      "claim": "gov.il ammunition page: a hunting-criterion holder with several licenses may hold up to 700 rounds for all licenses together and request one top-up a year.",
+      "source_url": "https://www.gov.il/he/pages/firearm-ammunition-regulations",
+      "raw_snippet": "רשאי להחזיק עד 700 כדורים עבור כלל רישיונותיו ולבקש השלמת מכסה אחת לשנה",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/storage-ammunition-and-incidents.md"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2023-nov",
+      "claim": "Validity temporary order 5784-2023, item (b): a license expiring 30.11.2023 is extended to 31.05.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום י״ז בכסלו התשפ״ד (30 בנובמבר 2023) מוארך עד יום כ״ג באייר התשפ״ד (31 במאי 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2024-jan",
+      "claim": "Validity temporary order (no. 2) 5784-2024, item (1): a license expiring 31.01.2024 is extended to 31.07.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום כ״א בשבט התשפ״ד (31 בינואר 2024) מוארך עד יום כ״ה בתמוז התשפ״ד (31 ביולי 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "validity-temp-order-2024-feb",
+      "claim": "Validity temporary order (no. 2) 5784-2024, item (2): a license expiring 29.02.2024 is extended to 31.08.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%AA%D7%95%D7%A7%D7%A4%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%A0%D7%95%D7%AA%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "רישיון שפג תוקפו ביום כ׳ באדר א׳ התשפ״ד (29 בפברואר 2024) מוארך עד יום כ״ז באב התשפ״ד (31 באוגוסט 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "training-temp-order-2023-oct",
+      "claim": "Training temporary order 5784-2023, item (1): a refresher due by 31.10.2023 may be done until 30.04.2024 (the same month-end mapping as the license order).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%94%D7%9B%D7%A9%D7%A8%D7%94%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29",
+      "raw_snippet": "הכשרת ריענון שנדרש לבצעה עד יום ט״ז בחשוון התשפ״ד (31 באוקטובר 2023) – התקופה לביצועה מוארכת עד יום כ״ב בניסן התשפ״ד (30 באפריל 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
+    },
+    {
+      "claim_id": "training-temp-order-2024-mar",
+      "claim": "Training temporary order (no. 2) 5784-2024, item (3): a refresher due by 31.03.2024 may be done until 30.09.2024.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9B%D7%9C%D7%99_%D7%94%D7%99%D7%A8%D7%99%D7%99%D7%94_%28%D7%94%D7%9B%D7%A9%D7%A8%D7%94%29_%28%D7%94%D7%95%D7%A8%D7%90%D7%AA_%D7%A9%D7%A2%D7%94%29_%28%D7%9E%D7%A1%27_2%29",
+      "raw_snippet": "הכשרת ריענון שנדרש לבצעה עד יום כ״א באדר ב׳ התשפ״ד (31 במרץ 2024) – התקופה לביצועה מוארכת עד יום כ״ז באלול התשפ״ד (30 בספטמבר 2024)",
+      "fetched_at": "2026-09-28",
+      "appears_in": [
+        "references/renewal-and-refresher.md",
+        "scripts/calculate_license_dates.py"
+      ]
     }
   ]
 }

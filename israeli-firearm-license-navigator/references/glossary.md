@@ -23,7 +23,7 @@ Transliteration follows common Israeli usage. Use the Hebrew term in Hebrew outp
 | Hebrew | Transliteration | Meaning |
 |--------|-----------------|---------|
 | רישיון פרטי | rishayon prati | Private license to carry, transport, or hold a firearm |
-| אישור מותנה | ishur mutne | Conditional approval issued after the interview; users often say "rishayon mutne"; valid half a year per the Knesset review; not a license |
+| אישור מותנה | ishur mutne | Conditional approval issued after the interview; users often say "rishayon mutne"; the Knesset review reported half a year, but the date printed on it prevails; not a license |
 | רישיון זמני | rishayon zmani | Temporary paper license from the dealer or range, valid until the card arrives |
 | רישיון מגנטי / כרטיס רישיון קבוע | rishayon magneti | The plastic card, mailed within 90 days |
 | הצהרת בריאות | hatzharat briut | Health declaration signed by the applicant and a physician |
@@ -45,6 +45,8 @@ Transliteration follows common Israeli usage. Use the Hebrew term in Hebrew outp
 | תנאי סף | tnai saf | Threshold conditions, all required |
 | תבחין | tavchin | Criterion, one required from the closed list |
 | תבחין משמר | tavchin meshamer | Grandfathered basis for holders who predate the current criteria; not valid for a replacement firearm |
+| חידוש מכוח רציפות | chidush mi-koach retzifut | Continuity renewal: a pistol held 10 continuous years under criteria 1 to 9 may be renewed without a current criterion, only while the license is valid (regulation 10) |
+| הארכת מילואים | haarachat miluim | Automatic 6-month extension of a license or refresher deadline after 30 or more reserve days in the 90 days before it |
 | מחשבון זכאות | machshevon zakaut | The official eligibility calculator |
 | מערכת ההזדהות הלאומית | maarechet ha-hizdahut ha-leumit | National identification system used to sign in to gov.il forms |
 | אזור אישי | ezor ishi | Personal area on gov.il, where forms and status live |

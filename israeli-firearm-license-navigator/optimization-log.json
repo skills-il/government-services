@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-09-28",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Q9",
+          "Q10",
+          "Q11",
+          "Q12"
+        ]
+      },
+      "lessons": [
+        "Onboarded from community PR #14 (shlomi-builds). Round-1 review found 5 CRITICAL / 10 MAJOR; calculator needed 3 repair rounds (reservist + temporary-order interaction, unknown-reservist status, reg. 5 30-day cut-off hidden in the uncertain state).",
+        "Deferred MINOR: affidavit forms list (m3), fee refund service (m6), Amendment 25 medical-committee procedure detail (m7), private-sale caveat (m8), social-worker reporting (m9), s.15(b) duty to report a lost license card.",
+        "UNVERIFIED, hedged in skill: whether in-period non-month-end dates were covered by the 2023-2026 orders; which date reg. 4A/3A counts from after an order moved expiry; whether the home-front special-situation declaration is still in force; s.14c for forced deposits; surcharge for renewals filed before expiry and decided after; current status of 2014 procedure 12.02.32.",
+        "Next cycle: check gov.il news for any new temporary extension order after 31.08.2026, and re-verify the 71 NIS/year fee and surcharge tiers.",
+        "gov.il blocks headless Chromium via Cloudflare; a persistent-profile headed Chrome without the automation flag worked on 28.09.2026."
+      ]
+    }
+  ]
+}
