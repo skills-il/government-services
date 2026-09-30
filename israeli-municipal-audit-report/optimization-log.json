@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01",
+      "lessons": [
+        "First full audit. evidence.json had every entry marked verified_via=text, which made --check-sources skip all 24 entries; two snippets were paraphrases, not statute text. Rebuilt in canonical schema (176 entries), all verified against live sources.",
+        "Deferred MINOR: add a pointer that Freedom of Information Law s.9(a)(4) (disclosure prohibited by law) covers 170C(f) material; verify the provision text first.",
+        "Deferred MINOR: Hebrew body uses colloquial future-as-imperative (tasgeru, tirshemu) in untouched paragraphs; convert to plain imperative on the next cycle.",
+        "Deferred MINOR: description says 'public complaints handled by the ombudsman role'; the local role is the public-complaints commissioner (memune), not the State ombudsman (natziv). Fixing needs the Phase 5.7 holdout gate, so left for a cycle that edits the description.",
+        "Open legal question recorded, not resolved: whether the untimed findings limb of 170C(f) survives the council discussion, and which offences the 170C(g) cross-reference to Penal Law Ch.E Art.B captures after the 1994 renumbering. The skill hedges both and routes to counsel.",
+        "Script does not roll deadlines past Shabbat or holidays (Interpretation Law); caveat printed."
+      ]
+    }
+  ]
+}

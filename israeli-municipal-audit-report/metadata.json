@@ -5,7 +5,7 @@
   },
   "display_description": {
     "he": "אינו ייעוץ משפטי. למבקר הפנימי של רשות מקומית שכותב את דוח הביקורת השנתי. בונה את מבנה הדוח לפי שלושת התכנים שהחוק מחייב, מחשב את שרשרת המועדים מ-1 באפריל דרך ראש הרשות, ועדת הביקורת והמועצה, כולל שני מסלולי הגיבוי שמובילים לחמישה ולשבעה חודשים, ומסמן מה נכנס לתחום הביקורת לפי מבחן העשירית. מסביר גם את איסור הפרסום לפני הדיון במועצה ואת הכלל שהדוח אינו ראיה בהליך משפטי אבל כן בהליך משמעתי. אל תשתמשו בזה לביקורת מבקר המדינה, לביקורת פנימית בחברה פרטית, לתלונות ציבור, או לביקורת דוחות כספיים.",
-    "en": "Not legal advice. For the internal auditor of an Israeli local authority writing the statutory annual report. Structures the report to the three contents the statute requires, computes the deadline chain from 1 April through the mayor, the audit committee and the council including both fallback branches that end at five and seven months, and settles what falls inside the audit under the one-tenth budget test. Also explains the ban on publication before the council discussion and the rule that the report is not admissible in legal proceedings but is available in disciplinary ones. Do NOT use for State Comptroller audits, private-company internal audit, public complaints, or external financial-statement audits."
+    "en": "Not legal advice. For the internal auditor of an Israeli local authority writing the statutory annual report. Structures the report to the three contents the statute requires, computes the deadline chain from 1 April through the mayor, the audit committee and the council including both fallback branches that end at five and seven months, and flags what may fall inside the audit under the one-tenth budget test. Also explains the ban on publication before the council discussion and the rule that the report is not admissible in legal proceedings but is available in disciplinary ones. Do NOT use for State Comptroller audits, private-company internal audit, public complaints, or external financial-statement audits."
   },
   "tags": {
     "he": [
@@ -24,7 +24,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",

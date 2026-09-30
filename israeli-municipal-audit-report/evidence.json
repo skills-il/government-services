@@ -1,272 +1,1904 @@
 {
-  "skill_slug": "israeli-municipal-audit-report",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-19",
-  "note": "Statutory text read from the Wikisource text layer of פקודת העיריות via the MediaWiki API, which returns raw wikitext.",
+  "skill": "israeli-municipal-audit-report",
+  "generated_at": "2026-09-30T22:22:32+00:00",
+  "note": "Statutory text from he.wikisource (rendered page text). HCJ 7805/00 from the PDF published by the Association of Local Authority Auditors.",
   "claims": [
     {
-      "id": "report-1-april",
-      "claim": "The auditor submits the annual report to the mayor once a year, not later than 1 April of the year following the audited year",
-      "claim_type": "date",
+      "claim_id": "report-1-april",
+      "claim": "Annual report due to the mayor not later than 1 April of the year after the audited year (170C(a))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
       "raw_snippet": "הדו״ח יוגש אחת לשנה, לא יאוחר מ־1 באפריל של השנה שלאחר השנה שלגביה הוגש הדוח",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "report-contents",
-      "claim": "The report summarises the auditor's actions, details the deficiencies found, and recommends their correction and the prevention of recurrence",
-      "claim_type": "law",
+      "claim_id": "report-contents",
+      "claim": "Report summarises actions, details deficiencies, recommends correction and prevention (170C(a))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
       "raw_snippet": "בדוח יסכם המבקר את פעולותיו, יפרט את הליקויים שמצא וימליץ על תיקון הליקויים ומניעת הישנותם בעתיד",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "report-copy-committee",
-      "claim": "On submitting the report the auditor delivers a copy to the audit committee",
-      "claim_type": "law",
+      "claim_id": "report-copy-committee",
+      "claim": "Copy to the audit committee at the time of submission (170C(a))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
       "raw_snippet": "בעת הגשת הדוח לפי סעיף קטן זה, ימציא המבקר העתק ממנו לועדה לעניני ביקורת",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "mayor-3-months",
-      "claim": "Within three months of receiving the report the mayor submits comments to the audit committee and gives every council member a copy of the report with the comments",
-      "claim_type": "date",
+      "claim_id": "additional-report",
+      "claim": "Auditor may submit an additional report at any time or on demand (170C(b))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "תוך שלושה חדשים מיום קבלת דו״ח המבקר יגיש ראש העיריה לועדה לעניני ביקורת את הערותיו על הדו״ח וימציא לכל חברי המועצה העתק מהדו״ח בצירוף הערותיו.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "רשאי המבקר להגיש לראש העיריה ולועדה לעניני ביקורת דו״ח על ממצאי ביקורת שערך בכל עת שייראה לו או כאשר ראש העיריה או הועדה לעניני ביקורת דרשו ממנו לעשות כן",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "committee-2-months",
-      "claim": "The committee submits its conclusions and proposals to the council within two months of receiving the mayor's comments",
-      "claim_type": "date",
+      "claim_id": "mayor-3-months",
+      "claim": "Mayor comments within 3 months of receipt and copies to all council members (170C(c))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "תגיש למועצה לאישור את סיכומיה והצעותיה תוך חדשיים מיום שנמסרו לה הערות ראש העיריה",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "תוך שלושה חדשים מיום קבלת דו״ח המבקר יגיש ראש העיריה לועדה לעניני ביקורת את הערותיו על הדו״ח וימציא לכל חברי המועצה העתק מהדו״ח בצירוף הערותיו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "committee-5-months",
-      "claim": "If the mayor does not comment in time the committee acts within five months of the auditor's delivery to it",
-      "claim_type": "date",
+      "claim_id": "committee-2-months",
+      "claim": "Committee submits conclusions within 2 months of receiving the mayor's comments (170C(d))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "ותגיש למועצה לאישור את סיכומיה והצעותיה תוך חדשיים מיום שנמסרו לה הערות ראש העיריה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
+    },
+    {
+      "claim_id": "committee-5-months",
+      "claim": "Fallback A: 5 months from delivery to the committee if the mayor did not comment (170C(d))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
       "raw_snippet": "לא הגיש ראש העיריה את הערותיו על הדוח עד תום התקופה האמורה, תדון הועדה בדוח המבקר ותגיש למועצה לאישור את סיכומיה והצעותיה עד תום חמישה חודשים ממועד המצאתו על ידי מבקר העיריה לועדה",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "council-2-months",
-      "claim": "The council holds a special discussion within two months of the committee's submission",
-      "claim_type": "date",
+      "claim_id": "committee-summon",
+      "claim": "Committee may summon officeholders to respond before completing its conclusions (170C(d))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
+      "raw_snippet": "בטרם תשלים הועדה את סיכומיה והצעותיה רשאית היא, אם ראתה צורך בכך, לזמן לדיוניה נושאי משרה של העיריה או של גוף עירוני מבוקר כדי לאפשר להם להגיב על הדו״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "council-2-months",
+      "claim": "Council special discussion within 2 months of the committee submission (170C(e)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
       "raw_snippet": "תוך חדשיים מן היום שהגישה הועדה את סיכומיה והצעותיה תקיים המועצה דיון מיוחד בהם ובדוח המבקר",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "council-7-months",
-      "claim": "On the fallback branch the council discusses the report not later than seven months from its submission to the mayor",
-      "claim_type": "date",
+      "claim_id": "council-7-months",
+      "claim": "Fallback B: auditor delivers copies, council discusses within 7 months of submission to the mayor (170C(e)(2))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
       "raw_snippet": "ימציא המבקר עותק הדוח לכל חברי המועצה והמועצה תדון בדוח ובהמלצותיו לא יאוחר משבעה חודשים ממועד הגשתו לראש העיריה",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "publication-ban",
-      "claim": "No person may publish the report, any part of it or its contents before the date set for its submission to the council, nor publish an audit finding; the auditor or mayor may permit publication with the committee's approval",
-      "claim_type": "law",
+      "claim_id": "publication-ban",
+      "claim": "Publication ban before the date set for submission to the council; permission by auditor or mayor with committee approval (170C(f))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "לא יפרסם אדם דו״ח מן האמורים בסעיף זה או חלק ממנו או תכנו, לפני שחלף המועד שנקבע להגשתו למועצה, ולא יפרסם ממצא בקורת של מבקר העיריה, ואולם מבקר העיריה או ראש העיריה רשאי, באישור הועדה, להתיר פרסום כאמור.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "לא יפרסם אדם דו״ח מן האמורים בסעיף זה או חלק ממנו או תכנו, לפני שחלף המועד שנקבע להגשתו למועצה, ולא יפרסם ממצא בקורת של מבקר העיריה, ואולם מבקר העיריה או ראש העיריה רשאי, באישור הועדה, להתיר פרסום כאמור",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "not-evidence",
-      "claim": "The auditor's reports, opinions or any document produced in the role are not admissible as evidence in legal proceedings, but are not disqualified as evidence in disciplinary proceedings",
-      "claim_type": "law",
+      "claim_id": "publication-penalty",
+      "claim": "סעיף 334א: breach of 170C(f) punishable by one year imprisonment",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "דוחות המבקר, חוות דעת או כל מסמך אחר שהוציא או שהכין מבקר העיריה במילוי תפקידו, לא ישמשו ראיה בכל הליך משפטי, אך לא יהיו פסולים בשל כך לשמש ראיה בהליך משמעתי.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "המפרסם דו״ח או חלקו או תכנו או ממצא ביקורת, ומפר בכך את סעיף 170ג(ו) או תנאי בהיתר שניתן לו לפי הסעיף האמור, דינו – מאסר שנה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
     },
     {
-      "id": "bribery-referral",
-      "claim": "Where the auditor has grounds to believe the mayor or the legal advisor is party to an offence under Chapter E Article B of the Penal Law, the matter goes directly to the State Comptroller",
-      "claim_type": "law",
+      "claim_id": "bribery-referral",
+      "claim": "Suspected Penal Law Chapter E Article B offence by mayor or legal adviser goes directly to the State Comptroller (170C(g))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "היה למבקר העיריה יסוד להניח שראש העיריה או היועץ המשפטי של העיריה, הוא צד לעשיית עבירה לפי הוראות",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "היה למבקר העיריה יסוד להניח שראש העיריה או היועץ המשפטי של העיריה, הוא צד לעשיית עבירה לפי הוראות פרק ה׳ סימן ב׳ לחוק העונשין, התשל״ז–1977, יעביר המבקר את הענין במישרין לידיעת מבקר המדינה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "duties-legality",
-      "claim": "The auditor checks whether municipal actions were lawful, by the authorised person, preserving purity of morals and the principles of efficiency and economy",
-      "claim_type": "law",
+      "claim_id": "not-evidence",
+      "claim": "Auditor documents not evidence in legal proceedings but not disqualified in disciplinary ones (170C1)",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "לפי סעיף 170א(א) המבקר בודק אם פעולות העיריה נעשו כדין, בידי המוסמך לעשותם, תוך שמירת טוהר המידות ועקרונות היעילות והחסכון",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "דוחות המבקר, חוות דעת או כל מסמך אחר שהוציא או שהכין מבקר העיריה במילוי תפקידו, לא ישמשו ראיה בכל הליך משפטי, אך לא יהיו פסולים בשל כך לשמש ראיה בהליך משמעתי",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "audited-body",
-      "claim": "The audit extends to the religious council and to any body in whose annual budget the municipality participates by more than one tenth, or in whose management it participates, called an audited municipal body",
-      "claim_type": "threshold",
+      "claim_id": "duties-legality",
+      "claim": "Audit duties: legality, authority, purity of morals, efficiency and economy, incl. Planning and Building Law (170A(a))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "וכן לגבי כל תאגיד, מפעל, מוסד, קרן או גוף אשר העיריה משתתפת בתקציבם השנתי כדי יותר מעשירית לגבי אותה שנת תקציב או משתתפת במינוי הנהלתם; למי שעומד לבקורת לפי סעיף קטן זה ייקרא להלן ”גוף עירוני מבוקר“.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "לבדוק אם פעולות העיריה, לרבות פעולות לפי חוק התכנון והבניה, התשכ״ה–1965, נעשו כדין, בידי המוסמך לעשותם, תוך שמירת טוהר המידות ועקרונות היעילות והחסכון",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "workplan-sources",
-      "claim": "The work plan is set by the auditor's discretion, the mayor's demand, or the audit committee's demand limited to two topics per work year",
-      "claim_type": "threshold",
+      "claim_id": "duties-controls",
+      "claim": "Internal controls and bookkeeping duties (170A(a)(3)-(4))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "על פי דרישת הועדה לעניני ביקורת, ובלבד שמספר הנושאים לביקורת לא יעלה על שני נושאים לשנת עבודה.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "לבקר את הנהלת חשבונות העיריה ולבדוק אם דרכי החזקת כספי העיריה ושמירת רכושה והחזקתו מניחות את הדעת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "correction-team",
-      "claim": "A deficiency-correction team appointed under section 21A(b) of the State Comptroller Law discusses the ways and dates for correcting deficiencies found in the report",
-      "claim_type": "law",
+      "claim_id": "audited-body",
+      "claim": "Religious council and bodies with more than one tenth budget participation or management appointment are audited municipal bodies (170A(b))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:50:00Z",
-      "raw_snippet": "עובדי העיריה החברים בצוות לתיקון ליקויים, שמונה לפי הוראות סעיף 21א(ב) לחוק מבקר המדינה, התשי״ח–1958 [נוסח משולב]",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "וכן לגבי כל תאגיד, מפעל, מוסד, קרן או גוף אשר העיריה משתתפת בתקציבם השנתי כדי יותר מעשירית לגבי אותה שנת תקציב או משתתפת במינוי הנהלתם",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "comptroller-law-21a",
-      "claim": "Section 21A of the State Comptroller Law governs the audited body head's response and the deficiency-correction team",
-      "claim_type": "law",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
-      "source_fetched_at": "2026-08-19T15:55:00Z",
-      "raw_snippet": "ראש הגוף המבוקר כהגדרתו בסעיף 21א, בגופים מבוקרים אחרים, ימסור למבקר, בתוך עשרה שבועות מהיום שבו קיבל לידיו את הדין וחשבון, במלואו או חלק ממנו, את הערותיו לדין וחשבון לגבי כל ליקוי או פגיעה שפורטו בו.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
-    },
-    {
-      "id": "auditor-office-regs",
-      "claim": "The regulations on standards and annual budget for the municipal auditor's office are made under section 170A(e) of the Ordinance",
-      "claim_type": "law",
-      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_(%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94)",
-      "source_fetched_at": "2026-08-19T15:55:00Z",
-      "raw_snippet": "בתוקף סמכותי לפי סעיף 170(ה), 170א(ה) ו־347 לפקודת העיריות ובאישור הוועדה לביקורת המדינה של הכנסת, אני מתקין תקנות אלה:",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
-    },
-    {
-      "id": "budget-floor",
-      "claim": "The auditor's budget proposal may not fall below a percentage of the authority's annual budget set by the minister",
-      "claim_type": "percentage",
+      "claim_id": "water-note",
+      "claim": "Consolidated text notes 170A(b) does not apply to a water and sewage corporation",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T15:55:00Z",
-      "raw_snippet": "היקף הצעת התקציב לא יפחת משיעור קבוע באחוזים מהתקציב השנתי של העיריה, כפי שיקבע השר בהתחשב במספר התושבים בתחומה של העיריה ובגודל תקציבה השנתי.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "כי הוראות סעיף 170א(ב) לא יחולו על תאגיד מים וביוב",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "local-council-subset",
-      "claim": "For a local council auditor only sections 167(b) to (d), 167A, 170A(a) to (d), 170B, 170C, 170C1 and 334A of the Municipalities Ordinance apply, mutatis mutandis",
-      "claim_type": "law",
+      "claim_id": "workplan-sources",
+      "claim": "Committee demand capped at two topics per work year (170A(c)(3))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "על פי דרישת הועדה לעניני ביקורת, ובלבד שמספר הנושאים לביקורת לא יעלה על שני נושאים לשנת עבודה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "workplan-methods",
+      "claim": "Auditor sets the methods of the audit (170A(d))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "המבקר יקבע על פי שיקול דעתו את הדרכים לביצוע ביקורתו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "budget-floor",
+      "claim": "Office budget proposal floor as a percentage set by the minister (170A(e))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "היקף הצעת התקציב לא יפחת משיעור קבוע באחוזים מהתקציב השנתי של העיריה, כפי שיקבע השר בהתחשב במספר התושבים בתחומה של העיריה ובגודל תקציבה השנתי",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "budget-discussion",
+      "claim": "Finance committee and council discuss the office budget as the auditor submitted it (170A(f))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ועדת הכספים והמועצה ידונו בהצעות התקציב והתקן של לשכת מבקר העיריה, כפי שהגיש אותן מבקר העיריה, במסגרת דיוניהן בהצעת התקציב השנתי",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "staff-consent",
+      "claim": "Mayor appoints office staff with the auditor's consent (170(e))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ראש העיריה בהסכמת מבקר העיריה ימנה עובדים ללשכת מבקר העיריה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "staff-instructions",
+      "claim": "Office staff take professional instructions from the auditor only (170(f))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ואולם הם יקבלו הוראות מקצועיות ממבקר העיריה בלבד",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "access-documents",
+      "claim": "סעיף 170ב: duty to deliver documents and explanations within the period and manner the demand sets (170B(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ימציאו למבקר העיריה, על פי דרישתו, כל מסמך שברשותם אשר לדעת מבקר העיריה דרוש לצרכי הביקורת ויתנו למבקר העיריה כל מידע או הסבר שיבקש בתוך התקופה הקבועה בדרישה ובאופן הקבוע בה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "access-databases",
+      "claim": "Access to every database and data-processing program (170B(b))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "תהיה גישה, לצורך ביצוע תפקידו, לכל מאגר מידע רגיל או ממוחשב, לכל בסיס נתונים ולכל תוכנת עיבוד נתונים אוטומטי של העיריה או של המשרתים את העיריה או של גוף עירוני מבוקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "meeting-invite",
+      "claim": "Auditor invited to every council and committee meeting (170B(e))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "לצורך ביצוע תפקידו יוזמן מבקר העיריה ויהיה רשאי להיות נוכח בכל ישיבה של מועצת העיריה או כל ועדה מועדותיה או כל ועדה מועדותיו של גוף עירוני מבוקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "correction-team",
+      "claim": "Correction team appointed under SC Law 21A(b) discusses ways and dates of correcting deficiencies after council discussion (170C1A(a)-(b))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "הצוות ידון בדרכים ובמועדים לתיקון ליקויים שנמצאו בדוח שהגיש מבקר העיריה ושנדון על ידי המועצה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "team-3-months",
+      "claim": "Team recommendations to the mayor within 3 months of the council discussion; quarterly reports to the committee (170C1A(c))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "הצוות יגיש את המלצותיו לראש העיריה בתוך שלושה חודשים מיום שדוח מבקר העיריה נדון על ידי המועצה, וידווח לוועדה לעניני ביקורת על יישום המלצותיו אחת לשלושה חודשים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
+    },
+    {
+      "claim_id": "mayor-defer",
+      "claim": "Mayor may defer a fix only with written reasons within 3 months of the recommendations (170C1A(d))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ראש העיריה רשאי לדחות את תיקונו של ליקוי מסוים, ובלבד שינמק דחיה זו לפני מבקר העיריה והוועדה לעניני ביקורת, בכתב, לא יאוחר משלושה חודשים לאחר שהוגשו לו המלצות הצוות",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
+    },
+    {
+      "claim_id": "committee-149c-duty",
+      "claim": "סעיף 149ג: audit committee discusses every State Comptroller, Ombudsman, Interior Ministry and auditor report and follows correction (149C(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ועדה לענייני ביקורת שתפקידה לדון בכל דו״ח של מבקר המדינה ושל נציב תלונות הציבור על הביקורת בעיריה, בכל דו״ח של משרד הפנים על העיריה ובכל דו״ח של מבקר העיריה, ולעקוב אחרי תיקון הליקויים שהעלתה הביקורת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "committee-149c-composition",
+      "claim": "Committee of at most seven, mirroring factions, excluding mayor, deputies and management committee (149C(b))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "מספר חברי הועדה לא יעלה על שבעה; הרכב הועדה יהיה תואם, ככל שניתן, את ההרכב הסיעתי של המועצה; ראש העיריה, סגניו וחברי ועדת ההנהלה לא יהיו חברים בועדה לעניני ביקורת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "committee-149c-chair",
+      "claim": "Chair from the opposition, not a director of an audited municipal body (149C(c)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "יושב ראש הועדה לעניני ביקורת יהיה בכפוף להוראות פסקה (2) מהאופוזיציה ולא יכהן כדירקטור בהנהלת גוף עירוני מבוקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "quarterly-166aa",
+      "claim": "סעיף 166(אא): statutory committee meets at least once every three months, mayor directs convening",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "ועדה שחובה להקימה לפי כל דין תכונס לפחות אחת לשלושה חדשים; לא כונסה ועדה כאמור, יורה ראש העיריה לכנסה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "dismissal-3-4",
+      "claim": "Auditor-employee dismissed only by three-quarters of council members (171(b)(2))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "לא יפוטר מבקר העיריה שהוא עובדה אלא באישור המועצה ברוב של שלושה רבעים מחבריה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "dismissal-hearing",
+      "claim": "Right to be heard before a dismissal decision (171(c))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "לא תתקבל במועצה החלטה לפיטוריו של מבקר העיריה, מהנדס העיריה, הגזבר או היועץ המשפטי לעיריה אלא לאחר שניתנה להם זכות לשאת לפני המועצה את דברם בענין הפיטורים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "website-248b",
+      "claim": "Section 248B website duty (its list does not include the auditor report)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "עיריה תקים ותפעיל אתר אינטרנט נגיש לציבור ללא תשלום, שבו תפרסם, בין השאר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "experience-equivalence",
+      "claim": "Internal Audit Law referenced for experience equivalence in eligibility (167(d))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "אם הוא רכש נסיון במשך עשר שנים בעבודת ביקורת בגוף ציבורי כמשמעו בחוק הביקורת הפנימית, התשנ״ב–1992",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "local-council-subset",
+      "claim": "סעיף 13ה (13E) imports 167(b)-(d), 167A, 170A(a)-(d), 170B, 170C, 170C1 and 334A to local councils",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
-      "raw_snippet": "הוראות סעיפים 167(ב) עד (ד), 167א, 170א(א) עד (ד), 170ב, 170ג, 170ג1 ו־334א לפקודת העיריות, יחולו לענין מבקר מועצה מקומית (בסעיף זה – מבקר), בשינויים המחויבים",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "הוראות סעיפים 167(ב) עד (ד), 167א, 170א(א) עד (ד), 170ב, 170ג, 170ג1 ו־334א לפקודת העיריות, יחולו לענין מבקר מועצה מקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "regional-council-excluded",
-      "claim": "The deficiency-correction team provision (section 170C1A) applies to a local council excluding a regional council",
-      "claim_type": "law",
+      "claim_id": "regional-council-excluded",
+      "claim": "סעיף 13ד applies 170C1A to local councils except regional councils",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
-      "raw_snippet": "הוראות סעיף 170ג1א לפקודת העיריות יחולו, בשינויים המחויבים, על מועצה מקומית, למעט מועצה אזורית.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "הוראות סעיף 170ג1א לפקודת העיריות יחולו, בשינויים המחויבים, על מועצה מקומית, למעט מועצה אזורית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     },
     {
-      "id": "part-time-auditor",
-      "claim": "The minister may provide in the founding order that a local council auditor serves part time, having regard to the number of residents and settlements and the size of the council's budget",
-      "claim_type": "law",
+      "claim_id": "local-council-149c",
+      "claim": "סעיף 13ב applies סעיף 149ג (149C) to local councils",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
+      "raw_snippet": "הוראות סעיפים 149ג, 149ה, 149ח, 149י, 149יא ו־149יב לפקודת העיריות יחולו, בשינויים המחויבים, על מועצה מקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "part-time-auditor",
+      "claim": "Minister may set part-time local council auditor in the founding order (13E(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
       "raw_snippet": "ואולם השר רשאי לקבוע בצו הכינון כי מבקר יכהן במשרה חלקית בהתחשב במספר התושבים והיישובים במועצה המקומית, ובהיקף תקציבה של אותה מועצה מקומית",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "role-combination",
-      "claim": "A local council auditor may complete a full-time post by also serving as public-complaints or employee-complaints commissioner, if the council so approved on the audit committee's recommendation after finding it will not impair the audit role",
-      "claim_type": "law",
+      "claim_id": "role-combination",
+      "claim": "Completing the post as complaints commissioner with council approval on committee recommendation (13E(b)(1))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
-      "raw_snippet": "במועצה המקומית שבה הוא מכהן כמבקר – בתפקיד הממונה על תלונות הציבור או הממונה על תלונות העובדים, אם המועצה, לפי המלצת הוועדה לעניני ביקורת, אישרה זאת, לאחר שמצאה כי אין בתפקיד נוסף זה כדי לפגוע במילוי תפקידו כמבקר;",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "בתפקיד הממונה על תלונות הציבור או הממונה על תלונות העובדים, אם המועצה, לפי המלצת הוועדה לעניני ביקורת, אישרה זאת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "founding-order-budget",
-      "claim": "For a local council the minister may set in the founding order the ways of preparing and approving the auditor office budget",
-      "claim_type": "law",
+      "claim_id": "outside-work",
+      "claim": "Completing the post by outside work approved by council and minister, four conditions (13E(b)(2))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
-      "raw_snippet": "דרכי הכנתו ואישורו של תקציב לשכת המבקר.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "בעיסוק או בעבודה נוספים מחוץ למועצה המקומית – אם אישרו זאת המועצה והשר, לאחר שמצאו כי התקיימו כל אלה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "section-13e-heading",
-      "claim": "Section 13E of the Local Councils Ordinance is headed 'application of provisions, internal audit', and section 13D covers the deficiency-correction team",
-      "claim_type": "law",
+      "claim_id": "founding-order-budget",
+      "claim": "Founding order may set office budget procedure for local councils (13E(c)(4))",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%95%D7%A2%D7%A6%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-19T16:20:00Z",
-      "raw_snippet": "סעיף 13ד, תחולת הוראות – צוות לתיקון ליקויים. סעיף 13ה, תחולת הוראות – ביקורת פנימית.",
-      "verified_via": "text",
-      "verified_at": "2026-08-19",
-      "confidence": "high"
+      "raw_snippet": "דרכי הכנתו ואישורו של תקציב לשכת המבקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sc-20d",
+      "claim": "Head of audited body gives comments within ten weeks of receiving the report (SC Law 20(d))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "ימסור למבקר, בתוך עשרה שבועות מהיום שבו קיבל לידיו את הדין וחשבון, במלואו או חלק ממנו, את הערותיו לדין וחשבון לגבי כל ליקוי או פגיעה שפורטו בו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-21a-b",
+      "claim": "סעיף 21א(ב) SC Law: head of audited body appoints a correction team headed by the director general",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "בכל גוף מבוקר ימנה ראש הגוף המבוקר צוות לתיקון ליקויים, שבראשו יעמוד המנהל הכללי באותו גוף",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-21a-mayor",
+      "claim": "For a local authority the head of the audited body is the mayor (SC Law 21A(a)(2))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "בגוף מבוקר לפי סעיף 9(4) – ראש הרשות המקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-21a-c",
+      "claim": "Team discusses within sixty days of the determining date and reports within 15 days (SC Law 21A(c))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "ידון הצוות בדרכים לתיקון הליקויים בתוך שישים ימים מהמועד הקובע כהגדרתו בסעיף 28(א)(1), יקבל החלטות בדבר תיקונם, וידווח על דיוניו ועל החלטותיו לראש הגוף המבוקר בתוך 15 ימים מיום קבלת ההחלטות",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-28",
+      "claim": "Determining date is the date the report is tabled in the Knesset (SC Law 28(a)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "מועד ההנחה על שולחן הכנסת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-21b-a",
+      "claim": "Head of audited body reports decisions to the Comptroller within thirty days (SC Law 21B(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "בתוך שלושים ימים מיום שדווחו לו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "sc-21c",
+      "claim": "Non-performance without reasonable justification is a disciplinary offence (SC Law 21C)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "בלא הצדק סביר, יהווה הדבר עבירת משמעת לפי הדין המשמעתי החל באותו גוף מבוקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "complaints-default",
+      "claim": "Council appoints the auditor as public-complaints commissioner unless for special reasons another senior employee (2008 Law s.2(a)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9E%D7%95%D7%A0%D7%94_%D7%A2%D7%9C_%D7%AA%D7%9C%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%29",
+      "raw_snippet": "מועצת רשות מקומית תמנה את מבקר הרשות המקומית לממונה על תלונות הציבור, ואולם היא רשאית, מטעמים מיוחדים, למנות לתפקיד זה עובד בכיר אחר של הרשות המקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "complaints-report",
+      "claim": "Complaints report due 1 May, council discusses within two months, published online (s.15)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9E%D7%95%D7%A0%D7%94_%D7%A2%D7%9C_%D7%AA%D7%9C%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%29",
+      "raw_snippet": "הממונה על תלונות הציבור יגיש לראש הרשות המקומית ולמועצת הרשות המקומית דין וחשבון על פעולותיו לא יאוחר מ־1 במאי בכל שנה; המועצה תקיים דיון בעניין הדין וחשבון בתוך חודשיים מיום שהוגש לה; דין וחשבון כאמור יהיה פתוח לעיון הציבור ויפורסם באתר האינטרנט של הרשות המקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "complaints-not-evidence",
+      "claim": "Complaints documents not evidence in legal or disciplinary proceedings (s.16(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9E%D7%95%D7%A0%D7%94_%D7%A2%D7%9C_%D7%AA%D7%9C%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%29",
+      "raw_snippet": "לא ישמשו ראיה בכל הליך משפטי או משמעתי",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "complaints-law-title",
+      "claim": "Local Authorities (Public Complaints Commissioner) Law 2008",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9E%D7%95%D7%A0%D7%94_%D7%A2%D7%9C_%D7%AA%D7%9C%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%29",
+      "raw_snippet": "חוק הרשויות המקומיות (ממונה על תלונות הציבור), התשס״ח–2008",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "water-138",
+      "claim": "Section 138 (סעיף 138) of the Water Corporations Law disapplies the Municipalities Ordinance to a company",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "הוראות פקודת העיריות, ובכלל זה הוראות סעיפים 170(א) ו־249א, לא יחולו על חברה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "water-70",
+      "claim": "Internal Audit Law applies while controlled by a local authority (s.70(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "כל עוד החברה היא חברה בשליטת רשות מקומית, יחולו עליה הוראות חוק הביקורת הפנימית, התשנ״ב–1992",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "water-71",
+      "claim": "Company internal auditor sends copies of reports to the commissioner (הממונה) and to the Government Water and Sewage Authority (הרשות) (s.71(a))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "מבקר הפנים של חברה יעביר לממונה ולרשות העתקים מדוחות הביקורת שלו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ial-definition",
+      "claim": "Internal Audit Law public body definition lists SC Law 9(1),(2),(5) bodies, not 9(4) local authorities",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA_%D7%94%D7%A4%D7%A0%D7%99%D7%9E%D7%99%D7%AA",
+      "raw_snippet": "גוף מבוקר כמשמעותו בסעיף 9(1), (2) או (5) לחוק מבקר המדינה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ial-religious",
+      "claim": "Religious council is a public body under the Internal Audit Law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA_%D7%94%D7%A4%D7%A0%D7%99%D7%9E%D7%99%D7%AA",
+      "raw_snippet": "מועצה דתית שהוקמה מכוח חוק שירותי הדת היהודיים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-inspection",
+      "claim": "HCJ 7805/00: auditee inspection right generally requires transfer of all relevant material unless special audit reasons",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "זכות העיון של המבוקר מחייבת ככלל העברה אליו של כל החומר הרלבנטי",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-hearing-exists",
+      "claim": "Right to be heard exists though the Ordinance has no express provision",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "אינה מכילה הוראה מפורשת המעניקה למבוקר זכות טיעון",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-defects",
+      "claim": "Defects: material documents not given; final report included allegations without full right to respond",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "לא ניתנה לעותרת זכות טיעון מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-sources",
+      "claim": "Details may be given while protecting sources",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "גם אם תוך חסיון מקורות המידע",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-early-publication",
+      "claim": "Early publication is an exception for rare cases of first-rank public interest",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "חריג ויוצא מן הכלל לכלל",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-rare",
+      "claim": "Such situations are rare",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "מצבים אלה הם נדירים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-publication-wrong",
+      "claim": "Early publication in that case was wrong",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "היה שגוי במקרה זה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-elected",
+      "claim": "Internal audit may audit elected officials in matters related to municipal actions incl. purity of morals and conflicts",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "לביקורת הפנים בעיריה סמכות לבקר מעשי נבחר ציבור בעיריה בענינים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-not-political",
+      "claim": "Not the audit's role to audit political activity as such",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "אין זה מתפקידה של הביקורת לבקר פעילות ציבורית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-case",
+      "claim": "Case number HCJ 7805/00",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "בג\"ץ 7805/00",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "regs-commencement",
+      "claim": "Regulations in force 1 June 2019",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תחילתן של תקנות אלה ביום כ״ז באייר התשע״ט (1 ביוני 2019)",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-title",
+      "claim": "Regulations title 2018",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקנות העיריות (תקנים ותקציב שנתי ללשכת מבקר עירייה), התשע״ח–2018",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "regs-authority",
+      "claim": "Made under 170(e), 170A(e) and 347",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בתוקף סמכותי לפי סעיף 170(ה), 170א(ה) ו־347 לפקודת העיריות",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-def-office",
+      "claim": "Office budget includes auditor and staff salaries",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "”תקציב שנתי של לשכת מבקר עירייה“ – לרבות שכר המבקר ועובדי לשכת המבקר",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-def-muni",
+      "claim": "Municipal budget excludes deficit-cover and arnona-discount income",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציב שנתי רגיל של עירייה למעט הכנסות לכיסוי הגירעון המצטבר של העירייה והכנסות שנרשמו בשל הנחה מארנונה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-def-residents",
+      "claim": "Residents per section 19",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "”מספר תושבים“ – כמשמעותו בסעיף 19 לפקודה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-lower",
+      "claim": "Staff minimum is the lower of the two tables",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "לכל הפחות לפי התקנים שבפסקאות (1) ו־(2) לפי הנמוך מביניהם",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-1",
+      "claim": "Regulation 2 staff row: עד 40,000 – עובד ביקורת אחד בהיקף של מחצ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עד 40,000 – עובד ביקורת אחד בהיקף של מחצית משרה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-2",
+      "claim": "Regulation 2 staff row: עולה על 40,000 ואינו עולה על 100,000 – ע",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 40,000 ואינו עולה על 100,000 – עובד ביקורת אחד בהיקף של משרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-3",
+      "claim": "Regulation 2 staff row: עולה על 100,000 ואינו עולה על 150,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 100,000 ואינו עולה על 150,000 – שלושה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-4",
+      "claim": "Regulation 2 staff row: עולה על 150,000 ואינו עולה על 200,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 150,000 ואינו עולה על 200,000 – ארבעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-5",
+      "claim": "Regulation 2 staff row: עולה על 200,000 ואינו עולה על 250,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 200,000 ואינו עולה על 250,000 – שישה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-6",
+      "claim": "Regulation 2 staff row: עולה על 250,000 ואינו עולה על 300,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 250,000 ואינו עולה על 300,000 – שבעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-7",
+      "claim": "Regulation 2 staff row: עולה על 300,000 ואינו עולה על 400,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 300,000 ואינו עולה על 400,000 – שמונה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-8",
+      "claim": "Regulation 2 staff row: עולה על 400,000 ואינו עולה על 500,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 400,000 ואינו עולה על 500,000 – תשעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-9",
+      "claim": "Regulation 2 staff row: עולה על 500,000 ואינו עולה על 600,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 500,000 ואינו עולה על 600,000 – עשרה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-10",
+      "claim": "Regulation 2 staff row: עולה על 600,000 ואינו עולה על 700,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 600,000 ואינו עולה על 700,000 – אחד עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-11",
+      "claim": "Regulation 2 staff row: עולה על 700,000 ואינו עולה על 800,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 700,000 ואינו עולה על 800,000 – שנים עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-12",
+      "claim": "Regulation 2 staff row: עולה על 800,000 ואינו עולה על 900,000 – ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 800,000 ואינו עולה על 900,000 – שלושה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-13",
+      "claim": "Regulation 2 staff row: עולה על 900,000 ואינו עולה על 1,000,000 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 900,000 ואינו עולה על 1,000,000 – ארבעה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-14",
+      "claim": "Regulation 2 staff row: עולה על 1,000,000 – חמישה עשר עובדי ביקו",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 1,000,000 – חמישה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-15",
+      "claim": "Regulation 2 staff row: עד 150 מלש״ח – עובד ביקורת בהיקף של חצי ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עד 150 מלש״ח – עובד ביקורת בהיקף של חצי משרה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-16",
+      "claim": "Regulation 2 staff row: עולה על 150 מלש״ח ואינו עולה על 400 מלש״",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 150 מלש״ח ואינו עולה על 400 מלש״ח – עובד ביקורת בהיקף של משרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-17",
+      "claim": "Regulation 2 staff row: עולה על 400 מלש״ח ואינו עולה על 600 מלש״",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 400 מלש״ח ואינו עולה על 600 מלש״ח – עובד ביקורת בהיקף של משרה מלאה ועוד עובד ביקורת בהיקף של מחצית המשרה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-18",
+      "claim": "Regulation 2 staff row: עולה על 600 מלש״ח ואינו עולה על 800 מלש״",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 600 מלש״ח ואינו עולה על 800 מלש״ח – שלושה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-19",
+      "claim": "Regulation 2 staff row: עולה על 800 מלש״ח ואינו עולה על 1,000 מל",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 800 מלש״ח ואינו עולה על 1,000 מלש״ח – ארבעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-20",
+      "claim": "Regulation 2 staff row: עולה על 1,000 מלש״ח ואינו עולה על 1,300 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 1,000 מלש״ח ואינו עולה על 1,300 מלש״ח – חמישה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-21",
+      "claim": "Regulation 2 staff row: עולה על 1,300 מלש״ח ואינו עולה על 1,700 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 1,300 מלש״ח ואינו עולה על 1,700 מלש״ח – שישה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-22",
+      "claim": "Regulation 2 staff row: עולה על 1,700 מלש״ח ואינו עולה על 2,000 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 1,700 מלש״ח ואינו עולה על 2,000 מלש״ח – שבעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-23",
+      "claim": "Regulation 2 staff row: עולה על 2,000 מלש״ח ואינו עולה על 2,500 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 2,000 מלש״ח ואינו עולה על 2,500 מלש״ח – שמונה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-24",
+      "claim": "Regulation 2 staff row: עולה על 2,500 מלש״ח ואינו עולה על 3,000 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 2,500 מלש״ח ואינו עולה על 3,000 מלש״ח – תשעה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-25",
+      "claim": "Regulation 2 staff row: עולה על 3,000 מלש״ח ואינו עולה על 3,500 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 3,000 מלש״ח ואינו עולה על 3,500 מלש״ח – עשרה עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-26",
+      "claim": "Regulation 2 staff row: עולה על 3,500 מלש״ח ואינו עולה על 4,000 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 3,500 מלש״ח ואינו עולה על 4,000 מלש״ח – אחד עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-27",
+      "claim": "Regulation 2 staff row: עולה על 4,000 מלש״ח ואינו עולה על 4,500 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 4,000 מלש״ח ואינו עולה על 4,500 מלש״ח – שנים עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-28",
+      "claim": "Regulation 2 staff row: עולה על 4,500 מלש״ח ואינו עולה על 5,000 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 4,500 מלש״ח ואינו עולה על 5,000 מלש״ח – שלושה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-29",
+      "claim": "Regulation 2 staff row: עולה על 5,000 מלש״ח ואינו עולה על 5,500 ",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 5,000 מלש״ח ואינו עולה על 5,500 מלש״ח – ארבעה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-staff-30",
+      "claim": "Regulation 2 staff row: עולה על 5,500 מלש״ח – חמישה עשר עובדי בי",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "עולה על 5,500 מלש״ח – חמישה עשר עובדי ביקורת במשרה מלאה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_שמספר_תושביה_עד_40,000_תושבים",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עד 40,000 תושבים",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עד 40,000 תושבים",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-1",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עד 40,000 תושבים",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 100 מלש״ח – סכום שלא יפחת מ־0.75%, ובלבד שלא יפחת מ־690 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-2",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עד 40,000 תושבים",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 100 מלש״ח ואינו עולה על 150 מלש״ח – סכום שלא יפחת מ־0.533% ובלבד שלא יפחת מ־750 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-3",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עד 40,000 תושבים",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 150 מלש״ח ואינו עולה על 200 מלש״ח – סכום שלא יפחת מ־0.45% ובלבד שלא יפחת מ־800 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-4",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עד 40,000 תושבים",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 200 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־900 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-ל_40,000_אך_לא_עולה_על_100,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-5",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 170 מלש״ח סכום שלא יפחת מ־0.588%, ובלבד שלא יפחת מ־950 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-6",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 170 מלש״ח ואינו עולה על 335 מלש״ח – סכום שלא יפחת מ־0.313% ובלבד שלא יפחת מ־1,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-7",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 335 מלש״ח ואינו עולה על 500 מלש״ח – סכום שלא יפחת מ־0.23% ובלבד שלא יפחת מ־1,050 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-8",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 40,000 אך לא עולה על 100,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 500 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־1,150 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_100,000_אך_לא_עולה_על_150,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-9",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 500 מלש״ח – סכום שלא יפחת מ־0.25%, ובלבד שלא יפחת מ־1,200 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-10",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 500 מלש״ח ואינו עולה על 650 מלש״ח – סכום שלא יפחת מ־0.207% ובלבד שלא יפחת מ־1,250 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-11",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 650 מלש״ח ואינו עולה על 800 מלש״ח – סכום שלא יפחת מ־0.175% ובלבד שלא יפחת מ־1,350 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-12",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 100,000 אך לא עולה על 150,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 800 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־1,400 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-50,000_אך_אינו_עולה_על_200,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-13",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 550 מלש״ח – סכום שלא יפחת מ־0.291%, ובלבד שלא יפחת מ־1,500 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-14",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 550 מלש״ח ואינו עולה על 650 מלש״ח – סכום שלא יפחת מ־0.262% ובלבד שלא יפחת מ־1,600 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-15",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 650 מלש״ח ואינו עולה על 750 מלש״ח – סכום שלא יפחת מ־0.24% ובלבד שלא יפחת מ־1,700 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-16",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 150,000 אך אינו עולה על 200,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 750 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־1,800 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-00,000_אך_אינו_עולה_על_250,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-17",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 1,000 מלש״ח – סכום שלא יפחת מ־0.19%, ובלבד שלא יפחת מ־1,800 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-18",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,000 מלש״ח ואינו עולה על 1,150 מלש״ח – סכום שלא יפחת מ־0.174% ובלבד שלא יפחת מ־1,900 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-19",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,150 מלש״ח ואינו עולה על 1,300 מלש״ח – סכום שלא יפחת מ־0.162% ובלבד שלא יפחת מ־2,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-20",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 200,000 אך אינו עולה על 250,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,300 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־2,100 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_250,000_ואינו_עולה_על_300,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-21",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 1,450 מלש״ח – סכום שלא יפחת מ־0.172%, ובלבד שלא יפחת מ־2,300 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-22",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,450 מלש״ח ואינו עולה על 1,600 מלש״ח – סכום שלא יפחת מ־0.162% ובלבד שלא יפחת מ־2,500 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-23",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,600 מלש״ח ואינו עולה על 1,750 מלש״ח – סכום שלא יפחת מ־0.154% ובלבד שלא יפחת מ־2,600 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-24",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 250,000 ואינו עולה על 300,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,750 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־2,700 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_300,000_ואינו_עולה_על_400,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-25",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 1,900 מלש״ח – סכום שלא יפחת מ־0.144%, ובלבד שלא יפחת מ־2,700 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-26",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 1,900 מלש״ח ואינו עולה על 2,200 מלש״ח – סכום שלא יפחת מ־0.129% ובלבד שלא יפחת מ־2,750 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-27",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,200 מלש״ח ואינו עולה על 2,500 מלש״ח – סכום שלא יפחת מ־0.12% ובלבד שלא יפחת מ־2,850 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-28",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 300,000 ואינו עולה על 400,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,500 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־3,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_400,000_ואינו_עולה_על_500,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-29",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 2,000 מלש״ח – סכום שלא יפחת מ־0.155%, ובלבד שלא יפחת מ־3,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-30",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,000 מלש״ח ואינו עולה על 3,000 מלש״ח – סכום שלא יפחת מ־0.11% ובלבד שלא יפחת מ־3,100 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-31",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 3,000 מלש״ח ואינו עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.125% ובלבד שלא יפחת מ־3,300 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-32",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 400,000 ואינו עולה על 500,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.16% ובלבד שלא יפחת מ־5,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-_500,000_ואינו_עולה_על_750,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-33",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 2,000 מלש״ח – סכום שלא יפחת מ־0.215%, ובלבד שלא יפחת מ־3,200 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-34",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,000 מלש״ח ואינו עולה על 3,000 מלש״ח – סכום שלא יפחת מ־0.20% ובלבד שלא יפחת מ־4,300 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-35",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 3,000 מלש״ח ואינו עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.172% ובלבד שלא יפחת מ־6,000 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-36",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 500,000 ואינו עולה על 750,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.163% ובלבד שלא יפחת מ־6,900 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-50,000_ואינו_עולה_על_1,000,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-37",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 2,000 מלש״ח – סכום שלא יפחת מ־0.235%, ובלבד שלא יפחת מ־3,400 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-38",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,000 מלש״ח ואינו עולה על 3,000 מלש״ח – סכום שלא יפחת מ־0.22% ובלבד שלא יפחת מ־4,700 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-39",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 3,000 מלש״ח ואינו עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.197% ובלבד שלא יפחת מ־6,600 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-40",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 750,000 ואינו עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.192% ובלבד שלא יפחת מ־7,900 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-row-שמספר_תושביה_עולה_על_1,000,000",
+      "claim": "Regulation 3 residents band: בעירייה שמספר תושביה עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "בעירייה שמספר תושביה עולה על 1,000,000",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-41",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי אינו עולה על 2,000 מלש״ח – סכום שלא יפחת מ־0.265%, ובלבד שלא יפחת מ־3,600 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-42",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 2,000 מלש״ח ואינו עולה על 3,000 מלש״ח – סכום שלא יפחת מ־0.24% ובלבד שלא יפחת מ־5,300 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-43",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 3,000 מלש״ח ואינו עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.217% ובלבד שלא יפחת מ־7,200 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "regs-budget-44",
+      "claim": "Regulation 3 band under בעירייה שמספר תושביה עולה על 1,000,000",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%AA%D7%A7%D7%A0%D7%99%D7%9D_%D7%95%D7%AA%D7%A7%D7%A6%D7%99%D7%91_%D7%A9%D7%A0%D7%AA%D7%99_%D7%9C%D7%9C%D7%A9%D7%9B%D7%AA_%D7%9E%D7%91%D7%A7%D7%A8_%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%29",
+      "raw_snippet": "תקציבה השנתי עולה על 4,000 מלש״ח – סכום שלא יפחת מ־0.202% ובלבד שלא יפחת מ־8,700 אלש״ח",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "references/auditor-office-standards.md"
+      ]
+    },
+    {
+      "claim_id": "water-def-authority",
+      "claim": "In the Water Corporations Law, the authority means the Government Water and Sewage Authority",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "הרשות הממשלתית למים ולביוב",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "water-138-exception",
+      "claim": "s.138 excepts a sewage company that is a city association",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "למעט חברת ביוב שהיא איגוד ערים ככל שהוראות הפקודה האמורה חלות עליו",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "water-def-commissioner",
+      "claim": "Commissioner for water corporations appointed under s.110",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%AA%D7%90%D7%92%D7%99%D7%93%D7%99_%D7%9E%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%95%D7%91",
+      "raw_snippet": "להיות ממונה על ענייני החברות לשירותי מים וביוב",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "complaints-s4",
+      "claim": "סעיף 4: commissioner may use information for his role as auditor",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9E%D7%95%D7%A0%D7%94_%D7%A2%D7%9C_%D7%AA%D7%9C%D7%95%D7%A0%D7%95%D7%AA_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%29",
+      "raw_snippet": "אלא לשם ביצוע תפקידיו לפי חוק זה או תפקידו כמבקר הרשות המקומית",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "publication-permit-condition",
+      "claim": "334A also covers breach of a condition in a permit",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA",
+      "raw_snippet": "או תנאי בהיתר שניתן לו לפי הסעיף האמור",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md",
+        "scripts/audit_timeline.py"
+      ]
+    },
+    {
+      "claim_id": "sc-28a1",
+      "claim": "Publishing a Comptroller report before the determining date: one year imprisonment (SC Law 28(a)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "ואלה דינם מאסר שנה אחת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sc-28a1-b",
+      "claim": "Covers publishing a report under s.20 or its contents before the determining date",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%91%D7%A7%D7%A8_%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94",
+      "raw_snippet": "או המפרסם חלק מדוח או חוות דעת כאמור, או מתוכנם, לפני המועד הקובע",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-not-void",
+      "claim": "Defects do not necessarily void the report from the outset (relative voidness)",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "אינם מביאים בהכרח לפסילתו מעיקרא",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-returned",
+      "claim": "Remedy: report returned to the auditor",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "יוחזר לידי המבקרת",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-cure",
+      "claim": "Defects in hearing and inspection may be cured",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "ניתן לרפא בדרכים הבאות",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "aloni-redact",
+      "claim": "Identifying details of sources may be omitted; internal memos privileged",
+      "source_url": "https://auditors-muni.org.il/wp-content/uploads/2022/12/%D7%91%D7%92%D7%A6-7805.00.pdf",
+      "raw_snippet": "תוך אפשרות השמטת פרטים מזהים המופיעים במסמכים אודות מקורות מידע",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "penal-5b",
+      "claim": "Current Penal Law Chapter E Article B is parties to an offence (סימן ב׳: צדדים לעבירה)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%95%D7%A0%D7%A9%D7%99%D7%9F",
+      "raw_snippet": "סימן ב׳: צדדים לעבירה",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
+    },
+    {
+      "claim_id": "penal-9e",
+      "claim": "Bribery offences are Penal Law Chapter 9 Article 5 (סימן ה׳: עבירות שוחד)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%95%D7%A0%D7%A9%D7%99%D7%9F",
+      "raw_snippet": "סימן ה׳: עבירות שוחד",
+      "fetched_at": "2026-09-30T22:22:32+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-timeline.md"
+      ]
     }
-  ]
+  ],
+  "skill_slug": "israeli-municipal-audit-report"
 }
