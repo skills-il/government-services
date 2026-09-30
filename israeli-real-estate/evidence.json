@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-real-estate",
-  "generated_at": "2026-08-19T00:00:00Z",
+  "generated_at": "2026-10-01T00:00:00Z",
   "claims": [
     {
       "claim_id": "mas-rechisha-first",
-      "claim": "2026 first-home (dira yechida) purchase-tax brackets: 0% up to 1,978,745, 3.5% to 2,347,040, 5% to 6,055,070, 8% to 20,183,565, 10% above 20,183,565 NIS / 20,183,565 ש\"ח. The older 12% bracket above 20,183,565 was dropped (top is now 10%).",
+      "claim": "2026 first-home (dira yechida) purchase-tax brackets: 0% up to 1,978,745, 3.5% to 2,347,040, 5% to 6,055,070, 8% to 20,183,565, 10% above 20,183,565 NIS / 20,183,565 ש\"ח.",
       "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
       "raw_snippet": "עד 1,978,745 ש\"ח פטור, 1,978,745 עד 2,347,040 - 3.5%, 2,347,040 עד 6,055,070 - 5%, 6,055,070 עד 20,183,565 - 8%, מעל 20,183,565 - 10%",
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
@@ -33,7 +33,7 @@
     },
     {
       "claim_id": "mas-rechisha-oleh",
-      "claim": "New immigrant (oleh) single-home purchase tax under reformed Regulation 12a (תקנה 12א, from 15.8.2024): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565. The relief has a VALUE CEILING: if the home is worth more than 20,183,565 NIS, Regulation 12a does not apply at all and the ordinary brackets tax the full price. Once only, single residential home, from one year before to seven years after aliyah.",
+      "claim": "New immigrant (oleh) single-home purchase tax under Regulation 12a (תקנה 12א): 0% to 1,978,745, 0.5% to 6,055,070, 8% to 20,183,565. The relief has a VALUE CEILING: if the home is worth more than 20,183,565 NIS, Regulation 12a does not apply at all and the ordinary brackets tax the full price. Available from one year before to seven years after aliyah (the once-only rule is evidenced separately under oleh-reg12a-once).",
       "source_url": "https://www.gov.il/BlobFolder/policy/inst-01-2026/he/realestate_inst-01-2026.pdf",
       "raw_snippet": "ברכישת דירת מגורים יחידה - תקנה 12א: על חלק השווי שעד 1,978,745 - לא ישולם מס. על חלק השווי העולה על 1,978,745 ועד 6,055,070 - 0.5%. על חלק השווי העולה על 6,055,070 ועד 20,183,565 - 8%. בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול.",
       "fetched_at": "2026-07-14",
@@ -71,7 +71,7 @@
     },
     {
       "claim_id": "betterment-tax",
-      "claim": "Betterment tax (heitel hashbacha) under the Third Schedule of the Planning and Building Law is 50% of the rise in property value caused by a planning action; the local authority may reduce it to 25% or grant a full exemption in defined cases (urban renewal, Tama 38, rehabilitation neighborhoods).",
+      "claim": "Betterment levy (heitel hashbacha) is 50% of the rise in value caused by a planning action.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%94%D7%99%D7%98%D7%9C_%D7%94%D7%A9%D7%91%D7%97%D7%94",
       "raw_snippet": "גובה ההיטל הוא מחצית (50%) מעליית השווי של המקרקעין בעקבות אישור התוכנית, ובמועד אישור התוכנית.",
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
@@ -96,9 +96,9 @@
     },
     {
       "claim_id": "agent-fee",
-      "claim": "Customary real-estate brokerage fee on an apartment sale is 2% plus VAT (range 1-2% + VAT).",
+      "claim": "The customary real-estate agent fee in an apartment sale is 2% plus VAT from each side; no statute fixes it.",
       "source_url": "https://elkayamlaw.co.il/%D7%A2%D7%9E%D7%9C%D7%AA-%D7%AA%D7%99%D7%95%D7%95%D7%9A-%D7%9E%D7%9B%D7%99%D7%A8%D7%AA-%D7%93%D7%99%D7%A8%D7%94/%D7%A0%D7%93%D7%9C%D7%9F-%D7%95%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F/%D7%AA%D7%99%D7%95%D7%95%D7%9A/",
-      "raw_snippet": "עמלת התיווך הנפוצה ביותר היא 2% פלוס מע\"מ",
+      "raw_snippet": "עמלת התיווך במכירת דירה הינה קבועה על פי רוב – 2% פלוס מע\"מ.",
       "fetched_at": "2026-06-13T18:35:27.515173+00:00",
       "appears_in": [
         "references/transaction-guide.md"
@@ -160,7 +160,10 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "curl and headless Chromium get a WAF block page; a headed Chromium render on 2026-10-01 shows the page with the heading דירה בהנחה at the asserted URL."
     },
     {
       "claim_id": "ref-url-mekarkein-portal",
@@ -227,7 +230,7 @@
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-19T00:00:00Z",
-      "notes": "הוראת ביצוע 1/2026 מיום 18.1.2026 עדיין נוקבת ב-31.12.2026, כלומר הוראת השעה לא הוארכה נכון ל-19.8.2026."
+      "notes": "Re-checked 2026-10-01: no extension order or law found; wikisource consolidated text still reads התקופה הוראכה עד יום 31.12.2026."
     },
     {
       "claim_id": "mas-rechisha-reg11-reduced",
@@ -375,6 +378,470 @@
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-additional-fallback-ladder",
+      "claim": "If the section 9(c1f) temporary order lapses, the permanent additional-home ladder in section 9(c1c)(1) applies: 5% up to 1,465,800 NIS, then 6%, 7%, 8% and 10%.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(א) על חלק השווי שעד 1,465,800 שקלים חדשים (מתואם לשנת 2025) – 5%; (ב) על חלק השווי העולה על 1,465,800 שקלים חדשים (נקוב לשנת 2025) ועד 4,397,380 שקלים חדשים (נקוב לשנת 2025) – 6%; (ג) על חלק השווי העולה על 4,397,380 שקלים חדשים (נקוב לשנת 2025) ועד 6,055,070 שקלים חדשים (נקוב לשנת 2025) – 7%;",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-rechisha-temp-order-extension-used",
+      "claim": "The 8%/10% temporary order was already extended to 31.12.2026 by order, using the Finance Minister power to extend by order for a further two years.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "התקופה הוראכה עד יום 31.12.2026 (ק״ת תשפ״ה, 626). (2) שר האוצר רשאי, בצו, באישור ועדת הכספים של הכנסת, להאריך את התקופה הקבועה בפסקה (1) לתקופה נוספת של שנתיים.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "basic-law-knesset-s38",
+      "claim": "סעיף 38 לחוק-יסוד: הכנסת. Section 38 of Basic Law: The Knesset keeps in force an enactment that would expire within the first three months of the incoming Knesset term until those three months end.",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_הכנסת",
+      "raw_snippet": "38. הארכת תקפם של חיקוקים כל חיקוק שתקפו היה פוקע תוך שני החדשים האחרונים לתקופת כהונתה של הכנסת היוצאת, או תוך ארבעה חדשים לאחר שהכנסת החליטה להתפזר, או תוך שלושת החדשים הראשונים לתקופת כהונתה של הכנסת הנכנסת – יעמוד בתקפו עד תום שלושת החדשים האמורים.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "temp-order-election-press-1",
+      "claim": "Bizportal (6 September 2026) reports that because of the elections the 8%/10% additional-home rates are expected to continue into the first months of 2027, and that a lapse would return the lower investor ladder starting at 5%.",
+      "source_url": "https://www.bizportal.co.il/realestates/news/article/20041446",
+      "raw_snippet": "מכוח חוק יסוד הכנסת, הוראות שעה שמועד סיומן נופל סביב תקופת הבחירות מקבלות הארכה, ולכן שיעורי המס הנוכחיים צפויים להמשיך גם לתוך החודשים הראשונים של 2027.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "temp-order-election-press-2",
+      "claim": "Bizportal (6 September 2026) reports that because of the elections the 8%/10% additional-home rates are expected to continue into the first months of 2027, and that a lapse would return the lower investor ladder starting at 5%.",
+      "source_url": "https://www.bizportal.co.il/realestates/news/article/20041446",
+      "raw_snippet": "פקיעת הוראת השעה מחזירה את מדרגות המס הנמוכות יותר שהיו נהוגות למשקיעים, עם מדרגה התחלתית של 5%.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-sale-window-1",
+      "claim": "ITA circular 2/2026 (30.3.2026): under the Sha'agat HaAri deadline-extension law, a replacement-home sale window overlapping 28.2.2026 to 31.5.2026 by at least one day is extended by 3 months from the later of its original end or 31.5.2026; a replacement bought 30.4.2025 moves from 31.10.2026 to 31.1.2027. Also covers section 49b(2).",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "\"התקופה הקובעת השנייה\" התקופה שמיום י\"א באדר התשפ\"ו (28 בפברואר 2026) עד יום ט\"ו בסיוון התשפ\"ו (31 במאי 2026)",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "PDF text layer is RTL-reordered; snippet reconstructed from pdftotext -layout and read by eye. Circular dated י\"ב ניסן תשפ\"ו, 30 מרץ 2026; section 3.2 applies it to the section 49ב(2) exemption.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-sale-window-2",
+      "claim": "ITA circular 2/2026 (30.3.2026): under the Sha'agat HaAri deadline-extension law, a replacement-home sale window overlapping 28.2.2026 to 31.5.2026 by at least one day is extended by 3 months from the later of its original end or 31.5.2026; a replacement bought 30.4.2025 moves from 31.10.2026 to 31.1.2027. Also covers section 49b(2).",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "אם תקופה הקבועה בהוראה מהוראות הסעיפים הפרטניים חלה כולה או חלקה (לפחות יום אחד) בתקופה הקובעת השנייה, יידחה היום האחרון של התקופה המוגדרת בשלושה חודשים",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "PDF text layer is RTL-reordered; snippet reconstructed from pdftotext -layout and read by eye. Circular dated י\"ב ניסן תשפ\"ו, 30 מרץ 2026; section 3.2 applies it to the section 49ב(2) exemption.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-sale-window-3",
+      "claim": "ITA circular 2/2026 (30.3.2026): under the Sha'agat HaAri deadline-extension law, a replacement-home sale window overlapping 28.2.2026 to 31.5.2026 by at least one day is extended by 3 months from the later of its original end or 31.5.2026; a replacement bought 30.4.2025 moves from 31.10.2026 to 31.1.2027. Also covers section 49b(2).",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "יחיד כאמור שרכש את הדירה החלופית (שאינה מקבלן) ביום 30.4.25, הוא נדרש למכור את דירתו הקודמת עד ליום 31.10.26",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "PDF text layer is RTL-reordered; snippet reconstructed from pdftotext -layout and read by eye. Circular dated י\"ב ניסן תשפ\"ו, 30 מרץ 2026; section 3.2 applies it to the section 49ב(2) exemption.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-sale-window-4",
+      "claim": "ITA circular 2/2026 (30.3.2026): under the Sha'agat HaAri deadline-extension law, a replacement-home sale window overlapping 28.2.2026 to 31.5.2026 by at least one day is extended by 3 months from the later of its original end or 31.5.2026; a replacement bought 30.4.2025 moves from 31.10.2026 to 31.1.2027. Also covers section 49b(2).",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "הוא יהיה רשאי למכור את הדירה הקודמת עד ליום 31.1.27",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "PDF text layer is RTL-reordered; snippet reconstructed from pdftotext -layout and read by eye. Circular dated י\"ב ניסן תשפ\"ו, 30 מרץ 2026; section 3.2 applies it to the section 49ב(2) exemption.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-shevach-linear-b4-1",
+      "claim": "Section 48a (סעיף 48א(ב4)). The linear exemption was not abolished generally: section 48a(b4) withdraws it only where no dwelling stood on the land both at purchase and on 1 June 2023 and the dwelling was completed after 31 December 2030.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "48א. המס על השבח",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mas-shevach-linear-b4-2",
+      "claim": "Section 48a (סעיף 48א(ב4)). The linear exemption was not abolished generally: section 48a(b4) withdraws it only where no dwelling stood on the land both at purchase and on 1 June 2023 and the dwelling was completed after 31 December 2030.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(ב4) על אף האמור בסעיפים קטנים (ב2) ו־(ב3), במכירת דירת מגורים מזכה בידי יחיד שיום רכישתה היה לפני יום המעבר, ומתקיימים לגביה שני אלה, יחולו הוראות סעיף קטן (ב)(1) ולא יחולו הוראות סעיפים קטנים (ב2) ו־(ב3): (1) הן במועד רכישת הזכות במקרקעין שעליהם בנויה דירת המגורים המזכה והן ביום י״ב בסיוון התשפ״ג (1 ביוני 2023), לא הייתה בנויה על המקרקעין דירת מגורים; (2) בניית דירת המגורים המזכה הושלמה לאחר יום ה׳ בטבת התשצ״א (31 בדצמבר 2030).",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-exclusions",
+      "claim": "The residential-lease chapter does not apply to leases of up to 3 months with no extension option, leases over 10 years that the landlord cannot end earlier, or leases with monthly rent above 20,000 NIS (CPI-updated every 1 January).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "חוזה שכירות למגורים שתקופת השכירות לפיו אינה עולה על שלושה חודשים, ואין לצדדים ברירה להאריכה; (3) חוזה שכירות למגורים שתקופת השכירות לפיו עולה על עשר שנים, ואין למשכיר ברירה לבטל את החוזה במועד מוקדם יותר; (4) חוזה שכירות למגורים שדמי השכירות לפיו, לחודש, עולים על 20,000 שקלים חדשים או על סכום אחר שקבע שר המשפטים, באישור ועדת הפנים והגנת הסביבה של הכנסת; הסכום לפי פסקה זו יתעדכן ב־1 בינואר של כל שנה",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-deposit-cap-1",
+      "claim": "סעיף 25י(ב) לחוק השכירות והשאילה. Section 25j(b): all guarantees together are capped at the lower of 3 months rent or the rent for one third of the term; section 25j(e): returned within 60 days of the apartment being returned or when the tenant debts are paid, whichever is later.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "25י. ערובה",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-deposit-cap-2",
+      "claim": "סעיף 25י(ב) לחוק השכירות והשאילה. Section 25j(b): all guarantees together are capped at the lower of 3 months rent or the rent for one third of the term; section 25j(e): returned within 60 days of the apartment being returned or when the tenant debts are paid, whichever is later.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "לא יעלה גובהן המצטבר של הערובות על הנמוך מבין סכומים אלה: (1) סכום דמי השכירות שהשוכר התחייב לשלם לפי חוזה השכירות למגורים, בעד שליש מתקופת השכירות; (2) סכום השווה לפי שלושה מדמי השכירות לחודש שהשוכר התחייב לשלם לפי חוזה השכירות למגורים.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-deposit-cap-3",
+      "claim": "סעיף 25י(ב) לחוק השכירות והשאילה. Section 25j(b): all guarantees together are capped at the lower of 3 months rent or the rent for one third of the term; section 25j(e): returned within 60 days of the apartment being returned or when the tenant debts are paid, whichever is later.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "בתוך 60 ימים ממועד השבת הדירה המושכרת לרשותו או עד למועד שבו נפרעו חובות השוכר כאמור בסעיף קטן (ג), לפי המאוחר.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-commencement-2017-1",
+      "claim": "The Rental and Borrowing (Amendment) Law 5777-2017 was published 19.7.2017 and commenced 60 days after publication, i.e. 17 September 2017, so \"since 2022\" was wrong.",
+      "source_url": "https://fs.knesset.gov.il/20/law/20_lsr_389390.pdf",
+      "raw_snippet": "חוק השכירות והשאילה (תיקון), התשע\"ז-2017",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "Reshumot Sefer HaChukim 2649, 19.7.2017; 60 days later is 17.9.2017. PDF text layer is scrambled; commencement clause read by eye from pdftotext.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-commencement-2017-2",
+      "claim": "The Rental and Borrowing (Amendment) Law 5777-2017 was published 19.7.2017 and commenced 60 days after publication, i.e. 17 September 2017, so \"since 2022\" was wrong.",
+      "source_url": "https://fs.knesset.gov.il/20/law/20_lsr_389390.pdf",
+      "raw_snippet": "19 ביולי 2017",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "Reshumot Sefer HaChukim 2649, 19.7.2017; 60 days later is 17.9.2017. PDF text layer is scrambled; commencement clause read by eye from pdftotext.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fair-rent-commencement-2017-3",
+      "claim": "The Rental and Borrowing (Amendment) Law 5777-2017 was published 19.7.2017 and commenced 60 days after publication, i.e. 17 September 2017, so \"since 2022\" was wrong.",
+      "source_url": "https://fs.knesset.gov.il/20/law/20_lsr_389390.pdf",
+      "raw_snippet": "תחילתו של חוק זה שישים ימים מיום פרסומו (להלן - יום התחילה)",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "Reshumot Sefer HaChukim 2649, 19.7.2017; 60 days later is 17.9.2017. PDF text layer is scrambled; commencement clause read by eye from pdftotext.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "oleh-reg12a-once",
+      "claim": "Regulation 12a (תקנה 12א) oleh relief is granted to an oleh only once, and only where the conditions of section 9(c1c)(2)(a) or (b) (single-home status) are met.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "(ב) חיוב במס רכישה לפי תקנה זו לא יינתן לעולה אלא פעם אחת.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "betterment-pinui-binui-quarter",
+      "claim": "Third Schedule section 3a (סעיף 3א): for a residential pinui-binui plan the levy is one quarter of the betterment, from the determining date.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_התכנון_והבניה",
+      "raw_snippet": "שיעור ההיטל שיחול במקרקעין למגורים בשל אישורה של תכנית פינוי ובינוי (בסעיף זה – היטל בתכנית פינוי ובינוי) הוא רבע ההשבחה.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "betterment-tama38-exemption",
+      "claim": "Third Schedule section 19(b)(10) (סעיף 19): betterment from a permit under Tama 38 is exempt, but additions beyond 2.5 extended typical floors bear a quarter-rate levy.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_התכנון_והבניה",
+      "raw_snippet": "(10) השבחה במקרקעין בשל קבלת היתר לבנייה או להרחבה של דירת מגורים, שניתן מכוח תכנית כמפורט להלן: (א) תכנית המתאר הארצית לחיזוק מבנים קיימים מפני רעידות אדמה (תמ״א 38); ואולם על החלק מההשבחה שמקורו בתוספת שטחי בנייה בשיעור שטחה של קומה טיפוסית מורחבת או חלקה, מעבר ל־2.5 קומות טיפוסיות מורחבות",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "deadline-seller-declaration-30",
+      "claim": "Section 73(a): the seller files a declaration within 30 days of the sale (mas shevach declaration).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(א) המוכר זכות במקרקעין ימסור למנהל, בתוך 30 ימים מיום המכירה, הצהרה",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "deadline-buyer-declaration-30",
+      "claim": "Section 73(c): the buyer files a declaration within 30 days of the purchase (purchase-tax declaration).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(ג) הרוכש זכות במקרקעין או זכות באיגוד מקרקעין ימסור למנהל, בתוך 30 ימים מיום הרכישה, הצהרה",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "deadline-payment-60",
+      "claim": "Section 90a: a person liable to the tax pays it within 60 days of the sale.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "ישלם את המס המגיע ממנו בתוך 60 ימים מיום המכירה או מיום הפעולה באיגוד המקרקעין",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/transaction-guide.md",
+        "scripts/calculate_mas_rechisha.py"
+      ]
+    },
+    {
+      "claim_id": "knesset-election-date",
+      "claim": "Knesset elections fall on the third Tuesday of Cheshvan of the year the outgoing Knesset term ends (four years from election). The 25th Knesset was elected on 1.11.2022, and 5787 follows a non-leap year, so the statutory date is the third Tuesday of Cheshvan 5787, 27 October 2026 (late October 2026).",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_הכנסת",
+      "raw_snippet": "הבחירות לכנסת יהיו ביום ג׳ השלישי לחודש חשון של השנה שבה תמה כהונתה של הכנסת היוצאת, אולם אם היתה השנה שלפניה שנה מעוברת, יהיו הבחירות ביום ג׳ הראשון לאותו חודש.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "notes": "Date derived: 1 Cheshvan 5787 = Monday 12.10.2026, so its Tuesdays are 13, 20 and 27 October. 5786 is not a leap year, so the third-Tuesday rule applies. Unless the Knesset dissolves early and sets another date."
+    },
+    {
+      "claim_id": "single-home-resident-only",
+      "claim": "סעיף 9(ג1ג)(2): the single-home ladder is for an Israeli-resident individual (יחיד תושב ישראל).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(2) על אף הוראות פסקה (1), יחיד תושב ישראל שרכש דירת מגורים ביום כ״ה באב התשע״ג (1 באוגוסט 2013) או לאחריו (בפסקת משנה זו – הדירה), והתקיים בו אחד מאלה: (א) הדירה שרכש היא דירתו היחידה;",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "single-home-resident-2-years",
+      "claim": "Section 9(c1c)(4)(b): \"Israeli resident\" includes a person who within 2 years (שנתיים) of the purchase became a first-time or veteran returning resident.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(ב) ”תושב ישראל“ – לרבות מי שבתוך שנתיים מיום רכישת הדירה היה לתושב ישראל לראשונה או לתושב חוזר ותיק",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "single-home-family-unit",
+      "claim": "Section 9(c1c)(4)(c): buyer, spouse (unless permanently living apart) and children under 18 count as one buyer.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(ג) יראו רוכש ובן זוגו, למעט בן הזוג הגר בדרך קבע בנפרד, וילדיהם שטרם מלאו להם 18 שנים, למעט ילד נשוי או ילד יתום מאחד או משני הוריו – כרוכש אחד;",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "single-home-definition",
+      "claim": "Section 9(c1c)(4)(a): a single home is the buyer's only home in Israel and the Area; a protected-tenancy home let before 1 January 1997, or a home in which the buyer's share is as in section 49c(3) (סעיף 49ג), does not count.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(א) ”דירה יחידה“ – דירת מגורים שהיא דירתו היחידה של הרוכש בישראל ובאזור כהגדרתו בסעיף 16א ; לעניין הגדרה זו יראו דירת מגורים כדירה יחידה גם אם יש לרוכש, נוסף עליה, דירת מגורים שהושכרה למגורים בשכירות מוגנת לפני יום כ״ב בטבת התשנ״ז (1 בינואר 1997), או דירת מגורים שחלקו של הרוכש בה הוא כאמור בסעיף 49ג(3)",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "section-49c3-share",
+      "claim": "Section 49c(3) (סעיף 49ג(3)): a share of one third or less, or one half or less for an inherited home.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "(3) חלקו של המוכר בבעלותה הוא אינו עולה על שליש, ולגבי דירה שהתקבלה בירושה – אינו עולה על מחצית;",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg2-land-6pct",
+      "claim": "Regulation 2(1) (תקנה 2): purchase tax on land or non-residential property is 6%.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "למעט בנין או חלק ממנו שהוא דירת מגורים – 6%;",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg2-1a-refund",
+      "claim": "Regulation 2(1a): one sixth of the 6% tax is refunded where the land has a plan permitting at least one dwelling and a permit for at least one dwelling is received within 24 months of the sale.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "(2) לא יאוחר מתום 24 חודשים מיום המכירה, התקבל היתר לבניית דירת מגורים אחת לפחות, לפי חוק התכנון והבנייה",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg2-1a-refund-sixth",
+      "claim": "Regulation 2(1a): one sixth (שישית) of the tax paid under 2(1) is refunded when the conditions are met.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "תוחזר לרוכש שישית ממס הרכישה ששילם לפי פסקה (1)",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg20-relative-third",
+      "claim": "Regulation 20 (תקנה 20): a no-consideration transfer from an individual to a relative pays one third of the ordinary purchase tax.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "במכירת זכות במקרקעין ללא תמורה מיחיד לקרובו, יהיה מס הרכישה שליש ממס הרכישה הרגיל.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg21-spouse-exempt",
+      "claim": "Regulation 21 (תקנה 21): a no-consideration transfer of a residential home to a spouse living in it with the transferor is exempt.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מיסוי_מקרקעין_(שבח_ורכישה)_(מס_רכישה)",
+      "raw_snippet": "מכירת זכות במקרקעין בדירת מגורים ללא תמורה לבן־זוג המתגורר יחד אתו בדירה, פטורה ממס רכישה.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-further-9-months-1",
+      "claim": "Circular 2/2026: the Finance Minister, with Constitution Committee approval, may extend the second determining period in further periods of up to 3 months each, up to 9 months in total for the real-estate tax part.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "להאריך את התקופה הקובעת השנייה בתקופות נוספות שלא יעלו על 3 חודשים כל אחת",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "Read by eye from pdftotext -layout, lines 202-206.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "war-extension-further-9-months-2",
+      "claim": "Circular 2/2026: the Finance Minister, with Constitution Committee approval, may extend the second determining period in further periods of up to 3 months each, up to 9 months in total for the real-estate tax part.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-02-2026-1/he/realestate_inst-02-2026.pdf",
+      "raw_snippet": "ובלבד שמשך ההארכה הכוללת של התקופה הקובעת השנייה לעניין החלק שרלוונטי לחוק מיסוי מקרקעין לא יעלה על תשעה חודשים",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-01T00:00:00Z",
+      "notes": "Read by eye from pdftotext -layout, lines 202-206.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lease-running-costs-25i",
+      "claim": "Section 25i (סעיף 25ט) of the Rental and Borrowing Law: tenant pays rent, occupier taxes incl. arnona, utilities, routine building maintenance; tenant does not bear fixed-system purchase or upgrades, building insurance, or a broker who acted for the landlord.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "(2) מסים החלים על המחזיק בדירה, לרבות ארנונה; (3) תשלומים בעד צריכה של שירותים שוטפים הניתנים לשוכר בדירה למגורים, ובכלל זה מים, חשמל, גז וחימום; (4) תשלומים לצורך אחזקה שוטפת המשולמים לנציגות הבית המשותף",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lease-running-costs-25i-excluded",
+      "claim": "Section 25i(b): tenant not charged for fixed systems, building insurance, landlord broker.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "raw_snippet": "(2) דמי ביטוח בעד ביטוח הדירה המושכרת בביטוח מבנה; (3) תשלומים שהמשכיר חב בהם כלפי צד שלישי, שאינם כאמור בסעיף קטן (א), ובכלל זה דמי תיווך למתווך אם המתווך פעל מטעם המשכיר.",
+      "fetched_at": "2026-10-01T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

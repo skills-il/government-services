@@ -39,13 +39,22 @@ For apartment purchases. Purchase-tax bracket amounts are normally CPI-updated e
 | 6,055,071 - 20,183,565 | 8% |
 | 20,183,566+ | 10% |
 
+**Who qualifies for the single-home ladder (check before quoting it):**
+- **Israeli residents only.** The ladder is for an Israeli-resident individual (section 9(c1c)(2)). A foreign resident buying their only Israeli home pays the additional-home rate, unless they become a first-time or veteran returning resident within 2 years of the purchase (section 9(c1c)(4)(b)); that 2-year window is also covered by the 2026 war extension below.
+- **Single home means the buyer's only home in Israel and the Area.** The buyer, a spouse (unless living permanently apart) and children under 18 (other than a married or orphaned child) count as ONE buyer (section 9(c1c)(4)(c)), so a buyer whose spouse already owns a home is not buying a single home.
+- **Homes that do not count:** a home let under protected tenancy before 1 January 1997, or a home in which the buyer's share is one third or less (one half or less if inherited) (sections 9(c1c)(4)(a) and 49c(3)).
+
+**Land and non-residential property are not on these ladders.** A vacant plot (including an Israel Land Authority tender plot), an office, a shop or other non-residential property pays 6% of the whole value (Regulation 2(1)). For land with a plan that permits at least one dwelling, one sixth of that tax is refunded if a permit for at least one dwelling is issued within 24 months of the purchase and the tax was not deducted for income-tax purposes (Regulation 2(1a)).
+
+**Gifts:** a no-consideration transfer from an individual to a relative pays one third of the ordinary purchase tax (Regulation 20), and a no-consideration transfer of a residential home to a spouse who lives in it with the transferor is exempt (Regulation 21).
+
 **Non-first apartment (investment/additional):**
 | Price Range (NIS) | Tax Rate |
 |-------------------|----------|
 | 0 - 6,055,070 | 8% |
 | 6,055,071+ | 10% |
 
-**New immigrant (oleh chadash), single residential home:** under Purchase Tax Regulation 12a (the reformed track in force from 15 August 2024), an oleh buying a single residential home gets:
+**New immigrant (oleh chadash), single residential home:** under Purchase Tax Regulation 12a, an oleh buying a single residential home gets:
 | Price Range (NIS) | Tax Rate |
 |-------------------|----------|
 | 0 - 1,978,745 | 0% |
@@ -54,11 +63,15 @@ For apartment purchases. Purchase-tax bracket amounts are normally CPI-updated e
 
 **The relief has a value ceiling.** If the home is worth MORE than 20,183,565 NIS, Regulation 12a does not apply at all: the purchase is taxed under the ordinary brackets (the first-home or additional-home ladder above, as applicable) on the FULL price, not under the oleh ladder with a 10% top band. ITA purchase-tax circular 1/2026 (18 January 2026), footnote 1 to the Regulation 12a table: "בדירה ששוויה מעל סכום זה, ההקלה שבתקנה 12א לא תחול". Do not tell an oleh buying a 21M NIS home that they still get the 0% and 0.5% steps, they get none of them.
 
-The oleh benefit is granted once only, applies only to a single residential home (not an investment apartment), and is available from one year before aliyah to seven years after. The reformed track no longer requires the home to be the oleh's actual residence.
+The oleh benefit is granted once only, applies only to a single residential home (not an investment apartment), and is available from one year before aliyah to seven years after.
 
-Note: The older 12% bracket for properties above 20,183,565 NIS was dropped. Investors pay 8% from the first shekel (no exemption).
+Note: investors pay 8% from the first shekel (no exemption).
 
-**The 8%/10% additional-home rates are a temporary order (hora'at sha'a) under section 9(c1f), in force through 31 December 2026**, using tier amounts frozen at the 16 January 2025 level. As of 19 August 2026 the temporary order has NOT been extended: circular 1/2026 still gives 31 December 2026 as its end date. They are due for re-legislation. If you are buying an additional home in late 2026 or in 2027, re-check whether the temporary order was extended before relying on the 8%-from-the-first-shekel rate.
+**The 8%/10% additional-home rates are a temporary order (hora'at sha'a) under section 9(c1f), in force through 31 December 2026**, using tier amounts frozen at the 16 January 2025 level. As of 30 September 2026 no extension has been enacted: circular 1/2026 still gives 31 December 2026 as its end date, and the Finance Minister's power to extend by order has already been used once. Two things complicate a purchase around the turn of the year:
+- **Elections.** Knesset elections are due in late October 2026, and section 38 of Basic Law: The Knesset keeps in force any enactment that would expire within the first three months of the incoming Knesset's term, until those three months end. The press (Bizportal, 6 September 2026) reads this as carrying the 8%/10% rates into the first months of 2027. That is a press reading, not an ITA ruling, so present it as expected, not certain.
+- **If the order does lapse,** the permanent additional-home ladder in section 9(c1c)(1) returns, which is LOWER and starts at 5% (5% up to 1,465,800 NIS, then 6%, 7%, 8% and 10%).
+
+For an additional home bought in late 2026 or in 2027, check the ITA site for the status on the purchase date before relying on the 8%-from-the-first-shekel rate.
 
 **Reduced rate for people with disabilities, the blind, terror/hostility victims, and bereaved families:** Purchase Tax Regulation 11 gives a reduced purchase-tax track to a person with a qualifying disability (nacheh), a blind person, a victim of hostile action (nifga), and a family member of a soldier who fell in action. Two cases:
 
@@ -77,6 +90,8 @@ Three things people get wrong here:
 The 1,978,745 NIS figure is the section 9(c1c)(3)(a) amount, frozen to 15.1.2028. Verify the eligibility conditions with the Israel Tax Authority before quoting a number.
 
 **Trading up (mishaprei diyur): you are still on the single-home ladder.** A buyer who already owns one home but is replacing it is taxed at the SINGLE-home rates, not the additional-home rates, provided the old home is sold within the statutory window: 18 months if the replacement was bought between 01.06.2023 and 31.05.2025, otherwise 24 months, and 12 months from the contractual handover date when buying new from a developer. You must declare the intention to sell when you report the purchase. Do not quote an upgrader the 8%-from-the-first-shekel rate.
+
+**War extension ("Sha'agat HaAri"):** under the 2026 deadline-extension law (ITA circular 2/2026, 30 March 2026), if the sale window overlaps even one day of 28.2.2026 to 31.5.2026, its last day moves by 3 months, counted from the later of the original last day or 31.5.2026. Example from the circular: a replacement home bought 30.4.2025 had to sell the old home by 31.10.2026, and now has until 31.1.2027. The same extension covers the replacement-home route to the single-residence mas shevach exemption. The Finance Minister may lengthen the 28.2 to 31.5.2026 period further, in steps of up to 3 months and up to 9 months in total, so check the ITA site before relying on a deadline.
 
 ### Step 3: Buying Process Checklist
 1. **Pre-approval:** Get mortgage pre-approval (ishur ikroni) from bank. Bank of Israel caps the loan-to-value (LTV): up to 75% for a first/sole home, 70% for a replacement home (selling your existing one), and 50% for an investment/additional property. Plan the down payment accordingly.
@@ -108,7 +123,7 @@ A Tabu extract shows:
 Betterment tax is a municipal levy of 50% of the rise in property value caused by a planning action (new or amended zoning plan, a granted variance, or a use permit).
 - **When it crystallizes:** the levy is assessed when the betterment plan is approved, but is actually paid at the point of realization (sale of the property or the issuance of a building permit that uses the added rights).
 - **Who pays:** the owner at the time of realization, typically the seller.
-- **Reductions and exemptions:** the local authority may reduce the levy to 25% or grant a full exemption in defined cases (urban renewal, certain Tama 38 projects, rehabilitation neighborhoods). Always check the specific plan and the municipality's policy.
+- **Reductions and exemptions:** the Third Schedule to the Planning and Building Law sets the levy at one quarter of the betterment for a residential pinui-binui (evacuation and reconstruction) plan (section 3a, with transition rules), and section 19 lists exemptions, including a building permit issued under Tama 38 (with a quarter-rate levy on additions beyond 2.5 extended typical floors). Always check the specific plan and the municipality's policy.
 - Factor this into renovation ROI and sale-price math, it can be a large unplanned cost.
 
 Do NOT confuse betterment tax (heitel hashbacha, a municipal levy on a planning-driven value rise) with capital-gains tax on sale (mas shevach), covered next. They are different taxes with different authorities.
@@ -116,7 +131,7 @@ Do NOT confuse betterment tax (heitel hashbacha, a municipal levy on a planning-
 ### Step 5b: Seller Capital Gains Tax (Mas Shevach)
 When you SELL Israeli real estate, the seller (not the buyer) may owe mas shevach, the land-appreciation (capital-gains) tax, on the real gain between purchase and sale. This is the biggest tax a seller faces and is separate from the buyer's purchase tax and from betterment tax.
 - **Rate:** 25% on the real gain (the gain after deducting the CPI-linked inflation component and allowable expenses such as purchase tax, agent and lawyer fees, and improvements).
-- **Linear exemption for pre-2014 holdings:** for a residential home bought before 1 January 2014, the portion of the gain attributable to the period before that date is exempt, and only the portion from 1 January 2014 onward is taxed at 25% (the "linear" split by holding period). This linear benefit is legislated to be phased out from 2030, verify the current rule for sales in 2030 and later.
+- **Linear exemption for pre-2014 holdings:** for a residential home bought before 1 January 2014, the portion of the gain attributable to the period before that date is exempt, and only the portion from 1 January 2014 onward is taxed at 25% (the "linear" split by holding period). The linear benefit has NOT been abolished generally. Section 48a(b4) withdraws it only for a narrow case: land on which no dwelling stood both when it was bought and on 1 June 2023, where the dwelling was completed after 31 December 2030. Do not tell an ordinary pre-2014 owner that the linear exemption ends in 2030.
 - **Single-residence exemption:** a seller of a qualifying residential home that was their only home and was held at least 18 months before the sale can be fully exempt on the sale, subject to a value ceiling of 5,008,000 NIS (1.1.2025 to 31.12.2027, per ITA circular 1/2026). The part of the value above the ceiling is taxed. Legal source: Land Taxation Law sections 49a(a1) and 49b.
 - File the mas shevach declaration with the Israel Tax Authority within 30 days of the sale. Because the exemptions and expense deductions are technical, route a real seller to a CPA or real-estate lawyer before quoting a net figure.
 
@@ -124,14 +139,13 @@ When you SELL Israeli real estate, the seller (not the buyer) may owe mas shevac
 Israeli rental contracts (chozeh schirut) must include:
 - Duration and renewal terms
 - Monthly rent amount and payment method
-- Security deposit (pikadon) -- typically 1-3 months, capped by law
-- Arnona (property tax) -- clarify who pays
-- Vaad bayit (building maintenance) -- clarify who pays
+- Security deposit (pikadon): all guarantees together are capped at the LOWER of 3 months' rent or the rent for one third of the lease term (section 25j(b)), and must be returned within 60 days of the tenant handing the apartment back (or once the tenant's debts under the lease are settled, if later)
+- Running costs: by law the tenant pays arnona, utilities (water, electricity, gas, heating) and routine vaad bayit maintenance, and cannot be charged building insurance, the purchase or upgrade of fixed systems, or a broker who acted for the landlord (section 25i)
 - Maintenance responsibilities
 - Termination conditions and notice period
 - Option to extend and rent adjustment terms
 
-IMPORTANT: Since 2022, the Rental Law (Fair Rent) applies to some properties. Check applicability.
+IMPORTANT: the "Fair Rent" amendment to the Rental and Borrowing Law (2017) has applied to residential leases since 17 September 2017. It does not apply to every lease: excluded are, among others, leases of 3 months or less with no extension option, leases of more than 10 years that the landlord cannot end earlier, and leases with monthly rent above 20,000 NIS (the statutory figure, CPI-updated every 1 January).
 
 ## Examples
 
@@ -146,12 +160,12 @@ Result: Full checklist with Tel Aviv specific notes (high prices, urban renewal 
 ### Example 3: Rental Agreement Review
 User says: "Review my Israeli rental contract for common issues"
 Actions:
-1. Check for required clauses under the 2022 Fair Rent Law
+1. Check for required clauses under the 2017 Fair Rent amendment
 2. Verify arnona responsibility
 3. Vaad bayit obligations
 4. Deposit terms
 5. Early termination conditions
-Result: Checklist of compliant vs. missing clauses with recommendations.
+Result: a general checklist of which of these clauses appear in the contract and which do not, with points to raise with a lawyer before signing. This is not a legal review of the contract.
 
 ## Bundled Resources
 
@@ -159,7 +173,7 @@ Result: Checklist of compliant vs. missing clauses with recommendations.
 - `scripts/calculate_mas_rechisha.py` - Calculate Israeli purchase tax (mas rechisha) with full bracket-by-bracket breakdown for all four documented tracks: first apartment (dira yechida), non-first apartment, new immigrant single home (Regulation 12a, including the 20,183,565 NIS relief ceiling), and the Regulation 11 reduced track for people with disabilities, the blind, hostility victims and bereaved families. Includes effective tax rate and JSON output option. Run: `python scripts/calculate_mas_rechisha.py --help`
 
 ### References
-- `references/transaction-guide.md` - Step-by-step Israeli property buying checklist (from pre-approval through key handover), 2025 purchase tax brackets for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
+- `references/transaction-guide.md` - Step-by-step Israeli property buying checklist (from pre-approval through key handover), the purchase tax brackets frozen 16.1.2025 to 15.1.2028 for first and non-first apartments, Tabu extract section descriptions (gush, chelka, mortgages, liens), and key transaction cost breakdown (attorney, agent, mortgage fees). Consult when guiding users through the purchase process or calculating total acquisition costs.
 
 ## Recommended MCP Servers
 
@@ -192,5 +206,5 @@ Cause: Online Tabu has limited public access
 Solution: Use an attorney or Tabu office for full extracts. Online gives basic ownership info only.
 
 ### Error: "Purchase tax rates outdated"
-Cause: Rates updated annually by Tax Authority
-Solution: Verify current year brackets at Israel Tax Authority website.
+Cause: Bracket amounts are normally CPI-updated every 16 January (frozen to 15.1.2028), and the additional-home rates are a temporary order ending 31.12.2026
+Solution: Verify the brackets for the purchase date at the Israel Tax Authority website.

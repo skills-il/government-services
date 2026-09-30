@@ -22,6 +22,18 @@
         "VINTAGE: purchase-tax bands are CPI-updated every 16 January by default. These are frozen by the 2025 Arrangements Law to 15.1.2028, and the additional-home band separately expires 31.12.2026. Two different clocks on one page, so state both.",
         "Deferred (MINOR): substantive Tama 38 / urban-renewal tax treatment; Fair Rent Law (2022) detail; the reduced-track twice-in-a-lifetime cap is not modelled in the checker (it cannot be, the form cannot know prior use)."
       ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-10-01",
+      "lessons": [
+        "CORRECTNESS: two long-standing factual errors survived several gated cycles because nobody opened the statute: 'Fair Rent since 2022' (in force 17.9.2017) and 'linear exemption phased out from 2030' (s.48a(b4) only withdraws it for new dwellings on bare land completed after 31.12.2030). Both were stated with confidence and had no evidence entry; the evidence gate only checks numerals, so a wrong year inside a sentence about a law's start date can slip through if the digits happen to be justified elsewhere.",
+        "COVERAGE (was CRITICAL, fixed): the single-home ladder had no eligibility definition (resident-only, family unit, small-share and protected-tenancy exclusions) and no land/non-residential 6% rate. A rate table without its eligibility gate is the same defect class as the BL one-row table.",
+        "Deferred (MAJOR): buying new from a developer (Sale (Apartments) (Assurance of Investments) Law s.2 security for payments above 7%, s.5a late-delivery compensation); warning note (he'arat azhara) as a buying-checklist step and the clearances needed for registration; the rights document when a property is not Tabu-registered (ILA or housing-company confirmation); full s.49b(2) exemption conditions and s.49e/s.49f; the betterment 140 m2 own-home exemption (s.19(c)); broker written order (Brokers Law s.9); repair and notice periods in the lease section (s.25h, s.25l/25m).",
+        "Deferred (MINOR): 'Online gives basic ownership info only' and 'prices commonly quoted in USD' look dubious and unverified; foreign-resident LTV cap under Directive 329 unverified; oleh Reg 12 service-period and construction-period details.",
+        "PROCESS: the domain checklist (built this cycle) was NOT committed to references/ because every figure in it would need its own evidence entry to pass the gate and the Judge flagged it as ungated content that would ship. Kept outside the repo. Next cycle: either evidence it or keep it out.",
+        "WATCH: additional-home 8%/10% temporary order ends 31.12.2026; elections in late October 2026 may carry it into early 2027 under Basic Law: The Knesset s.38. Re-check in December 2026 and update the checker caveat and FAQ."
+      ]
     }
   ]
 }

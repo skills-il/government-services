@@ -41,6 +41,6 @@ The additional-home 8%/10% rates are a temporary order in force only through 31 
 ## Key Costs
 - Purchase tax: See brackets above
 - Attorney: about 0.5% of price + VAT (varies, higher on lower-priced deals)
-- Agent: 1-2% + VAT
+- Agent: commonly 2% + VAT per side (no statutory rate)
 - Mortgage fees: Application, appraisal, registration
 - Arnona transfer: Municipal property tax

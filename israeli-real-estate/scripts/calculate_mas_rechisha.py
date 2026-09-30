@@ -34,7 +34,7 @@ FIRST_APARTMENT_BRACKETS = [
 ]
 
 # Non-first apartment has only 2 brackets in 2026
-# (the older 12% ultra-high-value bracket was dropped).
+
 # These rates are a temporary order under section 9(c1f) in force only
 # through 31 December 2026. Re-verify before using them for a 2027 purchase.
 NON_FIRST_APARTMENT_BRACKETS = [
@@ -43,7 +43,7 @@ NON_FIRST_APARTMENT_BRACKETS = [
 ]
 
 # New immigrant (oleh) buying a single residential home, Purchase Tax
-# Regulation 12a, reformed track in force from 15 August 2024.
+# Regulation 12a.
 OLEH_SINGLE_HOME_BRACKETS = [
     (1_978_745, 0.00),
     (6_055_070, 0.005),

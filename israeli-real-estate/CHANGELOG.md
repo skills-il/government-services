@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.8.0 - 2026-10-01
+
+- Fixed the Fair Rent claim. The skill said the "Fair Rent" rules apply "since 2022"; the residential-lease chapter of the Rental and Borrowing Law was enacted in 2017 and has applied since 17 September 2017. Added its main exclusions (short leases, leases over 10 years, monthly rent above 20,000 NIS, CPI-updated) and replaced "deposit typically 1-3 months" with the statutory cap: the lower of 3 months' rent or the rent for a third of the term, returned within 60 days.
+- Fixed the mas shevach linear-exemption note. It said the linear benefit is "legislated to be phased out from 2030". It is not abolished generally: section 48a(b4) withdraws it only for land that had no dwelling at purchase and on 1.6.2023, where the dwelling is completed after 31.12.2030.
+- Added the war deadline extension (ITA circular 2/2026): a trading-up sale window that overlaps 28.2.2026 to 31.5.2026 gets 3 more months.
+- Additional-home temporary order: still not extended as of 30 September 2026. Added the election carry-over under section 38 of Basic Law: The Knesset (reported, not an ITA ruling) and what happens if the order lapses (the lower permanent ladder starting at 5%).
+- Added who qualifies for the single-home ladder: Israeli residents only (a foreign resident pays the additional-home rate unless they become a resident within 2 years), the family-unit rule (buyer, spouse and minor children are one buyer), and the homes that do not count (protected tenancy before 1997, a share of one third or less, or one half if inherited). Without these the skill quoted 0% to buyers who owe 8%, and 8% to buyers who owe 0%.
+- Added the 6% rate for land and non-residential property, with the one-sixth refund when a dwelling permit follows within 24 months. Israel Land Authority tender plots were in scope with no rate at all.
+- Added the gift rules (one third of the tax to a relative, exempt to a cohabiting spouse) and the Finance Minister's power to lengthen the war period.
+- Lease running costs: replaced "clarify who pays" with the statutory allocation in section 25i (tenant pays arnona, utilities and routine vaad bayit; not building insurance, fixed systems or the landlord's broker).
+- Removed unsourced claims: an "older 12% bracket" that no source shows existed, an oleh-track start date and residence claim, the 1% floor of the agent fee, and a betterment-levy "25% or full exemption" power that the Third Schedule does not grant in that form. The betterment bullet now follows sections 3a and 19(b)(10). Example 3 now produces a general checklist and points to raise with a lawyer, not recommendations on the user's own contract.
+- Re-verified the purchase-tax ladders, the 5,008,000 NIS exemption ceiling, the betterment levy rate, the Bank of Israel LTV caps and the filing deadlines: unchanged. Re-ran `scripts/calculate_mas_rechisha.py` on all five tracks against hand-computed values; all match.
+
 ## 1.7.0 - 2026-08-19
 
 - Re-verified the 2026 purchase-tax ladders against the primary source (הוראת ביצוע מיסוי מקרקעין 1/2026, 18 January 2026). All figures confirmed unchanged. Bracket amounts are normally CPI-updated every 16 January; these are frozen by the 2025 Arrangements Law for 16.1.2025 to 15.1.2028, and the skill now states that vintage explicitly instead of "frozen at 2025 levels".
