@@ -11,6 +11,21 @@
         "evidence.json snippet hygiene: the CKAN package_show endpoint returns \\uXXXX-escaped Hebrew and the IFCN commitments page uses '&' in two headings, so both are invisible to plain-text snippet matching. Fixed by using ampersand-free verbatim wording and marking the CKAN entry verified_via=browser.",
         "Deferred (below the Phase 4.1 discretionary cap): consider adding a Gotcha about CBS base-year rebasing, since the live API now reports base '2024 ממוצע' and a multi-year superlative claim spanning the rebase needs like-for-like comparison. Step 2 already warns about this in prose; a worked example would be stronger."
       ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01",
+      "lessons": [
+        "Service-drift sweep with negative controls (2026-10-01): every routed URL alive. FakeReporter, The Whistle (IFCN valid to 23 Jan 2027), Meta ratings page, Wayback, archive.today (resolves to archive.li), TinEye, InVID-WeVerify (Chrome Web Store; weverify.eu returns 403, do not link it) all live. curl is useless for data.gov.il, nadlan, BoI and Meta (identical shells for real and fake paths): render in a browser.",
+        "DRIFT FIXED: data.gov.il package 'vote' (הצבעות חברי הכנסת במליאה) has 0 resources; the old evidence entry checked only the title, so the self-consistency gate passed an empty dataset. Per-MK votes now route to Knesset OData V4 KNS_PlenumVote/KNS_PlenumVoteResult. Legacy V3 Votes.svc stops in 2021 (not cited, no evidence entry).",
+        "'Irrelevant' = irrelevant.org.il (Hanan Cohen, self-declared non-objective, added as a lead). 'Kashif' = kashif.ps, a Palestinian (Nablus) IFCN signatory, NOT Israeli: deliberately not added. Only one IFCN signatory is listed 'from Israel' (The Whistle).",
+        "Meta: Community Notes (page updated 2026-09-09) covers the US plus a Latin American test only; re-check each cycle whether Israel moves off third-party fact-checking. The Whistle left Meta's programme in December 2020, so Meta labels must not be attributed to it.",
+        "Deferred, not yet mapped: GDP / deficit / national debt. gov.il Accountant General pages were Cloudflare-blocked and no CKAN dataset exists; find a verifiable official deep link next cycle.",
+        "Deferred (expert MINOR/unsourced): CBS headline average wage is reportedly per salaried job (השכר הממוצע למשרת שכיר); source it and name it in SKILL.md. CBS broad unemployment measure (temporarily absent workers) was removed because it could not be sourced this cycle; reconsider with a CBS release.",
+        "Deferred: mortgage-rate claims have no source row (BoI average mortgage rates by track); no income route (הכנסה ממוצעת למשק בית); 'state debt' / 'המדינה חייבת' phrasing not routed; election-night double-envelope lag and certified-results notice; Knesset election date Oct 2026 and CEC deepfake rules were not verifiable (web search budget exhausted).",
+        "Description unchanged this cycle (no holdout run). Consider adding screenshot/video triggers to the description next cycle, with the 5.7 holdout gate.",
+        "Resolved the 1.0.1 deferred CBS rebasing item: added a Gotcha with a calculator-verified example (known indices Nov 2014 102.1 / Jun 2026 104.8, coefficient 1.162, 19.3%). Index-for-the-month Jan 2015 to Aug 2026 gives 21.5%, so always state the convention."
+      ]
     }
   ]
 }

@@ -1,119 +1,177 @@
 {
   "skill_slug": "israeli-fact-checker",
   "schemaVersion": "1.0",
-  "generated_at": "2026-06-04",
+  "generated_at": "2026-10-01T00:00:00Z",
   "claims": [
     {
-      "id": "verdict-nachon",
       "claim": "The Whistle (המשרוקית) verdict label נכון means the statement is true in its near-entirety",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "נכון - האמירה נכונה ברובה המוחלט",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "verdict-nachon",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "verdict-lo-meduyak",
       "claim": "The Whistle verdict label לא מדויק means substantial parts of the statement are wrong",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "לא מדויק - חלקים מהותיים מהאמירה שגויים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "verdict-lo-meduyak",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "verdict-mate",
       "claim": "The Whistle verdict label מטעה means the statement creates a false impression or takes facts out of context",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "מטעה - האמירה יוצרת מצג שווא או מוציאה עובדות מהקשרן",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "verdict-mate",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "verdict-lo-nachon",
       "claim": "The Whistle verdict label לא נכון means the statement is false",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "לא נכון - האמירה שגויה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "verdict-lo-nachon",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "verdict-lishputchem",
       "claim": "The Whistle verdict label לשיפוטכם means the factual situation is too complex for a definitive score",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "לשיפוטכם - המצב העובדתי מורכב מכדי לתת ציון חד משמעי",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "verdict-lishputchem",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "whistle-ifcn-2018",
       "claim": "The Whistle (המשרוקית of Globes) has been a member of the International Fact-Checking Network (IFCN) since 2018",
       "claim_type": "feature",
       "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
       "source_fetched_at": "2026-07-26T19:08:52Z",
       "raw_snippet": "קוד העקרונות המנחים של הרשת הבינלאומית של ארגוני בדיקת העובדות, ה- International Fact-Checking Network (ה- IFCN), בה היא חברה משנת 2018",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "whistle-ifcn-2018",
+      "fetched_at": "2026-07-26T19:08:52Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "ifcn-commitments",
       "claim": "The IFCN Code of Principles has five commitments: non-partisanship and fairness, standards and transparency of sources, transparency of funding and organization, standards and transparency of methodology, and an open and honest corrections policy",
       "claim_type": "feature",
       "source_url": "https://ifcncodeofprinciples.poynter.org/the-commitments",
       "source_fetched_at": "2026-07-26T19:08:52Z",
       "raw_snippet": "A commitment to Non-partisanship and Fairness ... A commitment to Standards and Transparency of Sources ... A commitment to Standards and Transparency of Methodology ... Signatory organizations are transparent ... Signatories publish their corrections polic",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "ifcn-commitments",
+      "fetched_at": "2026-07-26T19:08:52Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "meta-platform-labels",
       "claim": "Platform fact-checker rating labels on Hebrew content include לא נכון (false), עבר שינוי (altered), לא נכון חלקית (partly false), חסר הקשר (missing context), and סאטירה (satire)",
       "claim_type": "feature",
       "source_url": "https://transparency.meta.com/he-il/features/content-ratings-fact-checkers-use/",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "לא נכון ... עבר שינוי ... לא נכון חלקית ... חסר הקשר ... סאטירה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "meta-platform-labels",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-cbs",
       "claim": "Israel's Central Bureau of Statistics (Lishka Merkazit LiStatistika, cbs.gov.il) is the authoritative source for the CPI, price indices, labour force, demographics and the housing price index",
       "claim_type": "url",
       "source_url": "https://www.cbs.gov.il",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "הלשכה המרכזית לסטטיסטיקה דף הבית",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "src-cbs",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-boi",
       "claim": "The Bank of Israel publishes the official representative exchange rate (shaar yatzig) for the shekel",
       "claim_type": "url",
       "source_url": "https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "Exchange Rates | בנק ישראל - הבנק המרכזי של ישראל",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "src-boi",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-budgetkey",
       "claim": "BudgetKey (Mafteach HaTaktziv, obudget.org) is the open database of the Israeli state budget, support payments and procurement",
       "claim_type": "url",
       "source_url": "https://next.obudget.org/",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "מפתח התקציב",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "src-budgetkey",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-knesset-odata",
       "claim": "The Knesset ParliamentInfo OData service exposes bill and committee entity collections, including KNS_Bill and KNS_Committee.",
       "claim_type": "api-endpoint",
       "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
       "source_fetched_at": "2026-08-11",
       "raw_snippet": "<collection href=\"KNS_Bill\"><atom:title>KNS_Bill</atom:title></collection><collection href=\"KNS_BillHistoryInitiator\"><atom:title>KNS_BillHistoryInitiator</atom:title></collection><collection href=\"KNS_BillInitiator\"><atom:title>KNS_BillInitiator</atom:title></collection><collection href=\"KNS_BillName\"><atom:title>KNS_BillName</atom:title></collection><collection href=\"KNS_BillSplit\"><atom:title>KNS_BillSplit</atom:title></collection><collection href=\"KNS_BillUnion\"><atom:title>KNS_BillUnion</atom:title></collection><collection href=\"KNS_CmtSessionItem\"><atom:title>KNS_CmtSessionItem</atom:title></collection><collection href=\"KNS_CmtSiteCode\"><atom:title>KNS_CmtSiteCode</atom:title></collection><collection href=\"KNS_Committee\"><atom:title>KNS_Committee</atom:title></collection>",
       "confidence": "high",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-11",
+      "claim_id": "src-knesset-odata",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-elections",
       "claim": "Knesset election results are published on data.gov.il with the Central Elections Committee (ועדת הבחירות המרכזית לכנסת) as the dataset publisher.",
       "claim_type": "url",
       "source_url": "https://data.gov.il/he/datasets/central-election-committee/votes-knesset",
@@ -122,48 +180,58 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-08-11",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-11",
+      "claim_id": "src-elections",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-knesset-votes",
-      "claim": "Per-MK plenum roll-call votes are published by the Knesset as the dataset titled הצבעות חברי הכנסת במליאה on data.gov.il",
-      "claim_type": "url",
-      "source_url": "https://data.gov.il/api/3/action/package_show?id=vote",
-      "source_fetched_at": "2026-07-26T19:08:52Z",
-      "raw_snippet": "הצבעות חברי הכנסת במליאה",
-      "confidence": "high",
-      "verified_via": "browser",
-      "verified_at": "2026-07-26T19:08:52Z"
-    },
-    {
-      "id": "src-nadlan",
       "claim": "The government real-estate site (nadlan.gov.il) publishes recorded real-estate transaction prices",
       "claim_type": "url",
       "source_url": "https://www.nadlan.gov.il/",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "אתר הנדל\"ן הממשלתי",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "src-nadlan",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-btl-wage",
-      "claim": "The National Insurance Institute (Bituach Leumi, btl.gov.il) is the authoritative source for the statutory average wage in the economy",
+      "claim": "Bituach Leumi publishes the statutory average wage under sections 1 and 2 of the National Insurance Law",
       "claim_type": "url",
-      "source_url": "https://www.btl.gov.il",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/%D7%A9%D7%9B%D7%A8%20%D7%9E%D7%9E%D7%95%D7%A6%D7%A2.aspx",
       "source_fetched_at": "2026-06-04T20:00:00Z",
-      "raw_snippet": "ביטוח לאומי",
-      "confidence": "high"
+      "raw_snippet": "שכר ממוצע לפי סעיפים 1 ו-2 לחוק הביטוח הלאומי",
+      "confidence": "high",
+      "claim_id": "src-btl-wage",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
     },
     {
-      "id": "src-fakereporter",
       "claim": "FakeReporter is an Israeli public-participation research project that exposes malicious online activity and fake news",
       "claim_type": "url",
       "source_url": "https://fakereporter.net/",
       "source_fetched_at": "2026-06-04T20:00:00Z",
       "raw_snippet": "מיזם מחקר בשיתוף הציבור להיאבק בפעילות זדונית ברשת ופייק ניוז",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "src-fakereporter",
+      "fetched_at": "2026-06-04T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "src-datagov",
       "claim": "data.gov.il is the Israeli government open-data portal, aggregating datasets from across government ministries that are open for public use.",
       "claim_type": "url",
       "source_url": "https://data.gov.il",
@@ -172,7 +240,367 @@
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-08-11",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-11",
+      "claim_id": "src-datagov",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "src-knesset-v4-votes",
+      "claim": "The Knesset's newer OData service exposes the KNS_PlenumVote and KNS_PlenumVoteResult entity sets for plenum votes",
+      "claim_type": "source",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/",
+      "raw_snippet": "{\"name\":\"KNS_PlenumVoteResult\",\"kind\":\"EntitySet\",\"url\":\"KNS_PlenumVoteResult\"}",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ]
+    },
+    {
+      "claim_id": "datagov-vote-empty",
+      "claim": "The data.gov.il package 'vote' (הצבעות חברי הכנסת במליאה) holds zero data files",
+      "claim_type": "source",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=vote",
+      "raw_snippet": "\"num_resources\": 0",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ]
+    },
+    {
+      "claim_id": "whistle-left-meta-2020",
+      "claim": "The Whistle left Meta's (Facebook's) fact-checking programme in December 2020",
+      "claim_type": "source",
+      "source_url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "raw_snippet": "בראשית דצמבר 2020, לאחר קצת יותר משנה וחצי, סיימנו את שיתוף הפעולה עם פייסבוק, והמשרוקית אינה חברה בתכנית יותר",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "whistle-ifcn-2027",
+      "claim": "The Whistle's IFCN verification was issued 23 Jan 2025 and expires 23 Jan 2027",
+      "claim_type": "source",
+      "source_url": "https://ifcncodeofprinciples.poynter.org/profile/the-whistle",
+      "raw_snippet": "Issued on: 23 Jan 2025 Expires on: 23 Jan 2027",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "meta-community-notes-scope",
+      "claim": "As of September 2026 Meta Community Notes is open in the US and tested in Latin American countries; third-party fact-checking continues elsewhere",
+      "claim_type": "source",
+      "source_url": "https://transparency.meta.com/features/community-notes/",
+      "raw_snippet": "Currently, Community Notes is open to contributors based in the United States. We are also beginning to test Community Notes in Argentina",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-factcheck-explorer",
+      "claim": "Google Fact Check Explorer searches published fact checks, including Hebrew Globes (Whistle) checks",
+      "claim_type": "source",
+      "source_url": "https://toolbox.google.com/factcheck/explorer",
+      "raw_snippet": "Search fact checks about a topic or person",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "whistle-archive",
+      "claim": "The Whistle publishes a full archive of its checks on Globes",
+      "claim_type": "source",
+      "source_url": "https://www.globes.co.il/news/home.aspx?fid=10559",
+      "raw_snippet": "ארכיון הבדיקות המלאות",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-irrelevant",
+      "claim": "irrelevant.org.il is Hanan Cohen's site responding to chain letters and internet rumours since 2002; its page 'אתר זה אינו אובייקטיבי' declares it non-objective",
+      "claim_type": "source",
+      "source_url": "https://www.irrelevant.org.il/uvdot",
+      "raw_snippet": "חנן כהן מגיב על מכתבי שרשרת ושמועות אינטרנט – מאז 2002",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-wayback",
+      "claim": "The Wayback Machine holds captures of web pages over time",
+      "claim_type": "source",
+      "source_url": "https://web.archive.org/",
+      "raw_snippet": "Explore more than 1 trillion web pages saved over time",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-archive-today",
+      "claim": "archive.today keeps snapshots of pages even if the original disappears",
+      "claim_type": "source",
+      "source_url": "https://archive.ph/",
+      "raw_snippet": "It takes a 'snapshot' of a webpage that will always be online even if the original page disappears",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-tineye",
+      "claim": "TinEye reverse image search finds where an image appears online",
+      "claim_type": "source",
+      "source_url": "https://tineye.com/",
+      "raw_snippet": "find where images appear online",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "tool-invid",
+      "claim": "The InVID-WeVerify plugin fragments videos into keyframes for verification",
+      "claim_type": "source",
+      "source_url": "https://chromewebstore.google.com/detail/fake-news-debunker-invid/mhccpoafgdgbhnjfhkcmgknndkeenfhe",
+      "raw_snippet": "into keyframes",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "cbs-calculator-rebase",
+      "claim": "CBS index calculator, Jan 2015 to Aug 2026: base 2012, from known index 2014-11 (102.1) to 2026-6 (104.8), chaining coefficient 1.162, change 19.3%",
+      "claim_type": "source",
+      "source_url": "https://api.cbs.gov.il/index/data/calculator/120010?value=100&date=01-01-2015&toDate=08-01-2026&format=xml&download=false",
+      "raw_snippet": "2012 ממוצע 2014-11 102.1 2026-6 104.8 1.162 34010140.39 40575415.6 1 19.3",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "law-foreign-state-entity",
+      "claim": "The Ministry of Justice amutot dataset on data.gov.il publishes a separate file of donations from a foreign state entity (תרומות מישות מדינית זרה)",
+      "claim_type": "source",
+      "source_url": "https://data.gov.il/he/datasets/ministry_of_justice/moj-amutot",
+      "raw_snippet": "תרומות מישות מדינית זרה עודכן ב- 27 בספטמבר 2026",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "src-guidestar",
+      "claim": "GuideStar is the Ministry of Justice corporations site with amuta information",
+      "claim_type": "source",
+      "source_url": "https://www.guidestar.org.il/",
+      "raw_snippet": "גיידסטאר מבית משרד המשפטים",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "src-boi-interest",
+      "claim": "Bank of Israel monetary policy page carries the interest rate announcements",
+      "claim_type": "source",
+      "source_url": "https://www.boi.org.il/en/economic-roles/monetary-policy/",
+      "raw_snippet": "Interest Rate Announcements",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "src-btl-poverty",
+      "claim": "Bituach Leumi publishes the poverty and income-inequality report",
+      "claim_type": "source",
+      "source_url": "https://www.btl.gov.il/Publications/oni_report/Pages/default.aspx",
+      "raw_snippet": "דוח ממדי העוני והאי- שוויון בהכנסות",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "src-comptroller-party-funding",
+      "claim": "The State Comptroller office covers party-financing laws",
+      "claim_type": "source",
+      "source_url": "https://www.mevaker.gov.il/",
+      "raw_snippet": "חוקי מימון מפלגות",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "meta-us-ended-3pfc",
+      "claim": "Meta ended its third-party fact-checking programme in the US and moved to Community Notes",
+      "claim_type": "source",
+      "source_url": "https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/",
+      "raw_snippet": "Starting in the US, we are ending our third party fact-checking program and moving to a Community Notes model.",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "knesset-vote-result-present",
+      "claim": "KNS_PlenumVoteResult rows carry a per-MK ResultDesc that includes נוכח (present) as distinct from בעד",
+      "claim_type": "source",
+      "source_url": "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult?$top=3&$filter=VoteID%20eq%2046701",
+      "raw_snippet": "\"ResultDesc\":\"נוכח\"",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ]
+    },
+    {
+      "claim_id": "moi-local-elections",
+      "claim": "The Ministry of Interior publishes local-authority election data on data.gov.il, separate from the Central Elections Committee",
+      "claim_type": "source",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=specialpoll2025",
+      "raw_snippet": "בחירות לרשויות המקומיות - קלפיות מיוחדות בפריסה ארצית",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
+    },
+    {
+      "claim_id": "cbs-cpi-rent",
+      "claim": "The CBS CPI has a rent component (שכר דירה) series",
+      "claim_type": "source",
+      "source_url": "https://api.cbs.gov.il/index/catalog/subject?id=38&format=json&download=false",
+      "raw_snippet": "\"codeName\":\"שכר דירה פרטי, ציבורי ושכירות ארוכת טווח בפיקוח ממשלתי\"",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/source-map.md",
+        "references/domain-checklist.md",
+        "scripts/verdict_template.py"
+      ]
+    },
+    {
+      "claim_id": "cbs-cpi-jun2026-base2024",
+      "claim": "The CBS CPI for June 2026 is 104.8 on the 2024 average base",
+      "claim_type": "source",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=xml&download=false&startPeriod=06-2026&endPeriod=06-2026",
+      "raw_snippet": "2024 ממוצע 104.8 6 יוני",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-01"
     }
   ]
 }

@@ -8,11 +8,27 @@
     "en": "Verify a public claim against official Israeli data and get a sourced verdict. Use it when you hear a politician quote a number on the radio, get a viral WhatsApp message about prices or the budget, or read a headline you are not sure about. The skill breaks the claim into its checkable parts, sends each to the right official source (the Central Bureau of Statistics, Bank of Israel, the state budget, the Knesset, data.gov.il), pulls the real figure, and labels the claim true, inaccurate, misleading, false, or insufficient-data with a pointer to the source. It never invents a number, so a cannot-verify answer is honest rather than a confident guess. Do NOT use it for opinions, predictions about the future, private personal facts, or for writing articles from scratch."
   },
   "tags": {
-    "he": ["בדיקת עובדות", "אימות טענות", "פייק ניוז", "נתונים רשמיים", "עיתונאות", "שקיפות", "ישראל"],
-    "en": ["fact-checking", "verification", "misinformation", "official-data", "journalism", "transparency", "israel"]
+    "he": [
+      "בדיקת עובדות",
+      "אימות טענות",
+      "פייק ניוז",
+      "נתונים רשמיים",
+      "עיתונאות",
+      "שקיפות",
+      "ישראל"
+    ],
+    "en": [
+      "fact-checking",
+      "verification",
+      "misinformation",
+      "official-data",
+      "journalism",
+      "transparency",
+      "israel"
+    ]
   },
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",
@@ -32,13 +48,46 @@
   "openclaw": true,
   "volatility": "stable",
   "authoritative_sources": [
-    { "url": "https://www.globes.co.il/news/article.aspx?did=1001372882", "type": "methodology", "language": "he" },
-    { "url": "https://ifcncodeofprinciples.poynter.org/the-commitments", "type": "methodology", "language": "en" },
-    { "url": "https://www.cbs.gov.il", "type": "regulator", "language": "he" },
-    { "url": "https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/", "type": "regulator", "language": "en" },
-    { "url": "https://next.obudget.org/", "type": "dataset", "language": "he" },
-    { "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/", "type": "api-endpoint", "language": "en" },
-    { "url": "https://data.gov.il", "type": "dataset", "language": "he" }
+    {
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001372882",
+      "type": "methodology",
+      "language": "he"
+    },
+    {
+      "url": "https://ifcncodeofprinciples.poynter.org/the-commitments",
+      "type": "methodology",
+      "language": "en"
+    },
+    {
+      "url": "https://www.cbs.gov.il",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://next.obudget.org/",
+      "type": "dataset",
+      "language": "he"
+    },
+    {
+      "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
+      "type": "api-endpoint",
+      "language": "en"
+    },
+    {
+      "url": "https://data.gov.il",
+      "type": "dataset",
+      "language": "he"
+    },
+    {
+      "url": "https://knesset.gov.il/OdataV4/ParliamentInfo/",
+      "type": "api-endpoint",
+      "language": "en"
+    }
   ],
   "domain_checklist_version": 1
 }
