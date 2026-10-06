@@ -1,11 +1,13 @@
 # Required Documents by Benefit
 
-What to have in hand before each application. Keep several copies of the lone-soldier recognition certificate: every downstream benefit asks for it.
+Companion to SKILL.md Step 10. Only documents a source names are listed; where a source names none, the row says so.
 
-| Phase | Required documents |
+| Benefit | Documents |
 |---|---|
-| Aka recognition (Step 2) | Application form (Bakshat Hakara b'Bededut), Teudat Zehut, Teudat Oleh (if relevant), parents' documentation (foreign passport / death certificate / estrangement social worker letter) |
-| Active-duty rent (Step 4) | Recognition letter from Aka, signed lease, bank account, ID |
-| Active-duty flights (Step 5) | Mashak Tash coordination form, travel dates, family invitation if relevant |
-| Post-discharge rent (Step 6) | Teudat Shichrur, lone-soldier recognition status, and (per the 01.07.2026 process) a declaration form signed by soldier + landlord; bank details are updated separately in the personal area. Keep the signed lease on hand for review. |
-| Pikadon withdrawal (Step 7) | Teudat Shichrur, purpose-specific evidence (per the 6 categories) |
+| Recognition (Step 2) | Form 7304 (pre-enlistment) or Form 62 in two copies (in service). Supporting documents only where Kol Zchut requires them: none for a soldier who made aliyah alone, whose parents emigrated or died; a sending-body letter with dates for parents on shlichut; a social worker or school counselor report plus financial documents for a soldier with no contact with parents |
+| Active-duty rent (Step 4) | The lease (Kol Zchut); the Tash system lists anything further in the personal area |
+| Funded flight (Step 5) | Leave approval from the unit before booking, request via Mashak Tash, passport valid at least six months from the flight date |
+| Aliyah-Ministry grant (Step 3) | Teudat Oleh, bank confirmation, lone-soldier confirmation, service confirmation with expected discharge date (renewed every half year) |
+| Beit HaChayal on leave (Step 4) | Lone-soldier certificate, military ID, confirmation of the leave type |
+| Post-discharge rent (Step 6) | Since 01.07.2026, a declaration form ONLY, signed by the soldier and the landlord; bank details checked in the personal area first |
+| Pikadon | Route to `israeli-discharged-soldier-navigator` |

@@ -1,6 +1,6 @@
 # Aka Recognition Process for Lone Soldier Status
 
-Source: kolzchut "חייל בודד" + mitgaisim.idf.il. Statutory base: Pkudat Matkal 35.0808.
+Source: kolzchut "חייל בודד" + "הגשת בקשה להכרה כחייל בודד". Statutory base: Pkudat Matkal 35.0808.
 
 ## Forms
 
@@ -23,45 +23,41 @@ Source: kolzchut "חייל בודד" + mitgaisim.idf.il. Statutory base: Pkudat 
 |---|---|
 | Pre-enlistment | Present lone-soldier status at the Lishkat HaGiyus interview, then fill Form 7304 at the Rakezet Tash's initiative |
 | During service | Fill Form 62 in duplicate before a unit officer or Mashak Tash |
-| Decision timeline | Not published by any source we could verify. Do not quote an SLA; ask the Rakezet Tash. |
+| Decision timeline | Not published. Do not quote an SLA; ask the Rakezet Tash. |
+| Late filing | Recognition can be granted retroactively where the delay in filing or handling was not the soldier's fault or is justified (order §9) |
 
 ## Required documents per track
 
+Per Kol Zchut (הגשת בקשה להכרה כחייל בודד):
+
 | Track | Documents |
 |---|---|
-| Oleh (chayal boded muvhak) | Teudat Oleh, parents' foreign address proof (utility bill, foreign passport), aliyah documentation |
-| Israeli with parents abroad | Foreign address proof, parents' work / residence permits abroad |
-| Israeli orphan | Parental death certificates |
-| Israeli formally estranged | Social worker report documenting estrangement, financial records showing no parental support, social services case file |
+| Made aliyah alone, or parents emigrated | **None required** ("אין צורך להציג אישורים") |
+| Parents deceased | **None required** |
+| Parents on shlichut abroad | A letter from the sending body with the shlichut dates, in particular the parents' return date |
+| No contact with parents (chaser oref) | A report by a social worker or school counselor, financial documents, and further documents as the Rakezet Tash directs |
+
+Someone recognized by Bituach Leumi as a child as entitled to the income-support benefit for an orphaned or abandoned child goes directly to the 24-hour lone-soldier line, 03-7375200.
 
 ## Appeal process
 
 | Step | Detail |
 |---|---|
-| 1 | Re-submit through unit Mashak Tash with additional supporting documents |
-| 2 | Appeals committee reviews; decision is final unless material circumstances change |
-| 3 | Hotlines: the IDF general hotline and the Soldiers' Ombudsman (numbers published on the IDF site), NBN+FIDF 24/7 |
+| 1 | Appeal through the unit Rakezet Tash (Kol Zchut). Per order 35.0808 §6, an appeal against a refusal to recognize a muvhak soldier is heard by the exceptions committee, with a reasoned written decision |
+| 1a | Per §7, the exceptions committee's decision can be appealed to a committee headed by the head of the Mofat department (רמ"ח מופ"ת), again with a reasoned written decision |
+| 2 | The appeals committee's decision is reasoned and final, unless the facts change, which requires a new hearing in the committee for exceptional lone soldiers |
+| 3 | Hotlines (Kol Zchut): IDF service line 1111, Soldiers' Ombudsman 03-6977374, 24-hour lone-soldier line 03-7375200 |
+| 4 | At basic-training intake the Rakezet Tash must brief the soldier personally on their rights (Kol Zchut) |
 
 ## Status changes during service
 
-Notify Mashak Tash **immediately / without delay** if any of the following occurs (Pkudat 35.0808 + Aka practice, there is no statutory 30-day grace period; continuing to receive boded benefits after a disqualifying event creates retroactive liability from the date of the event, not from a 30-day mark):
-- Marriage during mandatory service (status changes to married-soldier track)
-- Parent makes aliyah to Israel (recognition may be revoked)
-- Soldier moves in with newly-arrived family in Israel
-- Estranged Israeli reconnects with parents (recognition may be revoked)
-
-## Common reasons for rejection
-
-| Reason | Mitigation |
-|---|---|
-| "Living alone" without documented parental absence | Provide foreign-address proof or estrangement documentation |
-| Inconsistencies between application categories | Pick one track and document it cleanly |
-| Late submission during service | File ASAP; recognition cannot be backdated |
-| Family in Israel reachable but soldier prefers independence | Recognition is for absence of support, not for preference |
+Kol Zchut: a soldier whose recognition circumstances change is obliged to report it to the unit Rakezet Tash ("מחוייב לדווח על כך לרכזת הת\"ש ביחידתו"). The order itself (Pkudat Matkal 35.0808 §8ד) sets the deadline: report **within 14 days** of the change. The approving officer may end the recognition when its justification changes (§8ה), and the exceptions committee may cancel it retroactively if a change was not reported (§10). Typical triggers:
+- The parents' situation changes (for example they move to Israel), or contact with estranged parents is restored; the change may end the recognition
+- Marriage during mandatory service: per the IDF benefits page, about 1,080 NIS special grant plus three months during which boded benefits continue; discharge after those three months ends eligibility for discharged-lone-soldier benefits
+- Signing on to keva: a keva soldier, or one in mandatory service under keva terms, is not a lone soldier (Kol Zchut)
 
 ## Practical advice
 
 - **File pre-enlistment when possible.** Form 7304 at the Lishkat HaGiyus puts recognition in place from enlistment day.
-- **For estrangement cases, line up the social worker assessment BEFORE filing (7304 or 62).** The assessment is the longest part of the process.
-- **NBN's pre-aliyah counseling helps olim assemble the documentation pack** before they arrive in Israel, using it cuts weeks off the recognition timeline.
-- **Keep multiple copies of the recognition certificate.** Every downstream benefit (rent, flights, post-discharge rent) requires the certificate.
+- **For no-contact cases, line up the social worker or school counselor report before filing (7304 or 62).**
+- **Keep copies of the lone-soldier certificate.** Beit HaChayal lodging and the Aliyah-Ministry grant ask for it (Kol Zchut).

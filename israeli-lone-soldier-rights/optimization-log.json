@@ -35,6 +35,32 @@
         "[CARRY, from 1.1.0, RESOLVED-ADJACENT] The 10-year Pikadon subsection could not be pinned to nevo. This cycle sourced the substance directly from the hachvana law page instead, including the 12.7.2007 cutoff; the subsection label remains unpinned.",
         "[CARRY, from 1.1.0, still open] Holiday-voucher amount has no fixed official figure; kept hedged, do not assert a number."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-10-07",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "P2 (parent asks about leave during visit + flight)",
+          "N1 (non-lone soldier Pikadon question)",
+          "E1 (lone-soldier extras on top of Pikadon)"
+        ]
+      },
+      "lessons": [
+        "BUG fixed (4th script defect in two cycles): the 1.4.0 'fix' counted only lease months inside a 365-day window, so the skill's own example returned 11 months, and leases that started in service were rejected. Rewritten against hachvana: lease-month-anchored payments, in-service months excluded, completion request, Beit HaChayal deduction, move handling. The arithmetic reviewer then found 3 more defects in the rewrite over rounds 2-3 (deadline off by one day, year-1 gate blocking legitimate second payments, invented deadline when lease months 1-6 hold nothing). LESSON: every script repair needs an independent arithmetic re-review; four rounds were needed.",
+        "SOURCE FOUND: Pkudat Matkal 35.0808 is public (idf.il PDF, Feb 2021 update, linked from Kol Zchut חייל_בודד). It settled the backdating question (recognition can be retroactive, §9), the reporting duty (14 days, §8ד), two-level appeal (§6-7), and differs from Kol Zchut on early release (§11ה all lone soldiers), abroad leave (§11ז any first-degree relative, in addition to special leave) and parent-visit leave (8 days per calendar year, 4 in training). Read the order FIRST next cycle.",
+        "AMOUNTS: the IDF benefits page (601.2/467.2/233.7) renders only in a HEADED browser (headless and curl get a shell) and is undated; NBN's Feb-2024 table is uniformly ~6% higher (637.11/495.05/247.68). Skill presents both with dates. Next cycle: look for a 2026 figure (Mashak Tash circular, NBN update).",
+        "Kol Zchut is behind a Cloudflare challenge for curl/headless; a headed Playwright script (frontend/.lsr-render2.mjs pattern) renders it. Keep that path.",
+        "CONFLICTS kept open (both sources stated): children of shlichim excluded from the funded flight on the IDF page vs included on Kol Zchut; combat second flight (Kol Zchut eligibility section) vs 'once during service' (Kol Zchut summary).",
+        "[CARRY resolved] Soldiers' Ombudsman number (03-6977374), keva re-enlistment (keva = not boded), Aguda dental (removed, unsourced), tax stacking (moved to out of scope), marriage claim window (IDF page: 3 months of continued benefits).",
+        "[CARRY] Expert MINOR deferred: NBN's dated olim figures (Misrad HaKlita 540, Misrad HaBinui 402) not added; script has no --previous-lease-end to check the 3-month gap between leases.",
+        "[CARRY, from 1.1.0] The 30-day miluim/special-service floor note is not about this skill's content; reserve questions route to israeli-miluim-manager. Drop next cycle if still irrelevant."
+      ]
     }
   ]
 }

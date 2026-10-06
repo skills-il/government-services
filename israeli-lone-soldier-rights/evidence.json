@@ -1,298 +1,272 @@
 {
   "skill_slug": "israeli-lone-soldier-rights",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-26T19:08:57.193948+00:00",
+  "generated_at": "2026-10-07T12:00:00Z",
   "claims": [
     {
-      "id": "lone-soldier-definition",
       "claim": "A lone soldier (chayal boded) is a conscript in mandatory service without parental support in Israel during service. Three categories are recognized: olim without family in Israel, Israeli soldiers whose parents are deceased / abroad / formally estranged, and orphans.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
       "raw_snippet": "חייל בודד הוא חייל בשירות חובה שאין לו בארץ תמיכה הורית במהלך שירותו הצבאי",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "lone-soldier-definition",
+      "fetched_at": "2026-05-18T14:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "recognition-process",
-      "claim": "Recognition as a lone soldier requires submitting an application to the regional recruitment office (lishkat hagiyus haezorit). The process is governed by IDF Order 35.0808.",
+      "claim": "Recognition is requested at the regional recruitment office before enlistment, or from the unit Rakezet Tash once serving.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "כדי להיות מוכר כחייל בודד, יש להגיש בקשה ללשכת הגיוס האזורית",
-      "confidence": "high"
+      "raw_snippet": "יש להגיש בקשה ללשכת הגיוס האזורית (למי שטרם התגייס), או לרכזת תנאי השירות (משקית ת\"ש) ביחידה שבה משרתים",
+      "confidence": "high",
+      "claim_id": "recognition-process",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "idf-order-35-0808",
-      "claim": "IDF Chief of Staff Order 35.0808 (פקודת מטכ\"ל 35.0808), 'Lone Soldiers, Principles, Rights, and Procedures in Mandatory Service', is the governing IDF order for all lone-soldier benefits during active duty. The order is published in multiple languages on the IDF website.",
+      "claim": "Kol Zchut (חייל בודד) cites Pkudat Matkal 35.0808 and links its public PDF (updated February 2021); it also links a multilingual lone-soldier rights page on the IDF site.",
       "claim_type": "law",
-      "source_url": "https://www.kolzchut.org.il/he/מענק_חודשי_לחיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "פקודות מטכ\"ל 35.0808 - חיילים בודדים - עקרונות, זכויות ונהלים - שירות חובה",
-      "confidence": "high"
+      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
+      "raw_snippet": "פקודת מטכ\"ל 35.0808- חיילים בודדים – עקרונות, זכויות ונהלים – שירות חובה",
+      "confidence": "high",
+      "claim_id": "idf-order-35-0808",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "monthly-grant-100-percent-base-salary",
       "claim": "A recognized lone soldier receives a fixed monthly grant in addition to their salary, equal to 100% of the base salary of a private (turai) in mandatory service. The grant is paid together with the regular salary payment, automatically upon recognition.",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/מענק_חודשי_לחיילים_בודדים",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "מענק חודשי קבוע, ששיעורו 100% משכר היסוד של טוראי בשירות חובה. המענק החודשי ישולם יחד עם תשלום שכר החובה",
-      "confidence": "high"
+      "raw_snippet": "חיילים בודדים זכאים למענק חודשי קבוע, ששיעורו 100% משכר היסוד של טוראי בשירות חובה.",
+      "confidence": "high",
+      "claim_id": "monthly-grant-100-percent-base-salary",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "rent-assistance-during-service",
       "claim": "The IDF housing participation for a recognized lone soldier covers rent plus apartment-maintenance costs such as water, gas and vaad bayit. The arnona exemption and the electricity-bill discount are listed as ADDITIONAL, separate benefits, not part of that participation.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
-      "raw_snippet": "חיילים בודדים זכאים לקבל מצה\"ל השתתפות בדמי שכירות והוצאות עבור אחזקת הדירה כגון: מים, גז וועד בית. בנוסף לכך, הם זכאים להטבות הבאות הקשורות בתשלומים השוטפים: פטור מתשלום הארנונה . הנחה בחשבון החשמל",
-      "confidence": "high"
+      "raw_snippet": "חיילים בודדים זכאים לקבל מצה\"ל השתתפות בדמי שכירות והוצאות עבור אחזקת הדירה כגון: מים, גז וועד בית.",
+      "confidence": "high",
+      "claim_id": "rent-assistance-during-service",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "post-discharge-rent-assistance-12000",
       "claim": "Post-discharge lone-soldier rent assistance: up to 1,000 NIS/month for up to 12 months of rent, capped at 12,000 NIS in the first year, paid in two installments of up to 6,000 NIS. As of the 01.07.2026 process the submission is a declaration form (soldier + landlord); bank details are updated separately in the personal area. Cap is ₪12,000 / 12,000 NIS in the first year.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
       "raw_snippet": "סיוע בשכר דירה בסכום של עד 12,000 ₪ בשנה הראשונה לשחרורכם משירות חובה, לפי הפירוט הבא: עד 1,000 ₪ לחודש, לתקופה של עד 12 חודשי שכירות.",
       "confidence": "high",
-      "verified_via": "gov.il content API (programmatic re-extraction)"
+      "verified_via": "gov.il content API (programmatic re-extraction)",
+      "claim_id": "post-discharge-rent-assistance-12000",
+      "fetched_at": "2026-05-18T14:00:00Z",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "marriage-grant-during-service",
-      "claim": "A lone soldier who marries during mandatory service is entitled to a special one-time grant, in addition to the regular marriage grant (per IDF Order 35.0808 Appendix).",
-      "claim_type": "feature",
-      "source_url": "https://www.army.co.il/326-2/",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "חייל בודד הנישא תוך כדי שירות חובה, יהיה זכאי למענק מיוחד חד-פעמי, בנוסף למענק נישואין רגיל",
-      "confidence": "medium"
-    },
-    {
-      "id": "flight-home-benefit",
       "claim": "Free flights home (מתגעגעים הביתה): after 8 months of service, non-combat lone soldiers get 1 funded flight; truly-boded combat lone soldiers get 2 (not in the same year). The funding covers the ticket, port fees, AND medical insurance; the soldier pays only passport + entry visas.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%98%D7%99%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D_%D7%9C%D7%91%D7%99%D7%A7%D7%95%D7%A8_%D7%94%D7%95%D7%A8%D7%99%D7%94%D7%9D_%D7%91%D7%97%D7%95%22%D7%9C",
-      "source_fetched_at": "2026-05-18T14:00:00Z",
-      "raw_snippet": "חיילים שאינם קרביים זכאים לקבל מימון פעם אחת במהלך השירות. חיילים קרביים זכאים לקבל מימון פעמיים במהלך השירות, עבור טיסות שלא מתרחשות באותה השנה. כל החיילים זכאים למימון לאחר 8 חודשי שירות צבאי. המימון הניתן מכסה את כל עלות הכרטיס, מסי הנמל והביטוח הרפואי. החיילים יממנו את התשלומים עבור הדרכון ואשרות הכניסה.",
+      "raw_snippet": "חיילים קרביים זכאים לקבל מימון פעמיים במהלך השירות, עבור טיסות שלא מתרחשות באותה השנה. חיילים שאינם קרביים זכאים לקבל מימון פעם אחת במהלך השירות.",
       "confidence": "medium",
       "claim_id": "flights-1-noncombat-2-combat-after-8mo",
-      "fetched_at": "2026-07-06T12:13:00Z"
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "pikadon-same-six-purposes",
       "claim": "Lone soldiers accrue the same Pikadon as any discharged soldier; what is lone-soldier specific is the benefits window (10 years instead of 5 for the section 7 / 7a benefits). The permitted-purpose mechanics live in the companion israeli-discharged-soldier-navigator skill.",
       "claim_type": "feature",
       "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "משך הזכאות של חייל משוחרר להטבות הקבועות בחוק הינה עד 5 שנים מסיום השירות הסדיר או השירות הלאומי-אזרחי (ועד 10 שנים לבודדים משוחררים ומשרתי מילואים פעילים)",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "pikadon-same-six-purposes",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00"
     },
     {
-      "id": "hachvana-personal-area-url",
       "claim": "Applications for the post-discharge rent benefit are submitted through the personal area on the hachvana (MoD) site. The page does not document the sign-in method, so no login mechanism may be asserted.",
       "claim_type": "url",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "היכנסו לאזור האישי",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "hachvana-personal-area-url",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00"
     },
     {
-      "id": "discharged-soldier-navigator-boundary",
       "claim": "Discharge-grant and personal-Pikadon amounts are set by length and type of service (combat, combat support, or \"other\"), identically for lone soldiers. Those amounts are covered in the companion israeli-discharged-soldier-navigator skill, not here.",
       "claim_type": "feature",
       "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "סכומי מענקי השחרור והפיקדון האישי נקבעים על פי משך השירות וסוג השירות: לוחמים, תומכי לחימה או \"אחר\"",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "discharged-soldier-navigator-boundary",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00"
     },
     {
-      "id": "lone-soldier-diaspora-orgs",
       "claim": "Nefesh B'Nefesh runs a Lone Soldiers Program jointly with FIDF at nbn.org.il/nbnlsp/. This entry evidences that page only. Per-organisation programme details in references/diaspora-orgs-directory.md are pointers to each organisation's own site and are not evidenced entitlement claims.",
       "claim_type": "company",
       "source_url": "https://www.nbn.org.il/nbnlsp/",
-      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
       "raw_snippet": "Lone Soldiers Program",
       "confidence": "medium",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "lone-soldier-diaspora-orgs"
     },
     {
-      "id": "form-62-soldier-facing",
       "claim": "A soldier already serving fills the lone-soldier recognition questionnaire, Form 62, in two copies before an officer or the unit Rakezet Tash. A pre-enlistment candidate instead fills Form 7304 at the Rakezet Tash's initiative after raising the status at the Lishkat HaGiyus interview.",
       "claim_type": "form-number",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "הגשת הבקשה ביחידה חייל המבקש שיכירו בו כ\"חייל בודד\", ימלא \"שאלון הכרה לחייל בודד\" (טופס 62) ב-2 העתקים, בפני קצין או רכזת ת\"ש ביחידתו",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "form-62-soldier-facing",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "ten-year-extended-window",
-      "claim": "Recognized lone discharged soldiers (and active reservists) are entitled to the Section 7 and Section 7a benefits (which per Section 1 include the personal Pikadon) for 10 years post-discharge, vs up to 5 years for a regular discharged soldier. Per the official hachvana (MoD) law-summary page.",
+      "claim": "Discharged lone soldiers (and active reservists) get the section 7 and 7א benefits (bagrut completion, mechina tracks, handasaim, vocational training; first-year degree scholarship) for 10 years instead of 5. This does not extend the Pikadon.",
       "claim_type": "threshold",
       "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
       "raw_snippet": "חיילים בודדים משוחררים ומשרתי מילואים פעילים יהיו זכאים לקבלת ההטבות בסעיף 7 לחוק ו-7א לחוק כמפורט בסעיף 1, לתקופה של 10 שנים.",
       "confidence": "high",
       "fetched_at": "2026-07-06T12:28:00Z",
-      "verified_via": "gov.il content API (programmatic re-extraction)"
+      "verified_via": "gov.il content API (programmatic re-extraction)",
+      "claim_id": "ten-year-extended-window",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "boded-combat-supplement",
-      "claim": "Combat lone soldiers at activity level A+ (lochem) receive an additional 467.2 NIS/month; combat-support at activity level A (tomech lechima) receive an additional 233.7 NIS/month, on top of the base monthly boded grant. Per the official IDF lone-soldier economic-benefits page. Amounts: 467.2 ש\"ח / 467.2 NIS (combat) and 233.7 ש\"ח / 233.7 NIS (combat-support) per month.",
+      "claim": "The undated IDF benefits page gives extra grants of 467.2 NIS (activity level א'+) and 233.7 NIS (activity level א'); quoted with its read date, not as the 2026 figure.",
       "claim_type": "currency",
       "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
-      "source_fetched_at": "2026-05-18T15:00:00Z",
       "raw_snippet": "לחיילים המשרתים ברמת פעילות א' + יינתן מענק חודשי על סך ₪467.2. לחיילים המשרתים ברמת פעילות א' יינתן מענק חודשי על סך ₪233.7.",
       "confidence": "medium",
-      "fetched_at": "2026-07-06T11:51:00Z"
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "claim_id": "boded-combat-supplement",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "law-of-citizenship-1952",
       "claim": "The Law of Return section 1 provides that every Jew is entitled to make aliyah. The skill routes the citizenship-acquisition mechanics to the Interior Ministry rather than asserting an acquisition rule of its own.",
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%91%D7%95%D7%AA",
-      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
       "raw_snippet": "כל יהודי זכאי לעלות ארצה",
       "confidence": "medium",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "claim_id": "law-of-citizenship-1952"
     },
     {
-      "id": "status-change-immediate",
-      "claim": "Recognition decisions are made by the recruitment-office HQ, and in exceptional cases by the lone-soldier recognition committee at Maktzar. Changes in circumstances must be reported to the unit Rakezet Tash so the status can be re-decided.",
-      "claim_type": "law",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
-      "raw_snippet": "רכזת הת\"ש תעביר את המסמך שמולא ודוחות רלוונטיים אחרים למפקדת הלשכה לשם אישור הבקשה, ובמקרים חריגים - להחלטת הוועדה להכרה בחיילים בודדים במקשל\"ר",
-      "confidence": "medium"
-    },
-    {
-      "id": "flights-non-combat-1-combat-2",
       "claim": "Combat lone soldiers get two funded flights during service, in different years; non-combat get one. All become eligible after 8 months of service. The eligibility gate is being a \"muvhak\" lone soldier whose parents live abroad.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%98%D7%99%D7%A1%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D_%D7%9C%D7%91%D7%99%D7%A7%D7%95%D7%A8_%D7%94%D7%95%D7%A8%D7%99%D7%94%D7%9D_%D7%91%D7%97%D7%95%22%D7%9C",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "חיילים קרביים זכאים לקבל מימון פעמיים במהלך השירות, עבור טיסות שלא מתרחשות באותה השנה. חיילים שאינם קרביים זכאים לקבל מימון פעם אחת במהלך השירות. כל החיילים זכאים למימון לאחר 8 חודשי שירות צבאי",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "flights-non-combat-1-combat-2",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "special-leave-60-30",
       "claim": "Special leave for a lone soldier is capped at 60 days per service year, of which 30 are reserved for visiting parents abroad. This is an annual cap, not a once-in-service entitlement.",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "סך כל ימי החופשה המיוחדת לא יעלו על 60 יום בשנת שירות",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "special-leave-60-30",
+      "fetched_at": "2026-08-26T18:57:45.251324+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "beit-hachayal-lodging",
-      "claim": "Beit HaChayal lodging for lone soldiers is a separate Kol Zchut entitlement linked from the housing-assistance page (alongside kibbutz lodging). No source we could reach publishes a branch list, so no city list may be asserted.",
-      "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T19:07:42.476373+00:00",
-      "raw_snippet": "ראו גם חיילים בודדים לינה בקיבוצים לחיילים בודדים לינה בבית החייל לחיילים בודדים",
-      "confidence": "medium"
-    },
-    {
-      "id": "hachvana-hotline-5266",
       "claim": "The hachvana.mod.gov.il hotline for post-discharge benefits including the 12-month rent assistance application is *5266",
       "claim_type": "phone-star",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
       "raw_snippet": "אם לא קיבלתם את הכסף בטווח זמנים זה, יש לפנות באופן יזום למוקד הטלפוני 5266*, לבירור הסיבה.",
       "confidence": "medium",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-11",
+      "claim_id": "hachvana-hotline-5266"
     },
     {
-      "id": "ombudsman-1111",
-      "claim": "The 24-hour hotline published for lone soldiers is the IDF lone-soldier centre on 03-7375200. It is not an NBN line.",
-      "claim_type": "phone-star",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
-      "raw_snippet": "מוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200",
-      "confidence": "medium"
-    },
-    {
-      "id": "hebrew-shekel-notation-variants",
       "claim": "Hebrew shekel notation for the post-discharge rent assistance: 1,000 ש\"ח/חודש (also 1,000 NIS/month), 12,000 ש\"ח שנתי (12,000 NIS annually), 6,000 ש\"ח per installment (6,000 NIS first / second tranche). Same values, different notations.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
       "raw_snippet": "• סיוע בשכר דירה בסכום של עד 12,000 ₪ בשנה הראשונה לשחרורכם משירות חובה, לפי הפירוט הבא: עד 1,000 ₪ לחודש, לתקופה של עד 12 חודשי שכירות. • אם שכר הדירה שאתם משלמים הוא פחות מ- 1,000 ₪ לחודש, תקבלו החזר בגובה הסכום שאתם משלמים בפועל. • תנאי ההטבה עשויים להשתנות בהתאם להחלטות הנהלת הקרן לקליטת חיילים משוחררים. שימו לב! הסיוע ניתן עבור עלות שכר הדירה בלבד, ולא כולל חשבונות: ארנונה, חשמל, גז, ועד בית וכו'. מתי ניתן להירשם להטבה?",
       "confidence": "high",
       "verified_via": "cited page fetched and confirmed to contain \"1,000\"; snippet replaced with the page's own wording around it",
       "verified_at": "2026-08-18",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "hebrew-shekel-notation-variants"
     },
     {
-      "id": "food-and-holiday-vouchers",
       "claim": "Monthly food vouchers for recognized lone soldiers are 150 NIS / 150 ש\"ח per month (redeemable at Shufersal, Kovoret, Yesh Chesed, Yeinot Beitan, Mega). The holiday-voucher amount varies year to year (no fixed official figure). Per the official IDF lone-soldier economic-benefits page.",
       "claim_type": "currency",
       "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
       "raw_snippet": "לחיילים הבודדים זכאות חודשית אוטומטית לתווי קנייה על סך ₪150 בחוגר.",
       "confidence": "medium",
-      "fetched_at": "2026-07-06T11:51:00Z"
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "claim_id": "food-and-holiday-vouchers",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "regular-pikadon-acher-tier-cross-reference",
-      "claim": "Personal-deposit (פיקדון אישי) monthly rates updated to May 2026: combat 990.63 NIS, combat-support 825.52 NIS, rear (עורפי) 660.42 NIS, national-civil service 660.42 NIS, per month of actual service. The rate is set by service type and length, not by lone-soldier status, so lone soldiers do not receive an enlarged per-month deposit.",
+      "claim": "Per-tier Pikadon amounts are published by hachvana and updated periodically; this skill routes them to israeli-discharged-soldier-navigator instead of hardcoding them.",
       "claim_type": "currency",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-05-18T14:30:00Z",
-      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות.",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים לאוגוסט 2026):",
       "confidence": "high",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "claim_id": "regular-pikadon-acher-tier-cross-reference"
     },
     {
-      "id": "tofes-135-cross-reference",
-      "claim": "Form 135 (טופס 135) is the manual income-tax refund form filed for the tax year being reclaimed. Retroactive credit-point mechanics for lone soldiers are identical to regular discharged soldiers and are covered in the companion israeli-discharged-soldier-navigator skill.",
-      "claim_type": "form-number",
-      "source_url": "https://www.kolzchut.org.il/he/החזר_מס_הכנסה",
-      "source_fetched_at": "2026-08-26T18:43:29.621292+00:00",
-      "raw_snippet": "הגשת בקשה ידנית להחזר מס יש להדפיס את טופס 135 של שנת המס עבורה מבקשים החזר",
-      "confidence": "high"
-    },
-    {
-      "id": "section-39a-hebrew-notation",
-      "claim": "Section 39a (סעיף 39א) of the Income Tax Ordinance is the legal basis Kol Zchut cites for discharged-soldier credit points, alongside section 1 of the Discharged Soldiers Absorption Law. Lone soldiers get the same credit points under the same section; the mechanics live in israeli-discharged-soldier-navigator.",
+      "claim": "Notation only: discharged-soldier credit points rest on Income Tax Ordinance Section 39a (סעיף 39א); this skill routes the topic to israeli-discharged-soldier-navigator and makes no lone-soldier-specific tax claim.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "source_fetched_at": "2026-08-26T18:43:29.621292+00:00",
       "raw_snippet": "פקודת מס הכנסה - סעיף 39א. חוק קליטת חיילים משוחררים - סעיף 1.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "section-39a-hebrew-notation",
+      "fetched_at": "2026-08-26T18:43:29.621292+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "diaspora-orgs-urls",
       "claim": "Nefesh B'Nefesh runs a Lone Soldiers Program at nbn.org.il/nbnlsp/. Organisation URLs in references/diaspora-orgs-directory.md are navigational pointers only and carry no factual entitlement claims.",
       "claim_type": "url",
       "source_url": "https://www.nbn.org.il/nbnlsp/",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "Lone Soldiers Program",
       "confidence": "high",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-18",
+      "claim_id": "diaspora-orgs-urls"
     },
     {
-      "id": "law-of-return-citizenship",
       "claim": "An oleh is defined by the Law of Return; the citizenship mechanics are evidenced separately against the statute text (claim law-of-citizenship-1952).",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00",
       "raw_snippet": "עולה מוגדר לפי חוק השבות",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "law-of-return-citizenship",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
       "claim_id": "base-monthly-grant-601",
-      "claim": "The base monthly lone-soldier grant is 601.2 NIS / 601.2 ש\"ח per month (100% of a private base salary), added on top of the regular mandatory-service salary. Per the official IDF lone-soldier economic-benefits page.",
+      "claim": "The undated IDF benefits page gives the lone-soldier monthly grant as 601.2 NIS on top of subsistence pay; quoted with its read date, not as the 2026 figure.",
       "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
       "raw_snippet": "כל חייל בודד זכאי לתמיכה כלכלית בנוסף לדמי הקיום המשולמים לכולם, על סך ₪601.2, תוספת מענק למשכורת החודשית.",
-      "fetched_at": "2026-07-06T11:51:00Z",
+      "fetched_at": "2026-10-07T12:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
       "claim_id": "aliyah-ministry-boded-grant",
@@ -304,7 +278,8 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_fetched_at": "2026-08-26T18:57:45.251324+00:00"
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
       "claim_id": "special-leave-60-annual",
@@ -315,115 +290,1729 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "rent-below-cap-actual",
       "claim": "If actual post-discharge rent is below 1,000 NIS/month, the reimbursement equals the amount actually paid, not the 1,000 NIS cap",
       "claim_type": "amount",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
       "raw_snippet": "אם שכר הדירה שאתם משלמים הוא פחות מ- 1,000 ₪ לחודש, תקבלו החזר בגובה הסכום שאתם משלמים בפועל",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "rent-below-cap-actual",
+      "fetched_at": "2026-08-26T18:40:17.941851+00:00"
     },
     {
-      "id": "rent-payment-timing",
       "claim": "Post-discharge rent declaration is checked within 7 business days and the money reaches the bank account within 14 business days of the approving SMS",
       "claim_type": "process",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
       "raw_snippet": "הכסף יועבר לחשבון הבנק שלכם, תוך 14 ימי עסקים ממועד קבלת אישור במסרון (SMS) על תקי​נות הבקשה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "rent-payment-timing",
+      "fetched_at": "2026-08-26T18:40:17.941851+00:00"
     },
     {
-      "id": "rent-terms-may-change",
       "claim": "hachvana states the post-discharge rent benefit terms may change per decisions of the Fund for the Absorption of Discharged Soldiers board",
       "claim_type": "process",
       "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
-      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
       "raw_snippet": "תנאי ההטבה עשויים להשתנות בהתאם להחלטות הנהלת הקרן לקליטת חיילים משוחררים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "rent-terms-may-change",
+      "fetched_at": "2026-08-26T18:40:17.941851+00:00"
     },
     {
-      "id": "lone-soldier-24h-hotline",
       "claim": "A 24-hour lone-soldier hotline operates at 03-7375200",
       "claim_type": "phone",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
-      "source_fetched_at": "2026-08-26T18:40:17.941851+00:00",
       "raw_snippet": "מוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "lone-soldier-24h-hotline",
+      "fetched_at": "2026-08-26T18:40:17.941851+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "form-7304-preenlistment",
       "claim": "A pre-enlistment candidate fills Form 7304 at the Rakezet Tash's initiative after raising lone-soldier status at the Lishkat HaGiyus interview",
       "claim_type": "form-number",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%91%D7%A7%D7%A9%D7%94_%D7%9C%D7%94%D7%9B%D7%A8%D7%94_%D7%9B%D7%97%D7%99%D7%99%D7%9C_%D7%91%D7%95%D7%93%D7%93",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "לאחר מכן, וביוזמת רכזת הת\"ש, עליו למלא טופס 7304",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "form-7304-preenlistment",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "kolzchut-boded-hub",
       "claim": "The Kol Zchut lone-soldiers portal is the hub page collecting lone-soldier rights and benefits, used in Step 5.5 as the routing target for named entitlements.",
       "claim_type": "navigational",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "פורטל זה מרכז מידע בנושא חיילים בודדים, זכויותיהם והטבות שונות הניתנות להם",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "kolzchut-boded-hub",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "kolzchut-housing-assistance",
       "claim": "Kol Zchut's housing-assistance page for lone soldiers is the source for the active-duty rent and utilities participation",
       "claim_type": "navigational",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%93%D7%99%D7%95%D7%A8_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "סיוע בהוצאות דיור לחיילים בודדים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "kolzchut-housing-assistance",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "org-lonesoldiercenter",
       "claim": "The Lone Soldier Center in Memory of Michael Levin operates at lonesoldiercenter.com",
       "claim_type": "navigational",
       "source_url": "https://www.lonesoldiercenter.com/",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "Lone Soldier",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "org-lonesoldiercenter",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00"
     },
     {
-      "id": "org-fidf",
       "claim": "Friends of the IDF runs a lone-soldier support programme at fidf.org",
       "claim_type": "navigational",
       "source_url": "https://www.fidf.org/lone-soldier-support/",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "Lone Soldier",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "org-fidf",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
     },
     {
-      "id": "org-garintzabar",
       "claim": "Garin Tzabar operates at garintzabar.org",
       "claim_type": "navigational",
       "source_url": "https://garintzabar.org/",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
       "raw_snippet": "Garin Tzabar",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "org-garintzabar",
+      "fetched_at": "2026-08-26T18:58:20.847125+00:00"
     },
     {
-      "id": "org-mahal",
-      "claim": "The Mahal volunteer programme's site is mahal-idf-volunteers.org",
+      "claim": "mahal-idf-volunteers.org is a voluntary guide site for overseas enlistees, by its own statement not an official State of Israel site.",
       "claim_type": "navigational",
       "source_url": "http://www.mahal-idf-volunteers.org/",
-      "source_fetched_at": "2026-08-26T18:58:20.847125+00:00",
-      "raw_snippet": "Mahal",
-      "confidence": "high"
+      "raw_snippet": "It is not an official website of the State of Israel but a voluntary initiative",
+      "confidence": "high",
+      "claim_id": "org-mahal",
+      "fetched_at": "2026-10-07T12:00:00Z"
     },
     {
-      "id": "nbn-lone-soldier-benefits-page",
       "claim": "Nefesh B'Nefesh publishes a lone-soldier rights and benefits page at nbn.org.il/nbnlsp/lone-soldier-benefits/, cited as a routing destination for olim, not as a source of entitlement figures.",
       "claim_type": "navigational",
       "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
-      "source_fetched_at": "2026-08-26T19:08:57.193948+00:00",
       "raw_snippet": "Lone Soldier Rights and Benefits",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "nbn-lone-soldier-benefits-page",
+      "fetched_at": "2026-08-26T19:08:57.193948+00:00"
+    },
+    {
+      "claim_id": "marriage-grant-1080-three-months",
+      "claim": "A lone soldier who marries in mandatory service gets a one-time special grant of about 1,080 NIS plus three months of continued boded benefits; discharge during them keeps discharged-lone-soldier benefits, discharge after them does not.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "סכום המענק יעמוד על סך של כ-1,080₪. בנוסף לכך, יהיה זכאי לשלושה חודשי התארגנות בהם ממשיך לקבל הטבות בודד. חייל המשתחרר במהלך שלושת חודשי ההתארגנות - יהיה זכאי להטבות בודד משוחרר. חייל המשתחרר לאחר שלושת חודשי ההתארגנות - לא יהיה זכאי להטבות.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/operational-items.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-excludes-children-of-shlichim",
+      "claim": "The IDF benefits page grants 100% flight funding to every muvhak lone soldier except a child of shlichim, and requires a passport valid at least six months from the flight date.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "כל חייל בודד מובהק, למעט בן שליחים יהיה זכאי לסיוע של מימון 100% מהכרטיס.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-passport-six-months",
+      "claim": "Passport must be valid for at least half a year from the flight date.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "יש לוודא כי הדרכון בתוקף של לפחות חצי שנה ממועד הטיסה",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "vouchers-400-yachad",
+      "claim": "Lone soldiers in Yachad LeMaan HaChayal apartments get 400 NIS a month in total, not in addition; each month of vouchers is redeemable for 60 days.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "חיילים בודדים וזכאי הלנה מטעמי פרט המתגוררים בדירות 'יחד למען החייל', יהיו זכאים ל-₪400 מדי חודש בסה\"כ, ולא בנוסף להטבה המפורטת בסעיף הקודם.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "vouchers-60-days",
+      "claim": "Each month of voucher entitlement can be redeemed for 60 days.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "מימוש ההטבה יתאפשר למשך 60 ימים עבור כל חודש זכאות מיום ההזנה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-kolzchut-shlichut-included",
+      "claim": "Kol Zchut defines the flight-eligible muvhak soldier as one whose parents live abroad permanently, emigrated, or are on shlichut for at least half a year; leave approval is needed before booking.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "חייל בודד \"מובהק\"- שהוריו מתגוררים בקביעות בחו\"ל, או שהוריו היגרו לחו\"ל, או שנמצאים שם בשליחות לפחות חצי שנה",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-leave-approval",
+      "claim": "Leave approval from the unit is required before booking the flight.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "לפני הזמנת כרטיסי הטיסה נדרש אישור ליציאה לחופשה מהיחידה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-after-8-months",
+      "claim": "All lone soldiers are entitled to flight funding after 8 months of service.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "כל החיילים זכאים למימון לאחר 8 חודשי שירות צבאי.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "categories-muvhak-chaser-oref-yatom",
+      "claim": "Kol Zchut defines three categories: muvhak, chaser oref mishpachti (incl. ex-Haredi example and foster care up to 21), and orphan of both parents.",
+      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
+      "raw_snippet": "חייל שהתגורר אצל משפחת אומנה עד גיל 18 והוחלט כי צרכיו הטיפוליים מחייבים את המשך שהייתו במשפחת אומנה (בכל מקרה לא מעבר לגיל 21), עשוי במקרים מסוימים להיות מוכר כחייל בודד, בכפוף לכללי הצבא.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "category-chaser-oref-haredi",
+      "claim": "Chaser oref includes a soldier in contact with parents but unable to live with them, e.g. one who left the Haredi community.",
+      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
+      "raw_snippet": "חייל הנמצא בקשר עם הוריו, אך אין לו כל אפשרות להתגורר עמם והם אינם משמשים עבורו תא משפחתי מתפקד ותומך",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "keva-not-lone-soldier",
+      "claim": "A soldier in keva, or in mandatory service under keva terms, is not a lone soldier.",
+      "source_url": "https://www.kolzchut.org.il/he/חייל_בודד",
+      "raw_snippet": "חייל בשירות קבע או חייל בשירות חובה בתנאי קבע לא ייחשב לחייל בודד.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "bl-orphan-abandoned-direct-line",
+      "claim": "Someone recognized by Bituach Leumi as a child for income support for an orphaned or abandoned child goes directly to the 24-hour line 03-7375200.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "מי שבהיותו ילד הוכר על-ידי המוסד לביטוח לאומי כזכאי לקצבת הבטחת הכנסה לילד יתום או לילד נטוש, יפנה ישירות למוקד בודדים הפועל 24 שעות ביממה בטלפון 03-7375200.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "recognition-documents-by-track",
+      "claim": "No documents are needed for a soldier who came alone, whose parents emigrated or died; shlichut needs a sending-body letter with dates; no-contact needs a social worker or school counselor report and financial documents.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "מי שהוריו נמצאים בשליחות בחו\"ל יציג אישור מהמוסד השולח עם תאריכי השליחות, ובפרט תאריך החזרה של ההורים. מי שנותק הקשר עם הוריו יציג דוח עובדת סוציאלית או יועצת ביה\"ס, אישורים כלכליים ואישורים נוספים על פי הנחיית רכזת ת\"ש. במקרים הבאים אין צורך להציג אישורים: מי שהוריו ירדו מהארץ או שעלה לארץ לבדו. מי שהוריו נפטרו.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "appeal-final-reasoned",
+      "claim": "The appeals committee decision is reasoned and final unless the facts change.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "החלטת ועדת ערעורים תהיה מנומקת וסופית, אלא אם כן חלו שינויים בנתונים",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "status-change-must-report",
+      "claim": "A soldier whose recognition circumstances changed must report it to the unit Rakezet Tash.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "מי שהנסיבות שגרמו להכרתו כחייל בודד השתנו, מחוייב לדווח על כך לרכזת הת\"ש ביחידתו.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "hotlines-1111-ombudsman",
+      "claim": "Kol Zchut lists the IDF service line 1111 and the Soldiers Ombudsman 03-6977374.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "מוקד השירות של צה\"ל 1111 נציב קבילות החיילים 03-6977374",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "housing-advance-3-months-arnona-electricity",
+      "claim": "During service: up to 3 months paid in advance if the lease requires it; arnona exemption and electricity discount; Kol Zchut advises a lease clause allowing cancellation if parents make aliyah.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "אם הבקשה תאושר, ניתן יהיה לקבל תשלום עד למקסימום של 3 חודשים מראש, במקרה שההתחייבות בחוזה השכירות היא לתשלום מראש.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "housing-arnona-electricity",
+      "claim": "Lone soldiers get an arnona exemption and an electricity-bill discount.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "פטור מתשלום הארנונה. הנחה בחשבון החשמל.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "housing-cancellation-clause",
+      "claim": "Kol Zchut recommends a lease clause allowing the soldier to cancel, e.g. if parents make aliyah.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "מומלץ להוסיף לחוזה השכירות סעיף המאפשר לחייל לבטל את החוזה במקרה הצורך, למשל במקרה שהוריו יעלו ארצה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-eligibility-renewal",
+      "claim": "Aliyah-Ministry grant: within 5 years of aliyah on enlistment day (10 for Ethiopia); independent Teudat Oleh with parents not in Israel, or oleh / returning minor / ezrach oleh / toshav chozer recognized as boded; renewed yearly, valid until end of service; service confirmation renewed every half year.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "אדם אשר ביום גיוסו לצה\"ל או התנדבותו לשירות לאומי-אזרחי לא חלפו 5 שנים מעלייתו (או אם הוא עלה מאתיופיה - לא חלפו 10 שנים)",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-returning-minor",
+      "claim": "Eligible also: an oleh, returning minor, ezrach oleh or toshav chozer recognized by the IDF as a lone soldier.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "הוא עולה, קטין חוזר, אזרח עולה ותושב חוזר, שהוכר על-ידי צה\"ל כחייל בודד (גם אם אין בידו תעודת עולה עצמאית).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-renew-yearly",
+      "claim": "Eligibility is renewed every year and valid until the end of service.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "יש לחדש את הזכאות מדי שנה במשרד העלייה והקליטה, והיא תקפה עד תום השירות הצבאי או השירות הלאומי-אזרחי.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-half-year-confirmation",
+      "claim": "Soldiers present a lone-soldier confirmation and a service confirmation with expected discharge date, updated every half year.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "לחיילים: אישור חייל בודד ואישור על שירות צבאי סדיר בציון תאריך שחרור משוער (בכל חצי שנה יש להציג אישור עדכני).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "rent-only-no-bills",
+      "claim": "Post-discharge rent assistance covers rent only, not arnona, electricity, gas or vaad bayit.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "שימו לב! הסיוע ניתן עבור עלות שכר הדירה בלבד, ולא כולל חשבונות: ארנונה, חשמל, גז, ועד בית וכו'.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py",
+        "references/operational-items.md"
+      ]
+    },
+    {
+      "claim_id": "rent-register-first-year",
+      "claim": "Registration and the required document must be filed in the first year after discharge.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "יש להירשם להטבה ולהגיש את המסמך הנדרש לקבלתה בשנה הראשונה לשחרור משירות חובה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-two-payments-6-months",
+      "claim": "Two payments of up to 6,000 NIS each for at most 6 rental months.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "ההחזר עבור הטבת שכר הדירה יועבר אליכם ב-2 תשלומים. כל תשלום יהיה בסכום של עד 6,000 ₪, עבור 6 חודשי שכירות מקסימום.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-second-within-4-months",
+      "claim": "The second request must be filed no later than 4 months after the first period ends.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "עליכם להגיש בקשה נוספת עד 4 חודשים לכל המאוחר מסיום התקופה הראשונה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-late-first-file-second-now",
+      "claim": "If the first request was filed after the first 6 months had passed, file the second request immediately via *5266.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "עליכם להגיש מיד גם את הבקשה לתשלום השני, ללא המתנה, באמצעות פנייה יזומה למוקד הטלפוני 5266*.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-lease-in-service-10-months",
+      "claim": "A lease that started during service is reimbursed only for the post-discharge period (example: lease 1 January, discharge 1 March, 10 months).",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "החוזה התחיל עוד במהלך שירות החובה: ההחזר יינתן רק על התקופה שלאחר השחרור. (לדוגמה: אם החוזה התחיל ב-1 בינואר והשתחררתם ב-1 במרץ, תקבלו החזר רק עבור 10 החודשים שלאחר השחרור).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-completion-12-months",
+      "claim": "In both cases the remainder of the entitlement is owed; right after the second payment, call *5266 for a completion request.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "בשני המקרים הללו מגיעה לכם השלמה של יתרת הזכאות. מיד לאחר קבלת התשלום השני, פנו למוקד הטלפוני ב- ​5266* לקבלת הנחיות להגשת בקשת השלמה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-new-lease-3-months",
+      "claim": "A new lease must start within 3 months of the previous lease ending.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "החוזה החדש חייב להתחיל בטווח של עד 3 חודשים ממועד סיום החוזה הקודם",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py"
+      ]
+    },
+    {
+      "claim_id": "rent-declaration-only-2026",
+      "claim": "From 01/07/26 the submission is a declaration form only, signed by the soldier and the landlord.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "מה עליכם לצרף להגשת הבקשה? (שימו לב, תהליך חדש החל מה- 01/07/26)",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py",
+        "references/documents-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "rent-benefit-labelled-2026",
+      "claim": "In the personal area the benefit is labelled by year; for the second payment choose the year of the first request.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "\"סיוע בשכר דירה לחיילים בודדים משוחררים שנת 2026\"",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-bank-sms-48h",
+      "claim": "Bank detail updates are confirmed by SMS within 48 hours.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "תוך 48 שעות תקבלו מסרון (SMS) המאשר או דוחה את תקינות הפרטים החדשים שעדכנתם.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ]
+    },
+    {
+      "claim_id": "rent-check-7-business-days",
+      "claim": "Uploaded document checked within 7 business days excluding holidays and Fridays.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Rent.aspx",
+      "raw_snippet": "בדיקת המסמכים תעשה תוך 7 ימי עסקים (לא כולל ימי חג וימי שישי)",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "beit-hachayal-post-discharge-3-months-deducted",
+      "claim": "Discharged lone soldiers may live free in a Beit HaChayal up to 3 months after discharge; those months are deducted from the rent-assistance period; requested month by month via the personal area.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "חיילים בודדים שהשתחררו מצה\"ל רשאים להמשיך ולהתגורר חינם באחד מבתי החייל עד 3 חודשים לאחר השחרור.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py",
+        "references/additional-benefits.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "beit-hachayal-deducted-from-rent",
+      "claim": "Months in Beit HaChayal after discharge are deducted from the rent-assistance eligibility period.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "למי שיתגוררו בבית החייל לאחר השחרור יופחתו חודשים אלה מתקופת הזכאות לסיוע בשכר דירה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/post-discharge-rent-estimator.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "beit-hachayal-monthly-requests",
+      "claim": "A second and third month can be requested beyond the first.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "אם יש צורך בחודש נוסף מעבר לחודש הראשון שהתקבל בבקשה הראשונה, ניתן לבקש חודש שני ואף שלישי.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "beit-hachayal-leave-lodging",
+      "claim": "Free lodging on leave, long weekends and holidays subject to a free place; show lone-soldier certificate, military ID and leave confirmation; meals free; permanent residence possible.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "במהלך חופשה רגילה, חופשת סוף שבוע ארוכה ובזמן החגים, חיילים בודדים זכאים ללינה חינם בכל אחד מבתי החייל הפרוסים ברחבי הארץ.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diaspora-orgs-directory.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "beit-hachayal-documents",
+      "claim": "Show lone-soldier certificate, military ID and confirmation of the leave type.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "עם ההגעה, יש להציג לפני האחראי בבית החייל: תעודת חייל בודד, תעודת חוגר ואישור המעיד על סוג החופשה",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "beit-hachayal-permanent",
+      "claim": "Lone soldiers may live permanently in a Beit HaChayal.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "חיילים בודדים רשאים ללון בקביעות באחד ממתקני \"האגודה למען החייל\" (בית החייל).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "hachvana-dior-3-months",
+      "claim": "hachvana housing help for discharged lone soldiers: up to 3 months of lodging in Beit HaChayal.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/dior.aspx",
+      "raw_snippet": "עד 3 חודשי לינה בבתי החייל",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md",
+        "references/additional-benefits.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-lone-soldier-10-years-60-days",
+      "claim": "A reservist recognized as boded through discharge is a lone soldier in reserves for 10 years from discharge; the Iron Swords definition requires more than 60 cumulative reserve days.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/Lone-Soldiers-in-Reserve-Duty.aspx",
+      "raw_snippet": "משרת מילואים אשר הוגדר כחייל בודד בשירות החובה עד תת\"ש, ההגדרה תהיה בתוקף למשך 10 שנים מיום שחרורו משירות החובה. על חייל המילואים לבצע מעל 60 ימי מילואים במצטבר במהלך מלחמת \"חרבות ברזל\".",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "section-7-7a-contents",
+      "claim": "Section 7 covers bagrut completion/improvement, dedicated mechina tracks, handasaim and vocational training; 7a is a first-year bachelor scholarship.",
+      "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
+      "raw_snippet": "כלל החיילים המשוחררים יהיו זכאים להטבות בסעיף 7 לחוק (לימודים להשלמה או שיפור בגרויות ומסלולי מכינה ייעודיים במכינות הקדם-אקדמיות / הנדסאים / הכשרות מקצועיות) ו-7א' לחוק (מלגת לימודים לשנה ראשונה לתואר ראשון)",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "mechina-full-tuition-stipend",
+      "claim": "Discharged lone soldiers within 10 years get full mechina tuition plus a monthly living stipend; discharged from July 2021 register directly with the mechina using the confirmation from the IDF wallet app.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/preparatory-lone-soldiers.aspx",
+      "raw_snippet": "חיילות וחיילים בודדים משוחררים, עד 10 שנים מיום השחרור במועד הרישום למכינה, לאחר הגשת כל המסמכים ותשלום דמי הרישום.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md"
+      ]
+    },
+    {
+      "claim_id": "mechina-full-funding",
+      "claim": "Full funding of tuition for the entire mechina plus living stipend.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/preparatory-lone-soldiers.aspx",
+      "raw_snippet": "מימון מלא של שכר הלימוד לכל תקופת הלימודים במכינה + דמי קיום.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mechina-july-2021",
+      "claim": "Discharged July 2021 or later register directly with the mechina using the lone-soldier confirmation from the IDF wallet app.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/preparatory-lone-soldiers.aspx",
+      "raw_snippet": "אם השתחררתם ביולי 2021 ואילך – ההרשמה מתבצעת ישירות מול המכינה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "psychometric-refund-discharged",
+      "claim": "hachvana refunds a psychometric course and test for discharged lone soldiers.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/psichometri.aspx",
+      "raw_snippet": "החזר עבור קורס פסיכומטרי",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md"
+      ]
+    },
+    {
+      "claim_id": "special-leave-exceptional-problem",
+      "claim": "Special leave is for an exceptional personal problem such as a severe urgent financial one; first 5 days from regular leave.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_מיוחדת_לחיילים_בודדים",
+      "raw_snippet": "חייל בודד הנתקל בבעיה אישית חריגה (כגון בעיה כספית חמורה ודחופה), רשאי להגיש בקשה לחופשה מיוחדת לטיפול בפיתרון הבעיה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "special-leave-first-5-days",
+      "claim": "The first five days of special leave come from the regular leave.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_מיוחדת_לחיילים_בודדים",
+      "raw_snippet": "חמשת הימים הראשונים של החופשה יהיו על חשבון חופשת הרגילה של החייל.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "early-release-50km",
+      "claim": "Early release before Shabbat/holidays for a lone soldier in a closed unit or more than 50 km from home.",
+      "source_url": "https://www.kolzchut.org.il/he/יציאה_מוקדמת_לחיילים_בודדים",
+      "raw_snippet": "חייל בודד המשרת ביחידה סגורה, או שהמרחק מביתו ליחידה הוא למעלה מ-50 ק\"מ.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "dmei-kalkala-50",
+      "claim": "Subsistence pay from the first day of sick leave at home of 3+ days; increased by 50% when received regularly.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_כלכלה_לחיילים_בודדים",
+      "raw_snippet": "לחייל המקבל באופן קבוע דמי כלכלה (כאשר אין בבסיסו מטבח צבאי, או מסיבות רפואיות) ישולמו דמי כלכלה מוגדלים בשיעור של 50%.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "alch-apartments",
+      "claim": "IDF-rented furnished apartments, usually 4 rooms for 6 soldiers, no rent or taxes, laundry and food from the Aguda, vacate on discharge.",
+      "source_url": "https://www.kolzchut.org.il/he/דירות_אל\"ח_לחיילים_בודדים",
+      "raw_snippet": "לרוב מדובר בדירות ארבעה חדרים המיועדות לשישה חיילים, כך שלכל שני חיילים ישנו חדר משותף.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kolzchut-portal-post-discharge-items",
+      "claim": "The Kol Zchut lone-soldier portal lists post-discharge programs such as Benji House, Mentor LaChaim, LaMerchav and Gag LaChayal HaMeshuchrar, plus continued Beit HaChayal lodging.",
+      "source_url": "https://www.kolzchut.org.il/he/חיילים_בודדים",
+      "raw_snippet": "מרכז הכוונה וליווי מטעם הבית של בנג'י - לחיילים בודדים לקראת שחרורם מצה\"ל",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "nbn-table-feb-2024",
+      "claim": "NBN states its list is current as of February 2024.",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "raw_snippet": "The following is the most current and updated list of Lone Soldier benefits as of February 2024, including a summary chart of all the financial benefits.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "nbn-stipend-637",
+      "claim": "NBN table: lone soldier stipend 637.11 NIS.",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "raw_snippet": "Lone Soldier Stipend\t637.11 NIS\t637.11 NIS\t637.11 NIS",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "nbn-risk-pay",
+      "claim": "NBN table: risk pay 247.68 NIS (combat support) and 495.05 NIS (combat).",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "raw_snippet": "Risk Pay\t\t247.68 NIS\t495.05 NIS",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "nbn-rent-maintenance",
+      "claim": "NBN table: apartment maintenance 372.39 NIS and rental assistance 1,482.49 NIS.",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "raw_snippet": "Apartment Maintenance for Lone Soldiers\t372.39 NIS Lone Soldier Rental Assistance\t1,482.49 NIS",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "nbn-hotline-abroad",
+      "claim": "NBN lists the IDF Merkaz Bodedim hotline from abroad as +972-3-5691000.",
+      "source_url": "https://www.nbn.org.il/nbnlsp/lone-soldier-benefits/",
+      "raw_snippet": "Hotline from abroad: +972-3-5691000",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diaspora-orgs-directory.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "fidf-24h-call-center",
+      "claim": "FIDF with NBN runs a 24-hour call center, holiday meals, Errands Day, financial safety net, flights home, Fun Day, housing.",
+      "source_url": "https://www.fidf.org/lone-soldier-support/",
+      "raw_snippet": "In partnership with Nefesh B’Nefesh, FIDF’s Lone Soldiers program includes a 24-hour call center, advocacy with government agencies, social gatherings such as holiday meals and Errands Day, and more.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diaspora-orgs-directory.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-call-center-03-9733333",
+      "claim": "Kol Zchut recommends calling the Aliyah Ministry center at 03-9733333 first.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "מומלץ לפנות מראש טלפונית למוקד משרד העלייה והקליטה במספר הטלפון: 03-9733333.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-exceptions",
+      "claim": "Exceptions: appeals committee; soldier more than 3 years in Israel who studied before enlisting may apply with a Student Authority confirmation.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "חייל הנמצא מעל 3 שנים בארץ יוכל לפנות בבקשה חריגה, אם הוא למד טרם גיוסו לצה\"ל.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aliyah-grant-appeals-committee",
+      "claim": "When the qualifying period has passed, apply to the Aliyah Ministry appeals committee as an exception.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "אם התקופה המזכה בסיוע ממשרד הקליטה חלפה או בכל מקרה חריג אחר, ניתן לפנות למשרד הקליטה לוועדת ערעורים בבקשה לקבלת סיוע כחריג.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "amharic-line",
+      "claim": "Amharic help line for Ethiopian-origin soldiers: 03-5690822.",
+      "source_url": "https://www.kolzchut.org.il/he/מענק_מטעם_משרד_העלייה_והקליטה_לחייל_בודד_או_מתנדב_בודד_בשירות_לאומי-אזרחי",
+      "raw_snippet": "חיילים יוצאי אתיופיה, יוכלו לפנות גם למוקד סיוע לבני העדה בצה\"ל בשפה האמהרית במספר: 03-5690822.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "rakezet-briefing-basic-training",
+      "claim": "At basic-training intake the Rakezet Tash must brief the soldier personally on their rights.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "במעמד קליטת חיילים בבסיסי הטירונות, רכזת ת\"ש מחוייבת לתת לחייל הסבר אישי על זכויותיו ולהקפיד על מימושן.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "lodging-unrecognized-hlana",
+      "claim": "Soldiers not recognized as lone soldiers may still get Beit HaChayal lodging under hlana for personal reasons.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בבית_החייל_לחיילים_בודדים",
+      "raw_snippet": "חיילים שלא הוכרו כחיילים בודדים עשויים אף הם להיות זכאים ללינה בבית החייל, במסגרת הלנה מטעמי פרט.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "olim-rent-addition",
+      "claim": "A lone soldier also entitled to rent assistance as a new immigrant gets an addition.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "במקרה שלחייל בודד ישנה זכאות לסיוע בשכר דירה כעולה חדש, הוא יהיה זכאי לתוספת בסיוע.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/citizenship-and-aliyah.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "housing-lease-attached",
+      "claim": "The rent participation request attaches the lease.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "יש לצרף לבקשה את חוזה השכירות.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/documents-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "housing-no-full-prepayment",
+      "claim": "Kol Zchut advises not to commit to full advance payment, but monthly or every 3 months.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בהוצאות_דיור_לחיילים_בודדים",
+      "raw_snippet": "רצוי שלא להתחייב בחוזה השכירות לתשלום מלא מראש, אלא לתשלומים חודשיים, או לתשלום כל 3 חודשים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-50-400",
+      "claim": "Electricity: 50% off the first 400 kWh a month at domestic rate, for lone soldiers receiving rent participation.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "ההנחה היא בשיעור 50% עבור 400 קילוואט־שעה הראשונים בכל חודש",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-rent-condition",
+      "claim": "Only lone soldiers receiving rent participation.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "חיילים בודדים שמקבלים השתתפות בשכר דירה זכאים להנחה בתשלום חשבון החשמל.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-max-129",
+      "claim": "Maximum about 129 NIS a month as of January 2026.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "סכום ההנחה המקסימלי הוא כ-129 ₪ לחודש וכ-257 ₪ לחשבון דו-חודשי (נכון לינואר 2026).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-name-id-103",
+      "claim": "Matched on the account holder name and ID; call 103; transfer the contract if in someone else name.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "אם החוזה רשום על שם של אדם אחר, יש לבקש שהחוזה יועבר על שמם.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-call-103",
+      "claim": "Missing discount: call the electricity company center 103.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "יתקשרו למוקד השירות הטלפוני 103",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "electricity-private-supplier",
+      "claim": "Private-supplier customers keep the discount through their supplier.",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בחשבון_חשמל_לחיילים_בודדים",
+      "raw_snippet": "מי שזכאים להנחה של 50% על 400 קוט\"ש מחברת החשמל ימשיכו לקבל את ההנחה באמצעות הספקים הפרטיים",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kibbutz-150-grant",
+      "claim": "A lone soldier living on a kibbutz gets a 150 NIS a month kibbutz grant; combat soldiers a separate room; adoptive families.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בקיבוצים_לחיילים_בודדים",
+      "raw_snippet": "לחייל בודד המתגורר בקיבוץ משולם מענק קיבוצים בסך 150 ₪ לחודש.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kibbutz-adoptive-separate-room",
+      "claim": "Kibbutzim provide furnished room, laundry, food, adoptive families; combat soldiers get a separate room.",
+      "source_url": "https://www.kolzchut.org.il/he/לינה_בקיבוצים_לחיילים_בודדים",
+      "raw_snippet": "חיילים לוחמים זכאים ללון בקיבוץ בחדר נפרד.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "holiday-vouchers-250",
+      "claim": "Holiday vouchers about 250 NIS per holiday (500 NIS a year).",
+      "source_url": "https://www.kolzchut.org.il/he/תווי_חג_לחיילים_בודדים",
+      "raw_snippet": "התווים הם בסך של כ-250 ₪ עבור כל חג (סה\"כ 500 ₪ לשנה).",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "holiday-vouchers-vary-idf",
+      "claim": "IDF page: holiday voucher amount changes year to year.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "סכום התווים משתנה משנה לשנה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "phone-card-60-minutes",
+      "claim": "Calling card: 60 minutes a month abroad, olim who came after 16 with parents abroad, no rollover or retroactive refund.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_שיחות_טלפון_לחו\"ל_לחיילים_בודדים",
+      "raw_snippet": "לא ניתן לצבור דקות שיחה מחודש לחודש ולא ניתן לקבל החזר רטרואקטיבי על אי ניצול של ההטבה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "phone-card-after-16",
+      "claim": "Eligible: a lone soldier who made aliyah after age 16 and whose parents are abroad.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_שיחות_טלפון_לחו\"ל_לחיילים_בודדים",
+      "raw_snippet": "חייל בודד שעלה לארץ לאחר גיל 16 והוריו שוהים בחו\"ל.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "abroad-leave-30-once-per-year",
+      "claim": "30-day leave to visit parents abroad, once per service year, not to field-security-barred countries.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לצורך_ביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "משך החופשה הוא 30 ימים, והיא ניתנת פעם אחת בכל שנת שירות.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "abroad-leave-field-security",
+      "claim": "Not to countries barred for field-security reasons.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לצורך_ביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "פרט למדינות האסורות לביקור מטעמי ביטחון שדה",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "abroad-leave-not-insured",
+      "claim": "The IDF does not insure a soldier going abroad on leave.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לצורך_ביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "צה\"ל אינו מבטח בביטוח רפואי חייל היוצא לחו\"ל במסגרת חופשה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "passport-fee-discount",
+      "claim": "Every mandatory soldier gets a passport-fee discount.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לצורך_ביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "כל חייל בשירות חובה זכאי להנחה באגרת הוצאה או חידוש של דרכון.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "valid-passport-advice",
+      "claim": "Keep a valid Israeli passport for urgent travel.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לצורך_ביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "מומלץ לחייל לוודא תמיד כי ברשותו דרכון ישראלי בר תוקף למקרה שבו יצטרך לצאת לחו\"ל בדחיפות.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "parent-visit-israel-leave",
+      "claim": "When at least one parent visits Israel: at least 4 days per half year and 8 per calendar year, muvhak only.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לרגל_ביקור_הוריהם_בארץ",
+      "raw_snippet": "ארבעה ימי חופשה לפחות בכל חצי שנה. שמונה ימי חופשה לפחות בכל שנה.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "parent-visit-israel-calendar-year",
+      "claim": "Counted by calendar year.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_לחיילים_בודדים_לרגל_ביקור_הוריהם_בארץ",
+      "raw_snippet": "הזכאות, בהתאם לשנה הקלנדרית (מה-1 בינואר עד ל-31 בדצמבר באותה שנה), כוללת:",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "yom-sidurim-every-two-months",
+      "claim": "One midweek errands day every two months on top of regular leave; the direct commander may approve one more a month.",
+      "source_url": "https://www.kolzchut.org.il/he/יום_חופשה_לחיילים_בודדים_לצורך_סידורים_אישיים",
+      "raw_snippet": "חייל בודד זכאי לקבל אחת לחודשיים יום חופשה באמצע השבוע לצורך סידורים אישיים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "yom-sidurim-extra-monthly",
+      "claim": "The direct commander may approve an extra errands day once a month.",
+      "source_url": "https://www.kolzchut.org.il/he/יום_חופשה_לחיילים_בודדים_לצורך_סידורים_אישיים",
+      "raw_snippet": "מפקדו הישיר של החייל רשאי לאשר לו יום סידורים נוסף פעם בחודש.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "pikadon-auto-transfer-after-5",
+      "claim": "After 5 years the unused Pikadon balance is transferred automatically to the bank account in the personal area.",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "raw_snippet": "יתרת הכספים שלא נוצלה תועבר באופן אוטומטי לחשבון הבנק המעודכן שלכם באזור האישי",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operational-items.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "pikadon-israel-only",
+      "claim": "Pikadon money can be used only in Israel.",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "raw_snippet": "כספי הפיקדון האישי ניתנים למימוש בתחומי מדינת ישראל בלבד.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/citizenship-and-aliyah.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "pikadon-six-purposes-list",
+      "claim": "The six purposes: studies, vocational training, business, driving lessons, marriage, apartment or land.",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "raw_snippet": "לימודים, הכשרה מקצועית, מימון עסק, לימודי נהיגה, נישואין ורכישת דירה/קרקע לבניית בית.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "pikadon-7-to-10-years",
+      "claim": "The law page records the realization period extended from 7 to 10 years for those discharged after 12.7.2007.",
+      "source_url": "https://www.hachvana.mod.gov.il/odot/Pages/hakdamalachock.aspx",
+      "raw_snippet": "הוארכה הזכאות למימוש הפיקדון האישי מ-7 ל-10 שנים מיום השחרור, לכלל החיילים המשוחררים שהשתחררו לאחר 12.7.2007",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "hachvana-telegram-counselling",
+      "claim": "hachvana offers discharged lone soldiers personal counselling and a dedicated Telegram channel.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/SingleSolders/Pages/default.aspx",
+      "raw_snippet": "ערוץ טלגרם מיוחד לחיילים בודדים משוחררים",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-funders-family-flights",
+      "claim": "The flights project is organized by the Aguda and funded by FIDF, ASI Canada, the Fellowship and El Al frequent-flyer club; in special cases the Aguda flies family to Israel.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "פרויקט \"מתגעגעים הביתה\" שבמסגרתו מארגנת האגודה למען החייל את הטסתם של החיילים, ממומן על-ידי ארגון ידידי צה\"ל בארה\"ב ובפנמה (FIDF), האגודה למען החייל - קנדה (ASI), הקרן לידידות ומועדון הנוסע המתמיד של אל על.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diaspora-orgs-directory.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "aguda-flies-family",
+      "claim": "In special cases, at the IDF request, the Aguda flies lone soldiers family members to Israel.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "במקרים מיוחדים, ולבקשת צה\"ל, האגודה למען החייל מטיסה לישראל בני משפחה של חיילים בודדים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "flight-once-during-service",
+      "claim": "Kol Zchut: flight funding once during the military service period.",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_טיסה_לחיילים_בודדים_לביקור_הוריהם_בחו\"ל",
+      "raw_snippet": "ניתן לקבל את המימון פעם אחת במהלך תקופת השירות הצבאי.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kochavim-totals",
+      "claim": "IDF page: kochavim 215 before enlistment; 845/335 after a month; 205/145 after a year; totals 1,265/695.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "לפני הגיוס: מקבל החייל 215 כוכבים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kochavim-month",
+      "claim": "A month after enlistment: combat 845, combat support 335.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "לאחר חודש מהגיוס: לוחם - מקבל 845 כוכבים, תומך לחימה - מקבל 335 כוכבים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kochavim-year",
+      "claim": "After a year: combat 205, combat support 145.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "לאחר שנה מהגיוס: לוחם - מקבל 205 כוכבים, תומך לחימה -מקבל 145 כוכבים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kochavim-total",
+      "claim": "Totals: combat 1,265, combat support 695.",
+      "source_url": "https://www.idf.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%A9%D7%9C%D7%99/%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%99%D7%97%D7%95%D7%93%D7%99%D7%99%D7%9D/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A7%D7%91%D7%95%D7%A2%D7%95%D7%AA-%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%93%D7%93%D7%99%D7%9D/",
+      "raw_snippet": "סה\"כ כוכבים בשירות: לוחם -  1265, תומך לחימה - 695.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "kolzchut-garin-tzabar-link",
+      "claim": "Kol Zchut links Lone Soldiers Benefits on the Tzofim Garin Tzabar site.",
+      "source_url": "https://www.kolzchut.org.il/he/חיילים_בודדים",
+      "raw_snippet": "Lone Soldiers Benefits באתר צופים גרעין צבר",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/diaspora-orgs-directory.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "appeal-new-hearing",
+      "claim": "A change in facts requires a new hearing in the committee for exceptional lone soldiers.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_להכרה_כחייל_בודד",
+      "raw_snippet": "החלטת ועדת ערעורים תהיה מנומקת וסופית, אלא אם כן חלו שינויים בנתונים, ואלה יחייבו דיון מחדש בוועדה להכרה בחיילים בודדים חריגים.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/recognition-process.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-applies-unmarried",
+      "claim": "Order 35.0808 (פקודת מטכ\"ל 35.0808, סעיף 2) applies to an unmarried mandatory soldier not entitled to family payments, except mandatory service under keva terms.",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "פקודה זו חלה על קצין או חוגר בשירות החובה שאינו נשוי ,ואינו זכאי לתשלומי משפחה",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-section-notation",
+      "claim": "Section labels cited from the order: סעיף 8ב, סעיף 8ד, סעיף 8ה, סעיף 9, סעיף 10, סעיף 11ג, סעיף 11ד, סעיף 11ו, סעיף 11ז (order §8ב, §8ד, §9, §11ג, §11ד, §11ו, §11ז).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "הכרה בדיעבד וביטול הכרה בדיעבד",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-report-14-days",
+      "claim": "Report any change in the circumstances of recognition to the Tash staff within 14 days (§8ד).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "ידווח לסגל הת\"ש ביחידתו על כל שינוי בנסיבות אשר הובילו להכרתו כחייל בודד ,בתוך 14 ימים ממועד השינוי.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-shlichut-recognition-end",
+      "claim": "Muvhak recognition for a soldier whose parents are on shlichut lasts until the shlichut or service ends, whichever is earlier (§8ב).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד מובהק שהוריו בשליחות -יוכר עד למועד סיום השליחות או עד לתום שירות החובה ,לפי המוקדם מבניהם.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-retroactive-recognition",
+      "claim": "Recognition can be approved retroactively when the delay was not the soldier fault or is justified (§9).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חל עיכוב בהגשת בקשה להכרה כחייל בודד או בטיפול בה -ניתן יהיה לאשר הכרה בחייל בודד בדיעבד",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-end-and-cancel",
+      "claim": "The approving authority may end recognition when its justification changes (§8ה); the exceptions committee may cancel retroactively if a change was not reported (§10).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "ועדת החריגים מוסמכת לבטל בדיעבד הכרה בחייל כחייל בודד",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "references/recognition-process.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-errands-day",
+      "claim": "Errands day at least every two months, not against annual or special leave (§11ג).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "אחת לחודשיים ,לכל הפחות ,ובתיאום עם מפקדו ,זכאי חייל בודד ליום חופשה לצורך ביצוע סידורים",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-errands-training",
+      "claim": "Monthly in initial training; never Friday or holiday eve (§11ג).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד בהכשרה ראשונית יהיה זכאי ליום סידורים אחד בחודש .יום סידורים לא יחול ביום שישי או בערב חג.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-move-2-days",
+      "claim": "Two leave days for each apartment or housing-solution move (§11ד).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד זכאי לשני ימי חופשה לרגל כל מעבר דירה או מעבר פתרון דיור",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-parent-visit-8-days",
+      "claim": "8 special-leave days per calendar year while parents visit Israel, counted against the special-leave quota, more if the commander approves (§11ו).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד זכאי לשמונה ימי חופשה מיוחדת בשנה קלנדארית",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-parent-visit-4-training",
+      "claim": "4 days a year for a soldier in initial training or a course (§11ו).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד הנמצא בהכשרה ראשונית או בקורס זכאי לארבעה ימי חופשה מיוחדת בלבד בשנה קלנדארית",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-abroad-30-in-addition",
+      "claim": "30-day special leave per service year to visit a first-degree relative abroad, in addition to the special-leave quota (§11ז).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד זכאי לחופשה מיוחדת בת 30יום בשנת שירות לביקור קרוב מדרגה ראשונה המתגורר בחו\"ל ,בנוסף למכסת החופשה המיוחדת",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-service-year-365",
+      "claim": "Service year = 365-day periods from enlistment (§11ז).",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "שנת שירות נמדדת בפרקי זמן של 365ימים מיום גיוסו של החייל",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "mahal-gate-non-israelis",
+      "claim": "The volunteers guide site describes its programs as a gate for non-Israelis and overseas Israelis.",
+      "source_url": "http://www.mahal-idf-volunteers.org/",
+      "raw_snippet": "non-Israelis and overseas Israelis",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "discharge-grant-advance-14-days",
+      "claim": "Discharged lone soldiers get an advance on the discharge grant within 14 days of discharge; if missing call 1111 extension 2; the full grant arrives within 60 days to the salary account.",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "raw_snippet": "חיילות וחיילים בודדים משוחררים, יקבלו מקדמה על חשבון כספי המענק, תוך עד 14 ימים מיום השחרור. אם לא הועברה מקדמה בתום 14 ימים, ניתן לפנות למוקד צה\"ל, בטלפון 1111 שלוחה 2",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "discharge-grant-60-days",
+      "claim": "The discharge grant arrives within 60 days of the end of service; keep the bank account active.",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "raw_snippet": "תוך 60 יום מסיום השירות. לכן, מומלץ להשאיר את חשבון הבנק שלכם פעיל בתקופה זו.",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "order-two-level-appeal",
+      "claim": "Order §6-7 (סעיפים 6-7): appeal of a muvhak refusal goes to the exceptions committee; its decision is appealed to a committee headed by רמ\"ח מופ\"ת; reasoned written decisions.",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "ערעור על החלטת ועדת החריגים יידון בוועדה בראשות אכ\"א-רמ\"ח מופ\"ת ,או מי שמונה מטעמו לצורך כך .החלטה מנומקת בערעור תינתן בכתב",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/recognition-process.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "order-early-release-all",
+      "claim": "Order §11ה (סעיף 11ה): every lone soldier leaving for weekend or holiday leave may leave in time to reach home by 12:00.",
+      "source_url": "https://www.idf.il/media/rqyjrko0/פמ-350808-מעודכנת-פברואר-2021.pdf",
+      "raw_snippet": "חייל בודד היוצא לחופשת סוף שבוע או חג זכאי לצאת מהבסיס בשעה שתאפשר לו להגיע למקום מגוריו עד השעה .12:00",
+      "fetched_at": "2026-10-07T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/additional-benefits.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-07"
     }
-  ]
+  ],
+  "skill": "israeli-lone-soldier-rights"
 }
