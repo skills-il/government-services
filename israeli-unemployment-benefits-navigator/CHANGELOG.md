@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.3 - 2026-10-18
+
+- The Bar/CPA exam rule now names the exams the rule actually covers: the Part B CPA exams in financial accounting or auditing, not all of Part B.
+- A trainee must supply BL with a monthly attendance confirmation from the place of study; the reference said the course sends it.
+
 ## 1.7.2 - 2026-10-18
 
 - Step 4 said a missed dependant costs "37 or 38 days". Reaching 3 dependants is worth 88 days under 25 (50 to 138), 71 at 25-27 (67 to 138), 38 at 28-34 and 37 at 35-44, so it now reads "37 to 88 days, depending on the age band". Caught by the independent judge after the 1.7.1 tag.

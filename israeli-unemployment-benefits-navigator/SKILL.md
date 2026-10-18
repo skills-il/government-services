@@ -212,7 +212,7 @@ Warn the user if any of these apply:
 | Working part-time | BL compares per day: wage / days worked against the daily benefit. Below it, you get the difference; at or above, nothing for those days | Report all income. For a few low-paying days, ask the lishka not to record unemployment days for them |
 | Lost one of two jobs | Can still claim for the lost job; the base uses both wages, and the continuing wage is deducted | Claim; do not assume a remaining job blocks it |
 | Took a new job (50%+ of a post) paying less per day than the benefit | Low-wage grant: (daily benefit minus half the new daily wage), up to 100 days, not taken from the quota | Needs 25+ days at 50%+ of a post; start early. Details in `references/eligibility-rules.md` |
-| Bar or CPA final (Part B) exam candidate | No benefit in the 2 months before the exam | Plan the claim around the exam date |
+| Bar exam, or CPA Part B financial accounting or auditing exam | No benefit in the 2 months before it | Plan around the exam date |
 | Worked abroad in last 18 months | May fail akhshara | An Israeli employer plus a contract signed in Israel qualifies directly. Aggregation applies ONLY to the unemployment-branch treaty countries, **Austria, the Netherlands and Sweden**; the general treaties with the US, UK, Germany, France, Canada and Switzerland do NOT cover unemployment |
 
 ## Special Cases

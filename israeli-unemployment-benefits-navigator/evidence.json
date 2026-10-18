@@ -1486,6 +1486,16 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "trainee-monthly-attendance-confirmation",
+      "claim": "A claimant in vocational training must supply a monthly confirmation from the place of study of course attendance and study days, and BL pays according to it.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avthcsaramikzoeit.aspx",
+      "raw_snippet": "יש להמציא בכל חודש אישור ממקום הלימודים על נוכחות בקורס",
+      "fetched_at": "2026-10-18T18:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md"
+      ]
     }
   ],
   "pending_verification": []
