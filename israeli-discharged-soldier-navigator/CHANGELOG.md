@@ -61,3 +61,44 @@ All notable changes to this skill are documented here.
 - `pikadon-calculator.py`: added `--medical-discharge` and `--hesder-total-months` (credit-point
   threshold only), stopped applying the sherut-sadir gender cap to the national-service and
   civilian tracks, and corrected the docstring from Feb to May 2026 rates.
+
+## 1.6.0 (2026-10-18)
+
+### Fixed (critical)
+- **SHLAT counts toward the Pikadon and the grant.** Earlier versions said unpaid service does not
+  accrue Pikadon. Section 11(a) credits every month of regular service and trims SHLAT only beyond
+  the cap, and the hachvana grant page says SHLAT tops the period up to 32 months (24 for a woman).
+  A hesder soldier was under-estimated by 10,000 NIS or more. The script now takes
+  `--total-service-months`.
+- **The Fund pays a mechina before the Pikadon does.** The skill sent combat veterans, lone
+  soldiers and olim to spend their own Pikadon on a mechina the Fund finances outright
+  ("הסיוע אינו מוענק על חשבון הפיקדון"). New Step 8.4 and `references/department-programs.md`.
+
+### Changed
+- Pikadon and grant rates updated to the MoD's August 2026 figures (combat 1,000.08 / 691.53).
+- Pikadon availability for national-civic service completers: day 14 per hachvana (Kol Zchut still
+  says 30). Post-5-year transfer within up to 60 business days, with the post-office and foreign
+  account routes.
+- Service-data corrections now go to the IDF "שער לעתיד" directorate (WhatsApp 03-7374789,
+  atid@digital.idf.il). The Department is now "האגף לחיילים משוחררים ומילואים".
+- The "free university law" is identified as Mimadim itself (s.7A1, Amendment 25 of 21.12.2023),
+  not a separate Iron Swords law.
+
+### Added
+- The Department's own scholarships 44 / 45 / 46 (45 and 46 close 31.10.2026), technician
+  funding, and the combat-veteran programmes (Tochnit Amit, near-full vocational funding,
+  Lochamim LeHitech). Routing for injury recognition to the MoD Rehabilitation Division.
+- Script: a 12-month eligibility gate, the 24-month credit threshold for all civic tracks, and
+  the 32/24 cap on every tier.
+
+- **Injury discharge is full service, not pro-rata.** Section 10A(b) deems a soldier discharged for
+  a training or operational injury (Head of Manpower determination) to have completed full
+  compulsory service for the Pikadon and grant. The script has `--injury-discharge`; health
+  discharges stay pro-rata.
+- Return-to-work disputes: the ועדת תעסוקה forum (s.21) and the 20-day appeal (s.23), now cited
+  from the 1949 statute. The script prints a SHLAT range (acher tier low, served tier high).
+
+### Removed
+- Unsupported claims: an employer burden of proof under the return-to-work statute, a Mador
+  Mishpachot Shakulot routing for Pikadon inheritance, and a fixed "2.25 points" base that is
+  wrong for women.

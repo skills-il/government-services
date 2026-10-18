@@ -1,15 +1,15 @@
 {
   "skill_slug": "israeli-discharged-soldier-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-05-18",
+  "generated_at": "2026-10-18T06:00:00Z",
   "claims": [
     {
       "id": "pikadon-eligibility-12-months",
       "claim": "Pikadon eligibility requires at least 12 months of mandatory service (IDF, MAGAV, Israel Police, SHABAS) or Sherut Leumi-Ezrachi; less than 12 months qualifies only if discharged for health reasons or training/operational injury",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "מי שהשתחררו משירות חובה בצה\"ל, במג\"ב, במשטרת ישראל, בשב\"ס, או סיימו שירות לאומי-אזרחי ששירתו לפחות 12 חודשים",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "מי שהשתחררו משירות חובה בצה\"ל, במג\"ב, במשטרת ישראל, בשב\"ס, או סיימו שירות לאומי-אזרחי ושירתו לפחות 12 חודשים.",
       "confidence": "high"
     },
     {
@@ -50,20 +50,26 @@
     },
     {
       "id": "pikadon-monthly-amounts-2026",
-      "claim": "Monthly Pikadon credit by service type, as updated to May 2026: combat (lochamim) NIS 990.63, combat support (tomchei lechima) NIS 825.52, rear (orfi) NIS 660.42, national-civic service NIS 660.42, intermediate civilian track NIS 495.38, split civilian track NIS 330.25, per month of service.",
-      "claim_type": "currency",
+      "claim": "Monthly Pikadon credit by service type, as updated to August 2026: combat 1,000.08, combat support 833.40, rear 666.72, national-civic service 666.72, intermediate civilian track 500.10, split civilian track 333.40 NIS per month of service.",
+      "claim_type": "amount",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים לאוגוסט 2026): • לוחמים: 1,000.08 ₪ לכל חודש שירות. • תומכי לחימה: 833.40 ₪ לכל חודש שירות. • עורפי: 666.72 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 666.72 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 500.10 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 333.40 ₪ לכל חודש שירות. לחישוב",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "id": "pikadon-tax-exempt-9-27",
       "claim": "Pikadon withdrawals are exempt from income tax per Section 9(27) of the Income Tax Ordinance (Pkudat Mas Hachnasa)",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "מכספי הפיקדון האישי לא מנוכה מס הכנסה (פקודת מס הכנסה, סעיף 9(27))",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "מכספי הפיקדון האישי לא מנוכה מס הכנסה.",
       "confidence": "high"
     },
     {
@@ -71,8 +77,8 @@
       "claim": "At the end of 5 years from end of mandatory service, the remaining Pikadon balance may be used for any purpose; it is auto-transferred to the soldier's bank account (60-day notification, 7 business days actual credit)",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
-      "source_fetched_at": "2026-05-18T12:00:00Z",
-      "raw_snippet": "בתום 5 שנים מסיום שירות החובה או השירות הלאומי-אזרחי ניתן לממש את יתרת כספי הפיקדון עבור כל מטרה. יתרת הפיקדון תועבר לחשבון הבנק באופן אוטומטי",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "בתום 5 שנים מסיום שירות החובה או השירות הלאומי-אזרחי ניתן לממש את יתרת כספי הפיקדון עבור כל מטרה.",
       "confidence": "high"
     },
     {
@@ -125,8 +131,8 @@
       "claim": "Credit points by service length, as published: soldiers 23 months and over = 2, soldiers 12 to 23 = 1; female soldiers 22 and over = 2, 12 to 22 = 1; national-service completers 24 months = 2, 12 months = 1. The source table is internally inconsistent about the boundary month, so the skill states these as >= thresholds rather than as ranges.",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "source_fetched_at": "2026-08-27T04:33:49.172076+00:00",
-      "raw_snippet": "חיילים 23 חודשים ומעלה 2 חיילים בין 12 ל- 23 חודשים 1 חיילות 22 חודשים ומעלה 2 חיילות בין 12 ל- 22 חודשים 1 בני ובנות השירות הלאומי 24 חודשים 2 בני ובנות השירות הלאומי 12 חודשים 1",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "חיילים אורך השירות23 חודשים ומעלה מספר נקודות הזיכוי2",
       "confidence": "high"
     },
     {
@@ -198,12 +204,17 @@
     },
     {
       "id": "mimadim-deadline-extension-iron-swords",
-      "claim": "For the current תשפ\"ו Mimadim cycle (October 2025 to the June 2026 summer semester), registration opened 3.11.25 and both registration and document upload close 31.10.26. No תשפ\"ז cycle has been published. The Iron Swords page still advertises an expired 2025 deadline and must not be used for this.",
-      "claim_type": "date",
+      "claim": "For the current תשפ\"ו Mimadim cycle registration was extended to 31.10.26; registration opened 3.11.25 and document upload also closes 31.10.26. No תשפ\"ז cycle is published.",
+      "claim_type": "deadline",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "source_fetched_at": "2026-08-27T04:44:57.991451+00:00",
-      "raw_snippet": "מועד ההרשמה: • מועד פתיחת ההרשמה לשנת תשפ\"ו (אוקטובר 2025/מרץ 2026)​: 3.11.25 • מועד אחרון להרשמה: 31.10.26",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "ההרשמה למלגה לשנת תשפ\"ו (אוקטובר 2025 - יוני 2026 - סמסטר קיץ) הוארכה עד ה - 31.10.26",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
     },
     {
       "id": "hachvana-portal-url",
@@ -247,12 +258,16 @@
     },
     {
       "id": "hebrew-shekel-notation-pikadon-rates",
-      "claim": "Hebrew shekel notation for the Pikadon monthly rates updated to May 2026: לוחמים 990.63 ₪, תומכי לחימה 825.52 ₪, עורפי 660.42 ₪, שירות לאומי אזרחי 660.42 ₪, מסלול אזרחי ביניים 495.38 ₪, מסלול אזרחי מפוצל 330.25 ₪.",
-      "claim_type": "currency",
+      "claim": "Hebrew shekel notation for the Pikadon monthly rates updated to August 2026: לוחמים 1,000.08 ₪, תומכי לחימה 833.40 ₪, עורפי 666.72 ₪, שירות לאומי אזרחי 666.72 ₪, ביניים 500.10 ₪, מפוצל 333.40 ₪.",
+      "claim_type": "amount",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים למאי 2026): • לוחמים: 990.63 ₪ לכל חודש שירות. • תומכי לחימה: 825.52 ₪ לכל חודש שירות. • עורפי: 660.42 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים לאוגוסט 2026): • לוחמים: 1,000.08 ₪ לכל חודש שירות. • תומכי לחימה: 833.40 ₪ לכל חודש שירות. • עורפי: 666.72 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 666.72 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 500.10 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 333.40 ₪ לכל חודש שירות. לחישוב",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "tofes-101-claim-form",
@@ -313,30 +328,45 @@
     },
     {
       "id": "pikadon-rates-may-2026",
-      "claim": "Pikadon monthly rates, MoD, updated May 2026: combat 990.63 NIS / 990.63 ש\"ח, combat support 825.52 NIS / 825.52 ש\"ח, rear/other 660.42 NIS / 660.42 ש\"ח, national-civic service 660.42 NIS, intermediate civilian track 495.38 NIS / 495.38 ש\"ח, split civilian track 330.25 NIS / 330.25 ש\"ח. Maximum accrual 32 months for a male soldier, 24 for a female soldier. Ignoring the training reclassification over-states a combat soldier's pikadon by roughly 660 NIS.",
+      "claim": "Pikadon monthly rates, MoD, updated August 2026 (superseding the May 2026 set, combat 990.63): combat 1,000.08 NIS / 1,000.08 ש\"ח, combat support 833.40, rear and national-civic service 666.72, intermediate civilian 500.10, split civilian 333.40.",
       "claim_type": "amount",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-07-14",
-      "raw_snippet": "לוחמים: 990.63 ₪ לכל חודש שירות. תומכי לחימה: 825.52 ₪ לכל חודש שירות. עורפי: 660.42 ₪ לכל חודש שירות. שירות לאומי אזרחי: 660.42 ₪ לכל חודש שירות. מסלול אזרחי ביניים: 495.38 ₪ לכל חודש שירות. מסלול אזרחי מפוצל: 330.25 ₪ לכל חודש שירות.",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "סכומי הפיקדון החודשיים (מעודכנים לאוגוסט 2026): • לוחמים: 1,000.08 ₪ לכל חודש שירות. • תומכי לחימה: 833.40 ₪ לכל חודש שירות. • עורפי: 666.72 ₪ לכל חודש שירות. • שירות לאומי אזרחי: 666.72 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 500.10 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 333.40 ₪ לכל חודש שירות. לחישוב",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "training-reclassification",
-      "claim": "Basic-training months at the start of service are classified at a lower tier than the role actually served: a combat soldier's first 4 training months are classified as combat support, and a combat-support soldier's first 2 training months are classified as other. This applies to BOTH the pikadon and the discharge grant.",
-      "claim_type": "amount",
+      "claim": "A combat soldier's first 4 training months count as combat support, and a combat-support soldier's first 2 count as other.",
+      "claim_type": "regulatory",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
-      "source_fetched_at": "2026-07-14",
-      "raw_snippet": "חודשי ההכשרה הצבאית בתחילת השירות מסווגים לעיתים קרובות באופן שונה מהשירות שבוצע בפועל. לדוגמא, ארבעת חודשי ההכשרה של לוחמים מסווגים כתומכי לחימה, ושני חודשי ההכשרה של תומכי לחימה מסווגים כשירות אחר.",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "שימו לב! חודשי הטירונות והאימונים מסווגים לעיתים באופן שונה מהשירות בפועל. לדוגמא: 4 חודשי ההכשרה של לוחמים מסווגים כתומכי לחימה, ו-2 חודשי הכשרה של תומכי לחימה מסווגים כשירות אחר.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py"
+      ]
     },
     {
       "id": "grant-rates-may-2026",
-      "claim": "Discharge grant (manak shichrur) monthly rates, MoD, updated May 2026: combat 684.99 NIS / 684.99 ש\"ח, combat support 570.42, other (including national-civic service completers) 455.84, intermediate civilian track 342.50, split civilian track 227.92. Paid within 60 days of discharge; lone soldiers get an advance within 14 days.",
+      "claim": "Discharge grant (manak shichrur) monthly rates, MoD, updated August 2026: combat 691.53 NIS / 691.53 ש\"ח, combat support 575.86, other (including national-civic service) 460.19, intermediate civilian 345.77, split civilian 230.10.",
       "claim_type": "amount",
       "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
-      "source_fetched_at": "2026-07-14",
-      "raw_snippet": "לוחמים: 684.99 ₪ לכל חודש שירות. תומכי לחימה: 570.42 ₪ לכל חודש שירות. בתפקיד אחר כולל מסיימי שירות לאומי- אזרחי: 455.84 ₪ לכל חודש שירות.",
-      "confidence": "high"
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "הסכומים מעודכנים לחודש אוגוסט 2026 יש להכפיל את הסכומים הללו במספר חודשי השירות בפועל: • לוחמים: 691.53 ₪ לכל חודש שירות. • תומכי לחימה: 575.86 ₪ לכל חודש שירות. • בתפקיד אחר כולל מסיימי שירות לאומי- אזרחי: 460.19 ₪ לכל חודש שירות. • מסלול אזרחי ביניים: 345.77 ₪ לכל חודש שירות. • מסלול אזרחי מפוצל: 230.10 ₪ לכל חודש שירות.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "id": "pikadon-israel-only",
@@ -403,12 +433,18 @@
     },
     {
       "id": "pikadon-appeal-1111-ext-5",
-      "claim": "A Pikadon amount that does not match the service type or length is appealed to the IDF public-enquiries officer on 1111, extension 5.",
-      "claim_type": "regulatory",
-      "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "source_fetched_at": "2026-08-27T04:31:49.797045+00:00",
-      "raw_snippet": "ערעור אם סכומי הזכאות לפיקדון אינם תואמים את סוג השירות או משך השירות, יש לפנות לקצין פניות הציבור של צה\"ל בטלפון 1111 (שלוחה 5).",
-      "confidence": "high"
+      "claim": "A Pikadon or grant that does not match the service type or length is corrected through the IDF: hachvana now names the IDF \"שער לעתיד\" directorate, by WhatsApp 03-7374789 or atid@digital.idf.il; national-civic service completers go to the National-Civic Service Authority or the Department on *5266.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "לחיילים משוחררים (צה\"ל): במידה והדיווח אינו תואם את השירות בפועל, ניתן לפנות למנהלת 'שער לעתיד' בצה\"ל בלחיצה כאן , במייל atid@digital.idf.il או בוואטסאפ: 03-7374789. • מסיימי שירות לאומי-אזרחי: ניתן לפנות לרשות לשירות לאומי-אזרחי או למוקד האגף בטלפון: 5266*.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/adjacent-benefits.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "id": "wounded-soldier-keeps-higher-rate",
@@ -424,8 +460,8 @@
       "claim": "Those who ended service after 01.01.1995 or began service before 31.12.2000 may still hold an unused Pikadon balance (\"Pikadon 2000\"), checkable in the personal area and released by emailing the Fund.",
       "claim_type": "regulatory",
       "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
-      "source_fetched_at": "2026-08-27T04:31:49.797045+00:00",
-      "raw_snippet": "מי שסיימו את השירות אחרי 01.01.1995 או החלו את השירות לפני 31.12.2000 יכולים לבדוק ב אזור האישי אם קיימת להם יתרת פיקדון שלא ניצלו.",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "מי שסיימו את השירות אחרי 01.01.1995 או החלו את השירות לפני 31.12.2000 יכולים לבדוק באזור האישי אם קיימת להם יתרת פיקדון שלא ניצלו.",
       "confidence": "high"
     },
     {
@@ -754,7 +790,7 @@
     },
     {
       "id": "hesder-shlat-total-service-threshold",
-      "claim": "A hesder soldier drafted into paid service for about 18 months and on SHLAT (unpaid service) in the yeshiva for the remainder is entitled to 2 credit points measured on TOTAL service from enlistment to discharge, even though unpaid service does not accrue Pikadon.",
+      "claim": "A hesder soldier drafted into paid service for about 18 months and on SHLAT (unpaid service) in the yeshiva for the remainder is entitled to 2 credit points measured on TOTAL service from enlistment to discharge.",
       "claim_type": "regulatory",
       "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
       "source_fetched_at": "2026-08-27T05:16:15.562081+00:00",
@@ -805,6 +841,886 @@
       "source_fetched_at": "2026-08-27T05:16:15.562081+00:00",
       "raw_snippet": "התוספת בגין שירות אזרחי לא תעלה על 12 חודשים.",
       "confidence": "high"
+    },
+    {
+      "id": "grant-correction-shaar-leatid",
+      "claim": "The grant page states the appeal on service data is made to the IDF public-enquiries officer via the \"שער לעתיד\" directorate, WhatsApp 03-7374789 or atid@digital.idf.il.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "ניתן להגיש ערעור על דיווח זה אצל קצין פניות הציבור בצה\"ל, באמצעות פניה למנהלת \"שער לעתיד\" בצה\"ל, לוואטסאפ שמספרו 03-7374789 או במייל atid@digital.idf.il",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "pikadon-day-14-sle",
+      "claim": "hachvana states the Pikadon can be realised from day 14 after the end of compulsory service OR national-civic service (Kol Zchut still gives day 30 for national-civic service).",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "ניתן לממש את כספי הפיקדון החל מהיום ה-14 מסיום שירות החובה או השירות הלאומי-אזרחי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "pikadon-data-one-week",
+      "claim": "The updated service data appears in the personal area about a week after the end of service.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "הנתונים המעודכנים מופיעים באזור האישי כשבוע לאחר סיום השירות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "bank-update-48h",
+      "claim": "A changed bank account must be updated in the personal area; an SMS confirmation arrives within 48 hours.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "העדכון עובר לבדיקה ותקבלו מסרון אישור תוך 48 שעות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "department-hotline-5266",
+      "claim": "The Department telephone service centre is *5266.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מוקד השירות הטלפוני של האגף זמין עבורכם בטלפון 5266*",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "no-intermediary-password",
+      "claim": "The Department warns never to give the personal-area password to an outside party and that realisation needs no intermediary.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "לעולם אל תמסרו את סיסמת הכניסה לאזור האישי או צילום תעודת זהות לאף גורם חיצוני. • אופן מימוש הפיקדון הוא פשוט ונוח, וניתן לבצעו בקלות באופן עצמאי, מבלי להיעזר בגורמים שונים שאינם פועלים מטעם האגף",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "after5-60-business-days",
+      "claim": "After 5 years the remaining Pikadon balance is transferred automatically to the bank account within up to 60 business days.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositAfter5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "בתום 5 שנים ממועד סיום שירות סדיר או לאומי-אזרחי, יתרת פיקדונכם האישי תועבר אוטומטית לחשבון הבנק שלכם, בתוך עד 60 ימי עסקים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "id": "after5-50-days-escalate",
+      "claim": "If 50 days have passed from the 5-year mark with no SMS, the Department says to call *5266.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositAfter5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "אם חלפו 50 ימים מתום 5 שנים ממועד השחרור ולא קיבלתם מסרון, פנו לבירור באמצעות המוקד הטלפוני בטלפון: 5266*",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "charvot-barzel-1111-ext-4",
+      "claim": "For the Charvot Barzel scholarship the Mimadim page refers users to the IDF Assistance Fund call centre, 1111 extension 4.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "למידע נוסף פנו למוקד קרן הסיוע בצה\"ל (טלפון 1111, שלוחה 4)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "mimadim-second-degree-listed",
+      "claim": "The Mimadim page lists a first degree, a second degree or an arts certificate at institutions recognised by the CHE or the Ministry of Culture.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "המלגה עבור תואר ראשון, תואר שני או לימודי תעודה באומנות במוסדות המוכרים על ידי המועצה להשכלה גבוהה (מל\"ג) או משרד התרבות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "mimadim-missing-shaar-leatid",
+      "claim": "If Mimadim does not appear in the personal area, the page directs users to the \"שער לעתיד\" centre by WhatsApp 03-7374789 or atid@digital.idf.il.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "אפשר לכתוב למוקד 'שער לעתיד' בוואטסאפ: 03-7374789 במייל: atid@digital.idf.il",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "mimadim-44-second-year",
+      "claim": "A first-year student eligible for both periphery scholarship 44 and Mimadim may use Mimadim only from the second year.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מלגת ללומדים בפריפריה (ייעוד 44), סטודנטים בשנה א' הלומדים במוסדות המפורטים כאן , וזכאים גם למלגת הפריפריה וגם למלגת 'ממדים ללימודים', יוכלו לממש את מלגת 'ממדים ללימודים' החל משנת הלימודים השנייה בלבד",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "mimadim-45-combine",
+      "claim": "Periphery scholarship 45 can be combined with Mimadim: 85% to the bank account and the remaining 15% to the Pikadon account.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מלגת גרים בפריפריה 45, ניתן לשלב. מגיע לכם החזר בגובה 85% מהמלגה שיעבור לחשבון הבנק שלכם, ואת ה 15% - הנותרים השלמה לחשבון הפיקדון האישי",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "s7a1-amendment-25",
+      "claim": "Section 7א1 (\"ממדים ללימודים\") was added by Amendment 24 of 25.5.2022 and amended by Amendment 25 of 21.12.2023.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מיום 21.12.2023 תיקון מס' 25 ס\"ח תשפ\"ד מס' 3134",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "id": "milgo-offset-cancelled",
+      "claim": "A secondary source reports that on 18.05.2026 the CHE cancelled the offset between Mimadim and the Mil-GO scholarship, jointly with the Department.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.study.co.il/P47538/",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "המועצה להשכלה גבוהה הודיעה החודש (בתאריך 18/5/2026) כי החליטה לבטל את הקיזוז אשר התקיים עד כה בין מלגת \"ממדים ללימודים\" לבין מלגת \"מיל-GO\" (לשעבר מלגת משרד החינוך). מדובר בהחלטה משותפת של המל\"ג ושל האגף לחיילים משוחררים במשרד הביטחון.",
+      "confidence": "high",
+      "appears_in": [
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "sch44-terms",
+      "claim": "Scholarship 44: full first-year tuition for a dischargee who completed the required service or an SLE completer with at least 23 months; up to 50% for SLE with 12 months.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "למימון מלא של שכר הלימוד לשנה הראשונה זכאים: • חיילות וחיילים משוחררים, שהשלימו את כל תקופת השירות הנדרשת לפי החוק. • מסיימות ומסיימי שירות לאומי אזרחי ששירתו לפחות 23 חודשים. למימון של עד 50% זכאים: מסיימות ומסיימי שירות לאומי-אזרחי, ששירתו 12 חודשים",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch44-signing-window",
+      "claim": "Scholarship 44 commitment signing ran 15/05/2026 to 15/08/2026; payment to the Pikadon account by 31/12/2026.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "ניתן לחתום על כתב ההתחייבות באזור האישי בין ה-15/05/2026 ועד ה-15/08/2026",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch44-payment",
+      "claim": "Scholarship 44 is paid to the Pikadon account by 31/12/2026.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "המלגה תועבר לחשבון הפיקדון האישי של הזכאים עד לתאריך 31/12/2026",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch45-amount",
+      "claim": "Scholarship 45 pays up to 12,017 NIS (תשפ\"ו), first BA year only.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "סכום המלגה לא יעלה על 12,017 ₪ (נכון לשנת תשפ\"ו - 2026)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch45-46-deadline",
+      "claim": "Scholarships 45 and 46: registration opened 03/08/2026 and closes 31/10/2026; payment by 31/03/2027.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מועד אחרון להרשמה: 31/10/2026",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch45-payment",
+      "claim": "Scholarship 45 payment by 31/03/2027.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "עד לתאריך 31/03/2027",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch45-no-stack",
+      "claim": "Only one of the Department periphery scholarships (44, 45, 46) can be realised.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "ניתן לממש רק אחת מהטבות הפריפריה של האגף",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch46-amount",
+      "claim": "Scholarship 46: up to 50% of university tuition for three BA years, capped at 6,008.5 NIS (תשפ\"ו), paid to the Pikadon account, re-apply yearly.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "בהיקף של עד 50% משכר הלימוד האוניברסיטאי, כפי שנקבע ע\"י המל\"ג, עבור שלוש שנים מתוך כלל שנות הלימוד לתואר ראשון. • גובה המלגה - סכום המלגה לא יעלה על 6,008.5 ₪ (נכון לשנת תשפ\"ו - 2026), בהתאם לגובה שכר הלימוד שנקבע ע\"י המל\"ג, או על הסכום ששולם בפועל למוסד הלימודים, הנמוך מבין השניים. • אופן המימון - המלגה מועברת כסכום חד פעמי לחשבון הפיקדון האישי שלכם (יש להגיש בקשה בכל שנה מחדש",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch46-eligibility",
+      "claim": "Scholarship 46 requires ALL of: completed required service, a Fund-financed mechina begun by the 4th year after discharge, and a periphery address in 5 of the 6 years before studies.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "יש לעמוד בכל התנאים הבאים: • משוחררי צה\"ל ושירות לאומי: חיילות וחיילים משוחררים ומסיימי שירות לאומי-אזרחי שמילאו את תקופת השירות הנדרשת בחוק . • בוגרי מכינה: מי שסיימו מכינה קדם אקדמית במימון הקרן, והחלו את לימודי המכינה עד השנה הרביעית מיום השחרור לכל היותר. • תושבי פריפריה: מי שכתובתם הרשומה בחמש מתוך שש השנים שקדמו לתחילת הלימודים היא ב אזורי עדיפות לאומית כהגדרתם בחוק",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch46-no-stack-mimadim",
+      "claim": "Scholarship 46 does not stack with 44, 45 or Mimadim.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "שילוב עם מלגות \"פריפריה\" אחרות (44, 45) או \"ממדים ללימודים\": אין כפל מלגות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "sch-window-3m-5y-10y",
+      "claim": "The periphery scholarships run from 3 months before discharge to 5 years after regular service, and to 10 years for lone soldiers and active reservists.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "חיילים משוחררים: החל מ-3 חודשים לפני השחרור ועד 5 שנים מסיום השירות הסדיר. • חיילים בודדים ומשרתי מילואים פעילים: החל מ-3 חודשים לפני השחרור ועד 10 שנים מיום סיום השירות הסדיר",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "tech-90-percent",
+      "claim": "The technician / handesai scholarship funds 90% of the tuition set by מה\"ט; no funding for year 3.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מימון של 90% משכר הלימוד שנקבע ע\"י מה\"ט (גובה המימון מתעדכן מידי שנה)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "tech-no-year3",
+      "claim": "No funding for third-year technician studies.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "אין מימון עבור לימודי שנה ג",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mashpim-amount",
+      "claim": "The living-cost scholarship is 12,000 NIS, conditional on 90 hours of social activity and 10 hours of training.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/mashpim.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "מהו גובה המלגה: 12,000 ₪, והיא משמשת למימון דמי קיום. התנאים לקבלת המלגה: • ביצוע 90 שעות עשיה חברתית ו- 10 שעות הכשרה והעשרה",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mashpim-reserve-bonus",
+      "claim": "Recipients with 60 or more reserve days in 2026 receive 6,000 NIS more.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/mashpim.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "60 ימי מילואים ומעלה, יקבלו מענק בסך 6,000 ₪ נוספים",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mashpim-dates",
+      "claim": "The תשפ\"ו registration ran 03.09.2025 to 31.12.2025 and has ended.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/mashpim.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "31.12.2025 – 03.09.2025 ההרשמה הסתיימה",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "department-scholarship-hub",
+      "claim": "The Department publishes its academic scholarships (Mimadim, periphery scholarships, living-cost and more) on one hub page.",
+      "claim_type": "url",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T06:00:00Z",
+      "raw_snippet": "כאן תוכלו למצוא מידע על מלגת ממדים ללימודים, מלגות ללומדים בפריפריה, דמי קיום ועוד הטבות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md",
+        "references/domain-checklist.md",
+        "metadata.json"
+      ]
+    },
+    {
+      "id": "pikadon-day30-sle-kolzchut",
+      "claim": "Kol Zchut (last edited June 2025) still states day 14 after chova and day 30 after national-civic service.",
+      "claim_type": "deadline",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "כספי הפיקדון יעמדו לרשות המשתחררים החל מהיום ה-14 לאחר היום שבו סיימו את שירות החובה והחל מהיום ה-30 לאחר היום שבו סיימו את השירות הלאומי-אזרחי.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "pikadon-tax-exempt-legal-basis",
+      "claim": "Kol Zchut lists Income Tax Ordinance section 9(27) as the legal basis for the Pikadon tax exemption.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%90%D7%99%D7%A9%D7%99_%D7%9C%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A1%D7%99%D7%99%D7%9E%D7%99_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "פקודת מס הכנסה - סעיף 9(27).",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-female-22",
+      "claim": "Female soldiers with 22 months or more receive 2 credit points per year.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "חיילות אורך השירות22 חודשים ומעלה מספר נקודות הזיכוי2",
+      "confidence": "high"
+    },
+    {
+      "id": "nekudot-zikui-sle-24",
+      "claim": "National-service completers with 24 months receive 2 credit points per year.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-10-18T07:00:00Z",
+      "raw_snippet": "בני ובנות השירות הלאומי אורך השירות24 חודשים מספר נקודות הזיכוי2",
+      "confidence": "high"
+    },
+    {
+      "id": "s11a-shlat-counts",
+      "claim": "s.11(a): the Pikadon and grant are credited for every month of regular service; unpaid service is excluded only where it pushes service beyond 32 months (men) / 28 (women), and the full cap is still credited.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "(א) סכום הפיקדון ייזקף והמענק ישולם בעד כל חודשי השירות הסדיר",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py",
+        "references/nekudot-zikui-tables.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "id": "grant-shlat-tops-up",
+      "claim": "The grant entitlement calculation includes extra regular service and SHLAT, which can top the entitlement period up to 32 months for a man and 24 for a woman.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "חישוב הזכאות כולל גם את תקופת שס\"ן (שירות סדיר נוסף) ותקופת של\"ת (שירות ללא תשלום), כאשר השל\"ת יכול להשלים את תקופת הזכאות ל-32 חודשים לחייל ול-24 חודשים לחיילת",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py",
+        "references/nekudot-zikui-tables.md"
+      ]
+    },
+    {
+      "id": "non-counted-periods-excluded",
+      "claim": "Pikadon amounts are computed without statutorily non-counted periods.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "* ללא תקופות בלתי נמנות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "ito-9-27-text",
+      "claim": "Income Tax Ordinance s.9(27) exempts money received by the Fund or by a discharged soldier under the Discharged Soldiers Absorption Law, which covers both the Pikadon and the grant.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "(27) כספים שקיבלה הקרן או שקיבל חייל משוחרר לפי חוק קליטת חיילים משוחררים, התשנ\"ד-1994",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "grant-to-service-account",
+      "claim": "The grant is transferred to the bank account that received the salary during service.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "מענק השחרור מועבר ישירות לחשבון הבנק אליו הועברה משכורתכם בזמן השירות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "grant-lone-advance-14",
+      "claim": "Discharged lone soldiers receive an advance on the grant within 14 days of discharge.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/Grant.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "חיילות וחיילים בודדים משוחררים, יקבלו מקדמה על חשבון כספי המענק, תוך עד 14 ימים מיום השחרור",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "after5-post-office",
+      "claim": "After 5 years a balance can be collected at a post office, with cash withdrawals of up to 10,000 NIS.",
+      "claim_type": "amount",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositAfter5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "ניתן למשוך במזומן סכום של עד 10,000 ₪ בלבד",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "after5-foreign-email",
+      "claim": "A holder of a foreign bank account only emails pikadon_5@mod.gov.il.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositAfter5/Pages/default.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "במידה ואין לכם חשבון בנק בארץ, שלחו מייל לכתובת pikadon_5@mod.gov.il",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "auto-transfer-after-2014",
+      "claim": "Kol Zchut: for those whose service ended after 01.01.2014 the Pikadon balance is transferred automatically.",
+      "claim_type": "deadline",
+      "source_url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "לכן למי שסיימו את השירות אחרי ה-01.01.2014, יתרת כספי הפיקדון תועבר לחשבון הבנק באופן אוטומטי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "mechina-not-from-pikadon",
+      "claim": "Fund assistance for a mechina is not charged to the Pikadon; someone found ineligible may pay from the Pikadon.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "מי שלא יימצא זכאי לסיוע במימון מלא או חלקי של הלימודים במכינה, יוכל לממן את שכר הלימוד על חשבון הפיקדון",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md",
+        "references/six-purposes-deep-dive.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "id": "mechina-continues-past-5y",
+      "claim": "If eligibility ends during the mechina, funding continues to the end of the mechina track.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "אנו נמשיך במימון עד תום מסלול המכינה",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-80-attendance",
+      "claim": "Mechina tuition and living allowance require 80% attendance.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "תשלום שכר הלימוד ודמי הקיום מותנה ב- 80% נוכחות",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-lone-10y",
+      "claim": "Lone soldiers: up to 10 years from discharge, full tuition plus living allowance automatically.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "בודדים משוחררים בתקופה של עד 10 שנים מיום השחרור במועד הרישום למכינה. מימון מלא של שכר הלימוד + דמי קיום יינתן באופן אוטומטי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-combat-5y",
+      "claim": "Gold-honour combat veterans: up to 5 years, full tuition automatically; living allowance by socio-economic criteria.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "לוחמות ולוחמים משוחררים בעלי תעודת שחרור בכבוד זהב, בתקופה של עד 5 שנים מיום השחרור במועד הרישום למכינה. 1. מימון מלא של שכר הלימוד יינתן באופן אוטומטי 2. מתן דמי הקיום יינתן בהתאם לעמידה בתנאים סוציואקונומיים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-olim-7y",
+      "claim": "Olim up to 7 years in Israel: full tuition plus living allowance.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "עולים חדשים עד 7 שנים בארץ. מימון מלא של שכר הלימוד + מתן דמי קיום",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-form-2",
+      "claim": "Minorities, Haredi IDF dischargees and tashmash recipients request form no. 2 from the district office or *5266.",
+      "claim_type": "contact",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "יש לפנות למחוז האגף הקרוב למקום מגוריכם במייל ו/או דרך המוקד הטלפוני של האגף 5266* ולבקש טופס מספר 2",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mechina-general-5y",
+      "claim": "Every dischargee and SLE completer up to 5 years: partial to full funding by socio-economic criteria.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/TwelveYearsStudies/Pages/PreAcademic.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "משוחררים עד 5 שנים מיום השחרור /סיום שירות לאומי במועד הרישום למכינה. מימון חלקי עד מלא של שכר הלימוד ושל דמי הקיום, בהתאם לעמידה בקריטריונים סוציואקונומיים ולסטטוס האישי של התלמיד",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "combat-tochnit-amit",
+      "claim": "The MoD offers combat veterans, in recognition of the Swords of Iron war, the Tochnit Amit app with free therapy, training, sport, workshops and mental-health care.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/combat.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "משרד הביטחון מוקיר ומעריך את תרומתכם במלחמת חרבות ברזל, ומזמין אתכם להצטרף לתוכנית עמית, שתסייע לחזור לשגרה בקצב שלכם ובזמן שלכם. הורידו את האפליקציה והזמינו (בחינם לגמרי!) טיפולים, אימונים, פעילויות ספורט, סדנאות חוויתיות וטיפול נפשי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "id": "combat-vocational-near-full",
+      "claim": "Combat veterans are entitled to almost full funding of listed vocational courses.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/combat.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "מגוון קורסים והכשרות מקצועיות, המתעדכנים באתר האגף לחיילים משוחררים ומילואים, אשר לוחמות ולוחמים זכאים בהם למימון כמעט מלא",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "combat-lehitech",
+      "claim": "Lochamim LeHitech, run with the IDF and Atidim, offers courses such as software development, QA and cyber defence.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/combat.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "התכנית, בשיתוף האגף לחיילים משוחררים ומילואים, צה\"ל ועמותת עתידים, כוללת קורסים מקצועיים כמו פיתוח תוכנה, בדיקת תוכנה, הגנת סייבר ועוד",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "combat-mimadim-second-degree",
+      "claim": "The combat-veterans page lists Mimadim as 100% funding for a first or second degree.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/combat.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "מימון של 100% ללימודים אקדמאיים לתואר ראשון או לתואר שני",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "mashpim-donation",
+      "claim": "The living-cost scholarship is a donation of the Edmond de Rothschild Foundation and the Association for the Wellbeing of Israel's Soldiers, with the Department.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/Pages/combat.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "המלגה הינה תרומתם של קרן אדמונד דה רוטשילד והאגודה למען החייל, בשיתוף האגף לחיילים משוחררים ומילואים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "mimadim-private-stack",
+      "claim": "Private and volunteering scholarships can be received on top of Mimadim with no need to report them.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "שילוב מלגת 'ממדים ללימודים' עם מלגות פרטיות/התנדבות ניתן לקבל אותן בנוסף למלגת 'ממדים ללימודים' ואין צורך לדווח על קבלתן",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "mimadim-government-offset",
+      "claim": "Where government scholarships equal the tuition paid, Mimadim is not given.",
+      "claim_type": "regulatory",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "אם היקף המלגות שווה לשכר הלימוד ששילמתם בפועל, לא תינתן מלגת 'ממדים ללימודים'",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mimadim-scholarship.md"
+      ]
+    },
+    {
+      "id": "tech-window",
+      "claim": "The technician scholarship runs up to 5 years from the end of regular service, 10 for lone soldiers and active reservists.",
+      "claim_type": "deadline",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "source_fetched_at": "2026-10-18T09:00:00Z",
+      "raw_snippet": "עד 5 שנים מיום סיום שירותם הסדיר. • חיילות וחיילים בודדים משוחררים ומשרתי ומשרתות מילואים פעילים, עד 10 שנים",
+      "confidence": "high",
+      "appears_in": [
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "s10a-injury-full-service",
+      "claim": "סעיף 10א(ב) / s.10A(b): s.10A(b): a soldier the Head of Manpower determined was discharged for an injury in training or operations is deemed to have completed full compulsory service for the Pikadon (s.9(a)) and grant (s.10(a)).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-10-18T10:30:00Z",
+      "raw_snippet": "(ב) חייל שראש אגף כוח אדם בצבא הגנה לישראל (בסעיף זה – ראש אגף כוח אדם) קבע כי הוא שוחרר מחמת פציעה שאירעה תוך כדי אימון או פעילות מבצעית ועקב אימון או פעילות מבצעית, יראו אותו לעניין תקופת השירות כאמור בסעיפים 9(א) ו-10(א), כמי שהשלים את מלוא תקופת השירות הסדיר שהוא חייב בה לפי חוק שירות ביטחון.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/pikadon-calculator.py",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "s10a-appeal-chief-of-staff",
+      "claim": "A Head of Manpower decision under s.10A can be challenged before the Chief of General Staff.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-10-18T10:30:00Z",
+      "raw_snippet": "(ד) על החלטת ראש אגף כוח אדם כאמור בסעיף זה ניתן להשיג לפני ראש המטה הכללי בצבא הגנה לישראל.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "rehab-division-site",
+      "claim": "The MoD Rehabilitation Division site covers rights and recognition requests for IDF and security-forces disabled veterans.",
+      "claim_type": "url",
+      "source_url": "https://shikum.mod.gov.il/",
+      "source_fetched_at": "2026-10-18T10:30:00Z",
+      "raw_snippet": "כל הזכויות, העדכונים והמידע לנכי ונכות צה\"ל וכוחות הביטחון",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/department-programs.md"
+      ]
+    },
+    {
+      "id": "rtw-s21-employment-committee",
+      "claim": "Return-to-work law s.21 (סעיף 21): a person claiming their rights under the law were breached may apply to an employment committee (ועדת תעסוקה).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_001.htm",
+      "source_fetched_at": "2026-10-18T11:30:00Z",
+      "raw_snippet": "21. (א) אדם הטוען שחוק זה מקנה לו זכויות ושזכויותיו אלה הופרו (הנקרא להלן \"תובע\"), רשאי תוך זמן המתקבל על הדעת לפנות לועדת תעסוקה בבקשה שתפסוק בכל ענין הנוגע לזכויותיו האמורות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/adjacent-benefits.md"
+      ]
+    },
+    {
+      "id": "rtw-s23-appeal-20-days",
+      "claim": "Return-to-work law s.23: an employment-committee decision can be appealed to the regional labour court within 20 days.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_001.htm",
+      "source_fetched_at": "2026-10-18T11:30:00Z",
+      "raw_snippet": "23. (א) על כל החלטה ועל כל צו של ועדת תעסוקה אפשר לערער לפני בית דין אזורי כמשמעותו בחוק בית הדין לעבודה, תשכ\"ט-1969 (להלן – בית דין אזורי) תוך עשרים ימים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/adjacent-benefits.md"
+      ]
+    },
+    {
+      "id": "s10a-death-in-service-full",
+      "claim": "סעיף 10א(א) / s.10A(a): a soldier who died during regular service is deemed to have completed full service for the Pikadon and grant.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "source_fetched_at": "2026-10-18T11:30:00Z",
+      "raw_snippet": "10 א. (א) חייל או משרת כמשמעותו בסעיף 8(ג) שנפטר בתקופת שירותו הסדיר, יראו אותו לעניין תקופת השירות כאמור בסעיפים 9(א) ו-10(א), כמי שהשלים את מלוא תקופת השירות הסדיר שהיה חייב בה או שהתחייב לשרת בה.",
+      "confidence": "high",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }

@@ -21,10 +21,10 @@ Translation: "academic studies, vocational training, marriage, starting a busine
 
 **Pikadon stacking with the Mimadim LiLimudim scholarship.** Mimadim sits in s.7א1, added by Amendment 24 (25.5.2022) and rewritten by Amendment 25 (21.12.2023), which is where the 85% / final-year top-up structure and the three-or-four study years come from.
 
-**Do NOT tell a Mimadim recipient the Pikadon covers "living, dorm and book expenses the scholarship doesn't".** It does not. ss.12 to 14 fund שכר לימוד only, and s.15(a) has the Fund pay that contribution direct to the institution, so there is no living-costs limb and no cash to the student. Where Mimadim already meets 100% of the CHE tuition there is no tuition balance left for the Pikadon either. What the Pikadon CAN still fund alongside it is a mechina, bagrut completion, or psychometric preparation under s.12, and the other five purposes.
+**Do NOT tell a Mimadim recipient the Pikadon covers "living, dorm and book expenses the scholarship doesn't".** It does not. ss.12 to 14 fund שכר לימוד only, and s.15(a) has the Fund pay that contribution direct to the institution, so there is no living-costs limb and no cash to the student. Where Mimadim already meets 100% of the CHE tuition there is no tuition balance left for the Pikadon either. What the Pikadon CAN still fund alongside it is psychometric preparation, a mechina or bagrut completion that the Fund declined to finance (the Fund pays those first, see `department-programs.md`), and the other five purposes.
 
 **Common rejection causes (verify with hachvana before assuming):**
-- Pre-academic preparation (mechina), kolzchut lists mechina kdam-akademit as eligible under purpose #1 when recognized; do not blanket-reject. Verify recognition for the specific mechina.
+- Pre-academic preparation (mechina): eligible under purpose #1, but the Fund pays a mechina first and outside the Pikadon ("הסיוע אינו מוענק על חשבון הפיקדון"); the Pikadon is the fallback for someone found ineligible. Check with the mechina office before drawing on it.
 - Yeshiva / kollel, typically not eligible as academic studies; verify with hachvana.
 - "Bonus" non-degree single-course audits at universities, verify case-by-case.
 

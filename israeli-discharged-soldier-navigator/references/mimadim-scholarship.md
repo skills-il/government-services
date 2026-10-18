@@ -1,6 +1,6 @@
 # Mimadim LiLimudim, full terms
 
-Verified 2026-08-27 against the official page,
+Verified 2026-08-27 and re-verified 2026-10-18 against the official page,
 https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx
 
 The Department and Fund for Discharged Soldiers funds 100% of the university tuition set by the
@@ -34,9 +34,10 @@ their own cohort rather than ruling either way.
 | Volunteer hours | None required |
 | Not covered | Dorms, living costs, and anything that is not tuition |
 
-The official page says "first degree and art certificate" in its summary and "first degree,
-second degree, or art certificate" in its eligibility section. Do not promise master's coverage
-on the strength of the second sentence.
+The official page says "first degree and art certificate" in its summary, while its eligibility
+section ("תואר ראשון, תואר שני או לימודי תעודה באומנות") and the combat-veterans page ("לתואר
+ראשון או לתואר שני") both include a second degree. Have the user confirm their cohort in the
+personal area rather than ruling either way.
 
 ## The application window
 
@@ -52,18 +53,35 @@ while the website frames it as five years from discharge and gates on filing the
 application. Where a user is close to either boundary, tell them the two formulations differ and
 have them confirm with the Department rather than picking one.
 
-## Interaction with the Charvot Barzel scholarship
+## Interaction with other scholarships
 
-A soldier eligible for both Mimadim and the separate "מלגת חרבות ברזל" cannot realise both in
-the same academic year, and the order of realisation changes the total received. The official
-page says so directly: "אם אתם זכאים גם למלגת 'חרבות ברזל', כדאי לבדוק קודם מהו סדר המימוש
-המשתלם ביותר עבורכם."
+**Charvot Barzel.** A soldier eligible for both Mimadim and the separate "מלגת חרבות ברזל" cannot
+realise both in the same academic year, and the order of realisation changes the total received.
+The official page says so directly: "אם אתם זכאים גם למלגת 'חרבות ברזל', כדאי לבדוק קודם מהו סדר
+המימוש המשתלם ביותר עבורכם." The Department does not publish the Charvot Barzel terms; the Mimadim
+page sends users to the IDF Assistance Fund (קרן הסיוע), "טלפון 1111, שלוחה 4". Do not state an
+amount or eligibility rule for it.
+
+**Private and volunteering scholarships** stack with Mimadim and need not be reported. **Government
+scholarships** offset it: where they equal the tuition actually paid, Mimadim pays nothing;
+otherwise it tops up to the tuition paid, capped at the CHE ceiling.
+
+**Mil-GO (secondary source only).** study.co.il (24.05.2026) reports that on 18.05.2026 the CHE and
+the Department cancelled the offset between Mimadim and Mil-GO, so the two can be received
+together. The CHE notice itself was not found; present it as reported, not confirmed.
 
 ## The current cycle
 
 תשפ"ו (October 2025 to the summer semester of June 2026). Registration opened 3.11.25;
-registration and document upload both close **31.10.26**. No תשפ"ז cycle has been published.
+registration and document upload both close **31.10.26** (the page says the registration "הוארכה",
+i.e. extended). No תשפ"ז cycle had been published as of 2026-10-18.
 
-**Read deadlines off this page, never off the Iron Swords page**, which as of 2026-08-27 still
+## The Department's other scholarships
+
+Periphery scholarships 44, 45 and 46, the technician scholarship and the living-cost scholarship
+are in `department-programs.md`. 46 does not stack with Mimadim; 44 pushes Mimadim to the
+second year; 45 combines with it.
+
+**Read deadlines off this page, never off the Iron Swords page**, which as of 2026-10-18 still
 advertises a registration deadline of 31.08.2025 and a document deadline of 30.09.2025, both
 long expired.

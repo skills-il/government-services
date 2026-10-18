@@ -18,8 +18,8 @@ whether the user actually gets the money. Verified 2026-08-27 against Kol Zchut.
 | פיקדון 2000, dormant balances (service ended after 01.01.1995 or began before 31.12.2000) | Department and Fund | Check the personal area, then email the Fund |
 | Free legal aid on discharged-soldier rights | Ministry of Justice | Use on a refused re-employment or a disputed denial |
 | "Bahatzda" benefits card | Independent | hachvana.mod.gov.il |
-| Service-type appeal (Pikadon does not match service type or length) | IDF public-enquiries officer, **1111 ext 5** | The Department cannot reclassify service, only the IDF can |
-| Pikadon inheritance | Department and Fund | Heirs are eligible where the soldier died **during service OR after discharge** ("שנפטרו בתקופת השירות או לאחר השחרור"). Only a death in service goes to Mador Mishpachot Shakulot; a later civilian death is an ordinary Fund claim, so do not route the family to the bereavement department for it |
+| Service data wrong (Pikadon or grant does not match service type or length) | IDF soldiers: the IDF "שער לעתיד" directorate, WhatsApp 03-7374789 or atid@digital.idf.il (hachvana, 2026-10-18). SLE completers: the National-Civic Service Authority, or the Department on *5266 | The Department cannot reclassify service. Until v1.5.0 this row said 1111 ext 5, which Kol Zchut still prints; hachvana now names שער לעתיד. |
+| Pikadon inheritance | Department and Fund | Heirs are eligible where the soldier died **during service OR after discharge** ("שנפטרו בתקופת השירות או לאחר השחרור"). The heirs apply to the Department and Fund. (An earlier version routed a death in service to Mador Mishpachot Shakulot; no source supports that, so it was removed on 2026-10-18.) |
 
 
 ## Menak Avoda Nidreshet (מענק עבודה נדרשת, formerly "avoda mueddefet")
@@ -103,3 +103,15 @@ an unused Pikadon balance. Check the personal area, then email the Fund to relea
 Free legal aid is available specifically on discharged-soldier rights. The natural triggers are
 an employer refusing re-employment under the return-to-work statute and a benefit denied on a
 ground the user disputes.
+
+## Return to the pre-draft employer (moved from SKILL.md Step 8.6, 2026-10-18)
+
+**Chok Chayalim Meshuchrarim (Hachzara LaAvoda), 5709-1949** gives a discharged soldier the right to go back to their pre-conscription employer. It carries the shortest deadline in the domain and is routinely missed, because it runs from the discharge date and not from when the user starts job-hunting.
+
+It applies to a "permanent employee" there, or someone who worked **6 continuous months** before conscription, and who did **not** take severance on leaving. Service counts as accrued seniority, and the employer must re-employ them for **6 months** on the same job and terms, or the best available if that is impossible.
+
+**The deadline is a written request between 15 days before discharge and 30 days after.** Miss that 45-day window and the right lapses. Name a start date within 30 days of the request and copy the employment bureau and the workers' committee. A workers' organisation may file it on the soldier's behalf.
+
+A refusal on the named date is not the end: where the employer cannot take them that day they may be taken on "בתוך שנה מהיום שהגיש את הבקשה, במועד האפשרי המוקדם ביותר". On a refusal, the statute's forum is a **ועדת תעסוקה**: s.21 lets anyone who claims their rights under the law were breached apply to one, and s.23 allows an appeal to the regional labour court within 20 days. Kol Zchut also points to free Ministry of Justice legal aid. (Checked against the statute on nevo, https://www.nevo.co.il/law_html/law01/150_001.htm, on 2026-10-18. The employer burden-of-proof claim was removed because no source supported it.) Someone who resigned on conscription after 12 months there gets severance instead, and taking it ends this right.
+
+Source: https://www.kolzchut.org.il/he/חזרה_לעבודה_של_חייל_משוחרר ("ניתן להגיש את הבקשה בתקופה שבין 15 יום לפני מועד שחרורו של החייל מצה"ל ועד 30 יום לאחר מועד השחרור"). Re-checked 2026-10-18, no change.

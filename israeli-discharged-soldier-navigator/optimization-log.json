@@ -2,6 +2,37 @@
   "skill": "israeli-discharged-soldier-navigator",
   "cycles": [
     {
+      "date": "2026-10-18",
+      "version": "1.6.0",
+      "summary": "Rates to August 2026; two Expert CRITICALs fixed (SHLAT counts toward Pikadon and grant per s.11(a); the Fund pays a mechina before the Pikadon); s.10A(b) injury discharge deemed full service; the v1.5.0 deferred MAJOR (Department's own scholarships) brought in; the 'Knesset free-university law' identified as Mimadim/s.7A1.",
+      "holdout_before": 0.75,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "האם מגיעה לי מלגת פריפריה 45 או 46 מהיחידה להכוונת חיילים משוחררים?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Does the Knesset free university law for combat soldiers apply to me if I was discharged in 2024?",
+          "כמה מענק מקבלים על 60 ימי מילואים במלחמה?",
+          "חייל משוחרר, איך מקבלים החזר מס רטרואקטיבי על נקודות זיכוי שלא קיבלתי בשנתיים האחרונות?"
+        ]
+      },
+      "lessons": [
+        "RESOLVED [CARRY]: the Department's own s.7(a) scholarships (44/45/46, technician, living-cost) and mechina funding are now in references/department-programs.md and Step 8.4.",
+        "CRITICAL fixed: 'unpaid service does not accrue Pikadon' was wrong for three cycles. s.11(a) credits every month of regular service and trims SHLAT only beyond the cap; the hachvana grant page says the same. Every gate passed it because the claim had a plausible-looking gloss in evidence.json and no snippet. Lesson: a NEGATIVE rule ('does not accrue') needs a snippet as much as a figure does.",
+        "CRITICAL fixed: the skill sent combat veterans, lone soldiers and olim to spend the Pikadon on a mechina the Fund pays outright ('הסיוע אינו מוענק על חשבון הפיקדון'). Same class as v1.5.0's direct-payment fix: always ask 'does the Department pay this before the Pikadon?'.",
+        "Judge-caught in round 2: s.10A(b) deems an injury discharge (Head of Manpower determination) to be full compulsory service; the skill had merged it with the pro-rata health discharge since v1.3. Present in round 1 and missed; read every 'deemed' clause in Chapter ג.",
+        "Kol Zchut's Pikadon page is now older than hachvana (June 2025): SLE day 30 vs hachvana day 14, appeal 1111 ext 5 vs 'שער לעתיד'. Prefer hachvana for operational facts and cite both where they differ.",
+        "Deferred (MINOR): the female cap remains flagged (hachvana 24 vs s.11(a) 28). Recheck commencement of the 28 figure next cycle.",
+        "PENDING: the discharge-pikadon checker regeneration (August rates, SHLAT relabel, injury copy) was not written because the dev DB was down; the manifest JSON is in the batch workdir. Until applied, the live checker shows May 2026 rates.",
+        "Value-add gate cases now exist under .claude/skills/value-add-gate/cases/israeli-discharged-soldier-navigator (4 cases, uncommitted in the monorepo).",
+        "RESOLVED in-cycle: ועדת תעסוקה restored from the statute itself (nevo 150_001, ss.21, 23) after an Expert minor; the earlier removal was right to demand a source but wrong to stop at Kol Zchut.",
+        "Value-add gate (advisory): PASS, with 1.00 vs without 0.04, delta +0.96, 4 cases."
+      ]
+    },
+    {
       "date": "2026-08-27",
       "version": "1.5.0",
       "summary": "Five Expert CRITICALs and five gate findings fixed. The headline correction reverses v1.3.0: s.19(a1)(1)'s ten-year window attaches to the s.7(a)/7A study funds for active reservists AND lone soldiers, not to the Pikadon, whose restricted-purpose window is five years for everyone. Added the s.19(b)-(d) forfeiture chain, the return-to-work statute, and the direct-payment rule.",

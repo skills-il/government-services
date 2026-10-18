@@ -10,7 +10,7 @@ NOT Section 11 (which covers basic resident credit points for all Israeli reside
 |---|---|---|---|
 | Male IDF / MAGAV / Police / SHABAS | 12 months | 23 months | Kolzchut + Section 39a |
 | Female IDF / MAGAV / Police / SHABAS | 12 months | 22 months | Kolzchut + Section 39a |
-| Sherut Leumi-Ezrachi (any gender) | 12 months | 24 months | Kolzchut |
+| Sherut Leumi-Ezrachi (any gender), including the intermediate and split civilian tracks | 12 months | 24 months | Kolzchut (the split track is defined in the statute as national-civic service of 20 weekly hours) |
 
 If service was under 12 months and the discharge was on health or disability grounds, the soldier is **deemed to have completed 12 months** for this benefit and receives 1 point per year, not a pro-rata fraction: "ייחשב כמי שהשלים 12 חודשי שירות לצורך קבלת ההטבה". Note the credit-point rule turns on מצב בריאותי או נכות; the training-injury limb belongs to the Pikadon, not here.
 
@@ -97,16 +97,20 @@ is why the question is worth asking unprompted.
 
 ### Hesder and SHLAT (unpaid service)
 
-Unpaid service does not accrue Pikadon, but it DOES count toward the credit-point threshold.
+SHLAT counts toward the credit-point threshold, AND (corrected 2026-10-18) toward the Pikadon and grant up to the 32/24 cap: s.11(a) credits "כל חודשי השירות הסדיר" and trims SHLAT only beyond the cap.
 A hesder soldier drafted into paid service for roughly 18 months and on SHLAT in the yeshiva for
 the remainder is entitled to 2 points "בהתאם לאורך השירות הכולל שלו מרגע החיול ועד השחרור",
 i.e. measured over total service from enlistment to discharge. Thresholding a hesder soldier on
 paid months alone gives 1 point (8,712 NIS) where the source gives 2 (17,424 NIS).
 
-The Pikadon rule and the credit-point rule differ here, and the skill's "unpaid service does not
-accrue" Gotcha is about the Pikadon only. Do not carry it across.
+Earlier versions of this skill said unpaid service does not accrue Pikadon. That was wrong: the
+statute and the hachvana grant page ("השל"ת יכול להשלים את תקופת הזכאות ל-32 חודשים לחייל")
+both count it up to the cap. The tier applied to SHLAT months is not published; confirm in the
+personal area.
 
 ### Early medical discharge
+
+An injury discharge (s.10A(b)) qualifies for the deemed 12 months through this health limb; the s.10A deeming itself governs only the Pikadon and grant, not the credit points.
 
 Someone discharged early on health grounds before completing 12 months "ייחשב כמי שהשלים 12
 חודשי שירות לצורך קבלת ההטבה", so they receive 1 point per year rather than nothing.
