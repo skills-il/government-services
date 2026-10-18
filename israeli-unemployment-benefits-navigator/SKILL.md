@@ -81,7 +81,7 @@ One day of salaried work makes a full qualifying month. Also counting: IDF servi
 
 ### Step 4: Calculate Maximum Benefit Days
 
-Use the age + dependents table. **A tlui is a statutory test, not a judgement call.** A **husband** counts at 70+, or 50+ with income no higher than **₪7,848 a month (from 01.01.2026)**; a **wife** only if all three hold: married a year or bore his child, 45+ or has his child with her, income no higher than ₪7,848; a **child** under 18, and on named limbs to 20, 21 or 24, including **under 24 in regular IDF service, national service, or atuda**. Agents drop the wife and under-24 limbs; one missed dependant can cost 37 or 38 days. Full text in `references/benefit-calculation-tables.md`.
+Use the age + dependents table. **A tlui is a statutory test, not a judgement call.** A **husband** counts at 70+, or 50+ with income no higher than **₪7,848 a month (from 01.01.2026)**; a **wife** only if all three hold: married a year or bore his child, 45+ or has his child with her, income no higher than ₪7,848; a **child** under 18, and on named limbs to 20, 21 or 24, including **under 24 in regular IDF service, national service, or atuda**. Agents drop the wife and under-24 limbs; one missed dependant costs 37 to 88 days by age band. Full text in `references/benefit-calculation-tables.md`.
 
 | Age (completed years) at start of unemployment | Dependents | Max days |
 |------------------------------|-----------|----------|
