@@ -7,7 +7,8 @@ Takes age, dependents, and 6-month salary history and returns:
   3-of-18 tier applied to special populations inside that same window; pass the real
   month count via --qualifying-months for those cases.)
 - Daily and monthly gross benefit amount
-- Estimated net (after BL deduction, health tax, marginal income tax)
+- Estimated net (after the BL deduction and an approximate health component; income tax is
+  NOT modelled, because it depends on full-year income and credit points)
 - Maximum benefit days based on age + dependents
 - Total entitlement gross over the full duration (with day-126 ceiling drop)
 - Waiting period warning based on termination reason
@@ -45,6 +46,9 @@ DISCHARGED_SOLDIER_MAX_DAYS = 70
 # Repeat claimant (mobtal chozer = 2 or more claims in the last 4 years) under 40:
 # once 100% of the entitlement days are used up, the daily maximum drops to this.
 REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING = 468.15
+# s. 171a(b)(2) caps a repeat claimant under 40 at 85% of BOTH s. 167(b)(2) ceilings. BTL
+# publishes only the first (468.15); the second is computed: 0.85 * 367.17 = 312.09.
+REPEAT_CLAIMANT_UNDER_40_SECOND_CEILING = 312.09
 REPEAT_CLAIMANT_UNDER_40_DAYS_CAP = 1.80  # 180% of max days across 4 years
 WAGE_DIVISOR = 150
 BL_MONTHLY_DEDUCTION = 48
@@ -145,7 +149,7 @@ DISQUALIFYING_REASONS = {
 # Populations that are outside the unemployment branch entirely, however many salaried
 # months they have. Source: btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx
 NOT_INSURED = {
-    "osek": "A self-employed person (osek) is not insured for unemployment.",
+    "osek": "Someone working ONLY as self-employed (osek) is not insured for unemployment. A salaried worker who also runs a side osek IS insured for the salaried job; do not pass this flag for them (their osek income is deducted from the benefit instead).",
     "controlling-shareholder": (
         "A controlling shareholder in a closely-held company (בעל שליטה בחברת מעטים) is NOT "
         "entitled to unemployment benefit even when employed there as a salaried employee and "
@@ -231,15 +235,12 @@ def estimate_net(daily_gross: float, monthly_gross: float) -> tuple[float, float
     """Rough net estimation. Real net depends on full-year income and tax credits."""
     bl_per_day = BL_MONTHLY_DEDUCTION / 25
     health_per_day = daily_gross * HEALTH_TAX_RATE
-    if daily_gross > 500:
-        income_tax_rate = 0.10
-    elif daily_gross > 400:
-        income_tax_rate = 0.05
-    else:
-        income_tax_rate = 0.0
-    income_tax_per_day = daily_gross * income_tax_rate
-    daily_net = max(0.0, daily_gross - bl_per_day - health_per_day - income_tax_per_day)
-    monthly_net = max(0.0, monthly_gross - BL_MONTHLY_DEDUCTION - (monthly_gross * HEALTH_TAX_RATE) - (monthly_gross * income_tax_rate))
+    # Income tax is deliberately NOT deducted. BTL withholds it at source under ss. 164 and
+    # 243 of the Income Tax Ordinance at a rate set by the claimant's own annual income and
+    # credit points, which this script cannot see. An earlier step ladder keyed to daily
+    # gross was invented, not sourced, and has been removed; do not reintroduce it.
+    daily_net = max(0.0, daily_gross - bl_per_day - health_per_day)
+    monthly_net = max(0.0, monthly_gross - BL_MONTHLY_DEDUCTION - (monthly_gross * HEALTH_TAX_RATE))
     return round(daily_net, 2), round(monthly_net, 2)
 
 
@@ -277,6 +278,7 @@ def project_total_entitlement(
     daily_uncapped: float,
     max_days: int,
     women_57_60_track: bool = False,
+    second_ceiling: float | None = None,
 ) -> tuple[float, bool]:
     """Project total gross over the full entitlement, applying every ceiling in turn.
 
@@ -294,7 +296,8 @@ def project_total_entitlement(
     d3 = max(0, max_days - 175)
 
     c1 = min(daily_uncapped, DAILY_CEILING_FIRST_125)
-    c2 = min(daily_uncapped, DAILY_CEILING_AFTER_125)
+    period2_ceiling = second_ceiling if second_ceiling is not None else DAILY_CEILING_AFTER_125
+    c2 = min(daily_uncapped, period2_ceiling)
     tail_ceiling = (
         DAILY_CEILING_AFTER_175_WOMEN_57_60 if women_57_60_track else DAILY_CEILING_AFTER_125
     )
@@ -302,7 +305,7 @@ def project_total_entitlement(
 
     ceiling_applied = (
         daily_uncapped > DAILY_CEILING_FIRST_125
-        or (d2 > 0 and daily_uncapped > DAILY_CEILING_AFTER_125)
+        or (d2 > 0 and daily_uncapped > period2_ceiling)
         or (d3 > 0 and daily_uncapped > tail_ceiling)
     )
     total = (c1 * d1) + (c2 * d2) + (c3 * d3)
@@ -324,6 +327,7 @@ def calculate(
     repeat_claimant: bool = False,
     not_insured: str | None = None,
     vocational_training_under_12_years_schooling: bool = False,
+    refused_offers: int = 0,
 ) -> tuple[EligibilityResult, BenefitResult | None]:
     eligibility = check_eligibility(
         is_resident, age, qualifying_months, registered_within_3_months, emergency_chalat,
@@ -350,25 +354,37 @@ def calculate(
     women_57_60_track = (
         is_female and born_1960_or_later and 57 <= age < 60 and max_days > 175
     )
-    # Refusing a suitable offer permanently removes 30 days from the quota, on top of the
-    # 90-day non-payment period. Apply it to max_days BEFORE projecting the total.
-    if termination_reason == "refused-offer":
-        max_days = max(0, max_days - REFUSED_OFFER_DAYS_DEDUCTED)
-
-    # A repeat claimant under 40 who has already used 100% of their days gets 80% of the
-    # entitlement on the next claim, capped at a lower daily maximum. Apply both.
+    # A repeat claimant under 40 whose EARLIER claim in the 4-year window already paid 100% of
+    # its maximum days gets 80% of the maximum on this claim (s. 171a(b)(1)) and 85% of both
+    # daily ceilings (s. 171a(b)(2)). The 80% is a share of the statutory maximum, so it is
+    # applied BEFORE any refusal deduction.
     repeat_under_40 = repeat_claimant and age < 40
+    second_ceiling = None
     if repeat_under_40:
         max_days = int(max_days * (REPEAT_CLAIMANT_UNDER_40_DAYS_CAP - 1.0))
+        second_ceiling = REPEAT_CLAIMANT_UNDER_40_SECOND_CEILING
         if daily_gross > REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING:
             daily_gross = REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING
             daily_uncapped = min(daily_uncapped, REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING)
 
+    # A refusal is a mid-claim event, not a reason employment ended, so it is counted
+    # separately (--refused-offers N) and can sit on top of any termination reason. The
+    # legacy --reason refused-offer still counts as one refusal. s. 171(a1) cuts 30 days, or
+    # the days left at the refusal if fewer, per refusal. This script does not know how many
+    # days were paid before each refusal, so it assumes the refusals came before any payment;
+    # days already paid are never taken back.
+    refusals = refused_offers + (1 if termination_reason == "refused-offer" else 0)
+    women_60_67_track = is_female and born_1960_or_later and 60 <= age < 67 and max_days > 175
+    if refusals and not women_60_67_track:
+        max_days = max(0, max_days - REFUSED_OFFER_DAYS_DEDUCTED * refusals)
+
     wait_days = TERMINATION_REASONS.get(termination_reason) or 0
+    if termination_reason == "refused-offer" and women_60_67_track:
+        wait_days = 0  # BTL zecoyot-nasim: a woman 60-67 keeps her benefit as usual after a refusal
     monthly_gross = round(daily_gross * DAYS_PER_ATTENDANCE_MONTH, 2)
 
     total_gross, ceiling_anywhere = project_total_entitlement(
-        daily_uncapped, max_days, women_57_60_track
+        daily_uncapped, max_days, women_57_60_track, second_ceiling
     )
     daily_net, monthly_net = estimate_net(daily_gross, monthly_gross)
 
@@ -396,8 +412,9 @@ def calculate(
                 f"Repeat claimant (2 or more claims in 4 years) under 40: total days across all claims in "
                 f"the 4-year window are capped at {int(REPEAT_CLAIMANT_UNDER_40_DAYS_CAP * 100)}% of the maximum. "
             f"The days and the daily ceiling above ALREADY reflect the second-claim position "
-            f"(80% of the days, capped at {REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING} ILS a day). "
-            f"If this is still the FIRST claim of the 4-year window, rerun without --repeat-claimant."
+            f"(80% of the days, capped at {REPEAT_CLAIMANT_UNDER_40_DAILY_CEILING} ILS a day in the first 125 "
+            f"days and {REPEAT_CLAIMANT_UNDER_40_SECOND_CEILING} after). "
+            f"If no earlier claim in the 4-year window exhausted its days, rerun without --repeat-claimant."
             )
         else:
             notes.append(
@@ -405,12 +422,21 @@ def calculate(
                 "before this claim, each month's days are reduced by the days already paid in the preceding "
                 "11 months (a rolling window); otherwise the entitlement is the same as a first claim."
             )
-    if termination_reason == "refused-offer":
+    if refusals and women_60_67_track:
         notes.append(
-            f"Refusing a suitable offer costs TWO penalties: no benefit for 90 days from the "
-            f"refusal, every time it happens, AND {REFUSED_OFFER_DAYS_DEDUCTED} days permanently "
-            f"removed from the quota. The days above already reflect the 30-day cut. Two published "
-            f"exceptions apply on the women's 300-day track, see SKILL.md Step 7"
+            "Woman 60-67 on the 300-day track: refusing work or training does NOT cut her benefit, "
+            "so no refusal penalty was applied. By statute (s. 166(d)) this exemption covers 2022 to "
+            "2026 only; for a refusal on or after 1.1.2027 check whether it was extended."
+        )
+    elif refusals:
+        notes.append(
+            f"{refusals} refusal(s) of a suitable offer: each costs TWO penalties, no benefit for 90 days "
+            f"from that refusal AND {REFUSED_OFFER_DAYS_DEDUCTED} days off the quota. The days above "
+            f"already reflect {REFUSED_OFFER_DAYS_DEDUCTED * refusals} days removed, assuming the refusals "
+            f"came before any benefit was paid (a refusal never takes back days already paid, and cuts "
+            f"at most the days left at that point). A woman 57-60 on the "
+            f"300-day track who refuses training from day 176 forfeits her whole remaining balance "
+            f"instead, which this script does not model; see SKILL.md Step 7"
         )
     if ceiling_applied_first_125:
         notes.append(f"Day-1 daily ceiling applied (₪{DAILY_CEILING_FIRST_125} for first 125 days)")
@@ -418,7 +444,13 @@ def calculate(
         notes.append(
             f"Day-126 ceiling drops to ₪{DAILY_CEILING_AFTER_125}; total over {max_days} days reflects this drop"
         )
-    if wait_days:
+    if wait_days and termination_reason == "refused-offer":
+        notes.append(
+            f"Waiting period: {wait_days} days with no benefit, counted from the DAY OF THE REFUSAL "
+            "(מיום הסירוב), not from the day work ceased. Unlike a resignation wait, this one comes "
+            "with the 30-day quota cut noted above"
+        )
+    elif wait_days:
         notes.append(
             f"Waiting period: {wait_days} calendar days, counted from the DAY WORK CEASED "
             f"(מיום הפסקת העבודה), not from the registration date. Register immediately anyway"
@@ -480,8 +512,14 @@ def format_output(e: EligibilityResult, b: BenefitResult | None) -> str:
     # The first 5 unemployment days in each 4 consecutive attendance months are never paid,
     # and are NOT deducted from the quota. Show the cash effect explicitly, because a
     # projection that omits it overstates the first month and every fourth month after.
-    attendance_months = b.max_days / DAYS_PER_ATTENDANCE_MONTH
-    blocks = max(1, math.ceil(attendance_months / ATTENDANCE_MONTHS_PER_BLOCK))
+    # Each unpaid block itself pushes payment later, so iterate until the count is stable.
+    blocks = 1
+    while True:
+        attendance_months = (b.max_days + blocks * UNPAID_DAYS_PER_BLOCK) / DAYS_PER_ATTENDANCE_MONTH
+        needed = max(1, math.ceil(attendance_months / ATTENDANCE_MONTHS_PER_BLOCK))
+        if needed <= blocks:
+            break
+        blocks = needed
     unpaid_days = blocks * UNPAID_DAYS_PER_BLOCK
     # Price each block at the ceiling that actually governs the days it falls on. Block n
     # starts at benefit day (n-1) * 4 attendance months, so a later block can sit past day
@@ -498,8 +536,12 @@ def format_output(e: EligibilityResult, b: BenefitResult | None) -> str:
             ceiling = DAILY_CEILING_FIRST_125
         unpaid_value += UNPAID_DAYS_PER_BLOCK * min(b.daily_uncapped, ceiling)
     unpaid_value = round(unpaid_value, 2)
-    lines.append(f"  less unpaid first-5-day blocks: {unpaid_value:>10.2f} ILS  ({blocks} x 5 days)")
-    lines.append(f"Total gross after those blocks: {b.total_gross_full_entitlement - unpaid_value:>10.2f} ILS")
+    # These days are NOT taken from the quota, so the full-quota total above is unchanged.
+    # An earlier version subtracted them from it, understating a fully used entitlement.
+    lines.append(f"Unpaid first-5-day blocks:      {blocks:>10} x 5 days (cash timing only, worth ~{unpaid_value:.2f} ILS)")
+    lines.append("  These days are not taken from the quota: the full-quota total above is unchanged,")
+    lines.append(f"  but payment of the last quota days moves about {unpaid_days} days later. They are lost")
+    lines.append("  only if the claimant returns to work before using the whole quota.")
     lines.append(f"First month gross (25d - 5d):   {(b.daily_gross * 20):>10.2f} ILS")
     if b.waiting_period_days:
         lines.append(f"Waiting period:                 {b.waiting_period_days:>10} days")
@@ -511,6 +553,10 @@ def format_output(e: EligibilityResult, b: BenefitResult | None) -> str:
     lines.append("NET CAVEAT: Bituach Leumi publishes no percentage for the health component on")
     lines.append("dmei avtala (only 'ודמי ביטוח בריאות לפי סכום דמי האבטלה'), so the health element of")
     lines.append("every net figure above is an approximation, not a published rate.")
+    lines.append("")
+    lines.append("INCOME TAX IS NOT DEDUCTED in the net figures. BL withholds it at source at a rate set by")
+    lines.append("the claimant's annual income and credit points (often near 0 for low earners); file an")
+    lines.append("exemption or reduction certificate with BL, or reclaim from the Tax Authority.")
     lines.append("")
     lines.append("All net figures are estimates. Real net depends on full-year income, credits,")
     lines.append("and rounding. Verify with kolzchut.org.il and btl.gov.il before acting.")
@@ -564,12 +610,22 @@ def main() -> int:
     parser.add_argument(
         "--repeat-claimant",
         action="store_true",
-        help="Filed 2 or more unemployment claims in the last 4 years (mobtal chozer)",
+        help="Repeat claimant (mobtal chozer): an EARLIER claim in the last 4 years already paid "
+             "100%% of its maximum days. Under 40 this applies 80%% of the days and the 468.15 / "
+             "312.09 daily caps. Do not pass it for an earlier claim that did not exhaust its days.",
     )
     parser.add_argument(
         "--emergency-chalat",
         action="store_true",
         help="Shaagat HaAri chal\"t track (6-of-18 akhshara). CLOSED WINDOW: only valid when --chalat-start is on or before 2026-05-14",
+    )
+    parser.add_argument(
+        "--refused-offers",
+        type=int,
+        default=0,
+        help="Number of suitable job/training offers refused DURING the claim (a mid-claim event, "
+             "combinable with any --reason). Each removes 30 days from the quota and stops payment "
+             "for 90 days from that refusal. Not applied to a woman 60-67 on the 300-day track.",
     )
     parser.add_argument("--example", action="store_true", help="Run with a worked example")
     args = parser.parse_args()
@@ -636,6 +692,7 @@ def main() -> int:
         repeat_claimant=args.repeat_claimant,
         not_insured=args.not_insured,
         vocational_training_under_12_years_schooling=args.training_under_12_years_schooling,
+        refused_offers=max(0, args.refused_offers),
     )
     print(format_output(e, b))
     return 0

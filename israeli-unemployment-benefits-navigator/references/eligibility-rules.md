@@ -21,7 +21,7 @@ Complete eligibility rule table for Israeli unemployment benefits under the Nati
 - **Freelance months do NOT count:** only salaried (shakhir) employment qualifies. Osek Patur and Osek Murshe months are excluded, even if BL was paid
 - **Self-employed to salaried trap:** closing an osek and becoming a shakhir for 7 to 10 months is a common rejection scenario; the akhshara count restarts from the first salaried month
 - **Military service:** mandatory IDF service months are credited for the qualifying period
-- **Parental leave:** months on paid parental leave (dmei leda) count toward the qualifying period; chofesh lelo tashlum (CHALAT) extending leda up to 12 months also does not break the count
+- **Parental leave:** months on paid parental leave (dmei leda) count toward the qualifying period; unpaid leave after birth under s. 7 of the Women's Employment Law extends the 18-month window by up to about a quarter of the months worked, never more than 12 months from the birth (see the table below; 12 months is the outer cap, not an automatic allowance)
 - **Sick leave:** months while on paid sick leave from the employer count
 - **Reserve duty (miluim):** days in miluim count as work days; long miluim service extends the registration window via hekel mizvad
 - **Work abroad counts in only two narrow situations, and the usual list of treaty countries is WRONG for this purpose.** (a) Work abroad **for an Israeli employer under a contract signed in Israel** counts directly. (b) Periods accrued in a country with which Israel has a treaty **in the unemployment branch** can be aggregated on conditions, and that is only **Austria, the Netherlands and Sweden**. Israel has general social-security treaties with many more countries (the US, the UK, Germany, France, Canada, Switzerland and others), but those treaties do NOT cover the unemployment branch. Telling a returning Israeli from the US or the UK to file for aggregation sends them to a refusal. Source: btl.gov.il/benefits/Unemployment/Pages/DaysHaxhsharaAvt.aspx (`מדינה שעימה יש לישראל אמנה בענף אבטלה (אוסטריה, הולנד ושבדיה)`)
@@ -125,7 +125,7 @@ Source: btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx
 
 These people are outside the unemployment branch entirely. No amount of salaried months helps them, so run this check BEFORE counting the qualifying period.
 
-- **Osek (self-employed).**
+- **Someone working only as self-employed (osek).** A salaried employee who ALSO runs a side osek is insured for the salaried job and can claim when dismissed from it; the self-employed income is deducted from the benefit, computed on the annual income and settled after the final tax assessment (btl.gov.il/benefits/Unemployment/Pages/incomes.aspx: `אם אתה עובד כעצמאי בזמן שאתה מקבל דמי אבטלה, תוכל להמשיך לקבל דמי אבטלה בניכוי הכנסתך מעבודה זו`).
 - **A controlling shareholder in a closely-held company (בעל שליטה בחברת מעטים)** is excluded **even when he is employed there as a salaried employee and contributions were paid.** This is the single most-missed exclusion: the claimant has 12 clean salaried months and is still refused.
 - **A kibbutz member or a member of a moshav shitufi**, unless they work as an employee outside the collective.
 - **A soldier in regular service, and anyone in national or civil service**, for the duration of that service.
@@ -140,7 +140,8 @@ Source: btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx ("מי לא זכאי 
 | Reason | Effect |
 |--------|--------|
 | Working for spouse / parent / child / sibling without arms-length employment | Not eligible unless the employment relationship is proved genuine. In practice BL looks for a dated employment contract, payslips predating any dispute, a bank-transfer wage trail rather than cash, a third-party witness to actual work, and proof that tax, BL and pension were paid on time. **The circular number sometimes quoted for this rule could not be verified against a reachable BTL page, so do not cite one to the user.** |
-| Self-employed (osek) for most of the qualifying window | Fails standard tkufat akhshara, and an osek is not insured for unemployment at all |
+| Self-employed (osek) for most of the qualifying window | Osek months do not count toward akhshara. Someone working ONLY as an osek is not insured; a salaried worker with a side osek is insured for the salaried job |
+| Candidate in the Bar exam, or in the CPA final exam (Part B: advanced financial accounting or auditing) | No benefit in the 2 months before the exam date (BTL Avtmtmachim.aspx: `לא תהיה זכאי לדמי אבטלה בחודשיים שלפני מועד הבחינה`) |
 | Already receiving a competing BL benefit | Cannot stack; BL evaluates per case. The specific 75% disability threshold is unverified, check with BL |
 | Already receiving dmei leda | Avtala blocked for the leda period; switch carefully when leda ends |
 | Not an Israeli resident | Residency is decided by CENTRE OF LIFE (`מרכז חייו בישראל`: permanent home, where the family is, where the children are schooled, main workplace, place of study), not by a day count. An earlier version of this file stated a bright-line "more than 6 months abroad" test; no source supports it. A temporary resident holding a permanent or temporary residence permit also qualifies |
@@ -152,7 +153,7 @@ Source: btl.gov.il/benefits/Unemployment/Pages/zakaut.aspx ("מי לא זכאי 
 Once approved, the claimant must:
 - Attend every scheduled reporting meeting at Sherut HaTaasuka
 - Apply to the minimum number of jobs the lishka sets for each reporting period. **UNSOURCED FIGURE:** the "2 to 3 per period" often quoted is not published; read the quota off the assignment rather than quoting a number
-- Accept any "suitable offer" under National Insurance Law s. 165 (**but see "The refusal penalty is not universal" at the end of this file before quoting the penalty to a woman on the 300-day track**): job type or training/education match, wage at least the dmei avtala otherwise due, no change of home (60 km rule). The first two tests relax by age: under 25 after 14 days, 25-28 after 30 days, 28-35 after 60 days
+- Accept any "suitable offer" under National Insurance Law s. 165 (**but see "The refusal penalty is not universal" at the end of this file before quoting the penalty to a woman on the 300-day track**): job type or training/education match, wage at least the dmei avtala otherwise due, no change of home (60 km, unless proper public or employer transport exists; 40 km for a mother of a child under 7). The first two tests relax by age: under 25 after 14 days, 25-28 after 30 days, 28-35 after 60 days
 - Refusing an assigned vocational-training course (kursim mukarim, maslulei mahalehet) is normally treated like refusing a job offer: 90-day waiting penalty + 30-day deduction. **Two published exceptions on the women's 300-day track, see the end of this file**
 - Report any side income immediately. Income from work, self-employment or a pension is deducted from the benefit; s. 176 deducts the average daily income from the daily benefit
 - Failure to report side income = fraud = retroactive clawback + possible criminal liability
@@ -162,15 +163,9 @@ Once approved, the claimant must:
 
 **Status: closed.** The defining period ran 28 Feb to 14 Apr 2026, extendable only to 14 May 2026. Nothing in this section applies to leave or unemployment beginning after that date; those claimants fall under the standard 12-of-18 rules. Kol-Zchut notes the framework can be re-activated by order for a future emergency through the end of 2027, so treat it as a dormant standby mechanism.
 
-**Employer-initiated vs employee-initiated.** Most halat under this regime is employer-initiated and routine. Employee-initiated halat IS allowed but raises a justification question at BL: a claimant who pushed for the leave themselves without documented cause (medical, family, dependent-care) may be treated as voluntary cessation and pulled into the 90-day waiting period despite the emergency framework. Walk the user through their circumstances carefully.
+**Either initiative qualified inside the window.** BTL's track page: `מי שיצא לחל"ת לפחות ל-10 ימים (במקום 30 ימים) - ביוזמתו או ביוזמת המעסיק`. This is the opposite of the standard rule, under which employee-initiated chal"t carries no entitlement at all; do not carry the emergency concession into a post-window claim.
 
-**Working during the halat even partially disqualifies.** Even one day of paid work for the halat employer (or any other employer) inside the halat window may void the claim for the entire halat period, not just the day worked. Vacation pay (חופשה בתשלום) and sick pay (דמי מחלה) received during the halat have the same effect: they signal the employment relationship was not actually suspended.
-
-**Additional income offsets (not full disqualifiers).** Self-employed (עוסק) income or pension payments received during the halat trigger a קיזוז (offset) against the daily benefit, not a hard disqualification. Bituach Leumi deducts the income from the benefit for that period.
-
-**Self-employed who is ALSO salaried (חצי-חצי).** A claimant who runs an עוסק *and* draws a regular salary can claim dmei avtala on the **salary component only**, with a רואה חשבון אישור attesting to income from both sources for the relevant 6-month base period. The osek months still don't count toward akhshara (Gotcha #6 applies), but the salaried portion is paid normally.
-
-**Recurring claimants (מובטלים חוזרים).** The Shaagat HaArie act extends and eases entitlement for claimants who previously exhausted avtala benefits, including a shortened re-qualifying window and an extension to the 12-month consumption clock for those affected by the war period. Specific extension parameters are set by minister order; check btl.gov.il/StateOfEmergency/ShaagatHari for the current calibration before promising days.
+**Income during the leave.** Salaried, self-employed or pension income received during the leave is offset against the daily benefit under the ordinary income rules (btl.gov.il/benefits/Unemployment/Pages/incomes.aspx); any stricter emergency-specific rule is not published on a reachable source, so do not assert one. Earlier versions of this file stated a "one paid day voids the whole leave" rule, a CPA-certificate rule for a claimant who is both osek and salaried, and a "shortened re-qualifying window" for repeat claimants; none of these had a source and they were removed in 1.7.1.
 
 **Workers aged 67+ get a special grant, not avtala.** Claimants above the avtala age ceiling receive a dedicated emergency grant under the same act in lieu of regular dmei avtala. The grant is one-time, age-conditioned, and filed through the Bituach Leumi Shaagat HaArie portal (not the standard avtala flow). Verify the current amount on the BL emergency page before quoting.
 
@@ -178,13 +173,36 @@ Verify the final extension date and any further parameter changes at btl.gov.il/
 
 ### Vocational Training (hachshara miktzoit) During Unemployment
 
-Claimants placed in an approved Sherut HaTaasuka training program (kursim mukarim, maslulei mahalehet) keep receiving avtala throughout the program, and may receive an enhanced stipend (dmei kiyum) in addition. Days spent in training do NOT consume max-days the same way active job-seeking days do, verify with the case worker before assuming.
+A claimant referred by Sherut HaTaasuka to an approved course is paid the benefit **at the full rate, MINUS the payments received in the training** (BTL Avthcsaramikzoeit.aspx: `בשיעור מלא, ובניכוי התשלומים הניתנים לו בהכשרה המקצועית`). A training stipend is therefore offset, not added on top. Training days ARE paid within the ordinary maximum days (`לתקופה שלא עולה על מספר ימי האבטלה המרביים`), with one exception: a participant with fewer than 12 years of schooling whose own maximum is under 138 days is paid for up to **138 days**. A trainee does not attend the lishka; the course sends a monthly attendance confirmation instead. Earlier versions of this file said training days "do not consume max-days the same way" and that a stipend is paid "in addition"; both were wrong and were removed in 1.7.1.
 
-Refusing an assigned training course is normally treated like refusing a job offer: 90-day waiting penalty + 30-day deduction, **subject to the two women's-track exceptions at the end of this file**. A participant with fewer than 12 years of schooling whose own maximum is under 138 days is paid for up to **138 days**. Encourage the user to attend.
+Refusing an assigned training course is normally treated like refusing a job offer: 90-day penalty + 30-day deduction, **subject to the two women's-track exceptions at the end of this file**. Encourage the user to attend.
+
+### Low-wage grant (maanak l'movtal ha'oved b'sachar namuch)
+
+A claimant who still has benefit days left and starts a NEW salaried job whose average daily wage is below their daily benefit can get a grant instead of the benefit, if they work at least **25 days at 50% of a post or more** (days need not be consecutive or with one employer). Per BTL Avtlaeidod.aspx:
+
+- **Daily grant** = daily benefit minus HALF the new average daily wage. BTL's example: benefit 240/day, new wage 160/day, grant 25 x (240 - 160/2) = 4,000 a month, so work plus grant = 8,000.
+- **Daily cap** = the average daily wage the benefit was computed on, minus the new average daily wage.
+- **Period**: the remaining days of the benefit year, never more than **100 days**. Days paid in the first 30 days after first attendance are not counted against it, so starting the low-paid job soon after first attendance preserves more grant days.
+- **Grant days are NOT taken from the benefit quota.** After the grant ends, a claimant with days left can return to the lishka and draw them.
+- Claimed on BL's low-wage-grant claim form; not automatic.
+
+### Lost one of two jobs
+
+A claimant who worked for two employers and was dismissed by one of them can claim for the job lost and keep working for the other. The benefit is computed on the income from BOTH employers in the 6 months before work stopped, and the income still received from the second employer is deducted (BTL incomes.aspx). Do not tell such a claimant that a remaining job blocks the claim.
+
+### Opening a business during the benefit year
+
+A claimant who opens a business before using the whole quota keeps the remaining days if the business closes within **24 months** and they return to the lishka; the 11-month look-back skips the business period (s. 158 "מבוטח מיוחד"; BTL Avtlaeidod.aspx: `זכותו לדמי אבטלה תישמר, אם העסק שפתח נסגר בתוך 24 חודשים`). The opening must be reported (Tax Authority, VAT, BL) for the rule to apply.
+
+### Keeping pension cover and the BL contribution exemption
+
+- **Pension and insurance cover.** When deposits stop, the disability and survivors' cover in the pension fund or managers' insurance can lapse. There are ways to keep continuity; ask the fund early (Kol Zchut דמי_אבטלה, "שמירת הזכויות הפנסיוניות"). Do not quote a number of months: it depends on the fund.
+- **After the benefit ends.** A claimant who keeps attending the lishka in full after the benefit days run out may be exempt from BL contributions (NOT health contributions) for up to **12 months within two consecutive tax years**, on request to BL's insurance and collection department (BTL Avtala_att.aspx).
 
 ### Stacking with Hashlamat Hachnasa (Income Supplementation)
 
-Avtala benefits below the household subsistence threshold can be topped up with hashlamat hachnasa for low earners with dependents. File via Bituach Leumi form 5320. The amount follows the hashlamat hachnasa rules and BL publishes no typical supplement figure, so do not quote one. This is not automatic; the claimant has to apply separately.
+Avtala benefits below the household subsistence threshold can be topped up with hashlamat hachnasa for low earners with dependents. File an income-support (hashlamat hachnasa) claim with Bituach Leumi. The amount follows the hashlamat hachnasa rules and BL publishes no typical supplement figure, so do not quote one. This is not automatic; the claimant has to apply separately.
 
 ### Reservists, Returning Israelis, Foreign Treaty Workers
 
@@ -196,7 +214,7 @@ Avtala benefits below the household subsistence threshold can be topped up with 
 
 - Months on dmei leda count toward akhshara.
 - The 60-day post-leda period is a protected period under Hok Avoda Nashim s. 9. Firing during this window without a Labor Ministry permit is illegal, register as fired AND consider a separate labor-court complaint.
-- Extending leda with chofesh lelo tashlum (CHALAT) up to 12 months does not break tkufat akhshara.
+- Unpaid leave after birth extends the 18-month window by up to about a quarter of the months worked, capped at 12 months from the birth.
 - Drawing dmei leda blocks avtala for the leda period; switch carefully when leda ends.
 
 ### Sickness or Disability During Avtala
@@ -210,7 +228,7 @@ Avtala benefits below the household subsistence threshold can be topped up with 
 The standard penalty for refusing suitable work, training, hishtalmut or hasava miktzoit is **90 days with no benefit from the day of refusal, every time, plus 30 days off the quota** (btl.gov.il/benefits/Unemployment/Pages/pay.aspx). Two published exceptions change it:
 
 - **A woman aged 57 to 60 on the 300-day track** who refuses vocational training **in the first 175 days** gets the standard 90 + 30 (leaving 270 days). If she refuses **from day 176 onward**, she forfeits entitlement for the **entire remaining balance**, which is far harsher than the standard penalty.
-- **A woman aged 60 to 67 on the 300-day track** who refuses work or vocational training **continues to receive benefit as usual.** The 90 + 30 penalty does not apply to her at all. Telling her otherwise is the most common way this track is got wrong.
+- **A woman aged 60 to 67 on the 300-day track** who refuses work or vocational training **continues to receive benefit as usual.** By statute this exemption covers **2022 to 2026** only (s. 166(d): `לא יחולו, בשנים 2022 עד 2026, לגבי מבוטחת שנולדה ביום א׳ בטבת התש״ך (1 בינואר 1960) או לאחריו ומלאו לה 60 שנים`); for a refusal on or after 1.1.2027, check whether it was extended before relying on it. The 90 + 30 penalty does not apply to her at all. Telling her otherwise is the most common way this track is got wrong.
 
 Source: btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx
 

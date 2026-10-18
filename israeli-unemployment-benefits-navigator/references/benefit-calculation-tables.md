@@ -15,6 +15,8 @@ All figures effective 01.01.2026 and linked to inflation. They re-link in Januar
 | Daily ceiling for a repeat claimant under 40, after 100% of days used | ₪468.15 |
 | Bituach Leumi monthly deduction from benefit | ₪48 (effective 01.01.2026) |
 | Divisor for average daily wage | 150 (= 25 days * 6 months) |
+| Base period for the average daily wage | The 6 months before the month of first registration at Sherut HaTaasuka (BTL hisuv.aspx); the statute says the last 6 calendar months with unemployment contributions before the determining date (s. 170(a)) |
+| Floor on the average daily wage | Not below the daily minimum wage under s. 1 of the Minimum Wage Law, or partial minimum wage for a part-timer under its s. 2 (s. 170(f)). No shekel figure is stated here: take the current minimum wage from the Ministry of Labor |
 
 ## Progressive Rate Tables
 
@@ -35,7 +37,7 @@ Bracket 1 (0 to 207.50): 207.50 * 60% = 124.50
 Bracket 2 (207.50 to 311.25): (311.25 - 207.50) * 40% = 41.50
 Bracket 3 (311.25 to 400): (400 - 311.25) * 35% = 31.06
 Daily gross benefit: 124.50 + 41.50 + 31.0625 = 197.0625, shown as 197.06
-Approx monthly gross (25 days): 197.06 * 25 = 4,926.50
+Approx monthly gross (25 days): 197.0625 * 25 = 4,926.56
 ```
 
 ### Claimants 28 Years and Older
@@ -68,14 +70,14 @@ For claimants in 138, 175, or 300 day brackets, the average daily benefit drops 
 Days 1-125: 125 * 320.06 = 40,007
 Days 126-138: 13 * 320.06 = 4,161 (still below 367.17 ceiling, no further cap)
 Total entitlement gross: ~44,168
-Then subtract the unpaid first 5 unemployment days in each 4 consecutive attendance months (see below)
+Do NOT subtract the unpaid first-5-day blocks from this total: they are not taken from the quota, so a fully used quota still pays all 138 days (see the end of this file)
 ```
 
 If the user's calculated daily rate exceeds ₪367.17, the tail portion is capped at the lower ceiling. Do NOT multiply the day-1 rate by the full max-days; you'll overstate by 5-15% on long entitlements.
 
 **The women's 300-day track (ages 57-67, born 1/1/1960 or later) splits in two at age 60, and the split governs the AMOUNT, not the duration.** Both sub-bands get 300 days over an 18-month window.
 
-- **Women 57 to 60:** from day 176 the daily benefit is capped at **₪201.03** (2026). Project in three slices: days 1-125 at ₪550.76, days 126-175 at ₪367.17, days 176-300 at ₪201.03. A woman in this band who participates in vocational training is paid 100% of her wage but still no more than ₪201.03 a day. Refusing vocational training in the first 175 days costs her 90 days of disqualification plus 30 days off the entitlement, leaving 270.
+- **Women 57 to 60:** from day 176 the daily benefit is capped at **₪201.03** (2026). The cap lasts only while she is under 60: on her 60th birthday she moves to the 60-67 rules (BTL zecoyot-nasim), so for a claimant aged 58 or 59 project the tail to the birthday at 201.03 and after it at 367.17. Project in three slices: days 1-125 at ₪550.76, days 126-175 at ₪367.17, days 176-300 at ₪201.03. A woman in this band who participates in vocational training is paid 100% of her wage but still no more than ₪201.03 a day. Refusing vocational training in the first 175 days costs her 90 days of disqualification plus 30 days off the entitlement, leaving 270.
 - **Women 60 to 67:** there is **NO day-176 cap**. Her tail stays at the ₪367.17 ceiling, she is paid 100% during vocational training, and refusing work or training does not cut her benefit. Applying the 201.03 cap to her understates her entitlement by (367.17 - 201.03) for each of the 125 days from day 176, which is up to **₪20,767.50** for a claimant at or above the 367.17 ceiling, and proportionally less for a lower daily rate. Below ₪201.03 a day the cap makes no difference at all.
 
 Source: btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx, which sets out the two sub-bands separately ("זכויות לנשים בגילאי 57 עד 60" and "זכויות לנשים בגילאי 60 עד 67").
@@ -88,22 +90,24 @@ Bituach Leumi does not pay a flat calendar month. It pays for the **"possible wo
 
 Two consequences worth stating to the user. First, `daily * 25` is a conservative baseline for a monthly figure, not a promise; label it "approximate". Second, do not confuse this with the **150 divisor** used to build the average daily wage, which is a separate BL convention (25 working days x 6 months) and is not affected by how many days a given month happens to carry.
 
-Then subtract the unpaid first-5-day blocks (see the end of this file), which are the larger correction in month 1.
+The unpaid first-5-day blocks (see the end of this file) are the larger correction to any single month's cash, month 1 above all, but they do not reduce the full-quota total.
 
 ## Maximum Benefit Days Table
 
-| Age at start of unemployment | Dependents | Max days | Notes |
+| Age (completed years) at start of unemployment | Dependents | Max days | Notes |
 |------------------------------|-----------|----------|-------|
-| 20-25 | < 3 | 50 | 12-month window |
-| 20-25 | >= 3 | 138 | 12-month window |
-| 25-28 | < 3 | 67 | 12-month window |
-| 25-28 | >= 3 | 138 | 12-month window |
-| 28-35 | < 3 | 100 | 12-month window |
-| 28-35 | >= 3 | 138 | 12-month window |
-| 35-45 | < 3 | 138 | 12-month window |
-| 35-45 | >= 3 | 175 | 12-month window |
-| 45-67 | Any | 175 | 12-month window |
+| 20-24 | < 3 | 50 | 12-month window |
+| 20-24 | >= 3 | 138 | 12-month window |
+| 25-27 | < 3 | 67 | 12-month window |
+| 25-27 | >= 3 | 138 | 12-month window |
+| 28-34 | < 3 | 100 | 12-month window |
+| 28-34 | >= 3 | 138 | 12-month window |
+| 35-44 | < 3 | 138 | 12-month window |
+| 35-44 | >= 3 | 175 | 12-month window |
+| 45-66 | Any | 175 | 12-month window |
 | Women 57-67 (born 1/1/1960 or later) | Any | 300 | 18-month window, special track |
+
+The bands are the statute's "has turned" boundaries (s. 171(a): `175 – אם מלאו לו 45 שנים, או שמלאו לו 35 שנים וישנם שלושה תלויים בו`). BTL's table prints them as "25 עד 28", which reads as ambiguous at the edges; a claimant who has turned 25, 28, 35 or 45 is already in the higher band. Do not round an exact 35 or 45 down.
 
 **Who counts as a tlui (dependent) is a statutory test, not a judgement call.** Source: btl.gov.il/benefits/Unemployment/Pages/tkufat_zakaut.aspx.
 
@@ -129,7 +133,7 @@ Before the claimant receives money in their bank account:
 2. **Bituach Leumi contribution**: fixed ₪48 per month (effective 01.01.2026; kolzchut still shows the older ₪32 figure, btl.gov.il is authoritative)
 3. **Mas briut (health tax)**: percentage of the benefit
 
-**Rule of thumb:** Low-income claimants net close to 100% of gross. Mid-income net approximately 85-90% of gross. High-income (hitting ceilings) net approximately 80-85%.
+**Rule of thumb:** low-income claimants net close to 100% of gross. BL publishes no net percentage for higher earners, and income tax depends on the claimant's annual income and credit points, so estimate net per claimant rather than quoting a band.
 
 ## Special Cases
 
@@ -138,8 +142,8 @@ Before the claimant receives money in their bank account:
 | Worked part-time during unemployment | BL compares per day, it does not take a flat percentage. Gross monthly wage divided by the number of days actually worked gives an average daily wage; if that is BELOW the daily benefit the claimant gets the difference for those days and the full benefit for the remaining days; if it is at or ABOVE the daily benefit, nothing is paid for those days. Self-employed income: annual income / 12 / 30, settled only after the final tax assessment. Pension: gross monthly pension / 30. Source: btl.gov.il/benefits/Unemployment/Pages/incomes.aspx |
 | First-time claimant who has never worked | Not eligible (tkufat akhshara not met) |
 | Return to the same employer briefly | A new claim may only be filed 12 months after the start of the previous entitlement; before that, keep attending and draw the remaining days rather than re-filing (btl.gov.il/benefits/Unemployment/Pages/submit.aspx). Whether a short re-employment restarts the window is not published; ask the branch rather than asserting it |
-| Vocational training stipend (hachshara miktzoit) | Avtala continues during approved Sherut HaTaasuka programs (kursim mukarim, maslulei mahalehet). May add an enhanced kiyum stipend. Days in training do not consume max-days the same way. Refusing assigned training = 90-day wait + 30-day deduction |
-| Hashlamat hachnasa (income supplementation) | Low earners with dependents may stack avtala with hashlamat hachnasa via BL form 5320. The amount follows the hashlamat hachnasa rules; BL publishes no typical supplement figure, so do not quote one. Apply separately, not automatic |
+| Vocational training stipend (hachshara miktzoit) | Avtala continues during approved Sherut HaTaasuka programs, at the full rate MINUS the payments received in the training; training days are paid within the ordinary maximum days (138-day floor for under 12 years of schooling). See references/eligibility-rules.md. Refusing assigned training = 90-day wait + 30-day deduction |
+| Hashlamat hachnasa (income supplementation) | Low earners with dependents may stack avtala with hashlamat hachnasa (a separate income-support claim with BL; no form number is quoted here because none could be confirmed). The amount follows the hashlamat hachnasa rules; BL publishes no typical supplement figure, so do not quote one. Apply separately, not automatic |
 | Vacation pay and pay in lieu of prior notice | These, not severance, postpone the benefit. No benefit is paid for a period covered by vacation pay under the Annual Leave Law, a collective agreement or an employment contract, nor for a period covered by payment for failure to give prior notice (at most one month). Legal pitzuei piturin do NOT delay or reduce avtala. Source: btl.gov.il/benefits/Unemployment/Pages/pay.aspx |
 | Foreign work months | Work abroad counts only (a) for an Israeli employer under a contract signed in Israel, or (b) by aggregating periods from a country with which Israel has a treaty **in the unemployment branch**, which is only **Austria, the Netherlands and Sweden**. Israel's general social-security treaties (US, UK, Germany, France, Canada, Switzerland and others) do NOT cover unemployment. Source: btl.gov.il/benefits/Unemployment/Pages/DaysHaxhsharaAvt.aspx |
 | Shaagat HaAri 2026 chal"t track **[CLOSED 14.5.2026, does not apply to new claims]** | Akhshara reduced to 6 months out of 18; **bifurcated minimum (effective 5.5.2026): chal"t qualifies from 5 consecutive days ONLY if started 28.2.2026 or 1.3.2026, otherwise 10 consecutive days**; avtala from day 1; no need to exhaust accrued vacation. Defining period 28 Feb to 14 Apr 2026 (extendable to 14 May 2026). The statute records itself as `התקבל בכנסת ביום י״ג בניסן התשפ״ו (31 במרץ 2026)`. **Retracted:** an earlier version cited a second and third reading on 4.5.2026 and a Sefer HaChukim volume 3525. Neither could be confirmed; do not reintroduce a Reshumot reference for this law |
@@ -161,7 +165,7 @@ A repeat claimant is someone who filed **at least 2 unemployment claims in the l
 | | Under 40 | 40 and over |
 |---|---|---|
 | Days | All claims in the 4-year window are capped at **180%** of the maximum days | If unemployment was paid in the 11 months before the claim, each month's days are reduced by the days already paid in the preceding 11 months (rolling window); otherwise as a first claim |
-| Amount | Once 100% of the days are used, the daily maximum drops to **₪468.15** | **No cap on the amount** |
+| Amount | Once 100% of the days are used, the daily maximum drops to **₪468.15** in the first 125 days. The statute caps the daily amount at 85% of BOTH ceilings (s. 171a(b)(2)), so from day 126 the cap is **₪312.09** (85% of 367.17, computed; BTL publishes only the 468.15 figure). Days on the next claim: 80% of the maximum (s. 171a(b)(1)) | **No cap on the amount** |
 
 Bituach Leumi's own example: someone who used all 175 days and claims again gets 140 days (80%), with the first 125 capped at ₪468.15.
 
@@ -170,6 +174,6 @@ Source: btl.gov.il/benefits/Unemployment/Pages/MovtalHozer.aspx.
 
 ## The first 5 unemployment days are never paid
 
-No benefit is paid for the **first 5 unemployment days in each 4 consecutive months of attendance**, counted from the date of first attendance at Sherut HaTaasuka. These days are **NOT** deducted from the maximum-days quota, so they shorten the cash, not the entitlement. The rule recurs roughly three times a year over a long claim, so a 138-day or 175-day projection that ignores it overstates the total by one or two 5-day blocks.
+No benefit is paid for the **first 5 unemployment days in each 4 consecutive months of attendance**, counted from the date of first attendance at Sherut HaTaasuka. These days are **NOT** deducted from the maximum-days quota (`ימים אלו לא מופחתים ממכסת ימי האבטלה שלהם אתה זכאי`). So they cut the cash of the month each block falls in and push the last payment later, but a claimant who uses the whole quota is still paid for every quota day. The rule recurs roughly every 4 attendance months, two or three times over a 138-day or 175-day claim. A month-by-month cash projection must show it; a full-quota total must NOT subtract it (an earlier version of this file and of the calculator did, understating the total by up to 15 days of benefit). Only a claimant who finds work before exhausting the quota ends up with those days genuinely unpaid.
 
 Source: btl.gov.il/benefits/Unemployment/Pages/pay.aspx ("לא ישולמו לך דמי אבטלה עבור 5 ימי האבטלה הראשונים בכל 4 חודשי התייצבות רצופים").

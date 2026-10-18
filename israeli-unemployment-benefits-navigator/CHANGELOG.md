@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.7.1 - 2026-10-18
+
+Drift check against btl.gov.il (rendered in a browser) and the National Insurance Law found no change to any 2026 figure since 1.7.0. This cycle fixes internal contradictions, boundary errors and coverage gaps a practitioner review found.
+
+**Rules that were wrong**
+- **The unpaid first-5-day blocks were subtracted from the full-quota total, contradicting the rule they come from.** BTL says these days `לא מופחתים ממכסת ימי האבטלה`, so a claimant who uses the whole quota is still paid every quota day, later. The calculator, the Troubleshooting table and two passages in references/benefit-calculation-tables.md subtracted them, understating a fully used entitlement by up to 15 days of benefit.
+- **Vocational training was reversed.** A trainee is paid the full benefit MINUS the training payments, within the ordinary maximum days (138-day floor for under 12 years of schooling). The file said a stipend is paid "in addition" and that training days "do not consume max-days".
+- **"Osek" was a blanket exclusion.** Only someone working ONLY as self-employed is uninsured; a salaried worker with a side osek is insured for the salaried job and the osek income is deducted.
+- **The refusal exemption for a woman 60-67 on the 300-day track is time-limited by statute to 2022 to 2026** (s. 166(d)); the skill, script and calculator now say so.
+- references/eligibility-rules.md said post-birth unpaid leave extends the window by "up to 12 months"; it is about a quarter of the months worked, capped at 12 months from the birth. Four unsourced Shaagat HaAri rules were removed, the first of which contradicted BTL (either initiative qualified inside the window).
+
+**Coverage added**
+- The low-wage grant (s. 176a, BTL Avtlaeidod): benefit minus half the new daily wage, up to 100 days, not taken from the quota.
+- A claimant dismissed by one of two employers can claim; the base uses both wages.
+- Appeal routes: a Sherut HaTaasuka act (refusal or attendance record) goes to its va'adat erer within 7 days; a BL decision to the labour court within 12 months (Kol Zchut). The unsourced "6 months" and "60 days" windows are gone.
+- Bar and CPA Part B exam candidates get no benefit in the 2 months before the exam; the suitable-work test now includes the public-transport exception and the 40 km rule for a mother of a child under 7; opening a business mid-claim (24 months), pension cover continuity, and the BL contribution exemption after the benefit ends are in references; a chal"t inside the closed Shaagat HaAri window can still be claimed within the ordinary 12-month filing window.
+
+**Precision**
+- Age bands now read in completed years (s. 171(a) "has turned 25 / 28 / 35 / 45").
+- The average-daily-wage base follows BTL's wording (6 months before the month of first registration) and states the s. 170 floor at the daily minimum wage.
+- Repeat claimant under 40: 80% of the maximum days and a second-period cap of 312.09 (85% of 367.17, computed, s. 171a(b)(2)).
+- A woman on the 57-60 sub-track moves to the 60-67 rules at her 60th birthday.
+- The net-percentage bands (80-85%, 85-90%) had no source and were removed; form 5320, the 077 Taasuka number and the hotline hours could not be confirmed and were removed.
+
+**Calculator** (`scripts/avtala_calculator.py`): the invented 0/5/10% income-tax ladder is removed; `--refused-offers N` models refusals as a repeatable mid-claim event, not applied to a woman 60-67, with the 90-day note counted from the refusal; the repeat-claimant 80% is applied before any refusal cut, with the 312.09 second-period cap; the unpaid-block count accounts for the delay the blocks themselves cause.
+
 ## 1.7.0 - 2026-08-27
 
 Coverage cycle driven by enumerating the full Bituach Leumi tables rather than spot-checking the values already present. Every stated figure was correct; what was missing were rows.

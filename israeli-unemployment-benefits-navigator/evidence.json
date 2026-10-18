@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-unemployment-benefits-navigator",
-  "generated_at": "2026-08-27T00:00:00Z",
+  "generated_at": "2026-10-18T16:00:00Z",
   "claims": [
     {
       "claim_id": "progressive-brackets-2026",
@@ -116,15 +116,15 @@
     {
       "claim_id": "knesset-passage-shaagat-haarie-law",
       "claim": "The Shaagat HaAri chalat framework was agreed and passed a Knesset vote on 31.3.2026",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
       "raw_snippet": "מתווה החל\"ת הוסכם ועבר הצבעה בכנסת, בתאריך ה-31.3.2026.",
-      "fetched_at": "2026-08-13",
+      "fetched_at": "2026-10-18T14:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
       ],
-      "verified_via": "curl -sSL --compressed against btl.gov.il (static HTML); page publish date 19.04.2026",
+      "verified_via": "curl against btl.gov.il; the earlier news URL now 404s",
       "source_fetched_at": "2026-08-11T00:00:00Z",
       "verified_at": "2026-08-13"
     },
@@ -198,7 +198,7 @@
     },
     {
       "claim_id": "90-day-resignation-wait",
-      "claim": "Resignation without justified cause (hitpatrut) carries a 90-day waiting period before unemployment benefits begin. Per Bituach Leumi nesibothafsakatavoda page, the 90-day clock runs from the cessation of work (per BL); the skill specifies the practical start is from registration date.",
+      "claim": "Resignation without justified cause carries a 90-day waiting period before unemployment benefit begins, counted from the day work ceased.",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/nesibothafsakatavoda.aspx",
       "raw_snippet": "אם הפסקת לעבוד מרצונך תוכל להתחיל לקבל דמי אבטלה רק לאחר שחלפו 90 יום",
       "fetched_at": "2026-05-18T17:00:00Z",
@@ -211,42 +211,48 @@
     },
     {
       "claim_id": "qualifying-period-kolzchut",
-      "claim": "Kolzchut confirms 12 of 18 months qualifying period and age range 20-67 and 90-day waiting period for resigners. Reference URL (URL-encoded): https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
+      "claim": "Kol Zchut confirms the 12-of-18 months qualifying period, counted back from the 1st of the month of first registration at the Employment Service.",
       "source_url": "https://www.kolzchut.org.il/he/תקופת_אכשרה_לדמי_אבטלה",
-      "raw_snippet": "12 חודשים לפחות שבהם שולמו דמי ביטוח אבטלה, מתוך 18 החודשים שקדמו לתחילת תקופת האבטלה (ה-1 בחודש שבו הם נרשמים לראשונה ב",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "לפחות 12 חודשי עבודה מתוך 18 החודשים שקדמו ל-1 בחודש שבו נרשמו לראשונה בלשכת התעסוקה",
+      "fetched_at": "2026-10-18T12:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-07-26T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T12:00:00Z"
     },
     {
       "claim_id": "tkufat-akhshara-kolzchut",
       "claim": "Kolzchut tkufat akhshara page covers how qualifying months are counted toward dmei avtala including the 12 months out of 18 rule, treatment of partial months (any day with salaried work = full month), and that osek (self-employed) months do not count. Reference URL (URL-encoded): https://www.kolzchut.org.il/he/%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%90%D7%9B%D7%A9%D7%A8%D7%94_%D7%9C%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94",
       "source_url": "https://www.kolzchut.org.il/he/תקופת_אכשרה_לדמי_אבטלה",
-      "raw_snippet": "12 חודשים לפחות שבהם שולמו דמי ביטוח אבטלה, מתוך 18 החודשים שקדמו לתחילת תקופת האבטלה (ה-1 בחודש שבו הם נרשמים לראשונה ב",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "לפחות 12 חודשי עבודה מתוך 18 החודשים שקדמו ל-1 בחודש שבו נרשמו לראשונה בלשכת התעסוקה",
+      "fetched_at": "2026-10-18T12:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/eligibility-rules.md"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-07-26T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T12:00:00Z"
     },
     {
       "claim_id": "sherut-hataasuka-portal",
-      "claim": "Sherut HaTaasuka official applicant portal for dmei avtala (registration steps, reporting, in-person visit). Hotline *9687.",
+      "claim": "Sherut HaTaasuka official applicant portal for dmei avtala (registration and reporting). Service hotline *9687.",
       "source_url": "https://www.taasuka.gov.il/applicants/dmeiavtala/",
-      "raw_snippet": "ניתן ליצור עימנו קשר בשעות הפעילות בטלפון",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "מוקד שירות 9687*",
+      "fetched_at": "2026-10-18T14:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/application-forms.md"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-07-26T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T14:00:00Z"
     },
     {
       "claim_id": "btl-portal-domain",
@@ -263,10 +269,10 @@
     },
     {
       "claim_id": "gov-il-portal",
-      "claim": "Israeli unified government services portal https://www.gov.il is used for digital ID (zehut digitalit) login and the unified online unemployment claim form.",
-      "source_url": "https://www.gov.il",
-      "raw_snippet": "Government Login (zehut digitalit) URL: https://www.gov.il - unified digital ID for all online services including the unemployment claim form.",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "The unemployment claim is filed online through the national identification (gov.il) login, and the same form also registers the claimant at Sherut HaTaasuka.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "במערכת הזדהות לאומית",
+      "fetched_at": "2026-10-18T12:00:00Z",
       "appears_in": [
         "references/application-forms.md"
       ]
@@ -351,16 +357,18 @@
     },
     {
       "claim_id": "form-5320-hashlamat-hachnasa",
-      "claim": "Form 5320 (טופס 5320 / בל/5320) is the application for hashlamat hachnasa (income supplementation), which low-earner avtala claimants with dependents can stack on top of avtala. Typical supplementation ₪1,500 to ₪2,000 per month. Per kolzchut, דמי אבטלה ייחשבו כהכנסה מעבודה when assessing eligibility.",
+      "claim": "For the income-support (hashlamat hachnasa) test, unemployment benefit is counted as income from work. No form number is asserted.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A9%D7%9C%D7%9E%D7%AA_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
       "raw_snippet": "דמי אבטלה ייחשבו כהכנסה מעבודה.",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "fetched_at": "2026-10-18T14:00:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/application-forms.md"
+        "references/application-forms.md",
+        "references/benefit-calculation-tables.md",
+        "references/eligibility-rules.md"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-07-26T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T14:00:00Z"
     },
     {
       "claim_id": "form-bl-627-treaty",
@@ -422,10 +430,10 @@
     },
     {
       "claim_id": "phone-bl-6050",
-      "claim": "Bituach Leumi general hotline phone: *6050 (or 04-8812345). Operating hours Sunday-Thursday 8:00-17:00. Confirmed also via kolzchut hashlamat-hachnasa page recommendation to call *6050.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A9%D7%9C%D7%9E%D7%AA_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
-      "raw_snippet": "גמלת הבטחת הכנסה (השלמת הכנסה) (זכות) – כל-זכות",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "claim": "Bituach Leumi general hotline: *6050.",
+      "source_url": "https://www.btl.gov.il/About/contact_us/Pages/default.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050",
+      "fetched_at": "2026-10-18T12:00:00Z",
       "appears_in": [
         "references/application-forms.md"
       ],
@@ -433,14 +441,16 @@
     },
     {
       "claim_id": "phone-taasuka-9687",
-      "claim": "Sherut HaTaasuka hotline: *9687 (or 077-2718800). Operating hours Sunday-Thursday 8:00-16:00.",
+      "claim": "Sherut HaTaasuka service hotline: *9687.",
       "source_url": "https://www.taasuka.gov.il/applicants/dmeiavtala/",
-      "raw_snippet": "ניתן ליצור עימנו קשר בשעות הפעילות בטלפון",
-      "fetched_at": "2026-05-18T17:00:00Z",
+      "raw_snippet": "מוקד שירות 9687*",
+      "fetched_at": "2026-10-18T14:00:00Z",
       "appears_in": [
         "references/application-forms.md"
       ],
-      "source_fetched_at": "2026-07-26T00:00:00Z"
+      "source_fetched_at": "2026-07-26T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T14:00:00Z"
     },
     {
       "claim_id": "phone-gov-info-2496-3450",
@@ -456,7 +466,7 @@
     },
     {
       "claim_id": "appeal-windows-6mo-12mo-60days",
-      "claim": "NOT VERIFIED, and the skill no longer asserts these deadlines. The 6-month informal review, 12-month labour-court appeal and 60-day Va'adat Ararim windows are widely repeated, but s.396 of the National Insurance Law leaves the deadlines to regulations that were not reachable, and no Bituach Leumi page publishes them. SKILL.md, SKILL_HE.md and references/application-forms.md now all tell the user to read the deadline off their own decision letter or call *6050 rather than relying on a quoted window.",
+      "claim": "Superseded in 1.7.1: the 12-month labour-court window is now sourced (labour-court-appeal-12-months) and the 7-day Sherut HaTaasuka appeal (taasuka-appeal-7-days); the \"6 months\" claims-committee window and the \"60 days\" va'adat ararim window are NOT asserted anywhere (the 60 days is the hearing deadline).",
       "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "raw_snippet": "https://www.btl.gov.il/benefits/Unemployment/Pages/default.aspx",
       "fetched_at": "2026-08-13",
@@ -708,16 +718,6 @@
       "raw_snippet": "מחלק השכר הגבוה מהסכום היומי הבסיסי עד ל-5 פעמים...סכום השווה לשכר היומי הממוצע במשק",
       "confidence": "high",
       "claim_id": "worked-examples-derived"
-    },
-    {
-      "claim_id": "shaagat-haarie-business-aid-approved",
-      "claim": "The Shaagat HaArie business assistance scheme was finally approved in the Knesset; advances of up to 80% of the estimated compensation can be requested and final claims from 17 May.",
-      "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "fetched_at": "2026-08-11",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "raw_snippet": "באמצעות המערכת יוכלו בעלי העסקים שמחזור פעילותם נפגע בשל המלחמה לקבל מקדמה על חשבון הפיצוי עד שיעור של 80% מהפיצוי המשוער. הגשת תביעות סופיות תתאפשר החל מה-17 במאי, לאחר הגשת הדיווחים למע\"מ בגין מרץ-אפריל 2026.",
-      "verified_via": "gov.il content API",
-      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "employment-aid-law-enactment-date",
@@ -1094,6 +1094,397 @@
         "references/benefit-calculation-tables.md",
         "references/application-forms.md",
         "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "unpaid-5-days-not-from-quota",
+      "claim": "The unpaid first 5 days in each 4 consecutive attendance months are not deducted from the quota, so a fully used quota is still paid in full; a full-quota total must not subtract them.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/pay.aspx",
+      "raw_snippet": "ימים אלו לא מופחתים ממכסת ימי האבטלה שלהם אתה זכאי",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "max-days-age-bands-has-turned",
+      "claim": "Maximum-days age bands use the statute's \"has turned\" boundaries: 175 days from 45, or from 35 with three dependants; so a claimant aged exactly 35 or 45 is in the higher band (s. 171(a)). (סעיף 171)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "175 – אם מלאו לו 45 שנים, או שמלאו לו 35 שנים וישנם שלושה תלויים בו",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T12:00:00Z"
+    },
+    {
+      "claim_id": "max-days-age-25-28-band",
+      "claim": "67 days for a claimant who has turned 25 and not yet 28; 50 days under 25 (s. 171(a)(2a),(2b)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "67 – אם מלאו לו 25 שנים וטרם מלאו לו 28 שנים",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "avg-daily-wage-base-period-btl",
+      "claim": "BTL computes the average daily wage from the 6 months preceding the month of first registration at the Employment Service, divided by 150.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/hisuv.aspx",
+      "raw_snippet": "ב- 6 החודשים האחרונים שקדמו לחודש שבו נרשמת לראשונה בשירות התעסוקה, מחולק ב-150",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "avg-daily-wage-statute-s170a",
+      "claim": "Statute: the average daily wage uses the last six calendar months for which unemployment contributions were paid before the determining date (s. 170(a)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "בתקופה של ששת החודשים הקלנדריים האחרונים שבעדם שולמו דמי ביטוח אבטלה לפני התאריך הקובע",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "avg-daily-wage-min-wage-floor-s170f",
+      "claim": "The average daily wage is never below the daily minimum wage, or the partial minimum wage for a part-timer (s. 170(f)). (סעיף 170)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "ולא יפחת משכר מינימום יומי כהגדרתו",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "refusal-deduction-30-or-remaining-s171a1",
+      "claim": "The refusal deduction is 30 days or the days remaining from the refusal, whichever is lower (s. 171(a1)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "יופחת ב־30 ימים או במספר הימים הנותרים מיום הסירוב",
+      "fetched_at": "2026-10-18T12:00:00Z",
+      "appears_in": [
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "women-60-refusal-exemption-sunset-2026",
+      "claim": "The refusal penalties (s. 166(d) 90 days and s. 171(a1) 30 days) do not apply in 2022 to 2026 to an insured woman born on or after 1.1.1960 who has turned 60; the exemption is time-limited (סעיף 166).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "לא יחולו, בשנים 2022 עד 2026, לגבי מבוטחת שנולדה ביום א׳ בטבת התש״ך (1 בינואר 1960) או לאחריו ומלאו לה 60 שנים",
+      "fetched_at": "2026-10-18T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "repeat-under-40-85pct-both-ceilings",
+      "claim": "Repeat claimant under 40 after a full maximum period: the daily amount is capped at 85% of the ceilings in s. 167(b)(2), i.e. 468.15 in the first 125 days and ₪312.09 (85% of 367.17, computed) from day 126.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "לא יעלה סכום דמי האבטלה ליום על 85% מסכום דמי האבטלה ליום החל לגביו",
+      "fetched_at": "2026-10-18T14:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "repeat-under-40-80pct-days",
+      "claim": "Repeat claimant under 40: on the next claim within the 48-month period no more than 80% of the maximum payment period is paid (s. 171a(b)(1)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "לא ישולמו למובטל דמי אבטלה בעד תקופה העולה על 80% מתקופת תשלום מרבית",
+      "fetched_at": "2026-10-18T14:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "shaagat-chalat-either-initiative",
+      "claim": "Inside the closed Shaagat HaAri window, chal\"t of at least 10 days qualified whether employee- or employer-initiated.",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "מי שיצא לחל\"ת לפחות ל-10 ימים (במקום 30 ימים) - ביוזמתו או ביוזמת המעסיק",
+      "fetched_at": "2026-10-18T14:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "women-57-60-move-at-60",
+      "claim": "A woman on the 57-60 sub-track who turns 60 receives the rights of an unemployed woman aged 60-67 from then on.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/zecoyot-nasim.aspx",
+      "raw_snippet": "מי שתגיע לגיל 60 - תקבל זכויות של מובטלת בגיל 67-60",
+      "fetched_at": "2026-10-18T14:00:00Z",
+      "appears_in": [
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-eligibility",
+      "claim": "A claimant with benefit days left who starts a new salaried job paying a daily wage below the daily benefit is entitled to a low-wage grant after at least 25 days at 50% of a post or more.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "יהיה זכאי למענק אם עבד בעבודה זו 25 ימים לפחות ב-50% משרה לפחות",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-amount",
+      "claim": "The grant is the daily benefit minus half the new average daily wage.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "סכום המענק יהיה ההפרש שבין דמי האבטלה שהיו מגיעים לו ליום, אם לא היה עובד בשכר נמוך, ובין מחצית שכרו היומי הממוצע מהעבודה בשכר הנמוך",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-example",
+      "claim": "BTL example: benefit 240 a day, new wage 160 a day, grant 4,000 a month (25 x (240 - 160/2)), so work plus grant is 8,000.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "בחודש זה הכנסותיו מעבודה וממענק יהיו 8,000 ש\"ח",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-100-days",
+      "claim": "The grant is paid for the remaining benefit days of the benefit year, never more than 100 days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "ובכל מקרה תשלום המענק לא יעלה על 100 ימים",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-first-30-days",
+      "claim": "Benefit days paid in the first 30 days after first attendance are not counted against the grant period.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "לא יובאו בחשבון ימי האבטלה ששולמו למובטל ב-30 הימים הראשונים להתייצבותו הראשונה בשירות התעסוקה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "low-wage-grant-not-from-quota",
+      "claim": "Grant days are not counted as unemployment days and are not deducted from the remaining maximum.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "הימים שעבורם שולם המענק אינם נספרים כימי אבטלה, ואינם מופחתים מיתרת התקופה המרבית לדמי אבטלה המגיעה למובטל",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "business-opened-24-months",
+      "claim": "A claimant who opens a business before using the whole quota keeps the right to the remaining days if the business closes within 24 months.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtlaeidod.aspx",
+      "raw_snippet": "זכותו לדמי אבטלה תישמר, אם העסק שפתח נסגר בתוך 24 חודשים",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "two-employers-claim",
+      "claim": "A claimant dismissed by one of two employers can claim for the job lost and keep working for the other.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/incomes.aspx",
+      "raw_snippet": "אם עבדת אצל שני מעסיקים ופוטרת על ידי אחד מהם, תוכל לתבוע דמי אבטלה על עבודתך מהמעסיק שפיטר אותך",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "two-employers-base",
+      "claim": "The benefit is computed on the income from both employers in the 6 months before work stopped, and the continuing income from the second employer is deducted.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/incomes.aspx",
+      "raw_snippet": "דמי האבטלה יחושבו לפי הכנסותיך משני המעסיקים, ב-6 החודשים האחרונים שקדמו להפסקת העבודה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "side-osek-income-deducted",
+      "claim": "Self-employed income during the benefit period is deducted from the benefit, which continues.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/incomes.aspx",
+      "raw_snippet": "אם אתה עובד כעצמאי בזמן שאתה מקבל דמי אבטלה, תוכל להמשיך לקבל דמי אבטלה בניכוי הכנסתך מעבודה זו",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "scripts/avtala_calculator.py"
+      ]
+    },
+    {
+      "claim_id": "training-payment-offset",
+      "claim": "A claimant in vocational training is paid the benefit at the full rate minus the payments received in the training.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avthcsaramikzoeit.aspx",
+      "raw_snippet": "ובניכוי התשלומים הניתנים לו בהכשרה המקצועית",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "training-within-max-days",
+      "claim": "A trainee is paid within the ordinary maximum days.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avthcsaramikzoeit.aspx",
+      "raw_snippet": "יהיה זכאי לדמי אבטלה בזמן לימודיו לתקופה שלא עולה על",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "references/eligibility-rules.md",
+        "references/benefit-calculation-tables.md"
+      ]
+    },
+    {
+      "claim_id": "bar-cpa-exam-two-months",
+      "claim": "A Bar exam or CPA final exam (Part B) candidate is not entitled to unemployment benefit in the 2 months before the exam.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtmtmachim.aspx",
+      "raw_snippet": "לא תהיה זכאי לדמי אבטלה בחודשיים שלפני מועד הבחינה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "taasuka-appeal-7-days",
+      "claim": "An appeal to the Sherut HaTaasuka appeals committee may be filed within 7 days of learning of the act; later requires an extension request.",
+      "source_url": "https://www.taasuka.gov.il/he/Applicants/VaadatArar",
+      "raw_snippet": "הנך רשאי/ת להגיש כתב ערר תוך 7 ימים מהיום שבו נודע לך על פעולת הלשכה שעליה ברצונך לערור",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T16:00:00Z"
+    },
+    {
+      "claim_id": "taasuka-appeal-hearing-60-days",
+      "claim": "The appeals committee hearing is held within 60 days of filing.",
+      "source_url": "https://www.taasuka.gov.il/he/Applicants/VaadatArar",
+      "raw_snippet": "הדיון בוועדת הערר יתקיים לכל המאוחר בתוך 60 יום ממועד הגשת הערר",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "references/application-forms.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T16:00:00Z"
+    },
+    {
+      "claim_id": "labour-court-appeal-12-months",
+      "claim": "An appeal against a Bituach Leumi entitlement decision goes to the labour court within 12 months of the day the decision was delivered.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_אבטלה",
+      "raw_snippet": "צריכים להגיש את הערעור לבית הדין לעבודה בתוך 12 חודשים מהיום שנמסרה להם ההחלטה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T16:00:00Z"
+    },
+    {
+      "claim_id": "claims-committee-review",
+      "claim": "A rejected claim can in some cases be reviewed by the claims committee instead of, or before, a court appeal.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_אבטלה",
+      "raw_snippet": "אפשר לבקש במקרים מסוימים שוועדת תביעות תבחן את ההחלטה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/application-forms.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T16:00:00Z"
+    },
+    {
+      "claim_id": "pension-cover-continuity",
+      "claim": "An unemployed worker may lose pension insurance cover when deposits stop, and continuity can be kept.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_אבטלה",
+      "raw_snippet": "כדי לא לאבד את הכיסוי הביטוחי ניתן לשמור על רצף הזכויות הפנסיוניות במספר דרכים",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-18T16:00:00Z"
+    },
+    {
+      "claim_id": "bl-contribution-exemption-after-benefit",
+      "claim": "A claimant who keeps attending in full after the benefit ends may be exempt from BL contributions (not health) for up to 12 months within two consecutive tax years.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/Avtala_att.aspx",
+      "raw_snippet": "הפטור ניתן לתקופה של עד 12 חודשים במהלך שתי שנות מס רצופות",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eligibility-rules.md"
+      ]
+    },
+    {
+      "claim_id": "suitable-work-transport-exception",
+      "claim": "An offer 60 km or more away counts as requiring a move of home unless there is proper public transport or employer transport (s. 165(e)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "תיחשב ההצעה כמחייבת שינוי במקום מגוריו, אלא אם כן קיימת תחבורה ציבורית תקינה למקום העבודה או ההכשרה המקצועית ובחזרה",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "suitable-work-mother-40km",
+      "claim": "An offer 40 km or more away from a mother of a child under 7 counts as requiring a move of home (s. 165(g)).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "אם הוצעה עבודה או הכשרה מקצועית לאם לילד שטרם מלאו לו שבע שנים, במקום המרוחק לפחות 40 קילומטרים ממקום מגוריה הקבוע",
+      "fetched_at": "2026-10-18T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ],

@@ -35,6 +35,23 @@
         "Deferred, MINOR: 'refused-offer' is modelled as a termination reason, so a claimant who was laid off AND later refused an offer cannot express both. It is a mid-claim event and wants its own repeatable flag.",
         "Deferred, MINOR: evidence.json has no per-claim verified flag; unverifiable items are segregated into a separate array, so a claim dropping out of both arrays would be invisible."
       ]
+    },
+    {
+      "version": "1.7.1",
+      "date": "2026-10-18",
+      "lessons": [
+        "No 2026 figure drifted. Every real defect was a contradiction between the skill and its own source text (the unpaid-5-day blocks subtracted from a total BTL says they do not reduce) or a boundary (age bands at exactly 25/28/35/45). Read the statute's 'has turned' wording for any banded table.",
+        "The published checker had silently diverged from the skill for a whole cycle: 311 instead of 311.25, lower-band ages at the boundary, age 67 eligible, the retracted 75% part-time factor, remaining days priced at the first-period cap, and no 80% repeat-claimant days. A per-row grid diff of manifest breakdown vs scripts/avtala_calculator.py (960 rows, 0 mismatches after the fix) is the check that catches this; keep build_manifest.py-style generation rather than hand-patching the JSON.",
+        "Expert review found five coverage CRITICALS the previous four cycles missed (low-wage grant s.176a, side-osek dual status, vocational training reversed, the 7-day Taasuka va'adat erer, two employers). All were on BTL pages in the same menu as the pages already cited: walk the whole BTL unemployment menu, not only the pages the skill already links.",
+        "Form 5320 appeared in four files and is on no BTL page; removed. Treat every form number as unverified until a BTL page shows it.",
+        "s.166(d) exempts women 60+ born 1960+ from the refusal penalties only 'בשנים 2022 עד 2026'. Next cycle (after 1.1.2027): check whether it was extended and update SKILL.md Step 7, Gotcha 8, references/eligibility-rules.md, the script note and the checker caveat together. The same applies to all 2026 figures in January 2027.",
+        "Deferred, MINOR: s.171(a) paragraph order suggests a discharged soldier with 3+ dependants or aged 35+ gets 138/175 days, not 70; BTL does not address it. Verify with a BTL source before changing the table, script or checker.",
+        "Deferred, MINOR: a soldier's average daily wage uses the 12 months before the determining date and is floored at half the basic amount (s.170(b)); the skill uses the general 6-month base and the 144.62 benefit floor.",
+        "Deferred, MINOR: the 5-day blocks are anchored by s.172 to the determining date, not first attendance; the rolling 11-month look-back applies to all claimants, not only 40+ repeat claimants; consider adding 'הבטחת הכנסה' beside 'השלמת הכנסה'.",
+        "Deferred, MINOR: calculator has no inputs for a side-osek income or a continuing second employer's wage; the checker's 'daily benefit' breakdown line halves for a fractional daysUsed (input step is 1).",
+        "Deferred, MINOR (carried from 1.7.0): evidence.json still has no per-claim verified flag.",
+        "A references/domain-checklist.md (5,600 words, researched 2026-10-18) was produced for the expert but NOT shipped, because it carries figures not yet in evidence.json. It lives in the batch workdir; next cycle can verify and ship it."
+      ]
     }
   ]
 }
