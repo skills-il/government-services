@@ -1,149 +1,8 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-drug-database",
-  "generated_at": "2026-08-27T00:00:00Z",
+  "generated_at": "2026-10-28T00:00:00Z",
   "claims": [
-    {
-      "claim_id": "idr-endpoint-list",
-      "claim": "The registry app's own client declares the real endpoint names: SearchByName, GetSpecificDrug, SearchByBarcode, SearchGeneric, SearchByAdv, SearchBySymptom, GetAtcList, GetMatanList, GetPackageList.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "action: \"SearchByName\",",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "idr-searchbyname-payload",
-      "claim": "SearchByName takes val, prescription, healthServices, pageIndex and orderBy. There is no prefix parameter.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "searchByName: function (val, prescription, healthServices, pageIndex, orderBy) {",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "idr-searchbybarcode-real-name",
-      "claim": "The barcode endpoint is named SearchByBarcode and takes barcode and prescription, not SearchByPackageBarcode.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "action: \"SearchByBarcode\",",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "idr-searchgeneric-real-name",
-      "claim": "The generic-search endpoint is named SearchGeneric and takes val, name, matanId, packageId, atcId, pageIndex and orderBy. There is no SearchGenericByDragRegNum.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "searchGeneric: function (val, name, matanId, packageId, atcId, pageIndex, orderBy) {",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "idr-isgsl-filter",
-      "claim": "The registry exposes a GSL flag as a search filter on SearchByAdv, so GSL is a real category in the Israeli system alongside OTC and prescription.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "searchByAdv: function (searchStr, veterinary, cytotoxic, isOTC, isGSL, isHealthBasket, isPeopleMedication,",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "idr-base-path",
-      "claim": "The API base path is /GovServiceList/IDRServer/ and all calls are POST with Content-Type application/json.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "connection.url = \"/GovServiceList/IDRServer/\";",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ]
-    },
-    {
-      "claim_id": "acamol-live-record",
-      "claim": "A live SearchByName for acamol on 2026-08-27 returned registration 020 16 20534 00, ACAMOL, paracetamol 500 mg, holder TEVA ISRAEL LTD, not prescription-only, in the health basket, regulated consumer price 14.12 NIS.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "\"dragRegNum\": \"020 16 20534 00\", \"dragRegDate\": \"31.07.2024\", \"dragHebName\": \"אקמול\", \"dosageForm\": \"טבליה\"",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "basket-status-per-registration",
-      "claim": "Basket and prescription status are properties of a registration number, not of a brand: LOSEC 20 MG returns health false and prescription false while LOSEC 20 MG RX returns health true and prescription true.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "\"dragEnName\": \"LOSEC 20 MG RX\"",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "keytruda-per-indication-basket",
-      "claim": "GetSpecificDrug returns per-indication basket entitlement, not just a boolean. Keytruda (154 38 34448 00) returns 101 salList entries plus frameworkOfInclusion conditions and a specialist-only limitations string.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
-      "raw_snippet": "תרופה מוגבלת לרישום ע'י רופא מומחה או הגבלה אחרת",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "keytruda-prescription-contradiction",
-      "claim": "GetSpecificDrug's isPrescription contradicts SearchByName's prescription for the same product: Keytruda returns prescription true from SearchByName and isPrescription false from GetSpecificDrug.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
-      "raw_snippet": "\"isPrescription\": false",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "registry-pagination",
-      "claim": "Registry search results are paginated at 10 per page, with a pages count carried on each result.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "\"pages\": 2",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
     {
       "claim_id": "kupot-copay-rules-differ",
       "claim": "Each kupat cholim sets its own copay collection rules, and the amount charged for the same drug can be higher or lower between kupot.",
@@ -287,18 +146,18 @@
     },
     {
       "claim_id": "drug-recall-collection",
-      "claim": "The Ministry of Health collects drug warnings, recalls and marketing-discontinuation notices in a dedicated gov.il collection.",
+      "claim": "The gov.il medicines recall topic page (breadcrumb 'ריקול (קריאה להחזרה)' > 'תרופות') collects drug recalls and marketing-discontinuation notices.",
       "source_url": "https://www.gov.il/he/departments/topics/drugs-recall/govil-landing-page",
-      "raw_snippet": "אזהרות בנושא תרופות",
-      "fetched_at": "2026-08-27",
+      "raw_snippet": "הודעות על הפסקת שיווק תרופות",
+      "fetched_at": "2026-10-28",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/drug-registry-guide.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "note": "www.gov.il answers non-browser clients with a 403 whose body is byte-identical for real and fabricated paths, so status and size carry no signal on that host. Verified in a rendered browser with location.href asserted in the same evaluation, alongside a positive control that resolved and a fabricated slug that rendered /he/error."
+      "verified_at": "2026-10-28",
+      "note": "Rendered in Playwright 2026-10-28 with location.href asserted; page title 'תרופות'. The earlier snippet 'אזהרות בנושא תרופות' is not on the page."
     },
     {
       "claim_id": "moh-pharma-division",
@@ -331,83 +190,35 @@
       "note": "Fetched directly; HTTP 200 with that page title."
     },
     {
-      "claim_id": "registry-api-base-reachable",
-      "claim": "The IDRServer base path is live. Requesting the bare base path returns the server's generic HTML error page, which is the same response a fabricated endpoint name produces, confirming that a 200 from this host is not evidence a path exists.",
+      "claim_id": "registry-moved-redirect",
+      "claim": "israeldrugs.health.gov.il now only redirects to https://registries.health.gov.il/Medicines; even the old API base https://israeldrugs.health.gov.il/GovServiceList/IDRServer/ (also written https://israeldrugs.health.gov.il/GovServiceList/IDRServer, path /GovServiceList/IDRServer/) serves this redirect page to a GET.",
       "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/",
-      "raw_snippet": "<TITLE> Error </TITLE>",
-      "fetched_at": "2026-08-27",
+      "raw_snippet": "window.location.replace(m ? \"https://registries.health.gov.il/Medicines/\" + m[1] : \"https://registries.health.gov.il/Medicines\")",
+      "fetched_at": "2026-10-28",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
+      ]
     },
     {
       "claim_id": "registry-search-ui",
-      "claim": "The public drug-registry search interface.",
-      "source_url": "https://israeldrugs.health.gov.il/",
-      "raw_snippet": "מאגר התרופות",
-      "fetched_at": "2026-08-27",
+      "claim": "The current public drug-registry search interface is registries.health.gov.il/Medicines.",
+      "source_url": "https://registries.health.gov.il/Medicines",
+      "raw_snippet": "<title>מאגרי מידע</title>",
+      "fetched_at": "2026-10-28",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/drug-registry-guide.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "note": "Fetched directly; HTTP 200 with that page title."
+      ]
     },
     {
-      "claim_id": "paracetamol-price-spread",
-      "claim": "A single live SearchByName page of paracetamol registrations on 2026-08-27 returned regulated consumer prices ranging from 12.10 to 28.60 NIS, so no single percentage saving describes the generic market.",
+      "claim_id": "old-api-403",
+      "claim": "The retired IDRServer API answers HTTP 403 from CloudFront for POST calls ('The distribution supports only cachable requests').",
       "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/SearchByName",
-      "raw_snippet": "\"dragEnName\": \"ABROL TABLETS\"",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "registry-client-file",
-      "claim": "The registry app serves its own API client at /scripts/services/serverConnection.js, which is where the endpoint names and payload shapes in this skill were read from.",
-      "source_url": "https://israeldrugs.health.gov.il/scripts/services/serverConnection.js",
-      "raw_snippet": "//version 4.11",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27"
-    },
-    {
-      "claim_id": "registry-api-base-no-slash",
-      "claim": "The registry API base, written without a trailing slash, is https://israeldrugs.health.gov.il/GovServiceList/IDRServer.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer",
-      "raw_snippet": "<TITLE> Error </TITLE>",
-      "fetched_at": "2026-08-27",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/drug-registry-guide.md"
-      ],
-      "verified_via": "api",
-      "verified_at": "2026-08-27",
-      "note": "The bare base path returns the server's generic HTML error page under HTTP 200; that is the point of the claim, not a failed fetch."
-    },
-    {
-      "claim_id": "consumer-leaflet-resolution",
-      "claim": "GetSpecificDrug's brochure[] is dominated by leaflet amendment notices (type 'החמרה לעלון'); the consumer leaflet is type 'עלון לצרכן' with a language in lng. The url field is a bare filename that resolves against https://mohpublic.health.gov.il/IsraelDrugs/.",
-      "source_url": "https://israeldrugs.health.gov.il/GovServiceList/IDRServer/GetSpecificDrug",
-      "raw_snippet": "\"type\": \"עלון לצרכן\"",
-      "fetched_at": "2026-08-27",
+      "raw_snippet": "This distribution is not configured to allow the HTTP request method that was used for this request. The distribution supports only cachable requests.",
+      "fetched_at": "2026-10-28",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -415,23 +226,747 @@
         "scripts/lookup_drug.py"
       ],
       "verified_via": "api",
-      "verified_at": "2026-08-27",
-      "note": "Resolver confirmed separately: https://mohpublic.health.gov.il/IsraelDrugs/Rishum02_3_394198726.pdf returns HTTP 200 with Content-Type application/pdf."
+      "verified_at": "2026-10-28",
+      "note": "POST with a JSON body on 2026-10-28 returned HTTP 403 with this CloudFront text; a plain GET of the page is not the same request."
     },
     {
-      "claim_id": "brochure-host",
-      "claim": "Registry leaflet PDFs are served from https://mohpublic.health.gov.il/IsraelDrugs/.",
-      "source_url": "https://mohpublic.health.gov.il/IsraelDrugs/Rishum02_3_394198726.pdf",
+      "claim_id": "otc-filter-label",
+      "claim": "The registry's otcOnly search filter is labelled 'תרופות ללא מרשם (OTC)'. It returns only registrations whose packs are all mirsham 0, so it is not a source of per-registration prescription status.",
+      "source_url": "https://registries.health.gov.il/Medicines/assets/medicines/i18n/he.json",
+      "raw_snippet": "\"otcOnly\": \"תרופות ללא מרשם (OTC)\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "gsl-filter-label",
+      "claim": "GSL is a registry category, exposed as the telemOnly filter labelled 'תרופות לשיווק כללי (GSL)'.",
+      "source_url": "https://registries.health.gov.il/Medicines/assets/medicines/i18n/he.json",
+      "raw_snippet": "\"telemOnly\": \"תרופות לשיווק כללי (GSL)\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "basket-tooltip-substitution",
+      "claim": "The registry's own basket-filter tooltip says the kupah is not obliged to supply the drug under that trade name and may substitute one with identical active ingredients.",
+      "source_url": "https://registries.health.gov.il/Medicines/assets/medicines/i18n/he.json",
+      "raw_snippet": "הקופה לא מחויבת לספק את התרופה בשם מסחרי זה",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "acamol-live-record",
+      "claim": "GetMedicineByRegNumber for 020 16 20534 00 returns ACAMOL, paracetamol 500 mg tablets, holder TEVA ISRAEL LTD, basket 'כן', limitations general use.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=020%2016%2020534%2000",
+      "raw_snippet": "\"regNumber\":\"020 16 20534 00\",\"tradeName\":\"ACAMOL\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "acamol-ingredient",
+      "claim": "Acamol's component is PARACETAMOL 500 MG, code 3172.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=020%2016%2020534%2000",
+      "raw_snippet": "\"componentCode\":3172,\"componentDesc\":\"PARACETAMOL\",\"dosage\":\"500  MG \"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "acamol-price",
+      "claim": "Acamol 020 16 20534 00, 20-tablet pack, regulated consumer price with tax 14.12 NIS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicinePackages?medicineId=2053400",
+      "raw_snippet": "\"quantity\":\"20 TABLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "acamol-price-value",
+      "claim": "The 20-tablet Acamol pack's customerPriceWithTax is 14.12.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicinePackages?medicineId=2053400",
+      "raw_snippet": "\"barkod\":\"7290000800028\",\"unitPrice\":0.706,\"customerPriceWithTax\":14.12,\"mirsham\":0,\"packDesc\":\"BLISTER PVC/ALUMINIUM\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "not-found-shape",
+      "claim": "A registration number that does not exist returns HTTP 200 with an inner statusCode 404 and message 'לא נמצאה תרופה'.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=999%2099%2099999%2099",
+      "raw_snippet": "\"statusCode\":404,\"message\":\"לא נמצאה תרופה\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "missing-param-shape",
+      "claim": "A missing parameter returns HTTP 200 JSON of a different shape, with capital-S StatusCode 400.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber",
+      "raw_snippet": "\"ClientMessage\":\"ארעה שגיאה אנא פנה למנהל מערכת.\",\"Value\":null,\"Formatters\":[],\"ContentTypes\":[],\"DeclaredType\":null,\"StatusCode\":400",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "wrong-method-html",
+      "claim": "A GET sent to GetMedicines (POST-only) returns HTTP 200 with an HTML page titled Error. The bare API base https://registries.health.gov.il/api/Medicines/ (also https://registries.health.gov.il/api/Medicines) returns the same Error page.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "<TITLE> Error </TITLE>",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "components-paracetamol-key",
+      "claim": "GetComponents lists PARACETAMOL under key 3172.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetComponents",
+      "raw_snippet": "\"value\":\"PARABEN MIX\"},{\"key\":\"3172\",\"value\":\"PARACETAMOL\"},{\"key\":\"3176\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "components-atorvastatin",
+      "claim": "GetComponents lists ATORVASTATIN.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetComponents",
+      "raw_snippet": "\"value\":\"ATORVASTATIN\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "keytruda-limitations",
+      "claim": "Keytruda 154 38 34448 00 is basket 'כן', restricted to specialist prescription, with a framework that caps adjuvant melanoma treatment at one year.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=154%2038%2034448%2000",
+      "raw_snippet": "תרופה מוגבלת לרישום ע'י רופא מומחה או הגבלה אחרת",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "keytruda-framework",
+      "claim": "Keytruda's framework limits adjuvant melanoma treatment to one year.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=154%2038%2034448%2000",
+      "raw_snippet": "משך הטיפול בתכשיר להתוויה זו לא יעלה על שנה",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "keytruda-87-indications",
+      "claim": "GetMedicineBasketIndications for Keytruda (medicineId 3444800) returned 87 per-indication entries on 2026-10-28, each with indication, includeDate, clinicDesc, sicknessState.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineBasketIndications?medicineId=3444800",
+      "raw_snippet": "\"returnObject\":[{\"indId\":10428,\"medicineId\":3444800,\"indication\":\"סרטן מסוג קרצינומה אדרנוקורטיקלית גרורתית בחולה שהוא MSI-H (microsatellite instability high) או dMMR (mismatch repair deficient)  שמחלתו התקדמה לאחר קו טיפול אחד או יותר\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "note": "Count of returnObject entries was 87 on 2026-10-28."
+    },
+    {
+      "claim_id": "keytruda-atc",
+      "claim": "Keytruda ATC is L01FF02 PEMBROLIZUMAB.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineAtc?medicineId=3444800",
+      "raw_snippet": "\"atcDesc\":\"PD-1/PDL-1 (PROGRAMMED CELL DEATH PROTEIN 1/ DEATH LIGAND 1) INHIBITORS\",\"level\":4},{\"atcCode\":\"L01FF02\",\"atcDesc\":\"PEMBROLIZUMAB\",\"level\":5}],\"statusCode\":200",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "consumer-leaflet-type",
+      "claim": "GetMedicineDocuments mixes physician leaflets, consumer leaflets (type 'עלון לצרכן') and amendment notices ('החמרה לעלון'); fName is a bare filename and langDesc gives the language.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=2053400",
+      "raw_snippet": "\"type\":\"עלון לצרכן\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "leaflet-amendment-type",
+      "claim": "Amendment notices carry type 'החמרה לעלון'.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=2053400",
+      "raw_snippet": "\"type\":\"החמרה לעלון\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "doc-host",
+      "claim": "Registry document files are served from https://pharmaceuticalreg.health.gov.il/api/pharmaregistration/IsraelDrugs/<fName>, the host the new registry site itself requests.",
+      "source_url": "https://pharmaceuticalreg.health.gov.il/api/pharmaregistration/IsraelDrugs/Rishum01_25_352495225.pdf",
       "raw_snippet": "%PDF",
-      "fetched_at": "2026-08-27",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "Binary PDF; first bytes checked on 2026-10-28. Host observed in the registry site's own network requests."
+    },
+    {
+      "claim_id": "getmedicines-envelope",
+      "claim": "GetMedicines (POST) returns returnObject.medicinesList with totalRows, wrapped in statusCode 200 / message Success.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tzuratMatanDesc\":\"PER OS\",\"tzuratMatanHeb\":\"פומי\"}]}],\"totalRows\":13,\"pageNumber\":0,\"maxResults\":100",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines searchText=acamol on 2026-10-28: 13 active registrations."
+    },
+    {
+      "claim_id": "acamol-13-registrations",
+      "claim": "acamol returns 13 active registrations including ACAMOL TEVA CAPLETS and ACAMOL FOCUS (basket 'לא') and COD-ACAMOL 15/325.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tradeName\":\"ACAMOL FOCUS\"",
+      "fetched_at": "2026-10-28",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/drug-registry-guide.md"
       ],
       "verified_via": "api",
-      "verified_at": "2026-08-27",
-      "note": "HEAD returned HTTP 200, Content-Type application/pdf."
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"searchText\": \"acamol\"} on 2026-10-28."
+    },
+    {
+      "claim_id": "losec-rx-basket",
+      "claim": "LOSEC 20 MG (139 78 31879 00) packs are mirsham 0 and basket 'לא'; LOSEC 20 MG RX (050 66 26256 00) is mirsham 1 and basket 'כן'.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tradeName\":\"LOSEC 20 MG\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"searchText\": \"losec\", \"otcOnly\": true} on 2026-10-28."
+    },
+    {
+      "claim_id": "keytruda-not-otc",
+      "claim": "Keytruda is absent from the otcOnly result set, i.e. prescription-only.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"totalRows\":0",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"searchText\": \"keytruda\", \"otcOnly\": true} on 2026-10-28."
+    },
+    {
+      "claim_id": "optalgin-teva-not-otc",
+      "claim": "OPTALGIN TEVA 160 24 34798 00 is absent from the OTC filter (mirsham 1).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"regNumber\":\"160 24 34798 00\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"searchText\": \"optalgin\"} on 2026-10-28."
+    },
+    {
+      "claim_id": "glucophage-not-basket",
+      "claim": "All three GLUCOPHAGE XR strengths are basket 'לא'.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tradeName\":\"GLUCOPHAGE XR 750 MG\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"searchText\": \"glucophage\"} on 2026-10-28."
+    },
+    {
+      "claim_id": "paracetamol-price-spread",
+      "claim": "Single-ingredient paracetamol packages (componentCodes [3172]) retrieved on 2026-10-28 ranged from 5.03 to 40.24 NIS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"barkod\":\"7290000803234\",\"unitPrice\":0.8048,\"customerPriceWithTax\":40.24,\"mirsham\":0,\"packDesc\":\"BLISTER PVC/ALUMINIUM\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"componentCodes\": [3172]} on 2026-10-28."
+    },
+    {
+      "claim_id": "paracetamol-price-min",
+      "claim": "Lowest single-ingredient paracetamol retail package price retrieved: 5.03 NIS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"barkod\":\"7290100871881\",\"unitPrice\":0.62875,\"customerPriceWithTax\":5.03,\"mirsham\":0,\"packDesc\":\"BLISTER PVC/ALUMINIUM\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"componentCodes\": [3172]} on 2026-10-28."
+    },
+    {
+      "claim_id": "component-filter-combos",
+      "claim": "The componentCodes filter returns combination products too (71 rows for paracetamol).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tzuratMatanDesc\":\"PER OS\",\"tzuratMatanHeb\":\"פומי\"}]}],\"totalRows\":71,\"pageNumber\":0,\"maxResults\":100",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines {\"componentCodes\": [3172]} on 2026-10-28."
+    },
+    {
+      "claim_id": "mirsham-label",
+      "claim": "The registry site renders mirsham 1 as 'חייב במרשם רופא'.",
+      "source_url": "https://registries.health.gov.il/Medicines/assets/medicines/i18n/he.json",
+      "raw_snippet": "\"prescriptionRequired\": \"חייב במרשם רופא\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md"
+      ]
+    },
+    {
+      "claim_id": "sinufed-mixed-packs",
+      "claim": "SINUFED TABLETS 030 06 25464 00 sells its 10-tablet pack with mirsham 0 (no prescription, price 12.99) while its larger packs are mirsham 1; the registration is absent from the otcOnly result set.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"medicineId\":2546400,\"packId\":426409,\"materialCode\":46,\"materialDesc\":null,\"packTypeCode\":3,\"packTypeDesc\":null,\"packTypeDescHeb\":null,\"quantity\":\"10 TABLETS\",\"shelfLife\":\"60\",\"shelfLifeUnit\":\"חדשים\",\"barkod\":\"7290000843636\",\"unitPrice\":1.299,\"customerPriceWithTax\":12.99,\"mirsham\":0,\"packDesc\":\"BLISTER PVC/ALUMINIUM\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "POST GetMedicines searchText=sinufed on 2026-10-28."
+    },
+    {
+      "claim_id": "lipitor-no-price",
+      "claim": "LIPITOR 20 MG packs are mirsham 1 with customerPriceWithTax 0: prescription packs routinely have no listed price.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicinePackages?medicineId=3058801",
+      "raw_snippet": "\"medicineId\":3058801,\"packId\":466370,\"materialCode\":86,\"materialDesc\":\"PVC/OPA/AL\",\"packTypeCode\":3,\"packTypeDesc\":\"BLISTER\",\"packTypeDescHeb\":\"אריזת בועות\",\"quantity\":\"30 TABLETS\",\"shelfLife\":\"36\",\"shelfLifeUnit\":\"חדשים\",\"barkod\":\"7290010355952\",\"unitPrice\":0,\"customerPriceWithTax\":0,\"mirsham\":1,\"packDesc\":\"BLISTER PVC/OPA/AL\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "amoxicillin-vet",
+      "claim": "componentCodes for AMOXICILLIN returned 39 registrations on 2026-10-28, 14 of them veterinaryUse 'כן'.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"manufacturerName\":\"EUROVET ANIMAL HEALTH B.V., NETHERLANDS\",\"ownerCode\":812,\"ownerName\":\"ABIC VETERINARY PRODUCTS LTD. \",\"ahfsCode\":null,\"ahfsDesc\":null,\"veterinaryUse\":\"כן\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28",
+      "note": "Counted 39 rows, 14 veterinary."
+    },
+    {
+      "claim_id": "dipyrone-synonyms",
+      "claim": "GetComponents carries DIPYRONE (2764) and METAMIZOLE SODIUM (1679) as separate keys. componentCodes [2764] returns 10 rows and [1679] returns 1, but [2764,1679] in one call returns 0: the codes are ANDed.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetComponents",
+      "raw_snippet": "{\"key\":\"1679\",\"value\":\"METAMIZOLE SODIUM\"}",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ],
+      "note": "AND behaviour checked by POST GetMedicines on 2026-10-28; that response body has no text to quote."
+    },
+    {
+      "claim_id": "dipyrone-kalceks",
+      "claim": "DIPYRONE KALCEKS 500 MG/ML 163 58 35578 00 is coded METAMIZOLE SODIUM, not DIPYRONE.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=163%2058%2035578%2000",
+      "raw_snippet": "\"tradeName\":\"DIPYRONE KALCEKS 500 MG/ML\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "optalgin-teva-injection",
+      "claim": "OPTALGIN TEVA 160 24 34798 00 is a solution for injection.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=160%2024%2034798%2000",
+      "raw_snippet": "\"dosageFormE\":\"SOLUTION FOR INJECTION\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cod-acamol-10-500",
+      "claim": "COD ACAMOL 10/500 178 60 37356 99 packs are mirsham 0, unlike COD-ACAMOL 15/325 (mirsham 1).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicines",
+      "raw_snippet": "\"tradeName\":\"COD ACAMOL 10/500\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "claim_id": "acamol-two-hebrew-leaflets",
+      "claim": "ACAMOL 128 74 25337 08 has two Hebrew consumer leaflets dated 2025-05-12 (Rishum01_23_178973825.pdf and Rishum01_23_178974025.pdf).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=2533708",
+      "raw_snippet": "\"langDesc\":\"עלון לצרכן בעברית\",\"fName\":\"Rishum01_23_178974025.pdf\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "acamol-late-amendment",
+      "claim": "For ACAMOL 020 16 20534 00 an 'החמרה לעלון' dated 2025-09-11 (Rishum01_25_352495325.pdf) postdates the newest consumer leaflet (2025-05-12).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=2053400",
+      "raw_snippet": "\"medicineId\":2053400,\"sddocId\":2398762,\"docTypeCode\":54,\"docTypeDesc\":\"החמרות בעלונים\",\"type\":\"החמרה לעלון\",\"language\":null,\"langDesc\":\"\",\"fName\":\"Rishum01_25_352495325.pdf\",\"creationDate\":\"2025-09-30T00:00:00\",\"updateDate\":\"2025-09-11T21:00:08.42\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "lipitor-form",
+      "claim": "Registration 126 05 30588 01 (atorvastatin 20 mg) has dosageFormE FILM COATED TABLETS; LIPITOR, TORVA and LITORVA spell the same oral tablet form three ways.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=126%2005%2030588%2001",
+      "raw_snippet": "\"dosageFormE\":\"FILM COATED TABLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "torva-form",
+      "claim": "Registration 132 09 30928 00 (atorvastatin 20 mg) has dosageFormE COATED TABLETS; LIPITOR, TORVA and LITORVA spell the same oral tablet form three ways.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=132%2009%2030928%2000",
+      "raw_snippet": "\"dosageFormE\":\"COATED TABLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "litorva-form",
+      "claim": "Registration 145 32 33307 00 (atorvastatin 20 mg) has dosageFormE TABLETS; LIPITOR, TORVA and LITORVA spell the same oral tablet form three ways.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=145%2032%2033307%2000",
+      "raw_snippet": "\"tradeNameHeb\":\"ליטורבה 20\",\"dosageFormE\":\"TABLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "nurofen-archived-leaflet",
+      "claim": "NUROFEN TABLETS 200 MG 132 32 31025 00 still carries an archived consumer leaflet whose fName starts with 'Arc', alongside newer current leaflets.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=3102500",
+      "raw_snippet": "\"medicineId\":3102500,\"sddocId\":213901,\"docTypeCode\":18,\"docTypeDesc\":\"עלון לצרכן לאינטרנט\",\"type\":\"עלון לצרכן\",\"language\":\"עברית\",\"langDesc\":\"עלון לצרכן בעברית\",\"fName\":\"ArcRishum02_1_216659916.pdf\",\"creationDate\":\"2015-04-27T00:00:00\",\"updateDate\":\"2015-04-27T15:51:54\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "keytruda-leaflet-no-language",
+      "claim": "Both current Keytruda consumer leaflets (2026-10-26) have language null and an empty langDesc.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=3444800",
+      "raw_snippet": "\"medicineId\":3444800,\"sddocId\":2668287,\"docTypeCode\":18,\"docTypeDesc\":\"עלון לצרכן לאינטרנט\",\"type\":\"עלון לצרכן\",\"language\":null,\"langDesc\":\"\",\"fName\":\"Rishum02_5_539176926.pdf\",\"creationDate\":\"2026-10-30T00:00:00\",\"updateDate\":\"2026-10-26T08:46:18.09\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "tegretol-cr-slow-release",
+      "claim": "TEGRETOL CR 200 MG 041 24 25416 00 is TABLETS SLOW RELEASE, unlike TEGRETOL 200 MG and TERIL 200 (TABLETS).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=041%2024%2025416%2000",
+      "raw_snippet": "\"dosageFormE\":\"TABLETS SLOW RELEASE\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "seroquel-xr-prolonged",
+      "claim": "SEROQUEL XR 200 MG 141 90 31974 00 is TABLETS PROLONGED RELEASE; SEROQUEL 200 MG is FILM COATED TABLETS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=141%2090%2031974%2000",
+      "raw_snippet": "\"dosageFormE\":\"TABLETS PROLONGED RELEASE\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "tramaraz-drops-strength",
+      "claim": "TRAMARAZ 100 MG/ML drops 154 88 34205 00 list their component dosage as '100 MG', the same string as a 100 mg tablet.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=154%2088%2034205%2000",
+      "raw_snippet": "\"tradeName\":\"TRAMARAZ 100 MG/ML\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "acamol-teva-caplets-pharmacy-leaflet",
+      "claim": "ACAMOL TEVA CAPLETS 176 61 37219 99 has two Hebrew consumer leaflets in force: general-sale 2025-12-17 (Rishum01_27_486125625.pdf) and pharmacy 2025-11-24 (Rishum01_26_446862925.pdf).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=3721900",
+      "raw_snippet": "\"medicineId\":3721900,\"sddocId\":2453779,\"docTypeCode\":18,\"docTypeDesc\":\"עלון לצרכן לאינטרנט\",\"type\":\"עלון לצרכן\",\"language\":\"עברית\",\"langDesc\":\"עלון לצרכן בעברית\",\"fName\":\"Rishum01_26_446862925.pdf\",\"creationDate\":\"2025-06-30T00:00:00\",\"updateDate\":\"2025-11-24T20:01:18.22\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "acamol-teva-caplets-gsl-leaflet",
+      "claim": "ACAMOL TEVA CAPLETS 176 61 37219 99 has two Hebrew consumer leaflets in force: general-sale 2025-12-17 (Rishum01_27_486125625.pdf) and pharmacy 2025-11-24 (Rishum01_26_446862925.pdf).",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineDocuments?medicineId=3721900",
+      "raw_snippet": "\"medicineId\":3721900,\"sddocId\":2480618,\"docTypeCode\":18,\"docTypeDesc\":\"עלון לצרכן לאינטרנט\",\"type\":\"עלון לצרכן\",\"language\":\"עברית\",\"langDesc\":\"עלון לצרכן בעברית\",\"fName\":\"Rishum01_27_486125625.pdf\",\"creationDate\":\"2025-10-31T00:00:00\",\"updateDate\":\"2025-12-17T13:16:45.93\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "pentasa-slow-release",
+      "claim": "PENTASA SLOW RELEASE TABLETS 500 MG 064 73 26905 00 is TABLETS SLOW RELEASE.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=064%2073%2026905%2000",
+      "raw_snippet": "\"dosageFormE\":\"TABLETS SLOW RELEASE\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "rafassal-gastro-resistant",
+      "claim": "RAFASSAL 500 MG CAPLETS 051 11 26440 00 is GASTRO RESISTANT CAPLETS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=051%2011%2026440%2000",
+      "raw_snippet": "\"dosageFormE\":\"GASTRO RESISTANT CAPLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "pentasa-granules-plain-form",
+      "claim": "PENTASA SLOW RELEASE GRANULES 114 57 29591 00 carries the release marker in its trade name; its dosageFormE is plain GRANULES.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=114%2057%2029591%2000",
+      "raw_snippet": "\"tradeName\":\"PENTASA SLOW RELEASE GRANULES",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "tramadex-od",
+      "claim": "TRAMADEX OD 100 139 25 31580 00 is TABLETS PROLONGED RELEASE.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=139%2025%2031580%2000",
+      "raw_snippet": "\"dosageFormE\":\"TABLETS PROLONGED RELEASE\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "tramal-retard",
+      "claim": "TRAMAL RETARD 100 126 46 30529 00 is TABLETS EXTENDED RELEASE.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=126%2046%2030529%2000",
+      "raw_snippet": "\"dosageFormE\":\"TABLETS EXTENDED RELEASE\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "nexium-no-marker",
+      "claim": "NEXIUM TABLETS 20 MG 122 52 30237 00 is recorded with dosageFormE TABLETS, no release marker, although esomeprazole tablets are gastro-resistant.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=122%2052%2030237%2000",
+      "raw_snippet": "\"tradeName\":\"NEXIUM TABLETS 20 MG\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "esomeprazole-inovamed-marker",
+      "claim": "ESOMEPRAZOLE INOVAMED 20 MG 161 48 35207 00 is recorded as GASTRO RESISTANT TABLETS.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=161%2048%2035207%2000",
+      "raw_snippet": "\"dosageFormE\":\"GASTRO RESISTANT TABLETS\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
+    },
+    {
+      "claim_id": "gastro-famotidine-brand",
+      "claim": "GASTRO 20 043 40 26198 02 is a famotidine tablet brand; GASTRO in its name is not a release marker.",
+      "source_url": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=043%2040%2026198%2002",
+      "raw_snippet": "\"tradeName\":\"GASTRO 20\"",
+      "fetched_at": "2026-10-28",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/drug-registry-guide.md",
+        "scripts/lookup_drug.py"
+      ]
     }
   ]
 }

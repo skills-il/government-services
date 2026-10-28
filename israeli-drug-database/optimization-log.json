@@ -32,6 +32,18 @@
         "Round 2: clarified (Step 3, EN+HE) that the registry returns only health (bool) + customerPrice; copay tier/amount come from the kupot, not the registry (resolved a mild contradiction with the new API section). Judge verified the documented API against the LIVE endpoint (real acamol record: dragRegNum 020 16 20534 00, customerPrice 14.12, TEVA).",
         "Deferred (MAJOR, next cycle): document search-by-registration-number format and the SearchByPackageBarcode (EAN) workflow as first-class patient/pharmacist steps; clarify the basket copay tiers come from the kupot, not the registry (the registry only returns health true/false + customerPrice); point pregnancy info at the per-drug עלון לצרכן rather than leading with the deprecated A-X table. Deferred (MINOR): rate-limit/fair-use note for the undocumented IDRServer backend."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-10-28",
+      "lessons": [
+        "Registry moved to registries.health.gov.il; old IDRServer API returns 403. If it moves again, re-capture the site's own network calls rather than guessing endpoints.",
+        "Prescription status is per PACK (packages[].mirsham). The otcOnly filter drops mixed-pack registrations; never use it to label Rx.",
+        "Do not reintroduce automatic substitutability grouping in generics: six review rounds showed the registry records release type inconsistently (NEXIUM unmarked, ESOMEPRAZOLE INOVAMED marked). Keep it a per-ingredient list for the pharmacist; regression cases in the 2026-10-28 batch tests/regress.py.",
+        "Release markers must be matched as whole words or phrases (CRESTOR, PRIZMA, LAMICTAL, GASTRO were false positives as substrings).",
+        "Leaflets: never drop a non-archived leaflet by date; older ones can belong to another pack or channel (ACAMOL TEVA CAPLETS).",
+        "Deferred: value-add gate (Phase 5.11) not run this cycle; the israel-drugs MCP is still broken (external repo)."
+      ]
     }
   ]
 }

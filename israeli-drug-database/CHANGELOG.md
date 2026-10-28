@@ -1,5 +1,52 @@
 # Changelog
 
+## 1.4.0 (2026-10-28)
+
+The Ministry of Health moved the drug registry (confirmed 2026-10-28). Every registry call in 1.3.x is dead.
+
+### Fixed
+
+- **The registry moved to `registries.health.gov.il/Medicines`.** `israeldrugs.health.gov.il` now
+  only redirects there, and the old POST API at `/GovServiceList/IDRServer/` (`SearchByName`,
+  `GetSpecificDrug` and the rest) answers 403 from CloudFront. Step 2, the examples, the reference
+  guide and the script were rewritten against the new API: `GetMedicines` (POST) plus GET endpoints
+  for the record, basket indications, documents, packages, ATC and the ingredient list. Every
+  endpoint, field and error shape was called live on 2026-10-28.
+- **Prescription status is read per PACK from `packages[].mirsham`.** One registration can sell
+  some pack sizes without a prescription and others only on prescription (SINUFED TABLETS), so the
+  skill reports status per pack and never infers "prescription-only" from absence in the `otcOnly`
+  filter.
+- **A price of 0 means "no price listed".** It is 0 for most prescription packs, so the old
+  "not sold at retail / hospital-only" reading was wrong and is removed.
+- **Leaflets:** the newest consumer leaflets per language come first (there can be two), older
+  ones are listed separately because they can belong to another pack or sales channel, archived
+  uploads are skipped, and an amendment notice dated after a language's newest leaflet is handed
+  over with it.
+- **Generics:** veterinary products are excluded, ingredient synonyms (DIPYRONE / METAMIZOLE SODIUM)
+  are queried separately, and the result is a per-ingredient list for the pharmacist, not a list
+  of substitutes. Release markers are shown only where the registry states them, matched as whole
+  words; a missing marker is never read as immediate release, because the registry records release
+  type inconsistently.
+- **Basket flag on OTC products:** basket terms apply only to supply through the kupah, not to a
+  counter purchase.
+- The recall page is no longer given a name it does not carry.
+- **Leaflets now resolve against `pharmaceuticalreg.health.gov.il`,** the file host the new
+  registry site uses.
+- **Error handling rewritten.** On the new host a missing registration, a misspelt endpoint and a
+  wrong method all answer HTTP 200, so the script checks the inner `statusCode` instead.
+- **`scripts/lookup_drug.py` rewritten** for the new API.
+
+### Updated figures
+
+- Keytruda basket indications: 87 (was 101 under the old API).
+- `acamol`: 13 active registrations.
+- Listed single-ingredient paracetamol package prices: 5.03 to 40.24 NIS.
+
+### Notes
+
+- The recommended `israel-drugs` MCP still calls the retired API and is marked as broken until its
+  maintainer updates it.
+
 ## 1.3.1 (2026-08-27)
 
 - Narrows the declared tool privileges from a bare `Bash` to `Bash(python:*) Bash(curl:*)`, which is
