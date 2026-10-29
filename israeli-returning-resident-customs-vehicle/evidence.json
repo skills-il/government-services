@@ -1098,6 +1098,21 @@
         "SKILL_HE.md",
         "references/vehicle-import-benefit.md"
       ]
+    },
+    {
+      "claim_id": "ita-ev-green-19498",
+      "claim": "The ITA personal vehicle import guide (updated 15.01.2026) prints a green-tax reduction of 19,498 NIS (19,498 ₪) for EV items 87.03.809000 / 87.04.609000 / 87.05.908000, a row absent from the Customs Book rule 6 table read 29.10.2026; with it the EV-cap threshold is about 118,600 NIS (118,600 ₪). Derived: a 159,000 NIS EV then pays about 85% of CIF instead of about 89% (135,493 NIS on 159,100 NIS).",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
+      "raw_snippet": "ו-87.05.908000\t0-50\tהפחתה של 19,498",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/vehicle-import-benefit.md",
+        "scripts/vehicle-decision.py"
+      ]
     }
   ],
   "schemaVersion": "1.0",

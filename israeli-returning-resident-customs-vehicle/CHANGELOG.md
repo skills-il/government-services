@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.1 - 2026-10-29
+
+### Changed
+
+- scripts/vehicle-decision.py: for an EV the worksheet now prints the tax under both official green reductions inside the EV floor (Customs Book table 14,523 NIS, the higher-tax case; ITA guide EV row 19,498 NIS), since the two official sources disagree. It now requires --gross-weight-kg and refuses, with no figures, for vehicles above 3,500 kg permitted total weight or motorcycles.
+- Example 2 tells a hybrid importer to confirm the inspection route with *4515.
+
 ## 1.3.0 - 2026-10-29
 
 ### Fixed

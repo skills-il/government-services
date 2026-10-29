@@ -67,7 +67,7 @@ VAT **18%** from 1.1.2025.
 
 The headline figures follow arithmetically: 1.83 x 1.18 = 2.16 (116%); 1.07 x 1.83 x 1.18 = 2.31 (131%); 1.48 x 1.18 = 1.75 (75%); 1.07 x 1.48 x 1.18 = 1.87 (87%). The script uses 7% duty for non-agreement origin on that basis; the ITA guide does not print the duty rate itself.
 
-**EV cap in practice** (using the Customs Book green table; the ITA guide additionally prints a 19,498 NIS row for EV items, which would move the threshold to about 118,600 NIS): the 48% rate stops applying once 0.35 x value exceeds about 36,500 NIS (14,523 green reduction plus 22,000), i.e. a customs value above roughly 104,000 NIS. Above that the EV pays the regular method minus 36,523 NIS, so a 159,000 NIS EV pays about 89% of CIF, not 75%.
+**EV cap in practice** (using the Customs Book green table, read 29.10.2026; the ITA guide, updated 15.01.2026, additionally prints a 19,498 NIS row for EV items, which would move the threshold to about 118,600 NIS. The order itself, as published in the Customs Book, does not carry that row, so the script prints both and treats 14,523 as the higher-tax case): the 48% rate stops applying once 0.35 x value exceeds about 36,500 NIS (14,523 green reduction plus 22,000), i.e. a customs value above roughly 104,000 NIS. Above that the EV pays the regular method minus 36,523 NIS, so a 159,000 NIS EV pays about 89% of CIF, not 75%.
 
 **1.1.2027:** as of 29.10.2026 no new rate or green-tax formula is enacted. Press reports (unverified) mention an extension of the EV benefit past January 2027 and a revised green-tax formula. Re-check if clearance falls in 2027.
 

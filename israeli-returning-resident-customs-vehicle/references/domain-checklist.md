@@ -62,7 +62,7 @@ Last research date: 2026-10-29. The gov.il customs guide for returning residents
    - Section 14 tax math, Form 1348, 10-year exemption → sister skill `israeli-toshav-chozer-vatik-tax-planner`.
    - Olim customs (3 shipments, bigger caps, sal-klita link, oleh-specific vehicle benefit) → sister skill `israeli-aliyah-customs-shipment-planner`.
    - People still ABROAD planning to leave Israel → `israeli-relocation-abroad`.
-   - Binding customs / legal advice or actual filing - this is a planning aid; the user must engage a licensed customs broker (סוכן מכס) for the actual clearance and any complex case.
+   - Binding customs advice or actual filing - this is a planning aid; the user must engage a licensed customs broker (סוכן מכס) for the actual clearance and any complex case.
 
 ## Should cover (high-value but not strictly blocking)
 

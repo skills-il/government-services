@@ -16,7 +16,7 @@ a licensed customs broker before committing to shipment.
 Usage:
     python3 vehicle-decision.py --car-value-usd 28000 --shipping-usd 3500 \\
         --manufacture-date 2023-06-15 --local-price-usd 50000 --ils-per-usd 3.70 \\
-        --vehicle-class hybrid --green-score 120
+        --gross-weight-kg 2100 --vehicle-class hybrid --green-score 120
 
     python3 vehicle-decision.py --interactive
 """
@@ -31,9 +31,13 @@ from datetime import date, datetime, timezone
 PURCHASE_TAX_PASSENGER = 0.83   # group א: passenger car up to 3,500 kg (ICE, hybrid, plug-in hybrid)
 PURCHASE_TAX_EV = 0.48          # group ה'2: electric vehicle (Customs Book prints no effective date)
 EV_BENEFIT_CAP_ILS = 22_000     # EV tax may not fall below the regular method minus 22,000 NIS (rule 4ב)
-EV_GREEN_REDUCTION_ILS = 14_523 # green-score reduction for the cleanest grades, used in the EV floor.
-# The ITA guide also prints a 19,498 NIS row for EV items that the Customs Book
-# table does not carry; 14,523 gives the higher (conservative) floor.
+# Green reduction used inside the EV floor. The Customs Book rule 6 table (read
+# 29.10.2026) gives 14,523 NIS for the cleanest grades; the ITA guide (updated
+# 15.01.2026) prints a separate 19,498 NIS row for EV items. Not settled from the
+# order itself, so the worksheet prints both; 14,523 is the higher-tax case.
+EV_GREEN_REDUCTIONS_ILS = [("Customs Book table, 14,523 NIS reduction (higher tax)", 14_523),
+                           ("ITA guide EV row, 19,498 NIS reduction", 19_498)]
+MAX_GROSS_WEIGHT_KG = 3_500  # group א; heavier vehicles are group ב and outside this worksheet
 VAT_RATE = 0.18                 # 18% from 2025-01-01, charged on value + duty + purchase tax
 # Customs duty for a car that does NOT qualify under a free-trade agreement.
 # Not quoted directly by the ITA guide; 7% is the rate implied by its own
@@ -92,13 +96,19 @@ def parse_args(argv):
     p.add_argument(
         "--vehicle-class", choices=["ice", "hybrid", "phev", "ev"], default="ice",
         help="ice / hybrid / phev pay the passenger-car purchase tax less the green-score "
-             "adjustment; ev pays the reduced EV rate subject to the 22,000 NIS cap. Default ice.",
+             "adjustment; ev (electric passenger car) pays the reduced EV rate subject to the 22,000 NIS cap. An electric pickup or goods vehicle is taxed under a different group; ask a broker. Default ice.",
     )
     p.add_argument(
         "--origin", choices=["fta", "other"], default="fta",
         help="fta = made in a free-trade-agreement country and shipped directly or via another "
              "party to the same agreement (no customs duty); other = customs duty applies. Default fta.",
     )
+    p.add_argument(
+        "--gross-weight-kg", type=float,
+        help="Permitted total weight (GVWR) in kg, from the door-jamb label or COC. Required: only "
+             "vehicles up to 3,500 kg (group א, including pickups at or under that weight) are covered",
+    )
+    p.add_argument("--motorcycle", action="store_true", help="The vehicle is a motorcycle (not covered by this worksheet)")
     p.add_argument("--green-score", type=int, help="Green score (ציון ירוק) from the import licence, if known")
     p.add_argument(
         "--no-emissions-data", action="store_true",
@@ -124,12 +134,14 @@ def interactive_inputs(args):
         args.car_value_usd = prompt_float("Car market value abroad (USD)")
     if args.shipping_usd is None:
         args.shipping_usd = prompt_float("Shipping + transit insurance (USD)")
-    if args.car_age_months is None:
+    if args.car_age_months is None and not args.manufacture_date:
         args.car_age_months = prompt_float("Vehicle age from manufacture today (months, round up)")
     if args.local_price_usd is None:
         args.local_price_usd = prompt_float("Equivalent vehicle price in Israel (USD)")
     if args.ils_per_usd is None:
         args.ils_per_usd = prompt_float("Exchange rate, NIS per USD")
+    if args.gross_weight_kg is None:
+        args.gross_weight_kg = prompt_float("Permitted total weight (GVWR), kg")
     return args
 
 
@@ -141,7 +153,7 @@ def green_change_ils(score):
     return GREEN_WORST_ILS
 
 
-def compute_tax_ils(value_ils, args, green_change):
+def compute_tax_ils(value_ils, args, green_change, ev_green=None):
     """Return (duty, purchase_tax, vat) in NIS for one green-score assumption."""
     duty = value_ils * (CUSTOMS_DUTY_NON_FTA if args.origin == "other" else 0.0)
     base = value_ils + duty
@@ -150,7 +162,7 @@ def compute_tax_ils(value_ils, args, green_change):
         # Rule 4ב: no lower than the regular method less the green reduction
         # and 22,000 NIS, and no higher than the regular method. Safety-equipment
         # reductions are ignored here, which overstates the floor slightly.
-        regular_ev = max(0.0, base * PURCHASE_TAX_PASSENGER - EV_GREEN_REDUCTION_ILS)
+        regular_ev = max(0.0, base * PURCHASE_TAX_PASSENGER - ev_green)
         purchase_tax = min(max(base * PURCHASE_TAX_EV, regular_ev - EV_BENEFIT_CAP_ILS), regular_ev)
     else:
         purchase_tax = regular
@@ -161,7 +173,7 @@ def compute_tax_ils(value_ils, args, green_change):
 def scenarios(args):
     """Green-score scenarios as (label, NIS change)."""
     if args.vehicle_class == "ev":
-        return [("EV rate", 0)]
+        return [(label, ("ev", red)) for label, red in EV_GREEN_REDUCTIONS_ILS]
     if args.no_emissions_data:
         return [("no emissions data, highest grade", GREEN_WORST_ILS)]
     if args.green_score is not None:
@@ -197,8 +209,6 @@ def eligibility_check(args):
     if RETURNEE_AGE_CAP_MONTHS - at_reg < 4:
         msgs.append("Tight timeline: a shipping or inspection delay of a few months pushes the car "
                     "over 48 months at registration. Get the import licence before the car sails.")
-    msgs.append("Applies to vehicles up to 3,500 kg permitted total weight (group א). Heavier vehicles and "
-                "motorcycles are taxed differently; this worksheet does not apply, ask a broker.")
     if args.origin == "fta":
         msgs.append("Origin assumed FTA: built in a free-trade-agreement country and shipped directly. "
                     "If the car was built elsewhere (e.g. a car bought in the US but built in Japan), "
@@ -238,7 +248,10 @@ def print_worksheet(args):
     print("OPTION A: Ship the existing car")
     rows = []
     for label, change in scenarios(args):
-        duty, pt, vat = compute_tax_ils(value_ils, args, change)
+        if isinstance(change, tuple):
+            duty, pt, vat = compute_tax_ils(value_ils, args, 0, ev_green=change[1])
+        else:
+            duty, pt, vat = compute_tax_ils(value_ils, args, change)
         tax_ils = duty + pt + vat
         landed_usd = cif_usd + tax_ils / fx + args.broker_fees_usd
         rows.append((label, landed_usd))
@@ -262,7 +275,8 @@ def print_worksheet(args):
     print("     age window (measured at Israeli registration) is the ONLY benefit.")
     if args.vehicle_class == "ev":
         print("  2. EVs: the 48% EV rate is capped, the tax cannot fall more than 22,000 NIS below")
-        print("     the regular method, so pricier EVs pay well above the ~75% headline.")
+        print("     the regular method, so pricier EVs pay more than the ~75% headline. The two rows")
+        print("     differ only in which official green reduction enters that floor.")
     elif args.green_score is None and not args.no_emissions_data:
         print("  2. Pass --green-score (from the import licence) for a single figure. A US/Canada car")
         print("     with no emissions letter gets the highest pollution grade (--no-emissions-data).")
@@ -293,16 +307,21 @@ def main(argv=None):
     missing = [flag for flag, val in (
         ("--car-value-usd", args.car_value_usd), ("--shipping-usd", args.shipping_usd),
         ("--car-age-months or --manufacture-date", args.car_age_months), ("--local-price-usd", args.local_price_usd),
-        ("--ils-per-usd", args.ils_per_usd),
+        ("--ils-per-usd", args.ils_per_usd), ("--gross-weight-kg", args.gross_weight_kg),
     ) if val is None]
     if missing:
         print(f"Missing required inputs: {', '.join(missing)}", file=sys.stderr)
         print("Re-run with --interactive or supply the flags. See --help.", file=sys.stderr)
         return 2
-    if args.ils_per_usd <= 0 or args.car_age_months < 0 or args.months_to_registration < 0:
-        print("Exchange rate must be positive; car age and months to registration non-negative.", file=sys.stderr)
+    if args.ils_per_usd <= 0 or args.gross_weight_kg <= 0 or args.car_age_months < 0 or args.months_to_registration < 0:
+        print("Exchange rate and weight must be positive; car age and months to registration non-negative.", file=sys.stderr)
         return 2
 
+    if args.motorcycle or args.gross_weight_kg > MAX_GROSS_WEIGHT_KG:
+        print("NOT COVERED: this worksheet only handles vehicles up to 3,500 kg permitted total weight "
+              "(purchase-tax group א). Heavier vehicles (group ב) and motorcycles are taxed under other "
+              "rules. No figures printed; ask a licensed customs broker.")
+        return 3
     print_worksheet(args)
     return 0
 

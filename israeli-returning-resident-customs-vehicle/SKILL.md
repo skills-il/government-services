@@ -131,7 +131,7 @@ Confirm the exact paperwork with the Misrad HaTachbura import unit (\*4515; from
 **Taxes in 2026.** The tax is calculated at the exchange rate on the payment day, on the customs value. **The customs value is not today's resale price**: it is the declared value, based among other things on the price in the bill of sale, plus freight and insurance, if the assessor accepts it as reasonable and genuine; otherwise the assessor sets it from the Israeli price list less use depreciation, and the importer has 30 days to respond in writing. For a car owned for years, ask the broker which figure the assessor will use before running the worksheet. The parameters (Customs Book, as of 29.10.2026):
 - Purchase tax **83%** for a passenger car up to 3,500 kg, including hybrids and plug-in hybrids; **48%** for an EV.
 - Green tax: a fixed NIS amount subtracted from or added to the purchase tax by green score, from a **14,523 NIS** reduction for the cleanest grades to an **8,690 NIS** surcharge for the most polluting. Because it is a fixed amount, cheaper clean cars get a much lower effective rate.
-- EV cap: the EV tax may not fall more than **22,000 NIS** below the regular method. Above a value of roughly 104,000 NIS the EV starts paying more than the headline rate, and the gap grows with value (about 89% of value at 159,000 NIS). The ITA guide prints a larger EV green reduction (19,498 NIS) that the Customs Book table lacks; if it applies, the threshold is higher, so confirm with a broker.
+- EV cap: the EV tax may not fall more than **22,000 NIS** below the regular method. Above a value of roughly 104,000 NIS the EV starts paying more than the headline rate, and the gap grows with value (about 89% of value at 159,000 NIS, or about 85% under the ITA guide's EV row). The ITA guide prints a larger EV green reduction (19,498 NIS) that the Customs Book table lacks; the worksheet prints both, and the Customs Book figure is the higher-tax case. Confirm with a broker.
 - Customs duty: none for a car made in a free-trade-agreement country and shipped directly or via another party to the same agreement; otherwise duty applies.
 - VAT **18%** on the value plus duty plus purchase tax.
 
@@ -199,8 +199,8 @@ Response framework:
 Response framework:
 1. Age: count to the expected Israeli registration date. A car built in mid-2023 and registered in early 2027 is about 43 months, inside 48 but with little slack. Get the exact build date from the door-jamb label and the import licence BEFORE booking.
 2. **No purchase-tax exemption.** A hybrid pays the passenger-car rate (83%) minus its green-score reduction, plus 18% VAT. The trade-agreement treatment depends on where the car was MANUFACTURED and on direct shipment, not on where it was bought: a Toyota sold in the US may have been built in Japan, which changes the duty. Without the emissions letter from the Israeli Toyota importer, the car gets the highest pollution grade.
-3. Run the worksheet: `python3 scripts/vehicle-decision.py --car-value-usd 28000 --shipping-usd 3500 --manufacture-date <from the label> --local-price-usd 50000 --ils-per-usd <today's rate> --vehicle-class hybrid --green-score <from licence>`, using the value the assessor will accept rather than the resale price. At an illustrative 3.70 NIS/USD, a green score of 120, and a car built in the US and shipped directly, the tax is about 117,991 NIS (101% of CIF) and the landed cost about $64,600 against a $50,000 local price; with no emissions letter, about $72,000; if it was built in Japan (`--origin other`), about 116% and $69,400. Shipping loses unless the model is unavailable locally.
-4. Surface: 12-month ownership-transfer restriction from registration.
+3. Run the worksheet: `python3 scripts/vehicle-decision.py --car-value-usd 28000 --shipping-usd 3500 --manufacture-date <from the label> --gross-weight-kg <GVWR from the label> --local-price-usd 50000 --ils-per-usd <today's rate> --vehicle-class hybrid --green-score <from licence>`, using the value the assessor will accept rather than the resale price. At an illustrative 3.70 NIS/USD, a green score of 120, and a car built in the US and shipped directly, the tax is about 117,991 NIS (101% of CIF) and the landed cost about $64,600 against a $50,000 local price; with no emissions letter, about $72,000; if it was built in Japan (`--origin other`), about 116% and $69,400. Shipping loses unless the model is unavailable locally.
+4. Surface: 12-month ownership-transfer restriction from registration. As a hybrid it is exempt from s.26 (the Takana 309 inspection section), so confirm with \*4515 which inspection it still needs.
 
 ### Example 3: 6-year hold trap
 
@@ -218,7 +218,7 @@ Response framework:
 - `references/vehicle-import-benefit.md`: eligibility, the age-at-registration rule, 2026 tax parameters, documents, ship-vs-sell guide.
 - `references/household-shipment-rules.md`: 2-shipment basket, 9-month window, item caps, 6-year hold, spousal anti-stacking, pet entry rules.
 - `references/customs-timeline.md`: day-by-day from entry to year 6.
-- `scripts/vehicle-decision.py`: checks the age at registration (from the manufacture date) and the 45-day application cutoff, then computes duty, purchase tax (with green score or EV cap), and VAT, and prints a ship-vs-sell worksheet for passenger cars up to 3,500 kg.
+- `scripts/vehicle-decision.py`: checks the age at registration (from the manufacture date) and the 45-day application cutoff, then computes duty, purchase tax (with green score or EV cap), and VAT, and prints a ship-vs-sell worksheet. It refuses, printing no figures, for vehicles above 3,500 kg permitted total weight or motorcycles.
 
 ## Recommended MCP Servers
 
