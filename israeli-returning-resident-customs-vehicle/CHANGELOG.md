@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.2 - 2026-10-29
+
+### Changed
+
+- scripts/vehicle-decision.py refuses, with no figures, an electric pickup or goods vehicle (new --goods-vehicle flag), which is taxed under a different purchase-tax group than an electric passenger car. Added scripts/test_vehicle_decision.py covering Example 2, the weight and goods-vehicle refusals, and the two EV reductions.
+- The EV-cap text gives both rows ("about 85-89% at 159,000 NIS").
+
 ## 1.3.1 - 2026-10-29
 
 ### Changed

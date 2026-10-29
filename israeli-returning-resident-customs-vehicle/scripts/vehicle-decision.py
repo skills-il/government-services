@@ -96,7 +96,7 @@ def parse_args(argv):
     p.add_argument(
         "--vehicle-class", choices=["ice", "hybrid", "phev", "ev"], default="ice",
         help="ice / hybrid / phev pay the passenger-car purchase tax less the green-score "
-             "adjustment; ev (electric passenger car) pays the reduced EV rate subject to the 22,000 NIS cap. An electric pickup or goods vehicle is taxed under a different group; ask a broker. Default ice.",
+             "adjustment; ev (electric passenger car) pays the reduced EV rate subject to the 22,000 NIS cap. An electric pickup or goods vehicle (pass --goods-vehicle) is not covered. Default ice.",
     )
     p.add_argument(
         "--origin", choices=["fta", "other"], default="fta",
@@ -109,6 +109,9 @@ def parse_args(argv):
              "vehicles up to 3,500 kg (group א, including pickups at or under that weight) are covered",
     )
     p.add_argument("--motorcycle", action="store_true", help="The vehicle is a motorcycle (not covered by this worksheet)")
+    p.add_argument("--goods-vehicle", action="store_true",
+                   help="Pickup or other goods vehicle (customs item 87.04). Covered as ICE/hybrid up to 3,500 kg; "
+                        "an ELECTRIC goods vehicle is taxed under a different group and floor and is not covered")
     p.add_argument("--green-score", type=int, help="Green score (ציון ירוק) from the import licence, if known")
     p.add_argument(
         "--no-emissions-data", action="store_true",
@@ -317,6 +320,10 @@ def main(argv=None):
         print("Exchange rate and weight must be positive; car age and months to registration non-negative.", file=sys.stderr)
         return 2
 
+    if args.goods_vehicle and args.vehicle_class == "ev":
+        print("NOT COVERED: an electric pickup or goods vehicle is taxed under a different purchase-tax "
+              "group and floor than an electric passenger car. No figures printed; ask a licensed customs broker.")
+        return 3
     if args.motorcycle or args.gross_weight_kg > MAX_GROSS_WEIGHT_KG:
         print("NOT COVERED: this worksheet only handles vehicles up to 3,500 kg permitted total weight "
               "(purchase-tax group א). Heavier vehicles (group ב) and motorcycles are taxed under other "

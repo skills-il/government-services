@@ -131,7 +131,7 @@ Confirm the exact paperwork with the Misrad HaTachbura import unit (\*4515; from
 **Taxes in 2026.** The tax is calculated at the exchange rate on the payment day, on the customs value. **The customs value is not today's resale price**: it is the declared value, based among other things on the price in the bill of sale, plus freight and insurance, if the assessor accepts it as reasonable and genuine; otherwise the assessor sets it from the Israeli price list less use depreciation, and the importer has 30 days to respond in writing. For a car owned for years, ask the broker which figure the assessor will use before running the worksheet. The parameters (Customs Book, as of 29.10.2026):
 - Purchase tax **83%** for a passenger car up to 3,500 kg, including hybrids and plug-in hybrids; **48%** for an EV.
 - Green tax: a fixed NIS amount subtracted from or added to the purchase tax by green score, from a **14,523 NIS** reduction for the cleanest grades to an **8,690 NIS** surcharge for the most polluting. Because it is a fixed amount, cheaper clean cars get a much lower effective rate.
-- EV cap: the EV tax may not fall more than **22,000 NIS** below the regular method. Above a value of roughly 104,000 NIS the EV starts paying more than the headline rate, and the gap grows with value (about 89% of value at 159,000 NIS, or about 85% under the ITA guide's EV row). The ITA guide prints a larger EV green reduction (19,498 NIS) that the Customs Book table lacks; the worksheet prints both, and the Customs Book figure is the higher-tax case. Confirm with a broker.
+- EV cap: the EV tax may not fall more than **22,000 NIS** below the regular method. Above a value of roughly 104,000 NIS the EV starts paying more than the headline rate, and the gap grows with value (about 85-89% of value at 159,000 NIS, depending on which official reduction applies). The ITA guide prints a larger EV green reduction (19,498 NIS) that the Customs Book table lacks; the worksheet prints both, and the Customs Book figure is the higher-tax case. Confirm with a broker.
 - Customs duty: none for a car made in a free-trade-agreement country and shipped directly or via another party to the same agreement; otherwise duty applies.
 - VAT **18%** on the value plus duty plus purchase tax.
 
@@ -218,7 +218,8 @@ Response framework:
 - `references/vehicle-import-benefit.md`: eligibility, the age-at-registration rule, 2026 tax parameters, documents, ship-vs-sell guide.
 - `references/household-shipment-rules.md`: 2-shipment basket, 9-month window, item caps, 6-year hold, spousal anti-stacking, pet entry rules.
 - `references/customs-timeline.md`: day-by-day from entry to year 6.
-- `scripts/vehicle-decision.py`: checks the age at registration (from the manufacture date) and the 45-day application cutoff, then computes duty, purchase tax (with green score or EV cap), and VAT, and prints a ship-vs-sell worksheet. It refuses, printing no figures, for vehicles above 3,500 kg permitted total weight or motorcycles.
+- `scripts/vehicle-decision.py`: checks the age at registration (from the manufacture date) and the 45-day application cutoff, then computes duty, purchase tax (with green score or EV cap), and VAT, and prints a ship-vs-sell worksheet. It refuses, printing no figures, for vehicles above 3,500 kg permitted total weight, motorcycles, or electric goods vehicles.
+- `scripts/test_vehicle_decision.py`: regression tests for the worksheet (Example 2 figures and the refusals).
 
 ## Recommended MCP Servers
 
