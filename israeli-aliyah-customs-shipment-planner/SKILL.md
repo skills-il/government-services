@@ -16,7 +16,7 @@ A declaration to the customs authority is a legal document, and a false declarat
 
 ## Problem
 
-New olim (immigrants) to Israel are entitled to three duty-free shipments of household goods within three years of aliyah, but the rules are riddled with per-family caps (TVs, computers, cell phones, appliances, carpeting) and a six-year retention rule that blocks resale. Most olim pack by emotion, then discover at the port that a third computer or a fourth appliance triggers full duty plus VAT plus purchase tax. This skill plans the split across three shipments, flags over-limit items before packing, and drafts a clean declaration per shipment.
+New olim (immigrants) to Israel may import household goods free of import taxes in up to three shipments within three years of receiving oleh status, but the rules are full of per-family caps (TVs, computers, appliances, carpeting) and a six-year personal-use rule that blocks resale or lending. Most olim pack by emotion, then discover at the port that a fourth computer or a second fridge triggers customs duty plus VAT plus purchase tax. This skill plans the split across three shipments, flags over-limit items before packing, and drafts a clean declaration per shipment.
 
 ## Instructions
 
@@ -26,16 +26,18 @@ Ask the user for the following before planning anything:
 
 | Field | Why it matters |
 |-------|---------------|
-| Aliyah date (teudat oleh issue date) | Starts the 3-year exemption window |
-| Immigrant status | Oleh Chadash vs Toshav Chozer - returning residents have limited benefits only |
+| Date oleh status was received | Starts the 3-year eligibility period. Usually the entry day; later if the status was granted after a stay in Israel (Tax Authority guide). |
+| Status | Oleh (Law of Return, including those holding only a printed status confirmation), Ezrach Oleh, Katin Chozer and permanent residents are all entitled under the Tax Authority olim guide. Toshav Chozer (returning resident) is a different, narrower track (see below), and so is a SECOND-TIME oleh. Always ask: "Have you ever lived in Israel as a resident or made aliyah before?" |
+| Age at aliyah and household | Concessions are generally granted to adults (18+) who maintain an independent household; a minor oleh gets only personal items needed right after aliyah, unless they enlist in the IDF within a year of entering at 17+ or start full-time higher education within 18 months and study for at least two consecutive years (Misrad HaKlita Guide for the New Immigrant, 2022 edition; confirm with customs). A single adult with no independent household yet (for example a lone soldier on base or on a kibbutz) should confirm with customs before shipping a lift; regular IDF service does not count against the 3 years, so the lift can wait until after discharge. |
 | Household size | Caps are per family, not per person |
-| Planned home area in Israel (sqm) | Carpet exemption depends on it AND on whether the oleh owns or rents the home |
-| Does the oleh own or rent the Israeli home? | Owners and renters get different carpet allowances (see Step 2) |
-| Is the spouse a non-oleh? | If so, only the oleh's separate-luggage allowance applies (the per-family caps in Step 2 don't shrink, but the non-oleh spouse can't add to them) |
-| Full-time military service or study abroad? | May extend the 3-year window (see Step 3 for the +1yr study / IDF-pause rules) |
-| Country-specific rights package (Africa, FSU, Western) | Mention only if the user asks; the entitlement "package" concept is documented at Misrad HaAliyah, but the script does not branch on country, so route detail-seekers to the local Misrad HaAliyah branch or a customs broker. |
+| Planned home area in Israel (sqm) and number of rooms | Carpet allowance (25% of the home area per NBN) and the air-conditioner/heater allowance (relative to the number of rooms) depend on it. Customs may ask for a rental or purchase contract. |
+| Spouse's status, and whether the spouse already used benefits | Spouses share ONE set of benefits: the family gets the rights of the spouse with the broader entitlement, and spouses who received status at different times are together entitled to 3 shipments only, and the second spouse can bring capped items only if the first has not used the full cap. If a spouse used the capped-goods exemption BEFORE the marriage, the oleh gets that item type exempt only once 6 years have passed since the spouse's release. Customs will not approve either spouse without checking the other's passport (Tax Authority guide). Ask how many shipments and which capped items the spouse already used. |
+| IDF / national service, full-time study, or 6+ months abroad | Can extend the 3-year window (see Step 3) |
+| Previous customs concessions as a temporary resident (A/1) | Concessions already received as A/1 cannot be received again as an oleh (Misrad HaKlita guide) |
 
-If the user is a Toshav Chozer, route them to Misrad HaKlita Returning Resident desk and note that entitlement is reduced - do not plan their shipment as if they are an Oleh Chadash. One nuance: a Toshav Chozer Vatik (a returning resident who was abroad 6 or more years) may qualify for oleh-like privileges on items such as TVs and computers. Confirm the exact tier at Misrad HaKlita before planning.
+**Toshav Chozer (returning resident).** The Tax Authority returning-residents guide covers three groups: residents abroad 2+ years who return permanently, second-time olim (as defined in Ministry of Interior regulations), and others the Tax Authority classifies as returning residents. They may import household goods in **two shipments only, within 9 months of returning, and this period cannot be extended**, with the same 3-TV / 3-computer / one-of-each caps. The Misrad HaKlita guide adds that returning residents are not eligible for the oleh vehicle tax concession. Do not run the oleh 3-shipment plan for them; route to `israeli-returning-resident-navigator` and `references/returning-residents.md`.
+
+The customs eligibility file is opened automatically from Misrad HaKlita data. If it was not (a fault, or status granted after a long stay with only a printed confirmation), open it with a customs officer or by email, presenting the Misrad HaKlita certificate and the foreign passport with the aliyah visa or an Israeli passport.
 
 ### Step 2: Classify Every Item
 
@@ -45,85 +47,91 @@ For each item on the user's packing list, tag it as one of:
 |-----|---------|--------|
 | exempt | Household item within per-family cap | Include in a shipment |
 | over-limit | Item count exceeds cap (e.g., 4th TV, 2nd fridge) | Duty + VAT + purchase tax applies; recommend sell/gift before aliyah |
-| non-household | Office equipment, machinery, commercial goods | Not covered by exemption; clear as ordinary import |
-| restricted | Firearms, plants, certain medications, drones, food | Separate permit path - outside this skill |
-| vehicle | Car, motorcycle, ATV | Separate vehicle benefit (3-year window, Passport-to-Passport or new car) - outside this shipment plan |
+| verify | Allowance depends on facts customs decides (AC units vs rooms, hand tools, business equipment, an unrecognised item) | Confirm with the customs office or a licensed customs broker before packing |
+| non-household | Office equipment, commercial goods, permanently installed fittings | Not covered by the household exemption |
+| restricted | Firearms, plants, pets, certain medications, drones, food; cannabis is never importable | Separate permit path, see below |
+| vehicle | Car, motorcycle | Separate vehicle benefit, outside this shipment plan |
 
-Per-family caps to enforce during classification. Belong (toshav chozer rights basket + shipping-importation pages) and Nefesh B'Nefesh agree on the headline numbers, so the table below is treated as confirmed. For unusual items or edge cases still consult a licensed customs broker (amil meches) before packing:
+Per-family caps to enforce during classification. The primary source is the Israel Tax Authority import-tax guide for new olim; rows marked NBN come only from Nefesh B'Nefesh:
 
 | Category | Cap per family |
 |----------|----------------|
-| Televisions | Up to 3 (Belong + Nefesh B'Nefesh). |
-| Personal computers | Up to 3 (Belong). Earlier broker reporting suggested the 3rd is sometimes taxed; the 2024 Belong guidance confirms 3 as the per-family duty-free count. If a broker on the day pushes back, escalate via Meches. |
-| Cell phones | Nefesh B'Nefesh lists up to 5 per family. "5 phones" is also a Ministry of Communications import-approval threshold, which is a separate concept from a customs duty-free cap. Verify with a broker if the family is bringing >5. |
-| Carpeting | NBN publishes "up to 25% of the area of the Oleh's home in Israel" as the headline cap. Broker practice often quotes a more detailed tenure-aware split (owners get a higher wall-to-wall allowance, renters a flat ~30 sqm), but those finer numbers are not on the NBN page; confirm with a licensed customs broker before relying on them. |
-| Appliances / electronic equipment (fridge, oven, washing machine, dryer, microwave, etc.) | One of each type, for household use only (Belong: "1 item per category" for other appliances and major furniture). Air conditioners, fans, and heaters are allowed relative to the number of rooms in the new home. |
-| Professional hand tools | Total value cap of USD 1,650 (Belong, as of 2024). Must be portable and for the oleh's professional use, not commercial resale. |
-| Business machinery / equipment (on-premises business assets) | Total value cap of USD 36,000 (Belong). The hand-tools USD 1,650 sub-cap counts inside this overall ceiling. |
-| Personal effects (books, clothing, linens, kitchen utensils, decorations) | No fixed cap, but must be genuinely personal-use household items. The boundary against "appliance" matters: anything with a motor or heating element that a customs official would read as an appliance falls under the one-of-each rule, not the unlimited personal-effects rule. When in doubt, classify as an appliance. |
-| Furniture | Household use, "1 item per category" for major furniture pieces (Belong). |
+| Televisions | Up to 3 (Tax Authority) |
+| Personal computers | Up to 3 (Tax Authority) |
+| Other electrical and electronic appliances (fridge, oven, washing machine, dryer, microwave, etc.) | One of each type (Tax Authority) |
+| Major furniture items | One of each type (Tax Authority) |
+| Cell phones | NBN lists up to 5 per family; the Tax Authority guide does not list a phone count. Importing more than 5 needs Ministry of Communications approval (NBN). |
+| Carpeting | NBN: up to 25% of the area of the oleh's home in Israel. Not in the Tax Authority guide. The exemption excludes permanently installed equipment such as flooring and wall coverings, so wall-to-wall carpet may be refused; confirm with customs. |
+| Air conditioners, fans, heaters | NBN: relative to the number of rooms in the new home. Separately, the approval lets the oleh BUY an Israeli-made air conditioner VAT-free, up to two units or one mini-central unit (Tax Authority). |
+| Hand-held work tools | Total value up to USD 1,650, for the oleh's professional needs, of the hand-held type (customs tariff item 84.67), as determined by the customs officer (Tax Authority) |
+| Machinery and equipment to set up a business | Up to USD 36,000 FOB in total, INCLUDING the hand tools, subject to the Director's approval, used and kept on the business premises, against a bank guarantee for the taxes (Tax Authority) |
+| Books, clothing, linens, kitchen utensils, pictures, decorations, media, personal effects | No numeric cap, household use (NBN). Anything with a motor or heating element that customs would read as an appliance falls under one-of-each; when in doubt classify it as an appliance. |
+| Permanently installed equipment (plumbing, building materials, flooring, wall coverings such as wallpaper, tiles, marble) | NOT exempt (Tax Authority) |
 
-The oleh must physically present the teudat oleh (plus teudat zehut with the sefach addendum) with the exemption request form at customs clearance. Customs verifies that oleh benefits are still active before releasing the shipment.
+Customs releases goods only in the name of the entitled person (or their customs agent holding a power of attorney), and only in reasonable quantities for personal use.
 
-**Hand-luggage allowance on the aliyah flight itself.** Distinct from the 3-shipment exemption, an oleh entering Israel on the aliyah flight is allowed to bring the following in personal/hand luggage without using a shipment slot:
+**Accompanying luggage on the aliyah flight.** An oleh who arrives with an aliyah visa and receives status on the day of entry may bring household goods as accompanying luggage, on the same flight, free of import taxes and **in addition to** the 3 shipments (Tax Authority). Anything beyond the standard traveller allowance below requires the Red lane, a declaration and a request for the oleh exemption. Standard Green-lane allowance per entrant:
 
-| Category | Per-person cap | Notes |
+| Category | Allowance | Notes |
 |---|---|---|
-| Clothing and toiletries | Under USD 200 value per person | Practical day-to-day items. Excess value routed through the Red Customs lane. |
-| Gifts / items for personal use | Up to USD 200 per entrant | Belong-confirmed sub-cap on top of the general clothing/toiletries allowance. |
-| Perfume | Up to 250 ml (1/4 liter) per person | Belong-confirmed; anything beyond 250 ml goes through Red Customs. |
-| Alcohol (age 18+) | 1 litre spirits + 2 litres wine | Combined cap per adult passenger |
-| Tobacco (age 18+) | 250 grams OR 200 cigarettes | Either form, not both |
+| Clothing, footwear, personal toiletries | Types and quantities customary for travellers' luggage | No dollar value cap |
+| Spirits / wine | 1 litre spirits + 2 litres wine | Each entrant aged 18+ |
+| Alcohol-based cosmetics (perfume) | Up to 1/4 litre | Each entrant |
+| Tobacco | 250 grams, or 200 cigarettes (one carton) | |
+| Other items for own use or as gifts | Up to USD 200 per item, each entrant aged 2+ | Includes up to 3 kg of food, no more than 1 kg per type. Allowances of several entrants cannot be pooled for an item worth more than USD 200. |
 
-These hand-luggage caps are the same as for any incoming traveler and do NOT consume any of the 3 oleh shipment slots. They also do NOT extend the per-family caps in the table above. Anything over the hand-luggage caps must be declared via the Red Customs lane on arrival.
+**Postal packages.** A postal package of household items counts as one of the 3 shipments. A package containing ONLY clothing and footwear is exempt and does not count as a shipment if it arrives from 30 days before receiving status up to 3 months after (Tax Authority). To release a package with oleh benefits, NBN describes sending the Customs Exemption Request Form with copies of the teudat oleh and the teudat zehut with sefach to customs. With couriers (UPS, FedEx, DHL), check before shipping that you can clear with your oleh benefit yourself: NBN warns that in most cases, if the courier pays the customs fee on your behalf, you will NOT get a refund.
 
-**Postal clothing window** (separate from the 3 shipments and from hand luggage). Postal shipments of clothing to the oleh's address can be sent within a defined window without consuming a shipment slot: 30 days before entry, on the day of entry as accompanying luggage, or within 3 months after entry. Beyond that window the package counts as part of a regular shipment slot or is duty-billed.
+**Cash and cannabis.** Any cash above NIS 50,000 carried on the aliyah flight must be declared; it is not taxed (NBN). Cannabis-based products or medication cannot be imported, for any reason (NBN).
 
-**Pet (dog or cat) import sub-process.** Bringing a pet on aliyah is a separate Veterinary Services track, NOT a shipment slot. Belong-confirmed requirements: minimum age 4 months at entry, rabies vaccination administered within 12 months before entry AND at least 1 month before entry, and a rabies antibody titer of at least 0.5 IU/ml from an approved laboratory. Approved entry ports for pets are Ben Gurion, Haifa, Ashdod, and Eilat. Dangerous-breed lists and quarantine rules apply on top; route the user to the Israeli Veterinary Services page at gov.il for the current breed list and lab list.
+**Pets (dogs and cats).** A separate Ministry of Agriculture track, never a shipment slot, and the Tax Authority notes that aliyah with animals requires an import licence application BEFORE aliyah. For the exemption-from-licence route the Ministry requires: up to two dogs or two cats a year, the animal over 5 months old on arrival, an owner over 18 travelling on the same flight, the animal in the owner's possession for at least 90 days before the flight, not a restricted breed, and not intended for sale or transfer. The Ministry's veterinary certificate (valid 10 days) requires an ISO 11784/11785 microchip, a rabies vaccination no more than one year and no less than 30 days before arrival (some origin countries excepted), and, where required, a rabies antibody titer of at least 0.5 IU/ml from an EU- or WOAH-approved laboratory. If any exemption condition fails (the animal is not on the owner's flight, is 5 months or younger, is a third animal that year, or has been with the owner under 90 days), the route is an import LICENCE, which must be obtained before arrival: obtaining one after the animal arrives is an offence (Tax Authority). If the animal travels as cargo on the owner's own flight, ask the Ministry's import unit which route applies. For a dog or cat born with a short tail, imported under a licence, the Ministry's forms include a veterinarian's declaration that the tail was not docked. Route the user to the Ministry's dog-and-cat import page for the current breed list and forms.
 
-Run `scripts/plan_shipments.py` to do this classification automatically from a JSON inventory.
+Run `scripts/plan_shipments.py` to do this classification automatically from a JSON inventory. Fill the `type` field on `other_appliance` and `furniture` rows (the one-of-each rule is applied per type), and when a spouse already used benefits, pass `--shipments-used` and list the capped items the spouse already brought as rows with `"already_imported": true`, so they count toward the family cap first; the output lists them once, under "counted_toward_caps_already_imported_by_spouse", and leaves them out of the shipment plan and every declaration total.
 
 ### Step 3: Propose a 3-Shipment Split
 
 Rule of thumb for splitting within the 3-year window:
 
-1. Shipment 1 (arrival): essentials only. Beds, a basic kitchen, enough clothes for a few months, one laptop, one TV. Ship 4-8 weeks before arrival if sea, 1-2 weeks if air.
-2. Shipment 2 (3-9 months after aliyah): the bulk lift. Remaining furniture, appliances (one of each), books, kitchenware, second computer/TV if the family needs it.
-3. Shipment 3 (reserve, up to 36 months after aliyah): whatever the family realized they need later - extra appliance on the cap, seasonal items, replacement furniture for Israel-sized apartments.
+1. Accompanying luggage (aliyah flight, only for an oleh arriving on an aliyah visa who receives status on the day of entry): suitcases of household items, declared in the Red lane. Not a shipment. Household items brought on a LATER trip into Israel do count as a shipment.
+2. Shipment 1 (arrival): essentials only. Beds, a basic kitchen, enough clothes for a few months, one laptop, one TV.
+3. Shipment 2 (3-9 months after aliyah): the bulk lift. Remaining furniture, appliances (one of each), books, kitchenware, second computer/TV if needed.
+4. Shipment 3 (reserve, before the window closes): whatever the family realised they need later.
 
-Container math: if shipment 2 does not fit in one 40-foot container it will count as 2 shipments (consuming shipment 3) unless both containers come on the same ship and are cleared together at the same customs appointment. Flag this in the plan.
+Shipments may come from any country, not only the country of aliyah (NBN). Container math: if a sea shipment is larger than a full container it counts as two shipments, unless both come on the same ship and are cleared through customs at the same time (NBN). Flag this in the plan.
 
-**Extending the 3-year window.** The 3-year customs eligibility clock can extend for two named reasons:
-- **IDF service**: the clock pauses during the period of active duty (military service time does not count against the 3 years).
-- **Full-time study**: adds +1 year to the eligibility window from the end of studies. Maximum study period considered for this extension is 5 years (longer for medicine and law).
+**Extending the 3-year window** (Tax Authority, the only grounds):
+- **Regular IDF or national service** during the eligibility period: the service period (not career service) does not count, and the remaining period resumes after discharge.
+- **Higher education**: studies begun within 18 months of entry as a full-time student at a recognised institution, continuous and no longer than 5 years (longer possible for medicine and law): the period is extended by one year from the end of studies. This extension is not frozen, even if the student leaves Israel right after.
+- **6 or more consecutive months abroad** during the eligibility period (does not apply to a Katin Chozer): the time abroad does not count; extend via the online form, no visit to customs needed.
+- The eligibility period can be extended up to 6 years, longer in some cases. Beyond that, an exceptions committee can review special cases (goods received before status was completed, or arriving after 3 years for special reasons).
 
-In practice this means a maximum eligibility ceiling of approximately 5 years from the aliyah date (3 base + study extension). Document the extension grounds in writing and submit to Meches before the original 3-year window expires; verify the current extension procedure with a customs broker.
+### Step 4: Draft the Per-Shipment Declaration Worksheet
 
-### Step 4: Draft the Per-Shipment Customs Declaration
-
-For each shipment, produce:
+For each shipment, produce a worksheet the user or broker files from:
 
 - Shipment number (1 / 2 / 3)
 - Expected arrival port (Haifa, Ashdod, Ben Gurion air cargo)
 - Freight mode (air, sea LCL, sea FCL 20-foot, sea FCL 40-foot)
 - Inventory list grouped by category (furniture, appliances, electronics, personal)
-- Declared value per line (insurance / customs valuation)
-- Flag column: exempt / over-limit / non-household
-- Totals: total items, over-limit count, estimated duty exposure on over-limit items
+- Declared value per unit and line total (the script reads `declared_value` as per unit)
+- Flag column: exempt / over-limit / verify / non-household
+- Totals: total items, over-limit count, items needing verification
 
-Do NOT fabricate specific NIS amounts for duty or purchase tax on over-limit items - rates are set by Tariff (Taarif HaMeches) and change. Tell the user to get a pre-clearance quote from a licensed customs broker (amil meches) for any over-limit item worth more than a few hundred shekels.
+List every item in detail. The returning-residents guide requires a detailed list of everything in the luggage and insurance at full value including all taxes; treat both as good practice for olim too.
 
-### Step 5: Advise on Timing and the 6-Year Hold
+Do NOT fabricate NIS amounts for duty or purchase tax on over-limit items: rates come from the customs tariff and change. Tell the user to get a pre-clearance quote from a licensed customs broker (amil meches) for any over-limit item.
 
-Remind the user of the retention rule: anything imported duty-free under aliyah rights must stay in their possession for at least 6 years from the date of import, or depreciated tax must be paid back to Meches. Cars must be kept 4 years. Plan around it:
+### Step 5: Advise on the 6-Year Personal-Use Rule
 
-- Do not import items you plan to resell within 6 years (e.g., "I will flip this fridge when I upgrade in 2 years").
-- Do not use the exemption on gifts for relatives who live outside your household.
-- Items that were already used abroad do depreciate in the retention formula, but you still owe something if you sell early - escalate to a customs broker for specifics.
+Goods imported or bought under oleh rights must be for the oleh's own use in Israel for at least 6 years from their release or purchase (for a vehicle: 4 years of personal use after release, a restriction on use and sale after release, not a rule about the car's age). They may not be passed to anyone else's use before the period ends, temporarily or permanently, for payment or free; doing so breaches the exemption conditions (Tax Authority). Proof that the items are used by the oleh may be required even when no guarantee was given (Misrad HaKlita guide). Plan around it:
+
+- Do not import items you plan to resell, lend or give away within 6 years.
+- Do not use the exemption for relatives who live outside your household.
+- Before transferring an item early, ask the customs office what taxes would be owed; do not estimate it yourself.
 
 ### Step 6: Write the Checklist Back to the User
 
-Output a clean 3-column table: shipment number, items, flags. Include a short list of next actions: (a) confirm Misrad HaKlita file is open, (b) choose a customs broker (amil meches) or self-clear, (c) get insurance valuations, (d) book freight, (e) pre-inspect anything flagged over-limit.
+Output a clean 3-column table: shipment number, items, flags. Include a short list of next actions: (a) confirm the customs eligibility file was opened, (b) choose a customs broker or self-clear, (c) get insurance valuations, (d) book freight, (e) pre-check anything flagged over-limit or verify.
 
 ## Examples
 
@@ -132,108 +140,110 @@ Output a clean 3-column table: shipment number, items, flags. Include a short li
 User: "I'm making aliyah in June, solo, from Boston. One bedroom I'll rent. I have 2 laptops, 1 desktop, 1 TV, no furniture, lots of books, espresso machine. Plan my shipments."
 
 Actions:
-1. Profile: Oleh Chadash, household size 1, renting a small home (~40 sqm), aliyah visa issued in the US, sea LCL.
-2. Classify: 3 computers total (2 laptops + 1 desktop). Belong (2024) and Nefesh B'Nefesh both confirm 3 per family duty-free, so the desktop clears too. 1 TV is within the cap. Espresso machine is one appliance (OK). Books and clothes are personal effects (OK).
+1. Profile: Oleh, adult with an independent household of 1, renting, sea LCL.
+2. Classify: 3 computers total (2 laptops + 1 desktop) = at the Tax Authority cap of 3, exempt. 1 TV within the cap. Espresso machine is one appliance (OK). Books and clothes are personal effects (OK).
 3. Split:
-   - Shipment 1 (air, before arrival): 1 laptop, clothes, essentials. (~100 kg)
+   - Accompanying luggage: 1 laptop and essentials (Red lane if beyond the traveller allowance).
+   - Shipment 1 (air, around arrival): clothes and personal effects.
    - Shipment 2 (sea LCL, 2 months after arrival): other laptop, desktop, TV, espresso machine, books.
    - Shipment 3: reserve.
-4. Declaration: 2 shipments used, 1 in reserve. All 3 computers confirmed exempt per Belong + NBN. No item flagged "verify".
-5. Timing note: 6-year hold means do not sell the desktop before 2032. Bring the teudat oleh to clearance.
+   This is also the script's starting split (personal items in 1, everything else in 2). A user who can wait may merge shipments 1 and 2 to keep two in reserve.
+4. Declaration: 2 shipments used, 1 in reserve. Nothing flagged.
+5. Timing note: the 6-year rule runs from the customs release date, so a shipment released around August 2026 must not be sold or lent before about August 2032.
 
-Result: Clean plan, one shipment kept in reserve, all electronics treated as duty-free.
+Result: Clean plan, one shipment kept in reserve.
 
 ### Example 2: Family of 4 from France
 
-User: "Family of 4 from Paris. 3 TVs, 4 computers (2 parents + 2 kids), fridge, 2 washing machines (one for dairy one for meat), full furniture set, renting an 80 sqm apartment in Netanya."
+User: "Family of 4 from Paris. 3 TVs, 4 computers (2 parents + 2 kids), fridge, 2 dishwashers (one for dairy one for meat), full furniture set, 25 sqm of rugs, renting an 80 sqm apartment in Netanya."
 
 Actions:
-1. Profile: Oleh Chadash, household size 4, renting an 80 sqm home, aliyah visa issued in France. Carpet allowance: because they rent, a flat ~30 sqm of carpeting (the 70%-wall-to-wall / 25%-area-rugs split is for owners only).
+1. Profile: Oleh family, household of 4, renting 80 sqm.
 2. Classify:
-   - 3 TVs = at the Belong-confirmed cap of 3. Exempt.
-   - 4 computers = over the cap of 3 (Belong, NBN). 3 are duty-free; flag the 4th computer as over-limit.
+   - 3 TVs = at the cap of 3. Exempt.
+   - 4 computers = over the cap of 3. 3 exempt; flag the 4th as over-limit.
    - Fridge OK (one of type).
-   - 2 washing machines = over the "one of each appliance" cap. Flag the second washer as over-limit.
-   - Furniture personal use, OK.
-3. Recommend: leave the 4th computer with family in France, buy new in Israel (may be cheaper than paying duty + VAT + purchase tax). For the second washing machine, user may still want to pay duty for halachic reasons - escalate to customs broker for a cost quote.
+   - 2 dishwashers = over one-of-each. Flag the second as over-limit.
+   - Rugs: NBN 25% of 80 sqm = 20 sqm. Flag 5 sqm as over-limit, and confirm with customs that loose rugs (not fitted carpet) are what is being imported.
+   - Furniture: household use, one of each major item; several beds for several children are a "verify" item for customs to decide.
+3. Recommend: leave the 4th computer with family in France. For the second dishwasher, the user may still want to pay duty for halachic reasons; get a broker quote.
 4. Split:
-   - Shipment 1 (air, 200 kg): clothes, bedding, kids' essentials.
-   - Shipment 2 (sea FCL 40-foot): all furniture, appliances, kitchen, books, TVs, 3 of 4 computers (all duty-free), first washer. Note: must fit in one container or it becomes 2 shipments.
-   - Shipment 3 (reserve, within 36 months): second washer if family decides to import it (pay duty) plus any follow-up items.
-5. Declaration: flag over-limit rows clearly. Expected duty exposure: full rates on any item shipped over cap, no fixed number in this plan.
+   - Shipment 1 (air): clothes, bedding, kids' essentials.
+   - Shipment 2 (sea FCL 40-foot): furniture, appliances, kitchen, books, TVs, 3 computers, both dishwashers (the second declared over-limit, taxes paid), 20 sqm of rugs. Must fit in one container or come on the same ship and clear together.
+   - Shipment 3: a real reserve. Do not spend it on a taxed item that can ride in shipment 2.
+5. Declaration: flag over-limit rows clearly. No fixed duty number in this plan.
 
-Result: Plan that avoids over-cap charges on the easy ones and forces an explicit decision on the washing machine.
+Result: A plan that avoids over-cap charges on the easy items and forces an explicit decision on the second dishwasher. Enter rows as the user describes them ("2 parents + 2 kids"): the script sums rows of the same category before applying the cap.
 
 ### Example 3: Toshav Chozer Returning After 8 Years in London
 
 User: "I left Israel in 2018, lived in London since, now returning. Can I use the 3-shipment rule?"
 
 Actions:
-1. Profile: Toshav Chozer status - NOT full Oleh Chadash rights. Entitlement is "limited customs benefits only" per Nefesh B'Nefesh / Misrad HaKlita.
-2. Do NOT plan as a full 3-shipment oleh. Instead:
-   - Route user to Misrad HaKlita's Returning Resident desk to confirm eligibility and the exact item caps they qualify for (varies by years away and prior residency status).
-   - Route user to a licensed customs broker (amil meches) for a goods list review.
-3. Output a short advisory note, not a packing plan. Cite Kol-Zchut and Nefesh B'Nefesh rights hub.
+1. Profile: returning resident (abroad 2+ years), not an oleh. The same answer applies to someone making aliyah for the second time.
+2. Explain the different track from the Tax Authority returning-residents guide: household goods in two shipments only, arriving within 9 months of the return, not extendable; the same 3-TV / 3-computer / one-of-each caps; no oleh vehicle concession.
+3. Do NOT produce the oleh 3-shipment plan. Route to `israeli-returning-resident-navigator` for the full returning-resident picture, and to the customs office to open the eligibility file (online form).
 
-Result: User is redirected to the correct authority instead of being handed an incorrect plan.
+Result: The user gets the right window and shipment count instead of an oleh plan that would cost them their exemption.
 
 ## Bundled Resources
 
 ### Scripts
-- `scripts/plan_shipments.py` - Takes a JSON inventory (items, counts, category, declared values), family size, aliyah date, and home area. Classifies each item against per-family caps, flags over-limit, proposes a 3-shipment split, and drafts a declaration per shipment. Run: `python scripts/plan_shipments.py --help`
+- `scripts/plan_shipments.py` - Takes a JSON inventory (items, counts, category, optional type, per-unit declared values), the status date, home area and rooms. Sums rows of the same category (per type for appliances and furniture), classifies them against the per-family caps (including the 25% carpet rule and the USD 1,650 hand-tool and USD 36,000 business-equipment ceilings), flags over-limit and verify items, proposes a starting 3-shipment split, and drafts a worksheet per shipment. Exits 2 for a returning resident or second-time oleh. Run: `python scripts/plan_shipments.py --help`
 
 ### References
-- `references/allowed-items-list.md` - Detailed list of household items categorized as exempt, over-limit triggers, or non-household. Consult when classifying unusual items.
-- `references/shipment-planning-strategy.md` - How to sequence 3 shipments across 36 months, container math, air vs sea tradeoffs, broker vs self-clear decision.
-- `references/returning-residents.md` - Toshav Chozer rules: how they differ from Oleh Chadash, eligibility tiers, when to route the user away from this planner.
+- `references/allowed-items-list.md` - Detailed classification of household items: exempt, capped, non-household, permit-only. Consult for unusual items.
+- `references/shipment-planning-strategy.md` - Sequencing shipments across the window, container math, air vs sea, broker vs self-clear.
+- `references/returning-residents.md` - Toshav Chozer rules and when to route the user away from this planner.
+- `references/domain-checklist.md` - Coverage checklist with sources.
 
 ## Recommended MCP Servers
 
 | MCP Server | Purpose | Status |
 |------------|---------|--------|
-| [Kol-Zchut MCP](https://agentskills.co.il/he/mcp/kolzchut) | Look up Israeli rights pages, including the authoritative olim and returning-resident customs rights pages this skill cites | Available. Use it to pull the current Kol-Zchut customs-exemption pages so caps and eligibility tiers stay current. |
-| Customs tariff / duty calculation | Customs tariff lookup, live duty calculation | No MCP server currently wraps the Israeli customs tariff (Taarif HaMeches) or Misrad HaKlita rights APIs. Consult the official sources in Reference Links and a licensed customs broker for duty quotes. |
+| [Kol-Zchut MCP](https://agentskills.co.il/he/mcp/kolzchut) | Look up Israeli rights pages, including olim and returning-resident customs rights | Available |
+| Customs tariff / duty calculation | Customs tariff lookup, live duty calculation | No MCP server currently wraps the Israeli customs tariff. Use the official sources in Reference Links and a licensed customs broker for duty quotes. |
 
 ## Gotchas
 
-- The 3-year window starts from the date on the teudat oleh (aliyah certificate), not the day the oleh physically lands. Items arriving on day 1,096 after aliyah are already outside the window.
-- "One of each appliance" is strict: a second refrigerator, a second oven, or a second washing machine is over-limit even for families with halachic reasons to own two. The exemption does not carve out dairy/meat duplicates.
-- Cars are a completely separate benefit with its own 3-year clock and its own 4-year retention rule. Do not count a car against your 3 shipment slots.
-- If a sea shipment exceeds one full container, it counts as 2 shipments unless both containers come on the same ship AND are cleared through customs at the same appointment. Losing the second container slot because it arrived a week late is a common and expensive mistake.
-- Goods imported under aliyah rights must stay in the oleh's possession for 6 years, or depreciated tax must be paid back to Meches. Selling an "exempt" fridge after 2 years triggers a retroactive duty bill. Vehicles have a 4-year resale restriction (sell within 4 years and you repay the customs discount, see `israeli-returning-resident-customs-vehicle` for the vehicle-specific procedure).
-- Toshav Chozer (returning resident) is a different status with limited benefits. Do NOT apply the full Oleh Chadash 3-shipment plan to a returning resident without confirming eligibility at Misrad HaKlita.
-- Mixed households where one spouse is a non-oleh do not get double the per-family allowance. The cap is still "one of each appliance" for the household.
+- The 3-year window runs from the day oleh status was received, not from the planning date and not from the day the lift is shipped. A shipment that ARRIVES after the window closes is outside it.
+- "One of each appliance" is strict: a second refrigerator, oven or washing machine is over-limit even for families with halachic reasons to own two.
+- Spouses do not double the allowance. Spouses who received status at different times are together entitled to 3 shipments, and capped items the first spouse already brought count against the second (Tax Authority).
+- Household items carried on the aliyah flight are a free extra, not a shipment, but only on the same flight and only through the Red lane. Agents often omit this and waste a shipment slot.
+- A household-items postal package uses a full shipment slot. Only a clothing-and-footwear-only package inside the window is free.
+- Cars are a separate benefit with their own 3-year window and a 4-year personal-use restriction after release (the Tax Authority olim guide: the car may be sold only after 4 years of use in Israel). This is a restriction on use and sale after release, not a rule about the car's age. Do not count a car against the 3 shipment slots; for an oleh's vehicle questions use the "taxes on a vehicle" chapter of the Tax Authority olim guide (the returning-resident vehicle skill is for returning residents only).
+- Toshav Chozer, and a second-time oleh, are a different track: 2 shipments within 9 months, no extension. Never apply the oleh plan, and ask about prior residency before planning.
+- Letting a courier pay the duty on a parcel usually forfeits the benefit with no refund (NBN).
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Nefesh B'Nefesh - Customs Benefits | https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/ | Current per-family caps, shipment rules, vehicle benefit summary |
-| Nefesh B'Nefesh - Rights Hub | https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/ | Full rights index including banking, tax, license conversion |
-| Anglo-List - Aliyah Shipping Rights | https://anglo-list.com/aliyah-shipping-rights/ | 6-year retention rule, practical packing guidance |
-| Misrad HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Teudat oleh issuance, returning resident classification |
-| Israel Tax Authority - Meches | https://www.gov.il/en/departments/israel_tax_authority | Official customs authority, Taarif HaMeches tariff database |
-| Kol-Zchut - All Rights | https://www.kolzchut.org.il | Community-maintained Hebrew and English rights pages |
-| Shivat Zion - Aliyah Customs Benefits | https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits | Plain-English overview of olim customs caps, hand-luggage allowance, and the 3-shipment window |
+| Israel Tax Authority - Import tax guide for new olim (Hebrew) | https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents | Eligible statuses, caps, shipments, accompanying luggage, eligibility period and extensions, spouses |
+| Israel Tax Authority - same guide (English) | https://www.gov.il/en/pages/guide-for-immigrants-and-foreign-residents | English version of the above |
+| Israel Tax Authority - Customs guide for returning residents | https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents | Toshav Chozer shipments, 9-month window |
+| Ministry of Agriculture - Importing dogs and cats | https://www.gov.il/he/service/import_pets_cats_dogs | Pet licence or exemption conditions |
+| Nefesh B'Nefesh - Customs Benefits | https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/ | Phone and carpet caps, container rule, postal release procedure |
+| Misrad HaKlita (Ministry of Aliyah and Integration) | https://www.gov.il/en/departments/ministry_of_aliyah_and_integration | Oleh status, Guide for the New Immigrant |
 
 ## Troubleshooting
 
 ### Error: "User does not know their exact aliyah date yet"
 Cause: User is planning shipments before making aliyah.
-Solution: Use the planned aliyah date as a proxy. Note that the 3-year clock only starts when the teudat oleh is issued, not when the plan is made. Pre-aliyah freight quotes are fine; actual exemption paperwork cannot be finalized until the teudat oleh exists.
+Solution: Use the planned date as a proxy. The 3-year clock only starts when oleh status is received. Pre-aliyah freight quotes are fine; exemption paperwork cannot be completed until the status exists.
 
 ### Error: "Item count is exactly at the cap - is that allowed?"
-Cause: Family has 3 TVs, 3 computers, or exactly the cap number.
-Solution: As of 2024, Belong (https://belong.co.il/living/shipping-importation/) and Nefesh B'Nefesh agree on the headline numbers: 3 TVs and 3 personal computers per family are duty-free. The older customs-broker guidance that flagged the 3rd computer as "verify" is superseded. Items exactly at the cap are treated as confirmed exempt. Only items OVER the cap (4th TV, 4th computer, 2nd fridge) need broker quotes. See the cap table in Step 2.
+Cause: Family has exactly 3 TVs or 3 computers.
+Solution: Yes. The Tax Authority guide allows up to 3 TVs and 3 personal computers per family, so items exactly at the cap are exempt. Only items over the cap need broker quotes.
 
 ### Error: "User wants to gift an exempt appliance to a relative"
-Cause: Retention rule confusion.
-Solution: The 6-year retention rule applies to the oleh's possession. Gifting an exempt item to a relative who lives in a different household within 6 years triggers depreciated duty. Tell the user to either keep the item 6 years or pay the retroactive duty through Meches.
+Cause: Personal-use rule confusion.
+Solution: Passing an exempt item to anyone else's use within 6 years, even free or temporarily, breaches the exemption conditions. Tell the user to keep it 6 years or ask the customs office what would be owed first.
 
 ### Error: "Second container of a sea shipment was delayed and arrived separately"
 Cause: Same-ship / same-clearance rule broken.
-Solution: If the two containers are now cleared on different days, they count as 2 shipments, consuming the shipment 3 slot. Work with the customs broker to either hold the first container at the port until the second arrives, or accept the 2-shipment cost.
+Solution: NBN's rule needs BOTH conditions: the containers came on the same ship AND were cleared together. A container that arrived on a different ship counts as a second shipment, and holding the first one at the port does not change that. Prevent it at booking: put both containers on the same vessel. If it already happened, accept the 2-shipment count or ask the customs office; do not promise a fix.
 
 ### Error: "Toshav Chozer user is asking for the full 3-shipment plan"
 Cause: Wrong status applied.
-Solution: Do NOT output the standard 3-shipment plan. Route to Misrad HaKlita Returning Resident desk. Use `references/returning-residents.md`.
+Solution: Do NOT output the standard plan. Explain the 2-shipment / 9-month returning-resident track and route to `israeli-returning-resident-navigator` and `references/returning-residents.md`.

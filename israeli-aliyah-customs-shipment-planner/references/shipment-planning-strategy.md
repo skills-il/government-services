@@ -1,93 +1,76 @@
 # Shipment Planning Strategy
 
-How to sequence three duty-free shipments across the 36-month window. All three shipments must arrive before the third anniversary of the teudat oleh date.
+How to sequence up to three exempt shipments across the eligibility window. Rules come from the Israel Tax Authority import-tax guide for new olim unless marked NBN (Nefesh B'Nefesh).
 
-## The 36-Month Clock
+## The Eligibility Clock
 
-The clock starts on the date Misrad HaKlita issues the teudat oleh, not when the oleh physically lands. Plan for arrival of the last shipment no later than day 1,095. Freight can drift by weeks, so aim for day 900 at the latest.
+The period runs from the day oleh status is received (normally the entry day; later if status was granted after a stay in Israel) until 3 years from aliyah. Goods must ARRIVE inside the window, so plan the last shipment well before the third anniversary: freight drifts by weeks.
 
-Extensions exist but are narrow: full-time military service, full-time academic study, or leaving Israel for more than six consecutive months during the window. The extension equals the absence, not a blanket reset. Do not plan around extensions - they are safety valves, not planning tools.
+Extensions are granted only on these grounds:
+
+- Regular IDF service or national service during the period: the service time (not career service) does not count, and the remaining period resumes after discharge.
+- Higher education begun within 18 months of entry, as a regular student at a recognised institution, continuous and no longer than 5 years (longer possible for medicine and law): one year from the end of studies. This extra year does not freeze, even if the student leaves Israel right after.
+- 6 or more consecutive months abroad during the period (not for a Katin Chozer): the time abroad does not count. Apply through the online extension form; no visit to customs needed.
+- Extensions can reach up to 6 years, longer in some cases. Beyond that, the exceptions committee reviews special cases, such as goods received before the status process was completed or goods that arrived after 3 years because of special circumstances.
+
+Do not plan around extensions; treat them as safety valves.
+
+## What Counts as a Shipment
+
+- Goods arriving by ship or by plane, postal packages, and goods brought by the entitled person on a LATER entry to Israel each count as a shipment. Up to 3 in total.
+- Accompanying luggage brought on the aliyah flight itself, ONLY by an oleh with an aliyah visa who receives status on the day of entry, is exempt and does NOT count as a shipment. It must come on the same flight and goes through the Red lane if it exceeds the traveller allowance.
+- A postal package of clothing and footwear only, arriving from 30 days before status to 3 months after, is exempt and does not count.
+- A sea shipment larger than a full container counts as two shipments unless both parts come on the same ship and clear customs at the same time (NBN).
+- Shipments may come from any country (NBN).
 
 ## Shipment Sequence
 
+### Accompanying luggage - the aliyah flight (aliyah visa, status on entry day)
+
+Suitcases of household items, laptops and essentials. Free, and does not use a shipment slot. Declare in the Red lane.
+
 ### Shipment 1 - Arrival essentials
 
-Purpose: get the family functional in the first month.
+Purpose: get the family functional in the first weeks. Air freight is fastest; sea LCL (less than container load) is cheaper and slower.
 
-Air freight is fastest, usually 5-10 days door-to-door, and the most common choice for shipment 1. Sea LCL (less-than-container-load) is cheaper but takes 4-8 weeks from most origins.
-
-Typical shipment 1 contents:
-- Clothing for the family, seasonal
-- Bedding and towels for the first month
-- Laptop(s), phones, essential electronics
-- Kids' school supplies, favorite toys
-- Medications (verify Ministry of Health rules on personal quantities)
-- A small kitchen starter kit if the rental is unfurnished
-
-Target: 100-400 kg air, or 2-4 cubic meters LCL. Arrives within 2 weeks of the oleh.
+Typical contents: clothing, bedding and towels, essential electronics not carried on the flight, kids' school supplies, a small kitchen starter kit.
 
 ### Shipment 2 - The main lift
 
-Purpose: bring the bulk of the household.
+Purpose: the bulk of the household, usually sea FCL (full container load). Timing: a few months after aliyah, once the family knows which apartment it will live in (room count and floor area drive the carpet and air-conditioner allowances).
 
-Usually sea FCL (full container load) - a 20-foot container holds about 25-30 cubic meters, a 40-foot container about 55-60 cubic meters. This is where most furniture, all appliances, full wardrobes, and the books end up.
-
-Timing: 3-9 months after the teudat oleh is the sweet spot. Early enough to still be within the window with room for shipment 3. Late enough that the family knows which apartment they are actually living in and whether 80 sqm of carpeting fits.
-
-Container math is the single most common planning mistake:
-
-- One full 40-foot container = 1 shipment.
-- Two 40-foot containers on the same ship, cleared at the same customs appointment = 1 shipment (the "same ship, same clearance" exception).
-- Two containers on different ships, or cleared on different days = 2 shipments.
-
-If the inventory does not fit in one 40-foot container, either trim it to fit or book both containers on the same vessel and coordinate with the customs broker to schedule a single clearance appointment.
+Container math is the most common planning mistake: if the inventory does not fit one container, trim it, or book both containers on the same vessel and coordinate one clearance with the broker.
 
 ### Shipment 3 - The reserve
 
-Purpose: catch the items the family realized they need after living in Israel.
+Purpose: items the family realises it needs after living in Israel, such as replacement furniture sized for smaller rooms or seasonal items left behind. Do not use it early as a top-up. If it is never used there is no refund: the exemption is "up to 3", not a credit.
 
-Common shipment 3 contents after 12-24 months in Israel:
-- A second TV or computer that the family bought in origin after aliyah for a relative and now inherits
-- Replacement furniture sized for smaller Israeli rooms
-- Seasonal items (winter gear, holiday decorations) that were left behind
-- One extra appliance up to the cap, if the original was damaged
+## Spouses
 
-Do not "use" shipment 3 early as a top-up for shipment 2. Save it for the unexpected.
-
-If shipment 3 is never needed, no refund exists. The exemption is "up to 3", not "credit for 3".
-
-## Air vs Sea Decision
-
-| Factor | Air | Sea LCL | Sea FCL |
-|--------|-----|---------|---------|
-| Speed | 5-10 days | 4-8 weeks | 4-8 weeks |
-| Cost | Highest per kg | Moderate | Lowest per cubic meter |
-| Typical size | Up to 500 kg | 2-15 cubic meters | 25-60 cubic meters |
-| Best for | Shipment 1 essentials | Small household moves | Family household moves |
-| Damage risk | Low | Moderate (shared container handling) | Low (exclusive use) |
+Spouses share one set of benefits: the family gets the rights of the spouse with the broader entitlement, spouses who received status at different times are together entitled to 3 shipments only, and capped items one spouse already brought count against the other.
 
 ## Broker (Amil Meches) vs Self-Clear
 
-A licensed customs broker (amil meches mursheh) prepares the declaration, coordinates with Meches at the port, and handles any over-limit duty payments. Cost is usually a few hundred to a couple thousand shekels per shipment.
-
-Self-clearing is permitted for olim but requires showing up at the port (Haifa, Ashdod, or BG air cargo), presenting the teudat oleh, inventory list, bills of lading, and insurance valuations, and answering questions in Hebrew or English.
+Goods are released by the entitled person or by a customs agent holding a power of attorney.
 
 Use a broker when:
-- Shipment contains any over-limit items that will need duty paid
-- User does not speak Hebrew comfortably
-- Shipment is a 40-foot container or larger
-- User cannot be present at the port on the arrival day
+- The shipment contains over-limit items that will pay import taxes
+- The user is not comfortable dealing with customs in Hebrew
+- The shipment is a full container or larger
+- The user cannot be present at release
 
 Self-clear when:
-- Shipment is small, fully exempt, no over-limit items
-- User speaks Hebrew and can be at the port
-- Freight forwarder offers self-clearance assistance
+- The shipment is small and fully within the caps
+- The user can deal with customs directly and be present
+
+Broker fees vary; get a written quote.
 
 ## Common Mistakes
 
-- Packing a fourth TV "for the kids' bedroom" and not realizing it triggers duty + VAT + purchase tax.
-- Booking two separate 40-foot containers on consecutive sailings and losing the shipment 3 slot.
-- Importing a new refrigerator you plan to resell when you upgrade in 2 years - the 6-year retention rule means you owe retroactive duty.
-- Shipping on day 1,050 and arriving day 1,100 - outside the window, full rates apply.
+- Packing a fourth TV "for the kids' bedroom" without realising it pays import taxes.
+- Booking two containers on different sailings and losing a shipment slot.
+- Mailing a household-items package early and burning a whole shipment on it.
+- Forgetting that household goods carried on the aliyah flight are free and do not use a slot.
+- A shipment arriving after the window closed.
 - Treating the car as one of the 3 shipments. Cars are a separate track.
-- Toshav Chozer using the full plan. Returning residents get limited benefits only.
+- Running the oleh plan for a Toshav Chozer (2 shipments, 9 months).
