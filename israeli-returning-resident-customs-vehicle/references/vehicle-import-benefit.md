@@ -1,99 +1,95 @@
 # Vehicle Import Benefit for Returning Residents
 
-Last researched: 2026-05-23. Primary sources: gov.il customs guide (updated 18.05.2026), kolzchut personal vehicle import for returnees (updated 10.12.2025), bshcpa CPA breakdown.
+Last researched: 2026-10-29. Primary sources: ITA personal vehicle import guide (updated 15.01.2026), Misrad HaTachbura personal-import page (updated 22.09.2026) and its procedure 02/12, the Customs Book chapter 87 rules (read 29.10.2026), Kol-Zchut personal vehicle import for returnees.
 
 ## TL;DR
 
-A returning resident gets ONE vehicle-import benefit: an **extended age window** (48 months from manufacture vs. 24 months for a regular Israeli resident). There is **no purchase-tax / VAT / customs-duty exemption**. The returnee pays full Israeli tax on the vehicle at clearance.
+A returning resident gets ONE vehicle-import benefit: an **extended age window** (48 months from manufacture vs. 24 months for a regular Israeli resident), **measured at registration in Israel**. There is **no purchase-tax / VAT / customs-duty exemption**. The returnee pays full Israeli tax on the vehicle at clearance.
 
-## Eligibility
+## Eligibility (ITA guide, chapter 2)
 
-- Returning resident: Israeli, abroad **2 years or more**, returning permanently.
-- Returning student: Israeli, abroad **18+ months**, full-time 2 academic years at a recognized institution OR earned a degree, returning within 6 months of finishing studies.
-- Must hold a valid Israeli driver's license for the vehicle category.
-- Age 17+ on entry day.
+"תושבים חוזרים ששהו בחוץ לארץ שנתיים או יותר, או סטודנטים חוזרים ששהו בחוץ לארץ לפחות 18 חודשים, רשאים לייבא רכב בכפוף לכל התנאים הבאים":
 
-## The age window
+- the vehicle is approved for import by Misrad HaTachbura;
+- a valid Israeli driving licence for the vehicle category;
+- "טרם חלפו 48 חודשים ממועד ייצור הרכב";
+- "הרכב יובא לישראל בתוך 9 חודשים מיום הכניסה לישראל";
+- the importer is 17+ on the entry day.
 
-| Eligibility | Vehicle age cap from manufacture |
+Procedure 02/12 adds:
+- s.3: one vehicle under returnee rights, within 9 months "ממועד קבלת זכויות תושב חוזר לרכב". Plan by the entry date (ITA wording), the earlier anchor.
+- s.12: a returnee may apply with a foreign licence, but must show a valid Israeli licence at release from customs.
+- The import licence is required before the car is shipped ("יבוא הרכב חייב ברישיון יבוא טרם השטתו ארצה"). ITA: a licence obtained after arrival is an offence that may carry a ransom payment.
+
+The ITA guide also limits regular residents to one personally-imported vehicle per 12 months (02/12 s.3: per calendar year).
+
+## The age window is measured at registration
+
+| Eligibility | Max age from manufacture, at Israeli registration |
 |---|---|
 | Regular Israeli resident, personal import | 24 months |
 | Returning resident or returning student | **48 months** |
 
-Source quote: "טרם חלפו 48 חודשים ממועד ייצור הרכב" ([kolzchut](https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים)).
+Procedure 02/12 s.9: "תקנה 282 לתקנות התעבורה, התשכ"א-1961 קובעת כי גיל הרכב לא יעלה על 24 חודשים בעת רישומו בארץ או 48 חודשים באם מדובר בתושב חוזר." Misrad HaTachbura page: "ניתן לייבא רכב אם טרם חלפו 24 חודשים ממועד ייצורו ועד למועד רישומו בארץ (48 חודשים לתושב חוזר)".
 
-Vehicle must also be a make/model approved by Misrad HaTachbura and from the current model year or one of the 4 previous model years.
+Application cutoffs (02/12 s.9): no application if fewer than 45 days remain to the last registration date; no approval if fewer than 7 working days remain. The manufacture date is taken from COC field 0.11, or the manufacturer DATA CARD or another official document.
 
-## The 9-month window
+## Technical bars (Misrad HaTachbura page and procedure 02/12)
 
-The vehicle must be imported within 9 months from date of physical entry to Israel. Same window as household goods. NOT extendable.
+| Rule | Source |
+|---|---|
+| US federal or Canadian standards accepted, even if built outside the NAFTA countries; the model must be approved for sale in the US or Canada | MoT page "דרישות תקינה"; 02/12 s.15 |
+| ESP / stability control, verified from the spec and the dashboard lamp; for US/Canada cars also a metric speedometer | MoT page; 02/12 s.7.2.3 |
+| US/Canada car: emissions-data letter from the Israeli importer, manufacturer or authorized dealer, otherwise the highest pollution grade is assigned | 02/12 s.16 |
+| Not declared SALVAGE or TOTAL LOSS abroad; no accident reported to the authorities | MoT page; 02/12 s.18-19 |
+| No structural change after manufacture (dimensions, weights, tyres, drive type, axles, engine model, displacement, power) | MoT page; 02/12 s.13 |
+| Fuel: petrol, diesel, petrol/diesel hybrid, or electric only | 02/12 s.14 |
+| Right-hand drive: a car built after 1960 with right-hand steering may not be imported | MoT procedure 004/13 |
+| The importer pays the seller and the taxes personally, not via a third party | MoT page, Car Services Licensing Law s.34 |
+| A make with no authorized Israeli importer needs manufacturer / main-agent and garage undertakings and a lawyer-verified affidavit; EVs and hybrids exempt | 02/12 s.10, s.11, s.14ב, s.17.1 |
+| Every application carries an affidavit signed before a lawyer; a car needing a lab test needs a lawyer-signed re-export undertaking | 02/12 s.21, s.7.3.1 |
+| Ownership transfer restricted for 12 months from Israeli registration | 02/12 s.20; MoT page |
 
-## No purchase-tax exemption (the critical clarification)
+There is no EURO 6d / EU-certification requirement for a US-spec car.
 
-Two independent sources confirm: returnees pay full purchase tax + VAT + customs duty on a personally-imported vehicle.
+## 2026 taxes
 
-- bshcpa: "אין פטור ממכס. ההטבה מוגבלת לחלון גיל הרכב המורחב בלבד."
-- kolzchut: lists the benefit as a vehicle-age window, makes no claim of tax exemption. Mentions a downstream refund mechanism ("קבל החזר על הפרש המסים בהתאם לרמת האבזור") for equipment-level differences post-registration, but that is not a basket-level exemption.
-- gov.il customs guide: chapter "יבוא רכב עם מנוע" refers the returnee to the general personal-import vehicle guide without granting any tax-exemption basket.
+Customs Book chapter 87 rules (read 29.10.2026):
+- Purchase tax, group א (passenger car up to 3,500 kg): **83%**. Hybrids and plug-in hybrids are in this group and get the green-tax adjustment.
+- Group ה'2 (EV, items 87.02.409000, 87.03.809000, 87.05.908000): **48%**.
+- Rule 4ב (no effective date is printed with the 48% in the Customs Book; press reports date it to 1.1.2026): the EV tax may not be lower than the regular method (group א, less the rule 5(ג) safety and rule 6 green reductions) minus **22,000 NIS**, and not higher than the regular method.
+- Rule 6, green tax by green score: reduction of 14,523 NIS (score 0-130), 12,899 (131-150), 10,624 (151-170), 8,675 (171-175), 7,048 (176-180), 5,750 (181-185), 4,449 (186-190), 3,474 (191-195), 2,179 (196-200), 1,525 (201-205), 227 (206-210); surcharge of 750 (211-220), 2,375 (221-250), 3,349 (251-300), 6,043 (301-350), 8,690 (351 and above).
+- Rule 4א: a luxury surcharge above a 300,000 NIS consumer price.
 
-## Equipment-level refund (downstream)
+ITA guide chapter 3: value = declared value (based among other things on the bill-of-sale price) plus freight and insurance if the assessor finds it reasonable and genuine, otherwise the price list less use depreciation, so NOT today's resale price; exchange rate on payment day; the importer may respond in writing within 30 days and appeal within 30 days. Headline totals (purchase tax + customs if any + VAT): passenger car ~116% (agreement country) / ~131% (other); EV ~75% / ~87%. Agreement conditions: made in an agreement country, and imported directly from it or from another party to the same agreement. Safety-equipment reductions from 1.1.2026: 250 to 2,400 NIS by equipment level, refunded after registration at the releasing customs house with the vehicle licence.
 
-After clearance and Misrad HaRishui registration, the returnee may approach Meches with documentation of the actual equipment level to claim a partial refund of the over-collected purchase tax. Source: kolzchut. This is non-trivial; refer the user to a customs broker.
+VAT **18%** from 1.1.2025.
 
-## 12-month ownership-transfer restriction
+The headline figures follow arithmetically: 1.83 x 1.18 = 2.16 (116%); 1.07 x 1.83 x 1.18 = 2.31 (131%); 1.48 x 1.18 = 1.75 (75%); 1.07 x 1.48 x 1.18 = 1.87 (87%). The script uses 7% duty for non-agreement origin on that basis; the ITA guide does not print the duty rate itself.
 
-Misrad HaTachbura imposes a hard 12-month bealut-transfer restriction on every vehicle cleared through personal import. Exact text from [gov.il, יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles): "מגבלת העברת בעלות... יש לדעת כי על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים". The restriction applies to all personal imports, not just returnees.
+**EV cap in practice** (using the Customs Book green table; the ITA guide additionally prints a 19,498 NIS row for EV items, which would move the threshold to about 118,600 NIS): the 48% rate stops applying once 0.35 x value exceeds about 36,500 NIS (14,523 green reduction plus 22,000), i.e. a customs value above roughly 104,000 NIS. Above that the EV pays the regular method minus 36,523 NIS, so a 159,000 NIS EV pays about 89% of CIF, not 75%.
 
-A separate procedure ("נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") allows applying to remove the restriction earlier in justified cases.
+**1.1.2027:** as of 29.10.2026 no new rate or green-tax formula is enacted. Press reports (unverified) mention an extension of the EV benefit past January 2027 and a revised green-tax formula. Re-check if clearance falls in 2027.
 
-The Meches side (purchase-tax / customs side) does NOT publish a separate hold period for returnee vehicles in addition to the Misrad HaTachbura 12 months, but anti-abuse provisions can apply if a returnee flips a vehicle right after clearance. Plan to keep the vehicle at least 12 months.
+## Documents at clearance (ITA guide)
 
-## Per-family vehicle quota (operational rule)
-
-The published Meches and kolzchut pages do not state a hard per-family vehicle cap. Operationally, customs broker practice treats the returnee benefit as one personally-imported vehicle per eligible returnee , meaning a couple where both spouses qualify can in principle import two vehicles in the 9-month window. Verify with the local Meches office before ordering a second vehicle.
-
-## Process
-
-1. Get Misrad HaTachbura approval for the make/model (type approval, ESC verification, emissions).
-2. Ship the vehicle. CIF documents arrive at port.
-3. Customs broker (סוכן מכס) handles clearance, computes tax, files the personal-import declaration.
-4. Pay tax + clear.
-5. Register at Misrad HaRishui.
-6. Optional: claim equipment-level refund at Meches with documentation.
+Form 21 importer declaration, original bill of sale, original vehicle licence with export-country customs verification (US: TITLE plus a copy of its back; Europe: BRIEF + COC + test), import licence, valid driving licence, Bill of Lading, freight and insurance invoice, cargo invoice, photo of the production label and CARFAX (US), DATA CARD (Europe), broker authorization, foreign-currency transfers abroad, Form 139 with proof of purchase. Release offices: Ashdod, Haifa, Tel Aviv, or a customs broker.
 
 ## Ship-vs-sell economic guidance
 
-Use `scripts/vehicle-decision.py` to populate a worksheet. The math almost always favors "sell abroad, buy locally" because:
-
-- The Israeli combined tax (customs + purchase tax + VAT, with VAT at 18% from 2025-01-01) lands at roughly **116% of CIF** for passenger cars from FTA-origin (USA, EU, UK, Canada, Korea, etc.) and **131% of CIF** for non-FTA origin (gov.il personal_import_of_vehicles_guide, chapter "חישוב המסים", updated 15.01.2026). EVs ~75-87%; collector cars ~103-117%; hybrids depend on green-tax pollution grade.
-- Shipping adds $2k-$5k typical for one vehicle from North America or Europe to Israel.
-- Insurance during transit, port handling, broker fees add another $500-$1,500.
-- Total landed cost frequently exceeds the local Israeli list price by $5k-$15k for a comparable vehicle, NOT $5k-$10k , most returnees underestimate the tax stack.
-
-Shipping makes sense when:
-
-- The vehicle is paid off, well-maintained, and the user is staying in Israel for many years.
-- The model is rare or unavailable in Israel (specific trims, special edition).
-- The user is bringing a high-spec North-American or European model where the Israeli equivalent is meaningfully more expensive.
-- The 48-month window unlocks a 36-48-month-old car the user wants to keep, which the regular 24-month window would block.
-
-Shipping rarely makes sense when:
-
-- The vehicle is under 24 months old (the regular personal-import window already covers it; the 48-month benefit adds no value).
-- The local Israeli market has the same or similar model at a reasonable price.
-- The user is on a short stay (under 5 years) and would resell at depreciated value with no tax break.
+Use `scripts/vehicle-decision.py`. Shipping rarely pays because the returnee pays full tax. It can make sense when the car is paid off and the user is attached to it, the model is rare or unavailable in Israel, or the local equivalent is meaningfully more expensive. It rarely makes sense when the car is under 24 months at registration (the returnee benefit adds nothing), or when it will be close to 48 months at registration (one delay and it cannot be registered).
 
 ## Open questions and verify-at-answer-time
 
-- Exact green-tax adjustment for the specific make/model (gov.il personal_import_of_vehicles_guide chapter 3 publishes a table by pollution grade, ranging from a reduction for the cleanest grades to a surcharge for the most-polluting). Verify with a customs broker.
-- The 12-month bealut-transfer restriction is published by Misrad HaTachbura but may have specific exception cases (נוהל הסרת הגבלת העברת בעלות procedure). Verify with broker if the returnee needs to transfer the vehicle inside 12 months.
-- Whether the operational "one vehicle per returnee" practice has been codified anywhere or remains broker custom.
+- The car's green score: set by Misrad HaTachbura on the import licence.
+- Whether both spouses can each use a returnee vehicle entitlement: 02/12 s.3 grants one vehicle per returnee; confirm per spouse with Meches.
+- 2027 rates, see above.
+- Procedure 02/12 s.14ב says sections 11 and 26 do not apply to an EV or hybrid; s.26 is the Takana 309 inspection section. Confirm with Misrad HaTachbura (*4515) whether an EV or hybrid still needs the licensing-institute inspection before telling a user it is skipped.
 
 ## Citations
 
-- [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), section "יבוא רכב עם מנוע", updated 18.05.2026.
-- [gov.il personal vehicle import guide (Rashut HaMisim)](https://www.gov.il/he/pages/personal_import_of_vehicles_guide), chapters 2 (eligibility, 48-month window) and 3 (tax calculation: 116% / 131% / 75-87% combined-rate table), updated 15.01.2026.
-- [gov.il, יבוא אישי של כלי רכב (Misrad HaTachbura)](https://www.gov.il/he/pages/personal_import_of_vehicles), section "מגבלת העברת בעלות" , 12-month bealut-transfer restriction on personally-imported vehicles.
-- [kolzchut - personal vehicle import for returning residents and students](https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים), updated 10.12.2025.
-- [bshcpa - Customs Rights for Returning Residents](https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/).
-- [Wikipedia, Taxation in Israel, "Value-added tax" section](https://en.wikipedia.org/wiki/Taxation_in_Israel): "From 1 January 2025 the standard rate was increased to 18% from 17%."
+- [ITA, personal vehicle import guide](https://www.gov.il/he/pages/personal_import_of_vehicles_guide), chapters 2-4, updated 15.01.2026.
+- [Misrad HaTachbura, יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles), updated 22.09.2026, with the attached procedure 02/12 (update 22, 16.2.2022) and the ownership-restriction removal procedure.
+- [Customs Book, chapter 87 rules](https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359).
+- [Kol-Zchut, personal vehicle import for returning residents and students](https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים).
+- [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), chapter "יבוא רכב עם מנוע" (refers to the vehicle guide), updated 30.07.2026.

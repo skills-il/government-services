@@ -12,7 +12,7 @@ description: >-
   (השתמשו ב-israeli-returning-resident-navigator), לחישוב מס לפי סעיף 14 או טופס 1348
   (השתמשו ב-israeli-toshav-chozer-vatik-tax-planner), למכס לעולה חדש בסל 3 המשלוחים
   (השתמשו ב-israeli-aliyah-customs-shipment-planner), לישראלים שעוזבים את הארץ
-  (השתמשו ב-israeli-relocation-abroad), או לייעוץ משפטי / מכסי מחייב (פנו לסוכן מכס מוסמך).
+  (השתמשו ב-israeli-relocation-abroad), או לייעוץ מכס מחייב או להגשה בפועל (פנו לסוכן מכס מוסמך).
 license: MIT
 ---
 
@@ -27,225 +27,241 @@ license: MIT
 
 ## הבעיה
 
-תושבים חוזרים מאבדים כסף בדרך הביתה. הם מפספסים את חלון 9 החודשים, מתבלבלים בין הסל של עולה חדש (3 משלוחים) לבין הסל של תושב חוזר (2 משלוחים), שולחים 4 טלוויזיות כשרק 3 פטורות, מוכרים רכב משולם בחו"ל מתוך הנחה שאין יתרון ביבוא אישי כתושב חוזר (יש, אבל חלקי), או דווקא משלמים על משלוח רכב בציפייה לפטור ממס קניה, פטור שלא קיים לתושבים חוזרים. סוכני AI מעמיקים את הבלבול כי החומר מערבב עולים ותושבים חוזרים. הכלי הזה מפיק טיוטת הצהרת מכס לכל משלוח, גיליון החלטה לרכב, וציר זמן עם החלונות, כדי שהמשתמש לא ילמד את הכללים מטעות שעולה כסף.
+תושבים חוזרים מאבדים כסף בדרך הביתה. הם מפספסים את חלון 9 החודשים, מתבלבלים בין הסל של עולה חדש (3 משלוחים) לבין הסל של תושב חוזר (2 משלוחים), שולחים 4 טלוויזיות כשרק 3 פטורות, שולחים רכב שיעבור את מגבלת הגיל עד שיגיע לרישום, או משלמים על משלוח רכב בציפייה לפטור ממס קנייה שלא קיים לתושבים חוזרים. סוכני AI מעמיקים את הבלבול, כי החומר ברשת מערבב עולים ותושבים חוזרים תחת אותה כותרת של "יבוא אישי". הכלי הזה בודק כל משלוח מתוכנן מול הסל, מפיק גיליון החלטה לרכב (לשלוח או למכור), ובונה ציר זמן של החלונות, כדי שהמשתמש לא ילמד את הכללים מטעות שעולה כסף.
 
 ## הוראות
 
-### Step 1: Confirm customs status before quoting any number
+### שלב 1: לוודא את המעמד במכס לפני שמצטטים מספר כלשהו
 
-Customs definitions are NOT the same as Misrad HaAliyah definitions. Ask:
+ההגדרות של המכס אינן ההגדרות של משרד העלייה והקליטה. שאלו:
 
-- **Returning resident (תושב חוזר) for customs**: Israeli resident, abroad **2 years or more**, returning permanently. Also covers second-time olim and entrants the Israel Tax Authority specifically classifies as returnees.
-- **Returning student (סטודנט חוזר)**: Israeli resident abroad **18+ months** who studied full-time **2 consecutive academic years** at a recognized institution, or earned a degree. Must return within **6 months of finishing studies / receiving the degree** or the student status lapses.
-- **There is no "vatik (10-year)" customs basket.** The 6-year and 10-year vatik thresholds live in income-tax world (Section 14). Meches only knows "returnee". If the user has been abroad 12 years, they get the same customs basket as a 2-year returnee. The tax-planner sister skill handles the 10-year math.
-- **Year-of-absence rule**: each year of absence counts even if the user visited Israel up to **4 cumulative months** in that year (gov.il chapter 9). Exceed 4 months in a single absence-year and that year does NOT count toward the 2-year (returnee) or 18-month (student) threshold. Surface this explicitly because returnees with regular Israel visits often misread the rule as "no visits allowed."
-- **Permanent-return entry vs. tourist visit**: many returnees fly in on a tourist visa first, leave, then return permanently months later. The 9-month customs clock anchors to the **permanent-return entry** (the trip where the user actually re-establishes Israeli residency), NOT to an earlier tourist visit. Ask which trip is the permanent move; that is D in the timeline.
-- **Non-Israeli spouse trap**: customs paperwork (Bill of Lading, Tofes 195 personal-import declaration, container manifest) must be in the **returnee's** name. Goods shipped in a non-Israeli spouse's name are NOT covered by the returnee basket and clear at full duty. Common case: dual-citizen family with the non-Israeli spouse's name on the moving company's contract. Tell the user to verify the BL is in the Israeli returnee's name BEFORE the container ships.
-- If the user has been abroad less than 2 years (or less than 18 months as a student), they are NOT a returnee for customs and the regular Israeli-resident personal-import rules apply. Stop and hand off.
+- **תושב חוזר לעניין המכס**: תושב ישראל ששהה בחוץ לארץ **שנתיים או יותר** וחוזר סופית. ההגדרה כוללת גם עולים בפעם שנייה, ונכנסים אחרים שרשות המסים קבעה לגביהם מעמד של תושב חוזר.
+- **סטודנט חוזר**: תושב ישראל ששהה בחוץ לארץ **לפחות 18 חודשים** ולמד כתלמיד מן המניין **שתי שנים אקדמיות רצופות** במוסד מוכר, או קיבל ממנו תואר. לא יוכר כסטודנט חוזר אם חזר **יותר מ-6 חודשים מסיום הלימודים**, או לאחר קבלת התואר.
+- **אין סל מכס של "תושב חוזר ותיק" (10 שנים).** רף 10 השנים שייך לעולם מס ההכנסה (סעיף 14). המכס מכיר רק "תושב חוזר". מי ששהה בחוץ לארץ 12 שנים מקבל אותו סל מכס כמו מי ששהה שנתיים. את חישובי 10 השנים עושה כלי תכנון המס המקביל.
+- **כלל שנת ההיעדרות**: שנת היעדרות (נספרת ממחרת יום היציאה) נחשבת גם אם ביקרתם בארץ עד **4 חודשים מצטברים** באותה שנה. ביקור של יותר מ-4 חודשים בשנת היעדרות אחת, והשנה הזו לא נספרת לרף השנתיים או 18 החודשים. תושבים חוזרים שמבקרים בארץ באופן קבוע מבינים זאת לפעמים בטעות כ"אסור לבקר".
+- **כניסה של חזרה סופית לעומת ביקור**: חלון 9 החודשים במכס נספר מ**הכניסה של החזרה הסופית**, ולא מביקור קודם. שאלו איזו נסיעה היא המעבר הקבוע; זהו יום D בציר הזמן.
+- **מלכודת בן הזוג שאינו ישראלי**: החפצים וכל מסמכי היבוא (שטר מטען, הצהרה, חשבוניות) חייבים להיות רשומים על שם **התושב החוזר**. משלוח על שם בן זוג שאינו ישראלי לא נכנס לסל של התושב החוזר. טעות נפוצה: משפחה עם אזרחות כפולה חותמת על חוזה ההובלה בשם בן הזוג הזר, ושטר המטען יורש את השם. בדקו את השם בשטר המטען **לפני** שהמכולה יוצאת.
+- שהייה של פחות משנתיים (או פחות מ-18 חודשים לסטודנט): לא תושב חוזר לעניין המכס, וחלים כללי היבוא האישי הרגילים לתושב ישראל. עצרו והפנו.
 
-The Misrad HaAliyah תעודת תושב חוזר is helpful but NOT required to open the customs file, the customs file is opened on a separate Meches form. If the user is still chasing the certificate, they can start the customs file in parallel.
+תעודת תושב חוזר ממשרד העלייה והקליטה עוזרת, אבל **אינה תנאי** לפתיחת תיק במכס, שנפתח בטופס נפרד של המכס. אפשר לפתוח את תיק המכס במקביל.
 
-### Step 2: The household-shipment basket (returnees, NOT olim)
+### שלב 2: סל משלוחי חפצי הבית (תושב חוזר, לא עולה)
 
-| Item | Returnee cap (per family) |
+| פריט | התקרה לתושב חוזר (למשפחה) |
 |---|---|
-| Number of shipments | **2 shipments** (NOT 3 like olim) |
-| Window to receive shipments | **9 months from date of physical entry** to Israel, NOT extendable |
-| TV sets | up to **3** total |
-| Personal computers | up to **3** total |
-| Other electrical / electronic appliances | **1 per type** (1 fridge, 1 dishwasher, 1 washer, 1 dryer, 1 oven, 1 microwave, etc.) |
-| Major furniture items | **1 per type** (1 sofa set, 1 dining set, etc.; "type" is interpreted liberally by clerks) |
-| Hold period | items must remain in returnee's personal use in Israel for at least **6 years**; selling, transferring, or destroying inside the window triggers tax payback + possible criminal probe |
-| Re-claim of same item type | only after returnee has spent **6 years in Israel** since the prior duty-free release of that item type |
-| Spousal anti-stacking | cannot re-claim what spouse already released duty-free unless 6 years passed AND user was not the spouse at time of prior release |
+| מספר משלוחים | **2 משלוחים** (לא 3 כמו לעולים) |
+| חלון לקבלת המשלוחים | **9 חודשים מיום החזרה** לארץ, לא ניתן להארכה |
+| מקלטי טלוויזיה | עד **3** בסך הכול |
+| מחשבים אישיים | עד **3** בסך הכול |
+| מכשירי חשמל ואלקטרוניקה אחרים | **פריט אחד מכל סוג** (מקרר, מדיח, מכונת כביסה, מייבש, תנור, מיקרוגל וכדומה) |
+| פריטי ריהוט עיקריים | **פריט אחד מכל סוג** |
+| מה נחשב חפצי בית | טובין מהסוג המשמש בדירת מגורים; לא ציוד להתקנת קבע (אינסטלציה, חומרי בנייה, ריצוף, טפטים, שיש) |
+| תקופת החזקה | החפצים חייבים להישאר לשימושכם העצמי בישראל לפחות **6 שנים**; מכירה, העברה או השמדה בתוך התקופה מחייבות תשלום המסים |
+| פטור נוסף לאותו סוג חפץ | רק לאחר **6 שנים בישראל** מיום השחרור הקודם בפטור של אותו סוג |
+| בני זוג | אין פטור על סוג חפץ שבן הזוג כבר שחרר בפטור, אלא אם חלפו 6 שנים וגם לא הייתם בני זוג במועד השחרור הראשון |
 
-A single household item brought on entry day as accompanying luggage (carry-on / checked baggage) does NOT count as one of the 2 shipments, it is duty-free at the airport but must be declared on the red channel.
+חפץ ביתי מהרשימה שמביאים כמטען נלווה ביום הכניסה **אינו נחשב** לאחד משני המשלוחים והוא פטור ממסים, אבל חייבים לעבור במסלול האדום ולהצהיר עליו.
 
-A mail package containing household goods DOES count as one of the 2 shipments. Clothing-only mail packages are exempt if they arrive within 30 days before entry, on the day of entry, or within 3 months after entry.
+חבילת דואר עם חפצי בית **נחשבת** לאחד משני המשלוחים. חבילת דואר שיש בה רק הלבשה והנעלה פטורה ואינה נחשבת למשלוח אם הגיעה עד 30 יום לפני הכניסה, ביום הכניסה, או תוך 3 חודשים מיום הכניסה.
 
-### Step 3: Accompanying-luggage allowance (separate from the 2 shipments)
+**כדאי לאחד משלוחים.** התקרה היא שני משלוחים, ולכן איחוד של שתי הובלות מתוכננות למשלוח אחד משאיר את המקום השני פנוי לחבילה מאוחרת. בררו מול חברת ההובלה ועמיל המכס איך המכס יספור את ההובלות לפני ההזמנה.
 
-On entry day, every entrant aged 2+ may bring duty-free:
+החפץ הביתי היחיד שאפשר כיום לרכוש בפטור אצל יצרן מורשה בישראל במקום לשלוח הוא **מזגן** (באתר gov.il נכתב שקיימים יצרנים מורשים למזגן בלבד).
 
-- Clothing, footwear, personal toiletries, customary travel quantities
-- Other items up to **$200 USD value per entrant** (not poolable across family members). Above $200 the user pays tax on the FULL value of the item, not just the excess.
-- Within the $200: mixed food up to 3 kg total, no single food type over 1 kg.
-- Entrants aged 18+: up to 1 liter spirit + 2 liters wine + 250 ml alcohol perfumes + 250 g tobacco / 200 cigarettes.
+### שלב 3: מטען נלווה, כלי עבודה ופריטים שדורשים אישור
 
-If the user has anything beyond the personal allowance, they must use the red channel ("מסלול אדום") and declare.
+ביום הכניסה כל נכנס מגיל שנתיים ומעלה רשאי להביא בפטור:
 
-**Pets** (dogs / cats): not a customs-benefit topic, but every returnee asks. Veterinary requirements (Belong shipping-importation guide):
-- Minimum age **4 months** on entry day.
-- **Rabies vaccination** administered **at most 12 months and at least 1 month** before entry to Israel.
-- **Rabies antibody titer ≥ 0.5 IU/ml** from a lab on the approved list, drawn after the vaccination.
-- Approved entry ports for pets: **Ben Gurion (BG), Haifa, Ashdod, Eilat**.
-- Restricted-breed lists and quarantine rules apply on top. Microchip + ISO-compliant chip number on all paperwork. Veterinary import permit issued by Misrad HaChaklaut (03-9485461). Plan the titer 90+ days before flight.
+- הלבשה, הנעלה וצורכי טואלט אישיים, בכמויות שנהוג להביא בנסיעה.
+- חפצים אחרים לשימוש עצמי או כמתנה, בשווי של עד **200$** לנכנס. אי אפשר לצרף זכויות של כמה בני משפחה, ומעל 200$ משלמים מס על **מלוא** ערך החפץ ולא רק על ההפרש. בתוך 200$ אפשר להביא מזון מעורב עד 3 ק"ג, וכל סוג מזון עד 1 ק"ג.
+- מגיל 18: עד ליטר משקה חריף, 2 ליטר יין, 250 מ"ל תמרוקים כוהליים, ו-250 גרם טבק או 200 סיגריות.
 
-### Step 4: Vehicle import, the math that surprises most returnees
+הפטור חל רק על חפצים שמגיעים איתכם באותו כלי הסעה (הטיסה). כל דבר מעבר לכך מחייב מעבר במסלול האדום. יש פריטים שאסור לייבא בכלל; הפנו את המשתמש לפרק "פריטים שייבואם אסור" ב-gov.il לפני האריזה.
 
-Returnees do NOT get a purchase-tax / VAT / customs-duty exemption on a personally-imported vehicle. The ONLY benefit is an extended age window:
+**כלי עבודה וציוד לעסק** מופיעים בפרקים נפרדים, מחוץ לסל חפצי הבית:
+- **כלי עבודה מהסוג הנישא ביד** (פרט 84.67 בתעריף המכס) לצרכים המקצועיים שלכם, בשווי כולל של עד **1,650$**, בפטור.
+- **מכונות וציוד להקמת עסק** של התושב החוזר (תעשייה, מלאכה, חקלאות), בשווי של עד **36,000$ פו"ב** (כולל 1,650$ של כלי העבודה), באישור מנהל רשות המסים ובהפקדת ערבות בנקאית בגובה המסים. הפנו לעמיל מכס.
 
-| Eligibility | Vehicle age cap from manufacture date |
+**פריטים שדורשים אישור מהרשות המוסמכת** צריכים אישור כזה בנוסף לכל פטור. **רישיון יבוא** חייבים לקבל **לפני** שהפריט מגיע לארץ; **אישור יבוא** אפשר לקבל גם אחרי ההגעה, אבל הפריט לא ישוחרר עד שיוצג. מקרים נפוצים (לפי הרשימה ב-gov.il): רחפנים ומוצרי תקשורת (משרד התקשורת, 03-5198282), צמחים וזרעים (משרד החקלאות, הגנת הצומח, 03-9681587), חיות מחמד (משרד החקלאות, השירותים הווטרינריים, 03-9485461), נשק וחלקי נשק (המשרד לביטחון פנים, 077-2324444), קסדות, מושבי בטיחות לתינוקות, חלקי חילוף לרכב, קורקינטים ממונעים ואופניים חשמליים (משרד התחבורה, \*5678), מסמני לייזר ומדי לייזר (משרד הכלכלה, \*6680). הנחו את המשתמש לבדוק את הפריט במחשבון ליבוא אישי ב-gov.il **לפני** המשלוח. דרישות הכניסה לחיות מחמד נמצאות ב-`references/household-shipment-rules.md`.
+
+### שלב 4: יבוא רכב, החשבון שמפתיע את רוב התושבים החוזרים
+
+תושב חוזר **אינו** מקבל פטור ממס קנייה, ממע"מ או ממכס על רכב ביבוא אישי. ההטבה **היחידה** היא חלון גיל רחב יותר:
+
+| זכאות | גיל מרבי ממועד הייצור, **במועד הרישום בישראל** |
 |---|---|
-| Regular Israeli resident, personal import | **24 months** |
-| Returning resident or returning student | **48 months** |
+| תושב ישראל רגיל, יבוא אישי | **24 חודשים** |
+| תושב חוזר או סטודנט חוזר | **48 חודשים** |
 
-Other conditions: vehicle must be a make/model approved by Misrad HaTachbura, current model year or one of the 4 previous model years, driver must hold a valid Israeli license for that vehicle category, age 17+ on entry day. The vehicle must be imported within **9 months from permanent-return entry**.
+**הגיל נמדד במועד הרישום בישראל, ולא במועד הקנייה, המשלוח או השחרור מהמכס** (תקנה 282, כפי שהיא מצוטטת בהוראת נוהל 02/12 של משרד התחבורה). משלוח, שחרור, בדיקה ורישום לוקחים זמן, ומשרד התחבורה אינו מקבל בקשה לרישיון יבוא כשנותרו פחות מ-**45 ימים** עד המועד האחרון שבו אפשר לרשום את הרכב, ואינו מאשר בקשה כשנותרו פחות מ-**7 ימי עבודה**. רכב בן 46 חודשים ביום שהוא מפליג כמעט בוודאות אבוד. ספרו אחורה מתאריך 48 החודשים, ולא קדימה מהיום.
 
-**Vehicle class and weight (gov.il personal_import_of_vehicles_guide, chapter 2):** "רכב" is defined as a passenger motor vehicle up to **3,500 kg** (M1 or M2 class) OR a motorcycle for personal use. Heavier vehicles (M3 buses, N1/N2/N3 trucks above 3,500 kg) are NOT covered by the personal-import track.
+תנאים נוספים (מדריך רשות המסים, פרק 2): הרכב אושר לייבוא על ידי משרד התחבורה, ליבואן רישיון נהיגה ישראלי בתוקף לסוג הרכב, הוא בן 17 לפחות ביום הכניסה, והרכב יובא **תוך 9 חודשים מיום הכניסה**. תושב חוזר רשאי **להגיש** בקשה עם רישיון נהיגה זר, אבל בשחרור הרכב מהמכס חייב להציג רישיון ישראלי בתוקף (נוהל 02/12, סעיף 12). הנוהל מנסח את 9 החודשים מ"מועד קבלת זכויות תושב חוזר"; תכננו לפי מועד הכניסה, שהוא העוגן המוקדם והבטוח יותר. את רישיון היבוא חייבים לקבל **לפני** שהרכב נשלח; קבלת רישיון אחרי שהרכב הגיע היא עבירה שעליה עלול להידרש כופר.
 
-**Type-approval document requirements at clearance:** every personally-imported vehicle must arrive with paperwork that Misrad HaTachbura standards can use to issue Israeli type approval. The accepted forms vary by country of origin:
-- **EU origin**: an EU Certificate of Conformity (COC) issued by the manufacturer.
-- **US / Canada origin**: FMVSS compliance documentation (manufacturer label / sticker on the door jamb) plus a CARFAX or equivalent title-history report, AND the speedometer must read in kilometers (or be replaced before clearance). **FMVSS+CARFAX alone is NOT proof of EURO 6d compliance** (see below); brokers verify the engine variant separately with the OEM.
-- **Japan / South Korea / UK / other**: case-by-case; the importer must request type approval from Misrad HaTachbura standards before shipping.
+**רכב אחד בזכויות תושב חוזר.** נוהל 02/12, סעיף 3: תושב חוזר רשאי לייבא רכב **אחד** בזכויות תושב חוזר. מדריך רשות המסים מגביל גם תושבים רגילים לרכב אחד ביבוא אישי בכל 12 חודשים (בנוהל 02/12 הניסוח הוא רכב אחד בשנה קלנדרית). זוג ששני בני הזוג בו זכאים כל אחד בנפרד צריך לוודא את הזכאות של כל אחד מול המכס ומשרד התחבורה לפני שמזמינים רכב שני.
 
-**Hard-rejection rules (the shipment-killers):**
+**סוג הרכב ומשקלו:** לעניין יבוא אישי, "רכב" הוא רכב נוסעים מנועי שמשקלו עד **3,500 ק"ג**, או אופנוע לשימוש עצמי (מדריך רשות המסים).
 
-- **Right-hand-drive (RHD) vehicles are NOT permitted** in Israeli personal import. UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus, Malta ship RHD by default. Returnees from London or Tokyo learn this at port, hard reject, not fixable.
-- **US and Canadian federal standards are explicitly accepted.** gov.il states a vehicle built to US federal or Canadian standards may be imported, "גם אם יוצר מחוץ למדינות נפט''א". Do NOT tell a returnee that a US-spec car is rejected for lacking EURO 6d certification. Confirm the specific vehicle with the importer/broker and Misrad HaTachbura, since model-level type approval still applies.
-- **ESP / electronic stability control** is mandatory. gov.il says to verify it from the vehicle's technical specification AND the dashboard indicator lamp; it does not cite a "תקן 124", and no such standard reference appears in the official requirements. EU-market cars since 2014 and US-market cars since 2012 typically have it; classic / collector / pre-2012 imports often don't.
-- **LPG / CNG / methane-fueled vehicles** cannot be personally imported. Common European LPG conversions (Italy, Netherlands, Poland) are disqualifying.
+**המסמכים בשחרור (מדריך רשות המסים):** טופס 21 (הצהרת יבואן רכב ביבוא אישי), חשבון מכר מקורי, רישיון רכב מקורי עם אימות המכס במדינת היצוא, רישיון יבוא, רישיון נהיגה בתוקף, שטר מטען, חשבון הובלה וביטוח, טופס 139 עם אסמכתאות לרכישה, והעברות המט"ח לחו"ל. לפי מדינת המוצא:
+- **ארה"ב**: ה-TITLE וצילום של גבו, צילום תווית הייצור, ודוח CARFAX.
+- **אירופה**: מסמך הרישום (BRIF), COC וטסט, ו-DATA CARD מהיצרן.
 
-Confirm exact paperwork against the Misrad HaTachbura standards unit (\*4515) for the specific make/model AND country of origin before booking freight.
+**רכב בתקינה אמריקאית או קנדית מותר ביבוא.** משרד התחבורה כותב במפורש שניתן לייבא רכב שיוצר בתקינה פדרלית של ארה"ב או בתקינה קנדית, גם אם יוצר מחוץ למדינות נפט"א. **אל** תגידו לתושב חוזר שרכב אמריקאי צריך הסמכה אירופית או EURO 6d; כלל כזה לא קיים. מה שרכב מצפון אמריקה **כן** צריך (נוהל 02/12, סעיפים 7.2, 15, 16):
+- הדגם מאושר לשיווק בארה"ב או בקנדה;
+- מערכת בקרת יציבות (ESP) ו**מד מהירות מטרי**;
+- אישור על נתוני פליטת המזהמים מהיבואן הרשמי של המותג בישראל, מיצרן הרכב או מדילר מורשה. **בלי האישור הזה משרד התחבורה קובע לרכב את דרגת הזיהום הגבוהה ביותר**, וההפחתה של המיסוי הירוק הופכת לתוספת (ראו פסקת המסים בהמשך).
 
-**The vehicle 9-month window is a SEPARATE clock** from the household 9-month window. Vehicles run under מס קניה / Misrad HaTachbura takanot; household goods run under customs takanot. Treat them independently.
+**כללי פסילה (מה שהורג משלוח):**
 
-**Per-family vehicle quota (operational)**: gov.il and kolzchut do not publish a hard cap, but customs broker practice treats the returnee benefit as one personally-imported vehicle per eligible returnee. A couple where both spouses qualify can in principle import two vehicles in the 9-month window.
+- **הגה בצד ימין.** הוראת נוהל של משרד התחבורה קובעת שחל איסור לייבא רכב שיוצר לאחר שנת 1960 וההגה שלו בצד ימין. ברכבים מבריטניה, יפן, אוסטרליה, דרום אפריקה, הודו, סינגפור, הונג קונג, קפריסין ומלטה ההגה בצד ימין כברירת מחדל. תושב חוזר מלונדון או מטוקיו ששולח רכב כזה מגלה בנמל שאי אפשר לרשום אותו.
+- **רכב שהוכרז SALVAGE או TOTAL LOSS, או שעבר תאונה שדווחה.** רכב שהוכרז בחו"ל SALVAGE או TOTAL LOSS אינו מותר ביבוא, והנוהל דורש שהרכב לא עבר תאונה שדווחה לרשויות. בדקו את דוח ה-CARFAX לפני הקנייה או המשלוח.
+- **שינויי מבנה.** אסור כל שינוי אחרי הייצור במידות, במשקלים, במידות הצמיגים, בסוג ההנעה, במספר הסרנים, בדגם המנוע, בנפח המנוע או בהספקו.
+- **דלק.** רק בנזין, סולר, היברידי (בנזין או סולר עם חשמל) או חשמלי. הסבה לגפ"מ או לגז טבעי פוסלת.
+- **מערכת בקרת יציבות (ESP)** חייבת להיות מותקנת, ובודקים זאת לפי המפרט הטכני ונורית החיווי בלוח המחוונים. ברכבים ישנים או קלאסיים הוא חסר לא פעם.
+- **תשלום.** היבואן חייב לשלם לספק בחו"ל בעצמו, ולא דרך צד שלישי, ולשלם את המסים בעצמו (סעיף 34 לחוק רישוי שירותים ומקצועות בענף הרכב).
+- **תוצר שאין לו יבואן רשמי בישראל.** נוהל 02/12, סעיף 10, מצפה שליצרן יהיה חוזה בתוקף עם יבואן מורשה בארץ. אחרת (סעיף 11) צריך לצרף התחייבות של היצרן או של סוכן ראשי לספק שירותי תחזוקה, אחריות, תיקון ריקולים וחלפים, התחייבות של מוסך מורשה, ותצהיר מאומת בידי עורך דין; סעיף 17.1 מוסיף אישור שירות ממוסך מורשה. סעיף 14ב פוטר רכב חשמלי והיברידי מסעיף 11 (וגם מסעיף 26, סעיף הבדיקה לפי תקנה 309). תוצר אמריקאי שאין לו יבואן בישראל עלול להיתקע כאן, ולכן בודקים **לפני** הקנייה או המשלוח.
+- **תצהיר.** לכל בקשה מצורף תצהיר שנחתם בפני עורך דין (סעיף 21); רכב שצריך בדיקת מעבדה בארץ צריך גם הצהרה בחתימת עורך דין שיוחזר לחו"ל אם ייכשל (סעיף 7.3.1). מי שמגיש מחו"ל צריך לארגן עורך דין מראש.
 
-**12-month bealut-transfer restriction**: Misrad HaTachbura imposes a 12-month hold on every personally-imported vehicle, returnee or not. Source: gov.il "יבוא אישי של כלי רכב": "על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים". the bealut-removal application is the early-release procedure (on gov.il page "יבוא אישי של כלי רכב").
+אמתו את המסמכים מול מוקד יבוא אישי של משרד התחבורה (\*4515; מחו"ל 972-3-9695678+) לפני הזמנת ההובלה. הגשת בקשה לרישיון יבוא כרוכה באגרה, והטיפול בה נמשך עד 21 ימי עבודה.
 
-**Pre-registration inspection (מכון רישוי, per Takana 309).** After Meches clearance and BEFORE Misrad HaRishui will register the car, Takana 282 conditions registration of a personally-imported vehicle on inspection at a מכון רישוי licensed to test under Takana 309, and on a positive roadworthiness certificate. gov.il lists the approved institutes by region. The script's broker-fees default does not include this, budget separately.
+**חלון 9 החודשים לרכב הוא שעון נפרד** מחלון 9 החודשים של חפצי הבית. שניהם נספרים מיום D, אבל החמצה של אחד לא משפיעה על השני. התייחסו אליהם כשני מועדים עצמאיים בכל ציר זמן.
 
-**Compulsory insurance (ביטוח חובה) BEFORE leaving the port.** Carriers deliver unregistered. Driving the vehicle off the port without Israeli ביטוח חובה is a strict-liability offense under פקודת ביטוח רכב מנועי. Brokers typically arrange a one-day cover so the car can be moved to the inspection institute.
+**מגבלת העברת בעלות ל-12 חודשים**: על כל רכב ביבוא אישי, של תושב חוזר ושל כל אחד אחר, מוטלת מגבלת העברת בעלות ל-12 חודשים **מיום רישומו בישראל** (נוהל 02/12, סעיף 20). משרד התחבורה מפרסם נוהל נפרד ("נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") לבקשות להסרה מוקדמת. לא מדריך רשות המסים ולא נוהל משרד התחבורה קובעים לרכב של תושב חוזר תקופת החזקה ארוכה יותר (למשל 4 שנים); אל תייבאו לכאן כללים של הטבת רכב לעולים.
 
-After clearance and Misrad HaRishui registration, a tax refund based on equipment level can sometimes be claimed at Meches ("החזר על הפרש המסים בהתאם לרמת האבזור"). Refer the user to a customs broker.
+**רישום (מכון רישוי, לפי תקנה 309).** אחרי השחרור הרכב מקבל רישיון רכב זמני ל-48 שעות, שבמהלכן צריך לבצע לו רישום ורישוי (תקנה 282(א)(3)). הרכב צריך לעבור את בדיקות מחלקת התקינה, מבחן רישוי במכון רישוי שקיבל מינוי לרישום רכב ביבוא אישי, והתקנת מערכות בטיחות. רשימת המכונים מופיעה ב-gov.il. לפי סעיף 14ב לנוהל 02/12, סעיף 26 (סעיף הבדיקה לפי תקנה 309) אינו חל על רכב חשמלי או היברידי, ולכן מי שמייבא רכב כזה צריך לברר ב-\*4515 איזו בדיקה עדיין נדרשת לרכב שלו. תקצבו זאת בנפרד משכר הטרחה של העמיל.
 
-**The ship-vs-sell decision** almost always pencils to "sell abroad and buy locally" because the returnee pays full Israeli tax. Per gov.il personal_import_of_vehicles_guide chapter 3 (updated 15.01.2026), the combined customs + purchase tax + VAT (with VAT at 18% from 2025-01-01) lands at roughly 116% of CIF for passenger cars from FTA-origin, 131% for non-FTA, 75-87% for EVs, 103-117% for collector cars. Shipping makes sense when the model is rare in Israel or the user is bringing a high-spec North-American market vehicle. Run `scripts/vehicle-decision.py` for the worksheet.
+**המסים ב-2026.** המס מחושב לפי שער המטבע ביום התשלום, על ערך הרכב לעניין המכס. **ערך הרכב אינו מחיר המכירה שלו היום**: זה הערך המוצהר, המבוסס בין היתר על המחיר בחשבון המכר, בתוספת הובלה וביטוח, אם המעריך מקבל אותו כסביר ואמיתי; אחרת המעריך קובע אותו לפי מחירון הרכב בניכוי פחת שימוש, וליבואן יש 30 יום להשיב בכתב. ברכב שבבעלותכם כבר כמה שנים, שאלו את העמיל איזה ערך המעריך יקבל לפני שמריצים את הגיליון. הפרמטרים (ספר המכס, נכון ל-29.10.2026):
+- מס קנייה **83%** לרכב נוסעים עד 3,500 ק"ג, כולל היברידי ופלאג-אין; **48%** לרכב חשמלי.
+- מיסוי ירוק: סכום קבוע בשקלים שמופחת ממס הקנייה או מתווסף אליו לפי הציון הירוק, מהפחתה של **14,523 ש"ח** בדרגות הנקיות ביותר ועד תוספת של **8,690 ש"ח** למזהמים ביותר. מכיוון שזה סכום קבוע, רכב נקי וזול נהנה משיעור אפקטיבי נמוך בהרבה.
+- תקרה לרכב חשמלי: המס על רכב חשמלי לא יפחת ביותר מ-**22,000 ש"ח** מהמס לפי השיטה הרגילה. מעל ערך של כ-104,000 ש"ח הרכב החשמלי מתחיל לשלם יותר מהשיעור המוצג, והפער גדל עם הערך (כ-89% מהערך ב-159,000 ש"ח). מדריך רשות המסים מציג הפחתה ירוקה גדולה יותר לרכב חשמלי (19,498 ש"ח) שאינה מופיעה בטבלה של ספר המכס; אם היא חלה, הסף גבוה יותר, ולכן אמתו מול עמיל.
+- מכס: אין, לרכב שיוצר במדינה שיש לה הסכם סחר חופשי עם ישראל ויובא ישירות ממנה או ממדינה אחרת שהיא צד לאותו הסכם; אחרת חל מכס.
+- מע"מ **18%** על הערך בתוספת המכס ומס הקנייה.
 
-### Step 5: Open the customs entitlement file (תיק זכאות)
+הסכומים הכוללים שמציג מדריך רשות המסים (המס כשיעור מערך הרכב, לפני ההתאמה הירוקה): כ-**116%** לרכב נוסעים ממדינת הסכם, כ-**131%** ממדינה אחרת; כ-**75% / 87%** לרכב חשמלי. אחרי הרישום אפשר לקבל החזר לפי רמת אבזור הבטיחות (250 עד 2,400 ש"ח) בבית המכס שבו שוחרר הרכב, עם רישיון הרכב. **לגבי 1.1.2027 עדיין לא נקבע דבר** נכון ל-29.10.2026: בעיתונות דווח על הארכה אפשרית של הטבת הרכב החשמלי ועל נוסחת מיסוי ירוק חדשה. אמרו למשתמש שהשיעור הקובע הוא זה שבתוקף ביום התשלום, ושיבדוק שוב אם השחרור ייפול ב-2027.
 
-1. Online: file the form via [gov.il, בקשת זכאות לפטור לתושבים חוזרים](https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student). The system opens the file automatically. No physical visit needed in the happy path.
-2. If the auto-approval fails, visit a Meches office (find list at [gov.il customs guide](https://www.gov.il/he/pages/customs-guide-for-returning-residents), section "רשימת משרדי המכס") with:
-   - Israeli ID + passport (yours)
-   - Israeli ID + passport (spouse, if applicable)
-   - תעודת תושב חוזר from Misrad HaAliyah, if you have it
-3. Returning students: bring institutional certification (2 years full-time enrollment, or degree certificate).
-4. On entry the customs officer may require a bond / deposit equal to 6 months of the applicable taxes. The deposit is refunded if the entitlement file is approved within 9 months. Plan for short-term cash-flow impact.
+**ההחלטה אם לשלוח או למכור** מסתיימת בדרך כלל ב"למכור בחו"ל ולקנות בארץ", כי התושב החוזר משלם מס מלא. משלוח הגיוני כשהרכב משולם והמשתמש קשור אליו, כשהדגם נדיר בארץ, או כשהמקביל המקומי יקר משמעותית. הריצו את `scripts/vehicle-decision.py` לגיליון ההחלטה; הוא צריך את שער החליפין, ורצוי גם את הציון הירוק מרישיון היבוא.
 
-The returnee CAN start the file even before the תעודת תושב חוזר is issued; Meches has its own determination process. Sources of confusion: some Meches branches will ask for the certificate, others accept the online auto-approval. If a clerk demands the certificate, the returnee can either (a) wait for Misrad HaAliyah, or (b) escalate via the Rashut HaMisim national service centre *4954 (Sun-Thu 08:15-15:45; extension 1 covers customs). For Misrad HaTachbura vehicle-specific status (import permit, bealut-removal application), call \*4515. For Misrad HaAliyah certificate status, call \*2994.
+### שלב 5: פתיחת תיק זכאות במכס
 
-### Step 6: Currency on the body (anti-money-laundering)
+1. באינטרנט: ממלאים את טופס קביעת מעמד תושב חוזר ב-[gov.il, בקשת זכאות לפטור לתושבים חוזרים](https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student). המערכת פותחת את התיק אוטומטית, ובמקרה הרגיל אין צורך להגיע או לשלוח מסמכים.
+2. אם המערכת לא אישרה, מגיעים לבית המכס עם תעודת זהות ודרכון שלכם, תעודת זהות ודרכון של בן או בת הזוג, ותעודת תושב חוזר ממשרד העלייה והקליטה אם יש. עובד המכס בודק את הזכאות.
+3. סטודנטים חוזרים: אישור מהמוסד על שתי שנים אקדמיות כתלמיד מן המניין, או על קבלת התואר.
+4. **פיקדון**: תושב חוזר שמעמדו עדיין לא נקבע עשוי להידרש להפקיד ביום הכניסה פיקדון בגובה המסים החלים (כל-זכות). הפיקדון מוחזר כשהמעמד והזכאות מאושרים, ומשמש לתשלום המסים אם לא פונים לבית המכס תוך 9 החודשים או שהבקשה נדחית. כל-זכות מציין גם הוכחה לניהול משק בית עצמאי (בעלות בדירה או חוזה שכירות בתוקף) בין המסמכים למסלול הפרונטלי.
 
-Section 9 of the Anti-Money-Laundering Law requires declaration on entry / exit if total value exceeds:
+אם פקיד דורש את תעודת התושב החוזר, אפשר לחכות למשרד העלייה והקליטה או להתקשר ל**מוקד השירות הארצי של רשות המסים \*4954** (א'-ה' 08:15-15:45; שלוחה 1 כוללת מכס דואר חבילות). למצב בקשת רישיון יבוא לרכב: **\*4515** (משרד התחבורה).
 
-- **50,000 NIS** equivalent at air / sea borders
-- **12,000 NIS** equivalent at land borders
+### שלב 6: כספים שמביאים איתכם (איסור הלבנת הון)
 
-Family members traveling together cannot pool to skirt the cap, each entrant declares independently if they personally carry above the threshold. Joint family ownership above threshold must be declared even if each individual carries less. Failure to declare triggers seizure, potential fine, or criminal indictment with up to 6 months imprisonment.
+סעיף 9 לחוק איסור הלבנת הון מחייב דיווח בכניסה לישראל או ביציאה ממנה כששווי הכספים מעל:
 
-### Step 7: Build the timeline
+- בנמלי אוויר וים: **50,000 ש"ח**
+- במעבר גבול יבשתי: **12,000 ש"ח**
 
-Hand the user `references/customs-timeline.md` or compute it inline. Anchor everything to **D = date of permanent-return physical entry to Israel** (NOT a prior tourist visit, NOT date of certificate issue):
+נסיעה עם אדם אחר, גם בן משפחה, לא פוטרת מחובת הדיווח, וכספים בבעלות משותפת שמפוצלים בין נוסעים מתחת לסף עדיין חייבים בדיווח אם הסכום הכולל מעל הסף. כספים שלא דווחו עלולים להיתפס, ותיפתח חקירה פלילית שעשויה להסתיים בקנס או בכתב אישום עם עונש של עד 6 חודשי מאסר.
 
-- D + 0: arrival; declare on red channel anything over personal allowance; declare currency if applicable; pay any required bond.
-- D + 0 to D + 30: open online entitlement file at gov.il if not already done.
-- D + 0 to D + 9 months (household clock): first and second household shipments must arrive AND clear customs.
-- D + 0 to D + 9 months (separate vehicle clock under מס קניה / Misrad HaTachbura takanot): any personally-imported vehicle must arrive AND clear customs.
-- Vehicle clearance to clearance + 12 months: Misrad HaTachbura bealut-transfer restriction.
-- D + 0 to D + 6 years: household hold period, none of the duty-free items may be sold, transferred, or destroyed without paying back the tax + interest.
-- D + 6 years onward: re-claim window opens for items the returnee already released duty-free.
+### שלב 7: בניית ציר הזמן
 
-### Step 8: When to hand off
+תנו למשתמש את `references/customs-timeline.md` או חשבו את הציר בתשובה. העוגן לכל המועדים הוא **D = יום הכניסה של החזרה הסופית** (לא ביקור קודם, ולא מועד הנפקת התעודה):
 
-- Process / kupat cholim / Form 628 / driver's license → `israeli-returning-resident-navigator`.
-- Section 14 10-year tax exemption math / Form 1348 → `israeli-toshav-chozer-vatik-tax-planner`.
-- Oleh chadash 3-shipment basket / sal-klita customs link → `israeli-aliyah-customs-shipment-planner` (planned).
-- People still abroad planning to leave Israel → `israeli-relocation-abroad`.
-- Actual filing of the customs declaration, HS codes, equipment-level vehicle refund, dispute with a customs commissioner → licensed customs broker (סוכן מכס). This skill is a planning aid, not a substitute for a broker.
+- לפני D: לקבל רישיון יבוא לרכב **לפני** שהוא מפליג; לבדוק מתי הרכב מגיע ל-48 חודשים.
+- ביום D: מסלול אדום לכל מה שמעבר לפטור האישי; דיווח על כספים אם צריך; פיקדון אם נדרש.
+- בחודש הראשון (עד D + 30): לפתוח את תיק הזכאות באינטרנט, אם עוד לא נפתח.
+- עד 9 חודשים מיום D (שעון חפצי הבית): שני המשלוחים צריכים להגיע.
+- עד 9 חודשים מיום D (שעון הרכב): הרכב צריך להיות מיובא, **וגם** רשום לפני שהוא מגיע לגיל 48 חודשים.
+- מהרישום ועד 12 חודשים אחריו: מגבלת העברת בעלות על הרכב.
+- מהשחרור ועד 6 שנים אחריו: תקופת ההחזקה של חפצי הבית; אסור למכור, להעביר או להשמיד חפצים שנכנסו בפטור.
+- אחרי 6 שנים בישראל מיום השחרור: נפתחת אפשרות לפטור נוסף על אותם סוגי חפצים.
+
+### שלב 8: מתי להפנות
+
+- תהליך, קופת חולים, טופס 628, רישיון נהיגה → `israeli-returning-resident-navigator`.
+- חישוב הפטור של סעיף 14 ל-10 שנים, טופס 1348 → `israeli-toshav-chozer-vatik-tax-planner`.
+- סל 3 המשלוחים של עולה חדש → `israeli-aliyah-customs-shipment-planner`.
+- מי שמתכנן לעזוב את הארץ → `israeli-relocation-abroad`.
+- הגשה בפועל של ההצהרה, סיווג בתעריף המכס, החזר אבזור הבטיחות, מחלוקת מול המעריך → עמיל מכס (סוכן מכס) מורשה. הכלי הזה עוזר לתכנן, ואינו מחליף עמיל.
 
 ## דוגמאות
 
-### Example 1: Two-shipment family with one TV too many
+### דוגמה 1: משפחה עם שני משלוחים וטלוויזיה אחת יותר מדי
 
-> User: "אני חוזרת אחרי 7 שנים בסיליקון ואלי, יש לי בעל וילד. אנחנו מתכננים לשלוח 4 טלוויזיות (סלון, חדר שינה, חדר עבודה, חדר ילדים), מקרר, מייבש, מקפיא נפרד, שני מחשבים שולחניים, ולפטופ אחד. כמה משלוחים? מה לזרוק?"
+> משתמשת: "אני חוזרת אחרי 7 שנים בסיליקון ואלי, יש לי בעל וילד. אנחנו מתכננים לשלוח 4 טלוויזיות (סלון, חדר שינה, חדר עבודה, חדר ילדים), מקרר, מייבש, מקפיא נפרד, שני מחשבים שולחניים, ולפטופ אחד. כמה משלוחים? מה לזרוק?"
 
-Response framework:
-1. Returnee customs status: yes (7 years > 2 years), but does NOT change the basket.
-2. Shipments: 2 max. Plan accordingly.
-3. Cap: 3 TVs (so the 4th is taxable, either sell, leave in storage abroad, or pay tax on entry).
-4. Cap: 1 fridge OK. 1 dryer OK. Separate freezer is a clerk-judgment item; ask Meches in writing before shipping.
-5. Computers: 2 desktops + 1 laptop = 3 PCs total. Right at the cap. OK.
-6. Send the user to the gov.il online entitlement form before shipping.
+מבנה התשובה:
+1. מעמד תושב חוזר במכס: כן (7 שנים, יותר משנתיים), אבל זה **לא** משנה את הסל.
+2. משלוחים: לכל היותר 2.
+3. תקרה: 3 טלוויזיות, ולכן על הרביעית ישולם מס: למכור, להשאיר, או לשלם.
+4. מקרר אחד ומייבש אחד בסדר. **האם מקפיא נפרד הוא "סוג" נפרד** תלוי בשיקול דעת הפקיד; שאלו את המכס בכתב לפני המשלוח.
+5. שני מחשבים שולחניים ולפטופ אחד = 3 מחשבים, בדיוק בתקרה.
+6. הפנו את המשתמשת לטופס הזכאות באינטרנט לפני המשלוח.
 
-### Example 2: Ship the car or sell it?
+### דוגמה 2: לשלוח את הרכב או למכור?
 
-> User: "יש לי טויוטה הייבריד 2023 עם 40 אלף מייל. שיוויה בארה״ב כ-28 אלף דולר. עלות משלוח לישראל כ-3,500 דולר. כדאי לשלוח?"
+> משתמש: "יש לי טויוטה הייבריד 2023 עם 40 אלף מייל. שווייה בארה״ב כ-28 אלף דולר. עלות משלוח לישראל כ-3,500 דולר. כדאי לשלוח?"
 
-Response framework:
-1. Vehicle is eligible for personal import (within 48 months from manufacture).
-2. **No purchase-tax exemption.** Combined Israeli tax for an imported passenger car lands in a high band of CIF after customs duty + purchase tax + green-tax adjustment + VAT (gov.il vehicle guide chapter 3, exact rate depends on the pollution grade). VAT alone is 18% from 2025-01-01.
-3. Run scripts/vehicle-decision.py: CIF ≈ $31,500, combined tax ≈ $31,500-$36,000, total landed ≈ $63k-$67k + ~$1,200 broker. Local Toyota hybrid ~$50k. Ship loses by $13k-$17k unless the local trim is meaningfully lower.
-4. Misrad HaTachbura imposes a 12-month bealut-transfer restriction on every personally-imported vehicle. Plan to keep the vehicle at least 12 months.
+מבנה התשובה:
+1. גיל: ספרו עד מועד הרישום הצפוי בישראל. רכב שיוצר באמצע 2023 ונרשם בתחילת 2027 יהיה בן כ-43 חודשים, בתוך 48 אבל בלי הרבה מרווח. בררו את תאריך הייצור המדויק מתווית הייצור ומרישיון היבוא **לפני** ההזמנה.
+2. **אין פטור ממס קנייה.** רכב היברידי משלם את שיעור רכב הנוסעים (83%) פחות ההפחתה לפי הציון הירוק, ועוד מע"מ 18%. הטיפול לפי הסכם הסחר תלוי במקום שבו הרכב **יוצר** ובמשלוח ישיר, ולא במקום שבו נקנה: טויוטה שנמכרה בארה"ב אולי יוצרה ביפן, וזה משנה את המכס. בלי אישור נתוני הפליטה מיבואן טויוטה בישראל, הרכב יקבל את דרגת הזיהום הגבוהה ביותר.
+3. הריצו את הגיליון: `python3 scripts/vehicle-decision.py --car-value-usd 28000 --shipping-usd 3500 --manufacture-date <מהתווית> --local-price-usd 50000 --ils-per-usd <השער של היום> --vehicle-class hybrid --green-score <מהרישיון>`, עם הערך שהמעריך יקבל ולא מחיר המכירה. לפי שער להמחשה של 3.70 ש"ח לדולר, ציון ירוק 120, ורכב שיוצר בארה"ב ונשלח ישירות, המס יוצא כ-117,991 ש"ח (101% מערך ה-CIF) והעלות הכוללת כ-64,600$, מול 50,000$ בארץ; בלי אישור הפליטה, כ-72,000$; אם יוצר ביפן (`--origin other`), כ-116% וכ-69,400$. המשלוח מפסיד, אלא אם הדגם לא זמין בארץ.
+4. הזכירו: מגבלת העברת בעלות ל-12 חודשים מיום הרישום.
 
-### Example 3: 6-year hold trap
+### דוגמה 3: מלכודת 6 השנים
 
-> User: "חזרתי לפני 4 שנים, ייבאתי מקרר ומכונת כביסה בפטור. עכשיו רוצה לעבור דירה ולקנות מקרר חדש בארץ. צריך לשלם משהו?"
+> משתמש: "חזרתי לפני 4 שנים, פתחתי תיק זכאות וייבאתי מקרר ומכונת כביסה בפטור. עכשיו אני רוצה לעבור דירה ולקנות מקרר חדש בארץ. צריך לשלם משהו?"
 
-Response framework:
-1. Selling/transferring the duty-free fridge inside the 6-year hold triggers tax payback.
-2. If user keeps the original in personal use AND buys a new one at full tax, no penalty.
-3. If user sold/gave away the original: tax payback + interest, computed at Meches.
-4. The re-claim window opens at year 6 from entry, not from sale date.
+מבנה התשובה:
+1. מכירה או העברה של המקרר שנכנס בפטור בתוך 6 השנים מחייבת תשלום המסים. שאלו: האם המקרר נמכר, ניתן במתנה, או נשאר אצלכם?
+2. אם המקרר המקורי נשאר לשימושכם העצמי (עובר איתכם לדירה החדשה), אין בעיה, ומותר **גם** לקנות מקרר חדש במחיר מלא בארץ. הכלל חל על היחידה שנכנסה בפטור.
+3. אם נמכר או ניתן: המסים משולמים; הפנו למכס לחישוב הסכום.
+4. מקרר **נוסף** בפטור אפשרי רק אחרי 6 שנים בישראל מהשחרור הקודם.
 
 ## משאבים מצורפים
 
-- `references/domain-checklist.md`: authoritative sources, must-cover and should-cover facts, last-verified dates.
-- `references/vehicle-import-benefit.md`: eligibility, age window, lack of purchase-tax exemption, citations.
-- `references/household-shipment-rules.md`: 2-shipment basket, 9-month window, item-by-item caps, 6-year hold.
-- `references/customs-timeline.md`: day-by-day from entry to year 6.
-- `scripts/vehicle-decision.py`: side-by-side ship-vs-sell worksheet.
+- הקובץ `references/domain-checklist.md`: מקורות רשמיים, מה חובה לכסות ומה רצוי, ורשימת מה שמחוץ לתחום.
+- הקובץ `references/vehicle-import-benefit.md`: זכאות, כלל הגיל במועד הרישום, פרמטרי המס של 2026, מסמכים, ומדריך לשלוח או למכור.
+- הקובץ `references/household-shipment-rules.md`: סל שני המשלוחים, חלון 9 החודשים, התקרות לפי פריט, 6 שנות ההחזקה, כלל בני הזוג, ודרישות לחיות מחמד.
+- הקובץ `references/customs-timeline.md`: ציר זמן מיום הכניסה ועד השנה השישית.
+- הסקריפט `scripts/vehicle-decision.py`: בודק את גיל הרכב במועד הרישום (לפי תאריך הייצור) ואת מגבלת 45 הימים להגשה, מחשב מכס, מס קנייה (עם ציון ירוק או תקרת הרכב החשמלי) ומע"מ, ומדפיס גיליון של לשלוח או למכור לרכב נוסעים עד 3,500 ק"ג.
 
 ## שרתי MCP מומלצים
 
-None directly applicable.
+אין שרת שמתאים ישירות. רשות המסים לא מציעה MCP או API. שאלות מכס: **\*4954** (מוקד השירות הארצי של רשות המסים). רישיון יבוא לרכב: **\*4515** (משרד התחבורה). משרד העלייה והקליטה ותעודת תושב חוזר: **\*2994**.
 
 ## מלכודות נפוצות
 
-1. **Returnees are NOT olim.** Returnees get 2 shipments, not 3.
-2. **No purchase-tax exemption on vehicles for returnees.** Combined tax ~116% of CIF for FTA-origin passenger cars (gov.il personal_import_of_vehicles_guide ch. 3). The 48-month age window is the only benefit.
-3. **Vehicle 12-month bealut-transfer restriction.** Misrad HaTachbura imposes a 12-month hold on every personally-imported vehicle. the bealut-removal application is the early-release procedure (on gov.il page "יבוא אישי של כלי רכב").
-4. **Vehicle 9-month window ≠ household 9-month window.** Separate procedural clocks under different takanot.
-5. **Permanent-return entry, not tourist visit, anchors D.**
-6. **9-month clock starts on entry**, not on certificate issue.
-7. **6-year hold has teeth.** Selling a duty-free fridge in year 3 triggers tax payback.
-8. **Spousal anti-stacking.** Cannot re-claim what spouse released duty-free within 6 years.
-9. **"Type" is clerk-judgment.** Borderline items: ask Meches in writing before shipping.
-10. **Mail packages count** against the 2-shipment quota if they contain household goods.
-11. **Consolidate to save money.** Meches counts shipments by Bill of Lading; two lifts combined into one container = one shipment.
-12. **Vehicle equipment-level refund is not automatic**, claim it back at Meches with documentation.
-13. **Insure at full value INCLUDING taxes**, undervalued claims get rejected.
-14. **Restricted-permit items** (drones, comm gear, weapons, lasers, e-scooters, plants, pets) need a separate import permit from the relevant ministry before shipping.
-15. **Inheritance items** travel under their own customs basket, not the 2-shipment household cap.
+1. **תושב חוזר אינו עולה.** הטעות הנפוצה ביותר היא להניח שחל סל 3 המשלוחים של עולה. לתושב חוזר יש 2 משלוחים.
+2. **אין פטור ממס קנייה על רכב לתושב חוזר.** אל תציגו "יבוא רכב בלי מס". מס קנייה 83% (חשמלי 48%, עם תקרה), ועוד מע"מ 18%, ועוד מכס כשאין הסכם סחר. חלון 48 החודשים הוא ההטבה היחידה.
+3. **48 החודשים נספרים במועד הרישום בישראל.** סוכנים מחשבים את גיל הרכב היום וקובעים שהוא זכאי. הוסיפו את זמן המשלוח, השחרור והבדיקה, וזכרו את מגבלת 45 הימים להגשה.
+4. **רכב אמריקאי מותר; EURO 6d לא נדרש.** אבל רכב אמריקאי בלי אישור נתוני פליטה ממוסה לפי דרגת הזיהום הגרועה ביותר, והוא צריך ESP ומד מהירות מטרי.
+5. **מגבלת העברת בעלות ל-12 חודשים**, מיום הרישום. אל תייבאו לתשובה לתושב חוזר תקופות החזקה של עולים.
+6. **חלון 9 החודשים לרכב שונה מחלון 9 החודשים לחפצי הבית.** שני שעונים עצמאיים, שניהם מיום D.
+7. **הכניסה של החזרה הסופית, ולא ביקור, היא יום D.**
+8. **שעון 9 החודשים מתחיל בכניסה, ולא בהנפקת התעודה.** מי שרודף קודם אחרי התעודה ממשרד העלייה והקליטה עלול לשרוף חודשים מהחלון.
+9. **ל-6 שנות ההחזקה יש שיניים.** מכירת מקרר שנכנס בפטור בשנה השלישית מחייבת את המסים. הזכירו זאת בכל ציר זמן.
+10. **כלל בני הזוג.** סוג חפץ שבן הזוג כבר שחרר בפטור אינו זכאות חדשה לזוג.
+11. **ההגדרה של "סוג" היא שיקול דעת של הפקיד.** שאלו את המכס בכתב לפני ששולחים פריטים גבוליים.
+12. **חבילות דואר נספרות.** חפצי בית בדואר מנצלים אחד משני המשלוחים; דואר של הלבשה בלבד בתוך החלון לא.
+13. **לבטח בערך המלא כולל כל המסים.** מדריך gov.il דורש לבטח את החפצים "בערכם המלא, כולל כל המסים". מסרו למבטח את הסכום הכולל.
+14. **פריטים שדורשים אישור צריכים אישור משלהם,** ורישיון יבוא חייב להיות קיים לפני שהפריט מגיע.
+15. **החזר אבזור הבטיחות אינו אוטומטי.** אחרי הרישום חוזרים לבית המכס עם רישיון הרכב כדי לקבל אותו.
 
 ## קישורי עזר
 
-| URL | Topic |
+| URL | נושא |
 |---|---|
-| https://www.gov.il/he/pages/customs-guide-for-returning-residents | Customs guide for returning residents (Israel Tax Authority), updated 18.05.2026 |
-| https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student | Open a customs entitlement file online |
-| https://www.gov.il/he/pages/personal_import_of_vehicles_guide | Personal vehicle import guide (Israel Tax Authority) |
-| https://www.gov.il/he/departments/guides/personal_import_of_vehicles | Personal vehicle import (Misrad HaTachbura) |
-| https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | kolzchut, personal vehicle import for returnees (updated 10.12.2025) |
-| Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | kolzchut, customs exemption for returnee household goods (updated 02.03.2025) |
-| https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ | Nefesh B'Nefesh, returning-resident benefits hub (confirms toshav chozer pays full vehicle tax) |
-| https://www.nbn.org.il/ | Nefesh B'Nefesh general aliyah and life-in-Israel resources |
-| https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Shivat Zion knowledge base for returning Israelis |
-| https://belong.co.il/living/shipping-importation/ | Belong, shipping and importation overview (general aliyah-track facts; Belong's 50% car-tax discount applies to olim, NOT to toshav chozer) |
+| https://www.gov.il/he/pages/customs-guide-for-returning-residents | מדריך מכס לתושבים חוזרים (רשות המסים), עודכן 30.07.2026 |
+| https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student | שירות מקוון לפתיחת תיק זכאות במכס |
+| https://www.gov.il/he/pages/personal_import_of_vehicles_guide | מדריך לייבוא אישי של רכב (רשות המסים), עודכן 15.01.2026: תנאים, טבלת מסים, מיסוי ירוק, מסמכים |
+| https://www.gov.il/he/pages/personal_import_of_vehicles | יבוא אישי של כלי רכב (משרד התחבורה), עודכן 22.09.2026: גיל במועד הרישום, תקינה אמריקאית וקנדית, ESP, SALVAGE, מגבלת 12 חודשים, נהלים |
+| https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359 | ספר המכס, כללים לפרק 87: שיעורי מס קנייה, תקרת רכב חשמלי, טבלת מיסוי ירוק |
+| https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | כל-זכות, יבוא אישי של רכב לתושבים וסטודנטים חוזרים |
+| כל-זכות, חפשו את הדף "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | כל-זכות, הפטור על חפצי בית והפיקדון |
+| https://www.gov.il/he/pages/ta-contact-us | דרכי פנייה לרשות המסים (\*4954) |
+| https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ | נפש בנפש, זכויות לתושבים חוזרים (תושב חוזר משלם מס רכב מלא) |
+| https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | מאגר הידע של שיבת ציון לישראלים שחוזרים |
 
 ## פתרון תקלות
 
-- **gov.il URLs return 403 to scrapers**: they load fine in a browser; use kolzchut mirrors as fallback.
-- **Meches clerk insists on the certificate**: escalate via the Rashut HaMisim centre *4954.
-- **Auto-approval fails**: bring proof of foreign residency to the in-person appointment.
-- **Customs broker quotes different numbers**: trust the broker on the actual filing; this skill is for planning.
-- **Already shipped 3 shipments**: the third clears at full tax; surface the lesson.
+- **דפי gov.il מחזירים 403 לכלים אוטומטיים**: הם נטענים בדפדפן רגיל. אם הסוכן לא מצליח לקרוא אותם, השתמשו בדפי כל-זכות ובציטוטים שב-`references/domain-checklist.md`, ואמרו שהנתון לא נבדק מחדש בזמן אמת.
+- **פקיד המכס מתעקש על תעודת תושב חוזר אף שהמערכת המקוונת מטפלת בזה**: אפשר לחכות לתעודה או להתקשר ל-\*4954.
+- **האישור האוטומטי נכשל אצל תושב חוזר ששמר כתובת בישראל**: מדריך gov.il אומר רק שמקרים חריגים מגיעים לבית המכס; הביאו לפגישה הוכחות לשנים בחו"ל (חותמות בדרכון ומסמכי מגורים בחו"ל).
+- **עמיל מכס נותן מספר שונה מהכלי**: העמיל עובד לפי השיעורים העדכניים, הערכת המעריך והציון הירוק בפועל. סמכו על העמיל בהגשה; השתמשו בכלי לתכנון **לפני** שפונים אליו.
+- **המשתמש כבר שלח משלוח שלישי**: הוא ישוחרר כיבוא רגיל במס מלא; החפצים עדיין משתחררים.

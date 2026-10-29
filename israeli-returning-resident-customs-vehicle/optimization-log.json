@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-10-29",
+      "lessons": [
+        "A prior fix (1.2.2, US-spec cars) landed in SKILL_HE.md only; always diff both bodies after a targeted fix.",
+        "Validator checked Hebrew headings only; SKILL_HE.md body was English through 1.2.4. Check body language, not headings.",
+        "Deferred: 2027 purchase-tax / green-tax formula once published in Reshumot; re-check EV cap 22,000 and the 48% rate.",
+        "Deferred: confirm whether each qualifying spouse holds a separate returnee vehicle entitlement (02/12 s.3 is per returnee).",
+        "Deferred: inheritance-channel customs exemption, removed as unsourced; source it before re-adding.",
+        "ITA guide shows a 19,498 NIS green reduction row for EV items not present in the live Customs Book table; script uses 14,523 for the EV floor (conservative)."
+      ]
+    }
+  ]
+}

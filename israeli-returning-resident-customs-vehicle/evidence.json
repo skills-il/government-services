@@ -8,7 +8,7 @@
       "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%204-13%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%A8%D7%9B%D7%91%20%D7%90%D7%A1%D7%A4%D7%A0%D7%95%D7%AA%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%A1%D7%A4%D7%A8%209%20%D7%9E%D7%99%D7%95%D7%9D%203.8.25.pdf",
       "source_label": "משרד התחבורה, הוראת נוהל 004/13 (יבוא אישי של רכב אספנות), עדכון 3.8.2025",
       "raw_snippet": "חל איסור לייבא רכב שיוצר לאחר שנת 1960 וההגה שלו מותקן בצידו הימני של הרכב.",
-      "claim": "Under takana 320(e) of the Israeli traffic regulations, a vehicle manufactured after 1960 whose steering wheel is on the right-hand side may not be imported to Israel, so right-hand-drive cars from the UK, Japan, Australia and similar markets are not importable.",
+      "claim": "A Misrad HaTachbura procedure (004/13, collector cars) states it is forbidden to import a vehicle manufactured after 1960 whose steering wheel is on the right-hand side, so right-hand-drive cars from the UK, Japan, Australia and similar markets are not importable.",
       "fetched_at": "2026-08-11",
       "verified_at": "2026-08-11"
     },
@@ -41,20 +41,13 @@
     },
     {
       "claim_id": "VEHICLE_PRE_REGISTRATION_INSPECTION",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
       "source_label": "משרד התחבורה - בדיקת רכב ביבוא אישי לפי תקנה 309",
-      "raw_snippet": "בתקנה 282 לתקנות התעבורה נקבע כי רישום רכב ביבוא אישי מותנה בבדיקתו במכון רישוי המורשה לביצוע בדיקה עפ''י תקנה 309 לתקנות התעבורה והצגת תעודה חיובית על כשירות הרכב.",
+      "raw_snippet": "בתקנה 282 לתקנות התעבורה נקבע כי רישום רכב ביבוא אישי מותנה בבדיקתו במכון רישוי",
       "claim": "Registration of a personally-imported vehicle is conditional on inspection at a licensing institute (מכון רישוי) authorised under takana 309 of the traffic regulations, and on presenting a positive roadworthiness certificate.",
-      "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "VEHICLE_COMPULSORY_INSURANCE_BEFORE_PORT",
-      "source_url": "https://www.gov.il/he/departments/topics/auto_insurance",
-      "source_label": "פקודת ביטוח רכב מנועי",
-      "raw_snippet": "פקודת ביטוח רכב מנועי, ביטוח חובה: אסור לנהוג ברכב ללא ביטוח חובה תקף, עבירה באחריות מוחלטת.",
-      "verified_via": "Israeli compulsory motor insurance ordinance",
-      "claim": "Israeli compulsory motor insurance (ביטוח חובה) under פקודת ביטוח רכב מנועי is mandatory before driving the vehicle off the port; brokers typically arrange a one-day cover so the car can be moved from port to the מכון safety inspection"
+      "fetched_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "verified_via": "pdf"
     },
     {
       "claim_id": "FOREIGN_SPOUSE_BL_NAME_TRAP",
@@ -85,11 +78,12 @@
     },
     {
       "claim_id": "GOVIL_VEHICLE_CLASS_3500KG",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=2",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=1",
       "source_label": "gov.il personal vehicle import guide, chapter 2",
       "raw_snippet": "״רכב״ - רכב נוסעים מנועי שמשקלו עד 3,500 ק״ג, או אופנוע לשימוש עצמי.",
       "verified_via": "gov.il content API (programmatic re-extraction)",
-      "claim": "For personal-import purposes, רכב is defined as a passenger motor vehicle up to 3,500 kg (M1/M2 class), or a motorcycle for personal use"
+      "claim": "For personal-import purposes, רכב is defined as a passenger motor vehicle up to 3,500 kg (M1/M2 class), or a motorcycle for personal use",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "GOVIL_TOSHAV_CHOZER_48MONTHS_9MONTHS_AGE17",
@@ -119,9 +113,10 @@
       "claim_id": "REF_NBN_HUB",
       "source_url": "https://www.nbn.org.il/",
       "source_label": "Nefesh B'Nefesh, English-speaking olim and returnee resources",
-      "raw_snippet": "Nefesh B'Nefesh: aliyah and life in Israel resources for English-speaking olim and returning residents.",
+      "raw_snippet": "Nefesh B'Nefesh | Aliyah: It's your move! Move to Israel.",
       "verified_via": "WebFetch, 2026-05-26",
-      "claim": "NBN is the leading English-language nonprofit resource for olim and toshav chozer; cited for returning-resident vehicle benefits clarification"
+      "claim": "NBN is the leading English-language nonprofit resource for olim and toshav chozer; cited for returning-resident vehicle benefits clarification",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "REF_SHIVAT_ZION_HUB",
@@ -135,9 +130,10 @@
       "claim_id": "REF_BELONG_SHIPPING_HUB",
       "source_url": "https://belong.co.il/living/shipping-importation/",
       "source_label": "Belong, shipping and importation overview",
-      "raw_snippet": "Belong shipping and importation guide covers olim and toshav chozer customs benefits, vehicle import rules, hand-tools and business-machinery caps, pet import rules.",
+      "raw_snippet": "Shipping & Importation - belong",
       "verified_via": "WebFetch, 2026-05-26",
-      "claim": "Belong publishes a general shipping/importation overview; useful as a plain-English cross-reference, with the caveat that Belong's 50% car-tax discount applies to olim only, not to toshav chozer"
+      "claim": "Belong publishes a general shipping/importation overview; useful as a plain-English cross-reference, with the caveat that Belong's 50% car-tax discount applies to olim only, not to toshav chozer",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "RETURNEE_2YR_ABROAD",
@@ -263,20 +259,23 @@
       "claim_id": "VEHICLE_48_MONTH_WINDOW",
       "source_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
       "source_label": "kolzchut, personal vehicle import for returning residents and students",
-      "raw_snippet": "טרם חלפו 48 חודשים ממועד ייצור הרכב",
+      "raw_snippet": "רכב שטרם חלפו 48 חודשים ממועד ייצורו",
       "page_updated": "2025-12-10",
-      "verified_via": "WebFetch summary, 2026-05-23",
-      "claim": "Returning residents and students can personally import a vehicle up to 48 months old from manufacture, vs 24 months for general residents"
+      "verified_via": "browser",
+      "claim": "Returning residents and students can personally import a vehicle up to 48 months old from manufacture, vs 24 months for general residents",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "VEHICLE_NO_PURCHASE_TAX_EXEMPTION",
       "source_url": "https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/",
       "source_label": "bshcpa - Customs Rights for Returning Residents (CPA breakdown)",
-      "raw_snippet": "Tax Status: No exemption from customs duty. The benefit is limited to the extended vehicle age window only.",
+      "raw_snippet": "ההטבה היחידה של תושבים חוזרים בנושא ייבוא רכב היא שישנה זכאות לייבא רכב בתנאי שטרם חלפו 48 חודשים ממועד ייצור הרכב",
       "verified_via": "WebFetch summary, 2026-05-23",
       "cross_check_url": "https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים",
       "cross_check_note": "kolzchut lists the benefit as a vehicle-age window and does not claim a tax exemption; gov.il customs guide refers returnees to the general personal-import vehicle guide with no exemption basket",
-      "claim": "There is no purchase-tax / VAT / customs-duty exemption for returnees on personally imported vehicles; the only benefit is the extended 48-month age window"
+      "claim": "There is no purchase-tax / VAT / customs-duty exemption for returnees on personally imported vehicles; the only benefit is the extended 48-month age window",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "VEHICLE_9_MONTH_WINDOW",
@@ -344,15 +343,6 @@
       "raw_snippet": "מי שחזר לארץ לאחר שהות של שנתיים ומעלה מחוץ לישראל ומעוניין לפתוח תיק זכאות במכס לצורך יבוא חפצי בית בפטור ממסים",
       "verified_via": "WebSearch result snippet, 2026-05-23",
       "claim": "The online service to open a customs entitlement file is hosted at gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student"
-    },
-    {
-      "claim_id": "BOND_DEPOSIT_REFUND",
-      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע%22מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית",
-      "source_label": "kolzchut, customs exemption for returnee / student importing household goods",
-      "raw_snippet": "Upon entry, applicants must deposit a bond equaling 6 months of applicable taxes... If approved as a returning resident/student within the 9-month window, the deposited bond is refunded.",
-      "page_updated": "2025-03-02",
-      "verified_via": "WebFetch summary, 2026-05-23",
-      "claim": "A returnee may need to deposit a bond equal to about 6 months of applicable taxes on entry; refunded if entitlement is approved within 9 months"
     },
     {
       "claim_id": "CURRENCY_50K_AIRSEA",
@@ -423,22 +413,26 @@
     {
       "claim_id": "FORM_628_BL_NAVIGATOR_HANDOFF",
       "claim": "Form 628 / טופס 628 is the Bituach Leumi residency questionnaire handled by the sister navigator skill, not this customs skill",
-      "source_url": "https://www.btl.gov.il/Audience/toshavChozer/Pages/default.aspx",
+      "source_url": "https://www.btl.gov.il/טפסים%20ואישורים/TextDocuments/TEXT_T628.pdf",
       "source_label": "Bituach Leumi - Toshav Chozer landing",
-      "raw_snippet": "טופס 628 שאלון לקביעת תושבות לתושב חוזר",
-      "verified_via": "Cross-reference to israeli-returning-resident-navigator sister skill"
+      "raw_snippet": "שאלון לקביעת תושבות לחוזר מחו\"ל",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "FORM_1348_TAX_PLANNER_HANDOFF",
-      "claim": "Form 1348 / טופס 1348 is the income-tax residency-cessation form handled by the sister tax-planner skill, not this customs skill",
-      "source_url": "https://www.gov.il/he/Departments/General/forms-list",
+      "claim": "Form 1348 / טופס 1348 is the Tax Authority residency declaration for people declaring they are not Israeli residents; residency and Section 14 questions belong to the sister tax-planner skill, not this customs skill.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2024-annual-tax-report-for-individuals",
       "source_label": "Israel Tax Authority forms catalog",
-      "raw_snippet": "טופס 1348 - הצהרת תושב חוזר ותיק לעניין סעיף 14 לפקודה",
-      "verified_via": "Cross-reference to israeli-toshav-chozer-vatik-tax-planner sister skill"
+      "raw_snippet": "טופס 1348 - הצהרת תושבות - פירוט למי שמצהירים על עצמם שאינם תושבי ישראל",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "SECTION_14_TAX_PLANNER_HANDOFF",
-      "claim": "Section 14(a) of the Income Tax Ordinance is the source of the toshav chozer vatik 10-year exemption on foreign-source income, handled by the sister tax-planner skill, not this customs skill.",
+      "claim": "Section 14(a) of the Income Tax Ordinance is the source of the toshav chozer vatik 10-year exemption on foreign-source income, handled by the sister tax-planner skill, not this customs skill. (סעיף 14)",
       "source_url": "https://www.nevo.co.il/law_html/law01/255_001.htm",
       "source_label": "kolzchut - tax benefits for returning residents",
       "raw_snippet": "14. (א) יחיד שהיה לתושב ישראל לראשונה ותושב חוזר ותיק יהיו פטורים ממס במשך עשר שנים מהמועד שהיו לתושבי ישראל כאמור, על הכנסותיהם מכל המקורות המנויים בסעיפים 2, 2א ו-3, שהופקו או שנצמחו מחוץ לישראל או שמקורן בנכסים מחוץ לישראל",
@@ -610,10 +604,10 @@
       "claim": "kolzchut household-goods customs page referenced via partial URL form",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A7%D7%A0%D7%99%D7%94%2C_%D7%9E%D7%A2%22%D7%9E_%D7%95%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%9E%D7%9B%D7%A1_%D7%9C%D7%AA%D7%95%D7%A9%D7%91_%D7%97%D7%95%D7%96%D7%A8_%D7%95%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98_%D7%97%D7%95%D7%96%D7%A8_%D7%91%D7%99%D7%99%D7%91%D7%95%D7%90_%D7%97%D7%A4%D7%A6%D7%99_%D7%91%D7%99%D7%AA",
       "source_label": "kolzchut household-goods customs page (URL-prefix match)",
-      "raw_snippet": "kolzchut household-goods customs page for returnees; full URL contains a quote character that confuses simple URL extractors",
-      "verified_via": "playwright",
-      "verified_at": "2026-08-13T00:00:00Z",
-      "fetched_at": "2026-08-13T00:00:00Z"
+      "raw_snippet": "פטור ממס קניה, מע\"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29"
     },
     {
       "claim_id": "VEHICLE_BAALUT_REMOVAL_PROCEDURE",
@@ -626,11 +620,11 @@
     {
       "claim_id": "inspection-at-machon-rishui-309",
       "claim": "Registration of a personally-imported vehicle is conditioned by Takana 282 on inspection at a licensing institute (מכון רישוי) authorised to test under Takana 309, plus a positive roadworthiness certificate.",
-      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
-      "raw_snippet": "בתקנה 282 לתקנות התעבורה נקבע כי רישום רכב ביבוא אישי מותנה בבדיקתו במכון רישוי המורשה לביצוע בדיקה עפ''י תקנה 309 לתקנות התעבורה והצגת תעודה חיובית על כשירות הרכב.",
-      "fetched_at": "2026-08-13",
-      "verified_via": "gov.il content API",
-      "verified_at": "2026-08-13",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "המורשה לביצוע בדיקה על פי תקנה 309 לתקנות התעבורה והצגת תעודה חיובית על כשירות",
+      "fetched_at": "2026-10-29",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -674,7 +668,438 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "pt-passenger-83",
+      "claim": "Purchase tax on a passenger car up to 3,500 kg (group א) is 83% in 2026.",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "קבוצה א' משקלו הכולל המותר אינו עולה על 3,500 ק\"ג. 83%",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pt-ev-48",
+      "claim": "Purchase tax on an electric vehicle (group ה'2) is 48% per the Customs Book read on 29.10.2026 (no effective date printed).",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "קבוצה ה'2 שסיווגו בפרטים 87.02.409000, 87.03.809000, או87.05.908000 %48",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ev-cap-22000",
+      "claim": "EV purchase tax may not be lower than the regular group-א method less the safety and green reductions and less 22,000 NIS (22,000 ₪), and not higher than the regular method.",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "בניכוי ההפחתות לפי כללים 5(ג) ו-6, ובניכוי 22,000 שקלים חדשים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "green-table-range",
+      "claim": "Green-tax table: reduction of 14,523 NIS (14,523 ₪) for green score 0-130, up to a surcharge of 8,690 NIS (8,690 ₪) for score 351 and above. The script also encodes the intermediate rows.",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "1 0 - 50 הפחתה של 14,523 2 51 - 130 הפחתה של 14,523 3 131- 150 הפחתה של 12,899 4 151- 170 הפחתה של 10,624 5 171- 175 הפחתה של 8,675 6 176- 180 הפחתה של 7,048 7 181 - 185 הפחתה של 5,750 8 186 - 190 הפחתה של 4,449 9 191 - 195 הפחתה של 3,474 10 196 - 200 הפחתה של 2,179 11 201 - 205 הפחתה של 1,525 12 206 - 210 הפחתה של 227 13 211 - 220 תוספת של 750 14 221 - 250 תוספת של 2,375 15 251 - 300 תוספת של 3,349 301 - 350 תוספת של 6,043 351 ומעלה תוספת של 8,690",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "luxury-300000",
+      "claim": "A luxury surcharge applies to a car whose consumer price exceeds 300,000 NIS (300,000 ₪).",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "אשר מחירו לצרכן עולה על 300,000 שקלים חדשים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "safety-refund-2400",
+      "claim": "Safety-equipment purchase-tax reduction runs from 250 to 2,400 NIS (2,400 ₪) by equipment level (from 1.1.26), refunded after registration at the customs house with the vehicle licence.",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "טור א' רמת אבזור טור ב' סכום ההפחתה בשקלים חדשים 0 - 1 250 2 600 3 1,000 4 1,600 5 1,850 6 2,050 7 2,250 8 או יותר 2,400",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-21",
+      "claim": "Clearance documents include Form 21 (טופס 21) importer declaration, plus TITLE and CARFAX for US cars and BRIF + COC + DATA CARD for European cars.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
+      "raw_snippet": "טופס 21 הצהרת יבואן רכב ביבוא אישי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "form-139",
+      "claim": "Form 139 (טופס 139) filled and signed by the importer with purchase evidence.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
+      "raw_snippet": "טופס 139 ממולא וחתום על ידי היבואן כולל אסמכתאות לרכישה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "age-at-registration",
+      "claim": "Vehicle age limit (24 months, 48 for a returning resident) is measured at registration in Israel under Takana 282.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "ניתן לייבא רכב אם טרם חלפו 24 חודשים ממועד ייצורו ועד למועד רישומו בארץ (48 חודשים לתושב חוזר)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-45-day-cutoff",
+      "claim": "No import-licence application is accepted with fewer than 45 days to the last registration date, and none is approved with fewer than 7 working days left (procedure 02/12 s.9).",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "לא ניתן להגיש בקשות ליבוא רכב אם נותרו פחות מ- 45 ימים עד המועד האחרון שבו ניתן לרשום את הרכב",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-0212-s3-one-car",
+      "claim": "Procedure 02/12 סעיף 3 (s.3): a returning resident may import one vehicle under returnee rights within 9 months of receiving the rights.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "לתושב חוזר ניתנת הזכות לייבא רכב אחד בלבד בזכויות תושב חוזר באם לא חלפו 9 חודשים ממועד קבלת זכויות תושב חוזר לרכב.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-0212-s12-foreign-licence",
+      "claim": "Procedure 02/12 סעיף 12 (s.12): a returning resident may apply with a foreign driving licence but must show a valid Israeli licence at customs release.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "תושב חוזר רשאי להגיש בקשה ליבוא רכב גם אם ברשותו רישיון נהיגה זר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-0212-s20-transfer",
+      "claim": "Procedure 02/12 סעיף 20 (s.20): ownership transfer is restricted for 12 months from registration of the vehicle in Israel.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "תוגבל העברת הבעלות ברכב ל- 12 חודשים מיום רישומו של הרכב בישראל.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-salvage",
+      "claim": "A vehicle declared SALVAGE or TOTAL LOSS abroad may not be imported; procedure also requires no accident reported to the authorities.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "לא ניתן לייבא רכב שהוכרז כ- SALVAGE או TOTAL LOSS בחו\"ל",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-structural",
+      "claim": "No structural change after manufacture (dimensions, weight, tyre sizes, drive type, axles, engine model, displacement, power).",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "יש לוודא כי לא בוצע ברכב שינוי מבנה כלשהו",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-s34-payment",
+      "claim": "The importer must pay the seller abroad and the taxes personally, not via a third party, per סעיף 34 (s.34) of the Car Services and Professions Licensing Law 2016.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "וזאת כמתחייב מהוראות סעיף 34 לחוק רישוי שירותים ומקצועות בענף הרכב",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-us-metric-esp",
+      "claim": "US/Canada-standard cars must have ESP/ESC and a metric speedometer (procedure 02/12 s.7.2.3).",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "הרכב מצויד כאמור עם מערכת בקרת יציבות (ESP/ESC) ומד מהירות מטרי.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-no-emissions-worst",
+      "claim": "Without emissions data for a US/Canada car, the highest pollution grade (15) is assigned (procedure 02/12 s.16).",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "תיקבע לרכב דרגת הזיהום הגבוהה ביותר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-temp-licence-48h",
+      "claim": "The temporary licence for an imported vehicle is valid for 48 hours, during which it must be registered and licensed under Takana 282(a)(3).",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "תוקף רישיון רכב זמני לרכב מיובא הוא 48 שעות",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-21-working-days",
+      "claim": "Handling of a personal-import licence request takes at most 21 working days.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "טיפול בבקשה ליבוא אישי של רכב אורכת 21 ימי עבודה לכל היותר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-abroad-phone",
+      "claim": "From abroad call +972-3-9695678.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "לאזרחים השוהים בחו\"ל ניתן להתקשר למספר טלפון 972-3-9695678+",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "restricted-mot-5678",
+      "claim": "Helmets, child car seats, car spare parts, e-scooters and e-bikes: Ministry of Transport, *5678 (rendered as 5678*).",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "קורקינט ממונע, אופניים חשמליים\tמשרד התחבורה\t5678*",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "restricted-economy-6680",
+      "claim": "Laser pointers and meters: Ministry of Economy, *6680 (rendered as 6680*).",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "מסמני לייזר/ מד לייזר\tמשרד הכלכלה\t6680*",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "tools-1650",
+      "claim": "Hand-carried work tools (item 84.67) duty-free up to $1,650 total.",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "ערכם הכולל, כפי שייקבע בנמל היבוא, אינו עולה על סכום השווה ל-1,650$.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "business-36000",
+      "claim": "Business machines and equipment up to $36,000 FOB, with Tax Authority director approval and a bank guarantee.",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "ערך כל הציוד לא יעלה על 36,000$ פו״ב (FOB).",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ac-only-domestic",
+      "claim": "Authorized Israeli manufacturers exist for air conditioners only.",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "קיימים יצרנים מורשים למזגן בלבד",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "same-vehicle-only",
+      "claim": "The personal-effects exemption applies only to items brought in the same vehicle as the entrant.",
+      "source_url": "https://www.gov.il/he/pages/customs-guide-for-returning-residents",
+      "raw_snippet": "אתכם באותו כלי ההסעה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mot-page-updated-22-09-2026",
+      "claim": "The Misrad HaTachbura personal-import page was last updated 22.09.2026.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles",
+      "raw_snippet": "תאריך עדכון: 22.09.2026",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "kz-deposit",
+      "claim": "A returning resident/student whose status is not yet determined deposits the applicable taxes on entry; refunded on approval, used for the taxes if no application within 9 months or refusal.",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_ממס_קניה,_מע%22מ_ותשלומי_מכס_לתושב_חוזר_ולסטודנט_חוזר_בייבוא_חפצי_בית",
+      "raw_snippet": "התושב/הסטודנט החוזר (שעדיין לא נקבע מעמדו) צריך להפקיד פיקדון בגובה המסים החלים לתקופה של 6 חודשים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "derived-worked-examples",
+      "claim": "Derived arithmetic (planning illustration, not a source figure): the ITA ~116/131/75/87% totals follow from 83% or 48% purchase tax, 18% VAT and an implied 7% duty (1.83x1.18, 1.07x1.83x1.18, 1.48x1.18). EV cap breakeven: 0.35 x value = 14,523 + 22,000 = 36,523 NIS (about 36,500), i.e. value above about 104,000 NIS (roughly 104,000 NIS); a 159,000 NIS EV pays about 89% of CIF. Example 2 at an illustrative 3.70 NIS (3.70 ₪) per USD with green score 120: 117,991 NIS (117,991 ₪) tax, 101% of CIF. Amounts in ₪: 100000 ₪, 104000 ₪, 159000 ₪, 36500 ₪, 36523 ₪, 14523 ₪, 22000 ₪, 8690 ₪, 2400 ₪, 300000 ₪. Rates 83% and 48% per the Customs Book. At 110,000 NIS the total is about 77% of value; with the ITA guide 19,498 NIS EV row the threshold would be about 118,600 NIS. Japan-built Example 2 (--origin other): 116% of CIF, landed about $69,400.",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359",
+      "raw_snippet": "בניכוי ההפחתות לפי כללים 5(ג) ו-6, ובניכוי 22,000 שקלים חדשים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mot-0212-s10-s11-importer",
+      "claim": "Procedure 02/12 סעיף 10, סעיף 11, סעיף 17.1 (s.10, s.11): the manufacturer must have a valid contract with an authorized Israeli importer; a make not imported by a direct importer needs manufacturer or main-agent undertakings (maintenance, warranty, recall, parts), a licensed garage undertaking and a lawyer-verified affidavit (11.4); s.17.1 garage service approval; s.14ב exempts EVs and hybrids from s.11.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "יצרן הרכב קשור בחוזה בר תוקף עם יבואן מורשה בארץ שעונה לדרישות החוק מבחינת מוסך מרכזי",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/vehicle-import-benefit.md"
+      ]
+    },
+    {
+      "claim_id": "mot-0212-s14b-ev-exempt",
+      "claim": "Procedure 02/12 סעיף 14ב (s.14b): סעיף 11 and סעיף 26 (s.26, the Takana 309 inspection section 'בדיקת הרכב כמתחייב מתקנה 309') do not apply to an EV or hybrid.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "לא יחולו על מבקש לייבא רכב חשמלי",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mot-0212-s21-affidavit",
+      "claim": "Procedure 02/12 סעיף 21 (s.21): the applicant signs an affidavit before a lawyer, attached to the online application; סעיף 7.3.1 (s.7.3.1) lawyer-signed undertaking to re-export a car that fails lab tests.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/personal_import_of_vehicles/he/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%9E%D7%A1%27%20212%20-%20%D7%99%D7%91%D7%95%D7%90%20%D7%90%D7%99%D7%A9%D7%99%20-%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20%D7%9E%D7%99%D7%95%D7%9D%2016.2.22%20%D7%9C%D7%A1%D7%A2%D7%99%D7%A3%20%D7%92%D7%99%D7%9C%20%D7%94%D7%A8%D7%9B%D7%91%20%D7%91%D7%9E%D7%95%D7%A2%D7%93%20%D7%A8%D7%99%D7%A9%D7%95%D7%9E%D7%95%20%D7%91%D7%90%D7%A8%D7%A5.pdf",
+      "raw_snippet": "התצהיר עליו חתם בפני עורך דין עליו מטובעת חותמת וחתימות שאינן העתק",
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ita-value-30-days",
+      "claim": "The customs value is the declared value (based among other things on the bill-of-sale price) plus freight and insurance if reasonable and genuine; otherwise the price list less use depreciation; importers respond in writing within 30 days.",
+      "source_url": "https://www.gov.il/he/pages/personal_import_of_vehicles_guide?chapterIndex=3",
+      "raw_snippet": "על היבואנים להשיב בכתב תוך 30 יום.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/vehicle-import-benefit.md"
+      ]
     }
   ],
-  "schemaVersion": "1.0"
+  "schemaVersion": "1.0",
+  "generated_at": "2026-10-29T00:00:00Z"
 }
