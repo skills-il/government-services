@@ -11,14 +11,14 @@ A plain-language guide to Hebrew bureaucratic terms. When government documents u
 | שומה | Shomah | Tax assessment: the government's calculation of how much tax you owe | החישוב של רשות המסים לגבי כמה מס אתם חייבים |
 | שומה לפי מיטב השפיטה | Shomah lefi meitav hashfita | The Tax Authority calculated your tax without your input because you did not file or they reject your numbers | רשות המסים חישבה לבד כי לא הגשתם דו"ח או שהם לא מסכימים עם המספרים שלכם |
 | שומה עצמית | Shomah atzmit | Self-assessment: the tax return you filed yourself | הדו"ח שאתם הגשתם בעצמכם |
-| השגה | Hasagah | Formal objection to a tax assessment (must be filed within 30 days) | התנגדות רשמית לשומה (חובה להגיש תוך 30 יום) |
+| השגה | Hasagah | Formal objection to an assessment (income tax and VAT: within 30 days; arnona: within 90 days) | התנגדות רשמית לשומה (מס הכנסה ומע"מ: תוך 30 יום; ארנונה: תוך 90 יום) |
 | ערעור | Irur | Appeal (to a higher authority or court after your objection was rejected) | פנייה לרשות גבוהה יותר או לבית משפט אחרי שההתנגדות נדחתה |
 | ניכוי מס במקור | Nikui mas bamakor | Tax withheld from your income before you receive it (like your employer deducting tax from your salary) | מס שמנכים מההכנסה שלכם לפני שאתם מקבלים אותה |
 | החזר מס | Hehzer mas | Tax refund: money the government owes you back | כסף שהמדינה חייבת להחזיר לכם |
 | פקודת מס הכנסה | Pkudat mas hachnasa | Income Tax Ordinance: the main law governing income tax in Israel | החוק הראשי שמסדיר מס הכנסה בישראל |
 | סעיף 150 | Saif 150 | Section 150 of the Income Tax Ordinance: the taxpayer's right to object (השגה) to an assessment, in writing with reasons, within 30 days of delivery. (Reopening a past-year assessment is a different provision, Section 147) | זכות ההשגה על שומה: הגשת השגה בכתב עם נימוקים תוך 30 יום ממסירת השומה (פתיחת שומה של שנה קודמת היא סעיף 147 הנפרד) |
 | הפרשי הצמדה וריבית | Hefreshei hatzmada veribbit | Linkage differentials and interest: extra charges added to debts to account for inflation and time | תוספות על חובות בגלל אינפלציה וריבית |
-| מס ערך מוסף (מע"מ) | Ma'am (MAM) | Value Added Tax (VAT): 18% tax on goods and services (raised from 17% on January 1, 2025) | מס של 18% על מוצרים ושירותים (עלה מ-17% ב-1 בינואר 2025) |
+| מס ערך מוסף (מע"מ) | Ma'am (MAM) | Value Added Tax (VAT): 18% tax on goods and services | מס של 18% על מוצרים ושירותים |
 | עוסק מורשה | Osek murshe | Licensed/authorized dealer: a business registered for VAT above the small business threshold | עסק רשום למע"מ מעל תקרת העוסק הפטור |
 | עוסק פטור | Osek patur | Exempt dealer: a small business below the VAT threshold | עסק קטן שלא חייב במע"מ |
 | תיאום מס | Tium mas | Tax coordination: adjustment of tax withholding when you have multiple income sources | התאמת ניכוי מס כשיש כמה מקורות הכנסה |
@@ -76,7 +76,7 @@ A plain-language guide to Hebrew bureaucratic terms. When government documents u
 | פסק דין | Psak din | Judgment: the court's final decision | ההחלטה הסופית של בית המשפט |
 | פסק דין בהיעדר הגנה | Psak din beheader hagana | Default judgment: the court decided against you because you did not respond | בית המשפט פסק נגדכם כי לא הגבתם |
 | צו ביניים | Tzav beinaim | Interim order: a temporary court order until the case is fully decided | צו זמני עד שהתיק יוכרע |
-| עיקול | Ikul | Lien/seizure/garnishment: your assets or bank account have been frozen by court order | הנכסים או חשבון הבנק שלכם הוקפאו בצו בית משפט |
+| עיקול | Ikul | Lien/seizure/garnishment: your assets or bank account have been frozen, either through the Execution Office or, for municipal and other public debts, by an administrative seizure that needs no court order | הנכסים או חשבון הבנק שלכם הוקפאו, דרך ההוצאה לפועל או, בחובות לעירייה ולגופים ציבוריים, בעיקול מנהלי שלא דורש צו בית משפט |
 | הוצאה לפועל | Hotzaa lapoal | Execution/enforcement: the process of forcibly collecting a court-ordered debt | תהליך גביית חוב שנפסק בבית משפט בכוח |
 | התנגדות | Hitnagdut | Opposition/objection: a formal challenge to a claim or decision | התנגדות רשמית להחלטה או תביעה |
 | ייפוי כוח | Yipui koach | Power of attorney: authorization for someone to act on your behalf | הרשאה למישהו לפעול בשמכם |

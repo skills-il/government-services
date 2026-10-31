@@ -1,14 +1,15 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-bureaucracy-decoder",
-  "generated_at": "2026-06-16T00:00:00Z",
+  "generated_at": "2026-10-29T00:00:00Z",
   "claims": [
     {
       "claim": "An objection (השגה) to an income tax assessment must be filed in writing within 30 days under Section 150 of the Income Tax Ordinance (סעיף 150 לפקודת מס הכנסה).",
       "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
       "raw_snippet": "150. זכות השגה לפני פקיד השומה [תיקון: תשל״ה־2, תשנ״ז־3, תשס״ג־4] (א) היה אדם חולק על השומה, רשאי הוא לבקש מאת פקיד השומה, בהודעת השגה, בכתב, לחזור ולעיין ולשנות את השומה; בקשה כאמור תפרש בדיוק את הנימוקים להשגה על השומה ותוגש תוך שלושים יום מיום המצאת הודעת השומה",
       "fetched_at": "2026-08-10",
-      "source_note": "Statute text of the Income Tax Ordinance on he.wikisource; gov.il and nevo returned 403/404 to non-browser fetchers."
+      "source_note": "Statute text of the Income Tax Ordinance on he.wikisource; gov.il and nevo returned 403/404 to non-browser fetchers.",
+      "claim_id": "legacy-an-objection-to-an-income-tax-assessment"
     },
     {
       "claim": "Section 147 (סעיף 147) of the Income Tax Ordinance is a distinct provision under which the Director (המנהל) issues a decision - separate from the objection provision, Section 150 (סעיף 150). Neither number is a form number.",
@@ -16,80 +17,97 @@
       "raw_snippet": "האמור בסעיפים קטנים (ג) עד (ו) יחול גם על החלטת המנהל לפי סעיף 147.",
       "fetched_at": "2026-08-11",
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-section-147-147-of-the-income-tax-ordina"
     },
     {
       "claim": "ITA Form 150 (טופס 150) is a declaration of holdings in shares of a company abroad, filed with the annual income tax return. It is unrelated to tax objections (which are filed under Section 150 of the Ordinance, a section number, not a form).",
       "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
       "raw_snippet": "טופס 150 - הצהרה על החזקה במניות של חברה בחו\"ל",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-ita-form-150-150-is-a-declaration-of-hol"
     },
     {
       "claim": "Reserve duty (מילואים) minimum daily tagmul is 328.76 ש\"ח / 328.76 NIS effective 01.01.2026, legal basis Section 272 (סעיף 272) of the National Insurance Law; worked example in the skill body: 328.76 times 15 days equals 4,931.40 NIS / 4,931.40 ש\"ח. Hebrew rendering used in SKILL_HE.md: 328.76 שקל, 4,931.40 שקל.",
       "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
       "raw_snippet": "תלמיד במוסד להשכלה גבוהה, מי שאינו עובד ומי שעובד ושכרו החודשי מתחת למינימום – השכר היומי מחושב לפי 328.76 ש\"ח (החל ב- 01.01.2026)",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-10",
+      "claim_id": "legacy-reserve-duty-minimum-daily-tagmul-is-328"
     },
     {
-      "claim": "Freedom of Information: the request fee is 24 NIS; the public body must give its decision within 30 days and, for a complex request, may extend the answer up to 120 days; benefit recipients are exempt from the request fee and from payment for 7 hours of production work. NOT SUPPORTED by this page and flagged for removal from references/government-bodies-guide.md: the claim that the 24 NIS covers 'the first 3 hours of processing' and that a handling charge of about 36 NIS / 36 ₪ per hour applies from the 4th hour.",
+      "claim": "Freedom of Information: the request fee is 24 NIS; the public body must give its decision within 30 days and, for a complex request, may extend the answer up to 120 days. The hourly handling fee from the 4th hour is sourced separately (foi-handling-fee-4th-hour).",
       "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
       "raw_snippet": "ככלל הגשת בקשה למידע כרוכה בתשלום אגרה על סך 24 שקלים",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-freedom-of-information-the-request-fee-i"
     },
     {
       "claim": "VAT (מע\"מ) is charged at a fixed rate of the transaction price; as of January 2026 the rate is 18%. (The skill's glossary additionally notes it was raised from 17% on 1 January 2025 - a documented change, but not stated on this page.)",
       "source_url": "https://www.gov.il/he/pages/vat-to-the-new-dealer",
       "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה (נכון לינואר 2026 שיעור המע״מ הוא 18%).",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-vat-is-charged-at-a-fixed-rate-of-the-tr"
     },
     {
       "claim": "Municipalities may grant arnona discounts under law and offer bi-monthly payment arrangements. Illustrative worked example used in the skill body (not a published rate): a 25% arnona discount leaving a balance of 8,400 NIS / 8,400 ש\"ח payable in 6 installments. Hebrew rendering used in SKILL_HE.md: 8,400 שקל.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94",
       "raw_snippet": "הרשויות המקומיות רשאיות לאפשר לתושביהן הסדרי תשלום שונים (כגון תשלום בהוראת קבע או תשלום דו-חודשי), לתת הנחות בהתאם להוראות הדין, וכן למחוק חובות ארנונה.",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-10",
+      "claim_id": "legacy-municipalities-may-grant-arnona-discount",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
       "claim": "Small claims ceiling is 39,900 ₪ / 39,900 NIS as of January 2026. Illustrative worked example in the skill body: a claim for 12,000 NIS / 12,000 ש\"ח. Hebrew rendering used in SKILL_HE.md: 12,000 שקל.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
       "raw_snippet": "דף זה עוסק באפשרות הקיימת לכל אדם להגיש לבית משפט לתביעות קטנות תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-10",
+      "claim_id": "legacy-small-claims-ceiling-is-39-900-39-900-ni",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
-      "claim": "Income-tax forms attached to the gov.il 2025 annual-return service page, with their official titles: טופס 135 short annual return; טופס 1301 annual income return; טופס 150 declaration of shareholdings in a company abroad; טופס 119 credit for completing academic/vocational studies; טופס 134 computations following excess employer payments to keren hishtalmut and gemel funds; טופס 1325 aid form for aggregating securities sales by tax rate. Also referenced by the skill but NOT listed on this page and still needing their own sources: טופס 101, טופס 106, טופס 1214, טופס 1227 (and the same numbers written star-prefixed in the skill's table as *1214, *1227, *1301, *1325, which are form numbers, not phone lines).",
+      "claim": "Income-tax forms attached to the gov.il 2025 annual-return service page, with their official titles: טופס 135 short annual return; טופס 1301 annual income return; טופס 150 declaration of shareholdings in a company abroad; טופס 119 credit for completing academic/vocational studies; טופס 134 computations following excess employer payments to keren hishtalmut and gemel funds; טופס 1325 aid form for aggregating securities sales by tax rate.",
       "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
       "raw_snippet": "טופס 135 - דין וחשבון שנתי מקוצר לשנת המס 2025; טופס 1301 - דו\"ח הכנסות 2025; טופס 150 - הצהרה על החזקה במניות של חברה בחו\"ל; טופס 119 - זיכוי עבור סיום לימודים אקדמאים ולימודים מקצועיים 2025; טופס 134 - חישובים בעקבות תשלומים עודפים של מעביד לקרן השתלמות וקופות גמל לשנת 2025; טופס 1325 - טופס עזר לריכוז מכירות של ניירות ערך על פי שיעורי המס 2025",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-income-tax-forms-attached-to-the-gov-il"
     },
     {
-      "claim": "טופס 821 (Form 821) is the VAT REGISTRATION form filed when opening a VAT file (for a partnership or company, 821 combined with 821א). NOT supported by any source found in this pass and flagged for re-verification: the skill's descriptions of טופס 821 as the periodic VAT return, טופס 852 as the annual VAT summary, and טופס 874 as the VAT registration form.",
+      "claim": "טופס 821 (Form 821) is the VAT REGISTRATION form filed when opening a VAT file (for a partnership or company, 821 combined with 821א).",
       "source_url": "https://www.gov.il/he/pages/vat-to-the-new-dealer",
       "raw_snippet": "טופס רישום מלא וחתום על כל פרטיו ( טופס 821 ) תעודת זהות. חוזה קנייה/שכירות של מקום העסק.",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-821-form-821-is-the-vat-registration-fo"
     },
     {
       "claim": "Bituach Leumi national call centre is *6050 or 04-8812345.",
       "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
       "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-10",
+      "claim_id": "legacy-bituach-leumi-national-call-centre-is-60"
     },
     {
       "claim": "The Israel Tax Authority gov.il department page is the skill's primary tax reference portal: it unifies the income tax, real-estate taxation, VAT, purchase tax, customs and stamp duty divisions. Every other portal the skill links to is verified in its own entry below.",
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים.",
       "fetched_at": "2026-08-11",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-08-11",
+      "claim_id": "legacy-the-israel-tax-authority-gov-il-departme"
     },
     {
       "claim_id": "small-claims-defence-30-days",
       "claim": "The defendant must file a written defence (כתב הגנה) within 30 days of receiving the statement of claim.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
       "raw_snippet": "על הנתבע להגיש כתב הגנה תוך 30 יום מקבלת כתב התביעה.",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-10",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
       "claim_id": "eca-portal-moved",
@@ -195,42 +213,6 @@
       "verified_at": "2026-08-11"
     },
     {
-      "claim_id": "portal-knesset-legislation",
-      "claim": "Knesset legislation portal, live 2026-08-11 (blocks plain fetches; read in a browser).",
-      "source_url": "https://main.knesset.gov.il/Activity/Legislation",
-      "raw_snippet": "תפקידה העיקרי של הכנסת הוא לחוקק חוקים.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "references/government-bodies-guide.md"
-      ],
-      "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "portal-eca-dead-he",
-      "claim": "DEAD LINK: this URL now serves gov.il's 404 error page. The Enforcement and Collection Authority moved to /he/departments/law_enforcement_and_collection_system_authority. The skill still cites the dead URL.",
-      "source_url": "https://www.gov.il/he/departments/enforcement_and_collection_authority",
-      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "references/government-bodies-guide.md"
-      ],
-      "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "portal-eca-dead-en",
-      "claim": "DEAD LINK: the English variant of the Enforcement and Collection Authority URL redirects to the same gov.il error page. The skill still cites it.",
-      "source_url": "https://www.gov.il/en/departments/enforcement_and_collection_authority",
-      "raw_snippet": "מצטערים, העמוד שחיפשת לא נמצא",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "references/government-bodies-guide.md"
-      ],
-      "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11"
-    },
-    {
       "claim_id": "foi-120-day-complex-extension",
       "claim": "A public body must answer a Freedom of Information request within 30 days at most; for a complex request it may extend the response deadline up to 120 days, notifying the applicant in writing with reasons.",
       "source_url": "https://www.gov.il/he/service/freedom_of_information_submission",
@@ -265,6 +247,1313 @@
       "verified_at": "2026-08-12",
       "appears_in": [
         "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-101-7-days",
+      "claim": "Form 101 (טופס 101) is submitted to the employer within 7 days of starting work and again at the start of each tax year.",
+      "source_url": "https://www.gov.il/he/service/itc101",
+      "raw_snippet": "את הטופס המלא יש להגיש למעסיק בצירוף המסמכים הרלונטיים בתוך 7 ימים מרגע התחלת העבודה אצלו.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-135-short-report",
+      "claim": "Form 135 is the short report for individuals who are not a company and are not required to file, used to request refunds up to 6 years back.",
+      "source_url": "https://www.gov.il/he/service/itc135",
+      "raw_snippet": "השירות מאפשר ליחידים, שאינם חברה ואינם חייבים להגיש דו\"ח מס שנתי, להגיש דוח מס מקוצר ולבקש החזרי מס עד 6 שנים אחורה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-1214-company-return",
+      "claim": "Form 1214 is the company annual return.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-annual-tax-report-2025-companies",
+      "raw_snippet": "דיווח ותשלום - דוח מס שנתי 2025 לחברות (טופס 1214)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "company-return-deadline-2025",
+      "claim": "Companies required to file for tax year 2025 must file by 31.7.2026 (July 31, 2026).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-annual-tax-report-2025-companies",
+      "raw_snippet": "חברות, מלכ\"רים ובעלי שליטה החייבים בהגשת דו\"ח - יגישו עד 31.7.2026.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-7000-30-days",
+      "claim": "A real-estate sale is declared to Taxes on Land on Form 7000 (טופס 7000) within 30 days of the sale, under s.73(a) of the Real Estate Taxation Law.",
+      "source_url": "https://www.gov.il/he/service/real-estate-tax-7000",
+      "raw_snippet": "בהתאם להוראות סעיף 73(א) לחוק מיסוי מקרקעין, על המוכר להגיש הצהרה בתוך 30 ימים מיום המכירה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-134-title",
+      "claim": "Form 134 is the computation following excess employer contributions to a keren hishtalmut or provident funds.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 134 - חישובים בעקבות תשלומים עודפים של מעביד לקרן השתלמות וקופות גמל לשנת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1320",
+      "claim": "Form 1320 is the profit and loss annex for the self-employed.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1320 (נספח א') - דוח רווח והפסד לבעלי עסק עצמאי לשנת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1321",
+      "claim": "Form 1321 computes taxable non-business income.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1321 - חישוב הכנסה החייבת במס שאינה מהעסק לשנת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1324",
+      "claim": "Form 1324 reports foreign income.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1324 - הכנסות מחו\"ל ומס ששולם עליהן לשנת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1342",
+      "claim": "Form 1342 lists depreciable assets.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1342 - פרטים על נכסים שניתן לתבוע עבורם פחת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1344",
+      "claim": "Form 1344 reports carried-forward losses.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1344 - דיווח על הפסדים מועברים משנת מס קודמת לשנת 2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-1348",
+      "claim": "Form 1348 is the residency declaration.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 1348 - הצהרת תושבות",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "vat-821-registration",
+      "claim": "Form 821 is the application to open an osek murshe VAT file.",
+      "source_url": "https://www.gov.il/he/service/vat-821",
+      "raw_snippet": "בקשה לפתיחת תיק עוסק מורשה (טופס 821)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "vat-periodic-15-19",
+      "claim": "Periodic VAT reports are due by the 15th, or the 19th when filed and paid online.",
+      "source_url": "https://www.gov.il/he/service/reporting-or-payment-of-vat-reports",
+      "raw_snippet": "את הדוחות התקופתיים שמוגשים באופן מקוון, ניתן לדווח ולשלם עד ל-19 בכל חודש (במקום עד ל-15 בכל חודש).",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "vat-detailed-23",
+      "claim": "The detailed VAT report is filed and paid online by the 23rd of the month.",
+      "source_url": "https://www.gov.il/he/service/detailed-vat-reporting",
+      "raw_snippet": "הגשת הדו\"ח ותשלום המס באופן מקוון, תתבצע עד ה-23 בחודש.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "osek-patur-declaration",
+      "claim": "An osek patur files an annual declaration of turnover for the past tax year.",
+      "source_url": "https://www.gov.il/he/service/vat-declarationisexempt",
+      "raw_snippet": "הצהרה על מחזור עסקיו של העוסק הפטור בשנת המס שחלפה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "ito-150-30-days",
+      "claim": "Income Tax Ordinance s.150: an objection is filed within 30 days of service of the assessment notice.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "ותוגש תוך שלושים יום מיום המצאת הודעת השומה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "tax-appeal-30-days-reg2",
+      "claim": "Income Tax appeal regulations, reg. 2 (תקנה 2): an appeal is filed within 30 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%A4%D7%98_%28%D7%A2%D7%A8%D7%A2%D7%95%D7%A8%D7%99%D7%9D_%D7%91%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94%29",
+      "raw_snippet": "ערעור על שומה יוגש בהודעה בכתב תוך שלושים יום מהיום שבו נמסרה השומה למערער.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "deficiency-fine-is-assessment",
+      "claim": "A deficiency fine (s.191) is treated as an assessment for the purposes of ss.149-152, so the objection route applies. (סעיף 191)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "דין הוספת קנס על גרעון לפי סעיף זה כדין שומה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "late-filing-fine-s188",
+      "claim": "The late-filing fine (s.188) is a fixed amount per month of delay.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "יוטל עליו בעד כל חודש של פיגור קנס",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "ita-personal-area",
+      "claim": "The Tax Authority gov.il page links the personal area (\"אזור אישי ברשות המסים\") at secapp.taxes.gov.il/sr-ezor-ishi.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "אזור אישי ברשות המסים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "btl-502-miluim",
+      "claim": "BL/502 is the personal reserve-duty compensation claim for those who are not monthly salaried employees, with IDF form 3010.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/Reserve_Service_forms/Pages/502.aspx",
+      "raw_snippet": "מיועד להגשת תביעה אישית לתגמולי מילואים על ידי מי שאינו עובד שכיר (חודשי). יש לצרף לתביעה אישור מצה\"ל - טופס 3010.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-miluim-selfemployed-3-weeks",
+      "claim": "Self-employed reservists are usually paid automatically and claim only if unpaid within 3 weeks of the end of service.",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%9e%d7%a7%d7%95%d7%9d%20%d7%95%d7%90%d7%95%d7%a4%d7%9f%20%d7%94%d7%94%d7%92%d7%a9%d7%94.aspx",
+      "raw_snippet": "אך עובד עצמאי שלא קיבל את תגמול המילואים בתוך 3 שבועות מסיום השירות, יוכל להגיש תביעה אישית.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-211-work-injury-12m",
+      "claim": "A work-injury claim is filed within 12 months of the injury.",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/%d7%93%d7%9e%d7%99%20%d7%a4%d7%92%d7%99%d7%a2%d7%94/Pages/%d7%90%d7%95%d7%a4%d7%9f%20%d7%94%d7%92%d7%a9%d7%aa%20%d7%aa%d7%91%d7%99%d7%a2%d7%94%20%d7%9c%d7%93%d7%9e%d7%99%20%d7%a4%d7%92%d7%99%d7%a2%d7%94.aspx",
+      "raw_snippet": "בתוך 12 חודשים מיום הפגיעה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-maternity-12m",
+      "claim": "A maternity claim filed more than 12 months after work stopped may lose the right.",
+      "source_url": "https://www.btl.gov.il/benefits/maternity/Childbirth_Allowance/Pages/%d7%90%d7%95%d7%a4%d7%9f%20%d7%94%d7%92%d7%a9%d7%aa%20%d7%94%d7%aa%d7%91%d7%99%d7%a2%d7%94.aspx",
+      "raw_snippet": "אם תגישי את התביעה לאחר שיחלפו 12 חודשים מיום הפסקת העבודה, את עשויה לאבד את זכאותך לדמי הלידה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-7801-disability",
+      "claim": "BL/7801 is the general disability claim for insured persons over 18 whose earning capacity fell by 50% or more.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/General_Disability_forms/Pages/default.aspx",
+      "raw_snippet": "או שכושרו להשתכר הצטמצם ב-50% ומעלה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-1500-unemployment-12m",
+      "claim": "Unemployment claims are filed within 12 months of first reporting to the Employment Service.",
+      "source_url": "https://www.btl.gov.il/benefits/Unemployment/Pages/submit.aspx",
+      "raw_snippet": "את התביעה והמסמכים עליך להגיש בתוך 12 חודשים, מהיום שבו התייצבת לראשונה בשירות התעסוקה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-5025-child",
+      "claim": "BL/5025 is the personal child-allowance claim.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/children_forms/Pages/default.aspx",
+      "raw_snippet": "טופס תביעה אישית לקצבת ילדים (5025)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-480-old-age",
+      "claim": "BL/480 is the old-age pension claim; BTL mails a claim about a month before retirement age.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/Old_Age_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה לקצבת אזרח ותיק - זקנה (480)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-580-hostile",
+      "claim": "BL/580 is the hostile-action injury notice and recognition claim.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/Victims_of_%20Hostilities_forms/Pages/default.aspx",
+      "raw_snippet": "הודעה על פגיעה בפעולות איבה ותביעה להכרה כנפגע פעולות איבה (580)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-appeal-12m",
+      "claim": "A BTL decision is appealed to the regional labor court within 12 months (6 months for alimony).",
+      "source_url": "https://www.btl.gov.il/benefits/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%95%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93%20%d7%9c%d7%91%d7%99%d7%98%d7%95%d7%97%20%d7%9c%d7%90%d7%95%d7%9e%d7%99/Pages/%d7%91%d7%aa%d7%99%20%d7%94%d7%93%d7%99%d7%9f%20%d7%94%d7%90%d7%96%d7%95%d7%a8%d7%99%d7%99%d7%9d%20%d7%9c%d7%a2%d7%91%d7%95%d7%93%d7%94.aspx",
+      "raw_snippet": "את הערעור לבית הדין האיזורי יש להגיש בתוך 12 חודשים מיום שנמסרה לך החלטת הביטוח הלאומי.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "btl-medcom-general-60",
+      "claim": "General disability: ערר on a medical decision within 60 days, in writing with reasons; then appeal on law only to the labor court within 60 days.",
+      "source_url": "https://www.btl.gov.il/benefits/vaadotRefuiyot/erurVadot/Pages/erurNechut.aspx",
+      "raw_snippet": "בכתב ובצירוף נימוקים, בתוך 60 ימים מיום שקיבלת את ההודעה הכתובה על ההחלטה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "btl-medcom-law-60",
+      "claim": "Appeal from a medical appeals committee is on questions of law only, to the labor court, within 60 days.",
+      "source_url": "https://www.btl.gov.il/benefits/vaadotRefuiyot/erurVadot/Pages/erurNechut.aspx",
+      "raw_snippet": "את הערעור יש למסור לבית הדין בכתב בתוך 60 יום ממועד קבלת ההודעה על החלטת הוועדה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-medcom-workinjury-30",
+      "claim": "Work injury: ערר within 30 days; reasons may follow within 60 days.",
+      "source_url": "https://www.btl.gov.il/benefits/vaadotRefuiyot/erurVadot/Pages/erurNechutMeavoda.aspx",
+      "raw_snippet": "את נימוקי הערעור אפשר למסור גם בתוך 60 יום מיום קבלת ההודעה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "ni-law-s272",
+      "claim": "National Insurance Law s.272 (סעיף 272, Chapter XII) sets the daily reserve-duty compensation rate and its minimum floor.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+      "raw_snippet": "לא יפחת שיעור התגמול ליום מהתגמול המזערי ולא יעלה על התגמול המרבי.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "civil-defence-60-reg9",
+      "claim": "Civil Procedure Regulations 2018 reg. 9: a statement of defence is filed within 60 days of service.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "raw_snippet": "כתב הגנה יוגש בתוך שישים ימים ממועד המצאת כתב התביעה לידי הנתבע",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "civil-appeal-60-reg137",
+      "claim": "Civil Procedure Regulations 2018 reg. 137: an appeal is filed within 60 days of service of the decision (including a judgment). (תקנה 137)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "raw_snippet": "המועד להגשת ערעור על החלטה הוא שישים ימים מיום שהומצאה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "arnona-90-days",
+      "claim": "Arnona: השגה within 90 days of receiving the payment notice.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%A2%D7%A8%D7%A8_%D7%A2%D7%9C_%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%29",
+      "raw_snippet": "רשאי תוך תשעים ימים מיום קבלת הודעת התשלום להשיג עליה לפני מנהל הארנונה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "arnona-erer-30-days",
+      "claim": "Arnona: ערר on the manager's answer within 30 days, then appeal to the Administrative Affairs Court.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%A2%D7%A8%D7%A8_%D7%A2%D7%9C_%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%29",
+      "raw_snippet": "תוך שלושים יום מיום שנמסרה לו התשובה, לערור עליה לפני ועדת ערר.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "planning-permit-erer-30",
+      "claim": "Permit refusal: ערר to the appeals committee within 30 days of service (s.152).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "רשאי לערור בפני ועדת הערר תוך שלושים ימים מיום שהומצאה לו ההחלטה בדבר הסירוב או הדחיה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "planning-plan-objection-2m",
+      "claim": "Objections to a deposited plan within two months of publication, extendable to three (s.102).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "התנגדות לתכנית תוגש תוך חודשיים מהיום שפורסמה הודעה על הפקדתה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "planning-admin-order-15",
+      "claim": "Administrative demolition order: a request to cancel goes to the competent court within 15 days of service (s.228).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "הרואה את עצמו נפגע מצו מינהלי רשאי להגיש בקשה לביטול הצו לבית המשפט המוסמך",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-judgment-20-days",
+      "claim": "Execution Law s.7(a): on a judgment file, 20 days from service of the warning.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "והכל בתוך תקופה של 20 ימים מיום המצאת האזהרה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-bill-30-days",
+      "claim": "Execution Law s.81א: on a bill file, opposition within 30 days of service of the warning.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "המועד להגשת התנגדות לביצוע הבקשה יהיה שלושים ימים מיום המצאת האזהרה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "taxes-collection-15-days",
+      "claim": "Taxes Ordinance (Collection) s.4: when a debt is unpaid 15 days after it fell due and a written demand was sent, the collector may seize movables without a court order.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%9E%D7%A1%D7%99%D7%9D_%28%D7%92%D7%91%D7%99%D7%94%29",
+      "raw_snippet": "ולא שלם אותו אדם את הסכום בתוך חמשה עשר יום למן היום שהיה חייב לפרעו ולאחר שנשלחה אליו דרישה בכתב",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "piba-erer-30-days",
+      "claim": "Entry into Israel Law s.13כד(ב): ערר within 30 days of the decision, notice or knowledge, whichever is earlier.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+      "raw_snippet": "ערר יוגש בכתב, בתוך 30 ימים מיום שההחלטה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "piba-appeal-45-days",
+      "claim": "A final Appeals Tribunal decision is appealed to the Administrative Affairs Court within 45 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+      "raw_snippet": "ערעור לפי סעיף קטן זה יוגש בתוך 45 ימים מיום מתן החלטת בית הדין לעררים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-45-days",
+      "claim": "Administrative petition: no later than 45 days from the decision, notice or knowledge (reg. 3).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "ולא יאוחר מארבעים וחמישה ימים מיום שההחלטה פורסמה כדין",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "piba-population-services",
+      "claim": "PIBA's gov.il page carries the passport and ID card services.",
+      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
+      "raw_snippet": "בקשה לדרכון",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "foi-extension-60",
+      "claim": "FOI Law s.7: extension by 30 more days, and a further extension that in any case does not exceed 60 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%A4%D7%A9_%D7%94%D7%9E%D7%99%D7%93%D7%A2",
+      "raw_snippet": "ובכל מקרה לא תעלה על 60 ימים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "foi-handling-fee-4th-hour",
+      "claim": "FOI fees regulations: a handling fee per hour of work from the 4th hour (36 NIS indexed).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%A4%D7%A9_%D7%94%D7%9E%D7%99%D7%93%D7%A2_%28%D7%90%D7%92%D7%A8%D7%95%D7%AA%29",
+      "raw_snippet": "לכל שעת עבודה באיתור המידע, במיונו או בטיפול אחר בבקשה, החל בשעה הרביעית.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "apostille-israeli-docs",
+      "claim": "An Israeli apostille authenticates Israeli court documents and notarial signatures for use in another Hague-convention country.",
+      "source_url": "https://www.gov.il/he/service/apostille-approval-for-countries",
+      "raw_snippet": "היא מתקבלת רק במדינות החברות באמנת האג (1961).",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "apostille-mfa-manual",
+      "claim": "Other public certificates get an apostille manually at the Foreign Ministry.",
+      "source_url": "https://www.gov.il/he/service/electronic-apostille",
+      "raw_snippet": "ניתן לקבל חותמת אפוסטיל על תעודות ציבוריות נוספות, באופן ידני במשרד החוץ.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "planning-admin-interior",
+      "claim": "The Planning Administration reports annually to the Minister of the Interior on local planning committees.",
+      "source_url": "https://www.gov.il/he/departments/iplan",
+      "raw_snippet": "לפי הדוח השנתי של מינהל התכנון לשר הפנים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "esign-two-cas",
+      "claim": "The Justice Ministry recognises two companies as certification authorities: Comsign and Personal ID.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/notaries-certificates/he/guidelines_electronic_notaryized_certificate%20.pdf",
+      "raw_snippet": "כיום יש שתי חברות שהוכרו על ידי משרד המשפטים כגורם מאשר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "login-gov-il",
+      "claim": "login.gov.il is the national government identification system for Israel's digital services.",
+      "source_url": "https://login.gov.il",
+      "raw_snippet": "כניסה בטוחה לשירותי הדיגיטל של ישראל",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "open-law-book",
+      "claim": "The Open Law Book on Hebrew Wikisource carries consolidated Israeli legislation.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A1%D7%A4%D7%A8_%D7%94%D7%97%D7%95%D7%A7%D7%99%D7%9D_%D7%94%D7%A4%D7%AA%D7%95%D7%97",
+      "raw_snippet": "ספר החוקים הפתוח",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govisit-books-piba",
+      "claim": "govisit.gov.il books PIBA (ID cards, passports, population registry), Ministry of Transport and court-system appointments.",
+      "source_url": "https://govisit.gov.il/he/home",
+      "raw_snippet": "רשות האוכלוסין וההגירה תעודות זהות ודרכונים, שינויים ועדכונים במרשם האוכלוסין, אזרחות, תעודות, ביקורת גבולות",
+      "fetched_at": "2026-10-29",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "form-106-march-31",
+      "claim": "Form 106 (טופס 106) must be handed to employees by March 31 of the year after the tax year.",
+      "source_url": "https://www.gov.il/he/service/itc-106",
+      "raw_snippet": "המעסיקים מחויבים למסור את הטופס המלא לעובדים, עד 31 במרץ בשנה שלאחר שנת המס.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-211-form",
+      "claim": "BL/211 is the claim for work-injury pay and notice of a work injury.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/Work_Disability_and_Dependants_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה לתשלום דמי פגיעה והודעה על פגיעה בעבודה (211)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-355-360-forms",
+      "claim": "BL/355 is the maternity claim for the mother; 360 is the father's form.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/maternity_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה לתשלום דמי לידה ליולדת (355)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-1500-1514-forms",
+      "claim": "BL/1500 is the unemployment claim; 1514 is the employer certificate.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/unemployment_forms/Pages/default.aspx",
+      "raw_snippet": "אישור המעסיק על תקופת ההעסקה והשכר (1514)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-1500-form",
+      "claim": "BL/1500 is the unemployment claim form.",
+      "source_url": "https://www.btl.gov.il/%d7%98%d7%a4%d7%a1%d7%99%d7%9d%20%d7%95%d7%90%d7%99%d7%a9%d7%95%d7%a8%d7%99%d7%9d/forms/unemployment_forms/Pages/default.aspx",
+      "raw_snippet": "תביעה לדמי אבטלה (1500)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "btl-child-auto",
+      "claim": "Child allowance is usually paid automatically about a month after the birth.",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
+      "raw_snippet": "ברוב המקרים הקצבה משולמת באופן אוטומטי (כחודש מהלידה)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "piba-personal-area",
+      "claim": "PIBA's gov.il page carries a \"לאזור האישי\" (personal area) link.",
+      "source_url": "https://www.gov.il/he/departments/population_and_immigration_authority",
+      "raw_snippet": "לאזור האישי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md",
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ito-153-district-court",
+      "claim": "ITO s.153: an objection decision (order under s.152(b)) is appealed to the District Court. (סעיף 152)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "רשאי לערער לפני בית המשפט המחוזי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "planning-admin-order-venue",
+      "claim": "s.228(b)-(c): the court is the Magistrate Court, or the court for local affairs for orders of the local committee; filing does not stay the order.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "הוגשה בקשה לביטול הצו, לא יהיה בהגשת הבקשה כשלעצמה כדי לעכב את ביצוע הצו.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "planning-admin-order-local-court",
+      "claim": "For an order by the local committee chair or engineer the competent court is the court for local affairs.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "בית המשפט לעניינים מקומיים שבתחום שיפוטו נמצאים המקרקעין",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "form-1301-deadlines-2025",
+      "claim": "Tax year 2025 individuals: non-online filers by 29.5.2026 (May 29, 2026), online filers by 30.6.2026 (June 30, 2026).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "יגישו עד 29.5.2026. יחידים החייבים בהגשת דוח מקוון יגישו עד 30.6.2026.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "annex-6111",
+      "claim": "Form 6111 is the annex coding the financial statements for the annual return.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 6111 - נספח לטופס הדו",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "form-150-official-title",
+      "claim": "Form 150 is the declaration of holding in a foreign-resident body of persons (annex to 1301 / 1214 / 1327).",
+      "source_url": "https://www.gov.il/he/service/itc-150",
+      "raw_snippet": "טופס 150 - הצהרה על החזקה בחבר בני אדם תושב חוץ - נספח לדוח השנתי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "comptroller-complaint-intake",
+      "claim": "complaint.mevaker.gov.il is the State Comptroller and Ombudsman complaint form; the Comptroller and the Ombudsman are one office.",
+      "source_url": "https://complaint.mevaker.gov.il",
+      "raw_snippet": "משרד מבקר המדינה ונציב תלונות הציבור - הגשת תלונה או פנייה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "comptroller-complaint-page",
+      "claim": "The Comptroller site has a complaint landing page.",
+      "source_url": "https://www.mevaker.gov.il/contact-us/%D7%94%D7%92%D7%A9%D7%AA-%D7%AA%D7%9C%D7%95%D7%A0%D7%94",
+      "raw_snippet": "הגשת תלונה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "interior-ministry-page",
+      "claim": "The Interior Ministry gov.il page.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
+      "raw_snippet": "משרד הפנים",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "ita-appointments",
+      "claim": "The Tax Authority gov.il page links appointment booking (זימון תור).",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "באנר זימון תור",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-fixed-sum-30-days",
+      "claim": "Execution Law s.81א1: on a fixed-sum claim file (up to 75,000 NIS on filing), opposition within 30 days of service of the warning.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "בתוך שלושים ימים מיום המצאת האזהרה לפי הוראות סעיף קטן (ה)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/common-government-forms.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-fixed-sum-75000",
+      "claim": "A fixed-sum claim may be filed at the Execution Office if it does not exceed 75,000 NIS on filing.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "ובלבד שסכום התביעה אינו עולה על 75,000 שקלים חדשים ביום הגשתה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "btl-medcom-under-80",
+      "claim": "A general-disability medical ערר is open only if under 80% medical disability was set.",
+      "source_url": "https://www.btl.gov.il/benefits/vaadotRefuiyot/erurVadot/Pages/erurNechut.aspx",
+      "raw_snippet": "אם נקבעו לך פחות מ-80% נכות רפואית",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "vat-82-30-days",
+      "claim": "VAT Law s.82: a reasoned written השגה to the director within 30 days of service of the assessment, or a later date the director allowed. (סעיף 82)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "raw_snippet": "רשאי להשיג עליה בכתב מנומק לפני המנהל, תוך שלושים יום לאחר שהומצאה לו הודעת השומה או תוך מועד מאוחר מזה שהתיר המנהל מטעמים מיוחדים.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py",
+        "references/bureaucratic-hebrew-glossary.md"
+      ]
+    },
+    {
+      "claim_id": "vat-82-year-deemed",
+      "claim": "VAT Law s.82(ד): if the director does not decide within a year of the השגה, it is deemed accepted.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "raw_snippet": "לא החליט המנהל כאמור בסעיף קטן (ב) תוך שנה מיום הגשת ההשגה, יראו את ההשגה כאילו נתקבלה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "vat-83-district-court",
+      "claim": "VAT Law s.83: appeal from the director's decision on the השגה to the District Court. (סעיף 83)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "raw_snippet": "הרואה עצמו מקופח בהחלטת המנהל בהשגה רשאי לערער עליה לפני בית המשפט המחוזי.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "realestate-87-30-days",
+      "claim": "Real Estate Taxation Law s.87: השגה within 30 days of delivery of the assessment notice. (סעיף 87)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%99%D7%A1%D7%95%D7%99_%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_%28%D7%A9%D7%91%D7%97_%D7%95%D7%A8%D7%9B%D7%99%D7%A9%D7%94%29",
+      "raw_snippet": "ותוגש בתוך 30 ימים מיום שנמסרה לו הודעת השומה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "realestate-88-erer-30",
+      "claim": "Real Estate Taxation Law s.88: ערר to the appeals committee within 30 days of delivery of the director's decision. (סעיף 88)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%99%D7%A1%D7%95%D7%99_%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_%28%D7%A9%D7%91%D7%97_%D7%95%D7%A8%D7%9B%D7%99%D7%A9%D7%94%29",
+      "raw_snippet": "תוך שלושים יום מיום שנמסרה לו ההחלטה, לערור עליה לפני ועדת ערר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "fine-229-90-days",
+      "claim": "Criminal Procedure Law s.229: pay a fine notice within 90 days of service unless the recipient acted otherwise.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "ישלם, תוך תשעים ימים מיום ההמצאה, את הקנס הנקוב בהודעה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "fine-229-cancel-30",
+      "claim": "Criminal Procedure Law s.229(א)(1): a request to cancel goes to the prosecutor within 30 days of service. (סעיף 229)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "הגיש לתובע, תוך שלושים ימים מיום ההמצאה, בקשה לביטול",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "fine-229-tried-90",
+      "claim": "Criminal Procedure Law s.229(א)(2): notice of wishing to be tried within 90 days of service.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "הודיע, תוך תשעים ימים מיום ההמצאה, בדרך שנקבעה בתקנות, שיש ברצונו להישפט על העבירה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "landreg-74-15-days",
+      "claim": "Land Registration Regulations reg. 74: ערר to the Registrar Supervisor within 15 days of delivery or knowledge; the supervisor may extend. (תקנה 74)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_%28%D7%A0%D7%99%D7%94%D7%95%D7%9C_%D7%95%D7%A8%D7%99%D7%A9%D7%95%D7%9D%29",
+      "raw_snippet": "היא חמישה עשר ימים מן היום שנמסרה ההחלטה לעורר, ואם לא נמסרה לו – מן היום שהגיעה לידיעתו.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "landreg-74-extension",
+      "claim": "The Registrar Supervisor may extend the reg. 74 period for recorded reasons.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_%28%D7%A0%D7%99%D7%94%D7%95%D7%9C_%D7%95%D7%A8%D7%99%D7%A9%D7%95%D7%9D%29",
+      "raw_snippet": "הממונה רשאי, מטעמים שיירשמו, להאריך את המועד הקבוע בתקנת משנה (א).",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "landreg-76-15-days",
+      "claim": "Land Registration Regulations reg. 76: appeal to the District Court within 15 days of delivery of the supervisor's decision. (תקנה 76)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_%28%D7%A0%D7%99%D7%94%D7%95%D7%9C_%D7%95%D7%A8%D7%99%D7%A9%D7%95%D7%9D%29",
+      "raw_snippet": "היא חמישה עשר ימים מיום שנמסרה ההחלטה למערער",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "landlaw-121-122",
+      "claim": "Land Law ss.121-122: ערר to the Registrar Supervisor on a registrar decision, then appeal to the District Court where the land lies.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "רשאי לערור עליה לפני הממונה על המרשם תוך תקופה שנקבעה בתקנות.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "smallclaims-16-15-30",
+      "claim": "Small Claims Regulations reg. 16: leave to appeal within 15 days of the judgment; 30 days for proceedings opened from 11.4.2025. (תקנה 16)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "הוא 15 ימים מיום מתן פסק הדין או ההחלטה.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "smallclaims-16-from-2025",
+      "claim": "Small Claims Regulations reg. 16 as amended: 30 days for proceedings opened on or after 11.4.2025.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "(החל מיום 11.4.2025, חלה על הליכים שנפתחו החל מיום 11.4.2025)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "smallclaims-reg4-30",
+      "claim": "Small Claims Regulations reg. 4(ב): the summons calls the defendant to file a defence within 30 days of service.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "בהזמנה לדין יוזמן הנתבע להגיש כתב הגנה תוך 30 יום מיום המצאת ההזמנה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py",
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "planning-149-15-days",
+      "claim": "Planning and Building Law s.149: objections to a הקלה or שימוש חורג request within 15 days of publication or of personal delivery. (סעיף 149)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "והקובעת כי התנגדויות לבקשה כאמור יוגשו בתוך 15 ימים ממועד הפרסום",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "arnona-4-60-days",
+      "claim": "Arnona Appeals Law s.4: the manager must answer within 60 days; silence means the השגה is accepted unless the committee extended by up to 30 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%A2%D7%A8%D7%A8_%D7%A2%D7%9C_%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%29",
+      "raw_snippet": "לא השיב מנהל הארנונה תוך ששים יום – ייחשב הדבר כאילו החליט לקבל את ההשגה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "arnona-4-extension-30",
+      "claim": "The arnona appeals committee may extend the manager's answer period by no more than 30 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%A2%D7%A8%D7%A8_%D7%A2%D7%9C_%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%29",
+      "raw_snippet": "ובלבד שתקופת ההארכה לא תעלה על שלושים יום",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "arnona-6b-admin-court",
+      "claim": "Arnona Appeals Law s.6(ב): appeal from the appeals committee to the Administrative Affairs Court.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A8%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A7%D7%95%D7%9E%D7%99%D7%95%D7%AA_%28%D7%A2%D7%A8%D7%A8_%D7%A2%D7%9C_%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%29",
+      "raw_snippet": "על החלטת ועדת ערר רשאים העורר ומנהל הארנונה לערער לפני בית משפט לענינים מינהליים.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "admin-appeal-60-reg23",
+      "claim": "Administrative courts reg. 23(ב): where no period is set, an administrative appeal is filed within 60 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "לא נקבע מועד כאמור, יוגש ערעור מינהלי בתוך שישים ימים.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "btl-alimony-6-months",
+      "claim": "A BTL decision on alimony (מזונות) is appealed within 6 months.",
+      "source_url": "https://www.btl.gov.il/benefits/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%95%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93%20%d7%9c%d7%91%d7%99%d7%98%d7%95%d7%97%20%d7%9c%d7%90%d7%95%d7%9e%d7%99/Pages/%d7%91%d7%aa%d7%99%20%d7%94%d7%93%d7%99%d7%9f%20%d7%94%d7%90%d7%96%d7%95%d7%a8%d7%99%d7%99%d7%9d%20%d7%9c%d7%a2%d7%91%d7%95%d7%93%d7%94.aspx",
+      "raw_snippet": "ערעור בנושא דמי מזונות יש להגיש בתוך 6 חודשים מיום קבלת ההחלטה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "ito-160-six-years",
+      "claim": "ITO s.160: a refund requires the return to have been filed no later than six years after the tax year.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94",
+      "raw_snippet": "והדו״ח לאותה שנה הוגש לא יאוחר מתום שש שנים אחריה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "itc135-2020-2025",
+      "claim": "In 2026 a refund can be requested for 2020-2025.",
+      "source_url": "https://www.gov.il/he/service/itc135",
+      "raw_snippet": "בשנת 2026 ניתן להגיש בקשה להחזר מס בגין השנים 2020-2025",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/common-government-forms.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-81a-stay-transfer",
+      "claim": "Execution Law s.81א: an opposition on a bill file is supported by an affidavit; once filed, the registrar stays execution and transfers the matter to the court.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "ומשהוגשה ההתנגדות יעכב רשם ההוצאה לפועל את הביצוע ויעביר את הענין לבית המשפט.",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/government-bodies-guide.md",
+        "references/domain-checklist.md",
+        "references/common-government-forms.md"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-81a-affidavit",
+      "claim": "The opposition must be supported by an affidavit setting out the facts and grounds.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "החייב רשאי להגיש התנגדות לביצוע הבקשה שתהא נתמכת בתצהיר",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-80-leave-magistrate",
+      "claim": "Execution Law s.80(ב): registrar orders and decisions are appealable by leave of a Magistrate Court judge, and as of right for listed sections. (סעיף 80)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "ניתנים לערעור, ברשות שופט בית משפט השלום לפני בית משפט השלום",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-reg120-20-days",
+      "claim": "Execution Regulations reg. 120 (תקנה 120): an appeal on a registrar decision is filed within 20 days of the decision, or of service if given in the party's absence.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "ערעור יוגש בתוך עשרים ימים מיום מתן ההחלטה או הצו, אם ניתנו בפני הצד המבקש לערער, או מיום שהומצאו לו, אם ניתנו שלא בפניו",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-extension-reg3c",
+      "claim": "Administrative courts reg. 3(ג): the court may extend the petition period.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "בית המשפט רשאי להאריך מועד שנקבע להגשת עתירה",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "references/government-bodies-guide.md"
+      ]
+    },
+    {
+      "claim_id": "smallclaims-leave-district-s64",
+      "claim": "Courts Law s.64: a Small Claims judgment is appealable to the District Court with leave of a District Court judge.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98",
+      "raw_snippet": "פסק דין של בית משפט לתביעות קטנות ניתן לערעור לפני בית משפט מחוזי אם ניתנה רשות לכך מאת שופט של בית המשפט המחוזי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "betterment-45-days",
+      "claim": "Planning and Building Law, Third Schedule: ערר on a betterment levy assessment to the Compensation and Betterment Levy Appeals Committee within 45 days of it coming to the payer's knowledge.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "על שומה לפי סעיף 4 ניתן לערור לפני ועדת ערר לפיצויים ולהיטל השבחה, בתוך 45 ימים מיום שבו הובאה השומה לידיעת החייב",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "labour-appeal-30-days",
+      "claim": "Labour Court procedure regulations: appeal from a regional labour court judgment within 30 days of the hearing or of service, unless another enactment sets a different period.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%99%D7%AA_%D7%94%D7%93%D7%99%D7%9F_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "המועד להגשת ערעור על פסק דין של בית דין אזורי הוא שלושים ימים מיום השימוע",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "labour-appeal-other-law",
+      "claim": "The 30-day period applies when no other enactment sets a different appeal period.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%99%D7%AA_%D7%94%D7%93%D7%99%D7%9F_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "כשאין הוראת חיקוק אחרת הקובעת מועד שונה להגשת ערעור",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "labour-appeal-national-court",
+      "claim": "Labour Court Law s.26: a regional labour court judgment is appealable to the National Labour Court (בית הדין הארצי לעבודה).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%99%D7%AA_%D7%94%D7%93%D7%99%D7%9F_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94",
+      "raw_snippet": "ניתן לערעור לפני בית הדין הארצי",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "hotzaa-80b1-family-court",
+      "claim": "Execution Law s.80(ב1): registrar decisions on executing a family-matter judgment are appealable as of right to the Family Court.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "raw_snippet": "ניתנים לערעור בזכות לפני בית המשפט לעניני משפחה בפני שופט אחד",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/document-analyzer.py"
+      ]
+    },
+    {
+      "claim_id": "betterment-decisive-appraiser",
+      "claim": "Third Schedule s.14(ב): a payer who disputes only the amount may, within the same periods, ask for a decisive appraiser (שמאי מכריע).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%95%D7%94%D7%91%D7%A0%D7%99%D7%94",
+      "raw_snippet": "החייב בהיטל רשאי, אם אין הוא חולק על החיוב כשלעצמו, לפנות, בתוך התקופות האמורות בסעיף קטן (א)",
+      "fetched_at": "2026-10-29",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]

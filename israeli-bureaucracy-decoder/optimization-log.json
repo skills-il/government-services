@@ -12,6 +12,36 @@
         "Resolved this cycle: stale Tax Authority personal-area link mof.gov.il (Finance Ministry) corrected to misim.gov.il in 3 places.",
         "Process note: a research subagent applied the first-pass edits directly; the verification panel then caught two residual stale values it had missed (forms.md small-claims 15-day, script seizure 20-day). Always run the panel even when a prior agent reports the edits done."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-10-29",
+      "lessons": [
+        "Resolved: the forms index was the worst file. All 8 Bituach Leumi form numbers were wrong and 4 tax/VAT descriptions were wrong (1214, 1227, 134, 821/874/852). The prior cycle's evidence pass had already FLAGGED 821/874/852 and the FOI hour claim as unsupported but never applied the fix. A flag in evidence.json is not a fix: grep the claim text for 'NOT supported' / 'flagged' every cycle.",
+        "Resolved: cycle 1.2.2 'corrected' the execution אזהרה from 20 to 30 days across the board. Execution Law s.7(a) gives 20 days on a judgment file; 30 is only the s.81א opposition on a bill or cheque file. A reported correction must be checked against the statute, not just against kolzchut summaries.",
+        "Resolved: document-analyzer missed every deadline written 'תוך 30 יום' (singular), lost all amounts and deadlines on pdftotext output (bidi control marks), and flagged a Land Registry הערת אזהרה as an execution warning. Tests: scripttest/ in the batch folder.",
+        "Evidence gate is blind to BL/xxx form numbers and day counts; the 8 wrong BTL numbers passed every prior gate. Verify form tables row by row against the agency forms index.",
+        "Deferred: route to contest an administrative seizure (פקודת המסים (גבייה)) could not be verified on a primary source; the skill says to seek advice rather than naming a venue.",
+        "Expert MINOR deferred: Execution Office registrar decisions in family-matter files go to the Family Court (s.80(ב1)); the decision-table row names only the Magistrate Court. Source it and add.",
+        "Expert MINOR deferred: betterment levy row gives the 45-day ערר but not the שמאי מכריע alternative when only the amount is disputed (Third Schedule s.14(ב)).",
+        "Expert MINOR deferred: BTL forms 200 (work-disability degree) and 7842 (worsening re-examination) are absent from the forms index; source them from the btl.gov.il forms pages before adding.",
+        "Expert MINOR deferred: the script classes an Execution Office payment-order decision as an אזהרה and an arnona discount refusal as LOW with no route; both are harmless but could be sharper.",
+        "Process: the domain checklist bootstrapped this cycle was broad, and the expert treats every Must-cover row as CRITICAL. Delegating deep procedure to the dedicated catalog skills (hotzaa, fines, tabu, small claims) with an explicit Out-of-scope rationale was accepted by the expert; keep the checklist aligned with that split.",
+        "Description changed twice this cycle: removed 'binding legal advice' (owner rule), then broadened to judgments, execution warnings, fines, appeal deadlines and term questions after the value-add run showed the skill did not load on a small-claims judgment or a magistrate claim (1-turn runs, no Skill call). Holdout 0.667 -> 1.0, overlap clear."
+      ],
+      "holdout_before": 0.667,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "מה ההבדל בין השגה לערר?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "PDF of a Land Registry הערת אזהרה letter",
+          "Help me plan a hiking trip in the Golan next weekend"
+        ]
+      }
     }
   ]
 }
