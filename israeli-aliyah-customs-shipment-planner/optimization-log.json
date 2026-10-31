@@ -1,0 +1,26 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.0",
+      "date": "2026-10-29",
+      "lessons": [
+        "Description unchanged this cycle (no holdout run). It still says the window runs 'from teudat oleh'; the primary source counts from the day oleh status is received. Reword next time the description is touched, then run the holdout gate.",
+        "Carpet 25% and the 5-phone count come only from NBN; the Tax Authority olim guide lists neither. Re-check both against the Tax Authority guide each cycle and drop them if NBN removes them.",
+        "Minor-oleh eligibility rules come from the Misrad HaKlita Guide for the New Immigrant (15th edition, 2022); the current Tax Authority guide does not restate them. Look for a newer edition.",
+        "Mixed oleh + returning-resident couples: no source states their shipment count. Route to customs until one does.",
+        "No olim vehicle skill exists in the catalog; vehicle questions go to the Tax Authority 'taxes on a vehicle' chapter. Candidate for a new skill.",
+        "Script: the one-of-each rule for other_appliance/furniture falls back to the row name when 'type' is missing, so differently named units of one type escape the cap. Consider making 'type' mandatory for those categories.",
+        "Expert MINOR deferred: Example 1 spends shipment 1 on clothes by air, which the accompanying luggage or a clothing-only postal package within the window could carry for free; the script's starting split puts personal items in shipment 1. Revisit both together.",
+        "Arithmetic M2/M3 deferred: a known tools overage plus a row with no value yields verify rather than over-limit; an exempt row inside an over-cap group could say a later row exceeds the cap.",
+        "Value-add 2026-10-29: with 1.00 vs without 0.12 (delta +0.88), 4 cases, PASS.",
+        "Arithmetic N2 deferred: a spouse's already_imported hand tools count toward this oleh's USD 1,650 total; whether the tool cap is per family or per person is unsourced, counting is the conservative choice."
+      ],
+      "value_add": {
+        "with": 1.0,
+        "without": 0.12,
+        "delta": 0.88,
+        "verdict": "PASS"
+      }
+    }
+  ]
+}

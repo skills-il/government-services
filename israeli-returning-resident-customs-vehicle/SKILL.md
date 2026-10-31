@@ -26,7 +26,7 @@ A declaration to the customs authority is a legal document, and a false declarat
 
 ## Problem
 
-Returnees routinely lose money on the trip back. They miss the 9-month customs window, conflate their 2-shipment basket with the oleh 3-shipment basket, ship 4 TVs when only 3 are duty-free, sell a paid-off car abroad because they assume returnees pay full tax (they do, but with a wider age window so the car might still be worth shipping), or ship a car expecting a purchase-tax break that does not exist. AI agents make this worse: training data conflates olim and returnees because both flows live under "personal import" at Meches. This skill produces a per-shipment declaration draft, a ship-vs-sell vehicle worksheet, and a windows timeline so the user does not learn the rules by paying for a mistake.
+Returnees routinely lose money on the trip back. They miss the 9-month customs window, conflate their 2-shipment basket with the oleh 3-shipment basket, ship 4 TVs when only 3 are duty-free, ship a car that will be over the age limit by the time it is registered, or ship a car expecting a purchase-tax break that does not exist. AI agents make this worse: training data conflates olim and returnees because both flows live under "personal import" at Meches. This skill checks each planned shipment against the basket, produces a ship-vs-sell vehicle worksheet, and builds a windows timeline so the user does not learn the rules by paying for a mistake.
 
 ## Instructions
 
@@ -35,142 +35,148 @@ Returnees routinely lose money on the trip back. They miss the 9-month customs w
 Customs definitions are NOT the same as Misrad HaAliyah definitions. Ask:
 
 - **Returning resident (תושב חוזר) for customs**: Israeli resident, abroad **2 years or more**, returning permanently. Also covers second-time olim and entrants the Israel Tax Authority specifically classifies as returnees.
-- **Returning student (סטודנט חוזר)**: Israeli resident abroad **18+ months** who studied full-time **2 consecutive academic years** at a recognized institution, or earned a degree. Must return within **6 months of finishing studies / receiving the degree** or the student status lapses.
-- **There is no "vatik (10-year)" customs basket.** The 6-year and 10-year vatik thresholds live in income-tax world (Section 14). Meches only knows "returnee". If the user has been abroad 12 years, they get the same customs basket as a 2-year returnee. The tax-planner sister skill handles the 10-year math.
-- **Year-of-absence rule**: each year of absence counts even if the user visited Israel up to **4 cumulative months** in that year (gov.il chapter 9). Exceed 4 months in a single absence-year and that year does NOT count toward the 2-year (returnee) or 18-month (student) threshold. Surface this explicitly because returnees with regular Israel visits often misread the rule as "no visits allowed."
-- **Permanent-return entry vs. tourist visit**: many returnees fly in on a tourist visa first, leave, then return permanently months later. The 9-month customs clock anchors to the **permanent-return entry** (the trip where the user actually re-establishes Israeli residency), NOT to an earlier tourist visit. Ask the user which trip is the permanent move; that is D in the timeline.
-- **Non-Israeli spouse trap**: customs paperwork (Bill of Lading, Tofes 195 personal-import declaration, container manifest) must be in the **returnee's** name. Goods shipped in a non-Israeli spouse's name are NOT covered by the returnee basket and clear at full duty. Common failure mode: dual-citizen family signs the moving company's contract in the non-Israeli spouse's name and the BL inherits that name. Verify the BL is in the Israeli returnee's name BEFORE the container ships.
-- If the user has been abroad less than 2 years (or less than 18 months as a student), they are NOT a returnee for customs and the regular Israeli-resident personal-import rules apply. Stop and hand off.
+- **Returning student (סטודנט חוזר)**: Israeli resident abroad **18+ months** who studied full-time **2 consecutive academic years** at a recognized institution, or earned a degree there. Not recognized if they return more than **6 months after finishing studies**, or after receiving the degree.
+- **There is no "vatik (10-year)" customs basket.** The 10-year vatik threshold lives in income-tax world (Section 14). Meches only knows "returnee". Abroad 12 years gets the same customs basket as abroad 2 years. The tax-planner sister skill handles the 10-year math.
+- **Year-of-absence rule**: a year of absence (counted from the day after leaving) still counts if the user visited Israel up to **4 cumulative months** in that year. Exceed 4 months in a single absence-year and that year does NOT count toward the 2-year or 18-month threshold. Returnees with regular visits often misread this as "no visits allowed."
+- **Permanent-return entry vs. tourist visit**: the 9-month customs clock anchors to the **permanent-return entry**, NOT to an earlier tourist visit. Ask which trip is the permanent move; that is D in the timeline.
+- **Non-Israeli spouse trap**: the goods and every import document (Bill of Lading, declaration, invoices) must be in the **returnee's** name. Goods shipped in a non-Israeli spouse's name are not covered by the returnee basket. Common failure mode: a dual-citizen family signs the moving contract in the non-Israeli spouse's name and the BL inherits it. Verify the BL name BEFORE the container ships.
+- Abroad less than 2 years (or less than 18 months as a student): NOT a returnee for customs; the regular Israeli-resident personal-import rules apply. Stop and hand off.
 
-The Misrad HaAliyah תעודת תושב חוזר is helpful but NOT required to open the customs file. The customs file is opened on a separate Meches form. If the user is still chasing the certificate, they can start the customs file in parallel.
+The Misrad HaAliyah תעודת תושב חוזר is helpful but NOT required to open the customs file, which is opened on a separate Meches form. The user can start the customs file in parallel.
 
 ### Step 2: The household-shipment basket (returnees, NOT olim)
 
 | Item | Returnee cap (per family) |
 |---|---|
 | Number of shipments | **2 shipments** (NOT 3 like olim) |
-| Window to receive shipments | **9 months from date of physical entry** to Israel, NOT extendable |
+| Window to receive shipments | **9 months from the day of return** to Israel, NOT extendable |
 | TV sets | up to **3** total |
 | Personal computers | up to **3** total |
 | Other electrical / electronic appliances | **1 per type** (1 fridge, 1 dishwasher, 1 washer, 1 dryer, 1 oven, 1 microwave, etc.) |
-| Major furniture items | **1 per type** (1 sofa set, 1 dining set, etc.; "type" is interpreted liberally by clerks) |
-| Hold period | items must remain in returnee's personal use in Israel for at least **6 years**; selling, transferring, or destroying inside the window triggers tax payback + possible criminal probe |
-| Re-claim of same item type | only after returnee has spent **6 years in Israel** since the prior duty-free release of that item type |
-| Spousal anti-stacking | cannot re-claim what spouse already released duty-free unless 6 years passed AND user was not the spouse at time of prior release |
+| Major furniture items | **1 per type** |
+| What counts as household goods | goods of the kind used in a home; NOT permanent-installation items (plumbing, building materials, tiles, wallpaper, marble) |
+| Hold period | items must remain in the returnee's own use in Israel for at least **6 years**; selling, transferring, or destroying inside the window triggers tax payback |
+| Re-claim of same item type | only after the returnee has spent **6 years in Israel** since the prior duty-free release of that item type |
+| Spousal anti-stacking | cannot re-claim what a spouse already released duty-free unless 6 years passed AND they were not spouses at the time of that release |
 
-A single household item brought on entry day as accompanying luggage (carry-on / checked baggage) does NOT count as one of the 2 shipments, it is duty-free at the airport but must be declared on the red channel.
+A household item from the list above brought as accompanying luggage on the entry day does NOT count as one of the 2 shipments and is duty-free, but must be declared on the red channel.
 
-A mail package containing household goods DOES count as one of the 2 shipments. Clothing-only mail packages are exempt if they arrive within 30 days before entry, on the day of entry, or within 3 months after entry.
+A mail package containing household goods DOES count as one of the 2 shipments. Clothing-and-footwear-only mail packages are exempt and do not count if they arrive within 30 days before entry, on the day of entry, or within 3 months after entry.
 
-**Save money: consolidate.** Meches counts shipments by Bill of Lading, not by physical move. If a returnee originally planned two separate liftvans, a freight forwarder can consolidate them into a single container with one Bill of Lading and that counts as ONE shipment, freeing the second slot for a later post-arrival package. Many returnees save $4-7k by consolidating; ask the broker / forwarder about combining lifts before booking.
+**Consolidate where possible.** Since the cap is two shipments, combining planned lifts into one shipment leaves the second slot free for a later package. Ask the forwarder and broker how Meches will count the lifts before booking.
 
-**Inheritance items shipped from abroad** travel under their own customs basket (linked to inheritance / מס ירושה documentation), NOT the 2-shipment household quota, provided the items are properly documented as inherited property at clearance. If the user is bringing furniture or items inherited from a parent abroad, surface this as a separate flow and refer to a customs broker for the inheritance-channel paperwork.
+The only Israeli-made household item that can currently be bought tax-free from an authorized Israeli manufacturer instead of shipped is an **air conditioner** (gov.il notes authorized manufacturers exist for air conditioners only).
 
-### Step 3: Accompanying-luggage allowance (separate from the 2 shipments)
+### Step 3: Accompanying luggage, tools, and restricted items
 
-On entry day, every entrant aged 2+ may bring duty-free:
+On the entry day, every entrant aged 2+ may bring duty-free:
 
-- Clothing, footwear, personal toiletries, customary travel quantities
-- Other items up to a per-entrant value cap (currently quoted as **$200 USD equivalent**, with the NIS equivalent set periodically by the takanot , verify the live NIS figure on the gov.il customs guide chapter 3 at answer time, since gov.il publishes the cap in NIS). The cap is per entrant, not poolable across family members. Above the cap the user pays tax on the FULL value of the item, not just the excess.
-- Within the per-entrant cap: mixed food up to 3 kg total, no single food type over 1 kg.
+- Clothing, footwear, personal toiletries, in customary travel quantities.
+- Other items for own use or as a gift, up to **$200** value per entrant. Not poolable across family members, and above $200 the user pays tax on the FULL value of the item, not just the excess. Within the $200: mixed food up to 3 kg total, no single food type over 1 kg.
 - Entrants aged 18+: up to 1 liter spirit + 2 liters wine + 250 ml alcohol perfumes + 250 g tobacco / 200 cigarettes.
 
-If the user has anything beyond the personal allowance, they must use the red channel ("מסלול אדום") and declare.
+The exemption applies only to items carried on the same vehicle (flight) as the entrant. Anything beyond it means the red channel ("מסלול אדום"). Some items may not be imported at all; point the user to the gov.il chapter "פריטים שייבואם אסור" before packing.
 
-**Tools of the trade** (כלי עבודה מהסוג הנישא ביד) and **business machines** (מכשירים ומכונות לעסק) travel under their own gov.il chapters, separate from the household basket. A returnee in trades (electrician, hairdresser, photographer, dentist, contractor) can bring professional hand tools and certain business equipment under different conditions, often duty-free, without consuming a household-shipment slot. Surface this as a one-line pointer to the broker if the user mentions a profession that ships tools.
+**Tools of the trade and business equipment** have their own chapters, outside the household basket:
+- **Hand-carried work tools** (customs item 84.67) for the returnee's profession, up to **$1,650** total value, duty-free.
+- **Machines and equipment to set up the returnee's own business** (industry, craft, agriculture), up to **$36,000 FOB** (the $1,650 of tools included), subject to approval by the Tax Authority director and a bank guarantee for the taxes. Refer to a broker.
 
-**Restricted-permit items** require a separate import permit from the relevant ministry BEFORE the shipment arrives, on top of any customs benefit. Most-confiscated categories at Ashdod (gov.il chapter "פריטים, שהתנאי ליבוא שלהם הוא אישור הרשות המוסמכת"): drones (Misrad HaTikshoret + RSHTOT), communications gear / baby monitors / signal-emitting devices (Misrad HaTikshoret, 03-5198282), plants and seeds (Misrad HaChaklaut, 03-9681587), pets (Misrad HaChaklaut Veterinary, 03-9485461), weapons and weapon parts (Misrad LeBitachon Pnim, 077-2324444), lasers (Misrad HaKalkala), electric scooters and e-bikes (Misrad HaTachbura import unit). Tell the user to check the gov.il "מחשבון ליבוא אישי" calculator for the specific item BEFORE shipping.
-
-**Pets** (dogs / cats): not a customs-benefit topic per se, but every returnee asks. Veterinary requirements (sourced via Belong shipping-importation guide):
-- Minimum age **4 months** on entry day.
-- **Rabies vaccination** administered **at most 12 months and at least 1 month** before entry to Israel.
-- **Rabies antibody titer ≥ 0.5 IU/ml** from a lab on the approved list, drawn after the vaccination.
-- Approved entry ports for pets: **Ben Gurion (BG), Haifa, Ashdod, Eilat**. No other port accepts live-animal arrivals.
-- Restricted-breed lists and quarantine rules apply on top. Microchip + ISO-compliant chip number on all paperwork.
-- Veterinary import permit issued by Misrad HaChaklaut (03-9485461) within the permit's validity window. Plan the titer 90+ days before flight; if the titer expires en route the pet is held at the port.
+**Restricted-permit items** need a permit from the relevant authority on top of any customs benefit. An import licence (רישיון יבוא) must be obtained BEFORE the item arrives; an import approval (אישור יבוא) can come after arrival, but the item is held until it is shown. Frequent cases (gov.il list): drones and communications products (Misrad HaTikshoret, 03-5198282), plants and seeds (Misrad HaChaklaut plant protection, 03-9681587), pets (Misrad HaChaklaut veterinary services, 03-9485461), weapons and weapon parts (Ministry of Internal Security, 077-2324444), helmets, child car seats, car spare parts, e-scooters and e-bikes (Misrad HaTachbura, \*5678), laser pointers and meters (Misrad HaKalkala, \*6680). Tell the user to check the gov.il personal-import calculator (מחשבון ליבוא אישי) for the specific item BEFORE shipping. Pet entry requirements are in `references/household-shipment-rules.md`.
 
 ### Step 4: Vehicle import, the math that surprises most returnees
 
 Returnees do NOT get a purchase-tax / VAT / customs-duty exemption on a personally-imported vehicle. The ONLY benefit is an extended age window:
 
-| Eligibility | Vehicle age cap from manufacture date |
+| Eligibility | Max vehicle age from manufacture, **at registration in Israel** |
 |---|---|
 | Regular Israeli resident, personal import | **24 months** |
 | Returning resident or returning student | **48 months** |
 
-Other conditions: vehicle must be a make/model approved by Misrad HaTachbura, current model year or one of the 4 previous model years, driver must hold a valid Israeli license for that vehicle category, age 17+ on entry day. The vehicle must be imported within **9 months from permanent-return entry**.
+**The age is measured at Israeli registration, not at purchase, shipping, or clearance** (Takana 282, as quoted in Misrad HaTachbura procedure 02/12). Shipping, clearance, inspection, and registration take real time, and Misrad HaTachbura does not accept an import-licence application when fewer than **45 days** remain before the last date the car can be registered, and will not approve one with fewer than **7 working days** left. A car that is 46 months old on the day it sails is very likely lost. Count backwards from the 48-month date, not forwards from today.
 
-**Vehicle class and weight (gov.il personal_import_of_vehicles_guide):** "רכב" for personal-import purposes is defined as a passenger motor vehicle up to **3,500 kg** (M1 or M2 class) OR a motorcycle for personal use. Heavier vehicles (M3 buses, N1/N2/N3 trucks above 3,500 kg) are NOT covered by the personal-import track.
+Other conditions (ITA guide, chapter 2): the vehicle is approved for import by Misrad HaTachbura, the importer holds a valid Israeli driving licence for the vehicle category, is 17+ on the entry day, and the vehicle is imported within **9 months from the day of entry**. A returnee may APPLY with a foreign licence but must show a valid Israeli licence when the car is released from customs (procedure 02/12 s.12). Procedure 02/12 also words the 9 months as running from the date the returnee rights were granted; plan by the entry date, which is the earlier and safer anchor. The import licence must be issued BEFORE the car is shipped; a licence obtained after arrival is an offence that can carry a ransom payment (כופר).
 
-**Type-approval document requirements at clearance:** every personally-imported vehicle must arrive with paperwork that the Misrad HaTachbura standards office can use to issue Israeli type approval. The accepted forms vary by country of origin:
-- **EU origin**: an EU Certificate of Conformity (COC) issued by the manufacturer.
-- **US / Canada origin**: FMVSS compliance documentation (manufacturer label / sticker on the door jamb) plus a CARFAX or equivalent title-history report, AND the speedometer must read in kilometers (or be replaced before clearance). US-spec dashboards in MPH-only configuration are rejected at type approval. **FMVSS+CARFAX alone is NOT proof of EURO 6d compliance** (see below); brokers verify the engine variant separately with the OEM.
-- **Japan / South Korea / UK / other countries**: case-by-case, the importer must request type approval from Misrad HaTachbura standards before shipping.
+**One vehicle under returnee rights.** Procedure 02/12 s.3: a returnee may import ONE vehicle under returnee rights. The ITA guide also limits regular residents to one personally-imported vehicle per 12 months (procedure 02/12 words it as one per calendar year). A couple where both spouses independently qualify should confirm each spouse's entitlement with Meches and Misrad HaTachbura before ordering a second car.
+
+**Vehicle class and weight:** for personal import, "רכב" is a passenger motor vehicle up to **3,500 kg** or a motorcycle for own use (ITA guide).
+
+**Documents at clearance (ITA guide):** Form 21 importer declaration, original bill of sale, original vehicle licence with export-country customs verification, import licence, valid driving licence, Bill of Lading, freight and insurance invoices, Form 139 with proof of purchase, and the money transfers abroad. By origin:
+- **US**: the TITLE plus a copy of its back, a photo of the manufacturer's identification label, and a CARFAX report.
+- **Europe**: the registration document (BRIEF), COC, and test, plus the manufacturer DATA CARD.
+
+**US- and Canada-spec cars are importable.** Misrad HaTachbura states a car built to US federal or Canadian standards may be imported, even if manufactured outside the NAFTA countries. Do NOT tell a returnee a US car needs EU / EURO 6d certification; that rule does not exist. What a North-American car DOES need (procedure 02/12 s.7.2, s.15, s.16):
+- the model is approved for sale in the US or Canada;
+- ESP / stability control and a **metric speedometer**;
+- an emissions-data letter from the brand's official Israeli importer, the manufacturer, or an authorized dealer. **Without it, Misrad HaTachbura assigns the highest pollution grade**, which turns the green-tax reduction into a surcharge (see the tax paragraph below).
 
 **Hard-rejection rules (the shipment-killers):**
 
-- **Right-hand-drive (RHD) vehicles are NOT permitted** in Israeli personal import. UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus, Malta all ship RHD cars by default. A returnee from London or Tokyo who ships a paid-off RHD car learns at port that it cannot register. This is a hard reject, not a fix-on-port issue.
-- **EURO 6d-final emission standard (שלב 6)** is the Israeli floor for new passenger-car personal imports as of January 2022. US-spec powertrain variants meeting only EPA Tier 3 are routinely rejected when the variant was never EU-certified to EURO 6d. Returnees from the US must verify the specific engine variant has an EU equivalent VIN or OEM emissions certification BEFORE shipping.
-- **ESP / electronic stability control** is mandatory. gov.il says to verify it from the vehicle's technical specification AND the dashboard indicator lamp; it does not cite a "תקן 124", and no such standard reference appears in the official requirements. EU-market cars since 2014 and US-market cars since 2012 typically have it factory-installed; classic / collector / pre-2012 imports often don't. Verify the spec sheet.
-- **LPG / CNG / methane-fueled vehicles** cannot be personally imported. Common European LPG conversions (Italy, Netherlands, Poland) are disqualifying.
+- **Right-hand drive.** A Misrad HaTachbura procedure states it is forbidden to import a car manufactured after 1960 with the steering wheel on the right. UK, Japan, Australia, South Africa, India, Singapore, Hong Kong, Cyprus and Malta cars are RHD by default. A returnee from London or Tokyo who ships a paid-off RHD car learns at port that it cannot register.
+- **Salvage / total loss, or a reported accident.** A car declared SALVAGE or TOTAL LOSS abroad is not allowed in, and the procedure requires that the car has had no accident reported to the authorities. Check the CARFAX before buying or shipping.
+- **Structural modifications.** No change after manufacture to dimensions, weights, tyre sizes, drive type, number of axles, engine model, displacement, or power.
+- **Fuel.** Only petrol, diesel, petrol/diesel hybrid, or electric. LPG / CNG conversions are disqualifying.
+- **ESP** must be present, verified from the technical specification and the dashboard indicator lamp. Many pre-2012 or classic cars lack it.
+- **Payment.** The importer must pay the seller abroad personally, not through a third party, and pay the taxes personally (Car Services Licensing Law s.34).
+- **A make with no official Israeli importer.** Procedure 02/12 s.10 expects the manufacturer to have a valid contract with an authorized Israeli importer. Otherwise (s.11) the application needs an undertaking from the manufacturer or its main agent to provide maintenance, warranty, recall repairs and parts, an undertaking from a licensed garage, and a lawyer-verified affidavit; s.17.1 adds a licensed garage's service approval. Section 14ב exempts EVs and hybrids from s.11 (and from s.26, the Takana 309 inspection section). A US-market make with no Israeli importer can fail here, so check BEFORE buying or shipping.
+- **Affidavit.** Every application carries an affidavit signed before a lawyer (s.21); a car that needs a lab test in Israel also needs a lawyer-signed undertaking to re-export it if it fails (s.7.3.1). Users applying from abroad should line up a lawyer early.
 
-Confirm the exact paperwork against the Misrad HaTachbura standards unit (\*4515) for the specific make/model AND the country of origin before booking the freight.
+Confirm the exact paperwork with the Misrad HaTachbura import unit (\*4515; from abroad +972-3-9695678) before booking freight. The import-licence application costs a fee and is handled within 21 working days at most.
 
-**The vehicle 9-month window is a DIFFERENT window** from the 2-shipment household 9-month window. Both run from D, but they are separate procedural clocks governed by separate takanot (the customs takanot for household goods vs. the מס קניה / Misrad HaTachbura takanot for vehicles). A returnee who blew the household window may still have a live vehicle window and vice versa. Treat them as independent in any timeline you produce.
+**The vehicle 9-month window is a separate clock** from the household 9-month window. Both run from D, but missing one does not affect the other. Treat them as independent deadlines in any timeline.
 
-**Per-family vehicle quota (operational)**: gov.il and kolzchut do not publish a hard cap, but customs broker practice treats the returnee benefit as **one personally-imported vehicle per eligible returnee**. A couple where both spouses qualify can in principle import two vehicles in the 9-month window. Verify with the local Meches office and Misrad HaTachbura before ordering a second vehicle.
+**12-month ownership-transfer restriction**: every personally-imported vehicle, returnee or not, carries a 12-month ownership-transfer restriction counted **from its registration in Israel** (procedure 02/12 s.20). Misrad HaTachbura publishes a separate procedure ("נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") for applying to remove it early. Neither the Tax Authority guide nor the Misrad HaTachbura procedure sets any longer hold (such as 4 years) on a returnee's car; do not import oleh-benefit rules here.
 
-**12-month bealut-transfer restriction**: Misrad HaTachbura imposes a 12-month hold on every personally-imported vehicle, returnee or not. Source: gov.il [יבוא אישי של כלי רכב](https://www.gov.il/he/pages/personal_import_of_vehicles): "על רכב המיובא ביבוא אישי מוטלת מגבלת העברת בעלות למשך 12 חודשים." A separate procedure (the bealut-removal application, "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") exists for applying to remove the restriction earlier in justified cases. Plan to keep the vehicle at least 12 months; the broker can advise on bealut-removal application if circumstances change.
+**Registration (מכון רישוי, per Takana 309).** After clearance, the car gets a temporary licence valid for 48 hours, during which it must be registered and licensed (Takana 282(a)(3)). It must pass the Misrad HaTachbura standards checks, a licensing test at a מכון רישוי appointed to register personal imports, and installation of safety systems. gov.il lists the appointed institutes. Procedure 02/12 s.14ב says s.26 (the Takana 309 inspection section) does not apply to an EV or hybrid, so an EV or hybrid importer should confirm with \*4515 which inspection their car still needs. Budget this separately from the broker fee.
 
-**Pre-registration inspection (מכון רישוי, per Takana 309).** After Meches clearance and BEFORE Misrad HaRishui will register the car, Takana 282 conditions registration of a personally-imported vehicle on inspection at a מכון רישוי licensed to test under Takana 309, and on a positive roadworthiness certificate. gov.il lists the approved institutes by region. The script's broker-fees default does not include this, budget separately.
+**Taxes in 2026.** The tax is calculated at the exchange rate on the payment day, on the customs value. **The customs value is not today's resale price**: it is the declared value, based among other things on the price in the bill of sale, plus freight and insurance, if the assessor accepts it as reasonable and genuine; otherwise the assessor sets it from the Israeli price list less use depreciation, and the importer has 30 days to respond in writing. For a car owned for years, ask the broker which figure the assessor will use before running the worksheet. The parameters (Customs Book, as of 29.10.2026):
+- Purchase tax **83%** for a passenger car up to 3,500 kg, including hybrids and plug-in hybrids; **48%** for an EV.
+- Green tax: a fixed NIS amount subtracted from or added to the purchase tax by green score, from a **14,523 NIS** reduction for the cleanest grades to an **8,690 NIS** surcharge for the most polluting. Because it is a fixed amount, cheaper clean cars get a much lower effective rate.
+- EV cap: the EV tax may not fall more than **22,000 NIS** below the regular method. Above a value of roughly 104,000 NIS the EV starts paying more than the headline rate, and the gap grows with value (about 85-89% of value at 159,000 NIS, depending on which official reduction applies). The ITA guide prints a larger EV green reduction (19,498 NIS) that the Customs Book table lacks; the worksheet prints both, and the Customs Book figure is the higher-tax case. Confirm with a broker.
+- Customs duty: none for a car made in a free-trade-agreement country and shipped directly or via another party to the same agreement; otherwise duty applies.
+- VAT **18%** on the value plus duty plus purchase tax.
 
-**Compulsory insurance (ביטוח חובה) BEFORE leaving the port.** Carriers deliver unregistered. Driving the vehicle off the port without Israeli ביטוח חובה is a strict-liability offense under פקודת ביטוח רכב מנועי. Brokers typically arrange a one-day cover so the car can be moved to the inspection institute; budget that on top of the eventual annual policy.
+The ITA guide's headline totals (tax as a share of the vehicle value, before the green adjustment): about **116%** for a passenger car under a trade agreement, **131%** otherwise; about **75% / 87%** for an EV. After registration, a safety-equipment refund (250 to 2,400 NIS by equipment level) can be claimed at the customs house with the vehicle licence. **For 1.1.2027 nothing is enacted yet** as of 29.10.2026: press reports a possible extension of the EV benefit and a new green-tax formula. Tell the user the rate is the one in force on payment day and to re-check if clearance falls in 2027.
 
-After clearance and Misrad HaRishui registration, a tax refund based on equipment level can sometimes be claimed at Meches ("החזר על הפרש המסים בהתאם לרמת האבזור"). This is downstream and non-trivial, refer the user to a customs broker.
-
-**The ship-vs-sell decision** almost always pencils to "sell abroad and buy locally" because the returnee pays full Israeli tax. Per gov.il personal_import_of_vehicles_guide chapter 3 (updated 15.01.2026), the combined customs + purchase tax + VAT lands at roughly **116% of CIF** for passenger cars from FTA-origin (USA, EU, Canada, UK, Korea, etc.), **131% of CIF** for non-FTA origin, **75-87%** for EVs, and **103-117%** for collector cars. Hybrids depend on the specific green-tax pollution grade. Shipping makes sense when (a) the car is paid off and the user is emotionally attached, (b) the model is rare in Israel, or (c) the user is moving from a high-spec North-American market and the Israeli equivalent is meaningfully more expensive. Run `scripts/vehicle-decision.py` to get the worksheet.
+**The ship-vs-sell decision** usually pencils to "sell abroad and buy locally" because the returnee pays full Israeli tax. Shipping makes sense when the car is paid off and the user is attached to it, the model is rare in Israel, or the local equivalent is meaningfully more expensive. Run `scripts/vehicle-decision.py` for the worksheet; it needs the exchange rate and, ideally, the green score from the import licence.
 
 ### Step 5: Open the customs entitlement file (תיק זכאות)
 
-1. Online: file the form via [gov.il, בקשת זכאות לפטור לתושבים חוזרים](https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student). The system opens the file automatically. No physical visit needed in the happy path.
-2. If the auto-approval fails, visit a Meches office (find list at [gov.il customs guide](https://www.gov.il/he/pages/customs-guide-for-returning-residents), section "רשימת משרדי המכס") with:
-   - Israeli ID + passport (yours)
-   - Israeli ID + passport (spouse, if applicable)
-   - תעודת תושב חוזר from Misrad HaAliyah, if you have it
-3. Returning students: bring institutional certification (2 years full-time enrollment, or degree certificate).
-4. On entry the customs officer may require a bond / deposit equal to 6 months of the applicable taxes. The deposit is refunded if the entitlement file is approved within 9 months. Plan for short-term cash-flow impact.
+1. Online: fill the returnee-status form at [gov.il, בקשת זכאות לפטור לתושבים חוזרים](https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student). The system opens the file automatically; no visit or documents in the happy path.
+2. If the system does not approve it, visit a customs house with your ID + passport, your spouse's ID + passport, and the Misrad HaAliyah תעודת תושב חוזר if you have it. A customs employee checks the entitlement.
+3. Returning students: bring a certificate from the institution of 2 academic years as a regular student, or of the degree.
+4. **Deposit**: a returnee whose status is not yet determined may have to deposit the applicable taxes on entry (Kol-Zchut). It is refunded once the status and entitlement are approved, and is used to pay the taxes if the user does not apply within the 9 months or is refused. Kol-Zchut also lists proof of an independent household (property ownership or a valid lease) among the documents for the in-person route.
 
-The returnee CAN start the file even before the תעודת תושב חוזר is issued; Meches has its own determination process. Sources of confusion: some Meches branches will ask for the certificate, others accept the online auto-approval. If a clerk demands the certificate, the returnee can either (a) wait for Misrad HaAliyah, or (b) escalate via the **Rashut HaMisim national service centre \*4954** (Sun-Thu 08:15-15:45; extension 1 covers customs, including parcel post). For vehicle-specific Misrad HaTachbura status issues (import permit, type approval, bealut-restriction (bealut-removal application)), use **\*4515** (Misrad HaTachbura import unit, listed on the gov.il יבוא אישי של כלי רכב page).
+If a clerk demands the certificate, the user can wait for Misrad HaAliyah or call the **Tax Authority national service centre \*4954** (Sun-Thu 08:15-15:45; extension 1 includes parcel-post customs). For vehicle import-licence status, **\*4515** (Misrad HaTachbura).
 
 ### Step 6: Currency on the body (anti-money-laundering)
 
-Section 9 of the Anti-Money-Laundering Law requires declaration on entry / exit if total value exceeds:
+Section 9 of the Anti-Money-Laundering Law requires a report on entry or exit when funds exceed:
 
-- **50,000 NIS** equivalent at air / sea borders
-- **12,000 NIS** equivalent at land borders
+- **50,000 NIS** at air / sea borders
+- **12,000 NIS** at land borders
 
-Family members traveling together cannot pool to skirt the cap, each entrant declares independently if they personally carry above the threshold. Joint family ownership above threshold must be declared even if each individual carries less. Failure to declare triggers seizure, potential fine, or criminal indictment with up to 6 months imprisonment.
+Travelling with another person, even family, does not remove the duty, and jointly owned funds split between travellers below the threshold must still be reported if the total is above it. Unreported funds can be seized and a criminal investigation opened, ending in a fine or an indictment with up to 6 months imprisonment.
 
 ### Step 7: Build the timeline
 
-Hand the user `references/customs-timeline.md` or compute it inline. Anchor everything to **D = date of permanent-return physical entry to Israel** (NOT a prior tourist visit, NOT date of certificate issue, NOT date of leaving the foreign country):
+Hand the user `references/customs-timeline.md` or compute it inline. Anchor everything to **D = date of permanent-return entry** (NOT a prior tourist visit, NOT the certificate date):
 
-- D + 0: arrival; declare on red channel anything over personal allowance; declare currency if applicable; pay any required bond.
-- D + 0 to D + 30: open online entitlement file at gov.il if not already done.
-- D + 0 to D + 9 months (household clock): first household shipment must arrive AND clear customs.
-- D + 0 to D + 9 months (household clock): second household shipment (if needed) must arrive AND clear customs.
-- D + 0 to D + 9 months (separate vehicle clock under מס קניה / Misrad HaTachbura takanot): any personally-imported vehicle must arrive AND clear customs.
-- D + clearance of vehicle to clearance + 12 months: Misrad HaTachbura bealut-transfer restriction (do not sell / transfer the vehicle without bealut-removal application).
-- D + 0 to D + 6 years: household-goods hold period, none of the duty-free items may be sold, transferred, or destroyed without paying back the tax + interest.
-- D + 6 years onward: re-claim window opens for items the returnee already released duty-free.
+- Before D: get the vehicle import licence BEFORE the car sails; check the car's 48-month date.
+- D + 0: red channel for anything over the personal allowance; report currency if applicable; deposit if required.
+- D + 0 to D + 30: open the online entitlement file if not already done.
+- D + 0 to D + 9 months (household clock): both household shipments must arrive.
+- D + 0 to D + 9 months (vehicle clock): the vehicle must be imported, AND registered before it turns 48 months.
+- Registration to registration + 12 months: ownership-transfer restriction on the vehicle.
+- D + 0 to release + 6 years: household-goods hold period; no selling, transferring, or destroying duty-free items.
+- 6 years in Israel after release: re-claim window opens for the same item types.
 
 ### Step 8: When to hand off
 
 - Process / kupat cholim / Form 628 / driver's license → `israeli-returning-resident-navigator`.
-- Section 14 10-year tax exemption math / Form 1348 → `israeli-toshav-chozer-vatik-tax-planner`.
-- Oleh chadash 3-shipment basket / sal-klita customs link → `israeli-aliyah-customs-shipment-planner` (planned).
-- People still abroad planning to leave Israel → `israeli-relocation-abroad`.
-- Actual filing of the customs declaration, HS codes, equipment-level vehicle refund, dispute with a customs commissioner → licensed customs broker (סוכן מכס). This skill is a planning aid, not a substitute for a broker.
+- Section 14 10-year exemption math / Form 1348 → `israeli-toshav-chozer-vatik-tax-planner`.
+- Oleh chadash 3-shipment basket → `israeli-aliyah-customs-shipment-planner`.
+- People planning to leave Israel → `israeli-relocation-abroad`.
+- Actual filing of the declaration, HS codes, the safety-equipment refund, disputes with the assessor → licensed customs broker (סוכן מכס). This skill is a planning aid, not a substitute for a broker.
 
 ## Examples
 
@@ -179,82 +185,83 @@ Hand the user `references/customs-timeline.md` or compute it inline. Anchor ever
 > User: "אני חוזרת אחרי 7 שנים בסיליקון ואלי, יש לי בעל וילד. אנחנו מתכננים לשלוח 4 טלוויזיות (סלון, חדר שינה, חדר עבודה, חדר ילדים), מקרר, מייבש, מקפיא נפרד, שני מחשבים שולחניים, ולפטופ אחד. כמה משלוחים? מה לזרוק?"
 
 Response framework:
-1. Returnee customs status: yes (7 years > 2 years), but does NOT change the basket.
-2. Shipments: 2 max. Plan accordingly.
-3. Cap: 3 TVs (so the 4th is taxable, either sell, leave in storage abroad, or pay tax on entry).
-4. Cap: 1 fridge OK. 1 dryer OK. **Separate freezer is a second appliance of the same "refrigeration" type**, flag this as a clerk-judgment item; the user should ask Meches in writing before shipping. If counted separately as "freezer" it may be allowed as 1 of its type.
-5. Computers: 2 desktops + 1 laptop = 3 PCs total. Right at the cap. OK.
-6. Send the user to the gov.il online entitlement form before shipping.
+1. Returnee customs status: yes (7 years > 2 years), but it does NOT change the basket.
+2. Shipments: 2 max.
+3. Cap: 3 TVs, so the 4th is taxable: sell it, leave it, or pay tax.
+4. 1 fridge OK, 1 dryer OK. **Whether a separate freezer is its own "type"** is the clerk's call; ask Meches in writing before shipping.
+5. 2 desktops + 1 laptop = 3 PCs, right at the cap.
+6. Send the user to the online entitlement form before shipping.
 
 ### Example 2: Ship the car or sell it?
 
-> User: "יש לי טויוטה הייבריד 2023 עם 40 אלף מייל. שיוויה בארה״ב כ-28 אלף דולר. עלות משלוח לישראל כ-3,500 דולר. כדאי לשלוח?"
+> User: "יש לי טויוטה הייבריד 2023 עם 40 אלף מייל. שווייה בארה״ב כ-28 אלף דולר. עלות משלוח לישראל כ-3,500 דולר. כדאי לשלוח?"
 
 Response framework:
-1. Eligibility for the 48-month window: 2023 car in mid-2026 = ~30 months from manufacture, well inside 48 months. Vehicle is eligible for personal import.
-2. **No purchase-tax exemption.** Per gov.il personal_import_of_vehicles_guide chapter 3, the combined customs + purchase tax + VAT (with VAT at 18% from 2025-01-01) lands at ~116% of CIF for hybrids from FTA-origin like Japan or the USA, exact green-tax adjustment depending on the specific model's pollution grade. Verify exact rate with a customs broker.
-3. Run the worksheet (`scripts/vehicle-decision.py`) with the user's numbers. Typically: CIF ≈ $28,000 + $3,500 = $31,500; combined Israeli tax ≈ $31,500 × 1.0 to 1.15 (hybrid band) ≈ $31,500-$36,000; total landed ≈ $63,000-$67,500 + ~$1,200 broker / registration fees. Local Toyota hybrid equivalent ~$50,000. The ship option loses by $13,000-$17,000 in the typical case. Shipping wins only when the model is unavailable locally or the local trim is meaningfully lower.
-4. Surface: Misrad HaTachbura imposes a 12-month bealut-transfer restriction on every personally-imported vehicle (gov.il, "מגבלת העברת בעלות למשך 12 חודשים"). Plan to keep the vehicle at least 12 months. A separate procedure (the bealut-removal application, "נוהל הגשת בקשה להסרת הגבלת העברת בעלות מרכב ביבוא אישי") handles early-release applications.
+1. Age: count to the expected Israeli registration date. A car built in mid-2023 and registered in early 2027 is about 43 months, inside 48 but with little slack. Get the exact build date from the door-jamb label and the import licence BEFORE booking.
+2. **No purchase-tax exemption.** A hybrid pays the passenger-car rate (83%) minus its green-score reduction, plus 18% VAT. The trade-agreement treatment depends on where the car was MANUFACTURED and on direct shipment, not on where it was bought: a Toyota sold in the US may have been built in Japan, which changes the duty. Without the emissions letter from the Israeli Toyota importer, the car gets the highest pollution grade.
+3. Run the worksheet: `python3 scripts/vehicle-decision.py --car-value-usd 28000 --shipping-usd 3500 --manufacture-date <from the label> --gross-weight-kg <GVWR from the label> --local-price-usd 50000 --ils-per-usd <today's rate> --vehicle-class hybrid --green-score <from licence>`, using the value the assessor will accept rather than the resale price. At an illustrative 3.70 NIS/USD, a green score of 120, and a car built in the US and shipped directly, the tax is about 117,991 NIS (101% of CIF) and the landed cost about $64,600 against a $50,000 local price; with no emissions letter, about $72,000; if it was built in Japan (`--origin other`), about 116% and $69,400. Shipping loses unless the model is unavailable locally.
+4. Surface: 12-month ownership-transfer restriction from registration. As a hybrid it is exempt from s.26 (the Takana 309 inspection section), so confirm with \*4515 which inspection it still needs.
 
 ### Example 3: 6-year hold trap
 
 > User: "חזרתי לפני 4 שנים, פתחתי תיק זכאות וייבאתי מקרר ומכונת כביסה בפטור. עכשיו אני רוצה לעבור דירה ולקנות מקרר חדש בארץ. צריך לשלם משהו?"
 
 Response framework:
-1. Selling/transferring the duty-free fridge inside the 6-year hold triggers tax payback. Confirm: did the user sell the original fridge, give it away, or just stop using it?
-2. If user keeps the original fridge in personal use (e.g., moves it to the new home), no problem, they're free to ALSO buy a new fridge at full Israeli tax. The hold rule is about the duty-free unit, not about owning multiple.
-3. If user sold or gave it away: tax payback applies, calculated on the original duty-free fridge's value at the time of release, plus interest. Refer to Meches to compute the exact amount.
-4. The re-claim window (importing another duty-free fridge) opens at year 6 from D, not from the date of selling the original.
+1. Selling or transferring the duty-free fridge inside the 6 years triggers tax payback. Ask: did the user sell it, give it away, or keep it?
+2. If the original fridge stays in the user's own use (moves to the new home), there is no problem; they may ALSO buy a new fridge at full Israeli price. The hold rule is about the duty-free unit.
+3. If sold or given away: taxes are due; refer to Meches for the amount.
+4. A NEW duty-free fridge is only possible after 6 years in Israel from the previous release.
 
 ## Bundled Resources
 
-- `references/domain-checklist.md`: authoritative sources, must-cover and should-cover facts, last-verified dates.
-- `references/vehicle-import-benefit.md`: eligibility, age window, lack of purchase-tax exemption, kolzchut + gov.il citations, ship-vs-sell economic guide.
-- `references/household-shipment-rules.md`: 2-shipment basket, 9-month window, item-by-item caps, 6-year hold, spousal anti-stacking.
+- `references/domain-checklist.md`: authoritative sources, must-cover and should-cover facts, out-of-scope list.
+- `references/vehicle-import-benefit.md`: eligibility, the age-at-registration rule, 2026 tax parameters, documents, ship-vs-sell guide.
+- `references/household-shipment-rules.md`: 2-shipment basket, 9-month window, item caps, 6-year hold, spousal anti-stacking, pet entry rules.
 - `references/customs-timeline.md`: day-by-day from entry to year 6.
-- `scripts/vehicle-decision.py`: reads user inputs (car value, shipping quote, equivalent local price) and prints a side-by-side decision worksheet.
+- `scripts/vehicle-decision.py`: checks the age at registration (from the manufacture date) and the 45-day application cutoff, then computes duty, purchase tax (with green score or EV cap), and VAT, and prints a ship-vs-sell worksheet. It refuses, printing no figures, for vehicles above 3,500 kg permitted total weight, motorcycles, or electric goods vehicles.
+- `scripts/test_vehicle_decision.py`: regression tests for the worksheet (Example 2 figures and the refusals).
 
 ## Recommended MCP Servers
 
-None directly applicable. The customs Tax Authority does not expose an MCP / API. Users with Meches / customs questions should call **\*4954** (Rashut HaMisim national service centre, extension 1 for customs). For vehicle-specific Misrad HaTachbura questions (import permit, type approval, bealut-restriction (bealut-removal application)) use **\*4515** (import unit). For Misrad HaAliyah questions about the תעודת תושב חוזר use **\*2994**. Or visit a Meches office in person.
+None directly applicable. The Tax Authority does not expose an MCP / API. Customs questions: **\*4954** (Tax Authority national service centre). Vehicle import licence: **\*4515** (Misrad HaTachbura). Misrad HaAliyah and the תעודת תושב חוזר: **\*2994**.
 
 ## Gotchas
 
-1. **Returnees are NOT olim.** The single most common mistake: assuming the oleh 3-shipment basket applies. It does not. Returnees get 2 shipments. Period.
-2. **No purchase-tax exemption on vehicles for returnees.** Stop quoting "tax-free car import", it does not exist for returnees. Combined customs + purchase tax + VAT lands at roughly 116% of CIF for FTA-origin passenger cars, 131% for non-FTA, 75-87% for EVs, per gov.il personal_import_of_vehicles_guide chapter 3. The 48-month age window is the only benefit.
-3. **Vehicle 12-month bealut-transfer restriction.** Misrad HaTachbura imposes a 12-month ownership-transfer hold on every personally-imported vehicle (gov.il, "מגבלת העברת בעלות למשך 12 חודשים"). Plan to keep the vehicle at least 12 months; the bealut-removal application is the early-release procedure (on gov.il page "יבוא אישי של כלי רכב").
-4. **Vehicle 9-month window ≠ household 9-month window.** They are independent procedural clocks (vehicles run under מס קניה / Misrad HaTachbura takanot, household runs under customs takanot). Both start at D, but missing one does not affect the other. Treat them as two separate deadlines.
-5. **Permanent-return entry, not tourist visit, anchors D.** A returnee who flew in on a tourist visa for a 2-week trip, then went back abroad and came home permanently 4 months later, anchors the 9-month clock to the PERMANENT-return entry. Surface this with the user before computing D.
-6. **9-month clock starts on entry, not on certificate issue.** Returnees who chase the Misrad HaAliyah certificate first sometimes burn 4 months before realizing the customs clock has been running since wheels-down.
-7. **6-year hold has teeth.** Selling a duty-free fridge in year 3 to upgrade is a tax-payback event plus possible criminal investigation. Surface this every time on the timeline.
-8. **Spousal anti-stacking.** If user's spouse already imported a duty-free washing machine 4 years ago and the user is now claiming a returnee basket, that washing machine is NOT a fresh entitlement for the same household. The 6-year clock resets independently per item type per couple.
-9. **The "type" definition is clerk-judgment.** A combo fridge-freezer is one item; a separate fridge and separate freezer is two items of different "types", or one of the same "refrigeration" type, depending on the clerk. Tell the user to ask Meches in writing before shipping borderline items.
-10. **Mail packages count.** A shipment of household goods sent via post counts as one of the 2 shipments. Clothing-only mail in the 30-day-before / day-of / 3-months-after window does not.
-11. **Save money: consolidate.** Meches counts shipments by Bill of Lading. Two scheduled lifts combined into one container = one shipment, leaving the second slot open. Many returnees save $4-7k by asking the forwarder to consolidate.
-12. **Vehicle equipment-level refund is not automatic.** The downstream refund based on actual equipment level requires the returnee to come back to Meches with documentation. Most returnees do not know this exists. Surface as an opportunity.
-13. **Insure at full value INCLUDING all taxes.** The gov.il guide chapter 9 explicitly requires insuring shipments at their full value including the customs duties and taxes ("בערכם המלא, כולל כל המסים"). Under-insured shipments get claims rejected at Meches when something is damaged or stolen in transit. Quote the FULL landed-cost figure to the insurer, not the abroad-market value.
-14. **Restricted-permit items require a separate import permit.** Drones, communications gear, weapons, lasers, e-scooters, plants, certain electronics , most-confiscated category at Ashdod. Verify the import permit from the relevant ministry BEFORE shipping; the customs benefit does not waive the permit requirement.
-15. **Inheritance items have their own basket.** Items inherited abroad and shipped to Israel travel under inheritance documentation, NOT counted under the 2-shipment household cap. Refer the user to a broker for the inheritance-channel paperwork.
+1. **Returnees are NOT olim.** The most common mistake is assuming the oleh 3-shipment basket. Returnees get 2 shipments.
+2. **No purchase-tax exemption on vehicles for returnees.** Stop quoting "tax-free car import". Purchase tax 83% (EV 48%, capped), plus VAT 18%, plus duty for non-agreement origin. The 48-month window is the only benefit.
+3. **The 48 months are counted at Israeli registration.** Agents compute the car's age today and call it eligible. Add the shipping, clearance, and inspection time, and remember the 45-day application cutoff.
+4. **US cars are importable; EURO 6d is not required.** But a US car without the emissions letter is taxed at the worst green grade, and needs ESP and a metric speedometer.
+5. **12-month ownership-transfer restriction**, counted from registration. Do not import longer oleh-style holds into a returnee answer.
+6. **Vehicle 9-month window ≠ household 9-month window.** Independent clocks, both from D.
+7. **Permanent-return entry, not a tourist visit, anchors D.**
+8. **9-month clock starts on entry, not on certificate issue.** Returnees chasing the Misrad HaAliyah certificate first can burn months of the window.
+9. **6-year hold has teeth.** Selling a duty-free fridge in year 3 makes the taxes due. Surface it on every timeline.
+10. **Spousal anti-stacking.** An item type the spouse already released duty-free is not a fresh entitlement for the couple.
+11. **The "type" definition is the clerk's judgment.** Ask Meches in writing before shipping borderline items.
+12. **Mail packages count.** Household goods by post use one of the 2 shipments; clothing-only mail in the window does not.
+13. **Insure at full value INCLUDING all taxes.** The gov.il guide requires insuring the goods "בערכם המלא, כולל כל המסים". Quote the full landed figure to the insurer.
+14. **Restricted-permit items need their own permit,** and an import licence must exist before the item arrives.
+15. **The safety-equipment refund is not automatic.** After registration, the user returns to the customs house with the vehicle licence to claim it.
 
 ## Reference Links
 
 | URL | Topic |
 |---|---|
-| https://www.gov.il/he/pages/customs-guide-for-returning-residents | Official customs guide for returning residents (Israel Tax Authority), updated 18.05.2026 |
+| https://www.gov.il/he/pages/customs-guide-for-returning-residents | Customs guide for returning residents (Israel Tax Authority), updated 30.07.2026 |
 | https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student | Online service: open a customs entitlement file (תיק זכאות) |
-| https://www.gov.il/he/pages/personal_import_of_vehicles_guide | Personal vehicle import guide (Israel Tax Authority) |
-| https://www.gov.il/he/departments/guides/personal_import_of_vehicles | Personal vehicle import (Misrad HaTachbura, approvals + type approval) |
-| https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | kolzchut, personal vehicle import for returning residents and students (updated 10.12.2025) |
-| Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | kolzchut, customs exemption for returnee / student importing household goods (updated 02.03.2025) |
-| https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ | Nefesh B'Nefesh, returning-resident benefits hub (confirms toshav chozer pay full vehicle tax; only the 48-month age window is extended) |
-| https://www.nbn.org.il/ | Nefesh B'Nefesh general aliyah and life-in-Israel resources |
-| https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Shivat Zion knowledge base for returning Israelis (operational guide on Misrad HaAliyah side) |
-| https://belong.co.il/living/shipping-importation/ | Belong, shipping and importation overview (general aliyah-track facts; do NOT use Belong's 50% car-tax discount language for toshav chozer, that is an olim-only benefit) |
+| https://www.gov.il/he/pages/personal_import_of_vehicles_guide | Personal vehicle import guide (Israel Tax Authority), updated 15.01.2026: conditions, tax table, green tax, documents |
+| https://www.gov.il/he/pages/personal_import_of_vehicles | Personal vehicle import (Misrad HaTachbura), updated 22.09.2026: age at registration, US/Canada standards, ESP, salvage, 12-month restriction, procedures |
+| https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/he/CustomsBook/Import/Rules?customsItemId=18359 | Customs Book, chapter 87 rules: purchase-tax rates, EV cap, green-tax table |
+| https://www.kolzchut.org.il/he/יבוא_אישי_של_רכב_לתושבים_וסטודנטים_חוזרים | Kol-Zchut, personal vehicle import for returning residents and students |
+| Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית" | Kol-Zchut, household-goods exemption and the deposit |
+| https://www.gov.il/he/pages/ta-contact-us | Tax Authority contact page (\*4954) |
+| https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/benefits-for-toshavim-chozrim-returning-residents/ | Nefesh B'Nefesh, returning-resident benefits (returnees pay full vehicle tax) |
+| https://shivatzion-support.freshdesk.com/en/support/solutions/501000223548 | Shivat Zion knowledge base for returning Israelis |
 
 ## Troubleshooting
 
-- **gov.il customs guide URL returns a 403 to scrapers**: it loads fine in a real browser; if an agent cannot fetch it, fall back to the kolzchut mirrors above and the citations in `references/domain-checklist.md`.
-- **Meches clerk insists on the Misrad HaAliyah certificate even though the gov.il guide says the online system handles it**: this is a known inconsistency. The user can (a) wait, or (b) escalate via the *4954 hotline.
-- **Auto-approval fails for a returnee who was abroad on a long trip but kept an Israeli address**: Meches may classify the user as never having lost residency. Bring proof of foreign residency (lease, tax returns, work permit) to the in-person appointment.
-- **Customs broker (סוכן מכס) gives a different number than this skill quotes**: a broker is dealing with the live takanot and Meches commissioner discretion. Trust the broker on the actual filing; use this skill for the planning conversation BEFORE engaging the broker.
-- **The user already shipped 3 shipments**: not all is lost, the third shipment will clear as a regular import (full tax), but the goods clear; user pays the tax difference. This skill should have prevented this; surface the lesson and move on.
+- **gov.il pages return 403 to scrapers**: they load in a real browser. If an agent cannot fetch them, use the Kol-Zchut pages and the citations in `references/domain-checklist.md`, and say the figure was not re-checked live.
+- **Meches clerk insists on the Misrad HaAliyah certificate although the online system handles it**: the user can wait for the certificate or call \*4954.
+- **Auto-approval fails for a returnee who kept an Israeli address**: the gov.il guide only says exceptional cases go to the customs house; bring proof of the years abroad (passport stamps and foreign-residency documents) to that appointment.
+- **A customs broker gives a different number than this skill**: the broker works from the live rates, the assessor's valuation, and the actual green score. Trust the broker on the filing; use this skill for planning BEFORE engaging one.
+- **The user already shipped a third shipment**: it clears as a regular import at full tax; the goods still clear.

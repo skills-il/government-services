@@ -1,306 +1,1116 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-aliyah-customs-shipment-planner",
-  "generated_at": "2026-05-26T00:00:00Z",
+  "generated_at": "2026-10-29T00:00:00Z",
   "claims": [
     {
-      "claim_id": "olim-3-shipments-3-years",
-      "claim": "Olim have three years from their Aliyah date to utilize customs benefits across up to three separate shipments",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "They are of the type carried by hand as determined by the Customs Officer. Their total value does not exceed an amount equal to $1,650 upon purchase. Importing items by Mail If you receive a postal package addressed to you by mail containing household items, it will be considered as one of the three shipments you are entitled to.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "ta-eligible-statuses",
+      "claim": "Olim under the Law of Return (including those with only a printed status confirmation), Katin Chozer, Ezrach Oleh and permanent residents are entitled under the Tax Authority olim guide",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולים על-פי חוק השבות (כולל עולים שלא קיבלו תעודת עולה אלא רק אישור מודפס על קבלת מעמד עולה).",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"1,650\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
-      "claim_id": "hand-luggage-under-200-usd",
-      "claim": "Personal belongings in hand luggage are tax-free up to USD 200 per person",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "ta-period-from-status",
+      "claim": "The eligibility period runs from the day oleh status is received, whether on the entry day or after a stay in Israel",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "התקופה מחושבת החל מיום קבלת מעמד עולה – בין אם המעמד ניתן ביום הכניסה לארץ ובין אם המעמד ניתן לאחר תקופת שהייה בארץ.",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"200\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
-      "claim_id": "hand-luggage-alcohol-cap",
-      "claim": "Alcohol allowance in hand luggage: 1 litre spirits + 2 litres wine for age 18+",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Cosmetics with alcohol content (perfumes), up to 1/4 liter (250 ml) – for each entrant. Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "ta-3-shipments",
+      "claim": "Up to 3 shipments in total free of import taxes, including postal and container shipments",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "ניתן לייבא את החפצים הפטורים ממיסי ייבוא בלא יותר משלושה משלוחים בסך הכל (כולל משלוח בדואר, משלוח מכולה באונייה וכו').",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"250\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
-      "claim_id": "hand-luggage-tobacco-cap",
-      "claim": "Tobacco allowance in hand luggage: 250 grams or 200 cigarettes for age 18+",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Cosmetics with alcohol content (perfumes), up to 1/4 liter (250 ml) – for each entrant. Tobacco in all its forms, weighing not more than 250 grams and cigarettes – up to 200 cigarettes in a carton. Other items not specified, which you brought with you upon entry for personal use or as a gift for someone else, whose value does not exceed $200 USD – for each entrant from the age of 2 and up.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "ta-shipment-definition",
+      "claim": "A shipment includes goods by ship or plane, postal packages, and goods brought on a later entry",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "חפצים המגיעים באונייה או במטוס. חפצים הנשלחים בחבילת דואר. חפצים המיובאים עם הזכאים בעת כניסה לישראל, לאחר עלייתם.",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"250\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     },
     {
-      "claim_id": "olim-3-tvs-3-computers-per-family",
-      "claim": "Up to 3 televisions and 3 computers per family under olim customs exemption",
+      "claim_id": "ta-3-years",
+      "claim": "Exemption from the day oleh status is received up to 3 years from aliyah",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולה זכאי לפטור ממיסי ייבוא על חפצים שהוא מייבא מיום קבלת מעמד עולה ועד 3 שנים מהעלייה.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-6-year-personal-use",
+      "claim": "Goods for own use in Israel for at least 6 years from release or purchase; vehicle 4 years",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "יהיו לשימושם העצמי בישראל לתקופה של 6 שנים לפחות מיום שחרורם או רכישתם. רכב - לתקופה של 4 שנים לשימוש עצמי בישראל.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-no-transfer",
+      "claim": "Goods may not be passed to others before the period ends, temporarily or permanently, with or without payment; breach of exemption",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "אין להעביר את הטובין לשימושם של אחרים לפני תום התקופה, זמנית או דרך קבע, בתמורה או ללא תמורה. אי-קיום תנאי זה מהווה הפרה של תנאי הפטור.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-3-tv-3-pc-one-of-each",
+      "claim": "Up to 3 TVs and 3 personal computers per family; one of each other electrical/electronic appliance and major furniture item",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "ניתן לייבא עד 3 טלוויזיות ו-3 מחשבים אישיים, לכל משפחה. לגבי יתר מכשירי החשמל והאלקטרוניקה ופריטי ריהוט עיקריים – ניתן לייבא פריט אחד מכל סוג.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-release-name-agent",
+      "claim": "Goods released by the entitled person or a customs agent with power of attorney; import documents in the entitled name",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "שחרור הטובין יבוצע על-ידי הזכאים או על-ידי סוכני מכס שקיבלו ייפוי כוח כדין מהזכאים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-permanent-installation-excluded",
+      "claim": "Exemption does not apply to permanently installed equipment: plumbing, building, flooring, wall coverings (wallpaper, tiles, marble)",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הפטור ממיסי ייבוא אינו חל על ציוד להתקנת קבע, כגון: טובין לאינסטלציה, חומרים לבנייה, לריצוף או לכיסוי קירות (טפטים, אריחים, שיש ואחרים).",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-israeli-ac-vat",
+      "claim": "Approval allows buying an Israeli-made air conditioner VAT-free, up to two units or one mini-central unit",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "האישור מאפשר גם לרכוש מזגן שמיוצר בישראל בפטור ממע\"מ (עד שני מזגנים למשפחה או מזגן מיני מרכזי אחד).",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-hand-tools-1650",
+      "claim": "Hand-held work tools for professional needs, tariff item 84.67, total value up to USD 1,650",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הם מהסוג הנישא ביד (בהתאם להגדרתם בפרט 84.67 לתעריף המכס) לפי קביעת פקיד המכס. ערכם הכולל, כפי שייקבע בנמל היבוא, אינו עולה על סכום השווה ל-1,650$.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-business-36000",
+      "claim": "Business machinery up to USD 36,000 FOB including hand tools, Director approval, bank guarantee",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "ערך כל הציוד לא יעלה על 36,000$ פו\"ב (FOB). בסכום זה כלולים כלי עבודה מיטלטלים שערכם אינו עולה על 1,650$",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-business-guarantee",
+      "claim": "Equipment kept on the business premises; bank guarantee for the taxes",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הציוד ישמש במפעלם של הזכאים (בית מלאכה, משק, עסק) ויוחזק בשטח המפעל. כנגד הפטור (במידה שיאושר על ידי המנהל) תופקד ערבות בנקאית בגובה המסים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-postal-clothing-window",
+      "claim": "Clothing-and-footwear-only postal package exempt and not a shipment if it arrives from 30 days before status to 3 months after",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "חבילת דואר המכילה פריטי הלבשה והנעלה בלבד - תהיה פטורה ממסים ולא תיחשב כאחד משלושת המשלוחים, אם החבילה הגיעה מ-30 יום לפני קבלת המעמד ועד 3 חודשים אחרי קבלת המעמד.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-accompanying-luggage",
+      "claim": "Olim arriving with an aliyah visa and receiving status on entry may bring accompanying luggage free, not counted as a shipment, same vehicle",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "חפצים אלו לא ייחשבו כאחד משלושת המשלוחים. הזכאות להבאתם היא נוסף על שלושת המשלוחים. הפטור יינתן רק אם החפצים יובאו עימכם באותו כלי ההסעה.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-green-lane-alcohol",
+      "claim": "Spirits up to 1 litre and wine up to 2 litres per entrant aged 18+; alcohol cosmetics up to 1/4 litre",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "יינות ומשקאות, משקה חריף עד 1 ליטר ויין עד 2 ליטר - לכל אחד מהנכנסים מגיל 18. תמרוקים כוהליים, עד ¼ ליטר - לכל אחד מהנכנסים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-green-lane-tobacco",
+      "claim": "Tobacco up to 250 grams; cigarettes up to 200 (one carton)",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "טבק על כל צורותיו, במשקל שאינו עולה על 250 גרם. סיגריות – עד 200 סיגריות שהן חבילה (פקט).",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-green-lane-200-usd",
+      "claim": "Other items for own use or as a gift up to USD 200 per item, each entrant aged 2+; up to 3 kg food, 1 kg per type",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בערך של עד 200$ (ארצות הברית) לכל חפץ - לכל אחד מהנכנסים מגיל שנתיים ומעלה. במסגרת סכום זה ניתן להביא סוגי מזון, שמשקלם הכולל הוא עד 3 קילוגרם, בתנאי שמשקלו של כל סוג מזון לא יעלה על 1 קילוגרם.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-200-no-pooling",
+      "claim": "The allowance is personal; entrants cannot pool for an item over USD 200",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הפטור הוא אישי לכל אחד מהנכנסים, ולכן אין לצרף זכויות של מספר נכנסים ולקבל פטור לגבי חפץ, שערכו מעל 200$.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-clothing-customary",
+      "claim": "Clothing, footwear and toiletries of the kinds and quantities customary as travellers luggage",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הלבשה, הנעלה וצורכי טואלט אישיים - מהסוגים ובכמויות שנהוג להביא כמטען נלווה של נוסעים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-service",
+      "claim": "Regular IDF or national service: service period (not career) does not count, remaining period resumes after discharge",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "תקופת השירות (לא כולל שירות בקבע) אינה נספרת, ותקופת הזכאות שנותרה לפני הגיוס נמשכת לאחר השחרור.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-studies",
+      "claim": "Studies begun within 18 months as regular students, continuous, up to 5 years (medicine/law longer): extended by one year from end of studies",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולים שהחלו ללמוד תוך 18 חודשים מיום כניסתם כתלמידים מן המניין ב\"מוסד להשכלה גבוהה\", ותקופת לימודיהם הייתה רצופה ולא עלתה על 5 שנים (במקצועות רפואה ומשפטים תיתכן תקופת לימודים ארוכה יותר). תקופת הזכאות תוארך בשנה מיום תום הלימודים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-studies-not-frozen",
+      "claim": "The study extension is not frozen even if the student leaves Israel right after",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "גם אם הסטודנטים יוצאים לחוץ לארץ מיד לאחר לימודיהם, הזכאות אינה מוקפאת ותסתיים בתום שנה ללא אפשרות הארכה נוספת.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-abroad",
+      "claim": "Six consecutive months or more abroad (not for a returning minor): time abroad not counted; online form, no visit",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "שהייה בחו\"ל: עולים ששהו מחוץ לישראל שישה חודשים רצופים או יותר במהלך תקופת זכאותם.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-online",
+      "claim": "Extension by online form, no need to come to the customs house",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "אין צורך בהגעה או בשליחת מסמכים לבית המכס.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-extension-up-to-6-years",
+      "claim": "The eligibility period can be extended up to 6 years, longer in some cases",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "ניתן להאריך את תקופת הזכאות עד 6 שנים. במקרים מסוימים תאושר תקופה ארוכה יותר.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-exceptions-committee",
+      "claim": "Exceptions committee for goods received before status or arriving after 3 years in special circumstances",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "קבלת המטען לפני השלמת הליך קבלת המעמד נסיבות מיוחדות שבגללן המטען הגיע לאחר תום 3 שנים",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-file-opened-auto",
+      "claim": "Customs eligibility file opened automatically from Misrad HaKlita data",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "המידע לגבי כל העולים המגיעים לישראל מועבר למכס במסר אלקטרוני ממשרד העלייה והקליטה, ותיק הזכאות במכס נפתח באופן אוטומטי.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-file-manual-docs",
+      "claim": "If not opened automatically, open with customs officials or by email, with Misrad HaKlita certificate and foreign passport with aliyah visa or Israeli passport",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "במקרים אלו ניתן לפתוח תיק אצל פקידי המכס או בדואר אלקטרוני לשם כך יש להציג את המסמכים הבאים: תעודה מטעם משרד העלייה והקליטה. דרכון זר הכולל אשרת עלייה או דרכון ישראלי.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-spouses-broader",
+      "claim": "Spouses exercise rights by one spouse; if different, by the spouse with the broader rights",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בני זוג יכולים לממש זכויות לגבי חפצים על פי זכויותיו של אחד מבני הזוג. אם הזכאות שלהם שונה, יינתנו ההטבות לפי בן הזוג שלו הזכויות הרחבות יותר.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-spouses-3-shipments",
+      "claim": "Spouses who received status at different times are together entitled to three shipments only; capped items count",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בני זוג שקיבלו מעמד עולה בזמנים שונים (לא משנה מה ההפרש) זכאים יחד לשלושה משלוחים בלבד.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-vehicle-4-year-sale",
+      "claim": "The car may be sold only after 4 years of use by the oleh in Israel",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "את הרכב ניתן למכור רק לאחר 4 שנים שבהן הרכב היה בשימוש העולה בישראל.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-vehicle-separate",
+      "claim": "Vehicle imported no later than 3 years from aliyah",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "הרכב יובא לישראל לא יאוחר מתום 3 שנים מיום עלייתם של הזכאים לישראל.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-vehicle-one-car-spouses",
+      "claim": "Spouses release one car only and nobody else may drive it",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בני-זוג, אף אם שניהם זכאים, יוכלו לשחרר רכב אחד בלבד בתשלום מסים מופחתים, ואין לאף אחד מלבדם הזכות לנהוג בו.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-pets-licence-before-aliyah",
+      "claim": "Aliyah with animals requires meeting Ministry of Agriculture requirements and applying for an import licence before aliyah",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "שימו לב, עלייה עם בעלי חיים דורשת עמידה בדרישות משרד החקלאות והגשת בקשה לרישיון יבוא לפני העלייה.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-permit-authorities",
+      "claim": "Competent authorities: drones and communication products MoC; weapons Ministry of National Security; scooters/e-bikes/helmets Ministry of Transport; laser Ministry of Economy",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "רחפן משרד התקשורת",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-permit-weapons",
+      "claim": "Weapons and weapon parts: Ministry of National Security",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "נשק וחלקי נשק משרד לביטחון פנים",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-permit-transport",
+      "claim": "Helmets, infant safety seats, spare parts; motorised scooters and e-bikes: Ministry of Transport",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "קסדות, מושב בטיחות לתינוקות, חלקי חילוף לרכב משרד התחבורה",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-permit-laser",
+      "claim": "Laser pointers / laser meters: Ministry of Economy",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "מסמני לייזר/מד לייזר משרד הכלכלה",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-approval-vs-licence",
+      "claim": "Import approval can be obtained after arrival; import licence must be obtained before arrival",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "אישור ייבוא ניתן לקבל מהרשות המוסמכת גם לאחר הגעת המוצר לארץ. יודגש כי המוצר לא ישתחרר מהמכס לפני הצגת אישור הייבוא. לעומת זאת, רישיון ייבוא חובה לקבל מהרשות המוסמכת לפני הגעת המוצר לארץ.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-prohibited-knives",
+      "claim": "Prohibited: knives other than pocket knives or knives for professional, craft, business, household or other lawful purpose",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "סכין, מלבד אולר ומלבד סכין שנועדה לשמש במקצוע, במלאכה, בעסק, לצורכי בית או למטרה כשרה אחרת.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-prohibited-beekeeping",
+      "claim": "Prohibited: used beekeeping equipment; dangerous live creatures such as vipers",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "יצורים חיים כגון: נחשי צפע וטובין מסוכנים דומים. ציוד משומש לגידול דבורים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "nbn-phones-5",
+      "claim": "NBN lists five cell phones per family",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "or manufacturing equipment Three computers per family Three televisions per family Five cell phones per family Carpeting for up to 25% of the area of the Oleh’s home in Israel Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel Importing Goods by Postal Packages As an Oleh who is entitled to customs benefits, you may consider a postal package containing household items only as one of the 3 shipments exempted from taxes.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Five cell phones per family",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"25%\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      ]
     },
     {
-      "claim_id": "olim-one-of-each-appliance",
-      "claim": "One item maximum per other appliance category (fridge, oven, washer, dryer, microwave)",
+      "claim_id": "nbn-carpet-25",
+      "claim": "NBN: carpeting for up to 25% of the area of the oleh home",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "Understanding Your Customs Benefits - Nefesh B'Nefesh",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-6-year-retention",
-      "claim": "Goods imported duty-free under aliyah rights must stay in possession for 6 years or depreciated tax is owed back to Meches",
-      "source_url": "https://anglo-list.com/aliyah-shipping-rights/",
-      "raw_snippet": "All goods imported with Aliyah rights or benefits must stay in your possession for at least six years from the date of import or depreciated taxes must be paid to The Israel Tax Authority – Meches. (A car must stay in your possession for five years). Please verify latest import tax rates with your Aliyah emissary or Aliyah organization .",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "cited page fetched; 25 of 27 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"depreciated\"",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-vehicle-4-year-resale-restriction",
-      "claim": "Vehicles purchased with oleh benefits carry a 4-year resale restriction from date of purchase: selling within 4 years requires repaying the customs discount via the Meches CarTaxCompletion form; restriction lifts automatically after 4 years",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
-      "raw_snippet": "If the Oleh or Olah wishes to sell the car within four years of the date of purchase, he or she will be obligated to pay back the amount of the reduction received at the time of purchase. The restriction will be automatically lifted after 4 years.",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md",
-        "scripts/plan_shipments.py"
-      ]
-    },
-    {
-      "claim_id": "olim-vehicle-50-percent-car-tax",
-      "claim": "Olim purchase tax on new vehicles is 50% of the car value (vs the standard 83% per NBN, or 92% per older Belong reporting), with 18% VAT applied to the car-value + car-tax base",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
-      "raw_snippet": "50% + VAT on all vehicles: ([car value + (car value *50%)] + [car value + (car value *50%)] *18% VAT) irrespective of engine size or car's country of origin. (For reference, without the benefit the tax is 83% +VAT).",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "references/allowed-items-list.md"
-      ]
-    },
-    {
-      "claim_id": "olim-vehicle-3-year-window",
-      "claim": "Olim have 3 years from aliyah date to use the vehicle customs benefit; the car must arrive and clear customs (not just be purchased) before the end of the third year",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
-      "raw_snippet": "Israel Home Life in Israel Government Services Rights and Benefits Buying a Vehicle in Israel Buying a New Car from a Car Dealer Olim are entitled to buy cars in Israel at a reduced tax rate, within three years after making Aliyah. Please note: the car must have arrived in Israel and cleared customs before the end of the third year, it is not enough to have purchased it by that date.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-hand-tools-1650-usd-cap",
-      "claim": "Professional hand tools imported under oleh benefits are capped at USD 1,650 total value; tools must be portable and for professional use",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "The total value of the tools...should not surpass $1,650 USD (as of 2024)",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md"
-      ]
-    },
-    {
-      "claim_id": "olim-business-machinery-36000-usd-cap",
-      "claim": "Business machinery / equipment imported under oleh benefits is capped at USD 36,000 total value (including the portable hand-tools cap of USD 1,650)",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "The total value of the equipment...must not exceed $36,000 (USD)",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md"
-      ]
-    },
-    {
-      "claim_id": "olim-pet-import-rules",
-      "claim": "Pet (dog/cat) import for olim requires: minimum age 4 months, rabies vaccination administered within 12 months before entry AND at least 1 month before entry, rabies antibody titer of at least 0.5 IU/ml from an approved laboratory; approved entry ports are Ben Gurion, Haifa, Ashdod, and Eilat",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "proof of rabies vaccination within 12 months before entry to Israel, with at least 1 month passing since vaccination, as well as a confirmation of a normal rabies antibody level (above 0.5)",
-      "fetched_at": "2026-05-26T00:00:00Z",
+      "raw_snippet": "Carpeting for up to 25% of the area of the Oleh’s home in Israel",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "olim-extension-military-study-5-year-ceiling",
-      "claim": "The 3-year customs window can be extended for IDF service (clock pauses during service) and full-time study (+1 year from end of studies), with an overall 5-year ceiling on the eligibility period (longer for medicine and law)",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "The eligibility period extends by 1 year from the end of their studies. This extension is neither frozen nor prolonged, even if the student leaves Israel immediately after graduation. Extended Stays Abroad – If an Oleh spends over 6 consecutive months abroad during their eligibility period, they can apply for an extension.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-postal-clothing-window",
-      "claim": "Postal clothing shipments to an oleh can be sent within 30 days before entry, on the day of entry as accompanying luggage, or within 3 months after entry; this is a separate sub-allowance from the main 3-shipment quota",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "within 30 days before your entry, on the day of your entry as accompanying luggage, or within 3 months after your entry",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "olim-perfume-250ml-gifts-200-usd",
-      "claim": "Hand-luggage sub-caps for olim entering Israel: perfume up to 250 ml (1/4 liter) per person; items for personal use or as gifts up to USD 200 per entrant",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "Products – The limit is set at 250 grams/8.81 oz., which equates to about 200 cigarettes or one carton Other Miscellaneous Items – Items for personal use or as gifts, valued at under $200 USD per entrant aged 2 and above, are allowed. Within this $200 limit, you can include up to 3 kilograms (6.61 pounds) of food, with each food type not exceeding 1 kilogram (2.20 pounds).",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-carpet-25-percent-nbn",
-      "claim": "NBN states the carpet allowance is up to 25% of the area of the Oleh's home in Israel; the more detailed tenure-aware split (70% wall-to-wall for owners, area-rugs alternative, ~30 sqm flat for renters) is conventional broker practice and should be confirmed with a licensed customs broker rather than treated as NBN-published",
+      "claim_id": "nbn-ac-rooms",
+      "claim": "NBN: air conditioners, fans and heaters relative to the number of rooms",
       "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
-      "raw_snippet": "nly, i.e., not office or manufacturing equipment Three computers per family Three televisions per family Five cell phones per family Carpeting for up to 25% of the area of the Oleh’s home in Israel Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel Importing Goods by Postal Packages As an Oleh who is entitled to customs benefits, you may consider a postal package containing household items only as one of the 3 shipments exempted from taxes.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "olim-ev-48-percent-22000-nis-cap-2026",
-      "claim": "Electric vehicle (EV) purchase-tax benefit is set at 48% from Jan 1 2026 (capped at NIS 22,000); this is a separate national benefit available to all Israelis, and may sometimes be more favorable than the 50% oleh discount on EVs",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/buying-a-vehicle-in-israel/",
-      "raw_snippet": "the final decision set the rate at 48%. As a result, the standard electric vehicle tax benefit may still be more favorable than the Oleh vehicle benefit (50% tax) in some cases. However, since the electric vehicle benefit is now capped at 22,000 NIS",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "references/allowed-items-list.md"
-      ]
-    },
-    {
-      "claim_id": "ref-link-nbn-rights-hub",
-      "claim": "Nefesh B'Nefesh maintains a comprehensive rights and benefits hub for English-speaking olim covering banking, tax, license conversion, customs, and vehicle benefits. Covered references: Rights and Benefits hub: customs, banking, tax, license conversion, vehicle import.",
-      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/",
-      "raw_snippet": "Aliyah Rights and Benefits - Nefesh B'Nefesh --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content Toggle Navigation ISRAEL JOB BOARD LOGIN TO MY APPLICATION Toggle Navigation MAKING ALIYAH What is Aliyah?",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "ref-link-meches-israel-tax-authority",
-      "claim": "The Israel Tax Authority (Meches) is the government body that consolidates the customs division along with income tax, real-estate taxation, VAT, purchase tax and stamp duty. NOTE: the separate assertion that the Taarif HaMeches tariff database governs duty rates on over-limit imports is not stated on this page and needs its own source.",
-      "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
-      "raw_snippet": "The Israel Tax Authority consolidates the various tax divisions: income tax, real estate taxation, VAT, purchase tax, customs and stamp duty.",
-      "fetched_at": "2026-08-11",
+      "raw_snippet": "Air conditioners, fans and heaters relative to the number of rooms in the family’s new home in Israel",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "ref-link-misrad-haklita-customs",
-      "claim": "Misrad HaAliyah V'HaKlita (Ministry of Aliyah and Integration) issues the Teudat Oleh which gates customs benefits. Covered references: Ministry of Aliyah and Integration issues Teudat Oleh.",
+      "claim_id": "nbn-personal-effects",
+      "claim": "NBN tax-free list: books, clothing, linens, kitchen utensils, pictures, decorations, media, personal effects",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Books, clothing, linens, kitchen utensils, pictures, decorations, media, and general personal effects",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-container-rule",
+      "claim": "A sea shipment larger than a full container counts as two shipments unless same ship and cleared together",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "If you are shipping via sea, and the shipment is larger than a full container, it will count as two shipments, unless both shipments come on the same ship and are cleared through Customs at the same time.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-any-country",
+      "claim": "Shipments can come from any country",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Your shipments can come from any country, not only from the country from which you are making Aliyah.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-moc-over-5-phones",
+      "claim": "More than 5 mobile phones need Ministry of Communications approval",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "if you import more than 5 mobile phones you will need approval by the Ministry of Communications",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-postal-form",
+      "claim": "Release a postal package with the Customs Exemption Request Form plus Teudat Oleh and Teudat Zehut with Sefach",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Please make sure to add a copy of your Teudat Oleh and Teudat Zehut with Sefach (addendum) with the exemption request form.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rr-who",
+      "claim": "Returning residents: Israeli residents abroad 2 or more years returning permanently; second-time olim",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "תושבי ישראל, ששהו בחוץ לארץ שנתיים או יותר וחוזרים סופית לישראל.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-2-shipments-9-months",
+      "claim": "Returning residents: household goods in two shipments only, within nine months of return, not extendable",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "ניתן לייבא את חפצי הבית - בשני משלוחים בלבד. יש לוודא שחפצי הבית יגיעו בתקופת הזכויות, שהיא תשעה חודשים מיום החזרה לארץ. לתשומת ליבכם: תקופה זו אינה ניתנת להארכה.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-caps",
+      "claim": "Returning residents: up to 3 TVs and 3 computers per family; one of each other appliance and major furniture",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "ניתן לייבא עד 3 מקלטי טלוויזיה ו-3 מחשבים אישיים, לכל משפחה.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-6-years-reexempt",
+      "claim": "Returning residents may re-exempt the same item type only after 6 years in Israel since the previous release",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "בתנאי ששהו בישראל במשך 6 שנים לפחות, לאחר יום שחרור חפצי הבית בפעם הקודמת.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-4-month-visits",
+      "claim": "Each year of absence allows visits to Israel up to 4 months in total",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "לתקופה מצטברת של עד 4 חודשים בשנת היעדרות",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-6-year-use",
+      "claim": "Returning residents: own use in Israel for at least 6 years",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "יהיו לשימושכם העצמי בישראל, לתקופה של 6 שנים לפחות.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-students-docs",
+      "claim": "Returning students bring confirmation of two academic years or a degree",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "על היותם סטודנטים מן המניין שתי שנים אקדמיות.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pets-exemption-conditions",
+      "claim": "Licence exemption: up to two dogs or two cats a year; age over 5 months on arrival; owner over 18",
+      "source_url": "https://www.gov.il/he/service/import_pets_cats_dogs",
+      "raw_snippet": "לייבוא של עד שני כלבים או עד שני חתולים בשנה.גיל הכלב או החתול במועד הגעה לישראל מעל 5 חודשים. מגיש הבקשה הוא בעליהם של הכלב או החתול וגילו מעל גיל 18.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pets-90-days",
+      "claim": "Animal in owner possession at least 90 days before the flight; same flight",
+      "source_url": "https://www.gov.il/he/service/import_pets_cats_dogs",
+      "raw_snippet": "הכלב או החתול היה ברשותו ותחת השגחתו הפיזית של בעליו שעל הטיסה לפחות ב-90 הימים שלפני הטיסה לישראל.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pet-rabies-vaccine",
+      "claim": "Rabies vaccination no more than one year and no less than 30 days before arrival",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/he/annex%20a%20-%20veterinary%20certificate%20for%20domestic%20dogs%20and%20cats.pdf",
+      "raw_snippet": "vaccinated against rabies no more than one year and no less than 30 days prior to their arrival in Israel",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pet-titer",
+      "claim": "Rabies neutralizing antibody titer at least 0.5 IU/ml, EU or WOAH approved lab",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/he/annex%20a%20-%20veterinary%20certificate%20for%20domestic%20dogs%20and%20cats.pdf",
+      "raw_snippet": "tested in an EU or WOAH-approved laboratory, which states that the rabies neutralizing antibody titer was equal to or greater than 0, 5 IU/ml.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pet-microchip-cert",
+      "claim": "Microchip ISO 11784 / ISO 11785; certificate valid for 10 days",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/he/annex%20a%20-%20veterinary%20certificate%20for%20domestic%20dogs%20and%20cats.pdf",
+      "raw_snippet": "The certificate is valid for 10 days",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "pet-microchip",
+      "claim": "Microchip 134.2 kHz per ISO 11784 and ISO 11785",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/he/annex%20a%20-%20veterinary%20certificate%20for%20domestic%20dogs%20and%20cats.pdf",
+      "raw_snippet": "the provisions of the ISO Standard No. 11784 and of Annex A of ISO Standard 11785.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-adults-18",
+      "claim": "Concessions generally granted to adults 18+ maintaining an independent household",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "As a rule, customs concessions are granted to immigrant adults, i.e., single or couple, age 18 and over at the time of aliyah, who maintain an independent household.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-minor-exceptions",
+      "claim": "Minor gets adult eligibility if entering at 17+ and reporting to IDF within one year, or enrolled full-time within 18 months",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "An immigrant who enters Israel at minimum age 17 and reports within one year for service in the IDF.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-a1",
+      "claim": "A new immigrant who received concessions as temporary resident A/1 is not eligible again",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "A new immigrant who received customs concessions in the past as a temporary resident (A/1) is not eligible to receive concessions again as a new immigrant.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-rental-contract",
+      "claim": "The immigrant will usually have to display a copy of a rental or purchase contract",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "The immigrant will usually have to display a copy of an apartment rental or purchase contract.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-rr-no-vehicle",
+      "claim": "Returning residents are not eligible for vehicle tax concessions",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "a returning resident is not eligible for tax concessions regerding a vehicle.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-narcotic-meds",
+      "claim": "Medications that contain drugs require a Ministry of Health permit",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "Medications that contain drugs (a permit from the Ministry of Health).",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-spouse-premarriage",
+      "claim": "If the spouse used the capped-goods exemption before the marriage, no exemption on that type until 6 years since the spouse release",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולים שבני זוגם כבר מימשו פטור על טובין שמכסתם מוגבלת (כגון מוצרי חשמל) לפני הנישואין, לא יהיו זכאים לפטור ממיסי ייבוא על טובין מסוג זה. אך אם חלפו שש שנים מהיום ששוחררו הטובין על ידי בן הזוג, יהיו זכאים לפטור.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-spouse-passport",
+      "claim": "No exemption for one spouse without checking the other spouse passport",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בכל מקרה, לא יאושר הפטור לאחד מבני הזוג, ללא בדיקת דרכונו של בן הזוג השני.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-spouse-capped-remaining",
+      "claim": "The second spouse may bring capped items only if the first has not used the full cap",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בן הזוג השני יוכל להביא אותם רק אם בן הזוג הראשון עדיין לא ניצל את המכסה המלאה עבור אותם מוצרים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-licence-after-arrival-offence",
+      "claim": "Obtaining an import licence after the product arrives is an offence",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "קבלת רישיון ייבוא לאחר הגעת המוצר לארץ היא עבירה שעליה עלולים להידרש לשלם קנס/כופר.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ta-vehicle-50-vat",
+      "claim": "Olim are exempt from purchase tax on a vehicle but pay 50% customs plus VAT (77% combined)",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "פטורים מתשלום מס קנייה, אך חייבים בתשלום מכס בשיעור 50% + מע\"מ (77% מסים במרוכז)",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-second-time-olim",
+      "claim": "Second-time olim, as defined in Ministry of Interior regulations, are returning residents for customs",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "עולים בפעם שנייה, כהגדרתם בתקנות משרד הפנים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-insure-full",
+      "claim": "Insure goods at full value including all taxes",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "עליכם לבטח את חפציכם בערכם המלא, כולל כל המסים.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "rr-detailed-list",
+      "claim": "Declare all items in the luggage in a detailed list",
+      "source_url": "https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents",
+      "raw_snippet": "עליכם להצהיר על כל החפצים שבמטענכם, ברשימה מפורטת.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-student-two-years",
+      "claim": "Minor student route requires at least two consecutive years of study",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "studies for at least two consecutive years.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "mk-proof-of-use",
+      "claim": "Proof the items are used by the new immigrant may be required even without guarantees",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/information_olim_tuota/he/guide-for-the-new-immigrant-en.pdf",
+      "raw_snippet": "Proof that the items are used by the new immigrant may be required even when no guarantees are necessary.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "nbn-courier-no-refund",
+      "claim": "If the courier pays the customs fee for you, in most cases no refund",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "In most cases, if the courier service pays the customs fee on your behalf you will NOT be able to get a refund.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-cannabis",
+      "claim": "Cannabis based products or medication cannot be imported for any reason",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "Cannabis based products or Medication cannot be imported, for any reason.",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nbn-cash-50000",
+      "claim": "Cash above NIS 50,000 on an aliyah flight must be declared but is not taxed",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/",
+      "raw_snippet": "any amount above 50,000 NIS must be declared but will not be taxed",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "petd-vet-certifies",
+      "claim": "Annex D: a certified veterinarian certifies a congenital-bobtail dog or cat was not harmed and the tail was not docked",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/he/Annex%20D%20-%20Declaration%20regarding%20Non-Mutilation.pdf",
+      "raw_snippet": "I, the undersigned, certified veterinarian hereby certify that: The dog / cat* in this certificate was not harmed",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "petf-short-tail",
+      "claim": "The Ministry pet forms include a non-mutilation declaration for applicants importing a pet born with a short tail under an import licence",
+      "source_url": "https://www.gov.il/he/pages/moag-pro-061",
+      "raw_snippet": "הצהרה בדבר אי ביצוע פעולת השחתהלמבקשים לייבוא חיית מחמד עם זנב קצר מלידה תחת רישיון יבוא",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ref-link-ta-guide-en",
+      "claim": "English version of the Tax Authority olim import-tax guide (navigational reference)",
+      "source_url": "https://www.gov.il/en/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "Import Tax Guide for New Immigrants (Olim)",
+      "fetched_at": "2026-10-29T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita",
+      "claim": "Misrad HaKlita department page (navigational reference)",
       "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
-      "raw_snippet": "On Sunday, 23/08/2026, the ministry branch offices will be closed to the public.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Ministry of Aliyah and Integration",
+      "fetched_at": "2026-10-29T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "gov.il department page rendered in a browser (SPA; empty to a plain fetch)",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "ref-link-kolzchut-customs",
-      "claim": "Kol-Zchut is the community-maintained Hebrew and English rights portal with up-to-date olim customs pages",
-      "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "Kol-Zchut community rights portal.",
-      "fetched_at": "2026-05-26T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "olim-quantity-caps-3-tvs-3-pcs-1-of-each-belong",
-      "claim": "Belong (toshav chozer rights basket and shipping-importation pages) authoritatively documents: up to 3 televisions and 3 personal computers per family, plus 1 item per category for other appliances/furniture; these caps are now treated as confirmed rather than over-hedged",
-      "source_url": "https://belong.co.il/living/shipping-importation/",
-      "raw_snippet": "Eligible families can bring a maximum of 3 television sets and 3 personal computers One-Per-Category Rule – For other electronic devices, appliances, and major furniture pieces, eligible families may import 1 item per category Release and Handling of Goods – The release of imported goods can be managed directly by eligible individuals or through customs agents who have been legally authorized via a power of attorney Please keep in mind that these items cannot be lent, given, or sold to others, temporari",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/allowed-items-list.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "red-customs-lane",
-      "claim": "Items exceeding value thresholds require Red Customs lane processing",
-      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348712-aliyah-customs-benefits",
-      "raw_snippet": "Aliyah Customs Benefits Overview : Shivat Zion - Aliyah & Klita",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
     }
   ]
 }

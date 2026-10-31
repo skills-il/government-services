@@ -1,86 +1,78 @@
 # Allowed Items List - Aliyah Customs Exemption
 
-Detailed classification of household items against per-family caps defined by the Israel Tax Authority (Meches) for new olim. Per-family caps are enforced household-wide, not per person.
+Classification of household items against the per-family caps for olim. Primary source: the Israel Tax Authority import-tax guide for new olim (https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents). Rows marked NBN come only from Nefesh B'Nefesh (https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/understanding-customs-benefits/). Caps are household-wide, not per person.
 
-## Exempt (Standard)
+## Exempt (No Numeric Cap)
 
-No count limit as long as they are personal use, not for resale. Arrive in the 3 shipments within 3 years of aliyah.
+Household goods are, in general, goods of the type used in a residential apartment (Tax Authority). They must arrive within the eligibility window in no more than 3 shipments, in the oleh's name, in reasonable quantities for personal use.
 
 | Category | Examples | Notes |
 |----------|----------|-------|
-| Clothing | All family clothing, shoes, outerwear | No limit on personal wardrobe |
+| Clothing | Family clothing, shoes, outerwear | Personal wardrobe |
 | Linens | Sheets, towels, blankets, pillows | Household use |
-| Kitchen utensils | Pots, pans, dishes, cutlery, small tools | Standard household quantities |
-| Books | Personal library | No limit |
+| Kitchen utensils | Pots, pans, dishes, cutlery | Household quantities |
+| Books | Personal library | |
 | Pictures and decorations | Framed art, wall hangings, ornaments | Household use |
 | Media | Music, films, personal archives | Household use |
 | Personal effects | Toys, hobby equipment, personal items | For household members only |
-| Furniture | Beds, sofas, tables, chairs, wardrobes | For the oleh's home |
+
+NBN lists books, clothing, linens, kitchen utensils, pictures, decorations, media and general personal effects as tax-free items.
 
 ## Exempt (Capped)
 
-Allowed but capped per family. A unit above the cap is over-limit.
+| Item | Cap per family | Source | Over-cap consequence |
+|------|----------------|--------|----------------------|
+| Televisions | 3 | Tax Authority | 4th TV pays import taxes |
+| Personal computers | 3 | Tax Authority | 4th computer pays import taxes |
+| Major furniture items | One of each type | Tax Authority | Second of a type pays import taxes |
+| Refrigerator, oven, washing machine, dryer, microwave, dishwasher, any other electrical or electronic appliance | One of each type | Tax Authority | Second unit pays import taxes (no dairy/meat carve-out) |
+| Cell phones | 5 | NBN only | More than 5 also needs Ministry of Communications approval (NBN) |
+| Carpeting | Up to 25% of the area of the oleh's home in Israel | NBN only | Excess area pays import taxes. Fitted wall-to-wall carpet may be treated as flooring, which is excluded (see below). |
+| Air conditioners, fans, heaters | Relative to the number of rooms in the new home | NBN only | Customs decides the count; confirm before shipping |
+| Israeli-made air conditioner bought in Israel | VAT-free purchase of up to two units, or one mini-central unit | Tax Authority | A purchase benefit, not an import |
+| Hand-held work tools | Total value up to USD 1,650, for professional needs, of the hand-held type (customs tariff item 84.67), as the customs officer decides | Tax Authority | Excess value pays import taxes |
+| Machinery and equipment to set up a business (industry, craft, agriculture or other approved purpose) | Up to USD 36,000 FOB in total, including the hand tools; Director's approval; used and kept on the business premises; bank guarantee for the taxes | Tax Authority | Without approval, ordinary import |
 
-| Item | Cap per family | Over-cap consequence |
-|------|----------------|----------------------|
-| Televisions | 3 | 4th TV pays duty + VAT + purchase tax |
-| Computers | 3 | 4th computer pays duty + VAT + purchase tax |
-| Cell phones | 5 | 6th phone pays full rates |
-| Carpeting | NBN publishes "up to 25% of the area of the Oleh's home in Israel" as the headline cap. Broker practice often quotes a tenure-aware split (higher allowance for owners; flat ~30 sqm for renters) but those finer numbers are not on the NBN page, so confirm with a licensed customs broker. | Excess square meters pay full rates |
-| Refrigerator | 1 | 2nd fridge pays full rates (no dairy/meat exemption) |
-| Oven | 1 | 2nd oven pays full rates |
-| Washing machine | 1 | 2nd washer pays full rates |
-| Clothes dryer | 1 | 2nd dryer pays full rates |
-| Microwave | 1 | 2nd pays full rates |
-| Dishwasher | 1 | 2nd pays full rates |
-| Air conditioner (window/portable units) | Generally one of each type | Verify with customs broker for multi-unit splits |
-| Any other appliance or electronic equipment | One of each type | Household use only |
-
-The "one of each appliance" rule is strict. Orthodox families maintaining separate dairy and meat appliances do not get a carve-out - second units are over-limit.
+The "one of each" rule is strict. Families keeping separate dairy and meat appliances do not get a carve-out: the second unit is over-limit.
 
 ## Not Exempt - Non-Household
 
-These items do not count as household goods and are outside the aliyah shipment exemption. Clear as ordinary imports.
-
-- Office equipment (fax machines, commercial printers, business workstations beyond the 3-computer household cap)
-- Manufacturing or commercial equipment
+- Permanently installed equipment: plumbing goods, building materials, flooring and wall coverings (wallpaper, tiles, marble and similar) are excluded from the exemption (Tax Authority).
+- Office equipment (commercial printers, business workstations beyond the 3-computer household cap)
 - Stock for sale, wholesale inventory
-- Professional-grade studio or production gear
+- Manufacturing or commercial equipment, unless approved under the business-equipment route above
 
 ## Not Exempt - Separate Permit Path
 
-These items are outside the 3-shipment customs exemption and need a different regulatory path. Do NOT plan them into the aliyah shipments.
+Import of these items depends on an approval or licence from the competent authority. An import approval can be obtained after arrival (the goods are held until it is shown); an import LICENCE must be obtained before the goods arrive (Tax Authority).
 
-| Item | Route |
+| Item | Competent authority (Tax Authority guide) |
 |------|-------|
-| Firearms, ammunition | Ministry of Internal Security firearm license before import |
-| Plants, seeds, soil | Ministry of Agriculture phyto-sanitary permit |
-| Live animals | Ministry of Agriculture veterinary import; rabies quarantine |
-| Certain prescription medications | Ministry of Health import approval |
-| Food, dairy, meat | Ministry of Health; most food cannot be imported in personal shipments |
-| Drones | Civil Aviation Authority registration |
-| Radio transmitters | Ministry of Communications license |
-| Works of art of significant value | Export license from origin country; insurance and customs valuation in Israel |
+| Weapons and weapon parts | Ministry of National Security |
+| Plants, seeds | Ministry of Agriculture, plant protection |
+| Dogs, cats and other pets | Ministry of Agriculture, Veterinary Services. Aliyah with animals requires an import licence application before aliyah. |
+| Drones, communication products, remote controls | Ministry of Communications |
+| Helmets, infant car seats, vehicle spare parts, motorised scooters, e-bikes | Ministry of Transport |
+| Laser pointers / laser rangefinders | Ministry of Economy |
+| Medications containing narcotics | Ministry of Health permit (Misrad HaKlita guide) |
+| Cannabis-based products or medication | Cannot be imported for any reason, even with a foreign prescription (NBN) |
 
-## Not Exempt - Vehicle Benefit Track
+Food: within the USD 200 personal allowance an entrant may bring up to 3 kg of food, no more than 1 kg per type (Tax Authority). Commercial quantities are outside this skill.
 
-Vehicles have their own track, separate from the 3 shipment quota.
+Prohibited outright (examples from the Tax Authority list): counterfeit currency or documents, knives other than a pocket knife or a knife for professional, craft, business, household or other lawful use, laser speed-gun jammers, pen-shaped or gas-operated firearms, gun-shaped tear-gas canisters, prohibited games, explosives and flammables, dangerous live creatures such as vipers, used beekeeping equipment, drug paraphernalia, and goods that incite violence, terror or racism.
 
-- New car purchased in Israel or imported: reduced tax rate (50% purchase tax vs the standard 83% per NBN, with 18% VAT on the car-value + tax base), available up to 3 years after aliyah, valid foreign license issued at least 3 months before aliyah required, valid for a new car or Passport-to-Passport purchase only.
-- 4-year resale restriction from the date of purchase. Selling within 4 years requires repaying the customs discount via the Meches CarTaxCompletion form; restriction lifts automatically after 4 years (NBN, NOT the older 5-year figure some skills carry).
-- The car may only be driven by the oleh and spouse by default. Children at the same address need annual Customs Authority permission to drive the car. EV cars have a separate national benefit (48% rate from Jan 2026, capped at NIS 22,000) that may be more favorable than the oleh discount on some EVs.
-- Do not plan a car as "shipment 1" or "shipment 3". It is a separate file with Meches; see sister skill `israeli-returning-resident-customs-vehicle`.
+## Not Exempt - Vehicle Track
+
+Vehicles are a separate benefit, never one of the 3 shipments. Per the Tax Authority olim guide ("taxes on a vehicle" chapter): olim importing a car in their name, or buying one from a dealer's bonded store, are exempt from purchase tax but pay customs at 50% plus VAT (77% in combined taxes); the vehicle must be imported within 3 years of aliyah, and it is restricted to the oleh's own use in Israel for 4 years after release (it may be sold only after 4 years of use in Israel). This is a restriction on use and sale after release, not a rule about the car's age. Spouses may release one car only, and nobody else may drive it. For the licence conditions, early-sale rules and green-tax adjustments, read that chapter directly; this planner does not compute vehicle taxes. (The `israeli-returning-resident-customs-vehicle` skill covers returning residents, who do not get the oleh vehicle concession.)
 
 ## Over-Limit Decision Guide
 
 When an item exceeds the cap, weigh three choices:
 
-1. Leave it in origin country. Sell, gift, or store with family. Rebuy in Israel if needed.
-2. Ship it and pay full rates. Customs duty + VAT + purchase tax. Get a pre-clearance quote from a licensed customs broker (amil meches) before booking freight - the combined bill on a high-end appliance can exceed the item's resale value.
-3. Split across household members for a technical reason. Only works if a family member is a separate household (different home). Not a workaround inside the same family unit.
+1. Leave it in the origin country. Sell, gift, or store with family. Rebuy in Israel if needed.
+2. Ship it and pay import taxes. Get a pre-clearance quote from a licensed customs broker (amil meches) before booking freight; the bill on a high-end appliance can exceed its resale value.
+3. Do not relabel an over-limit item as "personal effects" to avoid the cap. Customs releases goods according to what it determines at release.
 
-Do not try to relabel an over-limit item as "personal effects" to avoid the cap. Meches inspectors at Haifa, Ashdod, and BG air cargo are familiar with these attempts and will reclassify.
+## Personal-Use Rule Applies to All Exempt Items
 
-## Retention Rule Applies to All Exempt Items
-
-Every item in the Exempt columns above must stay in the oleh's possession for 6 years from the date of import, or depreciated tax must be paid to Meches. Cars are 4 years (resale restriction from date of purchase). Do not plan exempt imports for items you intend to resell or gift within the retention window.
+Goods imported or bought under oleh rights must be for the oleh's own use in Israel for at least 6 years from their release or purchase (vehicles: 4 years). They may not be passed to others' use before the period ends, temporarily or permanently, for payment or free; doing so breaches the exemption conditions (Tax Authority). Do not plan exempt imports for items you intend to resell, lend or give away within that period.

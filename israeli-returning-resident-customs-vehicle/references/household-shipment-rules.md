@@ -1,6 +1,6 @@
 # Household Shipment Rules for Returning Residents
 
-Last researched: 2026-05-23. Primary source: [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), updated 18.05.2026. Cross-checked against kolzchut household-goods customs page (updated 02.03.2025) and bshcpa CPA breakdown.
+Last researched: 2026-10-29. Primary source: [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), updated 30.07.2026. Cross-checked against kolzchut household-goods customs page (updated 02.03.2025) and bshcpa CPA breakdown.
 
 ## TL;DR
 
@@ -30,7 +30,7 @@ Exact text (gov.il chapter "חפצי בית"): "ניתן לייבא את חפצ�
 | Washing machine | 1 |
 | Dryer | 1 |
 | Microwave / oven | 1 each |
-| Air conditioner | 1 (also note: AC has a domestic-purchase route via authorized Israeli manufacturer) |
+| Air conditioner | 1 (also the only item with a domestic tax-free purchase route: gov.il says authorized Israeli manufacturers exist for air conditioners only) |
 | Other electrical/electronic appliances | 1 per type |
 | Major furniture items | 1 per type |
 
@@ -41,7 +41,8 @@ Exact text (gov.il chapter "חפצי בית"): "ניתן לייבא עד 3 מק�
 On entry day every entrant aged 2+ may bring:
 
 - Clothing, footwear, personal toiletries in customary travel quantities, free.
-- Other items up to **$200 USD value per entrant** (NOT poolable). Above $200 the entrant pays tax on the FULL value of the item.
+- Other items for own use or as a gift, up to **$200 USD value per entrant** (NOT poolable). Above $200 the entrant pays tax on the FULL value of the item.
+- The exemption applies only to items brought on the same vehicle (flight) as the entrant.
 - Within the $200: mixed food up to 3 kg total, no single type over 1 kg.
 - Age 18+: 1 liter spirit + 2 liters wine + 250 ml alcohol perfumes + 250 g tobacco / 200 cigarettes.
 
@@ -94,11 +95,22 @@ Exact text: "בכל שנת היעדרות מהארץ אתם יכולים לבק�
 1. Online: [gov.il - request entitlement exemption for returning resident / student](https://www.gov.il/he/service/request-for-entitlement-exemption-for-returning-resident-student). The system opens the file automatically.
 2. In-person fallback if auto-approval fails: visit a Meches office with ID + passport (yours + spouse), and תעודת תושב חוזר from Misrad HaAliyah if available.
 3. Returning students: bring institutional certification (2 years full-time enrollment or degree certificate).
-4. May need to deposit a bond equal to ~6 months of applicable taxes; refunded on entitlement approval within 9 months.
+4. Deposit (Kol-Zchut): a returnee whose status is not yet determined may have to deposit the applicable taxes on entry. It is refunded once the status and entitlement are approved, and is used to pay the taxes if the returnee does not apply to the customs house within 9 months of entry or is refused. Kol-Zchut also lists proof of an independent household (ownership of a flat or a valid lease) for the in-person route.
 5. All items must be insured at full value including taxes ("עליכם לבטח את חפציכם בערכם המלא, כולל כל המסים").
+
+## Pets (dogs and cats)
+
+Not a customs-benefit topic, but every returnee asks. Requirements as summarised by Belong's shipping guide; confirm with the Misrad HaChaklaut veterinary services (03-9485461) before booking:
+
+- Minimum age **4 months** on entry day.
+- **Rabies vaccination** at most 12 months and at least 1 month before entry.
+- **Rabies antibody titer of at least 0.5 IU/ml** from an approved lab, drawn after the vaccination.
+- Entry only via **Ben Gurion, Haifa, Ashdod or Eilat**.
+- Microchip number on all paperwork; restricted-breed and quarantine rules apply on top.
+- Plan the titer well before the flight; an expired document en route means the pet is held at the port.
 
 ## Citations
 
-- [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), updated 18.05.2026. Chapters: תושבים חוזרים, חפצי בית המיובאים מחוץ לארץ, יבוא חפצים בחבילות דואר, תנאים נוספים לאישור הזכויות.
+- [gov.il customs guide for returning residents](https://www.gov.il/he/pages/customs-guide-for-returning-residents), updated 30.07.2026. Chapters: תושבים חוזרים, חפצי בית המיובאים מחוץ לארץ, יבוא חפצים בחבילות דואר, תנאים נוספים לאישור הזכויות.
 - [kolzchut, customs exemption for returnee household goods](Kol-Zchut, search the page titled "פטור ממס קניה, מע"מ ותשלומי מכס לתושב חוזר ולסטודנט חוזר בייבוא חפצי בית"), updated 02.03.2025.
 - [bshcpa - Customs Rights for Returning Residents](https://www.bshcpa.co.il/זכויות-תושבים-חוזרים-במכס/).

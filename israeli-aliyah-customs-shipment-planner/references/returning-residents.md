@@ -1,59 +1,44 @@
 # Returning Residents (Toshav Chozer) - Different Rules
 
-Returning residents (toshav chozer) are Israeli citizens who lived abroad for a qualifying period and return to settle in Israel. They are NOT oleh chadash. Customs benefits are reduced and do not map onto the standard 3-shipment plan.
+Returning residents (toshav chozer) are NOT olim for customs purposes. Their household-goods benefit is narrower and does not map onto the oleh 3-shipment plan. Primary source: the Israel Tax Authority customs guide for returning residents (https://www.gov.il/he/Departments/Guides/customs-guide-for-returning-residents).
 
-## Eligibility Basics
+## Who Is a Returning Resident (customs)
 
-Misrad HaKlita (Ministry of Aliyah and Integration) determines toshav chozer status. Rough criteria (verify with the ministry for the current year):
+- Israeli residents who lived abroad for 2 or more years and return permanently.
+- Second-time olim, as defined in Ministry of Interior regulations.
+- Other entrants whom the Tax Authority has classified as returning residents for customs.
 
-- Israeli citizen or permanent resident
-- Lived abroad for a qualifying continuous period (commonly 2+ years, varies by category)
-- Returning with intent to resettle
+A "year of absence" is counted from the day after leaving Israel, and during each year of absence the person may visit Israel for up to 4 months in total without losing that year.
 
-Sub-categories (each with different customs entitlements):
+Note the overlap trap: Katin Chozer (returning minor) and Ezrach Oleh are NOT returning residents for customs. They have oleh rights under the Tax Authority olim guide, and this planner applies to them.
 
-- Toshav Chozer (standard returning resident, shorter absence)
-- Toshav Chozer Vatik (veteran returning resident, longer absence - treated closer to oleh chadash but with modifications)
+## The Household-Goods Benefit
 
-The Nefesh B'Nefesh rights hub summarizes the status as "limited Customs benefits only" and Kol-Zchut maintains detailed Hebrew pages.
+| Rule | Returning resident | Oleh (for comparison) |
+|------|-------------------|-----------------------|
+| Number of shipments | 2 only | Up to 3 |
+| Window | 9 months from the day of return, NOT extendable | 3 years from receiving status, extendable (up to 6 years) |
+| TVs / computers | Up to 3 TVs and 3 personal computers per family | Same |
+| Other appliances and major furniture | One of each type | Same |
+| Accompanying luggage on the return flight | A household item brought as accompanying luggage is not taxed and does not count as a shipment (Red lane) | Similar |
+| Personal use | 6 years | 6 years |
+| Re-exemption on the same item type | Only after 6 years in Israel since the previous release | n/a |
+| Vehicle | No oleh vehicle concession; see the Tax Authority guide to vehicle import by Israelis | Separate vehicle benefit |
+
+The customs eligibility file is opened via an online returning-resident status form; in exceptional cases the person comes to the customs house with ID and passports (theirs and the spouse's) and, if they have one, the Misrad HaKlita returning-resident certificate. Returning students bring confirmation of two academic years as a regular student or of a degree.
 
 ## What This Skill Does NOT Do
 
-This skill is built for Oleh Chadash planning. Do NOT output the full 3-shipment plan for a toshav chozer. Specifically:
-
-- Do not assume the per-family caps (3 TVs, 3 computers, 5 phones, 25% carpet, one-of-each-appliance) apply. Caps for returning residents differ and often require proof that items were acquired abroad during the qualifying absence.
-- Do not assume 3 shipments within 3 years. Toshav chozer shipment counts and time windows are different and may be narrower.
-- Do not draft declarations. The declaration requires documents specific to toshav chozer status that this skill does not collect.
+- Do not run the oleh 3-shipment plan for a returning resident.
+- Do not draft their declaration: their file and documents differ.
+- Do not answer the income-tax side (Toshav Chozer Vatik tax exemptions are a tax status, not a customs one); route to `israeli-toshav-chozer-vatik-tax-planner`.
 
 ## What to Do Instead
 
-When a user identifies as toshav chozer or describes a prolonged absence returning to Israel:
-
-1. Acknowledge the different status clearly. Do not try to shoehorn them into the oleh chadash plan.
-
-2. Route to Misrad HaKlita's Returning Resident desk. Their rights hotline is the authoritative source. The user should request a written rights letter specifying:
-   - Their classified status (toshav chozer / toshav chozer vatik)
-   - The specific customs entitlements that apply to them
-   - The window in which those entitlements are valid
-   - Any required documentation (e.g., proof of residence abroad, tax residency certificates)
-
-3. Route to a licensed customs broker (amil meches mursheh) experienced with toshav chozer cases. Brokers that handle olim regularly also handle returning residents and can translate the rights letter into a concrete inventory decision.
-
-4. Point the user at these resources:
-   - Kol-Zchut: https://www.kolzchut.org.il (search for "toshav chozer")
-   - Nefesh B'Nefesh rights hub: https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/ (for English speakers even if NBN's primary audience is new olim, they maintain toshav chozer info)
-   - Misrad HaKlita official: https://www.gov.il/en/departments/ministry_of_aliyah_and_integration
-
-5. Do not guess percentages or item caps. If the user presses for specifics, say that the numbers vary by subcategory and year, and direct them to the rights letter from Misrad HaKlita.
+1. State the 2-shipment / 9-month / no-extension rule plainly, so the user does not lose the benefit by waiting.
+2. Route to `israeli-returning-resident-navigator` for the wider returning-resident picture.
+3. Point to the Tax Authority returning-residents guide and the nearest customs office for the eligibility file.
 
 ## Mixed Households
 
-If one spouse is an oleh chadash and the other is a toshav chozer, the household does not get to stack benefits. The caps apply to the household. The customs broker will typically file under whichever status gives the cleanest path for that household's inventory. Escalate to the broker - this skill does not handle stacked-status cases.
-
-## When Toshav Chozer Approximates Oleh Chadash
-
-Some toshav chozer vatik cases (very long absence, typically 10+ years) receive benefits close to oleh chadash. Still do not run the full oleh plan - request the written rights letter first, then verify which caps apply. Treat the rights letter as ground truth.
-
-## Bottom Line
-
-Toshav chozer is a separate track. Output advisory text and source links, not a packing plan. The rights letter from Misrad HaKlita plus a broker consultation are the correct next steps.
+If spouses have different statuses (for example an oleh married to a returning resident), the Tax Authority olim guide gives the family the benefits of the spouse with the broader entitlement. The guide's "3 shipments together" rule is stated for spouses who both received oleh status at different times; no source states the shipment count for a mixed oleh plus returning-resident couple, so confirm it with the customs office before shipping.
