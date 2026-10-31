@@ -73,7 +73,7 @@ Or if the text is in a file:
 python scripts/document-analyzer.py --file path/to/document.txt
 ```
 
-For a PDF with a text layer, pass it directly (`--file letter.pdf`); the script runs `pdftotext -layout` and strips the invisible bidi marks that PDF extraction inserts around numbers, which otherwise hide every amount and deadline. A scanned PDF with no text layer needs OCR first.
+For a PDF with a text layer, extract it first with `pdftotext -layout letter.pdf letter.txt` and pass `--file letter.txt`; the script strips the invisible bidi marks that PDF extraction inserts around numbers, which otherwise hide every amount and deadline. A scanned PDF with no text layer needs OCR first.
 
 The script extracts: sender, document type, subject, required actions, deadlines, consequences of inaction, and relevant laws. Read its NOTES block: it says when the text looked reversed or in visual order, and in that case read the amounts and dates from the original letter rather than from the script.
 

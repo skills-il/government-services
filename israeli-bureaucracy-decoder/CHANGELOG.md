@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 - 2026-10-31
+
+The document analyzer no longer launches pdftotext itself: extract a PDF with `pdftotext -layout` first and pass the text file. The bidi-mark cleanup that recovers amounts and deadlines from PDF text is unchanged.
+
 ## 1.4.0 - 2026-10-29
 
 Fixed wrong form numbers and deadlines across the forms index, the decision table and the bodies guide, each re-checked against gov.il, btl.gov.il or the statute text:
@@ -17,7 +21,7 @@ Fixed wrong form numbers and deadlines across the forms index, the decision tabl
 - Reply drafting is limited to simple letters to an administrative body; for anything filed with a court, tribunal, appeals committee or the Execution Office registrar, the skill lists the points to raise and refers to a lawyer.
 - Dead or moved links fixed: `kol-zchut.org.il` (does not resolve), `piba.gov.il`, `misim.gov.il`, the gov.il digital-identification page, the Justice Ministry e-signature page, and the unpublished Israel Law MCP.
 
-Document analyzer: the window note now matches the sender and sub-type (a Land Registry refusal no longer gets Bituach Leumi's 12-month route, an income-tax order no longer suggests a second objection, a Small Claims judgment is no longer read as a claim); deadlines written as "תוך 30 יום" or in words are now found; PDFs are read directly and the bidi marks that hid amounts and deadlines are stripped; reversed and visual-order text is detected; a Land Registry caveat is no longer flagged as an execution warning; typical-window notes now give the correct period for each document type.
+Document analyzer: the window note now matches the sender and sub-type (a Land Registry refusal no longer gets Bituach Leumi's 12-month route, an income-tax order no longer suggests a second objection, a Small Claims judgment is no longer read as a claim); deadlines written as "תוך 30 יום" or in words are now found; the bidi marks that hid amounts and deadlines are stripped; reversed and visual-order text is detected; a Land Registry caveat is no longer flagged as an execution warning; typical-window notes now give the correct period for each document type.
 
 ## 1.3.3 - 2026-08-12
 

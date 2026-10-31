@@ -12,15 +12,13 @@ Extracts structured information from Israeli government document text:
 Usage:
     python document-analyzer.py --text "document text here"
     python document-analyzer.py --file path/to/document.txt
-    python document-analyzer.py --file path/to/letter.pdf   (needs pdftotext)
+    pdftotext -layout letter.pdf letter.txt && python document-analyzer.py --file letter.txt
     python document-analyzer.py --help
 """
 
 import argparse
 import json
 import re
-import shutil
-import subprocess
 import sys
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timedelta
@@ -967,7 +965,7 @@ def main():
     input_group.add_argument(
         "--file",
         type=str,
-        help="Path to a text file (UTF-8 or windows-1255) or a PDF with a text layer",
+        help="Path to a text file (UTF-8 or windows-1255); extract PDFs with pdftotext first",
     )
 
     parser.add_argument(
@@ -986,21 +984,12 @@ def main():
 
     # Get document text
     if args.file and args.file.lower().endswith(".pdf"):
-        if not shutil.which("pdftotext"):
-            print("Error: reading a PDF needs pdftotext (poppler). Install it, or paste the text with --text.", file=sys.stderr)
-            sys.exit(1)
-        # pdftotext applies the bidi algorithm, so Hebrew comes out in logical
-        # order; its control marks are stripped in normalize_text().
-        proc = subprocess.run(["pdftotext", "-layout", "-enc", "UTF-8", args.file, "-"],
-                              capture_output=True, text=True)
-        if proc.returncode != 0:
-            print(f"Error reading PDF: {proc.stderr.strip()}", file=sys.stderr)
-            sys.exit(1)
-        text = proc.stdout
-        if not text.strip():
-            print("Error: the PDF has no text layer (a scanned image). Run OCR first, or paste the text.", file=sys.stderr)
-            sys.exit(1)
-    elif args.file:
+        # Extraction is left to the caller, so this script launches no external
+        # program: pdftotext applies the bidi algorithm, and its control marks are
+        # stripped in normalize_text().
+        print("Error: extract the text first, e.g. `pdftotext -layout letter.pdf letter.txt`, then pass --file letter.txt.", file=sys.stderr)
+        sys.exit(1)
+    if args.file:
         try:
             with open(args.file, "r", encoding="utf-8") as f:
                 text = f.read()
