@@ -1,65 +1,244 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-war-damage-claims",
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-11-03",
   "claims": [
     {
-      "claim_id": "fast-track-ceiling-30000",
-      "claim": "Fast track (מסלול מהיר) compensation ceiling is NIS 30,000 / 30,000 ש\"ח / 30,000 שקל. Claims at or under this amount can use the fast track; larger claims must use the regular track. Single claim per household per incident.",
-      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
-      "raw_snippet": "התביעה היא על נזקים בסכום של עד 30,000 ₪ למבנה, לתכולה ביתית (חפצים) ולציוד ומלאי של עסק.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "notice-and-claim-deadlines",
+      "claim": "Regulation 5 (תקנה 5): notice within two weeks, claim within one month of the damage; 5(ג) lets the director extend both for a reasonable cause.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "5. (א) הודעה על נזק תוגש למנהל בטופס שקבע, תוך שבועיים מיום קרות הנזק. (ב) תביעה לפיצויים תוגש למנהל בטופס שקבע, תוך חודש מיום קרות הנזק. (ג) המנהל רשאי להאריך את המועדים לפי תקנות משנה (א) ו-(ב) אם נוכח כי ישנה סיבה סבירה לכך.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/claims-process-flowchart.md"
-      ],
-      "id": "fast-track-ceiling-30000"
+      ]
     },
     {
-      "claim_id": "regular-track-no-ceiling",
-      "claim": "Regular track (מסלול רגיל) has no ceiling for structural damage; contents capped by household composition. Used for claims above NIS 30,000 / 30,000 ש\"ח / 30,000 שקל or requiring professional engineering assessment.",
-      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
-      "raw_snippet": "עובדי קרן הפיצויים (מס רכוש) בסיוע אנשי מקצוע (מהנדסים, שמאים וכו') יבקרו במבנה שניזוק כדי להעריך את גובה הפיצוי שנדרש לשיקום הנזק.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "guide-deadlines",
+      "claim": "Tax Authority guide: notice within two weeks, claim within three months of the damage.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "הודעה על נזק - יש להגיש בתוך שבועיים מיום שקרה הנזק. תביעה לפיצויים - יש להגיש בתוך שלושה חודשים מיום שקרה הנזק.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/claims-process-flowchart.md"
-      ],
-      "id": "regular-track-no-ceiling"
+      ]
     },
     {
-      "claim_id": "premium-rate-0.3",
-      "claim": "Optional Tax Authority war damage contents insurance premium rate is 0.3% of additional insured value per year. This is the only Israeli product covering war damage to home contents above the standard ceiling (regular home insurance excludes war damage).",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
-      "raw_snippet": "הביטוח כרוך בתשלום פרמיה שנתית בשיעור של 0.3% מהשווי הנוסף של החפצים שמבקשים לבטח.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "reg-7-mitigation",
+      "claim": "Regulation 7(ב): reduced compensation where the claimant did not act reasonably to reduce the damage.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "(ב) המנהל רשאי לקבוע פיצויים מופחתים, אם נוכח כי הניזוק לא פעל באופן סביר להקטנת הנזק.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg-8-decision-payment",
+      "claim": "Regulation 8: director decides entitlement, amount and restoration and may condition payment on restoration; decision within six months; payment within 30 days of the decision; interest from 30 days after the damage.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "8. (א) הוגשה תביעה לפיצויים, יחליט המנהל בדבר זכותו של הניזוק לפיצויים, בדבר שיעורם ודרך תשלומם, וכן בדבר שיקום הנזק, והוא רשאי לחלק את סכום הפיצויים בין ניזוקים ולהתנות את תשלום הפיצויים בשיקום הנזק, הכל לפי נסיבות הענין. (ב) הודעה על החלטת המנהל לפי תקנת משנה (א) תישלח לניזוק תוך ששה חדשים מיום הגשת התביעה, אולם אם המציא הניזוק למנהל תעודה כאמור בתקנה 6 תישלח לו ההודעה על החלטת המנהל תוך ארבעים וחמישה ימים מהיום שבו נמסרה התעודה האמורה. (ג) הפיצויים שייקבעו בהחלטה ישולמו לניזוק תוך שלושים יום מיום ההחלטה; אולם אם הותנה תשלום הפיצויים בשיקום הנזק, ישולם סכום הפיצויים שנקבע תוך שלושים יום מיום שהוכח, להנחת דעתו של המנהל, כי הניזוק עומד לשקם את הנזק. תק' תשמ\"ד-1984 (ד) לסכום הפיצויים המשולמים על פי תקנת משנה (ג) תיווסף ריבית בשיעור הקבוע בסעיף 33(א)(1) לחוק, החל בתום 30 ימים מיום קרות הנזק עד יום התשלום.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ],
-      "id": "premium-rate-0.3"
+        "references/claims-process-flowchart.md"
+      ]
     },
     {
-      "claim_id": "max-insurable-value-1037100",
-      "claim": "Maximum insurable value under the Tax Authority optional war-damage contents insurance is approximately NIS 1,037,100 / 1,037,100 ש\"ח / 1,037,100 שקל (2026 figure, updated periodically by CPI).",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
-      "raw_snippet": "ניתן לבטח שווי נוסף בסך 1,037,100 ₪ לכל היותר (נכון ל-2026).",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "reg-9-correction",
+      "claim": "Regulation 9(א): director may correct a decision within four years; 9(ג): any overpayment, advance included, is repaid within 90 days of a demand with linkage and interest.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "המנהל רשאי לתקן החלטה לפי תקנה 8 תוך ארבע שנים מיום שניתנה, אם נתגלו עובדות חדשות או אם ראה כי היתה בה טעות. (ב) על תיקון החלטה לפי תקנת משנה (א), יחולו הוראות תקנה 8 בשינויים המחוייבים. תק' תשנ\"ח-1998 (ג) שולמו לניזוק פיצויים, לרבות מקדמה, בסכום העולה על סכום הפיצויים שהוא זכאי להם על פי תקנות אלה, יוחזר סכום היתר תוך תשעים יום מיום שנמסרה לניזוק דרישה להחזר, בתוספת הפרשי הצמדה וריבית על סכום היתר, מיום ששולם סכום היתר ועד ליום ההחזר.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
+        "SKILL.md",
         "SKILL_HE.md",
-        "references/compensation-ceilings.md"
-      ],
-      "id": "max-insurable-value-1037100"
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "reg-11-appeal",
+      "claim": "Regulation 11: appeal to the ועדת ערר within 30 days of delivery of the decision.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "11. הרואה עצמו מקופח עקב החלטת המנהל לפי תקנה 7 או 8(א), או בהוראת המנהל לפי תקנה 7(א), או בתיקון החלטה לפי תקנה 9, רשאי תוך שלושים ימים מיום שנמסרה לו ההחלטה לערור עליה לפני ועדת ערר.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "reg-12-committee",
+      "claim": "Regulation 12 (תקנה 12): three-member appeal committee (judge-qualified chair from the Justice Minister list, Defence list, Finance list), at least two not civil servants; it may cancel, reduce, confirm or increase the award.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "12. (א) ועדת ערר לענין תקנה 11 תוקם בין בכלל ובין לאזורים מסויימים או לסוגי נזקים, ושניים לפחות מבין חבריה לא יהיו עובדי המדינה. תק' תש\"ן-1990 (ב) בועדת ערר כאמור יהיו חברים – (1) מי שנתקיימו בו הדרישות המנויות בסעיף 4 לחוק בתי המשפט [נוסח משולב], התשמ\"ד-1984, מתוך רשימה שקבע שר המשפטים והוא יהיה יושב ראש הועדה; (2) חבר מתוך רשימה שקבע שר הבטחון והודיע עליה לשר המשפטים; (3) חבר מתוך רשימה שקבע שר האוצר והודיע עליה לשר המשפטים. תק' תש\"ן-1990 (ג) רשימות כאמור בתקנת משנה (ב) יכילו חברים עובדי המדינה וחברים שאינם עובדי המדינה, יצויין בהן מי מהחברים הינו עובד המדינה והן יפורסמו בידי שר המשפטים ברשומות. תק' תש\"ן-1990 (ד) מתוך רשימת האנשים שנקבעו לפי תקנת משנה (ב)(1) ימנה שר המשפטים יושבי ראש תורניים שירכיבו את המותבים של ועדת ערר. תק' תש\"ן-1990 (ה) ועדת ערר תכריע בכל ערר שיוגש לפניה והיא רשאית לבטל, להפחית, לאשר או להגדיל את סכום הפיצויים שקבע המנהל, לשנות חלוקתו בין הניזוקים, או לשנות החלטתו בדבר שיקום הנזק.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "reg-12a-district-court",
+      "claim": "Regulation 12א: appeal to the District Court on a question of law within 30 days, filed where the committee has its address.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "12 א. (א) על החלטת ועדת הערר ניתן לערער, בבעיה משפטית, לבית המשפט המחוזי תוך 30 ימים מיום שהובאה ההחלטה לידי המערער. (ב) הערעור יוגש לבית המשפט המחוזי שבאזור שיפוטו נמצא מענה של ועדת הערר.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "shaagat-haari-start",
+      "claim": "Shaagat HaAri fighting began on 28 February 2026 (statute amendment 37).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
+      "raw_snippet": "בעקבות תקופת הלחימה שהחלה ביום י\"א באדר התשפ\"ו (28 בפברואר 2026)",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "property-tax-law-1961",
-      "claim": "The statutory basis for direct war-damage compensation in Israel is the Property Tax and Compensation Fund Law, 1961 (חוק מס רכוש וקרן פיצויים, תשכ\"א-1961), which establishes the framework for property taxation and creates a compensation fund mechanism for war and hostility damage.",
+      "claim": "The statute is חוק מס רכוש וקרן פיצויים, תשכ\"א-1961.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
       "raw_snippet": "חוק מס רכוש וקרן פיצויים, תשכ\"א-1961",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "guide-no-repair",
+      "claim": "Tax Authority guide: do not clear equipment, stock or debris without the Fund appraiser; cracked glass may be cleared; no repair without an appraiser.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "אין לפנות ציוד, מלאי, פסולת או כל חפץ זר שנמצא בבית המגורים או בעסק, ללא תיאום מוקדם עם שמאי מטעם קרן הפיצויים. ניתן לפנות את הזכוכיות שנסדקו טרם הגעת צוותי קרן הפיצויים לאזור שנפגע. אסור לתקן ללא בדיקת שמאי.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "fast-track-conditions",
+      "claim": "Kol Zchut: fast track decided within 7 business days without an appraiser, deadline 28.04.2026, only if no appraiser visited, up to 30,000 for structure, contents and business equipment and stock, private and business claimants; one claim per family per event, no further regular claim, one property per owner.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "נוספה אפשרות להגיש תביעה במסלול מהיר שתטופל בתוך 7 ימי עסקים, ללא המתנה לשמאי. ניתן להגיש תביעה במסלול המהיר עד 28.04.2026 . לאחר מועד זה ניתן להגיש תביעה רק במסלול הרגיל. ניתן להגיש תביעה במסלול המהיר רק אם התקיימו שני התנאים הבאים: שמאי מטעם קרן הפיצויים עדיין לא ביקר בנכס שניזוק. (אין אפשרות להגיש תביעה במסלול המהיר לאחר ביקור שמאי). התביעה היא על נזקים בסכום של עד 30,000 ₪ למבנה, לתכולה ביתית (חפצים) ולציוד ומלאי של עסק. שימו לב מי שהגישו תביעה במסלול הרגיל והסתבר להם שהנזק לא גבוה מ-30,000 ₪, יוכלו לעבור למסלול המהיר אם עוד לא הגיע שמאי. למידע רשמי ראו הודעת רשות המסים . יכולים להגיש את התביעה אנשים פרטיים ועסקים: בעל הנכס (המבנה) שניזוק מי שמממן את שיקום הנכס בעל התכולה שניזוקה (כולל מי ששוכר את הנכס) שימו לב אפשר להגיש תביעה אחת בלבד לכל בני אותה משפחה ועל אותו אירוע שבו נגרם הנזק (יש לוודא שאין נזקים נוספים שלא נתבעו). אין אפשרות להגיש תביעה נוספת על אותו אירוע במסלול הרגיל. מי שבבעלותם מספר נכסים יוכלו להגיש תביעה במסלול המהיר רק עבור נכס אחד (ואת השאר יגישו במסלול הרגיל).",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "fast-track-photos-invoice",
+      "claim": "Kol Zchut: photos uploaded in real time with a phone-location check; invoice within 30 days or repayment; a fast-track claim not approved moves to the regular track; switching for claims filed from 28.02.2026 via the \"מעבר מסלול\" button.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "רשות המסים בודקת את המיקום של מכשיר הטלפון בזמן העלאת התמונות. על מנת שהתביעה תטופל, חייבת להיות התאמה בין מיקום מכשיר הטלפון לבין מיקום הנכס שנפגע. ללא העלאת תמונות של הנזק שצולמו בזמן אמת באמצעות המערכת של רשות המסים, הטיפול בתביעה לא יחל. הצעת מחיר לתיקון שתואמת את היקף הנזק. אם יש - חשבונית על התיקון שתואמת את הצעת המחיר ואת הסכום שתובעים. אם הנזק נגרם למלאי ולציוד של עסק יש לצרף חשבונית על רכישת המלאי שניזוק וטופס י\"א על הציוד שנפגע (פרטים על נכסים שניתן לתבוע עבורם פחת). בסיום התהליך מקבלים מספר תביעה שיאפשר לראות באזור האישי את פרטי התביעה ולעקוב אחרי שלבי הטיפול. אם התביעה תאושר: למי שצירפו לתביעה הצעת מחיר וחשבונית שתואמות את סכום התביעה, התשלום יועבר לחשבון הבנק שרשמו בתביעה. למי שצירפו לתביעה רק הצעת מחיר שתואמת את סכום התביעה, התשלום יועבר לחשבון הבנק שרשמו והם יידרשו להגיש חשבונית בסכום תואם בתוך 30 יום. מי שלא יגישו את החשבונית במועד יחויבו להחזיר את התשלום. תביעה שלא תאושר במסלול המהיר תועבר למסלול הרגיל שבו שמאי יגיע להעריך את גובה הנזק. במהלך מבצע \"שאגת הארי\", אנשים שכבר הגישו החל מיום 28.02.2026 תביעות במסלול הרגיל ועדיין לא ביקר שמאי במקום האירוע, יכולים לעבור למסלול המהיר על ידי כניסה לתביעה ולחיצה על כפתור \"מעבר מסלול\"",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "fast-track-appeal",
+      "claim": "Kol Zchut: on the fast track an appeal lies only if the whole claim was rejected; a partial approval cannot be appealed; on the regular track any decision can be appealed.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "במסלול המהיר אפשר להגיש ערעור במקרה שכל התביעה נדחתה, אבל אם הוחלט לאשר חלק מהפיצוי אין אפשרות לערער על ההחלטה. במסלול הרגיל אפשר לערער על כל החלטה בנושא התביעה (כולל אם הוחלט לאשר רק חלק מהפיצוי).",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "govil-claim-routes",
+      "claim": "gov.il claim page: three routes (regular, fast, without identification); identification by ID number and its issue date; vehicle claims need a police confirmation signed by a police officer; the fast track is for structure and contents only, private and business claimants.",
+      "source_url": "https://www.gov.il/he/service/online-direct-damage-claim",
+      "raw_snippet": "מבין שלושת המסלולים המוצעים: רגיל, מהיר ומסלול ללא הזדהות לאחר בחירת מסלול מתאים יש להזדהות. ניתן לבחור באחת מהאפשרויות: הזדהות באמצעות סיסמה קבועה לשירותים המקוונים של רשות המסים הזדהות באמצעות מספר תעודת זהות ותאריך הנפקת תעודת זהות בלבד 3. יש למלא את כל הפרטים בטופס באופן מקוון ולשלוח קיים סרטון הדרכה - איך מגישים בקשה לתביעה בגין נזק ישיר המשך הטיפול בתביעה עם סיום מילוי כל הפרטים הנדרשים יתקבל מסרון (SMS) ובו מספר תביעה למעקב. מרגע זה מתחיל הטיפול בתביעה תביעות במסלול רגיל יופיעו במצב \"חדש\" עד לביקור שמאי בנכס, ולאחר מכן יעברו למצב \"בטיפול\" חובה לציין פרטי חשבון בנק של הניזוקים לתשלום הפיצוי לאחר בירור התביעה כשיש צורך בבדיקת שמאי או מהנדס – יישלח לנכס שנפגע איש המקצוע, על מנת להעריך את הנזק שנגרם במקרה של נזק לרכב – יש להכין אישור משטרה חתום על ידי קצין משטרה להלן הנחיות להגשה במסלול זה: המסלול מיועד לתביעות נזק מבנה ותכולה בלבד. המסלול מיועד לניזוקים עסקיים ופרטיים גם יחד, העונים על ההגדרה \"ניזוק\" בחוק מס רכוש (בעל הנכס או מי שהוכיח כי הוא נושא בהוצאות שיקום הנכס, בעל התכולה שניזוקה לרבות שוכר בנכס).",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "url-gov-il-online-direct-damage-claim",
+      "claim": "gov.il claim page: SMS link for photos from the damage scene only, after the SMS; invoice within 30 days of payment or repayment; fast track filed instead of a regular claim, one claim per family unit and per event.",
+      "source_url": "https://www.gov.il/he/service/online-direct-damage-claim",
+      "raw_snippet": "לאחר מילוי פרטי התביעה יישלח קישור במסרון להעלאת תמונות מזירת הפגיעה המתעדות את הנזקים. את התמונות יש לצלם ולהעלות מזירת הפגיעה בלבד ולאחר שנשלח המסרון. תמונות שיצולמו לפני פתיחת התביעה ויועלו ממקום שאינו זירת הפגיעה לא יתקבלו והתביעה לא תושלם. תשלום הפיצוי מותנה בהגשת חשבונית לכל המאוחר תוך 30 יום מיום התשלום. אי הצגת החשבונית במועד האמור תביא לדרישת החזר הכספים. הגשה במסלול המהיר הינה במקום הגשה במסלול הרגיל והיא מוגבלת להגשת תביעה אחת בלבד לכל תא משפחתי ואחת בלבד לכל אירוע.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "vehicle-documents",
+      "claim": "Tax Authority guide: vehicle owners repair at any garage once the Fund appraiser approves; documents: licence, police confirmation (vehicle number, investigator and officer signature), power of attorney, leasing agreement, taxi rental agreement, insurer no-claim confirmation for repairs over 10,000, bank confirmation.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "בעלי כלי רכב שנפגעו בפעולת איבה: יפנו לעובדי קרן הפיצויים במקום, כדי שיעריכו את הנזק. יופנו מידית לתיקון הנזק, בכל מוסך שיבחרו, בתנאי שהשמאי מטעם קרן הפיצויים (מס רכוש) יאשר את התיקון לפני ביצועו. בזמן הפנייה לקרן הפיצויים, יש לצרף לטופס התביעה את המסמכים הבאים: רישיון רכב. אישור משטרה (הכולל: מספר הרכב וחתימת חוקר וקצין משטרה). ייפוי כוח (אם מגישי התביעה אינם בעל הרכב). הסכם ליסינג (אם הרכב בבעלות ליסינג לטווח ארוך). הסכם שכירות (לבעלי מוניות). אישור מחברת ביטוח (תיקון מעל 10,000 ₪ - יש לצרף אישור חברת הביטוח על היעדר תביעה). צילום של צ'ק או אישור מהבנק, על ניהול חשבון בנק על שם הניזוק.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "vehicle-appraiser-approval",
+      "claim": "Kol Zchut: vehicle owners are compensated and repair at any garage provided the Fund appraiser approves the repair beforehand.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "בעלי רכב שניזוק בפעולת איבה זכאים לפיצוי. על בעל הרכב לפנות לעובדי מחלקת הפיצויים שנמצאים במקום, לצורך אומדן הנזק. בעל הרכב יופנה לתיקון הנזק בכל מוסך שיבחר, בתנאי שהשמאי מטעם מחלקת פיצויים יאשר את התיקון לפני ביצועו",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "contents-ceilings-2026-07",
+      "claim": "Tax Authority guide, column from 01.07.2026: furniture 14,168 / 24,502 / 4,953 / 7,243; clothing 2,371 / 4,741 / 711 / 2,371; electrical 24,407 / 29,585 / 495 / 3,883; other 10,490 / 25,179 ש\"ח / 2,308 / 4,616 (single / couple or single parent / each child under 18 / adult living with a couple or single). Totals 51,436 / 84,007 / 8,467 / 18,113 are sums. Worked example (couple + 2 children, 01.07.2026 column, arithmetic on these cells): electrical ceiling 29,585 + 2 x 495 = 30,575; electrical claimed 34,000 leaves an excess of 3,425 ש\"ח; furniture ceiling 24,502 + 2 x 4,953 = 34,408, claimed 14,000, unused headroom 20,408 ש\"ח. Excluded: cash, cheques, jewellery, antiques, artworks. Optional insurance premium 0.3% of the additional value, additional value up to 1,049,113.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "פיצויים עבור חפצי בית שנפגעו, משולמים בהתאם לתקנות, לפי מחירון של סוגי \"חפצי בית\" וגודל המשפחה, עד לתקרות המפורטות בטבלה למטה (מעודכן לתאריך ה-1.7.2026). בכל מקרה, אין זכאות לפיצויים עבור כסף מזומן, המחאות (צ'קים), תכשיטים, עתיקות וחפצי אומנות שנפגעו באירוע. הסכומים מפורטים ב-₪. סוגי חפצים ביתיים ליחיד מיום 01.07.2026 לזוג נשוי או להורה יחיד מיום 01.07.2026 לכל ילד (עד גיל 18) מיום 01.07.2026 למבוגר הגר עם זוג או עם יחיד מיום 01.07.2026 רהיטים 14,168 24,502 4,953 7,243 בגדים 2,371 4,741 711 2,371 מכשירי חשמל ואלקטרוניקה 24,407 29,585 495 3,883 חפץ ביתי אחר 10,490 25,179 2,308 4,616 לידיעתכם: תושב המעוניין לבטח את חפציו הביתיים בערך הגבוה מהערך הנקוב בתקנות, יוכל לעשות זאת באמצעות תשלום פרמיה בשיעור של 0.3% מהשווי הנוסף של חפציו, השווי הנוסף לא יעלה, בסך הכל על 1,049,113 ₪",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ],
+      "derived_totals": {
+        "single": 51436,
+        "couple": 84007,
+        "child": 8467,
+        "adult": 18113,
+        "example_family_of_4": 100941
+      }
+    },
+    {
+      "claim_id": "restoration-choice",
+      "claim": "Tax Authority guide: Fund staff and professionals assess the building; claimants choose self-restoration or restoration by companies working for the Fund.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "עובדי קרן הפיצויים (מס רכוש) יחד עם אנשי מקצוע, יבקרו אצלכם ויערכו שמאות – חישוב הערך או השווי של המבנה. השמאות תסייע לקביעת הפיצויים הכספיים, כדי לשקם ולתקן את הנזק בעזרת בעלי מקצוע, על פי בחירתכם. הנפגעים יכולים לבחור בין שיקום עצמי (אתם תדאגו לתיקון הנזקים), לבין שיקום על ידי חברות משקמות, שפועלות מטעם קרן הפיצויים.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -67,33 +246,159 @@
       ]
     },
     {
-      "claim_id": "property-tax-regulations-1973-reg-8",
-      "claim": "תקנה 8 (Regulation 8) of the Property Tax Regulations 1973 (תקנות מס רכוש, התשל\"ג-1973) addresses the manager's decision on claimant entitlement, compensation amounts, payment methods, and damage restoration — the manager may distribute funds among injured parties and condition payment on restoration completion.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "8. (א) הוגשה תביעה לפיצויים, יחליט המנהל בדבר זכותו של הניזוק לפיצויים, בדבר שיעורם ודרך תשלומם, וכן בדבר שיקום הנזק, והוא רשאי לחלק את סכום הפיצויים בין ניזוקים ולהתנות את תשלום הפיצויים בשיקום הנזק, הכל לפי נסיבות הענין.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "contents-ceilings-2026",
+      "claim": "Kol Zchut, column at 01.01.2026: furniture 14,198 / 24,552 / 4,964 / 7,258; clothing 2,366 / 4,731 / 710 / 2,366; electrical 24,894 / 30,175 / 505 / 3,961; other 10,370 / 24,891 / 2,281 / 4,563. Totals 51,828 / 84,349 / 8,460 / 18,148 are sums.",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "תקרת הפיצויים שנקבעה בחוק לחפצים ביתיים (נכון ל-01.01.2026) סוגי החפצים הפיצוי המרבי לאדם יחיד הפיצוי המרבי לזוג נשוי או ל הורה עצמאי (הורה יחיד) הפיצוי המרבי לכל ילד עד גיל 18 הפיצוי המרבי למבוגר שגר עם אדם נוסף או עם זוג המשך טיפול רהיטים 14,198 ₪ 24,552 ₪ 4,964 ₪ 7,258 ₪ בגדים 2,366 ₪ 4,731 ₪ 710 ₪ 2,366 ₪ מכשירי חשמל ואלקטרוניקה 24,894 ₪ 30,175 ₪ 505 ₪ 3,961 ₪ חפצים ביתיים אחרים 10,370 ₪ 24,891 ₪ 2,281 ₪ 4,563 ₪",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ],
+      "derived_totals": {
+        "single": 51828,
+        "couple": 84349,
+        "child": 8460,
+        "adult": 18148
+      }
+    },
+    {
+      "claim_id": "insurance-kolzchut",
+      "claim": "Kol Zchut: premium 0.3% of the additional value; additional value up to 1,037,100 (as of 2026, earlier figure); help on *4954; cover starts after payment and acceptance and runs to 31.12; keep the declaration, items may be checked.",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
+      "raw_snippet": "הביטוח כרוך בתשלום פרמיה שנתית בשיעור של 0.3% מהשווי הנוסף של החפצים שמבקשים לבטח. לדוגמה אדם יחיד שלא רכש ביטוח היה זכאי בשנת 2019 לפיצוי בשווי של 14,282 ₪ על רהיטים. ליחיד שהיו לו רהיטים בשווי כולל של 30,000 ₪, השווי הנוסף היה השווי הכולל פחות סכום הפיצוי שניתן ללא רכישת הביטוח, כלומר 15,718 ₪. סכום הפרמיה היה 0.3% מתוך השווי הנוסף, כלומר 47.15 ₪. ניתן לבטח שווי נוסף בסך 1,037,100 ₪ לכל היותר (נכון ל-2026). מי זכאי? כל מי שמעוניינים לבטח את רכושם מפני נזקי מלחמה או פעולת איבה בסכום העולה על התקרה הקבועה בתקנות. תהליך מימוש הזכות רכישת ביטוח באופן מקוון: ניתן למלא טופס הצהרה מקוון ולשלם את הפרמיה בגין השווי הנוסף של הנכסים אותם מבוקש לבטח (אפשר לקבל סיוע במילוי הטופס בפניה למוקד השירות בטלפון *4954 *4954 ). רכישת ביטוח במשרדי רשות המיסוי: ניתן לפנות לאחד מהמשרדים המפורטים מטה, למלא טופס \"הצהרה לצורך ביטוח חפצים ביתיים\", ולשלם את הפרמיה בגין השווי הנוסף של הנכסים שמעוניינים לבטח. את טופס ההצהרה והקבלה על תשלום הפרמיה יש לשלוח אל רשות המסים - מחלקת פיצויי איבה: רחוב כנפי נשרים 5, ת\"ד 1170 ירושלים. את טופסי ההצהרה ניתן לקבל באחד מהמשרדים הבאים: משרד פקיד שומה אשקלון – רח' עוז 1 אשקלון. משרד מיסוי מקרקעין תל אביב – דרך מנחם בגין 125 תל אביב. משרד מיסוי מקרקעין טבריה – אלדחיף 23 טבריה (קומה 2) משרד מיסוי מקרקעין חיפה – פל-ים 15 חיפה (קומה 6) משרד מיסוי מקרקעין ירושלים – כנפי נשרים 66 ירושלים (קומה 3) כדאי לדעת הביטוח יכנס לתוקפו לאחר תשלום הפרמיה ואישור קבלת הצהרה, ויהיה תקף עד ליום 31.12 לאותה שנה. יש לשמור את טופס ההצהרה לצורך הצגתו במקרה הצורך. עשויה להיערך בדיקת התאמה בין החפצים שדווחו בטופס לבין קיומם בפועל.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "valuation-new-for-old",
+      "claim": "Kol Zchut: household items compensated at repair value; if irreparable, at the value of a similar new item.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "סכום הפיצוי על הנזק לחפצי הבית ייקבע לפי שווי התיקון שלהם. אם יימצא שהחפץ לא ניתן לתיקון, הפיצוי ייקבע לפי השווי של חפץ ביתי דומה חדש.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "household-item-definition",
+      "claim": "Household-goods regulations: definition of a household item, excluding jewellery, artworks and antiques.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "\"חפצים ביתיים\" - רהיטים, ביגוד, כלים, מכשירים לשימוש ביתי, ספרים ותקליטים, המצויים בבית מגוריו של אדם ואינם נכס כהגדרתו בחוק, למעט תכשיטים, חפצי אמנות ועתיקות",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg2-per-type-cap",
+      "claim": "Household-goods regulation 2: compensation at the cost of restoring the damage, with all items of the same type capped at the amount set for that type.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "2. בעלם של חפצים ביתיים שהם לשימושו האישי, זכאי, ללא תשלום, לפיצויים בעד נזק שאירע לחפצים אלה בגובה הוצאות שיקום הנזק, ובלבד שהפיצויים בשל כל החפצים הביתיים מאותו הסוג, כמפורט בתוספת הראשונה, שניזוקו לא יעלו על הסכום שנקבע לאותו סוג בתוספת הראשונה.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg7-indexation",
+      "claim": "Household-goods regulation 7: the insurance maximum (7(א)) and every per-category schedule amount (7(ב)) are indexed on each update day, 1 January and 1 July.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "7. (א) הסכום שנקבע בתקנה 3(א) יתואם ב-1 בינואר וב-1 ביולי של כל שנה (להלן - יום העדכון) לפי שיעור עליית המדד החדש לעומת המדד הבסיסי; לענין זה – \"המדד\" - מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה; תק' תשנ\"ז-1997 \"המדד הבסיסי\" - 127.0 נקודות לפי בסיס ממוצע 1993; \"המדד החדש\" - המדד שפורסם לאחרונה לפני יום העדכון. תק' תשנ\"ו-1996 (ב) כל סכום שנקבע לסוג חפצים ביתיים בתוספת הראשונה לתקנות העיקריות יתואם בכל יום עדכון",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg3b-premium",
+      "claim": "Household-goods regulation 3(ב): premium 0.3% of the difference between the value and the schedule amount.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "0.3% מההפרש שבין השווי של כל החפצים הביתיים מאותו הסוג לבין השווי הקבוע לאותו סוג חפצים ביתיים בתוספת הראשונה",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "business-equipment-stock",
+      "claim": "Kol Zchut: business equipment at pre-damage market value; stock at cost excluding VAT; no compensation for cash or cheques.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "כיסוי הנזק לציוד עסקי נקבע בהתאם לשווי השוק של הציוד במצב שהיה לפני הפגיעה. מלאי: גובה הפיצוי על מלאי שנפגע יהיה בהתאם לעלות המלאי ללא מע\"מ . שימו לב אין זכאות לפיצוי על אובדן (או גניבה) של כסף מזומן והמחאות שנפגעו באירוע.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "business-documents",
+      "claim": "Kol Zchut: for business stock and equipment attach the stock purchase invoice and Form 11 for the equipment.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "אם הנזק נגרם למלאי ולציוד של עסק יש לצרף חשבונית על רכישת המלאי שניזוק וטופס י\"א על הציוד שנפגע (פרטים על נכסים שניתן לתבוע עבורם פחת).",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "who-can-file",
+      "claim": "Kol Zchut: the owner of the structure, whoever funds the restoration, and the owner of the contents including a tenant may file.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "יכולים להגיש את התביעה אנשים פרטיים ועסקים: בעל הנכס (המבנה) שניזוק מי שמממן את שיקום הנכס בעל התכולה שניזוקה (כולל מי ששוכר את הנכס)",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "tenants",
+      "claim": "Kol Zchut: a tenant may cancel the lease; alternative housing from the Tax Authority only while the lease is in force and rent is paid.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "השוכר יכול לבטל את החוזה, והוא לא חייב עוד בתשלום שכר דירה. גם אם השוכר בוחר שלא לבטל את החוזה, הוא יכול להיות פטור מתשלום דמי השכירות עבור התקופה שבה הוא לא יכול לגור בבית בשל הפגיעה. חשוב לשים לב שמי ששוכר דירה זכאי לדירה חלופית מרשות המיסים רק כל עוד החוזה בתוקף והוא ממשיך לשלם שכר דירה. לכן, אם השוכר בוחר לבטל את החוזה או שהוא אינו משלם את דמי השכירות הוא לא יהיה זכאי לדירה חלופית מרשות המיסים.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "property-tax-regulations-1973-reg-9",
-      "claim": "תקנה 9 (Regulation 9) of the Property Tax Regulations 1973 permits the manager to correct decisions within a 4-year window if new facts emerged or there was an error; overpayments must be returned within 90 days.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "(א) המנהל רשאי לתקן החלטה לפי תקנה 8 תוך ארבע שנים מיום שניתנה, אם נתגלו עובדות חדשות או אם ראה כי היתה בה טעות.",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "medical-aids",
+      "claim": "Kol Zchut: damaged medical aids are refunded by Bituach Leumi at Ministry of Health tariffs.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "אם אביזר רפואי (משקפי ראייה, מכשיר שמיעה, הליכון וכו') ניזוק או אבד כתוצאה מהפגיעה, אפשר לקבל החזר כספי מהביטוח הלאומי (גם אם לא הוכרה נכות). יש למלא טופס תביעה להכרה לצורך החזר כספי לנזק שנגרם לאביזר רפואי . מגישים את הטופס בצירוף המסמכים שמפורטים בו למוסד לביטוח לאומי, באחת מהדרכים: סריקת המסמכים ושליחה באופן מקוון באתר הביטוח הלאומי . הגשת המסמכים באמצעות הדואר, הפקס או תיבת השירות של הסניף הקרוב לבית . אם התביעה תאושר, סכום ההחזר ייקבע לפי תעריפי משרד הבריאות.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "property-tax-regulations-1973-reg-10",
-      "claim": "תקנה 10 (Regulation 10) of the Property Tax Regulations 1973 historically established the Indirect Damage Committee (ועדה לנזק עקיף) composed of three members from the Defense, Finance, and Agriculture ministries; the regulation was subsequently repealed (בוטלה) and is no longer operative.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "10. (בוטלה).",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "claim_id": "personal-items-police",
+      "claim": "Kol Zchut: personal items damaged near the impact site need a police confirmation; contact Fund staff on site or Real Estate Taxation and Income Tax offices; jewellery not compensated.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "מי שנגרם נזק לחפציהם האישיים כשהיו ליד מקום הפגיעה צריכים לקבל אישור מהמשטרה שהנזק נגרם כתוצאה מפעולת איבה. אפשר לפנות עם האישור לאנשי קרן הפיצויים שנמצאים בשטח או ל משרדי מיסוי מקרקעין ומס הכנסה",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -101,48 +406,196 @@
     },
     {
       "claim_id": "tax-authority-hotline-4954",
-      "claim": "Tax Authority (רשות המסים) customer service hotline is *4954, used for digital-services login issues and general support. Also referenced for Compensation Fund (קרן הפיצויים) questions.",
+      "claim": "Kol Zchut: the Tax Authority hotline is *4954.",
       "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
-      "raw_snippet": "מומלץ להודיע על הנזק מוקדם ככל האפשר למוקד רשות המסים: *4954 או באמצעות תביעה מקוונת לנזק ישיר",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "ניתן לפנות למוקד רשות המסים בטלפון *4954",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
+        "SKILL_HE.md",
         "references/claims-process-flowchart.md"
-      ],
-      "id": "tax-authority-hotline-4954"
+      ]
     },
     {
-      "claim_id": "url-gov-il-online-direct-damage-claim",
-      "claim": "Tax Authority online direct-damage claim page (הגשת תביעה מקוונת - נזק ישיר): after the claim details are filled in, a link is sent by SMS for uploading photographs of the damage scene, which must be taken and uploaded from the scene itself after the SMS is sent",
-      "source_url": "https://www.gov.il/he/service/online-direct-damage-claim",
-      "raw_snippet": "לאחר מילוי פרטי התביעה יישלח קישור במסרון להעלאת תמונות מזירת הפגיעה המתעדות את הנזקים. את התמונות יש לצלם ולהעלות מזירת הפגיעה בלבד ולאחר שנשלח המסרון. תמונות שיצולמו לפני פתיחת התביעה ויועלו ממקום שאינו זירת הפגיעה לא יתקבלו והתביעה לא תושלם.",
-      "fetched_at": "2026-08-11",
+      "claim_id": "appeal-service",
+      "claim": "gov.il appeal service: appeal in writing by email to Ararim@taxes.gov.il or fax 076-8090001; form optional; Mas Rechush response within 60 days; hearing set and summons by email; non-attendance may strike the appeal; committee is a judicial body under the Ministry of Justice.",
+      "source_url": "https://www.gov.il/he/service/submission-of-appeal-committees-compensation-fund",
+      "raw_snippet": "הערר יוגש בכתב לוועדת הערר בדואר אלקטרוני לכתובת: Ararim@taxes.gov.il או בפקס שמספרו 076-8090001 דף שירות זה מוביל לטופס שניתן למלא בו את הפרטים. הטופס מיועד לשם הנוחיות ואין חובה להשתמש בו. המשך הטיפול בבקשה לאחר הגשת הערר יגישו המשיבים כתב תשובה מטעם מס רכוש וקרן פיצויים, תוך 60 יום מקבלת הערר. לאחר הגשת כתב התשובה, ייקבע מועד לדיון לפני וועדת הערר. זימון לדיון יועבר לכתובת הדואר האלקטרוני שצוינה בכתב הערר. אי התייצבות לדיון עלולה להביא למחיקת הערר. הערות ועדת ערר היא גוף שיפוטי המצוי באחריות משרד המשפטים.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-service-contents",
+      "claim": "gov.il appeal service: appeal only after a final decision; extension decisions can be appealed; deadline stated in the decision; no decision: write via personal area or *4954, then the committee; attachments list; free of charge.",
+      "source_url": "https://www.gov.il/he/service/submission-of-appeal-committees-compensation-fund",
+      "raw_snippet": "הגשת ערר על החלטת מס רכוש וקרן פיצויים, אפשרית רק לאחר קבלת החלטה סופית של מס רכוש: בנזק הישיר ובמסלול האדום - החלטה סופית בתביעה. במסלול מחזורים ושכר – לאחר קבלת החלטה סופית בהשגה. ניתן גם להגיש ערר על החלטות בבקשות למתן ארכה להגשת תביעות והשגות. המועד להגשת ערר מצוין בגוף ההחלטה, בהתאם לסוג התביעה שהוגשה. במקרה שטרם ניתנה החלטה: לא ניתן להגיש ערר ויש להמתין לקבלתה. אם חלף זמן לא סביר ולא ניתנה החלטה, יש לפנות בכתב למס רכוש וקרן פיצויים, בהגשת פנייה מקוונת דרך האזור האישי באתר רשות המסים או בטלפון *4954. במקרה שלא ניתנה החלטה על אף הפנייה, ניתן לפנות לוועדת ערר עם פירוט כל העובדות. מה צריך לצרף לערר שם מלא ותעודת זהות. מספר טלפון מעודכן. שם חברה או שותפות או עסק ומספר זיהוי. מספר התביעה שהוגשה במס רכוש. כתובת דואר אלקטרוני לקבלת החלטות וזימונים לדיון. סכום הפיצוי הנטען. נימוקי ערר מפורטים כשהם ערוכים בפסקאות. החלטת מס רכוש עליה עוררים וכל ראייה שמבקשים לצרף לערר. השירות ניתן ללא עלות",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "restoration-definition",
+      "claim": "Household-goods regulations: restoration means returning the item to its pre-damage state or, if not possible, buying a similar new item.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "\"שיקום הנזק\" - החזרת החפץ הביתי למצבו שלפני הנזק, ואם לדעת המנהל אינו ניתן לשיקום כאמור - רכישתו של חפץ ביתי דומה חדש במקומו",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "single-parent-definition",
+      "claim": "Household-goods regulations: a single parent is a parent not living with a partner who has children living with them under 18 in the tax year. A parent of adult children only is therefore single plus adult columns, e.g. 51,436 + 18,113 = 69,549 ש\"ח from 01.07.2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "\"הורה יחיד\" - הורה שאינו חי עם בן זוג, ושיש לו ילדים החיים עמו שבשנת המס טרם מלאו להם שמונה עשרה שנים.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "owner-definition",
+      "claim": "Household-goods regulations: owner definition; goods of spouses or of household members living with them are treated as owned by one of them.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "\"בעל\" – (1) אזרח ישראלי או תושב ישראל שהוכיח להנחת דעתו של המנהל כי הוא בעלם של חפצים ביתיים; (2) אדם אחר שהוכיח כאמור כי הוא בעלם של חפצים ביתיים המצויים בישראל - לענין אותם חפצים. לענין זה, חפצים ביתיים שהם בבעלותם של בני זוג או של בני ביתם הגרים איתם - יראו כאילו היו בבעלות של אחד מהם",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg4-insurance-per-category",
+      "claim": "Household-goods regulation 4: insurance covers damage after a declaration and full-year payment, only for declared items, at new-replacement price; free regulation-2 compensation is not paid for a type for which insurance compensation was paid.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
+      "raw_snippet": "4. (א) מי שהגיש הצהרה לשנת מס פלונית לפי תקנה 3(א) במועד כלשהו בשנת המס ושילם את התשלום הכולל המגיע ממנו לפי תקנה 3(ב) לשנת המס כולה, יהא זכאי לפיצויים בעד נזק שאירע לאחר מכן באותה שנת מס, לחפצים הביתיים הכלולים בהצהרתו; סכום הפיצויים יהא שווה למחיר שיש לשלם ביום קרות הנזק לרכישת חפץ ביתי חדש כדוגמת החפץ הניזוק ובלבד שלא יובא בחשבון סכום העולה על השווי לענין תשלום דמי הביטוח. תק' תשנ\"ו-1996 (ב) לא ישולמו פיצויים בעד נזק לחפצים ביתיים לפי תקנה 2 אם שולמו בעד אותו סוג של חפצים פיצויים לפי תקנה זו.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg1-actual-damage",
+      "claim": "War-damage regulation 1: actual damage is the drop in value or the full restoration cost, whichever is lower, plus mitigation costs.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "\"הנזק הממשי\" – ההפרש בין שווי הנכס לפני שניזוק לבין שווי הנכס מיד לאחר שניזוק, או כל הוצאות שיקום הנזק – לפי הנמוך שבין שניהם, בתוספת הוצאות להקטנת הנזק",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg3-4-offset-tax",
+      "claim": "War-damage regulations 3 and 4 (תקנה 3, תקנה 4): payments from an insurer or another person are offset so total does not exceed actual damage; tax owed is deducted.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "3. היה הסכום המגיע לניזוק לפי תקנות אלה יחד עם הסכומים שהניזוק זכאי לקבל או קיבל כפיצוי בעד הנזק, מחברת ביטוח או מאדם אחר, עולה על הנזק הממשי, ישולם לו רק אותו סכום שהוא ההפרש שבין הפיצוי כאמור לבין הנזק הממשי. האמור בתקנה זו לא יחול על סכום המגיע לניזוק כפיצוי בעד נזק לכלי טיס. ניכויים 4. מסכום הפיצויים המגיעים לניזוק לפי תקנות אלה ינוכה סכום המס שהניזוק חייב בתשלומו עד יום תשלום הפיצויים בפועל, זולת אם החליט המנהל החלטה אחרת.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "reg13-advance",
+      "claim": "War-damage regulation 13 (תקנה 13): before the amount is fixed, the director may guarantee a loan or pay an advance of up to 50% of expected compensation.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
+      "raw_snippet": "13. היה ניזוק זכאי לקבל פיצויים לפי תקנות אלה אך סכומם טרם נקבע, רשאי המנהל לעשות אחת מאלה: (1) לערוב בעדו הלוואה ולקבוע תנאים וערובה לערבותו, אם בדרך כלל, אם להלוואה מסויימת או לסוג מסויים של הלוואה; (2) לשלם לו מקדמה שלא תעלה על 50% מסכום הפיצויים שלפי דעת המנהל יגיע לו.",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "gov.il content API",
-      "verified_at": "2026-08-11"
+      ]
     },
     {
-      "claim_id": "url-gov-il-israel-tax-authority",
-      "claim": "Israel Tax Authority (רשות המסים בישראל) departmental landing page on gov.il, the portal covering income tax, real-estate taxation, VAT, purchase tax, customs and stamp duty",
-      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "רשות המסים בישראל מאחדת את אגפי המס השונים: מס הכנסה, מיסוי מקרקעין, מס ערך מוסף, מס קנייה, מכס ומס בולים. הרשות מספקת שירותים בנושאי רפורמות, מוסדות ללא כוונת רווח וכן מידע למעסיקים, למייצגים ולציבור.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "gov.il content API",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "url-nevo-property-tax-law",
-      "claim": "Nevo legal database canonical URL for the Property Tax and Compensation Fund Law, 1961 (חוק מס רכוש וקרן פיצויים, תשכ\"א-1961). Verified to return the full law text including the title verbatim.",
+      "claim_id": "indirect-track-2026",
+      "claim": "Statute amendment 37 (temporary provision) added a further indirect-damage track for March and April 2026, following the fighting that began 28 February 2026.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "חוק מס רכוש וקרן פיצויים, תשכ\"א-1961",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "פרק שמיני 3: מסלול נוסף לפיצוי בשל נזק עקיף שנגרם בחודשים מרץ ואפריל 2026 בעקבות תקופת הלחימה שהחלה ביום י\"א באדר התשפ\"ו (28 בפברואר 2026)",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "guide-file-online-or-hotline",
+      "claim": "Tax Authority guide: file an online direct-damage claim through the website or through the Compensation Fund hotline *4954.",
+      "source_url": "https://www.gov.il/he/Departments/Guides/guide-for-civilians-property-damaged-in-hostilities?chapterIndex=6",
+      "raw_snippet": "יש להגיש תביעה מקוונת - נזק ישיר באמצעות האתר או באמצעות מוקד קרן הפיצויים במספר 4954*",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-process-flowchart.md"
+      ]
+    },
+    {
+      "claim_id": "alt-housing",
+      "claim": "Kol Zchut guide (updated 8.10.2026), Iran-war operations: short term hotel funded by the Fund or self-evacuation 4,000 ש\"ח up to two weeks; long term rented apartment with rent paid, continued hotel on conditions, or self-evacuation paying owner-occupiers 4,000 ש\"ח (single adult) / 5,000 ש\"ח (couple or single parent) a month plus 500 ש\"ח per child under 18 and 1,000 ש\"ח per adult, capped at 80% of comparable rent; tenants get the damaged flat's rent while paying it; non-resident owners get none; moving and brokerage costs paid against invoice only for the alternative-apartment option.",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_למי_שביתם_נפגע_במלחמה_מול_איראן_ולא_ראוי_למגורים",
+      "raw_snippet": "בטווח הקצר , מי שדירתו נפגעה ונקבע שהיא לא ראויה למגורים, יבחר להתפנות לפי אחת משתי האופוציות האלו: פינוי לבית מלון: פינוי לבית מלון על ידי הרשות המקומית ובמימון קרן הפיצויים. פינוי עצמי: המפונים ימצאו פתרון דיור חלופי, ויקבלו תשלום בסך 4,000 ₪ עבור הפינוי העצמי, לתקופה של עד שבועיים. בטווח הארוך , אדם שהתפנה מדירה שנפגעה, יבחר את אחת האופציות הבאות: פינוי לדירה חלופית: פינוי לדירה חלופית והצגת חוזה השכירות של הדירה לקרן הפיצויים. קרן הפיצויים תשלם את שכר הדירה בהתאם למאפייני הדירה שנפגעה, גודלה, ומיקומה, ותינתן עדיפות לתשלום שכר דירה שיאפשר למפונים המשך מגורים באזור שהתגוררו בו לפני הפינוי. פינוי לבית מלון: המשך שהייה בבית מלון, בתנאי שהוגשה תביעת פיצויים לקרן הפיצויים, והתקבל אישור להמשך השהייה מקרן הפיצויים והרשות המקומית. שוכרי דירות - המשך השהייה בבית המלון מותנה בהצגת חוזה שכירות בתוקף, והמשך תשלום דמי שכירות למשכיר. השהייה בבית המלון היא פתרון זמני בלבד, עד שיהיה אפשר לחזור לנכס שנפגע או לפתרון דיור ארוך טווח אחר. פינוי עצמי: המפונים ימצאו פתרון דיור חלופי: מפונים שפונו מדירה בבעלותם ושהתגוררו בה בזמן שנפגעה, יקבלו תשלום מקרן הפיצויים לפי ההרכב המשפחתי: מבוגר יחיד: 4000 ₪ לחודש זוג הורים: 5000 ₪ לחודש הורה ליחיד: 5000 ₪ לחודש עבור כל ילד (עד גיל 18): תוספת של 500 ₪ לחודש עבור כל מבוגר שגר עם זוג ההורים או הורה יחיד: תוספת של 1000 ₪ לחודש שימו לב: סך התשלום למשפחה לא יעלה על 80% משכר דירה שמשלמים על דירה עם מאפיינים דומים לדירה שנפגעה (דירה באותו אזור, באותו גודל וכו'): מפונים ששכרו דירה והתגוררו בה בזמן שנפגעה, יציגו את חוזה השכירות החדש לקרן הפיצויים, ויקבלו תשלום לפי גובה שכר הדירה של הדירה שנפגעה, כל עוד השוכרים ממשיכים לשלם שכר דירה עבור הדירה שנפגעה ופונו ממנה. בעלים של דירה שנפגעה ושלא התגורר בה בזמן שנפגעה, לא זכאי למימון של דיור חלופי. קרן הפיצויים תשלם את הוצאות ההובלה והתיווך אם נבחרה האופציה של פינוי לדירה חילופית, וזאת לאחר הצגת חשבונית מתאימה.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "alt-housing-aid-dismissal",
+      "claim": "Kol Zchut guide: initial cash aid of 500 ש\"ח per person evacuated from an uninhabitable home in the Iran-war operations, on top of compensation; for Shaagat HaAri, a ban on dismissing evacuated employees, ending 3 months from the evacuation.",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_למי_שביתם_נפגע_במלחמה_מול_איראן_ולא_ראוי_למגורים",
+      "raw_snippet": "זכאים לסיוע כספי ראשוני בסך 500 ₪ לאדם סיוע זה ניתן בנוסף לפיצויים שרשות המסים משלמת למי שרכושם נפגע כתוצאה מהמלחמה למידע נוסף ראו: סיוע כספי ראשוני למי שביתם נפגע במלחמה מול איראן ולא ראוי למגורים . נסיעה חופשית בתחבורה ציבורית למי שנאלצו להתפנות מהבית שנפגע במלחמה מול איראן תושבים שפונו מבתיהם בתקוםפת המלחמה מול איראן היו זכאים לקבל \"חופשי חודשי ארצי\" בשווי עד 684 ₪, שאיפשר נסיעה בכל אמצעי התחבורה בכל רחבי הארץ (כולל רכבת ישראל). ההטבה הסתיימה ב-25.04.2026. איסור פיטורים של עובד שהתפנה מביתו שנפגע במלחמה מול איראן במבצע \"שאגת הארי\" - אסור לפטר עובדים שנעדרו מהעבודה או לא ביצעו אותה בגלל שביתם נפגע במבצע שאגת הארי (החל מיום 28.02.2026) והם נאלצו להתפנות ממנו. האיסור על הפיטורים מסתיים אחרי 3 חודשים מיום הפינוי.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "alt-housing-local-authority",
+      "claim": "Kol Zchut Q&A: Fund or local-authority representatives refer residents of an uninhabitable building to alternative housing; if they have not arrived, call the local authority hotline.",
+      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
+      "raw_snippet": "אם אין אפשרות להישאר במבנה מגורים שנפגע, נציגי קרן הפיצויים (מס רכוש) או הרשות המקומית שיגיעו למקום יפנו את הדיירים לדיור חלופי. אם הנציגים עדיין לא הגיעו אפשר להתקשר למוקד הרשות המקומית כדי לתאם דיור חלופי.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "faq-uninhabitable-official",
+      "claim": "Tax Authority evacuee FAQ: in severe damage local-authority representatives help evacuate to a first-aid centre; if a competent local-authority official determines the home is uninhabitable, residents move to a hotel until restoration or a long-term solution.",
+      "source_url": "https://www.gov.il/he/pages/faq_evacuated",
+      "raw_snippet": "במקרה של פגיעה חמורה במבנה יגיעו נציגים של הרשות המקומית ויסייעו להתפנות למרכז סיוע ראשוני (מס\"ר). בהמשך, אם גורם מוסמך מטעם הרשות המקומית ייקבע שהבית אינו ראוי למגורים, תפונו מהמס\"ר למלון עד לשיקום הנזק או עד למציאת פתרון חלופי ארוך טווח.",
+      "fetched_at": "2026-11-03",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "faq-long-term-claim",
+      "claim": "Tax Authority evacuee FAQ: to move to long-term alternative housing, first file the structure claim, then an online request in the Tax Authority request system under \"צירוף חוזה שכירות\" (tenants attach both leases and a declaration of the evacuated lease end date and continued rent) or \"הצהרה בגין פינוי עצמי\".",
+      "source_url": "https://www.gov.il/he/pages/faq_evacuated",
+      "raw_snippet": "ראשית יש להגיש תביעה לקרן הפיצויים בגין הנזק למבנה באתר רשות המסים. לאחר מכן, מגישים פניה מקוונת לקרן הפיצויים דרך מערכת פניות באתר רשות המסים: בקשה להחזר שכר דירה בשל פינוי לדירה חלופית – יש לבחור בנושא: \"צירוף חוזה שכירות\" אם שכרתם את הדירה שפונתה: צרפו את חוזה השכירות של הדירה החלופית ואת חוזה השכירות של הדירה שפונתה. בנוסף, צרפו הצהרה בנוסח הבא: אני מצהיר כי הסכם השכירות בגין הדירה שפונתה הנו לתקופה עד ליום_____ וכי אמשיך לשלם שכר דירה לבעלי הנכס בסך ___לחודש עד למועד זה. מצורף הסכם השכירות בגין הדירה שפונתה ובגין הדירה החלופית. אם הדירה שפונתה בבעלותכם: צרפו את חוזה השכירות של הדירה החלופית. בקשה לפיצוי בגין פינוי עצמי - יש לבחור בנושא: \"הצהרה בגין פינוי עצמי\"",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -150,88 +603,36 @@
     },
     {
       "claim_id": "url-nevo-property-tax-regulations",
-      "claim": "Nevo legal database canonical URL for the Property Tax Regulations 1973 (תקנות מס רכוש, התשל\"ג-1973). Verified to contain Regulations 8, 9, and 10 covering manager's decisions, correction window, and (repealed) indirect-damage committee composition.",
+      "claim": "War-damage regulations page on nevo.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), תשל",
-      "fetched_at": "2026-05-18T16:55:00Z",
+      "raw_snippet": "מסירת הודעה והגשת תביעה",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "url-mevaker-2026-tax-emergency-report",
-      "claim": "State Comptroller report on Tax Authority emergency preparedness (2026 Emergency series): state compensation for \"war damage\" (physical damage to property) is regulated by the Property Tax Law and the Property Tax and Compensation Fund (Payment of Compensation) (War Damage and Indirect Damage) Regulations 1973",
-      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
-      "raw_snippet": "בחוק מס רכוש ובתקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), התשל\"ג-1973 (להלן - תקנות קרן הפיצויים או התקנות), הוסדר תשלום פיצויים מטעם המדינה בעד \"נזק מלחמה\" - נזק פיזי לנכס",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "pdf",
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "contents-ceilings-2026",
-      "claim": "Household-contents compensation ceilings, effective 01.01.2026 (NIS / ש\"ח): furniture 14,198 single, 24,552 couple or single parent, 4,964 per child under 18, 7,258 per additional adult. Clothing 2,366 / 4,731 / 710 / 2,366. Electrical appliances and electronics 24,894 / 30,175 / 505 / 3,961. Other household items 10,370 / 24,891 ש\"ח / 2,281 / 4,563. Totals 51,828 / 84,349 / 8,460 / 18,148. The ceilings are per category and are not interchangeable. Amounts are index-linked and reissued on 1 January and 1 July.",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
-      "raw_snippet": "תקרת הפיצויים שנקבעה בחוק לחפצים ביתיים (נכון ל-01.01.2026) סוגי החפצים הפיצוי המרבי לאדם יחיד הפיצוי המרבי לזוג נשוי או ל הורה עצמאי (הורה יחיד) הפיצוי המרבי לכל ילד עד גיל 18 הפיצוי המרבי למבוגר שגר עם אדם נוסף או עם זוג המשך טיפול רהיטים 14,198 ₪ 24,552 ₪ 4,964 ₪ 7,258 ₪ בגדים 2,366 ₪ 4,731 ₪ 710 ₪ 2,366 ₪ מכשירי חשמל ואלקטרוניקה 24,894 ₪ 30,175 ₪ 505 ₪ 3,961 ₪ חפצים ביתיים אחרים 10,370 ₪ 24,891 ₪ 2,281 ₪ 4,563 ₪",
-      "fetched_at": "2026-07-14T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "household-item-definition",
-      "claim": "Definition of a household item in the regulations, and the exclusions: cash, cheques, jewellery, artworks and antiques are not compensated.",
+      "claim_id": "url-nevo-household-goods",
+      "claim": "Household-goods regulations page on nevo.",
       "source_url": "https://www.nevo.co.il/law_html/law01/273_034.htm",
-      "raw_snippet": "רהיטים, ביגוד, כלים, מכשירים לשימוש ביתי, ספרים ותקליטים, המצויים בבית מגוריו של אדם ואינם נכס כהגדרתו בחוק, למעט תכשיטים, חפצי אמנות ועתיקות",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "\"חפצים ביתיים\"",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "notice-and-claim-deadlines",
-      "claim": "תקנה 5 (regulation 5) of תקנות מס רכוש וקרן פיצויים (תשלום פיצויים) (נזק מלחמה ונזק עקיף), תשל\"ג-1973: notice of damage within two weeks of the damage; the claim itself within one month per the base text (the Tax Authority's operational guidance for the current operations says three months). Regulation 5(ג) empowers the director to extend BOTH deadlines where there is a reasonable cause, so neither is an automatic forfeiture, and the extension must be requested before the deadline passes. Filing the notice is not filing the claim.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_020.htm",
-      "raw_snippet": "מסירת הודעה והגשת תביעה 5. (א) הודעה על נזק תוגש למנהל בטופס שקבע, תוך שבועיים מיום קרות הנזק. (ב) תביעה לפיצויים תוגש למנהל בטופס שקבע, תוך חודש מיום קרות הנזק. (ג) המנהל רשאי להאריך את המועדים לפי תקנות משנה (א) ו-(ב) אם נוכח כי ישנה סיבה סבירה לכך. ראיות 6. תעודה מאת שר הבטחון או מאת מי שהוא מינה לכך, המעידה שנכס פלוני ניזק נ",
-      "fetched_at": "2026-08-09T15:53:51.220069+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "appeal-route",
-      "claim": "Appeal (ערר): fill in the appeal form and email it to Ararim@taxes.gov.il. תקנה 11 (regulation 11) sets the deadline at 30 days from delivery of the director's decision. A claim filed through the fast track that was only partially approved has no appeal to the ועדת ערר; the appeal route there is open only for an outright rejection.",
+      "claim_id": "url-kolzchut-qa",
+      "claim": "Kol Zchut war property damage Q&A, covering Am K'Lavi and Shaagat HaAri.",
       "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
-      "raw_snippet": "יש למלא את הפרטים בטופס הערר ולשלוח בדוא\"ל לכתובת Ararim@taxes.gov.il",
-      "fetched_at": "2026-07-14T00:00:00Z",
+      "raw_snippet": "מבצע \"עם כלביא\" וגם מבצע \"שאגת הארי\"",
+      "fetched_at": "2026-11-03",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
-    },
-    {
-      "claim_id": "fast-track-status",
-      "claim": "The fast track (מסלול מהיר, up to 30,000 NIS, decided within 7 business days with no assessor visit) is opened per operation and then closed. For Shaagat HaArie it was open with a filing deadline of 28.04.2026, after which only the regular track is available. Never state that the fast track is open without checking the current status.",
-      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_למי_שרכושם_נפגע_במלחמה_או_בפעולת_איבה",
-      "raw_snippet": "ניתן להגיש תביעה במסלול המהיר עד 28.04.2026. לאחר מועד זה ניתן להגיש תביעה רק במסלול הרגיל.",
-      "fetched_at": "2026-07-14T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "id": "insurance-coverage-period",
-      "claim": "insurance coverage period",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_רשות_של_חפצים_ביתיים_בפני_נזקי_מלחמה_או_פעולות_איבה",
-      "raw_snippet": "הביטוח יכנס לתוקפו לאחר תשלום הפרמיה ואישור קבלת הצהרה, ויהיה תקף עד ליום 31.12 לאותה שנה."
     }
   ]
 }

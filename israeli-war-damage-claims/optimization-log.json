@@ -24,6 +24,21 @@
         "Four nevo regulation-8/9/10 snippets were re-worded summaries presented as verbatim quotes. A paraphrase is well-formed, so no lint catches it; only fetching the statute does.",
         "CARRY: gov.il israel_tax_authority and online-direct-damage-claim Cloudflare-403 every fetcher; both read live in a browser with location.href asserted and recorded verified_via: browser. Re-confirm by eye next cycle."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-11-03",
+      "lessons": [
+        "CARRY resolved: 'appraiser approval before any repair' generalised (Tax Authority guide: no clearing or repair before the appraiser, cracked glass excepted); 'per additional adult' relabel and the softened forfeiture framing were already in place. Municipal 106: no Tax Authority or Kol Zchut source names it as a reporting channel, so it was NOT added (the sources name only the local authority's hotline, for alternative housing).",
+        "STALE fix: the gov.il guide published a 01.07.2026 contents column on 01.07.2026 and nobody re-checked. Every furniture and electrical cell went DOWN. Keep both columns and pick by damage date; re-check gov.il every January and July. The gov.il content API (the verifier's fetch) reads gov.il when curl and browsers are Cloudflare-blocked.",
+        "CRITICAL fixes the previous cycles' gates missed: the appeal committee is 3 members (reg 12), not 2; the District Court route is an appeal as of right on law only (reg 12א), not leave; 'vaadat-erar@taxes.gov.il' in references was fabricated (Ararim@ is real, confirmed by gov.il and a decoded kolzchut cfemail token). LESSON: references/ files were never read by the judge in earlier cycles; brief the judge to read them.",
+        "Kol Zchut obfuscates email addresses as Cloudflare cfemail ('[email protected]'); a snippet containing the address can never match. Decode the data-cfemail token from the raw HTML to verify, and quote the surrounding text.",
+        "Legal gate BLOCKed the first draft of the appeal artifact (a filing-ready ערר is a §20(3) document). It is now a checklist plus candidate grounds as points; never re-introduce 'write the appeal' in body, examples, enriched prompts or value-add case wording.",
+        "Arithmetic reviewer found the 4th Step-5 defect: 'single parent uses the couple column' without regulation 1's under-18 condition overstated a parent of adult children by ~32,500. Round 2 then caught a repair defect: a written-off car is the drop in value (minus salvage), not the full pre-damage value.",
+        "Expert MAJOR deferred (word cap, body at 4,961/5,000): HOW a tenant files for the long-term rent payment (a structure claim, then an online request with both leases and a rent-continuation declaration) and a link to the Tax Authority evacuee FAQ. Next cycle: move the 01.01.2026 inline column or Example 1 to references/ to make room.",
+        "Expert MINOR deferred: cite the Tax Authority evacuee FAQ alongside Kol Zchut for the alternative-housing amounts.",
+        "Arithmetic SOUND-BUT-INCOMPLETE left for the Fund: a child who turns 18 during the tax year, unmarried couples (literal 'לזוג נשוי'), kibbutz (reg 5) and olim goods in transit (reg 5א) are not covered; the skill says to confirm with the Fund."
+      ]
     }
   ]
 }
