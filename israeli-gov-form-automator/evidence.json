@@ -1,94 +1,760 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-gov-form-automator",
-  "generated_at": "2026-06-16T00:00:00Z",
+  "generated_at": "2026-11-03T18:00:00Z",
   "claims": [
     {
-      "claim": "Form 101 / טופס 101 is the employee tax-coordination card (כרטיס עובד) that employees and pension recipients submit so the employer can grant the tax relief, benefits, and tax credits they are entitled to.",
+      "claim_id": "tou-identified-services-personal",
+      "claim": "gov.il terms of use: identified services are personal; use by another person in the user's name breaches the terms and may be a criminal offence; family member (spouse, parent, child, sibling) acting with consent excepted.",
+      "source_url": "https://www.gov.il/he/pages/terms_of_use",
+      "raw_snippet": "השימוש במערכת ההזדהות לצורך קבלת שירותים מזוהים הוא אישי, ושימוש בשירותים מזוהים על ידי אדם אחר בשמו של המשתמש, מפרה את תנאי השימוש של אתר זה ועשויה להיחשב בנסיבות מסוימות כעבירה פלילית. על אף האמור לעיל, שימוש בשירותים המזוהים בהסכמת המשתמש על ידי בן משפחה, לא תיחשב כהפרת תנאי השימוש. לעניין זה \"בן משפחה\" - אישה, בעל, הורה, בן, בת, אח, אחות.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "tou-password-secret",
+      "claim": "The user must keep the password secret and not hand it to another.",
+      "source_url": "https://www.gov.il/he/pages/terms_of_use",
+      "raw_snippet": "על המשתמש לשמור על סודיות הסיסמה שיקבל לשם אימות זהותו, להחזיקה במקום בטוח ולא למסרה לאחר",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-101-who-and-deadlines",
+      "claim": "Form 101 is filled by the employee and handed to the employer or pension payer within 7 days of starting work or the first salary (earlier), at the start of each tax year (1 January), and within 7 days of a change.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
-      "raw_snippet": "טופס 101 מאפשר לתת לעובדים ולמקבלי קצבת פנסיה הקלות, הטבות וזיכויי מס שהם זכאים להם. Form 101 (the employee tax-coordination card / כרטיס עובד) is filed by an employee at the start of the tax year."
+      "raw_snippet": "את הטופס המלא והחתום יש למסור למעסיק או לגוף שמשלם את קצבת הפנסיה בצירוף המסמכים, בכל אחד מהמועדים הבאים: בתוך 7 ימים מהיום שהעובדים התחילו לעבוד אצל המעסיק או ביום שקיבלו את המשכורת הראשונה, לפי התאריך המוקדם יותר. בתחילת כל שנת מס (ב-1 בינואר בכל שנה).",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ]
     },
     {
-      "claim": "טופס 106 is the annual employer wage-and-tax statement that consolidates and summarizes all salary components an employee received from the employer during a tax year.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_106",
-      "raw_snippet": "טופס 106 מרכז ומסכם את הנתונים והרכיבים של כל המשכורות שקיבל עובד מהמעסיק במהלך שנת מס. It is the annual employer wage and tax statement."
+      "claim_id": "form-101-change-7-days",
+      "claim": "A new 101 is filed within 7 days of a change in details.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "יש למלא ולהגיש טופס חדש ומעודכן בתוך 7 ימים מיום השינוי.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
     },
     {
-      "claim": "טופס 119 is the income-tax benefit request for holders of an academic degree or a vocational certificate (בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע).",
-      "source_url": "https://www.gov.il/he/service/itc119",
-      "raw_snippet": "בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)",
-      "verified_via": "gov.il content API (programmatic re-extraction)"
+      "claim_id": "form-101-attachments",
+      "claim": "Form 101 attachments: copy of ID card plus appendix (ספח) at the start of work or after a change.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "צילום תעודת זהות + ספח (רק עם תחילת העבודה ובמקרה שהיה שינוי בפרטים והוגש טופס מעודכן)",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fill_form.py"
+      ]
     },
     {
-      "claim": "Form 1301 is the annual income-tax return for individuals and self-employed business owners who are not a company, filed online.",
-      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
-      "raw_snippet": "דיווח ותשלום - דוח מס שנתי 2025 ליחידים ובעלי עסקים שאינם חברה (טופס 1301) שירות זה מאפשר ליחידים או בעלי עסק עצמאי (שאינם חברה) להגיש דו\"ח מס שנתי למס הכנסה באופן מקוון.",
-      "verified_via": "gov.il content API",
-      "source_fetched_at": "2026-08-11T00:00:00Z"
+      "claim_id": "form-101-electronic-permitted",
+      "claim": "Tax Authority rules permit employers to implement an electronic 101 as a substitute for the manual 101 (not mandatory).",
+      "source_url": "https://www.gov.il/BlobFolder/service/itc-application-for-electronic-101/he/IncomeTax_employers-info-120126-1.pdf",
+      "raw_snippet": "מטרת הוראות אלו הינה להנחות את המעסיקים המעוניינים ליישם טופס 101 אלקטרוני כתחליף למילוי",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Circular dated 12.1.2026, pdftotext line: 'מטרת הוראות אלו הינה להנחות את המעסיקים המעוניינים ליישם טופס 101 אלקטרוני כתחליף למילוי טופס 101 ידני'. PDF text layer is RTL-reordered, so only a short contiguous phrase is used as the snippet."
     },
     {
-      "claim": "Form 135 is the short annual income-tax return (דין וחשבון שנתי מקוצר) for the 2025 tax year, published alongside Form 1301.",
-      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
-      "raw_snippet": "טופס 135 - דין וחשבון שנתי מקוצר לשנת המס 2025",
-      "verified_via": "gov.il content API",
-      "source_fetched_at": "2026-08-11T00:00:00Z"
-    },
-    {
-      "claim": "טופס 161 is the employer notice of work termination / retirement (הודעת מעביד על פרישה מעבודה). Since 1 January 2024 employers must report an employee's departure via the new Form 161.",
-      "source_url": "https://www.gov.il/he/service/notice-of-retirement",
-      "raw_snippet": "לפני שמתחילים החל מתאריך ה-1 בינואר 2024 (\"מועד התחולה\"), מעסיקים מחויבים להודיע על פרישה מעבודה של עובדיהם באמצעות טופס 161 החדש.",
-      "verified_via": "gov.il content API (programmatic re-extraction)"
-    },
-    {
-      "claim": "טופס 857 is the annual withholding statement for non-wage payments (אישור שנתי על ניכוי מס במקור / ריכוז ניכויים) issued by a payer who withholds tax at source on payments for services or assets.",
-      "source_url": "https://www.icount.co.il/blog/form-857/",
-      "raw_snippet": "טופס 857 הוא אישור שנתי על ניכוי מס במקור מתשלומים בעד שירותים או נכסים, ריכוז ניכויים. הטופס כולל סיכום של כל התשלומים והניכויים שבוצעו והוא דרוש בזמן הגשת דוח שנתי לרשות המיסים. The annual withholding statement for non-wage payments."
-    },
-    {
-      "claim": "Inventory of the Israeli government service-portal URLs the skill cites: https://my.gov.il https://www.gov.il https://www.gov.il/he/ https://www.misim.gov.il https://secapp.taxes.gov.il/srsherutatzmi https://www.btl.gov.il https://www.btl.gov.il/benefits/Pages/default.aspx https://ica.justice.gov.il https://www.gov.il/he/departments/ministry_of_interior https://www.gov.il/he/departments/israel_tax_authority https://www.gov.il/he/departments/corporations_authority https://www.gov.il/he/service/itc-application-for-electronic-101 https://www.gov.il/he/service/register-to-digital-services https://www.gov.il/he/pages/digital_signature https://www.govextra.gov.il/national-digital-agency/signature/home/ . Anchor page: the Israel Tax Authority department page, which offers online VAT reporting and payment.",
-      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
-      "raw_snippet": "שירות זה מאפשר לעוסקים רשומים במע\"מ לדווח ולשלם דוחות מע\"מ באופן מקוון.",
-      "verified_via": "gov.il content API",
-      "source_note": "This entry is a URL inventory, not a page quote. The anchor source_url was re-read in Playwright on 2026-08-10 with location.href asserted (title \"רשות המסים בישראל\", nav items \"אזור אישי רשות המסים / יחידות קבלת קהל / זימון תור / פנו אלינו\"). The other URLs in the list were NOT individually re-checked this pass.",
-      "source_fetched_at": "2026-08-11T00:00:00Z"
-    },
-    {
-      "claim": "Israel Post postal-code (mikud) lookup. The MyPost portal at mypost.israelpost.co.il provides the address-by-zip / zip-code search service, replacing the deprecated zip_data.nsf path. The official locator is doar.israelpost.co.il/locatezip.",
-      "source_url": "https://doar.israelpost.co.il/locatezip",
-      "raw_snippet": "Israel Post zip code (mikud) lookup: https://mypost.israelpost.co.il/zipcodesearch . The Israel Post offers a zip code locator service where you can find your postal code by entering the settlement name, street name, and house number. איתור מיקוד | דואר ישראל. The MyPost section (mypost.israelpost.co.il) allows users to perform various actions including the postal-code lookup."
-    },
-    {
-      "claim": "Playwright is the browser automation library used by this skill to drive government web forms.",
-      "source_url": "https://playwright.dev",
-      "raw_snippet": "Fast and reliable end-to-end testing for modern web apps. Playwright ( https://playwright.dev ) is the browser automation framework."
-    },
-    {
-      "claim": "The National Insurance Institute benefits portal explains that its main role is to secure means of subsistence for those unable to support themselves.",
-      "source_url": "https://www.btl.gov.il/benefits/Pages/default.aspx",
-      "raw_snippet": "תפקידו העיקרי להבטיח אמצעי מחיה למי שאינם מסוגלים להתפרנס למחייתם.",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "gov.il content API"
-    },
-    {
-      "claim": "The Ministry of Interior department page covers business-licence applications submitted through an online form routed to the local authority.",
-      "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
-      "raw_snippet": "אפשר להגיש את הבקשה לרישיון בטופס מקוון והיא תעבור למשרדי הרשות המקומית שבה נמצא העסק להמשך התהליך.",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "gov.il content API"
-    },
-    {
-      "claim": "The electronic Form 101 service page is aimed at software houses distributing a computerised system for filling the form, or employers developing one.",
+      "claim_id": "form-101-electronic-service-page",
+      "claim": "The electronic 101 service page is for software houses distributing a system, or employers developing one.",
       "source_url": "https://www.gov.il/he/service/itc-application-for-electronic-101",
       "raw_snippet": "השירות מיועד לבית תוכנה המעוניין להפיץ מערכת ממוחשבת למילוי הטופס או למעסיק המעוניין לפתח מערכת כזו בעצמו.",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "gov.il content API"
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
     },
     {
-      "claim": "The digital-signature guidance page states that the legal status of an electronic signature on forms depends on the signing means held by the signer and the type of digital certificate.",
+      "claim_id": "form-106-issued-by-employer",
+      "claim": "Form 106 summarises the year's salary and is issued by the employer to the employee.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_106",
+      "raw_snippet": "טופס 106 מרכז ומסכם את הנתונים והרכיבים של כל המשכורות שקיבל עובד מהמעסיק במהלך שנת מס",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ]
+    },
+    {
+      "claim_id": "form-119-degree-benefit",
+      "claim": "Form 119 is the tax benefit request for an academic degree or vocational certificate.",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "בקשה להטבה במס לזכאים לתואר אקדמי או לתעודת מקצוע (טופס 119)",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-135-short-return",
+      "claim": "Form 135 is the short annual return (דין וחשבון שנתי מקוצר).",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "טופס 135 - דין וחשבון שנתי מקוצר לשנת המס 2025",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-135-refund-6-years",
+      "claim": "A tax refund for previous years (up to 6 years) is requested on Form 135.",
+      "source_url": "https://www.gov.il/he/service/itc116",
+      "raw_snippet": "בקשה להחזר מס לשנים קודמות (עד 6 שנים) בטופס 135",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-1301-individuals",
+      "claim": "Form 1301 is the annual return for individuals and business owners who are not a company.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "דוח מס שנתי 2025 ליחידים ובעלי עסקים שאינם חברה (טופס 1301)",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "annual-return-manual-routes",
+      "claim": "Manual filing is allowed above retirement age, for low income, or for non-obliged refund seekers.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "הגשה ידנית מתאפשרת במקרים אלו: גיל מעל פרישה, הכנסה נמוכה או מי שאינם חייבים בהגשת דו\"ח מס שנתי ומבקשים החזר מס.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "annual-return-online-2019",
+      "claim": "Full online submission from 2019 onward.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "הגשה מקוונת מלאה - משנת 2019 ואילך",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-161-employer-2024",
+      "claim": "Since 1 January 2024 employers must report an employee's retirement through the new Form 161.",
+      "source_url": "https://www.gov.il/he/service/notice-of-retirement",
+      "raw_snippet": "החל מתאריך ה-1 בינואר 2024 (\"מועד התחולה\"), מעסיקים מחויבים להודיע על פרישה מעבודה של עובדיהם באמצעות טופס 161 החדש.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-857-withholding",
+      "claim": "Form 857 is the annual certificate of tax withheld at source from payments for services or assets, issued by the payer.",
+      "source_url": "https://www.icount.co.il/blog/form-857/",
+      "raw_snippet": "אישור שנתי על ניכוי מס במקור מתשלומים בעד שירותים או נכסים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-867-bank",
+      "claim": "Form 867 is the bank's certificate of tax withheld on deposits and securities.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/faq/867/",
+      "raw_snippet": "אישור על ניכוי מס במקור (טופס 867). האישור כולל את סכום ההכנסה והמס שנוכה בחשבון בגין הכנסות מפיקדונות ומניירות ערך",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "ita-not-national-id-2025",
+      "claim": "As of May 2025 the Tax Authority is not connected to national identification and runs its own system.",
+      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/2026-05-Cyber/2026-05-Cyber-101.pdf",
+      "raw_snippet": "רשות המיסים אינה מחוברת למערכת ההזדהות הלאומית",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "State Comptroller special report, May 2026, pdftotext line 860: 'נמצא כי נכון למאי 2025, רשות המיסים אינה מחוברת למערכת ההזדהות הלאומית ומנהלת מערכת הזדהות עצמאית'."
+    },
+    {
+      "claim_id": "ita-dual-identification-2026",
+      "claim": "The Tax Authority intends to implement dual identification by the end of 2026.",
+      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/2026-05-Cyber/2026-05-Cyber-101.pdf",
+      "raw_snippet": "בכוונתה ליישם את עקרון ״ההזדהות הדואלית״ עד סוף שנת",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Same report, line 888: 'בכוונתה ליישם את עקרון ״ההזדהות הדואלית״ עד סוף שנת 2026'."
+    },
+    {
+      "claim_id": "btl-own-identification",
+      "claim": "Bituach Leumi runs its own identification: ID number plus a secret code sent to the registered mobile.",
+      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/2026-05-Cyber/2026-05-Cyber-101.pdf",
+      "raw_snippet": "הביטוח הלאומי מנהל מערכת הזדהות עצמאית",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Same report, lines 992-994: 'משתמש רשום יכול להתחבר באמצעות הקלדת מספר תעודת זהות וקוד סודי שנשלח ישירות למספר הנייד המעודכן במערכת (OTP)'."
+    },
+    {
+      "claim_id": "national-id-login-otp",
+      "claim": "National identification login: ID number, chosen password, and a one-time code by SMS or voice call each time.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A8%D7%A9%D7%9E%D7%94_%D7%9C%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA_%D7%94%D7%94%D7%96%D7%93%D7%94%D7%95%D7%AA_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%AA",
+      "raw_snippet": "באמצעות הזנת מספר תעודת הזהות, הסיסמה שנבחרה, וקוד האימות שיישלח בכל פעם למכשיר הנייד במסרון (SMS) או בהקראה קולית.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "national-id-passkey-may-2025",
+      "claim": "Since May 2025 national identification can be done on a mobile phone with biometrics, without password or code (passkey).",
+      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/2026-05-Cyber/2026-05-Cyber-101.pdf",
+      "raw_snippet": "ללא סיסמה וללא קוד אימות",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Same report, lines 456-457: 'לפיכך ממאי 2025 נוספה היכולת לבצע את תהליך ההזדהות באמצעות המכשיר הסלולרי תוך שימוש באמצעים ביומטריים, ללא סיסמה וללא קוד אימות'; footnote line 500 names passkey."
+    },
+    {
+      "claim_id": "national-id-biometric-registration",
+      "claim": "A biometric ID card is used to register at a station with a card reader.",
+      "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/2026-05-Cyber/2026-05-Cyber-101.pdf",
+      "raw_snippet": "בעמדה בעלת קורא כרטיסים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Same report, line 1416: 'להירשם למערכת ההזדהות באמצעות תעודת זהות ביומטרית בעמדה בעלת קורא כרטיסים'."
+    },
+    {
+      "claim_id": "digital-signature-smart-card",
+      "claim": "gov.il forms can be signed with a smart card or token with a certificate from an authorised issuer.",
       "source_url": "https://www.gov.il/he/pages/digital_signature",
-      "raw_snippet": "מעמדה המשפטי של החתימה האלקטרונית על טפסים ייקבע על פי אמצעי החתימה שנמצא בידי החותם וסוג התעודה הדיגיטלית שהוא מחזיק",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "gov.il content API"
+      "raw_snippet": "ניתן לבצע חתימה תוך שימוש בכרטיס חכם או ב- Token",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "israel-certification-authorities",
+      "claim": "Israel's two operating certification authorities are Comsign and PersonalID.",
+      "source_url": "https://www.hamichlol.org.il/%D7%97%D7%95%D7%A7_%D7%97%D7%AA%D7%99%D7%9E%D7%94_%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%AA",
+      "raw_snippet": "בישראל פועלים שני גורמים מאשרים: קומסיין בע\"מ ופרסונל איי.די. בע\"מ.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "ica-registration-online",
+      "claim": "Online company registration: articles and declarations approved online by shareholders and directors, no verified documents needed.",
+      "source_url": "https://www.gov.il/he/service/registration-online",
+      "raw_snippet": "רישום חברה בקליק הינו שירות לרישום חברה באופן מקוון ללא צורך באימות מסמכי תקנון והצהרות",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "ica-three-names",
+      "claim": "The Registrar's 2017 online-registration manual (smart-card route) required three Hebrew name proposals in order of priority (a fourth optional). The skill presents this as the 2017 manual's rule, not as the current click-service rule.",
+      "source_url": "https://www.gov.il/BlobFolder/servicequestionnaire/company_registration/he/OnlineREgistrationManual.pdf",
+      "raw_snippet": "חובה לציין שלושה שמות בעברית",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Registrar online-registration manual (2017) line 139: 'חובה לציין שלושה שמות בעברית, לפי סדר העדיפות (ישנה אפשרות להוסיף חלופה רביעית- לא חובה)'."
+    },
+    {
+      "claim_id": "ica-fees-2026",
+      "claim": "2026 Corporations Authority fees: online registration NIS 2,559 (reduced), registration NIS 3,123.",
+      "source_url": "https://www.gov.il/BlobFolder/reports/companies-fee-rates-2020/he/companies-fee-rates-2025.pdf",
+      "raw_snippet": "רישום חברה מקוון (אגרה מופחתת) 2559",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Fee table header 'תעריפי אגרות רשות התאגידים לשנת 2026'; rows 'רישום חברה מקוון (אגרה מופחתת)' 2559 and 'רישום חברה (למעט חלצ)' 3123."
+    },
+    {
+      "claim_id": "ica-fees-2026-regular",
+      "claim": "2026 regular company registration fee NIS 3,123.",
+      "source_url": "https://www.gov.il/BlobFolder/reports/companies-fee-rates-2020/he/companies-fee-rates-2025.pdf",
+      "raw_snippet": "רישום חברה (למעט חלצ) 3123",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z"
+    },
+    {
+      "claim_id": "maternity-automatic",
+      "claim": "Maternity pay is automatic for self-employed, employer-arrangement employees, pregnancy-preservation recipients, unemployment recipients up to a month before (home birth excepted).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "מבלי שהיולדת נדרשת להגיש את התביעה: עובדת עצמאית.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ]
+    },
+    {
+      "claim_id": "maternity-automatic-unemployment",
+      "claim": "Automatic also for a woman who received unemployment pay up to a month before birth.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "מי שקיבלה דמי אבטלה עד חודש לפני הלידה.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "maternity-online-after-birth",
+      "claim": "The online maternity claim can be filled only after the birth.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "אחרי הלידה בלבד , ניתן למלא את טופס התביעה ולשלוח את המסמכים באופן מקוון",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "numbering-geographic",
+      "claim": "Geographic numbers: 9 digits, 0A-NXX-XXXX, A in 2,3,4,8,9, N=2-9.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/number_policy/en/The_numbering_plan-02-2023.pdf",
+      "raw_snippet": "מספר בן 9 ספרות, בתבנית 0A-NXX-XXXX",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "Ministry of Communications numbering plan Feb 2023, section 'תבנית מספרים גיאוגרפיים': 'מספר בן 9 ספרות, בתבנית 0A-NXX-XXXX'; A takes 2,3,4,8,9; N=2-9; area table A=2 ירושלים, 3 תל-אביב, 4 חיפה והצפון, 8 השפלה והדרום, 9 השרון."
+    },
+    {
+      "claim_id": "numbering-mobile",
+      "claim": "Mobile numbers: 10 digits, 05R-NXX-XXXX.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/number_policy/en/The_numbering_plan-02-2023.pdf",
+      "raw_snippet": "מספר בן 10 ספרות, בתבנית 05R-NXX-XXXX",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z"
+    },
+    {
+      "claim_id": "numbering-national-07",
+      "claim": "National numbers: 10 digits, 07P-NXX-XXXX, P=2-9.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/number_policy/en/The_numbering_plan-02-2023.pdf",
+      "raw_snippet": "מספר בן 10 ספרות, בתבנית 07P-NXX-XXXX",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z"
+    },
+    {
+      "claim_id": "ita-personal-area-url",
+      "claim": "The Tax Authority department page links its personal area at secapp.taxes.gov.il/sr-ezor-ishi.",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "sr-ezor-ishi",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "btl-personal-service-url",
+      "claim": "ps.btl.gov.il is Bituach Leumi's personal service.",
+      "source_url": "https://ps.btl.gov.il/",
+      "raw_snippet": "&#x5E9;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5D0;&#x5D9;&#x5E9;&#x5D9;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "source_note": "Page <title> is HTML-entity encoded: 'המוסד לביטוח לאומי - שירות אישי'."
+    },
+    {
+      "claim_id": "ica-online-site",
+      "claim": "ica.justice.gov.il/IcaSite is 'תאגידים ברשת (תאגידים ONLINE)'.",
+      "source_url": "https://ica.justice.gov.il/IcaSite",
+      "raw_snippet": "תאגידים ברשת (תאגידים ONLINE)",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "misim-redirect",
+      "claim": "www.misim.gov.il only redirects to taxes.gov.il.",
+      "source_url": "https://www.misim.gov.il/",
+      "raw_snippet": "window.location.href = 'https://taxes.gov.il'",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "mikud-7-digits",
+      "claim": "Israeli postal codes have seven digits.",
+      "source_url": "https://en.wikipedia.org/wiki/Postal_codes_in_Israel",
+      "raw_snippet": "In March 2012, Israel Post announced a change to 7-digit postal codes",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "israel-post-mikud-url",
+      "claim": "Israel Post mikud lookup URL (bot-protected; content could not be machine-verified).",
+      "source_url": "https://mypost.israelpost.co.il/zipcodesearch",
+      "raw_snippet": "zipcodesearch",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "source_note": "2026-11-03: curl and headless Chromium both received a Radware CAPTCHA page; not verified content. The skill says so explicitly and tells the user to open it in their own browser."
+    },
+    {
+      "claim_id": "playwright",
+      "claim": "Playwright is the browser automation framework.",
+      "source_url": "https://playwright.dev",
+      "raw_snippet": "Playwright",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "pypdf-successor",
+      "claim": "pypdf is the maintained successor of PyPDF2.",
+      "source_url": "https://pypdf.readthedocs.io/en/latest/meta/history.html",
+      "raw_snippet": "PyPDF2 was merged back into pypdf. Now all lowercase, without a number.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-101-name",
+      "claim": "Form 101 is the employee card and request for tax relief, filled by every salaried employee and handed to the employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-857-name",
+      "claim": "Form 857 relates to payments received by self-employed people and companies.",
+      "source_url": "https://www.icount.co.il/blog/form-857/",
+      "raw_snippet": "טופס 857 הוא מסמך חשוב לעצמאים ולחברות המקבלים תשלומים מגופים שונים.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "my-gov-il",
+      "claim": "my.gov.il is the government personal-area landing app.",
+      "source_url": "https://my.gov.il/landing/",
+      "raw_snippet": "<base href=\"/landing/\">",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "source_note": "https://my.gov.il redirects to /landing/, a client-rendered app titled LandingPage."
+    },
+    {
+      "claim_id": "ita-personal-area-link-label",
+      "claim": "The Tax Authority page offers 'כניסה לאזור האישי' linking to https://secapp.taxes.gov.il/sr-ezor-ishi .",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "כניסה לאזור האישי",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "source_note": "The gov.il content API for this office page returns linkObj {title:'כניסה לאזור האישי', url:'https://secapp.taxes.gov.il/sr-ezor-ishi'}; the URL itself answers 200 to curl."
+    },
+    {
+      "claim_id": "interior-ministry-page",
+      "claim": "Interior Ministry office page on gov.il https://www.gov.il/he/departments/ministry_of_interior .",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_interior",
+      "raw_snippet": "משרד הפנים עוסק בנושאי שלטון מקומי",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-119-to-employer",
+      "claim": "Form 119 is attached to the Form 101 given to the employer, who applies the benefit in payroll; otherwise via online tax coordination.",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "יש לצרף את טופס 119 לטופס 101 שמגישים למעסיק בתחילת שנת המס, המעסיק יעדכן את ההטבה בתלוש השכר",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-119-tax-coordination",
+      "claim": "Alternatively the benefit is claimed via the online tax-coordination system.",
+      "source_url": "https://www.gov.il/he/service/itc119",
+      "raw_snippet": "באפשרותכם לקבל את ההטבה במס באמצעות מערכת תיאומי המס",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "form-101-pensioner-exemption",
+      "claim": "Pensioners aged 70+ and various allowance recipients may be exempt from refiling 101 every year if income did not change.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "גמלאים שמלאו להם 70 שנה וכן מקבלי קצבאות שונות עשויים להיות פטורים מהגשת טופס 101 מדי שנה, אם לא חלו שינויים בהכנסותיהם.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "annual-return-deadlines-2025",
+      "claim": "Tax year 2025 deadlines: non-online obliged filers by 29.5.2026; online obliged filers by 30.6.2026.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "יחידים החייבים בהגשת דוח שאינו מקוון יגישו עד 29.5.2026. יחידים החייבים בהגשת דוח מקוון יגישו עד 30.6.2026.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "annual-return-public-inquiries",
+      "claim": "Those exempt from online filing can submit the attached forms through the public-inquiries system.",
+      "source_url": "https://www.gov.il/he/service/reporting-and-payment-2025-annual-tax-report-for-individuals",
+      "raw_snippet": "מי שפטור מהגשת דו\"ח מקוון, יכול להשתמש בטפסים המצורפים לדף זה ולהגיש דרך מערכת פניות הציבור",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "maternity-home-birth-governs-all",
+      "claim": "The home-birth exception governs the whole list of automatic-payment cases.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "במקרים הבאים (מלבד במקרה של לידת בית) משולמים דמי הלידה אוטומטית",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "maternity-12-months",
+      "claim": "The maternity claim must be filed no later than 12 months from the first day of entitlement.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "הטופס יוגש לא יאוחר מ-12 חודשים מיום הזכאות הראשון לדמי הלידה.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ]
+    },
+    {
+      "claim_id": "maternity-employer-10-months",
+      "claim": "Each employer confirms in the form her work months and salary for the 10 months before she stopped working; one form per employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9C%D7%99%D7%93%D7%94",
+      "raw_snippet": "המעסיק לאשר בגוף הטופס את הפרטים על חודשי עבודתה ועל שכרה ב-10 החודשים שקדמו להפסקת עבודתה. מי שעבדה אצל כמה מעסיקים תצרף טופס מכל אחד מהם.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md",
+        "scripts/fill_form.py"
+      ]
+    },
+    {
+      "claim_id": "ica-click-national-id",
+      "claim": "Online company registration: enter 'תאגידים ברשת (אונליין)' through the national identification system.",
+      "source_url": "https://www.gov.il/BlobFolder/reports/registration-online/he/company-registration-info.pdf",
+      "raw_snippet": "נכנסים לאתר \"תאגידים ברשת (אונליין)\" באמצעות מערכת ההזדהות הלאומית",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03T18:00:00Z",
+      "source_note": "One-page guide 'רישום חברה בקליק', pdftotext line 3. The guide does not state how many name proposals are needed."
+    },
+    {
+      "claim_id": "corporations-authority",
+      "claim": "Corporations Authority gov.il office page https://www.gov.il/he/departments/israeli_corporations_authority .",
+      "source_url": "https://www.gov.il/he/departments/israeli_corporations_authority",
+      "raw_snippet": "הוקמה רשות התאגידים בשנת 2007 במשרד המשפטים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/gov-portals.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-employer",
+      "claim": "Ordinary sick pay is paid by the employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
+      "raw_snippet": "זכאים לתשלום דמי מחלה מהמעסיק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "references/gov-portals.md"
+      ]
     }
   ]
 }

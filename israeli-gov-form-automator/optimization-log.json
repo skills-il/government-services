@@ -13,6 +13,36 @@
         "Confirmed correct (no change): Tofes 101 digital since 2022, Tofes 1301 online mandatory since 2019, Teudat-Zehut Luhn validator (rejects 000000000), IBAN mod-97, and all Playwright Python API calls.",
         "Expert MINOR deferred: the landline regex 0[2-9] labels 07X non-geographic/VoIP numbers as 'landline'; acceptable for a format check, but could be split out next cycle. Also: portals table could add the 'new Form 161 mandatory since 2024' note."
       ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-03",
+      "holdout_before": 0.667,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "I just had a baby, which Bituach Leumi payments am I entitled to and how do I claim them?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "תמלא לי את טופס 101 למעסיק החדש, הנה הפרטים שלי ותעודת הזהות",
+          "כמה החזר מס מגיע לי השנה? עבדתי רק חצי שנה"
+        ]
+      },
+      "lessons": [
+        "Resolved: Form roles were wrong (135 'self-employed', 857 'pension fund', 119 'to Tax Authority', 106 treated as user-filled). Now a who-fills/who-receives table. The skill's own legacy evidence.json had contradicted three of these for a full cycle; the legacy evidence also contained invented English inside raw_snippet values, rebuilt canonical.",
+        "Resolved: 'Tofes 101 mandated digital since 2022' was false (electronic 101 is permitted via approved systems, ITA circular 12.1.2026).",
+        "Resolved: identification rewritten (ITA and BL run own logins; national ID = password + SMS/voice OTP, passkey since May 2025). Watch: ITA announced dual identification by end of 2026, so its login will change; re-check next cycle.",
+        "Resolved: script 07X numbers (10 digits) were rejected; landline regex now per numbering plan; mikud output normalised; form-fields --list fixed; TZ ASCII-only.",
+        "Removed unsourced: 20-minute session timeout, Hebrew-calendar DOB gotcha, mikud 'top rejection reason', allocated mobile-prefix list (059 MVNO claim doubtful).",
+        "Israel Post mikud URL (mypost.israelpost.co.il/zipcodesearch) is behind Radware for both curl and headless Chromium; kept with an explicit 'could not be machine-verified' note. Re-check next cycle with a real browser session.",
+        "Tax-year-2025 annual-return deadlines are stated as passed; next cycle should replace them with tax-year-2026 dates from the same gov.il page.",
+        "Expert MINOR deferred: concrete assisted routes (tax offices by appointment, paper maternity claim by mail/fax, BL *6050, Registrar *5601) need evidence entries before adding.",
+        "Expert MINOR deferred: validate-tz zero-pads very short input ('18' -> 000000018 valid); validate-address accepts non-positive house numbers.",
+        "Expert MAJOR deferred (round 1 coverage audit): employer reporting forms (102, 126, 856) and Bituach Leumi form numbers per claim type for small-business users.",
+        "Value-add (search baseline, 4 workflow cases): with=0.83 without=0.78 delta=+0.05, BLOCK on delta (advisory). Plain Claude with search already handles the credential/101/home-birth traps; the skill's edge is the 135-vs-1301 and 106 routing. Rework or retirement candidate for admin decision."
+      ]
     }
   ]
 }
