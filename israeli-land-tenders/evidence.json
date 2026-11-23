@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-land-tenders",
-  "generated_at": "2026-08-18T00:00:00Z",
+  "generated_at": "2026-11-23T00:00:00Z",
   "claims": [
     {
       "claim_id": "dira-behanacha-umbrella",
-      "claim": "Dira BeHanacha is an umbrella program with multiple sub-tracks: Mechir Lamishtaken klali, Mechir Matara, Mechir Muphchat, Dira Lehaskir.",
-      "source_url": "https://klikatnadlan.co.il/dirabehanachaalltracks/",
-      "raw_snippet": "דירה בהנחה מציעה לזכאים מספר מסלולי דיור במחיר מופחת (מחיר למשתכן, מחיר מטרה, מחיר מופחת ודירה להשכיר).",
-      "fetched_at": "2026-05-20",
+      "claim": "Dira BeHanacha offers several tracks: Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "מציעה לזכאים מספר מסלולי דיור במחיר מופחת (מחיר למשתכן, מחיר מטרה, מחיר מופחת ודירה להשכיר)",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -18,10 +18,10 @@
     },
     {
       "claim_id": "mehir-matara-upgraders",
-      "claim": "Units unsold to first-time buyers one year after a project first lottery are sold on winning terms to upgraders, who must sell their property within 12 months of Tofes 4.",
+      "claim": "Units first-time buyers did not take one year after a project first lottery are sold on winning terms to upgraders.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "אם בתום שנה מההגרלה הראשונה נשארו בפרויקט דירות שלא רכשו אותן חסרי דירה",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "אם בתום שנה מההגרלה הראשונה נשארו בפרויקט דירות שלא רכשו אותן חסרי דירה, הן יימכרו בתנאי הזכייה גם למי שעונים על הגדרת \"משפרי דיור\"",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -31,7 +31,7 @@
     },
     {
       "claim_id": "mehir-matara-grant-40k",
-      "claim": "Periphery conditional grant: 40,000 or 60,000 NIS in Mechir Lamishtaken depending on locality, 40,000 NIS in Mechir Mufchat, 40,000 NIS in Mechir Matara, paid via the mortgage bank.",
+      "claim": "Periphery conditional grant: 40,000 or 60,000 NIS in Mechir Lamishtaken depending on locality, 40,000 NIS in Mechir Mufchat, 40,000 NIS in Mechir Matara.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "במסלול מחיר למשתכן המענק יהיה בגובה 40,000 ₪ או 60,000 ₪, בהתאם ליישוב. במסלול מחיר מופחת המענק יהיה בגובה 40,000 ₪. במסלול מחיר מטרה המענק יהיה בגובה 40,000 ₪.",
       "fetched_at": "2026-08-18T00:00:00Z",
@@ -58,10 +58,21 @@
     },
     {
       "claim_id": "lottery-11-april-2026",
-      "claim": "Dira BeHanacha Lottery 11 registration opened on 15 April 2026 with more than 7,000 units, and is no longer open as of August 2026.",
-      "source_url": "https://klikatnadlan.co.il/housinglottery15april26/",
-      "raw_snippet": "ההרשמה תיפתח ביום רביעי, 15 באפריל 2026",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "claim": "Lottery 11 was due to open for registration on 15 April 2026 and was postponed.",
+      "source_url": "https://klikatnadlan.co.il/miluimhousingbenefits2026/",
+      "raw_snippet": "הגרלה 11 של \"דירה בהנחה\" הייתה אמורה להיפתח להרשמה ב-15 באפריל 2026, אבל נדחתה ברגע האחרון",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lottery-11-april-2026-2",
+      "claim": "The round ran in May-June 2026.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "הגרלת מאי-יוני 2026",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -69,20 +80,29 @@
     },
     {
       "claim_id": "eligibility-certificate-200-nis",
-      "claim": "Eligibility certificate is issued by a registration company and is valid one year; a new certificate costs 200 NIS.",
+      "claim": "A new eligibility certificate costs 200 NIS.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "יהיה צורך להוציא אישור חדש (בעלות של 200 ₪) בסניף חברת ההרשמה",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z"
+      ]
+    },
+    {
+      "claim_id": "eligibility-certificate-200-nis-2",
+      "claim": "The certificate is valid for one year.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "האישור תקף למשך שנה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "three-city-cap",
-      "claim": "In the first series of lotteries a registrant may choose projects in at most 3 localities; in continuation series there is no locality limit.",
+      "claim": "In the first series of lotteries a registrant may choose projects in at most 3 localities.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "בסדרת ההגרלות הראשונות ניתן להירשם לפרויקטים בלא יותר מ-3 יישובים",
       "fetched_at": "2026-08-18T00:00:00Z",
@@ -95,23 +115,23 @@
     },
     {
       "claim_id": "leasehold-49-or-98",
-      "claim": "Israeli state land leases are typically 49 or 98 years (canonical lease lengths, not a free range).",
-      "source_url": "https://semerenkogroup.com/how-does-land-ownership-work-in-israel/",
-      "raw_snippet": "Israeli Land Ownership: 93% Is State Leasehold Skip to content Buy Rent Sell Buy Rent Sell Chat With Agent Buy Rent Sell Home » How does land ownership work in Israel? How does land ownership work in Israel? Chaim Semerenko & Semerenko Group Team October 5, 2025 Last updated: August 13, 2026 Under licensed Israeli real-estate broker supervision: Pinhas Menachem Reiss, license no. 324150.",
-      "fetched_at": "2026-08-18",
+      "claim": "By tender, land leases run 98 years with an option for a further 98.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "חכירה לדורות לתקופה של 98שנים )להלן בסעיף קטן זה -תקופת החכירה( עם אופציה לתקופה נוספת של 98שנים.",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"93%\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
     },
     {
       "claim_id": "state-land-93-percent",
-      "claim": "Approximately 93% of Israel's land is state-owned and administered by the Israel Land Authority. The remaining share, roughly 7%, is privately owned and registered in the Tabu.",
+      "claim": "About 93% of the land in Israel is owned by the state or by quasi-state agencies.",
       "source_url": "https://jewishvirtuallibrary.org/israel-lands-privatization-or-national-ownership",
       "raw_snippet": "An estimated 93 percent of the country’s total land area",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "references/rmi-system-guide.md"
       ]
@@ -131,17 +151,45 @@
     },
     {
       "claim_id": "housing-ministry-runs-lottery",
-      "claim": "Dira BeHanacha is administered by the Ministry of Construction and Housing at dira.moch.gov.il, not by RMI directly; RMI tenders the land and the Housing Ministry runs eligibility, registration and the drawing.",
-      "source_url": "https://dira.moch.gov.il/",
-      "raw_snippet": "משרד הבינוי והשיכון",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "claim": "Apartments are sold to eligible buyers whom the Housing Ministry refers to the developer.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "מכירת דירות במחיר מטרה על ידי הזוכה תהיה לזכאים ,אשר יופנו אליו על ידי משרד הבינוי",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/rmi-system-guide.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z"
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "housing-ministry-runs-lottery-2",
+      "claim": "The referral follows a lottery.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "והשיכון לאחר ביצוע הגרלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/rmi-system-guide.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "housing-ministry-runs-lottery-3",
+      "claim": "The Housing Ministry sets the rules for the lotteries and apartment selection.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "משרד הבינוי והשיכון יקבע כללים בעניין ההגרלות ובחירת הדירות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/rmi-system-guide.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
     },
     {
       "claim_id": "rmi-department-page",
@@ -153,7 +201,7 @@
     },
     {
       "claim_id": "rmi-land-tenders-topic",
-      "claim": "RMI's land-tenders hub page on gov.il describes tender marketing and links a tender map ('מכרזים על המפה').",
+      "claim": "RMI's land-tenders page describes marketing land through public tenders and tender exemptions.",
       "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
       "raw_snippet": "מכרזי מקרקעין שיווק קרקע בייעוד למגורים ולתעסוקה - במכרזים פומביים ובפטור ממכרז - הוא מעיקרי תפקידיה של רמ\"י.",
       "fetched_at": "2026-08-10",
@@ -162,12 +210,13 @@
     },
     {
       "claim_id": "rmi-tenders-online-service",
-      "claim": "gov.il documents the online bid-submission service for RMI land tenders in English.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "This service provides information regarding the submitting of a bid for a land tender online with the Israel Land Authority.",
-      "fetched_at": "2026-08-10",
+      "claim": "gov.il documents the online bid-submission service for RMI land tenders.",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "שירות זה מספק מידע על הגשת הצעה למכרז מקרקעין באופן מקוון ברשות מקרקעי ישראל",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted."
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
+      "verified_at": "2026-11-23T00:00:00Z"
     },
     {
       "claim_id": "rmi-my-ila-service",
@@ -190,10 +239,10 @@
     },
     {
       "claim_id": "cert-renewal-50",
-      "claim": "Renewing the eligibility certificate costs 50 NIS within 60 days of the reminder.",
+      "claim": "Renewing the eligibility certificate costs 50 NIS.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "אפשר לחדש את האישור באופן מקוון או באמצעות פנייה לחברות ההרשמה בעלות של 50 ₪",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "או באמצעות פנייה לחברות ההרשמה בעלות של 50 ₪",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
@@ -203,23 +252,10 @@
     },
     {
       "claim_id": "cert-60-day-window",
-      "claim": "The renewal window is 60 days from the reminder, after which the certificate is cancelled.",
+      "claim": "If not renewed within 60 days of the reminder, the certificate is cancelled.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "בתוך 60 ימים מקבלת התזכורת",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "eligible-singles-35",
-      "claim": "Singles, divorced or widowed aged 35 and over are an eligible population.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "יחידים (רווקים, גרושים או אלמנים) בני 35 ומעלה",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "אם האישור לא חודש בתוך 60 ימים מקבלת התזכורת, הוא יבוטל",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
@@ -229,12 +265,21 @@
     },
     {
       "claim_id": "eligible-parent-21",
-      "claim": "A parent of at least one child under 21 is eligible, and a pregnant woman counts as a parent from the fifth month.",
+      "claim": "A parent of at least one child under 21 is eligible.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "הורים עם לפחות ילד אחד מתחת לגיל 21",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-parent-21-2",
+      "claim": "A pregnant woman counts as a parent from the fifth month.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אישה בהיריון תיחשב כהורה החל מהחודש החמישי",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -242,12 +287,21 @@
     },
     {
       "claim_id": "eligible-disability-75",
-      "claim": "Individuals aged 21 and over with at least 75% medical disability determined by the National Insurance Institute are eligible.",
+      "claim": "A 75% medical disability qualifies an individual.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "נקבעה להם נכות רפואית בשיעור 75% לפחות",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligible-disability-75-2",
+      "claim": "This route is for individuals aged 21 and over.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "יחידים בני 21 ומעלה שמתקיים לגביהם אחד מאלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -271,19 +325,6 @@
       "claim": "Couples marrying within 3 months of the application are eligible.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "זוגות העומדים להינשא עד 3 חודשים מיום הגשת הבקשה",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "chasrey-dira-third",
-      "claim": "Chasrey dira means holding no apartment or more than one third of one in the 3 years before the certificate.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
-      "raw_snippet": "הם לא היו הבעלים של דירה או מעל ל-1/3 דירה",
       "fetched_at": "2026-08-18T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
@@ -359,12 +400,21 @@
     },
     {
       "claim_id": "nechim-retukim-1-in-30",
-      "claim": "In Mechir Matara draws one apartment per 30 is allocated to wheelchair-bound applicants with a 100% disability confirmation.",
+      "claim": "In Mechir Matara draws one apartment per 30 goes to wheelchair-bound applicants.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "תוקצה לנכים רתוקים דירה אחת על כל 30 דירות",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nechim-retukim-1-in-30-2",
+      "claim": "The priority requires a confirmation of 100% disability and permanent wheelchair use.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "שלפיו נקבעו להם 100% נכות והם מרותקים לצמיתות לכיסא גלגלים",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -385,12 +435,21 @@
     },
     {
       "claim_id": "advance-2000-nis",
-      "claim": "An advance of 2,000 NIS or another amount set at registration may be required and is not refunded if the win is cancelled after an apartment was chosen.",
+      "claim": "An advance of 2,000 NIS may be required.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
       "raw_snippet": "מקדמה על חשבון התשלום לדירה (2,000 ₪",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "advance-2000-nis-2",
+      "claim": "The advance is not refunded to someone who chose an apartment and then cancelled.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "במקרה של הסרה מהרישום או ביטול הזכייה המקדמה לא תוחזר למי שבחרו דירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -439,8 +498,8 @@
       "claim_id": "miluim-caps-100k-150k",
       "claim": "Reservist discount cap is 100,000 NIS for an active reservist and 150,000 NIS for a combat reservist, excluding VAT.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "לא יעלה על 100,000 ₪ (לא כולל מע\"מ) למשרת מילואים פעיל או 150,000 ₪",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "ולא יעלה על 100,000 ₪ (לא כולל מע\"מ) למשרת מילואים פעיל או 150,000 ₪ (לא כולל מע\"מ) למשרת מילואים לוחם",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
@@ -463,10 +522,10 @@
     },
     {
       "claim_id": "miluim-amuta-15-percent",
-      "claim": "A reservist buying through an association that won a public tender receives a 15% refund on the member share.",
+      "claim": "A reservist buying through an association that took part in a public tender can receive a 15% refund on the share bought.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "יוכל לקבל החזר של 15%",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "משרת מילואים פעיל שרכש קרקע למגורים במסגרת חברותו בעמותה שהשתתפה במכרז פומבי לרכישת המקרקעין, יוכל לקבל החזר של 15% ועד 100,000 ₪ (לא כולל מע\"מ) מהחלק שרכש",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
@@ -502,38 +561,21 @@
     },
     {
       "claim_id": "miluim-lease-fee-chasar-diur",
-      "claim": "A reservist holding a chasar diur certificate pays 11% instead of 26% in area A and 31% instead of 46% in area B.",
+      "claim": "A reservist with a chasar diur certificate pays 11% instead of 26% in area A.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "באזור עדיפות לאומית א': 11% מדמי החכירה (במקום 26%)",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "miluim-couple-300k",
-      "claim": "If both spouses qualify the discount rates double and the ceiling is capped at 300,000 NIS.",
+      "claim_id": "miluim-lease-fee-chasar-diur-2",
+      "claim": "A reservist with a chasar diur certificate pays 31% instead of 46% in area B.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "שיעורי ההנחה יוכפלו ותקרת ההנחה תוגבל לסכום של עד- 300,000 ₪",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "miluim-six-year-cert",
-      "claim": "A six-year active-reservist certificate qualifies, valid up to 3 years from discharge from reserve duty.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "אישור שש-שנתי תקף עד 3 שנים מיום היציאה לפטור ממילואים",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "באזור עדיפות לאומית ב': 31% מדמי החכירה (במקום 46%)",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -541,12 +583,21 @@
     },
     {
       "claim_id": "miluim-80-days",
-      "claim": "Accumulating 80 reserve days over up to 6 calendar years qualifies, valid up to 6 years from discharge.",
+      "claim": "Accumulating 80 reserve days over up to 6 calendar years qualifies.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "הם צברו 80 ימי מילואים במשך עד 6 שנים קלנדריות",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-80-days-2",
+      "claim": "That route is valid up to 6 years from discharge.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "זכאות זו תקפה עד 6 שנים מיום היציאה לפטור ממילואים",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -556,8 +607,8 @@
       "claim_id": "miluim-45-days-war",
       "claim": "More than 45 reserve days between 07.10.2023 and the declared end of the Iron Swords war qualifies.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "הם שירתו למעלה מ-45 ימי מילואים בתקופה שבין 07.10.2023",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "הם שירתו למעלה מ-45 ימי מילואים בתקופה שבין 07.10.2023 ועד להכרזה על תום מלחמת חרבות ברזל",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
@@ -567,12 +618,21 @@
     },
     {
       "claim_id": "miluim-phone-rmi",
-      "claim": "RMI enquiries are on 03-9533333 or *5575, Sunday to Thursday 08:00 to 17:00.",
+      "claim": "RMI enquiries are on 03-9533333.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "רשות מקרקעי ישראל: 03-9533333, *5575",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "ניתן לפנות בבירורים אל המוקד הטלפוני של רשות מקרקעי ישראל: 03-9533333",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-phone-rmi-2",
+      "claim": "RMI enquiries are also on *5575, Sunday to Thursday 17:00-08:00 as printed.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "*5575 *5575 בימים ראשון עד חמישי בשעות 17:00-08:00",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -606,12 +666,21 @@
     },
     {
       "claim_id": "miluim-form-3010",
-      "claim": "Claiming requires a lawyer-signed reserve-service declaration with an IDF confirmation such as form 3010.",
+      "claim": "One of the listed IDF confirmations is attached to the declaration.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "אישור על תקופת שירות מילואים פעיל (טופס 3010)",
-      "fetched_at": "2026-08-18T00:00:00Z",
-      "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "יש לצרף לתצהיר את אחד מהאישורים הבאים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-form-3010-2",
+      "claim": "The reserve-service declaration is signed before a lawyer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "יש לחתום על תצהיר על שירות מילואים בפני עורך דין",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -619,12 +688,12 @@
     },
     {
       "claim_id": "tender-30-days-booklet",
-      "claim": "Bids can usually be submitted within about 30 days of the tender booklet being distributed and booklets download free.",
+      "claim": "Bids can usually be submitted within about 30 days of the tender booklet being distributed.",
       "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
-      "raw_snippet": "בדרך כלל ניתן לגשת למכרז בתוך",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "בדרך כלל ניתן לגשת למכרז בתוך ‎30 יום מתאריך הפצת חוברת המכרז לציבור.",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -634,10 +703,10 @@
       "claim_id": "tender-original-booklet",
       "claim": "Some tenders require bids on the original booklet supplied at RMI regional offices.",
       "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
-      "raw_snippet": "במכרזים שבהם נדרש לצרף את החוברת המקורית",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "במכרזים שבהם נדרש לצרף את החוברת המקורית, ניתן להגיש הצעות רק באמצעות חוברת המכרז שתימסר במרחבי רמ\"י",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -647,23 +716,23 @@
       "claim_id": "tender-newspaper",
       "claim": "Tenders are advertised in at least one daily newspaper in Hebrew or Arabic as well as on the website.",
       "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
-      "raw_snippet": "הודעות על המכרזים מתפרסמות לפחות בעיתון יומי אחד",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "raw_snippet": "הודעות על המכרזים מתפרסמות לפחות בעיתון יומי אחד בעברית או בערבית ובאתר האינטרנט",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
     },
     {
-      "claim_id": "online-bid-support-5574",
-      "claim": "The Israel Land Authority call centre for bid submission is *5574, Sunday to Thursday 08:00 to 17:00.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "The Israel Land Authority Call Center: *5574 on Sunday to Thursday from 8:00 to 17:00",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "claim_id": "online-bid-support-5575",
+      "claim": "The RMI call centre for online bids is *5575, Sunday to Thursday 08:00 to 17:00.",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "לצורך קבלת סיוע בכל הקשור להגשת ההצעות ניתן לפנות למוקד הטלפוני של רשות מקרקעי ישראל: 5575* בימים ראשון עד חמישי בשעות 8:00 עד 17:00.",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -672,11 +741,11 @@
     {
       "claim_id": "online-bid-tech-support",
       "claim": "Technical support for online bids is 073-3429900, 09:00 to 14:00, answered until 10:00 on the closing day.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "call: 073-3429900 on Sundays to Thursdays from 9:00 to 14:00. On the last date to submit bids, calls will be answered until 10:00 only",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "073-3429900 בימים ראשון עד חמישי בשעות 09:00 עד 14:00. ביום האחרון להגשת ההצעות יינתן מענה עד לשעה 10:00 בלבד.",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -685,11 +754,11 @@
     {
       "claim_id": "online-bid-replaces-previous",
       "claim": "A later online bid replaces the previous one and only the last bid is considered.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "The previous bid will be cancelled and the last bid submitted by that user shall be the only bid to be discussed by the tender committee",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "ההצעה הקודמת תתבטל, וההצעה האחרונה שהוגשה על ידי אותו המשתמש היא ההצעה היחידה שתובא לדיון בפני ועדת המכרזים.",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -698,11 +767,11 @@
     {
       "claim_id": "online-bid-free",
       "claim": "The online bid submission service is offered free of charge.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "This service is offered free of charge",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "השירות ניתן ללא עלות",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-18T00:00:00Z",
+      "verified_at": "2026-11-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -711,15 +780,1565 @@
     {
       "claim_id": "online-bid-digital-guarantee",
       "claim": "Online tender bids deposit a digital guarantee.",
-      "source_url": "https://www.gov.il/en/service/tenders-online",
-      "raw_snippet": "Depositing a Digital Guarantee",
-      "fetched_at": "2026-08-18T00:00:00Z",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "הפקדת ערבות דיגיטלית",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "council-matara-25-550k",
+      "claim": "The Mechir Matara discount is 25%, subject to a per-unit ceiling.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "להעניק הנחה בשיעור של ,25%אך בכל מקרה סכום ההנחה עבור כל יחידת דיור לא יעלה על",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-matara-550k-figure",
+      "claim": "The per-unit Mechir Matara discount ceiling is 550,000 NIS.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "550,000שקלים חדשים בהשוואה למחיר הדירה.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-matara-until-2027",
+      "claim": "Mechir Matara marketing runs until 31.12.2027.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יבוצע מיום אישור ההחלטה ,ועד ליום .31.12.2027",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-draft-gate",
+      "claim": "From 24.05.2026 lottery eligibility requires that the person or spouse is not defined by the IDF as draft-obligated without a regularised status.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "החל מיום 24.5.2026הזכאות להשתתף בהגרלות מותנית בכך שלפי נתוני צה\"ל ,היחיד או כל אחד מבני הזוג ,אינם מוגדרים על ידי צה\"ל כחייבי גיוס שלא הסדירו את מעמדם.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-active-reservist-60",
+      "claim": "For the lottery an active reservist served at least 60 days under Order 8 since 7 October 2023.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/council-discuss-24052026/he/council_decisions_24052026_S4.7.pdf",
+      "raw_snippet": "מי שהמציא אישור מצה\"ל כי שירת במשך 60 יום לפחות בשירות מילואים שבוצע לפי סעיף 8לחוק שירות מילואים במהלך תקופה שתחילתה ביום 7באוקטובר 2023",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-priority-50-25",
+      "claim": "Priority applies in national-priority localities at periphery index 1-4.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ביישובים במדד פריפריאלי 1-4באזור עדיפות לאומית",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-priority-50-25-2",
+      "claim": "There, up to 50% goes to active reservists, with up to 25% of the draw to combat reservists first.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "מילואים פעיל בשיעור של עד 50%מסך יחידות הדיור במחיר מטרה המיועדות לזכאים בהגרלה בכל מתחם ומתחם ,כאשר עד 25%מתוך סך יחידות דיור בהגרלה תינתן עדיפות ראשונה לחייל מילואים לוחם",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-priority-35-15",
+      "claim": "Elsewhere up to 35% goes to active reservists, with up to 15% to combat reservists first.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בשיעור של עד 35%מסך יחידות הדיור במחיר מטרה המיועדות לזכאים בהגרלה בכל מתחם ומתחם ,כאשר עד 15%מתוך סך יחידות דיור אלו תינתן עדיפות ראשונה לחייל מילואים לוחם",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-priority-73",
+      "claim": "Priorities together may not exceed 73% of the draw.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יעלה על 73%מסך היחידות המוגרלות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-local-20",
+      "claim": "Local-resident priority is up to 20%.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בעדיפות לבני מקום יעמוד על עד 20%מסך",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-first-draw-all-localities",
+      "claim": "A special rule applied to the first draw held after 24.05.2026.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/council-discuss-24052026/he/council_decisions_24052026_S4.7.pdf",
+      "raw_snippet": "ביחס להגרלה הראשונה שתיערך לאחר יום ,24.5.2026יחולו ההוראות הבאות:",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-widow-no-age",
+      "claim": "Widows and widowers are a separate line, ahead of singles and divorced people aged 35+.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "-אלמן או אלמנה; -רווק ,רווקה ,גרוש ,גרושה ,מגיל 35ומעלה;",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-no-second-purchase",
+      "claim": "A person who bought through an affordable-housing program cannot participate again.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בהישג יד ,לא יורשו להשתתף בתכנית פעם נוספת כחסר דירה או כמשפר דיור.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lockup-sale",
+      "claim": "Sale to a third party is barred for 5 years from the date stated next.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "למכור את יחידת הדיור לצד שלישי במשך 5שנים מיום",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lockup-sale-2",
+      "claim": "The period runs from the completion certificate or 7 years from the lottery, the earlier.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "קבלת תעודת גמר או 7שנים ממועד ביצוע ההגרלה ,שבעקבותיה נרכשה יחידת הדיור ,המוקדם מביניהם.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lockup-clawback",
+      "claim": "A transfer inside the period requires repaying the discount linked to the CPI from possession.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יחויב הזכאי להחזיר את ההנחה שקיבל במסגרת רכישת הדירה במסלול דיור מחיר מטרה בתוספת הצמדה למדד המחירים לצרכן מיום קבלת החזקה בדירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-guarantee-10",
+      "claim": "The tender bank guarantee is 10% of land value or development costs, the higher.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "10%מערך הקרקע ,ללא הוצאות פיתוח וללא הנחת אזור ,על פי שומה או 10%מהוצאות הפיתוח ,הגבוה מביניהם.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-guarantee-10-2",
+      "claim": "The amount is rounded down to a multiple of 1,000 NIS (the source writes the number as the word אלף, one thousand).",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הסכום יעוגל כלפי מטה כך שהוא יהיה מכפלה של אלף שקלים חדשים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-guarantee-autonomous",
+      "claim": "A bidder attaches an autonomous bank guarantee.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "משתתף במכרז יצרף להצעתו ערבות בנקאית אוטונומית",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lease-ceiling-500",
+      "claim": "The reduced lease rate stops at a land value of 500,000 NIS per unit.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הפחתת דמי החכירה המהוונים תוגבל למחיר תקרה אשר יעמוד על 500,000",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lease-ceiling-900",
+      "claim": "A holder of a chasar diur certificate falls under a separate rule in self-build.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "לבעל תעודת זכאות של חסר דיור על פי התבחינים של משרד הבינוי והשיכון ,יחולו ההוראות הבאות:",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lease-ceiling-900-2",
+      "claim": "That ceiling is 900,000 NIS.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הפחתת דמי החכירה המהוונים תוגבל למחיר תקרה אשר יעמוד על 900,000",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-chasar-transfer-7",
+      "claim": "A chasar diur cannot transfer rights for 7 years from signing the lease.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "לא תתאפשר העברת זכויות לפני תום 7שנים ממועד החתימה על חוזה החכירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-chasar-live-5",
+      "claim": "A chasar diur must live in the property for 5 years after construction ends.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "על הרוכש תחול חובה להתגורר בנכס במשך 5שנים מסיום הבנייה.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-reservist-6-years",
+      "claim": "Routes A and B can be used up to 6 years from discharge.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ב' עד 6שנים מיום שחרור החייל משירות מילואים בצה\"ל",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-reservist-6-years-2",
+      "claim": "Route C can be used up to 6 years from the end of war reserve service.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "עד 6שנים מיום סיום השירות המילואים במלחמת חרבות ברזל",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-spouses",
+      "claim": "If both spouses are active reservists each receives the full discount.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "מבני הזוג יהיה זכאי למלוא ההנחה הקבועה בסימן זה.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-reservist-plots-100",
+      "claim": "Self-build plots can be marketed by registration and lottery on a 100% basis.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ניתן יהיה לשווק קרקע לבנייה עצמית בייעוד למגורים במסלול של הרשמה והגרלה ובלבד ש100%-",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-reservist-plots-100-2",
+      "claim": "Those plots are for IDF-disabled people, combat reservists and active reservists.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "מהמגרשים המשווקים במסלול הרשמה והגרלה יהיו לנכי צה\"ל ,לחיילי מילואים לוחמים ולחיילי מילואים פעילים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-closed-tender-30",
+      "claim": "Leftover plots can go to a closed reservist tender at a minimum of 30% of land value.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ניתן יהיה לשווקם במכרז סגור לחיילי מילואים במחיר מינימום שלא יפחת מ 30%מערך הקרקע",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-reservist-plots-2029",
+      "claim": "The reservist-plot provision is in force until 31.12.2029.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "סעיף זה יהיה בתוקף עד .31.12.2029",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-rental-priority-2029",
+      "claim": "The rental priority is a temporary order through 31.12.29.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "4.8.11על אף האמור בסעיף 4.8.11כהוראת שעה עד ליום ,31.12.29זכאות לשכור דירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-rental-priority-2029-2",
+      "claim": "First priority goes to active reservists and widows as defined.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "-מחיר מוזל ומפוקח ,תהיה בעדיפות ראשונה לחייל מילואים פעיל כהגדרתו בסעיף 4.7.1ואלמנה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-idf-disabled-31",
+      "claim": "An IDF-disabled person with 100% special disability gets a tender-exempt self-build plot at 31% of land value.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "המכרזים ,התשנ\"ג ,1993-לנכה צה\"ל שדרגת נכותו 100%מיוחדת בשיעור תשלום מופחת של 31%",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "continuation-no-priority",
+      "claim": "Maof states the continuation lotteries had no priorities.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "בהגרלות המשך אין תיעדוף",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "continuation-no-priority-2",
+      "claim": "Those continuation lotteries covered 101 units.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "סה\"כ 101 דירות בהגרלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "continuation-dates-maof",
+      "claim": "Maof gives registration 3.11.26 to 15.11.26.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "הרישום מתאריך 3.11.26 ועד 15.11.26",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reservist-data-after-close",
+      "claim": "There is time to appeal to the IDF before the draw.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "יובהר כי לאחר פרסום המידע באזור האישי הממשלתי יינתן זמן לערעור מול צה״ל",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reservist-data-after-close-2",
+      "claim": "The IDF reservist data is received after the lottery closes.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "המידע לגבי זכאותך כמשרת מילואים פעיל יתקבל מצה\"ל לאחר סגירת ההגרלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reported-extension-waiver",
+      "claim": "Combat reservists with at least 60 days in 2026 are reported exempt from self-build extension fees.",
+      "source_url": "https://www.nadlancenter.co.il/article/15438",
+      "raw_snippet": "לוחמי מילואים ששירתו לפחות 60 ימים בשנת 2026 יהיו פטורים מתשלום עבור הארכת מועדי הבנייה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-six-year-cert-kz",
+      "claim": "Kol Zchut still shows the six-year certificate route as valid 3 years from discharge, which differs from the council text.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אישור שש-שנתי תקף עד 3 שנים מיום היציאה לפטור ממילואים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "miluim-couple-300k-kz",
+      "claim": "Where both spouses qualify the combined ceiling is up to 300,000 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "שיעורי ההנחה יוכפלו ותקרת ההנחה תוגבל לסכום של עד- 300,000 ₪",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "council-min-low-rise",
+      "claim": "Low-rise tenders: minimum price 50% of the estimate.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "במכרזים לבנייה נמוכה יעמוד מחיר המינימום על 50%מהאומדן.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-min-saturated",
+      "claim": "Saturated housing has a minimum of 35% of the estimate.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "במכרזים למטרת מגורים בבנייה רוויה יעמוד מחיר המינימום על 35%מהאומדן",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-min-saturated-2",
+      "claim": "With fewer than 3 qualifying bids it rises to 50%.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הוצעו במכרז פחות מ 3 -הצעות כשירות יעמוד מחיר המינימום על 50%מהאומדן.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-min-priority",
+      "claim": "National-priority and listed tenders have a minimum of 25%, rising to 35% with fewer than 3 bids.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יעמוד מחיר המינימום על 25%מהאומדן .הוצעו במכרז פחות מ 3 -הצעות כשירות יעמוד מחיר המינימום על 35%מהאומדן",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-matara-no-min",
+      "claim": "Mechir Matara bidders compete on land price with no minimum for the residential component.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "עבור הקרקע ,ללא מחיר מזערי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-registration-refuser",
+      "claim": "Registration refusers are barred from RMI tenders.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "תהיינה מנועות מהשתתפות במכרזי הרשות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-registration-refuser-2",
+      "claim": "The bar lifts on completing registration.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "השלימו את רישום הבתים המשותפים וזכויות המשתכנים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-registration-refuser-3",
+      "claim": "The bar also lifts on posting a 100,000 NIS guarantee.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הפקידו ערבות בנקאית אוטונומית וצמודה בסך 100,000שקלים חדשים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lease-49",
+      "claim": "Without a tender, the period is up to 49 years with a possible further 49.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "של הסכם הפיתוח והסכם החכירה לא תעלה על 49שנים )להלן בסעיף קטן זה -תקופת החכירה( עם אפשרות לתקופה נוספת של 49שנים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-upgrader-who",
+      "claim": "Upgraders are a family unit, a widow or widower, or an individual aged 35+.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "תא משפחתי כהגדרתם בתוספת זו להלן או מי מיחידיו ,או אלמן או אלמנה ,או יחיד בן 35שנים ומעלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-priorities-earlier-tracks",
+      "claim": "The priorities also apply to earlier affordable-housing tracks in force since 15.7.2015.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ומכוח מסלולי שיווק של דיור בהישג יד שהיו בתוקף החל מ.15.7.2015 -",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-lockup-non-lottery",
+      "claim": "For a sale outside a lottery, the lottery date is the date the sale agreement was signed.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ייחשב יום חתימת הסכם המכר",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-80-days-route",
+      "claim": "Route B requires 6 years on the roster and 80 reserve days.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "חייל אשר נמנה על מערך המילואים של צה\"ל 6שנים לפחות ואשר צבר 80ימי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-80-days-route-2",
+      "claim": "The days count from 2000 within a continuous period of up to 6 calendar years.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "מילואים החל משנת 2000במשך תקופה רצופה של עד 6שנים קלנדריות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-claim-timing",
+      "claim": "Eligibility must exist by the payment dates or 90 days from deal approval, the earlier.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בעסקה או עד 90ימים מיום אישור העסקה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-stacking",
+      "claim": "An active reservist may combine land-price discounts.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "חייל מילואים פעיל יהיה זכאי לכפל הנחות במחיר הקרקע",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-stacking-2",
+      "claim": "RMI management may set types of discount that cannot be combined.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "אולם רשאית הנהלת הרשות לקבוע סוגי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-selfbuild-10",
+      "claim": "Up to 10% of self-build plots go first to disabled chasrey diur.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "עד 10%מהמגרשים יוקצו בעדיפות ראשונה לבעל מוגבלות שהוא חסר דיור",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-selfbuild-combat",
+      "claim": "All remaining plots go next to combat reservists who are chasrey diur.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "100%מכלל המגרשים שנותרו יוקצו בעדיפות שנייה לחייל מילואים לוחם",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-local-rural-50-70",
+      "claim": "Local residents can get up to 50% of plots.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יוקצו לבני המקום עד 50%מהמגרשים המוצעים לציבור באותו מועד",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-local-rural-50-70-2",
+      "claim": "Moshav members can get up to 70% of plots.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יוקצו לבני המושב עד 70%מהמגרשים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-hevel-2028",
+      "claim": "In Hevel HaTkuma local residents can get up to 60% of plots.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יוקצו לבני המקום עד 60%",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-hevel-2028-2",
+      "claim": "In Hevel HaTkuma moshavim the share can reach 85%.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ובמושבים יוקצו לבני המושב עד 85%",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-hevel-2028-3",
+      "claim": "That provision runs through 31.12.28.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "סעיף זה יהיה בתוקף עד ליום ;31.12.28",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-quota-2028",
+      "claim": "The last plot-publication tranche runs through 31.3.2028.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "יפורסמו לפחות - 10%מיום 1.4.2027עד ליום .31.3.2028",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-tama-2028",
+      "claim": "From 5.5.2028 the rates change.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "החל מיום ,5.5.2028שיעורי התשלום",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-tama-2028-2",
+      "claim": "They then apply to plots matching the TAMA 35 size.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "אשר גודלם יהיה בהתאם לגודל המגרשים הקבוע בתמ\"א 35",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-urban-7-10",
+      "claim": "At socio-economic index 7-10 no land discounts are given.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "קביעת הלמ\"ס הוא ,10 - 7לא יינתנו הנחות בקרקע.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-disabled-transfer",
+      "claim": "Free transfer is possible after 5 years from signing the lease.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "החל מתום 5שנים ממועד החתימה על הסכם החכירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-disabled-transfer-10",
+      "claim": "Free transfer is possible after 10 years from signing the lease.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "וללא תמורה נוספת ,החל מתום 10שנים ממועד החתימה על הסכם החכירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "kz-mortgage-75",
+      "claim": "Mortgage up to 75% for chasrey dira.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "75% ממחיר הדירה לחסרי דירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-mortgage-70",
+      "claim": "Mortgage up to 70% for upgraders.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "70% ממחיר הדירה למשפרי דיור",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-equity-60k",
+      "claim": "Own equity at least 60,000 NIS for periphery-grant recipients.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "לפחות 60,000 ₪ למי שרוכשים דירה בפריפריה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-equity-100k",
+      "claim": "Own equity at least 100,000 NIS otherwise.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "לפחות 100,000 ₪ לרוכשי דירה בשאר המקרים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-appraisal-2-1m",
+      "claim": "The appraisal-based calculation has a 2.1 million NIS rule.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אם הערכת השמאי עולה על 2.1 מיליון ₪",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-cancel-72",
+      "claim": "A win can be cancelled online, updated within 72 hours.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "הביטול יעודכן בתוך 72 שעות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-cert-at-selection",
+      "claim": "Without a valid updated certificate at selection the win cannot be realised.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אם אישור הזכאות לא בתוקף ולא מעודכן אין אפשרות לממש את הזכייה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-cert-10-days",
+      "claim": "The certificate is sent within 10 working days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "אישור הזכאות יישלח לזכאים בדוא\"ל בתוך 10 ימי עבודה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "kz-credit-after-payment",
+      "claim": "A credit is possible when confirmations are filed after payment.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%9C%D7%97%D7%99%D7%99%D7%9C_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%A8%D7%9B%D7%99%D7%A9%D7%AA_%D7%A7%D7%A8%D7%A7%D7%A2_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "אם האישורים הנדרשים הוגשו אחרי ביצוע התשלום, ניתן יהיה לקבל זיכוי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "maof-delay",
+      "claim": "Maof warns that processing is expected to run beyond 10 business days.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "הטיפול בבקשות צפוי להתארך משמעותית ומעבר ל – 10 ימי עסקים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "maof-window-30-4",
+      "claim": "For the latest round the reservist service window was published as 7/10/23 to 30/4/26.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "החל מה-7/10/23 ועד לתאריך ה-30/4/26",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "biz-cert-cutoff",
+      "claim": "For that round, certificates could be issued until 7 June and registration ran until 22 June.",
+      "source_url": "https://www.bizportal.co.il/realestates/news/article/20032682",
+      "raw_snippet": "ההרשמה תישאר פתוחה עד 22 ביוני 2026, בעוד שהנפקת אישורי זכאות תתאפשר רק עד 7 ביוני",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "online-bid-deadline",
+      "claim": "An online bid not recorded by the deadline, for any reason, is not accepted.",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "הצעה שלא תיקלט במערכת המכרזים המקוונת, מכל סיבה שהיא, עד למועד האחרון להגשה, לא תתקבל.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "online-bid-national-id",
+      "claim": "The online system is supported through the national identification system.",
+      "source_url": "https://www.gov.il/he/service/tenders-online",
+      "raw_snippet": "תמיכה בהרשמה למערכת ההזדהות הלאומית",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-confrontation-60-plots",
+      "claim": "Confrontation-line self-build local share can reach 60%.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ניתן יהיה להקצות לבני מקום עד 60%מהמגרשים המוצעים לציבור באותו מועד.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-confrontation-60-units",
+      "claim": "Confrontation-line Mechir Matara local share can reach 60%.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "במסלול דיור במחיר מטרה שיוקצו בעדיפות לבני מקום על עד 60%מסך יחידות הדיור במחיר",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-924-until-2028",
+      "claim": "The temporary order on the confrontation line runs until 31.12.2028.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "תחולת סעיף זה תעמוד בתוקפה עד ליום .31.12.2028",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-regional-5000",
+      "claim": "The rule concerns a regional-council locality above 5,000 residents.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "והיישוב מונה מעל 5,000תושבים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-regional-5000-2",
+      "claim": "The quota can be limited to residents of that locality.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "לבני מקום שהם בני היישוב בלבד",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-no-cpi",
+      "claim": "In residential tenders the buyer payment may not be CPI-linked.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "במכרזים למטרת מגורים ,תשלום שמשלם קונה בעד רכישת דירה ,לא יוצמד למדד",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-no-cpi-2",
+      "claim": "The exception is construction inputs on the building component.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "למעט מדד תשומות הבנייה ,לעניין רכיב הבנייה בלבד.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-chasar-diur-cert",
+      "claim": "For self-build lotteries a chasar diur is the holder of a Housing Ministry certificate.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "\"חסר דיור\" -בעל תעודת זכאות של מחוסר דיור על פי תבחינים של משרד הבינוי והשיכון;",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "maof-past-lotteries",
+      "claim": "Maof reports the Ministry is applying the IDF condition to those waiting from past lotteries.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "לצורך יישום ההנחיות לעניין הממתינים בהגרלות עבר",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "maof-continuation-upgraders",
+      "claim": "Maof: the continuation lotteries were open to upgraders.",
+      "source_url": "https://www.shikun-maof.co.il/dira/",
+      "raw_snippet": "ההגרלה פתוחה גם למשפרי דיור",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ]
+    },
+    {
+      "claim_id": "council-first-draw-priority",
+      "claim": "In that draw, active reservists got first priority in all localities, up to 50% of the units.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/council-discuss-24052026/he/council_decisions_24052026_S4.7.pdf",
+      "raw_snippet": "תינתן עדיפות ראשונה בכל הישובים לזכאי שהוא חייל מילואים פעיל בשיעור של עד 50%מסך יחידות הדיור במחיר מטרה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-first-draw-condition",
+      "claim": "The rule took effect on receipt of IDF data, provided the data or interface was delivered by 24.05.2026.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/council-discuss-24052026/he/council_decisions_24052026_S4.7.pdf",
+      "raw_snippet": "ייכנס לתוקפו עם קבלת נתונים מצה\"ל במשרד הבינוי והשיכון לגבי מי שמוגדרים על-ידי צה\"ל כחייבי גיוס שלא הסדירו את מעמדם ,או העמדת ממשק ממוחשב שיאפשר לברר נתונים אלו על-ידי משרד הבינוי והשיכון ,ובלבד שהנתונים הועברו או שהממשק הועמד עד ליום ;24.5.2026",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-local-added-units-45",
+      "claim": "A separate local-resident share applies to units added under the significant-deviation regulations.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "במסלול דיור במחיר מטרה שיוקצו בעדיפות לבני מקום מתוך יחידות הדיור הנוספות",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-local-added-units-45b",
+      "claim": "The added-units local share is up to 45%.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/council-discuss-24052026/he/council_decisions_24052026_S4.7.pdf",
+      "raw_snippet": "ששווקו לזכאים במחיר מטרה ,במסגרת תנאי המכרז ,על עד .45%",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "cert-renewal-50-2",
+      "claim": "Renewal is available within 60 days of the reminder.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%99%D7%A9%D7%95%D7%A8_%D7%96%D7%9B%D7%90%D7%95%D7%AA_%D7%9C%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "בתוך 60 ימים מקבלת התזכורת אפשר לחדש את האישור",
+      "fetched_at": "2026-11-23T00:00:00Z",
       "verified_via": "browser",
       "verified_at": "2026-08-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "council-stacking-3",
+      "claim": "Those are types of discount for which there is no combining.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "הנחות אשר לגביהם לא יהיה כפל הנחות.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "mehir-matara-grant-bank",
+      "claim": "The grant is given through the banks with the mortgage, after the purchase contract is signed.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "המענק יינתן לרוכשים באמצעות הבנקים בעת קבלת המשכנתא, אחרי חתימת חוזה הרכישה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim_id": "three-city-cap-2",
+      "claim": "In continuation series there is no locality limit.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%A8%D7%94_%D7%91%D7%94%D7%A0%D7%97%D7%94_(%D7%9E%D7%97%D7%99%D7%A8_%D7%9C%D7%9E%D7%A9%D7%AA%D7%9B%D7%9F)",
+      "raw_snippet": "בסדרת הגרלות ההמשך אין הגבלה על מספר היישובים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim_id": "rmi-land-tenders-map",
+      "claim": "The page links a tender map.",
+      "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
+      "raw_snippet": "מכרזים על המפה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted. The page's map link points at gov.il/he/Departments/israel_land_authority/map/map_micrazim, which renders an empty shell with no text and no <title>, so the skill body now points at this hub page instead.",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "tender-booklet-free",
+      "claim": "Tender documents can be downloaded free of charge.",
+      "source_url": "https://www.gov.il/he/departments/topics/land_tenders",
+      "raw_snippet": "ניתן להוריד את מסמכי המכרז באתר רשות ​מקרקעי ישראל, ללא תשלו​ם",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "council-quota-condition",
+      "claim": "The chasar diur payment rates apply only to localities that meet the publication quotas.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "שיעורי התשלום המפורטים בסעיף קטן )ג( והוראות סעיף קטן )ד() (2יחולו רק לגבי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-urban-scope",
+      "claim": "That rule concerns urban localities.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "ביישובים עירוניים בהם המדד הכלכלי חברתי על פי",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-disabled-route-dev",
+      "claim": "That period is for land allocated by a development agreement.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בקרקע שתוקצה בדרך של הסכם פיתוח -הרשות תאפשר העברת זכויות ללא הגבלה וללא",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-disabled-route-lease",
+      "claim": "That period is for land allocated by a lease without a development agreement.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בקרקע שתוקצה בהסכם חכירה ללא הסכם פיתוח -הרשות תאפשר העברת זכויות ללא הגבלה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-holding-partial",
+      "claim": "Rights in an apartment or part of one are tested.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "זכויות כלשהן בדירה או בחלק מדירה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-holding-key-money",
+      "claim": "Key-money (protected) tenancy is among the tested rights.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "שכירות שחל עליה חוק הגנת הדייר",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-holding-construction",
+      "claim": "Rights in an apartment under construction are among the tested rights.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "זכויות בדירה בשלבי בנייה",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-holding-group",
+      "claim": "Rights through a purchase group are among the tested rights.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "זכויות בדירה באמצעות קבוצת רכישה או קבוצת רוכשים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-holding-land",
+      "claim": "Rights in residential land are also tested.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בקרקע המיועדת למגורים",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-criteria-first-time",
+      "claim": "First-time buyers have their own criteria.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "תוספת ראשונה לפרק משנה :4.7תבחינים לקבלת תעודת זכאות לחסר דיור",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-criteria-upgrader",
+      "claim": "Upgraders have separate criteria.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "תוספת שנייה לפרק משנה :4.7תבחינים לקבלת תעודת זכאות למשפרי דיור",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "claim_id": "council-924-prevails",
+      "claim": "While in force, section 9.24 prevails over any other provision in the Council decisions.",
+      "source_url": "https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf",
+      "raw_snippet": "בתקופת תוקפו של סעיף זה ,גובר הוא על כל הוראה אחרת בקובץ החלטות המועצה.",
+      "fetched_at": "2026-11-23T00:00:00Z",
+      "appears_in": [
+        "references/lottery-and-reservist-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T00:00:00Z"
     }
   ]
 }

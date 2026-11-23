@@ -1,12 +1,15 @@
 ---
 name: israeli-land-tenders
-description: Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority, government land auctions, "haktzaah", land lottery ("hagralah"), "Dira BeHanacha" sub-tracks (Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir), resale lockup, building rights, or state land allocation. Enhances remy-land-authority MCP server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems.
+description: Not a property appraisal and not an appraiser's opinion. Israeli Land Authority (RMI) tender data, land allocation guidance, and bid process navigation. Use when user asks about Israeli land tenders, "michraz", "rashut mekarkei yisrael", RMI, Israel Land Authority, government land auctions, "haktzaah", land lottery ("hagralah"), "Dira BeHanacha" sub-tracks (Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir), lottery eligibility, reservist priority or reservist land discounts ("Mimiluim LaMafteach"), resale lockup, building rights, or state land allocation. Enhances remy-land-authority MCP server with tender process guidance and Hebrew terminology. Do NOT use for private real estate transactions (use israeli-real-estate skill instead) or non-Israeli land systems.
 license: MIT
 allowed-tools: WebFetch
 compatibility: Network access helpful for tender data lookups. Enhanced by remy-land-authority MCP server.
 ---
 
 # Israeli Land Tenders (RMI)
+
+## Legal notice
+This skill is a free information tool operated by an AI model. It explains how Israel Land Authority tenders and the Dira BeHanacha lotteries work and applies the published rules to the details you give it, with no involvement, review or approval by a lawyer or a licensed real estate appraiser. Its output is not a land appraisal (shuma), not legal advice or a legal opinion, not a professional opinion and not a decision on your eligibility. It is general information and a preliminary check against published rules only: it does not inspect the plot, does not perform appraisal adjustments, and does not review the full tender booklet or your personal documents. An AI model can err, omit data or reach a wrong conclusion. Do not present the output as an appraisal, rely on it as evidence, submit it to a court or authority, or base a bid on it; those uses require a licensed appraiser or a lawyer. Eligibility is decided by the Ministry of Construction and Housing and by RMI, and the tender booklet prevails. This tool is not a substitute for advice that takes into account the particular data and needs of each person, and any use of its output is your sole responsibility.
 
 ## Critical Note
 Tender conditions, deadlines, and requirements change with each publication.
@@ -24,7 +27,7 @@ mikrkain) before submitting bids on significant tenders.
 | Search tenders | Query RMI tender listings via remy-land-authority MCP or apps.land.gov.il/MichrazimSite |
 | Understand tender type | Explain allocation method and implications |
 | Bid process guidance | Step-by-step bid submission guide |
-| Tender analysis | Interpret conditions, estimate competition |
+| Tender analysis | Interpret conditions and list the factors to review |
 | Land system explainer | Explain Israel's land ownership model |
 | Development terms | Decode building rights and conditions |
 
@@ -56,53 +59,65 @@ Use the remy-land-authority MCP server, or query the official RMI tender portal 
 ### Step 3: Understand Tender Types
 
 **Public Tender (Michraz)**
-- Open competitive bidding, typically highest price wins
-- Bidders submit sealed proposals with price and sometimes qualitative criteria
+- Open competitive bidding
+- Bidders submit sealed or online proposals; the highest qualifying bid is declared the winner unless the booklet sets additional rules
 - Most common for large residential and commercial projects
-- Requires significant financial capacity and often development experience
-- Deposit (arbon): set per tender in the tender document; read the amount off the specific michraz, never assume a rate
+- Requires financial capacity; the booklet states any experience or threshold conditions
+- Bid guarantee (arbon): an autonomous bank guarantee. The default formula is 10% of the land value (before development costs and area discount) or 10% of the development costs, whichever is higher, rounded down to the nearest 1,000 NIS. The tender committee may set a different amount, so the figure in the booklet is the one that binds
 
 **Lottery (Hagralah)**
-- Fixed price set by RMI, applicants drawn randomly
-- Powers the affordable housing program formerly known as "Mechir Lamishtaken" (מחיר למשתכן), now operating as an umbrella program called **"Dira BeHanacha" (דירה בהנחה)** with multiple sub-tracks (mechir lamishtaken klali, mechir matara, mechir muphchat, dira lehaskir). Operated by the Ministry of Construction and Housing at `dira.moch.gov.il`. RMI supplies the land via the tender, the Housing Ministry runs eligibility, registration, and the drawing.
-- Sub-tracks differ in discount mechanism and audience. **Mechir Matara** grants a capped percentage discount off market price and is explicitly open to dwelling upgraders (mishaprey diur) as well as first-time buyers. The percentage and its shekel ceiling are set per round and published summaries disagree on the ceiling, so read both off the specific round's terms rather than quoting a figure. **Mechir Lamishtaken** works by subsidising the land sold to the developer, who is bound to sell below market. **Mechir Muphchat** sets a maximum price per tender with a mandated build specification. **Dira Lehaskir** is long-term regulated rental, not purchase.
-- **Periphery grant (not a universal buyer grant)**: buyers in periphery localities receive a conditional grant, structured as a loan forgiven at the end of the 5 or 7 year commitment period. Mechir Lamishtaken: 40,000 or 60,000 NIS depending on the locality. Mechir Muphchat: 40,000 NIS. Mechir Matara: 40,000 NIS. Paid through the mortgage bank after the purchase contract is signed; buyers who take no mortgage obtain a certificate from a mortgage bank instead.
-- **Upgraders (mishaprey diur)**: one year after a project's first lottery, any units first-time buyers did not take are sold on the same winning terms to upgraders. An upgrader must sell the property they own no later than 12 months after occupancy approval (Tofes 4) on the new apartment.
-- Eligible populations are wider than "young couples": married or common-law couples (including an Israeli whose partner is a foreign resident), couples marrying within 3 months of the application, a parent of at least one child under 21 (pregnant from the fifth month counts), singles/divorced/widowed aged 35+, and singles aged 21+ with 75% medical disability (or 50% with mobility allowance, hostile-action or Defence Ministry disability payments).
-- **Chasrey dira** means that for the 3 years before the eligibility certificate was issued the applicant held no apartment or more than 1/3 of one, no key-money tenancy, no agricultural holding rights, no under-construction apartment, and no more than 1/3 of residential-zoned land. The condition must hold until the purchase contract is signed.
-- **Eligibility certificate (teudat zakaut)**: issued through one of the registration companies (chevrot harshama), valid for one year. New certificate 200 NIS; renewal 50 NIS (online or through a registration company) within 60 days of the renewal reminder, after which the certificate is cancelled and a new 200 NIS certificate is needed at a branch. Winners renew for 50 NIS even after expiry.
-- **Round mechanics**: registration for a project opens for at least 8 days once published; the draw takes place within 10 days of registration closing; winning one lottery automatically cancels the registrant's other registrations. In the first series of lotteries a registrant may pick projects in at most 3 localities (unlimited lotteries within each); in continuation series there is no locality limit.
-- **Priorities**: residents of the host authority for the last 3 years, or 4 of the last 10, get priority in that project's draw (determined from Population Authority data, not appealable). In Mechir Matara draws, one apartment per 30 is allocated to wheelchair-bound applicants holding a 100% disability confirmation from the district health office. Reservist quotas are set per round.
-- **Resale lockup**: cannot sell or rent for **5 years from Form 4 (Tofes 4 / occupancy approval) OR 7 years from the lottery win date, whichever comes first**. Selling earlier triggers clawback of the discount.
-- **Current round**: rounds open and close on their own calendar, so never present a past round as open. Lottery 11 registration opened on 15 April 2026 with more than 7,000 units and has since closed. Check `dira.moch.gov.il` and the Housing Ministry site for the round that is open today.
-- **Choosing the apartment**: winners are invited in draw order and are typically given about 45 minutes to choose from the remaining units. An advance (2,000 NIS, or another amount set at registration) may be required and is not refunded if the win is cancelled after an apartment was chosen.
 
-**Reservist and IDF-disabled land benefits (a separate RMI track, not part of Dira BeHanacha)**
-RMI grants active reservists a one-off discount on the price of land for low-rise housing, for one dwelling unit only, and also runs tenders marketed exclusively to reservists and IDF-disabled buyers. Legal basis: Sign B of Chapter 4 of the Israel Land Council decisions.
+The word covers two separate systems, so identify which one the user means:
+- **Dira BeHanacha** (formerly "Mechir Lamishtaken", מחיר למשתכן): apartments in developer projects. The Ministry of Construction and Housing runs eligibility, registration and the draw at `dira.moch.gov.il`. RMI only supplies the land through a tender.
+- **RMI self-build registration and lottery (harshama vehagrala)**: residential plots, run under the RMI tender booklet rather than the Housing Ministry site. The priority order is in `references/lottery-and-reservist-rules.md`.
+
+Dira BeHanacha tracks:
+- **Mechir Matara** (marketed through 31.12.2027): the developer must discount the computed apartment price by 25%, up to 550,000 NIS per unit. Projects tendered under earlier versions of the decision can carry other terms, so confirm the discount on the project page.
+- **Mechir Lamishtaken** and **Mechir Muphchat**: earlier tracks whose projects still appear. Read the price and specification off the project page.
+- **Dira Lehaskir**: long-term regulated rental, not purchase. Through 31.12.2029 first priority goes to active reservists and to bereaved widows and widowers of security-forces fallen or hostile-action victims, combat reservists first.
+
+Check these gates, in order, and present them as published conditions the household can compare itself against. The Ministry decides eligibility:
+1. **IDF status (since 24.05.2026)**: a person may join a lottery only if IDF data does not define them, or either spouse, as draft-obligated without a regularised status. This blocks entry even with a valid certificate, and the check can run after registration closes. Maof reports the Ministry is also applying this to people waiting from past lotteries, so anyone in that position should ask their registration company before relying on a win.
+2. **Eligible population** (Israeli citizens): married or common-law couples (including an Israeli whose partner is a foreign resident), couples marrying within 3 months of applying, a parent of an unmarried child under 21 (pregnant from the fifth month counts), widows and widowers **at any age**, single or divorced people aged 35+, and singles aged 21+ with a permanent medical disability of 75% or more; or a permanent medical disability above 50% with mobility and special-services benefits (Kol Zchut says at least 50%, so a person at exactly 50% should confirm); or a permanent 50%+ disability with hostile-action or Defence Ministry payments.
+3. **Existing property (chasrey dira or upgrader)**: Owning or holding rights in an apartment or land, including partial shares, key money, rights under construction or purchase-group rights, can affect eligibility. The rules and thresholds differ by type of right and by whether the applicant is a first-time buyer or an upgrader. Check the specific holding against the current Israel Land Council decision (sub-chapter 4.7, https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf) or with the Housing Ministry or a registration company before applying. A household that already bought through an affordable-housing program cannot join again.
+4. **Valid certificate (teudat zakaut)**: required on registration day and again when choosing the apartment, matching the household's current status, or the win cannot be used. Issued through a registration company (Alonim, Milgam, Maof), valid one year. New 200 NIS. Renewal 50 NIS within 60 days of the reminder; after that it is cancelled and a new 200 NIS certificate is needed at a branch. Winners renew for 50 NIS even after expiry. **Apply before a round is announced**: issue can take up to 10 working days, Maof currently warns of longer, and a round can close certificate issue before registration closes (reported for Lottery 11: 7 June against 22 June).
+
+Then:
+- **Upgraders (mishaprey diur)**: first-time buyers come first. One year after a project's first lottery, units they did not take are sold on the same terms to upgraders (a family unit, a widow or widower, or an individual 35+). An upgrader who still owns an apartment must sell it no later than 12 months after occupancy approval of the new one. The existing-property check in gate 3 applies to upgraders too. Maof states that the November 2026 continuation lotteries were open to upgraders; confirm per round.
+- **Round mechanics**: registration opens for at least 8 days; the draw follows within 10 days of closing; a win cancels other registrations. A winner can cancel online before signing with the contractor, which takes up to 72 hours, so cancel at least 72 hours before another lottery closes. First-series registrants may pick projects in at most 3 localities; continuation series have no locality limit.
+- **Priorities, in order**: (1) wheelchair-bound applicants, one unit per 30; (2) active reservists, up to 50% of units in national-priority localities at periphery index 1-4 (up to 25% combat first) and up to 35% elsewhere (up to 15% combat first); (3) local residents, up to 20%. Together at most 73%. Lottery 11 had a one-time 50% rule in all localities. Maof states that the November 2026 continuation lotteries had no priorities; confirm per round. On the confrontation line the local-resident share can reach 60% through 31.12.2028.
+- **Reservist test for the lottery**: at least 60 days under Order 8 since 07.10.2023. For Lottery 11 the counted window was published as ending 30.04.2026, so confirm the current round's cutoff with the IDF reserve centre (1111 extension 4). The IDF supplies the data after registration closes, with time to appeal before the draw.
+- **Financing**: mortgage up to 75% of the price for chasrey dira and 70% for upgraders, with own equity of at least 60,000 NIS for periphery-grant recipients and 100,000 NIS otherwise. Banks may use an appraisal value, with a 2.1 million NIS rule. Check feasibility before registering.
+- **Periphery grant (not universal)**: a conditional grant structured as a loan forgiven at the end of the 5 or 7 year commitment. Mechir Lamishtaken 40,000 or 60,000 NIS by locality; Mechir Muphchat and Mechir Matara 40,000 NIS. Paid through the mortgage bank after signing; buyers with no mortgage obtain a certificate from a mortgage bank.
+- **Resale lockup**: no **sale** (including a transfer for free or at a reduced price) for **5 years from the completion certificate (teudat gmar) OR 7 years from the lottery, whichever comes first**. Kol Zchut words the first trigger as Tofes 4, so confirm the end date in the signed undertaking. For a unit bought outside a lottery (a leftover unit), the "lottery date" is the date the sale agreement was signed. A transfer inside the period needs Housing Ministry approval, and the seller repays the discount, linked to the CPI from possession. The clause does not mention renting, so check the undertaking before saying renting is allowed or banned.
+- **Current round**: never present a past round as open. Lottery 11 ran in May-June 2026 and has closed. Continuation lotteries in Harish, Dimona, Haifa and Beit Shean (about 101 units) took registrations from 03.11.2026 until mid-November. Check `dira.moch.gov.il` and the registration companies for what is open today.
+- **Choosing the apartment**: winners are called in draw order and typically get about 45 minutes to choose. An advance (2,000 NIS, or another amount set at registration) may be required and is not refunded if the win is cancelled after choosing.
+
+**Reservist land discount and separate IDF-disabled benefits (RMI, not part of Dira BeHanacha)**
+RMI gives active reservists a one-off discount on **low-rise** residential land, for one dwelling unit. It is not an extra discount on a Dira BeHanacha apartment. Legal basis: sub-chapter 4.2, Sign B, of the Israel Land Council decisions.
 
 | Route | Benefit | Cap (excl. VAT) |
 |---|---|---|
-| Lottery or tender-exempt allocation | Discount on land price by national-priority area: 35% in area A, 20% in area B, 10% elsewhere | 100,000 NIS active reservist / 150,000 NIS combat reservist |
+| Lottery or tender-exempt allocation | Discount by national-priority area: 35% in area A, 20% in area B, 10% elsewhere | 100,000 NIS active reservist / 150,000 NIS combat reservist |
 | Public tender win | 15% off the price bid, applied after the winner is determined | Same caps |
-| Purchase through an association (amuta) that won a public tender | 15% refund on the member's share | Same caps |
+| Purchase through an association (amuta) that won a public tender | 15% refund on the member's land share | Same caps |
 
-- Lease-fee (dmei chakira) reduction in priority areas: area A pays 16% instead of 31%, area B 36% instead of 51%. Holders of a Housing Ministry "chasar diur" certificate pay 11% instead of 26% (A) and 31% instead of 46% (B).
-- If both spouses qualify the rates double, with the ceiling capped at 300,000 NIS for the single dwelling unit.
-- Who qualifies: a six-year active-reservist certificate (valid up to 3 years after discharge from reserve duty), or 80 reserve days accumulated over up to 6 calendar years (valid up to 6 years after discharge), or more than 45 reserve days between 07.10.2023 and the declared end of the Iron Swords war (valid up to 6 years from the end of that service).
-- To claim: a declaration of reserve service signed before a lawyer plus the relevant IDF confirmation (obtained from the IDF reserve centre, 1111 extension 4), filed at the RMI regional office. RMI enquiries: 03-9533333 or *5575, Sunday to Thursday 08:00-17:00.
+- **Who qualifies** (a different test from the lottery): a six-year active-reservist certificate; or at least 6 years on the reserve roster plus 80 reserve days since 2000 within up to 6 consecutive calendar years; or more than 45 reserve days between 07.10.2023 and the declared end of the Iron Swords war.
+- **Timing**: eligibility must exist by the deal's payment dates or 90 days from deal approval, whichever is earlier, so file before the first payment. Use is possible up to 6 years from discharge (routes 1 and 2) or from the end of that war service (route 3). Kol Zchut still shows 3 years for the certificate route, so a user between years 3 and 6 should get written confirmation from RMI.
+- **Stacking and spouses**: discounts can combine unless RMI management excluded the combination, so confirm in writing. If both spouses qualify, each gets the full discount with their own cap, up to 300,000 NIS for two combat reservists.
+- **IDF-disabled buyers**: a wounded reservist should check the reservist discount under Council section 4.2.12 with RMI. The 31% tender-exempt plot applies only at 100% special disability. The IDF-disabled sub-priority in a self-build lottery applies at 100% or 100% special disability. A self-build lottery also has a priority tier for people with disabilities under an RMI definition, so a veteran at a lower rating should ask RMI.
+- **Self-build lotteries**: "chasar diur" means holding a Housing Ministry chasar diur eligibility certificate. It drives the priority tier, the reduced rate and the higher ceiling, so obtain it in time and check the booklet for the date it must be held by.
+- **Lease fees, area exceptions, self-build priority order, reservist-only plots, IDF-disabled and bereaved-family benefits**: see `references/lottery-and-reservist-rules.md`. Read it before quoting a lease rate: the reduced rates have land-value ceilings (500,000 / 900,000 NIS) and locality conditions.
+- **To claim**: a declaration of reserve service signed before a lawyer plus the relevant IDF confirmation (IDF reserve centre, 1111 extension 4), and for combat reservists also the summary of qualifying days, filed at the RMI regional office. RMI enquiries: 03-9533333 or *5575, Sunday to Thursday 08:00-17:00.
 
 **Price Buyer (Mechir Larocheish)**
-- Fixed price, allocated based on eligibility order
-- Used for specific populations: discharged soldiers, new immigrants, residents of specific areas
-- Price typically at or below market value
-- Conditions on resale (lock-up period, typically 5-10 years)
-- Historically less common than Dira BeHanacha; availability varies by government policy and region
+- Legacy term: the current Israel Land Council decisions (version of 04.08.2026) contain no track by this name, so do not describe eligibility, price or lockup rules for it
+- A user who says this usually means Dira BeHanacha or a self-build plot by registration and lottery. Identify which one, then use that track's rules
 
 **Direct Allocation (Haktzaah Yeshira)**
-- No competitive process
-- For public institutions, government bodies, specific approved projects
-- Requires specific government/ministerial approval
-- Examples: schools, synagogues, community centers
+- No competitive process, allowed only under an exemption in the Mandatory Tenders Regulations, 1993
+- Covers public institutions and public needs, and also specific private cases such as the IDF-disabled plot in the reference file
+- The exemption and its conditions are specific to each case, so confirm them with RMI
 
 ### Step 4: Bid Submission Guide (for Public Tenders)
 Step-by-step process for submitting a tender bid:
@@ -116,30 +131,31 @@ Step-by-step process for submitting a tender bid:
    - Check building rights (zchuyot bniyah) and permitted uses
 
 2. **Assess financial capacity**
-   - Minimum price: Listed in tender, can bid higher
-   - Deposit (arbon): the amount is stated in the tender document, paid as a bank guarantee or check
-   - Development costs: Estimate construction and infrastructure costs
-   - Development fees: Government levies (hetel hashbacha, agrat pituach)
+   - Minimum price: usually published, as a share of RMI's estimate: 50% for low-rise; 35% for saturated housing, **rising to 50% if fewer than 3 qualifying bids arrive**; 25% for saturated housing in national-priority areas and Jerusalem, for low-rise in national-priority areas or approved localities, and for tenders with subsidised development, **rising to 35% with fewer than 3 bids**. RMI management can set other rules, so read the booklet and check a bid against the higher threshold. Mechir Matara tenders have no minimum for the residential component
+   - Bid guarantee (arbon): the amount stated in the booklet, given as an autonomous bank guarantee (digital in online bids)
+   - Development costs: stated separately in the tender where they apply
+   - Charges and levies: the booklet states which apply and who bears them
+   - Apartment pricing: in residential tenders the buyer's payment may not be CPI-linked or bear interest, except construction-input indexation on the building component as defined in the booklet
+   - Bidder limits: a contractor designated as a registration refuser (sarvanit rishum) is barred unless it completes registration or posts a 100,000 NIS guarantee
 
 3. **Prepare required documents**
    - Company registration (if corporate bidder)
    - Financial statements or bank guarantees
    - Signed tender conditions acceptance
    - Bid form with proposed price
-   - Deposit check or bank guarantee
+   - Autonomous bank guarantee
 
-4. **Determine bid price**
-   - Research comparable recent tender results in the area
-   - Factor in building rights, location, and market conditions
-   - Consider minimum price as floor -- winning bids often 10-50%+ above minimum
-   - Higher competition areas (Tel Aviv, central Israel) command larger premiums
+4. **Factors to review before you set your own bid**
+   - Published results of comparable tenders in the area, shown as data
+   - Building rights, location, costs, financing, taxes, levies, profit and risk, for the user's own appraiser or financial adviser
+   - Do not state a land value, residual value, maximum bid, bid range or recommended amount, even if the user supplies every input
 
 5. **Submit before deadline**
-   - RMI operates an online tender submission system at `apps.land.gov.il/MichrazimSite/`. Most residential and commercial tenders now accept (and often require) online bid submission, which needs registration on the National Identification System. The service is free.
-   - Online bids deposit a DIGITAL guarantee, not a paper cheque or a physical bank guarantee. A later bid by the same user replaces the earlier one, and only the last bid is considered.
-   - Support: RMI call centre *5574 (Sunday to Thursday 08:00-17:00); technical faults 073-3429900 (09:00-14:00), answered only until 10:00 on the closing day itself, so do not leave submission to the last hours.
+   - RMI operates an online submission system at `apps.land.gov.il/MichrazimSite/`, entered through the national identification system. The booklet states whether online submission is available or required. The service is free.
+   - Online bids deposit a DIGITAL guarantee. A later bid by the same user replaces the earlier one, and only the last bid is considered.
+   - Support: RMI call centre *5575 (Sunday to Thursday 08:00-17:00); technical faults 073-3429900 (09:00-14:00). On the closing day, gov.il says support is answered only until 10:00, so do not leave submission to the last hours.
    - Some specialty tenders still require physical submission in a sealed envelope to the regional RMI office; the tender booklet specifies the required channel -- always verify per tender.
-   - Late submissions are disqualified without exception regardless of channel.
+   - An online bid not recorded in the system by the deadline, for any reason, is not accepted. Check the booklet for other channels.
 
 6. **Post-submission**
    - Public bid opening (ptichat hatzaot) at announced date and time
@@ -161,11 +177,7 @@ Tender conditions specify building rights:
 | Shimush | shimush | Permitted uses |
 | Taba | taba | Zoning plan governing the plot |
 
-**Key calculation:**
-```
-Value = Building Rights (sq.m.) x Price per sq.m. (market) - Development Costs
-```
-This is rough screening arithmetic for deciding whether a tender is worth pursuing. It is not a land valuation (shuma). A valuation used for financing, taxation, an objection, or litigation must be produced by a licensed appraiser (shamai mikrkain), and this skill does not produce one.
+**No value calculation.** Do not compute what a plot is worth. For a user screening a tender, list the items to take to their own appraiser or financial adviser: built area, expected sale prices, development and construction costs, levies, financing, taxes, profit and risk. A valuation (shuma) must come from a licensed appraiser (shamai mikrkain).
 
 ### Step 6: Hebrew Tender Terminology Quick Reference
 Essential terms for reading Hebrew tender documents:
@@ -189,23 +201,24 @@ Essential terms for reading Hebrew tender documents:
 
 ### Example 1: Tender Search
 User says: "Are there any land tenders open in Beer Sheva for residential?"
-Result: Query the remy-land-authority MCP (or `apps.land.gov.il/MichrazimSite/`) for Beer Sheva residential tenders. Present active tenders with: tender number, exact location, plot size, building rights, minimum price, and submission deadline. Note that Beer Sheva typically has lower minimum prices than central Israel.
+Result: Query the remy-land-authority MCP (or `apps.land.gov.il/MichrazimSite/`) for Beer Sheva residential tenders. Present active tenders with: tender number, exact location, plot size, building rights, minimum price, and submission deadline.
 
 ### Example 2: Lottery Guidance
 User says: "How do I apply for mechir lamishtaken?"
-Result: Clarify that "Mechir Lamishtaken" is now one sub-track inside the umbrella program **"Dira BeHanacha" (דירה בהנחה)** operated by the Ministry of Construction and Housing (not RMI directly). Walk through: (1) the sub-tracks (Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir) and that Mechir Matara is a capped percentage discount whose ceiling is set per round, (2) eligibility (chasrey dira or upgraders; the wider eligible populations, including singles 35+ and single parents), (3) the eligibility certificate from a registration company (200 NIS new, 50 NIS renewal, valid one year), (4) registration at `dira.moch.gov.il` for a round that is currently open (never assume a past round is still open, verify on the site), (5) the local-resident priority and the reservist quota for that round, and (6) the resale lockup of 5 years from Tofes 4 or 7 years from the lottery win, whichever comes first. If the user is a reservist, also raise the separate RMI land-price discount track, which is not part of Dira BeHanacha.
+Result: Clarify that "Mechir Lamishtaken" is now one sub-track inside the umbrella program **"Dira BeHanacha" (דירה בהנחה)** operated by the Ministry of Construction and Housing (not RMI directly). Walk through: (1) the sub-tracks (Mechir Lamishtaken, Mechir Matara, Mechir Muphchat, Dira Lehaskir) and that Mechir Matara is a 25% discount capped at 550,000 NIS per unit, (2) the entry gates in order: IDF status since 24.05.2026, eligible population, existing property, (3) the eligibility certificate from a registration company (200 NIS new, 50 NIS renewal, valid one year), obtained before a round opens, (4) registration at `dira.moch.gov.il` for a round that is currently open (never assume a past round is still open, verify on the site), (5) the priority order, the 60-day reservist test, and that priorities may not apply in continuation lotteries, and (6) the resale lockup of 5 years from the completion certificate (teudat gmar; Kol Zchut says Tofes 4, confirm in the signed undertaking) or 7 years from the lottery, whichever comes first. If the user is a reservist, also mention the separate RMI discount on low-rise land, which is not a discount on a Dira BeHanacha apartment and uses a different service test.
 
-### Example 3: Bid Strategy
+### Example 3: A Question About the Bid Amount
 User says: "There's a tender in Netanya, minimum price 15 million, how much should I bid?"
-Result: Explain that bid strategy depends on: recent comparable tender results in Netanya, number of expected bidders, building rights and development costs, current market conditions. Provide framework for analysis but recommend consulting a real estate appraiser (shamai mikrkain) and attorney for specific bid amount. Do not quote a typical premium over the minimum price: it varies by tender and is not published as a rate.
+Result: Show published results of comparable Netanya tenders as data, explain how the minimum can rise if fewer than 3 qualifying bids arrive, and list the factors to review. Decline to name any bid amount, range, ceiling or typical premium, and refer the user to a licensed appraiser (shamai mikrkain) and an attorney.
 
 ## Bundled Resources
 
 ### Scripts
-- `scripts/search_tenders.py` - Display RMI tender type descriptions (michraz, hagralah, mechir larocheish, haktzaah), step-by-step bid submission guide for public tenders, Hebrew-English terminology glossary for tender documents, and land use category definitions. Supports subcommands: `tender-types`, `bid-guide`, `terminology`, `land-use`. Run: `python scripts/search_tenders.py --help`
+- `scripts/search_tenders.py` - Display RMI tender type descriptions (michraz, hagralah, the legacy term mechir larocheish, haktzaah), step-by-step bid submission guide for public tenders, Hebrew-English terminology glossary for tender documents, and land use category definitions. Supports subcommands: `tender-types`, `bid-guide`, `terminology`, `land-use`. Run: `python scripts/search_tenders.py --help`
 
 ### References
-- `references/rmi-system-guide.md` - Overview of Israel's state land system (93% government-owned, leasehold model), tender type comparison table, land use categories with Hebrew terms, building rights terminology (zchuyot bniyah, achuz bniyah, kav binyan), and official RMI portal URLs. Consult when explaining Israel's land ownership model or decoding tender document terms.
+- `references/rmi-system-guide.md` - Overview of Israel's state land system (about 93% state or quasi-state owned, leasehold model), tender type comparison table, land use categories with Hebrew terms, building rights terminology (zchuyot bniyah, achuz bniyah, kav binyan), and official RMI portal URLs. Consult when explaining Israel's land ownership model or decoding tender document terms.
+- `references/lottery-and-reservist-rules.md` - Other eligibility conditions, draw priorities, the two reservist service tests, land discounts, lease-fee rates and ceilings, the self-build lottery order, and IDF-disabled and bereaved-family benefits. Read before answering a reservist, self-build, or borderline-eligibility question.
 
 ## Recommended MCP Servers
 
@@ -215,15 +228,16 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 
 ## Gotchas
 - Israeli land tenders (michrazei karka'ot) from the Israel Land Authority (RMI/Rami) are published in Hebrew only. Agents may search for tenders using English location names, which will return no results.
+- The minimum price printed in a booklet may not be the effective one: in many residential tenders it rises if fewer than 3 qualifying bids arrive. Agents that call it a fixed floor can steer a bidder below the real threshold.
 - Land measurements in Israeli tenders use dunam (1 dunam = 1,000 square meters), not acres or hectares. Agents may convert to international units without noting the original dunam figure.
-- Tender participation requires a deposit, usually as a bank guarantee (areva bankit), in the amount stated in the tender document. Agents may suggest bidding without mentioning this upfront financial requirement.
-- Israeli land in urban areas is often leased from the state (chakira) for 49 or 98 years (not a free range, those are the canonical lease lengths), not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
+- Tender participation requires an autonomous bank guarantee. The default is 10% of land value or of development costs, whichever is higher, but the tender committee can change it. Agents may suggest bidding without mentioning this upfront requirement, or quote the default when the booklet says otherwise.
+- Israeli land in urban areas is often leased from the state (chakira) long-term (generally 98 years plus a 98-year option by tender, up to 49 plus 49 without one), not purchased outright as in the US. Agents may describe land acquisition using ownership terminology when it is actually a long-term lease.
 - The affordable-housing lottery program is administered by the Ministry of Construction and Housing at `dira.moch.gov.il`, not by RMI directly. Agents that point users to the RMI site for lottery registration will send them to the wrong place. RMI tenders the land; the Housing Ministry runs eligibility, registration, and the drawing.
-- "Mechir Lamishtaken" is the legacy name; today it is one sub-track inside Dira BeHanacha. **Mechir Matara** is a distinct sub-track with different rules (20% / 500K NIS discount cap, 40,000 NIS buyer grant, open to dwelling upgraders). Treating them as the same program causes wrong eligibility advice.
-- Dira BeHanacha resale lockup is **5 years from Form 4 OR 7 years from the lottery win, whichever comes first**, not a flat number of years. Agents that quote "5 years" or "7 years" alone will mislead users on when they can sell.
-- Reservists and IDF-disabled buyers have a SEPARATE RMI land-price discount track (percentage by national-priority area, capped in shekels) plus tenders marketed exclusively to them. It is unrelated to the Dira BeHanacha reservist quota. Agents that answer a reservist only with the lottery quota miss the larger benefit.
-- The Mechir Matara discount ceiling is set per round and published summaries disagree on the figure. Quoting a fixed shekel cap will be wrong for some rounds. Read the ceiling off the round's own terms.
-- Lottery rounds open and close on a calendar. A round named in any document, including this skill, may be closed by the time the user asks. Always verify the currently open round on `dira.moch.gov.il` before telling a user to register.
+- "Mechir Lamishtaken" is the legacy name; today it is one sub-track inside Dira BeHanacha. **Mechir Matara** is a distinct sub-track with different rules (25% discount capped at 550,000 NIS, 40,000 NIS periphery grant). Treating them as the same program produces wrong eligibility information.
+- Dira BeHanacha resale lockup is **5 years from the completion certificate (teudat gmar; Kol Zchut says Tofes 4, confirm in the signed undertaking) OR 7 years from the lottery, whichever comes first**, not a flat number of years. For a unit bought outside a lottery the 7 years run from the sale agreement. Agents that quote "5 years" or "7 years" alone will mislead users on when they can sell. The clause restricts sale, so do not state a rental ban as settled.
+- Active reservists have a SEPARATE RMI discount on low-rise land (percentage by national-priority area, capped in shekels), and reservists and 100% IDF-disabled buyers can get plots marketed exclusively to them. It is unrelated to the Dira BeHanacha reservist priority and **uses a different service test: more than 45 days for land, at least 60 days under Order 8 for the lottery**. A reservist can qualify for one and not the other.
+- A valid eligibility certificate does not by itself allow lottery entry. Since 24.05.2026 the IDF status of the applicant and any spouse is a separate condition. Agents that stop at the certificate will send an affected household to a lottery it cannot join.
+- Lottery rounds open and close on a calendar. A round named in any document, including this skill, may be closed by the time the user asks. Always verify the currently open round on `dira.moch.gov.il` before describing a round as open.
 
 ## Reference Links
 
@@ -233,10 +247,11 @@ Result: Explain that bid strategy depends on: recent comparable tender results i
 | Israel Land Authority (gov.il) | https://www.gov.il/he/departments/israel_land_authority | Official RMI department page, announcements, policy updates |
 | RMI land tenders hub | https://www.gov.il/he/departments/topics/land_tenders | Tender system, tender map, and exemption-from-tender information |
 | Dira BeHanacha lottery | https://dira.moch.gov.il/ | Current and upcoming affordable-housing lottery rounds, eligibility certificate |
-| Online bid submission service (English) | https://www.gov.il/en/service/tenders-online | English documentation of the online bid submission flow |
+| Online bid submission service | https://www.gov.il/he/service/tenders-online | Online bid rules, digital guarantee, support numbers |
 | RMI services portal | https://www.gov.il/en/service/my-ramitech | "My ILA" -- view participated tenders, mailings, exercise bid wins |
 | Reservist land discount (Kol Zchut) | https://www.kolzchut.org.il/he/הנחה_לחייל_מילואים_ברכישת_קרקע_למגורים | Discount rates by priority area, caps, lease-fee reduction, qualifying reserve service |
 | Dira BeHanacha rules (Kol Zchut) | https://www.kolzchut.org.il/he/דירה_בהנחה_(מחיר_למשתכן) | Eligible populations, chasrey dira definition, upgrader rule, priorities, periphery grant |
+| Israel Land Council decisions | https://apps.land.gov.il/CouncilDecisions/assets/data/96/CouncilDecisions.pdf | Binding text (version of 04.08.2026; a newer version may exist): sub-chapters 4.2 (discounts), 4.5 (tenders), 4.7 (Mechir Matara), 4.8 (rental) |
 
 ## Troubleshooting
 
@@ -245,9 +260,9 @@ Cause: Tender may have expired, been cancelled, or search terms do not match Heb
 Solution: Search by tender number if known. Try broader location terms. Check if the tender was cancelled (mevutal) or postponed (nidcha). RMI occasionally cancels tenders if no qualifying bids received.
 
 ### Error: "Cannot determine eligibility"
-Cause: Lottery and price-buyer tenders have specific eligibility criteria
+Cause: Lottery tracks have specific eligibility criteria
 Solution: Each tender defines its own eligibility. Common criteria: no property ownership, age range, specific population group. Check the specific tender booklet (chovert michraz) for exact requirements. For Dira BeHanacha, eligibility is issued by the Housing Ministry as a teudat zakaut, not by RMI.
 
 ### Error: "Tender results not published"
 Cause: Results publication may be delayed due to objections or committee review
-Solution: Results are typically published 1-4 weeks after bid opening. Check the RMI tender portal under "results" (totz'ot). During the objection period, results may be preliminary.
+Solution: Check the RMI tender portal under "results" (totz'ot). During the objection period, results may be preliminary.

@@ -21,33 +21,33 @@ TENDER_TYPES = {
         "name": "Public Tender (Michraz)",
         "hebrew": "michraz",
         "description": "Open competitive bidding, typically highest price wins",
-        "deposit": "Stated per tender in the michraz document",
+        "deposit": "Autonomous bank guarantee; default 10% of land value or development costs (higher), the booklet amount binds",
         "best_for": "Large residential and commercial projects",
         "process": "Sealed bids, public opening",
     },
     "hagralah": {
         "name": "Lottery (Hagralah)",
         "hebrew": "hagrala",
-        "description": "Random selection among eligible applicants, fixed price",
-        "deposit": "Small registration fee",
+        "description": "Random draw among eligible applicants. Dira BeHanacha apartments run through the Housing Ministry; RMI self-build plots run under the RMI booklet",
+        "deposit": "No bid guarantee; eligibility certificate 200 NIS, possible advance when choosing the apartment",
         "best_for": "Affordable housing (Dira BeHanacha, formerly Mechir Lamishtaken; administered by the Ministry of Construction and Housing at dira.moch.gov.il)",
-        "process": "Register at dira.moch.gov.il, verify eligibility (teudat zakaut), random drawing",
+        "process": "Dira BeHanacha: valid teudat zakaut, IDF status check, register at dira.moch.gov.il. Self-build: follow the RMI booklet",
     },
     "mechir_larocheish": {
-        "name": "Price Buyer (Mechir Larocheish)",
+        "name": "Price Buyer (Mechir Larocheish) - legacy term",
         "hebrew": "mechir larocheish",
-        "description": "Fixed price, allocated based on eligibility order",
-        "deposit": "Varies",
-        "best_for": "Specific populations (soldiers, immigrants)",
-        "process": "Apply, verify eligibility, allocation by priority",
+        "description": "No track by this name in the current Israel Land Council decisions",
+        "deposit": "N/A",
+        "best_for": "Clarify whether the user means Dira BeHanacha or a self-build plot by registration and lottery",
+        "process": "Identify the actual track, then apply that track's rules",
     },
     "haktzaah": {
         "name": "Direct Allocation (Haktzaah Yeshira)",
         "hebrew": "haktzaah yeshira",
-        "description": "No competitive process, direct to qualifying entities",
+        "description": "No competitive process, only under an exemption in the Mandatory Tenders Regulations",
         "deposit": "N/A",
-        "best_for": "Public institutions, government bodies",
-        "process": "Application with government approval",
+        "best_for": "Public institutions and specific exempt cases",
+        "process": "Confirm the exemption and its conditions with RMI",
     },
 }
 
@@ -105,15 +105,15 @@ def show_bid_guide() -> None:
         ("1. Review tender documents",
          "Download chovert michraz from RMI website. Read ALL conditions."),
         ("2. Assess financial capacity",
-         "Minimum price + deposit (amount stated in the tender) + development costs + fees."),
+         "Minimum price + bank guarantee (amount stated in the tender) + development costs + fees."),
         ("3. Prepare documents",
          "Company registration, financial statements, signed conditions, bid form."),
-        ("4. Determine bid price",
-         "Research comparable tenders. Winning bids often 10-50%+ above minimum."),
+        ("4. Factors to review before you set your own bid",
+         "Published comparable results, rights, costs, financing, taxes, levies, profit and risk. This tool names no bid amount or range."),
         ("5. Submit before deadline",
-         "Online submission via MichrazimSite (digital ID required); some "
+         "Online submission via MichrazimSite where the booklet allows it; some "
          "specialty tenders still require a physical sealed envelope - check "
-         "the specific tender. Late = disqualified."),
+         "the specific tender. An online bid not recorded by the deadline is not accepted."),
         ("6. Post-submission",
          "Public opening, results on RMI website, sign development agreement."),
     ]
@@ -123,10 +123,8 @@ def show_bid_guide() -> None:
         print(f"    {desc}")
         print()
 
-    print("Key calculation:")
-    print("  Value = Building Rights (sq.m.) x Price/sq.m. (market) - Development Costs")
-    print()
-    print("RECOMMENDATION: Consult a real estate attorney and appraiser before bidding.")
+    print("This tool does not calculate land value or a bid amount.")
+    print("A valuation (shuma) must come from a licensed appraiser; consult an attorney before bidding.")
 
 
 def show_terminology() -> None:
