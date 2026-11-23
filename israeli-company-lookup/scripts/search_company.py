@@ -22,9 +22,7 @@ ENTITY_TYPES = {
         "hebrew": "chevra baam",
         "registry": "Rasham HaChevarot",
         "liability": "Limited to investment",
-        "tax_rate": "Corporate ~23%",
         "registration_fee": "~2,559 NIS online / ~3,123 NIS paper (2026)",
-        "annual_filing": "Financial statements required",
         "min_directors": 1,
         "best_for": "Companies, startups, growing businesses",
     },
@@ -33,9 +31,7 @@ ENTITY_TYPES = {
         "hebrew": "chevra tziburit",
         "registry": "Rasham HaChevarot + TASE",
         "liability": "Limited to investment",
-        "tax_rate": "Corporate ~23%",
         "registration_fee": "Significant (listing fees)",
-        "annual_filing": "Extensive public reporting",
         "min_directors": 2,
         "best_for": "Large companies seeking public capital",
     },
@@ -44,9 +40,7 @@ ENTITY_TYPES = {
         "hebrew": "osek morsheh",
         "registry": "Tax Authority",
         "liability": "Personal, unlimited",
-        "tax_rate": "Personal brackets (10-47%)",
         "registration_fee": "Free",
-        "annual_filing": "Tax returns only",
         "min_directors": "N/A",
         "best_for": "Freelancers, small businesses",
     },
@@ -55,20 +49,16 @@ ENTITY_TYPES = {
         "hebrew": "osek patur",
         "registry": "Tax Authority",
         "liability": "Personal, unlimited",
-        "tax_rate": "Personal brackets (10-47%)",
         "registration_fee": "Free",
-        "annual_filing": "Simplified tax returns",
         "min_directors": "N/A",
-        "best_for": "Very small businesses (turnover under 122,833 NIS/year, 2026 ceiling)",
+        "best_for": "Very small businesses. Turnover is not the only test: some occupations and services must register as osek morsheh. Check with the Tax Authority",
     },
     "amuta": {
         "name": "Amuta (Non-profit)",
         "hebrew": "amuta",
         "registry": "Rasham HaAmutot",
         "liability": "Limited",
-        "tax_rate": "Exempt (with conditions)",
         "registration_fee": "See the current fee schedule at rasham (fees change annually; we do not hard-code an unverified figure)",
-        "annual_filing": "Annual report to Rasham",
         "min_directors": "2 board members",
         "best_for": "Non-profits, social organizations, charities",
     },
@@ -77,9 +67,7 @@ ENTITY_TYPES = {
         "hebrew": "shutfut klalit",
         "registry": "Rasham HaShutfuyot",
         "liability": "Unlimited (all partners)",
-        "tax_rate": "Personal brackets per partner",
         "registration_fee": "See the current fee schedule at rasham (fees change annually; we do not hard-code an unverified figure)",
-        "annual_filing": "Tax returns per partner",
         "min_directors": "N/A (partners manage)",
         "best_for": "Professional partnerships (law firms, accounting)",
     },
@@ -95,9 +83,8 @@ def show_entity_types() -> None:
         print(f"  Hebrew: {info['hebrew']}")
         print(f"  Registry: {info['registry']}")
         print(f"  Liability: {info['liability']}")
-        print(f"  Tax rate: {info['tax_rate']}")
         print(f"  Registration fee: {info['registration_fee']}")
-        print(f"  Best for: {info['best_for']}")
+        print(f"  Commonly used by: {info['best_for']}")
         print()
 
 
@@ -108,11 +95,9 @@ def show_comparison() -> None:
     headers = ["Feature", "Chevra Baam", "Osek Morsheh", "Amuta"]
     features = [
         ("Liability", "Limited", "Unlimited", "Limited"),
-        ("Tax", "~23% corporate", "10-47% personal", "Exempt*"),
         ("Registration", "Rasham, 2,559/3,123 NIS (2026)", "Tax Authority, free", "Rasham (verify current fee)"),
-        ("Annual filing", "Financial statements", "Tax returns only", "Report to Rasham"),
         ("Minimum officers", "1 director", "N/A", "2 board members"),
-        ("Best for", "Startups, companies", "Freelancers", "Non-profits"),
+        ("Commonly used by", "Startups, companies", "Freelancers", "Non-profits"),
     ]
 
     # Print header
@@ -123,7 +108,7 @@ def show_comparison() -> None:
         print(f"{feature[0]:<20} {feature[1]:<22} {feature[2]:<22} {feature[3]:<22}")
 
     print()
-    print("* Amuta tax exemption requires meeting specific conditions.")
+    print("Tax differs by entity and personal facts. Ask an accountant or tax adviser.")
 
 
 def show_registration_steps() -> None:
@@ -149,7 +134,6 @@ def show_registration_steps() -> None:
     print("Search companies at: https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8")
     print("Programmatic lookup (open registrar dataset):")
     print("  https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&q=<name-or-number>")
-    print("Company number format: 51-XXXXXXX (9 digits)")
 
 
 def main():

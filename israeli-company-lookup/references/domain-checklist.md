@@ -9,17 +9,14 @@ between Israeli business entity types.
 |---|---|---|
 | Companies Registrar (Rasham HaChevarot / ICA) public search entry point | The single canonical free lookup surface for Ltd companies (Companies Law 1999, s.36) | Yes, Step 2 |
 | A programmatic lookup path that an agent can actually execute | The skill is named "lookup"; the ICA web UI cannot be driven by an agent. The Ministry of Justice publishes the full registrar dump as an open CKAN datastore on data.gov.il | Yes, Step 2b (added v1.3.0) |
-| The four registrar status values, including "mufrat hok" | A company in breach of law is the highest-frequency due-diligence red flag and is not the same as struck-off | Yes, Gotchas |
-| Company-number formats by entity type (51-/55-/57-/58-) | Wrong prefix means searching the wrong registry entirely | Yes, references/entity-types.md |
-| Company number is not the tax ID (mispar osek) | Agents routinely conflate the two | Yes, Gotchas |
-| Amutot and CHL"Tz live on GuideStar, not the ICA company search | Ministry of Justice split the NPO portal; searching ICA returns nothing | Yes, Gotchas + Troubleshooting |
+| Status, sub-status and breach flag reported verbatim as separate fields | "Active" alone is not a clean result | Yes, Step 2b |
+| An individual dealer is not in the companies register | A miss on a dealer number proves nothing | Yes, Gotchas |
+| Amutot are in a separate register; a CHL"Tz is a company | Searching the wrong register returns a false "not found" | Yes, Gotchas + Troubleshooting |
 | Partnerships are in Rasham HaShutfuyot, not the companies registrar | Partnerships Ordinance registry is separate | Yes, Step 2 |
-| Entity-type comparison on liability, tax, filing burden | The second half of user intent ("which entity should I open") | Yes, Step 3 |
-| Corporate tax rate (Income Tax Ordinance s.126) | Drives the entity-type decision | Yes, 23% |
-| Osek patur annual turnover ceiling, current year | Selecting osek patur above the ceiling is a VAT offence | Yes, scripts, 122,833 NIS (2026) |
+| Entity-type description by liability and registration | The second half of user intent ("which entity should I open") | Yes, Step 3 |
+| Osek patur is not decided by turnover alone | Some occupations and services must register as osek morsheh | Yes, Step 3 |
 | Registration fee, online vs paper, current year | Fees change annually and the online discount is material | Yes, 2,559 / 3,123 NIS (2026) |
 | Annual registrar fee, reduced vs full band | Non-payment is what produces the "mufrat hok" status the skill teaches users to read | Yes, references/entity-types.md |
-| Israel has no operational public UBO registry | Users arrive expecting a UK-Companies-House-style PSC register; promising one is a factual error | Yes, Gotchas + Troubleshooting |
 | Insolvency Commissioner replaced Apotropos Klali for post-2019 cases | Searching the wrong docket returns a false clean result | Yes, Gotchas |
 
 ## Should cover (advanced)
@@ -27,10 +24,10 @@ between Israeli business entity types.
 | Item | Why | Covered? |
 |---|---|---|
 | Reshumot / Yalkut HaPirsumim for liquidation and creditor notices | Registrar status lags the gazette | Yes, Reference Links |
-| NBCTF terror-designation list | Mandatory screening for Israeli counterparty due diligence under the Counter-Terrorism Law 2016 | Yes, Reference Links |
+| NBCTF terror-designation list | A public list a user can check before dealing with a counterparty | Yes, Reference Links |
 | ISA and Capital Market Authority licensed-entity registries | Confirms a financial counterparty is licensed, which the companies registrar cannot tell you | Yes, Reference Links |
-| Maya (TASE) disclosures as the only public ownership surface for listed companies | Closest available substitute for UBO data | Yes, Troubleshooting |
-| Last-filed annual report year as a staleness signal | Exposed by the open dataset; a company whose last report is years old is a red flag even before it is flagged mufrat hok | Yes, Step 2b (added v1.3.0) |
+| Maya (TASE) disclosures as the only public ownership surface for listed companies | Public source for listed-company ownership disclosures | Yes, Troubleshooting |
+| Last-filed annual report year as a staleness signal | Exposed by the open dataset; a company whose last report is years old deserves a question | Yes, Step 2b (added v1.3.0) |
 
 ## Out of scope (explicit)
 

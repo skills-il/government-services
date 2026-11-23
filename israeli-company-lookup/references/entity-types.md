@@ -2,24 +2,17 @@
 
 ## Entity Type Comparison
 
-| Type | Hebrew | Registry | Liability | Tax | Best For |
-|------|--------|----------|-----------|-----|----------|
-| Chevra Baam (Ltd) | chevra baam | Rasham HaChevarot | Limited | ~23% corporate | Companies, startups |
-| Chevra Tziburit | chevra tziburit | Rasham + TASE | Limited | ~23% corporate | Public companies |
-| CHL"Tz (Public-Benefit Company) | chevra le-toelet ha-tzibur | Rasham + GuideStar | Limited | Exempt (conditions) | Public-benefit projects (mixed corporate / non-profit) |
-| Shutfut Klalit | shutfut klalit | Rasham HaShutfuyot | Unlimited | Personal per partner | Professional partnerships |
-| Shutfut Mugbelet | shutfut mugbelet | Rasham HaShutfuyot | Mixed | Personal/Corporate | Investment partnerships |
-| Amuta | amuta | Rasham HaAmutot (via GuideStar) | Limited | Exempt (conditions) | Non-profits |
-| Agudat Shitufit | agudat shitufit | Rasham HaAgudot | Limited | Varies | Cooperatives |
-| Osek Morsheh | osek morsheh | Tax Authority | Unlimited | Personal (10-47%) | Freelancers |
-| Osek Patur | osek patur | Tax Authority | Unlimited | Personal (10-47%) | Very small biz |
-
-## Company Number Format
-- Standard company: 51-XXXXXXX (9 digits)
-- CHL"Tz: 51- prefix also; flagged separately in registry
-- Non-profit (Amuta): 58-XXXXXXX
-- Partnership: 55-XXXXXXX
-- Cooperative (Agudat Shitufit): 57-XXXXXXX
+| Type | Hebrew | Registry | Liability | Commonly Used By |
+|------|--------|----------|-----------|----------|
+| Chevra Baam (Ltd) | chevra baam | Rasham HaChevarot | Limited | Companies, startups |
+| Chevra Tziburit | chevra tziburit | Rasham + TASE | Limited | Public companies |
+| CHL"Tz (Public-Benefit Company) | chevra le-toelet ha-tzibur | Rasham + GuideStar | Limited | Public-benefit projects (mixed corporate / non-profit) |
+| Shutfut Klalit | shutfut klalit | Rasham HaShutfuyot | Unlimited | Professional partnerships |
+| Shutfut Mugbelet | shutfut mugbelet | Rasham HaShutfuyot | Mixed | Investment partnerships |
+| Amuta | amuta | Rasham HaAmutot (via GuideStar) | Limited | Non-profits |
+| Agudat Shitufit | agudat shitufit | Rasham HaAgudot | Limited | Cooperatives |
+| Osek Morsheh | osek morsheh | Tax Authority | Unlimited | Freelancers |
+| Osek Patur | osek patur | Tax Authority | Unlimited | Very small biz |
 
 ## 2026 Fees (verify on the request form before quoting to clients)
 - Chevra Baam incorporation: 2,559 NIS online / 3,123 NIS paper

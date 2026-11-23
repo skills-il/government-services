@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-company-lookup",
-  "version": "1.3.0",
-  "audit_date": "2026-08-18",
+  "version": "1.3.1",
+  "audit_date": "2026-11-23",
   "claims": [
     {
       "id": 1,
@@ -10,7 +10,9 @@
       "source_url": "https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8",
       "raw_snippet": "ניתן לחפש לפי מספר תאגיד או שם תאגיד. המידע כאמור, ניתן ללא עלות וכשירות לציבור.",
       "verified": true,
-      "method": "Fetched the search page directly; the quoted sentence is the page's own description of the free public search."
+      "method": "Fetched the search page directly; the quoted sentence is the page's own description of the free public search.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T01:56:48.742Z"
     },
     {
       "id": 2,
@@ -46,7 +48,7 @@
     },
     {
       "id": 6,
-      "claim": "The Ministry of Justice companies register carries a status field plus a separate breach-of-law flag; published statuses include active (pe'ila), in liquidation (be-piruq), struck off (nimekhqa) and the mafira (in breach) marking.",
+      "claim": "The companies dataset description lists its status values, including active, liquidation, struck-off and dissolved states.",
       "source_url": "https://data.gov.il/api/3/action/package_show?id=ica_companies",
       "raw_snippet": "הקובץ מכיל את רשימת החברות הרשומות במרשם שמנהל רשם החברות כולל חברות בסטטוס: פעילה, פעילה/בפירוק - בכינוס נכסים, פעילה/בפירוק - הליך פשרה או הסדר/פירוק זמני, בפרוק מרצון, בפרוק ע\"י בימ\"ש, מחוקה, מחוסלת מרצון, חיסול ע\"י בימ\"ש, מחוסלת עקב מיזוג, פעילה זמנית, נגרעה מהמרשם.",
       "verified": true,
@@ -66,31 +68,9 @@
       "source_url": "https://www.guidestar.org.il/home",
       "raw_snippet": "גיידסטאר - אתר התאגידים של ישראל | משרד המשפטים",
       "verified": true,
-      "method": "Page title served at guidestar.org.il/home. The rest of the site is JS-rendered, so only the title is readable without a browser."
-    },
-    {
-      "id": 9,
-      "claim": "Israel has no operational UBO registry: a Ministry of Justice law memorandum was published on 26 June 2025 for public response, with comments due until 17 July 2025, and the path to legislation is still long.",
-      "source_url": "https://lipa.co.il/en/news/law-memorandum-registry-of-ultimate-beneficial-owners-in-corporations-2025-general-background/",
-      "raw_snippet": "On June 26, 2025 the Israeli Ministry of Justice published for public response a law memorandum with regard to the establishment of a national central registry of ultimate beneficial owners (UBOs) in corporations",
-      "verified": true,
-      "method": "LIPA & Co corporate-law newsletter, 7 July 2025. Same page states the public could respond until July 17, 2025, and that the path to legislation and enforcement is still long."
-    },
-    {
-      "id": 10,
-      "claim": "A UBO under the Israeli memorandum is an individual holding 25% or more of any means of control, or otherwise exercising effective control.",
-      "source_url": "https://lipa.co.il/en/news/law-memorandum-registry-of-ultimate-beneficial-owners-in-corporations-2025-general-background/",
-      "raw_snippet": "A UBO is defined as an individual who has the ability to direct the corporation’s activities, directly or indirectly, including holding 25% or more of any control means, or otherwise exercising effective control.",
-      "verified": true,
-      "method": "Same LIPA & Co newsletter."
-    },
-    {
-      "id": 11,
-      "claim": "When enacted, the Israeli UBO registry will not be publicly accessible.",
-      "source_url": "https://whiteand.partners/en/israel-has-plans-to-create-a-beneficiary-owner-registry/",
-      "raw_snippet": "It is important to note that the registry itself will not be publicly accessible.",
-      "verified": true,
-      "method": "White and Partners summary of the Israeli Ministry of Justice UBO proposal."
+      "method": "Page title served at guidestar.org.il/home. The rest of the site is JS-rendered, so only the title is readable without a browser.",
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T01:56:51.461Z"
     },
     {
       "id": 12,
@@ -98,7 +78,9 @@
       "source_url": "https://insolvency.justice.gov.il/poshtim/main/tikim/wfrmlisttikim.aspx",
       "raw_snippet": "ניתן לערוך חיפוש לפי כל אחת מהאפשרויות הבאות: מספר ת.ז. של החייב, שם משפחת החייב, מס' התיק בממונה על חדלות פירעון, מס' התיק בבית המשפט.",
       "verified": true,
-      "method": "Fetched the case-list page directly."
+      "method": "Fetched the case-list page directly.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T01:56:59.462Z"
     },
     {
       "id": 13,
@@ -122,7 +104,9 @@
       "source_url": "https://ica.justice.gov.il/Request/OpenRequest?rt=PartnershipExtract",
       "raw_snippet": "נסח שותפות תאגידים ברשת (תאגידים ONLINE)",
       "verified": true,
-      "method": "Page title and heading of the partnership-extract request wizard."
+      "method": "Page title and heading of the partnership-extract request wizard.",
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T01:57:47.156Z"
     },
     {
       "id": 16,
@@ -130,7 +114,9 @@
       "source_url": "https://maya.tase.co.il/he",
       "raw_snippet": "מאיה – מערכת אינטרנט להודעות | הבורסה לניירות ערך",
       "verified": true,
-      "method": "Page title served at maya.tase.co.il."
+      "method": "Page title served at maya.tase.co.il.",
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T01:57:10.402Z"
     },
     {
       "id": 17,
@@ -146,7 +132,9 @@
       "source_url": "https://ica.justice.gov.il/Request/OpenRequest?rt=CompanyExtract",
       "raw_snippet": "נסח חברה תאגידים ברשת (תאגידים ONLINE)",
       "verified": true,
-      "method": "Page title and heading of the company-extract request wizard, fetched 2026-08-13."
+      "method": "Page title and heading of the company-extract request wizard, fetched 2026-08-13.",
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T01:57:48.981Z"
     },
     {
       "claim_id": "registrar-annual-fee-2026",
@@ -171,30 +159,6 @@
       "verified_at": "2026-08-14",
       "appears_in": [
         "references/entity-types.md"
-      ]
-    },
-    {
-      "claim_id": "ito-126-corporate-tax-23",
-      "claim": "Section 126(a) of the Income Tax Ordinance imposes corporate tax on a body of persons' taxable income at 23%.",
-      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
-      "raw_snippet": "מס חברות 126. (א) על הכנסתו החייבת של חבר בני-אדם יוטל מס שייקרא \"מס חברות\", בשיעור של 23%.",
-      "fetched_at": "2026-08-14",
-      "verified_via": "curl",
-      "verified_at": "2026-08-14",
-      "appears_in": [
-        "SKILL.md"
-      ]
-    },
-    {
-      "claim_id": "ito-121-top-marginal-47",
-      "claim": "Section 121(a) sets individual income-tax brackets, with 47% applying to each additional shekel above 560,280 NIS.",
-      "source_url": "https://www.nevo.co.il/law_html/law00/84255.htm",
-      "raw_snippet": "121. (א) המס על הכנסתו החייבת של יחיד בשנת המס יהיה כלהלן: (1) על כל שקל חדש מ-301,200 השקלים החדשים הראשונים – 31%; (2) על כל שקל חדש מ-301,201 שקלים חדשים עד 560,280 שקלים חדשים – 35%; (3) על כל שקל חדש נוסף – 47%.",
-      "fetched_at": "2026-08-14",
-      "verified_via": "curl",
-      "verified_at": "2026-08-14",
-      "appears_in": [
-        "SKILL.md"
       ]
     },
     {
@@ -343,16 +307,26 @@
       ]
     },
     {
-      "claim_id": "osek-patur-ceiling-2026",
-      "claim": "The osek patur annual turnover ceiling for 2026 is 122,833 NIS (it was 120,000 NIS in 2025).",
-      "source_url": "https://www.greeninvoice.co.il/magazine/%D7%AA%D7%A7%D7%A8%D7%AA-%D7%A2%D7%95%D7%A1%D7%A7-%D7%A4%D7%98%D7%95%D7%A8/",
-      "raw_snippet": "סכום תקרת ההכנסות לעוסק פטור 2026 122,833",
-      "fetched_at": "2026-08-18T20:30:31.470669+00:00",
-      "verified_at": "2026-08-18T20:30:31.470669+00:00",
-      "verified_via": "browser",
+      "claim_id": "vat-reg-13-occupations",
+      "claim": "VAT Registration Regulations: listed groups are registered as osek morsheh even if turnover alone would not require it.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_(%D7%A8%D7%99%D7%A9%D7%95%D7%9D)",
+      "raw_snippet": "ירשום אותו המנהל כעוסק מורשה גם אם על פי סכום מחזור עסקותיו",
+      "fetched_at": "2026-11-23T01:57:21.393Z",
       "appears_in": [
-        "scripts/search_company.py",
-        "references/domain-checklist.md"
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/search_company.py"
+      ]
+    },
+    {
+      "claim_id": "ica-record-three-fields",
+      "claim": "The companies dataset carries status, sub-status and breach marking as separate fields.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=ica_companies",
+      "raw_snippet": "סטטוס התאגיד, תת סטטוס התאגיד",
+      "fetched_at": "2026-11-23T01:58:04.794Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]
