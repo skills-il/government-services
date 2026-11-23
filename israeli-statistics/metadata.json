@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "category": "government-services",
   "tags": {
     "he": [
@@ -28,7 +28,7 @@
     "en": "Israeli Statistics"
   },
   "display_description": {
-    "he": "גישה לנתוני הלשכה המרכזית לסטטיסטיקה (הלמ\"ס): מדד המחירים לצרכן, מחירי דירות, מדדים כלכליים ונתונים דמוגרפיים, עם פרשנות והקשר כלכלי. מיועד כשמשתמשים שואלים על \"המדד\", אינפלציה, מחירי דירות, תמ\"ג, אבטלה, נתוני אוכלוסייה או כל סטטיסטיקה כלכלית או דמוגרפית ישראלית, וכשצריך לחשב הצמדת שכר דירה למדד. עוזר להבין איזה מקור משרת כל סדרה (api.cbs.gov.il למדדי מחירים, data.gov.il לנתוני מפקד). אל תשתמשו עבור סטטיסטיקה לא ישראלית או תחזיות פיננסיות.",
+    "he": "גישה לנתוני הלשכה המרכזית לסטטיסטיקה (הלמ\"ס): מדד המחירים לצרכן, מחירי דירות, מדדים כלכליים ונתונים דמוגרפיים, עם פרשנות והקשר כלכלי. מיועד כשמשתמשים שואלים על \"המדד\", אינפלציה, מחירי דירות, תמ\"ג, אבטלה, נתוני אוכלוסייה או כל סטטיסטיקה כלכלית או דמוגרפית ישראלית, וכשצריך להבין הצמדת שכר דירה למדד. עוזר להבין איזה מקור משרת כל סדרה (api.cbs.gov.il למדדי מחירים, data.gov.il לנתוני מפקד). אל תשתמשו עבור סטטיסטיקה לא ישראלית או תחזיות פיננסיות.",
     "en": "Access Israeli Central Bureau of Statistics (CBS) data including CPI, housing price indices, economic indicators, and demographic data. Use when user asks about Israeli statistics, \"hamadad\", CPI, consumer price index, housing prices, \"madad mchirei dirot\", GDP, unemployment, population data, CBS data, \"halishka hamerkazit listatistika\", producer prices, building starts, or any Israeli economic/demographic statistics. Enhances the israel-statistics MCP server with index interpretation and economic context. Do NOT use for non-Israeli statistics or financial forecasting."
   },
   "supported_agents": [

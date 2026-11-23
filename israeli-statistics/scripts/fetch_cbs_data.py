@@ -16,7 +16,6 @@ CPI / GDP / unemployment time series. For those, use api.cbs.gov.il.
 
 Usage:
     python fetch_cbs_data.py cpi
-    python fetch_cbs_data.py rent-calc --old-cpi 100.0 --new-cpi 103.5 --rent 5000
     python fetch_cbs_data.py search "דירות"
     python fetch_cbs_data.py indicators
 """
@@ -34,6 +33,15 @@ CBS_API_BASE = "https://api.cbs.gov.il/index"
 # Known index codes from the CBS catalog (mainCode values).
 CPI_CODE = 120010      # מדד המחירים לצרכן - כללי (general CPI)
 HOUSING_CODE = 40010   # מחירי דירות (apartment prices)
+
+LINKAGE_DISABLED = (
+    "Linked amounts are not computed here. Index values from different base "
+    "periods cannot be divided. Use the official CBS index calculator: "
+    "https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx "
+    "Linkage terms depend on the contract. When buying a new apartment from "
+    "a developer, the law may limit linkage, so check the terms with your "
+    "advisor."
+)
 
 
 def cbs_api_get(endpoint: str, params: dict = None) -> dict:
@@ -134,49 +142,6 @@ def fetch_cpi_info() -> None:
     print("Source: CBS Price Indices API (api.cbs.gov.il), index code 120010")
 
 
-def calculate_rent_adjustment(old_cpi: float, new_cpi: float, rent: float) -> None:
-    """Calculate rent adjustment based on CPI change."""
-    print("=== Rent Adjustment Calculator (Madad-Linked) ===\n")
-
-    if old_cpi <= 0:
-        print("Error: Old CPI must be positive.", file=sys.stderr)
-        sys.exit(1)
-
-    change_ratio = new_cpi / old_cpi
-    change_percent = (change_ratio - 1) * 100
-    new_rent = rent * change_ratio
-    difference = new_rent - rent
-
-    print(f"CPI at contract signing: {old_cpi:.2f}")
-    print(f"Current CPI:             {new_cpi:.2f}")
-    print(f"CPI change:              {change_percent:+.2f}%")
-    print()
-    print(f"Original rent:           {rent:>10,.0f} NIS")
-    print(f"Adjusted rent:           {new_rent:>10,.0f} NIS")
-    print(f"Difference:              {difference:>+10,.0f} NIS")
-    print()
-
-    if change_percent > 0:
-        print("The landlord may increase rent by the CPI change percentage")
-        print("if the rental contract includes a madad adjustment clause.")
-    elif change_percent < 0:
-        print("The CPI has decreased. Whether the rent actually falls depends on")
-        print("the contract: many Israeli rental contracts include a floor clause")
-        print("barring a drop below the base index. Read that clause before")
-        print("telling anyone their rent goes down.")
-    else:
-        print("No change in CPI -- rent remains the same.")
-
-    print()
-    print("NOTE: Verify CPI values at api.cbs.gov.il (index code 120010) or")
-    print("cbs.gov.il. Adjustments are typically annual, not monthly. Check")
-    print("your specific contract terms: which index is the base index (often")
-    print("the index KNOWN at signing, i.e. the previous month), whether a")
-    print("floor clause bars a decrease, and whether both values share a base")
-    print("period. For a disputed amount, prefer the official CBS calculator:")
-    print("https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx")
-
-
 def show_indicators() -> None:
     """Display key economic indicator summary."""
     print("=== Key Israeli Economic Indicators ===\n")
@@ -210,6 +175,12 @@ def show_indicators() -> None:
 
 
 def main():
+    # Checked before argument parsing so that any old invocation gets the
+    # message, makes no network request and prints no figure.
+    if len(sys.argv) > 1 and sys.argv[1] == "rent-calc":
+        print(LINKAGE_DISABLED)
+        sys.exit(2)
+
     parser = argparse.ArgumentParser(
         description="Fetch Israeli CBS Statistical Data"
     )
@@ -218,14 +189,8 @@ def main():
     # CPI info
     subparsers.add_parser("cpi", help="CPI latest published values and component group names")
 
-    # Rent calculator
-    rent_parser = subparsers.add_parser("rent-calc", help="Rent adjustment calculator")
-    rent_parser.add_argument("--old-cpi", type=float, required=True,
-                             help="CPI value at contract signing")
-    rent_parser.add_argument("--new-cpi", type=float, required=True,
-                             help="Current CPI value")
-    rent_parser.add_argument("--rent", type=float, required=True,
-                             help="Current monthly rent (NIS)")
+    # Disabled: handled at the top of main().
+    subparsers.add_parser("rent-calc", help="Disabled: points to the official CBS calculator")
 
     # Search
     search_parser = subparsers.add_parser(
@@ -239,8 +204,6 @@ def main():
 
     if args.command == "cpi":
         fetch_cpi_info()
-    elif args.command == "rent-calc":
-        calculate_rent_adjustment(args.old_cpi, args.new_cpi, args.rent)
     elif args.command == "search":
         search_cbs_indices(args.query)
     elif args.command == "indicators":

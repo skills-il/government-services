@@ -25,10 +25,10 @@
 ## CPI Components
 The CPI basket is split into consumption groups: housing (rents), transportation, food, education and culture, health, furniture and household, clothing and footwear, and miscellaneous. CBS re-sets and republishes the weight of each group with the index, so never quote a weight from memory. The Price Indices API does NOT carry the weights: its catalog endpoint returns only chapter names and index codes. Take the current breakdown from the CBS publications reached via the Main Price Indices hub (https://www.cbs.gov.il/en/Pages/Main%20Price%20Indices.aspx). If you cannot find a weight there, say so rather than supplying a number.
 
-## Rent Adjustment Formula
-```
-New Rent = Old Rent * (Current CPI / CPI at contract signing)
-```
+## Linkage Rule
+Index values from different base periods cannot be divided. Do not compute a linked amount. Send the user to the official CBS calculator: https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx
+
+Linkage terms depend on the contract. When buying a new apartment from a developer, the law may limit linkage, so the buyer should check the terms with their advisor.
 
 ## Table Number Reference
 | Subject | Tables | Description |

@@ -8,6 +8,14 @@ compatibility: Network access helpful for CBS data lookups. Enhanced by the isra
 
 # Israeli Statistics (CBS)
 
+## Linkage Rule: Do Not Compute a Linked Amount
+**Index values from different base periods cannot be divided.** CBS rebases its indices, so a
+ratio of two published values can show a fall when prices rose. Do not calculate an indexed
+rent or contract amount yourself, by hand or with a script, even when the user supplies both
+index values. Send the user to the official CBS index calculator: https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx
+
+Linkage terms depend on the contract. When buying a new apartment from a developer, the law may limit linkage, so the buyer should check the terms with their advisor.
+
 ## Critical Note
 Statistical data is published on a fixed schedule with inherent delays.
 
@@ -19,15 +27,16 @@ not rare, so never promise a user "18:30 on the 15th" without checking the day o
 
 The apartment price index is monthly but runs a longer lag than the CPI: roughly two to
 three months, not six weeks. Always note the reference period when presenting data.
-Index values and rates change, verify current figures at cbs.gov.il for time-sensitive
-decisions such as rent adjustments or contract indexation.
+Index values and rates change, so re-fetch a published value before reporting it. For a
+contract, rent adjustment, or indexation question, send the user to the official CBS
+calculator and do not compute.
 
 ## Reference Snapshot (verified 2026-08-18) -- RE-FETCH BEFORE QUOTING
 These are dated reference points for sanity-checking an answer, **not values to quote**.
 Every row marked "fetch" has no fixed value on purpose: it moves faster than this file can
-be updated, so fetching it is the instruction. For any contract, court filing, rent
-adjustment, or indexation calculation, re-fetch before computing, even for the rows that
-do carry a number.
+be updated, so fetching it is the instruction. Re-fetch only to report a published value.
+Never use these values to work out a rent or contract amount. For a linked amount, use the
+official CBS calculator.
 
 | Indicator | Value | Reference period | How to re-fetch |
 |-----------|-------|------------------|-----------------|
@@ -35,20 +44,15 @@ do carry a number.
 | Apartment price index | fetch, do not quote from here | latest published month | `api.cbs.gov.il/index/data/price?id=40010&format=json&last=3` |
 | Producer prices (industrial output) | fetch | latest published month | `api.cbs.gov.il/index/data/price?id=170030&format=json&last=3` |
 | Residential building input costs | fetch | latest published month | `api.cbs.gov.il/index/data/price?id=200010&format=json&last=3` |
-| Bank of Israel policy rate | 3.5% (next decision 2026-08-31) | set 2026-07-06 | boi.org.il interest-rate page |
-| Unemployment rate (15+, SA) | 3.1% | July 2026 (released 2026-08-17) | CBS Labour Force Survey release |
-| Labor force participation | 62.2% | July 2026 | CBS Labour Force Survey release |
+| Bank of Israel policy rate | check the current figure at the source | latest decision | boi.org.il interest-rate page |
+| Unemployment rate (15+, SA) | check the current figure at the source | latest published month | CBS Labour Force Survey release |
+| Labor force participation | check the current figure at the source | latest published month | CBS Labour Force Survey release |
 | Average gross monthly wage | fetch from CBS before quoting | latest CBS wage release | CBS wage tables |
 | Minimum wage | NIS 6,443.85/month | From 2026-04-01 | Israeli labor law |
-| GDP growth (annual) | 2.9% (revised down from an initial 3.1%) | Full year 2025 | CBS National Accounts |
-| Population | 10.178 million | 2026-01-01 estimate | CBS |
-| Population breakdown | 76.3% Jews and others, 21.1% Arabs, 2.6% foreign nationals | 2026-01-01 | CBS |
+| GDP growth | check the current figure at the source | latest published period | CBS National Accounts |
+| Population and breakdown | check the current figure at the source | latest CBS estimate | CBS |
 
-As a staleness check only, the CPI stood at 105.1 (2024 average base) for July 2026, +0.3%
-on the month and +1.5% year-on-year, and the apartment price index was -1.5% year-on-year
-in May 2026. If a fetch returns a materially different reference month than these, the
-series has simply moved on, which is expected. Always pair a figure with its reference
-period when answering.
+Always pair a figure with its reference period when answering.
 
 ## Instructions
 
@@ -57,7 +61,7 @@ period when answering.
 |------|------------|-----------|
 | CPI / Consumer prices | CPI tables | Monthly |
 | Housing prices | Housing Price Index | Monthly (2-3 month lag); quarterly transactions report is separate |
-| Rent adjustment | CPI change calculation | Monthly |
+| Rent adjustment | Official CBS calculator (do not compute) | Monthly |
 | GDP / Economic growth | National Accounts | Quarterly |
 | Unemployment | Labor Force Survey | Monthly |
 | Population / Demographics | Population estimates | Annual/Quarterly |
@@ -85,11 +89,7 @@ Take the current weights from the CBS publications reached via the Main Price In
 media release and the Price Statistics Monthly. If you cannot find a weight in those
 publications, say so rather than supplying a number.
 
-**Rent adjustment formula (for madad-linked contracts):**
-```
-New Rent = Old Rent * (Current CPI / CPI at contract signing)
-```
-Example: If CPI rose from 100.0 to 103.5 since contract start, rent increases by 3.5%.
+**Rent adjustment (for madad-linked contracts):** do not compute it. Follow the Linkage Rule above and send the user to the official CBS calculator.
 
 ### Step 3: Housing Price Index (Madad Mchirei Dirot)
 Tracks residential property transaction prices:
@@ -178,10 +178,8 @@ The catalog also lists export producer-price and services producer-price chapter
 no `mainCode`; those are not fetchable through `data/price` and must be taken from the CBS
 tables instead.
 
-**CBS also publishes an official Linkage Calculations tool**
-(https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx) that computes an indexed amount
-between two dates. For a disputed contract or a court filing, prefer that tool's output over
-a hand calculation, because it is the issuer's own arithmetic.
+**The official Linkage Calculations tool** (https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx) computes an indexed amount between two
+dates. It is the only route this skill uses for a linked amount.
 - **data.gov.il** under organization `lamas` (not `cbs`): hosts 14 CBS datasets, including the 2022 Population and Housing Census, the Israeli localities file, master code lists, and the injury-accident public-use files. It does NOT host the CPI/GDP/unemployment time series. Query it through the CKAN API (`data.gov.il/api/3/action/package_search?fq=organization:lamas`); the human browse pages under `/organization/` and `/dataset?organization=` currently return AccessDenied, so an agent that navigates there will wrongly conclude the datasets are gone.
 - GDP, unemployment, population, and foreign-trade series are published as numbered CBS tables at `cbs.gov.il` and are not all exposed via a public API.
 
@@ -212,7 +210,7 @@ a hand calculation, because it is the issuer's own arithmetic.
 
 ### Example 1: CPI and Rent Adjustment
 User says: "My landlord wants to raise my rent based on hamadad. Is that allowed?"
-Result: Explain madad-linked rental contracts. If the contract specifies CPI adjustment, calculate: look up CPI at contract signing date and current CPI, apply the formula. Note that adjustments are typically annual, not monthly. Two contract details decide the answer and must be read out of the contract itself, not assumed: (1) **which index is the base index** (madad bassis) -- contracts commonly name the index *known* at signing, which is the previously published month, not the month of signing; using the wrong base shifts the result. (2) **whether the contract has a floor clause.** If CPI has fallen, the rent follows it down only where the contract does not bar a decrease; many Israeli rental contracts state that the rent never drops below the base. Do not tell the user their rent must fall without reading that clause.
+Result: Explain in general terms what a madad-linked clause does, and do not rule on this landlord's demand. Do not calculate the new rent. Send the user to the official CBS calculator with the details to take from their contract: which index is the base index (contracts commonly name the index *known* at signing), when updates fall due, and whether a floor clause bars a decrease. Linkage terms depend on the contract, so the user should check them with their advisor.
 
 ### Example 2: Housing Market Analysis
 User says: "Are apartment prices going up or down in Tel Aviv?"
@@ -220,15 +218,15 @@ Result: Query the Housing Price Index for Tel Aviv district. Present quarterly a
 
 ### Example 3: Economic Overview
 User says: "How is the Israeli economy doing?"
-Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. Fetch the CPI from `api.cbs.gov.il/index/data/price?id=120010` rather than quoting it from this file. As a staleness check only, the 2026-08-18 baseline was: GDP +2.9% for 2025 (revised down from an initial 3.1%), CPI annual inflation 1.5% in July 2026 (monthly +0.3%, index 105.1 on the 2024 average base), unemployment 3.1% in July 2026, Bank of Israel rate 3.5% set 2026-07-06 with the next decision due 2026-08-31. Always re-fetch before answering for a fresh date.
+Result: Present latest GDP growth (quarterly, annualized), unemployment rate, CPI inflation rate, shekel exchange rate trends, and notable sector performance. Provide CBS sources for each figure. Fetch the CPI from `api.cbs.gov.il/index/data/price?id=120010` rather than quoting it from this file. Check every other figure at its source in the snapshot table.
 
 ## Bundled Resources
 
 ### Scripts
-- `scripts/fetch_cbs_data.py` - Query the CBS Price Indices API (`api.cbs.gov.il`): fetch the latest CPI (hamadad) values plus component weights, search the index catalog, calculate madad-linked rent adjustments from old/new CPI values, and display a key economic indicators summary with the right source per series. Supports subcommands: `cpi`, `rent-calc`, `search`, `indicators`. Run: `python scripts/fetch_cbs_data.py --help`
+- `scripts/fetch_cbs_data.py` - Query the CBS Price Indices API (`api.cbs.gov.il`): fetch the latest CPI (hamadad) values, search the index catalog, and display a key economic indicators summary with the right source per series. Supports subcommands: `cpi`, `search`, `indicators`. The `rent-calc` subcommand is disabled: it computes nothing and points to the official CBS calculator. Run: `python scripts/fetch_cbs_data.py --help`
 
 ### References
-- `references/cbs-data-guide.md` - CBS publication schedule for all major indicators (CPI, housing prices, GDP, unemployment, building starts), CPI component weights, the rent adjustment formula for madad-linked contracts, and CBS table number reference by subject area (population 2.x, prices 12.x, construction 19.x, etc.). Consult when determining data availability timing or locating the correct CBS table number.
+- `references/cbs-data-guide.md` - CBS publication schedule for all major indicators (CPI, housing prices, GDP, unemployment, building starts), CPI component weights, the linkage rule for madad-linked contracts, and CBS table number reference by subject area (population 2.x, prices 12.x, construction 19.x, etc.). Consult when determining data availability timing or locating the correct CBS table number.
 
 ## Recommended MCP Servers
 
@@ -263,7 +261,7 @@ Solution: Check the CBS publication calendar (luach pirsumim) for the expected r
 
 ### Error: "Index base period mismatch"
 Cause: CBS periodically rebases indices, causing series breaks
-Solution: Ensure both values being compared use the same base period. CBS publishes conversion tables between old and new base periods. For CPI, check which base year applies to the series.
+Solution: Do not divide the values or convert them yourself. For a linked amount, send the user to the official CBS calculator: https://www.cbs.gov.il/en/Pages/Linkage-calculations.aspx
 
 ### Error: "Hebrew column names in data"
 Cause: CBS data tables primarily use Hebrew headers
