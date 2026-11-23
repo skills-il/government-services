@@ -1,31 +1,31 @@
 {
   "skill_slug": "israeli-media-authenticity-verifier",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-18T20:10:00Z",
+  "generated_at": "2026-11-23T20:00:00Z",
   "claims": [
     {
       "id": "c2patool-install",
       "claim": "c2patool installs on macOS via 'brew install c2patool'",
       "claim_type": "cli-command",
-      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "raw_snippet": "Install C2PA Tool: brew install c2patool",
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2patool/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "brew install c2patool",
       "confidence": "high",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "claim_id": "c2patool-install",
-      "fetched_at": "2026-08-18T19:30:00Z"
+      "fetched_at": "2026-11-23T12:00:00Z"
     },
     {
       "id": "c2patool-read",
-      "claim": "Running c2patool against an asset prints the manifest JSON to stdout; the -d option prints a detailed report of the internal C2PA format",
+      "claim": "c2patool has a trust subcommand that validates an asset against trust lists",
       "claim_type": "cli-command",
-      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/docs/usage",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "raw_snippet": "Use the -d option to display a detailed report describing the internal C2PA format of manifests contained in the asset",
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2patool/docs/usage",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "c2patool <ASSET_PATH> trust [OPTIONS]",
       "confidence": "high",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "claim_id": "c2patool-read",
-      "fetched_at": "2026-08-18T19:30:00Z"
+      "fetched_at": "2026-11-23T12:00:00Z"
     },
     {
       "id": "c2patool-brew-formula",
@@ -215,13 +215,13 @@
     {
       "id": "synthid-gemini-check",
       "claim_id": "synthid-gemini-check",
-      "claim": "A consumer can check for a SynthID watermark by uploading the image, video or audio clip into the Gemini app and asking whether it was created or altered by Google AI",
+      "claim": "A signed-in Gemini user can upload an image, video or audio file and ask whether Google AI created or edited it",
       "claim_type": "feature",
-      "source_url": "https://deepmind.google/science/synthid/",
-      "raw_snippet": "Simply upload the image, video or audio clip to your chat, and ask if it's been created or altered by Google AI. Gemini will check for a SynthID watermark, and let you know if it finds one.",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "fetched_at": "2026-08-18T19:30:00Z",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "source_url": "https://support.google.com/gemini/answer/16722517?hl=en",
+      "raw_snippet": "Was this image/video/audio created or edited by Google AI?",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
@@ -618,13 +618,13 @@
     {
       "id": "c2patool-certs",
       "claim_id": "c2patool-certs",
-      "claim": "c2patool's --certs option extracts and prints the PEM certificate chain from the active manifest's signature, which is how a signer is inspected",
+      "claim": "c2patool's --certs option extracts the certificate chain from a manifest",
       "claim_type": "cli-command",
-      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/docs/usage",
-      "raw_snippet": "Use the --certs option to extract the PEM certificate chain from the active manifest's signature and print it to standard output (stdout).",
-      "source_fetched_at": "2026-08-18T20:10:00Z",
-      "fetched_at": "2026-08-18T20:10:00Z",
-      "verified_at": "2026-08-18T20:10:00Z",
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2patool/docs/usage",
+      "raw_snippet": "c2patool sample/C.jpg --certs",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "confidence": "high",
       "appears_in": [
         "references/provenance.md"
@@ -678,6 +678,138 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "c2pa-official-list-file",
+      "claim_id": "c2pa-official-list-file",
+      "claim": "The official C2PA trust list PEM is published in the conformance-public repository",
+      "claim_type": "url",
+      "source_url": "https://raw.githubusercontent.com/c2pa-org/conformance-public/main/trust-list/C2PA-TRUST-LIST.pem",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "Subject\tCN=Google C2PA Media Services 1P ICA G3, O=Google LLC, C=US -----BEGIN CERTIFICATE-----",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2patool-trust-anchors",
+      "claim_id": "c2patool-trust-anchors",
+      "claim": "The c2patool trust subcommand takes a trust anchors option",
+      "claim_type": "feature",
+      "source_url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2patool/docs/usage",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "URL or relative path to a file containing a list of trust anchors (in PEM format) used to validate the manifest certificate chain.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "ffmpeg-fps-mode",
+      "claim_id": "ffmpeg-fps-mode",
+      "claim": "ffmpeg replaced -vsync with -fps_mode, available from ffmpeg 5.1",
+      "claim_type": "feature",
+      "source_url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/release/5.1/doc/ffmpeg.texi",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "but can be overridden for a stream by setting fps_mode. vsync is deprecated and will be",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "yandex-face-matching",
+      "claim_id": "yandex-face-matching",
+      "claim": "Yandex image search matches other photographs of the same person by facial similarity",
+      "claim_type": "feature",
+      "source_url": "https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "it will also look for other photographs of the same person",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:00:00Z",
+      "appears_in": [
+        "references/source-tracing.md"
+      ]
+    },
+    {
+      "id": "censor-strike-location",
+      "claim_id": "censor-strike-location",
+      "claim": "As reported by the Jerusalem Post, a June 2025 military censor order required prior approval to publish the location of a strike or hit, naming social media and chats. The official order text was not read",
+      "claim_type": "feature",
+      "source_url": "https://www.jpost.com/israel-news/defense-news/article-858194",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "regarding the location of a strike or hit by enemy war materiel, including missiles of any kind and UAVs, in the media or online (including social media, blogs and chats, etc.)",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "c2pa-state-valid",
+      "claim_id": "c2pa-state-valid",
+      "claim": "Valid means the manifest store is well-formed and the cryptographic integrity checks succeed",
+      "claim_type": "feature",
+      "source_url": "https://docs.rs/c2pa/latest/c2pa/enum.ValidationState.html",
+      "source_fetched_at": "2026-11-23T22:00:00Z",
+      "fetched_at": "2026-11-23T22:00:00Z",
+      "raw_snippet": "The manifest store is well-formed and the cryptographic integrity checks succeed.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T22:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2pa-state-trusted",
+      "claim_id": "c2pa-state-trusted",
+      "claim": "Trusted means the manifest store is valid and signed by a certificate that chains to a trusted root or known authority in the trust list",
+      "claim_type": "feature",
+      "source_url": "https://docs.rs/c2pa/latest/c2pa/enum.ValidationState.html",
+      "source_fetched_at": "2026-11-23T22:00:00Z",
+      "fetched_at": "2026-11-23T22:00:00Z",
+      "raw_snippet": "The manifest store is valid and signed by a certificate that chains up to a trusted root or known",
+      "confidence": "high",
+      "verified_at": "2026-11-23T22:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2pa-state-invalid",
+      "claim_id": "c2pa-state-invalid",
+      "claim": "Invalid means the manifest store fails the well-formed requirements, which may mean the file was changed or damaged",
+      "claim_type": "feature",
+      "source_url": "https://docs.rs/c2pa/latest/c2pa/enum.ValidationState.html",
+      "source_fetched_at": "2026-11-23T22:00:00Z",
+      "fetched_at": "2026-11-23T22:00:00Z",
+      "raw_snippet": "The manifest store fails to meet ValidationState::WellFormed requirements",
+      "confidence": "high",
+      "verified_at": "2026-11-23T22:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_provenance.py"
       ]
     }
   ]

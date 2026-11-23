@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "category": "government-services",
   "tags": {
     "he": [
@@ -45,7 +45,7 @@
   "volatility": "versioned",
   "authoritative_sources": [
     {
-      "url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2pa-rs/cli/",
+      "url": "https://opensource.contentauthenticity.org/docs/sdk-repos/c2patool/docs/usage",
       "type": "vendor-doc",
       "language": "en"
     },

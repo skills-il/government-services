@@ -36,6 +36,17 @@
         "legal": "PASS-WITH-CHANGES; R1-R4 applied, R5 deferred",
         "verify_legal.py": "clear, level=3"
       }
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-23",
+      "note": "Minimal safety patch from 1.1.1. Description unchanged, so Phase 5.7 was not run.",
+      "lessons": [
+        "check_provenance.py deliberately gives no verdict. A classifier needs an allowlist of benign actions and a table of expected results before code.",
+        "Carried to the next cycle: Gemini SynthID scope, election-rule limits (temporary provision to 26.10.2027), the Eisenkot takedown ground, StopNCII limits on messaging apps, OpenAI Verify wording.",
+        "Carried: move dump_metadata.py to reading saved exiftool output, as the other two scripts now do.",
+        "Carried polish: punctuation in Step 3 item 2, Example 1 names a place in its sample result, and Step 1.3 should cross-reference the Step 0 stop rule."
+      ]
     }
   ]
 }

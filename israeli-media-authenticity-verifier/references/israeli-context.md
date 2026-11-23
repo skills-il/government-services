@@ -44,6 +44,11 @@ Before publishing a verdict, check whether an Israeli outlet already addressed t
   to look up a verdict.
 - International geolocation collectives (Geoconfirmed-style) that covered the conflict.
 
+## Wartime publication limit
+
+If the item may show a recent strike or hit in Israel, no field of a shareable report may state, confirm or deny where it happened, and it must not repeat a claimed place. Write "Location checked, details withheld" and "GPS present, withheld". Military censorship restrictions on publishing strike locations may apply, including when forwarding, so check the current rules before sharing. One reported example is the June 2025 order
+(https://www.jpost.com/israel-news/defense-news/article-858194). The official text was not read.
+
 ## Live security incident: authoritative source first
 
 When the media is about something supposedly happening right now (an attack, an alert), the
@@ -121,8 +126,8 @@ not tell the user whether a given publication is lawful.
     for guidance in Hebrew before taking further steps.
   - **The Israel Police online complaint service on gov.il** for the criminal track, and
     100 for an immediate threat.
-  Note that NCMEC's Take It Down service is for under-18s, so a user who guesses between
-  the two will usually guess wrong. Match the tool to the victim's age.
+  If the person may have been under 18 in the image, do not use any file-based tool: apply
+  the Step 0 stop rule and report to 105 or the police.
 - General crime or an immediate threat to safety: contact the Israel Police, 100 in an
   emergency.
 
@@ -131,7 +136,10 @@ not tell the user whether a given publication is lawful.
 Every route above works better with an intact artefact, and every hour of delay degrades
 it. ISOC's own guidance leads with documenting first: "צלמו מסך (שיהיה תיעוד לאירוע במידה
 ותגישו תלונה במשטרה)" (https://www.isoc.org.il/digital-literacy/cybersafe/sextortion).
-Tell the user to, before blocking or deleting anything:
+**Exception: possible sexual imagery of a minor, real or AI-generated.** Do not save, copy,
+screenshot or forward it. Report it to 105 or the police and follow their instructions.
+
+For anything else, tell the user to, before blocking or deleting anything:
 
 - Save the ORIGINAL file, not a fresh screenshot of it.
 - Keep the chat thread; do not delete it.
@@ -161,10 +169,8 @@ Do not use a face-recognition or face-search engine at all (PimEyes and similar)
 requests to. Purpose does not cure this one: running a face through recognition search is
 itself the regulated act, whoever the subject is and whatever you meant to establish.
 
-To verify a CLAIMED KNOWN identity, use the permitted route instead: reverse-search the WHOLE
-image rather than a cropped face, and compare it against photographs the person themselves
-published, from verified accounts or news archives. That answers "is this the picture they
-say it is" without ever performing biometric identification. This is not only etiquette: under Israel's Privacy Protection Law
+To check a CLAIMED KNOWN identity, search the caption and compare by eye against photographs the person themselves published, from verified
+accounts or news archives. This is not only etiquette: under Israel's Privacy Protection Law
 as amended, a biometric identifier used to identify a person or verify their identity by
 computerised means is "מידע בעל רגישות מיוחדת", the strictest category
 (https://www.nevo.co.il/law_html/law01/087_001.htm), so running a stranger's face through

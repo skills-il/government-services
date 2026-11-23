@@ -8,19 +8,25 @@ So even when every other layer is null, this layer often decides the verdict.
 
 ## Reverse-image search
 
+**No image, video frame, clip or link showing an identifiable person's face goes to any reverse-image, visual-search or multi-engine tool, including TinEye, Yandex, Bing, Google Lens and InVID. Extract frames locally and crop or blur faces first, or search on non-face context only.**
+
+**תמונה, פריים, סרטון או קישור שרואים בהם פנים של אדם שאפשר לזהות לא נשלחים לשום כלי של חיפוש הפוך, חיפוש חזותי או חיפוש מרובה מנועים, כולל TinEye, Yandex, Bing, Google Lens ו-InVID. חלצו פריימים מקומית וחתכו או טשטשו את הפנים קודם, או חפשו רק לפי הקשר שאינו פנים.**
+
 Search the still (or a representative frame from a video) across more than one engine,
 because their indexes differ AND because they answer different questions. Pick by job:
 
-- **TinEye first, for earliest appearance.** This is the layer's actual goal. Per TinEye,
+- **TinEye first, for earliest appearance (no identifiable faces).** This is the layer's actual goal. Per TinEye,
   "TinEye does not typically find similar images (that is, a different image with the same
   subject); it finds image matches including those that have been cropped, edited or
   resized" (https://help.tineye.com/article/233-how-does-tineye-work). That match-not-similar
   behaviour, plus sorting by oldest, is what surfaces a recycled original.
 - **Yandex Images**, strong on scene matching and on Middle Eastern and Eastern European
-  geography.
-- **Google Lens**, for identifying a landmark, object or place. It is a semantic
+  geography. **No identifiable faces.** Bellingcat reports that it "will also
+  look for other photographs of the same person"
+  (https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/).
+- **Google Lens** (no identifiable faces), for identifying a landmark, object or place. It is a semantic
   "similar things" surface: good for "where is this", weak for "when was this first posted".
-- **Bing Visual Search** last; it has drifted toward shopping.
+- **Bing Visual Search** (no identifiable faces) last; it has drifted toward shopping.
 - **Search the caption as TEXT.** For content circulating inside Israel, pasting the Hebrew
   or Arabic caption into X or Telegram search often beats any image engine, because the
   same wording is copied along the forwarding chain.
@@ -41,8 +47,8 @@ best thing by reverse image searching thumbnails and screenshots"
 The substitute workflow:
 1. Extract keyframes with `scripts/extract_frames.py --keyframes` (or take 3-5 spread
    screenshots by hand on a phone).
-2. Reverse-search several of them, not one. A single frame is often too generic to match.
-3. For browser users, the InVID/WeVerify plugin does keyframe extraction plus one-click
+2. Reverse-search several of them, with identifiable faces cropped or blurred, not one. A single frame is often too generic to match.
+3. If an identifiable person's face may appear in the clip, do not give the clip or its link to InVID/WeVerify: extract frames locally, crop or blur the faces, and search only those copies. Browser users can use the plugin's one-step route only for a clip with no identifiable faces. For such clips, the InVID/WeVerify plugin does keyframe extraction plus one-click
    reverse search across engines. Use the maintained project pages,
    https://github.com/AFP-Medialab/invid-verification-plugin or
    https://weverify.eu/verification-plugin/. Its advanced tools require registration
@@ -70,7 +76,7 @@ here before anything else:
 This is the dominant intake shape, so treat it as its own lane rather than a footnote:
 
 - **Crop the chat chrome before searching.** Bubbles, status bars and keyboards defeat
-  image matching. Search the content rectangle only.
+  image matching. Search the content rectangle only, with identifiable faces cropped or blurred.
 - **Read the chat UI as evidence.** WhatsApp's "Forwarded many times" label means the item
   has travelled a long chain, which is a strong prior for viral content and is visible with
   no tooling. Telegram's forwarded-from header, visible timestamps and sender identifiers
@@ -93,6 +99,8 @@ This is the dominant intake shape, so treat it as its own lane rather than a foo
   carriageway.
 - **Bellingcat's geolocation guide** as the standing reference for the method itself
   (https://www.bellingcat.com/resources/how-tos/2015/07/25/searching-the-earth-essential-geolocation-tools-for-verification/).
+
+If the item may show a recent strike or hit in Israel, no field of a shareable report may state, confirm or deny where it happened, and it must not repeat a claimed place. Write "Location checked, details withheld" and "GPS present, withheld". Military censorship restrictions on publishing strike locations may apply, including when forwarding, so check the current rules before sharing.
 
 What to compare, with the Israeli specifics this skill should own:
 - Signage: Hebrew vs Arabic vs Farsi script is often the fastest disqualifier of a claimed
@@ -134,6 +142,5 @@ itself processing a biometric identifier, which Israel's Privacy Protection Law 
 "מידע בעל רגישות מיוחדת" (https://www.nevo.co.il/law_html/law01/087_001.htm), the strictest
 category; a legitimate verification purpose does not change what the act is.
 
-The permitted substitute, which answers the real question anyway: reverse-search the WHOLE
-image rather than a cropped face, and compare the result against photographs the claimed
-person published themselves, from verified accounts or news archives.
+The substitute: search the caption and compare by eye against photographs the claimed person published themselves, from verified accounts or
+news archives.

@@ -1,6 +1,9 @@
 # Verdict report template
 
-Use this structure for the output. Fill every section, including null results. Prefer
+Use this structure for the output. Fill every section, including null results. For a possible
+recent strike in Israel, no field may state, confirm or deny the place: write "Location checked,
+details withheld" and "GPS present, withheld". Do not use this template for possible sexual
+imagery of a minor: stop and follow Step 0. Prefer
 "inconclusive" over a confident guess.
 
 ```
@@ -32,9 +35,10 @@ credential or watermark is not proof of fakery, and automated AI detectors are u
 
 | Situation | Verdict |
 |-----------|---------|
-| Signed C2PA / SynthID says AI, or multiple strong synthetic tells with no prior match | AI-generated |
+| A `Trusted` manifest or SynthID check declares AI, and source tracing finds nothing that conflicts | AI-generated |
+| Multiple strong synthetic tells with no prior match | likely AI-generated, at most medium confidence |
 | Real source found, but caption/place/date is false | authentic but miscaptioned |
-| Real source, signed camera provenance, consistent context | authentic |
+| A located real source with consistent context. Credentials or metadata alone never establish this | authentic |
 | Clear local edits (splice, removed/added object) on otherwise real media | digitally manipulated |
 | Thin or conflicting evidence across all layers | inconclusive |
 
