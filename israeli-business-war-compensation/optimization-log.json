@@ -1,6 +1,13 @@
 {
   "cycles": [
     {
+      "version": "1.6.1",
+      "date": "2026-11-23",
+      "lessons": [
+        "Safety fallback from 1.6.0. Figures and dates in older cycles below are historical and must not be relied on or reused."
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-08-19",
       "lessons": [

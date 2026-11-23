@@ -2,6 +2,14 @@
 
 All notable changes to this skill are documented here.
 
+## [1.6.1] - 2026-11-23
+
+### Safety
+
+- Amounts and dates in this skill may be wrong. Versions 1.4.0 to 1.6.0 usually showed twice the correct amount. Do not rely on them, including any figure or date in the older entries below.
+- The calculator no longer prints an amount. Worked grant figures, the doubling formula, and specific deadlines were removed. Use the Tax Authority simulator and its official claim pages.
+- If you already filed, check with the Tax Authority before changing or cancelling anything.
+
 ## [1.6.0] - 2026-08-19
 
 ### Fixed
