@@ -4,8 +4,8 @@
     "en": "Israeli Business War Compensation"
   },
   "display_description": {
-    "he": "אינו ייעוץ מס. מדריך התמצאות בהגשת פיצוי על נזק עקיף במלחמה לעסקים, עמותות ומעונות יום, במתווה שאגת הארי (מרץ-אפריל 2026) ובמתווה חרבות ברזל (אוקטובר 2023+). מסביר את המסלולים, שערי הזכאות, כלל החל\"ת ורשימת המסמכים. אינו מחשב מענק ואינו מאשר מועד: סכומים ומועדים כאן עלולים להיות שגויים, ולכן הוא מפנה לסימולטור של רשות המסים ולדפי התביעה הרשמיים. השתמשו כשבעל עסק, מנהל עמותה או מפעיל מעון שואל על נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי או הגשה לרשות המסים. אל תשתמשו לנזק ישיר לרכוש (israeli-war-damage-claims), להגשת דמי אבטלה של עובד (israeli-unemployment-benefits-navigator) או לפיצוי אישי למילואים (israeli-miluim-manager).",
-    "en": "Not tax advice. Filing orientation for Israeli war indirect-damage compensation for businesses, NPOs, and daycare operators, covering Shaagat HaAri (March-April 2026) and Iron Swords (Oct 2023+). Explains the tracks, eligibility gates, the chalat rule, and the document checklist. Does not calculate a grant or confirm a deadline: amounts and dates here may be wrong, so it sends users to the Tax Authority simulator and official claim pages. Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, or filing with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
+    "he": "אינו ייעוץ מס. מדריך תביעה לפיצוי על נזק עקיף במלחמה לעסקים, עצמאים, עמותות זכאיות ומעונות יום, במתווה שאגת הארי (מרץ-אפריל 2026), עם ניתוב לחרבות ברזל (אוקטובר 2023+). כולל שאלות לאיתור המסלול שכדאי לבדוק, חלונות הגשה פתוחים וסגורים עם תאריך המקור, בדיקת יישוב למסלול האדום, מושגי תקופת בסיס שכדאי להעלות, מסמכים לשמור, דרכי השגה וערר וצעדים למי שכבר הגיש. אינו מציין סכום מענק: סכומים מגיעים רק מהסימולטור של רשות המסים. השתמשו כשבעל עסק, מנהל עמותה או מפעיל מעון שואל על פיצוי מלחמה, נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, או הגשה לרשות המסים. אל תשתמשו לנזק ישיר לרכוש (israeli-war-damage-claims), הגשת דמי אבטלה לעובד (israeli-unemployment-benefits-navigator), או פיצוי אישי למילואים (israeli-miluim-manager).",
+    "en": "Not tax advice. Claim guide for Israeli war indirect-damage compensation for businesses, eligible NPOs, and daycare operators, under Shaagat HaAri (March-April 2026), with routing for Iron Swords (Oct 2023+). Gives questions for finding the track to check, open and closed filing windows with source dates, the red-track locality check, base-period concepts to raise, documents to keep, objection and appeal routes, and steps for someone who already filed. States no grant amount: amounts come only from the Tax Authority simulator. Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, or filing with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
   },
   "tags": {
     "he": [
@@ -38,7 +38,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "category": "government-services",
   "supported_agents": [
     "claude-code",
@@ -53,12 +53,12 @@
   "volatility": "legislative",
   "authoritative_sources": [
     {
-      "url": "https://www.gov.il/he/pages/sa040526-2",
+      "url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
       "type": "regulator",
       "language": "he"
     },
     {
-      "url": "https://www.gov.il/he/service/compensation-indirect-damage",
+      "url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
       "type": "regulator",
       "language": "he"
     },
@@ -68,33 +68,18 @@
       "language": "he"
     },
     {
-      "url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari",
+      "url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
       "type": "regulator",
       "language": "he"
     },
     {
-      "url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "type": "statute",
-      "language": "he"
-    },
-    {
-      "url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
       "type": "regulator",
       "language": "he"
     },
     {
-      "url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
+      "url": "https://www.gov.il/he/service/compensation-indirect-damage",
       "type": "regulator",
-      "language": "he"
-    },
-    {
-      "url": "https://www.gov.il/he/departments/ministry_of_finance",
-      "type": "regulator",
-      "language": "he"
-    },
-    {
-      "url": "https://www.kolzchut.org.il",
-      "type": "knowledge-base",
       "language": "he"
     }
   ],

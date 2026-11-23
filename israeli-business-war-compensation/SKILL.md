@@ -1,6 +1,6 @@
 ---
 name: israeli-business-war-compensation
-description: "Not tax advice. Filing orientation for Israeli war indirect-damage compensation for businesses, NPOs, and daycare operators, covering Shaagat HaAri (March-April 2026) and Iron Swords (Oct 2023+). Explains the tracks, eligibility gates, the chalat rule, and the document checklist. Does not calculate a grant or confirm a deadline: amounts and dates here may be wrong, so it sends users to the Tax Authority simulator and official claim pages. Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, or filing with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
+description: "Not tax advice. Claim guide for Israeli war indirect-damage compensation for businesses, eligible NPOs, and daycare operators, under Shaagat HaAri (March-April 2026), with routing for Iron Swords (Oct 2023+). Gives questions for finding the track to check, open and closed filing windows with source dates, the red-track locality check, base-period concepts to raise, documents to keep, objection and appeal routes, and steps for someone who already filed. States no grant amount: amounts come only from the Tax Authority simulator. Use when a business owner, NPO admin, or daycare operator asks about נזק עקיף, מענק השתתפות בשכר, חל\"ת, מבצע שאגת הארי, or filing with the Tax Authority. Do NOT use for direct property damage (israeli-war-damage-claims), employee-side dmei avtala (israeli-unemployment-benefits-navigator), or personal reservist comp (israeli-miluim-manager)."
 license: MIT
 ---
 
@@ -10,183 +10,177 @@ license: MIT
 
 This is a free information tool operated by an AI model. It explains the rules, but it does not examine your full circumstances and does not constitute tax advice. All of its outputs are produced automatically, with no involvement, review, or approval by a tax adviser or accountant, and an AI model may err, omit data, or present a wrong conclusion. The binding computation is the Tax Authority's and responsibility for reporting is yours. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
 
-**Amounts and dates in this skill may be wrong. Versions 1.4.0 to 1.6.0 usually showed twice the correct amount. Do not rely on them.** Use the Tax Authority simulator and its official claim pages. If you already filed, check with the Tax Authority before changing or cancelling anything.
+**This guide states no grant amount and does not decide whether you are eligible.** Versions 1.4.0 to 1.6.0 usually showed twice the correct amount, so do not rely on any figure from them. Get the amount from the Tax Authority simulator. Recheck every date on the official page. If you already filed, check with the Tax Authority before changing or cancelling anything. Representation before the Tax Authority is reserved to those permitted by law.
 
 ## Problem
 
-When war disrupts an Israeli business, the rules for compensation for lost revenue, idled employees on חל"ת, and fixed costs are split across two parallel frameworks (Iron Swords 2023 and Shaagat HaAri 2026), four mutually exclusive tracks, and a maze of thresholds that depend on VAT filing cadence, business location, turnover size, and employee headcount. Filing under the wrong track or missing the 25% threshold by a single percentage point forfeits the claim for that period, and the choice is usually irreversible.
+War compensation for Israeli businesses is split across two frameworks, several tracks, and different filing windows. Choosing the wrong track or missing a date can cost a claim. This guide helps the user find what to check, when, and where.
 
 ## Instructions
 
-Agent instruction: never state a grant amount, or a filing, payment, objection or appeal deadline, from this skill, from memory or from an earlier version. Send the user to the simulator in the Tax Authority's online claim system and to the official page for their track.
+Agent rules: never state, estimate or compute a grant amount, rate or formula, from this skill, from memory or from an earlier version. Never tell a user that they are or are not eligible. Ask the questions below, name the track to check, and send the user to the simulator in the Tax Authority's online claim system and to the official page.
 
 ### Step 1: Identify the framework
 
-Two parallel frameworks operate today. Both rely on the same Property Tax & Compensation Fund Law, 1961 (חוק מס רכוש וקרן פיצויים, תשכ"א-1961), §§35-36, but each has its own hora'at sha'a (temporary order) regulations.
+- **Shaagat HaAri:** damage from March 2026, mainly the March-April 2026 period, with later periods on some tracks (Step 3), under the 2026 economic-assistance law (ספר החוקים 3525, §38לו onward) and Tax Authority Directive 07/2026.
+- **Iron Swords:** damage from 7 October 2023, under separate regulations for each period. Check the regulation for that period and the portal at https://www.gov.il/he/service/compensation-indirect-damage.
 
-| Framework | Damage period | Reference baseline |
+### Step 2: Questions for finding the track to check
+
+These questions point to a track to check. They do not decide eligibility.
+
+| Question | If yes, check | Official page |
 |---|---|---|
-| Iron Swords (תשפ"ד-2023) | From October 7, 2023 onward | Standard same-period prior-year |
-| Shaagat HaAri (March-April 2026) | March-April 2026 (תקופת הפגיעה 03-04/26) for an ordinary claimant. **Cash-basis filers (עוסק המדווח על בסיס מזומן) and קבלן ביצוע: the statute FIXES their qualifying period (תקופת הזכאות) at May and June 2026**, it does not merely "shift" it. | Same period 2025 (or 2023 for evacuated north) |
+| Is the business in Golan North, Upper Galilee, קו העימות, Katzrin or Kidmat Tzvi? | Special-area turnover, wage and agriculture tracks | https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion |
+| Is it in a border community (יישוב ספר)? | Red track (Step 4) | Same page |
+| Did direct war damage leave the premises unusable until at least 30.06.2026? | Direct-damage continuation (§38נא) | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june |
+| Could it meet the statutory definition of a cash-basis filer (עוסק המדווח על בסיס מזומן), or is it a registered קבלן ביצוע? | The May-June 2026 qualifying period (§38לו) | Ask the Tax Authority (Step 3) |
+| Is it elsewhere in Israel, with a turnover decline in March-April 2026? | Nationwide eligible-expenses track, including small businesses | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar |
 
-**The qualifying period is statutory, not portal guidance (§38לו, "תקופת הזכאות"), and has exactly two rows:**
+Also ask:
 
-| Claimant | תקופת הזכאות |
-|---|---|
-| Any claimant that is not a cash-basis filer | **March and April 2026** |
-| עוסק המדווח על בסיס מזומן, and קבלן ביצוע | **May and June 2026** |
+- **Opening date:** did the business open before 01.03.2026, and was the Tax Authority notified by 28.02.2026 (§38לז(א)(4))? The claim pages say opened by 27.02.2026, so a business opened on 28.02.2026 should ask the Tax Authority.
+- **Excluded classes:** the Act's definition of ניזוק (§38לו) excludes certain classes, including the State, kupot cholim, financial institutions, dealers in real-estate rights held as trading stock, and anyone whose occupation is agriculture outside the agriculture track. If one may apply, ask the Tax Authority.
+- **Cause of the decline (§38לז(א)(3)):** the decline must result from indirect damage. Was there a one-off sale in the base period, a lost major customer, a closed branch, a pre-war slowdown or shifted revenue? The Director may adjust for these (Directive s.4, s.10.4). Raise them with the Tax Authority or an adviser.
 
-"עוסק המדווח על בסיס מזומן" has three cumulative conditions: VAT liability on receipt of consideration (Chapter F of the VAT Law); the bulk of ongoing receipts arriving in the month FOLLOWING the transaction, or the claimant being a מוסד חינוך; and a turnover decline **below 40%** in the reporting period containing the התקופה הקובעת. Meeting the first two but declining 40% or more leaves the claimant on March-April. The wage qualifying period stays March-April 2026 for everyone, and the התקופה הקובעת is 01.03.2026 to 30.04.2026 throughout.
+Compare tracks in the simulator before choosing, because filing on the wrong one can cost you another route.
 
-**Filing windows are per-track. Do not quote a deadline from this skill.** Check the current date on the specific track's official gov.il page.
+### Step 3: Filing windows
 
-**Statutory anchors.** The Shaagat HaAri framework was passed in second and third readings on **4.5.2026** and published in **ספר החוקים 3525** as two parallel laws: חוק התוכנית לסיוע כלכלי (הוראת שעה) (סיוע לעסקים ולמוסדות ציבור), התשפ"ו-2026 (business-side, governs everything in this skill) and חוק התוכנית לסיוע כלכלי (הוראת שעה) (תעסוקה), התשפ"ו-2026 (employee-side, governs the chal"t dmei avtala flow, that's `israeli-unemployment-benefits-navigator`). Cite the published act, not the March 2026 draft framework, when communicating with the Tax Authority or in appeals.
+Status as of 23.11.2026. The source date is the "last updated" date on the official page. Recheck the page before relying on a date.
 
-**Dedicated portal for Shaagat HaAri eligible-expenses claims.** Use https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar for the March-April 2026 indirect-damage track. It is distinct from the general Iron Swords portal and the special-area portal (both in Step 6); filing under the wrong portal routes to the wrong adjudication track.
-
-Ask the user when their revenue loss occurred and route accordingly. Most live claims in 2026 still fall under Iron Swords for older damage periods.
-
-### Step 2: Check the four-gate eligibility test
-
-Reject early if any gate fails - the system rejects with no recourse.
-
-| Gate | Rule | If user fails |
-|---|---|---|
-| Business opened BEFORE 01.03.2026, and the Tax Authority notified of the opening by 28.02.2026 (§38לז(א)(4)) | HARD eligibility cliff. A business opened ON 28.02.2026 is INSIDE the cliff, not outside it: the statute's line is "לפני יום 1 במרץ 2026". Separately, a claimant is excluded if its business was not active before 01.03.2026 (presumed inactive if it failed to file two of its last three VAT returns, rebuttable), if it reported closing before that date, or if it reported zero turnover for the four preceding months. | Hard cliff |
-| Baseline formula | Opened before 01.01.2025: standard same-period prior-year baseline. Opened after 01.01.2025: total transactions from the opening date or 01.07.2025 (whichever is later) / active months, x2 (and x12 for the base year) | Not a cliff; the formula changes |
-| Annual turnover band | Between 12,000 NIS and 400,000,000 NIS | INELIGIBLE if outside band |
-| Turnover decline (Shaagat HaAri) | ≥ 25% drop over the **March-April 2026** combined period vs the base period (same two months of 2025, or 2023 for evacuated north). This 25% test applies to **both** monthly and bi-monthly VAT filers - a bi-monthly filer compares the full Mar-Apr two-month report, NOT a halved 12.5% threshold. | INELIGIBLE for wage/fixed-cost track |
-| Turnover decline (Iron Swords older periods) | Per the operative Iron Swords הוראת שעה for that qualifying period - check the active regulation text for the exact decline % and comparison window (do not assume the Shaagat HaAri 25% carries over). | INELIGIBLE for that period |
-
-**Excluded claimant classes (definition of "ניזוק", 12 limbs).** Screen BEFORE running any track: a business in one of these gets nothing even with a qualifying decline. The State; budgeted bodies and health corporations (s.21 Budget Foundations Law); kupot cholim; public institutions that are not a מוסד ציבורי זכאי; statutory corporations; financial institutions (banks and auxiliaries, insurers, exchange members, managing companies, fund managers); dealers in real-estate rights held as trading stock; businesses with over 50% of 2024 or 2025 work on projects running over a year (except a קבלן ביצוע); businesses that reported closure, zero turnover for the preceding four months, or inactivity before 01.03.2026; and **anyone whose occupation is agriculture** (farmers route to the dedicated agriculture track, not Step 4). Full list in `references/domain-checklist.md`.
-
-**Northern exception:** If the business is in an evacuated yishuv on the northern border (Galilee), compare against 2023 instead of 2025, AND the minimum decline gate is waived for the northern dedicated track.
-
-### Step 3: Pick the track (mutually exclusive)
-
-A business can file under only ONE track per damage period. Compare the tracks in the Tax Authority simulator.
-
-| Track | Who qualifies | What it pays | Filing form |
+| Track and period | Window | Status | Source |
 |---|---|---|---|
-| Red track §35 | Border-area yishuvei sfar (predefined list) | Use the Tax Authority simulator | Red-track form on gov.il/he/Departments/DynamicCollectors/compensation-tracks |
-| Small business continuity grant (מענק המשכיות עסקית) | Turnover ≤ 300,000 NIS | Use the Tax Authority simulator | Small-business form (separate flow) |
-| Nationwide turnover/wage track | Turnover 300,000 NIS to 400M NIS, decline EXCEEDING 25% (monthly and bi-monthly alike) | Use the Tax Authority simulator. A partial advance is available via the nationwide non-border advance portal | תביעת פיצויים נזק עקיף on gov.il/he/service/compensation-indirect-damage |
-| Special-area track | Specific yishuvim outside the red list but designated as special | Use the Tax Authority simulator | Same portal, marked as special area |
+| Nationwide, March-April | to **15.10.2026** | Closed | Claim page, updated 11.08.2026 |
+| Direct-damage continuation, May-June | 17.08 to **17.11.2026** | Closed | May-June page, updated 17.08.2026 |
+| Direct-damage continuation, July-August | Statutory default 16.09 to **15.12.2026**; no form found | If it may apply, send a written request now | §38לט(א), §38נא(ג) |
+| Direct-damage continuation, September-October | Statutory default 16.11.2026 to **14.02.2027**; no form found | If it may apply, send a written request now | §38לט(א), §38נא(ג) |
+| Cash-basis filers and קבלן ביצוע, May-June | Statutory default 16.07 to **14.10.2026**; no separate or extended date found | Default date has passed. Ask in writing now and request an individual extension | §38לט(א), §38לט(ב)(2) |
+| Special area: turnover or agriculture, March-April | to **15.10.2026** | Closed | Special-area page, updated 16.08.2026 |
+| Special area: turnover or agriculture, May-June | to **31.12.2026** | **Open** | Special-area page, updated 16.08.2026 |
+| Special area: wage, March-April | to **31.12.2026** | **Open** | Special-area page, updated 16.08.2026 |
+| Red track, 01.03-30.06.2026 | to **31.12.2026** | **Open** | Special-area page, updated 16.08.2026 |
 
-### Step 4: Get the amount from the Tax Authority simulator
+- **Special-area wage track:** the page limits it to employees absent to supervise a child up to 14 whose education institution in the special area closed under Home Front Command instructions; employees with a disability, or with a relative with a disability, who live in the special area; and employees of an education institution in the special area that closed under those instructions.
+- **Direct-damage continuation:** each of July-August and September-October also requires at least 15 unusable days in that period (§38נא(א)(2)). If no form is open, write through the Tax Authority's indirect-damage inquiry system (Go.gov.il/NezekAkif) before the default date, ask how to file, and in the same message expressly request an individual extension under §38לט(ב)(2) in case no form is open by that date. An inquiry alone does not stop the clock. Keep the confirmation. An individual on this track should also ask, in the same request, about the additional compensation under §38נב and how to claim it.
+- **Missed date:** an individual extension may be requested for special reasons, up to 18 months in total (§38לט(ב)(2)), ordinarily before the date. After the date it is approved only in exceptional cases, such as illness, and not for negligence or a missed date. Never promise it.
 
-This skill does not calculate a grant amount. Send the user to the simulator in the Tax Authority's online claim system. `scripts/calc_grant.py` prints no amount and points to the simulator.
+### Step 4: Red-track check through the official lists
 
-### Step 5: Stack with reservist & employee-side benefits (additive, not exclusive)
+Open https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion and look under the heading "מסלול אדום".
 
-Three additional grants stack ON TOP of the indirect-damage track:
+1. Search by part of the locality name, because spellings vary between lists.
+2. Border communities on "רשימת יישובי קו העימות" are listed for all sectors.
+3. Elsewhere in the defense areas, and in Golan North and Kidmat Tzvi, the page limits the red track to border-community tourism and agriculture businesses. A tourism list is published. No agriculture list is published, so a farm should ask the Tax Authority before ruling the track out.
+4. A locality listed only for the special-area tracks, such as Akko, has no all-sector red-track access.
+5. If the locality is not found, ask the Tax Authority (*4954). Do not rely on other sites, because some list Iron Swords localities.
 
-1. **Employee חל"ת dmei avtala** (Treasury 30.03.2026, finalized by Knesset 4.5.2026): employees on continuous unpaid leave are paid for ALL days from day one once they clear a bifurcated minimum, **5 consecutive days only if the חל"ת started 28.2.2026 or 1.3.2026**, **10 consecutive days** for any later onset (5.5.2026 amendment). The employee files at btl.gov.il; the employer hands over a signed `הסכם חל"ת` and files Form 100 with exact start and end dates, and שירות התעסוקה registration is required. For payment timing, waiting-period and vacation-day mechanics, check the Bituach Leumi Shaagat HaAri page and `israeli-unemployment-benefits-navigator`.
-2. **Employer reservist compensation** - check the amount and conditions with Bituach Leumi.
-3. **Self-employed reservist grant** (for owner who served themselves, separate from this skill's main scope) - covered in `israeli-miluim-manager`.
+### Step 5: Concepts to raise with the simulator or an adviser
 
-### Step 6: Generate the filing checklist
+Each of these can change the comparison the Tax Authority uses. This guide does not compute them.
 
-Output a documentation pack the user must assemble before opening the gov.il filing.
+- **2023 base (עוסק מיוחד, §38לו):** a business in a locality evacuated under a government decision in force to the end of February 2025, or one that hosted evacuees in 2025 under an engagement with the State, may meet the definition of עוסק מיוחד. For that status the Act sets the parallel period in 2023 as the base period, with different rules by opening date. It is not a free choice. Check it in the simulator or with the Tax Authority.
+- **Alternative base (§38נ):** a self-employed claimant whose base period was affected by reserve duty or a maternity-related absence, or a self-employed woman whose spouse served in reserve duty, may ask for an alternative period. Mark the alternative-period box in the claim form and attach supporting documents, otherwise the claim is computed on the actual reports (Directive s.14.32).
+- **New business:** a business opened on or after 01.01.2025 has its own base rules, and an עוסק מיוחד has earlier opening-date cutoffs (§38לו).
+- **Cash-basis method:** it is optional and chosen when filing. After filing under one reporting method you cannot later ask to be examined under another (Directive s.10.9).
+- **Nonprofit:** check the definition of מוסד ציבורי זכאי in §38לו. An institution outside it should check the separate support program in section 7 of the Act.
+- **Daycare or kindergarten:** parent refunds count only on the conditions of Directive s.10.11, including a registered kindergarten or daycare branch, credit notes issued in May-June 2026, an attached affidavit that tuition was returned in money only and not through substitute days, offset, future credit or money's worth, and, for a claim filed from July 2026, a late self-invoice and corrected VAT reports through the regional VAT office. If you gave future credit, do not sign the affidavit: ask the Tax Authority or an accountant first. In the claim, mark the kindergarten branch (גני ילדים) and the cash-basis method (מדווח על בסיס מזומן), because the method cannot be changed after filing (Directive s.10.9, s.10.11). This route uses the cash-basis May-June row in Step 3: its default date has passed, so ask in writing now and request an individual extension. Do not rely on the special-area 31.12.2026 date for this route without written confirmation from the Tax Authority.
 
-**Required documents (all tracks):**
-- VAT report 1301 (`דוח עוסק`) for reference period and claim period
-- Profit & loss statement for the reference year
-- ניהול ספרים (revenue books) for both periods
-- Bank statements covering both periods
-- Business registration confirmation (תעודת עוסק) showing the business opened before 01.03.2026 and was notified to the Tax Authority by 28.02.2026
+### Step 6: Get the amount from the simulator
 
-**Wage track only:**
-- Form 102 (`טופס 102`) - payroll declaration for claim-period months
-- Employee CSV: ID, name, gross monthly wage in claim period
-- For each employee placed on חל"ת: signed `הסכם חל"ת` with start/end dates
+Send the user to the simulator in the Tax Authority's online claim system. It is the only source of an amount in this guide. If the user cannot find it, tell them to ask the Tax Authority (*4954). Do not estimate an amount by hand.
 
-**Fixed-cost track only:**
-- Invoices or contracts for: rent, electricity, leasing, recurring SaaS, communications
+### Step 7: Documents to keep ready
 
-**Submission:**
-- Tax Authority online portal for Shaagat HaAri eligible-expenses track (March-April 2026): gov.il/he/service/claim-compensation-indirect-damage-rions-roar
-- Tax Authority online portal for Iron Swords general nationwide track: gov.il/he/service/compensation-indirect-damage
-- Tax Authority special-area portal (north / specific yishuvim): gov.il/he/service/claim-compensation-indirect-damage
-- Advance request, nationwide (businesses across the country EXCEPT קו העימות border settlements): gov.il/he/service/request-for-dvance-dealers-shaagat-haari
-- Advance request, border settlements (יישובי ספר / קו העימות): gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion
-- Hotline: *4954 (Tax Authority)
-- Email: nezekakif@taxes.gov.il
+On the nationwide and special-area turnover, wage and agriculture tracks, claimants generally do not need to attach documents unless the Tax Authority lacks the information, but it may ask for more. Two tracks differ:
 
-### Step 7: Communicate the cash-flow schedule
+- **Direct-damage continuation:** for May-June the page required a track-opening request before filing, confirmation that the premises were unusable until at least 30.06.2026, and arnona bills or the exemption. Ask whether the same applies to later periods.
+- **Red track:** the claim must show the damage and its cause. Prepare the damage calculation, profit and loss statements, supporting proof and a description of the circumstances, and confirm the current list on the official page. A general Kol Zchut page on the red track says damage should be notified to the Compensation Fund within two weeks. The official 2026 page does not mention this. If you gave no notice, ask the Tax Authority in writing now how this affects your claim, and do not delay filing.
 
-Do not promise a payment date, an advance percentage, or approval if no decision is issued. Check the official claim page and follow up with the Tax Authority in writing.
+**Before filing, confirm that the VAT reports for the base and claim periods and the required Form 102 reports were actually submitted.** On the statutory tracks, submission by the day of the claim is a condition where you were required to file them (§38לז(א)(5)). If one is missing, submit it first and ask the Tax Authority how this affects your track.
 
-### Step 8: Plan for the tax bill on the grant
+For every track, keep ready:
 
-The grant is `פיצוי פירותי` - revenue-substituting compensation. It is taxable as ordinary business income at the recipient's marginal rate, reported on the annual return for the year of receipt. A business owner who treats it as windfall and doesn't reserve for tax can lose 30-47% of the grant to mas hachnasa surprise.
+- VAT reports for the base and claim periods
+- Profit and loss statement and books for those periods
+- Bank statements
+- Business registration and the date the Tax Authority was notified of the opening
+- Form 102 payroll reports, and a list of employees for the claim period
+- For each employee on חל"ת: the signed `הסכם חל"ת` and Form 100, with the actual dates
+- Records of any private insurance payout. Ask the Tax Authority before filing whether and how to report it
+- Proof for any alternative base or special status (Step 5)
 
-Surface this proactively. Suggest the owner top up מקדמות (advance tax payments) for the year, or apply for `פריסה` (income spreading) if the grant is large relative to typical annual income.
+The grant is taxable income and is reported on the annual return for the year it is received, not in the periodic VAT reports (Directive s.18). Raise this with an accountant.
 
-### Step 9: Appeals if rejected or under-paid
+### Step 8: After filing
 
-Do not state an objection or appeal deadline, or an appeal route, from this skill. Read the decision letter and the official page for the track immediately, and check with the Tax Authority. Flag this immediately to any user with a denial or partial approval.
+- **21 and 150 days:** if no decision has been issued, an advance may be paid at the Director's discretion (§38מא).
+- **8 months (claims under §38לט):** if no decision is issued, the claim is deemed accepted (§38מ(א)). If the Director asks for details this can be extended by up to 30 days, and time until they are supplied does not count (§38מ(ג)). On every other track, do not assume approval: follow up in writing.
+- Deemed acceptance does not make an overstated amount safe: any excess paid can still be demanded back.
+
+### Step 9: Objection and appeal
+
+| Track | First step | Next step |
+|---|---|---|
+| Nationwide, direct-damage continuation, and special-area turnover, wage and agriculture | השגה to a Tax Authority employee the Director authorised, within **60 days** of receiving the decision (§38מז(א)(1)) | ערר to the appeals committee at the Ministry of Justice, within **60 days** of delivery of the objection decision (§38מז(ב), §38מח) |
+| Red track | No השגה | ערר to the appeals committee at the Ministry of Justice, within **30 days** of delivery of the decision |
+
+Request any objection extension before the deadline, with reasons and documents. A late request is approved only in exceptional cases. Do not assume another inquiry to the Tax Authority stops the clock.
+
+### Step 10: If you already filed
+
+Anyone who filed using a figure from versions 1.4.0 to 1.6.0 should check the amount in the simulator and with the Tax Authority.
+
+- **Risk:** an over-claim can carry a fine. For the general fine, the Act lets you show the Director that you were not negligent (§38מה). Keep your calculation and records, and raise this in any objection. Excess paid must be repaid within 90 days of a demand, with linkage and interest (§38מג). An objection or appeal does not delay repayment (Directive s.14.29).
+- **No payment yet and no inspector review:** a claim can be cancelled and refiled once (Directive s.14.4). Do not cancel without written Tax Authority confirmation that a refile will be accepted. Ask immediately, because payment is largely automatic and a payment ends this option.
+- **Advance or full payment received:** write to the Tax Authority with the corrected figure.
+- **Determination issued:** the Director may correct it on his own initiative or on your demand within four years, if new facts emerged or it contains an error (§38מ(ב)). This does not replace an objection: to dispute a determination or a fine, file an objection within 60 days of receiving the decision (§38מז(א)(1)). On the red track there is no objection and the appeal is due within 30 days.
 
 ## Recommended MCP Servers
 
 | MCP | Why it pairs with this skill | Install |
 |---|---|---|
-| `kolzchut` (All-Rights / כל-זכות) | Authoritative entitlements knowledge base; covers business compensation, reservist owner grant, חל"ת mechanics with regulator citations | `npx skills-il add skills-il/kolzchut --skill kolzchut` |
+| `kolzchut` (All-Rights / כל-זכות) | Entitlements knowledge base with regulator citations | `npx skills-il add skills-il/kolzchut --skill kolzchut` |
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |---|---|---|
-| Tax Authority filing portal (Iron Swords nationwide) | https://www.gov.il/he/service/compensation-indirect-damage | Filing form name, registration prerequisite, contact channels |
-| Tax Authority filing portal (Shaagat HaAri eligible-expenses, March-April 2026) | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar | Dedicated portal for the "מסלול הוצאות מזכות" Shaagat HaAri 2026 track, eligibility band 12,000-400M NIS, ≥25% decline test |
-| Tax Authority nationwide advance request (Shaagat HaAri) | https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari | Partial pre-claim advance for businesses across the country EXCEPT קו העימות border settlements. Border settlements use a separate frontier advance page (pay-advances-to-business-owners-in-frontier-roaring-lion) |
-| Knesset passage announcement (4.5.2026) | https://www.gov.il/he/pages/sa040526-2 | Confirms final approval of both Shaagat HaAri assistance laws (ספר החוקים 3525) |
-| Kol-Zchut: Shaagat HaAri business owner Q&A | https://www.kolzchut.org.il/he/שאלות_ותשובות_לעצמאים_ובעלי_עסקים_במהלך_המלחמה_מול_איראן_(מבצע_שאגת_הארי) | Plain-language coverage of eligibility, halat 5/10-day bifurcation, cross-references to specific regulations |
-| Tax Authority track index | https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks | Track exclusivity rules |
-| Economic Assistance Law (Shaagat HaAri), 2026 - the operative statute | https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf | §38לו definitions, §38לז small business, §38מא advances, §38מז-מח appeals |
-| Property Tax & Compensation Fund Law | https://www.nevo.co.il/law_html/law01/273_001.htm | Statutory definitions, §§35-36 indirect damage, §38ל ועדת ערר for indirect damage (§29 is the general property-tax appeals committee, not the indirect-damage one) |
-| Bituach Leumi (Shaagat HaAri page) | https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx | Bifurcated 5/10-day חל"ת rule, dmei avtala mechanics, employer reservist comp filing |
-| Treasury Ministry (אגף דוברות) framework briefs | https://www.gov.il/he/departments/ministry_of_finance | 30.03.2026 "מתווה פיצויים למשק" brief |
+| Economic Assistance Law, 2026 | https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf | §38לו onward |
+| Tax Authority Directive 07/2026 | https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf | Official rules |
+| Nationwide claim page | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar | March-April window |
+| Special-area and red-track page | https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion | Tracks, lists, windows, appeals |
+| Direct-damage continuation page | https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june | May-June window |
+| Iron Swords portal | https://www.gov.il/he/service/compensation-indirect-damage | Older damage periods |
+| Bituach Leumi Shaagat HaAri page | https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx | חל"ת and employer issues |
 
 ## Gotchas
 
-1. **Track exclusivity is per damage period, not per business.** Choose the wrong track and the entire period's claim is forfeit (no reverting). Compare the tracks in the Tax Authority simulator.
-2. **The 25% threshold is a hard cliff, not a sliding scale.** A business at 24.9% decline gets nothing under the wage/fixed-cost track. Note: under Shaagat HaAri the 25% test is the SAME for monthly and bi-monthly filers (the bi-monthly filer compares the full March-April period) - do not apply a halved 12.5% bi-monthly threshold, which was a mistaken carryover from earlier framework drafts.
-3. **Northern evacuated businesses use 2023 baseline AND have the decline floor waived** - but only on the dedicated northern track. If the agent files under the standard nationwide track, the 2023 baseline does NOT apply and the claim under-pays.
-4. **The grant is taxable ordinary income.** Owners frequently spend an advance and get hit by a marginal-rate tax bill (up to 47% for high earners) on the annual return. Always surface this in the output.
+1. **Never state an amount.** The simulator is the only source, including for someone asking for a rough figure.
+2. **Never decide eligibility.** Say which track to check and where.
+3. **A closed nationwide window does not end the analysis for a northern business.** Check the special-area and red tracks, some open to 31.12.2026.
+4. **The red track has no objection and a 30-day appeal.** Flag this immediately to anyone with a red-track decision.
+5. **Do not suggest changing the dates of a leave that has already ended.** Form 100 and the `הסכם חל"ת` must state the actual dates.
 
 ## Troubleshooting
 
-### Issue: User's turnover decline is 20% - close to the threshold but below
+### Issue: User asks how much they will get
 
-The gate is statutory: the decline must EXCEED 25% (not merely reach it), and it applies to monthly and bi-monthly filers alike. **There is no fallback track for a business under the gate.** The small-business (up to 300K) track does NOT waive it: §38לז(ב) grants those amounts only "ובלבד שמתקיימים... התנאים בפסקאות (2) עד (6) שבסעיף קטן (א)", and (a)(2) is the decline test. Telling a 20%-decline business to file the small-business track sends them into a claim that cannot succeed. The one genuine avenue: if the claimant is a cash-basis filer (עוסק המדווח על בסיס מזומן) or a קבלן ביצוע, its statutory qualifying period is **May and June 2026**, not March-April, so a business that looks flat in March-April may still show a qualifying decline over May-June. Check the three cumulative conditions of the cash-basis definition first, in particular that the decline in the reporting period containing March-April was below 40%. If the claim is for an older Iron Swords damage period, check that regulation's own threshold.
+Do not estimate. Send them to the simulator in the Tax Authority's online claim system (Step 6).
 
-### Issue: Employee was on חל"ת for 8 days
+### Issue: User's decline looks too small
 
-The Shaagat HaAri minimum is **bifurcated** (effective 5.5.2026 amendment): **5 consecutive days** if the chal"t started on 28.2.2026 or 1.3.2026 (the first two war days only); **10 consecutive days** for chal"t starting any later date. Once the applicable threshold is crossed, dmei avtala covers ALL days from day one (no waiting period). Eight days fails BOTH gates if the chal"t started after 1.3.2026 (needs 10) and would also fail the 5-day gate if not in the early-onset window. Recommend the employer extend the leave to 10 consecutive days for the general case, or fall back to standard dmei avtala rules (30-day default with five-day waiting period) if eligible. Splitting the leave (e.g., 5 days off, 2 days back, 5 days off) does NOT aggregate; each block is evaluated separately and must independently clear its applicable threshold.
+Do not conclude that there is no route. Check the base-period concepts (Step 5) and the northern tracks (Step 2), then use the simulator and ask the Tax Authority.
 
-### Issue: Business opened 15.01.2025 - newer than the standard pre-01.01.2025 cohort
+### Issue: Employee was on חל"ת
 
-Eligible, but the baseline formula changes. For a business opened after 01.01.2025 the base turnover is: total transactions from the opening date (or 01.07.2025, whichever is LATER), divided by the number of active months, x2 for the two-month eligible period (and x12 for the base year). Apply the decline test against that alternate baseline. The one genuine cliff is different: the business must have OPENED before 01.03.2026 and notified the Tax Authority of the opening by 28.02.2026, or it cannot claim at all. A business opened on 28.02.2026 still clears that cliff.
+The employee files with Bituach Leumi. Use `israeli-unemployment-benefits-navigator` for the employee's rules. The employer keeps the signed agreement and Form 100 with the actual dates.
 
-### Issue: User received private business interruption insurance payout
+### Issue: User received a private insurance payout
 
-User must disclose private claims in the gov.il filing. Verify the user's specific policy language with their insurance broker; war-risk coverage varies significantly between Israeli BI products.
-
-### Issue: Caller represents a nonprofit (עמותה / מלכ"ר), not a for-profit business
-
-Per the Treasury brief (30.03.2026), an עמותה qualifies for the same compensation framework if at least 25% of its turnover is "income from activity" (הכנסה מפעילות). Use the standard Step 2 eligibility gates and Step 3 track routing. NPOs that fail the 25%-from-activity threshold but were nonetheless harmed by war restrictions get a separate dedicated grant program coordinated by Treasury and the Ministry of Culture & Sport; refer the caller to the live gov.il announcement rather than the standard indirect-damage flow.
-
-### Issue: Caller operates a daycare (מעון יום / גן ילדים פרטי / משפחתון / מעון סמל)
-
-Three paths exist: the turnover-drop track (parent refunds count as a turnover decline), the small-operator path (turnover up to 300,000 NIS), and חל"ת for staff. Paths 1 and 3 combine; the small-operator path is exclusive. Full detail, including what the State can and cannot require of the operator, is in `references/claimant-paths.md`.
-
-### Issue: Caller is in an evacuated northern border yishuv (קו העימות צפון)
-
-Three mutually exclusive tracks: מסלול מחזורים, מסלול אדום, and מסלול חקלאות. Compare the applicable ones in the Tax Authority simulator. A border business does NOT use the nationwide advance portal; it has its own frontier portal.
+Keep the records and ask the Tax Authority before filing whether and how to report it. Check the policy language with the broker.
 
 ## Bundled Resources
 
-- `references/domain-checklist.md` - pointer to the earlier coverage map
-- `references/red-track-yishuvim.md` - list of border-area yishuvim eligible for §35 red track
-- `scripts/calc_grant.py` - prints no amount and points to the Tax Authority simulator
+- `references/red-track-yishuvim.md` - how to run the red-track check on the official page
+- `references/domain-checklist.md` - coverage map for future updates

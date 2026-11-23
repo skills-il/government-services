@@ -4,135 +4,6 @@
   "generated_at": "2026-08-19T00:00:00Z",
   "claims": [
     {
-      "claim_id": "turnover-band-12000-400m",
-      "claim": "Eligible business turnover band: 12,000 NIS to 400,000,000 NIS / 12,000 ש\"ח עד 400 מיליון ש\"ח / 12,000 שקל ל-400 מיליון שקל / 12,000 NIS to 400M NIS annual turnover",
-      "source_url": "https://bitancpa.com/knowledge/business-grants-operation-shaagat-haari-2026",
-      "raw_snippet": "מחזור שנתי: מעל 12,000 ש\"ח ועד 400 מיליון ש\"ח",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "decline-threshold-25-monthly",
-      "claim": "Minimum turnover-decline threshold is 25% over the March-April 2026 period vs the base period (March-April 2025); 25 percent / 25%",
-      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "העסק חווה ירידה במחזור העסקאות של לפחות 25% בחודשים מרץ-אפריל 2026, ביחס לתקופת הבסיס (מרץ-אפריל 2025)",
-      "fetched_at": "2026-07-06T10:47:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "decline-threshold-25-bimonthly",
-      "claim": "Under Shaagat HaAri the minimum turnover-decline threshold is 25% for bi-monthly filers too, comparing the full March-April 2026 two-month period vs the base period (March-April 2025); there is no halved 12.5% bi-monthly gate",
-      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "העסק חווה ירידה במחזור העסקאות של לפחות 25% בחודשים מרץ-אפריל 2026, ביחס לתקופת הבסיס (מרץ-אפריל 2025)",
-      "fetched_at": "2026-07-06T10:47:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "turnover-band-mako",
-      "claim": "Eligible business: annual turnover between 12,000 NIS and 400 million NIS in base year Written in the skill as 12,000 ש\"ח to 400,000,000 ש\"ח / 300,000 ש\"ח small-business cut-off.",
-      "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
-      "raw_snippet": "זכאות ניתנת לעסקים בכל הארץ שמחזורם בשנת הבסיס היה בין 12,000 שקלים ל-400 מיליון שקלים",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "small-business-300k-threshold",
-      "claim": "Small business continuity grant track applies to businesses with turnover 12,000 to 300,000 NIS / ש\"ח / שקל; tiered by depth of turnover decline",
-      "source_url": "https://www.mako.co.il/finances-money/Article-7d1494afa53fd91026.htm",
-      "raw_snippet": "עסקים שמחזורם 12,000 עד 300,000 שקלים, המענק מדורג לפי עומק הירידה במחזור",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "advance-portal-nationwide",
-      "claim": "Nationwide advance portal (request-for-dvance-dealers-shaagat-haari) is scoped to businesses across the country EXCEPT קו העימות (confrontation-line) settlements; a partial advance is paid before the full claim",
-      "source_url": "https://www.gov.il/he/service/request-for-dvance-dealers-shaagat-haari",
-      "raw_snippet": "בקשה למקדמה עבור עוסקים בכל הארץ (מלבד יישובי קו העימות) בשל מבצע \"שאגת הארי\"",
-      "fetched_at": "2026-07-06T11:13:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/red-track-yishuvim.md"
-      ]
-    },
-    {
-      "claim_id": "halat-10-day-rule",
-      "claim": "Chalat (חל\"ת) minimum 10 consecutive days under Shaagat HaAri (vs default 30 days). Once 10-day gate is crossed, dmei avtala paid from day one with no waiting period. Applies to chalat begun later in operation; bifurcated 5-day rule applies to onset 28.2/1.3.2026",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%A9%D7%94%D7%95%D7%A6%D7%90%D7%95_%D7%9C%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%9C%D7%9C%D7%90_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_(%D7%97%D7%9C%22%D7%AA)_%D7%91%D7%9E%D7%94%D7%9C%D7%9A_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "לגבי מי שיצא לחל\"ת במועד מאוחר יותר - החופשה הינה למשך לפחות 10 ימים רצופים",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ]
-    },
-    {
-      "claim_id": "halat-5-day-rule-bifurcated",
-      "claim": "Bifurcated chalat rule: 5 consecutive days for employees placed on chalat in first two days of operation (from 28.2.2026 or 1.3.2026); 10 consecutive days for later onset. The 5-day rule was added by Knesset legislation effective 5.5.2026",
-      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
-      "raw_snippet": "מי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה (מ-28.2.2026 או מ-1.3.2026) והיה בחל\"ת למשך חמישה ימים או יותר",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "halat-5-day-rule-kolzchut",
-      "claim": "Kolzchut confirms 5-day chalat rule: employees who went on chalat during first two days of war (from 28.2.2026 or 1.3.2026) qualified at 5+ consecutive days",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%A9%D7%94%D7%95%D7%A6%D7%90%D7%95_%D7%9C%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%9C%D7%9C%D7%90_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_(%D7%97%D7%9C%22%D7%AA)_%D7%91%D7%9E%D7%94%D7%9C%D7%9A_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "לגבי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה (מ-28.2.2026 או מ-1.3.2026) - החופשה היתה למשך לפחות חמישה ימים רצופים",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "eligible-expenses-portal-url",
-      "claim": "Tax Authority indirect-damage Shaagat HaAri eligible expenses filing portal: gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2025 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף",
-      "fetched_at": "2026-08-09",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "filing-portal-url",
-      "claim": "Kol-Zchut documents the small-business (turnover up to 300,000 NIS) Shaagat HaAri grant track and the 25% turnover-decline gate for March-April 2026 vs March-April 2025.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A2%D7%93_300%2C000_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "בעלי עסקים בכל הארץ, שחוו ירידה של לפחות 25% במחזור ההכנסות שלהם בחודשים מרץ-אפריל 2026 לעומת מרץ-אפריל 2025 כתוצאה ממבצע שאגת הארי והם עומדים בתנאי הזכאות, זכאים למענק",
-      "fetched_at": "2026-08-09",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "tax-authority-hotline-4954",
       "claim": "Tax Authority hotline for indirect damage business compensation: *4954",
       "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
@@ -140,309 +11,41 @@
       "fetched_at": "2026-11-23",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/red-track-yishuvim.md"
+        "SKILL_HE.md"
       ],
       "verified_via": "browser",
       "verified_at": "2026-11-23"
-    },
-    {
-      "claim_id": "nevo-law-url",
-      "claim": "The Property Tax and Compensation Fund Law, 5721-1961 chapter 8 (compensation) opens at section 35 with the definitions, including \"ישוב ספר\" (border-area settlement) designated by the Finance Minister with Knesset Finance Committee approval.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "\"ישוב ספר\" - ישוב ששר האוצר, באישור ועדת הכספים של הכנסת, הודיע עליו שהוא ישוב ספר [1] , וכן אזור ששר האוצר, באישור ועדת הכספים של הכנסת, הודיע עליו שהוא ישוב ספר לתקופה קצובה שקבע;",
-      "fetched_at": "2026-08-09",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/red-track-yishuvim.md"
-      ]
-    },
-    {
-      "claim_id": "btl-shaagat-page-url",
-      "claim": "Bituach Leumi \"Shaagat HaAri\" running-updates page, covering the chalat framework (passed in the Knesset on 31.3.2026), medical committees and service channels",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasa2026saagathaaryiran.aspx",
-      "raw_snippet": "מתווה החל\"ת הוסכם ועבר הצבעה בכנסת, בתאריך ה-31.3.2026.",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ],
-      "verified_via": "curl -sSL --compressed (btl.gov.il serves static HTML); page publish date 19.04.2026",
-      "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "treasury-ministry-url",
-      "claim": "gov.il Ministry of Finance (משרד האוצר) department landing page; the ministry is responsible for setting and executing Israel's economic policy, and its press-release feed is where war-assistance framework briefs are published.",
-      "source_url": "https://www.gov.il/he/departments/ministry_of_finance",
-      "raw_snippet": "משרד האוצר אחראי לקביעת המדיניות הכלכלית בישראל ולביצועה. המשרד קובע את מדיניות השכר והסכמי העבודה במגזר הציבורי ומפקח על גופים מרכזיים בשוק ההון.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ],
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "kolzchut-base-url",
-      "claim": "Kol-Zchut (All-Rights) knowledge base root URL for plain-language entitlement entries",
-      "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "kolzchut.org.il",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json",
-        "references/red-track-yishuvim.md"
-      ]
-    },
-    {
-      "claim_id": "mako-framework-summary-url",
-      "claim": "Mako N12 framework summary URL for Shaagat HaAri compensation",
-      "source_url": "https://www.mako.co.il/news-money/2026_q1/Article-79d26c770b1ec91027.htm",
-      "raw_snippet": "ירידה של יותר מ-25% בהכנסות בחודש מרץ 2026 לעומת מרץ אשתקד",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "compensation-tracks-master-url",
-      "claim": "Tax Authority indirect-damage compensation track index lives at gov.il/he/Departments/DynamicCollectors/compensation-tracks. URL recorded as a pointer only, its body is not machine-readable.",
-      "source_url": "https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks",
-      "raw_snippet": "https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/red-track-yishuvim.md"
-      ],
-      "verified_via": "not verifiable by fetch: the gov.il DynamicCollectors route is behind Cloudflare and returns HTTP 403 (\"Attention Required! | Cloudflare\") to curl and to the gov.il content API alike. The compensation framework itself is evidenced separately from the readable service page gov.il/he/service/compensation-indirect-damage.",
-      "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "compensation-indirect-damage-portal",
-      "claim": "Tax Authority indirect-damage (nationwide, Iron Swords) compensation filing portal: gov.il/he/service/compensation-indirect-damage, for businesses with base-year (2022) turnover from 12,000 to 400,000,000 NIS.",
-      "source_url": "https://www.gov.il/he/service/compensation-indirect-damage",
-      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2022 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף - הנזק הכלכלי שנגרם לעסק בשל תשלום הוצאות קבועות ותשלום שכר כתוצאה ממלחמת חרבות ברזל.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "metadata.json"
-      ],
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "small-business-fast-track-url",
-      "claim": "Kol-Zchut entry for small business continuity grant (turnover ≤ 300,000 NIS) under Shaagat HaAri",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A7%D7%98%D7%A0%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%97%D7%96%D7%95%D7%A8_%D7%A2%D7%93_300,000_%D7%A9%22%D7%97_%D7%A2%D7%9C_%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "דף זה עוסק עסקים שמחזור הפעילות שלהם בשנת 2025 היה בין 12,000 ₪ - 300,000 ₪",
-      "fetched_at": "2026-11-23",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-11-23",
-      "verified_via": "browser"
-    },
-    {
-      "claim_id": "halat-kolzchut-source-url",
-      "claim": "Kol-Zchut entry for chalat dmei avtala during Shaagat HaAri (5/10 day rules and operative dates)",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%90%D7%91%D7%98%D7%9C%D7%94_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%A9%D7%94%D7%95%D7%A6%D7%90%D7%95_%D7%9C%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%9C%D7%9C%D7%90_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_(%D7%97%D7%9C%22%D7%AA)_%D7%91%D7%9E%D7%94%D7%9C%D7%9A_%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99",
-      "raw_snippet": "החופשה הינה למשך לפחות 10 ימים רצופים",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "halat-btl-source-url",
-      "claim": "Bituach Leumi Shaagat HaAri chalat page covering the 5/10-day chalat rule and 28.2/1.3.2026 onset dates",
-      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
-      "raw_snippet": "מי שיצא לחל\"ת במהלך היומיים הראשונים של המלחמה",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "knesset-passage-gov-url",
-      "claim": "Gov.il Tax Authority news page (sa040526-2) announcing that the Shaagat HaAri business-assistance framework received final Knesset approval.",
-      "source_url": "https://www.gov.il/he/pages/sa040526-2",
-      "raw_snippet": "המתווה, שגובש על ידי משרד האוצר ורשות המסים, אשר הוכיח את יעילותו במתן ודאות למשק ובשמירה על רציפות הפעילות הכלכלית בתקופות חירום אושר היום באופן סופי בכנסת.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "eligible-expenses-portal-shaagat-url",
-      "claim": "Gov.il service page for the Shaagat HaAri eligible-expenses (March-April 2026) indirect-damage compensation claim portal (rions-roar route), for businesses with base-year (2025) turnover from 12,000 to 400,000,000 NIS.",
-      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
-      "raw_snippet": "שירות זה מאפשר לעסקים ברחבי הארץ, שמחזור עסקאותיהם בשנת 2025 הוא מ- 12,000 ₪ ועד 400,000,000 ₪, להגיש תביעת פיצויים עבור נזק עקיף - הנזק הכלכלי שנגרם לעסק בשל תשלום הוצאות קבועות ותשלום שכר כתוצאה ממבצע \"שאגת הארי\".",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "advance-portal-frontier",
-      "claim": "Border/frontier settlements (יישובי ספר, אזור התגוננות קו העימות) have a SEPARATE advance portal: pay-advances-to-business-owners-in-frontier-roaring-lion",
-      "source_url": "https://www.gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion",
-      "raw_snippet": "בקשה לתשלום מקדמות לבעלי עסקים ביישובי ספר באזור התגוננות קו העימות בשל מבצע שאגת הארי",
-      "fetched_at": "2026-07-06T11:14:00Z",
-      "appears_in": [
-        "references/red-track-yishuvim.md"
-      ]
-    },
-    {
-      "claim_id": "reservist-business-owner-grant-url",
-      "claim": "Kol-Zchut entry for business owners who served in reserves during Iron Swords / Iran war. URL recorded as a pointer only, its body is not machine-readable.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
-      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%90%D7%95_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
-      "fetched_at": "2026-08-13",
-      "appears_in": [],
-      "verified_via": "not verifiable by fetch: kolzchut.org.il answers every non-browser request with a Cloudflare interstitial (HTTP 403, body \"Just a moment...\"), so no passage can be quoted. Recorded as a pointer to the page, not as a quoted source.",
-      "verified_at": "2026-08-13"
-    },
-    {
-      "claim_id": "self-employed-reservist-guide-url",
-      "claim": "Kol-Zchut master guide for self-employed and business owners during Iran war (Shaagat HaAri) - covers advance, reservist, halat, all entitlements. URL recorded as a pointer only, its body is not machine-readable.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
-      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%A6%D7%9E%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%AA%D7%A7%D7%95%D7%A4%D7%AA_%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F_(%D7%9E%D7%91%D7%A6%D7%A2_%D7%A9%D7%90%D7%92%D7%AA_%D7%94%D7%90%D7%A8%D7%99)",
-      "fetched_at": "2026-08-13",
-      "appears_in": [
-        "references/red-track-yishuvim.md"
-      ],
-      "verified_via": "not verifiable by fetch: kolzchut.org.il answers every non-browser request with a Cloudflare interstitial (HTTP 403, body \"Just a moment...\"), so no passage can be quoted. Recorded as a pointer to the page, not as a quoted source.",
-      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "form-102-payroll-en",
-      "claim": "Form 102 (טופס 102) is the Israeli payroll declaration required for the wage track filing; appears both as Hebrew טופס 102 and English Form 102",
-      "source_url": "https://bitancpa.com/knowledge/business-grants-operation-shaagat-haari-2026",
-      "raw_snippet": "השכר ששולם בחודש 3-4/2026 לפי טופס 102 (Form 102)",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "general-business-iron-swords-kolzchut",
-      "claim": "The Iron Swords business-compensation framework has three tracks by business location: nationwide business-continuity grant, the \"special area\" (green) track, and the border-settlement (red) track. A business owner may claim under only one track.",
-      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_על_הפסדים_עקב_מלחמת_חרבות_ברזל",
-      "raw_snippet": "מתווה הפיצויים כולל מענה ל-3 קבוצות אוכלוסייה לפי מיקום העסק: מתווה פיצויים לכל העסקים בארץ (מענק המשכיות עסקית), מתווה פיצויים לעסקים ב\"אזור המיוחד\", מתווה פיצויים ליישובי ספר",
-      "fetched_at": "2026-08-09",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "special-area-iron-swords-portal",
-      "claim": "Tax Authority Iron Swords SPECIAL-AREA portal for indirect-damage compensation: for businesses in areas placed under especially severe security restrictions, covering October-December 2023.",
-      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage",
-      "raw_snippet": "שירות זה מאפשר לעסקים באזורים בהם הטילה מערכת הביטחון הגבלות מחמירות במיוחד על הפעילות הכלכלית בשל מלחמת חרבות ברזל, להגיש תביעה לפיצויים עבור נזק עקיף שנגרם להם בחודשים אוקטובר, נובמבר ודצמבר 2023.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "kolzchut-faq-shaagat-literal-url",
-      "claim": "Kol-Zchut Shaagat HaAri FAQ for self-employed and business owners (Hebrew literal URL form)",
-      "source_url": "https://www.kolzchut.org.il/he/שאלות_ותשובות_לעצמאים_ובעלי_עסקים_במהלך_המלחמה_מול_איראן_(מבצע_שאגת_הארי)",
-      "raw_snippet": "את התביעה על החודשים מרץ-אפריל 2026 במסלולי שכר, מחזורים וחקלאות ניתן להגיש",
+      "claim": "Section 38לז(א)(5)(ב): a report on Form 102 for March and April 2026",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "דין וחשבון בטופס 102בשל חודשים מרץ ואפריל",
       "fetched_at": "2026-11-23",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-11-23"
-    },
-    {
-      "claim_id": "section-38L-indirect-damage-appeals",
-      "claim": "Property Tax & Compensation Fund Law section 38ל establishes the dedicated ועדת ערר (appeals committee) for indirect-damage compensation, distinct from section 29 which covers general property-tax appeals",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "סעיף 38ל ועדת ערר",
-      "fetched_at": "2026-05-18T19:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "section-29-general-property-tax-appeals",
-      "claim": "Property Tax & Compensation Fund Law section 29 (סעיף 29) establishes the GENERAL property-tax appeals committee, distinct from section 38ל which handles indirect-damage appeals",
-      "source_url": "https://www.nevo.co.il/law_html/law01/273_001.htm",
-      "raw_snippet": "סעיף 29 ועדת ערר",
-      "fetched_at": "2026-05-18T19:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "grant-taxable-marginal-rate",
-      "claim": "The business-continuity grant is revenue-substituting income taxed at the recipient's marginal rate. Israeli individual rates run up to 47%, with a 3% surtax above ILS 721,560 giving a 50% maximum. The skill's \"30%-47%\" range is the ordinary marginal band a typical business owner falls in.",
-      "source_url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income",
-      "raw_snippet": "Taxation of individuals is imposed in graduated rates ranging up to 47%. Additionally, a 3% surtax applies on annual taxable income exceeding ILS 721,560, resulting in a 50% maximum income tax rate.",
-      "fetched_at": "2026-08-09",
-      "appears_in": []
-    },
-    {
-      "claim_id": "reservist-owner-grant-kolzchut",
-      "claim": "Business owners who served in reserve duty may be entitled to compensation for a drop in business income from January 2024",
-      "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_ששירתו_במילואים_במלחמת_חרבות_ברזל_או_במלחמה_מול_איראן",
-      "raw_snippet": "בעלי עסקים ששירתו במילואים עשויים להיות זכאים לפיצוי בגין ירידה בהכנסות העסק החל מחודש ינואר 2024",
-      "fetched_at": "2026-11-23",
-      "verified_via": "browser",
       "verified_at": "2026-11-23",
-      "appears_in": []
+      "verified_via": "pdf"
     },
     {
-      "claim_id": "compensation-indirect-damage-service-page",
-      "claim": "The Tax Authority indirect-damage compensation service is open to a business whose base-year turnover is from 12,000 NIS up to 400,000,000 NIS.",
-      "source_url": "https://www.gov.il/he/service/compensation-indirect-damage",
-      "raw_snippet": "עוסק שמחזור עסקאותיו בשנת הבסיס (2022) הוא מ-12 אלף ₪ ועד 400 מיליון ₪",
-      "fetched_at": "2026-08-13",
+      "claim_id": "form-100-employer-halat-authorization",
+      "claim": "Employment-service registration uses a Form 100 from the employer that includes the stop and return dates and the reason",
+      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
+      "raw_snippet": "הרשמה בשירות התעסוקה טופס 100 מהמעסיק (כולל תאריך הפסקת וחזרה מעבודה וסיבת הפסקת עבודה)",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "gov.il content API (contentpage/compensation-indirect-damage)",
-      "verified_at": "2026-08-13"
+      "verified_via": "cited page fetched and confirmed to contain \"100\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "law-qualifying-period-cash-basis-may-june",
       "claim": "The qualifying period (תקופת הזכאות) is March and April 2026 for a claimant that is not a cash-basis filer, and May and June 2026 for a cash-basis filer (עוסק המדווח על בסיס מזומן) and for a קבלן ביצוע.",
       "raw_snippet": "( )2לעניין ניזוק שהוא עוסק המדווח על בסיס מזומן וכן לעניין קבלן ביצוע -חודשים מאי ויוני ;2026",
-      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "fetched_at": "2026-08-19T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "law-cash-basis-definition",
-      "claim": "A cash-basis filer must satisfy all three conditions: VAT liability arises on receipt of consideration under Chapter F of the VAT Law; it receives the bulk of its ongoing business receipts in the month following the month of the transaction, or it is a מוסד חינוך; and its turnover decline in the reporting period containing the determining period was below 40%.",
-      "raw_snippet": "( )3שיעור הירידה במחזור העסקאות שלו בתקופת הדיווח הכולל את התקופה הקובעת היה נמוך מ־;40%",
       "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
       "fetched_at": "2026-08-19T00:00:00Z",
       "appears_in": [
@@ -462,74 +65,6 @@
       ]
     },
     {
-      "claim_id": "law-inactive-before-1-march-exclusion",
-      "claim": "A claimant is excluded if its business was not active before 1 March 2026; inactivity is presumed if it failed to file two of the last three VAT returns due for the period before that date, and the presumption is rebuttable to the Director's satisfaction.",
-      "raw_snippet": "( )11מי שעסקו לא היה פעיל לפני יום י\"ב באדר התשפ\"ו ( 1במרץ ;)2026לעניין זה ,יראו עוסק כמי שעסקו לא היה פעיל אם הוא לא הגיש לרשות המסים בישראל שניים מתוך שלושת הדוחות האחרונים שהיה חייב בהגשתם לפי חוק מס ערך מוסף",
-      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "fetched_at": "2026-08-19T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "law-section-131-ordinance",
-      "claim": "Section 131 of the Income Tax Ordinance is the return in which a מוסד ציבורי זכאי reports the base-year income figures that produce its non-donation income ratio.",
-      "raw_snippet": "מחלוקת סכום הכנסתו של הניזוק בשנת הבסיס ,כפי שדווחה בדוח שהגיש לפי סעיף 131לפקודה ,שאינה הכנסה מתמיכות ותרומות",
-      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "fetched_at": "2026-08-19T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "law-section-56-vat-group",
-      "claim": "Section 56 of the VAT Law is the group-registration provision that triggers the third fixed-expenses variant.",
-      "raw_snippet": "( )3לעניין ניזוק שהוא עוסק הרשום כעוסק אחד עם עוסק אחר לפי הוראות סעיף 56לחוק מס ערך מוסף",
-      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "fetched_at": "2026-08-19T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "law-nizok-exclusion-list",
-      "claim": "The definition of ניזוק excludes 12 classes, including the State, budgeted bodies and health corporations under s.21 of the Budget Foundations Law, kupot cholim, public institutions that are not a מוסד ציבורי זכאי, statutory corporations, financial institutions, real-estate trading-stock dealers, businesses with over 50% long-project work in 2024 or 2025 (except a קבלן ביצוע), businesses that closed or were inactive or reported zero turnover before 01.03.2026, and anyone whose occupation is agriculture.",
-      "raw_snippet": "\"ניזוק\" -עוסק ,למעט כל אחד מאלה ,שנגרם לו נזק עקיף: ()1 המדינה; ( )2גוף מתוקצב או תאגיד בריאות כהגדרתם בסעיף 21לחוק יסודות התקציב ,התשמ\"ה1985-",
-      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
-      "fetched_at": "2026-08-19T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "below-threshold-illustrative",
-      "claim": "Illustrative below-threshold values used in troubleshooting: 20% and 24.9%, both below the 25% gate. Derived from the authoritative 25% threshold, not a new external figure.",
-      "source_url": "https://www.mako.co.il/news-money/2026_q1/Article-79d26c770b1ec91027.htm",
-      "raw_snippet": "ירידה של יותר מ-25% (any decline below 25% such as 24.9% fails the gate; 24.9% is derived from the published 25% threshold)",
-      "fetched_at": "2026-05-18T17:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "form-100-employer-halat-authorization",
-      "claim": "Form 100 (טופס 100) is the employer's halat authorization document for Bituach Leumi purposes; filed with exact halat start and end dates to authorize the leave",
-      "source_url": "https://www.btl.gov.il/StateOfEmergency/ShaagatHari/Pages/halat-shaagatHari1.aspx",
-      "raw_snippet": "הרשמה בשירות התעסוקה טופס 100 מהמעסיק (כולל תאריך הפסקת וחזרה מעבודה וסיבת הפסקת עבודה)",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"100\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
-    },
-    {
       "claim_id": "section-35-law",
       "claim": "Section 35 of the Property Tax and Compensation Fund Law defines the border settlements (yishuvei sfar).",
       "source_url": "https://www.kolzchut.org.il/he/פיצוי_לבעלי_עסקים_על_הפסדים_עקב_מלחמת_חרבות_ברזל",
@@ -537,9 +72,1203 @@
       "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/red-track-yishuvim.md"
+        "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "l-window-default",
+      "claim": "Section 38לט(א): claims run from the 16th of the month after the qualifying period for 90 days",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לפיצויים כאמור החל מ־ 16בחודש העוקב לתום תקופת הזכאות הרלוונטית ועד תום 90ימים מהמועד האמור",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-extension-18",
+      "claim": "Section 38לט(ב)(2): an individual extension for special reasons, up to 18 months in total",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעוסק מסוים ,מטעמים מיוחדים ,ובלבד שסך כל תקופות ההארכה לא יעלה על 18חודשים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-periods-jul-aug",
+      "claim": "סעיף 38נא (Section 38נא(ג)): Section 38נא(ג): July-August 2026 is an additional period",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "חודשים יולי ואוגוסט ;2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-periods-sep-oct",
+      "claim": "Section 38נא(ג): September-October 2026 is an additional period",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "חודשים ספטמבר ואוקטובר .2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-objection-60",
+      "claim": "סעיף 38מז(א)(1): objection within 60 days to an employee the Director authorised",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לעובד רשות המסים בישראל שהמנהל הסמיכו לשם כך ,בתוך 60ימים מיום קבלת ההחלטה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-nationwide-1510",
+      "claim": "Nationwide eligible-expenses track: last filing date 15.10.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "raw_snippet": "המועד האחרון להגשת התביעה הוא 15.10.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-may-june-window",
+      "claim": "Direct-damage May-June: filing 17.08.2026 to 17.11.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
+      "raw_snippet": "מתי מגישים את התביעה החל מ-17.8.26 ועד 17.11.26",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-special-turnover",
+      "claim": "Special-area turnover or agriculture: March-April to 15.10.26 and May-June to 31.12.26",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "מסלול מחזורים או חקלאות: מרץ-אפריל 2026 - עד 15.10.26 מאי-יוני 2026 - עד 31.12.26",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-special-wage",
+      "claim": "Special-area wage track: March-April to 31.12.26",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "מסלול שכר: מרץ-אפריל 2026 - 31.12.26",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-red-window",
+      "claim": "Red track filing until 31.12.26",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "מסלול אדום: עד 31.12.26",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-red-period",
+      "claim": "Red track applies to 1.3.26 to 30.6.26",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "כמו כן האמור לעיל מתייחס לתקופה 1.3.26 – 30.6.26 בלבד",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-no-objection-red",
+      "claim": "An objection exists only in the turnover, wage and agriculture tracks",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "ניתן להגיש השגה רק במסלולי מחזורים, שכר וחקלאות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-red-appeal-30",
+      "claim": "Red-track appeal is filed within 30 days",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "במסלול אדום – הערר יוגש לפני ועדת ערר במשרד המשפטים תוך 30 יום",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "l-decision-8m",
+      "claim": "Section 38מ(א): the Director decides within eight months of the claim",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לפיצויים ואת סכום הפיצויים ,בתוך שמונה חודשים ממועד הגשת התביעה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-deemed-accepted",
+      "claim": "Section 38מ(א): a claim not decided in that period is deemed accepted",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לא נתן המנהל את החלטתו במהלך התקופה האמורה ,לרבות אם הוארכה ,יראו את התביעה כאילו התקבלה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38na-unusable",
+      "claim": "Section 38נא(א)(1): because of the direct damage the premises were unusable from the day of damage until no earlier than 30.06.2026",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "( )1בשל הנזק הישיר לא ניתן להשתמש במקום העסק שניזוק ,בתקופה שתחילתה ביום שבו נגרם הנזק וסיומה לא לפני יום ט\"ו בתמוז התשפ\"ו ( 30ביוני ;)2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38na-15-days",
+      "claim": "Section 38נא(א)(2): for July-August or September-October the premises were unusable for at least 15 days",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "( )2או ( )3להגדרה \"תקופה נוספת\" שבסעיף קטן (ג) -לא ניתן להשתמש במקום העסק שניזוק בתקופה של 15 ימים במהלך התקופה הנוספת ,לפחות.",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-red-all-sectors",
+      "claim": "Red track: all sectors only in the קו עימות defense area",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "באזור זה ניתן לאפשר הגשת תביעות במסלול האדום ליישובי הספר בכל הענפים בתקופה זו",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-red-tourism-agri",
+      "claim": "Red track elsewhere: tourism and agriculture only",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "ניתן להגיש תביעות במסלול האדום רק בענפי תיירות וחקלאות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-special-communities",
+      "claim": "The special area covers Golan North, Upper Galilee, the קו עימות communities, Kidmat Tzvi and Katzrin",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "גולן צפון, גליל עליון, יישובי קו העימות והיישובים קדמת צבי וקצרין",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "l-extension-30-days",
+      "claim": "Section 38מ(א): when the Director asks for details the period may be extended by up to 30 days in total",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "הוא להאריך את התקופה האמורה בתקופות נוספות שלא יעלו יחד על 30ימים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-details-time-excluded",
+      "claim": "Section 38מ(ג): time in which the dealer did not supply requested details is not counted",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לא יובא במניין התקופה למתן החלטה כאמור באותו סעיף קטן פרק הזמן שבו העוסק לא מסר למנהל את הפרטים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-red-cumulative",
+      "claim": "The red-track limit applies only to border communities in these areas, as a cumulative precondition",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "יודגש כי האמור מתייחס אך ורק ליישובי הספר שבאזורים אלה, דבר המהווה תנאי מקדמי ומצטבר",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "d-directive-07-2026",
+      "claim": "Tax Authority Directive 07/2026 sets the rules for indirect-damage compensation",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הוראת ביצוע מס' 07/2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "kz-simulator",
+      "claim": "The Tax Authority has a simulator for checking entitlement in each compensation track",
+      "source_url": "https://www.kolzchut.org.il/he/פיצויים_לבעלי_עסקים_בישובי_ספר_בגין_הפסד_או_מניעת_רווח_עקב_מלחמה_(המסלול_האדום)",
+      "raw_snippet": "ניתן להיעזר בסימולטור של רשות המסים לבדיקת הזכאות לפיצוי בכל אחד ממסלולי הפיצוי הקיימים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "l-repay-excess",
+      "claim": "סעיף 38מג (Section 38מג(א)): an amount paid above entitlement is repaid within 90 days of a demand, with linkage and interest",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "יחזיר הניזוק את ההפרש שבין סכומים אלה (בסעיף זה -סכום היתר) בתוך 90ימים מיום שהמציא לו המנהל דרישה להחזר ,בתוספת הפרשי הצמדה וריבית",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-refile-before-payment",
+      "claim": "Directive 07/2026 סעיף 14.4: an amended claim is possible only before payment (including an advance) and before inspector review",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "ניתן להגיש תביעה מתוקנת רק במקרים בהם התיק עדיין לא שולם (לרבות מקדמה) ולא נבדק על ידי מפקח",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-refile-once",
+      "claim": "Directive 07/2026 s.14.4: an amended claim cannot be amended again",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "תביעה שתוקנה לא יהיה ניתן לתקן פעם נוספת",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-section-7-support",
+      "claim": "סעיף 7 (section 7 of the Act): supports for a public institution whose income fell and which is not eligible under the chapter",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לשם תמיכה במוסד ציבור כהגדרתו באותו סעיף ,שהכנסותיו ,לרבות מתרומות ,פחתו",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-correct-on-demand",
+      "claim": "Section 38מ(ב): the Director may correct a determination on the dealer's demand within four years",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "המנהל רשאי ,ביוזמתו או לפי דרישת העוסק ,לתקן את קביעתו כאמור בסעיף קטן (א) ,בתוך ארבע שנים מיום",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-deemed-38lt-scope",
+      "claim": "Section 38מ(א): the decision period applies to a claim filed under section 38לט",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "הגיש עוסק למנהל תביעה לפיצויים לפי הוראות סעיף 38לט",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-wage-child-14",
+      "claim": "Special-area wage track: employees absent to supervise children up to 14 whose education institution in the area closed",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "עובדים שנעדרו מעבודתם לצורך השגחה על ילדיהם עד גיל 14 הלומדים במוסד חינוכי באזור המיוחד שנסגר בשל הוראות פיקוד העורף",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-wage-disability",
+      "claim": "Special-area wage track: employees with a disability or with a relative with a disability, living in the area",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "עובדים עם מוגבלות או עובדים שקרוב משפחתם הוא בעל מוגבלות, המתגוררים באזור המיוחד",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-wage-education-staff",
+      "claim": "Special-area wage track: employees of an education institution in the area that closed",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "עובדים במוסד חינוך באזור המיוחד, שנסגר בשל הוראות פיקוד העורף",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "l-objection-covers-fine",
+      "claim": "Section 38מז(א)(1): the objection right covers a decision imposing a fine for an over-claim",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לרבות בנוגע להטלת קנס",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-correction-condition",
+      "claim": "Section 38מ(ב): correction applies if new facts emerged or an error was found",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "אם התגלו עובדות חדשות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-late-request-exceptional",
+      "claim": "Directive 07/2026 s.14: late requests are approved only in exceptional cases",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בקשות שיוגשו לאחר חלוף המועד יאושרו רק במקרים חריגים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38nun-request",
+      "claim": "סעיף 38נ: a self-employed claimant with reduced activity in a base-period month may request an alternative period",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "ניזוק שהוא עוסק עצמאי שהייתה לו פעילות מופחתת",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38nun-maternity",
+      "claim": "Section 38נ: seven or more days without work for a reason in סעיף 6 או 7 of the Women's Employment Law",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "שבעה ימים או יותר בשל אחת העילות המנויות בסעיף 6או 7לחוק עבודת נשים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38nun-reserve",
+      "claim": "Section 38נ: seven or more days without work because of reserve duty",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "לא עבד שבעה ימים או יותר בשל ימי שירות מילואים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38nun-spouse",
+      "claim": "Section 38נ: a self-employed woman whose spouse had reduced activity as in paragraph (2)",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "שבו הייתה לבן הזוג שלה פעילות מופחתת כאמור",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-no-delay",
+      "claim": "Directive s.14.29: an objection or appeal does not delay repayment of an excess",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "אין בהגשת השגה או ערר בכדי לעכב את השבת הסכום ששולם ביתר",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-payment-automatic",
+      "claim": "Directive s.14.4: claims are mostly handled automatically, including payment",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הטיפול בתביעות נעשה באופן אוטומטי במרבית המקרים ,לרבות ביצוע התשלום",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-cash-optional",
+      "claim": "Directive s.10.9: the cash-basis method is optional",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "שיטת החישוב על בסיס מזומן היא שיטה אופציונלית",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-cash-no-switch",
+      "claim": "Directive s.10.9: after filing under one reporting method a claimant cannot later ask to be examined under another",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "לא יוכל לטעון בהמשך מכל סיבה שהיא כי מבקש לבדוק בשנית את תביעתו בהתאם לשיטת דיווח אחרת",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-objection-extension",
+      "claim": "Directive s.14.21: requests to extend an objection are generally filed before the deadline",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בקשות לארכה להגשת השגה יש להגיש ככלל בטרם חלוף המועד",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-one-off-neutralized",
+      "claim": "Directive s.10.4: one-off or unusual transactions in the base period are neutralized",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "ינוטרלו עסקאות חריגות ו/או עסקאות חד פעמיות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-causation",
+      "claim": "Section 38לז(א)(3): the decline must result from indirect damage",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "נגרמה כתוצאה מנזק עקיף",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-causation-adjust",
+      "claim": "Directive s.4: the Director adjusts for declines from other causes such as a lost material customer or a closed branch",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "אובדן לקוח מהותי ,סגירת סניף",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-alt-period-box",
+      "claim": "Directive s.14.32: an alternative base or period is requested when filing by marking the box in the claim form",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "יבקש כבר בעת הגשת התביעה להעלות את התביעה לתוכנית עבודה לבחינת מפקח תוך סימון בתיבה המתאימה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-alt-period-documents",
+      "claim": "Directive s.14.32: without supporting documents the claim is computed on the actual reports",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "ללא אסמכתאות והסברים תומכים מתאימים לבקשה תחושב התביעה בהתאם לדיווחים בפועל",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-section",
+      "claim": "Directive סעיף 10.11 sets the rules for a kindergarten education institution",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הבהרות והתאמות שנקבעו לניזוק שהוא מוסד חינוך (גן ילדים)",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "compensation-indirect-damage-portal",
+      "claim": "Tax Authority Iron Swords nationwide indirect-damage claim portal",
+      "source_url": "https://www.gov.il/he/service/compensation-indirect-damage",
+      "raw_snippet": "להגיש תביעת פיצויים עבור נזק עקיף - הנזק הכלכלי שנגרם לעסק בשל תשלום הוצאות קבועות ותשלום שכר כתוצאה ממלחמת חרבות ברזל",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "g-updated-rions",
+      "claim": "The nationwide claim page was last updated on 11.08.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "raw_snippet": "דף זה עודכן לאחרונה בתאריך 11.08.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-updated-may-june",
+      "claim": "The May-June direct-damage page was last updated on 17.08.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
+      "raw_snippet": "דף זה עודכן לאחרונה בתאריך 17.08.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-updated-special",
+      "claim": "The special-area page was last updated on 16.08.2026",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "דף זה עודכן לאחרונה בתאריך 16.08.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-docs-general",
+      "claim": "Claimants generally need not attach documents unless the Tax Authority lacks sufficient information",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "עוסקים שמגישים תביעה אינם נדרשים לצרף מסמכים, מלבד מקרים שבהם אין לרשות המסים מידע מספק לגביהם",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-docs-more",
+      "claim": "The Tax Authority may require further documents",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "לרשות המסים הזכות לדרוש מסמכים נוספים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-advance-21",
+      "claim": "If no decision is received within 21 days of filing, an advance is paid at the Director's discretion",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "אם תוך 21 יום מהגשת התביעה לא התקבלה החלטה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-advance-150",
+      "claim": "If no decision is received within 150 days of filing, a further advance is paid at the Director's discretion",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "אם תוך 150 יום מהגשת התביעה לא התקבלה החלטה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-appeal-committee",
+      "claim": "The red-track appeal goes to an appeals committee at the Ministry of Justice",
+      "source_url": "https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion",
+      "raw_snippet": "במסלול אדום – הערר יוגש לפני ועדת ערר במשרד המשפטים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "d-inquiry-system",
+      "claim": "The Tax Authority indirect-damage inquiry system is at Go.gov.il/NezekAkif",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "מערכת פניות בכתובת Go.gov.il/NezekAkif",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-taxable",
+      "claim": "Compensation is subject to income tax",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הפיצויים חייבים בתשלום מס הכנסה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-reported-annual",
+      "claim": "Compensation is reported on the annual return for the year it is received",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "והם ידווחו בדוח השנתי המתייחס לשנת קבלת הפיצויים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-fine-no-negligence-2",
+      "claim": "Section 38מה(ב): the general fine applies if the dealer has not shown the Director that it was not negligent",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "ולא הוכיח להנחת דעתו של המנהל שלא התרשל בעריכת התביעה שהגיש ,יהיה חייב בקנס",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-special-2023-concept",
+      "claim": "Section 38לו: for an עוסק מיוחד the Act sets the parallel period in 2023 as the base period",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "ולעניין ניזוק שהוא עוסק מיוחד -התקופה המקבילה בשנת 2023לתקופת הזכאות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-special-host-concept",
+      "claim": "Section 38לו: a host of evacuees in 2025 under an engagement with the State",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "תושבים מיישובים מפונים בשנת ,2025בהתאם להתקשרות עם המדינה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-special-evacuated-concept",
+      "claim": "Directive s.10.10: localities evacuated under a government decision in force to the end of February 2025",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בהתאם להחלטת ממשלה במלחמת חרבות ברזל ,ובלבד שההחלטה האמורה הייתה בתוקף עד לתום חודש פברואר .2025",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-new-business-rule",
+      "claim": "Section 38לו: a business opened on or after 1 January 2025 has a separate base-year rule",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "שפתח את עסקו לפני יום א' בטבת התשפ\"ה ( 1בינואר - )2025שנת ;2025",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-affidavit",
+      "claim": "Directive s.10.11: the claimant attaches an affidavit that tuition was refunded in money only",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הניזוק יצרף לתביעה תצהיר כי החזיר להורים את שכר הלימוד",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-vat",
+      "claim": "Directive s.10.11: a claim filed from July 2026 needs a late self-invoice through the regional VAT office",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "יפנה למשרד מע\"מ האזורי בו מתנהל תיקו לבקשת הוצאת חשבונית מס עצמית מאוחרת",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-exclusion-state",
+      "claim": "Section 38לו, definition of ניזוק: a dealer other than listed classes, starting with the State",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "\"ניזוק\" -עוסק ,למעט כל אחד מאלה ,שנגרם לו נזק עקיף: ()1 המדינה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-exclusion-agri",
+      "claim": "Section 38לו, definition of ניזוק: anyone whose occupation is agriculture is excluded",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "( )12מי שעיסוקו בחקלאות;",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-exclusion-real-estate",
+      "claim": "Section 38לו, definition of ניזוק: a dealer in real-estate rights held as trading stock is excluded",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "מי שעיסוקו במכירת זכות במקרקעין",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-window-formula",
+      "claim": "Section 38לט(א): the claim period runs from the 16th of the month after the qualifying period for 90 days, giving 16.07 to 14.10.2026 for May-June",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "החל מ־16 בחודש העוקב לתום תקופת הזכאות הרלוונטית ועד תום 90ימים מהמועד האמור",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-extension-before-date",
+      "claim": "Directive s.14.2: individual extension requests are generally filed before the claim date passes",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בקשות לארכה לעוסק מסוים יש להגיש ככלל בטרם חלוף המועד להגשת התביעה",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-38nb-additional",
+      "claim": "Section 38נב(א): an individual with direct damage may be entitled to additional compensation",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "ניזוק שהוא יחיד שנגרם",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-credit-notes",
+      "claim": "Directive s.10.11: credit notes were issued to parents during May-June 2026",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הניזוק הוציא הודעות הזיכוי להורי הילדים במהלך החודשים מאי -יוני 2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-money-only",
+      "claim": "Directive s.10.11: the affidavit states the refund was in money only and not by substitute days, offset or future credit",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בכסף בלבד ולא באמצעות ימי לימוד חלופיים ו/או קיזוז ו/או זיכוי עתידי",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-mj-track-request",
+      "claim": "The May-June direct-damage page requires a track-opening request before filing",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
+      "raw_snippet": "יש להגיש \"בקשה לפתיחת מסלול\"",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-mj-unusable-doc",
+      "claim": "The May-June page requires confirmation that the property was unusable until at least 30.6.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
+      "raw_snippet": "אישור שהנכס אינו ראוי לשימוש לפחות עד תאריך 30.6.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "g-mj-arnona-doc",
+      "claim": "The May-June page requires arnona bills, or the exemption if one was received",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar-may-june",
+      "raw_snippet": "חשבונות ארנונה לחודשים מרץ-אפריל ומאי-יוני 2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "kz-red-docs-calculation",
+      "claim": "A red-track claim attaches the way the damage was calculated",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99%D7%9D_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%99%D7%A9%D7%95%D7%91%D7%99_%D7%A1%D7%A4%D7%A8_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A1%D7%93_%D7%90%D7%95_%D7%9E%D7%A0%D7%99%D7%A2%D7%AA_%D7%A8%D7%95%D7%95%D7%97_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%94_(%D7%94%D7%9E%D7%A1%D7%9C%D7%95%D7%9C_%D7%94%D7%90%D7%93%D7%95%D7%9D)#",
+      "raw_snippet": "אופן חישוב הנזק לעסק",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "kz-red-docs-support",
+      "claim": "A red-track claim attaches approvals supporting the claimed damage",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99%D7%9D_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%99%D7%A9%D7%95%D7%91%D7%99_%D7%A1%D7%A4%D7%A8_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A1%D7%93_%D7%90%D7%95_%D7%9E%D7%A0%D7%99%D7%A2%D7%AA_%D7%A8%D7%95%D7%95%D7%97_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%94_(%D7%94%D7%9E%D7%A1%D7%9C%D7%95%D7%9C_%D7%94%D7%90%D7%93%D7%95%D7%9D)#",
+      "raw_snippet": "אישורים שתומכים בנזק הנטען",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "l-filed-by-claim-day",
+      "claim": "Section 38לז(א)(5): the listed documents must have been submitted by the day the claim is filed",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "הוא הגיש לפקיד השומה ,עד יום הגשת תביעה לקבלת פיצויים לפי פרק זה ,את המסמכים המפורטים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "l-filed-vat-report",
+      "claim": "Section 38לז(א)(5)(א): periodic VAT reports for the qualifying and base months, if required",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_12958311.pdf",
+      "raw_snippet": "(א) דוח תקופתי לפי סעיף 67 ,67א או 71א לחוק מס ערך מוסף ,לחודשים בתקופת הזכאות",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-branch",
+      "claim": "Directive s.10.11: the registered VAT branch is kindergarten, daycare or similar",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "הענף הרשום של הניזוק במרשמי מע\"מ הינו – גני ילדים לגיל הרך",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-mark-branch",
+      "claim": "Directive s.10.11: when filing, the claimant marks the kindergarten branch",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בעת הגשת התביעה הניזוק יסמן ברשימת הענפים",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-daycare-mark-method",
+      "claim": "Directive s.10.11: when filing, the claimant marks the cash-basis reporting method",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "בעת הגשת התביעה יסמן הניזוק כי הוא מבקש שתביעתו תיבדק בהתאם לשיטת הדיווח",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "d-not-in-vat-reports",
+      "claim": "Directive 07/2026 סעיף 18: compensation receipts are not reported in the periodic VAT reports",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-07-2026/he/CompensationFund_inst-07-2026.pdf",
+      "raw_snippet": "אך אין לדווח את תקבולי הפיצוי המתקבלים בהתאם לחוק זה בדוחות התקופתיים למע\"מ",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "pdf"
+    },
+    {
+      "claim_id": "g-rr-opened-27-2",
+      "claim": "The nationwide claim page says the business opened by 27.2.2026",
+      "source_url": "https://www.gov.il/he/service/claim-compensation-indirect-damage-rions-roar",
+      "raw_snippet": "העסק נפתח עד ה-27.2.2026",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
+    },
+    {
+      "claim_id": "kz-red-two-weeks",
+      "claim": "A general Kol Zchut red-track page says damage is notified to the Compensation Fund within two weeks",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99%D7%9D_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%91%D7%99%D7%A9%D7%95%D7%91%D7%99_%D7%A1%D7%A4%D7%A8_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A1%D7%93_%D7%90%D7%95_%D7%9E%D7%A0%D7%99%D7%A2%D7%AA_%D7%A8%D7%95%D7%95%D7%97_%D7%A2%D7%A7%D7%91_%D7%9E%D7%9C%D7%97%D7%9E%D7%94_(%D7%94%D7%9E%D7%A1%D7%9C%D7%95%D7%9C_%D7%94%D7%90%D7%93%D7%95%D7%9D)#",
+      "raw_snippet": "יש להודיע על הנזק לקרן הפיצויים ברשות המיסים בתוך שבועיים מהיום שהנזק נגרם",
+      "fetched_at": "2026-11-23",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_at": "2026-11-23",
+      "verified_via": "browser"
     }
   ]
 }

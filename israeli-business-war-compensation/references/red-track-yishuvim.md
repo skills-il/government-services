@@ -1,56 +1,14 @@
-# Red Track Yishuvim (§35 Border-Area Settlements)
+# Red-track check
 
-The "red track" under section 35 of the Property Tax & Compensation Fund Law, 1961 (חוק מס רכוש וקרן פיצויים, תשכ"א-1961) covers indirect damage in `יישובי ספר` (border-area settlements). Amounts and dates are not stated here. Use the Tax Authority simulator and the official page for the track.
+The list changes, so this skill does not copy it. Use the official page: https://www.gov.il/he/service/compensation-claim-indirect-damage-roaring-lion
 
-- Border settlements have a dedicated frontier advance page (gov.il/he/service/pay-advances-to-business-owners-in-frontier-roaring-lion). Do NOT use the nationwide advance page (request-for-dvance-dealers-shaagat-haari), which is explicitly scoped to businesses across the country EXCEPT קו העימות settlements
+1. Look under the heading "מסלול אדום".
+2. Search by part of the locality name, because spellings vary between lists.
+3. Communities on "רשימת יישובי קו העימות" are listed for all sectors.
+4. Elsewhere in the defense areas, and in Golan North and Kidmat Tzvi, the page limits the red track to border-community tourism and agriculture businesses. A tourism list is published. No agriculture list is published, so a farm should ask the Tax Authority before ruling the track out.
+5. A locality listed only for the special-area tracks, such as Akko, has no all-sector red-track access.
+6. If it is not found, ask the Tax Authority (*4954 or Go.gov.il/NezekAkif) with the business address. Do not rely on other sites, because some list Iron Swords localities.
 
-## Where the canonical list lives
+The red track has no objection. An appeal is due within 30 days of delivery of the decision. The window is open to 31.12.2026 (page updated 16.08.2026). Recheck the page before relying on it.
 
-The canonical, dynamically updated list of red-track yishuvim is maintained by the Israeli Tax Authority and published at:
-
-https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks
-
-The list shifts based on operational status - yishuvim are added when conflict reaches them and removed when the area is reclassified. Always verify against the live gov.il page before advising a user that their settlement is on the red list. The list as of mid-2026 covers most of the northern Galilee border strip and parts of the Gaza envelope (Otef Aza).
-
-## How to check programmatically
-
-The skill should NOT hard-code the yishuv list - it changes too often. Instead, surface the `compensation-tracks` URL to the user and have them confirm. If a more reliable check is needed, query Kol-Zchut at:
-
-https://www.kolzchut.org.il - search for `יישוב ספר` or the specific yishuv name.
-
-## Common northern red-track yishuvim (illustrative, not authoritative)
-
-These are typically on the list during active northern conflict periods. Always verify on gov.il before relying on them:
-
-- Shtula (שתולה)
-- Manara (מנרה)
-- Margaliot (מרגליות)
-- Misgav Am (מסגב עם)
-- Metulla (מטולה)
-- Kfar Giladi (כפר גלעדי)
-- Ma'ayan Baruch (מעיין ברוך)
-- Kfar Yuval (כפר יובל)
-- Yir'on (יראון)
-- Avivim (אביבים)
-
-## Gaza envelope (Otef Aza)
-
-Within 7 km of the Gaza border, traditionally on the red list:
-
-- Sderot (שדרות) - typically on the special-area or red track depending on regulation in force
-- Netivot (נתיבות)
-- Sha'ar HaNegev regional council yishuvim
-- Eshkol regional council yishuvim
-- Hof Ashkelon regional council yishuvim
-- Sdot Negev regional council yishuvim
-
-## Practical advice
-
-If a user asks "am I on the red track?", do NOT rely on memory or this file. Tell them:
-
-1. Open the live gov.il page at the URL above
-2. Search for their yishuv by Hebrew name
-3. If not found there, check kolzchut.org.il for confirmation
-4. If still ambiguous, call the Tax Authority hotline at *4954 with their business address
-
-Filing under the wrong track is a costly error, so check before choosing.
+A general Kol Zchut page on the red track says damage should be notified to the Compensation Fund within two weeks. The official 2026 page does not mention this. If you gave no notice, ask the Tax Authority in writing now how this affects your claim, and do not delay filing.
