@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-media-authenticity-verifier",
   "schemaVersion": "1.0",
-  "generated_at": "2026-11-23T20:00:00Z",
+  "generated_at": "2026-11-23T23:00:00Z",
   "claims": [
     {
       "id": "c2patool-install",
@@ -157,7 +157,7 @@
     },
     {
       "id": "police-105-bureau",
-      "claim": "Israel's 105 hotline (Child Online Protection Bureau) takes reports of online harm to minors, including impersonation and AI-generated voices and videos, and is reachable by calling 105",
+      "claim": "The 105 hotline handles harm, violence and crime against children and adolescents in cyberspace and is reachable by calling 105",
       "claim_type": "feature",
       "source_url": "https://www.gov.il/en/departments/units/105_call_center",
       "source_fetched_at": "2026-06-05T18:20:00Z",
@@ -193,13 +193,13 @@
       "id": "synthid-watermark",
       "claim": "Google SynthID embeds an imperceptible watermark into AI-generated images, audio, and video produced by Google AI models",
       "claim_type": "feature",
-      "source_url": "https://deepmind.google/science/synthid/",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
+      "source_url": "https://deepmind.google/models/synthid/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
       "raw_snippet": "SynthID embeds digital watermarks directly into AI-generated images, audio, text or video.",
       "confidence": "high",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "claim_id": "synthid-watermark",
-      "fetched_at": "2026-08-18T19:30:00Z"
+      "fetched_at": "2026-11-23T12:00:00Z"
     },
     {
       "id": "cyber-119-hotline-number",
@@ -232,13 +232,13 @@
     {
       "id": "openai-synthid-partnership",
       "claim_id": "openai-synthid-partnership",
-      "claim": "SynthID is no longer exclusive to Google models: OpenAI adds SynthID watermarking to images generated with its tools through a partnership with Google, so a SynthID hit does not imply a Google model",
+      "claim": "OpenAI adds SynthID watermarking to images generated with its tools through a partnership with Google, so SynthID is no longer used only by Google",
       "claim_type": "feature",
       "source_url": "https://openai.com/index/advancing-content-provenance/",
       "raw_snippet": "adding durable cross-platform SynthID watermarking to images through a partnership with Google",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "fetched_at": "2026-08-18T19:30:00Z",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "verified_via": "browser",
       "confidence": "high",
       "appears_in": [
@@ -286,30 +286,31 @@
     {
       "id": "il-election-deepfake-labelling",
       "claim_id": "il-election-deepfake-labelling",
-      "claim": "Israeli law requires election campaign propaganda containing digitally created content presented as original to be marked clearly and prominently, under the Elections Law for the Twenty-Sixth Knesset (Special Provisions and Legislative Amendments), 5786-2026",
+      "claim": "Section 2A2 of the Elections (Propaganda Methods) Law requires a publisher of election propaganda that is a deep-appearance item to attach a clear and prominent disclosure that the content was not originally documented",
       "claim_type": "legal-reference",
-      "source_url": "https://www.law.co.il/news/2026/07/20/deep-fake-election/",
-      "raw_snippet": "אדם המפרסם תעמולת בחירות הכוללת תוכן שנוצר באמצעי דיגיטלי ונחזה להיות מקורי, חייב לציין באופן ברור ובולט שהתוכן לא תועד במקור",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "fetched_at": "2026-08-18T19:30:00Z",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_14147458.pdf",
+      "raw_snippet": "יצרף לה גילוי המציין באופן ברור ובולט כי התוכן שבה לא תועד במקור",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T16:00:00Z",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/israeli-context.md"
-      ]
+      ],
+      "verified_via": "pdf"
     },
     {
       "id": "il-election-label-rules",
       "claim_id": "il-election-label-rules",
-      "claim": "The Elections Committee chair published rules, in force from 26 July 2026, specifying the disclosure: either a statement that the content was digitally created and not originally documented, or a logo bearing 'AI' with that wording",
+      "claim": "The chair's rules, in force from 26 July 2026, accept a statement or a logo bearing AI",
       "claim_type": "legal-reference",
       "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
-      "raw_snippet": "לוגו שצורתו מפורטת בתוספת לכללים, הכולל את הסימון \"AI\" ואת הביטוי \"התוכן נוצר באמצעי דיגיטלי ולא תועד במקור\"",
-      "source_fetched_at": "2026-08-18T19:30:00Z",
-      "fetched_at": "2026-08-18T19:30:00Z",
-      "verified_at": "2026-08-18T19:30:00Z",
+      "raw_snippet": "לוגו שצורתו מפורטת בתוספת לכללים, הכולל את הסימון \"AI\"",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
@@ -476,18 +477,17 @@
       "claim_id": "overpass-turbo",
       "claim": "Overpass turbo is a web based data mining tool for OpenStreetMap that runs Overpass API queries and shows results on an interactive map, usable to match a visible feature combination",
       "claim_type": "feature",
-      "source_url": "https://overpass-turbo.eu/",
-      "raw_snippet": "Overpass turbo is a web based data mining tool for OpenStreetMap.",
+      "source_url": "https://wiki.openstreetmap.org/wiki/Overpass_turbo",
+      "raw_snippet": "is a web based data mining tool for OpenStreetMap.",
       "source_fetched_at": "2026-08-18T20:10:00Z",
       "fetched_at": "2026-08-18T20:10:00Z",
-      "verified_at": "2026-08-18T20:10:00Z",
+      "verified_at": "2026-11-23T14:00:00Z",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/source-tracing.md"
-      ],
-      "verified_via": "browser"
+      ]
     },
     {
       "id": "bellingcat-geolocation",
@@ -606,14 +606,15 @@
       "claim_type": "feature",
       "source_url": "https://cv.iptc.org/newscodes/digitalsourcetype/",
       "raw_snippet": "Digital media created algorithmically using an Artificial Intelligence model trained on captured content",
-      "source_fetched_at": "2026-08-18T20:10:00Z",
-      "fetched_at": "2026-08-18T20:10:00Z",
-      "verified_at": "2026-08-18T20:10:00Z",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "verified_at": "2026-11-23T12:00:00Z",
       "confidence": "high",
       "appears_in": [
         "scripts/dump_metadata.py",
         "references/provenance.md"
-      ]
+      ],
+      "verified_via": "browser"
     },
     {
       "id": "c2patool-certs",
@@ -648,13 +649,13 @@
     {
       "id": "cec-ai-video-takedown",
       "claim_id": "cec-ai-video-takedown",
-      "claim": "Enforcement of the Israeli election AI-labelling regime is live: the Central Elections Committee has ordered an AI-generated campaign video taken down",
+      "claim": "The Central Elections Committee ordered an AI campaign video of IDF soldiers removed on the ground of prohibited use of public property, not for a missing AI label",
       "claim_type": "feature",
       "source_url": "https://www.timesofisrael.com/liveblog_entry/elections-panel-orders-eisenkot-to-take-down-ai-campaign-video-showing-idf-soldiers/",
-      "raw_snippet": "The Central Elections Committee orders Gadi Eisenkot, chair of the Yashar party, to take down a campaign video featuring AI-generated images of IDF soldiers",
+      "raw_snippet": "constitutes a prohibited use of public property for election propaganda purposes",
       "source_fetched_at": "2026-08-18T21:20:00Z",
       "fetched_at": "2026-08-18T21:20:00Z",
-      "verified_at": "2026-08-18T21:30:00Z",
+      "verified_at": "2026-11-23T14:00:00Z",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
@@ -681,20 +682,51 @@
       ]
     },
     {
-      "id": "c2pa-official-list-file",
-      "claim_id": "c2pa-official-list-file",
-      "claim": "The official C2PA trust list PEM is published in the conformance-public repository",
-      "claim_type": "url",
-      "source_url": "https://raw.githubusercontent.com/c2pa-org/conformance-public/main/trust-list/C2PA-TRUST-LIST.pem",
+      "id": "c2pa-itl-frozen",
+      "claim_id": "c2pa-itl-frozen",
+      "claim": "The C2PA interim trust list was frozen on 1 January 2026",
+      "claim_type": "feature",
+      "source_url": "https://opensource.contentauthenticity.org/docs/conformance/trust-lists",
       "source_fetched_at": "2026-11-23T12:00:00Z",
       "fetched_at": "2026-11-23T12:00:00Z",
-      "raw_snippet": "Subject\tCN=Google C2PA Media Services 1P ICA G3, O=Google LLC, C=US -----BEGIN CERTIFICATE-----",
+      "raw_snippet": "As of January 1, 2026, the ITL has been frozen",
       "confidence": "high",
       "verified_at": "2026-11-23T12:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "references/provenance.md"
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "c2pa-itl-legacy-valid",
+      "claim_id": "c2pa-itl-legacy-valid",
+      "claim": "Content signed while an interim-list certificate was valid stays valid under the legacy trust model",
+      "claim_type": "feature",
+      "source_url": "https://opensource.contentauthenticity.org/docs/conformance/trust-lists",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "the content will always be considered valid against the legacy trust model",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "c2pa-verify-uses-itl",
+      "claim_id": "c2pa-verify-uses-itl",
+      "claim": "The Verify site uses the interim trust list",
+      "claim_type": "feature",
+      "source_url": "https://opensource.contentauthenticity.org/docs/conformance/trust-lists",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "currently uses the ITL to validate that Content Credentials were signed using a",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     },
     {
@@ -706,6 +738,199 @@
       "source_fetched_at": "2026-11-23T12:00:00Z",
       "fetched_at": "2026-11-23T12:00:00Z",
       "raw_snippet": "URL or relative path to a file containing a list of trust anchors (in PEM format) used to validate the manifest certificate chain.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "gemini-google-only",
+      "claim_id": "gemini-google-only",
+      "claim": "Gemini's SynthID check recognizes only content created by Google AI tools",
+      "claim_type": "feature",
+      "source_url": "https://support.google.com/gemini/answer/16722517?hl=en",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "While other companies have started to adopt SynthID watermarks, Gemini can currently only recognize content created by Google AI tools.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "gemini-c2pa",
+      "claim_id": "gemini-c2pa",
+      "claim": "Gemini reads Content Credentials at gemini.google.com and in the Android app",
+      "claim_type": "feature",
+      "source_url": "https://support.google.com/gemini/answer/16722517?hl=en",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "Verification with Content Credentials is available at",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "gemini-signed-in",
+      "claim_id": "gemini-signed-in",
+      "claim": "Gemini verification requires being signed in",
+      "claim_type": "feature",
+      "source_url": "https://support.google.com/gemini/answer/16722517?hl=en",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "To be signed in to Gemini Apps.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-election-temporary",
+      "claim_id": "il-election-temporary",
+      "claim": "Section 2A2 is a temporary provision from 23.7.2026 until 26.10.2027",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_(%D7%93%D7%A8%D7%9B%D7%99_%D7%AA%D7%A2%D7%9E%D7%95%D7%9C%D7%94)",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "הוראת שעה מיום 23.7.2026 ועד יום 26.10.2027",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-election-definition",
+      "claim_id": "il-election-definition",
+      "claim": "Deep appearance covers visual or audio content digitally created or materially altered",
+      "claim_type": "feature",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_14147458.pdf",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "תוכן חזותי או קולי הכולל דמות, מקום, אירוע, מסמך או חפץ אחר",
+      "confidence": "high",
+      "verified_at": "2026-11-23T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf"
+    },
+    {
+      "id": "il-election-section",
+      "claim_id": "il-election-section",
+      "claim": "The disclosure duty sits in section 2A2(a) of the Propaganda Law",
+      "claim_type": "feature",
+      "source_url": "https://www.isoc.org.il/regulation-digital-services/deep-fake-election-law",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "חזקה כי עמד בחובת הגילוי לפי סעיף 2א2(א) לחוק",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-label-edited-form",
+      "claim_id": "il-label-edited-form",
+      "claim": "The accepted statement also covers content digitally edited in a way that materially changed it, and may name the affected part",
+      "claim_type": "feature",
+      "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "או שנערך באמצעי דיגיטלי באופן ששינה אותו בשינוי מהותי",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-label-no-logo-audio",
+      "claim_id": "il-label-no-logo-audio",
+      "claim": "The logo cannot be used for audio content",
+      "claim_type": "feature",
+      "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "לא ניתן להשתמש בלוגו עבור תוכן קולי",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-label-audio-spoken",
+      "claim_id": "il-label-audio-spoken",
+      "claim": "Audio without a visual element needs a spoken notice at its start and end",
+      "claim_type": "feature",
+      "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "יכלול בתחילתו ובסופו הודעת גילוי מושמעת בבירור",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "il-label-video-duration",
+      "claim_id": "il-label-video-duration",
+      "claim": "A video must carry the notice for as long as the content appears",
+      "claim_type": "feature",
+      "source_url": "https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "יכללו הודעת גילוי לכל משך הופעת התוכן",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "eu-art50-marking-grace",
+      "claim_id": "eu-art50-marking-grace",
+      "claim": "Per the Commission FAQ, providers of AI systems placed on the market before 2 August 2026 must comply with Article 50(2) marking only from 2 December 2026",
+      "claim_type": "feature",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "Providers of such systems must comply with those obligations only as from 2 December 2026.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "id": "nikon-c2pa-revocation",
+      "claim_id": "nikon-c2pa-revocation",
+      "claim": "Nikon said it would revoke all C2PA certificates issued to date after a vulnerability in its authenticity feature",
+      "claim_type": "feature",
+      "source_url": "https://www.digitalcameraworld.com/photography/photojournalism/nikon-revokes-all-c2pa-image-authenticity-certificates-after-major-vulnerability-exposed",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "has confirmed that it will revoke all C2PA certificates issued to date after a major vulnerability",
       "confidence": "high",
       "verified_at": "2026-11-23T12:00:00Z",
       "appears_in": [
@@ -730,6 +955,102 @@
       ]
     },
     {
+      "id": "c2pa-official-list-file",
+      "claim_id": "c2pa-official-list-file",
+      "claim": "The official C2PA trust list PEM is published in the conformance-public repository",
+      "claim_type": "url",
+      "source_url": "https://raw.githubusercontent.com/c2pa-org/conformance-public/main/trust-list/C2PA-TRUST-LIST.pem",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "Subject\tCN=Google C2PA Media Services 1P ICA G3, O=Google LLC, C=US -----BEGIN CERTIFICATE-----",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2pa-itl-anchors-file",
+      "claim_id": "c2pa-itl-anchors-file",
+      "claim": "The interim list anchors file is published in the verify-site repository",
+      "claim_type": "url",
+      "source_url": "https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/anchors.pem",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "## This interim trust list is now frozen.  C2PA has published an official trust list, and new anchor certificates should be added to that list. NOTE: Content Credentials are still valid which were signed using certificates chaining back to root certs on this list. Validators can still refer to this trust list, but should distinguish between Content Credentials signed with certs tracing back to these and those signed with certs tracing back to root certs on the official C2PA trust list. ## Currently, the verifier at https://verify.contentauthenticity.org/ uses this list.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2pa-itl-allowed-file",
+      "claim_id": "c2pa-itl-allowed-file",
+      "claim": "The interim list allowed end-entity file is published in the verify-site repository",
+      "claim_type": "url",
+      "source_url": "https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/allowed.pem",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "## This interim trust list is now frozen.  C2PA has published an official trust list of root certificates. NOTE: Content Credentials are still valid which were signed using certificates on this list. Validators can still refer to this trust list, but should distinguish between Content Credentials signed with these certs and those signed with certs tracing back to root certs on the official C2PA trust list. ## Currently, the verifier at https://verify.contentauthenticity.org/ uses this list.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "references/provenance.md"
+      ]
+    },
+    {
+      "id": "c2pa-itl-store-file",
+      "claim_id": "c2pa-itl-store-file",
+      "claim": "The interim list EKU configuration is published in the verify-site repository",
+      "claim_type": "url",
+      "source_url": "https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/store.cfg",
+      "source_fetched_at": "2026-11-23T12:00:00Z",
+      "fetched_at": "2026-11-23T12:00:00Z",
+      "raw_snippet": "//id-kp-emailProtection 1.3.6.1.5.5.7.3.4",
+      "confidence": "high",
+      "verified_at": "2026-11-23T12:00:00Z",
+      "appears_in": [
+        "references/provenance.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "il-election-prior-exemption",
+      "claim_id": "il-election-prior-exemption",
+      "claim": "Section 2A2 does not apply to propaganda first published before its commencement",
+      "claim_type": "feature",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_14147458.pdf",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "הוראות סעיף זה לא יחולו על תעמולת בחירות שפורסמה לראשונה לפני יום תחילתו.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf"
+    },
+    {
+      "id": "eu-no-retroactive",
+      "claim_id": "eu-no-retroactive",
+      "claim": "Content generated before 2 August 2026 need not be labelled retroactively",
+      "claim_type": "feature",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "Content generated prior to 2 August 2026 does not need to be labelled retroactively.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
       "id": "yandex-face-matching",
       "claim_id": "yandex-face-matching",
       "claim": "Yandex image search matches other photographs of the same person by facial similarity",
@@ -743,6 +1064,40 @@
       "appears_in": [
         "references/source-tracing.md"
       ]
+    },
+    {
+      "id": "stopncii-messaging-limit",
+      "claim_id": "stopncii-messaging-limit",
+      "claim": "StopNCII works on public platforms and not inside encrypted messaging",
+      "claim_type": "feature",
+      "source_url": "https://stopncii.org/faq/",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "Most messaging platforms use encryption which means hashing technologies do not apply.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser"
+    },
+    {
+      "id": "helpline-1202",
+      "claim_id": "helpline-1202",
+      "claim": "The sexual assault support centres run the national helplines 1202 (women) and 1203 (men)",
+      "claim_type": "feature",
+      "source_url": "https://1202.org.il/support-and-information/support/hotlines/",
+      "source_fetched_at": "2026-11-23T14:00:00Z",
+      "fetched_at": "2026-11-23T14:00:00Z",
+      "raw_snippet": "1202 – סיוע שניתן על ידי נשים 1203 – סיוע שניתן על ידי גברים",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser"
     },
     {
       "id": "censor-strike-location",
@@ -760,6 +1115,40 @@
         "SKILL_HE.md"
       ],
       "verified_via": "browser"
+    },
+    {
+      "id": "helpline-1202-whatsapp",
+      "claim_id": "helpline-1202-whatsapp",
+      "claim": "The centres offer WhatsApp support by message to 052-8361202",
+      "claim_type": "feature",
+      "source_url": "https://1202.org.il/support-and-information/support/hotlines/",
+      "source_fetched_at": "2026-11-23T14:30:00Z",
+      "fetched_at": "2026-11-23T14:30:00Z",
+      "raw_snippet": "או ישירות בהודעה למספר 052-8361202",
+      "confidence": "high",
+      "verified_at": "2026-11-23T14:30:00Z",
+      "verified_via": "browser",
+      "appears_in": [
+        "references/israeli-context.md"
+      ]
+    },
+    {
+      "id": "openai-verify-signal-scope",
+      "claim_id": "openai-verify-signal-scope",
+      "claim": "An OpenAI Verify signal means the content was likely processed by OpenAI tools and does not show whether or to what extent it was generated or edited",
+      "claim_type": "feature",
+      "source_url": "https://openai.com/research/verify/",
+      "source_fetched_at": "2026-11-23T18:00:00Z",
+      "fetched_at": "2026-11-23T18:00:00Z",
+      "raw_snippet": "A detected signal indicates that the content was likely processed by OpenAI tools.",
+      "confidence": "high",
+      "verified_at": "2026-11-23T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/provenance.md",
+        "references/verdict-report-template.md"
+      ]
     },
     {
       "id": "c2pa-state-valid",
@@ -809,6 +1198,7 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
+        "references/provenance.md",
         "scripts/check_provenance.py"
       ]
     }

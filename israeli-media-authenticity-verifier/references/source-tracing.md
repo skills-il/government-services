@@ -1,16 +1,16 @@
 # Source and context tracing
 
-This layer catches the dominant real-world case: authentic media that is old, from another
-place, or from a game or simulation, just relabeled. Poynter's guidance on war imagery is
+This layer catches a common real-world case: authentic media that is old or from another
+place, and game or simulator footage presented as real. Poynter's guidance on war imagery is
 that it is "often ... generated with artificial intelligence or else it's old footage
 misrepresented as if it's new" (https://www.poynter.org/fact-checking/2026/fake-images-iran-war-how-spot-them/).
 So even when every other layer is null, this layer often decides the verdict.
 
 ## Reverse-image search
 
-**No image, video frame, clip or link showing an identifiable person's face goes to any reverse-image, visual-search or multi-engine tool, including TinEye, Yandex, Bing, Google Lens and InVID. Extract frames locally and crop or blur faces first, or search on non-face context only.**
+**No image, video frame, clip or link showing an identifiable person's face goes to any reverse-image, visual-search or multi-engine tool, including TinEye, Yandex, Bing, Google Lens and InVID. Extract frames locally and crop or blur faces first, or search on non-face context only. If a minor or identifiable private individual appears, blurring the face is not enough: search only the caption text or a locally made crop with no person in it.**
 
-**תמונה, פריים, סרטון או קישור שרואים בהם פנים של אדם שאפשר לזהות לא נשלחים לשום כלי של חיפוש הפוך, חיפוש חזותי או חיפוש מרובה מנועים, כולל TinEye, Yandex, Bing, Google Lens ו-InVID. חלצו פריימים מקומית וחתכו או טשטשו את הפנים קודם, או חפשו רק לפי הקשר שאינו פנים.**
+**תמונה, פריים, סרטון או קישור שרואים בהם פנים של אדם שאפשר לזהות לא נשלחים לשום כלי של חיפוש הפוך, חיפוש חזותי או חיפוש מרובה מנועים, כולל TinEye, Yandex, Bing, Google Lens ו-InVID. חלצו פריימים מקומית וחתכו או טשטשו את הפנים קודם, או חפשו רק לפי הקשר שאינו פנים. אם מופיע קטין או אדם פרטי שאפשר לזהות, טשטוש הפנים לא מספיק: חפשו רק את טקסט הכיתוב או חיתוך שנעשה מקומית ואין בו אדם.**
 
 Search the still (or a representative frame from a video) across more than one engine,
 because their indexes differ AND because they answer different questions. Pick by job:
@@ -21,9 +21,9 @@ because their indexes differ AND because they answer different questions. Pick b
   resized" (https://help.tineye.com/article/233-how-does-tineye-work). That match-not-similar
   behaviour, plus sorting by oldest, is what surfaces a recycled original.
 - **Yandex Images**, strong on scene matching and on Middle Eastern and Eastern European
-  geography. **No identifiable faces.** Bellingcat reports that it "will also
-  look for other photographs of the same person"
-  (https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/).
+  geography. **No identifiable faces.** Bellingcat reports that
+  Yandex "will also look for other photographs of the same person", so a face sent there is
+  a face search (https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/).
 - **Google Lens** (no identifiable faces), for identifying a landmark, object or place. It is a semantic
   "similar things" surface: good for "where is this", weak for "when was this first posted".
 - **Bing Visual Search** (no identifiable faces) last; it has drifted toward shopping.
@@ -45,10 +45,11 @@ best thing by reverse image searching thumbnails and screenshots"
 (https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/).
 
 The substitute workflow:
-1. Extract keyframes with `scripts/extract_frames.py --keyframes` (or take 3-5 spread
-   screenshots by hand on a phone).
+1. Run `scripts/extract_frames.py <file> --iframes` (or `--keyframes` when the clip has
+   scene cuts), then run the ffmpeg command it prints. On a phone, take 3-5 spread
+   screenshots by hand.
 2. Reverse-search several of them, with identifiable faces cropped or blurred, not one. A single frame is often too generic to match.
-3. If an identifiable person's face may appear in the clip, do not give the clip or its link to InVID/WeVerify: extract frames locally, crop or blur the faces, and search only those copies. Browser users can use the plugin's one-step route only for a clip with no identifiable faces. For such clips, the InVID/WeVerify plugin does keyframe extraction plus one-click
+3. If an identifiable person's face may appear in the clip, do not give the clip or its link to InVID/WeVerify: extract frames locally, crop or blur the faces, and search only those copies, within the limit above for minors and private individuals. Browser users can use the plugin's one-step route only for a clip with no identifiable faces. For such clips, the InVID/WeVerify plugin does keyframe extraction plus one-click
    reverse search across engines. Use the maintained project pages,
    https://github.com/AFP-Medialab/invid-verification-plugin or
    https://weverify.eu/verification-plugin/. Its advanced tools require registration
@@ -94,13 +95,14 @@ This is the dominant intake shape, so treat it as its own lane rather than a foo
   claimed date (https://support.google.com/earth/answer/148094).
 - **Mapillary** (mapillary.com) for street-level ground truth where satellite view cannot
   resolve a shopfront or a signpost.
-- **Overpass Turbo** (https://overpass-turbo.eu/) to query OpenStreetMap for a feature
+- **Overpass Turbo** (https://wiki.openstreetmap.org/wiki/Overpass_turbo) to query OpenStreetMap for a feature
   combination you can see, for example a mosque next to a petrol station on a dual
   carriageway.
 - **Bellingcat's geolocation guide** as the standing reference for the method itself
   (https://www.bellingcat.com/resources/how-tos/2015/07/25/searching-the-earth-essential-geolocation-tools-for-verification/).
 
-If the item may show a recent strike or hit in Israel, no field of a shareable report may state, confirm or deny where it happened, and it must not repeat a claimed place. Write "Location checked, details withheld" and "GPS present, withheld". Military censorship restrictions on publishing strike locations may apply, including when forwarding, so check the current rules before sharing.
+Keep this analysis private for a recent strike. If the item may show a recent strike or hit in Israel, no field of a shareable report may state, confirm or deny where it happened, and it must not repeat a claimed place. Write "Location checked, details withheld" and "GPS present, withheld". Military censorship restrictions on publishing strike locations may apply, including when forwarding, so check the current rules before sharing. One reported example is the
+June 2025 order (https://www.jpost.com/israel-news/defense-news/article-858194).
 
 What to compare, with the Israeli specifics this skill should own:
 - Signage: Hebrew vs Arabic vs Farsi script is often the fastest disqualifier of a claimed
@@ -128,7 +130,9 @@ What to compare, with the Israeli specifics this skill should own:
 
 - Earliest appearance predates the claimed event: verdict trends "authentic but
   miscaptioned" (real media, false caption).
-- No prior appearance anywhere, plus synthetic visual tells: trends "AI-generated".
+- Game, simulator or CGI footage presented as real: "not real footage".
+- No prior appearance anywhere, plus synthetic visual tells: at most "likely AI-generated",
+  confidence no higher than medium. A failed search is a null and never proves generation.
 - No prior appearance, no tells, no provenance: likely "inconclusive". Say so.
 
 Always separate the media from its caption. A genuine photo with a false "this is X
@@ -137,10 +141,11 @@ right now" caption is disinformation even though the pixels are real.
 ## Face search is out of bounds
 
 Do not put a face into a face-recognition or face-search engine (PimEyes and similar) at any
-point in this layer, and decline requests to. Running a face through recognition search is
-itself processing a biometric identifier, which Israel's Privacy Protection Law classifies as
-"מידע בעל רגישות מיוחדת" (https://www.nevo.co.il/law_html/law01/087_001.htm), the strictest
-category; a legitimate verification purpose does not change what the act is.
+point in this layer, and decline requests to. This skill does not do this, whatever the
+purpose. A biometric identifier used to identify a person is "מידע בעל רגישות מיוחדת" under
+Israel's Privacy Protection Law (https://www.nevo.co.il/law_html/law01/087_001.htm), a
+category with heightened protection.
 
-The substitute: search the caption and compare by eye against photographs the claimed person published themselves, from verified accounts or
-news archives.
+The alternative: search the caption and compare by eye against photographs the claimed person published themselves, from verified accounts or
+news archives. Never use a lookalike result to identify anyone. Trace the item, not the
+person: do not compile information about a poster's identity, home, workplace or contacts.

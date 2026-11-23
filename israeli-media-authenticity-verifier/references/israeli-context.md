@@ -47,7 +47,8 @@ Before publishing a verdict, check whether an Israeli outlet already addressed t
 ## Wartime publication limit
 
 If the item may show a recent strike or hit in Israel, no field of a shareable report may state, confirm or deny where it happened, and it must not repeat a claimed place. Write "Location checked, details withheld" and "GPS present, withheld". Military censorship restrictions on publishing strike locations may apply, including when forwarding, so check the current rules before sharing. One reported example is the June 2025 order
-(https://www.jpost.com/israel-news/defense-news/article-858194). The official text was not read.
+(https://www.jpost.com/israel-news/defense-news/article-858194). This skill has not read the
+order's official text and does not state how far it reaches into private chats.
 
 ## Live security incident: authoritative source first
 
@@ -65,8 +66,9 @@ Third-party alert apps (Tzofar, "צבע אדום" clones) are NOT official. A sc
 third-party app presented as an official alert is a recurring confusion, so check which app
 the screenshot actually came from.
 
-This also gives you a comparison target: if a claimed alert does not appear on the official
-channel for that timestamp, that is a strong signal on its own. Authenticating a forward
+If you hear a siren or get an official alert, go to the protected space first. This channel
+also answers one narrow question, whether a claimed official alert was really issued. Its
+absence does not disprove an event and must never be used to tell someone they are safe. Authenticating a forward
 takes time; confirming against an authority does not. Run verification in parallel, but tell
 the user not to re-share before the authority confirms.
 
@@ -75,22 +77,29 @@ the user not to re-share before the authority confirms.
 Israel now regulates synthetic campaign media directly, and the rule is operational for a
 verifier because it makes the LABEL a readable signal.
 
-- The Elections Law for the Twenty-Sixth Knesset (Special Provisions and Legislative
-  Amendments), 5786-2026 uses the term "נחזות עמוקה" and provides: "אדם המפרסם תעמולת בחירות
-  הכוללת תוכן שנוצר באמצעי דיגיטלי ונחזה להיות מקורי, חייב לציין באופן ברור ובולט שהתוכן לא
-  תועד במקור" (https://www.law.co.il/news/2026/07/20/deep-fake-election/).
-- The Elections Committee chair published implementing rules, in force since 26 July 2026,
-  allowing either a textual statement or "לוגו שצורתו מפורטת בתוספת לכללים, הכולל את הסימון
-  \"AI\" ואת הביטוי \"התוכן נוצר באמצעי דיגיטלי ולא תועד במקור\""
+- Section 2א2 of the Elections (Propaganda Methods) Law, added by the Elections Law for the
+  Twenty-Sixth Knesset, 5786-2026, uses the term "נחזות עמוקה" and provides that a publisher
+  of such election propaganda "יצרף לה גילוי המציין באופן ברור ובולט כי התוכן שבה לא תועד
+  במקור" (https://fs.knesset.gov.il/25/law/25_lsr_14147458.pdf).
+- **It is a temporary provision**, marked in the consolidated law "הוראת שעה מיום 23.7.2026 ועד
+  יום 26.10.2027" (https://he.wikisource.org/wiki/חוק_הבחירות_(דרכי_תעמולה)). Check its status
+  after that date. It also states: "הוראות סעיף זה לא יחולו על תעמולת בחירות שפורסמה לראשונה
+  לפני יום תחילתו", so propaganda first published before 23 July 2026 is outside this section.
+- The Elections Committee chair published implementing rules, in force since 26 July 2026.
+  Accepted forms are a statement that all or a named part was digitally created and not
+  originally documented, or digitally edited in a way that materially changed it, or "לוגו
+  שצורתו מפורטת בתוספת לכללים, הכולל את הסימון \"AI\"" with that wording. "לא ניתן להשתמש
+  בלוגו עבור תוכן קולי": audio without a visual element needs a spoken notice at its start
+  and end, and a video must carry the notice for as long as the content appears
   (https://www.law.co.il/news/2026/07/27/deep-fake-and-ai-elections-propaganda-rules/).
-- Enforcement is live, not theoretical: "The Central Elections Committee orders Gadi
-  Eisenkot, chair of the Yashar party, to take down a campaign video featuring AI-generated
-  images of IDF soldiers"
+- AI campaign material can also fall under other propaganda rules. The Committee ordered an
+  AI video of IDF soldiers removed as "a prohibited use of public property for election
+  propaganda purposes", not for a missing label
   (https://www.timesofisrael.com/liveblog_entry/elections-panel-orders-eisenkot-to-take-down-ai-campaign-video-showing-idf-soldiers/).
 
-How to route: a complaint about unlabelled or deceptive campaign propaganda goes to the
-Central Elections Committee, not to 119 or 105. Describe the rule and the observation; do
-not tell the user whether a given publication is lawful.
+How to route: a concern about undisclosed synthetic campaign material goes to the Central
+Elections Committee, whose chair decides, not to 119 or 105. Describe the rule and the
+observation; do not tell the user whether a given publication is lawful.
 
 ## Reporting channels (scope each correctly)
 
@@ -111,8 +120,9 @@ not tell the user whether a given publication is lawful.
 - Impersonation fraud to steal money (someone posing as a bank, a credit card company, the
   Bank of Israel, or the police): the Bank of Israel warns the public about exactly this
   pattern (https://www.boi.org.il/en/information-and-service-to-the-public/consumer-enquiries-and-inspections/warning-to-the-public-with-regard-to-fraud-by-impersonating-the-bank-of-israel-or-commercial-banks/).
-  Tell the user to contact their bank's fraud line, and to report the cyber incident to the
-  119 hotline.
+  Tell the user not to pay. If money or a code has already gone, call the bank's fraud line
+  immediately to block the card or account and try to stop the transfer, change exposed
+  passwords, then file a police complaint and report to the 119 hotline.
 - **An ADULT targeted by synthetic sexual or intimate imagery** (an AI-generated nude or a
   face-swapped sexual clip). Do NOT route this to 105, which is scoped to minors. The
   routes that actually apply:
@@ -121,13 +131,19 @@ not tell the user whether a given publication is lawful.
     you can hash it", and "Your images will never leave your device and they will never be
     saved by us. We will only store the digital fingerprints, also known as hashes." It
     requires that you were over 18 in the image. The on-device hashing matters: the victim
-    never uploads the image anywhere.
+    never uploads the image anywhere. Its limit matters too: "StopNCII.org only works on
+    public facing platforms", and "Most messaging platforms use encryption which means
+    hashing technologies do not apply". For WhatsApp or Telegram, use in-app reporting, ask
+    group admins to remove it, and use the routes below.
+  - **The sexual assault support helplines** (https://1202.org.il/support-and-information/support/hotlines/):
+    1202 (answered by women), 1203 (answered by men), WhatsApp messages to 052-8361202. The person does not need to prove
+    the image is fake to get help.
   - **ISOC-IL's safe-internet helpline** (https://www.isoc.org.il/digital-literacy/report)
     for guidance in Hebrew before taking further steps.
   - **The Israel Police online complaint service on gov.il** for the criminal track, and
     100 for an immediate threat.
-  If the person may have been under 18 in the image, do not use any file-based tool: apply
-  the Step 0 stop rule and report to 105 or the police.
+  StopNCII is for adults only. If the person may have been under 18 in the image, do not use
+  any file-based tool: apply the stop rule and report to 105 or the police.
 - General crime or an immediate threat to safety: contact the Israel Police, 100 in an
   emergency.
 
@@ -137,7 +153,8 @@ Every route above works better with an intact artefact, and every hour of delay 
 it. ISOC's own guidance leads with documenting first: "צלמו מסך (שיהיה תיעוד לאירוע במידה
 ותגישו תלונה במשטרה)" (https://www.isoc.org.il/digital-literacy/cybersafe/sextortion).
 **Exception: possible sexual imagery of a minor, real or AI-generated.** Do not save, copy,
-screenshot or forward it. Report it to 105 or the police and follow their instructions.
+screenshot or forward it. Report it to 105 or the police, say where and when you received it,
+and follow their instructions about the file.
 
 For anything else, tell the user to, before blocking or deleting anything:
 
@@ -154,8 +171,8 @@ expert opinions, and a user with real legal stakes needs a professional.
 
 A "CEO" or a "relative" on a live video call is now a mainstream attack, not a file to
 analyse, and it is worth answering rather than deflecting. The decision rule is the one the
-audio lane already uses: hang up and call back on a number you already held, and use a
-pre-agreed family safe word.
+audio lane already uses: hang up and make an ordinary phone call to a number you already
+saved, not a call inside the same app, and use a pre-agreed family safe word.
 
 A liveness probe can help, but only in one direction: ask the caller to turn a full
 90 degrees in profile, pass a hand across their face, or stand up. Real-time face-swap
@@ -166,15 +183,14 @@ speak on command. Interception, recording, and any real-time classifier remain o
 ## Face search: do not run a face through a recognition engine
 
 Do not use a face-recognition or face-search engine at all (PimEyes and similar), and decline
-requests to. Purpose does not cure this one: running a face through recognition search is
-itself the regulated act, whoever the subject is and whatever you meant to establish.
+requests to. This skill does not do this, whatever the purpose. Do not send an identifiable face to
+any reverse-image, visual-search or multi-engine tool either.
 
-To check a CLAIMED KNOWN identity, search the caption and compare by eye against photographs the person themselves published, from verified
-accounts or news archives. This is not only etiquette: under Israel's Privacy Protection Law
-as amended, a biometric identifier used to identify a person or verify their identity by
-computerised means is "מידע בעל רגישות מיוחדת", the strictest category
-(https://www.nevo.co.il/law_html/law01/087_001.htm), so running a stranger's face through
-recognition search is a regulated act.
+To check a CLAIMED KNOWN identity, search the caption and compare by eye against photographs the person themselves published,
+from verified accounts or news archives. Under Israel's Privacy Protection Law as amended, a
+biometric identifier used to identify a person or verify their identity by computerised means
+is "מידע בעל רגישות מיוחדת", a category with heightened protection
+(https://www.nevo.co.il/law_html/law01/087_001.htm).
 
 Do not over-promise. This skill helps the user assess and document the media and points
 them to the right channel. It does not file reports or contact authorities.

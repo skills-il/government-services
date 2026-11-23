@@ -10,8 +10,8 @@ made it (including whether an AI generator was involved), and the edit history. 
 manifest is signed, so a valid signature ties the claims to a known signer.
 
 How to read it:
-- Install with `brew install c2patool`, run it against the official trust list, and save the
-  output:
+- Install with `brew install c2patool`, run it against a trust list, save the output, and
+  pass the saved files to `scripts/check_provenance.py`:
 
   ```bash
   curl -fsSLO https://raw.githubusercontent.com/c2pa-org/conformance-public/main/trust-list/C2PA-TRUST-LIST.pem
@@ -21,9 +21,27 @@ How to read it:
 
 - The script lists declared actions and sources and gives no verdict.
 - `Valid` means only that the signature and hashes check out. Anyone can produce it with their
-  own certificate, so it is not verified. Only `Trusted` may be called signer-attested.
+  own certificate, so it is not verified. We reproduced it on a C2PA test-signed file whose
+  failure list contained `signingCredential.untrusted`. Only `Trusted` means the signer chains
+  to the list you supplied, and only `Trusted` may be called signer-attested. `Invalid` may mean
+  the file was changed or damaged.
 - Even a `Trusted` manifest is the signer's statement. Whatever it declares, AI or camera, needs
   source tracing before any verdict.
+
+Two trust lists exist, and tools differ. The official C2PA trust list is current. The interim
+trust list was frozen on 1 January 2026, but content signed while its certificates were valid
+stays valid under the legacy model, and the Verify site still uses it. If the official list
+returns `Valid`, check the interim list and report which list matched:
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/anchors.pem
+curl -fsSLO https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/allowed.pem
+curl -fsSLO https://raw.githubusercontent.com/contentauth/verify-site/main/static/trust/store.cfg
+c2patool <file> trust --trust_anchors anchors.pem --allowed_list allowed.pem \
+  --trust_config store.cfg > report-itl.json 2> report-itl.err
+python scripts/check_provenance.py report-itl.json --stderr report-itl.err
+```
+
 - The no-code path: the Verify tool at https://verify.contentauthenticity.org lets a user
   drag in a file and see the same history ("Drag content into Verify to inspect its Content
   Credentials in detail and see how it has changed over time"). It accepts images, video,
@@ -38,6 +56,10 @@ What it does NOT tell you:
   messaging apps strip C2PA on upload, and screenshotting destroys it.
 - A manifest is only as trustworthy as its signer. Treat an unknown or self-signed signer
   with caution; do not stop at "a manifest exists."
+- Even a listed camera signer can fail. In September 2025 Nikon said it would revoke all C2PA
+  certificates issued for the Z6 III after a vulnerability in its authenticity feature
+  (https://www.digitalcameraworld.com/photography/photojournalism/nikon-revokes-all-c2pa-image-authenticity-certificates-after-major-vulnerability-exposed).
+  So keep source tracing in the verdict even when the signature checks out.
 
 Recovering provenance for a forwarded file:
 - Because the forward you were handed is stripped, the actionable move is to get the
@@ -51,26 +73,25 @@ Recovering provenance for a forwarded file:
 
 Google's SynthID embeds an imperceptible watermark into AI-generated media. Per Google,
 "SynthID embeds digital watermarks directly into AI-generated images, audio, text or video"
-(https://deepmind.google/science/synthid/). Detection is accessed through Google's own
-tools rather than a local CLI.
+(https://deepmind.google/models/synthid/). Detection is accessed through vendor tools
+rather than a local CLI.
 
-Detection route for an ordinary user: upload the file in Gemini and ask whether Google AI
-created or edited it. Google also runs a separate SynthID Detector
-portal aimed at journalists and researchers rather than the general public, so the Gemini app
-is the practical consumer route.
+Detection route for an ordinary user: sign in to Gemini, upload the file and ask whether it
+was created or edited by Google AI (https://support.google.com/gemini/answer/16722517?hl=en).
+At gemini.google.com and on Android, the same check also reads Content Credentials.
 
-Scope, and this changed in 2026: SynthID is no longer a Google-only signal. OpenAI now
-embeds it too, describing the move as "adding durable cross-platform SynthID watermarking to
-images through a partnership with Google"
-(https://openai.com/index/advancing-content-provenance/). So a SynthID hit means the asset
-was watermarked by a participating generator, NOT that Google made it. Attribute the
-specific tool from the C2PA manifest, not from the watermark.
+Scope: the watermark is multi-vendor, but each checker is not. OpenAI embeds SynthID too,
+describing "adding durable cross-platform SynthID watermarking to images through a
+partnership with Google" (https://openai.com/index/advancing-content-provenance/). Google's
+help page says: "While other companies have started to adopt SynthID watermarks, Gemini can
+currently only recognize content created by Google AI tools." So a Gemini hit means Google AI
+was used for all or part of the item. OpenAI's page says a detected signal "indicates that the
+content was likely processed by OpenAI tools" and does not show whether or to what extent it
+was generated or edited. A miss in either says nothing about the other.
 
-The limit that has not changed: a clean SynthID result tells you nothing about images from
-non-participating generators, which produce most viral war fakes. So "no SynthID watermark"
-is not reassurance, it is just "not from a participating generator, or the watermark was
-stripped." Re-encoding, cropping, or screenshotting can also weaken or remove it. No
-watermark found is never evidence of authenticity.
+A clean result also tells you nothing about generators outside that ecosystem. Re-encoding,
+cropping, or screenshotting can weaken or remove a watermark. No watermark found is never
+evidence of authenticity.
 
 ## OpenAI Verify
 
@@ -86,24 +107,25 @@ signals can be stripped.
 
 ## EXIF / metadata
 
-Run `scripts/dump_metadata.py <file>` (wraps `exiftool`, install with `brew install exiftool`).
-Read:
-- Make / Model / DateTimeOriginal / GPS: capture provenance. Internally consistent values
-  support a real-camera origin.
-- Software: an edit fingerprint. A generator or editor name here is a meaningful signal.
-- **DigitalSourceType (IPTC): the field that DECLARES AI origin.** The script now reads
-  `XMP-iptcExt:DigitalSourceType`. Per the IPTC NewsCodes vocabulary, the value
+Install with `brew install exiftool`, then run `exiftool -json -G1 <file> > meta.json` and
+`python scripts/dump_metadata.py meta.json`. Read:
+- Make / Model / DateTimeOriginal / GPS: declared capture details. They are easy to edit and
+  never prove a real-camera origin.
+- Software: an edit fingerprint. A generator or editor name here is a lead to check.
+- **DigitalSourceType (IPTC): the field that DECLARES AI origin.** The script reads it from
+  the saved exiftool JSON. Per the IPTC NewsCodes vocabulary, the value
   `trainedAlgorithmicMedia` means "Digital media created algorithmically using an Artificial
-  Intelligence model trained on captured content", and `compositeSynthetic` means a mix or
-  composite of several elements at least one of which is generative AI
-  (https://cv.iptc.org/newscodes/digitalsourcetype/). This is a strong positive and it often
+  Intelligence model trained on captured content", `compositeWithTrainedAlgorithmicMedia`
+  means edited using generative AI, and `compositeSynthetic` means a mix or composite of
+  several elements at least one of which is generative AI
+  (https://cv.iptc.org/newscodes/digitalsourcetype/). This is an editable declaration, and it often
   survives when a C2PA manifest does not, because it is ordinary XMP. It is also much of
   what a platform's "made with AI" label is reading. Absence of the field remains a null,
   never a clearance.
 
 Limits: forwarded and uploaded media is routinely stripped of EXIF, so absence is the norm
 and is not evidence of fakery. ELA (Error Level Analysis), available via the script's
-`--ela` flag, is a hint for splicing only and has a high false-positive rate.
+`--ela IMAGE OUT` option, is a hint for splicing only and has a high false-positive rate.
 
 ## Weighting
 
@@ -111,6 +133,8 @@ and is not evidence of fakery. ELA (Error Level Analysis), available via the scr
 |---------|--------|
 | `Trusted` C2PA declaration of any kind | Signer-attested statement. Needs source tracing, never a verdict alone |
 | `Valid` but not `Trusted` manifest | Not verified: self-description |
-| Gemini or OpenAI Verify reports a SynthID watermark | Strong: AI-generated by a SynthID-participating generator (Google or OpenAI); do not attribute the specific tool from the watermark alone |
-| Software field names a generator | Moderate: synthetic or edited |
+| `Invalid` manifest | Do not use as evidence of origin; the file may have been changed or damaged |
+| Gemini reports a SynthID watermark | All or part made or edited with Google AI; the extent stays open |
+| OpenAI Verify reports a provenance signal | Likely processed by OpenAI tools; extent not shown. Does not mean the whole item is AI-generated and cannot raise confidence to high on its own |
+| Metadata names a generator or declares AI | Editable declaration: a lead for source tracing, never a verdict |
 | No manifest, no watermark, stripped EXIF | NULL: no signal, proceed to other layers |
