@@ -12,6 +12,28 @@
         "Deferred discretionary: the Jerusalem Red Line central section closure and operator-performance disputes reported in mid-2026 could justify a service-reliability gotcha, but no authoritative source was read this cycle.",
         "Reference Links carried https://pti.org.il/derekh-shava/eng/, which returns HTTP 200 while redirecting to the Hebrew authority home page. Link checks that assert only on status will keep missing this class; assert on extracted text."
       ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-23",
+      "value_add": {
+        "with": 0.92,
+        "without": 0.69,
+        "delta": 0.23,
+        "verdict": "BLOCK on delta (advisory on update)"
+      },
+      "lessons": [
+        "The fare table was right; the defects were in the conditions around it. Read every bus.gov.il profile page in full each cycle, not only the rate.",
+        "Check travel times, frequencies, line patterns and the Saturday restart against stop_times in the Ministry feed. This cycle the feed disproved a 30-minute Savidor to Jerusalem time, the Green Line end point and a 30-minutes-after-sunset restart that press and prose had carried.",
+        "Re-check the January 25, 2027 fare update. On November 17, 2026 the press reported a ministerial halt with funding unsettled, and no new table existed on November 23. Any new table changes every amount in the skill, the script and the FAQ.",
+        "Re-check whether the Green Line section to Gilo has opened, and the 2027 opening of the Eastern Railway southern section.",
+        "Line numbers in examples go stale: line 405 had left the Ministry feed. Check example lines against routes.txt each cycle.",
+        "Deferred, scope unconfirmed: free travel for evacuees, reported extended to December 15, 2026 (Maariv). No bus.gov.il page confirms who it covers.",
+        "Deferred, no authoritative source read: Shabbat sherut fares and whether free profiles apply on those lines; Rav-Kav stored-value refunds; Jerusalem Red Line reliability.",
+        "Deferred minor: whether a free child is covered when the accompanying adult also rides free; document lists for shnat sherut, kadatz and a minor applying alone.",
+        "Value-add delta was +0.23 against a baseline with web search, below the 0.3 create bar. Flag for an admin rework-or-retire decision rather than tuning cases.",
+        "Deferred minors: separate light-rail fine appeal form; neighbouring-line changes from the November 14, 2026 rail timetable."
+      ]
     }
   ]
 }

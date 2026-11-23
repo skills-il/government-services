@@ -38,7 +38,7 @@ OPERATORS = {
         "name": "Metropoline",
         "hebrew": "metropolin",
         "modes": ["Bus"],
-        "region": "Central Israel, Sharon",
+        "region": "Central Israel, Sharon, Beer Sheva and Arad",
         "website": "https://www.metropoline.com",
     },
     "kavim": {
@@ -52,21 +52,21 @@ OPERATORS = {
         "name": "Superbus",
         "hebrew": "superbus",
         "modes": ["Bus"],
-        "region": "Central and Southern Israel",
-        "website": "https://www.superbus.co.il",
+        "region": "Jerusalem, the valleys (Emek) and Gush Dan",
+        "website": "https://superbus.co.il",
     },
     "israel_railways": {
         "name": "Israel Railways",
         "hebrew": "rakevet yisrael",
         "modes": ["Train"],
-        "region": "National rail network (~70 stations)",
+        "region": "National rail network",
         "website": "https://www.rail.co.il",
     },
     "jerusalem_lr": {
         "name": "Jerusalem Light Rail",
         "hebrew": "harakevet hakala yerushalayim",
         "modes": ["Light Rail"],
-        "region": "Jerusalem (Red Line, Green Line opening 2026)",
+        "region": "Jerusalem (Red Line, Green Line first section open since August 2026)",
         "website": "https://www.cfir.co.il",
     },
     "tel_aviv_lr": {
@@ -80,8 +80,8 @@ OPERATORS = {
 
 
 def show_operators() -> None:
-    """Display all Israeli transit operators."""
-    print("=== Israeli Transit Operators ===\n")
+    """Display the main Israeli transit operators."""
+    print("=== Main Israeli Transit Operators (full list: https://bus.gov.il/operators) ===\n")
 
     for key, info in OPERATORS.items():
         print(f"  {info['name']} ({info['hebrew']})")
@@ -108,7 +108,7 @@ def check_stop(stop_code: str) -> None:
     except urllib.error.HTTPError as e:
         if e.code == 404:
             print(f"Stop {stop_code} not found.")
-            print("Stop codes are the Ministry of Transport codes on the stop sign, 1 to 6 digits.")
+            print("Stop codes are the Ministry of Transport codes on the stop sign, 1 to 5 digits.")
         else:
             print(f"HTTP error {e.code}: {e.reason}")
     except urllib.error.URLError as e:
@@ -145,28 +145,32 @@ def show_fares() -> None:
         print(f"  {r[0]:<20}{r[1]:>12}{r[2]:>14}{r[3]:>11}{r[4]:>13}{r[5]:>13}{r[6]:>15}")
     print("  (all amounts in NIS)")
     print()
-    print("Monthly passes: nationwide bus 315 NIS (excludes Israel Railways, Eilat, and rides over")
-    print("  225 km); combined-rail 323 / 464 / 684 NIS by rail range; regional 'Area 1' 139 NIS")
-    print("  (up to 40 km). The weekly pass was abolished; the daily pass remains.")
+    print("Monthly passes: nationwide bus 315 NIS (excludes Israel Railways and rides over 225 km,")
+    print("  including trips to Eilat over 225 km); combined-rail 323 / 464 / 684 NIS by rail range. The weekly pass was abolished;")
+    print("  the daily pass remains.")
+    print("'Area 1' pass 139 NIS: buses up to 40 km, only when BOTH origin and destination are inside")
+    print("  Area 1 (see the map at https://bus.gov.il/Annual-Pass). Eilat pass (up to 40 km) 117.79 NIS.")
+    print("Pending: the next fare update is set for January 25, 2027. A halt was reported on November")
+    print("  17, 2026, with no new table published yet. Re-check the source for trips from that date.")
     print("Transfers: unlimited and free for 90 minutes from first validation, on single rides up")
-    print("  to 15 km (yellow ring) only.")
+    print("  to 15 km (yellow ring) only. Exact fare: Maslulan, https://route.bus.gov.il")
     print()
 
     print("Discount and free-ride profiles (Transport Justice reform, second phase):")
     profiles = [
-        ("Children under 5", "Free", "-"),
-        ("Youth 5-18", "50%", "Age verification"),
+        ("Children under 5", "Free, one child per adult", "Accompanying adult"),
+        ("Youth 5-18 (or end of high school)", "50%; special-ed inst. to 21", "Age or study confirmation"),
         ("Young adults 18-26", "33% on monthly passes", "Age verification"),
         ("Students", "33% singles; semester/annual pass", "Study confirmation + student ID"),
-        ("Soldiers / security forces", "Free", "Service ID"),
-        ("National / civil service", "Free", "Service confirmation"),
+        ("Soldiers, police, prison svc", "Free", "Service ID or Zuzu app"),
+        ("National service, mechina", "Free to 225 km, limits Eilat", "Rav-Kav + confirmation"),
         ("Discharged soldiers", "Free for 1 year", "Apply within 2 months of discharge"),
-        ("Senior women 62-67", "50%", "ID"),
-        ("Age 67+ (zahav kav)", "Free", "ID, zahav-kav profile"),
+        ("Senior women 62-67", "50%, ends at 67", "ID"),
+        ("Age 67+ (zahav kav)", "Free", "Update profile with ID"),
         ("Geographic profile", "50% on monthly passes", "ID + proof of address"),
-        ("Riders with a disability", "50%", "Disability certificate"),
-        ("Bituach Leumi recipients", "50%", "Benefit confirmation"),
-        ("Blind / visually impaired", "Free", "Certificate"),
+        ("Riders with a disability", "50% singles + monthly", "Certificate or 50%+ org member"),
+        ("Bituach Leumi recipients", "50% singles + monthly, 1 yr", "Confirmation, last 6 months"),
+        ("Blind / visually impaired", "Free; companion 50%", "Certificate"),
     ]
     print(f"  {'Profile':<30} {'Entitlement':<36} {'Requirement'}")
     print("  " + "-" * 92)
@@ -175,7 +179,15 @@ def show_fares() -> None:
 
     print()
     print("No stacking: the single highest entitlement is applied automatically.")
-    print("Validation is mandatory on every boarding, including free rides and pass holders.")
+    print("Validation is mandatory on every boarding, including free rides and pass holders")
+    print("  (a free child under 5 does not validate; soldiers use the Zuzu app or military ID).")
+    print("Israel Railways: validate at BOTH entry and exit, or risk the maximum fare or a fine.")
+    print("Light rail by card: Dan at entry and exit gates, or platform machine; Jerusalem at")
+    print("  platform machine or on entering. By app: validate BEFORE boarding on both systems.")
+    print("Rakevelit, Carmelit: entry and exit gates.")
+    print("No cash on board, and a card cannot be loaded during the ride.")
+    print("Bank-card tap: selected bus lines only, single ride, no transfer, no profile discount.")
+    print("A single Israel Railways ride can be bought by credit card at the station entrance.")
     print()
     print("Rav-Kav types:")
     print("  - Personal (ishi): Linked to ID, supports discount profiles")
@@ -191,7 +203,8 @@ def show_shabbat_info() -> None:
 
     print("Regular Shabbat:")
     print("  - Most public transit STOPS Friday afternoon (~2-4 PM)")
-    print("  - Service RESUMES Saturday evening (~30 min after sunset)")
+    print("  - Service RESTARTS gradually on Saturday evening, often well after Shabbat ends")
+    print("    (check the actual first departure)")
     print()
     print("Shabbat alternatives:")
     print("  - Shared taxi (sherut/monit sherut) on popular routes")
@@ -201,9 +214,7 @@ def show_shabbat_info() -> None:
     print("Jewish holidays:")
     print("  - Rosh Hashana: No service (2 days)")
     print("  - Yom Kippur: NO transit nationwide (roads closed)")
-    print("  - Sukkot: Reduced service")
-    print("  - Pesach: Reduced service")
-    print("  - Other holidays: Check operator announcements")
+    print("  - Other holidays: Reduced or no service, check operator announcements")
     print()
     print("NOTE: Some municipalities have begun operating limited")
     print("Shabbat bus service on specific routes.")
@@ -218,7 +229,7 @@ def main():
     subparsers.add_parser("operators", help="List transit operators")
 
     stop_parser = subparsers.add_parser("stop", help="Check arrivals at stop")
-    stop_parser.add_argument("code", help="Ministry of Transport stop code (1-6 digits, as printed on the stop sign)")
+    stop_parser.add_argument("code", help="Ministry of Transport stop code (1-5 digits, as printed on the stop sign)")
 
     subparsers.add_parser("fares", help="Rav-Kav fare information")
     subparsers.add_parser("shabbat", help="Shabbat transit info")

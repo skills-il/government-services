@@ -1,20 +1,20 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-public-transit",
-  "generated_at": "2026-08-18T00:00:00Z",
+  "generated_at": "2026-11-23T06:00:00+02:00",
   "claims": [
     {
       "claim_id": "fare-urban-single-2025",
       "claim": "Urban single-ride fare is 8 NIS, raised from 6 NIS on April 25, 2025.",
-      "source_url": "https://en.globes.co.il/en/article-public-transport-fare-reform-wont-improve-public-transport-1001508298",
-      "raw_snippet": "Now, the fare for a single bus trip will also increase by NIS 2, and other travel will rise by similar percentages, so that a free monthly ticket for urban travel, for example, will cost NIS 315, up from NIS 236 today. By how much is the government subsidizing public transport? The government insists that it must increase fares to raise overall revenue from passengers top ease the government subsidy.",
-      "fetched_at": "2026-08-18",
+      "source_url": "https://www.maariv.co.il/economy/israel/article-1388586",
+      "raw_snippet": "שנכנסה לתוקף ב-25 באפריל 2025 [...] ההתייקרות המשמעותית האחרונה נכנסה לתוקף באפריל 2025, כאשר מחיר נסיעה בודדת באוטובוס לטווח של עד 15 קילומטרים עלה משישה לשמונה שקלים",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5"
       ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "official-payment-apps",
@@ -32,145 +32,121 @@
     },
     {
       "claim_id": "jerusalem-lr-green-line",
-      "claim": "Jerusalem Light Rail Green Line phase one (section L3, Turim on Jaffa Road to Malha, via the Central Bus Station and Yitzhak Navon, Givat Ram and Teddy Stadium) launches on Friday August 21 2026, ten years behind schedule, adding 12 new stations plus the existing Turim interchange with the Red Line. Section L2 to Gilo opens later in 2026.",
+      "claim": "Jerusalem Green Line first section L3 (Turim to Malha via Givat Ram and Teddy Stadium) was announced to start on Friday August 21, 2026, reported as begun",
       "source_url": "https://en.globes.co.il/en/article-jerusalem-light-rail-green-line-to-launch-friday-1001552733",
       "raw_snippet": "The Jerusalem light rail Green Line will commence operations on Friday, the Jerusalem light rail authority has announced. In the first phase, ten years behind schedule, the L3 section of the line between Turim Station on Jaffa Road to Malha will operate via the Jerusalem Central Bus and Yitzhak Navon Station, the Hebrew University Givat Ram campus and Teddy Stadium.",
-      "fetched_at": "2026-08-18",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR",
         "SKILL_HE.md#שלב 4"
       ],
       "verified_via": "curl, page text extracted and the passage copied verbatim",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "Published by Globes on August 18, 2026."
     },
     {
       "claim_id": "jerusalem-lr-blue-line",
-      "claim": "Jerusalem Light Rail Blue Line construction began September 2025, gradual opening 2029-2031.",
+      "claim": "Jerusalem Blue Line is under construction with opening planned around 2030",
       "source_url": "https://en.wikipedia.org/wiki/Blue_Line_(Jerusalem_Light_Rail)",
-      "raw_snippet": "Status Under Construction Locale Jerusalem Termini Ramot Alon Gilo Stations 53 Service Type Tram Depot Malha depot Daily ridership 250,000 (estimated) History Planned opening 2030 Technical Line length 31 km (19 mi) Number of tracks 2 Track gauge 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) standard gauge Electrification 750 V DC OHLE The Blue Line is the third line of the Jerusalem Light Rail . While initial preparatory infrastructure work began in 2020, major construction on the central sections began in 2025.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "Planned opening 2030 [...] Construction began in September 2025, with a plan to complete some time after 2029",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"250,000\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "ta-red-line-34-stations",
-      "claim": "Tel Aviv Light Rail Red Line operational since August 2023, 34 stations.",
+      "claim": "Tel Aviv Red Line has 34 stops",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv_Light_Rail",
-      "raw_snippet": "The Red Line became operational on August 18, 2023. In December 2006, the MTS group was awarded a Build-Operate-Transfer contract for the Red Line of the light rail, by which they are to build and operate the line for its first 32 years. MTS consisted of Africa Israel , Siemens (Germany), Egged , China Civil Engineering Construction (China), Soares da Costa (Portugal), and HTM (Netherlands).",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "It has 34 stops, 10 of which are underground",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "cited page fetched; 32 of 32 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"became\"",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "ta-red-line-ridership",
-      "claim": "Tel Aviv Red Line daily ridership is around 110-120k in 2026, below the original 238k forecast.",
+      "claim": "Tel Aviv Red Line ridership is disputed: about 110-120k a day per sources in Globes, September 2025, versus 200k on the NTA site",
       "source_url": "https://en.globes.co.il/en/article-tel-aviv-light-rail-still-underused-1001521323",
-      "raw_snippet": "daily average is still fluctuating around 110-120,000 passengers per day, far from the original forecasts of 238,000",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md#Step 4 Tel Aviv LR",
-        "SKILL_HE.md#שלב 4"
-      ]
-    },
-    {
-      "claim_id": "ta-purple-line-status",
-      "claim": "Tel Aviv Light Rail Purple Line is scheduled to open in 2028; the first of 98 CAF Urbos trams arrived at Haifa port on June 14, 2026.",
-      "source_url": "https://www.railwaygazette.com/light-rail/2026/06/18/tel-aviv-purple-line-light-rail-vehicles-deliveries-begin/",
-      "raw_snippet": "Project promoter NTA Metropolitan Mass Transit Systems said the delivery of the first LRVs marks the transition from the infrastructure and systems phase of the scheme to testing and preparations for the opening in 2028.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "the daily average is still fluctuating around 110-120,000 passengers per day, far from the original forecasts of 238,000. On the NTA website, the number has already been updated to 200,000.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "curl, page text extracted and the passage copied verbatim",
-      "verified_at": "2026-08-18",
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "ta-purple-line-status",
+      "claim": "Purple Line: from Savidor around the western center to Sheba, splitting to Bar Ilan and Yehud-Monoson; Railway Gazette gives 29 km",
+      "source_url": "https://www.railwaygazette.com/light-rail/2026/06/18/tel-aviv-purple-line-light-rail-vehicles-deliveries-begin/",
+      "raw_snippet": "The 29 km line will start at the Terminal 2000 complex next to Israel Railways’s Savidor station, and run on-street in a loop around the western side of the city centre. [...] It will then run east to the Sheba Medical Centre, where it will split into two branches. [...] The northern branch will serve Kiryat Ono and terminate at Bar Ilan University, while the southern branch will run through Tel Hashomer and Yehud-Monoson to Hataiasim.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md#Step 4 Tel Aviv LR",
+        "SKILL_HE.md#שלב 4"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23",
       "source_note": "Railway Gazette International, June 18 2026. The same article describes a 29 km line, where older sources say 27 km, so the skill declines to state a precise length."
     },
     {
       "claim_id": "ta-green-line-status",
-      "claim": "Tel Aviv Light Rail Green Line southern segment 2028, northern terminus Herzliya 2030; 39km / 62 stops. Egged won operator tender.",
+      "claim": "Tel Aviv Green Line: southern section Rishon LeZion to south Tel Aviv in 2028, northern section to Herzliya in 2030; 39 km and 62 stations",
       "source_url": "https://en.globes.co.il/en/article-egged-wins-tender-to-operate-ta-light-rail-purple-green-lines-1001504636",
-      "raw_snippet": "Egged wins tender to operate TA light rail Purple, Green Lines - Globes \" /> \" /> \" /> \" /> search G Front News Comment Features MARKET ECONOMY ENERGY HEALTHCARE TECH REAL ESTATE START UPS Zacks Investment Research AEROSPACE & DEFENSE CHEMICALS & PLASTICS FINANCIAL SERVICES MERGERS & ACQUISITIONS POLITICS TELECOMS, MEDIA & MARKETING TOURISM TRANSPORT & INFRASTRUCTURE Front > News Egged wins tender",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "the Green Line to open in two phases: the southern section from Rishon LeZion to south Tel Aviv in 2028, and the northern section from Tel Aviv to Herzliya in 2030. [...] When completed the Green Line will extend over 39 kilometers [...] The line will have 62 stations",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Tel Aviv LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "israel-railways-jan-2026-schedule",
-      "claim": "Israel Railways launched a new schedule on January 17, 2026 adding 40k+ daily seats and bi-level trains on Emek and Carmel lines.",
+      "claim": "New rail schedule from January 17, 2026 with bi-level trains on the Emek and Karmiel-Haifa lines",
       "source_url": "https://cars.walla.co.il/item/3807198",
-      "raw_snippet": "במוצאי שבת, 17 בינואר 2026, הושק לוח זמנים חדש; תוספת של מעל 40 אלף מקומות ישיבה ביום, רכבות דו-קומתיות בקו העמק ובקו הכרמל",
-      "fetched_at": "2026-05-20",
-      "appears_in": [
-        "SKILL.md#Step 4 Israel Railways",
-        "SKILL_HE.md#שלב 4"
-      ]
-    },
-    {
-      "claim_id": "eastern-railway-2026",
-      "claim": "Eastern Railway (Hadera-Lod, 65km, 4 new stations) partial opening 2026, full 2026-2027.",
-      "source_url": "https://grokipedia.com/page/eastern_railway_israel",
-      "raw_snippet": "Modern Route and Infrastructure The revived Eastern Railway, a national project since 2019, spans 65 kilometers from Lod to Hadera, doubling tracks over 50 kilometers, adding new segments, and constructing four passenger stations to relieve coastal congestion. The route follows the historical alignment inland parallel to Highway 6, with standard gauge (1,435 mm) tracks enabling speeds up to 160 km/h.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "רכבת ישראל משיקה לוח זמנים חדש ממוצאי שבת ה-17 בינואר [...] רכבות בקווים בית שאן-עתלית (קו העמק) וכרמיאל-חיפה יופעלו באמצעות רכבות דו-קומתיות [...] לוח הזמנים החדש כולל תוספת של יותר מ- 40 אלף מקומות ישיבה מידי יום [...] עם סיום עבודות החשמול בקטע המסילה שבין אופקים לבאר שבע, יוארכו שעות הפעילות",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Israel Railways",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "tlv-jerusalem-fast-line",
-      "claim": "The Tel Aviv to Jerusalem fast line runs via Jerusalem-Yitzhak Navon. Its documented design figure is a projected non-stop travel time of approximately 28 minutes; scheduled services calling at intermediate stations take longer, so the skill says about half an hour rather than asserting an exact figure no source states.",
+      "claim": "Background: design non-stop time from HaHagana to Yitzhak Navon. Current scheduled times are in gtfs-rail-times.",
       "source_url": "https://en.wikipedia.org/wiki/Tel_Aviv%E2%80%93Jerusalem_railway",
-      "raw_snippet": "ition used by the International Union of Railways : both its design speed of 200 km/h (125 mph) and its current operational speed of 160 km/h (99 mph) are below the 250 km/h (155 mph) threshold used by the UIC to define high-speed railways , and it is traversed by IR's regular rolling stock [ a ] instead of the UIC requirement for specially designed high-speed trains .",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "a projected non-stop travel time of approximately 28 minutes from Tel Aviv HaHagana railway station to Jerusalem–Yitzhak Navon",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Israel Railways",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "cited page fetched and confirmed to contain \"160\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "gtfs-portal-outages",
-      "claim": "The Ministry of Transport GTFS host serves a Hebrew error page for browsing paths including its root; only the canonical gtfsfiles/israel-public-transportation.zip path returns the static feed.",
-      "source_url": "https://gtfs.mot.gov.il/",
-      "raw_snippet": "שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.",
-      "fetched_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md#Gotchas",
-        "SKILL_HE.md#מלכודות נפוצות"
-      ],
-      "source_note": "Fetched 2026-08-10: HTTP 200, 145,379,558 bytes, PK zip header with agency.txt as first member. The host root returns \"שגיאה התוכן המבוקש אינו זמין, אנא צרו קשר עם מנהל המערכת.\"",
-      "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "jerusalem-lr-red-line-stops",
-      "claim": "The Jerusalem Light Rail Red Line is 22.5 kilometres long with 35 stops.",
+      "claim": "Jerusalem Red Line is 22.5 km with 35 stops, extended in February 2025 to Neve Yaakov and Hadassah Ein Kerem",
       "source_url": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
-      "raw_snippet": "[ 5 ] Dubbed the \"Red Line\", it initially has 23 stations on a new 1,435 mm ( 4 ft 8 + 1 ⁄ 2 in ) ( standard gauge ) twin-track 13.8 kilometres (8.6 mi) alignment. [ 3 ] It runs from the settlement of Pisgat Ze'ev in north-east Jerusalem , south along Road 1 (intercity) to Jaffa Road ( Rehov Yafo ).",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "The line is 22.5 kilometers (14.0 mi) long with 35 stops. The last extensions to the red line were opened in February 2025 to the Israeli settlement of Neve Yaakov and to Hadassah Ein Kerem Hospital",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 4 Jerusalem LR",
         "SKILL_HE.md#שלב 4"
       ],
-      "verified_via": "cited page fetched; 11 of 11 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"kilometres\"",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
     },
     {
       "claim_id": "pt-fare-table",
@@ -190,14 +166,14 @@
     },
     {
       "claim_id": "pt-discount-tiers",
-      "claim": "Discount tiers are 50%, 33% and free (0 ₪). The 50% tier covers youth 5-18, senior women 62-67, geographic-profile holders, and passengers with disabilities / National Insurance entitlement; the 33% tier covers young people 18-26; free covers children under 5 and adults from 67, soldiers and national service.",
+      "claim": "The authority publishes pass prices at 50%, 33% and free tiers",
       "source_url": "https://bus.gov.il/discounts",
-      "raw_snippet": "סוג המנוי\n\n\t\n\nמחיר מלא\n\n\t\n\n50% הנחה\n\n\t\n\n33% הנחה\n\n\t\n\nחינם (0 ₪)\n\n\n\n\nאזור 1 (עד 40 ק\"מ)\n\n\t\n\n139 ₪\n\n\t\n\n69.5 ₪\n\n\t\n\n92.66 ₪\n\n\t\n\n0 ₪\n\n\n\n\nחופשי ארצי (אוטובוס)\n\n\t\n\n315 ₪\n\n\t\n\n157.5 ₪\n\n\t\n\n210 ₪\n\n\t\n\n0 ₪",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "אזור 1 (עד 40 ק\"מ) [...] 139 ₪ [...] 69.5 ₪ [...] 92.66 ₪ [...] חופשי ארצי (אוטובוס) [...] 315 ₪ [...] 157.5 ₪ [...] 210 ₪",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "verified_via": "browser-playwright",
       "source_note": "bus.gov.il is client-rendered; read in Playwright on 2026-08-10 with location.href asserted.",
       "source_fetched_at": "2026-08-11T00:00:00Z",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5"
@@ -252,20 +228,14 @@
       "source_note": "HTML <title> of the fetched page."
     },
     {
-      "claim_id": "operator-superbus",
-      "claim": "https://www.superbus.co.il resolves to the site named in the snippet.",
-      "source_url": "https://www.superbus.co.il",
-      "raw_snippet": "סופרבוס - חברת התחבורה בעמקים ובירושלים",
-      "fetched_at": "2026-08-10",
-      "source_note": "The www host presents a certificate that does not match the name; the site itself answers at superbus.co.il, where this title was read."
-    },
-    {
       "claim_id": "operator-cfir",
-      "claim": "https://www.cfir.co.il resolves to the site named in the snippet.",
+      "claim": "cfir.co.il is the Jerusalem light rail site",
       "source_url": "https://www.cfir.co.il",
-      "raw_snippet": "כפיר- רכבת קלה ירושלים",
-      "fetched_at": "2026-08-10",
-      "source_note": "HTML <title> of the fetched page."
+      "raw_snippet": "כפיר - הרכבת הקלה בירושלים | לוחות זמנים, מפה ומסלולים",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "source_note": "HTML <title> of the fetched page.",
+      "verified_at": "2026-11-23",
+      "verified_via": "browser-playwright"
     },
     {
       "claim_id": "ravkav-online",
@@ -302,17 +272,17 @@
     },
     {
       "claim_id": "monthly-pass-products",
-      "claim": "Monthly passes: nationwide bus pass covers every mode except Israel Railways, up to 225 km per ride and excluding Eilat; combined-rail passes are priced by rail range; a regional \"Area 1\" pass covers travel up to 40 km.",
+      "claim": "National monthly pass covers all modes except Israel Railways up to 225 km per ride; trips to Eilat over 225 km are not included",
       "source_url": "https://bus.gov.il/Annual-Pass",
-      "raw_snippet": "מנוי חופשי חודשי ארצי מאפשר נסיעה חופשית למשך חודש מלא ממועד הפעלתו, בכל אמצעי התחבורה הציבורית, חוץ מרכבת ישראל. במסגרת המנוי, ניתן לבצע נסיעות ללא הגבלה באוטובוסים וברכבות קלות, עד למרחק של 225 ק\"מ לנסיעה בודדת. המנוי אינו כולל נסיעות ברכבת ישראל ונסיעות לאילת, העולות על 225 ק\"מ.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "בכל אמצעי התחבורה הציבורית, חוץ מרכבת ישראל [...] עד למרחק של 225 ק\"מ לנסיעה בודדת. המנוי אינו כולל נסיעות ברכבת ישראל ונסיעות לאילת, העולות על 225 ק\"מ.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5",
         "scripts/check_transit.py"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
     },
     {
@@ -380,45 +350,45 @@
       "claim_id": "profile-discharged-soldier",
       "claim": "Discharged soldiers and national-service graduates ride free for one year from discharge, must apply within two months of discharge, and the profile runs one year from application and at most one year and two months from discharge.",
       "source_url": "https://bus.gov.il/Discharged-Soldier",
-      "raw_snippet": "נסיעה חינם למשך שנה ממועד סיום השירות, בכל אמצעי התחבורה הציבורית: אוטובוסים, רכבות, רכבות קלות, מטרונית, מוניות שירות, רכבלית וכרמלית.\nיש להגיש את הבקשה בתוך חודשיים ממועד סיום השירות, כפי שמופיע בתעודת השחרור או באישור מטעם השירות הלאומי.\nשנה ממועד הגשת הבקשה, ועד שנה וחודשיים לכל המאוחר ממועד השחרור.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "נסיעה חינם למשך שנה ממועד סיום השירות, בכל אמצעי התחבורה הציבורית: אוטובוסים, רכבות, רכבות קלות, מטרונית, מוניות שירות, רכבלית וכרמלית. [...] יש להגיש את הבקשה בתוך חודשיים ממועד סיום השירות, כפי שמופיע בתעודת השחרור או באישור מטעם השירות הלאומי. [...] שנה ממועד הגשת הבקשה, ועד שנה וחודשיים לכל המאוחר ממועד השחרור.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5",
         "scripts/check_transit.py"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
     },
     {
       "claim_id": "profile-geographic",
       "claim": "The geographic profile gives 50% off all monthly passes to residents of socio-economic clusters 1-5 and peripheral local authorities excluding statistical areas in clusters 9-10, requires an ID plus a recent proof of address, and is valid two years.",
       "source_url": "https://bus.gov.il/Geographic-Area",
-      "raw_snippet": "50% הנחה על כל סוגי המנויים החודשיים בתחבורה הציבורית בכל רחבי הארץ.\nתושבים ותושבות המתגוררים באזורים בדירוג חברתי-כלכלי 1-5 (על פי הלמ\"ס).\nתושבים ותושבות ברשויות מקומיות המדורגות באשכול פריפריה חברתי-כלכלי, למעט אזורים סטטיסטיים באשכולות 9-10.\nשנתיים ממועד אישורו.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "50% הנחה על כל סוגי המנויים החודשיים בתחבורה הציבורית בכל רחבי הארץ. [...] תושבים ותושבות המתגוררים באזורים בדירוג חברתי-כלכלי 1-5 (על פי הלמ\"ס). [...] תושבים ותושבות ברשויות מקומיות המדורגות באשכול פריפריה חברתי-כלכלי, למעט אזורים סטטיסטיים באשכולות 9-10. [...] שנתיים ממועד אישורו. [...] צילום תעודת זהות (כולל ספח, עם כתובת מגורים מעודכנת ביישוב הזכאי).",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5",
         "scripts/check_transit.py"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
     },
     {
       "claim_id": "profile-student",
       "claim": "The student profile gives 33% off single rides; a semester or annual pass on a Rav-Kav card gives free travel within the pass range plus 50% off single rides outside it, and paying through the apps under a student profile gives the 33% single-ride discount only.",
       "source_url": "https://bus.gov.il/Student",
-      "raw_snippet": "33% הנחה על עלות נסיעה בודדת בערך צבור או ביישומוני התשלום.\n50% הנחה על נסיעות בודדות בערך צבור (עבור נסיעות שאינן כלולות במנוי).\nתשלום באמצעות היישומונים (Moovit, פנגו, הופאון רב-פס, Cello או Egg) תחת פרופיל סטודנט, מקנה 33% הנחה על נסיעות בודדות בלבד, ואינו מקנה הנחות או הטבות של מנוי חודשי.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "33% הנחה על עלות נסיעה בודדת בערך צבור או ביישומוני התשלום. [...] 50% הנחה על נסיעות בודדות בערך צבור (עבור נסיעות שאינן כלולות במנוי). [...] תשלום באמצעות היישומונים (Moovit, פנגו, הופאון רב-פס, Cello או Egg) תחת פרופיל סטודנט, מקנה 33% הנחה על נסיעות בודדות בלבד, ואינו מקנה הנחות או הטבות של מנוי חודשי.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5",
         "scripts/check_transit.py"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
     },
     {
@@ -437,24 +407,24 @@
     },
     {
       "claim_id": "profile-update-channels",
-      "claim": "Discount profiles are set through the payment apps, the Rav-Kav apps and websites, or at an \"Al HaKav\" service centre; a new Rav-Kav card cannot be issued at top-up points such as kiosks or vending machines.",
+      "claim": "Discount profiles are set through the payment apps or at an Al HaKav service centre; a new Rav-Kav card cannot be issued at top-up points",
       "source_url": "https://bus.gov.il/discounts",
-      "raw_snippet": "באמצעות יישומוני התשלום: Moovit, הופאון רב-פס, פנגו, Cello או egg.\nעמדות שירות פרונטליות: ניתן להגיע לאחד ממרכזי \"על הקו\" הפרוסים ברחבי הארץ לעדכון הפרופיל בכרטיס הרב-קו.\nשימו לב: לא ניתן להנפיק כרטיס רב-קו חדש בנקודות הטענה (כמו קיוסקים או מכונות אוטומטיות).",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "באמצעות יישומוני התשלום: Moovit, הופאון רב-פס, פנגו, Cello או egg. [...] עמדות שירות פרונטליות: ניתן להגיע לאחד ממרכזי \"על הקו\" הפרוסים ברחבי הארץ לעדכון הפרופיל בכרטיס הרב-קו. [...] שימו לב: לא ניתן להנפיק כרטיס רב-קו חדש בנקודות הטענה (כמו קיוסקים או מכונות אוטומטיות).",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 5",
         "SKILL_HE.md#שלב 5"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
     },
     {
       "claim_id": "curlbus-stop-code-format",
-      "claim": "curlbus stop codes are Ministry of Transport stop codes of 1 to 6 digits, not uniformly 5; unassigned codes return an \"Invalid stop code\" error and stop 40001 is Amphitheatre, Caesarea.",
-      "source_url": "https://curlbus.app/40001",
-      "raw_snippet": "{\"name\": {\"AR\": \"\\u0623\\u0645\\u0628\\u064a \\u062a\\u064a\\u0627\\u062a\\u0631\\u0648\\u0646\", \"EN\": \"Amphitheatre\", \"HE\": \"\\u05d0\\u05de\\u05e4\\u05d9\\u05ea\\u05d0\\u05d8\\u05e8\\u05d5\\u05df\"}, \"address\": {\"street\": \"\", \"city\": \"Caesarea\"",
-      "fetched_at": "2026-08-18",
+      "claim": "Stop codes are 1 to 5 digits: the Ministry feed of 2026-11-22 has lengths 1:8, 2:64, 3:704, 4:3713, 5:30897",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "stops.txt stop_code length counts: {1: 8, 2: 64, 3: 704, 4: 3713, 5: 30897}",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 3",
         "SKILL.md#Examples",
@@ -463,16 +433,16 @@
         "references/operators-and-gtfs.md",
         "scripts/check_transit.py"
       ],
-      "verified_via": "curl, live probe of codes 3, 21345, 26088, 40001 and 1234567",
-      "verified_at": "2026-08-18",
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23",
       "source_note": "Probed 2026-08-18: codes 3 and 40001 return stop data, codes 21345, 26088, 35473 and 1234567 return {\"errors\": [\"Invalid stop code ...\"]}, and an undefined sibling path returns HTTP 404 as a negative control."
     },
     {
       "claim_id": "gtfs-feed-file-url",
-      "claim": "The Ministry of Transport static GTFS feed is served at https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip and returns a real ZIP archive whose first member is agency.txt, even though the host root serves a Hebrew error page.",
+      "claim": "The Ministry of Transport static GTFS feed is served at the gtfsfiles path as a ZIP archive whose members include agency.txt",
       "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
-      "raw_snippet": "PK ... agency.txt",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "ZIP listing, file dated 11-22-2026: agency.txt, calendar.txt, fare_attributes.txt, fare_rules.txt, routes.txt, shapes.txt, stop_times.txt, stops.txt, translations.txt, trips.txt",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Reference Links",
         "SKILL.md#Gotchas",
@@ -480,23 +450,1039 @@
         "SKILL_HE.md#malkodot",
         "references/operators-and-gtfs.md"
       ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-18",
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23",
       "source_note": "Ranged GET on 2026-08-18 returned HTTP 200 with a PK zip local-file header and agency.txt as the first archive member. Binary payload, so the snippet records the header rather than page text."
     },
     {
       "claim_id": "night-lines",
       "claim": "The National Public Transport Authority publishes a national night-line list covering the north, centre, Jerusalem area, south and Sharon, including Jerusalem lines 102, 103, 106, 107 and 108, Haifa lines 200, 205 and 208, Tel Aviv lines 273, 296, 425 and 489, and Eilat lines 10 and 11.",
       "source_url": "https://bus.gov.il/nightlines",
-      "raw_snippet": "רשימת קווי לילה\nכל הקווים\nצפון\nמרכז\nירושלים והסביבה\nדרום\nהשרון\nאגד\n10\nבית אלמוג/המלאכה-אילת<->בית אלמוג/המלאכה-אילת-3#",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "רשימת קווי לילה [...] כל הקווים [...] צפון [...] מרכז [...] ירושלים והסביבה [...] דרום [...] השרון [...] 10 [...] 11 [...] 102 [...] 103 [...] 106 [...] 107 [...] 108 [...] 200 [...] 205 [...] 208 [...] 273 [...] 296 [...] 425 [...] 489",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
       "appears_in": [
         "SKILL.md#Step 6",
         "SKILL_HE.md#Step 6"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-18",
+      "verified_at": "2026-11-23",
       "source_note": "bus.gov.il is client-rendered; read in the Playwright browser with location.href asserted before reading the DOM."
+    },
+    {
+      "claim_id": "fare-update-scheduled-2027",
+      "claim": "The next fare update under the price-control order is set for January 25, 2027, and no final new fares were published",
+      "source_url": "https://www.maariv.co.il/economy/israel/article-1388586",
+      "raw_snippet": "לפי הוראת השעה בצו הפיקוח על מחירי הנסיעה, מועד העדכון הוא 25 בינואר 2027 [...] עם זאת, בשלב זה טרם פורסמו תעריפים סופיים חדשים",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "fare-update-halt-reported",
+      "claim": "On November 17, 2026 the press reported that the Transport Minister ordered the January 25, 2027 rise halted, with funding still being formed",
+      "source_url": "https://www.ice.co.il/consumerism/news/article/1137991",
+      "raw_snippet": "הדסה בלומרט | 17/11/2026 13:44 [...] עליית תעריפי התחבורה הציבורית, שאמורה הייתה להיכנס לתוקף ב-25 בינואר 2027 [...] שרת התחבורה מירי רגב הנחתה לעצור את ההתייקרות [...] על פי המתווה המתגבש, מימון המהלך יקוזז מעודפי התקציב של משרד התחבורה",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "eastern-railway-opened",
+      "claim": "Eastern Railway northern section opened with Hadera East, Shomron-Tayibe and Tira-Kochav Yair connecting to Rosh HaAyin North on June 28, 2026",
+      "source_url": "https://www.kipa.co.il/חדשות/1226558-0/",
+      "raw_snippet": "במסגרת השלב הראשון של ההפעלה, שיחל ביום ראשון, 28 ביוני 2026, ייפתחו לנוסעים תחנות חדרה מזרח, שומרון-טייבה וטירה-כוכב יאיר, אשר יחוברו לתחנת ראש העין צפון",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "eastern-railway-hours",
+      "claim": "At opening the Eastern Railway ran two trains an hour, Sunday to Thursday, 06:00-21:00",
+      "source_url": "https://cars.walla.co.il/item/3849650",
+      "raw_snippet": "רק שתי רכבות בשעה, ורק בימים ראשון עד חמישי, בין השעות 6:00 - 21:00",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "eastern-railway-south",
+      "claim": "The southern section to Lod with a Shoham station opens next year (2027)",
+      "source_url": "https://en.globes.co.il/en/article-israel-railways-opens-eastern-line-1001547298",
+      "raw_snippet": "The remaining 22 kilometers of tracks on the southern section of the eastern line will open next year linking the railway to Lod with a new station at Shoham.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "rail-jerusalem-line-hadera",
+      "claim": "From November 14, 2026 the Jerusalem-Tel Aviv-Herzliya line extends to Hadera West, Netanya and Beit Yehoshua, with frequency rising from 2 to 3 trains an hour",
+      "source_url": "https://cars.walla.co.il/item/3874685",
+      "raw_snippet": "ממוצאי שבת ה-14 לנובמבר יוארך קו ירושלים יצחק נבון-ת\"א-הרצליה עד לתחנות חדרה מערב, נתניה ובית יהושע - רכבות ישירות (ללא החלפה) מתחנות חדרה מערב, נתניה ובית יהושע לנתב\"ג וירושלים בכל שעות היממה, כפי שפעל עד כה הקו מהרצליה. בשבועות הקרובים תתוגבר תדירות הקו ברוב שעות היממה מ-2 ל-3 רכבות בשעה",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "jerusalem-green-line-size",
+      "claim": "At launch JPost described L3 as about 7 km with 13 stations. Current running pattern is in gtfs-green-line-3.",
+      "source_url": "https://www.jpost.com/israel-news/article-906040",
+      "raw_snippet": "The new line is approximately 7 kilometers, or 4.3 miles, long and includes 13 stations, 12 of them new. During peak hours, trains are expected to run every eight minutes.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-children",
+      "claim": "Free for one child up to age 4 inclusive per accompanying adult; additional children pay; a free child does not validate",
+      "source_url": "https://bus.gov.il/Children",
+      "raw_snippet": "אם מבוגר מלווה יותר מילד אחד (עד גיל 4 כולל), יש לשלם עבור כל ילד נוסף ולתקף את הנסיעה. מומלץ להנפיק עבורם רב-קו בפרופיל נוער (המקנה 50% הנחה). אין צורך לתקף נסיעה של ילד הזכאי לנסיעה חינם.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-youth",
+      "claim": "Youth 50% until 18 or end of high school, whichever later; special education until 21",
+      "source_url": "https://bus.gov.il/Teens",
+      "raw_snippet": "זכאות ל- 50% הנחה בתחבורה הציבורית [...] ילדים ונוער עד גיל 18 או עד לסיום הלימודים בתיכון, המאוחר מביניהם. [...] תלמידים במוסדות חינוך מיוחד - זכאים להטבה עד גיל 21.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-young-adults",
+      "claim": "Young adults 33% on monthly passes until the day before the 27th birthday",
+      "source_url": "https://bus.gov.il/Young-Adults",
+      "raw_snippet": "הנחה של 33% על כל סוגי המנויים החודשיים [...] הפרופיל תקף החל מיום ההולדת ה-18 ועד יום לפני יום ההולדת ה-27.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-student-validity",
+      "claim": "Student profile valid to October 14 or end of study confirmation, whichever is earlier",
+      "source_url": "https://bus.gov.il/Student",
+      "raw_snippet": "תוקף ההטבה הוא עד ליום סיום שנת הלימודים האקדמית (14 באוקטובר) או עד תום תוקף אישור הלימודים, המועד המוקדם מבין השניים.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-soldiers",
+      "claim": "Soldiers, police and prison service ride free; soldiers validate with the Zuzu app or military ID",
+      "source_url": "https://bus.gov.il/Soldiers",
+      "raw_snippet": "נסיעה ללא תשלום באמצעי התחבורה הציבורית [...] חיילות וחיילים בשירות סדיר או קבע [...] שוטרות ושוטרים במשטרת ישראל [...] עובדות ועובדי שירות בתי הסוהר [...] חיילים בשירות חובה וקבע נדרשים לתקף את נסיעתם בתחבורה הציבורית באמצעות היישומון הצבאי \"זוזו\" או הצגת תעודת חוגר.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-national-service",
+      "claim": "National service free up to 225 km excluding Eilat and Arava unless living or serving there, Rav-Kav card only",
+      "source_url": "https://bus.gov.il/National-Service",
+      "raw_snippet": "נסיעה חופשית בכל הארץ עד 225 ק\"מ (לא כולל אילת והערבה). נוסעים המתגוררים או משרתים באזורים אלו, או בעלי תעודה מתאימה, זכאים לנסיעה חופשית ללא הגבלת אזור לרבות אילת והערבה. [...] הנסיעה ללא תשלום מותנית בשימוש בכרטיס רב-קו בלבד",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-discharged-scope",
+      "claim": "Discharged profile covers honorable discharge from compulsory or career service of up to 5 years",
+      "source_url": "https://bus.gov.il/Discharged-Soldier",
+      "raw_snippet": "חיילים וחיילות משוחררים בכבוד משירות חובה או קבע (עד 5 שנים שירות בקבע).",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "profile-blind-companion",
+      "claim": "A companion of a blind rider gets 50% from stored value on the holder card, with the same origin and destination",
+      "source_url": "https://bus.gov.il/Blind",
+      "raw_snippet": "מלווה של עיוור או לקוי ראייה זכאי להנחה של 50% בנסיעה בתחבורה הציבורית, כאשר התשלום עבורו מתבצע באמצעות הערך הצבור בכרטיס הרב-קו של בעל הפרופיל. מימוש הזכאות מותנה בנוכחות העיוור ובכך שנקודות המוצא והיעד של המלווה ושל בעל הפרופיל זהות.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "area-1-conditions",
+      "claim": "Area 1 pass covers buses up to 40 km only when origin and destination are both in Area 1, and excludes Israel Railways",
+      "source_url": "https://bus.gov.il/Annual-Pass",
+      "raw_snippet": "של עד 40 ק\"מ בקווי אוטובוס בתוך \"אזור 1\" כדוגמת יישובי הדרום והצפון, בתנאי שנקודת המוצא ונקודת היעד של הנסיעה נמצאות שתיהן בתחום אזור זה. המנוי אינו כולל נסיעות ברכבת ישראל",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "monthly-pass-duration",
+      "claim": "A monthly pass runs one full month from activation",
+      "source_url": "https://bus.gov.il/Annual-Pass",
+      "raw_snippet": "באפשרותכם לרכוש מנוי חודשי וליהנות מחופש תנועה ומנסיעה ללא הגבלה למשך חודש מלא מיום הפעלת המנוי.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "day-pass-validity",
+      "claim": "Day pass lasts until end of service that day, 04:00 at the latest, including night lines in range",
+      "source_url": "https://bus.gov.il/Day-Pass",
+      "raw_snippet": "מרגע רכישתו והפעלתו ועד לסיום השירות באותו יום (לכל המאוחר עד השעה 04:00 לאחר חצות), ובכלל זה קווי לילה במידה והם פועלים בטווח המנוי.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "stored-value-discount",
+      "claim": "Stored-value load: 100 NIS is worth 200 at 50% and 150 at 33%",
+      "source_url": "https://bus.gov.il/SingleRide",
+      "raw_snippet": "מי שאינו זכאי להנחה אין 100 ₪ זכאי 50% ילדים ונוער, אזרחית ותיקה, אזרחים ותיקים, זכאי ביטוח לאומי, נכות, מלווה לעיוור 50% 200 ₪ סטודנט רגיל סטודנט הלומד במוסד מוכר 33% 150 ₪",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "student-period-passes",
+      "claim": "Student semester and annual pass prices for 2026-27, and the 117.79 NIS Eilat pass",
+      "source_url": "https://bus.gov.il/Student-Pass",
+      "raw_snippet": "15/10/26 עד 28/02/27 (כולל) 23/02/27 עד 31/07/27 (כולל) 15/10/26 עד 14/10/27 (כולל) חופשי ארצי אוטובוס 315 ₪ 779.50 ₪ 866.50 ₪ 1,890 ₪ חופשי ארצי משולב רכבת (40 ק\"מ) 323 ₪ 799.50 ₪ 888.50 ₪ 1,938 ₪ חופשי ארצי משולב רכבת (75 ק\"מ) 464 ₪ 1,148.50 ₪ 1,276 ₪ 2,784 ₪ חופשי ארצי ללא הגבלה, משולב רכבת 684 ₪ 1,693 ₪ 1,881 ₪ 4,104 ₪ מנוי \"אזור 1\" (40 ק\"מ) 139 ₪ 344 ₪ 382.50 ₪ 834 ₪ מנוי אילת (עד 40 ק\"מ) 117.79 ₪ 291.53 ₪ 323.92 ₪ 706.74 ₪",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/operators-and-gtfs.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-billing-and-cap",
+      "claim": "App rides that add up to a day-pass or monthly-pass price are charged at the pass price",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "במידה וסכום הנסיעות המצטבר מגיע לעלות של מנוי \"חופשי יומי\" או \"חופשי חודשי\", תחויבו במחיר המנוי בלבד",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-billing-date",
+      "claim": "App billing covers the 25th of the previous month to the 24th",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "ב-25 לכל חודש יתבצע חיוב על הנסיעות שבוצעו בפועל בין ה-25 לחודש הקודם ועד ה-24 לחודש הנוכחי.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-rail-barcode",
+      "claim": "On Israel Railways generate a barcode at entry and exit; missing the exit can mean the maximum fare",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "בנסיעה ברכבת ישראל: יש להפיק ברקוד באמצעות האפליקציה בתחנת הכניסה ובתחנת היציאה, גם אם השערים פתוחים. אין צורך לסרוק בעת החלפת רכבת או מעבר בין רציפים. אי הפקת ברקוד לסגירת היציאה בתחנת היעד עשוי להוביל לתמחור הנסיעה במחיר מירבי.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "bank-card-payment",
+      "claim": "Bank-card tap works on selected Dan, Superbus and Egged lines, single ride only, no transfer, no light rail, no profile discount",
+      "source_url": "https://bus.gov.il/pay-credit",
+      "raw_snippet": "בימים אלה אפשרות זו מופעלת בקווים נבחרים בלבד: בקווי דן וסופרבוס באזור גוש דן ובקווי אגד באשכול חיפה והקריות, ירושלים ואילת. חשוב לדעת: ניתן לשלם רק עבור נסיעה בודדת. אין אפשרות למעבר חופשי תוך 90 דקות. לא ניתן לשלב נסיעה זו עם נסיעה ברכבת הקלה. לא ניתן לקבל הנחות לפי פרופיל זכאות",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "operators-full-list",
+      "claim": "The authority lists about 40 operators and the *8787 information line",
+      "source_url": "https://bus.gov.il/operators",
+      "raw_snippet": "מערך התחבורה הציבורית בישראל מופעל על ידי כ-40 חברות תחבורה שונות [...] טלפון: מרכז השירות והמידע של התחבורה הציבורית *8787.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "references/operators-and-gtfs.md"
+      ],
+      "verified_via": "read directly (browser or feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "operator-superbus-site",
+      "claim": "Superbus site is superbus.co.il and describes service in the valleys and Jerusalem",
+      "source_url": "https://superbus.co.il",
+      "raw_snippet": "סופרבוס - חברת התחבורה בעמקים ובירושלים",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "references/operators-and-gtfs.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "read directly (browser or feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-line-480",
+      "claim": "Egged line 480 runs Tel Aviv Savidor to Jerusalem Central in the Ministry feed, and line 405 is absent from it",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "routes.txt: 480 | אגד | ת. מרכזית ירושלים קומה 3/רציפים-ירושלים<->ת. רכבת תל אביב - סבידור/הורדה-תל אביב יפו",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (browser or feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "jerusalem-green-gilo-scopus",
+      "claim": "The Green Line section to Gilo was announced for later in 2026 and the extension to Mount Scopus for 2027",
+      "source_url": "https://en.globes.co.il/en/article-jerusalem-light-rail-green-line-to-launch-friday-1001552733",
+      "raw_snippet": "The section of the Green Line to Gilo will open later this year and the extension to Mount Scopus will open next year.",
+      "fetched_at": "2026-11-23T03:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "rail-validate-entry-exit",
+      "claim": "On Israel Railways every rider validates at entry and exit even if the gate is open; incomplete validation can mean the maximum fare or a fine",
+      "source_url": "https://bus.gov.il/Railways",
+      "raw_snippet": "חובה לתקף בכניסה וביציאה מהתחנה, גם אם השער פתוח. [...] אי-תיקוף מלא יוביל לחיוב מרבי או קנס.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "rail-validate-card",
+      "claim": "Rav-Kav on Israel Railways is validated twice",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "ברכבת ישראל: יש לתקף את כרטיס הנסיעה פעמיים: בתחנת הכניסה ובתחנת היציאה.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "rail-credit-card-entrance",
+      "claim": "A single Israel Railways ride can be bought by credit card at the station entrance",
+      "source_url": "https://bus.gov.il/Railways",
+      "raw_snippet": "ניתן לרכוש נסיעה בודדת בכרטיס אשראי בכניסה לתחנה.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "no-cash-on-board",
+      "claim": "No cash payment or card loading during the ride",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "אין אפשרות לשלם במזומן או לטעון את הכרטיס בזמן הנסיעה.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "anonymous-card-limits",
+      "claim": "An anonymous Rav-Kav carries only a single ride, stored value or a day pass",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "רק נסיעה בודדת, ערך צבור או מנוי חופשי יומי",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "nfc-loading-apps",
+      "claim": "NFC loading is through Rav-Kav Online, HopOn Rav-Pass or egg",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "באמצעות הטלפון החכם בטלפונים בהם קיים רכיב NFC [...] * רב קו אונליין, הופאון רב-פס או egg.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "senior-profile-ends-67",
+      "claim": "The 62-67 profile ends at 67, then update to Zahav Kav",
+      "source_url": "https://bus.gov.il/Senior-Citizens",
+      "raw_snippet": "הפרופיל תקף עד גיל 67. לאחר מכן, מומלץ לעבור לפרופיל \"זהב קו 67+\" המעניק נסיעות חינם בתחבורה הציבורית.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gold-line-start-and-docs",
+      "claim": "Zahav Kav starts from the earlier birthday; a senior-citizen card cannot update the profile; service taxis are covered",
+      "source_url": "https://bus.gov.il/Gold-Line",
+      "raw_snippet": "תוקף הזכאות מתחיל מתאריך הלידה, העברי או הלועזי (המוקדם מביניהם). [...] אוטובוסים, רכבות, רכבות קלות, מטרונית, מוניות שירות, רכבלית וכרמלית. [...] לא ניתן להשתמש בכרטיס אזרח ותיק כדי לעדכן את הפרופיל.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "national-service-mechina",
+      "claim": "Pre-military academy and military boarding-school cadets are in the free national-service profile",
+      "source_url": "https://bus.gov.il/National-Service",
+      "raw_snippet": "שוחרות ושוחרים במכינות קדם-צבאיות ובבתי ספר צבאיים.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "national-service-channel",
+      "claim": "National and civil service volunteers update at Al HaKav only",
+      "source_url": "https://bus.gov.il/National-Service",
+      "raw_snippet": "מתנדבי שירות לאומי ואזרחי - באמצעות ת.ז. במרכזי על הקו בלבד.",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "soldiers-card-employer",
+      "claim": "Soldier, police and prison cards are issued by the employer, not Al HaKav",
+      "source_url": "https://bus.gov.il/Soldiers",
+      "raw_snippet": "הינה באחריות הגוף המעסיק בלבד (צה\"ל, משטרת ישראל, שירות בתי הסוהר). [...] עמדות \"על הקו\" אינן מוסמכות לספק שירות זה לאוכלוסיות הנ\"ל.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "disability-eligibility",
+      "claim": "Disability profile: certificate holders, or IDF Disabled and hostile-action organization members with 50% or more",
+      "source_url": "https://bus.gov.il/Disability",
+      "raw_snippet": "אנשים עם מוגבלות המחזיקים בתעודת נכה. [...] חברי ארגון נכי צה\"ל עם נכות רפואית של 50% ומעלה. חברי ארגון נפגעי פעולות איבה עם נכות רפואית של 50% ומעלה.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "btl-profile-limits",
+      "claim": "Bituach Leumi profile needs a confirmation from the last six months and lasts at most a year",
+      "source_url": "https://bus.gov.il/batal-Beneficiary",
+      "raw_snippet": "אישור עדכני מביטוח לאומי על קבלת קצבאות או השלמת הכנסה (מהחצי שנה האחרונה). [...] בהתאם לתוקף התעודה ולא יותר משנה.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "transfer-modes",
+      "claim": "The 90-minute transfer page lists buses, light rail, Metronit and Rakevelit",
+      "source_url": "https://bus.gov.il/SingleRide",
+      "raw_snippet": "בנסיעות בטווח של עד 15 ק\"מ באוטובוסים, ברכבת הקלה, במטרונית וברכבלית, ניתן לבצע נסיעות המשך ללא הגבלה",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "maslulan-fare-tool",
+      "claim": "The authority directs riders to Maslulan for the exact fare",
+      "source_url": "https://bus.gov.il/SingleRide",
+      "raw_snippet": "לחישוב עלות הנסיעה המדויקת, יש לבדוק במסלולן.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "fine-appeal",
+      "claim": "A rider can appeal an increased payment demand through the online form",
+      "source_url": "https://bus.gov.il/how-to-pay",
+      "raw_snippet": "אם קיבלתם דרישת תשלום מוגדלת (קנס על אי תיקוף בתחבורה הציבורית) ואתם סבורים שהוא ניתן שלא בצדק, באפשרותכם להגיש ערעור",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-billing-24",
+      "claim": "Another authority page gives the 24th as the billing day",
+      "source_url": "https://bus.gov.il/how-to-pay",
+      "raw_snippet": "חיוב חודשי ב-24 לחודש",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-billing-debit",
+      "claim": "Debit cards are charged daily",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "בכרטיסי אשראי מסוג דביט (דיירקט) החיוב מבוצע באופן יומי",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "accessibility-intercity",
+      "claim": "Intercity buses: 45 accessible lines, one wheelchair place, booking at least 24 hours ahead",
+      "source_url": "https://bus.gov.il/accessability",
+      "raw_snippet": "אוטובוסים בין-עירוניים | נגישות חלקית | חובת הזמנה מראש (24 שעות לפחות) - מקום אחד בלבד לנוסע עם כיסא גלגלים | 45 קווים מונגשים",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "accessibility-rail",
+      "claim": "Rail assistance recommended 7 hours ahead",
+      "source_url": "https://bus.gov.il/accessability",
+      "raw_snippet": "יש לתאם לקבלת סיוע (מומלץ 7 שעות לפני)",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "curlbus-stop-40001",
+      "claim": "curlbus stop 40001 resolves to Amphitheatre",
+      "source_url": "https://curlbus.app/40001",
+      "raw_snippet": "\"EN\": \"Amphitheatre\"",
+      "fetched_at": "2026-11-23T04:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "maslulan-url",
+      "claim": "Maslulan, the authority route planner, is at route.bus.gov.il",
+      "source_url": "https://route.bus.gov.il",
+      "raw_snippet": "תכנון מסלול | הרשות הארצית לתחבורה ציבורית",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gated-exit-dan",
+      "claim": "At gated Dan light rail stations, validate at entry and exit gates",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "ברכבת הקלה בגוש דן: יש לתקף את כרטיס הרב-קו בשערים המוצבים בכניסה וביציאה מהתחנה.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gated-exit-haifa",
+      "claim": "On the Rakevelit and Carmelit, validate at the entry and exit gate",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "ברכבלית ובכרמלית בחיפה: יש לתקף בשער הכניסה והיציאה.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "children-stroller",
+      "claim": "No extra charge for a stroller",
+      "source_url": "https://bus.gov.il/Children",
+      "raw_snippet": "אין תשלום נוסף על עגלת ילדים.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "youth-study-confirmation",
+      "claim": "Extending the youth profile to the end of school needs a current study confirmation",
+      "source_url": "https://bus.gov.il/Teens",
+      "raw_snippet": "אם יש צורך בהארכת הפרופיל עד לסיום הלימודים - יש לצרף אישור לימודים עדכני ממוסד הלימוד.",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-wheelchair-field",
+      "claim": "The feed carries wheelchair_accessible in trips.txt and has no accessibility column in stops.txt or routes.txt",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "trips.txt header: route_id,service_id,trip_id,trip_headsign,direction_id,shape_id,wheelchair_accessible | stops.txt header: stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,location_type,parent_station,zone_id | routes.txt header: route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-nateev-region",
+      "claim": "Nateev Express routes in the feed are concentrated in the north",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "routes.txt, agency 14 נתיב אקספרס: top origins צפת (105), נהריה (46), חיפה (33), עכו (28)",
+      "fetched_at": "2026-11-23T05:00:00+02:00",
+      "appears_in": [
+        "references/operators-and-gtfs.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-green-line-3",
+      "claim": "In the November 22, 2026 feed line 3 runs Malha to Damascus Gate, 18 stops, median 10-minute morning peak headway",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "routes/stop_times, Wednesday 2026-11-25, line 3, 18 stops: מנחת (מלחה) > האייל > קרית הספורט מלחה > גוננים > צומת פת > גבעת מרדכי > בצלאל בזק > פארק העברית > קריית האוניברסיטה ספרא > גבעת רם > קריית הממשלה > בנייני האומה > הטורים > מחנה יהודה > הדווידקה > יפו - מרכז > העירייה > שער שכם; median headway 07:00-09:00 = 10 min",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-line-4-gilo",
+      "claim": "The feed lists line 4 between Gilo West and Turim with one 07:00 trip each way",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "routes/trips/calendar: 4 | גילה - מערב-ירושלים<->הטורים-ירושלים | 1 trip each way, 07:00, service 20261123 to 20261223, Sunday to Thursday",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-rail-times",
+      "claim": "Scheduled Savidor to Navon 41-44 min, HaHagana to Navon 32-34 min, about 2 Navon to Savidor trains an hour",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "stop_times, Wednesday 2026-11-25: תל אביב מרכז > ירושלים/יצחק נבון n=37 min 41 median 44 max 44; תל אביב ההגנה > ירושלים/יצחק נבון n=37 min 32 median 34 max 34; נבון > תל אביב מרכז 2 per hour 08:00-20:59",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-480-red-line",
+      "claim": "Egged 480 Savidor to Jerusalem Central is 44 min scheduled; Red Line Central Station to City Hall is 9 min",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "stop_times, Wednesday 2026-11-25: 480 ת. רכבת תל אביב סבידור > ת. מרכזית ירושלים 44 min (n=39); line 1 התחנה המרכזית > העירייה 9 min",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-saturday-restart",
+      "claim": "On Saturday November 28, 2026 the first train after Shabbat departs at 19:04",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "stop_times, Saturday 2026-11-28: first Israel Railways departure after 12:00 is 19:04:00",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "light-rail-validate",
+      "claim": "Dan light rail: gates, or platform machine where there are no gates; Jerusalem: platform machine or on entering",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "ברכבת הקלה בגוש דן: יש לתקף את כרטיס הרב-קו בשערים המוצבים בכניסה וביציאה מהתחנה. בתחנות ללא שערים, התיקוף יתבצע בעמדות הייעודיות שעל הרציף לפני תחילת הנסיעה. [...] ברכבת הקלה בירושלים: יש לתקף את כרטיס הנסיעה במכשיר התיקוף שברציף או בתוך הרכבת, מיד עם הכניסה לרכבת",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "disability-scope",
+      "claim": "Disability discount covers stored value, single rides and monthly passes",
+      "source_url": "https://bus.gov.il/Disability",
+      "raw_snippet": "על טעינת ערך צבור, נסיעות בודדות, ומנויים חודשיים מכל הסוגים.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "btl-scope",
+      "claim": "Bituach Leumi discount covers stored value, single rides and monthly passes",
+      "source_url": "https://bus.gov.il/batal-Beneficiary",
+      "raw_snippet": "על טעינת ערך צבור, נסיעות בודדות, ומנויים חודשיים מכל הסוגים.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "accessibility-booking-cutoffs",
+      "claim": "Intercity accessible booking cut-offs: 16:00 the day before Sunday to Thursday, 12:30 Friday for Saturday night or Sunday",
+      "source_url": "https://bus.gov.il/accessability",
+      "raw_snippet": "בימים א'-ה' ניתן להזמין מקום עד השעה 16:00 ביום שלפני הנסיעה. [...] ביום ו' ניתן להזמין מקום עד השעה 12:30 עבור נסיעות במוצאי שבת או ביום ראשון.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "accessibility-urban",
+      "claim": "Urban buses are listed as 100% accessible",
+      "source_url": "https://bus.gov.il/accessability",
+      "raw_snippet": "אוטובוסים עירוניים | 100% מהצי נגיש | אין צורך בתיאום מראש",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "children-eilat-seat",
+      "claim": "On Eilat lines a child needing their own seat needs a pre-bought Youth ticket",
+      "source_url": "https://bus.gov.il/Children",
+      "raw_snippet": "בקווי אילת - אם רוצים להושיב ילד (או סלקל) במושב נפרד, יש לרכוש עבורו כרטיס נסיעה מראש, בפרופיל נוער (50% הנחה).",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "rail-pass-beyond-range",
+      "claim": "A train ride beyond the pass range is paid separately",
+      "source_url": "https://bus.gov.il/Annual-Pass",
+      "raw_snippet": "במידה ומעוניינים לבצע נסיעה ברכבת בטווח העולה על 40 ק\"מ, יש לשלם עבור הנסיעה בנפרד ובנוסף, מאחר ואינה כלולה במנוי.",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "operator-dankal",
+      "claim": "The authority names Dankal as the Gush Dan light rail operator and Cfir for Jerusalem",
+      "source_url": "https://bus.gov.il/Railways",
+      "raw_snippet": "הרכבות הקלות בירושלים (המופעלת על ידי כפיר) ובגוש דן (המופעלת על ידי דנקל)",
+      "fetched_at": "2026-11-23T06:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-light-rail-before-boarding",
+      "claim": "App riders on light rail select the current station and validate before the trip, and at the exit at gated stations",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "בנסיעה ברכבת קלה לבחור את התחנה הנוכחית ולתקף את הנסיעה, לפני תחילת הנסיעה. בתחנות עם שערים, יש לתקף גם ביציאה.",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "jerusalem-lr-card-or-app",
+      "claim": "Jerusalem light rail: card at the platform or on entering; app before boarding",
+      "source_url": "https://bus.gov.il/ravkav",
+      "raw_snippet": "ברכבת הקלה בירושלים: יש לתקף את כרטיס הנסיעה במכשיר התיקוף שברציף או בתוך הרכבת, מיד עם הכניסה לרכבת, או באמצעות היישומון הסלולרי - לפני העלייה לרכבת.",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "app-no-scan-train-change",
+      "claim": "In an app, no scan is needed when changing trains or moving between platforms",
+      "source_url": "https://bus.gov.il/mobile-payment",
+      "raw_snippet": "אין צורך לסרוק בעת החלפת רכבת או מעבר בין רציפים.",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "youth-special-ed-institutions",
+      "claim": "The age-21 extension is for pupils in special-education institutions",
+      "source_url": "https://bus.gov.il/Teens",
+      "raw_snippet": "תלמידים במוסדות חינוך מיוחד - זכאים להטבה עד גיל 21.",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "geographic-proof-conditions",
+      "claim": "Geographic profile proof of address has conditions",
+      "source_url": "https://bus.gov.il/Geographic-Area",
+      "raw_snippet": "מסמך נוסף אחד לאימות כתובת, שבו השם והכתובת זהים לאלו שבתעודת הזהות",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "ravkav-issue-al-hakav",
+      "claim": "A new Rav-Kav is issued on the spot at Al HaKav",
+      "source_url": "https://bus.gov.il/discounts",
+      "raw_snippet": "או להנפיק אותו במקום במרכזי \"על הקו\"",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "night-lines-days",
+      "claim": "Night lines run Thursday and Saturday nights in term, and daily except Friday night in school holidays",
+      "source_url": "https://bus.gov.il/nightlines",
+      "raw_snippet": "במהלך שנת הלימודים: הקווים פועלים בסופי שבוע (חמישי ומוצאי שבת). בחופשות התלמידים: הקווים פועלים במתכונת יומיומית (למעט ליל שישי).",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-11-23"
+    },
+    {
+      "claim_id": "gtfs-metropoline-region",
+      "claim": "Metropoline routes in the feed include Beer Sheva and Arad",
+      "source_url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+      "raw_snippet": "routes.txt, agency מטרופולין, route origins: תל אביב יפו 85, כפר סבא 66, באר שבע 64, רעננה 49, אלעד 42, ערד 34",
+      "fetched_at": "2026-11-23T08:00:00+02:00",
+      "appears_in": [
+        "references/operators-and-gtfs.md",
+        "scripts/check_transit.py"
+      ],
+      "verified_via": "read directly (feed file)",
+      "verified_at": "2026-11-23"
     }
   ]
 }
