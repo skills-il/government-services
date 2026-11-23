@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "category": "government-services",
   "tags": {
     "he": [
@@ -23,8 +23,8 @@
     "en": "Israeli Company Lookup"
   },
   "display_description": {
-    "he": "חיפוש מידע על חברות ברשם החברות ובדיקת עוסקים מורשים",
-    "en": "Look up Israeli company information and understand business entity types. Use when user asks about Israeli companies, \"chevra\", business registration, \"Rasham HaChevarot\", company numbers, entity types, or needs to register a business in Israel. Covers Ltd companies, partnerships, non-profits (amuta), cooperatives, and sole proprietors. Do NOT use for non-Israeli corporate registries or stock market analysis."
+    "he": "מידע מהמרשם, לא בדיקת נאותות. חיפוש חברות וישויות רשומות במרשמים הפתוחים, קריאת הרשומה (סטטוס, סימון הפרה ותת סטטוס) והבנת סוגי הישויות העסקיות בישראל. מתאים לקריאת הרשומה של ספק, קבלן, לווה או משקיע לפני תשלום או חתימה. לא למרשמים מחוץ לישראל ולא לניתוח מניות.",
+    "en": "Register information, not due diligence. Look up Israeli companies and other registered entities, read what a registrar record means, and understand business entity types. Use when a user wants to check a supplier, contractor, borrower or investor before paying or signing, gives a company number (ח.פ.) or pastes a registrar row, gets an empty registry result, is choosing between entity types, asks about \"chevra\", business registration, \"Rasham HaChevarot\", or needs to register a business in Israel. Covers Ltd companies, partnerships, non-profits (amuta), cooperatives, and sole proprietors. Prevents reading \"active\" alone as a clean result. Do NOT use for non-Israeli corporate registries or stock market analysis."
   },
   "supported_agents": [
     "claude-code",

@@ -21,6 +21,17 @@
         "Deferred to 1.4.0: full reading tables for status, sub-status and charge events, register routing by number prefix, and the partnership, amuta and cooperative open registers.",
         "Environment note: the data.gov.il datastore distinct option is unreliable for enumerating values, and a bad resource id currently returns an HTML 404 rather than the 403 the skill still describes."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-11-23",
+      "lessons": [
+        "Added full reading tables for status, breach flag, sub-status, register events and the partnership, amuta, certificate and cooperative registers, with unknown values shown raw.",
+        "The description now opens with a register-information clause and routes counterparty checks and entity-type questions. Holdout p6 was the known target of the wording fix, so its pass is not independent evidence.",
+        "The open changes file covers 12 months only, so an absent charge event never means no charge.",
+        "Deferred: a sourced norm for how stale a last-report year must be before it is significant.",
+        "Verifier note: semver_matches_tag reads false because a draft v1.1.0 release sorts first and the verifier does not filter drafts."
+      ]
     }
   ]
 }

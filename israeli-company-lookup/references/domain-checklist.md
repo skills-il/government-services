@@ -1,23 +1,25 @@
 # Domain coverage checklist: israeli-company-lookup
 
-Scope: looking up an Israeli registered entity, reading its registrar status, and choosing
-between Israeli business entity types.
+Scope: looking up an Israeli registered entity, reading its registrar status, and understanding
+Israeli business entity types.
 
 ## Must cover (core)
 
 | Item | Why it is core | Covered? |
 |---|---|---|
-| Companies Registrar (Rasham HaChevarot / ICA) public search entry point | The single canonical free lookup surface for Ltd companies (Companies Law 1999, s.36) | Yes, Step 2 |
+| Companies Registrar (Rasham HaChevarot / ICA) public search entry point | The single canonical free lookup surface for Ltd companies | Yes, Step 2 |
 | A programmatic lookup path that an agent can actually execute | The skill is named "lookup"; the ICA web UI cannot be driven by an agent. The Ministry of Justice publishes the full registrar dump as an open CKAN datastore on data.gov.il | Yes, Step 2b (added v1.3.0) |
-| Status, sub-status and breach flag reported verbatim as separate fields | "Active" alone is not a clean result | Yes, Step 2b |
+| All status values, breach flag, sub-status and recent events, with unknown values shown raw | "Active" alone is not a clean result | Yes, Step 2b |
+| Identity, bank-account and signing-authority check before paying | A real company number can be quoted by anyone | Yes, Step 2c |
+| Number prefix as a first guess at the register | Choosing the wrong register returns a false "not found" | Yes, Step 2b |
 | An individual dealer is not in the companies register | A miss on a dealer number proves nothing | Yes, Gotchas |
 | Amutot are in a separate register; a CHL"Tz is a company | Searching the wrong register returns a false "not found" | Yes, Gotchas + Troubleshooting |
 | Partnerships are in Rasham HaShutfuyot, not the companies registrar | Partnerships Ordinance registry is separate | Yes, Step 2 |
-| Entity-type description by liability and registration | The second half of user intent ("which entity should I open") | Yes, Step 3 |
-| Osek patur is not decided by turnover alone | Some occupations and services must register as osek morsheh | Yes, Step 3 |
+| Entity-type description by liability and registration | Users need to understand the differences; the skill does not pick one | Yes, Step 3 |
+| Osek patur is not decided by turnover alone | VAT Registration Regulations r.13 and VAT Regulations r.6א | Yes, Step 3 |
 | Registration fee, online vs paper, current year | Fees change annually and the online discount is material | Yes, 2,559 / 3,123 NIS (2026) |
-| Annual registrar fee, reduced vs full band | Non-payment is what produces the "mufrat hok" status the skill teaches users to read | Yes, references/entity-types.md |
-| Insolvency Commissioner replaced Apotropos Klali for post-2019 cases | Searching the wrong docket returns a false clean result | Yes, Gotchas |
+| Annual registrar fee, reduced vs full band | Unpaid fees are one ground for the separate `מפרה` marking | Yes, references/entity-types.md |
+| Insolvency Commissioner replaced the Official Receiver; the Administrator General is separate | Searching the wrong docket returns a false clean result | Yes, Gotchas |
 
 ## Should cover (advanced)
 

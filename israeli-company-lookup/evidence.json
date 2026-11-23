@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-company-lookup",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "audit_date": "2026-11-23",
   "claims": [
     {
@@ -324,6 +324,1077 @@
       "source_url": "https://data.gov.il/api/3/action/package_show?id=ica_companies",
       "raw_snippet": "סטטוס התאגיד, תת סטטוס התאגיד",
       "fetched_at": "2026-11-23T01:58:04.794Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-0",
+      "claim": "Companies register sub-status: the value \"פעילה\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%A4%D7%A2%D7%99%D7%9C%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"פעילה\"",
+      "fetched_at": "2026-11-23T03:10:20.427Z",
+      "verified_at": "2026-11-23T03:10:20.427Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-1",
+      "claim": "Companies register sub-status: the value \"בהליכי מחיקה\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%91%D7%94%D7%9C%D7%99%D7%9B%D7%99+%D7%9E%D7%97%D7%99%D7%A7%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"בהליכי מחיקה\"",
+      "fetched_at": "2026-11-23T03:10:22.369Z",
+      "verified_at": "2026-11-23T03:10:22.369Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-2",
+      "claim": "Companies register sub-status: the value \"בפרוק מרצון בהליך מזורז\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%91%D7%A4%D7%A8%D7%95%D7%A7+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F+%D7%91%D7%94%D7%9C%D7%99%D7%9A+%D7%9E%D7%96%D7%95%D7%A8%D7%96%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"בפרוק מרצון בהליך מזורז\"",
+      "fetched_at": "2026-11-23T03:10:24.081Z",
+      "verified_at": "2026-11-23T03:10:24.081Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-3",
+      "claim": "Companies register sub-status: the value \"תצהיר כושר פירעון\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%AA%D7%A6%D7%94%D7%99%D7%A8+%D7%9B%D7%95%D7%A9%D7%A8+%D7%A4%D7%99%D7%A8%D7%A2%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"תצהיר כושר פירעון\"",
+      "fetched_at": "2026-11-23T03:10:25.787Z",
+      "verified_at": "2026-11-23T03:10:25.787Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-4",
+      "claim": "Companies register sub-status: the value \"צו לפתיחת הליכים\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%A6%D7%95+%D7%9C%D7%A4%D7%AA%D7%99%D7%97%D7%AA+%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"צו לפתיחת הליכים\"",
+      "fetched_at": "2026-11-23T03:10:27.490Z",
+      "verified_at": "2026-11-23T03:10:27.490Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-5",
+      "claim": "Companies register sub-status: the value \"צו לפתיחת הליכים - תאגיד בשיקום\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%A6%D7%95+%D7%9C%D7%A4%D7%AA%D7%99%D7%97%D7%AA+%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D+-+%D7%AA%D7%90%D7%92%D7%99%D7%93+%D7%91%D7%A9%D7%99%D7%A7%D7%95%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"צו לפתיחת הליכים - תאגיד בשיקום\"",
+      "fetched_at": "2026-11-23T03:10:29.340Z",
+      "verified_at": "2026-11-23T03:10:29.340Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-6",
+      "claim": "Companies register sub-status: the value \"הוגשה בקשת מיזוג - מיועדת להתמזג\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%94%D7%95%D7%92%D7%A9%D7%94+%D7%91%D7%A7%D7%A9%D7%AA+%D7%9E%D7%99%D7%96%D7%95%D7%92+-+%D7%9E%D7%99%D7%95%D7%A2%D7%93%D7%AA+%D7%9C%D7%94%D7%AA%D7%9E%D7%96%D7%92%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"הוגשה בקשת מיזוג - מיועדת להתמזג\"",
+      "fetched_at": "2026-11-23T03:10:31.075Z",
+      "verified_at": "2026-11-23T03:10:31.075Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-7",
+      "claim": "Companies register sub-status: the value \"הוגשה בקשת מיזוג - מיועדת לקלוט\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%94%D7%95%D7%92%D7%A9%D7%94+%D7%91%D7%A7%D7%A9%D7%AA+%D7%9E%D7%99%D7%96%D7%95%D7%92+-+%D7%9E%D7%99%D7%95%D7%A2%D7%93%D7%AA+%D7%9C%D7%A7%D7%9C%D7%95%D7%98%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"הוגשה בקשת מיזוג - מיועדת לקלוט\"",
+      "fetched_at": "2026-11-23T03:10:32.843Z",
+      "verified_at": "2026-11-23T03:10:32.843Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-8",
+      "claim": "Companies register sub-status: the value \"בקשת נושים בהחייאה\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%91%D7%A7%D7%A9%D7%AA+%D7%A0%D7%95%D7%A9%D7%99%D7%9D+%D7%91%D7%94%D7%97%D7%99%D7%99%D7%90%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"בקשת נושים בהחייאה\"",
+      "fetched_at": "2026-11-23T03:10:34.547Z",
+      "verified_at": "2026-11-23T03:10:34.547Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-9",
+      "claim": "Companies register sub-status: the value \"בקשת חברה בהחייאה\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%91%D7%A7%D7%A9%D7%AA+%D7%97%D7%91%D7%A8%D7%94+%D7%91%D7%94%D7%97%D7%99%D7%99%D7%90%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"בקשת חברה בהחייאה\"",
+      "fetched_at": "2026-11-23T03:10:36.259Z",
+      "verified_at": "2026-11-23T03:10:36.259Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "substatus-10",
+      "claim": "Companies register sub-status: the value \"הוגשה בקשה להחייאה\" occurs in field \"תת סטטוס\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%AA%D7%AA+%D7%A1%D7%98%D7%98%D7%95%D7%A1%22%3A+%22%D7%94%D7%95%D7%92%D7%A9%D7%94+%D7%91%D7%A7%D7%A9%D7%94+%D7%9C%D7%94%D7%97%D7%99%D7%99%D7%90%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"תת סטטוס\": \"הוגשה בקשה להחייאה\"",
+      "fetched_at": "2026-11-23T03:10:37.979Z",
+      "verified_at": "2026-11-23T03:10:37.979Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "breach-0",
+      "claim": "Companies register breach marking: the value \"התראה\" occurs in field \"מפרה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%9E%D7%A4%D7%A8%D7%94%22%3A+%22%D7%94%D7%AA%D7%A8%D7%90%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"מפרה\": \"התראה\"",
+      "fetched_at": "2026-11-23T03:10:39.762Z",
+      "verified_at": "2026-11-23T03:10:39.762Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "breach-1",
+      "claim": "Companies register breach marking: the value \"מפרה\" occurs in field \"מפרה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=f004176c-b85f-4542-8901-7b3176f9a054&filters=%7B%22%D7%9E%D7%A4%D7%A8%D7%94%22%3A+%22%D7%9E%D7%A4%D7%A8%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"מפרה\": \"מפרה\"",
+      "fetched_at": "2026-11-23T03:10:41.463Z",
+      "verified_at": "2026-11-23T03:10:41.463Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-0",
+      "claim": "Registrar changes file event type: the value \"רישום שעבוד\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%A8%D7%99%D7%A9%D7%95%D7%9D+%D7%A9%D7%A2%D7%91%D7%95%D7%93%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"רישום שעבוד\"",
+      "fetched_at": "2026-11-23T03:10:43.072Z",
+      "verified_at": "2026-11-23T03:10:43.072Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-1",
+      "claim": "Registrar changes file event type: the value \"עדכון שעבוד\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%A2%D7%93%D7%9B%D7%95%D7%9F+%D7%A9%D7%A2%D7%91%D7%95%D7%93%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"עדכון שעבוד\"",
+      "fetched_at": "2026-11-23T03:10:44.730Z",
+      "verified_at": "2026-11-23T03:10:44.730Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-2",
+      "claim": "Registrar changes file event type: the value \"סילוק שעבוד\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%A1%D7%99%D7%9C%D7%95%D7%A7+%D7%A9%D7%A2%D7%91%D7%95%D7%93%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"סילוק שעבוד\"",
+      "fetched_at": "2026-11-23T03:10:46.333Z",
+      "verified_at": "2026-11-23T03:10:46.333Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-3",
+      "claim": "Registrar changes file event type: the value \"ביטול סילוק שעבוד\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%91%D7%99%D7%98%D7%95%D7%9C+%D7%A1%D7%99%D7%9C%D7%95%D7%A7+%D7%A9%D7%A2%D7%91%D7%95%D7%93%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"ביטול סילוק שעבוד\"",
+      "fetched_at": "2026-11-23T03:10:48.071Z",
+      "verified_at": "2026-11-23T03:10:48.071Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-4",
+      "claim": "Registrar changes file event type: the value \"משפטי כללי / תגובה לבית משפט- הערה לנסח\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%9E%D7%A9%D7%A4%D7%98%D7%99+%D7%9B%D7%9C%D7%9C%D7%99+%2F+%D7%AA%D7%92%D7%95%D7%91%D7%94+%D7%9C%D7%91%D7%99%D7%AA+%D7%9E%D7%A9%D7%A4%D7%98-+%D7%94%D7%A2%D7%A8%D7%94+%D7%9C%D7%A0%D7%A1%D7%97%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"משפטי כללי / תגובה לבית משפט- הערה לנסח\"",
+      "fetched_at": "2026-11-23T03:10:49.688Z",
+      "verified_at": "2026-11-23T03:10:49.688Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-5",
+      "claim": "Registrar changes file event type: the value \"צו לפתיחת הליכים\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%A6%D7%95+%D7%9C%D7%A4%D7%AA%D7%99%D7%97%D7%AA+%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"צו לפתיחת הליכים\"",
+      "fetched_at": "2026-11-23T03:10:51.353Z",
+      "verified_at": "2026-11-23T03:10:51.353Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-6",
+      "claim": "Registrar changes file event type: the value \"הוספה/עדכון הליך פשרה או הסדר\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%94%D7%95%D7%A1%D7%A4%D7%94%2F%D7%A2%D7%93%D7%9B%D7%95%D7%9F+%D7%94%D7%9C%D7%99%D7%9A+%D7%A4%D7%A9%D7%A8%D7%94+%D7%90%D7%95+%D7%94%D7%A1%D7%93%D7%A8%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"הוספה/עדכון הליך פשרה או הסדר\"",
+      "fetched_at": "2026-11-23T03:10:52.980Z",
+      "verified_at": "2026-11-23T03:10:52.980Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-7",
+      "claim": "Registrar changes file event type: the value \"הוספה/עדכון/הסרה של צו עיקול\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%94%D7%95%D7%A1%D7%A4%D7%94%2F%D7%A2%D7%93%D7%9B%D7%95%D7%9F%2F%D7%94%D7%A1%D7%A8%D7%94+%D7%A9%D7%9C+%D7%A6%D7%95+%D7%A2%D7%99%D7%A7%D7%95%D7%9C%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"הוספה/עדכון/הסרה של צו עיקול\"",
+      "fetched_at": "2026-11-23T03:10:55.074Z",
+      "verified_at": "2026-11-23T03:10:55.074Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-8",
+      "claim": "Registrar changes file event type: the value \"הוספה/עדכון צו להקפאת הליכים\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%94%D7%95%D7%A1%D7%A4%D7%94%2F%D7%A2%D7%93%D7%9B%D7%95%D7%9F+%D7%A6%D7%95+%D7%9C%D7%94%D7%A7%D7%A4%D7%90%D7%AA+%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"הוספה/עדכון צו להקפאת הליכים\"",
+      "fetched_at": "2026-11-23T03:10:56.701Z",
+      "verified_at": "2026-11-23T03:10:56.701Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-9",
+      "claim": "Registrar changes file event type: the value \"כינוס נכסים\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%9B%D7%99%D7%A0%D7%95%D7%A1+%D7%A0%D7%9B%D7%A1%D7%99%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"כינוס נכסים\"",
+      "fetched_at": "2026-11-23T03:10:58.440Z",
+      "verified_at": "2026-11-23T03:10:58.440Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-10",
+      "claim": "Registrar changes file event type: the value \"תאגיד בשיקום\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%AA%D7%90%D7%92%D7%99%D7%93+%D7%91%D7%A9%D7%99%D7%A7%D7%95%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"תאגיד בשיקום\"",
+      "fetched_at": "2026-11-23T03:11:00.063Z",
+      "verified_at": "2026-11-23T03:11:00.063Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-11",
+      "claim": "Registrar changes file event type: the value \"ביטול פירוק\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%91%D7%99%D7%98%D7%95%D7%9C+%D7%A4%D7%99%D7%A8%D7%95%D7%A7%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"ביטול פירוק\"",
+      "fetched_at": "2026-11-23T03:11:01.680Z",
+      "verified_at": "2026-11-23T03:11:01.680Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "event-12",
+      "claim": "Registrar changes file event type: the value \"ביטול תהליך הקפאת הליכים/כינוס נכסים/פירוק זמני\" occurs in field \"סוג בקשה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%D7%A1%D7%95%D7%92+%D7%91%D7%A7%D7%A9%D7%94%22%3A+%22%D7%91%D7%99%D7%98%D7%95%D7%9C+%D7%AA%D7%94%D7%9C%D7%99%D7%9A+%D7%94%D7%A7%D7%A4%D7%90%D7%AA+%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D%2F%D7%9B%D7%99%D7%A0%D7%95%D7%A1+%D7%A0%D7%9B%D7%A1%D7%99%D7%9D%2F%D7%A4%D7%99%D7%A8%D7%95%D7%A7+%D7%96%D7%9E%D7%A0%D7%99%22%7D&limit=1",
+      "raw_snippet": "\"סוג בקשה\": \"ביטול תהליך הקפאת הליכים/כינוס נכסים/פירוק זמני\"",
+      "fetched_at": "2026-11-23T03:11:03.311Z",
+      "verified_at": "2026-11-23T03:11:03.311Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-0",
+      "claim": "Partnerships register status: the value \"פעילה\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A4%D7%A2%D7%99%D7%9C%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"פעילה\"",
+      "fetched_at": "2026-11-23T03:11:04.881Z",
+      "verified_at": "2026-11-23T03:11:04.881Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-1",
+      "claim": "Partnerships register status: the value \"פעילה זמנית\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A4%D7%A2%D7%99%D7%9C%D7%94+%D7%96%D7%9E%D7%A0%D7%99%D7%AA%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"פעילה זמנית\"",
+      "fetched_at": "2026-11-23T03:11:06.576Z",
+      "verified_at": "2026-11-23T03:11:06.576Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-2",
+      "claim": "Partnerships register status: the value \"בפרוק מרצון\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%91%D7%A4%D7%A8%D7%95%D7%A7+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"בפרוק מרצון\"",
+      "fetched_at": "2026-11-23T03:11:08.134Z",
+      "verified_at": "2026-11-23T03:11:08.134Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-3",
+      "claim": "Partnerships register status: the value \"בפרוק ע~י בימ~ש\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%91%D7%A4%D7%A8%D7%95%D7%A7+%D7%A2~%D7%99+%D7%91%D7%99%D7%9E~%D7%A9%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"בפרוק ע~י בימ~ש\"",
+      "fetched_at": "2026-11-23T03:11:09.995Z",
+      "verified_at": "2026-11-23T03:11:09.995Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-4",
+      "claim": "Partnerships register status: the value \"מחוקה\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%9E%D7%97%D7%95%D7%A7%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"מחוקה\"",
+      "fetched_at": "2026-11-23T03:11:11.554Z",
+      "verified_at": "2026-11-23T03:11:11.554Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-5",
+      "claim": "Partnerships register status: the value \"שותפות מחוקה מרצון\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A9%D7%95%D7%AA%D7%A4%D7%95%D7%AA+%D7%9E%D7%97%D7%95%D7%A7%D7%94+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"שותפות מחוקה מרצון\"",
+      "fetched_at": "2026-11-23T03:11:13.116Z",
+      "verified_at": "2026-11-23T03:11:13.116Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-6",
+      "claim": "Partnerships register status: the value \"שותפות מחוקה על ידי בית משפט\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A9%D7%95%D7%AA%D7%A4%D7%95%D7%AA+%D7%9E%D7%97%D7%95%D7%A7%D7%94+%D7%A2%D7%9C+%D7%99%D7%93%D7%99+%D7%91%D7%99%D7%AA+%D7%9E%D7%A9%D7%A4%D7%98%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"שותפות מחוקה על ידי בית משפט\"",
+      "fetched_at": "2026-11-23T03:11:14.677Z",
+      "verified_at": "2026-11-23T03:11:14.677Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-7",
+      "claim": "Partnerships register status: the value \"פורקה מרצון\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A4%D7%95%D7%A8%D7%A7%D7%94+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"פורקה מרצון\"",
+      "fetched_at": "2026-11-23T03:11:16.236Z",
+      "verified_at": "2026-11-23T03:11:16.236Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-8",
+      "claim": "Partnerships register status: the value \"פורקה ע~י בימ~ש\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%A4%D7%95%D7%A8%D7%A7%D7%94+%D7%A2~%D7%99+%D7%91%D7%99%D7%9E~%D7%A9%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"פורקה ע~י בימ~ש\"",
+      "fetched_at": "2026-11-23T03:11:17.811Z",
+      "verified_at": "2026-11-23T03:11:17.811Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-9",
+      "claim": "Partnerships register status: the value \"מחוסלת מרצון\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%9E%D7%97%D7%95%D7%A1%D7%9C%D7%AA+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"מחוסלת מרצון\"",
+      "fetched_at": "2026-11-23T03:11:19.372Z",
+      "verified_at": "2026-11-23T03:11:19.372Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-10",
+      "claim": "Partnerships register status: the value \"מחוסלת עקב מיזוג\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%9E%D7%97%D7%95%D7%A1%D7%9C%D7%AA+%D7%A2%D7%A7%D7%91+%D7%9E%D7%99%D7%96%D7%95%D7%92%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"מחוסלת עקב מיזוג\"",
+      "fetched_at": "2026-11-23T03:11:20.929Z",
+      "verified_at": "2026-11-23T03:11:20.929Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "partnership-status-11",
+      "claim": "Partnerships register status: the value \"חיסול ע~י בימ~ש\" occurs in field \"סטטוס תאגיד\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=139aa193-fabb-4f6b-a71b-0bb40fd73eb2&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%AA%D7%90%D7%92%D7%99%D7%93%22%3A+%22%D7%97%D7%99%D7%A1%D7%95%D7%9C+%D7%A2~%D7%99+%D7%91%D7%99%D7%9E~%D7%A9%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס תאגיד\": \"חיסול ע~י בימ~ש\"",
+      "fetched_at": "2026-11-23T03:11:22.528Z",
+      "verified_at": "2026-11-23T03:11:22.528Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-0",
+      "claim": "Amutot register status: the value \"רשומה\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A8%D7%A9%D7%95%D7%9E%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"רשומה\"",
+      "fetched_at": "2026-11-23T03:11:24.116Z",
+      "verified_at": "2026-11-23T03:11:24.116Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-1",
+      "claim": "Amutot register status: the value \"פעילה\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A4%D7%A2%D7%99%D7%9C%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"פעילה\"",
+      "fetched_at": "2026-11-23T03:11:25.740Z",
+      "verified_at": "2026-11-23T03:11:25.740Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-2",
+      "claim": "Amutot register status: the value \"בתהליכי רישום\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%91%D7%AA%D7%94%D7%9C%D7%99%D7%9B%D7%99+%D7%A8%D7%99%D7%A9%D7%95%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"בתהליכי רישום\"",
+      "fetched_at": "2026-11-23T03:11:27.356Z",
+      "verified_at": "2026-11-23T03:11:27.356Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-3",
+      "claim": "Amutot register status: the value \"בהליכי פירוק מרצון\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%91%D7%94%D7%9C%D7%99%D7%9B%D7%99+%D7%A4%D7%99%D7%A8%D7%95%D7%A7+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"בהליכי פירוק מרצון\"",
+      "fetched_at": "2026-11-23T03:11:28.953Z",
+      "verified_at": "2026-11-23T03:11:28.953Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-4",
+      "claim": "Amutot register status: the value \"בפרוק מרצון\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%91%D7%A4%D7%A8%D7%95%D7%A7+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"בפרוק מרצון\"",
+      "fetched_at": "2026-11-23T03:11:30.578Z",
+      "verified_at": "2026-11-23T03:11:30.578Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-5",
+      "claim": "Amutot register status: the value \"בפרוק ע~י בימ~ש\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%91%D7%A4%D7%A8%D7%95%D7%A7+%D7%A2~%D7%99+%D7%91%D7%99%D7%9E~%D7%A9%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"בפרוק ע~י בימ~ש\"",
+      "fetched_at": "2026-11-23T03:11:32.200Z",
+      "verified_at": "2026-11-23T03:11:32.200Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-6",
+      "claim": "Amutot register status: the value \"ניתן צו פירוק על ידי בית משפט\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A0%D7%99%D7%AA%D7%9F+%D7%A6%D7%95+%D7%A4%D7%99%D7%A8%D7%95%D7%A7+%D7%A2%D7%9C+%D7%99%D7%93%D7%99+%D7%91%D7%99%D7%AA+%D7%9E%D7%A9%D7%A4%D7%98%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"ניתן צו פירוק על ידי בית משפט\"",
+      "fetched_at": "2026-11-23T03:11:33.794Z",
+      "verified_at": "2026-11-23T03:11:33.794Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-7",
+      "claim": "Amutot register status: the value \"הוגשה בקשת פירוק לבית משפט\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%94%D7%95%D7%92%D7%A9%D7%94+%D7%91%D7%A7%D7%A9%D7%AA+%D7%A4%D7%99%D7%A8%D7%95%D7%A7+%D7%9C%D7%91%D7%99%D7%AA+%D7%9E%D7%A9%D7%A4%D7%98%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"הוגשה בקשת פירוק לבית משפט\"",
+      "fetched_at": "2026-11-23T03:11:35.382Z",
+      "verified_at": "2026-11-23T03:11:35.382Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-8",
+      "claim": "Amutot register status: the value \"פירוק זמני\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A4%D7%99%D7%A8%D7%95%D7%A7+%D7%96%D7%9E%D7%A0%D7%99%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"פירוק זמני\"",
+      "fetched_at": "2026-11-23T03:11:36.977Z",
+      "verified_at": "2026-11-23T03:11:36.977Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-9",
+      "claim": "Amutot register status: the value \"כונס נכסים\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%9B%D7%95%D7%A0%D7%A1+%D7%A0%D7%9B%D7%A1%D7%99%D7%9D%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"כונס נכסים\"",
+      "fetched_at": "2026-11-23T03:11:38.598Z",
+      "verified_at": "2026-11-23T03:11:38.598Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-10",
+      "claim": "Amutot register status: the value \"החייאה\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%94%D7%97%D7%99%D7%99%D7%90%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"החייאה\"",
+      "fetched_at": "2026-11-23T03:11:40.194Z",
+      "verified_at": "2026-11-23T03:11:40.194Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-11",
+      "claim": "Amutot register status: the value \"נמחקה\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A0%D7%9E%D7%97%D7%A7%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"נמחקה\"",
+      "fetched_at": "2026-11-23T03:11:41.795Z",
+      "verified_at": "2026-11-23T03:11:41.795Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-12",
+      "claim": "Amutot register status: the value \"מחוקה\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%9E%D7%97%D7%95%D7%A7%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"מחוקה\"",
+      "fetched_at": "2026-11-23T03:11:43.413Z",
+      "verified_at": "2026-11-23T03:11:43.413Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-13",
+      "claim": "Amutot register status: the value \"פורקה מרצון\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%A4%D7%95%D7%A8%D7%A7%D7%94+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"פורקה מרצון\"",
+      "fetched_at": "2026-11-23T03:11:44.999Z",
+      "verified_at": "2026-11-23T03:11:44.999Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-14",
+      "claim": "Amutot register status: the value \"מחוסלת מרצון\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%9E%D7%97%D7%95%D7%A1%D7%9C%D7%AA+%D7%9E%D7%A8%D7%A6%D7%95%D7%9F%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"מחוסלת מרצון\"",
+      "fetched_at": "2026-11-23T03:11:46.618Z",
+      "verified_at": "2026-11-23T03:11:46.618Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-15",
+      "claim": "Amutot register status: the value \"חיסול עקב מיזוג\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%97%D7%99%D7%A1%D7%95%D7%9C+%D7%A2%D7%A7%D7%91+%D7%9E%D7%99%D7%96%D7%95%D7%92%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"חיסול עקב מיזוג\"",
+      "fetched_at": "2026-11-23T03:11:48.194Z",
+      "verified_at": "2026-11-23T03:11:48.194Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amuta-status-16",
+      "claim": "Amutot register status: the value \"מחוסלת עקב מיזוג\" occurs in field \"סטטוס עמותה\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=be5b7935-3922-45d4-9638-08871b17ec95&filters=%7B%22%D7%A1%D7%98%D7%98%D7%95%D7%A1+%D7%A2%D7%9E%D7%95%D7%AA%D7%94%22%3A+%22%D7%9E%D7%97%D7%95%D7%A1%D7%9C%D7%AA+%D7%A2%D7%A7%D7%91+%D7%9E%D7%99%D7%96%D7%95%D7%92%22%7D&limit=1",
+      "raw_snippet": "\"סטטוס עמותה\": \"מחוסלת עקב מיזוג\"",
+      "fetched_at": "2026-11-23T03:11:49.819Z",
+      "verified_at": "2026-11-23T03:11:49.819Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-0",
+      "claim": "Proper-management certificate value: the value \"נחתם אישור\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%A0%D7%97%D7%AA%D7%9D+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"נחתם אישור\"",
+      "fetched_at": "2026-11-23T03:11:51.450Z",
+      "verified_at": "2026-11-23T03:11:51.450Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-1",
+      "claim": "Proper-management certificate value: the value \"בטיפול\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%91%D7%98%D7%99%D7%A4%D7%95%D7%9C%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"בטיפול\"",
+      "fetched_at": "2026-11-23T03:11:53.086Z",
+      "verified_at": "2026-11-23T03:11:53.086Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-2",
+      "claim": "Proper-management certificate value: the value \"ממתין להשלמות\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%9E%D7%9E%D7%AA%D7%99%D7%9F+%D7%9C%D7%94%D7%A9%D7%9C%D7%9E%D7%95%D7%AA%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"ממתין להשלמות\"",
+      "fetched_at": "2026-11-23T03:11:54.724Z",
+      "verified_at": "2026-11-23T03:11:54.724Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-3",
+      "claim": "Proper-management certificate value: the value \"בבדיקה מקצועית\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%91%D7%91%D7%93%D7%99%D7%A7%D7%94+%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%AA%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"בבדיקה מקצועית\"",
+      "fetched_at": "2026-11-23T03:11:56.345Z",
+      "verified_at": "2026-11-23T03:11:56.345Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-4",
+      "claim": "Proper-management certificate value: the value \"אין אישור\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%90%D7%99%D7%9F+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"אין אישור\"",
+      "fetched_at": "2026-11-23T03:11:57.928Z",
+      "verified_at": "2026-11-23T03:11:57.928Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-5",
+      "claim": "Proper-management certificate value: the value \"מסורב\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%9E%D7%A1%D7%95%D7%A8%D7%91%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"מסורב\"",
+      "fetched_at": "2026-11-23T03:11:59.517Z",
+      "verified_at": "2026-11-23T03:11:59.517Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-6",
+      "claim": "Proper-management certificate value: the value \"מבוטל\" occurs in field \"האם יש אישור\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&filters=%7B%22%D7%94%D7%90%D7%9D+%D7%99%D7%A9+%D7%90%D7%99%D7%A9%D7%95%D7%A8%22%3A+%22%D7%9E%D7%91%D7%95%D7%98%D7%9C%22%7D&limit=1",
+      "raw_snippet": "\"האם יש אישור\": \"מבוטל\"",
+      "fetched_at": "2026-11-23T03:12:01.094Z",
+      "verified_at": "2026-11-23T03:12:01.094Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "coop-status-0",
+      "claim": "Cooperatives register status: the value \"פעילה\" occurs in field \"StatusDesc\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cad6bb66-5560-4cf4-a39c-92518f3f18ef&filters=%7B%22StatusDesc%22%3A+%22%D7%A4%D7%A2%D7%99%D7%9C%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"StatusDesc\": \"פעילה\"",
+      "fetched_at": "2026-11-23T03:12:02.671Z",
+      "verified_at": "2026-11-23T03:12:02.671Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "coop-status-1",
+      "claim": "Cooperatives register status: the value \"בפירוק\" occurs in field \"StatusDesc\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cad6bb66-5560-4cf4-a39c-92518f3f18ef&filters=%7B%22StatusDesc%22%3A+%22%D7%91%D7%A4%D7%99%D7%A8%D7%95%D7%A7%22%7D&limit=1",
+      "raw_snippet": "\"StatusDesc\": \"בפירוק\"",
+      "fetched_at": "2026-11-23T03:12:04.252Z",
+      "verified_at": "2026-11-23T03:12:04.252Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "coop-status-2",
+      "claim": "Cooperatives register status: the value \"סגורה\" occurs in field \"StatusDesc\".",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cad6bb66-5560-4cf4-a39c-92518f3f18ef&filters=%7B%22StatusDesc%22%3A+%22%D7%A1%D7%92%D7%95%D7%A8%D7%94%22%7D&limit=1",
+      "raw_snippet": "\"StatusDesc\": \"סגורה\"",
+      "fetched_at": "2026-11-23T03:12:05.802Z",
+      "verified_at": "2026-11-23T03:12:05.802Z",
+      "verified_via": "api",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-partnerships-resource",
+      "claim": "The partnerships register is open on data.gov.il under this resource id.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=ica_partnerships",
+      "raw_snippet": "139aa193-fabb-4f6b-a71b-0bb40fd73eb2",
+      "fetched_at": "2026-11-23T03:12:07.418Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-amutot-resource",
+      "claim": "The amutot register is open on data.gov.il under this resource id.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=moj-amutot",
+      "raw_snippet": "be5b7935-3922-45d4-9638-08871b17ec95",
+      "fetched_at": "2026-11-23T03:12:08.912Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-nihul-takin-resource",
+      "claim": "Proper-management certificates are open on data.gov.il under this resource id.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=moj-amutot",
+      "raw_snippet": "cb12ac14-7429-4268-bc03-460f48157858",
+      "fetched_at": "2026-11-23T03:12:08.912Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-cooperatives-resource",
+      "claim": "The cooperatives register is open on data.gov.il under this resource id.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=cooperative",
+      "raw_snippet": "cad6bb66-5560-4cf4-a39c-92518f3f18ef",
+      "fetched_at": "2026-11-23T03:12:10.392Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-changes-resource",
+      "claim": "Registrar change events are open on data.gov.il under this resource id.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=ica-changes",
+      "raw_snippet": "28780ab5-3ef1-44c7-8377-da82c0aa6781",
+      "fetched_at": "2026-11-23T03:12:11.899Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-changes-12-months",
+      "claim": "The changes file holds changes up to one year back (12 months) from the current date.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=ica-changes",
+      "raw_snippet": "יכיל כל שינוי שנעשה בתאגיד עד שנה אחורה מהתאריך הנוכחי",
+      "fetched_at": "2026-11-23T03:38:15.729Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-362a-warning",
+      "claim": "Companies Law s.362א (סעיף 362א): a warning is recorded, and after 30 days without a cure the company is registered as in breach.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "חלפו 30 ימים מיום רישום ההתראה ולא תיקנה החברה את ההפרה, תירשם במרשם כחברה מפרה",
+      "fetched_at": "2026-11-23T03:38:14.232Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-362a-grounds",
+      "claim": "Companies Law s.362א: grounds include a missed annual report by a private or foreign non-reporting company.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "חברה פרטית או חברת חוץ שאינן תאגיד מדווח הפרה חובה להגיש דין וחשבון שנתי",
+      "fetched_at": "2026-11-23T03:12:13.766Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-362a-charge",
+      "claim": "Companies Law s.362א (סעיף 362א): the registrar may refuse to register a charge on the assets of a company in breach.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "הרשם רשאי לסרב – (א) לרשום פעולה מהפעולות המפורטות בסעיף 40, לגבי החברה המפרה; הוראות פסקת משנה זו לא יחולו לעניין חברת חוץ; (ב) לרשום, בהתאם להוראות פקודת החברות [נוסח חדש], התשמ״ג–1983, שעבוד על נכסי החברה המפרה",
+      "fetched_at": "2026-11-23T03:38:14.232Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-141-annual-report",
+      "claim": "Companies Law s.141 (סעיף 141): a company that is not a reporting corporation files an annual report once a year.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "חברה שאינה תאגיד מדווח תערוך ותגיש לרשם, אחת לשנה, דין וחשבון שנתי",
+      "fetched_at": "2026-11-23T03:12:13.766Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-342ka-solvency",
+      "claim": "Companies Law s.342כה (סעיף 342כה): directors declare the company can pay its debts in full within 12 months of the start of liquidation.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "תצהיר כושר פירעון יינתן בידי כל הדירקטורים בחברה או רובם, ובו יצהירו כי בדקו היטב את מצב עסקי החברה ולדעתם החברה יכולה לשלם את חובותיה במלואם בתוך 12 חודשים מתחילת פירוקה",
+      "fetched_at": "2026-11-23T03:38:14.232Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-56-no-authority",
+      "claim": "Companies Law s.56 (סעיף 56): an act without authority has no effect toward the company unless ratified or the counterparty neither knew nor should have known.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "שנעשתה בלא הרשאה או בחריגה מן ההרשאה, אין לה תוקף כלפי החברה, אלא אם כן אישרה החברה את הפעולה בדרכים הקבועות בסעיף קטן (ב), או אם הצד שכלפיו נעשתה הפעולה לא ידע ולא היה עליו לדעת על החריגה או על העדר ההרשאה",
+      "fetched_at": "2026-11-23T03:38:14.232Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "statute-6-piercing",
+      "claim": "Companies Law s.6 (סעיף 6): a court may attribute company debt to a shareholder in exceptional cases.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%91%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "בית משפט רשאי לייחס חוב של חברה לבעל מניה בה, אם מצא כי בנסיבות הענין צודק ונכון לעשות כן, במקרים החריגים",
+      "fetched_at": "2026-11-23T03:26:43.139Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "vat-reg-13-6a-services",
+      "claim": "VAT Registration Regulations r.13 (תקנה 13) also covers people whose occupation is providing the services listed in VAT Regulations r.6א (תקנה 6א).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_(%D7%A8%D7%99%D7%A9%D7%95%D7%9D)",
+      "raw_snippet": "וכן עוסקים שעיסוקם מתן שירותים מהסוגים המפורטים בתקנה 6א לתקנות מס ערך מוסף, תשל״ו–1976, ולגבי אותם שירותים בלבד",
+      "fetched_at": "2026-11-23T03:26:44.847Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "vat-regs-6a-salaried",
+      "claim": "VAT Regulations r.6א: a separate rule applies to listed services from someone whose main income is salary, pension or allowance.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "raw_snippet": "ממי שעיקר הכנסתו ממשכורת, גימלה או קיצבה, יהיו חייבים בתשלום המס בשל השירות",
+      "fetched_at": "2026-11-23T03:26:46.709Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "register-changes-exclusions",
+      "claim": "The changes file omits some changes, including current-year fee payments and changes in externally sourced information shown on the extract.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=ica-changes",
+      "raw_snippet": "תשלום אגרה שנה נוכחית, מידע על מגבלות ופרטים אישיים של בעל תפקיד וכן שינויים במידע מגורמים חיצוניים שמוצגים בנסח בפרק 'מידע נוסף על חברה' – לא מופיעים בדוח השינויים",
+      "fetched_at": "2026-11-23T03:38:15.729Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nihul-year-field",
+      "claim": "The proper-management file has an approval-year field.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&limit=1",
+      "raw_snippet": "\"שנת האישור\":",
+      "fetched_at": "2026-11-23T03:26:49.768Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-11-23T03:26:49.768Z"
+    },
+    {
+      "claim_id": "nihul-update-date-field",
+      "claim": "The proper-management file has a last-update date field.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=cb12ac14-7429-4268-bc03-460f48157858&limit=1",
+      "raw_snippet": "\"תאריך עדכון אחרון של רשומה\":",
+      "fetched_at": "2026-11-23T03:26:49.768Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "api",
+      "verified_at": "2026-11-23T03:26:49.768Z"
+    },
+    {
+      "claim_id": "coop-limited-or-not",
+      "claim": "Cooperative Societies Ordinance: a society may be registered with or without limited liability.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%90%D7%92%D7%95%D7%93%D7%95%D7%AA_%D7%94%D7%A9%D7%99%D7%AA%D7%95%D7%A4%D7%99%D7%95%D7%AA",
+      "raw_snippet": "בין בערבון־מוגבל ובין שלא בערבון מוגבל",
+      "fetched_at": "2026-11-23T03:26:51.577Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ckan-events-paging",
+      "claim": "The registrar events API accepts limit and offset for reading a long result page by page; a test on one company read every row reported by total.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=28780ab5-3ef1-44c7-8377-da82c0aa6781&filters=%7B%22%5Cu05de%5Cu05e1%5Cu05e4%5Cu05e8+%5Cu05ea%5Cu05d0%5Cu05d2%5Cu05d9%5Cu05d3%22%3A+513647248%7D&limit=300&offset=300",
+      "raw_snippet": "\"offset\": 300",
+      "fetched_at": "2026-11-23T03:49:00.047Z",
+      "verified_at": "2026-11-23T03:49:00.047Z",
+      "verified_via": "api",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
